@@ -4,10 +4,6 @@
 This document will evolve to provide guidance to groups on how to address elements of their metadata policy and procedures to address indexing by GeoCODES.  To provide some context we can look at other activities and see their relationships.   
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image1.png "image_tooltip")
 
 
@@ -20,11 +16,6 @@ An element of this is the leveraging of the graph to provide connections to othe
 This work will be done in a way that can be applied to other groups (present and future) as well.  
 
 An example of the current approach for linking to the Resource Registry follows.  This is evolving at present as we explore how to connect this through to the user interface. 
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/ds2rr.svg "image_tooltip")
 
