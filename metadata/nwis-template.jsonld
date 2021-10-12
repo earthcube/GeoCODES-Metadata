@@ -1,0 +1,118 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "metadata-xxxxx",
+    "@type":"Dataset",
+    "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "",
+        "url": ""
+    },
+    "isAccessibleForFree": true,
+    "url": "",
+    "thumbnailUrl": "",
+    "name": "USGS  ",
+    "description": "",
+    "datePublished": "",
+    "license": "",
+    "keywords": [
+        ""
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "U.S. Geological Survey",
+        "url": "https://usgs.gov",
+         "identifier": {"@type": "PropertyValue",
+        "propertyID": "http://semanticscience.org/resource/SIO_000115",
+        "value": "https://ror.org/035a68863" }
+    },
+
+    "citation": "",
+    "temporalCoverage": "2012-08-01/..",
+    "spatialCoverage": {
+        "@type": "Place",
+        "name": "Unites States of America",
+        "geo": {
+            "@type": "GeoShape",
+            "box": "-68 -179 85 179"
+        }
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "",
+            "description": "",
+            "encodingFormat": "application/x-netcdf",
+            "url": ""
+        },
+
+        {
+            "@type": [
+                "DataDownload",
+                "WebSite"
+            ],
+            "name": "",
+            "description": "",
+            "url": "https://argovis.colorado.edu/ng/home"
+        },
+        {
+            "@type": [
+                "DataDownload",
+                "WebAPI"
+            ],
+            "name": "",
+            "serviceType": "",
+            "documentation": "",
+            "description": "",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "",
+                    "description": "download profiles within a bounding box for specified start/end dates",
+                    "httpMethod": ["GET"]
+                },
+                "query-input": [
+                    {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "",
+                        "description": "",
+                        "valueRequired": true
+                    },
+                    {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "start",
+                        "description": "string formatted as 'YYYY-MM-DD'",
+                        "valueRequired": true
+                    },
+                    {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "end",
+                        "description": "string formatted as 'YYYY-MM-DD'",
+                        "valueRequired": true
+                    },
+                    {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "",
+                        "description": "",
+                        "valueRequired": false,
+                        "defaultValue": ""
+                    }
+                ],
+                "result":{
+                    "@type":"Dataset",
+                    "encodingFormat":""
+                }
+            }
+        }
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "",
+            "unitText": ""
+        }
+    ]
+}
