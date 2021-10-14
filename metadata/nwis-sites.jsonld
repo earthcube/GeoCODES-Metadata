@@ -1,0 +1,116 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "metadata-nwis-sites",
+    "@type":"Dataset",
+    "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "http://semanticscience.org/resource/SIO_000115",
+        "url": "https://waterservices.usgs.gov/rest/Site-Service.html"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://waterservices.usgs.gov/rest/Site-Service.html",
+    "name": "USGS National Water Information System Site Data",
+    "description": "information from hydrologic observation sites with data served by the USGS, provides access to water-resources data collected at approximately 1.9 million sites in all 50 States, the District of Columbia, Puerto Rico, the Virgin Islands, Guam, American Samoa and the Commonwealth of the Northern Mariana Islands. Data are provided in the legacy RDB (tab-delimited) format, as well as in a Google Maps and Google Earth friendly formats. Provides access to sites with real-time or recent surface-water, groundwater,or water-quality data, as well as descriptive site information for all sites with links to all available water data for individual sites. Data for sites might include: 1. iv - Instantaneous values (time-series measurements typically recorded by automated equipment at frequent intervals (e.g., hourly); 2. uv - Unit values (alias for iv); 3. rt - Real-time data (alias for iv). Note: use of rv does not restrict time-series data to only those with real-time data; 4. dv - Daily values (once daily measurements or summarized information for a particular day, such as daily maximum, minimum and mean); 5. pk - Peak measurements of water levels and streamflow for surface water sites (such as during floods, may be either an automated or a manual measurement); 6. sv - Site visits (irregular manual surface water measurements, excluding peak measurements); 7. gw - Groundwater levels measured at irregular, discrete intervals. For recorded, time series groundwater levels, use iv or id.; 8. qw - Water-quality data from discrete sampling events and analyzed in the field or in a laboratory. For recorded time series water-quality data, use iv or id.; 9. id - Historical instantaneous values (sites in the USGS Instantaneous Data Archive External Link); 10. aw - Sites monitored by the USGS Active Groundwater Level Network External Link; 11. ad - Sites included in USGS Annual Water Data Reports External Link",
+    "datePublished": "",
+    "license": "",
+    "keywords": [
+        "hydrology","surface water", "groundwater","water quality"
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "U.S. Geological Survey",
+        "url": "https://usgs.gov",
+         "identifier": {"@type": "PropertyValue",
+        "propertyID": "http://semanticscience.org/resource/SIO_000115",
+        "value": "https://ror.org/035a68863" }
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "name": "Unites States of America, Puerto Rico and Pacific islands",
+        "geo": {
+            "@type": "GeoShape",
+            "box": "-68 -179 85 179"
+        }
+    },
+    "distribution": [
+        {
+            "@type": [
+                "DataDownload",
+                "WebSite"
+            ],
+            "name": "Current conditions",
+            "description": "Sites with real-time or recent surface-water, groundwater,or water-quality data.",
+            "url": "https://waterdata.usgs.gov/nwis/rt"
+        },
+         {
+            "@type": [
+                "DataDownload",
+                "WebSite"
+            ],
+            "name": "Site Inventory",
+            "description": "Site Inventory for the Nation; Choose at least one of the Site Selection criteria to constrain the number of sites selected",
+            "url": "https://waterdata.usgs.gov/nwis/inventory"
+        },
+
+        {
+            "@type": [
+                "DataDownload",
+                "WebSite"
+            ],
+            "name": "Map showing all site locations",
+            "description": "Map of all sites with links to all available water data for individual sites.",
+            "url": "https://maps.waterdata.usgs.gov/"
+        },
+        {
+            "@type": [
+                "DataDownload",
+                "WebSite"
+            ],
+            "name": "Site information",
+            "description": "Descriptive site information for all sites with links to all available water data for individual sites.",
+            "url": "https://waterdata.usgs.gov/nwis/si"
+        },
+        {
+            "@type": [
+                "DataDownload",
+                "WebAPI"
+            ],
+            "name": "USGS Single Site Web Service",
+            "serviceType": "USGS Site Web Service",
+            "documentation": "information about hydrologic observation site with data served by the USGS. This service provides USGS water data in the legacy RDB (tab-delimited) format",
+            "description": "",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "http://waterservices.usgs.gov/nwis/site/?site={site}",
+                    "description": "Endpoint for searching for data from a single NWIS sites. See https://waterservices.usgs.gov/rest/Site-Service.html for complete information about all available parameters and response formats.",
+                    "httpMethod": ["GET"]
+                },
+                "query-input": [
+                    {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "site",
+                        "description": "Each site in the USGS data base has a unique 8- to 15-digit identification number. Site numbers are assigned based on this logic (https://help.waterdata.usgs.gov/faq/sites/do-station-numbers-have-any-particular-meaning). You can search using an exact match or match using a partial site number. To use an exact match you must include all of the digits including any leading zeros (0) that make up the complete site number. A site will not be found if the site number has a leading zero and it is not included in the string tested using an exact match.",
+                        "valueRequired": true
+                    }
+                ],
+                "result":{
+                    "@type":"Dataset",
+                    "description":"USGS RDB (tab-delimited) format consists of a number of header comments that include column description information, followed by the relevant data. Fields are separated by tab characters; records are separated with new line characters. see https://suave2.sdsc.edu/main/file=zaslavsk_EC_Resource_Registry.csv", 
+                    "encodingFormat":"USGS NWIS rdb text file format"
+
+                }
+            }
+        }
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "",
+            "unitText": ""
+        }
+    ]
+}
