@@ -44,6 +44,6 @@ jobs:
     - name: push to gh pages
       uses: JamesIves/github-pages-deploy-action@4.1.6
       with:
-        folder: metadata
-        target-folder: metadata
+        branch: gh-pages
+        folder: .
 
