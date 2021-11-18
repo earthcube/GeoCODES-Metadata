@@ -44,7 +44,6 @@ jobs:
     - name: push to gh pages
       uses: JamesIves/github-pages-deploy-action@4.1.6
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./metadata
+        folder: metadata
         target-folder: metadata
 
