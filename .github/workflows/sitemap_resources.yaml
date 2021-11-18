@@ -22,6 +22,7 @@ jobs:
         base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/
         path-to-root: metadata/Dataset
         include-pdf: false
+        additional-extensions: json jsonld
     - name: Output stats
       run: |
         echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
