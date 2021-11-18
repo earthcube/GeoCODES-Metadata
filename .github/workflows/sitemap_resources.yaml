@@ -28,6 +28,19 @@ jobs:
         echo "sitemap-path = ${{ steps.sitemapdataset.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemapdataset.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemapdataset.outputs.excluded-count }}"
+    - name: Generate the development sitemap
+      id: sitemapdevelopment
+      uses: cicirello/generate-sitemap@v1
+      with:
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/development/
+        path-to-root: metadata/development
+        include-pdf: false
+        additional-extensions: json jsonld
+    - name: Output development stats
+      run: |
+        echo "sitemap-path = ${{ steps.sitemapdevelopment.outputs.sitemap-path }}"
+        echo "url-count = ${{ steps.sitemapdevelopment.outputs.url-count }}"
+        echo "excluded-count = ${{ steps.sitemapdevelopment.outputs.excluded-count }}"- name: Deploy
     - name: Generate the otherResources sitemap
       id: sitemapotherResources
       uses: cicirello/generate-sitemap@v1
@@ -40,7 +53,6 @@ jobs:
       run: |
         echo "sitemap-path = ${{ steps.sitemapotherResources.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemapotherResources.outputs.url-count }}"
-        echo "excluded-count = ${{ steps.sitemapotherResources.outputs.excluded-count }}"- name: Deploy
     - name: push to gh pages
       uses: JamesIves/github-pages-deploy-action@4.1.6
       with:
