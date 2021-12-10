@@ -1,0 +1,61 @@
+name: Generate xml sitemap
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  sitemap_job:
+    runs-on: ubuntu-latest
+    name: Generate a sitemap
+
+    steps:
+    - name: Checkout the repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Generate the dataset sitemap
+      id: sitemapdataset
+      uses: cicirello/generate-sitemap@v1
+      with:
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/
+        path-to-root: metadata/Dataset
+        include-pdf: false
+        additional-extensions: json jsonld
+    - name: Output dataset stats
+      run: |
+        echo "sitemap-path = ${{ steps.sitemapdataset.outputs.sitemap-path }}"
+        echo "url-count = ${{ steps.sitemapdataset.outputs.url-count }}"
+        echo "excluded-count = ${{ steps.sitemapdataset.outputs.excluded-count }}"
+    - name: Generate the development sitemap
+      id: sitemapdevelopment
+      uses: cicirello/generate-sitemap@v1
+      with:
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/development/
+        path-to-root: metadata/development
+        include-pdf: false
+        additional-extensions: json jsonld
+    - name: Output development stats
+      run: |
+        echo "sitemap-path = ${{ steps.sitemapdevelopment.outputs.sitemap-path }}"
+        echo "url-count = ${{ steps.sitemapdevelopment.outputs.url-count }}"
+        echo "excluded-count = ${{ steps.sitemapdevelopment.outputs.excluded-count }}"- name: Deploy
+    - name: Generate the otherResources sitemap
+      id: sitemapotherResources
+      uses: cicirello/generate-sitemap@v1
+      with:
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/otherResources/
+        path-to-root: metadata/OtherResources
+        include-pdf: false
+        additional-extensions: json jsonld
+    - name: Output otherResources stats
+      run: |
+        echo "sitemap-path = ${{ steps.sitemapotherResources.outputs.sitemap-path }}"
+        echo "url-count = ${{ steps.sitemapotherResources.outputs.url-count }}"
+    - name: push to gh pages
+      uses: JamesIves/github-pages-deploy-action@4.1.6
+      with:
+        branch: gh-pages
+        folder: .
+
