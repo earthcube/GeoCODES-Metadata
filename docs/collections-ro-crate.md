@@ -4,6 +4,8 @@
 A collection is intended to be a way to pass information to services
 
 We are proposing to use [Research Object Crates](https://www.researchobject.org/ro-crate/1.1/data-entities.html#web-based-data-entities)
+Others:
+https://treecg.github.io/specification/#xyztiles
 
 ## Thought model:
 * collection
