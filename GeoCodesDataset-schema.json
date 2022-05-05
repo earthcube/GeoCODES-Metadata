@@ -51,7 +51,7 @@
             "description": "A short summary describing a dataset. This text will be indexed by search applications, so the more information here, the better."
         },
         "identifier": {
-            "description": "The primary identifier for the dataset; other identifiers should be listed in the sameAs field. Schema.org has three ways of encoding identifiers-- a text description, a URL, or by using the schema:PropertyValue field. The Science on Schema.org guidance strongly recommends using the PropertyValue approach. see https://github.com/ESIPFed/science-on-schema.org   .... Dataset.md#identifier.  Ideally, for any given data provided they would provide identifiers either all as strings or all as identifier_type.",
+            "description": "The primary identifier for the dataset; other identifiers should be listed in the sameAs field. Schema.org has three ways of encoding identifiers-- a text description, a URL, or by using the schema:PropertyValue field. The Science on Schema.org guidance strongly recommends using the PropertyValue approach. see https://github.com/ESIPFed/science-on-schema.org   .... Dataset.md#identifier.  Ideally, for any given data provided they would provide identifiers either all as strings or all as identifier_type.  Dataset identifiers must be a URL, Text or PropertyValue&quot;",
             "oneOf": [
                 {"$ref": "#/definitions/identifier_type"},
                 {"type": "string"},
@@ -68,8 +68,8 @@
             ]
         },
         "version": {
-            "type": "string",
-            "description": "The version number or identifier for this dataset (text or numeric)"
+            "type": ["string","number"],
+            "description": "The version number or identifier for this dataset (text or numeric). The values should sort from oldest to newest using an alphanumeric sort on version strings"
         },
         "alternateName": {
             "type": "string",
@@ -395,7 +395,7 @@
             ]
         },
         "distribution": {
-            "description": "specifies how to download the data in a specific format. This property describes where to get the data and in what format by using the schema:DataDownload type. If your dataset is not accessible through a direct download URL, but rather through a service URL, use potentialAction.",
+            "description": "specifies how to download the data in a specific format. This property describes where to get the data and in what format by using the schema:DataDownload type. If your dataset is not accessible through a direct download URL, but rather through a service URL, use potentialAction. If user must access data through a landing page, provide link to landing page in the 'url' property for the dataset",
             "oneOf": [
                 {
                     "type": "array",
@@ -451,8 +451,12 @@
         "citation": {"type": "string"}
     },
     "required": [
+    "@id",
+    "@type",
+    "@context",
         "name",
-        "description"
+        "description",
+        "url"
     ],
     "definitions": {
         "action_type": {
