@@ -3,7 +3,7 @@
 
     "type": "object",
     "title": "Dataset metadata schema",
-    "description": "JSON schema for JSON-LD documents that describe science datasets, based on Google guide for publishers (https://developers.google.com/search/docs/data-types/dataset), and the Earth Science Information Partners (ESIP) Science on Schema.org recommendations v1.3 prerelease (see https://doi.org/10.5281/zenodo.2628755 dataset.md for current recommendations document). The Google guide asserts only two required fields - name and description. The Google guide suggests the following recommended fields: url, sameAs, version, isAccessibleForFree, keywords, identifeir and variableMeasured. Created by Stephen Richard 2022-05-04; tested with validation of schema.org metadata from GeoCODES for magic, opentopo, earthchem, bco-dmo and hydroshare. This schema handles as many vagaries as possible found in actual metadata downloaded from GeoCodes. See GeoCodesDataset-schema-ecrr.json that removes some of the complexity work better with the JSONforms tools used to build the editor UI",
+    "description": "JSON schema for JSON-LD documents that describe science datasets, based on Google guide for publishers (https://developers.google.com/search/docs/data-types/dataset), and the Earth Science Information Partners (ESIP) Science on Schema.org recommendations v1.3 prerelease (see https://doi.org/10.5281/zenodo.2628755 dataset.md for current recommendations document). The Google guide asserts only two required fields - name and description. The Google guide suggests the following recommended fields: url, sameAs, version, isAccessibleForFree, keywords, identifeir and variableMeasured. Created by Stephen Richard 2022-05-04; tested with validation of schema.org metadata from GeoCODES for magic, opentopo, earthchem, bco-dmo and hydroshare. 2022-07-01 SMR. Simplify schema to align with ECRR schema for other resources. Base properties are aligned, others will be extensions.",
     "properties": {
         "@context": {
             "title": "JSON-LD context",
@@ -17,21 +17,14 @@
         },
         "@type": {
             "description": "a schema.org Class that specifies the expected information content for the metadata record. For Datasets, expected value is 'Dataset'. The type classes for a given resource description are selected based on the schema.org properties used to describe the resource.",
-            "oneOf": [
-                {
-                    "type": "string",
-                    "default": "Dataset"
-                },
-                {
+            
                     "type": "array",
                     "items": {
                         "type": "string",
                         "minItems": 1,
                         "default": "Dataset"
                     }
-                }
-            ]
-        },
+                },
          "name": {
             "type": "string",
             "description": "A descriptive name of a dataset (e.g., 'Snow depth in Northern Hemisphere')"
@@ -42,31 +35,21 @@
         },
          "identifier": {
             "description": "The primary identifier for the dataset; other identifiers should be listed in the sameAs field. Schema.org has three ways of encoding identifiers-- a text description, a URL, or by using the schema:PropertyValue field. The Science on Schema.org guidance strongly recommends using the PropertyValue approach. see https://github.com/ESIPFed/science-on-schema.org   .... Dataset.md#identifier.  Ideally, for any given data provided they would provide identifiers either all as strings or all as identifier_type.  Dataset identifiers must be a URL, Text or PropertyValue&quot;",
-            "oneOf": [
-                {"$ref": "#/definitions/identifier_type"},
-                {"type": "string"},
-                {
-                    "type": "array",
-                    "minItems": 1,
-                    "items": {
-                        "anyOf": [
-                            {"$ref": "#/definitions/identifier_type"},
-                            {"type": "string"}
-                        ]
-                    }
-                }
-            ]
+            "type": "string"
         },       
+        "sameAs": {
+            "description": "other identifiers for this dataset",
+            
+                    "type": "array",
+                    "items": {
+                            "type": "string"
+                    }
+                },
         "alternateName": {
-             "oneOf": [
-             {"type": "string"},
-             {"type":"array",
-             "description":"add for compatibility with ECRR metadata",
+            "type":"array",
+             "description":"Other label strings that are used to identify the dataset, e.g. in different languages.  add for compatibility with ECRR metadata",
              "items":{
                  "type":"string"}
-             }
-             ],
-            "description": "Other label strings that are used to identify the dataset, e.g. in different languages"
         },
         "url": {
             "type": "string",
@@ -77,22 +60,13 @@
             "description": "ISO8601 formatted date (and optional time if relevant) when Dataset was made public."
         },
         "license": {
-            "description": "legal statement of conditions for use and access; recommend using schema:CreativeWork to provide a label (name) for the license, and an identifier. Sources of license identifiers: https://opensource.org/licenses/, https://creativecommons.org/about/cclicenses/, https://spdx.org/licenses/, http://cor.esipfed.org/ont/earthcube/swl. If only a string is provided, it should be an identifier for the license, ideally a resolvable URI",
-            "oneOf": [
-                {"type": "string"},
-                {"$ref": "#/definitions/creativeWork_type"},
-                {
+            "description": "legal statement of conditions for use and access; recommend using schema:CreativeWork to provide a label (name) for the license, and an identifier. Sources of license identifiers: https://opensource.org/licenses/, https://creativecommons.org/about/cclicenses/, https://spdx.org/licenses/, http://cor.esipfed.org/ont/earthcube/swl. If only a string is provided, it should be an identifier for the license, ideally a resolvable URI.  For GeoCODES forms, simplify to only allow array of creativeWork",
                     "type": "array",
                     "minItems": 0,
                     "items": {
-                        "anyOf": [
-                            {"type": "string"},
-                            {"$ref": "#/definitions/creativeWork_type"}
-                        ]
+                            "$ref": "#/definitions/creativeWork_type"
                     }
-                }
-            ]
-        },
+                },
         "version": {
             "type": [
                 "string",
@@ -251,8 +225,8 @@
                 "properties": {
                     "@type": {
                         "type": "string",
-                        "default": "MonetaryGrant",
-                        "const": "MonetaryGrant"
+                        "default": "Grant",
+                        "enum": ["MonetaryGrant","Grant"]
                     },
                     "identifier": {
                         "type": "string",
@@ -280,35 +254,6 @@
                 }
             ]
         },
-
-
-        "additionalType": {
-            "description": "identifiers for datatypes from other vocabularies (not schema.org) that apply to this metadata.",
-            "oneOf": [
-                {"type": "string"},
-                {
-                    "type": "array",
-                    "minItems": 0,
-                    "items": {"type": "string"}
-                }
-            ]
-        }, 
-        "sameAs": {
-            "description": "other identifiers for this dataset",
-            "oneOf": [
-                {"type": "string"},
-                {"$ref": "#/definitions/identifier_type"},
-                {
-                    "type": "array",
-                    "items": {
-                        "anyOf": [
-                            {"type": "string"},
-                            {"$ref": "#/definitions/identifier_type"}
-                        ]
-                    }
-                }
-            ]
-        },
         "keywords": {
             "description": "Keywords can be a comma-delimited string, and array of strings, an array of schema:DefinedTerms, or some combination of these. If you have information about a controlled vocabulary from which keywords come from, use schema:DefinedTerm to descibe that kewyword. This allowed variability makes parsing metadata hard; recommend using DefinedTerm for all keywords if any of them are from a known vocabulary, otherwise an array of strings. ",
             "oneOf": [
@@ -325,13 +270,23 @@
                 }
             ]
         },
+
+
+        "additionalType": {
+            "description": "identifiers for datatypes from other vocabularies (not schema.org) that apply to this metadata.",
+            "oneOf": [
+                {"type": "string"},
+                {
+                    "type": "array",
+                    "minItems": 0,
+                    "items": {"type": "string"}
+                }
+            ]
+        }, 
+        "citation": {"type": "string"},
         "creativeWorkStatus": {
             "type": "string",
             "description": "The status of a creative work in terms of its stage in a lifecycle. Example terms include Incomplete, Draft, Published, Obsolete."
-        },
-        "inLanguage": {
-            "type": "string",
-            "description": "the language of the dataset content"
         },
         "dateCreated": {
             "type": "string",
@@ -341,13 +296,62 @@
             "type": "string",
             "description": "ISO8601 formatted date (and optional time if relevant) when Dataset was last updated"
         },
+        "distribution": {
+            "description": "specifies how to download the data in a specific format. This property describes where to get the data and in what format by using the schema:DataDownload type. If your dataset is not accessible through a direct download URL, but rather through a service URL, use potentialAction. If user must access data through a landing page, provide link to landing page in the 'url' property for the dataset",
+            "oneOf": [
+                {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/distribution_type"}
+                },
+                {"$ref": "#/definitions/distribution_type"}
+            ]
+        },
         "expires": {
             "type": "string",
             "description": "use to specify the date when the dataset expires and is no longer useful or available. If datePublished is when the dataset is made available, then 'expires' brackets the time the dataset is valid or recommended for use."
         },
+        "funder": {
+            "type": "array",
+            "description": "this is a legacy implementation for acknowledging funding for the dataset. In march,2022 the funding property was adopted by schema.org; recommendation is to use that.",
+            "items": {"$ref": "#/definitions/funder_type"}
+        },
+        "includedInDataCatalog": {
+            "type": "object",
+            "description": "identify the data collection or repository that contains the described dataset. The value is expected to be a schema:DataCatalog",
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "description": "identifier for the containing catalog or repository; example data at https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/Dataset.md#catalog puts identifier here"
+                },
+                "@type": {
+                    "type": "string",
+                    "default": "DataCatalog",
+                    "const": "DataCatalog"
+                },
+                "name": {"type": "string"},
+                "url": {
+                    "type": "string",
+                    "description": "locator to access a landing page for the collection or catalog"
+                },
+                "identifier": {
+                    "$ref": "#/definitions/identifier_type",
+                    "description": "identifier for the collection or catalog; use identifier_type to provide information on identifier scheme and context for identifier"
+                }
+            }
+        },
+        "inLanguage": {
+            "type": "string",
+            "description": "the language of the dataset content"
+        },
         "isAccessibleForFree": {
             "type": "boolean",
             "description": "Boolean (true|false) specifying if the dataset is accessible for free."
+        },
+        "potentialAction": {
+            "title": "Direct data access via web servcie",
+            "description": "use schema.org Action to document url or url template and parameters to request data through a web accessible location. At this point, schema is set up for one action-- an HTTP Get that requests data. The url template parameters (in curly brackets '{}') specify query paramters to filter the source data, request particular output formats or other aspects of data.",
+            "type": "array",
+            "items": {"$ref": "#/definitions/action_type"}
         },
         "provider": {
             "description": "Party who maintains the distribution options for the dataset. If there are multiple distributions from different providers, use the provider property on distribution/DataDownload",
@@ -379,10 +383,14 @@
                 }
             ]
         },
-        "funder": {
-            "type": "array",
-            "description": "this is a legacy implementation for acknowledging funding for the dataset. In march,2022 the funding property was adopted by schema.org; recommendation is to use that.",
-            "items": {"$ref": "#/definitions/funder_type"}
+        "spatialCoverage": {
+            "oneOf": [
+                {"$ref": "#/definitions/spatialCoverage_type"},
+                {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/spatialCoverage_type"}
+                }
+            ]
         },
         "temporalCoverage": {
             "description": "The time interval during which data was collected or observations were made; or a time period that an activity or collection is linked to intellectually or thematically (for example, 1997 to 1998; the 18th century) (see https://documentation.ardc.edu.au/display/DOC/Temporal+coverage). For documentation of Earth Science, Paleobiology or Paleontology datasets, we are interested in the second case-- the time period that data are linked to thematically.",
@@ -407,60 +415,10 @@
                 }
             ]
         },
-        "spatialCoverage": {
-            "oneOf": [
-                {"$ref": "#/definitions/spatialCoverage_type"},
-                {
-                    "type": "array",
-                    "items": {"$ref": "#/definitions/spatialCoverage_type"}
-                }
-            ]
-        },
-        "distribution": {
-            "description": "specifies how to download the data in a specific format. This property describes where to get the data and in what format by using the schema:DataDownload type. If your dataset is not accessible through a direct download URL, but rather through a service URL, use potentialAction. If user must access data through a landing page, provide link to landing page in the 'url' property for the dataset",
-            "oneOf": [
-                {
-                    "type": "array",
-                    "items": {"$ref": "#/definitions/distribution_type"}
-                },
-                {"$ref": "#/definitions/distribution_type"}
-            ]
-        },
-        "potentialAction": {
-            "title": "Direct data access via web servcie",
-            "description": "use schema.org Action to document url or url template and parameters to request data through a web accessible location. At this point, schema is set up for one action-- an HTTP Get that requests data. The url template parameters (in curly brackets '{}') specify query paramters to filter the source data, request particular output formats or other aspects of data.",
-            "type": "array",
-            "items": {"$ref": "#/definitions/action_type"}
-        },
         "variableMeasured": {
             "description": "What does the dataset measure? (e.g., temperature, pressure)",
             "$ref": "#/definitions/variableMeasured_type"
-        },
-        "includedInDataCatalog": {
-            "type": "object",
-            "description": "identify the data collection or repository that contains the described dataset. The value is expected to be a schema:DataCatalog",
-            "properties": {
-                "@id": {
-                    "type": "string",
-                    "description": "identifier for the containing catalog or repository; example data at https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/Dataset.md#catalog puts identifier here"
-                },
-                "@type": {
-                    "type": "string",
-                    "default": "DataCatalog",
-                    "const": "DataCatalog"
-                },
-                "name": {"type": "string"},
-                "url": {
-                    "type": "string",
-                    "description": "locator to access a landing page for the collection or catalog"
-                },
-                "identifier": {
-                    "$ref": "#/definitions/identifier_type",
-                    "description": "identifier for the collection or catalog; use identifier_type to provide information on identifier scheme and context for identifier"
-                }
-            }
-        },
-        "citation": {"type": "string"}
+        }
     },
     "required": [
         "@id",
