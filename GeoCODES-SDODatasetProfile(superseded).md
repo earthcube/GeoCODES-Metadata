@@ -3,6 +3,8 @@
 Doug Fils 2020-03-05
 Stephen Ricahrd 2022-07-04
 
+Note-- this document is superseded by google doc at https://docs.google.com/document/d/1z5Jo4STSBZ-zr8mmJA4G3hikm0IHBTIgTTPcbjQHbYs 
+
 This document provides guidance for implementing Schema.org JSON-LD metadata to document geoscience datsets that will be most compatible with the [EarthCube GeoCODES resource registry](https://geocodes.earthcube.org/). This metadata profile is based on other schema.org recommendations:
 
  - [Google Developers Guidance](https://developers.google.com/search/docs/advanced/structured-data/dataset) helps guide use in Google Dataset Search
