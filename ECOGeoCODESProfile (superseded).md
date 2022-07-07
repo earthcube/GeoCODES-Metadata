@@ -2,6 +2,8 @@
 
 Draft by Doug Fils 2020-03-05
 
+Note-- this document is superseded by google doc at https://docs.google.com/document/d/1z5Jo4STSBZ-zr8mmJA4G3hikm0IHBTIgTTPcbjQHbYs 
+
 This document will evolve to provide guidance to groups on how to address elements of their metadata policy and procedures to address indexing by GeoCODES.  To provide some context we can look at other activities and see their relationships.   
  - Google Dev Guidance helps guide use in Google Dataset Search
  - ESIP Science on Schema guides use of [Type Dataset](https://schema.org/Dataset) 
