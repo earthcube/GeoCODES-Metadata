@@ -1,0 +1,330 @@
+{
+    "@context": {"@vocab": "https://schema.org/"},
+    "@type": ["Dataset"],
+    "@id": "https://www.bco-dmo.org/dataset/2343",
+    "identifier": "https://doi.org/10.1575/1912/bco-dmo.2343.1",
+    "sameAs": ["http://lod.bco-dmo.org/id/dataset/2343"],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "name": "Dataset",
+            "url": "http://schema.org/Dataset"
+        }
+    ],
+    "url": "https://www.bco-dmo.org/dataset/2343",
+    "name": "Hourly ADCP data from ARSV Laurence M. Gould and RVIB Nathaniel B. Palmer cruises to the Southern Ocean from 2001-2003 as part of the Southern Ocean GLOBEC project.",
+    "alternateName": ["ADCP_hourly"],
+    "description": "<h3>Southern Ocean GLOBEC Hourly ADCP Data</h3>\r\n\r\n<h4>Quality</h4>\r\n\r\n<p>The following datasets have been processed and represent fairly accurate results. However, these datasets may undergo additional editing. The user is therefore cautioned that the files listed here for download may not be the final datasets.</p>\r\n\r\n<p>If you would like to be notified when updated versions are available, email Susan Howard and you will be put on a list. Otherwise, please check back for updates. Notes on the quality of each data set are included in the .....",
+    "isAccessibleForFree": true,
+    "datePublished": "2004-01-08",
+    "keywords": ["oceans"],
+    "creator": [
+        {
+            "@type": "Person",
+            "@id": "https://www.bco-dmo.org/person/50501",
+            "name": "Dr Susan  L. Howard",
+            "url": "https://www.bco-dmo.org/person/50501"
+        },
+        {
+            "@type": "Person",
+            "@id": "https://www.bco-dmo.org/person/50500",
+            "name": "Dr Laurence Padman",
+            "url": "https://www.bco-dmo.org/person/50500",
+            "identifier": "https://orcid.org/0000-0003-2010-642X"
+        }
+    ],
+    "version": "1",
+    "license": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://spdx.org/licenses/CC-BY-4.0"
+    ],
+    "temporalCoverage": "2001-03-19/2003-02-13",
+    "spatialCoverage": [
+        {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoShape",
+                "box": "-70.6284 -77.7751 -52.3657 -58.7436",
+                "polygon": "-70.6284,-77.7751 -52.3657,-77.7751 -52.3657,-58.7436 -70.6284,-58.7436 -70.6284,-77.7751"
+            },
+            "additionalProperty": [
+                {
+                    "@type": "PropertyValue",
+                    "additionalType": "http://www.wikidata.org/entity/Q161779",
+                    "propertyID": "SRS",
+                    "name": "Spatial Reference System",
+                    "value": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "additionalType": "http://www.wikidata.org/entity/Q4018860",
+                    "propertyID": "WKT",
+                    "name": "Well-Known Text",
+                    "value": "POLYGON ((-77.7751 -70.6284, -58.7436 -70.6284, -58.7436 -52.3657, -77.7751 -52.3657, -77.7751 -70.6284))"
+                }
+            ]
+        }
+    ],
+    "publisher": {
+        "@id": "https://www.bco-dmo.org",
+        "@type": "Organization",
+        "name": "Biological and Chemical Data Management Office",
+        "alternateName": "BCO-DMO",
+        "identifier": "http://lod.bco-dmo.org/id/affiliation/191",
+        "url": "https://www.bco-dmo.org",
+        "sameAs": ["http://www.re3data.org/repository/r3d100000012"]
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "Biological and Chemical Data Management Office"
+    },
+    "producer": [
+        {
+            "@type": "ResearchProject",
+            "@id": "https://www.bco-dmo.org/project/2039",
+            "name": "U.S. GLOBEC Southern Ocean",
+            "alternateName": "SOGLOBEC",
+            "description": "The fundamental objectives of United States Global Ocean Ecosystems Dynamics (U.S. GLOBEC) Program are dependent upon the cooperation of scientists from several disciplines. Physicists, biologists, and chemists must make use of data collected during U.S. GLOBEC field programs to further our understanding of the interplay of physics, biology, and chemistry. Our objectives require quantitative analysis of interdisciplinary data sets and, therefore, data must be exchanged between researchers. To extract the full scientific value, data must be made available to the scientific community on a timely basis.\n",
+            "url": "https://www.bco-dmo.org/project/2039"
+        }
+    ],
+    "distribution": [
+        {
+            "@id": "http://lod.bco-dmo.org/id/dataset-file/756740",
+            "@type": ["DataDownload"],
+            "name": "Tab Separated Values (.tsv) Data",
+            "contentUrl": "https://darchive.mblwhoilibrary.org/bitstream/1912/23718/1/dataset-2343_adcphourly__v1.tsv",
+            "contentSize": "25007924",
+            "encodingFormat": ["text/tab-separated-values"],
+            "creativeWorkStatus": "Published"
+        },
+        {
+            "@id": "http://lod.bco-dmo.org/id/dataset-file/756741",
+            "@type": ["DataDownload"],
+            "name": "Plain Text Readme file",
+            "url": "https://darchive.mblwhoilibrary.org/bitstream/1912/23718/2/dataset-2343_adcphourly__v1_README.txt",
+            "contentSize": "367",
+            "encodingFormat": ["text/plain"],
+            "creativeWorkStatus": "Published"
+        },
+        {
+            "@id": "http://lod.bco-dmo.org/id/dataset-file/756742",
+            "@type": ["DataDownload"],
+            "name": "Dataset Description document (.pdf)",
+            "url": "https://darchive.mblwhoilibrary.org/bitstream/1912/23718/3/Dataset_description.pdf",
+            "contentSize": "107181",
+            "encodingFormat": ["application/pdf"],
+            "creativeWorkStatus": "Published"
+        }
+    ],
+    "subjectOf": [
+        {
+            "@id": "http://lod.bco-dmo.org/id/dataset-file/756743",
+            "@type": "DataDownload",
+            "name": "ISO 19115-2 (NOAA Profile)",
+            "contentUrl": "https://darchive.mblwhoilibrary.org/bitstream/1912/23718/4/NOAA_ISO19115-2.xml",
+            "contentSize": "140261",
+            "encodingFormat": [
+                "http://www.isotc211.org/2005/gmd-noaa",
+                "application/xml"
+            ],
+            "encodesCreativeWork": "https://www.bco-dmo.org/dataset/2343",
+            "creativeWorkStatus": "Published",
+            "about": "https://www.bco-dmo.org/dataset/2343"
+        }
+    ],
+    "measurementTechnique": ["Acoustic Doppler Current Profiler"],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7376",
+            "name": "cruiseid",
+            "alternateName": "cruise identifier",
+            "description": "Cruise identification",
+            "propertyID": "https://www.bco-dmo.org/parameter/789"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7377",
+            "name": "year_start",
+            "alternateName": "year_start",
+            "description": "Year the cruise started, GMT in YYYY format",
+            "propertyID": "https://www.bco-dmo.org/parameter/1064",
+            "unitText": "unitless"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7378",
+            "name": "month_start",
+            "alternateName": "month_start ",
+            "description": "Month the cruise started, GMT",
+            "propertyID": "https://www.bco-dmo.org/parameter/892",
+            "unitText": "mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7379",
+            "name": "day_start",
+            "alternateName": "day_start ",
+            "description": "Day the cruise started GMT",
+            "propertyID": "https://www.bco-dmo.org/parameter/801",
+            "unitText": "dd"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7380",
+            "name": "time_start",
+            "alternateName": "time_start",
+            "description": "Time the cruise started, GMT",
+            "propertyID": "https://www.bco-dmo.org/parameter/1009",
+            "unitText": "HHmm.m"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7381",
+            "name": "year_end",
+            "alternateName": "year_end",
+            "description": "Year the cruise ended, GMT in YYYY format",
+            "propertyID": "https://www.bco-dmo.org/parameter/1063",
+            "unitText": "unitless"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7382",
+            "name": "month_end",
+            "alternateName": "month_end ",
+            "description": "Month the cruise ended, GMT",
+            "propertyID": "https://www.bco-dmo.org/parameter/893",
+            "unitText": "mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7383",
+            "name": "day_end",
+            "alternateName": "day_end ",
+            "description": "Day the cruise ended, GMT",
+            "propertyID": "https://www.bco-dmo.org/parameter/802",
+            "unitText": "dd"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7384",
+            "name": "time_end",
+            "alternateName": "time_end",
+            "description": "Time the cruise ended, GMT",
+            "propertyID": "https://www.bco-dmo.org/parameter/1003",
+            "unitText": "HHmm.m"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7385",
+            "name": "yrday0_utc",
+            "alternateName": "Year day, GMT",
+            "description": "Year day, GMT, where year day 0.5 = January 1 at noon. Jan. 1 = yrday 0. GMT day and decimal time, as 325.5 for the 326th day of the year, or November 22 at 1200 hours (noon).",
+            "propertyID": "https://www.bco-dmo.org/parameter/1066",
+            "unitText": "YYY.Y"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7386",
+            "name": "lat",
+            "alternateName": "latitude",
+            "description": "Latitude, negative = South",
+            "propertyID": "https://www.bco-dmo.org/parameter/730",
+            "unitText": "DD.D"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7387",
+            "name": "lon",
+            "alternateName": "longitude",
+            "description": "Longitude, negative = West",
+            "propertyID": "https://www.bco-dmo.org/parameter/731",
+            "unitText": "DDD.D"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7388",
+            "name": "depth",
+            "alternateName": "depth",
+            "description": "Depth of sample or observation",
+            "propertyID": "https://www.bco-dmo.org/parameter/808",
+            "unitText": "meters(m)"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7389",
+            "name": "u_m",
+            "alternateName": "water velocity, east-west component",
+            "description": "East-west component of velocity, positive =  Eastward flow",
+            "propertyID": "https://www.bco-dmo.org/parameter/1020",
+            "unitText": "m/sec"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/7390",
+            "name": "v_m",
+            "alternateName": "water velocity, north-south component",
+            "description": "North-south component of velocity, positive = Northward flow",
+            "propertyID": "https://www.bco-dmo.org/parameter/1038",
+            "unitText": "m/sec"
+        }
+    ],
+    "funding": [
+        {
+            "@id": "http://lod.bco-dmo.org/id/award/54694",
+            "@type": "Grant",
+            "name": "Mesoscale Circulation, Tides and Mixing on the Western Antarctic Peninsula Shelf: A Component of WINDSSOCK (ESR proposal #99-48)",
+            "url": "https://www.bco-dmo.org/award/54694",
+            "funder": {
+                "@id": "https://www.bco-dmo.org/node/369",
+                "@type": "Organization",
+                "name": "NSF Antarctic Sciences",
+                "alternateName": "NSF ANT",
+                "identifier": "https://doi.org/10.13039/100000162"
+            },
+            "sameAs": "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=9910102",
+            "sponsor": {
+                "@type": "Person",
+                "@id": "http://lod.bco-dmo.org/id/person/51477",
+                "name": "Professor Kelly Falkner",
+                "url": "https://www.bco-dmo.org/person/51477"
+            },
+            "identifier": "ANT-9910102"
+        }
+    ],
+    "dct:bibliographicCitation": {
+        "value": "Howard, Susan L., Padman, Laurence, \"Hourly ADCP data from ARSV Laurence M. Gould and RVIB Nathaniel B. Palmer cruises to the Southern Ocean from 2001-2003 as part of the Southern Ocean GLOBEC project.\", 2019-02-22, DOI:10.1575/1912/bco-dmo.2343.1, https://hdl.handle.net/1912/23718",
+        "@type": "PropertyValue",
+        "propertyID": "dct:bibliographicCitation"
+    },
+    "creativeWorkStatus": "published",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "url": "https://www.bco-dmo.org/search/dataset",
+        "name": "BCO-DMO dataset catalog",
+        "identifier": "https://www.re3data.org/repository/r3d100000012",
+        "@id": "DOI:10.25504/FAIRsharing.pjj4gd"
+    },
+    "audience": [
+        {
+            "@type": "Audience",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002",
+            "audienceType": "Data Users"
+        }
+    ],
+    "ecrro:ECRRO_0001301": {
+        "value": {
+            "contributor": {
+                "name": "Stephen M Richard",
+                "@type": "Person",
+                "identifier": "https://orcid.org/0000-0001-6041-5302"
+            },
+            "@type": "StructuredValue",
+            "additionalType": "ecrro:ECRRO_0000156"
+        },
+        "@type": "PropertyValue",
+        "propertyID": "ecrro:ECRRO_0001301",
+        "name": "registration metadata"
+    }
+}
