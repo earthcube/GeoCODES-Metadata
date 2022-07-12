@@ -13,17 +13,21 @@ jobs:
       with:
         fetch-depth: 4
     - uses: walbo/validate-json@v1.1.0
+      name: schema validate dataset json
       with:
         files: metadata/Dateset/*.json
 
         # optional, defaults to `$schema` in your JSON file
         schema: GeoCodesDataset-schema.json
         schema-version: draft-07
+        print-valid-files: true
     - uses: walbo/validate-json@v1.1.0
+      name: schema validate dataset jsonld
       with:
         files: metadata/Dateset/*.jsonld
 
         # optional, defaults to `$schema` in your JSON file
         schema: GeoCodesDataset-schema.json
         schema-version: draft-07
+        print-valid-files: true
 
