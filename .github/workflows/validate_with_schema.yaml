@@ -2,17 +2,17 @@ name: Validate json files with schema
 
 on:
   push:
-    branches: [ "!gh-pages" ]
+    branches: [ main ]
 
 jobs:
   validate-json:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 4
-      -  uses: vanekj/validate-json-action@v1
-        with:
-          schema: GeoCodesDataset-schema.json
-          pattern: metadata/**/*.jso*
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 4
+    - uses: vanekj/validate-json-action@v1
+      with:
+        schema: GeoCodesDataset-schema.json
+        pattern: metadata/**/*.jso*

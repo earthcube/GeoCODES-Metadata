@@ -2,18 +2,19 @@ name: Validate json files
 
 on:
   push:
-    branches: [ "!gh-pages" ]
+    branches: [ main ]
 
 jobs:
   validate-json:
     runs-on: ubuntu-latest
+    name: validate json with schema
 
     steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 4
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 4
 
-      - name: Validate json files
-        uses: RaaLabs/validate-json@v0.0.7
-        with:
-          directory: "metadata"
+    - name: Validate json files
+      uses: RaaLabs/validate-json@v0.0.7
+      with:
+        directory: "metadata"
