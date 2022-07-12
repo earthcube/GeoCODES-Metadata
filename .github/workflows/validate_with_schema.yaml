@@ -13,6 +13,12 @@ jobs:
       with:
         fetch-depth: 4
     - uses: vanekj/validate-json-action@v1
+      name: validate schema dataset .json
       with:
         schema: GeoCodesDataset-schema.json
-        pattern: metadata/**/*.jso*
+        pattern: metadata/Dateset/*.json
+    - uses: vanekj/validate-json-action@v1
+      name: validate schema dataset .jsonld
+      with:
+        schema: GeoCodesDataset-schema.json
+        pattern: metadata/Dateset/*.jsonld

@@ -14,7 +14,11 @@ jobs:
       with:
         fetch-depth: 4
 
-    - name: Validate json files
+    - name: Validate dataset json files
       uses: RaaLabs/validate-json@v0.0.7
       with:
-        directory: "metadata"
+        directory: "metadata/Dataset"
+    - name: Validate Other Resources json files
+      uses: RaaLabs/validate-json@v0.0.7
+      with:
+        directory: "metadata/OtherResources"
