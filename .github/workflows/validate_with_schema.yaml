@@ -12,13 +12,16 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 4
-    - uses: vanekj/validate-json-action@v1
-      name: validate schema dataset .json
+    - uses: walbo/validate-json@v1.1.0
       with:
+        files: metadata/Dateset/*.json
+
+        # optional, defaults to `$schema` in your JSON file
         schema: GeoCodesDataset-schema.json
-        pattern: metadata/Dateset/*.json
-    - uses: vanekj/validate-json-action@v1
-      name: validate schema dataset .jsonld
+    - uses: walbo/validate-json@v1.1.0
       with:
+        files: metadata/Dateset/*.jsonld
+
+        # optional, defaults to `$schema` in your JSON file
         schema: GeoCodesDataset-schema.json
-        pattern: metadata/Dateset/*.jsonld
+
