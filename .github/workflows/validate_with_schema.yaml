@@ -18,10 +18,12 @@ jobs:
 
         # optional, defaults to `$schema` in your JSON file
         schema: GeoCodesDataset-schema.json
+        schema-version: 2020-12
     - uses: walbo/validate-json@v1.1.0
       with:
         files: metadata/Dateset/*.jsonld
 
         # optional, defaults to `$schema` in your JSON file
         schema: GeoCodesDataset-schema.json
+        schema-version: 2020-12
 
