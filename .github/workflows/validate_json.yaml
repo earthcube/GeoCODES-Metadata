@@ -2,7 +2,7 @@ name: Validate json files
 # files need to have extension .json
 on:
   push:
-    branches: [ '!gh-pages'  ]
+    branches-ignore: [ 'gh-pages'  ]
 
 jobs:
   validate-json:
