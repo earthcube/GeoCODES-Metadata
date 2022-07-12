@@ -1,5 +1,5 @@
 name: Validate json files
-
+# files need to have extension .json
 on:
   push:
     branches: [ main ]
@@ -7,7 +7,7 @@ on:
 jobs:
   validate-json:
     runs-on: ubuntu-latest
-    name: validate json with schema
+    name: validate json
 
     steps:
     - uses: actions/checkout@v2
@@ -15,10 +15,10 @@ jobs:
         fetch-depth: 4
 
     - name: Validate dataset json files
-      uses: mheap/frontmatter-json-schema-action@main
+      uses: RaaLabs/validate-json@v0.0.7
       with:
-        paths: 'metadata/Dataset/*.*'
+        directory: 'metadata/Dataset'
     - name: Validate OtherResource json files
-      uses: mheap/frontmatter-json-schema-action@main
+      uses: RaaLabs/validate-json@v0.0.7
       with:
-        paths: 'metadata/OtherResources/*.*'
+        directory: 'metadata/OtherResources'
