@@ -1,0 +1,24 @@
+name: Validate json files
+# files need to have extension .json
+on:
+  push:
+    branches-ignore: [ 'gh-pages'  ]
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    name: validate json
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 4
+
+    - name: Validate dataset json files
+      uses: RaaLabs/validate-json@v0.0.7
+      with:
+        directory: 'metadata/Dataset'
+    - name: Validate OtherResource json files
+      uses: RaaLabs/validate-json@v0.0.7
+      with:
+        directory: 'metadata/OtherResources'

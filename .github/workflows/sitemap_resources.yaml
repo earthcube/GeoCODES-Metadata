@@ -2,7 +2,7 @@ name: Generate xml sitemap
 
 on:
   push:
-    branches: [ main ]
+    branches-ignore: [ 'gh-pages'  ]
 
 jobs:
   sitemap_job:
