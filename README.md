@@ -11,3 +11,9 @@ https://earthcube.github.io/GeoCODES-Metadata/metadata/Dataset/sitemap.xml
 https://earthcube.github.io/GeoCODES-Metadata/metadata/development/sitemap.xml
 
 https://earthcube.github.io/GeoCODES-Metadata/metadata/otherResources/sitemap.xml
+
+Documentation for GeoCODES resource descriptions:
+    [Resources other than dataset](https://docs.google.com/document/d/1ZHfTVCSXLMYJMEXgzgSviwRw9wSHAGYc-RChcGu9fxA)
+    [Dataset](https://docs.google.com/document/d/1z5Jo4STSBZ-zr8mmJA4G3hikm0IHBTIgTTPcbjQHbYs/edit?usp=sharing)
+    
+    
