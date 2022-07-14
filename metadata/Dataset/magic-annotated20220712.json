@@ -1,0 +1,545 @@
+{
+    "@context": [
+        "https://schema.org/",
+        {
+            "gsqtime": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/trs",
+            
+            //-- need '/' at the end of the gsqtime stem
+            
+            
+            "time": "http://www.w3.org/2006/time#",
+            "xsd": "https://www.w3.org/TR/2004/REC-xmlschema-2-20041028/datatypes.html"
+        }
+    ],
+    "@type": "Dataset",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.7288/V4/MAGIC/19596",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "description":"should be https://doi.org/10.1029/2008GC002067"
+        "value": "doi:10.7288/V4/MAGIC/19596",
+        "url": "https://dx.doi.org/10.7288/V4/MAGIC/19596"
+    },
+    the doi 10.7288/V4/MAGIC/19596 does not resolve. ?queued for creation? does that mean is should resolve at some point? 
+    since "identifier":"https://doi.org/10.7288/V4/MAGIC/19596" would communicate exactly the same information,  the benefit of the added overhead of the identifier object is minimal.
+    
+    "sameAs": ["https://earthref.org/MagIC/doi/10.1029/2008GC002067"],
+    This is identifier for a publication, not for the data that the publication is based on.  I'd suggest that schema:subjectOf or schema:citation are a better fit, but would recommend against schema:citation because it gets used for a recommended citation string in spite of the schema.org guidance.
+    
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "provider": {
+        "@id": "https://earthref.org/MagIC",
+        "@type": "Organization",
+        "legalName": "Magnetics Information Consortium (MagIC) Data Repository",
+        "name": "MagIC",
+        "sameAs": "https://www.re3data.org/repository/r3d100011910",
+        why not use schema:identifier?
+        "url": "https://earthref.org/MagIC"
+    },
+    "publisher": {"@id": "https//earthref.org/MagIC"},
+    this is technically correct,but note if you run this in https://validator.schema.org/, the value that it shows is "http://schema.org/https//earthref.org/MagIC". I'd recommend just repeating the content that you have in 'provider'. I know its not made it into the SOSO guidance, but for GeoCODES we're thiking that 'provider' should be specified as a property of DataDownload under distribution, since provider is distribution specific.
+
+    "sdPublisher": "EarthRef.org",
+    "sdLicense": "https://creativecommons.org/licenses/by/4.0/",
+    "sdDatePublished": "2022-07-12T05:05:12.528Z",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://earthref.org/MagIC/download/19596/magic_contribution_19596.txt",
+        "encodingFormat": [
+            "text/plain; application=earthref-tsv",
+            "EarthRef-tsv-Multipart"
+        ]
+    },
+    "version": 13,
+    "contributor": "Nicholas Jarboe - MagIC",
+    should be a schema:Person
+            {
+                "@type":"Person",
+                "name":"Nicholas Jarboe",
+                "identifier":"https://orcid.org/0000-0003-1465-9394",
+                "affiliation":{
+                    "@type": "Organization",
+                    "name": "Magnetics Information Consortium (MagIC) Data Repository",
+                     "identifier": "https://www.re3data.org/repository/r3d100011910",
+                      "url": "https://earthref.org/MagIC"
+                 }
+                 }
+                 
+    "dateModified": "2022-07-12T05:04:55.317Z",
+    "citation": "<b>Nicholas A. Jarboe, Robert S. Coe, Paul R. Renne, Jonathan M. G. Glen, Edward A. Mankinen (2008).</b> Quickly erupted volcanic sections of the Steens Basalt, Columbia River Basalt Group: Secular variation, tectonic rotation, and the Steens Mountain reversal. <i>Geochemistry, Geophysics, Geosystems 9 (11):n/a-n/a. doi:<a href='//dx.doi.org/10.1029/2008GC002067'>10.1029/2008GC002067</a>.</i>",
+    
+    // update name to a title for the dataset, not reference to paper based on the data
+    "name": "Paleomagnetic data for quickly erupted volcanic sections of the Steens Basalt, Columbia River Basalt Group",
+    // description should describe the dataset...
+    "description": "Data include information on secular variation, tectonic rotation, and the Steens Mountain reversal. The data have been updated since original release in 2008, current version is v.13, 2022-07-07.  There are N sites, NN samples from lavas ranging in age from ZZ to YY Ma, Tectonic rotations observed range from X to Y. Average inclination and declinations observed are .... ",
+    "keywords": [
+        "Geochemistry and Petrology",
+        "Geophysics"
+    ],
+    "datePublished": "2022-07-12T05:04:55.317Z",
+    "labNames": [
+        "Paleomagnetic Laboratory (Berkeley Geochronology Center, USA)",
+        "Paleomagnetic Laboratory (University of California, Santa Cruz, USA)"
+    ],
+    "funding": [
+        {
+            "@id": "https://www.bgc.org/",  //what does this identify?
+            "@type": "MonetaryGrant",
+          //  "identifier": "https://www.bgc.org/", //doesn't look like this identifies a Grant; I'd say don't include it
+          "name":"Grant from Getty Foundation to Berkeley Geochronology Center",
+            "funder":{
+            "@type":"Organization",  //could use FundingAgency
+                "name": "Ann and Gordan Getty Foundation via the Berkeley Geochronology Center",
+                "identifier":"https://ror.org/02g8xhs57",
+            "url": "https://www.bgc.org/"
+            }
+            }
+            
+        },
+        {
+            "@id": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0310316", // what does this identify? not this JSON object
+            "@type": "MonetaryGrant",
+            "identifier": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0310316",  //this is actually a place where the identifier as a PropertyValue might make sense:
+                {"@type": "PropertyValue",
+                   "name":"NSF AWARD number",
+                   "value": "0310316"
+                },
+            "name": "How Complex are Geomagnetic Reversals? Tracking the Steens Reversal in Yellowstone Hotspot Lavas to Construct a Composite Record",
+            "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0310316",
+            "funder": {
+                "@type": "FundingAgency",
+                "name": "US National Science Foundation (US NSF)",
+                "identifier": "https://ror.org/021nxhr62"
+            }
+        },
+        {
+            "@id": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0711418",
+            "@type": "MonetaryGrant",
+            "identifier": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0711418", // see above
+            "name": "A Composite Steens Mountain Reversal Record and the Very-Rapid-Field-Change Hypothesis",
+            "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0711418",
+            "funder": {
+                "@type": "FundingAgency",
+                "name": "US National Science Foundation (US NSF)",
+                "identifier": "https://ror.org/021nxhr62"
+            }
+        }
+    ],
+    "temporalCoverage": {
+        "@type": "time:ProperInterval",
+        "time:hasBeginning": {
+            "time:hasTRS": {"@id": "gsqtime:BeforePresent"},  // unfortunately, it looks like gsqtime:BeforePresent doesn't actually specify that the UOM is year.  The wikipedia page does specify "years before present". 
+            
+            "time:numericPosition": {
+                "@value": 9756000,
+                "@type": "xsd:decimal"
+            },
+            "gstime:geologicTimeUnitAbbreviation": {
+                "@type": "xsd:string",
+                "value": "BP"
+            }  
+            // seems like this is redunant, unnecessary
+            
+        },
+        "time:hasEnd": {
+            "time:hasTRS": {"@id": "gsqtime:BeforePresent"},
+            "time:numericPosition": {
+                "@value": 18000000,
+                "@type": "xsd:decimal"
+            },
+            "gstime:geologicTimeUnitAbbreviation": {
+                "@type": "xsd:string",
+                "value": "BP"
+            }
+        }
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": [
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.1108,
+                "longitude": -118.25083000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.10919,
+                "longitude": -118.26141000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.11234,
+                "longitude": -118.26997
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.7697,
+                "longitude": -118.29568
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.76939,
+                "longitude": -118.29606999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.76797,
+                "longitude": -118.29619
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.77025,
+                "longitude": -118.2962
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.76894,
+                "longitude": -118.29632000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.77091,
+                "longitude": -118.29639
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.76885,
+                "longitude": -118.29650000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.7687,
+                "longitude": -118.29663
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.77169,
+                "longitude": -118.29688999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.76789,
+                "longitude": -118.29731000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.76796,
+                "longitude": -118.29732000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.76781,
+                "longitude": -118.29732999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.76763,
+                "longitude": -118.29796999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 41.96818,
+                "longitude": -118.71892
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 41.877,
+                "longitude": -118.75200000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.08,
+                "longitude": -119.30000000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 41.91172,
+                "longitude": -61.26377000000002
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 41.91142,
+                "longitude": -61.26456999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 41.9696,
+                "longitude": -61.27906999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 41.96818,
+                "longitude": -61.281079999999974
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.06293,
+                "longitude": -61.300580000000025
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.06298,
+                "longitude": -61.30104
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.06261,
+                "longitude": -61.30160000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.06263,
+                "longitude": -61.30173000000002
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.0627,
+                "longitude": -61.30282
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.06265,
+                "longitude": -61.30482999999998
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.05353,
+                "longitude": -61.31076999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.0516,
+                "longitude": -61.312149999999974
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.0519,
+                "longitude": -61.31317999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.05015,
+                "longitude": -61.31378000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 42.05112,
+                "longitude": -61.31400000000002
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.11242,
+                "longitude": -61.72973999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.11234,
+                "longitude": -61.73003
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.11164,
+                "longitude": -61.73133999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.11152,
+                "longitude": -61.73174
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.111,
+                "longitude": -61.733000000000004
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.11109,
+                "longitude": -61.733209999999985
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.11119,
+                "longitude": -61.73410999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.11051,
+                "longitude": -61.73493000000002
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.10934,
+                "longitude": -61.738009999999974
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.10919,
+                "longitude": -61.73858999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.109,
+                "longitude": -61.738
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.10839,
+                "longitude": -61.74058000000002
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.10846,
+                "longitude": -61.74081000000001
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.10826,
+                "longitude": -61.74122999999997
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.10841,
+                "longitude": -61.74128000000002
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.01108,
+                "longitude": -61.74916999999999
+            },
+            {
+                "@type": "GeoCoordinates",
+                "latitude": 43.11088,
+                "longitude": -61.75511999999998
+            }
+        ]
+    },
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "VGP Latitude",
+            "description": "Virtual geomagnetic pole, Latitude",
+            "minValue": -84.5,
+            "maxValue": 86,
+            "unitText": "Degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Direction K",
+            "description": "Specimen direction in coordinates specified by tilt correction, Fisher's dispersion parameter Kappa",
+            "minValue": 0,
+            "maxValue": 1899.6,
+            "unitText": "Dimensionless"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "VGP N Samples",
+            "description": "Number of samples included in VGP calculations",
+            "minValue": 6,
+            "maxValue": 57
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Latitude",
+            "description": "Sample geographic location, Latitude",
+            "minValue": 41.877,
+            "maxValue": 43.11242,
+            "unitText": "Degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Inclination",
+            "description": "Directions in specimen coordinates, Inclination",
+            "minValue": -74.2,
+            "maxValue": 79.7,
+            "unitText": "Degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Elevation High",
+            "description": "Highest elevation of the collection of sites",
+            "minValue": 1628,
+            "maxValue": 2336,
+            "unitText": "m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Direction Alpha 95%",
+            "description": "Specimen direction in coordinates specified by tilt correction, Fisher circle",
+            "minValue": 0,
+            "maxValue": 10.8,
+            "unitText": "Degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Elevation Low",
+            "description": "Lowest elevation of the collection of sites",
+            "minValue": 1308.5,
+            "maxValue": 1653,
+            "unitText": "m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "VGP Alpha 95%",
+            "description": "Virtual geomagnetic pole, Fisher circle",
+            "minValue": 0.9,
+            "maxValue": 13.5,
+            "unitText": "Degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Direction N Samples",
+            "description": "Number of samples included in directional calculations.",
+            "minValue": 1,
+            "maxValue": 7
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Longitude",
+            "description": "Sample geographic location, Longitude",
+            "minValue": 240.7,
+            "maxValue": 298.73623,
+            "unitText": "Degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "VGP Longitude",
+            "description": "Virtual geomagnetic pole, Longitude",
+            "minValue": 1.5,
+            "maxValue": 358.4,
+            "unitText": "Degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Declination",
+            "description": "Directions in specimen coordinates, Declination",
+            "minValue": 0,
+            "maxValue": 356,
+            "unitText": "Degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Elevation",
+            "description": "Site geographic location, Elevation relative to sealevel",
+            "minValue": 1309,
+            "maxValue": 2335.9872,
+            "unitText": "m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Direction Tilt Correction",
+            "description": "Percentage tilt correction applied to the data",
+            "minValue": 100,
+            "maxValue": 100,
+            "unitText": "%"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Age",
+            "description": "Age",
+            "minValue": 9.756,
+            "maxValue": 18,
+            "unitText": "Custom"
+        }
+    ]
+}
