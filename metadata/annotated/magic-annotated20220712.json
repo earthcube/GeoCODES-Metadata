@@ -3,10 +3,10 @@
         "https://schema.org/",
         {
             "gsqtime": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/trs",
-            
-            //-- need '/' at the end of the gsqtime stem
-            
-            
+
+           "__comment": [ "//-- need '/' at the end of the gsqtime stem"],
+
+
             "time": "http://www.w3.org/2006/time#",
             "xsd": "https://www.w3.org/TR/2004/REC-xmlschema-2-20041028/datatypes.html"
         }
@@ -16,16 +16,24 @@
         "@id": "https://dx.doi.org/10.7288/V4/MAGIC/19596",
         "@type": "PropertyValue",
         "propertyID": "https://registry.identifiers.org/registry/doi",
-        "description":"should be https://doi.org/10.1029/2008GC002067"
+        "description":"should be https://doi.org/10.1029/2008GC002067",
         "value": "doi:10.7288/V4/MAGIC/19596",
         "url": "https://dx.doi.org/10.7288/V4/MAGIC/19596"
     },
-    the doi 10.7288/V4/MAGIC/19596 does not resolve. ?queued for creation? does that mean is should resolve at some point? 
-    since "identifier":"https://doi.org/10.7288/V4/MAGIC/19596" would communicate exactly the same information,  the benefit of the added overhead of the identifier object is minimal.
-    
+  "__comment": [
+
+   "the doi 10.7288/V4/MAGIC/19596 does not resolve. ?queued for creation? does that mean is should resolve at some point?",
+    "since \"identifier\":\"https://doi.org/10.7288/V4/MAGIC/19596\" would communicate exactly the same information",
+      "the benefit of the added overhead of the identifier object is minimal."
+],
     "sameAs": ["https://earthref.org/MagIC/doi/10.1029/2008GC002067"],
-    This is identifier for a publication, not for the data that the publication is based on.  I'd suggest that schema:subjectOf or schema:citation are a better fit, but would recommend against schema:citation because it gets used for a recommended citation string in spite of the schema.org guidance.
-    
+    "__comment2": [
+        "This is identifier for a publication, not for the data that the publication is based on.  ",
+        "I'd suggest that schema:subjectOf or schema:citation are a better fit, but would recommend against schema:citation",
+        " because it gets used for a recommended citation string in spite of the schema.org guidance."
+
+    ],
+
     "isAccessibleForFree": true,
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "provider": {
@@ -34,11 +42,11 @@
         "legalName": "Magnetics Information Consortium (MagIC) Data Repository",
         "name": "MagIC",
         "sameAs": "https://www.re3data.org/repository/r3d100011910",
-        why not use schema:identifier?
+        "__comment": ["why not use schema:identifier?"],
         "url": "https://earthref.org/MagIC"
     },
     "publisher": {"@id": "https//earthref.org/MagIC"},
-    this is technically correct,but note if you run this in https://validator.schema.org/, the value that it shows is "http://schema.org/https//earthref.org/MagIC". I'd recommend just repeating the content that you have in 'provider'. I know its not made it into the SOSO guidance, but for GeoCODES we're thiking that 'provider' should be specified as a property of DataDownload under distribution, since provider is distribution specific.
+    "__comment": ["this is technically correct,but note if you run this in https://validator.schema.org/, the value that it shows is 'http://schema.org/https//earthref.org/MagIC'. Id recommend just repeating the content that you have in 'provider'. I know its not made it into the SOSO guidance, but for GeoCODES we're thiking that 'provider' should be specified as a property of DataDownload under distribution, since provider is distribution specific."],
 
     "sdPublisher": "EarthRef.org",
     "sdLicense": "https://creativecommons.org/licenses/by/4.0/",
@@ -52,8 +60,8 @@
         ]
     },
     "version": 13,
-    "contributor": "Nicholas Jarboe - MagIC",
-    should be a schema:Person
+    "__comment": ["should be a schema:Person"],
+    "contributor":[ "Nicholas Jarboe - MagIC",
             {
                 "@type":"Person",
                 "name":"Nicholas Jarboe",
@@ -65,13 +73,13 @@
                       "url": "https://earthref.org/MagIC"
                  }
                  }
-                 
+                 ],
     "dateModified": "2022-07-12T05:04:55.317Z",
     "citation": "<b>Nicholas A. Jarboe, Robert S. Coe, Paul R. Renne, Jonathan M. G. Glen, Edward A. Mankinen (2008).</b> Quickly erupted volcanic sections of the Steens Basalt, Columbia River Basalt Group: Secular variation, tectonic rotation, and the Steens Mountain reversal. <i>Geochemistry, Geophysics, Geosystems 9 (11):n/a-n/a. doi:<a href='//dx.doi.org/10.1029/2008GC002067'>10.1029/2008GC002067</a>.</i>",
-    
-    // update name to a title for the dataset, not reference to paper based on the data
+
+        "__comment": [ "// update name to a title for the dataset, not reference to paper based on the data"],
     "name": "Paleomagnetic data for quickly erupted volcanic sections of the Steens Basalt, Columbia River Basalt Group",
-    // description should describe the dataset...
+        "__comment2": [ "// description should describe the dataset..."],
     "description": "Data include information on secular variation, tectonic rotation, and the Steens Mountain reversal. The data have been updated since original release in 2008, current version is v.13, 2022-07-07.  There are N sites, NN samples from lavas ranging in age from ZZ to YY Ma, Tectonic rotations observed range from X to Y. Average inclination and declinations observed are .... ",
     "keywords": [
         "Geochemistry and Petrology",
@@ -84,27 +92,30 @@
     ],
     "funding": [
         {
-            "@id": "https://www.bgc.org/",  //what does this identify?
+            "@id": "https://www.bgc.org/",   "__comment_id":"//what does this identify?",
             "@type": "MonetaryGrant",
-          //  "identifier": "https://www.bgc.org/", //doesn't look like this identifies a Grant; I'd say don't include it
+            "__comment": [ "//  'identifier': 'https://www.bgc.org/', //doesn't look like this identifies a Grant; I'd say don't include it"],
           "name":"Grant from Getty Foundation to Berkeley Geochronology Center",
             "funder":{
-            "@type":"Organization",  //could use FundingAgency
+            "@type":"Organization",  "__comment_type":"//could use FundingAgency",
                 "name": "Ann and Gordan Getty Foundation via the Berkeley Geochronology Center",
                 "identifier":"https://ror.org/02g8xhs57",
             "url": "https://www.bgc.org/"
             }
-            }
-            
+
+
         },
         {
-            "@id": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0310316", // what does this identify? not this JSON object
+            "@id": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0310316", "__comment_id":"// what does this identify? not this JSON object",
             "@type": "MonetaryGrant",
-            "identifier": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0310316",  //this is actually a place where the identifier as a PropertyValue might make sense:
+            "__comment_identifer":"//this is actually a place where the identifier as a PropertyValue might make sense:",
+            "identifier": ["https://www.nsf.gov/awardsearch/showAward?AWD_ID=0310316",
                 {"@type": "PropertyValue",
                    "name":"NSF AWARD number",
                    "value": "0310316"
-                },
+
+                }
+    ],
             "name": "How Complex are Geomagnetic Reversals? Tracking the Steens Reversal in Yellowstone Hotspot Lavas to Construct a Composite Record",
             "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0310316",
             "funder": {
@@ -116,7 +127,7 @@
         {
             "@id": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0711418",
             "@type": "MonetaryGrant",
-            "identifier": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0711418", // see above
+            "identifier": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0711418", "__comment_idenitifer":"// see above",
             "name": "A Composite Steens Mountain Reversal Record and the Very-Rapid-Field-Change Hypothesis",
             "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0711418",
             "funder": {
@@ -129,8 +140,8 @@
     "temporalCoverage": {
         "@type": "time:ProperInterval",
         "time:hasBeginning": {
-            "time:hasTRS": {"@id": "gsqtime:BeforePresent"},  // unfortunately, it looks like gsqtime:BeforePresent doesn't actually specify that the UOM is year.  The wikipedia page does specify "years before present". 
-            
+            "time:hasTRS": {"@id": "gsqtime:BeforePresent"},  "__comment_time_hastrs":"// unfortunately, it looks like gsqtime:BeforePresent doesn't actually specify that the UOM is year.  The wikipedia page does specify \"years before present\". ",
+
             "time:numericPosition": {
                 "@value": 9756000,
                 "@type": "xsd:decimal"
@@ -138,9 +149,9 @@
             "gstime:geologicTimeUnitAbbreviation": {
                 "@type": "xsd:string",
                 "value": "BP"
-            }  
-            // seems like this is redunant, unnecessary
-            
+            },
+            "__comment_0":" // seems like this is redunant, unnecessary"
+
         },
         "time:hasEnd": {
             "time:hasTRS": {"@id": "gsqtime:BeforePresent"},
