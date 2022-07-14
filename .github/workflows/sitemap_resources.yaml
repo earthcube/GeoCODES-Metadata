@@ -20,7 +20,7 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/
-        path-to-root: metadata/Dataset
+        path-to-root: metadata/Dataset/
         include-pdf: false
         additional-extensions: json jsonld
     - name: Output dataset stats
@@ -46,7 +46,7 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/otherResources/
-        path-to-root: metadata/OtherResources
+        path-to-root: metadata/OtherResources/
         include-pdf: false
         additional-extensions: json jsonld
     - name: Output otherResources stats
