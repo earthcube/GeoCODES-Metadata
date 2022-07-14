@@ -12,3 +12,10 @@ The issue tracker in this repository is the place to post issue about GeoCODES m
 
 Github actions should automatically publish sitemaps:
 
+https://earthcube.github.io/GeoCODES-Metadata/metadata/otherResources/sitemap.xml
+
+Documentation for GeoCODES resource descriptions:
+    [Resources other than dataset](https://docs.google.com/document/d/1ZHfTVCSXLMYJMEXgzgSviwRw9wSHAGYc-RChcGu9fxA)
+    [Dataset](https://docs.google.com/document/d/1z5Jo4STSBZ-zr8mmJA4G3hikm0IHBTIgTTPcbjQHbYs/edit?usp=sharing)
+    
+

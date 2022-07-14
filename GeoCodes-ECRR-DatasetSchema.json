@@ -1,8 +1,8 @@
 {
-    "$comment": "Simplified for use in a forms application. Encoded as Javascript object in the the ECRR jsonforms application. Will need to pay attention to synchronization with JSON schema in  github. ",
+    "$comment": "Simplified for use in a forms application. Encoded as Javascript object in the the ECRR jsonforms application. Will need to pay attention to synchronization with JSON schema in github. ",
     "type": "object",
-    "title": "EarthCube Resource Registry (ECRR) Resource Description",
-    "description": "JSON schema for EarthCube Resource Registry (ECRR) resource descriptions. The base object is common to all resource types, and definition section adds resource-specific properties. Resource types are Specification, UseCase, InterchangeFormat, Software, Interface,...  Schema compiled by Stephen M. Richard based on Resource  instance data and example GeoCODES dataset metadata from several providers 2022-07-05",
+    "title": "EarthCube GeoCODES Resource Description",
+    "description": "JSON schema for EarthCube GeoCodes resource descriptions, including datasets and resource types from EarthCube Resource Registry (Specification, UseCase, InterchangeFormat, Software, Interface,...)  Schema compiled by Stephen M. Richard based on Resource instance data and example GeoCODES dataset metadata from several providers 2022-07-05",
     "properties": {
         "@id": {
             "type": "string",
@@ -320,7 +320,7 @@
                 }
             }
         },
-        "ecrro:ECRRO_0001301": {"$ref": "#/definitions/metadataCreatorType"},
+        "ecrro:ECRRO_0001301": {"$ref": "#/definitions/metadataRegistrationInfo"},
         "dct:bibliographicCitation": {
             "title": "Bibliographic Citation",
             "$ref": "#/definitions/citationType"
@@ -778,30 +778,16 @@
                 "@type": {
                     "type": "string",
                     "default": "Grant",
-                    "const": "Grant"
+                    "enum": ["Grant", "MonetaryGrant"]
                 },
                 "name": {"type": "string"},
                 "identifier": {"type": "string"},
                 "sponsor": {
                     "description": "agent that provided financial or other kinds of support for development of resource",
-                    "$comment": "$ref not working. #/definitions/agent_type",
-                    "type": "object",
-                    "properties": {
-                        "name": {"type": "string"},
-                        "@type": {
-                            "type": "string",
-                            "enum": [
-                                "Person",
-                                "Organization"
-                            ],
-                            "default": "Person"
-                        },
-                        "identifier": {"type": "string"}
-                    }
+                    "$ref": "#/definitions/agent_type"
                 },
                 "funder": {
                     "description": "agent that provided and administers financial support to create or maintain the resource",
-                    "$comment": "$ref not working. #/definitions/agent_type",
                     "$ref": "#/definitions/agent_type"
                 }
             },
@@ -957,7 +943,7 @@
                 "value": {"type": "string"}
             }
         },
-        "metadataCreatorType": {
+        "metadataRegistrationInfo": {
             "type": "object",
             "description": "metadata contributor information",
             "properties": {
