@@ -1,0 +1,313 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://schema.org/about
+<https://schema.org/about> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/additionalProperty
+<https://schema.org/additionalProperty> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/additionalType
+<https://schema.org/additionalType> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/applicationCategory
+<https://schema.org/applicationCategory> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/audience
+<https://schema.org/audience> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/audienceType
+<https://schema.org/audienceType> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/codeRepository
+<https://schema.org/codeRepository> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/contributor
+<https://schema.org/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/creator
+<https://schema.org/creator> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/datePublished
+<https://schema.org/datePublished> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/description
+<https://schema.org/description> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/funder
+<https://schema.org/funder> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/httpMethod
+<https://schema.org/httpMethod> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/identifier
+<https://schema.org/identifier> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/keywords
+<https://schema.org/keywords> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/license
+<https://schema.org/license> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/mainEntity
+<https://schema.org/mainEntity> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/name
+<https://schema.org/name> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/potentialAction
+<https://schema.org/potentialAction> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/programmingLanguage
+<https://schema.org/programmingLanguage> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/propertyID
+<https://schema.org/propertyID> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/runtimePlatform
+<https://schema.org/runtimePlatform> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/target
+<https://schema.org/target> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/url
+<https://schema.org/url> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/urlTemplate
+<https://schema.org/urlTemplate> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/value
+<https://schema.org/value> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://schema.org/Action
+<https://schema.org/Action> rdf:type owl:Class .
+
+
+###  https://schema.org/Audience
+<https://schema.org/Audience> rdf:type owl:Class .
+
+
+###  https://schema.org/CreativeWork
+<https://schema.org/CreativeWork> rdf:type owl:Class .
+
+
+###  https://schema.org/DefinedTerm
+<https://schema.org/DefinedTerm> rdf:type owl:Class .
+
+
+###  https://schema.org/EntryPoint
+<https://schema.org/EntryPoint> rdf:type owl:Class .
+
+
+###  https://schema.org/Organization
+<https://schema.org/Organization> rdf:type owl:Class .
+
+
+###  https://schema.org/Person
+<https://schema.org/Person> rdf:type owl:Class .
+
+
+###  https://schema.org/PropertyValue
+<https://schema.org/PropertyValue> rdf:type owl:Class .
+
+
+###  https://schema.org/SoftwareApplication
+<https://schema.org/SoftwareApplication> rdf:type owl:Class .
+
+
+###  https://schema.org/StructuredValue
+<https://schema.org/StructuredValue> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://n2t.net/ark:/23942/g2j92v
+<http://n2t.net/ark:/23942/g2j92v> rdf:type owl:NamedIndividual ,
+                                            <https://schema.org/CreativeWork> ,
+                                            <https://schema.org/SoftwareApplication> ;
+                                   <https://schema.org/about> [ rdf:type <https://schema.org/DefinedTerm> ;
+                                                                <https://schema.org/identifier> "http://cor.esipfed.org/ont/earthcube/ADO_0000035" ;
+                                                                <https://schema.org/name> "Climatology"
+                                                              ] ,
+                                                              [ rdf:type <https://schema.org/DefinedTerm> ;
+                                                                <https://schema.org/identifier> "http://cor.esipfed.org/ont/earthcube/ADO_0000028" ;
+                                                                <https://schema.org/name> "Environmental Science"
+                                                              ] ,
+                                                              [ rdf:type <https://schema.org/DefinedTerm> ;
+                                                                <https://schema.org/identifier> "http://cor.esipfed.org/ont/earthcube/ADO_0000046" ;
+                                                                <https://schema.org/name> "Oceanography"
+                                                              ] ;
+                                   <https://schema.org/additionalProperty> [ rdf:type <https://schema.org/PropertyValue> ;
+                                                                             <https://schema.org/name> "Stewardship" ;
+                                                                             <https://schema.org/propertyID> "ecrro:ECRRO_0000218" ;
+                                                                             <https://schema.org/value> [ rdf:type <https://schema.org/Person> ;
+                                                                                                          <https://schema.org/name> "person, Megan Scanderbeg Argo Data Management Team" ;
+                                                                                                          <https://schema.org/url> "https://orcid.org/0000-0002-0398-7272"
+                                                                                                        ]
+                                                                           ] ,
+                                                                           [ rdf:type <https://schema.org/PropertyValue> ;
+                                                                             <https://schema.org/name> "Usage" ;
+                                                                             <https://schema.org/propertyID> "ecrro:ECRRO_0000017" ;
+                                                                             <https://schema.org/value> [ rdf:type <https://schema.org/DefinedTerm> ;
+                                                                                                          <https://schema.org/identifier> "http://cor.esipfed.org/ont/earthcube/UBA_0000004" ;
+                                                                                                          <https://schema.org/name> "Unknown"
+                                                                                                        ]
+                                                                           ] ,
+                                                                           [ rdf:type <https://schema.org/PropertyValue> ;
+                                                                             <https://schema.org/name> "dependencies" ;
+                                                                             <https://schema.org/propertyID> "http://purl.obolibrary.org/obo/RO_0002502" ;
+                                                                             <https://schema.org/value> [ rdf:type <https://schema.org/CreativeWork> ;
+                                                                                                          <https://schema.org/name> "ArgoVis API v.1.0, " ;
+                                                                                                          <https://schema.org/url> "https://argovis.colorado.edu/api-docs/#/"
+                                                                                                        ]
+                                                                           ] ,
+                                                                           [ rdf:type <https://schema.org/PropertyValue> ;
+                                                                             <https://schema.org/name> "registration metadata" ;
+                                                                             <https://schema.org/propertyID> "ecrro:ECRRO_0001301" ;
+                                                                             <https://schema.org/value> [ rdf:type <https://schema.org/StructuredValue> ;
+                                                                                                          <https://schema.org/additionalType> "ecrro:ECRRO_0000156" ;
+                                                                                                          <https://schema.org/contributor> [ rdf:type <https://schema.org/Person> ;
+                                                                                                                                             <https://schema.org/name> "Stephen M. Richard"
+                                                                                                                                           ] ;
+                                                                                                          <https://schema.org/datePublished> "Tue Oct 19 2021 17:03:38 GMT-0700 (Mountain Standard Time)"
+                                                                                                        ]
+                                                                           ] ,
+                                                                           [ rdf:type <https://schema.org/PropertyValue> ;
+                                                                             <https://schema.org/name> "Bibligraphic citation" ;
+                                                                             <https://schema.org/propertyID> "dc:BibliographicCitation" ;
+                                                                             <https://schema.org/value> "Susanna Anil, Steve Diggs, Sarah Purkey, Donata Giglio, Megan Scanderbeg, & Tyler Tucker. (2021). Interactive Jupyter notebook for hydrographic ocean data exploration, retrieval and visualization via the Argovis API (v1.1). Zenodo. https://doi.org/10.5281/zenodo.5496281"
+                                                                           ] ,
+                                                                           [ rdf:type <https://schema.org/PropertyValue> ;
+                                                                             <https://schema.org/name> "Interface specification" ;
+                                                                             <https://schema.org/propertyID> "ecrro:ECRRO_0000503" ;
+                                                                             <https://schema.org/value> [ rdf:type <https://schema.org/CreativeWork> ;
+                                                                                                          <https://schema.org/identifier> "http://n2t.net/ark:/23942/g2x06p" ;
+                                                                                                          <https://schema.org/name> "Argovis API"
+                                                                                                        ]
+                                                                           ] ,
+                                                                           [ rdf:type <https://schema.org/PropertyValue> ;
+                                                                             <https://schema.org/name> "has maturity state" ;
+                                                                             <https://schema.org/propertyID> "ecrro:ECRRO_0000138" ;
+                                                                             <https://schema.org/value> [ rdf:type <https://schema.org/DefinedTerm> ;
+                                                                                                          <https://schema.org/identifier> "http://cor.esipfed.org/ont/earthcube/MTU_0000002" ;
+                                                                                                          <https://schema.org/name> "In production"
+                                                                                                        ]
+                                                                           ] ,
+                                                                           [ rdf:type <https://schema.org/PropertyValue> ;
+                                                                             <https://schema.org/name> "expected lifetime" ;
+                                                                             <https://schema.org/propertyID> "ecrro:ECRRO_0000219" ;
+                                                                             <https://schema.org/value> [ rdf:type <https://schema.org/DefinedTerm> ;
+                                                                                                          <https://schema.org/identifier> "http://cor.esipfed.org/ont/earthcube/ELT_0000003" ;
+                                                                                                          <https://schema.org/name> "1 - 5 years"
+                                                                                                        ]
+                                                                           ] ;
+                                   <https://schema.org/applicationCategory> "function: Data Exploration uri: http://cor.esipfed.org/ont/earthcube/SFO_0000006" ,
+                                                                            "subfunction: Data Discovery & Access: Data Query, Data Discovery & Access: Data Harvesting, Visualization: Display uri: http://cor.esipfed.org/ont/earthcube/SFO_0000027" ,
+                                                                            "subfunction: Data Discovery & Access: Data Query, Data Discovery & Access: Data Harvesting, Visualization: Display uri: http://cor.esipfed.org/ont/earthcube/SFO_0000030" ,
+                                                                            "subfunction: Data Discovery & Access: Data Query, Data Discovery & Access: Data Harvesting, Visualization: Display uri: http://cor.esipfed.org/ont/earthcube/SFO_0000062" ;
+                                   <https://schema.org/audience> [ rdf:type <https://schema.org/Audience> ;
+                                                                   <https://schema.org/audienceType> "Data Users" ;
+                                                                   <https://schema.org/identifier> "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+                                                                 ] ,
+                                                                 [ rdf:type <https://schema.org/Audience> ;
+                                                                   <https://schema.org/audienceType> "Scientists" ;
+                                                                   <https://schema.org/identifier> "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+                                                                 ] ;
+                                   <https://schema.org/codeRepository> "https://github.com/earthcube/earthcube_utilities/tree/dataformatTemplates/dataformat_templates/ARGO" ;
+                                   <https://schema.org/creator> [ rdf:type <https://schema.org/Person> ;
+                                                                  <https://schema.org/name> "Susanna Anil"
+                                                                ] ,
+                                                                [ rdf:type <https://schema.org/Person> ;
+                                                                  <https://schema.org/name> "Steve Diggs https://orcid.org/0000-0003-3814-6104"
+                                                                ] ,
+                                                                [ rdf:type <https://schema.org/Person> ;
+                                                                  <https://schema.org/identifier> "https://orcid.org/0000-0002-1893-6224" ;
+                                                                  <https://schema.org/name> "Sarah Purkey"
+                                                                ] ,
+                                                                [ rdf:type <https://schema.org/Person> ;
+                                                                  <https://schema.org/identifier> "https://orcid.org/0000-0002-3738-4293" ;
+                                                                  <https://schema.org/name> "Donata Giglio"
+                                                                ] ,
+                                                                [ rdf:type <https://schema.org/Person> ;
+                                                                  <https://schema.org/identifier> "https://orcid.org/0000-0002-0398-7272" ;
+                                                                  <https://schema.org/name> "Megan Scanderbeg"
+                                                                ] ,
+                                                                [ rdf:type <https://schema.org/Person> ;
+                                                                  <https://schema.org/identifier> "https://orcid.org/0000-0002-0560-9777" ;
+                                                                  <https://schema.org/name> "Tyler Tucker"
+                                                                ] ;
+                                   <https://schema.org/description> "This notebook demonstrates how to use the Argovis API to visualize salinity and temperature property distributions below the ocean surface.  [Argovis](https://argovis.colorado.edu/) allows access to a curated database of Argo profiles via API (Tucker et al. 2020). The interface allows users to visualize temperature, salinity and biogeochemical data (or BGC) by location on a browser. - The first half of the notebook goes over how to query data with user-defined parameters and use the API to retrieve data.  - The second part of the notebook will allow users to plot the location of the data on a map and plot property plots to gain insights into observed water masses.  This notebook uses a template adapted from [notebook submitted for the 2020 EarthCube notebooks show case](https://doi.org/10.5281/zenodo.5496281)." ;
+                                   <https://schema.org/funder> [ rdf:type <https://schema.org/Organization> ;
+                                                                 <https://schema.org/identifier> "https://ror.org/021nxhr62" ;
+                                                                 <https://schema.org/name> "US National Science Foundation (US NSF)"
+                                                               ] ;
+                                   <https://schema.org/keywords> "ARGO,Oceanography,water temperature,water salinity,biogeochemical data" ;
+                                   <https://schema.org/license> [ rdf:type <https://schema.org/CreativeWork> ;
+                                                                  <https://schema.org/identifier> "http://cor.esipfed.org/ont/SWL_0000013" ;
+                                                                  <https://schema.org/name> "Apache"
+                                                                ] ,
+                                                                [ rdf:type <https://schema.org/CreativeWork> ;
+                                                                  <https://schema.org/identifier> "undefined" ;
+                                                                  <https://schema.org/name> "Open Access"
+                                                                ] ;
+                                   <https://schema.org/mainEntity> [ rdf:type <https://schema.org/CreativeWork> ;
+                                                                     <https://schema.org/name> "Software" ;
+                                                                     <https://schema.org/url> "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206"
+                                                                   ] ;
+                                   <https://schema.org/name> "Jupyter Notebook for Hydrographic Ocean Data using the Argovis API" ;
+                                   <https://schema.org/potentialAction> [ rdf:type <https://schema.org/Action> ;
+                                                                          <https://schema.org/name> "Execute web application" ;
+                                                                          <https://schema.org/target> [ rdf:type <https://schema.org/EntryPoint> ;
+                                                                                                        <https://schema.org/description> "Open software on the web" ;
+                                                                                                        <https://schema.org/httpMethod> "GET" ;
+                                                                                                        <https://schema.org/urlTemplate> "https://mybinder.org/v2/gh/sanil72900/ec21_binder_anil.git/HEAD?filepath=SA_01_Argo_Data_Exploration.ipynb"
+                                                                                                      ]
+                                                                        ] ;
+                                   <https://schema.org/programmingLanguage> "Python 3.6" ;
+                                   <https://schema.org/runtimePlatform> "Notebook Container, uri:http://cor.esipfed.org/ont/earthcube/RTE_000011" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

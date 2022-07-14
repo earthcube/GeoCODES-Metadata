@@ -1,0 +1,148 @@
+<metadata-doi:10.17882/42182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
+<metadata-doi:10.17882/42182> <https://schema.org/citation> "Argo (2021). Argo float data and metadata from Global Data Assembly Centre (Argo GDAC). SEANOE.  https://doi.org/10.17882/42182" .
+<metadata-doi:10.17882/42182> <https://schema.org/datePublished> "2021-09-10" .
+<metadata-doi:10.17882/42182> <https://schema.org/description> "Argo is a global array of 3,000 free-drifting profiling floats that measures the temperature and salinity of the upper 2000 m of the ocean. This provides continuous monitoring of the temperature, salinity, and velocity of the upper ocean, with  data being made publicly available within hours after collection. The array provides 100,000 temperature/salinity profiles and velocity measurements per year distributed over the global oceans at an average of 3-degree spacing. Some floats provide additional bio-geo parameters such as oxygen or chlorophyll. Data collected by Argo floats are publically available in near real-time via the Global Data Assembly Centers (GDACs) in Brest (France) and Monterey (California) after an automated quality control (QC), and in scientifically quality controlled form, delayed mode data, via the GDACs within six months of collection." .
+<metadata-doi:10.17882/42182> <https://schema.org/distribution> _:b0 .
+<metadata-doi:10.17882/42182> <https://schema.org/distribution> _:b1 .
+<metadata-doi:10.17882/42182> <https://schema.org/distribution> _:b11 .
+<metadata-doi:10.17882/42182> <https://schema.org/distribution> _:b12 .
+<metadata-doi:10.17882/42182> <https://schema.org/distribution> _:b2 .
+<metadata-doi:10.17882/42182> <https://schema.org/distribution> _:b3 .
+<metadata-doi:10.17882/42182> <https://schema.org/identifier> _:b13 .
+<metadata-doi:10.17882/42182> <https://schema.org/includedInDataCatalog> _:b14 .
+<metadata-doi:10.17882/42182> <https://schema.org/isAccessibleForFree> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "Argo" .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "float" .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "global ocean observing system" .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "global-ocean" .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "in-situ" .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "multi-year" .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "ocean circulation" .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "ocean pressure" .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "sea water salinity" .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "sea water temperature" .
+<metadata-doi:10.17882/42182> <https://schema.org/keywords> "weather climate and seasonal observation" .
+<metadata-doi:10.17882/42182> <https://schema.org/license> "https://creativecommons.org/licenses/by/4.0/" .
+<metadata-doi:10.17882/42182> <https://schema.org/name> "Argo float data and metadata from Global Data Assembly Centre (Argo GDAC)" .
+<metadata-doi:10.17882/42182> <https://schema.org/publisher> _:b15 .
+<metadata-doi:10.17882/42182> <https://schema.org/spatialCoverage> _:b16 .
+<metadata-doi:10.17882/42182> <https://schema.org/temporalCoverage> "2012-08-01/.." .
+<metadata-doi:10.17882/42182> <https://schema.org/thumbnailUrl> "https://www.seanoe.org/data/00311/42182/thumbnail.gif" .
+<metadata-doi:10.17882/42182> <https://schema.org/url> "https://www.seanoe.org/data/00311/42182/" .
+<metadata-doi:10.17882/42182> <https://schema.org/variableMeasured> _:b18 .
+<metadata-doi:10.17882/42182> <https://schema.org/variableMeasured> _:b19 .
+<metadata-doi:10.17882/42182> <https://schema.org/variableMeasured> _:b20 .
+<metadata-doi:10.17882/42182> <https://schema.org/variableMeasured> _:b21 .
+<metadata-doi:10.17882/42182> <https://schema.org/variableMeasured> _:b22 .
+<metadata-doi:10.17882/42182> <https://schema.org/variableMeasured> _:b23 .
+<metadata-doi:10.17882/42182> <https://schema.org/variableMeasured> _:b24 .
+<metadata-doi:10.17882/42182> <https://schema.org/variableMeasured> _:b25 .
+<metadata-doi:10.17882/42182> <https://schema.org/variableMeasured> _:b26 .
+_:b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DataDownload> .
+_:b0 <https://schema.org/description> "For users interested in using the official Argo NetCDF files, the GDACs should be the route to access Argo data. Both GDACs offer access to the complete Argo data collection as managed by the Argo Data Management Team, including float metadata, detailed trajectory data, profile data and technical data all in NetCDF format.  It is important to understand the naming system of the files as well as the variable names and quality control flags within each data file. See the ADMT Documentation page for the Argo User’s Manual and the Argo quality control manual for more information." .
+_:b0 <https://schema.org/encodingFormat> "application/x-netcdf" .
+_:b0 <https://schema.org/name> "Global Data Assembly Center (GDAC)" .
+_:b0 <https://schema.org/url> "http://www.argodatamgt.org/Access-to-data/Argo-GDAC-ftp-and-https-servers" .
+_:b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DataDownload> .
+_:b1 <https://schema.org/description> "The rsync server vdmzrs.ifremer.fr server provides a synchronization service between the dac directory of the GDAC with a user mirror. See the ADMT website (http://www.argodatamgt.org/Access-to-data/Argo-GDAC-synchronization-service) for more details. From the user side, the rysnc service: 1.Downloads the new files; 2. Downloads the updated files; 3. Removes the files that have been removed from the GDAC; 4. Compresses/uncompresses the files during the transfer; 5. Preserves the files creation/update dates; 6. Lists all the files that have been transferred (easy to use for a user side post-processing)" .
+_:b1 <https://schema.org/name> "GDAC synchronization service" .
+_:b1 <https://schema.org/url> "http://www.argodatamgt.org/Access-to-data/Argo-GDAC-synchronization-service" .
+_:b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/EntryPoint> .
+_:b10 <https://schema.org/description> "download profiles within a bounding box for specified start/end dates" .
+_:b10 <https://schema.org/httpMethod> "GET" .
+_:b10 <https://schema.org/urlTemplate> "https://argovis.colorado.edu/selection/profiles?startDate={start}&endDate={end}&shape={shape}&presRange={presRange}" .
+_:b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DataDownload> .
+_:b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/WebSite> .
+_:b11 <https://schema.org/description> "snapshots of all GDAC data generated monthly since 2014, before that at irregular intervals back to 2012" .
+_:b11 <https://schema.org/encodingFormat> "application/zip" .
+_:b11 <https://schema.org/name> "Zip archive snapshots" .
+_:b11 <https://schema.org/url> "https://www.seanoe.org/data/00311/42182/#" .
+_:b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DataDownload> .
+_:b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/WebSite> .
+_:b12 <https://schema.org/description> "Web form to select ARGO data and download one of many offered formats. See https://www.ifremer.fr/erddap/tabledap/ArgoFloats.html#DAS for complete list of variables in data structure" .
+_:b12 <https://schema.org/name> "ERDDAP Server" .
+_:b12 <https://schema.org/url> "https://www.ifremer.fr/erddap/tabledap/ArgoFloats.html" .
+_:b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+_:b13 <https://schema.org/propertyID> "https://registry.identifiers.org/registry/doi" .
+_:b13 <https://schema.org/url> "https://doi.org/10.17882/42182" .
+_:b13 <https://schema.org/value> "doi:10.17882/42182" .
+_:b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DataCatalog> .
+_:b14 <https://schema.org/disambiguatingDescription> "Sea scientific open data publication" .
+_:b14 <https://schema.org/name> "SEANOE" .
+_:b14 <https://schema.org/url> "https://www.seanoe.org/" .
+_:b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
+_:b15 <https://schema.org/disambiguatingDescription> "Sea scientific open data publication" .
+_:b15 <https://schema.org/logo> "https://www.seanoe.org/html/images/seanoe-share.png" .
+_:b15 <https://schema.org/name> "SEANOE" .
+_:b15 <https://schema.org/url> "https://www.seanoe.org/" .
+_:b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Place> .
+_:b16 <https://schema.org/geo> _:b17 .
+_:b16 <https://schema.org/name> "Global Oceans" .
+_:b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/GeoShape> .
+_:b17 <https://schema.org/box> "-68 -179 85 179" .
+_:b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+_:b18 <https://schema.org/name> "water temperature" .
+_:b18 <https://schema.org/unitText> "Celsius" .
+_:b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+_:b19 <https://schema.org/description> "water pressure, proxy for depth" .
+_:b19 <https://schema.org/name> "pressure" .
+_:b19 <https://schema.org/unitText> "decibar" .
+_:b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DataDownload> .
+_:b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/WebSite> .
+_:b2 <https://schema.org/description> "Visualize ARGO temperature, salinity, and BioGeoChemical data by location. View float trajectory forecasts, compare gridded fields with Argovis' grid visualization module, or co-locate Argo data with weather events. Download profile or platform data in JSON format, or NetCDF time series data from platform.  The Argovis database is a curated set of Argo profiles available from the Argo GDACs. Entire profiles are excluded if their position or time is bad. Profiles without a position are kept in the database and will not be visible on the home web interface, but will be displayed when looking at the platform plots and downloaded via the API. Profiles with an estimated position are in Argovis. Otherwise, all temperature, pressure and salinity data are included in Argovis if their QC flag is equal to '1'. BioGeoChemical data are included no matter the QC flag and Deep data under 2000 db is included if the QC flag is '2' for pressure and temperature and '3' for salinity. If adjusted data is available for a parameter, that is used. Otherwise, the raw data is used." .
+_:b2 <https://schema.org/name> "Argovis Web Site" .
+_:b2 <https://schema.org/url> "https://argovis.colorado.edu/ng/home" .
+_:b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+_:b20 <https://schema.org/name> "salinity" .
+_:b20 <https://schema.org/unitText> "psu" .
+_:b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+_:b21 <https://schema.org/name> "dissolved oxygen" .
+_:b21 <https://schema.org/unitText> "micromole/kg" .
+_:b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+_:b22 <https://schema.org/name> "Chlorophyll-A" .
+_:b22 <https://schema.org/unitText> "milligram/cubic meter" .
+_:b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+_:b23 <https://schema.org/name> "latitude" .
+_:b23 <https://schema.org/unitText> "decimal degree" .
+_:b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+_:b24 <https://schema.org/name> "longitude" .
+_:b24 <https://schema.org/unitText> "decimal degree" .
+_:b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+_:b25 <https://schema.org/description> "clendar date of observation" .
+_:b25 <https://schema.org/name> "date" .
+_:b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+_:b26 <https://schema.org/description> "Time of obseration" .
+_:b26 <https://schema.org/name> "time" .
+_:b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/DataDownload> .
+_:b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/WebAPI> .
+_:b3 <https://schema.org/description> "Access Argo profiles via API, i.e. temperature, salinity, and biogeochemical data by location. Argo metadata, float trajectory forecasts, gridded fields, weather events are also available through API" .
+_:b3 <https://schema.org/documentation> "https://argovis.colorado.edu/api-docs/#/" .
+_:b3 <https://schema.org/name> "Argovis WebAPI" .
+_:b3 <https://schema.org/potentialAction> _:b4 .
+_:b3 <https://schema.org/serviceType> "Argovis API" .
+_:b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SearchAction> .
+_:b4 <https://schema.org/query-input> _:b5 .
+_:b4 <https://schema.org/query-input> _:b6 .
+_:b4 <https://schema.org/query-input> _:b7 .
+_:b4 <https://schema.org/query-input> _:b8 .
+_:b4 <https://schema.org/result> _:b9 .
+_:b4 <https://schema.org/target> _:b10 .
+_:b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValueSpecification> .
+_:b5 <https://schema.org/description> "list of lists containing [lon, lat] coordinates that define a polygon; first and last coordinate pair should be the same poitn. example: shape = [[[-144.84375,36.031332],[-136.038755,36.210925],[-127.265625,35.746512],[-128.144531,22.755921],[-136.543795,24.835311],[-145.195313,26.431228],[-144.84375,36.031332]]]" .
+_:b5 <https://schema.org/valueName> "shape" .
+_:b5 <https://schema.org/valueRequired> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValueSpecification> .
+_:b6 <https://schema.org/description> "string formatted as 'YYYY-MM-DD'" .
+_:b6 <https://schema.org/valueName> "start" .
+_:b6 <https://schema.org/valueRequired> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValueSpecification> .
+_:b7 <https://schema.org/description> "string formatted as 'YYYY-MM-DD'" .
+_:b7 <https://schema.org/valueName> "end" .
+_:b7 <https://schema.org/valueRequired> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValueSpecification> .
+_:b8 <https://schema.org/defaultValue> "None" .
+_:b8 <https://schema.org/description> "a string of a list formatted as '[minimum pres,maximum pres]' (no spaces)" .
+_:b8 <https://schema.org/valueName> "presRange" .
+_:b8 <https://schema.org/valueRequired> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
+_:b9 <https://schema.org/encodingFormat> "application/json" .

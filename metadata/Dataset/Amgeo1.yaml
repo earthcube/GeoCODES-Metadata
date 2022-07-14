@@ -1,0 +1,110 @@
+---
+'@type': sdo:Dataset
+
+
+# I'd recommend putting this information in sdo:description; then it will get displayed in the search results page.  
+sdo:about: AMGeO helps combine diverse high-latitude geospace observations. The purpose
+  of AMGeO is to make the latest geospace data science tool accessible to scientists
+  and students.
+# OK
+sdo:author:
+  '@type': sdo:Organization
+  sdo:email: amgeo@colorado.edu
+  sdo:logo: https://amgeo.colorado.edu/static/img/amgeosmall.svg
+  sdo:name: AMGeO
+  
+# this is a citation for a paper about the AMGeo platform; OK
+sdo:citation: "AMGeO Collaboration. (2019). A Collaborative Data Science Platform\
+  \ for the Geospace Community: Assimilative Mapping of Geospace Observations (AMGeO)\
+  \ v1.0.0. Zenodo. https://doi.org/10.5281/zenodo.3564914"
+  
+# this should have a description of what the dataset is-- what's it about, why created, lifecycle, provenance....
+#  alot of this can probably be templated boiler plate in the data series.
+sdo:description: AMGeO Assimilative Maps 
+# /provides measurements of ionosphereic condutivity.... other stuff. Results based on observations from ???
+# / presented data calculated using Ovation Pyme, other software? Data is 27 by 34 array of data vectors (properties 
+# / listed in variableMeasured section), represented as 64 bit floating point numbers. Sample points are spaced around 
+# / the globe from 50 degrees to 88.3 degrees north. [based on what I could glean from the data file...)
+
+# link is good
+sdo:distribution:
+  '@type': sdo:DataDownload
+  sdo:contentUrl: https://amgeo-dev.colorado.edu/static/data/03-17-2015-18-00-00.nc
+  sdo:encodingFormat: application/x-netcdf
+  #/ file identifies as HDF5 using HDFView 3.1.3; should the format be 'application/x-hdf5'
+
+#maybe add some keywords, ? magnetosphere, polar ionosphere,  ionospheric electrodynamics
+
+sdo:name: AMGeO Assimilative Maps for 2015-03-17T18:00:00
+
+#looking at the netCDF file content, looks like this should be a bounding box
+# see https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/Dataset.md#geoshape-location-extent
+#"spatialCoverage": {
+#    "@type": "Place",
+#    "geo": {
+#      "@type": "GeoShape",
+#      "box": "44.99975 0  88.33332 360"
+#    }
+#  }
+#}
+# I'm not at all sure that box geometry will work.. decimal degree boxes aren't very useful in
+#  polar regions; it will be interesting to see what happens... :)
+sdo:spatialCoverage:
+- '@type': sdo:Place
+  sdo:latitude: 49.99975367385476
+  sdo:longitude: 0
+- '@type': sdo:Place
+  sdo:latitude: 88.33332306974395
+  sdo:longitude: 360
+  
+# OK
+sdo:temporalCoverage: 2015-03-17T18:00:00
+
+# URL is returning a 404
+sdo:url: https://amgeo-dev.colorado.edu/static/data/03-17-2015-18-00-00.html
+
+
+sdo:variableMeasured:
+- '@type': sdo:PropertyValue
+  sdo:name: Electric Field (eastward)
+  sdo:unitText: V/m
+- '@type': sdo:PropertyValue
+  sdo:name: Electric Field (equatorward)
+  sdo:unitText: V/m
+  
+  # looks to me like the property is Hall Conductance and
+  # Ovation Pyme is the software & alorgithm used to calculate it
+  # I'd suggest adding sdo:measurementTechnique element (text value)
+  # that docuements that, something like what I put in below
+- '@type': sdo:PropertyValue
+  sdo:name: Ovation Pyme Hall Conductance
+  sdo:unitText: mho
+  # sdo:measurementTechnique: "Ovation Prime 2010, (described in Newell et al., 2009 and Newell et al. 2010) 
+  # / is a model which predicts the total energy flux, total number flux, and average characteristic energy 
+  # / of precipitating electrons and ions in the polar regions. The model is implemented by Ovation Pyme software
+  # / Ovation Pyme is a complete translation of the IDL (a proprietary programming language, owned by ExelisVis) 
+  # /  version released in an open source format on Sourceforge by Janet Machol, Rob Redmon and Nathan Case of 
+  # /  NOAA National Center for Environmental Information (NCEI). 
+  
+- '@type': sdo:PropertyValue
+  sdo:name: Ovation Pyme Pedersen Conductance
+  sdo:unitText: mho
+  
+  # is any other measurement technique information available?
+- '@type': sdo:PropertyValue
+# will everyone know what this potential is between?
+  sdo:name: Electric Potential
+  sdo:unitText: V
+- '@type': sdo:PropertyValue
+  sdo:name: Hemisphere Integrated Joule Heating
+  sdo:unitText: GW
+- '@type': sdo:PropertyValue
+  sdo:name: Joule Heating (E-field^2*Pedersen)
+  sdo:unitText: mW/m^2
+- '@type': sdo:PropertyValue
+  sdo:name: Ion Drift Velocity (eastward)
+  sdo:unitText: m/s
+- '@type': sdo:PropertyValue
+  sdo:name: Ion Drift Velocity (equatorward)
+  sdo:unitText: m/s
+sdo:version: v2_beta
