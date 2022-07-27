@@ -1,84 +1,219 @@
-@prefix schema: <https://schema.org/> .
+@prefix schema: <http://schema.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
-@prefix oihval: <https://oceans.collaborium.io/voc/validation/1.0.1/shacl#> .
+@prefix ecgeo: <https://geocodes.earthcube.org/validation/0.1/shacl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix soso: <http://science-on-schema.org/1.2.3/validation/shacl#> .
+@prefix datacite: <http://purl.org/spar/datacite/> .
 
-oihval:IDShape
+# copy from https://github.com/gleanerio/notebooks/blob/master/notebooks/validation/shapes/geocodes_v1.ttl
+# by Doug Fils to start work on GeoCODES schacl validation
+# SMR 2022-07-25
+# lean heavily on Doug Fils documentation for Ocean Info Hub!
+# change namespace from oihval: to ecgeo:
+
+	
+soso:DatasetNS1Shape
+    a sh:NodeShape ;
+    sh:targetClass <http://schema.orgDataset/> ;
+# check for missing backslash on namespace URI
+    sh:message "Expecting SO namespace of <http://schema.org/> not <http://schema.org>"@en ;
+	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
+    sh:not [
+        sh:path rdf:type ;
+        sh:minCount 1;
+    ].
+soso:DatasetNS2Shape
+    a sh:NodeShape ;
+# check for wrong http protocol (https)
+    sh:targetClass <https://schema.org/Dataset> ;
+    sh:message "Expecting SO namespace of <http://schema.org/> not <https://schema.org/>"@en ;
+	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
+    sh:not [
+        sh:path rdf:type ;
+        sh:minCount 1;
+    ].
+soso:DatasetNS3Shape
+    a sh:NodeShape ;
+    sh:targetClass <https://schema.orgDataset/> ;
+# check for wrong http protocol (https) and missing backslash on namespace URI
+    sh:message "Expecting SO namespace of <http://schema.org/> not <https://schema.org>"@en ;
+	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
+    sh:not [
+        sh:path rdf:type ;
+        sh:minCount 1;
+    ].				  
+
+soso:IDShape
     a sh:NodeShape ;
     sh:targetClass schema:Dataset ;
-    sh:message "Graph must have an ID"@en ;
+    sh:message "Metadata record must have an ID. use the @id property, value is a string that should be a URI identifying the metadata record."@en ;
     sh:description "https://book.oceaninfohub.org/validation/README.html" ;
     sh:nodeKind sh:IRI ;
     .
-
-oihval:DatasetCommonShape
+	
+ecgeo:GeoCODESDatasetCommonShape
     a sh:NodeShape ;
     sh:targetClass schema:Dataset ;
-    sh:message "OIH Learning Resource validation suite" ;
-    sh:description "https://book.oceaninfohub.org/validation/README.html" ;
+    sh:message "GeoCODES validation suite, for Datasets" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     sh:property
-        oihval:nameResourceProperty,
-        oihval:urlResourceProperty,
-        oihval:descriptionResourceProperty,
-        oihval:identifierProviderProperty,
-        oihval:keywordsResourceProperty,
-        oihval:licenseResourceProperty
-    .
+        ecgeo:nameProperty,
+        ecgeo:descriptionProperty,
+        ecgeo:licenseResourceProperty,
+        ecgeo:identifierProperty,
+        ecgeo:identifierTypeProperty,
+		ecgeo:identifierPropertyValueProperties,
+		ecgeo:accessLinkProperty,
+		ecgeo:distributionLinkProperty,
+		ecgeo:mainEntityProperty,
+		ecgeo:isAccessibleForFreeProperty
+		
+		
+ecgeo:GeoCODESDatasetRecommendedShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    sh:message "GeoCODES validation suite recommended properties, for Datasets" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;		
+#        ecgeo:keywordsResourceProperty,
+#        ecgeo:citationProperty,
+#        ecgeo:linkFormalMetadataProperty,
+#        ecgeo:otherIdentifierProperty,
+#        ecgeo:responsiblePartyProperty,
+#        ecgeo:registrationMetadataProperty,
+.
 
-oihval:nameResourceProperty
+ecgeo:nameProperty
     a sh:PropertyShape ;
     sh:path schema:name ;
     sh:nodeKind sh:Literal ;
     sh:minCount 1 ;
-    sh:message "Name is required "@en ;
-    sh:description "https://book.oceaninfohub.org/validation/README.html" ;
+	sh:minLength 15 ;
+    sh:message "Name is required for a Dataset; names must have at least 15 characters"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
-
-oihval:keywordsResourceProperty
-    a sh:PropertyShape ;
-    sh:path schema:keywords ;
-    sh:minCount 1 ;
-    sh:nodeKind sh:Literal ;
-    sh:severity sh:Warning ;
-    sh:message "A resource should include descriptive keywords" ;
-    sh:description "https://book.oceaninfohub.org/validation/README.html" ;
-    .
-
-oihval:licenseResourceProperty
-    a sh:PropertyShape ;
-    sh:path schema:license ;
-    sh:minCount 1 ;
-    sh:nodeKind sh:Literal ;
-    sh:severity sh:Info ;
-    sh:message "Though not required, it is good practice to include a license if one exists" ;
-    sh:description "https://book.oceaninfohub.org/validation/README.html" ;
-    .
-
-oihval:urlResourceProperty
-    a sh:PropertyShape ;
-    sh:path schema:url ;
-    sh:maxCount 1 ;
-    sh:minCount 1 ;
-    sh:nodeKind sh:IRIOrLiteral ;
-    sh:message "URL required for the location of the resource described by this metadata"@en ;
-    sh:description "https://book.oceaninfohub.org/validation/README.html" ;
-    .
-
-oihval:descriptionResourceProperty
+	
+ecgeo:descriptionProperty
     a sh:PropertyShape ;
     sh:path schema:description;
     sh:nodeKind sh:Literal ;
     sh:minCount 1 ;
-    sh:message "Resource must have a description"@en ;
-    sh:description "https://book.oceaninfohub.org/validation/README.html" ;
+	sh:minLength 50 ;
+	#description must be at least 50 characters
+    sh:message "Resource must have a description at least 50 characters long"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 
-oihval:identifierProviderProperty
+ecgeo:licenseResourceProperty
     a sh:PropertyShape ;
-    sh:path schema:provider;
+    sh:path schema:license ;
     sh:minCount 1 ;
-    sh:nodeKind sh:IRIOrLiteral ;
-    sh:message "A provider must be noted"@en ;
-    sh:description "https://book.oceaninfohub.org/validation/README.html" ;
+    sh:or (
+		[sh:class schema:CreativeWork ;]
+		[sh:nodeKind sh:IRIOrLiteral ;]
+          );
+    sh:message "license items must be a string, URL or schema:CreativeWork"@en ;
+    sh:severity sh:Warning ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 
+ecgeo:identifierProperty
+    a sh:PropertyShape ;
+    sh:path schema:identifier;
+    sh:minCount 1 ;
+    sh:or (
+        [ sh:nodeKind sh:Literal ; ]
+        [ sh:class schema:URL ; ]
+        [ sh:class schema:PropertyValue ; ]
+    );
+    sh:message "Dataset identifier is required and must be a URL, Text or PropertyValue"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+# display info message if identifier with type schema:PropertyValue is used
+ecgeo:identifierTypeProperty
+    a sh:PropertyShape ;
+    sh:path  schema:identifier ;
+	sh:not [
+        sh:path rdf:type ;
+		sh:hasValue schema:PropertyValue;		
+        sh:minCount 1;
+    ];
+    sh:severity sh:Info ;
+    sh:message "Although SOSO guidance allows PropertyValue to specify an identifier, GeoCODES recommends used of a plain literal or URI string. "@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:identifierPropertyValueProperties
+    a sh:PropertyShape ;
+	sh:path schema:identifier  ;
+# only want rule to catch if there is a PropertyValue identifier, not if its a literal... HOW?
+	sh:or (
+        [ sh:path schema:value;  sh:nodeKind sh:Literal ; ]
+        [ sh:path schema:url; sh:class schema:URL ; ] 
+	) ;
+#	sh:minCount 1;
+    sh:message "If identifier is specified with PropertyValue, then either a url or a value string with the identifier must be supplied"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+ecgeo:accessLinkProperty
+    a sh:PropertyShape ;
+    sh:path [sh:alternativePath ( schema:url   (schema:distribution [sh:oneOrMorePath schema:url] ) 
+            (schema:distribution [sh:oneOrMorePath schema:contentUrl] )	) ] ;
+	sh:minCount 1 ;
+	sh:or (
+		[sh:nodeKind sh:Literal ;]
+		[sh:class schema:URL ;]
+		) ; 
+	sh:message "some web location to access the resource or a representation of the resource must be provided"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:distributionLinkProperty
+    a sh:PropertyShape ;
+    sh:path [sh:alternativePath ( (schema:distribution  schema:url ) (schema:distribution schema:contentUrl) ) ] ;
+	sh:minCount 1 ;
+	sh:or (
+		[sh:nodeKind sh:Literal ;]
+		[sh:class schema:URL ; ]
+		) ; 
+	sh:message "a distribution MUST provide either a contentUrl for direct data download or a url to access a landing page or order form."@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:mainEntityProperty
+    a sh:PropertyShape ;
+    sh:path schema:mainEntity ;
+	sh:and (
+	  [sh:path rdf:type ;
+		sh:hasValue schema:CreativeWork ] 
+	 [sh:path schema:url ;
+	  sh:hasValue "http://schema.org/Dataset" ]
+	);
+	sh:severity sh:Info ;
+    sh:message "main entity is optional for Datasets, but is required to enable editing with EC GeoCODES JSON forms."@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:isAccessibleForFreeProperty
+    a sh:PropertyShape ;
+    sh:path schema:isAccessibleForFree ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:severity sh:Warning ;
+    sh:message "Should indicate if the dataset is accessible without monetary cost. True or False" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+# ecgeo:keywordsResourceProperty
+    # a sh:PropertyShape ;
+    # sh:path schema:keywords ;
+    # sh:minCount 1 ;
+    # sh:nodeKind sh:Literal ;
+    # sh:severity sh:Warning ;
+    # sh:message "A resource should include descriptive keywords" ;
+    # sh:description "https://book.oceaninfohub.org/validation/README.html" ;
+    # .
