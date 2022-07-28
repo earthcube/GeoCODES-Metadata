@@ -57,7 +57,7 @@ soso:IDShape
 ecgeo:GeoCODESDatasetCommonShape
     a sh:NodeShape ;
     sh:targetClass schema:Dataset ;
-    sh:message "GeoCODES validation suite, for Datasets" ;
+    sh:message "GeoCODES validation suite, mandatory properties for Datasets" ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     sh:property
         ecgeo:nameProperty,
@@ -68,22 +68,10 @@ ecgeo:GeoCODESDatasetCommonShape
 		ecgeo:identifierPropertyValueProperties,
 		ecgeo:accessLinkProperty,
 		ecgeo:distributionLinkProperty,
-		ecgeo:mainEntityProperty,
 		ecgeo:isAccessibleForFreeProperty
 		
 		
-ecgeo:GeoCODESDatasetRecommendedShape
-    a sh:NodeShape ;
-    sh:targetClass schema:Dataset ;
-    sh:message "GeoCODES validation suite recommended properties, for Datasets" ;
-    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;		
-#        ecgeo:keywordsResourceProperty,
-#        ecgeo:citationProperty,
-#        ecgeo:linkFormalMetadataProperty,
-#        ecgeo:otherIdentifierProperty,
-#        ecgeo:responsiblePartyProperty,
-#        ecgeo:registrationMetadataProperty,
-.
+
 
 ecgeo:nameProperty
     a sh:PropertyShape ;
@@ -94,7 +82,6 @@ ecgeo:nameProperty
     sh:message "Name is required for a Dataset; names must have at least 15 characters"@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
-	
 ecgeo:descriptionProperty
     a sh:PropertyShape ;
     sh:path schema:description;
@@ -105,7 +92,6 @@ ecgeo:descriptionProperty
     sh:message "Resource must have a description at least 50 characters long"@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
-
 ecgeo:licenseResourceProperty
     a sh:PropertyShape ;
     sh:path schema:license ;
@@ -118,7 +104,6 @@ ecgeo:licenseResourceProperty
     sh:severity sh:Warning ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
-
 ecgeo:identifierProperty
     a sh:PropertyShape ;
     sh:path schema:identifier;
@@ -208,12 +193,3 @@ ecgeo:isAccessibleForFreeProperty
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 	
-# ecgeo:keywordsResourceProperty
-    # a sh:PropertyShape ;
-    # sh:path schema:keywords ;
-    # sh:minCount 1 ;
-    # sh:nodeKind sh:Literal ;
-    # sh:severity sh:Warning ;
-    # sh:message "A resource should include descriptive keywords" ;
-    # sh:description "https://book.oceaninfohub.org/validation/README.html" ;
-    # .
