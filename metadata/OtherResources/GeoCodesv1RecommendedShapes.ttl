@@ -1,0 +1,127 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ecgeo: <https://geocodes.earthcube.org/validation/0.1/shacl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix soso: <http://science-on-schema.org/1.2.3/validation/shacl#> .
+@prefix datacite: <http://purl.org/spar/datacite/> .
+
+# copy from https://github.com/gleanerio/notebooks/blob/master/notebooks/validation/shapes/geocodes_v1.ttl
+# by Doug Fils to start work on GeoCODES schacl validation
+# SMR 2022-07-25
+# lean heavily on Doug Fils documentation for Ocean Info Hub!
+# change namespace from oihval: to ecgeo:
+
+		
+		
+ecgeo:GeoCODESDatasetRecommendedShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    sh:message "GeoCODES validation suite recommended properties, for Datasets" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;	
+    sh:property	
+		ecgeo:mainEntityProperty,
+        ecgeo:keywordsResourceProperty,
+		ecgeo:keywordsNoCommaProperty
+        ecgeo:citationProperty,
+        ecgeo:linkFormalMetadataProperty,
+        ecgeo:otherIdentifierProperty,
+        ecgeo:responsiblePartyProperty,
+#        ecgeo:spatialExtentProperty,
+#        ecgeo:temporalExtentProperty,
+#        ecgeo:variableMeasuredProperty,
+#        ecgeo:registrationMetadataProperty,
+.
+	
+ecgeo:mainEntityProperty
+    a sh:PropertyShape ;
+    sh:path schema:mainEntity ;
+	sh:and (
+	  [sh:path rdf:type ;
+		sh:hasValue schema:CreativeWork ] 
+	 [sh:path schema:url ;
+	  sh:hasValue "http://schema.org/Dataset" ]
+	);
+	sh:severity sh:Info ;
+    sh:message "main entity is optional for Datasets, but is required to enable editing with EC GeoCODES JSON forms."@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+ecgeo:keywordsResourceProperty
+    a sh:PropertyShape ;
+    sh:path schema:keywords ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:severity sh:Warning ;
+    sh:message "A resource should include descriptive keywords" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:keywordsNoCommaProperty
+#should throw warning if there is a comma character in a keyword string. Not working... ?WHY?
+    a sh:PropertyShape ;
+    sh:path schema:keywords ;
+	#regex for a string without a comma
+	sh:pattern "^(?!.+,).+" ;
+#	sh:maxCount 0; 
+    sh:severity sh:Warning ;
+    sh:message "If there are multiple keywords, they should be in an array; an individual keyword MUST not contain a comma character" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:citationProperty
+    a sh:PropertyShape ;
+    sh:path schema:citation ;
+    sh:severity sh:Info ;
+    sh:message "schema:citation is not recommended for use in GeoCODES because of semantic ambiguity. If you want to provide a recommended citation for the resource described by the record, use dct:bibliographicCitation; if you want to cite related resources, use schema:isRelatedTo." ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+ecgeo:linkFormalMetadataProperty
+    a sh:PropertyShape ;
+    sh:path schema:subjectOf ;
+    sh:and (
+	 [sh:path schema:encodingFormat ;
+	   sh:nodeKind sh:IRIOrLiteral ;
+    	sh:minCount 1 ] 
+
+	 [sh:path rdf:type ;
+		sh:hasValue schema:DataDownload  ] 
+
+	 [sh:path schema:contentUrl ;
+	  sh:nodeKind sh:IRIOrLiteral;
+    	sh:minCount 1] 
+     );
+    sh:severity sh:Info ;
+    sh:message "Optional linkage to a more complete, formal metadata record is via schema:subjectOf. The value must be DataDownload with a contentURL to get the formal metadatarecord, and an identifier for the metadata scheme is the encodingFormat property." ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:otherIdentifierProperty
+    a sh:PropertyShape ;
+    sh:path schema:sameAs ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRIOrLiteral ;
+    sh:severity sh:Info ;
+    sh:message "Optional: Provide other identifiers as an array of strings or URIs" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:responsiblePartyProperty
+    a sh:PropertyShape ;
+    sh:path [sh:alternativePath ( schema:creator schema:editor schema:contributor  schema:publisher ) ];
+	
+	
+    [sh:path schema:name ;
+	   sh:nodeKind sh:IRIOrLiteral ;
+    	sh:minCount 1 ] ;
+		
+    [sh:path rdf:type ;
+		sh:hasValue sh:or (schema:Person schema:Organization) ] ;
+	
+    sh:severity sh:Info ;
+    sh:message "Optional: Recommended practice is to identify at least one responsible party as the source authority for the dataset. Options include  creator, editor, contributor, or publisher. Each is either a schema:Person or schema:Organization and MUST have at least a name." ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
