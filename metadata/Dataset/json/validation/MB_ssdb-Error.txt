@@ -1,0 +1,23 @@
+ssdb.iodb_127708 contains two Dataset JSON object, is not syntatically valid JSON
+
+separate into two records:
+MB_ssdb.WI-JMR-08-1045.json 
+and
+MB_ssdb.K7_vel.jpeg.json
+
+context should be 
+"@context": {"@vocab": "http://schema.org/"},
+
+@id is same as the distribution URL-- not a meta data record identifier.
+
+distirbution is misspelled
+
+distribution contentUrl is landing page that requires account to login, should be url, not contentUrl. 
+  "distribution": {
+    "@type": "DataDownload",
+    "url": "https://ssdb.iodp.org/secureGetObj.php?id=127708",
+    "encodingFormat": "text/plain",
+	"description":"landing page for IODP, requires account to login. Accounts are free, but require registration."
+  },
+  
+  GeoShape for spatial coverage is a line, not sure what's going to happen to that when GeoCODES harvests...

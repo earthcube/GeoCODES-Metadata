@@ -1,0 +1,30 @@
+context should be "@vocab":"http://schema.org"
+@id identifies the project/program, not the metdata record. 
+
+the metdata records is about a repository, not a dataset. shouldn't be in dataset index. Dataset is not one of the @type values-- GeoCODES should reject or index repositories as a different resource. 
+main entity should be:
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "name": "Repository",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000209"
+        }
+    ],
+
+use of "PropertyValue for identifier is not very useful; I've recommended just using the URI in the geoCODES recommendations.
+
+funder--
+replace with 'funding'. This is update to schema based on new schema.org element 
+"funding":{
+ "@type":"MonetaryGrant",
+ "funder": {
+    "@type": "Organization",
+    "name": "Division of Ocean Sciences",
+    "alternateName": "OCE",
+    "url": "https://www.nsf.gov/div/index.jsp?div=OCE",
+    "identifier":  "https://doi.org/10.13039/100000141"
+    }
+	},
+	
+	
+'category' should be 'keywords'
