@@ -1,6 +1,5 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-
     "type": "object",
     "title": "Dataset metadata schema",
     "description": "JSON schema for JSON-LD documents that describe science datasets, based on Google guide for publishers (https://developers.google.com/search/docs/data-types/dataset), and the Earth Science Information Partners (ESIP) Science on Schema.org recommendations v1.3 prerelease (see https://doi.org/10.5281/zenodo.2628755 dataset.md for current recommendations document). The Google guide asserts only two required fields - name and description. The Google guide suggests the following recommended fields: url, sameAs, version, isAccessibleForFree, keywords, identifeir and variableMeasured. Created by Stephen Richard 2022-05-04; tested with validation of schema.org metadata from GeoCODES for magic, opentopo, earthchem, bco-dmo and hydroshare. This schema handles as many vagaries as possible found in actual metadata downloaded from GeoCodes. See GeoCodesDataset-schema-ecrr.json that removes some of the complexity work better with the JSONforms tools used to build the editor UI",
@@ -9,7 +8,7 @@
             "title": "JSON-LD context",
             "description": "context defines mapping from JSON keys to URIs; default is the schema.org vocabulary only",
             "type": "object",
-            "default": "{&quot;@vocab&quot;: &quot;https://schema.org/&quot;}"
+            "default": "{&quot;@vocab&quot;: &quot;http://schema.org/&quot;}"
         },
         "@id": {
             "type": "string",
@@ -32,15 +31,15 @@
                 }
             ]
         },
-         "name": {
+        "name": {
             "type": "string",
             "description": "A descriptive name of a dataset (e.g., 'Snow depth in Northern Hemisphere')"
         },
-         "description": {
+        "description": {
             "type": "string",
             "description": "A short summary describing a dataset. This text will be indexed by search applications, so the more information here, the better."
         },
-         "identifier": {
+        "identifier": {
             "description": "The primary identifier for the dataset; other identifiers should be listed in the sameAs field. Schema.org has three ways of encoding identifiers-- a text description, a URL, or by using the schema:PropertyValue field. The Science on Schema.org guidance strongly recommends using the PropertyValue approach. see https://github.com/ESIPFed/science-on-schema.org   .... Dataset.md#identifier.  Ideally, for any given data provided they would provide identifiers either all as strings or all as identifier_type.  Dataset identifiers must be a URL, Text or PropertyValue&quot;",
             "oneOf": [
                 {"$ref": "#/definitions/identifier_type"},
@@ -56,16 +55,16 @@
                     }
                 }
             ]
-        },       
+        },
         "alternateName": {
-             "oneOf": [
-             {"type": "string"},
-             {"type":"array",
-             "description":"add for compatibility with ECRR metadata",
-             "items":{
-                 "type":"string"}
-             }
-             ],
+            "oneOf": [
+                {"type": "string"},
+                {
+                    "type": "array",
+                    "description": "add for compatibility with ECRR metadata",
+                    "items": {"type": "string"}
+                }
+            ],
             "description": "Other label strings that are used to identify the dataset, e.g. in different languages"
         },
         "url": {
@@ -161,7 +160,8 @@
                     "items": {
                         "anyOf": [
                             {"type": "string"},
-                            {"type": "object",
+                            {
+                                "type": "object",
                                 "properties": {
                                     "@id": {
                                         "type": "string",
@@ -272,16 +272,14 @@
         },
         "subjectOf": {
             "description": "link to other metadata records that may be more complete or that conform to metadata formats and vocabularies that might be useful. For example, repositories often contain detailed records in ISO TC 211 formats, EML, and other formats. Aggregators and other consumers can make use of this additional metadata if they are linked in a standardized way to the schema.org record. We recommend that the location of the alternative forms of the metadata be provided using the schema:subjectOf and schema:about properties:\n\nLink metadata documents to a schema:Dataset by using schema:subjectOf. - Or if a schema.org snippet describes the metadata as the main resource, then link to the Dataset it describes using schema:about.",
-            "oneOf": [
-                {"$ref": "#/definitions/subjectOf_type"},
-                {
-                    "type": "array",
-                    "items": {"$ref": "#/definitions/subjectOf_type"}
-                }
-            ]
+            "type": "array",
+            "items": {
+                "oneOf": [
+                    {"$ref": "#/definitions/formalMetadataLink_type"},
+                    {"$ref": "#/definitions/creativeWork_type"}
+                ]
+            }
         },
-
-
         "additionalType": {
             "description": "identifiers for datatypes from other vocabularies (not schema.org) that apply to this metadata.",
             "oneOf": [
@@ -292,7 +290,7 @@
                     "items": {"type": "string"}
                 }
             ]
-        }, 
+        },
         "sameAs": {
             "description": "other identifiers for this dataset",
             "oneOf": [
@@ -408,7 +406,7 @@
             ]
         },
         "spatialCoverage": {
-            "oneOf": [
+            "anyOf": [
                 {"$ref": "#/definitions/spatialCoverage_type"},
                 {
                     "type": "array",
@@ -467,8 +465,7 @@
         "@type",
         "@context",
         "name",
-        "description",
-        "url"
+        "description"
     ],
     "definitions": {
         "action_type": {
@@ -478,7 +475,7 @@
                 "@type": {
                     "type": "string",
                     "default": "Action",
-                    "const": "Action"
+                    "enum": ["Action","SearchAction"]
                 },
                 "name": {
                     "type": "string",
@@ -582,6 +579,7 @@
         },
         "object_type": {
             "type": "object",
+            "description": "type for object that represents the resource upon which an action is invoked",
             "properties": {
                 "@type": {
                     "type": "string",
@@ -590,24 +588,28 @@
                 },
                 "description": {"type": "string"},
                 "variableMeasured": {
-                    "type": "object",
-                    "properties": {
-                        "@type": {
-                            "type": "string",
-                            "default": "PropertyValue",
-                            "const": "PropertyValue"
-                        },
-                        "name": {
-                            "type": "string",
-                            "description": "name of the variable"
-                        },
-                        "description": {
-                            "type": "string",
-                            "description": "example of documentation for a varible provided in the result.dataDownload"
-                        },
-                        "propertyID": {
-                            "type": "string",
-                            "description": "URI for the property in some ontology"
+                    "description": "these are the variables represented in the data that is the object of a request",
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "@type": {
+                                "type": "string",
+                                "default": "PropertyValue",
+                                "const": "PropertyValue"
+                            },
+                            "name": {
+                                "type": "string",
+                                "description": "name of the variable"
+                            },
+                            "description": {
+                                "type": "string",
+                                "description": "example of documentation for a varible provided in the result.dataDownload"
+                            },
+                            "propertyID": {
+                                "type": "string",
+                                "description": "URI for the property in some ontology"
+                            }
                         }
                     }
                 },
@@ -765,7 +767,7 @@
                     "default": "Place"
                 },
                 "geo": {
-                    "oneOf": [
+                    "anyOf": [
                         {
                             "type": "object",
                             "description": "A point location. Point locations are recommended for data that is associated with specific sample locations, particularly if these are widely spaced such that an enclosing bounding box would be a misleading representation of the spatial location. Be aware that some client applications might only index or display bounding box extents or a single point location.",
@@ -788,52 +790,39 @@
                                     "const": "GeoShape",
                                     "default": "GeoShape"
                                 },
-                                "line": {"type": "string"},
+                                "line": {"type": "string"}
+                            }
+                         },
+                        {
+                            "type": "object",
+                            "description": "A schema:GeoShape can describe spatial coverage as a line (e.g. a ship track), a bounding box, a polygon, or a circle. The geometry is described with a set of latitude/longitude pairs (in that order).The documentation for schema:GeoShape states 'Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points.'",
+                            "properties": {
+                                "@type": {
+                                    "type": "string",
+                                    "const": "GeoShape",
+                                    "default": "GeoShape"
+                                },
                                 "polygon": {
                                     "type": "string",
                                     "description": "a series of four or more points where the first and final points are identical."
+                                }
+                                }
+              
+                        },
+                        {
+                            "type": "object",
+                            "description": "A schema:GeoShape can describe spatial coverage as a line (e.g. a ship track), a bounding box, a polygon, or a circle. The geometry is described with a set of latitude/longitude pairs (in that order).The documentation for schema:GeoShape states 'Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points.'",
+                            "properties": {
+                                "@type": {
+                                    "type": "string",
+                                    "const": "GeoShape",
+                                    "default": "GeoShape"
                                 },
                                 "box": {
                                     "type": "string",
                                     "description": "A GeoShape box defines an area on the surface of the earth defined by point locations of the southwest corner and northeast corner of the rectangle in latitude-longitude coordinates. A space should be used to separate the latitude and longitude values. The two corner coordinate points are separated by a space. 'East longitude' means positive longitude values are east of the prime (Greenwich) meridian."
                                 }
-                            },
-                            "anyOf": [
-                                {
-                                    "required": [
-                                        "@type",
-                                        "line"
-                                    ],
-                                    "not": {
-                                        "anyOf": [
-                                            {
-                                                "required": ["polygon"]
-                                            },
-                                            {
-                                                "required": ["box"]
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "required": [
-                                        "@type",
-                                        "polygon"
-                                    ],
-                                    "not": {
-                                        "required": ["line"]
-                                    }
-                                },
-                                {
-                                    "required": [
-                                        "@type",
-                                        "box"
-                                    ],
-                                    "not": {
-                                        "required": ["line"]
-                                    }
-                                }
-                            ]
+                            }
                         }
                     ]
                 }
@@ -966,9 +955,9 @@
                 "name"
             ]
         },
-        "subjectOf_type": {
+        "formalMetadataLink_type": {
             "type": "object",
-            "description": "Link to the location of the alternative forms of the metadata. Many providers have other metadata records that may be more complete or that conform to other metadata formats and vocabularies that might be useful. For example, repositories often contain detailed records in ISO TC 211 formats, EML, and other formats. Aggregators and other consumers can make use of this additional metadata if they are linked in a standardized way to the schema.org record. ",
+            "description": "In ESIPfed SOSO recommendations, this is link to the location of the alternative forms of the metadata. In actual instance data, this element is commonly used to link to other resources that are about the described dataset but might be images, narrative text, etc.  ",
             "properties": {
                 "@id": {"type": "string"},
                 "@type": {
