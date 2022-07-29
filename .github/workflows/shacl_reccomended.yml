@@ -13,7 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: set-matrix
-        FILES:
         run: |
           FILES=$( echo $(ls metadata/Dataset/json/*.json | jq -R -s -c 'split("\n")[:-1]') )
           echo "::set-output name=matrix::FILES"
