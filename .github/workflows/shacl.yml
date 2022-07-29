@@ -1,0 +1,18 @@
+name: shacl
+
+on:
+  workflow_dispatch:
+  push:
+    branches-ignore: [ 'gh-pages'  ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Validate against SHACL shape
+        uses: konradhoeffner/shacl@master
+        with:
+          shacl: metadata/OtherResources/GeoCodesv1Shapes.ttl
+          data: metadata/Dataset/**
