@@ -15,7 +15,7 @@ jobs:
       - id: set-matrix
         run: |
           FILES=$( echo $(ls metadata/Dataset/json/*.json | jq -R -s -c 'split("\n")[:-1]') )
-          echo "::set-output name=matrix::FILES"
+          echo "::set-output name=matrix::$FILES"
 
   test:
     needs: list-files
