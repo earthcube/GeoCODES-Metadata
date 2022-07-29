@@ -18,7 +18,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
-      matrix: { jsonfile: ${{ fromJson(needs.list-manifests.outputs.matrix) }} }
+      matrix:
+        jsonfile: ${{ fromJson(needs.list-files.outputs.matrix) }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
