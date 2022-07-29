@@ -18,6 +18,7 @@ jobs:
           echo "::set-output name=matrix::FILES"
 
   test:
+    needs: list-files
     runs-on: ubuntu-latest
     strategy:
       matrix:
