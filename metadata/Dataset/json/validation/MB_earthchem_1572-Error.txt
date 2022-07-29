@@ -1,0 +1,49 @@
+System ID: MB_earthchem_1572.json
+Main validation file: MB_earthchem_1572.json
+Schema: GeoCodes-DatasetSchema.json
+
+Severity: error
+Description: #/spatialCoverage: expected type: JSONArray, found: JSONObject
+Start location: 91:3
+End location: 91:20
+ACTION-- there is no content in the spatialCoverElement-- remove
+
+Severity: error
+Description: #/spatialCoverage/geo: expected type: JSONObject, found: JSONArray
+Start location: 92:5
+End location: 92:10
+
+Severity: error
+Description: #/spatialCoverage/geo: subject must not be valid against schema {"anyOf":[{"required":["polygon"]},{"required":["box"]}]}
+Start location: 92:5
+End location: 92:10
+
+Severity: error
+Description: #/spatialCoverage/geo: subject must not be valid against schema {"required":["line"]}
+Start location: 92:5
+End location: 92:10
+
+Severity: error
+Description: #/funder: expected type: JSONArray, found: JSONObject
+Start location: 96:3
+End location: 96:11
+ACTION-- funder value should be a string (identifier for an agent), a schema:Person, or a schema:Organization.
+the fundedItem is just the DOI for the dataset, so this element is not providing any useful information e.g. grant name, grant ID, funding agency.  remove it, or replace 
+  "funder": {
+    "@type": "MonetaryGrant",
+    "fundedItem": {
+      "@id": "https://doi.org/10.26022/IEDA/111572"
+    }
+  }
+ with
+     "funding": [
+        {"@type": "MonetaryGrant"}
+    ]
+	
+	which would only say that the funding was a MonetaryGrant from somewhere...
+	
+NOTEs-- @id should identify the metadata record, don't use the DOI for the dataset--that identifies the dataset. Suggest somethign like  "@id": "metadata:10.26022/IEDA/111572", or use the internal metadata record identifier from the IEDA database.
+
+Schema looks for 'creator' not 'author'; these are considered conceputally equivalent, and choosing one or the other (i.e. 'creator') is for interoperability.
+
+the distribution/contentUrl gets a landing page, not the actual data, so it should be distribution/url

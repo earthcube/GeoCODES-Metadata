@@ -1,0 +1,43 @@
+System ID: MB_designsafe_PRJ-2137.json
+Main validation file: MB_designsafe_PRJ-2137.json
+Schema: GeoCodes-DatasetSchema.json
+
+
+Severity: error
+Description: #/@context: expected type: JSONObject, found: String
+Start location: 2:3
+End location: 2:13
+
+ACTION-- replace "@context": "http://schema.org", with 
+"@context": {"@vocab":"http://schema.org"},
+
+Severity: error
+Description: #/creator: expected type: JSONObject, found: JSONArray
+Start location: 8:3
+End location: 8:12
+
+
+Severity: error
+Description: #/creator/0/@type: 
+Start location: 10:7
+End location: 10:14
+
+Severity: error
+Description: #/creator/0/@type: Person is not a valid value. Expected: [EducationalOrganization, Corporation, Project, GovernmentOrganization, Organization, FundingAgency, FundingScheme, NGO, Consortium, ResearchOrganization]
+Start location: 10:7
+End location: 10:14
+
+Severity: error
+Description: #/creator/0/affiliation: expected type: JSONObject, found: String
+Start location: 12:7
+End location: 12:20
+ACTION-- replace "affiliation":"George Washington University" with
+"affiliation": {
+                "@type": "Organization",
+                "name": "George Washington University"
+            }
+			
+creator now validates.
+NOTE 'author' is redundant with 'creator' and is not specified in the JSON schema
+
+NOTE-- there is no distribution information here, or a landing page url,should fail validation but can't express validation constrin with JSON schema.

@@ -1,0 +1,11 @@
+context should be http://schema.org:
+replace 
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+ with
+   "@context": {
+    "@vocab": "http://schema.org/"
+  },
+  
+  otherwise a  good record. Would be good to add variableMeasured...
