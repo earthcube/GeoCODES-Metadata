@@ -6,8 +6,19 @@ on:
     branches-ignore: [ 'gh-pages'  ]
 
 jobs:
+  list-files:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: set-matrix
+        run: echo "::set-output name=matrix::$(ls metadata/Dataset/json/*.json | jq -R -s -c 'split("\n")[:-1]')"
+
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix: { jsonfile: ${{ fromJson(needs.list-manifests.outputs.matrix) }} }
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -15,4 +26,4 @@ jobs:
         uses: konradhoeffner/shacl@master
         with:
           shacl: metadata/OtherResources/GeoCodesv1RecommendedShapes.ttl
-          data: metadata/Dataset/json/**
+          data:  ${{ martix.jsonfile }}
