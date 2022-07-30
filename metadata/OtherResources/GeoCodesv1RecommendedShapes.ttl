@@ -28,7 +28,7 @@ ecgeo:GeoCODESDatasetRecommendedShape
         ecgeo:citationProperty,
         ecgeo:linkFormalMetadataProperty,
         ecgeo:otherIdentifierProperty,
-        ecgeo:responsiblePartyProperty,
+        ecgeo:responsiblePartyProperty
 #        ecgeo:spatialExtentProperty,
 #        ecgeo:temporalExtentProperty,
 #        ecgeo:variableMeasuredProperty,
@@ -40,7 +40,7 @@ ecgeo:mainEntityProperty
     sh:path schema:mainEntity ;
 	sh:and (
 	  [sh:path rdf:type ;
-		sh:hasValue schema:CreativeWork ],
+		sh:hasValue schema:CreativeWork ]
 	 [sh:path schema:url ;
 	  sh:hasValue "http://schema.org/Dataset" ]
 	);
@@ -113,13 +113,12 @@ ecgeo:responsiblePartyProperty
     a sh:PropertyShape ;
     sh:path [sh:alternativePath ( schema:creator schema:editor schema:contributor  schema:publisher ) ];
 
+#    sh:path [schema:name ;
+#	   sh:nodeKind sh:IRIOrLiteral ;
+#    	sh:minCount 1 ] ;
 
-    [sh:path schema:name ;
-	   sh:nodeKind sh:IRIOrLiteral ;
-    	sh:minCount 1 ] ;
-
-    [sh:path rdf:type ;
-		sh:hasValue sh:or (schema:Person schema:Organization) ] ;
+#    sh:path [rdf:type ;
+#		sh:hasValue sh:or (schema:Person schema:Organization) ] ;
 
     sh:severity sh:Info ;
     sh:message "Optional: Recommended practice is to identify at least one responsible party as the source authority for the dataset. Options include  creator, editor, contributor, or publisher. Each is either a schema:Person or schema:Organization and MUST have at least a name." ;
