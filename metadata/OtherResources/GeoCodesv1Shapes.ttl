@@ -14,7 +14,7 @@
 # lean heavily on Doug Fils documentation for Ocean Info Hub!
 # change namespace from oihval: to ecgeo:
 
-	
+
 soso:DatasetNS1Shape
     a sh:NodeShape ;
     sh:targetClass <http://schema.orgDataset/> ;
@@ -44,7 +44,7 @@ soso:DatasetNS3Shape
     sh:not [
         sh:path rdf:type ;
         sh:minCount 1;
-    ].				  
+    ].
 
 soso:IDShape
     a sh:NodeShape ;
@@ -53,7 +53,7 @@ soso:IDShape
     sh:description "https://book.oceaninfohub.org/validation/README.html" ;
     sh:nodeKind sh:IRI ;
     .
-	
+
 ecgeo:GeoCODESDatasetCommonShape
     a sh:NodeShape ;
     sh:targetClass schema:Dataset ;
@@ -69,8 +69,8 @@ ecgeo:GeoCODESDatasetCommonShape
 		ecgeo:accessLinkProperty,
 		ecgeo:distributionLinkProperty,
 		ecgeo:isAccessibleForFreeProperty
-		
-		
+.
+
 
 
 ecgeo:nameProperty
@@ -123,21 +123,21 @@ ecgeo:identifierTypeProperty
     sh:path  schema:identifier ;
 	sh:not [
         sh:path rdf:type ;
-		sh:hasValue schema:PropertyValue;		
+		sh:hasValue schema:PropertyValue;
         sh:minCount 1;
     ];
     sh:severity sh:Info ;
     sh:message "Although SOSO guidance allows PropertyValue to specify an identifier, GeoCODES recommends used of a plain literal or URI string. "@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
-	
+
 ecgeo:identifierPropertyValueProperties
     a sh:PropertyShape ;
 	sh:path schema:identifier  ;
 # only want rule to catch if there is a PropertyValue identifier, not if its a literal... HOW?
 	sh:or (
         [ sh:path schema:value;  sh:nodeKind sh:Literal ; ]
-        [ sh:path schema:url; sh:class schema:URL ; ] 
+        [ sh:path schema:url; sh:class schema:URL ; ]
 	) ;
 #	sh:minCount 1;
     sh:message "If identifier is specified with PropertyValue, then either a url or a value string with the identifier must be supplied"@en ;
@@ -146,17 +146,17 @@ ecgeo:identifierPropertyValueProperties
 
 ecgeo:accessLinkProperty
     a sh:PropertyShape ;
-    sh:path [sh:alternativePath ( schema:url   (schema:distribution [sh:oneOrMorePath schema:url] ) 
+    sh:path [sh:alternativePath ( schema:url   (schema:distribution [sh:oneOrMorePath schema:url] )
             (schema:distribution [sh:oneOrMorePath schema:contentUrl] )	) ] ;
 	sh:minCount 1 ;
 	sh:or (
 		[sh:nodeKind sh:Literal ;]
 		[sh:class schema:URL ;]
-		) ; 
+		) ;
 	sh:message "some web location to access the resource or a representation of the resource must be provided"@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
-	
+
 ecgeo:distributionLinkProperty
     a sh:PropertyShape ;
     sh:path [sh:alternativePath ( (schema:distribution  schema:url ) (schema:distribution schema:contentUrl) ) ] ;
@@ -164,17 +164,17 @@ ecgeo:distributionLinkProperty
 	sh:or (
 		[sh:nodeKind sh:Literal ;]
 		[sh:class schema:URL ; ]
-		) ; 
+		) ;
 	sh:message "a distribution MUST provide either a contentUrl for direct data download or a url to access a landing page or order form."@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
-	
+
 ecgeo:mainEntityProperty
     a sh:PropertyShape ;
     sh:path schema:mainEntity ;
 	sh:and (
 	  [sh:path rdf:type ;
-		sh:hasValue schema:CreativeWork ] 
+		sh:hasValue schema:CreativeWork ]
 	 [sh:path schema:url ;
 	  sh:hasValue "http://schema.org/Dataset" ]
 	);
@@ -182,7 +182,7 @@ ecgeo:mainEntityProperty
     sh:message "main entity is optional for Datasets, but is required to enable editing with EC GeoCODES JSON forms."@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
-	
+
 ecgeo:isAccessibleForFreeProperty
     a sh:PropertyShape ;
     sh:path schema:isAccessibleForFree ;
@@ -192,4 +192,3 @@ ecgeo:isAccessibleForFreeProperty
     sh:message "Should indicate if the dataset is accessible without monetary cost. True or False" ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
-	

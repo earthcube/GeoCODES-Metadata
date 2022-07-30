@@ -6,8 +6,23 @@ on:
     branches-ignore: [ 'gh-pages'  ]
 
 jobs:
-  test:
+  list-files:
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: set-matrix
+        run: |
+          FILES=$( echo $(ls metadata/Dataset/json/*.json | jq -R -s -c 'split("\n")[:-1]') )
+          echo "::set-output name=matrix::$FILES"
+
+  test:
+    needs: list-files
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        jsonfile: ${{ fromJson(needs.list-files.outputs.matrix) }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
