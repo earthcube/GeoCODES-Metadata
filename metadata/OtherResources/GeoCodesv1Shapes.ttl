@@ -60,7 +60,7 @@ ecgeo:GeoCODESDatasetCommonShape
     sh:message "GeoCODES validation suite, mandatory properties for Datasets" ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     sh:property
-        ecgeo:nameProperty,
+        ecgeo:datasetNameProperty,
         ecgeo:descriptionProperty,
         ecgeo:licenseResourceProperty,
         ecgeo:identifierProperty,
@@ -69,17 +69,14 @@ ecgeo:GeoCODESDatasetCommonShape
 		ecgeo:accessLinkProperty,
 		ecgeo:distributionLinkProperty,
 		ecgeo:isAccessibleForFreeProperty
+	.
 		
-		
-
-
-ecgeo:nameProperty
+ecgeo:datasetNameProperty
     a sh:PropertyShape ;
     sh:path schema:name ;
     sh:nodeKind sh:Literal ;
-    sh:minCount 1 ;
 	sh:minLength 15 ;
-    sh:message "Name is required for a Dataset; names must have at least 15 characters"@en ;
+    sh:message "Name is required; Dataset names must have at least 15 characters"@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 ecgeo:descriptionProperty
@@ -95,7 +92,7 @@ ecgeo:descriptionProperty
 ecgeo:licenseResourceProperty
     a sh:PropertyShape ;
     sh:path schema:license ;
-    sh:minCount 1 ;
+   sh:minCount 1 ;
     sh:or (
 		[sh:class schema:CreativeWork ;]
 		[sh:nodeKind sh:IRIOrLiteral ;]
@@ -122,9 +119,8 @@ ecgeo:identifierTypeProperty
     a sh:PropertyShape ;
     sh:path  schema:identifier ;
 	sh:not [
-        sh:path rdf:type ;
-		sh:hasValue schema:PropertyValue;		
-        sh:minCount 1;
+        sh:class schema:PropertyValue;		
+#        sh:minCount 1;
     ];
     sh:severity sh:Info ;
     sh:message "Although SOSO guidance allows PropertyValue to specify an identifier, GeoCODES recommends used of a plain literal or URI string. "@en ;
@@ -169,19 +165,6 @@ ecgeo:distributionLinkProperty
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 	
-ecgeo:mainEntityProperty
-    a sh:PropertyShape ;
-    sh:path schema:mainEntity ;
-	sh:and (
-	  [sh:path rdf:type ;
-		sh:hasValue schema:CreativeWork ] 
-	 [sh:path schema:url ;
-	  sh:hasValue "http://schema.org/Dataset" ]
-	);
-	sh:severity sh:Info ;
-    sh:message "main entity is optional for Datasets, but is required to enable editing with EC GeoCODES JSON forms."@en ;
-    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
-    .
 	
 ecgeo:isAccessibleForFreeProperty
     a sh:PropertyShape ;
