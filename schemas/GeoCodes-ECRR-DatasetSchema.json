@@ -930,12 +930,12 @@
         "citationType": {
             "type": "object",
             "properties": {
-                "name": {"type": "string"},
                 "@type": {
                     "type": "string",
                     "default": "PropertyValue",
                     "const": "PropertyValue"
                 },
+                "name": {"type": "string"},
                 "propertyID": {
                     "type": "string",
                     "default": "dct:bibliographicCitation",
