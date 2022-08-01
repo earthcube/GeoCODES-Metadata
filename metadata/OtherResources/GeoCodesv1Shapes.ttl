@@ -13,38 +13,43 @@
 # SMR 2022-07-25
 # lean heavily on Doug Fils documentation for Ocean Info Hub!
 # change namespace from oihval: to ecgeo:
-
 	
-soso:DatasetNS1Shape
-    a sh:NodeShape ;
-    sh:targetClass <http://schema.orgDataset/> ;
-# check for missing backslash on namespace URI
-    sh:message "Expecting SO namespace of <http://schema.org/> not <http://schema.org>"@en ;
-	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
-    sh:not [
-        sh:path rdf:type ;
-        sh:minCount 1;
-    ].
-soso:DatasetNS2Shape
+ecgeo:DatasetNS2Shape
     a sh:NodeShape ;
 # check for wrong http protocol (https)
-    sh:targetClass <https://schema.org/Dataset> ;
-    sh:message "Expecting SO namespace of <http://schema.org/> not <https://schema.org/>"@en ;
 	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
-    sh:not [
-        sh:path rdf:type ;
-        sh:minCount 1;
-    ].
-soso:DatasetNS3Shape
+	sh:targetClass <https://schema.org/Dataset>;
+	sh:property [
+		sh:path [sh:inversePath rdf:type ];
+		sh:minCount 1;
+        sh:message "Expecting SO namespace of <http://schema.org/> not <https://schema.org/>"@en ;
+	]	
+	.
+
+	
+ecgeo:DatasetNS1Shape
     a sh:NodeShape ;
-    sh:targetClass <https://schema.orgDataset/> ;
-# check for wrong http protocol (https) and missing backslash on namespace URI
-    sh:message "Expecting SO namespace of <http://schema.org/> not <https://schema.org>"@en ;
+# check for missing backslash on namespace URI
 	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
-    sh:not [
-        sh:path rdf:type ;
-        sh:minCount 1;
-    ].				  
+	sh:targetClass <http://schema.orgDataset>;
+	sh:property [
+		sh:path [sh:inversePath rdf:type ];
+		sh:minCount 1;
+		sh:message "Expecting SO namespace of <http://schema.org/> not <http://schema.org>"@en ;
+	]
+	.
+
+ecgeo:DatasetNS3Shape
+    a sh:NodeShape ;
+# check for wrong http protocol (https) and missing backslash on namespace URI
+	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
+	sh:targetClass <https://schema.orgDataset>;
+	sh:property [
+		sh:path [sh:inversePath rdf:type ];
+		sh:minCount 1;
+		sh:message "Expecting SO namespace of <http://schema.org/> not <https://schema.org>"@en ;
+	]
+	.				  
 
 soso:IDShape
     a sh:NodeShape ;
