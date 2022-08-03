@@ -1,11 +1,8 @@
 {
-    "@context": [
-        "https://schema.org/",
-        {
+    "@context": {"@vocab": "http://schema.org/",
             "prov": "http://www.w3.org/ns/prov#",
             "provone": "http://purl.dataone.org/provone/2015/01/15/ontology#"
-        }
-    ],
+        },
     "@type": ["Dataset"],
     "@id": "metadata-doi:10.17882/42182",
     "mainEntity": [
@@ -37,7 +34,7 @@
     ],
     "publisher": {
         "@type": "Organization",
-        "name": "SEANOE",
+        "name": "SEANOE (SEA scieNtific Open data Edition)",
         "url": "https://www.seanoe.org/",
         "disambiguatingDescription": "Sea scientific open data publication",
         "logo": "https://www.seanoe.org/html/images/seanoe-share.png",
