@@ -31,9 +31,8 @@ ecgeo:GeoCODESDatasetRecommendedShape
         ecgeo:linkFormalMetadataProperty,
         ecgeo:otherIdentifierProperty,
         ecgeo:responsiblePartyProperty,
-        ecgeo:spatialExtentProperty,
-        ecgeo:temporalExtentProperty,
-        ecgeo:variableMeasuredProperty
+        ecgeo:datePublishedProperty
+
 .
 
 ecgeo:GeoCODESPersonShape
@@ -122,8 +121,7 @@ ecgeo:linkFormalMetadataProperty
 	   sh:nodeKind sh:IRIOrLiteral ;
     	sh:minCount 1 ] 
 
-	 [sh:path rdf:type ;
-		sh:hasValue schema:DataDownload  ] 
+	 [sh:class schema:DataDownload  ] 
 
 	 [sh:path schema:contentUrl ;
 	  sh:nodeKind sh:IRIOrLiteral;
