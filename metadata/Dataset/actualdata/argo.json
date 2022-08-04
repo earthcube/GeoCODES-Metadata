@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@vocab": "https://schema.org/",
+        "@vocab": "http://schema.org/",
         "prov": "http://www.w3.org/ns/prov#",
         "provone": "http://purl.dataone.org/provone/2015/01/15/ontology#"
     },
@@ -15,8 +15,7 @@
     "isAccessibleForFree": true,
     "url": "https://www.seanoe.org/data/00311/42182/",
     "thumbnailUrl": "https://www.seanoe.org/data/00311/42182/thumbnail.gif",
-    "name": "Argo float data and metadata from Global Data Assembly Centre (Argo GDAC)",
-    "description": "Argo is a global array of 3,000 free-drifting profiling floats that measures the temperature and salinity of the upper 2000 m of the ocean. This provides continuous monitoring of the temperature, salinity, and velocity of the upper ocean, with  data being made publicly available within hours after collection. The array provides 100,000 temperature/salinity profiles and velocity measurements per year distributed over the global oceans at an average of 3-degree spacing. Some floats provide additional bio-geo parameters such as oxygen or chlorophyll. Data collected by Argo floats are publically available in near real-time via the Global Data Assembly Centers (GDACs) in Brest (France) and Monterey (California) after an automated quality control (QC), and in scientifically quality controlled form, delayed mode data, via the GDACs within six months of collection.",
+    "name": "Argo float data and metadata from Global Data Assembly Centre Argo GDAC",
     "datePublished": "2021-09-10",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "keywords": [
@@ -67,7 +66,8 @@
             "@type": "DataDownload",
             "name": "GDAC synchronization service",
             "description": "The rsync server vdmzrs.ifremer.fr server provides a synchronization service between the dac directory of the GDAC with a user mirror. See the ADMT website (http://www.argodatamgt.org/Access-to-data/Argo-GDAC-synchronization-service) for more details. From the user side, the rysnc service: 1.Downloads the new files; 2. Downloads the updated files; 3. Removes the files that have been removed from the GDAC; 4. Compresses/uncompresses the files during the transfer; 5. Preserves the files creation/update dates; 6. Lists all the files that have been transferred (easy to use for a user side post-processing)",
-            "url": "http://www.argodatamgt.org/Access-to-data/Argo-GDAC-synchronization-service"
+            "url": "http://www.argodatamgt.org/Access-to-data/Argo-GDAC-synchronization-service",
+             "encodingFormat": "application/x-netcdf"
         },
         {
             "@type": [
@@ -76,7 +76,8 @@
             ],
             "name": "Argovis Web Site",
             "description": "Visualize ARGO temperature, salinity, and BioGeoChemical data by location. View float trajectory forecasts, compare gridded fields with Argovis' grid visualization module, or co-locate Argo data with weather events. Download profile or platform data in JSON format, or NetCDF time series data from platform.  The Argovis database is a curated set of Argo profiles available from the Argo GDACs. Entire profiles are excluded if their position or time is bad. Profiles without a position are kept in the database and will not be visible on the home web interface, but will be displayed when looking at the platform plots and downloaded via the API. Profiles with an estimated position are in Argovis. Otherwise, all temperature, pressure and salinity data are included in Argovis if their QC flag is equal to '1'. BioGeoChemical data are included no matter the QC flag and Deep data under 2000 db is included if the QC flag is '2' for pressure and temperature and '3' for salinity. If adjusted data is available for a parameter, that is used. Otherwise, the raw data is used.",
-            "url": "https://argovis.colorado.edu/ng/home"
+            "url": "https://argovis.colorado.edu/ng/home",
+             "encodingFormat": "text/html"
         },
         {
             "@type": [
@@ -85,6 +86,7 @@
             ],
             "name": "Argovis WebAPI",
             "serviceType": "Argovis API",
+            "encodingFormat":"application/json",
             "documentation": "https://argovis.colorado.edu/api-docs/#/",
             "description": "Access Argo profiles via API, i.e. temperature, salinity, and biogeochemical data by location. Argo metadata, float trajectory forecasts, gridded fields, weather events are also available through API",
             "potentialAction": {
@@ -145,7 +147,8 @@
             ],
             "name": "ERDDAP Server",
             "description": "Web form to select ARGO data and download one of many offered formats. See https://www.ifremer.fr/erddap/tabledap/ArgoFloats.html#DAS for complete list of variables in data structure",
-            "url": "https://www.ifremer.fr/erddap/tabledap/ArgoFloats.html"
+            "url": "https://www.ifremer.fr/erddap/tabledap/ArgoFloats.html",
+            "encodingFormat":["application/html", "text/csv", "text/tab-delimited", "application/json", "application/xhtml"]
         }
     ],
     "variableMeasured": [
