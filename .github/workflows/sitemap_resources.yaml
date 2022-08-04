@@ -12,8 +12,8 @@ jobs:
     - name: Checkout the repo
       uses: actions/checkout@v2
       with:
-        fetch-depth: 0
-## the original sitemap, at Dataset root
+        fetch-depth: 1
+#  the original sitemap, at Dataset root
     - name: Generate the dataset allgood sitemap
       id: sitemapdatasetallgood
       uses: cicirello/generate-sitemap@v1
@@ -27,7 +27,7 @@ jobs:
         echo "sitemap-path = ${{ steps.sitemapdatasetallgood.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemapdatasetallgood.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemapdatasetallgood.outputs.excluded-count }}"
- #
+#
     - name: Generate the dataset json sitemap
       id: sitemapdatasetjson
       uses: cicirello/generate-sitemap@v1
@@ -41,7 +41,7 @@ jobs:
         echo "sitemap-path = ${{ steps.sitemapdatasetjson.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemapdatasetjson.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemapdatasetjson.outputs.excluded-count }}"
-      #
+#
     - name: Generate the dataset actualdata sitemap
       id: sitemapdatasetactualdata
       uses: cicirello/generate-sitemap@v1
@@ -55,8 +55,8 @@ jobs:
         echo "sitemap-path = ${{ steps.sitemapdatasetactualdata.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemapdatasetactualdata.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemapdatasetactualdata.outputs.excluded-count }}"
-      #
-    -  name: Generate the development sitemap
+#
+    - name: Generate the development sitemap
       id: sitemapdevelopment
       uses: cicirello/generate-sitemap@v1
       with:
