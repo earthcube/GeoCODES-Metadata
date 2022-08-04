@@ -1,0 +1,345 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ecgeo: <https://geocodes.earthcube.org/validation/0.1/shacl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix soso: <http://science-on-schema.org/1.2.3/validation/shacl#> .
+@prefix datacite: <http://purl.org/spar/datacite/> .
+
+# SMR 2022-08-01
+# lean heavily on Doug Fils documentation for Ocean Info Hub!
+# 
+# test for schema.org content that is used in the GeoCODES UI queries.
+
+
+ecgeo:DatasetNS1Shape
+    a sh:NodeShape ;
+# check for missing backslash on namespace URI
+	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
+	sh:targetClass <http://schema.orgDataset>;
+	sh:property [
+		sh:path [sh:inversePath rdf:type ];
+		sh:minCount 1;
+		sh:message "Expecting SO namespace of <http://schema.org/> not <http://schema.org>"@en ;
+	]
+	.
+
+ecgeo:DatasetNS3Shape
+    a sh:NodeShape ;
+# check for wrong http protocol (https) and missing backslash on namespace URI
+	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
+	sh:targetClass <https://schema.orgDataset>;
+	sh:property [
+		sh:path [sh:inversePath rdf:type ];
+		sh:minCount 1;
+		sh:message "Expecting SO namespace of <http://schema.org/> not <https://schema.org>"@en ;
+	]
+	.				  
+
+ecgeo:IDShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    sh:message "Metadata record must have an ID. use the @id property, value is a string that should be a URI identifying the metadata record."@en ;
+    sh:description "https://book.oceaninfohub.org/validation/README.html" ;
+    sh:nodeKind sh:IRI ;
+    .
+	
+ecgeo:GeoCODESDatasetQueryShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    sh:message "GeoCODES validation suite, mandatory properties for Datasets" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    sh:property
+        ecgeo:datasetNameProperty,
+        ecgeo:descriptionProperty,
+        ecgeo:identifierProperty,
+        ecgeo:identifierTypeProperty,
+		ecgeo:identifierPropertyValueProperties,
+		ecgeo:accessLinkProperty,
+		ecgeo:distributionLinkProperty,
+		ecgeo:isAccessibleForFreeProperty,
+		ecgeo:responsiblePartyProperty,
+		ecgeo:userReadablePageProperty,
+		ecgeo:datePublishedProperty,
+		ecgeo:spatialExtentProperty,
+		ecgeo:keywordsResourceProperty
+	.
+		
+ecgeo:datasetNameProperty
+    a sh:PropertyShape ;
+    sh:path schema:name ;
+    sh:nodeKind sh:Literal ;
+	sh:minLength 15 ;
+    sh:message "Name is required; Dataset names must have at least 15 characters"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+ecgeo:descriptionProperty
+    a sh:PropertyShape ;
+    sh:path schema:description;
+    sh:nodeKind sh:Literal ;
+    sh:minCount 1 ;
+	sh:minLength 50 ;
+	#description must be at least 50 characters
+    sh:message "Resource must have a description at least 50 characters long"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+ecgeo:identifierProperty
+    a sh:PropertyShape ;
+    sh:path schema:identifier;
+    sh:minCount 1 ;
+    sh:or (
+        [ sh:nodeKind sh:Literal ; ]
+        [ sh:class schema:URL ; ]
+        [ sh:class schema:PropertyValue ; ]
+    );
+    sh:message "Dataset identifier is required and must be a URL, Text or PropertyValue"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+# display info message if identifier with type schema:PropertyValue is used
+ecgeo:identifierTypeProperty
+    a sh:PropertyShape ;
+    sh:path  schema:identifier ;
+	sh:not [
+        sh:class schema:PropertyValue;		
+#        sh:minCount 1;
+    ];
+    sh:severity sh:Info ;
+    sh:message "Although SOSO guidance allows PropertyValue to specify an identifier, GeoCODES recommends used of a plain literal or URI string.Identifiers in PropertyValue might not be indexed."@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:identifierPropertyValueProperties
+    a sh:PropertyShape ;
+	sh:path schema:identifier  ;
+# only want rule to catch if there is a PropertyValue identifier, not if its a literal... HOW?
+	sh:or (
+        [ sh:path schema:value;  sh:nodeKind sh:Literal ; ]
+        [ sh:path schema:url; sh:class schema:URL ; ] 
+	) ;
+#	sh:minCount 1;
+    sh:message "If identifier is specified with PropertyValue, then either a url or a value string with the identifier must be supplied"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+ecgeo:accessLinkProperty
+    a sh:PropertyShape ;
+    sh:path [sh:alternativePath ( schema:url   (schema:distribution [sh:oneOrMorePath schema:url] ) 
+            (schema:distribution [sh:oneOrMorePath schema:contentUrl] )	) ] ;
+	sh:minCount 1 ;
+	sh:or (
+		[sh:nodeKind sh:Literal ;]
+		[sh:class schema:URL ;]
+		) ; 
+	sh:message "some web location to access the resource or a representation of the resource must be provided"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+ecgeo:distributionLinkProperty
+    a sh:PropertyShape ;
+    sh:path  schema:distribution  ;
+	sh:class schema:DataDownload ; 
+	sh:message "a distribution MUST provide  either a download URL or a contentUrl, and indicate the encoding format of the target resource representation."@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:dataDownloadNode
+	a sh:NodeShape;
+	sh:targetClass schema:DataDownload;
+	sh:property [
+		sh:path [sh:alternativePath ( schema:contentUrl schema:url) ];
+		sh:minCount 1 ;
+		sh:or (
+			[sh:nodeKind sh:Literal ;]
+			[sh:class schema:URL ; ]
+			) ;
+		sh:severity sh:Violation ;
+		sh:message "a DataDownload MUST provide either a url to a landing or order page, or a content URL for direct data download"
+    ];
+	sh:property [
+		sh:path  schema:contentUrl ;
+		sh:or (
+			[sh:nodeKind sh:Literal ;]
+			[sh:class schema:URL ; ]
+			) ; 
+		sh:severity sh:Info ;	
+		sh:message "a distribution MUST provide  a contentUrl for direct data download to work with the geoCodes data-tool discovery integration."@en ;
+	];
+	sh:property [
+		sh:path schema:encodingFormat;
+		sh:or (
+			[sh:nodeKind sh:Literal ;]
+			[sh:class schema:URL ; ]
+			) ;
+		sh:minCount 1 ;
+		sh:severity sh:Warning ;
+		sh:message "a DataDownload MUST indicate the encoding format for the target resource representation."@en ;
+	]
+.
+	
+	
+ecgeo:isAccessibleForFreeProperty
+    a sh:PropertyShape ;
+    sh:path schema:isAccessibleForFree ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:severity sh:Warning ;
+    sh:message "Should indicate if the dataset is accessible without monetary cost. True or False" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:responsiblePartyProperty
+    a sh:PropertyShape ;
+    sh:path [sh:alternativePath (  schema:provider  schema:publisher ) ]  ;
+    sh:or (  [  sh:class  schema:Person ]
+             [   sh:class  schema:Organization ] )  ;
+	sh:minCount 1;
+   	sh:message "Optional: GeoCODES UI presents provider or publisher in the search result summary, so these should be specified." ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    sh:severity sh:Info 
+    .
+	
+ecgeo:GeoCODESPersonShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Person ;
+	sh:property ecgeo:affiliationProperty;
+    sh:property ecgeo:nameProperty ;
+	sh:message "A person must a name provided; affiliation to an organization and identifier are strongly recommended." 
+	.
+
+ecgeo:GeoCODESOrganizationShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Organization ;
+    sh:property ecgeo:nameProperty;
+    sh:message "Organization must have a name at least 15 characters long; Make it useful for users!!" 
+.
+
+ecgeo:affiliationProperty
+# affiliation is always with an organization
+    a sh:PropertyShape ;
+    sh:path schema:affiliation ;
+    sh:class  schema:Organization  ;
+	sh:severity sh:Warning ;
+    sh:message "Optional: an affiliation must have object schema:Organization" 
+    .
+
+ecgeo:nameProperty
+# names must be a literal, at least 15 char long.
+    a sh:PropertyShape ;
+    sh:path schema:name;
+    sh:nodeKind sh:Literal ;
+	sh:minLength 10 ;
+	sh:severity sh:Warning ;
+    sh:message "a name must be provided, at least 10 char long." 
+    .
+	
+ecgeo:datePublishedProperty
+# names must be a literal, at least 15 char long.
+    a sh:PropertyShape ;
+    sh:path schema:datePublished;
+    sh:nodeKind sh:Literal ;
+	sh:severity sh:Warning ;
+	sh:minCount 1;
+    sh:message "Date published is presented in GeoCODES search results summary, please provide." 
+    .
+	
+	
+ecgeo:userReadablePageProperty
+    a sh:PropertyShape ;
+    sh:path schema:subjectOf ;
+    sh:and ( 
+	 [sh:class schema:CreativeWork  ] 
+
+	 [sh:path schema:url ;
+	  sh:nodeKind sh:IRIOrLiteral;
+    	sh:minCount 1] 
+     );
+    sh:severity sh:Info ;
+    sh:message "Optional linkage to a web page or online document with more information about the resource. A url must be provided." ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+	
+ecgeo:spatialExtentProperty
+    a sh:PropertyShape ;
+    sh:path schema:spatialCoverage;
+    sh:minCount 1 ;
+    sh:class schema:Place ;
+    sh:severity sh:Info ;
+    sh:message "Recommended: provide a spatial coverage description if applicable using schema:Place, either a place name, bounding box, point location(s), line profile location, or polygon." ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:placeNode
+	a sh:NodeShape ;
+    sh:targetClass schema:Place ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;	
+    sh:property	ecgeo:placeGeoProperty
+	.
+
+ecgeo:placeGeoProperty
+    a sh:PropertyShape ;
+	sh:path schema:geo ;
+    sh:or (  [  sh:class  schema:GeoCoordinates ]
+             [   sh:class  schema:GeoShape ] )  ;
+	sh:minCount 1 ;
+	sh:message "spatial location MUST be specified eitehr with GeoCoordinates lat/long pairs (for point location), or with GeoShape  Line, Box or Polygon." ;
+ .
+ 
+ ecgeo:geoCoordinatesNode
+	a sh:NodeShape ;
+    sh:targetClass schema:GeoCoordinates ;
+	sh:property [ sh:path schema:latitude ;
+	#pyshacl seems to assume that decimal numbers are xsd:doubles...
+	# pyshacl doesn't seem to pay attention to min and max values
+			sh:or ( [sh:datatype xsd:double ]
+					[sh:datatype xsd:integer ] );
+	# bogus decimal places force cast as double.
+			sh:minValue -90.0001;
+			sh:maxValue 90.00001;
+			sh:minCount 1 ] ;
+	sh:property [sh:path schema:longitude ;
+			sh:or ( [sh:datatype xsd:double ]
+					[sh:datatype xsd:integer ] );
+			sh:minValue -180.00001;
+			sh:maxValue 180.00001;
+			sh:minCount 1 ] ;
+	   sh:message "GeoCoodinates must include latitude between -90 and 90, and longitude between -180 and 180." ;
+	.
+
+  ecgeo:geoShapeNode
+	a sh:NodeShape ;
+    sh:targetClass schema:GeoShape ;
+	sh:property
+		[sh:path [sh:alternativePath ( schema:line schema:polygon schema:box) ];
+			sh:datatype xsd:string;
+			sh:minCount 1 ;
+            sh:message "geoshape must include a line, polygon or box geometry as a string of latitude longitude pairs"
+		]
+.
+
+ecgeo:keywordsResourceProperty
+    a sh:PropertyShape ;
+    sh:path schema:keywords ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:severity sh:Warning ;
+    sh:message "A resource should include descriptive keywords as an array or list of strings" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:keywordsNoCommaProperty
+#should throw warning if there is a comma character in a keyword string. Not working... ?WHY?
+    a sh:PropertyShape ;
+    sh:path schema:keywords ;
+	#regex for a string without a comma
+	sh:pattern "^(?!.+,).+" ;
+#	sh:maxCount 0; 
+    sh:severity sh:Warning ;
+    sh:message "If there are multiple keywords, they should be in an array; an individual keyword MUST not contain a comma character" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+

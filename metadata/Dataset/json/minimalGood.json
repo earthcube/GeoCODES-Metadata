@@ -1,14 +1,5 @@
 {
-    "@context": [
-        "https://schema.org/",
-        {
-            "dcat": "http://www.w3.org/ns/dcat#",
-            "dc": "http://purl.org/dc/elements/1.1/",
-            "dct": "http://purl.org/dc/terms/",
-            "ecrro": "http://cor.esipfed.org/ont/earthcube/",
-            "ecrr": "https://n2t.net/ark:/23942/g2"
-        }
-    ],
+    "@context":  {"@vocab":"http://schema.org/" },
     "@type": ["Dataset"],
     "@id": "metadata:doi:10.7288/V4/MAGIC/14104",
     "mainEntity": [
@@ -18,13 +9,22 @@
             "url": "http://schema.org/Dataset"
         }
     ],
+    "name": "Paleomagnetism of paleozoic asphaltic deposits in southern Oklahoma, USA (DataSet).",
+    "description": "<p>Paleomagnetic measurements on asphaltic samples from two formations in southern Oklahoma have been performed. A bioclastic unit from the Boggy Formation, known as the Buckhorn asphalt, exhibited a stable, characteristic remanent moment (RM) after A.F. demagnetization between 5\u201320 mT. We infer from our data that very fine, possibly authigenic magnetite, like that shown to have a genetic relationship with the migration through rocks of hydrocarbons [Elmore et al., 1987], is the primary RM carrier in these samples. The tilt corrected paleopole for the Buckhorn asphalt (121.9 E; 43.5 N; d<sub>p</sub>=1.3; d<sub>m</sub>=2.3) falls on the Early Permian Apparent Polar Wander Path for North America of Irving and Irving [1982], using a 30 Ma window (270\u2013280 Ma). Because the Boggy Formation, containing the Buckhorn asphalt, was deposited during the Late Pennsylvanian (Desmoinesian), we interpret the data to indicate magnetization during minor uplift in the Early Permian of the Arbuckle Mountain region. The RM appears to have been acquired at this time, probably as the result of magnetite production facilitated by the introduction time of sulfate reducing bacteria. © American Geophysical Union 1988</p>",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "url": "https://creativecommons.org/licenses/by/4.0/",
+            "name": "Attribution 4.0 International (CC BY 4.0)"
+        }
+    ],
     "temporalCoverage": {
         "@context": {"time": "http://www.w3.org/2006/time#"},
         "@type": "time:ProperInterval",
         "time:hasBeginning": {
             "@type": "time:Instant",
             "time:inTimePosition": {
-                "rdf:type": "time:TimePosition",
+                "@type": "time:TimePosition",
                 "time:hasTRS": {"@id": "http://schema.geoschemas.org/contexts/temporal#BeforePresent"},
                 "time:numericPosition": 309998051
             }
@@ -32,7 +32,7 @@
         "time:hasEnd": {
             "@type": "time:Instant",
             "time:inTimePosition": {
-                "rdf:type": "time:TimePosition",
+                "@type": "time:TimePosition",
                 "time:hasTRS": {"@id": "http://schema.geoschemas.org/contexts/temporal#BeforePresent"},
                 "time:numericPosition": 269998051
             }
@@ -47,7 +47,6 @@
     ],
     "dateModified": "2006-12-19T10:32:02.000Z",
     "datePublished": "2006-12-19",
-    "description": "<p>Paleomagnetic measurements on asphaltic samples from two formations in southern Oklahoma have been performed. A bioclastic unit from the Boggy Formation, known as the Buckhorn asphalt, exhibited a stable, characteristic remanent moment (RM) after A.F. demagnetization between 5\u201320 mT. We infer from our data that very fine, possibly authigenic magnetite, like that shown to have a genetic relationship with the migration through rocks of hydrocarbons [Elmore et al., 1987], is the primary RM carrier in these samples. The tilt corrected paleopole for the Buckhorn asphalt (121.9 E; 43.5 N; d<sub>p</sub>=1.3; d<sub>m</sub>=2.3) falls on the Early Permian Apparent Polar Wander Path for North America of Irving and Irving [1982], using a 30 Ma window (270\u2013280 Ma). Because the Boggy Formation, containing the Buckhorn asphalt, was deposited during the Late Pennsylvanian (Desmoinesian), we interpret the data to indicate magnetization during minor uplift in the Early Permian of the Arbuckle Mountain region. The RM appears to have been acquired at this time, probably as the result of magnetite production facilitated by the introduction time of sulfate reducing bacteria. © American Geophysical Union 1988</p>",
     "distribution": [
         {
             "@type": ["DataDownload"],
@@ -66,23 +65,15 @@
         "Geomagnetism",
         "Paleomagnetism",
         "Rock and mineral magnetism",
-        "Paleomagnetism applied to tectonics (regional, global)",
+        "Paleomagnetism applied to tectonics (regional or global)",
         "Geologic Time",
         "Paleozoic",
         "North America"
     ],
-    "license": [
-        {
-            "@type": "CreativeWork",
-            "url": "https://creativecommons.org/licenses/by/4.0/",
-            "name": "Attribution 4.0 International (CC BY 4.0)"
-        }
-    ],
-    "name": "<b>Ellwood, B.B. and Crick, R.E. (1988).</b> Paleomagnetism of paleozoic asphaltic deposits in southern Oklahoma, USA.<i> Geophysical Research Letters 15: doi: <a href='//dx.doi.org/10.1029/88GL02098'>10.1029/88GL02098</a>. issn: 0094-8276.</i> (Dataset)",
     "provider": {
         "@id": "https://earthref.org/MagIC",
         "legalName": "Magnetics Information Consortium (MagIC) Data Repository",
-        "name": "MagIC",
+        "name": "Magnetics Information Consortium (MagIC)",
         "@type": "Organization",
         "url": "https://earthref.org/MagIC"
     },

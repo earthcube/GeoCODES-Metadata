@@ -930,12 +930,12 @@
         "citationType": {
             "type": "object",
             "properties": {
-                "name": {"type": "string"},
                 "@type": {
                     "type": "string",
                     "default": "PropertyValue",
                     "const": "PropertyValue"
                 },
+                "name": {"type": "string"},
                 "propertyID": {
                     "type": "string",
                     "default": "dct:bibliographicCitation",
@@ -997,7 +997,7 @@
         },
         "subjectOf_type": {
             "type": "object",
-            "description": "Copied from GeoCODES dataset metadata schema for alternate value in subjectOf property; use with datasets. 6Link to the location of the alternative forms of the metadata. Many providers have other metadata records that may be more complete or that conform to other metadata formats and vocabularies that might be useful. For example, repositories often contain detailed records in ISO TC 211 formats, EML, and other formats. Aggregators and other consumers can make use of this additional metadata if they are linked in a standardized way to the schema.org record. ",
+            "description": "Copied from GeoCODES dataset metadata schema for alternate value in subjectOf property; use with datasets. Link to the location of the alternative forms of the metadata. Many providers have other metadata records that may be more complete or that conform to other metadata formats and vocabularies that might be useful. For example, repositories often contain detailed records in ISO TC 211 formats, EML, and other formats. Aggregators and other consumers can make use of this additional metadata if they are linked in a standardized way to the schema.org record. ",
             "properties": {
                 "@id": {"type": "string"},
                 "@type": {
