@@ -16,7 +16,7 @@ jobs:
 #  the original sitemap, at metadata/Dataset root
     - name: Generate the dataset allgood sitemap
       id: sitemapdatasetallgood
-      uses: cicirello/generate-sitemap@v2
+      uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/allgood
         path-to-root: metadata/Dataset/allgood
