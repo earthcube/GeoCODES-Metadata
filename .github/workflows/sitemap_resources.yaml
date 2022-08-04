@@ -8,14 +8,13 @@ jobs:
   sitemap_job:
     runs-on: ubuntu-latest
     name: Generate a sitemap
-
     steps:
     - name: Checkout the repo
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
 ## the original sitemap, at Dataset root
-    - name: Generate the dataset sitemap
+    - name: Generate the dataset allgood sitemap
       id: sitemapdatasetallgood
       uses: cicirello/generate-sitemap@v1
       with:
@@ -23,13 +22,13 @@ jobs:
         path-to-root: metadata/Dataset/allgood
         include-pdf: false
         additional-extensions: json jsonld
-    - name: Output dataset stats
+    - name: Output dataset allgood stats
       run: |
         echo "sitemap-path = ${{ steps.sitemapdatasetallgood.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemapdatasetallgood.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemapdatasetallgood.outputs.excluded-count }}"
  #
-    - name: Generate the dataset sitemap
+    - name: Generate the dataset json sitemap
       id: sitemapdatasetjson
       uses: cicirello/generate-sitemap@v1
       with:
@@ -37,12 +36,26 @@ jobs:
         path-to-root: metadata/Dataset/json
         include-pdf: false
         additional-extensions: json jsonld
-    - name: Output dataset stats
+    - name: Output dataset  json stats
       run: |
         echo "sitemap-path = ${{ steps.sitemapdatasetjson.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemapdatasetjson.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemapdatasetjson.outputs.excluded-count }}"
- #
+      #
+    - name: Generate the dataset actualdata sitemap
+      id: sitemapdatasetactualdata
+      uses: cicirello/generate-sitemap@v1
+      with:
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/actualdata
+        path-to-root: metadata/Dataset/actualdata
+        include-pdf: false
+        additional-extensions: actualdata jsonld
+    - name: Output dataset  json stats
+      run: |
+        echo "sitemap-path = ${{ steps.sitemapdatasetactualdata.outputs.sitemap-path }}"
+        echo "url-count = ${{ steps.sitemapdatasetactualdata.outputs.url-count }}"
+        echo "excluded-count = ${{ steps.sitemapdatasetactualdata.outputs.excluded-count }}"
+      #
     -  name: Generate the development sitemap
       id: sitemapdevelopment
       uses: cicirello/generate-sitemap@v1
