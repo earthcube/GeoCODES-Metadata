@@ -23,7 +23,8 @@ ecgeo:DatasetNS2Shape
 		sh:path [sh:inversePath rdf:type ];
 		sh:minCount 1;
         sh:message "Expecting SO namespace of <http://schema.org/> not <https://schema.org/>"@en ;
-	]	
+	]	;
+	sh:severity sh:Warning
 	.
 
 	
@@ -54,9 +55,10 @@ ecgeo:DatasetNS3Shape
 soso:IDShape
     a sh:NodeShape ;
     sh:targetClass schema:Dataset ;
-    sh:message "Metadata record must have an ID. use the @id property, value is a string that should be a URI identifying the metadata record."@en ;
+    sh:message "Metadata record Should have an ID. use the @id property, value is a string that should be a URI identifying the metadata record (not the resource it describes--that goes in schema:identifier field)."@en ;
     sh:description "https://book.oceaninfohub.org/validation/README.html" ;
     sh:nodeKind sh:IRI ;
+	sh:severity sh:Warning
     .
 	
 ecgeo:GeoCODESDatasetCommonShape
@@ -117,6 +119,7 @@ ecgeo:identifierProperty
     );
     sh:message "Dataset identifier is required and must be a URL, Text or PropertyValue"@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+	sh:severity sh:Warning
     .
 
 # display info message if identifier with type schema:PropertyValue is used
@@ -137,11 +140,13 @@ ecgeo:identifierPropertyValueProperties
 	sh:path schema:identifier  ;
 # only want rule to catch if there is a PropertyValue identifier, not if its a literal... HOW?
 	sh:or (
+		[ sh:nodeKind sh:Literal ; ]
+        [ sh:class schema:URL ; ]
         [ sh:path schema:value;  sh:nodeKind sh:Literal ; ]
         [ sh:path schema:url; sh:class schema:URL ; ] 
 	) ;
 #	sh:minCount 1;
-    sh:message "If identifier is specified with PropertyValue, then either a url or a value string with the identifier must be supplied"@en ;
+    sh:message "If identifier is specified with PropertyValue, then either a url or a value string with the identifier MUST be supplied"@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 
