@@ -13,13 +13,14 @@ jobs:
       uses: actions/checkout@v2
       with:
         fetch-depth: 1
-#  the original sitemap, at Dataset root
+#  the original sitemap, at metadata/Dataset root
     - name: Generate the dataset allgood sitemap
       id: sitemapdatasetallgood
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/allgood
         path-to-root: metadata/Dataset/allgood
+        sitemap-path:  metadata/Dataset/
         include-pdf: false
         additional-extensions: json jsonld
     - name: Output dataset allgood stats
@@ -49,7 +50,7 @@ jobs:
         base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/actualdata
         path-to-root: metadata/Dataset/actualdata
         include-pdf: false
-        additional-extensions: actualdata jsonld
+        additional-extensions: json jsonld
     - name: Output dataset  json stats
       run: |
         echo "sitemap-path = ${{ steps.sitemapdatasetactualdata.outputs.sitemap-path }}"
