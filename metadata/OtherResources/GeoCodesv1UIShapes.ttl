@@ -160,7 +160,8 @@ ecgeo:dataDownloadNode
 	a sh:NodeShape;
 	sh:targetClass schema:DataDownload;
 	sh:property [
-		sh:path [sh:alternativePath ( schema:contentUrl schema:url) ];
+		sh:path [sh:alternativePath ( schema:contentUrl schema:url
+			(schema:potentialAction schema:target schema:urlTemplate)) ];
 		sh:minCount 1 ;
 		sh:or (
 			[sh:nodeKind sh:Literal ;]
@@ -276,26 +277,18 @@ ecgeo:spatialExtentProperty
     sh:path schema:spatialCoverage;
     sh:minCount 1 ;
     sh:class schema:Place ;
+      sh:or (  [sh:path schema:geo ;
+                  sh:or (  [  sh:class  schema:GeoCoordinates ]
+                           [  sh:class  schema:GeoShape ] )  ;
+	              sh:minCount 1 ;
+	              sh:message "spatial location MUST be specified eitehr with GeoCoordinates lat/long pairs (for point location), or with GeoShape  Line, Box or Polygon." ;]
+               [sh:path schema:name;
+                  sh:nodeKind sh:Literal;
+                  sh:minCount 1 ]
+      );
     sh:severity sh:Info ;
-    sh:message "Recommended: provide a spatial coverage description if applicable using schema:Place, either a place name, bounding box, point location(s), line profile location, or polygon." ;
-    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    sh:message "Recommended: provide a spatial coverage description if applicable using schema:Place, either a place name,  point location(s) (GeoCoordinates), or GeoShape (bounding box, line profile location, or polygon)." ;
     .
-	
-ecgeo:placeNode
-	a sh:NodeShape ;
-    sh:targetClass schema:Place ;
-    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;	
-    sh:property	ecgeo:placeGeoProperty
-	.
-
-ecgeo:placeGeoProperty
-    a sh:PropertyShape ;
-	sh:path schema:geo ;
-    sh:or (  [  sh:class  schema:GeoCoordinates ]
-             [   sh:class  schema:GeoShape ] )  ;
-	sh:minCount 1 ;
-	sh:message "spatial location MUST be specified eitehr with GeoCoordinates lat/long pairs (for point location), or with GeoShape  Line, Box or Polygon." ;
- .
  
  ecgeo:geoCoordinatesNode
 	a sh:NodeShape ;

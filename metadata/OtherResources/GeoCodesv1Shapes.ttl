@@ -52,12 +52,12 @@ ecgeo:DatasetNS3Shape
 	]
 	.				  
 
-soso:IDShape
+ecgeo:IDShape
     a sh:NodeShape ;
     sh:targetClass schema:Dataset ;
     sh:message "Metadata record Should have an ID. use the @id property, value is a string that should be a URI identifying the metadata record (not the resource it describes--that goes in schema:identifier field)."@en ;
     sh:description "https://book.oceaninfohub.org/validation/README.html" ;
-    sh:nodeKind sh:IRI ;
+    sh:nodeKind sh:IRIOrLiteral  ;
 	sh:severity sh:Warning
     .
 	

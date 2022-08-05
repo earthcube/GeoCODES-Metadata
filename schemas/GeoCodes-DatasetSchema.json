@@ -271,7 +271,7 @@
             }
         },
         "subjectOf": {
-            "description": "link to other metadata records that may be more complete or that conform to metadata formats and vocabularies that might be useful. For example, repositories often contain detailed records in ISO TC 211 formats, EML, and other formats. Aggregators and other consumers can make use of this additional metadata if they are linked in a standardized way to the schema.org record. We recommend that the location of the alternative forms of the metadata be provided using the schema:subjectOf and schema:about properties:\n\nLink metadata documents to a schema:Dataset by using schema:subjectOf. - Or if a schema.org snippet describes the metadata as the main resource, then link to the Dataset it describes using schema:about.",
+            "description": "Two uses: 1) if value type is schema:DataDownload--link to other metadata records that may be more complete or that conform to metadata formats and vocabularies that might be useful. For example, repositories often contain detailed records in ISO TC 211 formats, EML, and other formats. Aggregators and other consumers can make use of this additional metadata if they are linked in a standardized way to the schema.org record. 2) if value type is CreativeWork, then is link to a related resource that is about the dataset.  Use this for linkage to publications that are a direct product of the dataset. ",
             "type": "array",
             "items": {
                 "oneOf": [
@@ -406,7 +406,7 @@
             ]
         },
         "spatialCoverage": {
-            "anyOf": [
+            "oneOf": [
                 {"$ref": "#/definitions/spatialCoverage_type"},
                 {
                     "type": "array",
@@ -475,7 +475,10 @@
                 "@type": {
                     "type": "string",
                     "default": "Action",
-                    "enum": ["Action","SearchAction"]
+                    "enum": [
+                        "Action",
+                        "SearchAction"
+                    ]
                 },
                 "name": {
                     "type": "string",
@@ -697,12 +700,29 @@
             "type": "object",
             "properties": {
                 "@type": {
-                    "type": "string",
-                    "default": "DataDownload",
-                    "const": "DataDownload"
+                    "oneOf": [
+                        {
+                            "type": "string",
+                            "default": "DataDownload"
+                        },
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "default": "DataDownload"
+                            }
+                        }
+                    ]
                 },
                 "name": {"type": "string"},
-                "contentUrl": {"type": "string"},
+                "contentUrl": {
+                    "description": "URL to get actual data directly",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "URL to a web page that must be visited to actually get the data",
+                    "type": "string"
+                },
                 "contentSize": {"type": "string"},
                 "encodingFormat": {
                     "oneOf": [
@@ -725,7 +745,6 @@
                 }
             },
             "required": [
-                "contentUrl",
                 "@type",
                 "encodingFormat"
             ]
@@ -766,6 +785,15 @@
                     "const": "Place",
                     "default": "Place"
                 },
+                "name": {
+                    "oneOf": [
+                        {"type": "string"},
+                        {
+                            "type": "array",
+                            "items": {"type": "string"}
+                        }
+                    ]
+                },
                 "geo": {
                     "anyOf": [
                         {
@@ -792,7 +820,7 @@
                                 },
                                 "line": {"type": "string"}
                             }
-                         },
+                        },
                         {
                             "type": "object",
                             "description": "A schema:GeoShape can describe spatial coverage as a line (e.g. a ship track), a bounding box, a polygon, or a circle. The geometry is described with a set of latitude/longitude pairs (in that order).The documentation for schema:GeoShape states 'Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points.'",
@@ -806,8 +834,7 @@
                                     "type": "string",
                                     "description": "a series of four or more points where the first and final points are identical."
                                 }
-                                }
-              
+                            }
                         },
                         {
                             "type": "object",
@@ -826,7 +853,15 @@
                         }
                     ]
                 }
-            }
+            },
+            "anyOf": [
+                {
+                    "required": ["name"]
+                },
+                {
+                    "required": ["geo"]
+                }
+            ]
         },
         "timePosition_type": {
             "type": "object",
@@ -1054,7 +1089,7 @@
                     "url": {
                         "type": "string",
                         "description": "Any schema:Thing can have a URL property, but because the value is simply a url the relationship of the linked resource can not be expressed. Usage is optional. The recommendation is that schema:url should link to a web page that would be useful for a person to interpret the variable, but is not intended to be machine-actionable."
-                    } 
+                    }
                 },
                 "required": [
                     "@type",
