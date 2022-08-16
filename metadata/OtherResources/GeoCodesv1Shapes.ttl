@@ -74,7 +74,6 @@ ecgeo:GeoCODESDatasetCommonShape
         ecgeo:identifierTypeProperty,
 		ecgeo:identifierPropertyValueProperties,
 		ecgeo:accessLinkProperty,
-		ecgeo:distributionLinkProperty,
 		ecgeo:isAccessibleForFreeProperty
 	.
 		
@@ -163,15 +162,18 @@ ecgeo:accessLinkProperty
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 	
-ecgeo:distributionLinkProperty
-    a sh:PropertyShape ;
-    sh:path [sh:alternativePath ( (schema:distribution  schema:url ) (schema:distribution schema:contentUrl) ) ] ;
-	sh:minCount 1 ;
-	sh:or (
-		[sh:nodeKind sh:Literal ;]
-		[sh:class schema:URL ; ]
-		) ; 
-	sh:message "a distribution MUST provide either a contentUrl for direct data download or a url to access a landing page or order form."@en ;
+ecgeo:DataDownloadNode
+    a sh:NodeShape ;
+	sh:targetClass schema:DataDownload ;
+	sh:property [
+		sh:path [sh:alternativePath ( schema:url  schema:contentUrl) ] ;
+		sh:minCount 1 ;
+		sh:or (
+			[sh:nodeKind sh:Literal ;]
+			[sh:class schema:URL ; ]
+			) ; 
+		sh:message "a distribution MUST provide either a contentUrl for direct data download or a url to access a landing page or order form."@en ;
+		] ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 	

@@ -252,11 +252,17 @@
                     "@type": {
                         "type": "string",
                         "default": "MonetaryGrant",
-                        "const": "MonetaryGrant"
+                        "enum": [
+                            "MonetaryGrant",
+                            "Grant"
+                        ]
                     },
                     "identifier": {
-                        "type": "string",
-                        "description": "string that identifies a particular grant"
+                        "description": "identifier for Grant",
+                        "oneOf": [
+                            {"$ref": "#/definitions/identifier_type"},
+                            {"type": "string"}
+                        ]
                     },
                     "name": {
                         "type": "string",
@@ -272,13 +278,19 @@
         },
         "subjectOf": {
             "description": "Two uses: 1) if value type is schema:DataDownload--link to other metadata records that may be more complete or that conform to metadata formats and vocabularies that might be useful. For example, repositories often contain detailed records in ISO TC 211 formats, EML, and other formats. Aggregators and other consumers can make use of this additional metadata if they are linked in a standardized way to the schema.org record. 2) if value type is CreativeWork, then is link to a related resource that is about the dataset.  Use this for linkage to publications that are a direct product of the dataset. ",
-            "type": "array",
-            "items": {
-                "oneOf": [
-                    {"$ref": "#/definitions/formalMetadataLink_type"},
-                    {"$ref": "#/definitions/creativeWork_type"}
-                ]
-            }
+            "oneOf": [
+                {"$ref": "#/definitions/formalMetadataLink_type"},
+                {"$ref": "#/definitions/creativeWork_type"},
+                {
+                    "type": "array",
+                    "items": {
+                        "oneOf": [
+                            {"$ref": "#/definitions/formalMetadataLink_type"},
+                            {"$ref": "#/definitions/creativeWork_type"}
+                        ]
+                    }
+                }
+            ]
         },
         "additionalType": {
             "description": "identifiers for datatypes from other vocabularies (not schema.org) that apply to this metadata.",
@@ -393,7 +405,7 @@
                     "type": "object",
                     "description": "a w3c time proper interval; use for geologic age bounds on the temporal coverage. This is a SOSO schema.org extension",
                     "properties": {
-                        "@context": {"const": "{\"time\": \"http://www.w3.org/2006/time#\"}"},
+                        
                         "@type": {
                             "type": "string",
                             "default": "time:ProperInterval",
@@ -453,8 +465,11 @@
                     "description": "locator to access a landing page for the collection or catalog"
                 },
                 "identifier": {
-                    "$ref": "#/definitions/identifier_type",
-                    "description": "identifier for the collection or catalog; use identifier_type to provide information on identifier scheme and context for identifier"
+                    "description": "identifier for the collection or catalog; use identifier_type to provide information on identifier scheme and context for identifier",
+                    "oneOf": [
+                        {"$ref": "#/definitions/identifier_type"},
+                        {"type": "string"}
+                    ]
                 }
             }
         },
@@ -677,7 +692,13 @@
                     "default": "DefinedTerm",
                     "const": "DefinedTerm"
                 },
-                "identifier": {"$ref": "#/definitions/identifier_type"},
+                "identifier": {
+                    "description": "identifier for term",
+                    "oneOf": [
+                        {"$ref": "#/definitions/identifier_type"},
+                        {"type": "string"}
+                    ]
+                },
                 "inDefinedTermSet": {
                     "type": "string",
                     "description": "Identifier for the controlled vocabulary responsible for this keyword."
@@ -978,7 +999,13 @@
                     "description": "other labels by which the organization might be known"
                 },
                 "description": {"type": "string"},
-                "identifier": {"type": "string"},
+                "identifier": {
+                    "description": "identifier for organization",
+                    "oneOf": [
+                        {"$ref": "#/definitions/identifier_type"},
+                        {"type": "string"}
+                    ]
+                },
                 "sameAs": {
                     "type": "array",
                     "description": "other identifiers for the organization",
