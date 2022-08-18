@@ -18,7 +18,7 @@ jobs:
       id: sitemapdatasetallgood
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/${GITHUB_REF##*/}/metadata/Dataset/allgood
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/Dataset/allgood
         path-to-root: metadata/Dataset/allgood
         include-pdf: false
         additional-extensions: json jsonld
@@ -32,7 +32,7 @@ jobs:
       id: sitemapdatasetjson
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/${GITHUB_REF##*/}/metadata/Dataset/json
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/Dataset/json
         path-to-root: metadata/Dataset/json
         include-pdf: false
         additional-extensions: json jsonld
@@ -46,7 +46,7 @@ jobs:
       id: sitemapdatasetactualdata
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/${GITHUB_REF##*/}/metadata/Dataset/actualdata
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/Dataset/actualdata
         path-to-root: metadata/Dataset/actualdata
         include-pdf: false
         additional-extensions: json jsonld
@@ -60,7 +60,7 @@ jobs:
       id: sitemapdevelopment
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/${GITHUB_REF##*/}/metadata/development/
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/development/
         path-to-root: metadata/development
         include-pdf: false
         additional-extensions: json jsonld
@@ -73,7 +73,7 @@ jobs:
       id: sitemapotherResources
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/${GITHUB_REF##*/}/metadata/otherResources/
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/otherResources/
         path-to-root: metadata/OtherResources/
         include-pdf: false
         additional-extensions: json jsonld
