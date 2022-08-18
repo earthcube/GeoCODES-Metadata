@@ -2,7 +2,12 @@ name: Generate xml sitemap
 
 on:
   push:
-    branches-ignore: [ 'gh-pages'  ]
+    branches:
+    # using env variable in base-url-path does work
+    #        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/Dataset/allgood
+    # so it you want to trigger a sitemap for your branch commit and change branches
+    # don't forget to roll back before PR.
+      - main
 
 jobs:
   sitemap_job:
@@ -18,7 +23,7 @@ jobs:
       id: sitemapdatasetallgood
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/Dataset/allgood
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/allgood
         path-to-root: metadata/Dataset/allgood
         include-pdf: false
         additional-extensions: json jsonld
@@ -32,7 +37,7 @@ jobs:
       id: sitemapdatasetjson
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/Dataset/json
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/json
         path-to-root: metadata/Dataset/json
         include-pdf: false
         additional-extensions: json jsonld
@@ -46,7 +51,7 @@ jobs:
       id: sitemapdatasetactualdata
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/Dataset/actualdata
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/actualdata
         path-to-root: metadata/Dataset/actualdata
         include-pdf: false
         additional-extensions: json jsonld
@@ -60,7 +65,7 @@ jobs:
       id: sitemapdevelopment
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/development/
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/development/
         path-to-root: metadata/development
         include-pdf: false
         additional-extensions: json jsonld
@@ -73,7 +78,7 @@ jobs:
       id: sitemapotherResources
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/$GITHUB_BASE_REF/metadata/otherResources/
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/otherResources/
         path-to-root: metadata/OtherResources/
         include-pdf: false
         additional-extensions: json jsonld
