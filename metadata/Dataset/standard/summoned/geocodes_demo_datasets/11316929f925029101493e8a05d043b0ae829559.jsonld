@@ -1,0 +1,81 @@
+{
+    "@context": {"@vocab":"https://schema.org/"},
+    "@type": "Dataset",
+    "about": "AMGeO helps combine diverse high-latitude geospace observations. The purpose of AMGeO is to make the latest geospace data science tool accessible to scientists and students.",
+    "author": {
+        "@type": "Organization",
+        "email": "amgeo@colorado.edu",
+        "logo": "https://amgeo.colorado.edu/static/img/amgeosmall.svg",
+        "name": "AMGeO"
+    },
+    "citation": "AMGeO Collaboration. (2019). A Collaborative Data Science Platform for the Geospace Community: Assimilative Mapping of Geospace Observations (AMGeO) v1.0.0. Zenodo. https://doi.org/10.5281/zenodo.3564914",
+    "description": "AMGeO Assimilative Maps",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://amgeo-dev.colorado.edu/static/data/03-17-2015-18-00-00.nc",
+        "encodingFormat": "application/x-netcdf"
+    },
+    "name": "AMGeO Assimilative Maps for 2015-03-17T18:00:00",
+    "spatialCoverage": [
+        {
+            "@type": "Place",
+            "latitude": 49.99975367385476,
+            "longitude": 0
+        },
+        {
+            "@type": "Place",
+            "latitude": 88.33332306974395,
+            "longitude": 360
+        }
+    ],
+    "temporalCoverage": "2015-03-17T18:00:00",
+    "url": "https://amgeo-dev.colorado.edu/static/data/03-17-2015-18-00-00.html",
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Electric Field (eastward)",
+            "unitText": "V/m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Electric Field (equatorward)",
+            "unitText": "V/m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ovation Pyme Hall Conductance",
+            "unitText": "mho"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ovation Pyme Pedersen Conductance",
+            "unitText": "mho"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Electric Potential",
+            "unitText": "V"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Hemisphere Integrated Joule Heating",
+            "unitText": "GW"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Joule Heating (E-field^2*Pedersen)",
+            "unitText": "mW/m^2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ion Drift Velocity (eastward)",
+            "unitText": "m/s"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ion Drift Velocity (equatorward)",
+            "unitText": "m/s"
+        }
+    ],
+    "version": "v2_beta"
+}

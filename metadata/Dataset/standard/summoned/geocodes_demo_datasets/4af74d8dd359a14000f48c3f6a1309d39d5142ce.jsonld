@@ -1,0 +1,195 @@
+{
+    "@context": {"@vocab":"https://schema.org/"},
+    "@id": "metadata-doi:10.17882/42182",
+    "@type":"Dataset",
+    "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17882/42182",
+        "url": "https://doi.org/10.17882/42182"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://www.seanoe.org/data/00311/42182/",
+    "thumbnailUrl": "https://www.seanoe.org/data/00311/42182/thumbnail.gif",
+    "name": "Argo float data and metadata from Global Data Assembly Centre (Argo GDAC)",
+    "description": "Argo is a global array of 3,000 free-drifting profiling floats that measures the temperature and salinity of the upper 2000 m of the ocean. This provides continuous monitoring of the temperature, salinity, and velocity of the upper ocean, with  data being made publicly available within hours after collection. The array provides 100,000 temperature/salinity profiles and velocity measurements per year distributed over the global oceans at an average of 3-degree spacing. Some floats provide additional bio-geo parameters such as oxygen or chlorophyll. Data collected by Argo floats are publically available in near real-time via the Global Data Assembly Centers (GDACs) in Brest (France) and Monterey (California) after an automated quality control (QC), and in scientifically quality controlled form, delayed mode data, via the GDACs within six months of collection.",
+    "datePublished": "2021-09-10",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "keywords": [
+        "float",
+        "Argo",
+        "global ocean observing system",
+        "ocean circulation",
+        "in-situ",
+        "ocean pressure",
+        "sea water salinity",
+        "sea water temperature",
+        "multi-year",
+        "weather climate and seasonal observation",
+        "global-ocean"
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "SEANOE",
+        "url": "https://www.seanoe.org/",
+        "disambiguatingDescription": "Sea scientific open data publication",
+        "logo": "https://www.seanoe.org/html/images/seanoe-share.png"
+    },
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "SEANOE",
+        "url": "https://www.seanoe.org/",
+        "disambiguatingDescription": "Sea scientific open data publication"
+    },
+    "citation": "Argo (2021). Argo float data and metadata from Global Data Assembly Centre (Argo GDAC). SEANOE.  https://doi.org/10.17882/42182",
+    "temporalCoverage": "2012-08-01/..",
+    "spatialCoverage": {
+        "@type": "Place",
+        "name": "Global Oceans",
+        "geo": {
+            "@type": "GeoShape",
+            "box": "-68 -179 85 179"
+        }
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Global Data Assembly Center (GDAC)",
+            "description": "For users interested in using the official Argo NetCDF files, the GDACs should be the route to access Argo data. Both GDACs offer access to the complete Argo data collection as managed by the Argo Data Management Team, including float metadata, detailed trajectory data, profile data and technical data all in NetCDF format.  It is important to understand the naming system of the files as well as the variable names and quality control flags within each data file. See the ADMT Documentation page for the Argo User\u2019s Manual and the Argo quality control manual for more information.",
+            "encodingFormat": "application/x-netcdf",
+            "url": "http://www.argodatamgt.org/Access-to-data/Argo-GDAC-ftp-and-https-servers"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GDAC synchronization service",
+            "description": "The rsync server vdmzrs.ifremer.fr server provides a synchronization service between the dac directory of the GDAC with a user mirror. See the ADMT website (http://www.argodatamgt.org/Access-to-data/Argo-GDAC-synchronization-service) for more details. From the user side, the rysnc service: 1.Downloads the new files; 2. Downloads the updated files; 3. Removes the files that have been removed from the GDAC; 4. Compresses/uncompresses the files during the transfer; 5. Preserves the files creation/update dates; 6. Lists all the files that have been transferred (easy to use for a user side post-processing)",
+            "url": "http://www.argodatamgt.org/Access-to-data/Argo-GDAC-synchronization-service"
+        },
+        {
+            "@type": [
+                "DataDownload",
+                "WebSite"
+            ],
+            "name": "Argovis Web Site",
+            "description": "Visualize ARGO temperature, salinity, and BioGeoChemical data by location. View float trajectory forecasts, compare gridded fields with Argovis' grid visualization module, or co-locate Argo data with weather events. Download profile or platform data in JSON format, or NetCDF time series data from platform.  The Argovis database is a curated set of Argo profiles available from the Argo GDACs. Entire profiles are excluded if their position or time is bad. Profiles without a position are kept in the database and will not be visible on the home web interface, but will be displayed when looking at the platform plots and downloaded via the API. Profiles with an estimated position are in Argovis. Otherwise, all temperature, pressure and salinity data are included in Argovis if their QC flag is equal to '1'. BioGeoChemical data are included no matter the QC flag and Deep data under 2000 db is included if the QC flag is '2' for pressure and temperature and '3' for salinity. If adjusted data is available for a parameter, that is used. Otherwise, the raw data is used.",
+            "url": "https://argovis.colorado.edu/ng/home"
+        },
+        {
+            "@type": [
+                "DataDownload",
+                "WebAPI"
+            ],
+            "name": "Argovis WebAPI",
+            "serviceType": "Argovis API",
+            "documentation": "https://argovis.colorado.edu/api-docs/#/",
+            "description": "Access Argo profiles via API, i.e. temperature, salinity, and biogeochemical data by location. Argo metadata, float trajectory forecasts, gridded fields, weather events are also available through API",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://argovis.colorado.edu/selection/profiles?startDate={start}&endDate={end}&shape={shape}&presRange={presRange}",
+                    "description": "download profiles within a bounding box for specified start/end dates",
+                    "httpMethod": ["GET"]
+                },
+                "query-input": [
+                    {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "shape",
+                        "description": "list of lists containing [lon, lat] coordinates that define a polygon; first and last coordinate pair should be the same poitn. example: shape = [[[-144.84375,36.031332],[-136.038755,36.210925],[-127.265625,35.746512],[-128.144531,22.755921],[-136.543795,24.835311],[-145.195313,26.431228],[-144.84375,36.031332]]]",
+                        "valueRequired": true
+                    },
+                    {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "start",
+                        "description": "string formatted as 'YYYY-MM-DD'",
+                        "valueRequired": true
+                    },
+                    {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "end",
+                        "description": "string formatted as 'YYYY-MM-DD'",
+                        "valueRequired": true
+                    },
+                    {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "presRange",
+                        "description": "a string of a list formatted as '[minimum pres,maximum pres]' (no spaces)",
+                        "valueRequired": false,
+                        "defaultValue": "None"
+                    }
+                ],
+                "result":{
+                    "@type":"Dataset",
+                    "encodingFormat":"application/json"
+                }
+            }
+        },
+        {
+            "@type": [
+                "DataDownload",
+                "WebSite"
+            ],
+            "name": "Zip archive snapshots",
+            "description": "snapshots of all GDAC data generated monthly since 2014, before that at irregular intervals back to 2012",
+            "url": "https://www.seanoe.org/data/00311/42182/#",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@type": [
+                "DataDownload",
+                "WebSite"
+            ],
+            "name": "ERDDAP Server",
+            "description": "Web form to select ARGO data and download one of many offered formats. See https://www.ifremer.fr/erddap/tabledap/ArgoFloats.html#DAS for complete list of variables in data structure",
+            "url": "https://www.ifremer.fr/erddap/tabledap/ArgoFloats.html"
+        }
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "water temperature",
+            "unitText": "Celsius"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "pressure",
+            "description": "water pressure, proxy for depth",
+            "unitText": "decibar"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "unitText": "psu"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dissolved oxygen",
+            "unitText": "micromole/kg"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Chlorophyll-A",
+            "unitText": "milligram/cubic meter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "latitude",
+            "unitText": "decimal degree"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "longitude",
+            "unitText": "decimal degree"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "date",
+            "description": "clendar date of observation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "time",
+            "description": "Time of obseration"
+        }
+    ]
+}

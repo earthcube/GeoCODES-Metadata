@@ -1,0 +1,229 @@
+{
+    "@context": {"@vocab":"https:///"},
+    "@type": ["Dataset"],
+    "@id": "metadata:doi:10.7288/V4/MAGIC/14104",
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "name": "Dataset",
+            "url": "http://schema.org/Dataset"
+        }
+    ],
+    "temporalCoverage": {
+        "@context": {"time": "http://www.w3.org/2006/time#"},
+        "@type": "time:ProperInterval",
+        "time:hasBeginning": {
+            "@type": "time:Instant",
+            "time:inTimePosition": {
+                "rdf:type": "time:TimePosition",
+                "time:hasTRS": {"@id": "http://schema.geoschemas.org/contexts/temporal#BeforePresent"},
+                "time:numericPosition": 309998051
+            }
+        },
+        "time:hasEnd": {
+            "@type": "time:Instant",
+            "time:inTimePosition": {
+                "rdf:type": "time:TimePosition",
+                "time:hasTRS": {"@id": "http://schema.geoschemas.org/contexts/temporal#BeforePresent"},
+                "time:numericPosition": 269998051
+            }
+        }
+    },
+    "citation": "Ellwood, B.B. and Crick, R.E. (1988). Paleomagnetism of paleozoic asphaltic deposits in southern Oklahoma, USA. Geophysical Research Letters 15: doi: 10.1029/88GL02098. issn: 0094-8276.",
+    "contributor": [
+        {
+            "@type": "Organization",
+            "name": "MagIC Database Team"
+        }
+    ],
+    "dateModified": "2006-12-19T10:32:02.000Z",
+    "datePublished": "2006-12-19",
+    "description": "Paleomagnetic measurements on asphaltic samples from two formations in southern Oklahoma have been performed. A bioclastic unit from the Boggy Formation, known as the Buckhorn asphalt, exhibited a stable, characteristic remanent moment (RM) after A.F. demagnetization between 5\u201320 mT. We infer from our data that very fine, possibly authigenic magnetite, like that shown to have a genetic relationship with the migration through rocks of hydrocarbons [Elmore et al., 1987], is the primary RM carrier in these samples. The tilt corrected paleopole for the Buckhorn asphalt (121.9 E; 43.5 N; dp=1.3; dm=2.3) falls on the Early Permian Apparent Polar Wander Path for North America of Irving and Irving [1982], using a 30 Ma window (270\u2013280 Ma). Because the Boggy Formation, containing the Buckhorn asphalt, was deposited during the Late Pennsylvanian (Desmoinesian), we interpret the data to indicate magnetization during minor uplift in the Early Permian of the Arbuckle Mountain region. The RM appears to have been acquired at this time, probably as the result of magnetite production facilitated by the introduction time of sulfate reducing bacteria. © American Geophysical Union 1988",
+    "distribution": [
+        {
+            "@type": ["DataDownload"],
+            "name": "MaGIC database text file",
+            "contentUrl": "https://earthref.org/MagIC/download/14104/magic_contribution_14104.txt",
+            "encodingFormat": [
+                "text/plain; application=earthref-tsv",
+                "EarthRef-tsv-Multipart"
+            ],
+            "url": "https://earthref.org/MagIC/14104"
+        }
+    ],
+    "identifier": "http://dx.doi.org/10.7288/V4/MAGIC/14104",
+    "isAccessibleForFree": true,
+    "keywords": [
+        "Geomagnetism",
+        "Paleomagnetism",
+        "Rock and mineral magnetism",
+        "Paleomagnetism applied to tectonics (regional, global)",
+        "Geologic Time",
+        "Paleozoic",
+        "North America"
+    ],
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "url": "https://creativecommons.org/licenses/by/4.0/",
+            "name": "Attribution 4.0 International (CC BY 4.0)"
+        }
+    ],
+    "name": "Ellwood, B.B. and Crick, R.E. (1988). Paleomagnetism of paleozoic asphaltic deposits in southern Oklahoma, USA. Geophysical Research Letters 15: doi: 10.1029/88GL02098. issn: 0094-8276. (Dataset)",
+    "provider": {
+        "@id": "https://earthref.org/MagIC",
+        "legalName": "Magnetics Information Consortium (MagIC) Data Repository",
+        "name": "MagIC",
+        "@type": "Organization",
+        "url": "https://earthref.org/MagIC"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "@id": "https//earthref.org/MagIC",
+        "name": "Magnetics Information Consortium (MagIC)"
+    },
+    "sdDatePublished": "2021-10-14T23:42:28.342Z",
+    "sdLicense": "https://creativecommons.org/licenses/by/4.0/",
+    "sdPublisher": "EarthRef.org",
+    "spatialCoverage": [
+        {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 34.5,
+                "longitude": -97
+            }
+        }
+    ],
+    "url": "https://earthref.org/MagIC/14104",
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "description": "Percentage of sites that are reversed",
+            "maxValue": 100,
+            "minValue": 100,
+            "name": "Percentage Reversed Sites",
+            "unitText": "%",
+            "alternateName": "Percentage Reversed Sites"
+        },
+        {
+            "@type": "PropertyValue",
+            "description": "Number of samples included in directional calculations.",
+            "maxValue": 55,
+            "minValue": 55,
+            "name": "Direction N Samples",
+            "alternateName": "Direction N Samples"
+        },
+        {
+            "@type": "PropertyValue",
+            "description": "Pole latitude, average of site VGP latitudes, north pole",
+            "maxValue": 43.5,
+            "minValue": 43.5,
+            "name": "Pole Latitude",
+            "unitText": "Degrees",
+            "alternateName": "Pole Latitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "description": "Number of sites included in directional calculations",
+            "maxValue": 35,
+            "minValue": 1,
+            "name": "Direction N Sites",
+            "alternateName": "Direction N Sites"
+        },
+        {
+            "@type": "PropertyValue",
+            "description": "Pole longitude, average of site VGP longitudes, north pole",
+            "maxValue": 121.9,
+            "minValue": 121.9,
+            "name": "Pole Longitude",
+            "unitText": "Degrees",
+            "alternateName": "Pole Longitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "description": "Directions in specimen coordinates, Declination",
+            "maxValue": 152.8,
+            "minValue": 146.1,
+            "name": "Declination",
+            "unitText": "Degrees",
+            "alternateName": "Declination"
+        },
+        {
+            "@type": "PropertyValue",
+            "description": "Directions in specimen coordinates, Inclination",
+            "maxValue": 8.6,
+            "minValue": -11,
+            "name": "Inclination",
+            "unitText": "Degrees",
+            "alternateName": "Inclination"
+        },
+        {
+            "@type": "PropertyValue",
+            "description": "Specimen direction in coordinates specified by tilt correction, Fisher circle",
+            "maxValue": 2.1,
+            "minValue": 2.1,
+            "name": "Direction Alpha 95%",
+            "unitText": "Degrees",
+            "alternateName": "Direction Alpha 95%"
+        },
+        {
+            "@type": "PropertyValue",
+            "description": "Pole meridian uncertainty",
+            "maxValue": 2.3,
+            "minValue": 2.3,
+            "name": "Pole DM",
+            "unitText": "Degrees",
+            "alternateName": "Pole meridian uncertainty"
+        },
+        {
+            "@type": "PropertyValue",
+            "description": "Pole parallel latitude uncertainty",
+            "maxValue": 1.3,
+            "minValue": 1.3,
+            "name": "Pole DP",
+            "unitText": "Degrees",
+            "alternateName": "Pole parallel latitude uncertainty"
+        },
+        {
+            "@type": "PropertyValue",
+            "description": "Percentage tilt correction applied to the data",
+            "maxValue": 100,
+            "minValue": 0,
+            "name": "Direction Tilt Correction",
+            "unitText": "%",
+            "alternateName": "Percentage tilt correction"
+        }
+    ],
+    "version": 2,
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "B.B. Ellwood"
+        },
+        {
+            "@type": "Person",
+            "name": "R.E. Crick"
+        }
+    ],
+    "ecrro:ECRRO_0000600": {
+        "value": ["Ellwood, B.B. and Crick, R.E. (1988). Paleomagnetism of Paleozoic asphaltic deposits in southern Oklahoma, USA. Geophysical Research Letters 15: doi: 10.1029/88GL02098. issn: 0094-8276."],
+        "@type": "PropertyValue",
+        "propertyID": "ecrro:ECRRO_0000600",
+        "name": "primary publication"
+    },
+    "ecrro:ECRRO_0001301": {
+        "value": {
+            "contributor": {
+                "name": "Stephen M Richard",
+                "@type": "Person",
+                "identifier": "https://orcid.org/0000-0001-6041-5302"
+            },
+            "@type": "StructuredValue",
+            "additionalType": "ecrro:ECRRO_0000156"
+        },
+        "@type": "PropertyValue",
+        "propertyID": "ecrro:ECRRO_0001301",
+        "name": "registration metadata"
+    }
+}
