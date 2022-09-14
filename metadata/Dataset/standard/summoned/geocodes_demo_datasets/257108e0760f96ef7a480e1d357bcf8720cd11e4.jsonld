@@ -1,23 +1,24 @@
 {
     "@context": {"@vocab":"https://schema.org/"},
+    "@type": ["Dataset"],
     "@id": "metadata-doi:10.17882/42182",
-    "@type":"Dataset",
-    "identifier": {
-        "@type": "PropertyValue",
-        "propertyID": "https://registry.identifiers.org/registry/doi",
-        "value": "doi:10.17882/42182",
-        "url": "https://doi.org/10.17882/42182"
-    },
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "name": "Dataset",
+            "url": "http://schema.org/Dataset"
+        }
+    ],
+    "identifier": "doi:10.17882/42182",
     "isAccessibleForFree": true,
     "url": "https://www.seanoe.org/data/00311/42182/",
     "thumbnailUrl": "https://www.seanoe.org/data/00311/42182/thumbnail.gif",
     "name": "Argo float data and metadata from Global Data Assembly Centre (Argo GDAC)",
     "description": "Argo is a global array of 3,000 free-drifting profiling floats that measures the temperature and salinity of the upper 2000 m of the ocean. This provides continuous monitoring of the temperature, salinity, and velocity of the upper ocean, with  data being made publicly available within hours after collection. The array provides 100,000 temperature/salinity profiles and velocity measurements per year distributed over the global oceans at an average of 3-degree spacing. Some floats provide additional bio-geo parameters such as oxygen or chlorophyll. Data collected by Argo floats are publically available in near real-time via the Global Data Assembly Centers (GDACs) in Brest (France) and Monterey (California) after an automated quality control (QC), and in scientifically quality controlled form, delayed mode data, via the GDACs within six months of collection.",
     "datePublished": "2021-09-10",
-    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license": ["https://creativecommons.org/licenses/by/4.0/"],
     "keywords": [
         "float",
-        "Argo",
         "global ocean observing system",
         "ocean circulation",
         "in-situ",
@@ -30,10 +31,11 @@
     ],
     "publisher": {
         "@type": "Organization",
-        "name": "SEANOE",
+        "name": "SEANOE (SEA scieNtific Open data Edition)",
         "url": "https://www.seanoe.org/",
         "disambiguatingDescription": "Sea scientific open data publication",
-        "logo": "https://www.seanoe.org/html/images/seanoe-share.png"
+        "logo": "https://www.seanoe.org/html/images/seanoe-share.png",
+        "identifier": "https://www.seanoe.org/"
     },
     "includedInDataCatalog": {
         "@type": "DataCatalog",
@@ -43,24 +45,26 @@
     },
     "citation": "Argo (2021). Argo float data and metadata from Global Data Assembly Centre (Argo GDAC). SEANOE.  https://doi.org/10.17882/42182",
     "temporalCoverage": "2012-08-01/..",
-    "spatialCoverage": {
-        "@type": "Place",
-        "name": "Global Oceans",
-        "geo": {
-            "@type": "GeoShape",
-            "box": "-68 -179 85 179"
+    "spatialCoverage": [
+        {
+            "@type": "Place",
+            "name": "Global Oceans",
+            "geo": {
+                "@type": "GeoShape",
+                "box": "-68 -179 85 179"
+            }
         }
-    },
+    ],
     "distribution": [
         {
-            "@type": "DataDownload",
+            "@type": ["DataDownload"],
             "name": "Global Data Assembly Center (GDAC)",
             "description": "For users interested in using the official Argo NetCDF files, the GDACs should be the route to access Argo data. Both GDACs offer access to the complete Argo data collection as managed by the Argo Data Management Team, including float metadata, detailed trajectory data, profile data and technical data all in NetCDF format.  It is important to understand the naming system of the files as well as the variable names and quality control flags within each data file. See the ADMT Documentation page for the Argo User\u2019s Manual and the Argo quality control manual for more information.",
-            "encodingFormat": "application/x-netcdf",
+            "encodingFormat": ["application/x-netcdf"],
             "url": "http://www.argodatamgt.org/Access-to-data/Argo-GDAC-ftp-and-https-servers"
         },
         {
-            "@type": "DataDownload",
+            "@type": ["DataDownload"],
             "name": "GDAC synchronization service",
             "description": "The rsync server vdmzrs.ifremer.fr server provides a synchronization service between the dac directory of the GDAC with a user mirror. See the ADMT website (http://www.argodatamgt.org/Access-to-data/Argo-GDAC-synchronization-service) for more details. From the user side, the rysnc service: 1.Downloads the new files; 2. Downloads the updated files; 3. Removes the files that have been removed from the GDAC; 4. Compresses/uncompresses the files during the transfer; 5. Preserves the files creation/update dates; 6. Lists all the files that have been transferred (easy to use for a user side post-processing)",
             "url": "http://www.argodatamgt.org/Access-to-data/Argo-GDAC-synchronization-service"
@@ -118,9 +122,9 @@
                         "defaultValue": "None"
                     }
                 ],
-                "result":{
-                    "@type":"Dataset",
-                    "encodingFormat":"application/json"
+                "result": {
+                    "@type": "CreativeWork",
+                    "encodingFormat": "application/json"
                 }
             }
         },
@@ -132,7 +136,7 @@
             "name": "Zip archive snapshots",
             "description": "snapshots of all GDAC data generated monthly since 2014, before that at irregular intervals back to 2012",
             "url": "https://www.seanoe.org/data/00311/42182/#",
-            "encodingFormat": "application/zip"
+            "encodingFormat": ["application/zip"]
         },
         {
             "@type": [
@@ -148,48 +152,84 @@
         {
             "@type": "PropertyValue",
             "name": "water temperature",
-            "unitText": "Celsius"
+            "unitText": "Celsius",
+            "alternateName": "water temperature"
         },
         {
             "@type": "PropertyValue",
             "name": "pressure",
             "description": "water pressure, proxy for depth",
-            "unitText": "decibar"
+            "unitText": "decibar",
+            "alternateName": "pressure"
         },
         {
             "@type": "PropertyValue",
             "name": "salinity",
-            "unitText": "psu"
+            "unitText": "psu",
+            "alternateName": "salinity"
         },
         {
             "@type": "PropertyValue",
             "name": "dissolved oxygen",
-            "unitText": "micromole/kg"
+            "unitText": "micromole/kg",
+            "alternateName": "dissolved oxygen"
         },
         {
             "@type": "PropertyValue",
             "name": "Chlorophyll-A",
-            "unitText": "milligram/cubic meter"
+            "unitText": "milligram/cubic meter",
+            "alternateName": "Chlorophyll-A"
         },
         {
             "@type": "PropertyValue",
             "name": "latitude",
-            "unitText": "decimal degree"
+            "unitText": "decimal degree",
+            "alternateName": "latitude"
         },
         {
             "@type": "PropertyValue",
             "name": "longitude",
-            "unitText": "decimal degree"
+            "unitText": "decimal degree",
+            "alternateName": "longitude"
         },
         {
             "@type": "PropertyValue",
             "name": "date",
-            "description": "clendar date of observation"
+            "description": "calendar date of observation",
+            "alternateName": "date"
         },
         {
             "@type": "PropertyValue",
             "name": "time",
-            "description": "Time of obseration"
+            "description": "Time of observation",
+            "alternateName": "time"
         }
-    ]
+    ],
+    "dct:bibliographicCitation": {
+        "value": "Argo (2022). Argo float data and metadata from Global Data Assembly Centre (Argo GDAC). SEANOE. https://doi.org/10.17882/42182",
+        "@type": "PropertyValue",
+        "propertyID": "dct:bibliographicCitation"
+    },
+    "creativeWorkStatus": "Published",
+    "audience": [
+        {
+            "@type": "Audience",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002",
+            "audienceType": "Data Users"
+        }
+    ],
+    "ecrro:ECRRO_0001301": {
+        "value": {
+            "contributor": {
+                "name": "Stephen M Richard",
+                "@type": "Person",
+                "identifier": "https://orcid.org/0000-0001-6041-5302"
+            },
+            "@type": "StructuredValue",
+            "additionalType": "ecrro:ECRRO_0000156"
+        },
+        "@type": "PropertyValue",
+        "propertyID": "ecrro:ECRRO_0001301",
+        "name": "registration metadata"
+    }
 }
