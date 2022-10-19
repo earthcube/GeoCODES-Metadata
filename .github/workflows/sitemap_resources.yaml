@@ -10,23 +10,23 @@ on:
       - main
 
 jobs:
-  docs_deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-      - run: pip install mkdocs
-      - run: pip install mkdocs-schema-reader
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      #     - run: cd docs/ && mkdocs gh-deploy --force --clean --verbose
-      #      - run:  mkdocs gh-deploy --force --clean --verbose
-      - run: mkdocs gh-deploy  --force --clean --verbose
+#  docs_deploy:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/setup-python@v2
+#        with:
+#          python-version: 3.x
+#      - run: pip install mkdocs
+#      - run: pip install mkdocs-schema-reader
+#      - name: Checkout
+#        uses: actions/checkout@v3
+#
+#      #     - run: cd docs/ && mkdocs gh-deploy --force --clean --verbose
+#      #      - run:  mkdocs gh-deploy --force --clean --verbose
+#      - run: mkdocs gh-deploy  --force --clean --verbose
 
   sitemap_job:
-    needs:   docs_deploy
+#    needs:   docs_deploy
     runs-on: ubuntu-latest
     name: Generate a sitemap
     steps:
@@ -34,7 +34,8 @@ jobs:
       uses: actions/checkout@v2
       with:
         fetch-depth: 1
-#  the original sitemap, at metadata/Dataset root
+    - run: mkdocs gh-deploy  --force --clean --verbose
+      #  the original sitemap, at metadata/Dataset root
     - name: Generate the dataset allgood sitemap
       id: sitemapdatasetallgood
       uses: cicirello/generate-sitemap@v1
