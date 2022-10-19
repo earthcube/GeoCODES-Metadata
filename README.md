@@ -1,4 +1,5 @@
 # GeoCODES-Metadata
+Github IO docs: https://earthcube.github.io/GeoCODES-Metadata/site/ 
 
 Generated Sitemaps are at:
 * allgood: https://earthcube.github.io/GeoCODES-Metadata/metadata/Dataset/allgood/sitemap.xml
