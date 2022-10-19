@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Metadata Profile - Geocodes Metadata</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Geocodes Metadata</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Metadata Profile</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../collections-ro-crate/" class="nav-link">Collections Profile</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../MetadataPublicationOnTheWeb/" class="nav-link">Considerations for publishing metadata for web harvesting.</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../collections-ro-crate/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#eco-geocodes-profile" class="nav-link">ECO GeoCODES Profile</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#preview-of-these-recommendations-include" class="nav-link">Preview of these recommendations include:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="eco-geocodes-profile">ECO GeoCODES Profile</h1>
+<p>This document will evolve to provide guidance to groups on how to address elements of their metadata policy and procedures to address indexing by GeoCODES.  To provide some context we can look at other activities and see their relationships.   </p>
+<p><img alt="alt_text" src="../images/image1.png" title="image_tooltip" /></p>
+<ul>
+<li>Google Dev Guidance helps guide use in <em>Google Dataset Search</em></li>
+<li>ESIP Science on Schema guides use of <em>Type</em> Dataset (<a href="https://schema.org/Dataset">https://schema.org/Dataset</a>) </li>
+<li>EarthCube GeoCODES provides guidance on the <em>application</em> GeoCODES search</li>
+</ul>
+<p>An element of this is the leveraging of the graph to provide connections to other resources.  In particular the resources in the EarthCube Resource Registry graph.  However, links to other external resources like the EarthCube Throughput project are being developed. </p>
+<p>This work will be done in a way that can be applied to other groups (present and future) as well.  </p>
+<p>An example of the current approach for linking to the Resource Registry follows.  This is evolving at present as we explore how to connect this through to the user interface. </p>
+<p><img alt="alt_text" src="../images/ds2rr.svg" title="image_tooltip" /></p>
+<p>GeoCODES team will work to refine and publish this guidance along with machine workflows to validate JSON-LD data graphs with.  Likely via SHACL shape graphs.  </p>
+<h2 id="preview-of-these-recommendations-include">Preview of these recommendations include:</h2>
+<h3 id="on-the-server-side">On the server side:</h3>
+<p>The following are items of use to the GeoCODES harvest and indexing process.  </p>
+<p>Sitemap or Sitemap index</p>
+<p>You can leverage a sitemap (up to 50K resources) or a sitemap index to go beyond that.  An index will point to multiple sitemaps.  Note, you can use the index pattern to point to different resource types too.  For example, a sitemap index can point to various sitemaps for tools/software, people, dataset, etc.  This is also completely compatible with Google and other commercial site index systems.  </p>
+<p>Leverage Sitemap with dates</p>
+<p>Adding the dates node and updating it will be useful as we move to an automated indexing pattern with GeoCODES.   If present we will use this to guide the architecture to do faster and less burdensome indexing.   Sites that do not provide this date node will need to be periodically completely indexed to ensure updates to metadata records are found and indexed.  </p>
+<p>Content negotiate</p>
+<p>Though note required, we do support content negotiation for accessing your resources.  This can be both faster and less stressful on servers.  You do not need to provide any guidance back to EarthCube if you implement this.</p>
+<p>Headless vs static</p>
+<p>Both static and dynamic inclusion of the JSON-LD data graph into the page DOM is supported.  EarthCube (and all commercial indexes) support this "headless" rendering of pages for indexing.   At present we do not have a good standards based way to communicate this to EarthCube.  We are addressing approaches, both in the indexing code and via the web architecture to do this.   We will provide further guidance, if necessary, as it develops on this point.   Providers should feel free to select either approach as it addresses their own criteria.  </p>
+<h3 id="in-the-graph">In the graph:</h3>
+<p>The following are either important in the search UI or (in the case of variable measured) items we have talked about leveraging.   It is important to know that these are items used by the search application.  In many ways this is a subset of Science on Schema of importance to us in providing the GeoCODES search UI/UX.  </p>
+<p>ID</p>
+<p>When generating your JSON-LD be sure to include a top level @id that points to the metadata record of the resource you are describing.  This can be a DOI like a DataCite metadata record but it can also be the URL of the landing page hosting your JSON-LD and describing the resource.</p>
+<p>Descriptive text</p>
+<p>The initial search is focused mostly on text searches across the literal strings of the graph, then we conduct other graph connections as the query is processed into a set of results.   So, while it's important to publish the graph elements it is also important to provide descriptive text and keywords at every level of the JSON-LD graph.</p>
+<p>Distribution url</p>
+<p>Follow ESIP Science on Schema guidance here.  </p>
+<p>Ref: <a href="https://github.com/ESIPFed/science-on-schema.org/blob/master/guides/Dataset.md#distributions">https://github.com/ESIPFed/science-on-schema.org/blob/master/guides/Dataset.md#distributions</a> </p>
+<p>Encoding format</p>
+<p>Follow ESIP Science on Schema guidance here.  </p>
+<p>Ref: <a href="https://github.com/ESIPFed/science-on-schema.org/blob/master/guides/Dataset.md#distributions">https://github.com/ESIPFed/science-on-schema.org/blob/master/guides/Dataset.md#distributions</a> </p>
+<p>Variable measured </p>
+<p>This is a developing area and we will implement ESIP Science on Schema recommendations here.</p>
+<p>Spatial</p>
+<p>Many ways to do it, but GeoCODES may propose geosparql WKT approach</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
