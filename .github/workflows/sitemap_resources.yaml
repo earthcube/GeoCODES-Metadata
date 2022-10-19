@@ -23,7 +23,7 @@ jobs:
 
       #     - run: cd docs/ && mkdocs gh-deploy --force --clean --verbose
       #      - run:  mkdocs gh-deploy --force --clean --verbose
-      - run: mkdocs gh-deploy  --verbose
+      - run: mkdocs gh-deploy  --force --clean --verbose
 
   sitemap_job:
     needs:   docs_deploy
