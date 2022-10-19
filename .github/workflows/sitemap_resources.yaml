@@ -40,7 +40,7 @@ jobs:
       with:
         fetch-depth: 1
  #   - run: mkdocs gh-deploy  --force --clean --verbose
-    - run: mkdocs build
+
       #  the original sitemap, at metadata/Dataset root
     - name: Generate the dataset allgood sitemap
       id: sitemapdatasetallgood
@@ -109,6 +109,7 @@ jobs:
       run: |
         echo "sitemap-path = ${{ steps.sitemapotherResources.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemapotherResources.outputs.url-count }}"
+    - run: mkdocs build
     - name: push to gh pages
       uses: JamesIves/github-pages-deploy-action@4.1.6
       with:
