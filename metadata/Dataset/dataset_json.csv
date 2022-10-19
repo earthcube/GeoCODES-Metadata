@@ -1,0 +1,32 @@
+directory, file,TestType, pass or expected fail,schemaPath,  search term, @id tool linkage, notes
+json,Amgeo1.json,SHACL basic,fail,../OtherResources/GeoCodesv1Shapes.ttl,,,"wrong namespace, has https: "
+json,argo1.json,SHACL basic,fail,../OtherResources/GeoCodesv1Shapes.ttl,,,"wrong namespace, has https: "
+json,BadContext.json,SHACL basic,fail,../OtherResources/GeoCodesv1Shapes.ttl,,,"wrong namespace, has https: "
+Dataset/allgood,MB_cchdo_49SU9402_2.json,SHACL basic,fail,../OtherResources/GeoCodesv1Shapes.ttl,,,"description < 50 characters; warning-no license, no identifier"
+Dataset/allgood,MB_designsafe_PRJ-2137.json,SHACL basic,fail,../OtherResources/GeoCodesv1Shapes.ttl,,,namspace URI missing '/'; no access URL; warning--missing isAccessibleForFree
+Dataset/json,Amgeo1.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"spatialCoverage-- should be Place/geo/GeoCoordinates, missing @id"
+Dataset/json,argo1.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"distribution problem, missing encodingFormat"
+Dataset/json,BadContext.json,json schema,pass,../schemas/GeoCodes-DatasetSchema.json,,,JSON schema doesn't check http vs https
+Dataset/json,DesignSafeCIProjDataset20220711.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"context should be JSON object; JSON schema rejects the creator object, not sure why; distribution should be array, encodingFormat missing"
+Dataset/json,earthchem1-20220707.json,json schema,pass,../schemas/GeoCodes-DatasetSchema.json,,,
+Dataset/json,earthchem1-errFunderGeo.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,spatial coverage should be array; geo element is empty; funder should be array
+Dataset/json,hydroshare1-20220707.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,citation is array of citation for parts of the dataset; should be in hasPart/CreativeWork
+Dataset/json,magic1.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,temporalCoverage @type DateTime no valid; should just be 8601 string or time:ProperInterval
+Dataset/json,magic1-20220707.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"context should be object; @vocab : http://schema.org (what's there is technically correct, but causes pyshacl to fail."
+Dataset/json,MB_r2r_47162.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,potentialAction and query-input problme
+Dataset/json,MB_r2r_122831.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"funder should be array; potentialAction query-input should be array, need to check syntax"
+Dataset/json,MB_r2r_137436.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"funder should be array; potentialAction query-input should be array, need to check syntax"
+Dataset/json,MB_r2r_147162.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"funder should be array; potentialAction query-input should be array, need to check syntax"
+Dataset/json,MB_ssdb.iodb_127708.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"context should be object {""@vocab"": …}"
+Dataset/json,MB_ssdb.K7_vel.jpeg.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"context should be object {""@vocab"": …}"
+Dataset/json,MB_ssdb.WI-JMR-08-1045.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"context should be object {""@vocab"": …}"
+Dataset/json,MB_ucar_ncep-fnl-global-tropospheric-analyses-july1999.json,json schema,pass,../schemas/GeoCodes-DatasetSchema.json,,,
+Dataset/json,MB_unavco_T5P55KQ3.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"context should be object {""@vocab"":…}"
+Dataset/json,MB_usap_600073.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,funder should be array; CreateAction not recognized…  Submission page should be related resource
+Dataset/json,minimal.json,json schema,pass,../schemas/GeoCodes-DatasetSchema.json,,,
+Dataset/json,minimalGood.json,json schema,pass,../schemas/GeoCodes-DatasetSchema.json,,,
+Dataset/json,NoDistributionOrAccess.json,json schema,pass,../schemas/GeoCodes-DatasetSchema.json,,,
+Dataset/json,nwis-instantaneous_values.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,distribution missing encoding format
+Dataset/json,nwis-sites.json,json schema,fail,../schemas/GeoCodes-DatasetSchema.json,,,"WebSites shouldn't be distributions, should be related resources, ?or subjectOf?"
+Dataset/json,MB_cchdo_49SU9402_2.json,json schema,pass,../schemas/GeoCodes-DatasetSchema.json,,,
+Dataset/json,MB_designsafe_PRJ-2137.json,json schema,pass,../schemas/GeoCodes-DatasetSchema.json,,,

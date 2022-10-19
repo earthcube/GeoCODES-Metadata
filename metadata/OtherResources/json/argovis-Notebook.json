@@ -1,0 +1,206 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2j92v",
+    "@type": [
+        "SoftwareSourceCode",
+        "SoftwareApplication",
+        "Product"
+    ]
+,
+    "name": "Jupyter Notebook for Hydrographic Ocean Data using the Argovis API",
+    "description": "This notebook demonstrates how to use the Argovis API to visualize salinity and temperature property distributions below the ocean surface.  [Argovis](https://argovis.colorado.edu/) allows access to a curated database of Argo profiles via API (Tucker et al. 2020). The interface allows users to visualize temperature, salinity and biogeochemical data (or BGC) by location on a browser. - The first half of the notebook goes over how to query data with user-defined parameters and use the API to retrieve data.  - The second part of the notebook will allow users to plot the location of the data on a map and plot property plots to gain insights into observed water masses.  This notebook uses a template adapted from [notebook submitted for the 2020 EarthCube notebooks show case](https://doi.org/10.5281/zenodo.5496281).",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Susanna Anil"
+        },
+        {
+            "@type": "Person",
+            "name": "Steve Diggs https://orcid.org/0000-0003-3814-6104"
+        },
+        {
+            "@type": "Person",
+            "name": "Sarah Purkey",
+            "identifier": "https://orcid.org/0000-0002-1893-6224"
+        },
+        {
+            "@type": "Person",
+            "name": "Donata Giglio",
+            "identifier": "https://orcid.org/0000-0002-3738-4293"
+        },
+        {
+            "@type": "Person",
+            "name": "Megan Scanderbeg",
+            "identifier": "https://orcid.org/0000-0002-0398-7272"
+        },
+        {
+            "@type": "Person",
+            "name": "Tyler Tucker",
+            "identifier": "https://orcid.org/0000-0002-0560-9777"
+        }
+    ],
+    "keywords": "ARGO,Oceanography,water temperature,water salinity,biogeochemical data",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "Apache",
+            "identifier": "http://cor.esipfed.org/ont/SWL_0000013"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Open Access",
+            "identifier": "undefined"
+        }
+    ],
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Climatology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000035"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Environmental Science",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000028"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Oceanography",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000046"
+        }
+    ],
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    },
+    "applicationCategory": [
+        "function: Data Exploration uri: http://cor.esipfed.org/ont/earthcube/SFO_0000006",
+        "subfunction: Data Discovery & Access: Data Query, Data Discovery & Access: Data Harvesting, Visualization: Display uri: http://cor.esipfed.org/ont/earthcube/SFO_0000027",
+        "subfunction: Data Discovery & Access: Data Query, Data Discovery & Access: Data Harvesting, Visualization: Display uri: http://cor.esipfed.org/ont/earthcube/SFO_0000030",
+        "subfunction: Data Discovery & Access: Data Query, Data Discovery & Access: Data Harvesting, Visualization: Display uri: http://cor.esipfed.org/ont/earthcube/SFO_0000062"
+    ],
+    "runtimePlatform": "Notebook Container, uri:http://cor.esipfed.org/ont/earthcube/RTE_000011",
+    "programmingLanguage": "Python 3.6",
+    "codeRepository": "https://github.com/earthcube/earthcube_utilities/tree/dataformatTemplates/dataformat_templates/ARGO",
+    "potentialAction": {
+        "@type": "Action",
+        "name": "Execute iPython notebook",
+        "target": {
+            "@type": "EntryPoint",
+            "actionPlatform":"iPython Notebook",
+            "actionApplication":"MyBinder",
+            "url": "https://mybinder.org/v2/gh/earthcube/NotebookTemplates.git/main?filepath=GeoCODEStemplates/ARGO/SA_01_Argo_Data_Exploration.ipynb",
+            "description": "Invoke iPython notebook with myBinder on the web",
+            "httpMethod": ["GET"]
+        }
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "Susanna Anil, Steve Diggs, Sarah Purkey, Donata Giglio, Megan Scanderbeg, & Tyler Tucker. (2021). Interactive Jupyter notebook for hydrographic ocean data exploration, retrieval and visualization via the Argovis API (v1.1). Zenodo. https://doi.org/10.5281/zenodo.5496281"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000503",
+            "name": "Interface specification",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "Argovis API",
+                "identifier": "http://n2t.net/ark:/23942/g2x06p"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Person",
+                "name": "person, Megan Scanderbeg Argo Data Management Team",
+                "url": "https://orcid.org/0000-0002-0398-7272"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "ArgoVis API v.1.0, ",
+                "url": "https://argovis.colorado.edu/api-docs/#/"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "2021-10-19T17:03:38-0700"
+            }
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "gdx": "https://geodex.org/voc/"
+  },
+  "@type": [
+    "Service",
+    "Organization"
+  ],
+  "@id": "https://doi.org/10.17616/R31898",
+  "additionalType": "gdx:ResearchRepositoryService",
+  "name": "U.S. Antarctic Program Data Center",
+  "url": "https://www.usap-dc.org/home",
+  "category": [
+    "Earth Science, Polar Science"
+  ],
+  "description": "The U.S. Antarctic Program Data Center (USAP-DC) supports investigators funded by the National Science Foundation in documenting, preserving, and disseminating their research results. We provide a central USAP Project Catalog for all projects funded by the NSF Antarctic program and a Data Repository for research datasets derived from these projects. Data managed include the NSF research related glaciology data collection formerly managed  through NSIDC. We register datasets in the Antarctic Master Directory (AMD) to comply with the Antarctic Treaty and represent the U.S. in Scientific Committee on Antarctic Research (SCAR) activities.",
+  "sameAs": "https://www.re3data.org/repository/r3d100010660",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "https://purl.org/spar/datacite/doi",
+    "value": "10.17616/R31898",
+    "url": "https://doi.org/10.17616/R31898"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "name": "USAP-DC Manager",
+    "email": "info@usap-dc.org",
+    "url": "https://www.usap-dc.org/contact",
+    "contactType": "technical support"
+  },
+  "funder": {
+    "@type": "Organization",
+    "@id": "https://dx.doi.org/10.13039/100000087",
+    "legalName": "Division Of Polar Programs",
+    "alternateName": "NSF-OPP",
+    "url": "https://www.nsf.gov",
+    "parentOrganization": {
+      "@type": "Organization",
+      "@id": "https://dx.doi.org/10.13039/100000001",
+      "legalName": "National Science Foundation",
+      "alternateName": "NSF",
+      "url": "https://www.nsf.gov"
+    }
+  },
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.usap-dc.org/static/imgs/header/usap_dc_logo.png"
+  },
+  "publishingPrinciples": {
+    "@type": "DigitalDocument",
+    "@id": "https://www.iedadata.org/help/data-publication/",
+    "additionalType": "gdx:Protocol-TermsOfUse",
+    "name": "Data Publication Policy",
+    "url": "https://www.iedadata.org/help/data-publication/",
+    "fileFormat": "text/html"
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "@id": "https://viaf.org/viaf/142992181/",
+    "name": "Lamont-Doherty Earth Observatory",
+    "url": "https://www.ldeo.columbia.edu/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "61 Route 9W",
+      "addressLocality": "Palisades",
+      "addressRegion": "NY",
+      "postalCode": "10964-1000",
+      "addressCountry": "USA"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "@id": "https://viaf.org/viaf/156836332/",
+      "legalName": "Columbia University",
+      "url": "https://www.columbia.edu/"
+    }
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "USAP-DC Catalog",
+    "itemListElement": [
+      {
+        "@type": "DataCatalog",
+        "@id": "https://www.usap-dc.org/search",
+        "name": "US Antarctic Program Data Center Catlog",
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "public",
+          "name": "General Public"
+        }
+      }
+    ]
+  },
+  "potentialAction": [
+    {
+      "@type": "SearchAction",
+      "@id": "https://www.earthchem.org/data-access/",
+      "additionalType": "gdx:SearchService",
+      "name": "EarthChem Library Search",
+      "description": "Search for datasets in the EarthChem Library repository",
+      "target": {
+        "@type": "EntryPoint",
+        "url": "https://www.earthchem.org/data-access/"
+      }
+    },
+    {
+      "@type": "CreateAction",
+      "@id": "https://www.usap-dc.org/submit",
+      "additionalType": "gdx:SubmissionService",
+      "name": "Submit Data to US Antarctic Program Data Center",
+      "description": "Web application to support submitting a dataset to USAP-DC or Registering a project with the Antarctic Master Directory. Requires a sign in using Google or ORCID (free registration). Datasets will be registered with a DOI after acceptance for accession to repository.",
+      "target": {
+        "@type": "EntryPoint",
+        "url": "https://www.usap-dc.org/submit"
+      }
+    }
+  ]
+}

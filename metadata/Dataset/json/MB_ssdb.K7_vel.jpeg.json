@@ -1,0 +1,48 @@
+{
+  "@context": "http://schema.org/",
+  "@id": "https://ssdb.iodp.org/secureGetObj.php?id=122373",
+  "@type": "Dataset",
+  "name": "K7_vel.jpeg",
+  "license": "TBD",
+  "datePublished": "2019-04-26",
+  "description": "Traveltime P-wave tomography profiles from the Kane Oceanic Core Complex  JPG image of Vp model (Vp vs. depth and model distance, contours labeled in km/s)",
+  "distirbution": {
+    "@type": "DataDownload",
+    "contentUrl": "https://ssdb.iodp.org/secureGetObj.php?id=122373",
+    "encodingFormat": "image/jpeg"
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "J.P. Canales"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoShape",
+      "line": "23.3195,-45.32599 23.6296,-45.255005"
+    }
+  },
+  "ssdb": {
+    "sitenames": [
+      "KMM-02A",
+      "KMM-05A"
+    ],
+    "datatype": "Velocity Data and Models",
+    "proposal": "P950",
+    "format": "JPEG",
+    "AccessControl": "release",
+    "georeference": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -45.326,
+          23.3195
+        ],
+        [
+          -45.255,
+          23.6296
+        ]
+      ]
+    }
+  }
+}

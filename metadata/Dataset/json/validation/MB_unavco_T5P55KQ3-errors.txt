@@ -1,0 +1,15 @@
+latitude and longitude should be numbers, not strings
+
+context should be 
+  "@context": {"@vocab":"http://schema.org/"},
+  
+  notes--
+  name is blank-- need a name
+  description doesn't actually describe the specific dataset.  there's no way to know what this record actually describes...
+  @id is url for dataset, should identifier for metadata record.
+  
+  citation is a citation for the described dataset, inconsistent with schema.org guidance .
+  
+  DataDownload link gets landing page to select files, not actual data; should be url,not contentUrl, and have a description of what the link actually gets.
+  
+  encoding format for distribution should be from registry-- text/csv, but it looks like the data come in a variety of formats  (hatanaka, obs, nav, qc), RINEX Data File. none of these appear to be text/csv ....

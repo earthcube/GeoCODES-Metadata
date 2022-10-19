@@ -1,0 +1,99 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "metadata-nwis-iv",
+    "@type":"Dataset",
+    "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "http://semanticscience.org/resource/SIO_000115",
+        "url": "https://waterservices.usgs.gov/rest/IV-Service.html"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://waterservices.usgs.gov/rest/IV-Service.html",
+    "name": "USGS NWIS Water Site Instantaneous Values",
+    "description": "near real-time water data from thousands of sites managed or monitored by the USGS across the country. Readings are usually made every 15 minutes and transmitted hourly. Data is currently available since October 1, 2007. Note: certain operational data is typically restricted to 120 days. A number of flexible filters allow you to find data about sites of common interest easily. Data include recent and historical values for streamflow as well as data for other regular time-series parameters served by the USGS. This service provides these USGS water data in Extensible Markup Language (XML), Javascript Object Notation (JSON) and the legacy RDB (tab-delimited) format currently available from the USGS Water Data for the Nation site. Use to access recent water readings for one or more sites in one request. When using format=waterml (the default format), data are returned using the WaterML 1.1 schema (http://his.cuahsi.org/documents/cuahsiTimeSeries_v1_1.xsd), a schema that has recently been adopted by the Open Geospatial Consortium External. ",
+    "datePublished": "",
+    "license": "",
+    "keywords": [
+        ""
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "U.S. Geological Survey",
+        "url": "https://usgs.gov",
+         "identifier": {"@type": "PropertyValue",
+        "propertyID": "http://semanticscience.org/resource/SIO_000115",
+        "value": "https://ror.org/035a68863" }
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "name": "Unites States of America, Puerto Rico and Pacific islands",
+        "geo": {
+            "@type": "GeoShape",
+            "box": "-68 -179 85 179"
+        }
+    },
+    "distribution": [
+     {
+            "@type": [
+                "DataDownload",
+                "WebSite"
+            ],
+            "name": "Current conditions",
+            "description": "Sites with real-time or recent surface-water, groundwater,or water-quality data.",
+            "url": "https://waterdata.usgs.gov/nwis/rt"
+        },
+        {
+            "@type": [
+                "DataDownload",
+                "WebAPI"
+            ],
+            "name": "USGS NWIS Instantaneous Values Web Service",
+            "serviceType": "USGS Site Web Service",
+            "documentation": "information about hydrologic observation site with data served by the USGS. This service provides USGS water data in the legacy RDB (tab-delimited) format",
+            "description": "",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "http://waterservices.usgs.gov/nwis/iv/?<arguments>",
+                    "description": "Each URL argument name is followed by an equal sign followed by one or more values for that argument. Where multiple values are allowed for the same argument, you can separate values with commas. Arguments are separated by ampersands (&). The order of the arguments in the URL does not matter. If a URL argument name does not match one of the names below, it is ignored. Argument conventions: arg1=[ a {,x | ,y} | b | c,d,...]; square brackets [] are used to show a set of possible choices, with | delineating exclusive choices. You must select one and only one of these choices. curved brackets {} are used to show optional elements. They also may be delineated with | indicating exclusive choices. If used, you may select one and only one of these choices; ... indicates more than item may be specified if items are delineated by commas. Key arguments are described in teh query-input section.",
+                    "httpMethod": ["GET"]
+                },
+                "query-input": [
+                    {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "site",
+                        "description": "Each site in the USGS data base has a unique 8- to 15-digit identification number. Site numbers are assigned based on this logic (https://help.waterdata.usgs.gov/faq/sites/do-station-numbers-have-any-particular-meaning). You can search using an exact match or match using a partial site number. To use an exact match you must include all of the digits including any leading zeros (0) that make up the complete site number. A site will not be found if the site number has a leading zero and it is not included in the string tested using an exact match.",
+                        "valueRequired": true
+                    },
+                 {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "format",
+                        "description": "Used to specify the output format of the data returned. waterml,1.1 is WaterML 1.1 External Link, an XML schema approved by the OpenGeospatial Consortium; waterml,2.0 is WaterML 2, an XML schema published by the OpenGeospatial Consortium; 'USGS NWIS rdb text file format' is a self-describing tab-delimited format used widely by the USGS; json is Javascript Object Notation External Link. WaterML 1.1 (http://www.cuahsi.org/waterML/1.1/) will be rendered in a JSON structure as a set of name/value pairs. JSON is excellent for Web 2.0 applications. Note: json is returned with an application/json MIME type which generally has the effect in a browser of being prompted to download and save a file. In actual Web 2.0 usage this should be handled by your Javascript logic; Version numbers are optional. The version is actually tied to WaterML, so if you want WaterML 1.1 rendered as JSON, this can be done explicitly using format=json,1.1",
+                        "valueRequired": true
+                    },
+                     {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "bbox",
+                        "description": "A contiguous range of decimal latitude and longitude, starting with the west longitude, then the south latitude, then the east longitude, and then the north latitude with each value separated by a comma. The product of the range of latitude and longitude cannot exceed 25 degrees. Whole or decimal degrees must be specified, up to six digits of precision. Minutes and seconds are not allowed. Remember: western longitude (which includes almost all of the United States) is specified in negative degrees. Caution: many sites outside the continental US do not have latitude and longitude referenced to NAD83 and therefore can not be found using these arguments. Certain sites are not associated with latitude and longitude due to homeland security concerns and cannot be found using this filter. example: &bBox=-83,36.5,-81,38.5",
+                        "valueRequired": true
+                    },
+                     {
+                        "@type": "PropertyValueSpecification",
+                        "valueName": "parameterCd",
+                        "description": "SGS time-series parameter code All parameter codes are numeric and 5 characters in length. Parameter codes are used to identify the constituent measured and the units of measure. Popular codes include stage (00065), discharge in cubic feet per second (00060) and water temperature in degrees Celsius (00010). Complete list of USGS parameter codes is online (http://help.waterdata.usgs.gov/codes-and-parameters/parameters). Not all parameters are served by time-series sites. Syntax:  parameterCd|variable={parameterCd1, parameterCd2,...}. Default: returns all regular time-series parameters for the requested sites",
+                        "valueRequired": false
+                    }    	    	
+                ],
+                "result":{
+                    "@type":"Dataset",
+                    "description":"Format options are [waterml{,1.1} | waterml,2.0 | rdb{,1.0} | json{,1.1}]. When using format=waterml (the default format), data are returned in XML using the WaterML 1.1 schema (http://his.cuahsi.org/documents/cuahsiTimeSeries_v1_1.xsd).", 
+                    "encodingFormat":["http://www.cuahsi.org/waterML/1.1/","http://www.opengis.net/waterml/2.0", "USGS NWIS rdb text file format", "application/json;type=WaterML"]
+
+                }
+            }
+        }
+    ]
+}

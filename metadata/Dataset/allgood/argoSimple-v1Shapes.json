@@ -1,0 +1,24 @@
+{
+    "@context": { "@vocab": "http://schema.org/" },
+    "@id": "https://doi.org/10.1594/IEDA/100621",
+    "@type": "Dataset",
+    "name": "Argo float data and metadata from Global Data Assembly Centre Argo GDAC",
+    "description": "Argo is a global array of 3,000 free-drifting profiling floats that measures the temperature and salinity of the upper 2000 m of the ocean. This provides continuous monitoring of the temperature, salinity, and velocity of the upper ocean, with  data being made publicly available within hours after collection. The array provides 100,000 temperature/salinity profiles and velocity measurements per year distributed over the global oceans at an average of 3-degree spacing. Some floats provide additional bio-geo parameters such as oxygen or chlorophyll. Data collected by Argo floats are publically available in near real-time via the Global Data Assembly Centers (GDACs) in Brest (France) and Monterey (California) after an automated quality control (QC), and in scientifically quality controlled form, delayed mode data, via the GDACs within six months of collection.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+       "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "https://doi.org/10.1594/IEDA/100621",
+        "url": "https://doi.org/10.17882/42182"
+    },
+    "isAccessibleForFree": true,
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Global Data Assembly Center (GDAC)",
+            "description": "For users interested in using the official Argo NetCDF files, the GDACs should be the route to access Argo data. Both GDACs offer access to the complete Argo data collection as managed by the Argo Data Management Team, including float metadata, detailed trajectory data, profile data and technical data all in NetCDF format.  It is important to understand the naming system of the files as well as the variable names and quality control flags within each data file. See the ADMT Documentation page for the Argo User\u2019s Manual and the Argo quality control manual for more information.",
+            "encodingFormat": "application/x-netcdf",
+            "url": "http://www.argodatamgt.org/Access-to-data/Argo-GDAC-ftp-and-https-servers"
+        }
+    ]
+}

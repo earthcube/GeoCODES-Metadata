@@ -1,0 +1,12 @@
+no @id
+
+publisher is array, JSON expects one object (will there ever be more than one publisher???)
+
+
+context is wrong
+  "@context": {
+    "@type": "http://schema.org"
+  },
+  
+  should be
+    "@context": {"@vocab": "http://schema.org/" },

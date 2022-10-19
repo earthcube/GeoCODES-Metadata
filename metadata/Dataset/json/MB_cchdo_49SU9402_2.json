@@ -1,0 +1,210 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "geolink": "http://schema.geolink.org/1.0/base/main#"
+  },
+  "@id": "https://cchdo.ucsd.edu/cruise/49SU9402_2",
+  "@type": "DataCatalog",
+  "dataset": [
+    {
+      "@id": "https://cchdo.ucsd.edu/cruise/49SU9402_2#bottle",
+      "@type": "Dataset",
+      "description": "Bottle data from the hydrographic cruise 49SU9402_2",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "contentSize": "10747 bytes",
+          "contentUrl": "https://cchdo.ucsd.edu/data/2485/pr17_m_hy1.csv",
+          "encodingFormat": "text/csv",
+          "name": "exchange"
+        },
+        {
+          "@type": "DataDownload",
+          "contentSize": "8122 bytes",
+          "contentUrl": "https://cchdo.ucsd.edu/data/2953/pr17_mhy.txt",
+          "encodingFormat": "text/plain",
+          "name": "woce"
+        },
+        {
+          "@type": "DataDownload",
+          "contentSize": "14020 bytes",
+          "contentUrl": "https://cchdo.ucsd.edu/data/9006/pr17_m_nc_hyd.zip",
+          "encodingFormat": "application/zip",
+          "name": "whp_netcdf"
+        },
+        {
+          "@type": "DataDownload",
+          "contentSize": "120900 bytes",
+          "contentUrl": "https://cchdo.ucsd.edu/data/27724/49SU9402_2_bottle.nc",
+          "encodingFormat": "application/x-netcdf",
+          "name": "cf_netcdf"
+        }
+      ],
+      "isAccessibleForFree": true,
+      "name": "JP Hydrographic Cruise 49SU9402_2: Bottle Dataset",
+      "provider": {
+        "@id": "https://cchdo.ucsd.edu"
+      },
+      "publisher": {
+        "@id": "https://cchdo.ucsd.edu",
+        "@type": "Organization",
+        "name": "CCHDO",
+        "url": "https://cchdo.ucsd.edu"
+      },
+      "spatialCoverage": {
+        "@id": "https://cchdo.ucsd.edu/cruise/49SU9402_2#spatialCoverage",
+        "@type": "Place",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 1",
+            "latitude": 29.4913,
+            "longitude": 133.5063
+          },
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 2",
+            "latitude": 29.4818,
+            "longitude": 133.496
+          },
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 3",
+            "latitude": 29.4785,
+            "longitude": 133.4927
+          },
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 4",
+            "latitude": 29.9447,
+            "longitude": 132.9342
+          },
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 5",
+            "latitude": 29.9415,
+            "longitude": 132.916
+          },
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 6",
+            "latitude": 29.9407,
+            "longitude": 132.9065
+          }
+        ]
+      },
+      "temporalCoverage": "1994-02-13/1994-02-20"
+    },
+    {
+      "@id": "https://cchdo.ucsd.edu/cruise/49SU9402_2#ctd",
+      "@type": "Dataset",
+      "description": "CTD data from the hydrographic cruise 49SU9402_2",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "contentSize": "33006 bytes",
+          "contentUrl": "https://cchdo.ucsd.edu/data/3344/pr17_m_nc_ctd.zip",
+          "encodingFormat": "application/zip",
+          "name": "whp_netcdf"
+        },
+        {
+          "@type": "DataDownload",
+          "contentSize": "25791 bytes",
+          "contentUrl": "https://cchdo.ucsd.edu/data/9285/pr17_m_ct1.zip",
+          "encodingFormat": "application/zip",
+          "name": "exchange"
+        },
+        {
+          "@type": "DataDownload",
+          "contentSize": "28428 bytes",
+          "contentUrl": "https://cchdo.ucsd.edu/data/9843/pr17_mct.zip",
+          "encodingFormat": "application/zip",
+          "name": "woce"
+        },
+        {
+          "@type": "DataDownload",
+          "contentSize": "120545 bytes",
+          "contentUrl": "https://cchdo.ucsd.edu/data/29364/49SU9402_2_ctd.nc",
+          "encodingFormat": "application/x-netcdf",
+          "name": "cf_netcdf"
+        }
+      ],
+      "isAccessibleForFree": true,
+      "name": "JP Hydrographic Cruise 49SU9402_2: CTD dataset",
+      "provider": {
+        "@id": "https://cchdo.ucsd.edu"
+      },
+      "publisher": {
+        "@id": "https://cchdo.ucsd.edu",
+        "@type": "Organization",
+        "name": "CCHDO",
+        "url": "https://cchdo.ucsd.edu"
+      },
+      "spatialCoverage": {
+        "@id": "https://cchdo.ucsd.edu/cruise/49SU9402_2#spatialCoverage",
+        "@type": "Place",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 1",
+            "latitude": 29.4913,
+            "longitude": 133.5063
+          },
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 2",
+            "latitude": 29.4818,
+            "longitude": 133.496
+          },
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 3",
+            "latitude": 29.4785,
+            "longitude": 133.4927
+          },
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 4",
+            "latitude": 29.9447,
+            "longitude": 132.9342
+          },
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 5",
+            "latitude": 29.9415,
+            "longitude": 132.916
+          },
+          {
+            "@type": "GeoCoordinates",
+            "description": "Profile 6",
+            "latitude": 29.9407,
+            "longitude": 132.9065
+          }
+        ]
+      },
+      "temporalCoverage": "1994-02-13/1994-02-20"
+    }
+  ],
+  "description": "Data from the hydrographic cruise 49SU9402_2",
+  "keywords": [
+    "SHUMPU MARU",
+    "bottle",
+    "ctd",
+    "Kouji Hayashi",
+    "Pacific Current Meter",
+    "WOCE",
+    "pacific",
+    "Pacific Repeat",
+    "West Pacific",
+    "PCM05",
+    "PR17"
+  ],
+  "name": "JP Hydrographic Cruise 49SU9402_2",
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "encodingFormat": "text/plain",
+      "url": "https://cchdo.ucsd.edu/data/7409/pr17_mdo.txt"
+    }
+  ]
+}

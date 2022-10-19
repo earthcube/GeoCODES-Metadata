@@ -1,0 +1,341 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ecgeo: <https://geocodes.earthcube.org/validation/0.1/shacl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ecrro: <http://cor.esipfed.org/ont/earthcube/> .
+
+# SMR 2022-08-01
+# lean heavily on Doug Fils documentation for Ocean Info Hub!
+# set up to validate softwareApplications descriptions for EarthCube GeoCODES resource registry.
+	
+
+
+ecgeo:DatasetNS1Shape
+    a sh:NodeShape ;
+# check for missing backslash on namespace URI
+	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
+	sh:targetClass <http://schema.orgSoftwareApplication>;
+	sh:property [
+		sh:path [sh:inversePath rdf:type ];
+		sh:minCount 1;
+		sh:message "Don't forget the '/' backslash at the end of the namespace URI!  Expecting SO namespace of <http://schema.org/> not <http://schema.org>"@en ;
+	]
+	.
+	
+	
+ecgeo:DatasetNS2Shape
+    a sh:NodeShape ;
+# check for wrong http protocol (https)
+	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
+	sh:targetClass <https://schema.org/SoftwareApplication>;
+	sh:property [
+		sh:path [sh:inversePath rdf:type ];
+		sh:minCount 1;
+        sh:message "None of the validation rules are going to work. Expecting SO namespace of <http://schema.org/> not <https://schema.org/>"@en ;
+	]	
+	.
+
+
+ecgeo:DatasetNS3Shape
+    a sh:NodeShape ;
+# check for wrong http protocol (https) and missing backslash on namespace URI
+	sh:description "https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/GETTING-STARTED.md#specifying-the-context" ;
+	sh:targetClass <https://schema.orgSoftwareApplication>;
+	sh:property [
+		sh:path [sh:inversePath rdf:type ];
+		sh:minCount 1;
+		sh:message "Don't forget the '/' backslash at the end of the namespace URI! Also we're using http, not https.  Expecting SO namespace of <http://schema.org/> not <https://schema.org>"@en ;
+	]
+	.				  
+
+ecgeo:IDShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    sh:message "Metadata record must have an ID. use the @id property, value is a string that should be a URI identifying the metadata record."@en ;
+    sh:description "https://book.oceaninfohub.org/validation/README.html" ;
+    sh:nodeKind sh:IRI ;
+    .
+	
+ecgeo:GeoCODESSoftwareApplicationShape
+    a sh:NodeShape ;
+    sh:targetClass schema:SoftwareApplication ;
+    sh:message "GeoCODES validation suite, mandatory properties for softwareApplications" ;
+    sh:description "https://docs.google.com/document/d/1ZHfTVCSXLMYJMEXgzgSviwRw9wSHAGYc-RChcGu9fxA" ;
+    sh:property
+        ecgeo:resourceNameProperty,
+        ecgeo:descriptionProperty,
+        ecgeo:licenseResourceProperty,
+        ecgeo:mainEntityProperty,
+		ecgeo:resourceRegistrationProperty,
+		ecgeo:keywordsResourceProperty,
+		ecgeo:keywordsNoCommaProperty,
+		ecgeo:userReadablePageProperty,
+		ecgeo:identifierProperty,
+        ecgeo:identifierTypeProperty,
+		ecgeo:identifierPropertyValueProperties,
+		ecgeo:responsiblePartyProperty,
+		ecgeo:supportingDataProperty,
+		ecgeo:runtimeEnvironmentProperty,
+		ecgeo:softwareInstallerProperty,
+		ecgeo:potentialActionProperty
+	.
+		
+ecgeo:resourceNameProperty
+    a sh:PropertyShape ;
+    sh:path schema:name ;
+    sh:nodeKind sh:Literal ;
+	sh:minLength 15 ;
+    sh:message "Name is required; Dataset names must have at least 15 characters"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+ecgeo:descriptionProperty
+    a sh:PropertyShape ;
+    sh:path schema:description;
+    sh:nodeKind sh:Literal ;
+    sh:minCount 1 ;
+	sh:minLength 50 ;
+	#description must be at least 50 characters
+    sh:message "Resource must have a description at least 50 characters long"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+ecgeo:licenseResourceProperty
+    a sh:PropertyShape ;
+    sh:path schema:license ;
+   sh:minCount 1 ;
+    sh:or (
+		[sh:class schema:CreativeWork ;]
+		[sh:nodeKind sh:IRIOrLiteral ;]
+          );
+    sh:message "license items must be a string, URL or schema:CreativeWork"@en ;
+    sh:severity sh:Warning ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+#start specific properties
+ecgeo:mainEntityProperty
+    a sh:PropertyShape ;
+    sh:path schema:mainEntity ;
+	sh:and (
+	   [sh:class schema:DefinedTerm ]
+#simplifiy these using sh:pattern and regex?	   
+	   [sh:or ( [sh:path schema:identifier ;
+	      sh:hasValue "ecrro:ECRRO_0000206"]
+				[sh:path schema:identifier ;
+	      sh:hasValue "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206"]
+			)
+		  ]
+	);
+	sh:severity sh:warning ;
+    sh:message "main entity is recommended for SoftareApplication resources, but is redundant with the schema:SoftareApplication declaration. It is required to enable editing with EC GeoCODES JSON forms."@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+#registration metadata
+# ECRR requests information about the originator of the resource description, and the most recent
+# update date
+# works with https://shacl-playground.zazuko.com/
+ecgeo:resourceRegistrationProperty
+	a sh:PropertyShape ;
+	sh:path schema:additionalProperty;
+    sh:message "Check for structured value on Registration metadata";
+	sh:qualifiedValueShape [
+         sh:and ( [sh:path ( schema:value schema:additionalType );
+                      sh:hasValue "ecrro:ECRRO_0000156" ]
+				   [sh:path schema:propertyID;
+           sh:hasValue "ecrro:ECRRO_0001301" ]  
+				)
+	 ] ;
+	sh:qualifiedMinCount 1 ;
+	.
+
+ecgeo:keywordsResourceProperty
+    a sh:PropertyShape ;
+    sh:path schema:keywords ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:severity sh:Warning ;
+    sh:message "A resource should include descriptive keywords as an array or list of strings" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+	
+ecgeo:keywordsNoCommaProperty
+#should throw warning if there is a comma character in a keyword string. Not working... ?WHY?
+    a sh:PropertyShape ;
+    sh:path schema:keywords ;
+	#regex for a string without a comma
+	sh:pattern "^(?!.+,).+" ;
+#	sh:maxCount 0; 
+    sh:severity sh:Warning ;
+    sh:message "If there are multiple keywords, they should be in an array; an individual keyword MUST not contain a comma character" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+	
+ecgeo:userReadablePageProperty
+    a sh:PropertyShape ;
+    sh:path schema:subjectOf ;
+    sh:and ( 
+	 [sh:class schema:CreativeWork  ] 
+	 [sh:path schema:url ;
+	  sh:nodeKind sh:IRIOrLiteral;
+    	sh:minCount 1] 
+     );
+    sh:severity sh:Info ;
+    sh:message "Optional linkage to a web page or online document with more information about the resource. A url must be provided." ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+ecgeo:identifierProperty
+    a sh:PropertyShape ;
+    sh:path schema:identifier;
+    sh:minCount 1 ;
+    sh:or (
+        [ sh:nodeKind sh:Literal ; ]
+        [ sh:class schema:URL ; ]
+        [ sh:class schema:PropertyValue ; ]
+    );
+	sh:severity sh:Info;
+    sh:message "An identifier for the described resource is recommended, please provide a URI (URL, IRI...) or  Text.  PropertyValue object is valid, but might not be indexed."@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+# display info message if identifier with type schema:PropertyValue is used
+ecgeo:identifierTypeProperty
+    a sh:PropertyShape ;
+    sh:path  schema:identifier ;
+	sh:not [
+        sh:class schema:PropertyValue;		
+#        sh:minCount 1;
+    ];
+    sh:severity sh:Info ;
+    sh:message "Although SOSO guidance allows PropertyValue to specify an identifier, GeoCODES recommends used of a plain literal or URI string.Identifiers in PropertyValue might not be indexed."@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+	
+ecgeo:identifierPropertyValueProperties
+    a sh:PropertyShape ;
+	sh:path schema:identifier  ;
+# only want rule to catch if there is a PropertyValue identifier, not if its a literal... HOW?
+	sh:or (
+        [ sh:path schema:value;  sh:nodeKind sh:Literal ; ]
+        [ sh:path schema:url; sh:class schema:URL ; ] 
+	) ;
+#	sh:minCount 1;
+    sh:message "If identifier is specified with PropertyValue, then either a url or a value string with the identifier must be supplied"@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    .
+
+ecgeo:responsiblePartyProperty
+    a sh:PropertyShape ;
+    sh:path [sh:alternativePath (  schema:provider  schema:publisher ) ]  ;
+    sh:or (  [  sh:class  schema:Person ]
+             [   sh:class  schema:Organization ] )  ;
+	sh:minCount 1;
+   	sh:message "Optional: GeoCODES UI presents provider or publisher in the search result summary, so these should be specified." ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    sh:severity sh:Info 
+    .
+	
+ecgeo:GeoCODESPersonShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Person ;
+	sh:property ecgeo:affiliationProperty;
+    sh:property ecgeo:nameProperty ;
+	sh:message "A person must a name provided; affiliation to an organization and identifier are strongly recommended." 
+	.
+
+ecgeo:GeoCODESOrganizationShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Organization ;
+    sh:property ecgeo:nameProperty;
+    sh:message "Organization must have a name at least 15 characters long; Make it useful for users!!" 
+.
+
+ecgeo:affiliationProperty
+# affiliation is always with an organization
+    a sh:PropertyShape ;
+    sh:path schema:affiliation ;
+    sh:class  schema:Organization  ;
+	sh:severity sh:Warning ;
+    sh:message "Optional: an affiliation must have object schema:Organization" 
+    .
+
+ecgeo:nameProperty
+# names must be a literal, at least 15 char long.
+    a sh:PropertyShape ;
+    sh:path schema:name;
+    sh:nodeKind sh:Literal ;
+	sh:minLength 10 ;
+	sh:severity sh:Warning ;
+    sh:message "a name must be provided, at least 10 char long." 
+    .
+
+
+ecgeo:supportingDataProperty
+	a sh:PropertyShape;
+	sh:path schema:supportingData ;
+	sh:qualifiedValueShape [ 
+       sh:and ( [sh:path schema:position;
+					sh:hasValue "input"] 
+               [sh:path schema:encodingFormat;
+                    sh:minCount 1 ]
+               ) ];
+       sh:qualifiedMinCount 1  ;
+	sh:message "Input data format should be reported to enable data-application linkage. Encoding format for input data must be specified to enable data-application linkage" ;
+	sh:severity  sh:Warning
+	.
+	
+ecgeo:runtimeEnvironmentProperty
+	a sh:PropertyShape;
+	sh:path schema:runtimePlatform;
+	sh:nodeKind sh:Literal ;
+	sh:minCount 1;
+	sh:severity sh:Info;
+	sh:message "Please specify the runtime environment for executing the application"
+	.
+	
+ecgeo:softwareInstallerProperty
+	a sh:PropertyShape ;
+	sh:path schema:installUrl;
+	sh:and (
+		[sh:class  schema:CreativeWork;
+        	sh:message "installer link is supplied as a link to a CreativeWork"]
+		[sh:path schema:url ;
+			sh:nodeKind sh:IRIOrLiteral;
+			sh:minCount 1;
+			sh:message "a link to the installer location MUST be provided"]
+	);
+	sh:minCount 1;
+	sh:severity sh:Info;
+	sh:message "Please Links to installer for the software are implemented as CreativeWork."
+	.
+	
+ecgeo:potentialActionProperty
+	a sh:PropertyShape ;
+	sh:path schema:potentialAction ;
+	sh:or ( [sh:class schema:Action;]
+			[sh:class schema:SearchAction;] ) ;
+	sh:severity sh:Info;
+	sh:message "A potentialAction should have an Action object describing the action"
+	.
+	
+ecgeo:ActionNode
+	a sh:NodeShape;
+	sh:targetClass schema:Action;
+	sh:property [
+		sh:path schema:name;
+		sh:datatype xsd:string
+	];
+	sh:property [
+		sh:path schema:target ;
+		sh:class schema:EntryPoint;
+			sh:property [
+				sh:path schema:urlTemplate;
+				sh:nodeKind sh:Literal;
+				sh:minCount 1;
+				sh:message "an action MUST have a URL template to indicate how to invoke the action on a web application application"
+			];	
+	]
+	.
