@@ -10,7 +10,23 @@ on:
       - main
 
 jobs:
+  docs_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs
+      - run: pip install mkdocs-schema-reader
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      #     - run: cd docs/ && mkdocs gh-deploy --force --clean --verbose
+      #      - run:  mkdocs gh-deploy --force --clean --verbose
+      - run: mkdocs gh-deploy  --verbose
+
   sitemap_job:
+    needs:   docs_deploy
     runs-on: ubuntu-latest
     name: Generate a sitemap
     steps:
