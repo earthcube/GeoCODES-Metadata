@@ -11,7 +11,8 @@
 # copy from https://github.com/gleanerio/notebooks/blob/master/notebooks/validation/shapes/geocodes_v1.ttl
 # by Doug Fils to start work on GeoCODES schacl validation
 # SMR 2022-07-25
-# lean heavily on Doug Fils documentation for Ocean Info Hub!
+# lean heavily on Doug Fils documentation for Ocean Info Hub and 
+# ESIP Fed science-on-schema.org 
 # change namespace from oihval: to ecgeo:
 	
 ecgeo:DatasetNS2Shape
@@ -36,7 +37,7 @@ ecgeo:DatasetNS1Shape
 	sh:property [
 		sh:path [sh:inversePath rdf:type ];
 		sh:minCount 1;
-		sh:message "Expecting SO namespace of <http://schema.org/> not <http://schema.org>"@en ;
+		sh:message "Expecting SO namespace of <http://schema.org/> not <http://schema.org> (add the terminal '/' character)"@en ;
 	]
 	.
 
@@ -48,15 +49,15 @@ ecgeo:DatasetNS3Shape
 	sh:property [
 		sh:path [sh:inversePath rdf:type ];
 		sh:minCount 1;
-		sh:message "Expecting SO namespace of <http://schema.org/> not <https://schema.org>"@en ;
+		sh:message "Expecting SO namespace of <http://schema.org/> not <https://schema.org> (http, not https, and need terminal '/')"@en ;
 	]
 	.				  
 
 ecgeo:IDShape
     a sh:NodeShape ;
     sh:targetClass schema:Dataset ;
-    sh:message "Metadata record Should have an ID. use the @id property, value is a string that should be a URI identifying the metadata record (not the resource it describes--that goes in schema:identifier field)."@en ;
-    sh:description "https://book.oceaninfohub.org/validation/README.html" ;
+    sh:message "Metadata record SHOULD have an identifier. Use the @id property, value is a string that is a URI identifying the metadata record (not the resource it describes--that goes in schema:identifier field)."@en ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf, see Metadata Identifier section. " ;
     sh:nodeKind sh:IRIOrLiteral  ;
 	sh:severity sh:Warning
     .
@@ -65,7 +66,7 @@ ecgeo:GeoCODESDatasetCommonShape
     a sh:NodeShape ;
     sh:targetClass schema:Dataset ;
     sh:message "GeoCODES validation suite, mandatory properties for Datasets" ;
-    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf." ;
     sh:property
         ecgeo:datasetNameProperty,
         ecgeo:descriptionProperty,
@@ -151,14 +152,14 @@ ecgeo:identifierPropertyValueProperties
 
 ecgeo:accessLinkProperty
     a sh:PropertyShape ;
-    sh:path [sh:alternativePath ( schema:url   (schema:distribution [sh:oneOrMorePath schema:url] ) 
+    sh:path [sh:alternativePath ( schema:url   (schema:distribution [sh:oneOrMorePath schema:accessUrl] ) 
             (schema:distribution [sh:oneOrMorePath schema:contentUrl] )	) ] ;
 	sh:minCount 1 ;
 	sh:or (
 		[sh:nodeKind sh:Literal ;]
 		[sh:class schema:URL ;]
 		) ; 
-	sh:message "some web location to access the resource or a representation of the resource must be provided"@en ;
+	sh:message "Some web location to access the resource or a representation of the resource must be provided. This can be a schema:url element on the dataset, a distribution/DataDownload/contentUrl or a distribution/DataDownload/url"@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 	
@@ -184,7 +185,7 @@ ecgeo:isAccessibleForFreeProperty
     sh:minCount 1 ;
     sh:nodeKind sh:Literal ;
     sh:severity sh:Warning ;
-    sh:message "Should indicate if the dataset is accessible without monetary cost. True or False" ;
+    sh:message "Indicate if the dataset is accessible without monetary cost using the isAccessibleForFree property; value is True or False" ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 	
