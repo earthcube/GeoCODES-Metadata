@@ -13,7 +13,8 @@
 # copy from https://github.com/gleanerio/notebooks/blob/master/notebooks/validation/shapes/geocodes_v1.ttl
 # by Doug Fils to start work on GeoCODES schacl validation
 # SMR 2022-07-25
-# lean heavily on Doug Fils documentation for Ocean Info Hub!
+# lean heavily on Doug Fils documentation for Ocean Info Hub and 
+# ESIP Fed science-on-schema.org
 # change namespace from oihval: to ecgeo:
 
 		
@@ -81,7 +82,7 @@ ecgeo:mainEntityProperty
 	      sh:hasValue "http://schema.org/Dataset" ]
 	);
 	sh:severity sh:Info ;
-    sh:message "main entity is optional for Datasets, but is required to enable editing with EC GeoCODES JSON forms."@en ;
+    sh:message "schema:mainEntity property is optional for Datasets, but is required to enable editing with EC GeoCODES JSON forms."@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 
@@ -91,7 +92,7 @@ ecgeo:keywordsResourceProperty
     sh:minCount 1 ;
     sh:nodeKind sh:Literal ;
     sh:severity sh:Warning ;
-    sh:message "A resource should include descriptive keywords as an array or list of strings" ;
+    sh:message "A resource should include descriptive keywords as an array of strings" ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 	
