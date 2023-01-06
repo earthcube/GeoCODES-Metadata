@@ -1,0 +1,76 @@
+
+           {
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "https://schema.org/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "@id": "_:Nf74a12c42c1a415ea8aab2a5cd3dbc5a",
+            "@type": "schema:ContactPoint",
+            "schema:contactType": "customer service",
+            "schema:url": "https://wifire-data.sdsc.edu"
+        },
+        {
+            "@id": "https://wifire-data.sdsc.edu/organization/e2d487d1-6973-487c-bb20-a11744d9e1ea",
+            "@type": "schema:Organization",
+            "schema:contactPoint": {
+                "@id": "_:Nf74a12c42c1a415ea8aab2a5cd3dbc5a"
+            },
+            "schema:name": "OpenTopography"
+        },
+        {
+            "@id": "_:Ne8af266e17e24e148ef670c9ac55eb28",
+            "@type": "schema:Place",
+            "schema:geo": {
+                "@id": "_:Nd953efa6609e44bc841ac8f3f743a0c9"
+            }
+        },
+        {
+            "@id": "https://wifire-data.sdsc.edu/dataset/3e90e86d-9c5a-4f2e-9e4e-e30d4996d429/resource/4cf25b8b-d822-4b71-ba65-5405a633b989",
+            "@type": "schema:DataDownload",
+            "schema:description": "NCALM Seed. PI: Riccardo Tortini, Michigan Technological University. The survey area consisted of a polygon located 115 km North of Redding, California. These data were collected to investigate the largest quaternary debris avalanche deposit off of the Mount Shasta Volcano in Northern California. These data were collected August 5, 2013.",
+            "schema:encodingFormat": "laz",
+            "schema:name": "CA13_Tortini Data",
+            "schema:url": "https://opentopography.s3.sdsc.edu/minio/pc-bulk/CA13_Tortini/"
+        },
+        {
+            "@id": "_:Nd953efa6609e44bc841ac8f3f743a0c9",
+            "@type": "schema:GeoShape",
+            "schema:polygon": "{\"type\": \"Polygon\", \"coordinates\": [[[-122.378539954738, 41.5140327937925], [-122.531213240433, 41.5140327937925], [-122.531213240433, 41.7217535566449], [-122.378539954738, 41.7217535566449], [-122.378539954738, 41.5140327937925]]]}"
+        },
+        {
+            "@id": "_:N369fe020c17848a5b3a639dcbfc1649e",
+            "@type": "schema:DataCatalog",
+            "schema:description": "",
+            "schema:name": "WIFIRE Commons Data Catalog",
+            "schema:url": "https://wifire-data.sdsc.edu"
+        },
+        {
+            "@id": "https://wifire-data.sdsc.edu/dataset/3e90e86d-9c5a-4f2e-9e4e-e30d4996d429",
+            "@type": "schema:Dataset",
+            "schema:dateModified": "2022-02-03T20:37:54.075107",
+            "schema:datePublished": "2022-02-03T20:37:54.075099",
+            "schema:description": "NCALM Seed. PI: Riccardo Tortini, Michigan Technological University. The survey area consisted of a polygon located 115 km North of Redding, California. These data were collected to investigate the largest quaternary debris avalanche deposit off of the Mount Shasta Volcano in Northern California. These data were collected August 5, 2013.",
+            "schema:distribution": {
+                "@id": "https://wifire-data.sdsc.edu/dataset/3e90e86d-9c5a-4f2e-9e4e-e30d4996d429/resource/4cf25b8b-d822-4b71-ba65-5405a633b989"
+            },
+            "schema:includedInDataCatalog": {
+                "@id": "_:N369fe020c17848a5b3a639dcbfc1649e"
+            },
+            "schema:keywords": "lidar",
+            "schema:license": "https://creativecommons.org/licenses/by/4.0/",
+            "schema:name": "Mount Shasta, CA: Quaternary Debris Avalanche",
+            "schema:publisher": {
+                "@id": "https://wifire-data.sdsc.edu/organization/e2d487d1-6973-487c-bb20-a11744d9e1ea"
+            },
+            "schema:spatialCoverage": {
+                "@id": "_:Ne8af266e17e24e148ef670c9ac55eb28"
+            },
+            "schema:url": "https://wifire-data.sdsc.edu/dataset/mount-shasta-ca-quaternary-debris-avalanche"
+        }
+    ]
+}
+          
