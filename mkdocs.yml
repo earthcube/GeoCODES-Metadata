@@ -1,7 +1,23 @@
 site_name: Geocodes Metadata
 #site_url: https://earthcube.github.io/GeoCODES-Metadata/site/
-#theme: 'material'
-#theme: 'mkdocs'
+theme:
+  name: material
+  #  name: 'readthedocs'
+  features:
+    #    - content.code.copy
+    - navigation.sections
+markdown_extensions:
+  - toc:
+      permalink: 
+  - attr_list
+  - def_list
+  - tables
+  - pymdownx.highlight:
+      use_pygments: false
+  - admonition
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
 nav:
   - Metadata Profile: geocodesSearchProfile.md
   - Collections Profile: collections-ro-crate.md
