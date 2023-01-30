@@ -647,10 +647,7 @@
                     "description": "A w3c time proper interval; use for geologic age bounds on the temporal coverage. This is an ESIP Science on Schema.org (SOSO) schema.org extension",
                     "properties": {
                         "@context": {
-                            "type": "object",
-                            "properties": {
-                                "const": {"time": "http://www.w3.org/2006/time#"}
-                            }
+                             "const": "{\"time\": \"http://www.w3.org/2006/time#\"}" 
                         },
                         "@type": {
                             "type": "string",

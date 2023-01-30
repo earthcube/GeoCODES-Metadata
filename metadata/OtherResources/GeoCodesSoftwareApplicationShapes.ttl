@@ -78,7 +78,8 @@ ecgeo:GeoCODESSoftwareApplicationShape
 		ecgeo:responsiblePartyProperty,
 		ecgeo:supportingDataProperty,
 		ecgeo:runtimeEnvironmentProperty,
-		ecgeo:softwareInstallerProperty
+		ecgeo:softwareInstallerProperty,
+		ecgeo:potentialActionProperty
 	.
 		
 ecgeo:resourceNameProperty
@@ -116,11 +117,11 @@ ecgeo:mainEntityProperty
     a sh:PropertyShape ;
     sh:path schema:mainEntity ;
 	sh:and (
-	   [sh:class schema:CreativeWork ]
+	   [sh:class schema:DefinedTerm ]
 #simplifiy these using sh:pattern and regex?	   
-	   [sh:or ( [sh:path schema:url ;
+	   [sh:or ( [sh:path schema:identifier ;
 	      sh:hasValue "ecrro:ECRRO_0000206"]
-				[sh:path schema:url ;
+				[sh:path schema:identifier ;
 	      sh:hasValue "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206"]
 			)
 		  ]
@@ -309,4 +310,32 @@ ecgeo:softwareInstallerProperty
 	sh:minCount 1;
 	sh:severity sh:Info;
 	sh:message "Please Links to installer for the software are implemented as CreativeWork."
+	.
+	
+ecgeo:potentialActionProperty
+	a sh:PropertyShape ;
+	sh:path schema:potentialAction ;
+	sh:or ( [sh:class schema:Action;]
+			[sh:class schema:SearchAction;] ) ;
+	sh:severity sh:Info;
+	sh:message "A potentialAction should have an Action object describing the action"
+	.
+	
+ecgeo:ActionNode
+	a sh:NodeShape;
+	sh:targetClass schema:Action;
+	sh:property [
+		sh:path schema:name;
+		sh:datatype xsd:string
+	];
+	sh:property [
+		sh:path schema:target ;
+		sh:class schema:EntryPoint;
+			sh:property [
+				sh:path schema:urlTemplate;
+				sh:nodeKind sh:Literal;
+				sh:minCount 1;
+				sh:message "an action MUST have a URL template to indicate how to invoke the action on a web application application"
+			];	
+	]
 	.

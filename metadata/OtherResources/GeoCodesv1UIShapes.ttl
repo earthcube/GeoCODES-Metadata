@@ -11,7 +11,11 @@
 # SMR 2022-08-01
 # lean heavily on Doug Fils documentation for Ocean Info Hub!
 # 
-# test for schema.org content that is used in the GeoCODES UI queries.
+# test for schema.org content that is used in the GeoCODES UI. 
+# the basic data search query only requires a name and description
+# Other properties that are usd in the details page are tested as well, 
+#  with Info or Warning severity. Some value nodes have required properties
+# e.g. name for a person or organization; these are flagged as Violation if missing.
 
 
 ecgeo:DatasetNS1Shape
@@ -41,10 +45,13 @@ ecgeo:DatasetNS3Shape
 ecgeo:IDShape
     a sh:NodeShape ;
     sh:targetClass schema:Dataset ;
-    sh:message "Metadata record must have an ID. use the @id property, value is a string that should be a URI identifying the metadata record."@en ;
+    sh:message "Metadata record must have an ID. use the @id property, value is a string that should be a URI identifying the metadata record (not the resource the metadata describes)."@en ;
     sh:description "https://book.oceaninfohub.org/validation/README.html" ;
     sh:nodeKind sh:IRI ;
+	sh:severity sh:Warning
     .
+	
+	
 	
 ecgeo:GeoCODESDatasetQueryShape
     a sh:NodeShape ;
@@ -97,6 +104,7 @@ ecgeo:identifierProperty
     );
     sh:message "Dataset identifier is required and must be a URL, Text or PropertyValue"@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+	sh:severity sh:Warning
     .
 
 # display info message if identifier with type schema:PropertyValue is used
@@ -115,8 +123,10 @@ ecgeo:identifierTypeProperty
 ecgeo:identifierPropertyValueProperties
     a sh:PropertyShape ;
 	sh:path schema:identifier  ;
-# only want rule to catch if there is a PropertyValue identifier, not if its a literal... HOW?
+# only want rule to catch if there is a PropertyValue identifier, not if its a literal...?
 	sh:or (
+	    [ sh:nodeKind sh:Literal ; ]
+        [ sh:class schema:URL ; ]
         [ sh:path schema:value;  sh:nodeKind sh:Literal ; ]
         [ sh:path schema:url; sh:class schema:URL ; ] 
 	) ;
@@ -134,7 +144,7 @@ ecgeo:accessLinkProperty
 		[sh:nodeKind sh:Literal ;]
 		[sh:class schema:URL ;]
 		) ; 
-	sh:message "some web location to access the resource or a representation of the resource must be provided"@en ;
+	sh:message "some web location to access the resource or a representation of the resource must be provided, either with a url at the DataSet level, or a url or contentUrl in a distribution/DataDownload"@en ;
     sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
     .
 
@@ -150,7 +160,8 @@ ecgeo:dataDownloadNode
 	a sh:NodeShape;
 	sh:targetClass schema:DataDownload;
 	sh:property [
-		sh:path [sh:alternativePath ( schema:contentUrl schema:url) ];
+		sh:path [sh:alternativePath ( schema:contentUrl schema:url
+			(schema:potentialAction schema:target schema:urlTemplate)) ];
 		sh:minCount 1 ;
 		sh:or (
 			[sh:nodeKind sh:Literal ;]
@@ -237,7 +248,6 @@ ecgeo:nameProperty
     .
 	
 ecgeo:datePublishedProperty
-# names must be a literal, at least 15 char long.
     a sh:PropertyShape ;
     sh:path schema:datePublished;
     sh:nodeKind sh:Literal ;
@@ -245,7 +255,6 @@ ecgeo:datePublishedProperty
 	sh:minCount 1;
     sh:message "Date published is presented in GeoCODES search results summary, please provide." 
     .
-	
 	
 ecgeo:userReadablePageProperty
     a sh:PropertyShape ;
@@ -268,26 +277,18 @@ ecgeo:spatialExtentProperty
     sh:path schema:spatialCoverage;
     sh:minCount 1 ;
     sh:class schema:Place ;
+      sh:or (  [sh:path schema:geo ;
+                  sh:or (  [  sh:class  schema:GeoCoordinates ]
+                           [  sh:class  schema:GeoShape ] )  ;
+	              sh:minCount 1 ;
+	              sh:message "spatial location MUST be specified eitehr with GeoCoordinates lat/long pairs (for point location), or with GeoShape  Line, Box or Polygon." ;]
+               [sh:path schema:name;
+                  sh:nodeKind sh:Literal;
+                  sh:minCount 1 ]
+      );
     sh:severity sh:Info ;
-    sh:message "Recommended: provide a spatial coverage description if applicable using schema:Place, either a place name, bounding box, point location(s), line profile location, or polygon." ;
-    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;
+    sh:message "Recommended: provide a spatial coverage description if applicable using schema:Place, either a place name,  point location(s) (GeoCoordinates), or GeoShape (bounding box, line profile location, or polygon)." ;
     .
-	
-ecgeo:placeNode
-	a sh:NodeShape ;
-    sh:targetClass schema:Place ;
-    sh:description "https://github.com/earthcube/GeoCODES-Metadata/blob/main/docs/GeoCODES%20Dataset%20Metadata.pdf" ;	
-    sh:property	ecgeo:placeGeoProperty
-	.
-
-ecgeo:placeGeoProperty
-    a sh:PropertyShape ;
-	sh:path schema:geo ;
-    sh:or (  [  sh:class  schema:GeoCoordinates ]
-             [   sh:class  schema:GeoShape ] )  ;
-	sh:minCount 1 ;
-	sh:message "spatial location MUST be specified eitehr with GeoCoordinates lat/long pairs (for point location), or with GeoShape  Line, Box or Polygon." ;
- .
  
  ecgeo:geoCoordinatesNode
 	a sh:NodeShape ;

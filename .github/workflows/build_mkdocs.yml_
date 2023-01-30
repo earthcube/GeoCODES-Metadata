@@ -1,4 +1,5 @@
 # Based on: https://github.com/multirepo-docs/root-docs:
+#disabling. mucks with the sitemap generation
 
 name: mkdocs
 on:
@@ -19,5 +20,5 @@ jobs:
         uses: actions/checkout@v3
 
  #     - run: cd docs/ && mkdocs gh-deploy --force --clean --verbose
-      - run:  mkdocs gh-deploy --force --clean --verbose
-
+#      - run:  mkdocs gh-deploy --force --clean --verbose
+      - run:  mkdocs gh-deploy  --verbose

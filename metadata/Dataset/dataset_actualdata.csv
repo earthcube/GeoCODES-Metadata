@@ -1,8 +1,14 @@
 directory, file,TestType, pass or expected fail,schemaPath,  search term, @id tool linkage, notes
-json, argo.json ,Notebook link, pass,, Argo GDAC ,"  ""http://n2t.net/ark:/23942/g2j92v"""," ""should link to argovis-Notebook.json"""
-json,argo1.json,JSON schema,fail,../../GeoCodes-DatasetSchema.json,,,"""JSON validation fails for GeoCodes Dataset consistency. Missing distribution properties contentURL, encodingFormat"""
-json,argo1.json,JSON schema,fail,../../GeoCodes-ECRR-DatasetSchema.json,,,"""JSON validation fails for ECRR consistency. Properties with cardinality >1 must be serialized as arrays"""
-json,argo20220707.json,JSON schema,pass,../../GeoCodes-ECRR-DatasetSchema.json,,,"""JSON valid for ECRR consistency; one info note"""
-json,argo20220707.json,JSON schema,fail,../../GeoCodes-DatasetSchema.json,,,"""JSON validation fails for GeoCodes Dataset consistency; distribution problems, array values, contentURL, encoding format"""
-json/validation,badContext.json,SHACL rule,fail,..GeoCODES-Metadata\metadata\OtherResources\GeoCodesv1Shapes.ttl,,,context fails
-,,,falt,,,,
+Dataset/actualdata, argo.json ,Notebook link, pass,, Argo GDAC ,"  ""http://n2t.net/ark:/23942/g2j92v"""," ""should link to argovis-Notebook.json"""
+Dataset/actualdata,argo.json,JSON schema,pass,../../GeoCodes-DatasetSchema.json,,,"""Missing distribution property, encodingFormat added so will validate"""
+Dataset/actualdata,argo.json,SHACL basic,pass,../OtherResources/GeoCodesv1Shapes.ttl,,,"""one Info alert because identifier is wrapped in PropertyValue"""
+Dataset/actualdata,argo.json,SHACL recommended,pass,../OtherResources/GeoCodesv1RecommendedShapes.ttl,,,"""one warning because the organization name is not a long enough string, and Info that identifier wrapped in propertyValue"""
+Dataset/actualdata,argo.json,SHACL UI,pass,../OtherResources/GeoCodesv1UIShapes.ttl,,,"""one warning because the organization name is not a long enough string, and Info that identifier wrapped in propertyValue"""
+Dataset/actualdata,earthchem1.json,JSON schema,pass,../../GeoCodes-DatasetSchema.json,,,"""valid after fix funder and geo; geo is empty object, but JSON validates"""
+Dataset/actualdata,earthchem1.json,SHACL basic,warning,../OtherResources/GeoCodesv1Shapes.ttl,,,Warning -- no identifier
+Dataset/actualdata,earthchem1.json,SHACL recommended,fail,../OtherResources/GeoCodesv1RecommendedShapes.ttl,,,"Keywords are a single string, not an array of strings; geo object is empty"
+Dataset/actualdata,earthchem1.json,SHACL UI,fail,../OtherResources/GeoCodesv1UIShapes.ttl,,,"no identifier, geo is empty--need either geoCoordinates or box; no datePublished"
+Dataset/actualdata,earthchem2.json,JSON schema,pass,../../GeoCodes-DatasetSchema.json,,,
+Dataset/actualdata,earthchem2.json,SHACL basic,pass,../OtherResources/GeoCodesv1Shapes.ttl,,,
+Dataset/actualdata,earthchem2.json,SHACL recommended,pass,../OtherResources/GeoCodesv1RecommendedShapes.ttl,,,
+Dataset/actualdata,earthchem2.json,SHACL UI,warning,../OtherResources/GeoCodesv1UIShapes.ttl,,,no date published
