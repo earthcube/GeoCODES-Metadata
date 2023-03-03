@@ -93,7 +93,7 @@ def runGleaner(cfg, repo,glcon="~/indexing/glcon"):
         raise Exception(f"glcon not found at {glcon}. Pass path to glcon with --glcon")
 
 ## this takes a string with the jsonld, and
-def runIdentifier( jsonld_str,glcon="~/indexing/glcon"):
+def runIdentifier( jsonld_str,glncfg="../resources/configs/geocodedemo/gleaner", glcon="~/indexing/glcon"):
     isvalid, err = validateJSON(jsonld_str)
     if not isvalid:
          raise Exception( f"invalid json:  {err}" )
@@ -105,7 +105,7 @@ def runIdentifier( jsonld_str,glcon="~/indexing/glcon"):
         try:
             result = subprocess.run([glcon,  "tools", "id",
                                      "--idtype", "identifiersha",
-
+                                    "--cfg", glncfg
                                      ],
                                     capture_output=True,
                                      input=bytes(jsonld_str, 'utf-8')

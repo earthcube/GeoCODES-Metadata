@@ -98,8 +98,15 @@ def getFileFromResources(filename):
 def getAGraph(g,  g_template, endpoint):
     thsGraphQuery = g_template.substitute(g=g)
     g_df = sparqldataframe.query(endpoint, thsGraphQuery)
-    results = g_df.to_csv(index=False)
-    return results
+
+    #results = g_df.to_csv(index=False)
+    # might dump results to files in the future.
+
+    # the blind node id's change, the order of triples changes
+    # the count should not change unless the code changes, so
+    # that is what we return
+    approval = f"triplecount: {len(g_df.index)}   graph: '{g}'  "
+    return approval
 
 class GeocodesItegrationTesting(unittest.TestCase):
 
@@ -120,7 +127,7 @@ class GeocodesItegrationTesting(unittest.TestCase):
         ep = mg.graphFromEndpoint(graphendpoint)
         cls.graphendpoint = ep
         cls.graph = mg(ep, "citesting")
-        cls.glcon= "/Users/valentin/development/dev_earthcube/gleanerio/gleaner/cmd/glcon/glcon_darwin"
+        cls.glcon= "/Users/valentin/development/dev_earthcube/gleanerio/gleaner/glcon_darwin"
         # still an issue or two with gleaner.
        # runGleaner(glncfg, cls.repo,cls.glcon)
        # runNabu(nabucfg,cls.repo, cls.glcon)
@@ -131,6 +138,7 @@ class GeocodesItegrationTesting(unittest.TestCase):
 # note in pycharm you will not be able to run this as an individual test
     # https://youtrack.jetbrains.com/issue/PY-56529/PyCharm-interprets-.-as-when-specifying-parameters-for-pytest.mark.parametrize
     @parameterized.expand(load_test_cases, name=custom_name_func)
+    @unittest.skip("issue with location of the context assets.")
     def test_identifiers(self, url):
 
          verify(runIdentifier(getFromUrl(url), glcon=self.glcon),
@@ -171,18 +179,18 @@ class GeocodesItegrationTesting(unittest.TestCase):
     # )
     def test_graph_dataset_counts(self):
         results = self.graph.query(getFileFromResources('sparql/count_datasets.txt'))
-        verify(results)
+        verify(results['results']['bindings'])
 
     def test_graph_counts(self):
         results = self.graph.query(getFileFromResources('sparql/count_triples.txt'))
-        verify(results)
+        verify(results['results']['bindings'])
         #verify("Hello ApprovalTests")
 
-# this grabs all triples for a graph.
+# this grabs all triples for a graph, and returns a count
     # this could be problematic if the order of the results changes.
     # if so, we might just keep a count of the triples
     # or find some quick way to do a row level diff, and implement in approval code.
-    @unittest.skip("Works, but not sure if the content will work for approvals.")
+   #  @unittest.skip("Works, but not sure if the content will work for approvals.")
     def test_graph_results(self):
         query = getFileFromResources('sparql/select_all_datasets.txt')
         singlegraphquery = getFileFromResources('sparql/triples_for_a_graph.txt')
