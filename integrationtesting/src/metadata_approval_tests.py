@@ -116,8 +116,11 @@ class GeocodesItegrationTesting(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        graphendpoint, nabucfg = getNabu("../resources/configs/geocodedemo/nabu")
-        s3endpoint, bucket, glncfg = getGleaner("../resources/configs/geocodedemo/gleaner")
+        cls.glcon = "/Users/valentin/development/dev_earthcube/gleanerio/gleaner/glcon_darwin"
+        cls.nabuFile = "../resources/configs/geocodesintegration/nabu"
+        graphendpoint, nabucfg = getNabu(cls.nabuFile)
+        cls.glnFile = "../resources/configs/geocodesintegration/gleaner"
+        s3endpoint, bucket, glncfg = getGleaner(cls.glnFile)
         cls.s3 = minio.Minio(s3endpoint)
         cls.glncfg = glncfg
 
@@ -127,7 +130,7 @@ class GeocodesItegrationTesting(unittest.TestCase):
         ep = mg.graphFromEndpoint(graphendpoint)
         cls.graphendpoint = ep
         cls.graph = mg(ep, "citesting")
-        cls.glcon= "/Users/valentin/development/dev_earthcube/gleanerio/gleaner/glcon_darwin"
+
         # still an issue or two with gleaner.
        # runGleaner(glncfg, cls.repo,cls.glcon)
        # runNabu(nabucfg,cls.repo, cls.glcon)
@@ -138,10 +141,10 @@ class GeocodesItegrationTesting(unittest.TestCase):
 # note in pycharm you will not be able to run this as an individual test
     # https://youtrack.jetbrains.com/issue/PY-56529/PyCharm-interprets-.-as-when-specifying-parameters-for-pytest.mark.parametrize
     @parameterized.expand(load_test_cases, name=custom_name_func)
-    @unittest.skip("issue with location of the context assets.")
+   # @unittest.skip("issue with location of the context assets.")
     def test_identifiers(self, url):
 
-         verify(runIdentifier(getFromUrl(url), glcon=self.glcon),
+         verify(runIdentifier(getFromUrl(url), glncfg=self.glnFile, glcon=self.glcon),
          options=NamerFactory.with_parameters(getFilename(url))
          )
 

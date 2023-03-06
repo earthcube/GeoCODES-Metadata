@@ -14,11 +14,36 @@ When you run a set of tests, if there is a difference, then a
 result with .received. will appear.
 
 Examine this file, diff the changes, if needed, and if you think 
-the result is ok mv the file to .approved.
+the result is ok mv the file to .approved.txt
 
 
 ## Running
 Right now, things are hard coded in the setup class
 
-* glcon
-* 
+```python
+   def setUpClass(cls):
+        cls.glcon = "/Users/valentin/development/dev_earthcube/gleanerio/gleaner/glcon_darwin"
+        cls.nabuFile = "../resources/configs/geocodesintegration/nabu"
+        graphendpoint, nabucfg = getNabu(cls.nabuFile)
+        cls.glnFile = "../resources/configs/geocodesintegration/gleaner"
+        s3endpoint, bucket, glncfg = getGleaner(cls.glnFile)
+        cls.s3 = minio.Minio(s3endpoint)
+        cls.glncfg = glncfg
+
+        cls.bucket = bucket
+        cls.repo = "geocodes_demo_datasets"
+        cls.nabucfg = nabucfg
+        ep = mg.graphFromEndpoint(graphendpoint)
+        cls.graphendpoint = ep
+        cls.graph = mg(ep, "citesting")
+
+``` 
+
+
+## From pycharm 
+select metadata_approval_tests.py
+run
+
+This will run approval tests and put results of 'failed' tests with a name of
+received.
+If tests match the approved.txt, then no 'receied.txt' files will be generated.

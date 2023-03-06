@@ -1,4 +1,6 @@
+import os
 import unittest
+import logging
 
 from gleanerio import gleaner
 
@@ -24,8 +26,11 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual("https://example.com/blazegraph/namespace/temp/sparql", cfgnew['sparql']['endpoint'])
 
     def test_runIdentifier(self):
-         with open('../../resources/testing/gleaner', 'r') as f:
-            bucket, cfg = gleaner.getGleaner(f)
+         #with open('../../resources/testing/gleaner', 'r') as f:
+         path =  os.getcwd()
+         logging.info("executatble path", path)
+         f= '../../resources/configs/geocodetest/gleaner'
+         s3endpoint, bucket, cfg = gleaner.getGleaner(f)
          json = '''{
 "@context": 
     { "@vocab":"http://schema.org/",
@@ -43,8 +48,10 @@ class MyTestCase(unittest.TestCase):
 }
 '''
          # yeah, I know the fixed path is bad... but
-         result = gleaner.runIdentifier( json,glcon="/Users/valentin/development/dev_earthcube/gleanerio/gleaner/cmd/glcon/glcon_darwin")
+         result = gleaner.runIdentifier( json,glncfg=f, glcon="/Users/valentin/development/dev_earthcube/gleanerio/gleaner/cmd/glcon/glcon_darwin")
          self.assertIsNotNone(result)
+         result = result.decode("utf-8")
+         self.assertFalse("ERROR"  in result )
 
 if __name__ == '__main__':
     unittest.main()
