@@ -18,7 +18,16 @@ the result is ok mv the file to .approved.txt
 
 
 ## Running
-Right now, things are hard coded in the setup class
+### Environment variables can be used to run in locally or in CI env
+
+```
+ GC_SITEMAP_URL
+GC_GLCON
+GC_NABUFILE
+GC_GLNRFILE
+GC_GRAPH
+GC_REPO
+```
 
 ```python
    def setUpClass(cls):
@@ -46,4 +55,4 @@ run
 
 This will run approval tests and put results of 'failed' tests with a name of
 received.
-If tests match the approved.txt, then no 'receied.txt' files will be generated.
+If tests match the approved.txt, then no 'received.txt' files will be generated.

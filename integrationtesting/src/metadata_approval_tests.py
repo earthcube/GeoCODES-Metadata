@@ -32,6 +32,7 @@ intially only geocodes_demo_datasets
 ** approve counts
 '''
 import json
+import os
 import unittest
 import urllib
 
@@ -44,7 +45,7 @@ from parameterized import parameterized
 from approvaltests.approvals import verify
 from approval_utilities.utilities.exceptions.exception_collector import gather_all_exceptions_and_throw
 from approvaltests.namer import NamerFactory
-
+from s3.s3 import getFileFroms3, gets3ObjectNameClean
 from graph.manageGraph import ManageBlazegraph as mg
 from sitemapparser import SiteMapParser
 from sitemapparser.exporters import JSONExporter
@@ -57,8 +58,10 @@ from gleanerio.gleaner import runIdentifier, getGleaner,getNabu, runNabu,runGlea
 
 def load_test_cases():
    # tree = sitemap_tree_for_homepage(
-    sm =  SiteMapParser('https://earthcube.github.io/GeoCODES-Metadata/metadata/Dataset/allgood/sitemap.xml')
-
+    smu = 'https://earthcube.github.io/GeoCODES-Metadata/metadata/Dataset/allgood/sitemap.xml'
+    if (os.getenv('GC_SITEMAP_URL')):
+      smu = os.getenv('GC_SITEMAP_URL')
+    sm =  SiteMapParser(smu)
     json_exporter = JSONExporter(sm)
     jsonurls = json.loads( json_exporter.export_urls() )
     urls = list(map( lambda a:  a['loc'], jsonurls ))
@@ -83,11 +86,7 @@ def getFilename(url):
     uri = urllib.parse.urlparse(url).path.split('/')
     name = uri[len(uri) - 1]
     return name
-def getFileFroms3(s3client, s3ObjectInfo):
-    resp = s3client.get_object(s3ObjectInfo.bucket_name, s3ObjectInfo.object_name)
-    return resp.data
-def gets3ObjectNameClean(s3ObjectName):
-    return s3ObjectName.replace('/','_')
+
 
 def getFileFromResources(filename):
     with open(f"../resources/{filename}", "r") as stream:
@@ -116,20 +115,41 @@ class GeocodesItegrationTesting(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.glcon = "/Users/valentin/development/dev_earthcube/gleanerio/gleaner/glcon_darwin"
-        cls.nabuFile = "../resources/configs/geocodesintegration/nabu"
+        glcon = "/Users/valentin/development/dev_earthcube/gleanerio/gleaner/glcon_darwin"
+        if (os.getenv('GC_GLCON')):
+            glcon = os.getenv('GC_GLCON')
+        cls.glcon = glcon
+
+        nabuFile = "../resources/configs/geocodesintegration/nabu"
+        if (os.getenv('GC_NABUFILE')):
+            nabuFile = os.getenv('GC_NABUFILE')
+        cls.nabuFile = nabuFile
         graphendpoint, nabucfg = getNabu(cls.nabuFile)
-        cls.glnFile = "../resources/configs/geocodesintegration/gleaner"
+
+        glnFile = "../resources/configs/geocodesintegration/gleaner"
+        if (os.getenv('GC_GLNRFILE')):
+            glnFile = os.getenv('GC_GLNRFILE')
+        cls.glnFile = glnFile
         s3endpoint, bucket, glncfg = getGleaner(cls.glnFile)
+
         cls.s3 = minio.Minio(s3endpoint)
         cls.glncfg = glncfg
 
-        cls.bucket = bucket
-        cls.repo = "geocodes_demo_datasets"
+        cls.bucket = bucket # from config file
+
+        repo = "geocodes_demo_datasets"
+        if (os.getenv('GC_REPO')):
+            repo = os.getenv('GC_REPO')
+        cls.repo = repo
         cls.nabucfg = nabucfg
+
+        graphnamespace =  "citesting"
+        if (os.getenv('GC_GRAPH')):
+            graphnamespace = os.getenv('GC_GRAPH')
+
         ep = mg.graphFromEndpoint(graphendpoint)
         cls.graphendpoint = ep
-        cls.graph = mg(ep, "citesting")
+        cls.graph = mg(ep,graphnamespace)
 
         # still an issue or two with gleaner.
        # runGleaner(glncfg, cls.repo,cls.glcon)
@@ -222,4 +242,15 @@ class GeocodesItegrationTesting(unittest.TestCase):
     # )
 
 if __name__ == "__main__":
+
+    logging.info("Env variables")
+    envnames = """
+    GC_SITEMAP_URL
+    GC_GLCON
+    GC_NABUFILE
+    GC_GLNRFILE
+    GC_GRAPH
+    GC_REPO
+    """
+    logging.info("envnames")
     unittest.main()
