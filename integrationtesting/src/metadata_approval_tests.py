@@ -37,6 +37,7 @@ import unittest
 import urllib
 
 import pandas
+import pytest
 import requests
 import sparqldataframe as sparqldataframe
 import simplejson
@@ -162,6 +163,10 @@ class GeocodesItegrationTesting(unittest.TestCase):
     # https://youtrack.jetbrains.com/issue/PY-56529/PyCharm-interprets-.-as-when-specifying-parameters-for-pytest.mark.parametrize
     @parameterized.expand(load_test_cases, name=custom_name_func)
    # @unittest.skip("issue with location of the context assets.")
+    @pytest.mark.skipif(
+        os.environ['RUNNINGACTION'] == True,
+        reason="Addition has been deactivated in us-west-2 because of issue #234"
+    )
     def test_identifiers(self, url):
 
          verify(runIdentifier(getFromUrl(url), glncfg=self.glnFile, glcon=self.glcon),
