@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8]
+        python-version: [3.9]
     env:
       GC_GLCON: "./glcon"
       RUNNINGACTION: "True"
@@ -18,9 +18,9 @@ jobs:
           tag: "v3.0.8_fix129"
           fileName: "glcon-v3.0.8_fix129-linux-amd64.tar.gz"
           tarBall: true
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
