@@ -12,6 +12,7 @@ jobs:
       GC_GLCON: "./glcon"
       RUNNINGACTION: "True"
     steps:
+      # downloading... does not untar.
       - uses: robinraju/release-downloader@v1.7
         with:
           repository: "gleanerio/gleaner"
