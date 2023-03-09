@@ -1,4 +1,7 @@
 name: Approval Tests
+on:
+  push:
+    branches-ignore: [ 'gh-pages' ]
 jobs:
   build:
     runs-on: ubuntu-latest
