@@ -1,10 +1,25 @@
-name: Test
-on: [push]
+name: Approval Tests
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.7]
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
-      - name: Prepare repo
-        uses: actions/checkout@master
-      - name: Test
-        uses: onichandame/python-test-action@master
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ./integrationtesting/requirements.txt
+          pip install boto3
+      - name: Test with unittest
+        run: |
+          cd integrationtesting/src
+          python -m pytest metadata_approval_tests.py::GeocodesItegrationTesting
