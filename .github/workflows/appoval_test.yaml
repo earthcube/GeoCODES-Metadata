@@ -10,7 +10,7 @@ jobs:
         python-version: [3.8]
     env:
       GC_GLCON: "./glcon"
-      RUNNINGACTION: True
+      RUNNINGACTION: "True"
     steps:
       - uses: robinraju/release-downloader@v1.7
         with:
