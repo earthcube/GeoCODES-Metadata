@@ -164,7 +164,7 @@ class GeocodesItegrationTesting(unittest.TestCase):
     @parameterized.expand(load_test_cases, name=custom_name_func)
    # @unittest.skip("issue with location of the context assets.")
     @pytest.mark.skipif(
-        os.environ['RUNNINGACTION'] == "True",
+        os.getenv('RUNNINGACTION') == "True",
         reason="Addition has been deactivated in us-west-2 because of issue #234"
     )
     def test_identifiers(self, url):
