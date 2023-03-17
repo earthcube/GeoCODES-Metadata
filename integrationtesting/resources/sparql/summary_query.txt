@@ -1,0 +1,24 @@
+prefix schema: <https://schema.org/>
+SELECT distinct ?subj ?g ?resourceType ?name ?description  ?pubname
+        (GROUP_CONCAT(DISTINCT ?placename; SEPARATOR=", ") AS ?placenames)
+        (GROUP_CONCAT(DISTINCT ?kwu; SEPARATOR=", ") AS ?kw) ?datep
+        #(GROUP_CONCAT(DISTINCT ?url; SEPARATOR=", ") AS ?disurl)
+        WHERE {
+          graph ?g {
+             ?subj schema:name ?name .
+             ?subj schema:description ?description .
+            ?subj a schema:Dataset
+            Minus {?subj a schema:Person } .
+ #BIND (IF (exists {?subj a schema:Dataset .} ||exists{?subj a schema:DataCatalog .} , "data", "tool") AS ?resourceType).
+                   ?subj a ?resourceType .
+            optional {?subj schema:distribution/schema:url|schema:subjectOf/schema:url ?url .}
+            OPTIONAL {?subj schema:datePublished ?date_p .}
+            OPTIONAL {?subj schema:publisher/schema:name|schema:sdPublisher|schema:provider/schema:name ?pub_name .}
+            OPTIONAL {?subj schema:spatialCoverage/schema:name ?place_name .}
+            OPTIONAL {?subj schema:keywords ?kwu .}
+            BIND ( IF ( BOUND(?date_p), ?date_p, "No datePublished") as ?datep ) .
+            BIND ( IF ( BOUND(?pub_name), ?pub_name, "No Publisher") as ?pubname ) .
+            BIND ( IF ( BOUND(?place_name), ?place_name, "No spatialCoverage") as ?placename ) .
+             }
+        }
+        GROUP BY ?subj ?pubname ?placenames ?kw ?datep   ?name ?description  ?resourceType ?g

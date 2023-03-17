@@ -1,0 +1,43 @@
+context:
+    cache: true
+contextmaps:
+    - file: ../assets/schemaorg-current-http.jsonld
+      prefix: https://schema.org/
+    - file: ../assets/schemaorg-current-http.jsonld
+      prefix: http://schema.org/
+gleaner:
+    mill: true
+    runid: runX
+    summon: true
+millers:
+    graph: true
+minio:
+    address: oss.geocodes-dev.earthcube.org
+    port: 443
+    ssl: true
+    accesskey: worldsbestaccesskey
+    secretkey: worldsbestsecretkey
+    bucket: citesting
+sources:
+    - sourcetype: sitemap
+      name: geocodes_demo_datasets
+      logo: ""
+      url: https://earthcube.github.io/GeoCODES-Metadata/metadata/Dataset/allgood/sitemap.xml
+      headless: false
+      pid: https://github.com/earthcube/GeoCODES-Metadata/metadata/OtherResources
+      propername: Geocodes Demo Datasets
+      domain: https://www.earthcube.org/datasets/
+      active: true
+      credentialsfile: ""
+      other: {}
+      headlesswait: 0
+      delay: 0
+      identifierpath: ""
+      identifiertype: identifiersha
+      fixcontextoption: 0
+summoner:
+    after: ""
+    delay: null
+    headless: http://127.0.0.1:9222
+    mode: full
+    threads: 5
