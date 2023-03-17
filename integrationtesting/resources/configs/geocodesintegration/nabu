@@ -1,0 +1,20 @@
+minio:
+    address: oss.geocodes-dev.earthcube.org
+    port: 443
+    ssl: true
+    accesskey: worldsbestaccesskey
+    secretkey: worldsbestsecretkey
+    bucket: citesting
+objects:
+    bucket: citesting
+    domain: us-west-2
+    prefix:
+        - summoned/geocodes_demo_datasets
+        - org
+sparql:
+    endpoint: https://graph.geocodes-dev.earthcube.org/blazegraph/namespace/citesting/
+    authenticate: false
+    username: ""
+    password: ""
+txtaipkg:
+    endpoint: http://0.0.0.0:8000

@@ -1,0 +1,21 @@
+minio:
+    address: s3.us-west-1.amazonaws.com
+    port: 443
+    ssl: true
+    accesskey:
+    secretkey:
+    bucket: geocodestest
+objects:
+    bucket: geocodestest
+    domain: us-west-1
+    prefix:
+        - summoned/iris
+        - org
+    prefixoff: []
+sparql:
+    endpoint: https://graph.geodex.org/blazegraph/namespace/earthcube/sparql
+    authenticate: false
+    username: ""
+    password: ""
+txtaipkg:
+    endpoint: http://0.0.0.0:8000
