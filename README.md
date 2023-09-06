@@ -8,6 +8,9 @@ Generated Sitemaps are at:
 * https://earthcube.github.io/GeoCODES-Metadata/metadata/development/sitemap.xml
 * https://earthcube.github.io/GeoCODES-Metadata/metadata/otherResources/sitemap.xml
 
+There are two manual sitemaps:
+* https://earthcube.github.io/GeoCODES-Metadata/site/sitemaps/headless.xml
+* https://earthcube.github.io/GeoCODES-Metadata/site/sitemaps/mixed.xml
 
 This repository contains documentation about the GeoCODES metadata profile (based on the [ESIP Science On Schema.org Recommendations](https://github.com/ESIPFed/science-on-schema.org/blob/master/guides/Dataset.md)), and a web-accessible folder for hand crafted metadata records for indexing in GeoCODES.
 
