@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b77e7c2e-d796-478a-b110-8a647a887a4a",
+    "name": "MBON POLE TO POLE: SANDY BEACH BIODIVERSITY OF MUSQUASH HARBOUR AND MISPEC BAY",
+    "description": "The MBON Pole to Pole effort seeks to develop a framework for the collection, use and sharing of marine biodiversity data in a coordinated, standardized manner leveraging on existing infrastructure managed by the Global Ocean Observing System (GOOS; IOC-UNESCO), the GEO Biodiversity Observation Network (GEO BON), and the Ocean Biogeographic Information System (OBIS). The MBON Pole to Pole aims to become a key resource for decision-making and management of living resource across countries in the Americas for reporting requirements under the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), Aichi Targets of the Convention of Biological Diversity (CBD), and the UN 2030 Agenda for Sustainable Development Goals (SDGs).\nThis collection corresponds to the species registered on sandy beaches of the Musquash Harbour and Mispec Bay, New Brunswick, Canada, using the MBON P2P sampling protocol for sandy beaches, with funding from the Government of Canada's Coastal Environmental Baseline Program.",
+    "url": "https://obis.org/dataset/b77e7c2e-d796-478a-b110-8a647a887a4a",
+    "sameAs": [
+        "https://ipt.iobis.org/mbon/resource?r=sandybeachesbayoffundynb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY 4.0) License",
+    "citation": "Cooper A, Reinhart B, Nason R (2023). MBON POLE TO POLE: SANDY BEACH BIODIVERSITY OF MUSQUASH HARBOUR AND MISPEC BAY. Version 1.3. Caribbean OBIS Node. Samplingevent dataset. https://ipt.iobis.org/mbon/resource?r=sandybeachesbayoffundynb&amp;v=1.3",
+    "version": "2023-12-11T19:56:30.000Z",
+    "keywords": [
+        "MBON",
+        "Pole to Pole",
+        "Musquash Harbour",
+        "Mispec Bay",
+        "sandy beach",
+        "intertidal zone",
+        "coastal biodiversity"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P06/current/UPMS/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/mbon/archive.do?r=sandybeachesbayoffundynb",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-66.230283 45.15705,-66.230283 45.217417,-65.951867 45.217417,-65.951867 45.15705,-66.230283 45.15705"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

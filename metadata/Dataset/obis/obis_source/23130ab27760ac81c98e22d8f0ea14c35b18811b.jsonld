@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/00f47c38-6233-4d6c-bd93-67a771ab6224",
+    "name": "Collection Polychaeta SMF",
+    "description": "The Polychaetes collection is part of the SeSAM collections of Senckenberg which combines all collections held at the Senckenberg Natutal History Museum of Frankfurt. This collection contains Polychaetes from all over the world.",
+    "url": "https://obis.org/dataset/00f47c38-6233-4d6c-bd93-67a771ab6224",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_8306",
+        "https://doi.org/10.15468/ehpqkw"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Senckenberg: Collection Polychaeta SMF https://doi.org/10.15468/ehpqkw",
+    "version": "2024-02-27T00:20:54.000Z",
+    "keywords": [
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1949/2008",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/ehpqkw",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/ehpqkw",
+        "url": "https://doi.org/10.15468/ehpqkw"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_8306",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-129.098383333 -75.1183333333,-129.098383333 78.9677833333,174.614666667 78.9677833333,174.614666667 -75.1183333333,-129.098383333 -75.1183333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6271",
+            "@type": "Organization",
+            "legalName": "Senckenberg Gesellschaft für Naturforschung",
+            "name": "Senckenberg Gesellschaft für Naturforschung",
+            "url": "https://oceanexpert.org/institution/6271"
+        }
+    ]
+}

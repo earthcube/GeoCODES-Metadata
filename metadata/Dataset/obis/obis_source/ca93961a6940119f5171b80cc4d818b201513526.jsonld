@@ -1,0 +1,122 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d28b4411-1710-4b08-9ec7-99b8c68ae4b2",
+    "name": "SHARK - Regional monitoring, recipient control and monitoring projects of zoobenthos in Sweden since 1972",
+    "description": "Zoobenthos have been regionally monitored in Sweden since 1972. The monitoring is financed by the Swedish county administration boards, Swedish municipalities, Swedish coalitions of water conservation and Swedish companies. Recipient control data financed by companies are also included.",
+    "url": "https://obis.org/dataset/d28b4411-1710-4b08-9ec7-99b8c68ae4b2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=smhi-zoobenthos-reg",
+        "https://doi.org/10.15468/cesssx"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Swedish county administration boards, Swedish municipalities, Swedish coalitions of water conservation, Swedish companies and Swedish Meteorological and Hydrological Institute et.al.(2021). Regional monitoring, recipient control and monitoring projects of zoobenthos in Sweden since 1972. https://doi.org/10.15468/cesssx",
+    "version": "2023-12-08T18:14:19.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Water depth",
+            "url": "",
+            "description": "Water depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampler type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampler area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lower mesh size",
+            "url": "",
+            "description": "Lower mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling laboratory accredited",
+            "url": "",
+            "description": "Sampling laboratory accredited"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "# counted",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "# counted"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sediment type",
+            "url": "",
+            "description": "Sediment type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight",
+            "url": "",
+            "description": "Wet weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "BQIm",
+            "url": "",
+            "description": "BQIm"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1972/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/cesssx",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/cesssx",
+        "url": "https://doi.org/10.15468/cesssx"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=smhi-zoobenthos-reg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "8.45142 55.2133,8.45142 65.85424,24.24315 65.85424,24.24315 55.2133,8.45142 55.2133"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

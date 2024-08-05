@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e5272499-c343-4794-89e0-e78bd2f5367d",
+    "name": "RV Investigator Voyage IN2017_T01 Seabird Observations, Australia (2017)",
+    "description": "Seabird and incidental cetacean and seal sightings were recorded during daylight hours from a transit from Sydney to Broome, Oct 2017. Observations were made every ten minutes in the forward quadrant. There were 410 observations from 20 species of birds and 1 cetaceans. Each species has been linked where possible to the World Register of Marine Species (WoRMS https://www.marinespecies.org).\nFurher details at http://www.marlin.csiro.au/geonetwork/srv/eng/search#!c2d03fae-9b49-4bb1-b364-f1651678c166. Voyage details (metadata, projects, other datasets either online or as downloads, publications and reports, events, maps etc) can be accessed at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2017_T01\nIf this data has been used in any products, please acknowledge with the following: We acknowledge the use of the CSIRO Marine National Facility (https://ror.org/01mae9353) in undertaking this research.\n\n",
+    "url": "https://obis.org/dataset/e5272499-c343-4794-89e0-e78bd2f5367d",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=in2017_t01_wov"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Woehler E (2023): RV Investigator Voyage IN2017_T01 Seabird Observations, Australia (2017). v1.13. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=in2017_t01_wov&amp;v=1.13",
+    "version": "2023-11-30T02:54:01.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Air Pressure (hPa)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CAPHZZ01",
+            "description": "Air Pressure (hPa)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind Speed (knt)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ESSAZZ01",
+            "description": "Wind Speed (knt)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind direction (deg)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01",
+            "description": "Wind direction (deg)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea surface temperature",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/97",
+            "description": "Sea surface temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth (m)",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/574",
+            "description": "Depth (m)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity (psu)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSLTZZ01",
+            "description": "Salinity (psu)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bird behaviour",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/GP088",
+            "description": "Bird behaviour"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Atmospheric temperature (deg C)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01",
+            "description": "Atmospheric temperature (deg C)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Visibility",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/390",
+            "description": "Visibility"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cetacean behaviour",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/CEBH",
+            "description": "Cetacean behaviour"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=in2017_t01_wov",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "121.78989 -33.45653,121.78989 -9.21645,153.87609 -9.21645,153.87609 -33.45653,121.78989 -33.45653"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19274",
+            "@type": "Organization",
+            "legalName": "Australasian Seabird Group",
+            "name": "Australasian Seabird Group",
+            "url": "https://oceanexpert.org/institution/19274"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

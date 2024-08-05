@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0b7ba344-5ff5-4a72-8e20-43eb86b097da",
+    "name": "NOAA AFSC North Pacific Groundfish Observer",
+    "description": "The Observer Program database consists of fish, invertebrate, and marine mammal observations collected by fishery biologists while deployed on board commercial fishing vessels or at shoreside processing plants participating in the Bering Sea and Gulf of Alaska groundfish fisheries. This database covers observations from 1993-2004. The specific data components collected are outlined in the Groundfish Observer Manual. Once received by NOAA Fisheries, these data are extensively checked for quality. Each record represents the summary of all the observations made for a given taxa in a given year from each 20km by 20km grid square; counts and weights are statistical estimates.",
+    "url": "https://obis.org/dataset/0b7ba344-5ff5-4a72-8e20-43eb86b097da",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=afsc_northpacificgroundfishobserver"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2020-09-18T19:17:26.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=afsc_northpacificgroundfishobserver",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.830001831 0,-179.830001831 61.7200012207,179.830001831 61.7200012207,179.830001831 0,-179.830001831 0"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/15406",
+            "@type": "Organization",
+            "legalName": "University of California, San Diego, Scripps Institution of Oceanography",
+            "name": "University of California, San Diego, Scripps Institution of Oceanography",
+            "url": "https://oceanexpert.org/institution/15406"
+        }
+    ]
+}

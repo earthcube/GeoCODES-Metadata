@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cd28a3e1-f146-4638-85ae-a5ea6b739144",
+    "name": "Empire Wind Digital Aerial Wildlife Surveys for BOEM Lease Area OCS-A 0520, Equinor Wind US LLC, November 2017-October 2018",
+    "description": "Original provider:\nAPEM Limited\n\nDataset credits:\nAPEM Inc. and Normandeau Associates Inc.\n\nAbstract:\nEquinor Wind US, LLC were committed to undertaking a Construction and Operation Plan (COP) of their lease area located in the New York Bight (OCS-A 0520). To facilitate this, surveys were undertaken by APEM Inc. and Normandeau Associates, Inc. (Normandeau-APEM Team) to provide baseline information for consideration in the assessment of potential impacts.\n\nPurpose:\nEquinor initiated monthly offshore high resolution aerial surveys of marine mega-fauna in the New York Bight offshore wind lease area plus a 4 km (2.5 mile) buffer. The surveys used APEM Inc.'s ultra-high resolution aerial digital still imagery to characterize birds present in the lease area and gather additional information on other marine fauna. These surveys provided the baseline information required for conducting impact assessments. The dataset is comprised of observations and survey track line information collected from one survey per month from November 2017 until October 2018 inclusive (12 surveys in total). \n\nAPEM Inc. and Normandeau Associates, Inc. (Normandeau–APEM team) extracted and identified avian and other marine species and provided quality control (QC) of the results.\n\nSupplemental information:\n[2021-08-23] No-animal objects (e.g. boats) were given species names and codes. These wrong assignments are corrected.\n\nEach record represents 1 individual (except for Fish Shoals which is one entry per 1 shoal encompassing uncounted number of fish). \n\nLocations of digital snapshots are available as a static point layer.",
+    "url": "https://obis.org/dataset/cd28a3e1-f146-4638-85ae-a5ea6b739144",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_2067"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Phillips, D. 2020. Empire Wind Digital Aerial Wildlife Surveys for BOEM Lease Area OCS-A 0520, Equinor Wind US LLC, November 2017-October 2018. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/2067) on yyyy-mm-dd.",
+    "version": "2021-08-24T19:47:33.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Seabirds,Visual Sighting,Aircraft",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_2067",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.6442 40.158,-73.6442 40.4167,-73.0355 40.4167,-73.0355 40.158,-73.6442 40.158"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

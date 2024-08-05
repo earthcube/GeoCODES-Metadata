@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/26866583-f350-4d53-8fc0-c3eabb886aa5",
+    "name": "Mesozooplankton abundance and biomass in Sevastopol Bay and inshore waters off the Crimean Coasts of the Black Sea",
+    "description": "The dataset contains the monitoring data on abundance and biomass of 26 mesozooplankton species and life stages in Sevastopol Bay and inshore waters off Crimean coast of the Black Sea from September 1999 to December 2011 (about 15.224 measurements).",
+    "url": "https://obis.org/dataset/26866583-f350-4d53-8fc0-c3eabb886aa5",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mesozooplankton_sevastopol"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Finenko, G.; Abolmasova, G.; Datsyk, N.; Anninsky, B.; Romanova, Z. (2012). Mesozooplankton abundance and biomass in Sevastopol Bay and inshore waters  off the Crimean Coasts of the Black Sea. Institute of Biology of the Southern Seas NASU.",
+    "version": "2023-12-08T18:19:52.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wet weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "wet weight biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1999/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mesozooplankton_sevastopol",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "33.45 44.61,33.45 44.62,33.58 44.62,33.58 44.61,33.45 44.61"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

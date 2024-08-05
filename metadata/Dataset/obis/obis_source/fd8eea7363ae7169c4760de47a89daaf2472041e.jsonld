@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dd06d0ae-bfdd-48c0-89b8-e3ec5f81d88e",
+    "name": "Waved Albatross Tracking (aggregated per 1-degree cell)",
+    "description": "Original provider:\nWake Forest University\n\nDataset credits:\nDavid Anderson, Wake Forest University\n\nAbstract:\nAll birds studied via satellite tracking were nesting in the same part of the breeding colony at Punta Cevallos, on the eastern point of Isla Española (Galápagos archipelago). In 2000 and 2001, a tape attachment method was used to attach Platform Transmitter Terminals (PTTs; Microwave Telemetry Inc., Columbia MD USA) to the dorsal feathers of birds at the nest. The birds were tracked using the satellites of the Argos System (Service Argos, Largo MD USA). In 2000, five PTTs used this duty cycle, while two others transmitted continuously, and in 2001 all six transmitters transmitted continuously.\n\nPurpose:\nThe 21 birds tracked during incubation in 2000 and 2001 were part of a study of sensory ecology and navigation; 10 and 9 of them had, respectively, small (3.5 g) magnets or brass sham magnets affixed to their heads during their trips. All 19 of the magnet and sham birds showed the same 'commuter' foraging behavior seen during previous satellite tracking in 1995 and 1996 (Anderson et al. 1998, Fernández et al. 2001) and in the two unmanipulated birds tracked in 2000 and 2001. The satellite-tracked Waved Albatross traveled to the Peruvian shelf in relatively straight flights, remaining in the upwelling region for several days, and then returning directly to Española.\nFunding was provided by the United States National Science Foundation (grant DEB 96-29539 to D.J.A.), the Carlsberg Foundation (to H.M.), the National Geographic Society, Canadian NSERC, the VolkswagenStiftung (Nachwuchgruppen Grant to H.M.), a CIAR Fellowship, an NSERC fellowship, Institute for Robotics and Intelligent Systems (NCE) grants to B.J.F., the Wake Forest University Sullivan and Richter Funds, and the Field Research for Conservation Program at the St. Louis Zoo.\n\nSupplemental information:\nArgos System ground-truthing conducted at the site in 1995 (Anderson et al. 1998) showed that the lowest quality locations, Class B, had a mean error of 17.8 km (9.6 nautical miles; Anderson et al., 1998).  Thus, only high-quality Argos locations are presented here. A total of 101 locations from 14 birds (14.9 % LQC-1, 6.9 % LQC-2, 4.0 % LQC-3, 32.7 % LQC-0, 41.6 % LQ-A) and 356 locations from 21 birds (13.2 % LQC-1, 5.3 % LQC-2, 3.4 % LQC-3, 32.0 % LQC-0, 46.1 % LQ-A) are reported for 2000 and 2001, respectively.\n\nReferences cited:\nAnderson, D.J., A.J. Schwandt, and H.D. Douglas. 1998. Foraging ranges of waved albatrosses in the eastern tropical Pacific. In: G. Robertson and R. Gales (eds.). Albatross Biology and Conservation, Surrey Beatty and Sons, Chipping Norton, pp. 180-185.\nFernández, P., D.J. Anderson, P. Sievert, and K.P. Huyvaert. 2001. Foraging destinations of three low-latitude albatross species. Journal of Zoology 254:391-404.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/dd06d0ae-bfdd-48c0-89b8-e3ec5f81d88e",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_324_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Hyrenbach, D. and D. Anderson. 2012. Waved Albatross Tracking. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/324) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:18:48.000Z",
+    "keywords": [
+        "Occurrence,Radio transmitters,Animal movements,albatross,satellite-tracking,argos,seabirds",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_324_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-95.5 -11.5,-95.5 -0.5,-77.5 -0.5,-77.5 -11.5,-95.5 -11.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

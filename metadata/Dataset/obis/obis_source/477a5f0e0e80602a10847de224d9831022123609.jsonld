@@ -1,0 +1,82 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/65a3cb9d-2889-400b-a2cd-c0232f87fb91",
+    "name": "Microzooplankton data (Tintinnida) collected during First Ukrainian Antarctic Expedition (March-April 1997) on board of R/V Krenkel",
+    "description": "Dataset includes zooplankton data (limited to order Tintinnida Kofoid and Campbel, 1929) collected during First Ukrainian Antarctic Expedition (March-April 1997) on board of R/V Krenkel.",
+    "url": "https://obis.org/dataset/65a3cb9d-2889-400b-a2cd-c0232f87fb91",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phyto_cosmos_1_1997"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gavrilova  N. (1997). Microzooplankton data (Tintinnida) collected during First Ukrainian Antarctic Expedition (March-April 1997) on board of R/V Krenkel. Dataset published in electronic format by IBSS in 2013.",
+    "version": "2023-12-08T18:31:14.000Z",
+    "keywords": [
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "",
+            "description": "biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phyto_cosmos_1_1997",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-47.1 -61,-47.1 -58.98,-43 -58.98,-43 -61,-47.1 -61"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19526",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine – Institute of Biology of the Southern Seas – Department of plankton",
+            "name": "National Academy of Sciences of Ukraine – Institute of Biology of the Southern Seas – Department of plankton",
+            "url": "https://oceanexpert.org/institution/19526"
+        }
+    ]
+}

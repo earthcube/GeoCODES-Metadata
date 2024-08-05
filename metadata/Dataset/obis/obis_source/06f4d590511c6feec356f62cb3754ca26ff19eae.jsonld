@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fe20ac98-e78d-4d81-b041-11bfde363d95",
+    "name": "PELD-ELPA Species composition and abundance patterns of fish assemblages at shallow waters of Patos Lagoon estuary",
+    "description": "Species composition, size structure and abundance patterns have been monitored throughout standardized monthly collections in shallow waters (&lt; 2m) of Patos Lagoon estuary and adjacent marine sites.",
+    "url": "https://obis.org/dataset/fe20ac98-e78d-4d81-b041-11bfde363d95",
+    "sameAs": [
+        "https://ipt.sibbr.gov.br/peld/resource?r=species_composition_and_abundance_patterns_of_fish_assemblages_at_shallow_waters_of_patos_lagoon_estuary"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Vieira J P, Garcia A M, Lemos V M (2018): PELD-ELPA Species composition and abundance patterns of fish assemblages at shallow waters of Patos Lagoon estuary. v1.11. Sistema de Informação sobre a Biodiversidade Brasileira - SiBBr. Dataset/Samplingevent. https://ipt.sibbr.gov.br/peld/resource?r=species_composition_and_abundance_patterns_of_fish_assemblages_at_shallow_waters_of_patos_lagoon_estuary&amp;v=1.11",
+    "version": "2022-12-08T17:43:17.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Fish",
+        "Ichthyofauna",
+        "shallow waters",
+        "diversity",
+        "beach seine",
+        "nursery grounds",
+        "estuary"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMP001/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Secchi disk",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SECCSDNX/",
+            "description": "Secchi disk"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPP681/",
+            "description": "Water temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/3/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.sibbr.gov.br/peld/archive.do?r=species_composition_and_abundance_patterns_of_fish_assemblages_at_shallow_waters_of_patos_lagoon_estuary",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-52.176 -32.206,-52.176 -31.91,-52.088 -31.91,-52.088 -32.206,-52.176 -32.206"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13853",
+            "@type": "Organization",
+            "legalName": "Federal University of Rio Grande-FURG, Rio Grande",
+            "name": "Federal University of Rio Grande-FURG, Rio Grande",
+            "url": "https://oceanexpert.org/institution/13853"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/747eedb6-dca9-4c9a-849d-618bffeaa18f",
+    "name": "Benthos Cretan Continental Shelf",
+    "description": "This dataset is part of a national project on the consequences of the Navarino Oil spill, in 1994 at the Gialova Lagoon, Ionian Sea. The Cretan coasts were studied from May 1987, in order to assess the level of their environmental degradation due to touristic and other anthropogenic activities",
+    "url": "https://obis.org/dataset/747eedb6-dca9-4c9a-849d-618bffeaa18f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=benthoscretan"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dounas C., 1988: Benthos Cretan Continental Shelf. Hellenic Centre for Marine Research, Greece",
+    "version": "2023-12-08T17:13:58.000Z",
+    "keywords": [
+        "Benthic fauna",
+        "Biogeography",
+        "Data",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/1988",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=benthoscretan",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "24.155555725097656 35,24.155555725097656 35.49166488647461,26.163888931274414 35.49166488647461,26.163888931274414 35,24.155555725097656 35"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19609",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research, Crete",
+            "name": "Hellenic Centre for Marine Research, Crete",
+            "url": "https://oceanexpert.org/institution/19609"
+        }
+    ]
+}

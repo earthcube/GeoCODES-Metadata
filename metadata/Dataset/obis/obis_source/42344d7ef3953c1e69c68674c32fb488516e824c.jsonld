@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c9b40d2d-e9c7-4d2d-af55-005fff4e4c7b",
+    "name": "Crabs from Vietnam and Indonesia",
+    "description": "This dataset contains data of brachyuran crabs collected by Keiji Wada in 1995-2007 in Vietnam and in 1984-2001 in Indonesia.",
+    "url": "https://obis.org/dataset/c9b40d2d-e9c7-4d2d-af55-005fff4e4c7b",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=kw_vi"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the\n                 Public Domain (CC0 1.0)",
+    "citation": "Wada, K. (2019) Crabs from Vietnam and Indonesia at https://www.godac.jamstec.go.jp/bismal/j/dataset/KW_VI. Accessed on yyyy-mm-dd.",
+    "version": "2023-12-07T07:20:27.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=kw_vi",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "100.3666667 -8.766666667,100.3666667 20.88333333,128.2 20.88333333,128.2 -8.766666667,100.3666667 -8.766666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

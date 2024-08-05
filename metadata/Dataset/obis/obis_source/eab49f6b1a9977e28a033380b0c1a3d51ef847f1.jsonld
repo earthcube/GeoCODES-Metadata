@@ -1,0 +1,119 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7fa1c161-8d37-47ac-9a5a-88f55f28717b",
+    "name": "A*MIDEX CHROME: Western Mediterranean automated flow cytometry surface sample from Ships of O/P crossing Tunis-Marseille and Tunis-Genova between October 2016-January 2017",
+    "description": "Phytoplankton functional diversity and spatio-temporal distribution at the meso-scale are studied in the frame of the A*MIDEX CHROME (Continuous High Resolution Observation of the Mediterranean, https://en-chrome.mio.univ-amu.fr/?page_id=42)  project thanks to the combined installation of a Ferrybox system (belonging to the INSTM, Tunis) and a cytosense flow cytometer onboard the CTN’s ferry “Le Carthage”. Samples were collected during the cruises between Tunis-Marseille and Tunis-Genova from October 2016 to January 2017. This led to an mount of 80 transects and more than 7000 samples collected. Data analyses resolved the abundances of up to six phytoplankton functional groups based on size and pigment content.",
+    "url": "https://obis.org/dataset/7fa1c161-8d37-47ac-9a5a-88f55f28717b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=midex_chrome_jn"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "National Center for Scientific Research (2018). A*MIDEX CHROME: Western Mediterranean automated flow cytometry surface sample from Ships of O/P crossing Tunis-Marseille and Tunis-Genova between October 2016-January 2017",
+    "version": "2024-02-26T23:22:30.000Z",
+    "keywords": [
+        "Cytometry",
+        "Phytoplankton",
+        "ship",
+        "vessel of opportunity",
+        "Ships of opportunity",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling platform name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Sampling platform name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Volume sampled of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "Volume sampled of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area mean of forward light scatter pulse per cluster from the water body by flow cytometry",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FWSAREAA/",
+            "description": "Area mean of forward light scatter pulse per cluster from the water body by flow cytometry"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area mean of orange fluorescence pulse per cluster from the water body by flow cytometry",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FLOAREAA/",
+            "description": "Area mean of orange fluorescence pulse per cluster from the water body by flow cytometry"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area mean of red fluorescence pulse per cluster from the water body by flow cytometry",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FLRAREAA/",
+            "description": "Area mean of red fluorescence pulse per cluster from the water body by flow cytometry"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area mean of sideward light scatter pulse per cluster from the water body by flow cytometry",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SWSAREAA/",
+            "description": "Area mean of sideward light scatter pulse per cluster from the water body by flow cytometry"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area standard deviation of forward light scatter pulse per cluster from the water body by flow cytometry",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FWSARESD/",
+            "description": "Area standard deviation of forward light scatter pulse per cluster from the water body by flow cytometry"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area standard deviation of orange fluorescence pulse per cluster from the water body by flow cytometry",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FLOARESD/",
+            "description": "Area standard deviation of orange fluorescence pulse per cluster from the water body by flow cytometry"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=midex_chrome_jn",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "5.26124 36.8684,5.26124 43.2507,10.3998 43.2507,10.3998 36.8684,5.26124 36.8684"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

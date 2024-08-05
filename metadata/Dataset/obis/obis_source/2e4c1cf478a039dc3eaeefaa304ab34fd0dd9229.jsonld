@@ -1,0 +1,108 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/301cbca1-2cad-4eaf-b275-775ba8400a84",
+    "name": "Mesozooplankton, National Pilot Monitoring Studies Phyllophora August 2017, EMBLAS-II",
+    "description": "Mesozooplankton data: species composition, abundance (ind/m3), biomass (mg/m3) collected during the survey of the National Pilot Monitoring Studies Ukraine (NPMS UA) in the Ukrainian waters (North-Western part of the Black Sea) in the area of the Zernov’s Phyllophora Field onboard the M/V \"Auguste Piccard\" (Ukraine) in August 2017",
+    "url": "https://obis.org/dataset/301cbca1-2cad-4eaf-b275-775ba8400a84",
+    "sameAs": [
+        "http://gp.sea.gov.ua:8082/ipt/resource?r=npmsuaphyllophoraaugust2017_mesozooplankton1"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Olga Zotova, Mykhailo Nabokin, Vasily Diadichko Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES)",
+    "version": "2021-10-01T12:04:40.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYAAOP/",
+            "description": "Dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Standard weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/NEWCXX02/",
+            "description": "Standard weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Standard Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "Standard Biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://gp.sea.gov.ua:8082/ipt/archive.do?r=npmsuaphyllophoraaugust2017_mesozooplankton1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "30.49685 45.50142,30.49685 46.0006,31.24943 46.0006,31.24943 45.50142,30.49685 45.50142"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11858",
+            "@type": "Organization",
+            "legalName": "Ukrainian Scientific Centre of Ecology of the Sea",
+            "name": "Ukrainian Scientific Centre of Ecology of the Sea",
+            "url": "https://oceanexpert.org/institution/11858"
+        }
+    ]
+}

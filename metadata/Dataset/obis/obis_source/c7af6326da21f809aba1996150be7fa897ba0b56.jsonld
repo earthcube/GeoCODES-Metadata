@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8debaccf-a981-4c77-8fad-ffb443dcf1f4",
+    "name": "De Beers Marine Benthic Monitoring Programme",
+    "description": "De Beers Marine undertake offshore marine diamond mining to depths of 130 m on the South African west coast using remote mining tools.  A baseline and impact monitoring programme was developed for operations in their ML3 licence area, with the view to quantitatively assessing the direct and indirect effects of deep-water marine mining on benthic macrofaunal  communities, and to monitor post-mining recovery.\n\nBenthic grab samples were collected from two mined and three unmined sites in 2003, 2008, 2009, 2011, using a Van Veen grab. Macrofauna was identified, and abundance and biomass determined.  \n\nThe data were made available to SADCO  as a series of Excel sheets. At SADCO, the data were quality-controlled and transformed to comply with the Darwin Core/OBIS Schema. Funds for data operations were kindly provided by the Census of Marine Life International Cosmos Prize Fund, through a grant to Rutgers University.",
+    "url": "https://obis.org/dataset/8debaccf-a981-4c77-8fad-ffb443dcf1f4",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=debeersmarine"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Steffani, N; Pulfrich, A. (2013). De Beers Marine Benthic Monitoring Programme. Dataset published by AfrOBIS; consulted via iOBIS",
+    "version": "2020-12-02T14:08:29.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=debeersmarine",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "16.386133 -29.687784,16.386133 -28.914633,16.71805 -28.914633,16.71805 -29.687784,16.386133 -29.687784"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5684",
+            "@type": "Organization",
+            "legalName": "Council for Scientific and Industrial Research, Stellenbosch",
+            "name": "Council for Scientific and Industrial Research, Stellenbosch",
+            "url": "https://oceanexpert.org/institution/5684"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20900",
+            "@type": "Organization",
+            "legalName": "De Beers Group",
+            "name": "De Beers Group",
+            "url": "https://oceanexpert.org/institution/20900"
+        }
+    ]
+}

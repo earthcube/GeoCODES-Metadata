@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b1d4a459-7648-4254-97f5-68a5180c2820",
+    "name": "Fish catch from 1996/97 Voyage 1 WASTE (WOCE Antarctic Southern Transect Expedition)",
+    "description": "Fish catch using IYGPT net with MIDOC cod end from the 1996/97 V1 WASTE (WOCE Antarctic Southern Transect Expedition - see http://data.aad.gov.au/aadc/voyages/display_voyage.cfm?voyage_id=70)",
+    "url": "https://obis.org/dataset/b1d4a459-7648-4254-97f5-68a5180c2820",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=woce_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Fish catch from 1996/97 Voyage 2 WASTE (WOCE Antarctic Southern Transect Expedition).",
+    "version": "2021-05-12T05:40:19.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/1996",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=woce_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.31666667 -60.02783333,141.31666667 -45.91966667,147.41666667 -45.91966667,147.41666667 -60.02783333,141.31666667 -60.02783333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19301",
+            "@type": "Organization",
+            "legalName": "Commonwealth Scientific and Industrial Research Organisation ",
+            "name": "Commonwealth Scientific and Industrial Research Organisation ",
+            "url": "https://oceanexpert.org/institution/19301"
+        }
+    ]
+}

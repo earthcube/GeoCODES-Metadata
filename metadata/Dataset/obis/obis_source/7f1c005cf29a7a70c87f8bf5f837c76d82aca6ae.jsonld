@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/df1970cb-fd9a-440a-9547-7ee6ec2605bc",
+    "name": "Underwater fish visual census in the Azores from 1997 to 2015",
+    "description": "Fish assemblages surveyed by using underwater visual censuses (UVC) down to 40 m. Transects were performed between 1997 and 2015 in the Azores, Portugal. All mobile fish were identified to the lowest possible taxon. Dates, geographic coordinates and species recorded are provided.",
+    "url": "https://obis.org/dataset/df1970cb-fd9a-440a-9547-7ee6ec2605bc",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=scuba_diving_visual_census",
+        "https://dx.doi.org/10.14284/210"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Afonso P; Institute of Marine Research (IMAR - Azores), Portugal; Department of Oceanography and Fisheries (DOP) - UAc, Portugal (2016): Underwater fish visual census in the Azores from 1997 to 2015. https://dx.doi.org/10.14284/210",
+    "version": "2024-02-27T00:19:02.000Z",
+    "keywords": [
+        "diver",
+        "Scuba diving",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/2015",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/210",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/210",
+        "url": "https://dx.doi.org/10.14284/210"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=scuba_diving_visual_census",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-31.1274 36.928,-31.1274 39.67333333,-24.72673333 39.67333333,-24.72673333 36.928,-31.1274 36.928"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19372",
+            "@type": "Organization",
+            "legalName": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "name": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "url": "https://oceanexpert.org/institution/19372"
+        }
+    ]
+}

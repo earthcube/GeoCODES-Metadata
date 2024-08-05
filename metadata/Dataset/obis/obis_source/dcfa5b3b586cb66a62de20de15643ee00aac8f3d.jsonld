@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/832a055e-49ee-40bd-b138-c29cc07606d7",
+    "name": "Seabirds of the Southern and South Indian Ocean",
+    "description": "Seabird observations from ships either performing marine science work or taking personnel and cargo to various Antarctic stations. Incidental observations of whales and seals are also noted. This set also contains data from the BIOMASS cruises in the 1980's.",
+    "url": "https://obis.org/dataset/832a055e-49ee-40bd-b138-c29cc07606d7",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=seabirds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Woehler E (2022): Seabirds of the Southern and South Indian Ocean. v1.3. Australian Antarctic Data Centre. Dataset/Occurrence. https://data.aad.gov.au/metadata/records/ASAC_2208_seabirds",
+    "version": "2022-07-05T01:18:48.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1977/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=seabirds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-174.8667 -69.8667,-174.8667 38.2833,173.6833 38.2833,173.6833 -69.8667,-174.8667 -69.8667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20324",
+            "@type": "Organization",
+            "legalName": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "name": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "url": "https://oceanexpert.org/institution/20324"
+        }
+    ]
+}

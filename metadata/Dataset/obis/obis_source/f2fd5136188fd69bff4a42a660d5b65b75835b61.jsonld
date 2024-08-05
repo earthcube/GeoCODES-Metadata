@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d48e5611-66c8-49ca-ab4c-9f3bbc93abea",
+    "name": "SeaIceMeiofaunaCanadaBasin2002",
+    "description": "Meiofauna collected from sea-ice cores",
+    "url": "https://obis.org/dataset/d48e5611-66c8-49ca-ab4c-9f3bbc93abea",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=arcod_2006i1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gradinger et al. (2005) Meiofauna in sea ice of the Beaufort Gyre 2002 and 2003. Polar Biology, 171-184",
+    "version": "2019-08-26T14:16:58.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=arcod_2006i1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-164.080001831 72.2799987793,-164.080001831 78.6999969482,-136.520004272 78.6999969482,-136.520004272 72.2799987793,-164.080001831 72.2799987793"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e8c2a9de-09d9-4301-a5f6-9af5eaa1ed12",
+    "name": "Polish Monitoring Programme - Monitoring of the Baltic Sea: zooplankton",
+    "description": "Zooplankton data from Polish Exclusive Economic Zone of the Baltic Sea collected in frame of the Polish Monitoring Programme. Data include information on species composition, abundance and biomass of zooplankton community for the period of 2002-2012.",
+    "url": "https://obis.org/dataset/e8c2a9de-09d9-4301-a5f6-9af5eaa1ed12",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pl_zo_monitoring"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Polish Monitoring Programme - Monitoring of the Baltic Sea, Poland; (2014), PMS, IMWM Database: zooplankton",
+    "version": "2024-02-27T00:22:35.000Z",
+    "keywords": [
+        "Monitoring",
+        "Zooplankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "Wet weight biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pl_zo_monitoring",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.25 53.67333,14.25 55.555,19.585 55.555,19.585 53.67333,14.25 53.67333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19294",
+            "@type": "Organization",
+            "legalName": "Główny Inspektorat Ochrony Środowiska (GIOŚ)",
+            "name": "Główny Inspektorat Ochrony Środowiska (GIOŚ)",
+            "url": "https://oceanexpert.org/institution/19294"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bf78a780-0a48-45d6-af11-cf52b7b6ec5f",
+    "name": "SEFSC CAGES Alabama Fish Length Data with CPUE",
+    "description": "The CAGES program (Comparative Assessment of Gulf Estuarine Systems) is designed to examine the differences between estuarine ecosystems and investigate why some are more productive than others. The program focuses on estuarine areas important to commercial fisheries and includes data on commercial finfish and invertebrate species, as well as other species commonly captured in trawl sampling. This Louisiana dataset is a subset of the CAGES Relational Database which is a compilation of fishery-independent data contributed by natural resource agencies of the Gulf States (Texas, Louisiana, Mississippi, Alabama, and Florida). This data set includes data from trawls collected by the Alabama Department of Conservation and Natural Resources (ADCNR) and Gulf Coast Research Laboratory (GCRL), as well as associated hydrographic data. Trawl data were used to calculate CPUE (catch per unit effort) at each station for the years 1981 through 2007.",
+    "url": "https://obis.org/dataset/bf78a780-0a48-45d6-af11-cf52b7b6ec5f",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=sefsc_cages_alabama_lengths_cpue_20141103"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2016-09-21T20:37:37.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1981/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=sefsc_cages_alabama_lengths_cpue_20141103",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-88.387 30.1617,-88.387 30.6797,-87.3983 30.6797,-87.3983 30.1617,-88.387 30.1617"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/15911",
+            "@type": "Organization",
+            "legalName": "US National Oceanographic Data Center (NODC)",
+            "name": "US National Oceanographic Data Center (NODC)",
+            "url": "https://oceanexpert.org/institution/15911"
+        }
+    ]
+}

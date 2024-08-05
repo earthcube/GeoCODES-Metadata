@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/996c79d5-04aa-4075-ae6c-e5ff60eeae37",
+    "name": "Phytoplankton in the western North Sea between 1976 and 1977",
+    "description": "Qualitative study on phytoplankton species found in the western North Sea between 1976 and 1977. The data were digitized from technical reports in the frame of the 4DEMON project.",
+    "url": "https://obis.org/dataset/996c79d5-04aa-4075-ae6c-e5ff60eeae37",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_in_the_western_north_sea_between_1976_and_1977",
+        "https://dx.doi.org/10.14284/339"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Vanlangendonck C.; Louis A.; Laboratorium van Algologie. KUL: Belgium; (2019): Phytoplankton in the western North Sea between 1976 and 1977. Marine Data Archive. https://dx.doi.org/10.14284/339",
+    "version": "2023-05-23T11:27:48.000Z",
+    "keywords": [
+        "Phytoplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of phytoplankton species per unit volume of the water column",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of phytoplankton species per unit volume of the water column"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/1977",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/339",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/339",
+        "url": "https://dx.doi.org/10.14284/339"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_in_the_western_north_sea_between_1976_and_1977",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.402777778 51.241666666667,2.402777778 51.275,2.911111111 51.275,2.911111111 51.241666666667,2.402777778 51.241666666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19418",
+            "@type": "Organization",
+            "legalName": "Katholieke Universiteit Leuven",
+            "name": "Katholieke Universiteit Leuven",
+            "url": "https://oceanexpert.org/institution/19418"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5bb57395-5f90-4c8d-8f84-e2ead1f28a3d",
+    "name": "Antarctic and sub-Antarctic Lophogastrida occurrences",
+    "description": "The dataset contains all published records of Lophogastrida in the Antarctic and sub-Antarctic regions (Southern Ocean sensu lato i.e. the SCAR-MarIN area of interest)",
+    "url": "https://obis.org/dataset/5bb57395-5f90-4c8d-8f84-e2ead1f28a3d",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=antarctic_lophogastrida"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Petryashov V. Geographic distribution of Lophogastrida species in the Antarctic and sub-Antarctic regions.",
+    "version": "2019-03-19T14:42:33.000Z",
+    "keywords": [
+        "Antarctic",
+        "Southern Ocean",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=antarctic_lophogastrida",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-165.81667 -74.60333333,-165.81667 -41.03333333,0 -41.03333333,0 -74.60333333,-165.81667 -74.60333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9651",
+            "@type": "Organization",
+            "legalName": "Zoological Institute of the Russian Academy of Sciences",
+            "name": "Zoological Institute of the Russian Academy of Sciences",
+            "url": "https://oceanexpert.org/institution/9651"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

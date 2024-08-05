@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9651c30a-ea93-4e20-8cce-e9e951d9fe68",
+    "name": "Marine Recorder Snapshot extract of surveys entered by National Museums Northern Ireland (NMNI)",
+    "description": "This dataset consists of surveys entered by National Museums Northern Ireland (NMNI).",
+    "url": "https://obis.org/dataset/9651c30a-ea93-4e20-8cce-e9e951d9fe68",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=jncc_mr_snapshot_whole_uk_1",
+        "https://doi.org/10.17031/frdvov"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Museums Northern Ireland (NMNI) (2021): Marine Recorder Snapshot extract of surveys entered by National Museums Northern Ireland (NMNI). v2.0. Marine Biological Association. Dataset/Samplingevent. https://doi.org/10.17031/frdvov",
+    "version": "2024-02-26T23:41:24.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "primarylatitude",
+            "url": "",
+            "description": "primarylatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "primarylongitude",
+            "url": "",
+            "description": "primarylongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "geometry",
+            "url": "",
+            "description": "geometry"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalcoordinates",
+            "url": "",
+            "description": "originalcoordinates"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "eventname",
+            "url": "",
+            "description": "eventname"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalsamplelatitude",
+            "url": "",
+            "description": "originalsamplelatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalsamplelongitude",
+            "url": "",
+            "description": "originalsamplelongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplelatitude",
+            "url": "",
+            "description": "samplelatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplelongitude",
+            "url": "",
+            "description": "samplelongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplenotes",
+            "url": "",
+            "description": "samplenotes"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1969/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/frdvov",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/frdvov",
+        "url": "https://doi.org/10.17031/frdvov"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=jncc_mr_snapshot_whole_uk_1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-13.51666 49.7668,-13.51666 57.5,-3.356003 57.5,-3.356003 49.7668,-13.51666 49.7668"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11615",
+            "@type": "Organization",
+            "legalName": "National Museums of Northern Ireland",
+            "name": "National Museums of Northern Ireland",
+            "url": "https://oceanexpert.org/institution/11615"
+        }
+    ]
+}

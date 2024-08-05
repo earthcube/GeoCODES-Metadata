@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2ed8adcd-c829-4928-9a3a-804e58830f24",
+    "name": "obis_mbmcas_ys_i",
+    "description": "Observation data collected by Marine Biological Museum, Chinese Academy of Sciences (MBMCAS) during the project NCOI. (YS-Part I)",
+    "url": "https://obis.org/dataset/2ed8adcd-c829-4928-9a3a-804e58830f24",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-china/resource?r=obis_mcms_ys_i"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2021-11-25T03:46:52.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-china/archive.do?r=obis_mcms_ys_i",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "117.8333 34,117.8333 40.66667,124 40.66667,124 34,117.8333 34"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19292",
+            "@type": "Organization",
+            "legalName": "Marine Biological Museum, Chinese Academy of Sciences",
+            "name": "Marine Biological Museum, Chinese Academy of Sciences",
+            "url": "https://oceanexpert.org/institution/19292"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19581",
+            "@type": "Organization",
+            "legalName": "Chinese Academy of Sciences — Institute of Oceanology — Jiaozhou Bay Marine Ecosystem Research Station",
+            "name": "Chinese Academy of Sciences — Institute of Oceanology — Jiaozhou Bay Marine Ecosystem Research Station",
+            "url": "https://oceanexpert.org/institution/19581"
+        }
+    ]
+}

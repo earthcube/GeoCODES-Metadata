@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9d13b1ca-1796-4246-ac81-ca6e4daa2d70",
+    "name": "North Marine Region sawfish collection records (DEW collation), Australia (1912 - 2004)",
+    "description": "Sawfish collection records have been collated for a number of conservation assessment projects. This MarLIN record refers specifically to a customised dataset that was created for delivery to the Department of the Environment and Water Resources (DEW). The dataset comprises distribution records of the freshwater sawfish, Pristis microdon, and the green sawfish, Pristis zijsron, in northern Australia. The records include incidental catches in prawn trawls and gill nets. The data sources included logbook and observer data from state and Commonwealth fisheries, and museum records. The dataset includes records from dataset 'Sawfish catch data in Northern Australia' (MarLIN record 6549).",
+    "url": "https://obis.org/dataset/9d13b1ca-1796-4246-ac81-ca6e4daa2d70",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nmr_regions_sawfish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-06T23:05:04.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1912/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nmr_regions_sawfish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "116.1484 -33.083,116.1484 -4.167,153.6167 -4.167,153.6167 -33.083,116.1484 -33.083"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19099",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmopheric Research (Brisbane)",
+            "name": "CSIRO Oceans and Atmopheric Research (Brisbane)",
+            "url": "https://oceanexpert.org/institution/19099"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

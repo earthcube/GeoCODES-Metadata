@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d69a1913-4536-4e23-ae6b-911c6359cc61",
+    "name": "Southern Ocean Continuous Zooplankton Recorder (SO-CPR) Survey",
+    "description": "This dataset contains results from Continuous Plankton Recorder (CPR) surveys \n in the Southern Ocean.This is a database of surveys to map the spatial and temporal patterns of biodiversity of the plankton throughout the region.",
+    "url": "https://obis.org/dataset/d69a1913-4536-4e23-ae6b-911c6359cc61",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=socpr"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "See metadata record http://data.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/AADC-00099",
+    "version": "2022-10-31T01:04:56.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=socpr",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.9973 -77.4128,-179.9973 -38.7786,179.9958 -38.7786,179.9958 -77.4128,-179.9973 -77.4128"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

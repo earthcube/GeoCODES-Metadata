@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ce1d93f3-8b0f-4ee7-9a4d-0393a6ec7fea",
+    "name": "Atlantic Reference Centre Museum of Canadian Atlantic Organisms - Invertebrates and Fishes Data",
+    "description": "This is the OBIS version of the Atlantic Reference Centre museum database for Canadian Atlantic marine organisms. Specimens represent invertebrates from sponges to tunicates, and fishes. The ichthyoplankton collection is the most extensive, with complete holdings from many scientific broad-scale surveys. Geographic coverage is the Arctic to Cape Cod and the coast to the slope water. Temporally, most specimens were collected from the 1960s to the present.",
+    "url": "https://obis.org/dataset/ce1d93f3-8b0f-4ee7-9a4d-0393a6ec7fea",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=arc"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Van Guelpen, L., 2016. Atlantic Reference Centre Museum of Canadian Atlantic Organisms - Invertebrates and Fishes Data. Version 4 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-04-16T11:04:53.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1905/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=arc",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-159 -68.990556,-159 85.807503,145.8333 85.807503,145.8333 -68.990556,-159 -68.990556"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12548",
+            "@type": "Organization",
+            "legalName": "Huntsman Marine Science Centre",
+            "name": "Huntsman Marine Science Centre",
+            "url": "https://oceanexpert.org/institution/12548"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ace09b6-2033-4227-8772-4382f6ecf103",
+    "name": "DFO-SABS: Phytoplankton monitoring in the southwest Bay of Fundy",
+    "description": "A monitoring program was initiated in May 1987 to study phytoplankton populations in the Western Isles region of the Bay of Fundy, southwest New Brunswick. Samples were collected for phytoplankton distribution and abundance. Water samples were collected at the surface using buckets from all locations and additional discrete depths of 10 m, 25 m, and 50 m were sampled using Niskin bottles at selected stations.\nNOTE:  Version 1 of this dataset prepared for OBIS contains only the surface distribution records for the period 1988-89.",
+    "url": "https://obis.org/dataset/5ace09b6-2033-4227-8772-4382f6ecf103",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=sabs_phyto_martin"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "DFO, 2015. DFO-SABS: Phytoplankton monitoring in the southwest Bay of Fundy. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-04-16T11:29:55.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/1989",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=sabs_phyto_martin",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.086 44.90833,-67.086 45.0835,-66.73667 45.0835,-66.73667 44.90833,-67.086 44.90833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11096",
+            "@type": "Organization",
+            "legalName": "Department of Fisheries and Oceans - St. Andrews Biological Station",
+            "name": "Department of Fisheries and Oceans - St. Andrews Biological Station",
+            "url": "https://oceanexpert.org/institution/11096"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/43e4c2cc-5886-427f-a4a9-d47d2635d246",
+    "name": "Historic whale catch data from Australian whaling stations (1925-1978)",
+    "description": "Whale catch records from whaling companies based in Australia. Early data are accurate to one degree whilst later records are accurate to one minute of arc.",
+    "url": "https://obis.org/dataset/43e4c2cc-5886-427f-a4a9-d47d2635d246",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=aus_whale_records"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": " (2023): Historic whale catch data from Australian whaling stations (1925-1978). v1.11. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=aus_whale_records&amp;v=1.11",
+    "version": "2023-06-28T03:36:53.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "",
+            "description": "Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1925/1978",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=aus_whale_records",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "112.367 -36.2667,112.367 -23,168.983 -23,168.983 -36.2667,112.367 -36.2667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

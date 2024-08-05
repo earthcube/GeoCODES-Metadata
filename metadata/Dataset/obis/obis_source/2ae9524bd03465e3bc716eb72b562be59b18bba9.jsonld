@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a3df054d-aba9-4419-b347-80cf6e497941",
+    "name": "Foraging zones of Macaroni Penguins breeding at Heard Island 2000",
+    "description": "With a population of about 2 million pairs macaroni penguins are the  most abundant penguin in the HIMI region. These birds feed on mesopelagic fish and, to a lesser extent, mackerel icefish. Despite their great abundance and comparatively proximate links in the food chain to the toothfish fishery, virtually nothing is known about the foraging ecology of macaroni penguins at HIMI. This will identify which regions of the ocean Macaroni penguins use as foraging areas, and in combination with diet studies quantify the potential for competition with fisheries operations in the HIMI region.\n\nThe data are stored in a csv excel file.\n\nThe fields in this dataset are:\n\nLatitude\nLongitude\nDate\nDirection\nRange\nSpeed\nBearing\nQuality: 2018-09-24 - The original files was reformatted to fit OBIS/GBFI/IPT Biodiversity.AQ tracking standards, and a new datasheet \"MacaroniPenguin.csv\" was created. The new dataset contains datasetID, occurrenceID, eventID, eventDate, year, month, day, eventTime, island, locality, decimalLatitude, decimalLongitude, basisOfRecord, occurrenceStatus, institutionCode, continentCode. The lowest taxonomical rank of the species identified that could be determined is provided, after matched in WoRMS (World Register of Marine Species).",
+    "url": "https://obis.org/dataset/a3df054d-aba9-4419-b347-80cf6e497941",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=macaroni_penguin"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hindell, M.A. (2000, updated 2018) Foraging zones of Macaroni Penguins breeding at Heard Island",
+    "version": "2019-01-24T04:58:40.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=macaroni_penguin",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "72.948 -53.739,72.948 -52.169,82.158 -52.169,82.158 -53.739,72.948 -53.739"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

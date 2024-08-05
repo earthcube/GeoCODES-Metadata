@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/405ab854-9ebd-4fe1-86b0-d3d578ae0751",
+    "name": "Seabird Survey Observations from RVIB Nathaniel B. Palmer during cruises NBP0103, NBP0104, NBP0202, and NBP0204 in the Southern Ocean from 2001-2002 (SOGLOBEC project)",
+    "description": "Seabird and mammal observations in the western area of the Antarctic Penisula  undertaken as part of the United States Global Ocean Ecosystems Dynamics (U.S. GLOBEC) Program  in the winters of 2001 and 2002. The locations of the 2002 data are inferred from the nearest  time to the recorded ship position. There are some observations in 2002 with no position recorded.",
+    "url": "https://obis.org/dataset/405ab854-9ebd-4fe1-86b0-d3d578ae0751",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=soglobec_seabirds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Data from https://www.bco-dmo.org/dataset/2353 and https://www.bco-dmo.org/dataset/2352 ",
+    "version": "2023-05-15T22:40:51.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Bird behaviour",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/GP088",
+            "description": "Bird behaviour"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=soglobec_seabirds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-77.4341 -69.5684,-77.4341 -65.6515,-67.2427 -65.6515,-67.2427 -69.5684,-77.4341 -69.5684"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/342c5fcb-89fd-40fd-ad88-56d84dbefd92",
+    "name": "Seaweeds records from Argentina and Uruguay",
+    "description": "Seaweeds inventory includes the species recorded on the coast of Uruguay and Argentina. These records combine data obtained from scientific papers, technical reports, databases and personal communications provided by specialists. Georeferences are consigned as latitudinal and longitudinal ranks when a continuous distribution is assumed, and with data-points in case of discontinuous distribution. The validity of seaweed taxa reported was checked with Algae Base (Guiry and Guiry, 2009) in order to update species names or higher taxonomic levels.",
+    "url": "https://obis.org/dataset/342c5fcb-89fd-40fd-ad88-56d84dbefd92",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=arobis-seaweeds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Piriz M L (2015): Seaweeds records from Argentina and Uruguay. v1.5. ArOBIS Centro Nacional Patagónico. Dataset/Occurrence. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=arobis-seaweeds&amp;v=1.5",
+    "version": "2018-09-24T18:14:24.000Z",
+    "keywords": [
+        "Occurrence",
+        "Argentina",
+        "macroalgae",
+        "seaweeds",
+        "Biodiversity",
+        "South-West Atlantic",
+        "Patagonia"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=arobis-seaweeds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69 -55,-69 -34,-53 -34,-53 -55,-69 -55"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

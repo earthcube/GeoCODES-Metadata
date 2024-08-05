@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/20f08cfa-97d1-406b-8723-50075ee006c4",
+    "name": "Scavenging Amphipods, Porcupine Abyssal Plain Sustained Observatory, North Atlantic, 1985-2016",
+    "description": "Samples of the scavenging amphipod assemblage have been collected at the Porcupine Abyssal Plain Sustained Observatory (PAP-SO) in the North Atlantic (48° 50' N 016° 30' W, 4850 m) for more than 30 years. Samples were collected by means of baited traps deployed at the PAP-SO between 1985 and 2016, covering a period of well-characterised changes in the upper ocean. From the 19 trap samples analysed, a total of 16 species were identified from 106,259 amphipod specimens.",
+    "url": "https://obis.org/dataset/20f08cfa-97d1-406b-8723-50075ee006c4",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-deepsea/resource?r=pap_scavenging_amphipods"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Horton T (2019): Scavenging Amphipods, Porcupine Abyssal Plain Sustained Observatory, North Atlantic, 1985-2016. v1.2. The Discovery Collections. Dataset/Samplingevent. http://ipt.iobis.org/obis-deepsea/resource?r=pap_scavenging_amphipods&amp;v=1.2",
+    "version": "2020-05-12T13:23:45.000Z",
+    "keywords": [
+        "Occurrence\nAmphipod\nDeep-sea\nScavenger"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling platform name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Sampling platform name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sample duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ObservedIndividualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "ObservedIndividualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-deepsea/archive.do?r=pap_scavenging_amphipods",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-16.666833 48.717,-16.666833 49.181667,-16.278333 49.181667,-16.278333 48.717,-16.666833 48.717"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8387",
+            "@type": "Organization",
+            "legalName": "National Oceanography Centre, Southampton",
+            "name": "National Oceanography Centre, Southampton",
+            "url": "https://oceanexpert.org/institution/8387"
+        }
+    ]
+}

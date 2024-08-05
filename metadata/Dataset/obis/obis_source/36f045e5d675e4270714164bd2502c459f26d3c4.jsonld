@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/58aa1bf7-2332-41f2-bc74-0c472094af06",
+    "name": "HMAP Dataset 04: World Whaling",
+    "description": "This dataset includes worldwide data on whale catches and effort, whaling statistics, whaling technology, whale oil and whaling logbooks. The data covers the time period 1700-2000.",
+    "url": "https://obis.org/dataset/58aa1bf7-2332-41f2-bc74-0c472094af06",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_04"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "T.D. Smith ed. 'World Whaling Database: Individual Whale Catches, North Atlantic' in J.H Nicholls (comp.) HMAP Data Pages (https://oceanspast.org/hmap_db.php)",
+    "version": "2023-12-08T18:30:18.000Z",
+    "keywords": [
+        "Historical records",
+        "Whaling statistics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1901/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_04",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.7799987792969 4.19999980926514,-67.7799987792969 85,33.6699981689453 85,33.6699981689453 4.19999980926514,-67.7799987792969 4.19999980926514"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17927",
+            "@type": "Organization",
+            "legalName": "University of Hull, Oceans Past Initiative",
+            "name": "University of Hull, Oceans Past Initiative",
+            "url": "https://oceanexpert.org/institution/17927"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19338",
+            "@type": "Organization",
+            "legalName": "World Whaling History",
+            "name": "World Whaling History",
+            "url": "https://oceanexpert.org/institution/19338"
+        }
+    ]
+}

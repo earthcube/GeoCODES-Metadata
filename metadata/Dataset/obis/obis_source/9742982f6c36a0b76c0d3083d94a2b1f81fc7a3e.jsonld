@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d69036d6-00c8-445c-89aa-f9149cb1de31",
+    "name": "Ant'Phipoda Database (New records)",
+    "description": "New occurrence records of gammaridean and corophiidean amphipods from the Southern Ocean s.l. (Antarctic and sub-Antarctic regions).",
+    "url": "https://obis.org/dataset/d69036d6-00c8-445c-89aa-f9149cb1de31",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=antphipoda_new"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "De Broyer C, Lowry J.K , Jazdzewski K. and Robert H. (2007). Catalogue of the Gammaridean and Corophiidean Amphipoda (Crustacea) of the Southern Ocean with distribution and ecological data. In: De Broyer C. (Ed.), Census of Antarctic Marine Life, Synopsis of the Amphipoda of the Southern Ocean. Volume 1. Bulletin de l'Institut Royal des Sciences Naturelles de Belgique , Biologie, 77 (suppl. 1), 1-325.",
+    "version": "2019-03-19T14:47:20.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=antphipoda_new",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-149.97667 -90,-149.97667 -33.29999924,161.81667 -33.29999924,161.81667 -90,-149.97667 -90"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19337",
+            "@type": "Organization",
+            "legalName": "Belgian National Committee on Antarctic Research",
+            "name": "Belgian National Committee on Antarctic Research",
+            "url": "https://oceanexpert.org/institution/19337"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

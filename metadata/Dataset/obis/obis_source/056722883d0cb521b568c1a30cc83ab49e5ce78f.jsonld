@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/06a2ecf5-c1cc-422b-8a94-137995e97f7c",
+    "name": "Seagrass meadows of Hervey Bay and the Great Sandy Strait, Queensland, derived from field surveys conducted 6-14 December, 1998, Australia",
+    "description": "Approximately 2,362 ±289 km**2 of seagrass meadows were mapped in the waters of Hervey Bay and Great Sandy Strait between 6 and 14 December 1998. This was the first comprehensive survey of the Great Sandy region. The survey involved examination of 1,104 field validation points from Elliot Heads and Sandy Cape in the north to Tin Can Bay in the south, and identified 174 individual meadows. Seagrass extended from the intertidal and shallow subtidal waters to a depth of 32m. Seven species of seagrass were identified (Cymodocea serrulata, Halodule uninervis, Syringodium isoetifolium, Halophila decipiens, Halophila ovalis, Halophila spinulosa and Zostera muelleri) within 22 seagrass meadow/community types.\n\nThe data is sourced from the cited publication and contains polygons of each meadow which are contained in the footprint_wkt field. A centroid of each meadow has been calculated and stored in the decimalLatitude and decimalLongitude fields.",
+    "url": "https://obis.org/dataset/06a2ecf5-c1cc-422b-8a94-137995e97f7c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seamap_hervey_bay_1998"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "McKenzie, Len J (2017): Seagrass meadows of Hervey Bay and the Great Sandy Strait, Queensland, derived from field surveys conducted 6-14 December, 1998. Centre for Tropical Water and Aquatic Ecosystem Research, James Cook University, Townsville, PANGAEA, https://doi.org/10.1594/PANGAEA.876714",
+    "version": "2023-07-11T10:12:10.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seamap_hervey_bay_1998",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "152.634575733152 -25.8951377795544,152.634575733152 -24.8230090994556,153.228974206267 -24.8230090994556,153.228974206267 -25.8951377795544,152.634575733152 -25.8951377795544"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

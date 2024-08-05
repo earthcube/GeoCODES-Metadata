@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cc2b624b-9f63-4fbb-9a60-d62bb5e63ec0",
+    "name": "OMSPMN12017 Macro Senckenberg",
+    "description": "Sampling data captured in Oceanic Exploration Research Ocean Mineral Singapore (OMS) partook in its first sampling cruise, the ABYSSLINE-02 Cruise (hereafter referred to as AB02) in 2015. The cruise took place aboard the research vessel Thomas G. Thompson (R/V Thompson) between February 12, 2015 and March 25, 2015, as an expedition jointly funded and supported by UK Seabed Resources Development Ltd. (UKSRL) and Ocean Mineral Singapore (OMS). The AB02 programme was designed in accordance with the International Seabed Authority (ISA) environmental guidelines with its chief objective to conduct an evaluation of biological and environmental baseline conditions in the UK1 contract area, and the OMS contract area at depths ranging from 3900 to 4400 meters (m) in the Clarion-Clipperton Zone (CCZ).",
+    "url": "https://obis.org/dataset/cc2b624b-9f63-4fbb-9a60-d62bb5e63ec0",
+    "sameAs": [
+        "https://datasets.obis.org/hosted/isa/omspmn12017_macro_senckenberg/index.html"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Ocean Mineral Singapore Pte. Ltd., (2017). OMSPMN12017 Macro Senckenberg. Available : DeepData, International Seabed Authority https://data.isa.org.jm/ Accessed: [YYYY-MM-DD].",
+    "version": "2023-06-22T20:03:16.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Relative abundance",
+            "url": "",
+            "description": "Relative abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://datasets.obis.org/hosted/isa/omspmn12017_macro_senckenberg/omspmn12017_macro_senckenberg.zip",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-120.02541667 12.04533333,-120.02541667 19.46456667,-117.18083333 19.46456667,-117.18083333 12.04533333,-120.02541667 12.04533333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13169",
+            "@type": "Organization",
+            "legalName": "International Seabed Authority",
+            "name": "International Seabed Authority",
+            "url": "https://oceanexpert.org/institution/13169"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/21890",
+            "@type": "Organization",
+            "legalName": "Ocean Mineral Singapore Pte. Ltd.",
+            "name": "Ocean Mineral Singapore Pte. Ltd.",
+            "url": "https://oceanexpert.org/institution/21890"
+        }
+    ]
+}

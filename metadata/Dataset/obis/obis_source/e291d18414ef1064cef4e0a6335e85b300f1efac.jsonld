@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3eaad22a-f8e4-45d8-85e3-63cfe51fe164",
+    "name": "PIFSC, Marine Mammal Survey, HICEAS 2017, Cruise 1705/1706, NOAA Pacific Islands Fisheries Science Center (PIFSC)",
+    "description": "Original provider:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nDataset credits:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nAbstract:\nThe Hawaiian Islands Cetacean and Ecosystem Assessment Survey (HICEAS) of 2017 was a large-scale ship survey for cetaceans and seabirds within U.S. waters surrounding the Hawaiian Islands. HICEAS 2017 was the third of its kind using many of the same methods and encompassing the same study area as surveys which occurred in 2002 (Barlow et al. 2006) and 2010 (Bradford et al. 2017). The 2017 survey represented the first Cetacean and Ecosystem Assessment Survey conducted as part of the Pacific Marine Assessment Program for Protected Species (PacMAPPS), a partnership between NOAA Fisheries, Bureau of Ocean Energy Management (BOEM), U.S. Navy, and U.S. Fish and Wildlife Service. PacMAPPS includes rotational ship surveys in regions of joint interest throughout the Pacific designed to estimate the abundance of cetaceans and seabirds and to assess the ecosystems supporting these species.\n\nHICEAS 2017 was a collaborative survey between the Pacific Islands and Southwest Fisheries Science Centers (PIFSC and SWFSC). The survey took place from 6 July to 1 December 2017, aboard the NOAA Ships Oscar Elton Sette and Reuben Lasker, spanning 7 survey “legs” and 179 days-at-sea across both ships.\n\nPurpose:\nThe primary goals of HICEAS 2017 were to collect data required to estimate the abundance and distribution, examine the population structure, and understand the habitat of cetaceans within U.S. waters around the Hawaiian Islands. There were 5 major research components to HICEAS 2017:\n● visual observations for cetaceans following a line-transect survey design;\n● passive acoustic monitoring for cetaceans using towed hydrophone arrays, sonobuoys, and autonomous drifting acoustic recorders;\n● collection of photographs and tissue samples and deployment of satellite tags for select cetacean groups;\n● visual observations for seabirds following a strip-transect survey design; and\n● ecosystem measurements for assessment of cetacean and seabird habitat.\n\nSupplemental information:\nData from survey legs aboard Oscar Elton Sette (Cruise ID: 1706) and Reuben Lasker (Cruise ID: 1705) were merged.\nSurvey tracks include on-effort segments only.\n\nAttributes for fields within the trackline files:\nCruise - see description in attribute table below\nsegnum - segment number for continuous on-effort line\nDate - Local date m/dd/yyyy\nTimeStart - Local time at start of on-effort segment\nLatStart - Latitude in decimal degrees at starting point of on-effort segment\nLongStart - Longitude in decimal degrees at starting point of on-effort segment\nTimeEnd - Local time at end of on-effort segment\nLatEnd - Latitude in decimal degrees at end point of on-effort segment\nLongEnd - Longitude in decimal degrees at end point of on-effort segment\nMode - see description in attribute table below\nEffType - see description in attribute table below\navgSpdKt - average speed (knots) of the ship over the on-effort segment traveled\navgBft - average Beaufort Sea State over the on-effort segment",
+    "url": "https://obis.org/dataset/3eaad22a-f8e4-45d8-85e3-63cfe51fe164",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_2180",
+        "https://doi.org/10.25923/7avn-gw82"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Yano, K.M., E.M. Oleson, J.L. Keating, L.T. Ballance, M.C. Hill, A.L. Bradford, A.N. Allen, T.W. Joyce, J.E. Moore, and A. Henry. 2018. Cetacean and seabird data collected during the Hawaiian Islands Cetacean and Ecosystem Assessment Survey (HICEAS), July–December 2017. NOAA Tech. Memo. NMFS-PIFSC-72. 110 p.",
+    "version": "2023-09-07T15:59:13.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "identifier": {
+        "@id": "https://doi.org/10.25923/7avn-gw82",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25923/7avn-gw82",
+        "url": "https://doi.org/10.25923/7avn-gw82"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2180",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.870333 16.5585,-179.870333 32.017667,179.934667 32.017667,179.934667 16.5585,-179.870333 16.5585"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

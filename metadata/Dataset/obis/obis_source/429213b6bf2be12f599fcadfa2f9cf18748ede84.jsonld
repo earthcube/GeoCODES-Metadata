@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4b5e4ccb-cf66-44e4-8890-fa68f8404c3f",
+    "name": "OTN Nova Scotia Power - Tag Release Metadata",
+    "description": "This is the OBIS extraction of the OTN Nova Scotia Power project, consisting only of the release tagging metadata. i.e. the locations  and dates of tagged animal release. If readers are  interested in the full source  dataset they should refer to the OTN web site  (members.oceantrack.org). Abstract: The first of three installations of in-stream tidal power infrastructure in the Minas Passage of the inner Bay of Fundy was deployed in November 2009. Little is known about the impact of turbine operation on the survival and behaviour of fishes moving through the Passage. To address the potential for fish-turbine interactions near the deployed OpenHydro turbine, we are using animal tracking technology developed by Vemco of Halifax, Nova Scotia, to track fish movement, behaviour and environmental preferences over a scale of kilometres. This project will provide real in-situ measurements of the direction, depth and velocity of tagged fishes moving through the Passage. Three species of concern will be tagged during 2010: Atlantic sturgeon, striped bass and American eels. Fishes tagged with acoustic transmitting tags will broadcast unique signals that will be archived by an array of acoustic hydrophone receivers in the Minas Passage. A dense array of receivers located at the OpenHydro turbine site will provide fine scale information on movements and behaviour of fish in relation to an operating tidal turbine. In addition a line of receivers spanning the Passage, placed in co-operation with OTN and Acadia University, will provide information on the spatial and temporal distribution and movement of fish in the Passage. To enhance the assessment of the risk to fishes of direct contact with the turbine, in situ data will be used to refine mathematical hydrodynamic models that predict how objects like fish move in the Passage and potentially interact with turbine infrastructure. This information will be valuable in identifying mitigation measures that may be taken to lessen any negative effects of in-stream turbine infrastructure on fish behaviour and survival.",
+    "url": "https://obis.org/dataset/4b5e4ccb-cf66-44e4-8890-fa68f8404c3f",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnacadiaunovascotiapower"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Broome, J., Stokesbury, M., Redden, A., Bradford, R. 2009. 3-D Acoustic  Tracking of Fish, Sediment-Laden Ice and Large Wood Debris in the  Minas Passage of the Bay of Fundy. Version # In OBIS Digital Collections. Published by OBIS, Digital http://www.obis.org/. Accessed on - INSERT DATE",
+    "version": "2019-02-20T15:17:09.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnacadiaunovascotiapower",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.38913 44.94205,-64.38913 45.35675,-63.33081 45.35675,-63.33081 44.94205,-64.38913 44.94205"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19173",
+            "@type": "Organization",
+            "legalName": "Acadia University",
+            "name": "Acadia University",
+            "url": "https://oceanexpert.org/institution/19173"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

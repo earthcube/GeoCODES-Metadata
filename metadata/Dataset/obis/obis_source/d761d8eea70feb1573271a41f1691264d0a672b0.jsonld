@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1039a65f-ddea-4c9d-9d67-2d3dcd5f6c5b",
+    "name": "Occurrence records generated from in-house project, REIS",
+    "description": "This dataset has been collected onboard FORV Sagar Sampada under in-house project Resource Exploration and Inventorization System (REIS) Of CMLRE.",
+    "url": "https://obis.org/dataset/1039a65f-ddea-4c9d-9d67-2d3dcd5f6c5b",
+    "sameAs": [
+        "http://ipt.iobis.org/indobis/resource?r=indobis_reis_dataset1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Occurrence records generated from in-house project, REIS - Indian Ocean Biodiversity Information System (IndOBIS).",
+    "version": "2022-01-19T10:49:18.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/indobis/archive.do?r=indobis_reis_dataset1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "67.8940833 6.50731667,67.8940833 22.35,93.7710333 22.35,93.7710333 6.50731667,67.8940833 6.50731667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11420",
+            "@type": "Organization",
+            "legalName": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "name": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "url": "https://oceanexpert.org/institution/11420"
+        }
+    ]
+}

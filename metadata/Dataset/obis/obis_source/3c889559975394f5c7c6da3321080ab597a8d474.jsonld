@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ac6af23f-460b-469e-a29f-7bbd0bb48bf1",
+    "name": "CCAMLR historic KRILL",
+    "description": "Global information on distribution of Euphausiacea (Crustacea) put together at the Institut für Seefischerei in Hamburg",
+    "url": "https://obis.org/dataset/ac6af23f-460b-469e-a29f-7bbd0bb48bf1",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=historic_krill"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "A. Atkinson, V. Siegel , E. Pakhomov, P. Rothery (2004):  Long-term decline in krill stock and increase in salps within the Southern Ocean. Nature 432: 100-103",
+    "version": "2019-03-19T14:46:05.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=historic_krill",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-168.18333 -72.13333333,-168.18333 -53.31666667,178.01666 -53.31666667,178.01666 -72.13333333,-168.18333 -72.13333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5163",
+            "@type": "Organization",
+            "legalName": "British Antarctic Survey",
+            "name": "British Antarctic Survey",
+            "url": "https://oceanexpert.org/institution/5163"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/15531",
+            "@type": "Organization",
+            "legalName": "Thünen Institut für Seefischerei",
+            "name": "Thünen Institut für Seefischerei",
+            "url": "https://oceanexpert.org/institution/15531"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19300",
+            "@type": "Organization",
+            "legalName": "Commission for the Conservation of Antarctic Marine Living Resources",
+            "name": "Commission for the Conservation of Antarctic Marine Living Resources",
+            "url": "https://oceanexpert.org/institution/19300"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

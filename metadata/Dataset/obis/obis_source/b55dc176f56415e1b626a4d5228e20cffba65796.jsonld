@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/834e5943-f06e-4a91-8ab1-d324b57405d0",
+    "name": "PIFSC, Cetacean Survey, PICEAS 2011, Cruise 1108, NOAA Pacific Islands Fisheries Science Center",
+    "description": "Original provider:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nDataset credits:\nNOAA Pacific Islands Fisheries Science Center\n\nAbstract:\nThe Pacific Islands Cetacean Ecosystem Assessment Survey (PICEAS) was a line-transect survey for cetaceans was conducted within the Palmyra exclusive economic zone (EEZ)(20 October - 18 November 2011). The set of standard tracklines surveyed was established prior to the cruise and was intended to cover approximately two thirds of the Palmyra Atoll EEZ transect line grid used for the 2005 PICEAS (AR-05-07) survey conducted by Southwest Fisheries Science Center. This was the first of two surveys that were designed to cover the entire Palmyra EEZ. Twenty-eight days of on-effort surveys were completed during the cruise, resulting in 28 cetacean sightings including seven identified species and five types of unidentified cetaceans.\n\nSupplemental information:\nData were collected under NMFS permit 14097.\nThe data included here are the sightings and on-effort tracks recorded within WinCruz survey software and extracted from the QA/QC'd DAS file using the R package swfscDAS (https://smwoodman.github.io/swfscDAS).\n\nAttributes for fields within the trackline files:\nCruise - see description in attribute table below\nsegnum - segment number for continuous on-effort line\nDate - Local date m/dd/yyyy\nTimeStart - Local time at start of on-effort segment\nLatStart - Latitude in decimal degrees at starting point of on-effort segment\nLongStart - Longitude in decimal degrees at starting point of on-effort segment\nTimeEnd - Local time at end of on-effort segment\nLatEnd - Latitude in decimal degrees at end point of on-effort segment\nLongEnd - Longitude in decimal degrees at end point of on-effort segment\nMode - see description in attribute table below\nEffType - see description in attribute table below\navgSpdKt - average speed (knots) of the ship over the on-effort segment traveled\navgBft - average Beaufort Sea State over the on-effort segment\n\nOther data not included here:\nPhotos and biopsy samples were collected during some sightings. There were acoustic detections from the towed hydrophone array. Sonobuoys were deployed opportunistically. A High-frequency Acoustic Recording Package (HARP) was deployed off Kingman Reef. Oceanographic data were collected (CTD, XBT).\n\nSee the PIFSC Cetacean Survey, PICEAS 2012, Cruise 1203, NOAA Pacific Islands Fisheries Science Center for cetacean sightings and effort within the remaining portion of the Palmyra EEZ.",
+    "url": "https://obis.org/dataset/834e5943-f06e-4a91-8ab1-d324b57405d0",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2250"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Hill, M. 2023. PIFSC, Cetacean Survey, PICEAS 2011, Cruise 1108, NOAA Pacific Islands Fisheries Science Center. Data downloaded from OBIS-SEAMAP (https://seamap.env.duke.edu/dataset/2250) on yyyy-mm-dd.",
+    "version": "2023-09-07T16:02:36.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2250",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-165.41233 4.14017,-165.41233 20.41817,-157.423 20.41817,-157.423 4.14017,-165.41233 4.14017"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

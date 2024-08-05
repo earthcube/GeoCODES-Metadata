@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/208fd29c-f159-425c-9bf4-dbcaa7b6d74c",
+    "name": "Namibian West Coast Biodiversity",
+    "description": "Data collected by Prof George Branch from UCT and his students.  All organisms found on the rocky shores of the Namibian Coast from just south of Luederitz to the Kunene River Mouth and one station (Rooiklippes on the South African West Coast)",
+    "url": "https://obis.org/dataset/208fd29c-f159-425c-9bf4-dbcaa7b6d74c",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=namibia_branch_2002"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Branch (2002) West Coast biodiversity survey. University of Cape Town. Published by AfrOBIS; consulted via iOBIS.",
+    "version": "2020-12-02T14:09:10.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=namibia_branch_2002",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.73 -29.74,11.73 -17.57,17.05 -17.57,17.05 -29.74,11.73 -29.74"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5684",
+            "@type": "Organization",
+            "legalName": "Council for Scientific and Industrial Research, Stellenbosch",
+            "name": "Council for Scientific and Industrial Research, Stellenbosch",
+            "url": "https://oceanexpert.org/institution/5684"
+        }
+    ]
+}

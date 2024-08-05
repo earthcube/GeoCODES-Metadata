@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8b5b2a47-e4ed-4da9-8230-da0783a5e47b",
+    "name": "Crabs from the Philippines and Thailand",
+    "description": "This dataset contains data of brachyuran crabs collected by Keiji Wada in 1982 in Thailand and in 2000 in the Philippines.",
+    "url": "https://obis.org/dataset/8b5b2a47-e4ed-4da9-8230-da0783a5e47b",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=kw_pt"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the                  Public Domain (CC0 1.0)",
+    "citation": "Wada, K. (2020) Crabs from the Philippines and Thailand at https://www.godac.jamstec.go.jp/bismal/e/dataset/KW_PT. Accessed on yyyy-mm-dd.",
+    "version": "2024-01-06T07:19:58.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1982/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=kw_pt",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "98.4 7.8,98.4 16.41666667,121.05 16.41666667,121.05 7.8,98.4 7.8"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

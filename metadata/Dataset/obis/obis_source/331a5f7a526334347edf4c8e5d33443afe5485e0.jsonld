@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d97d80fe-773a-4891-8179-47f346456783",
+    "name": "Oceanexploration2002_vers4",
+    "description": "Data collection of zooplankton of the Canadian Basin.",
+    "url": "https://obis.org/dataset/d97d80fe-773a-4891-8179-47f346456783",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=arcod_2007p3"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "R.R. Hopcroft, C. Clarke, R.J. Nelson, K.A. Raskoff. Zooplankton Communities of the Arctic�s Canada Basin: the contribution by smaller taxa. Polar Biology, 28: 198-206",
+    "version": "2019-08-26T14:16:48.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=arcod_2007p3",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-161.832992554 71.6999969482,-161.832992554 76.766998291,-133.317001343 76.766998291,-133.317001343 71.6999969482,-161.832992554 71.6999969482"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        }
+    ]
+}

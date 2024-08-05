@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/422c3f13-db22-4bb0-b9bd-98d09ac2f6ab",
+    "name": "Stomach contents of steelhead trout (Oncorhynchus mykiss) caught in the North Pacific Ocean - 1994 to 2009",
+    "description": "Stomach content data of steelhead trout (O. mykiss) caught in the North Pacific Ocean. This dataset is an aggregation of several capture events between 1994 and 2009. These data were extracted and aggregated by Caroline Graham, Evgeny A. Pakhomov and Brian P. V. Hunt as part of a larger database project: the North Pacific Marine Salmon Diet Database (NPMSDD). Further information on the NPMSDD is provided here: https://doi.org/10.1038/s41597-020-00676-y. The dynamic GitHub repository can be found here: https://github.com/mcarolinegraham/North_Pacific_Marine_Salmon_Diet_Database.",
+    "url": "https://obis.org/dataset/422c3f13-db22-4bb0-b9bd-98d09ac2f6ab",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=stomach-contents-of-steelhead-trout-caught-in-the-north-pacific-ocean-1994-to-2009"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Margaret E. Atcheson , Katherine W. Myers , David A. Beauchamp &amp; Nathan\nJ. Mantua (2012) Bioenergetic Response by Steelhead to Variation in Diet, Thermal Habitat, and Climate in the North Pacific Ocean, Transactions of the American Fisheries Society, 141:4, 1081-1096, DOI: 10.1080/00028487.2012.675914\n",
+    "version": "2020-10-15T23:32:49.000Z",
+    "keywords": [
+        "Metadata"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=stomach-contents-of-steelhead-trout-caught-in-the-north-pacific-ocean-1994-to-2009",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 48.00865857151073,-180 50.0031075448847,-145 50.0031075448847,-145 48.00865857151073,-180 48.00865857151073"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5899",
+            "@type": "Organization",
+            "legalName": "University of British Columbia",
+            "name": "University of British Columbia",
+            "url": "https://oceanexpert.org/institution/5899"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/43d19bf8-4d49-413b-bedb-4fa4547714fa",
+    "name": "Finnish Baltic Sea benthic monitoring, POHJE database",
+    "description": "The POHJE database includes data on benthic macrofauna, covering the Finnish coastal areas as well as the offshore areas of the Baltic Sea. The quantitative data mainly stem  from the Finnish national monitoring program and statutory monitoring programs, but also data from surveys and research projects are included. In total the database contain aproximately 100 000 quantitative records including developmental stages, with a time span from 1965 to present. The database is regularly maintained and data is added continuously.",
+    "url": "https://obis.org/dataset/43d19bf8-4d49-413b-bedb-4fa4547714fa",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pohjedatabase"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Finnish Environment Institute SYKE; (2018); Finnish Baltic Sea benthic monitoring, POHJE database",
+    "version": "2024-02-26T23:20:17.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom type",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/BDDESC01/",
+            "description": "Bottom type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lower sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Lower sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Sample area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass of biological entity specified elsewhere per unit area of the bed.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Wet weight biomass of biological entity specified elsewhere per unit area of the bed."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass (in assayed sample) of biological entity specified elsewhere.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "description": "Wet weight biomass (in assayed sample) of biological entity specified elsewhere."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Upper sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100008/",
+            "description": "Upper sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dry weight biomass of biological entity specified elsewhere per unit area of the bed.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "description": "Dry weight biomass of biological entity specified elsewhere per unit area of the bed."
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1964/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pohjedatabase",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.13833 54.45,11.13833 65.77428,28.805 65.77428,28.805 54.45,11.13833 54.45"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6169",
+            "@type": "Organization",
+            "legalName": "Finnish Environment Institute",
+            "name": "Finnish Environment Institute",
+            "url": "https://oceanexpert.org/institution/6169"
+        }
+    ]
+}

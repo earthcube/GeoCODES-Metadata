@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e72b87e0-6a52-4e94-a0b0-f0401d41841f",
+    "name": "Catalogue of Squat Lobsters",
+    "description": "Catalogue of Squat Lobsters",
+    "url": "https://obis.org/dataset/e72b87e0-6a52-4e94-a0b0-f0401d41841f",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-malaysia/resource?r=squatlobster_cat_v1"
+    ],
+    "license": "",
+    "citation": null,
+    "version": "2018-11-12T15:37:44.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-malaysia/archive.do?r=squatlobster_cat_v1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.524993896 -53.625,-179.524993896 55.3833351135,179.98815918 55.3833351135,179.98815918 -53.625,-179.524993896 -53.625"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

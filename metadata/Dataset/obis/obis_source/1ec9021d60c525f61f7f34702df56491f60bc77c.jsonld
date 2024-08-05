@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b96a4245-b4a9-4505-a37e-2f076ad42b00",
+    "name": "Biogeographic distribution of Antarctic and sub-Antarctic Cumacea",
+    "description": "A comprehensive literature search was carried out to extract all available historic published information. Additionally data were submitted from own Antarctic research expeditions since 1985 as far as species have currently been identified.  These data shall include taxonomic level of family, genus (optional subgenus), species (optional subspecies) and synonyms (optional). Further details will be given on authorship of the species, year of publication, holotype or additional findings. Station data cover cruise name, vessel name or expedition name (if available), station number (if available), coordinates (if available), depth (if available), sampling date (if available), description of sampling locality and sampling gear (if available). A second file was produced to contain the references list for the data described in the taxonomic and station data file.",
+    "url": "https://obis.org/dataset/b96a4245-b4a9-4505-a37e-2f076ad42b00",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=antarctic_cumacea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Southern Ocean Cumacea records by U. Muellenhardt-Siegel",
+    "version": "2019-03-19T14:46:17.000Z",
+    "keywords": [
+        "Biogeography",
+        "Occurrences",
+        "Southern Ocean",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=antarctic_cumacea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.86833 -79.025,-179.86833 51.13333333,179.83167 51.13333333,179.83167 -79.025,-179.86833 -79.025"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18179",
+            "@type": "Organization",
+            "legalName": "Universität Hamburg, Centrum für Naturkunde, Zoologisches Museum",
+            "name": "Universität Hamburg, Centrum für Naturkunde, Zoologisches Museum",
+            "url": "https://oceanexpert.org/institution/18179"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

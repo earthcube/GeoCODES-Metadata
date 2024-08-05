@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a390823a-2a59-4680-9f42-c34af84eeae8",
+    "name": "OTN/DFO Quoddy Region Salmon Tracking - Acoustic Telemetry Data",
+    "description": "This is the OBIS extraction of the OTN/DFO Quoddy Region Salmon Tracking project, consisting only of the release tagging metadata.\n                  i.e. the locations and dates of tagged animal release. If readers are interested in the full source\n                  dataset they should refer to the project page on the [OTN Data Portal](https://members.oceantrack.org/OTN/project?ccode=PBSM).\n                \nAbstract:We are conducting a pilot project in Passamaquoddy Bay (New Brunswick, Canada) to provide information on Atlantic salmon post-smolts - their migration routes out of the Passamaquoddy Bay, the speed at which they move out of the bay, their survival rates in the estuary and in the ocean, and to determine if there is any interaction with salmon aquaculture. For this project, we have implanted acoustic tags in 60 salmon smolts of wild origin that had been reared in substrate ponds at the Mactaquac Biodiversity Facility and released them below the dam in the Magaguadevic Basin. Their migration and survival is monitored with three receivers placed in the Magaguadevic Basin and estuary, two outside mouth of the estuary, eighteen at all the exit points of Passamaquoddy Bay, three at active salmon aquaculture sites, and one at an inactive salmon aquaculture site. These receivers will detect if any of the smolts that have been implanted with an acoustic tag are migrating nearby. We are also manually tracking smolts in the bay, and have installed current meters to determine to what extent salmon post-smolts are using currents during their migration at sea. The smolts are expected to leave Passamaquoddy Bay relatively quickly, go around the Nova Scotia peninsula, and be picked up by receivers deployed by the Ocean Tracking Network off Halifax. The information received can help us better understand what is happening to these iconic fish at sea.",
+    "url": "https://obis.org/dataset/a390823a-2a59-4680-9f42-c34af84eeae8",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndfo-sabspassamaquoddyb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Trudel, M. 2018. A pilot study to investigate the migration of Atlantic salmon post-smolts and their interactions with aquaculture in Passamaquoddy Bay, New Brunswick, Canada. 2005. Fisheries and Oceans Canada Acoustic Telemetry Data Collections.In: Ocean Tracking Network Data Centre, Halifax Canada / otndc@dal.ca Retrieved: 2020-02-25T00:00:00 from db.oceantrack.org ",
+    "version": "2022-05-09T14:28:41.000Z",
+    "keywords": [
+        "Sampling Event",
+        "TAGS-ACOUSTIC",
+        "BIOTELEMETRY",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "TOTAL",
+            "url": "",
+            "description": "TOTAL"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "",
+            "description": "age"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndfo-sabspassamaquoddyb",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-66.8254 45.12654,-66.8254 45.135216,-66.824037 45.135216,-66.824037 45.12654,-66.8254 45.12654"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5711",
+            "@type": "Organization",
+            "legalName": "Dalhousie University",
+            "name": "Dalhousie University",
+            "url": "https://oceanexpert.org/institution/5711"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20688",
+            "@type": "Organization",
+            "legalName": "Department of Fisheries and Oceans",
+            "name": "Department of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/20688"
+        }
+    ]
+}

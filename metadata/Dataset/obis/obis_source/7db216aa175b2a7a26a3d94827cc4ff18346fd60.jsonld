@@ -1,0 +1,91 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bbf8d1a8-705e-43f7-bdcb-cced8bf4a40c",
+    "name": "Epipelagic mesozooplankton distribution and abundance in Southern Ocean Atlantic sector and the North Atlantic and Arctic 1996-2013",
+    "description": "Mesozooplankton were collected with a motion-compensated Bongo net (61 cm mouth diameter, 100 and 200 micrometre meshes) and a mini- Bongo net (18 cm mouth diameter, 50 micrometre mesh nets). Both nets fished to a maximum depth of 400 m but sometimes shallower. Specimens were categorised to the lowest possible taxonomic level, which in some cases encompassed developmental stages but in other cases was limited to higher order taxa. Each taxa was enumerated to determine abundance in units of individuals m-2. The dataset allows examination of the distribution and abundance of these species within the Atlantic sector of the Southern Ocean over a number of years and covering much of the productive season from spring to autumn. The data for the North Atlantic and Arctic covers one season only (summer) and is limited to providing a spatial perspective on the distribution and abundance of mesozooplankton.",
+    "url": "https://obis.org/dataset/bbf8d1a8-705e-43f7-bdcb-cced8bf4a40c",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=bas_bongo",
+        "https://doi.org/10.5285/5A711904-EF42-46A3-9F47-3F0D6B231F65"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Ward, P., Tarling, G., Shreeve, R., &amp; ten Hoopen, P. (2020). Epipelagic mesozooplankton distribution and abundance in Southern Ocean Atlantic sector and the North Atlantic and Arctic 1996-2013 [Data set]. UK Polar Data Centre, Natural Environment Research Council, UK Research &amp; Innovation. https://doi.org/10.5285/5A711904-EF42-46A3-9F47-3F0D6B231F65",
+    "version": "2020-06-03T11:18:54.000Z",
+    "keywords": [
+        "Samplingevent",
+        "\"EARTH SCIENCE\"",
+        "\"BIOSPHERE\"",
+        "\"ECOLOGICAL DYNAMICS\"",
+        "\"COMMUNITY DYNAMICS\"",
+        "\"BIODIVERSITY FUNCTIONS\"",
+        "\"ECOSYSTEMS\"",
+        "\"AQUATIC ECOSYSTEMS\"",
+        "\"PLANKTON\"",
+        "\"ZOOPLANKTON\"",
+        "\"OCEANS\"",
+        "\"MARINE ENVIRONMENT MONITORING\""
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/2013",
+    "identifier": {
+        "@id": "https://doi.org/10.5285/5A711904-EF42-46A3-9F47-3F0D6B231F65",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.5285/5A711904-EF42-46A3-9F47-3F0D6B231F65",
+        "url": "https://doi.org/10.5285/5A711904-EF42-46A3-9F47-3F0D6B231F65"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=bas_bongo",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.28211 -65.1285,-69.28211 79.05749,26.06155 79.05749,26.06155 -65.1285,-69.28211 -65.1285"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5163",
+            "@type": "Organization",
+            "legalName": "British Antarctic Survey",
+            "name": "British Antarctic Survey",
+            "url": "https://oceanexpert.org/institution/5163"
+        }
+    ]
+}

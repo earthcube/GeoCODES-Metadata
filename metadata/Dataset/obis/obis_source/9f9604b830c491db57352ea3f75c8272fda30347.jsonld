@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9ead3b9e-8431-4132-be7e-cc5c3d24b64d",
+    "name": "SWFSC Marine Mammal Survey, CSCAPE 2005, Cruise 1628",
+    "description": "Original provider:\nNOAA Southwest Fisheries Science Center (SWFSC)\n\nDataset credits:\nNOAA Southwest Fisheries Science Center (SWFSC)\n\nAbstract:\nCSCAPE (Collaborative Survey of Cetacean Abundance and the Pelagic Ecosystem) 2005 was a shipboard survey conducted aboard the NOAA ships <i>David Starr Jordan</i> and <i>McArthur II</i> to assess marine mammals and their ecosystem off the U.S. West Coast.  It was designed to survey waters off California, Oregon and Washington from the coast to 300 nmi (556 km) offshore, and to provide additional fine-scale coverage within four of the five \nWest Coast National Marine Sanctuaries (NMS).  This dataset provides the time-date and geographical coordinates, by species/stock, of all cetaceans detected during the survey, as well as the daily and intra-daily start and end points of the line-transect survey by the NOAA Ship <i>David Starr Jordan</i>.\n\nPurpose:\nThe primary purpose of the survey was to assess the abundance and distribution of marine mammals and seabirds, and to characterize the pelagic ecosystem within the National Marine Sanctuaries and in the ecological context of the broader California Current region.\n\nSupplemental information:\n[2021-04-13] Updated with additional attributes.\n\nSWFSC MMTD Cruise Number: 1628\nPerpendicular distance will be released upon permission by the contributor. Please contact the contributor if needed.\n\nAttribute descriptions for effort data:\ndist: Length of the segment (km) \nMode: Effort mode type (C = closing mode; P = passing mode)",
+    "url": "https://obis.org/dataset/9ead3b9e-8431-4132-be7e-cc5c3d24b64d",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1057"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Forney, K. 2014. SWFSC Marine Mammal Survey, CSCAPE 2005, Cruise 1628. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1057) on yyyy-mm-dd.",
+    "version": "2022-03-03T12:57:17.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings,Cetaceans,Whales,Dolphins,Population,Abundance,Survey,Census,CSCAPE,ORCAWALE",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1057",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-131.011167 30.309333,-131.011167 46.713833,-117.526167 46.713833,-117.526167 30.309333,-131.011167 30.309333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7581",
+            "@type": "Organization",
+            "legalName": "NOAA, Southwest Fisheries Science Center,  Fisheries Resources Division, La Jolla",
+            "name": "NOAA, Southwest Fisheries Science Center,  Fisheries Resources Division, La Jolla",
+            "url": "https://oceanexpert.org/institution/7581"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

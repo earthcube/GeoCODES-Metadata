@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/69e2252e-a3a6-4518-90a8-dfd53e462adf",
+    "name": "BOEM Sperm Whale Seismic Study (SWSS) S-Tag Argos Telemetry",
+    "description": "Original provider:\nBureau of Ocean Energy Management\n\nDataset credits:\nTexas A&amp;M University\nOregon State University\nScripps Institution of Oceanography\nTexas A&amp;M University-Galveston\nUniversity of Colorado\nUniversity of Durham\nUniversity of Saint Andrews\nUniversity of South Florida\nWoods Hole Oceanographic Institution\n\nAbstract:\nSperm Whale Seismic Study (SWSS) was a multi-institutional, interdisciplinary research project supported by the then Minerals Management Service (MMS; now Bureau of Ocean Energy Management - BOEM) under Cooperative Agreement 1435-01-02-CA-85186 for Cooperative Research on Sperm Whales and their Response to Seismic Exploration in the Gulf of Mexico through the Texas A&amp;M Research Foundation.\n\nThe objectives of SWSS were to\n(1) establish baseline information on the biology and behavior of sperm whales in the northern Gulf of Mexico,\n(2) characterize sperm whale habitat use in the northern Gulf of Mexico, and\n(3) determine possible changes in behavior of sperm whales when subjected to manmade noise, particularly from seismic airgun arrays used for offshore oil and gas exploration and geological monitoring.\n\nPurpose:\nnot provided\n\nSupplemental information:\nThe base of this dataset is ARGOS telemetry location data that were deployed in S-Tag cruises in 2002-2005. The TagID (PTT#) and PhotoID, if available, were used to associate additional attributes such as biopsy and fin images with individual animals. These attributes will be released upon data provider's permission.",
+    "url": "https://obis.org/dataset/69e2252e-a3a6-4518-90a8-dfd53e462adf",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_810"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Epperson, D. 2012. BOEM Sperm Whale Seismic Study (SWSS) S-Tag Argos Telemetry. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/810) on yyyy-mm-dd.",
+    "version": "2021-04-24T10:39:01.000Z",
+    "keywords": [
+        "Occurrence,Radio transmitters,Animal movements,sperm whale",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_810",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-96.949 19.224,-96.949 33.668,-75.137 33.668,-75.137 19.224,-96.949 19.224"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20855",
+            "@type": "Organization",
+            "legalName": "Bureau of Safety and Environmental Enforcement",
+            "name": "Bureau of Safety and Environmental Enforcement",
+            "url": "https://oceanexpert.org/institution/20855"
+        }
+    ]
+}

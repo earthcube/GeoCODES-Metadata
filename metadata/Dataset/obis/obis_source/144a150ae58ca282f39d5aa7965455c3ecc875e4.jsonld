@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/54b8e280-f0e8-472e-88b2-a4969e39b5c8",
+    "name": "Deep-water corals sampled from the RV Falkor voyage FK20150301, Perth Canyon, Western Australia (2015)",
+    "description": "Deep-water scleractinian corals were collected in 2015 during cruise FK20150301 (McCulloch et al., 2017), from within and around the Perth\nCanyon (31◦42′S – 32◦10′ S and 114◦42′E - 115◦05′ E) using a Sub-Atlantic Comanche Remotely Operated Vehicle launched from the\nSchmidt Ocean Institute’s R/V Falkor. The samples were collected from five dive sites between water depths of 675 m and 1788 m.",
+    "url": "https://obis.org/dataset/54b8e280-f0e8-472e-88b2-a4969e39b5c8",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=fk20150301_corals",
+        "https://doi.org/10.1016/j.qsa.2022.100052"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Julie A.Trotter, Malcolm T. McCulloch, Juan Pablo D'Olivo, Pete Scott, Nadine Tisnérat-Laborde, Marco Taviani, Paolo Montagna (2022) Deep-water coral records of glacial and recent ocean-atmosphere dynamics from the Perth Canyon in the southeast Indian Ocean.  Quaternary Science Advances Volume 6.   https://doi.org/10.1016/j.qsa.2022.100052",
+    "version": "2022-06-06T11:01:24.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.1016/j.qsa.2022.100052",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1016/j.qsa.2022.100052",
+        "url": "https://doi.org/10.1016/j.qsa.2022.100052"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=fk20150301_corals",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114.01812 -32.09504,114.01812 -31.70031,115.08839 -31.70031,115.08839 -32.09504,114.01812 -32.09504"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

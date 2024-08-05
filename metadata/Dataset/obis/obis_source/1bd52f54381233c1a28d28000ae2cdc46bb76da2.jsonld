@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/87c3a8bf-1b80-49ae-a994-91533c6c6907",
+    "name": "Continuous Plankton Recorder Dataset (NOAA) - Phytoplankton",
+    "description": "Continuous Phytoplankton Recorder Survey by NOAA in the Northwest Atlantic, the Gulf of Maine and the Mid Atlantic Bight.",
+    "url": "https://obis.org/dataset/87c3a8bf-1b80-49ae-a994-91533c6c6907",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=continuousplanktonrecorderdatasetnoaaphytoplankton"
+    ],
+    "license": "Restricted",
+    "citation": "Melrose, C. 2010. Continuous Plankton Recorder Dataset (NOAA) - Phytoplankton. National Oceanic and Atmospheric Administration (NOAA).",
+    "version": "2024-02-27T00:19:27.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Plankton surveys",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1961/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=continuousplanktonrecorderdatasetnoaaphytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.8683 37.1274,-73.8683 43.4346,-65.6301 43.4346,-65.6301 37.1274,-73.8683 37.1274"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8326",
+            "@type": "Organization",
+            "legalName": "Sir Alister Hardy Foundation for Ocean Science",
+            "name": "Sir Alister Hardy Foundation for Ocean Science",
+            "url": "https://oceanexpert.org/institution/8326"
+        }
+    ]
+}

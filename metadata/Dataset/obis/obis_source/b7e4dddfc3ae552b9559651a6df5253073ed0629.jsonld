@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5a804d4e-7393-46ff-971c-0beceba02086",
+    "name": "UK Royal Navy Marine Mammal Observations",
+    "description": "Original provider:\nUK Royal Navy\n\nDataset credits:\nUnited Kingdom Royal Navy\n\nAbstract:\nThis dataset includes unclassified incidental sightings of cetaceans from the United Kingdom Royal Navy ships. The dataset is global in coverage.\n\nPurpose:\nThe Royal Navy often operates in remote areas and the purpose of collecting this sort of data is to contribute to a better scientific understanding of cetacean distributions, breeding areas, migration routes, etc. By ensuring that Royal Navy personnel keep watch for cetaceans helps them to comply with current risk mitigation measures.\n\nSupplemental information:\n12/07/06: Observations for <i>Lagenorhynchus acutus</i> (180443: Atlantic white-sided dolphin) that are located in the Southern Hemisphere were replaced with <i>Lagenorhynchus </i>(180441: white-side dolphin)",
+    "url": "https://obis.org/dataset/5a804d4e-7393-46ff-971c-0beceba02086",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_64"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Maughan, B. and K. Arnold. 2010. UK Royal Navy Marine Mammal Observations. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/64) on yyyy-mm-dd.",
+    "version": "2021-04-24T10:08:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1947/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_64",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-122.43 -74.65,-122.43 70.33,159.23 70.33,159.23 -74.65,-122.43 -74.65"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dc0cb399-10ef-4676-a1e6-9005eeff67d9",
+    "name": "Gelatinous zooplankton in the Belgian part of the North Sea and the adjacent Westerscheldt estuary, period 2011-2012",
+    "description": "Many ocean ecosystems ar ethought to be heading towards a domiance of gelatinous organisms. However, gelatinous zooplakton has been largely understudied and the absence of quantitative long-term data for the studied area impeded drawing conclusion on the potential increasing densities. This study gives a comprehensive overview of the spatio-temporal distribution patterns of gealtinous zooplankton in terms of diversity and density bewteen March 2011 and February 2012 in the Belgian part of the North Sea and the adjacent Westerschelde estuary, based on monthly and seasonal samples respectively.",
+    "url": "https://obis.org/dataset/dc0cb399-10ef-4676-a1e6-9005eeff67d9",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gelatinous_zooplankton_north_sea_westerscheldt_estuary_2011_2012",
+        "https://dx.doi.org/10.14284/408"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Aquatic environment and quality group; Flanders research institute for agriculture, fisheries and food (ILVO), Belgium; (2019): Gelatinous zooplankton in the Belgian part of the North Sea and the adjacent Westerscheldt estuary, period 2011-2012 https://dx.doi.org/10.14284/408",
+    "version": "2023-12-08T17:09:05.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "Sampling device aperture diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Volume sampled of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "Volume sampled of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2012",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/408",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/408",
+        "url": "https://dx.doi.org/10.14284/408"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gelatinous_zooplankton_north_sea_westerscheldt_estuary_2011_2012",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.7 51.35,2.7 51.75,4.24 51.75,4.24 51.35,2.7 51.35"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18819",
+            "@type": "Organization",
+            "legalName": "Instituut voor Landbouw, Visserij en voedingonderzoek",
+            "name": "Instituut voor Landbouw, Visserij en voedingonderzoek",
+            "url": "https://oceanexpert.org/institution/18819"
+        }
+    ]
+}

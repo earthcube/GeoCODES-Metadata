@@ -1,0 +1,131 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7b6fa45f-e4fd-4e40-a537-97eb2f63c690",
+    "name": "Maritimes Summer Research Vessel Surveys",
+    "description": "“Summer” missions occur in June, July and August and these focus on the Scotian Shelf and Bay of Fundy (i.e. 4VWX 5Yb, expanding recently to include the Laurentian Channel and Georges Bank (5Zc). Collected data includes total catch in numbers and weights by species. Length frequency data is available for most species, as are the age, sex, maturity and weight information for a subset of the individual animals. Other data such as ageing material, genetic material, and stomach contents are often also collected, but are stored elsewhere.",
+    "url": "https://obis.org/dataset/7b6fa45f-e4fd-4e40-a537-97eb2f63c690",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=maritimes_summer_rv_surveys"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Regnier-McKellar C (2021): Maritimes Summer Research Vessel Surveys. v1.2. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=maritimes_summer_rv_surveys&amp;v=1.2",
+    "version": "2022-03-23T21:27:07.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Agricultural",
+        "Aquatic Sciences",
+        "Agriculture",
+        "Animals/Vertebrates",
+        "Aquatic Sciences",
+        "Biological Classification",
+        "Biosphere",
+        "Earth Science",
+        "Ecological Dynamics",
+        "Fish",
+        "Fisheries",
+        "Oceans",
+        "Species/Population Interactions",
+        "Gulf of Maine and Bay of Fundy",
+        "North Atlantic Ocean",
+        "North Atlantic",
+        "Scotian Shelf"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Average tow speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TOWSPEED/",
+            "description": "Average tow speed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "duration of tow",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "duration of tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "trawling_distance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "trawling_distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "average depth of tow",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600167/",
+            "description": "average depth of tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sea_surface_temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0381/",
+            "description": "sea_surface_temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea_Bottom_Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/2/",
+            "description": "Sea_Bottom_Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity_at_bottom",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "salinity_at_bottom"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length (fork length)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FL01XX01/",
+            "description": "Length (fork length)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9769/",
+            "description": "sex"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=maritimes_summer_rv_surveys",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.7115 41.2635,-67.7115 47.85,-57.109 47.85,-57.109 41.2635,-67.7115 41.2635"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

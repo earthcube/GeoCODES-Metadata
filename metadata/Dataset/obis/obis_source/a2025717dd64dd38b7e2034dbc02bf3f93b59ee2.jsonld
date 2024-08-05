@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1ddd1411-59fc-4fcb-8d31-4f3248feecf1",
+    "name": "PANGAEA - Data from Cape Roberts project (CRP)",
+    "description": "Data of the international Cape Roberts Project (CRP) aimed to reconstruct the glaciation history of Antarctica.",
+    "url": "https://obis.org/dataset/1ddd1411-59fc-4fcb-8d31-4f3248feecf1",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pangaea_2734"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-05-23T11:34:02.000Z",
+    "keywords": [
+        "Plant fossils",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pangaea_2734",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "163.719 -77.0076,163.719 -77.006,163.755 -77.006,163.755 -77.0076,163.719 -77.0076"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

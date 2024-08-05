@@ -1,0 +1,106 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ecb089bf-3f8a-4202-a304-47ec5e0ddc2d",
+    "name": "Epibenthos and demersal fish monitoring at long-term monitoring stations in the Belgian part of the North Sea",
+    "description": "Epibenthos and demersal fish monitoring at long-term monitoring stations\nTrawl samples were taken within the disposal site and outside the disposal site (close neigbourhood) (classic controle/impact design). \nSampling activities were in February-March and in September/October. A 8 meter shrimp beam trawl (22 mm mesh in the cod end) equipped with a bolder chain was used.The net was towed during 30 or 15 minutes at an average speed of 4 knots.",
+    "url": "https://obis.org/dataset/ecb089bf-3f8a-4202-a304-47ec5e0ddc2d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=epi_benth_long_term",
+        "https://dx.doi.org/10.14284/54"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bio-environmental research group; Institute of Agricultural and Fisheries research (ILVO), Belgium; (2015): Epibenthos and demersal fish monitoring at long-term monitoring stations in the Belgian part of the North Sea https://dx.doi.org/10.14284/54",
+    "version": "2023-12-08T18:28:29.000Z",
+    "keywords": [
+        "Epibenthos",
+        "Fish",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length of sampling track",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Length of sampling track"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net width",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/",
+            "description": "Net width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet Weight biomass -full org",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Wet Weight biomass -full org"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "genderCode",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "genderCode"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifeStage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2021",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/54",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/54",
+        "url": "https://dx.doi.org/10.14284/54"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=epi_benth_long_term",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.3335 51.1815,2.3335 51.8665,3.2615 51.8665,3.2615 51.1815,2.3335 51.1815"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

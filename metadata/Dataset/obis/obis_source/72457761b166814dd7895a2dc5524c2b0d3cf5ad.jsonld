@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a82b670a-46b9-4f96-975e-4be51e0bb42d",
+    "name": "Resilience of Antarctic marine benthic invertebrates and the ecological consequences of environmental change - Amphipod Data 2002/10",
+    "description": "Overview\nThe aim of the project was to assess the genetic connectivity of benthic amphipods (crustaceans) on a circumantarctic scale. Two sibling amphipod species were chosen as the subjects for this study: Eusirus perdentatus and Eusirus giganteus. Samples of both species were collected (or donated by other institutions) from five broad regions of the Antarctic coast (see 'Sample location information' worksheet). The dataset we generated represents DNA sequences we obtained from these amphipods. Each amphipod was sequenced for three gene regions - these were cytochrome oxidase subunit I (COI), internal transcribed spacer 2 (ITS2) and cytochrome b (CytB). Each DNA sequence generated has been deposited on the publicly-accessible GenBank website (www.ncbi.nlm.nih.gov/genbank/) and therefore has its own accession number (which can be typed into the GenBank search bar to access the actual DNA sequence in .fasta format). The attached spreadsheet provides details on the location, depth and date of each amphipod sample collected, the preliminary species ID for each amphipod*, and the resultant DNA sequences corresponding to each of the three gene regions amplified (these are provided as Genbank accession numbers).\n\n*Results of this project have actually highlighted that Eusirus perdentatus and Eusirus giganteus almost certainly contain several extra cryptic species, therefore these ID's are likely to be revised in the future. \n\nData collection and analysis\nThe full methodology used to generate and analyse the DNA sequences prior to their deposition on Genbank can be found in the associated publication (see below).\n\nMost amphipod samples were collected between January 2007 and January 2010. However, a small proportion of the samples were collected on Polarstern voyages that took place in February 2002 and December 2003-January 2004. Genetic data was generated and analysed between June 2008 and May 2010.\n\nCircumantarctic DNA sequences obtained from two amphipod species, Eusirus perdentatus and Eusirus giganteus - DNA sequences obtained from two sibling amphipod species, Eusirus perdentatus and Eusirus giganteus. Samples of both species were collected (or donated by other institutions) from five broad regions of the Antarctic coast: Tressler Bank, East Coast, Ross Sea, Antarctic Peninsula and Weddell Sea. Collection dates ranged from 2002 to 2010. Sample location information is included. \n\nExplanation of spreadsheet\nWorksheet: 'Samples and genetic data'\nThis worksheet contains all of the actual data generated, although rather than providing entire genetic sequences, we provide the Genbank accession number which can be used to access the sequence online (as explained above). The column headings are as follows:\nSample ID- a unique code given to each amphipod sample as a form of identity.\nMorphological ID- the species identification for each amphipod, as determined morphologically (i.e. the genetic data has since illuminated that these IDs may need revision in the future).\nSampling site- a code for the exact location from which each amphipod was sampled. For details on these locations, refer to 'Sample location information' worksheet, which uses the same codes.\nDNA sequence (Genbank accession number)- Genbank accession numbers for the DNA sequences obtained from each amphipod. The three columns within this represent the three gene regions we sequenced: COI (cytochrome oxidase subunit I), CytB (cytochrome b) and ITS2 (internal transcribed spacer 2). Occasionally one of these gene regions would fail to amplify in a particular sample, or the sequence was ambiguous, therefore not all amphipod samples have an accession number for all three gene regions.\n\nWorksheet: 'Sample location information'\nThis worksheet provides the details on the actual collection of the amphipod specimens. Column headings are as follows:\nSampling site- the code for each site from which amphipods were sampled, as used in the previous worksheet.\nLatitude- coordinates for each sampling site.\nLongitude- coordinates for each sampling site.\nDepth range of trawl (m)- As all amphipod samples were collected in benthic trawls deployed from research vessels, this column provides the depth range of the seabed over which each trawl was dragged. \nCollection date- the month and year in which each site was sampled.\nRegion of Antarctic coast- the broad geographic region of the Antarctic coastline into which each set of sampling sites is grouped.\nResearch vessel- the research vessel from which benthic trawls were deployed to collect the amphipods at each site. Note that for each broad geographic region, a single vessel was responsible for collecting all samples.",
+    "url": "https://obis.org/dataset/a82b670a-46b9-4f96-975e-4be51e0bb42d",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=amphipodsequence2002_2010"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Baird, H., Miller, K., Stark, J.S. (2012, updated 2017) Resilience of Antarctic marine benthic invertebrates and the ecological consequences of environmental change  - Amphipod Data Australian Antarctic Data Centre - CAASM Metadata.",
+    "version": "2018-09-19T04:55:20.000Z",
+    "keywords": [
+        "Occurrence",
+        "Amphipods"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=amphipodsequence2002_2010",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "8.3111 -76.775,8.3111 -61.747778,176.247778 -61.747778,176.247778 -76.775,8.3111 -76.775"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18077",
+            "@type": "Organization",
+            "legalName": "University of Tasmania",
+            "name": "University of Tasmania",
+            "url": "https://oceanexpert.org/institution/18077"
+        }
+    ]
+}

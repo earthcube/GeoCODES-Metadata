@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9f8d7324-1caa-4338-a123-9bbb0c60285b",
+    "name": "AMAPPS Northeast Shipboard Cruise Summer 2021",
+    "description": "Original provider:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nDataset credits:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nSupplemental information:\nThe survey code is HB2102.\n\nPerpendicular distance to the animal is not publicly available. Please contact the data provider to obtain this attribute.",
+    "url": "https://obis.org/dataset/9f8d7324-1caa-4338-a123-9bbb0c60285b",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2278"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "National Marine Fisheries Service, Northeast and Southeast Fisheries Science Centers. 2022. 2021 Annual Report of a Comprehensive Assessment of Marine Mammal, Marine Turtle, and Seabird Abundance and Spatial Distribution in US waters of the Western North Atlantic Ocean – AMAPPS III. Report to the Bureau of Ocean Energy Management. 125 pp.",
+    "version": "2023-12-19T17:44:26.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2278",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-74.850313 36.64592,-74.850313 42.08079,-64.8357 42.08079,-64.8357 36.64592,-74.850313 36.64592"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

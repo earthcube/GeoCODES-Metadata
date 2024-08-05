@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ded37eb-bf01-46ae-9470-d5e2863fd622",
+    "name": "Groundfish Survey Invertebrate Data",
+    "description": "The Irish Groundfish Surveys is part of an annual International Bottom Trawl Survey (IBTS) programme co-ordinated by the International Council for the Exploration of the Sea (ICES). The survey is carried out over 47 days between October-December each year by the Marine Institute and collects demersal trawl and ancillary data in Irish waters to produce relative abundance indices for fisheries management in the Northwest Atlantic Shelf waters.",
+    "url": "https://obis.org/dataset/5ded37eb-bf01-46ae-9470-d5e2863fd622",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mi_invertebrate"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marine Institute (2003); Groundfish Survey Invertebrate Data,",
+    "version": "2023-05-23T11:51:07.000Z",
+    "keywords": [
+        "Fishery surveys",
+        "International Bottom Trawl Survey (IBTS)",
+        "Trawls",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "description": "Wet weight biomass (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mi_invertebrate",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-12.3235 48.483,-12.3235 56.467,-5.2595 56.467,-5.2595 48.483,-12.3235 48.483"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

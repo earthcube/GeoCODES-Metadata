@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1a5aca77-611e-4496-9702-0a938aa27d9c",
+    "name": "Zooplankton data for Danish marine monitoring (ODAM) from 1991 - 2011",
+    "description": "Data is an assembly of plankton monitoring stations situated between 54° and 58° North along the Danish coasts and in estuaries. There are 6 zooplankton stations that are visited 6 times per year. Samples are analyzed to estimate zooplankton composition and abundance. The individuals are either sized or staged and species is determined to lowest possible taxonomical level. This dataset includes multicellular prokaryotes as well as ciliates and same heterotrophic dinoflagellates",
+    "url": "https://obis.org/dataset/1a5aca77-611e-4496-9702-0a938aa27d9c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=odam_zooplankton_1985"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Danish Centre for Environment and Energy (2019). Zooplankton data for Danish marine monitoring (ODAM) from 1991 - 2011",
+    "version": "2023-12-08T18:17:16.000Z",
+    "keywords": [
+        "Time series",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "VolWBodySamp..l.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "VolWBodySamp..l."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "WaterAbund_BE007117....l.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "WaterAbund_BE007117....l."
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=odam_zooplankton_1985",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "8.22333 54.82333,8.22333 56.95483,15.98417 56.95483,15.98417 54.82333,8.22333 54.82333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

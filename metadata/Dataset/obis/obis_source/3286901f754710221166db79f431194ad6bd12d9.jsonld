@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cbb1c4d3-73d9-41aa-94d5-d637b60ad1e5",
+    "name": "QLD DERM Coastal Bird Atlas (Trial)",
+    "description": "A subset of data from the Coastal Bird Atlas data base that includes survey and nesting data for coastal and seabirds throughout Queensland.",
+    "url": "https://obis.org/dataset/cbb1c4d3-73d9-41aa-94d5-d637b60ad1e5",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_dr380"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Queensland Department of Environment and Resource Management (DERM)",
+    "version": "2022-06-08T05:13:33.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1820/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_dr380",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "138.9 -28.890000024496846,138.9 -10.570000001615307,152.75 -10.570000001615307,152.75 -28.890000024496846,138.9 -28.890000024496846"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

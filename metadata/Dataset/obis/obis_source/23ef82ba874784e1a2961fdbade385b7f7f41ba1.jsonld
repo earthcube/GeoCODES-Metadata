@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/23bd22c1-9a98-44d4-8e23-3a9c55915caf",
+    "name": "Summer distribution of pelagic birds off the coast of Argentina (A Hudson 70 Expedition data set)",
+    "description": "In November of 1969, the Canadian Government Research Vessel CSS 'Hudson' departed from the Bedford Institute of Oceanography in Dartmouth, NS to make a year long oceanographic cruise around the Americas. This was the Hudson70 expedition. Numerous biological studies were associated with this cruise and many were published. This resource contains species occurrence records of pelagic birds off the coast of Argentina as described in one such report (Cooke and Mills, 1972).",
+    "url": "https://obis.org/dataset/23bd22c1-9a98-44d4-8e23-3a9c55915caf",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=hudson70_seabirds_cookemills"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cooke, Fred and Eric L. Mills. 2016. Summer distribution of pelagic birds off the coast of Argentina. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/.",
+    "version": "2021-04-16T11:03:12.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/1970",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=hudson70_seabirds_cookemills",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.2 -57.8,-67.2 -39.2,-11 -39.2,-11 -57.8,-67.2 -57.8"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/15748",
+            "@type": "Organization",
+            "legalName": "Dalhousie University, Department of Oceanography",
+            "name": "Dalhousie University, Department of Oceanography",
+            "url": "https://oceanexpert.org/institution/15748"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19465",
+            "@type": "Organization",
+            "legalName": "Queen's University – Department of Biology",
+            "name": "Queen's University – Department of Biology",
+            "url": "https://oceanexpert.org/institution/19465"
+        }
+    ]
+}

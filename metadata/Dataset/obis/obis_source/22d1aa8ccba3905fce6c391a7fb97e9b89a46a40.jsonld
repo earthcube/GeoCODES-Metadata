@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b10beac2-4d29-426a-8954-22a2481d932c",
+    "name": "USGS Alaska Science Center Polar Bear Maternal Dens",
+    "description": "This data reports on the approximate locations and methods of discovery of 530 polar bear (Ursus maritimus) maternal dens observed in the Beaufort and Chukchi seas and neighboring areas between 1910 and 2018, and archived partly by the U.S. Geological Survey, Alaska Science Center, and partly by the U.S. Fish and Wildlife Service, Marine Mammals Management, in Anchorage, Alaska. Data fields include a unique and permanent USGS identifier for each record, the year when the adult would have been expected to depart the den with young, an index of whether the maternal den was confirmed or probable, coordinates of the den, substrate that each den occurred on, the agency source of each record, method of discovery of each den, method used to determine the position of each den, and estimated position uncertainty. Data were collected through standardized VHF aircraft surveys and satellite radio telemetry, field research activities in polar bear habitat, and anecdotal reports from other government agencies, coastal residents, and industry personnel. The polar bear maternal den records presented here supersede an earlier version of these data (Durner and others, 2010)",
+    "url": "https://obis.org/dataset/b10beac2-4d29-426a-8954-22a2481d932c",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=usgs_asc_polarbearmaternaldens_20150129",
+        "https://doi.org/10.5066/P9RPHH50"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Durner, G. M., 2010, Catalogue of Polar Bear (Ursus maritimus) maternal den locations in the Beaufort and Chukchi seas and nearby areas, 1910-2018 (ver. 2.0, January, 2020): U.S. Geological Survey data release, https://doi.org/10.5066/P9RPHH50",
+    "version": "2022-03-08T13:39:12.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1910/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.5066/P9RPHH50",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.5066/P9RPHH50",
+        "url": "https://doi.org/10.5066/P9RPHH50"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=usgs_asc_polarbearmaternaldens_20150129",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.915 63.3667,-179.915 83.521,179.86 83.521,179.86 63.3667,-179.915 63.3667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19360",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey – Alaska Science Center",
+            "name": "U.S. Geological Survey – Alaska Science Center",
+            "url": "https://oceanexpert.org/institution/19360"
+        }
+    ]
+}

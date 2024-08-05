@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1f80810b-54d9-4b5e-bd63-3fb9736c2f46",
+    "name": "Northern shrimp (Pandalus borealis) in the Norwegian Deep and Skagerrak, 1984-2017",
+    "description": "The survey data consist of: 1) one time series from 1984-2002 (October/November) using R/V Michael Sars and the Campelen-trawl; 2) a point estimate for 2003 (October) as R/V Michael Sars was taken out of service and substituted with R/V Håkon Mosby, whose winches at that time were not powerful enough for the Campelen-trawl, resulting in the survey being conducted with the Shrimp trawl 1420; 3) a start of a potential new time series as the survey in both 2004 and 2005 was conducted in May/June with R/V Håkon Mosby using the standard Campelen trawl; and 4) one time series from 2006 until present (January/February), using R/V Håkon Mosby and the Campelen trawl. From 2017 R/V Håkon Mosby has been substituted with R/V Kristine Bonnevie. In 2016, there were technical problems with the survey trawl (unequal wire lengths of the trawl gear) and this year’s data are considered to be non-representative of the stock status.",
+    "url": "https://obis.org/dataset/1f80810b-54d9-4b5e-bd63-3fb9736c2f46",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imr_shrimp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Søvik, Guldborg; Thangstad, Trude Hauge (2018): Northern shrimp (Pandalus borealis) in the Norwegian Deep and Skagerrak, 1984-2017",
+    "version": "2023-12-08T18:23:47.000Z",
+    "keywords": [
+        "Haakon Mosby",
+        "Kristine Bonnevie",
+        "Michael Sars",
+        "research vessel",
+        "Time series",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "",
+            "description": "count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "",
+            "description": "length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imr_shrimp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-0.23333333333333 57.438333333333,-0.23333333333333 59.926666666667,10.97 59.926666666667,10.97 57.438333333333,-0.23333333333333 57.438333333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5e3015f8-a398-46b5-adb1-518a8247aeb9",
+    "name": "Physical and biological data collected along the Texas, Louisiana, Mississippi, Alabama, and Florida Gulf coasts in the Gulf of Mexico as part of the Harmful Algal BloomS Observing System",
+    "description": "HABSOS (Harmful Algal BloomS Observing System) is a data collection and distribution system for harmful algal bloom (HAB) information in the Gulf of Mexico. The goal of HABSOS is to provide environmental managers, scientists, and the public with a data driven resource for HAB events. Cell counts and environmental information are combined into a single product and distributed using the HABSOS Mapping System. HABSOS strives to provide the most accurate picture of harmful algal bloom location and quantity by using the latest sample data available.\n\nThis dataset contains data from Texas, Louisiana, Mississippi, Alabama, and Florida, as well as data along the Florida Shelf in the Gulf of Mexico and along the eastern coast of Florida in the North Atlantic Ocean.",
+    "url": "https://obis.org/dataset/5e3015f8-a398-46b5-adb1-518a8247aeb9",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=habsos"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": " (2022): Physical and biological data collected along the Texas, Louisiana, Mississippi, Alabama, and Florida Gulf coasts in the Gulf of Mexico as part of the Harmful Algal BloomS Observing System. v1.5. United States Geological Survey. Dataset/Samplingevent. https://www1.usgs.gov/obis-usa/ipt/resource?r=habsos&amp;v=1.5",
+    "version": "2022-09-30T17:04:05.000Z",
+    "keywords": [
+        "Samplingevent",
+        "ALGAL BLOOM PRESENCE",
+        "BIOMASS - PLANKTON",
+        "CELL COUNTS",
+        "DEPTH - OBSERVATION",
+        "PHYTOPLANKTON BIOMASS",
+        "SALINITY",
+        "WATER TEMPERATURE",
+        "WIND DIRECTION",
+        "WIND SPEED"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMP001/",
+            "description": "salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "density",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance condition level",
+            "url": "",
+            "description": "abundance condition level"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "water temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "water temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wind speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0038/",
+            "description": "wind speed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1953/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=habsos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-97.66535 24,-97.66535 30.7149,-78.47 30.7149,-78.47 24,-97.66535 24"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

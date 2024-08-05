@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2891a788-9f30-4413-8f73-9e7686890e9d",
+    "name": "FishNet2 Marine Data",
+    "description": "The data is compiled from FishNet2 service for OBIS to include marine specimens only.",
+    "url": "https://obis.org/dataset/2891a788-9f30-4413-8f73-9e7686890e9d",
+    "sameAs": [
+        "https://fishnet.tulane.edu/ipt/resource?r=fishnet2_obis"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2023-12-19T06:44:43.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://fishnet.tulane.edu/ipt/archive.do?r=fishnet2_obis",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -90,-180 88.81667,180 88.81667,180 -90,-180 -90"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

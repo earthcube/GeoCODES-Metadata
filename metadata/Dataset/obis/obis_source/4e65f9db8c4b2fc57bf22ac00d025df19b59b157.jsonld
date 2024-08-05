@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/423c7250-6e26-4fb9-831a-8418c8aa9eac",
+    "name": "Mackay &amp; District Turtle Watch (aggregated per 1-degree cell)",
+    "description": "Original provider:\nMackay &amp; District Turtle Watch Association\n\nDataset credits:\nData provider\nJames Cook University\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject sponsor or sponsor description\nThe project was generously funded by The Mackay Regional Council and is supported by the volunteers of Mackay &amp; District Turtle Watch Association and students of James Cook University.\n\n\nAbstract:\nThe project is an initiative of Ken Griffin, Secretary of Mackay and District Turtle Watch Association. It is a collaboration between Mackay &amp; District Turtle Watch Assoc. and James Cook University to understand the behaviour of flatback turtles in Central Queensland. The four turtles were named by children of local schools.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=1061\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/423c7250-6e26-4fb9-831a-8418c8aa9eac",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1221_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Hamann x. 2022. Mackay &amp; District Turtle Watch. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1221) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=1061).",
+    "version": "2022-05-02T21:16:35.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_1221_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "143.5 -22.5,143.5 -13.5,152.5 -13.5,152.5 -22.5,143.5 -22.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/14fa3c3e-259c-4af9-9314-eee1dc3a119b",
+    "name": "MAREANO - Base-line mapping of epifauna obtained with Beamtrawl",
+    "description": "Data collected with a 2m beamtrawl towed about 200-300m. Dataset contains numbers and combined wet weight of specimen (down to 1 mg) within same species or higher taxonomic unit. Samples are preserved on formalin and then alcohol. After id the material is stored at the Bergen Museum, Bergen, Norway.",
+    "url": "https://obis.org/dataset/14fa3c3e-259c-4af9-9314-eee1dc3a119b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imr_mareano_beamtrawl",
+        "https://doi.org/10.15468/iomgfj"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hassel, A. (2014). MAREANO - Base-line mapping of epifauna obtained with Beamtrawl. Institute of Marine Research, Norway https://doi.org/10.15468/iomgfj",
+    "version": "2023-12-08T17:24:53.000Z",
+    "keywords": [
+        "Baseline studies",
+        "Ecological baseline studies",
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/iomgfj",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/iomgfj",
+        "url": "https://doi.org/10.15468/iomgfj"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imr_mareano_beamtrawl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.05 62.302833333333,3.05 80.239123733333,36.621351666667 80.239123733333,36.621351666667 62.302833333333,3.05 62.302833333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

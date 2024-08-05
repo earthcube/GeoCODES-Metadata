@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2b03f5c8-d031-4d5f-93c1-404a921c1172",
+    "name": "North Carolina Rehabilitated Sea Turtle Monitoring Project (aggregated per 1-degree cell)",
+    "description": "Original provider:\nSEATURTLE.ORG\n\nDataset credits:\nData provider\nSEATURTLE.ORG Animal Tracking Program\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nThe partners of this tracking project include Jean Beasley and her crew of volunteers and interns at the <a href=\"http://www.seaturtlehospital.org\">Karen Beasley Sea Turtle Rescue and Rehabilitation Center</a>, Matthew Godfrey and Wendy Cluse of the <a href=\"http://www.ncwildlife.org\">NC Wildlife Resources Commission</a>, and Michael Coyne of SEATURTLE.ORG.\nProject sponsor or sponsor description\nWe are looking for sponsors for this project. Please contact tracking@seaturtle.org if you are interested in sponsoring one or more satellite tracked turtles from the North Carolina Rehabilitated Sea Turtle Monitoring Project\n\n\nAbstract:\nSince 1997, the Karen Beasley Sea Turtle Rescue and Rehabilitation Center, located on Topsail Island in North Carolina, has worked towards caring for sick or injured sea turtles in order that they should be released back to the wild. Each year, the KBSTRRC admits dozens of turtles that have been found in North Carolina and elsewhere. Working in collaboration with the wildlife veterinarians from North Carolina State University and others, the staff of the KBSTRRC have successfully rehabilitated and released more than 100 sea turtles over the past 7 years. The majority of turtles that have been released have been juveniles, and up until now there was no information available on where and how the turtles were going in the water. Now, with the help of satellite tracking, we can watch where some of the rehabilitated turtles go after their treatment at the KBSTRRC.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=444\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/2b03f5c8-d031-4d5f-93c1-404a921c1172",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_996_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Coyne M. 2021. North Carolina Rehabilitated Sea Turtle Monitoring Project. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/996) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=444).",
+    "version": "2023-08-01T13:51:22.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_996_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.5 26.5,-81.5 34.5,-77.5 34.5,-77.5 26.5,-81.5 26.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

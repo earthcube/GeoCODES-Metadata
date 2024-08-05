@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/16dbb774-6c19-4891-834e-0a9cad30c10b",
+    "name": "Incidental catch at British Columbia marine finfish aquaculture sites",
+    "description": "Fisheries and Oceans Canada’s (DFO’s) Conditions of Licence for finfish aquaculture include requirements to minimize harm to wild fish that swim into facilities. Facility operators must also maintain an incidental catch log, which is a record of wild fish caught at the facility during harvest and transfer events. This information is submitted to DFO and public reports are posted quarterly. The tables provided list the reported incidental catch of dead wild finfish and the year and month in which they were captured from B.C. marine finfish facilities during harvest and transfer events.\nData are reported in the quarter in which the harvest activities ended and will not exist for farms that do not have fish on site or where no incidentally caught fish were recorded.\nHistorical data are available from 2011 to the present. Explanation of the terms used in the report’s column headings can be found in the terminology file: https://open.canada.ca/data/en/dataset/0bf04c4e-d2b0-4188-9053-08dc4a7a2b03",
+    "url": "https://obis.org/dataset/16dbb774-6c19-4891-834e-0a9cad30c10b",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=incidental_catch_at_bc_marine_finfish_aquaculture_sites"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Aquaculture Management Division . (2020): Incidental catch at British Columbia marine finfish aquaculture sites. v1.7. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=incidental_catch_at_bc_marine_finfish_aquaculture_sites&amp;v=1.7",
+    "version": "2022-03-29T20:41:42.000Z",
+    "keywords": [
+        "events",
+        "occurrences",
+        "emof",
+        "Fisheries and Oceans Canada; Pacific Region; Aquaculture; fish farming; salmon farming; incidental catch; wild fish; British Columbia; BC"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=incidental_catch_at_bc_marine_finfish_aquaculture_sites",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-128.57494 49.11916,-128.57494 52.80048,-123.65836 52.80048,-123.65836 49.11916,-128.57494 49.11916"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

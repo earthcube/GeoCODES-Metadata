@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/18e4fa5b-5f92-4e09-957b-b242003287e9",
+    "name": "Northern Gulf of St. Lawrence Fishes",
+    "description": "This dataset provides information on fishes of the northern Gulf of St. Lawrence ecosystem. Diverse sources in Quebec have been consulted from the literature (1933-2012) and from biological surveys (1997-2012) conducted by the Department of Fisheries and Oceans Canada (DFO) Quebec Region and its partners. The habitats covered are principally from offshore surveys, though it includes shore-based surveys, particularly of intertidal eelgrass beds as well as intertidal marshes and mud flats of the middle and lower portion of the St. Lawrence estuary. The data has been compiled into a geodatabase with environmental information on sites and biological information on most specimens. This dataset provides only the abundance and gender of specimens recorded in the database from the total of 664799 individual records with 185 taxa at 5243 sites. The records have been checked for taxonomic and geographic reliability. The dataset provides a comprehensive overview of fish records for the St. Lawrence region as a complement to published survey datasets. / Cet ensemble de données fournit des informations sur les poissons de l'écosystème du nord du golfe du Saint-Laurent. Des sources diverses au Québec ont été consultés à partir de la littérature (1933-2012) et de relevés biologiques (1997-2012) faits par le Ministère de Pêches et Océans Canada (MPO) de la région du Québec et ses partenaires. Les habitats considérés comprennent notamment des milieux de haute mer, mais aussi des sites littoraux, en particulier des herbiers de zostères, des marais à spartine et des vasières intertidales. Les données ont été compilées dans une géodatabase incluant des informations environnementales sur les sites et des informations biologiques sur une grande proportion des spécimens capturés. Cet ensemble de données est une compilation par espèce, par sexe et par stationdes 664799 enregistrements individuels dans la base de données qui compte un total de 185 taxa répartis entre 5243 sites. La validité taxonomique et géographique des enregistrements a été vérifiée. Cet ensemble de données fournit un aperçu global de l’information concernant les poissons du Saint-Laurent, constituant un complément aux données déjà publiées..",
+    "url": "https://obis.org/dataset/18e4fa5b-5f92-4e09-957b-b242003287e9",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_que_dutil_fishdb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dutil J, Nozères C (2023). Northern Gulf of St. Lawrence Fishes. Version 40.6. Fisheries and Oceans Canada. Occurrence dataset. http://iobis.org/mapper/?resource_id=2671",
+    "version": "2023-06-07T19:21:48.000Z",
+    "keywords": [
+        "Northwest Atlantic; Estuarine; Marine; Pisces; Distribution; Monitoring; Historical; Biodiversity; Ecological niche modelling; Deep water",
+        "Biological classification; Oceans;",
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1932/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=dfo_que_dutil_fishdb",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-70.88333333 46.90381667,-70.88333333 51.473902,-57.317018 51.473902,-57.317018 46.90381667,-70.88333333 46.90381667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6190",
+            "@type": "Organization",
+            "legalName": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "name": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6190"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19633",
+            "@type": "Organization",
+            "legalName": "OBIS Canada",
+            "name": "OBIS Canada",
+            "url": "https://oceanexpert.org/institution/19633"
+        }
+    ]
+}

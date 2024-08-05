@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/16c262f7-46a9-4efc-bf12-f8ec2d37e944",
+    "name": "eBird Australia - marine records (1901-2019)",
+    "description": "This dataset is a subset of eBird records of marine birds around Australia sourced from the Atlas of Living Australia (ALA) (https://www.ala.org.au) on the 11th February 2021. Only those taxa resolved in WoRMS are included.\nFor further information on eBird Australia, see https://ebird.org/australia/home including citation and license details.",
+    "url": "https://obis.org/dataset/16c262f7-46a9-4efc-bf12-f8ec2d37e944",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_ebird"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "eBird Basic Dataset. Version: ebd_AU_relNov-2016. Cornell Lab of Ornithology, Ithaca, New York. November 2016.",
+    "version": "2022-06-08T03:29:56.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1922/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_ebird",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "111.285 -57.5357,111.285 -9.23832,163.5 -9.23832,163.5 -57.5357,111.285 -57.5357"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5671",
+            "@type": "Organization",
+            "legalName": "Cornell University",
+            "name": "Cornell University",
+            "url": "https://oceanexpert.org/institution/5671"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

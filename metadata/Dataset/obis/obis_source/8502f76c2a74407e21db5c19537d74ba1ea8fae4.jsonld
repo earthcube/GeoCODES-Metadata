@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/56e55f76-6dda-403d-805b-f8922fa1766d",
+    "name": "Taxonomically comprehensive assessment of biodiversity of animal plankton throughout the world ocean",
+    "description": "Information on zooplankton species throughout the world ocean.",
+    "url": "https://obis.org/dataset/56e55f76-6dda-403d-805b-f8922fa1766d",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=cmarz"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1967/1983",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=cmarz",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.912994385 -69.5,-179.912994385 57.0320014954,179.947998047 57.0320014954,179.947998047 -69.5,-179.912994385 -69.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9783",
+            "@type": "Organization",
+            "legalName": "Woods Hole Oceanographic Institution",
+            "name": "Woods Hole Oceanographic Institution",
+            "url": "https://oceanexpert.org/institution/9783"
+        }
+    ]
+}

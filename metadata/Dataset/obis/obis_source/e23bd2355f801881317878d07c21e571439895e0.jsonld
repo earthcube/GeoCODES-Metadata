@@ -1,0 +1,111 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bf1eb7ca-569b-497f-9eeb-46889eb2f781",
+    "name": "Royal Belgian Institute of Natural Sciences Brachiopoda Collection (Brachiopoda)",
+    "description": "The Royal Belgian Institute of Natural Sciences Brachiopoda collection contains 329 digitised specimens over 30 taxa (mostly species). This dataset only contains the marine species of the collection. The following classes are included: Articulata Huxley, 1869, Inarticulata Huxley, 1869.",
+    "url": "https://obis.org/dataset/bf1eb7ca-569b-497f-9eeb-46889eb2f781",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=be_rbins_invertebrates_brachiopoda"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Samyn, Y., Semal, P. (2020) Royal Belgian Institute of Natural Sciences Brachiopoda collection",
+    "version": "2023-05-23T12:24:36.000Z",
+    "keywords": [
+        "Brachiopods",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+            "description": "sampling_depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "preparation",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "preparation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_depth_max",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MAXWDIST/",
+            "description": "sampling_depth_max"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_depth_min",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MINWDIST/",
+            "description": "sampling_depth_min"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_elevation",
+            "url": "https://www.wikidata.org/wiki/Q2633778/",
+            "description": "sampling_elevation"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1834/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=be_rbins_invertebrates_brachiopoda",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-149.42951 -70.5165,-149.42951 72,175.08333 72,175.08333 -70.5165,-149.42951 -70.5165"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

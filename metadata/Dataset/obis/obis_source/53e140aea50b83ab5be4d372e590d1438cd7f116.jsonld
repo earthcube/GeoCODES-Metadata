@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/360b439f-1791-41e4-a77b-5f50d451a951",
+    "name": "Bongo net samples - RV Investigator voyage IN2017_V04, Tasman Sea (2017)",
+    "description": "Bongo net samples from the RV Investigator voyage IN2017_V04 titled 'The whole enchilada: from production to predation in Tasman Sea ecosystems', the final of three voyages studying the eddy systems off the coast of New South Wales, Australia. The other voyage are IN2015_V03 and IN2016_V04.\nVoyage details (metadata, projects, other datasets either online or as downloads, publications and reports, events, maps etc) can be accessed at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2017_V04\nIf this data has been used in any products, please acknowledge with the following: We acknowledge the use of the CSIRO Marine National Facility (https://ror.org/01mae9353) in undertaking this research.\n",
+    "url": "https://obis.org/dataset/360b439f-1791-41e4-a77b-5f50d451a951",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=in2017_v04_bongo"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Miskiewicz T (2023): Bongo net samples - RV Investigator voyage IN2017_V04, Tasman Sea (2017). v1.2. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=in2017_v04_bongo&amp;v=1.2",
+    "version": "2023-11-30T02:15:08.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Equipment used",
+            "url": "",
+            "description": "Equipment used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/PSAL",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea Surface Temperature",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/97",
+            "description": "Sea Surface Temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=in2017_v04_bongo",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "151.64945 -35.74862,151.64945 -27.24533,158.03317 -27.24533,158.03317 -35.74862,151.64945 -35.74862"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

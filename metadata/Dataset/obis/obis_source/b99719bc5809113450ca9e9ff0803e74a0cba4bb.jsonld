@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4cf03bc4-0784-4990-bbc8-c25f9e214cb5",
+    "name": "Benthos collected in the Azov Sea in 1935 on board the R/V \"N. Danilevskiy\"",
+    "description": "The data were collected in the Azov Sea during a cruise on board of R/V N. Danilevskiy in 1935. This dataset contains abundance data (individuals per m²) and biomass data (g/m²) for benthic taxa. No additional metadata is available.",
+    "url": "https://obis.org/dataset/4cf03bc4-0784-4990-bbc8-c25f9e214cb5",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=benthos_azov_sea_1935"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Benthos collected in the Azov Sea in 1935 on board the R/V \"N. Danilevskiy\". Institute of Biology of the Southern Seas of the National Academy of Sciences of Ukraine.",
+    "version": "2023-05-23T11:29:14.000Z",
+    "keywords": [
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "individualcount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "",
+            "description": "biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1935/1935",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=benthos_azov_sea_1935",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "34.93 45.34,34.93 46.94,38.22 46.94,38.22 45.34,34.93 45.34"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b7a81977-c40f-42c0-8453-f4cfb37ca4c8",
+    "name": "Kenya Marine and Fisheries Research Institute - Marine Species",
+    "description": "Kenya Marine and Fisheries Research Institute (KMFRI). Marine dataset compiled from publications,",
+    "url": "https://obis.org/dataset/b7a81977-c40f-42c0-8453-f4cfb37ca4c8",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=kenya_marine"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dataset Creator: Kenya Marine and Fisheries Research Institute (KMFRI), Kenya Dataset Title: KMFRI Marine Dataset Release Date: September 2010 Dataset Release Place: Mombasa, Kenya Dataset Publisher: AfrOBIS, South Africa Online Resource: http://www.iobis.org/",
+    "version": "2023-12-08T18:14:19.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/1992",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=kenya_marine",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "37.90620041 -4.710000038,37.90620041 -0.023559101,41.7405014 -0.023559101,41.7405014 -4.710000038,37.90620041 -4.710000038"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11578",
+            "@type": "Organization",
+            "legalName": "Kenya Marine and Fisheries Research Institute",
+            "name": "Kenya Marine and Fisheries Research Institute",
+            "url": "https://oceanexpert.org/institution/11578"
+        }
+    ]
+}

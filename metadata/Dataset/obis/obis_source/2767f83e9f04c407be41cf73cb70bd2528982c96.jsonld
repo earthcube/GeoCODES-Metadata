@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6b45e770-4625-43dd-abc6-c4844a417b55",
+    "name": "HMAP Dataset 07: Danish Baltic Catch Data, 1611-1920",
+    "description": "This dataset contains data on Baltic fish catches between 1611 and 1920, derived from Danish archives.",
+    "url": "https://obis.org/dataset/6b45e770-4625-43dd-abc6-c4844a417b55",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_07"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "M. Bager ed., with L. Hansen, Per Jessen (researchers) 'Danish Baltic Catch Data, 1611-1920' in J.H Nicholls (comp.) HMAP Data Pages (https://oceanspast.org/hmap_db.php)",
+    "version": "2023-05-23T12:24:49.000Z",
+    "keywords": [
+        "Fish catch statistics",
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1761/1920",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_07",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "12.5888996124268 55.0807991027832,12.5888996124268 55.9640998840332,16.0359001159668 55.9640998840332,16.0359001159668 55.0807991027832,12.5888996124268 55.0807991027832"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17927",
+            "@type": "Organization",
+            "legalName": "University of Hull, Oceans Past Initiative",
+            "name": "University of Hull, Oceans Past Initiative",
+            "url": "https://oceanexpert.org/institution/17927"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19450",
+            "@type": "Organization",
+            "legalName": "Roskilde University",
+            "name": "Roskilde University",
+            "url": "https://oceanexpert.org/institution/19450"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19571",
+            "@type": "Organization",
+            "legalName": "Museum Amager",
+            "name": "Museum Amager",
+            "url": "https://oceanexpert.org/institution/19571"
+        }
+    ]
+}

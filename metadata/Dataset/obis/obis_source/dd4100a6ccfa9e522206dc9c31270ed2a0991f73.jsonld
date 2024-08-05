@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cd902fc8-f52b-4bda-95b8-a6782c1d0953",
+    "name": "Amphipoda Hyperiidea of the Southern Ocean:  catalogue and occurrences",
+    "description": "The dataset comprises all occurrence records of hyperiid amphipods from the Southern Ocean sensu lato (south of the sub-Tropical Front). It is based on taxonomic and ecological literature checked until 28 February 2009. Some unpublished species records from the Southern Ocean in various museum collections have also been included.",
+    "url": "https://obis.org/dataset/cd902fc8-f52b-4bda-95b8-a6782c1d0953",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=amphipoda_hyperiidea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Zeidler W. &amp; De Broyer C., 2009.  Catalogue of the Hyperiidean Amphipoda (Crustacea) of the Southern Ocean with distribution and ecological data. Bulletin de l'Institut Royal des Sciences Naturelles de Belgique 79 (Suppl. 1): 1-104.",
+    "version": "2023-03-24T15:03:08.000Z",
+    "keywords": [
+        "Antarctic",
+        "Biogeography",
+        "Distribution",
+        "Southern Ocean",
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=amphipoda_hyperiidea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.93333 -77.85,-179.93333 68.47111111,176.3 68.47111111,176.3 -77.85,-179.93333 -77.85"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19337",
+            "@type": "Organization",
+            "legalName": "Belgian National Committee on Antarctic Research",
+            "name": "Belgian National Committee on Antarctic Research",
+            "url": "https://oceanexpert.org/institution/19337"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19475",
+            "@type": "Organization",
+            "legalName": "South Australian Museum – Department of Marine Invertebrates",
+            "name": "South Australian Museum – Department of Marine Invertebrates",
+            "url": "https://oceanexpert.org/institution/19475"
+        }
+    ]
+}

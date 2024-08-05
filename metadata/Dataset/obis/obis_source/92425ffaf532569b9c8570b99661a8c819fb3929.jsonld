@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9dfaef79-f9ac-4866-9718-6bd6a76f28ae",
+    "name": "Australian Museum Mammalogy Collection - marine records",
+    "description": "The Australian Museum Mammalogy collection is one of the most comprehensive collections of Australasian mammals in the world. While it contains specimens from all over the world the largest collections are from Australia, Papua New Guinea, Indonesia and the Solomon Islands.\nAmong the most important specimens in the collection are the more than 500 type specimens (types are the original specimens on which the first description of a particular species or subspecies is based). Most types in the collection are from Australia, although there are also many from other parts of the Pacific region including many from Papua New Guinea, the Solomon Islands and Indonesia.\nThis dataset is of marine species sourced from the Atlas of Living Australia (ALA) January 2019 (http://collections.ala.org.au/public/show/co80). Taxa have been matched to the World Register of Marine Species (WoRMS) and if not then matched to the Australian Faunal Directory (AFD)",
+    "url": "https://obis.org/dataset/9dfaef79-f9ac-4866-9718-6bd6a76f28ae",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_co80"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-07T05:46:12.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1849/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_co80",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-175.25154 -67,-175.25154 66.666,179.41441 66.666,179.41441 -67,-175.25154 -67"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

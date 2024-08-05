@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c26b2cfe-3f2d-4cc2-a7f0-67dbd14ce9c9",
+    "name": "Catalogue of algae collected in the Mediterranean Sea during the cruises of Cutter Violante in 1876 and 1877",
+    "description": "Digitized data from a paper published in 1879 in \"Reale Accademia dei Lincei\", on cruises of Cutter Violante in 1876 and 1877 around some small islands in the Mediterranean Sea.",
+    "url": "https://obis.org/dataset/c26b2cfe-3f2d-4cc2-a7f0-67dbd14ce9c9",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=algae_in_mediterranean_sea_islands_1876-1877",
+        "https://doi.org/10.13120/76w9-4478"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Fornasaro D, Lipizer M (2021): Catalogue of algae collected in the Mediterranean Sea during the cruises of Cutter Violante in 1876 and 1877. National Institute of Oceanography and Experimental Geophysics - OGS, Division of Oceanography. Italy. Dataset/Occurrence https://doi.org/10.13120/76w9-4478",
+    "version": "2023-05-23T11:30:53.000Z",
+    "keywords": [
+        "Historical data",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1876/1877",
+    "identifier": {
+        "@id": "https://doi.org/10.13120/76w9-4478",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.13120/76w9-4478",
+        "url": "https://doi.org/10.13120/76w9-4478"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=algae_in_mediterranean_sea_islands_1876-1877",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "8.928611 35.515556,8.928611 41.2,26.683611 41.2,26.683611 35.515556,8.928611 35.515556"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

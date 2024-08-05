@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/152259dc-9c20-4c1a-9644-8e4b509d4f73",
+    "name": "MAREANO - Base-line mapping of hyperbenthic crustacea fauna obtained with RP-sledge",
+    "description": "Hyperbenthic decanted crustacea collected with Rothlisberg-Piercy sledge, hauls 5-10 min bottomtime. All samples after 2012 are preserved on board in ethanol. Taxa identified as detailed as possible. Specimens kept at Bergen Museum, Bergen, Norway.",
+    "url": "https://obis.org/dataset/152259dc-9c20-4c1a-9644-8e4b509d4f73",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imr_mareano_rpsledge",
+        "https://doi.org/10.15468/gecvl4"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Buhl-Mortensen, L. (2014). MAREANO - Base-line mapping of hyperbenthic crustacea fauna obtained with RP-sledge. Institute of Marine Research, Norway https://doi.org/10.15468/gecvl4",
+    "version": "2023-12-08T18:20:02.000Z",
+    "keywords": [
+        "Baseline studies",
+        "Ecological baseline studies",
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/gecvl4",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/gecvl4",
+        "url": "https://doi.org/10.15468/gecvl4"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imr_mareano_rpsledge",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.033 62.303,3.033 80.171483333333,36.608333333333 80.171483333333,36.608333333333 62.303,3.033 62.303"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e5220bd7-fdce-4caf-ac02-6670be6bd0fe",
+    "name": "PIFSC, Cetacean Survey, MHI 0901, Cruise 0901, NOAA Pacific Islands Fisheries Science Center",
+    "description": "Original provider:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nDataset credits:\nNOAA Pacific Islands Fisheries Science Center\n\nAbstract:\nThe Pacific Islands Fisheries Science Center conducted cetacean line-transect abundance surveys in the Hawaiian inner exclusive economic zone surrounding the main Hawaiian Islands (4-27 Feb 2009). The grid of tracklines was established prior to the cruise and was intended to replicate the “Main Islands” stratum of the Southwest Fisheries Science Center 2002 Hawaiian Islands Cetacean Ecosystem Assessment Survey. Eighteen days of on-effort survey were completed during the cruise, resulting in 116 sightings of cetaceans including  12 identified species and a number of unidentified cetaceans.\n\nSupplemental information:\nData were collected under NMFS permit 774-1714.\nThe data included here are the sightings and on-effort tracks recorded within WinCruz survey software and extracted from the QA/QC'd DAS file using the R package swfscDAS (https://smwoodman.github.io/swfscDAS).\n\nAttributes for fields within the trackline files:\nCruise - see description in attribute table below\nsegnum - segment number for continuous on-effort line\nDate - Local date m/dd/yyyy\nTimeStart - Local time at start of on-effort segment\nLatStart - Latitude in decimal degrees at starting point of on-effort segment\nLongStart - Longitude in decimal degrees at starting point of on-effort segment\nTimeEnd - Local time at end of on-effort segment\nLatEnd - Latitude in decimal degrees at end point of on-effort segment\nLongEnd - Longitude in decimal degrees at end point of on-effort segment\nMode - see description in attribute table below\nEffType - see description in attribute table below\navgSpdKt - average speed (knots) of the ship over the on-effort segment traveled\navgBft - average Beaufort Sea State over the on-effort segment\n\nOther data not included here:\nPhotos and biopsy samples were collected during some sightings. Acoustic detections were recorded from a towed hydrophone array. Sonobuoys were deployed opportunistically. A High-frequency Acoustic Recording Package (HARP) was recovered and redeployed off the Kona Coast of Hawaii Island. Oceanographic data were collected (CTD, XBT).",
+    "url": "https://obis.org/dataset/e5220bd7-fdce-4caf-ac02-6670be6bd0fe",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2224"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Hill, M. 2023. PIFSC, Cetacean Survey, MHI 0901, Cruise 0901, NOAA Pacific Islands Fisheries Science Center. Data downloaded from OBIS-SEAMAP (https://seamap.env.duke.edu/dataset/2224) on yyyy-mm-dd.",
+    "version": "2023-09-07T15:59:24.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2224",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-160.501 18.9615,-160.501 22.67633,-154.02567 22.67633,-154.02567 18.9615,-160.501 18.9615"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d0fb113f-bead-4429-9fc1-e863e77b0dd8",
+    "name": "PANGAEA - Data from European iron enrichment experiment in the Southern Ocean (EISENEX)",
+    "description": "Large protozoa and phytoplankton abundance measured on concentrated water bottle samples.",
+    "url": "https://obis.org/dataset/d0fb113f-bead-4429-9fc1-e863e77b0dd8",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pangaea_2737"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "<i>Citation available on record-level</i>",
+    "version": "2024-02-26T23:18:22.000Z",
+    "keywords": [
+        "Data",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pangaea_2737",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "20.6473 -48.593,20.6473 -47.6682,21.2293 -47.6682,21.2293 -48.593,20.6473 -48.593"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

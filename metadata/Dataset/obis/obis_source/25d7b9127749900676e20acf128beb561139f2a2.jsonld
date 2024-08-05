@@ -1,0 +1,114 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/962376fb-152a-4dca-be24-a79ad245ca4d",
+    "name": "Dataset from Zostera noltei stationnary monitoring in French coastal waters (Atlantic) since 2011",
+    "description": "French Zostera Marina and Zostera Noltei abundance data are collected during REBENT monitoring surveys on the English Channel / Bay of Biscay coasts. Protocols are implemented in the Water Framework Directive.",
+    "url": "https://obis.org/dataset/962376fb-152a-4dca-be24-a79ad245ca4d",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=zostera_noltei_ifremer"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "DCE-Benthos Network (2022). Dataset from Zostera noltei stationnary monitoring in French coastal waters (Atlantic) since 2011. SEANOE. Https://doi.org/10.17882/60892",
+    "version": "2023-12-08T18:16:35.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Instrument / gear type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Instrument / gear type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform type",
+            "url": "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/",
+            "description": "Platform type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "AbundanceOfBiologicalEntity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL06/",
+            "description": "AbundanceOfBiologicalEntity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "PresenceOrAbsence",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PRESABS1/",
+            "description": "PresenceOrAbsence"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SampleID",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPID01/",
+            "description": "SampleID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingEffort",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "SamplingEffort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SubSamplingCoefficient",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "description": "SubSamplingCoefficient"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SubsampleID",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMID01/",
+            "description": "SubsampleID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water depth (m)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/BATHDPTH/",
+            "description": "Water depth (m)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zostera_noltei_ifremer",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-3.1038744 43.362896,-3.1038744 49.5853004,-1.104867 49.5853004,-1.104867 43.362896,-3.1038744 43.362896"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

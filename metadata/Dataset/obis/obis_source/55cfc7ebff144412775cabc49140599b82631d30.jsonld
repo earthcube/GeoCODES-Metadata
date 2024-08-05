@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4d69d344-5038-4338-abfc-058b96385655",
+    "name": "2016 Aerial survey data of southern right whales (Eubalaena australis) off southern Australia",
+    "description": "These aerial survey data of southern right whales (Eubalaena australis) off southern Australia were collected in August 2016. Such annual flights in winter/spring between Cape Leeuwin (Western Australia) and Ceduna (South Australia) have now been conducted over a 23-year period 1993-2016. These surveys have provided evidence of a population trend of around 6% per year, and a current (at 2014) population size of approximately 2300 of what has been regarded as the 'western' Australian right whale subpopulation. With estimated population size in the low thousands, it is presumed to be still well below carrying capacity. No trend information is available for the 'eastern' subpopulation of animals occurring around the remainder of the southern Australian Coast, to at least as far as Sydney, New South Wales and the populations size is relatively small, probably in the low hundreds. A lower than expected 'western' count in 2015 gives weak evidence that the growth rate may be starting to show signs of slowing, though an exponential increase remains the best description of the data. If the low 2015 count is anomalous, future counts may be expected to show an exponential increase, but if it is not, modelling growth as other than simple exponential may be useful to explore in future.\nQuality\nPhoto quality will be variable and requires assessment prior to assimilation into photo-identification catalogue \nhttp://data.marinemammals.gov.au/arwpic \n\n2018-10-16 \nThe original files from project 'NESP_2016_SRW' was reformatted to fit OBIS/GBFI/IPT Biodiversity.AQ standards, and a new datasheet \"NESTWhaleAerialSurvey2016.csv\" was created. The new dataset contains datasetID, occurrenceID, recordNumber, eventDate, year, month, verbatimLatitude, verbatimLongitude, decimalLatitude, decimalLongitude, locationID, stateProvince, country, countryCode, institutionCode, lifeStage, organismQuantity, organismQuantityType, sex, basisOfRecord, occurrenceStatus, and type. The lowest taxonomical rank of the species identified that could be determined is provided, after matched in WoRMS (World Register of Marine Species).",
+    "url": "https://obis.org/dataset/4d69d344-5038-4338-abfc-058b96385655",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=nesp_2016_srw"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2020-08-26T04:32:39.000Z",
+    "keywords": [
+        "Occurrence",
+        "AIRCRAFT\nCAMERAS\nEARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; MAMMALS &gt; CETACEANS"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=nesp_2016_srw",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "115.6 -34.87,115.6 -31.47,131.42 -31.47,131.42 -34.87,115.6 -34.87"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19301",
+            "@type": "Organization",
+            "legalName": "Commonwealth Scientific and Industrial Research Organisation ",
+            "name": "Commonwealth Scientific and Industrial Research Organisation ",
+            "url": "https://oceanexpert.org/institution/19301"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/18f1a132-414d-4d8d-be02-a5913154c6e4",
+    "name": "Locations at sea of adult females of southern elephant seals (Mirounga leonina) from Península Valdés, Chubut, Argentina",
+    "description": "This resource contains satellite-tracked locations obtained through Argos system from adult females of southern elephant seal of Península Valdés, Argentina, during the pelagic phase in the South Atlantic ocean. The dataset encompasses positions of tags deployed on 4 post-molt females (January 2008) and 5 females in the end of the breeding season (October 2008).",
+    "url": "https://obis.org/dataset/18f1a132-414d-4d8d-be02-a5913154c6e4",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=mleonina_adufem"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Lewis M, Campagna C (2016): Locations at sea of adult females of southern elephant seals (Mirounga leonina) from Península Valdés, Chubut, Argentina. v1.0. ArOBIS Centro Nacional Patagónico. Dataset/Samplingevent. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=mleonina_adufem&amp;v=1.0",
+    "version": "2017-04-05T19:01:17.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Mirounga leonina",
+        "southern elephant seal",
+        "females satellite tracking",
+        "SW Atlantic Ocean",
+        "Patagonia",
+        "locations at sea"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sensor",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sensor"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=mleonina_adufem",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-63.70361 -45.42103,-63.70361 -39.953108,-48.237415 -39.953108,-48.237415 -45.42103,-63.70361 -45.42103"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9605",
+            "@type": "Organization",
+            "legalName": "Wildlife Conservation Society",
+            "name": "Wildlife Conservation Society",
+            "url": "https://oceanexpert.org/institution/9605"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

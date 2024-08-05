@@ -1,0 +1,103 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/415fc669-4d0a-4b31-8658-bd16c8f08293",
+    "name": "Florida Keys Reef Visual Census 1995",
+    "description": "These data are reef fish observations from surveys conducted in the Florida Keys in 1995.  These surveys were part of the developmental years of what became the Reef Visual Census, described in the project metadata, Bohnsack et al. 1999 and Smith et al. 2011",
+    "url": "https://obis.org/dataset/415fc669-4d0a-4b31-8658-bd16c8f08293",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=floridakeysreefvisualcensus1995"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "South Florida Reef Visual Census; https://grunt.sefsc.noaa.gov/rvc_analysis20/samples/index",
+    "version": "2023-03-29T22:10:02.000Z",
+    "keywords": [
+        "CORAL REEF; FISH; FLORIDA KEYS; IOOS; National Oceanic &amp; Atmospheric Administration",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "underwater visibility",
+            "url": "",
+            "description": "underwater visibility"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of species observed during time period",
+            "url": "",
+            "description": "Number of species observed during time period"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "fish length",
+            "url": "",
+            "description": "fish length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=floridakeysreefvisualcensus1995",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.8775 24.454,-81.8775 25.62667,-80.09167 25.62667,-80.09167 24.454,-81.8775 24.454"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7534",
+            "@type": "Organization",
+            "legalName": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "name": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "url": "https://oceanexpert.org/institution/7534"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8124",
+            "@type": "Organization",
+            "legalName": "Rosenstiel School of Marine & Atmospheric Science, University of Miami",
+            "name": "Rosenstiel School of Marine & Atmospheric Science, University of Miami",
+            "url": "https://oceanexpert.org/institution/8124"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18936",
+            "@type": "Organization",
+            "legalName": "Gulf of Mexico Coastal Ocean Observing System",
+            "name": "Gulf of Mexico Coastal Ocean Observing System",
+            "url": "https://oceanexpert.org/institution/18936"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23070",
+            "@type": "Organization",
+            "legalName": "United States Marine Biodiversity Observation Network",
+            "name": "United States Marine Biodiversity Observation Network",
+            "url": "https://oceanexpert.org/institution/23070"
+        }
+    ]
+}

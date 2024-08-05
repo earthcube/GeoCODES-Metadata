@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dd67ceb5-86b4-4841-a223-e668c1909dc6",
+    "name": "RMT Trawl catch from the 2005/06 V3 BROKE-West voyage - Zooplankton",
+    "description": "Samples were collected at trawl stations (approximately every second CTD station), as well as opportunistically when something interesting was spotted on the Echosounder. The samples were collected with an RMT-1 plankton net and preserved in Steedman’s solution. Upon returning to Australia, the samples were passed onto Kerrie Swadling, who split them with a Folsom plankton splitter so that between 400 and 1300 indivduials were counter per sample. Every organism was identified to the lowest possible taxon - in the case of copepods, usually to species and stage level. Other taxa are to species wherever possible. All the animals were counted and the results are expressed as abundance per 1000 cubic m.",
+    "url": "https://obis.org/dataset/dd67ceb5-86b4-4841-a223-e668c1909dc6",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=rmt_zooplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. RMT Trawl catch from the 2005/06 V3 BROKE-West voyage - Zooplankton.",
+    "version": "2021-05-10T02:32:12.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=rmt_zooplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.98412 -69.108,29.98412 -61.663,80.016 -61.663,80.016 -69.108,29.98412 -69.108"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20324",
+            "@type": "Organization",
+            "legalName": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "name": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "url": "https://oceanexpert.org/institution/20324"
+        }
+    ]
+}

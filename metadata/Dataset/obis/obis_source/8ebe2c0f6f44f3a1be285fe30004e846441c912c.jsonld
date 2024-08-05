@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e2f41810-e85c-4531-a213-e441175f0fd9",
+    "name": "RAVON (NL) - Fish observations extracted from Redeke (1907)",
+    "description": "Fish observations from the Zuiderzee extracted from a report by Redeke (1907).",
+    "url": "https://obis.org/dataset/e2f41810-e85c-4531-a213-e441175f0fd9",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_14987",
+        "https://doi.org/10.15468/edt24y"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Reptile, Amphibian and Fish Conservation Netherlands (RAVON): RAVON (NL) - Fish observations extracted from Redeke (1907), 2014-01-19. Accessed via http://www.gbif.org/dataset/0e7bd6f7-7fc6-4150-a531-2209f7156a91 on yyyy-mm-dd https://doi.org/10.15468/edt24y",
+    "version": "2023-12-08T18:31:14.000Z",
+    "keywords": [
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1905/1906",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/edt24y",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/edt24y",
+        "url": "https://doi.org/10.15468/edt24y"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_14987",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "4.65826338 52.27201399,4.65826338 53.269297,5.94744305 53.269297,5.94744305 52.27201399,4.65826338 52.27201399"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4b0fd78e-c074-4b7b-a716-adf7e3917776",
+    "name": "OTN/DFO NE Newfoundland Acoustic Array and Atlantic Cod Tagging - Tag Release Metadata",
+    "description": "This is the OBIS extraction of the OTN/DFO NE Newfoundland Acoustic Array and Atlantic Cod Tagging project, consisting only of the release tagging metadata. i.e. the locations  and dates of tagged animal release. If readers are  interested in the full source  dataset they should refer to the OTN web site  (members.oceantrack.org). Abstract: An extensive network comprising approximately 30 arrays of acoustic receivers (Vemco VR2/VR2W) has been deployed in nearshore waters off the NE coast of Newfoundland; the receivers are in the water throughout the year to provide continuous monitoring and data are uploaded once/twice per year depending on accessibility. Several hundred cod equipped with coded V16 and V13 pingers (including some with depth/temperature sensor tags) have been released inshore and offshore over the past 5 yrs along with &gt;35,000 conventionally (Floy) tagged cod. The primary purpose of the research is to investigate cod stock structure and movement patterns and estimate exploitation rates in support of assessments of the status of the cod stock in NAFO Divs 2J3KL. This is a SPERA project dataset.",
+    "url": "https://obis.org/dataset/4b0fd78e-c074-4b7b-a716-adf7e3917776",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndfo-nafcdfonenewfoundl"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Brattey, J., Morris, C. 2005. DFO NE Newfoundland Acoustic Array and Atlantic Cod Tagging. Version # In OBIS Digital Collections. Published by OBIS, Digital http://www.obis.org/. Accessed on - INSERT DATE",
+    "version": "2019-02-20T15:21:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndfo-nafcdfonenewfoundl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-55.6033 47.3109,-55.6033 49.97017,-50.107 49.97017,-50.107 47.3109,-55.6033 47.3109"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9838",
+            "@type": "Organization",
+            "legalName": "Northwest Atlantic Fisheries Centre (DFO – NWAFC), Fisheries and Oceans Canada",
+            "name": "Northwest Atlantic Fisheries Centre (DFO – NWAFC), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/9838"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

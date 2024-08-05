@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c8f9d44b-9c51-4a7b-b9b2-598393dc904c",
+    "name": "RMT Trawl catch from the 1982/83 V2 ADBEX I voyage",
+    "description": "RMT Trawl catch from the 1985/86 V1 ADBEX I voyage.",
+    "url": "https://obis.org/dataset/c8f9d44b-9c51-4a7b-b9b2-598393dc904c",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=rmt_adbex_i"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. RMT Trawl catch from the 1982/83 V2 ADBEX I voyage.",
+    "version": "2021-05-10T00:06:30.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1982/1982",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=rmt_adbex_i",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "62.75166667 -69.43833333,62.75166667 -60,89.885 -60,89.885 -69.43833333,62.75166667 -69.43833333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

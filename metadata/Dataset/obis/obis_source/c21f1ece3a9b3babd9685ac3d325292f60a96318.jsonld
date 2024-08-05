@@ -1,0 +1,89 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4567d82a-985c-4fca-830f-a1140f644ed2",
+    "name": "Microzooplankton North Adriatic-INTERREG Project",
+    "description": "Microzooplankton data collected in the framework of INTERREG II and III Italy-Slovenia project, implemented on behalf of the Friuli-Venezia Giulia Regional Environment Office by the Marine Biology Laboratory in Trieste, with the contribution of the newly-founded Regional Agency for the Conservation of the Environment (ARPA - Agenzia regionale per la protezione dell'ambiente).",
+    "url": "https://obis.org/dataset/4567d82a-985c-4fca-830f-a1140f644ed2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=microzoo_interreg",
+        "https://doi.org/10.6092/628f1c77-a065-4224-b717-ca0a7c9ec659"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Monti, M.; Beran, A.; Milani, L., Fonda-Umani, S. (2014). Microzooplankton North Adriatic-INTERREG Project. University of Trieste; Marine Biology Laboratory. https://doi.org/10.6092/628f1c77-a065-4224-b717-ca0a7c9ec659",
+    "version": "2023-12-08T17:41:20.000Z",
+    "keywords": [
+        "Biological sampling",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL12/",
+            "description": "Biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2001",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/628f1c77-a065-4224-b717-ca0a7c9ec659",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/628f1c77-a065-4224-b717-ca0a7c9ec659",
+        "url": "https://doi.org/10.6092/628f1c77-a065-4224-b717-ca0a7c9ec659"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=microzoo_interreg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.5646666666667 45.6638333333333,13.5646666666667 45.6935,13.5961666666667 45.6935,13.5961666666667 45.6638333333333,13.5646666666667 45.6638333333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19370",
+            "@type": "Organization",
+            "legalName": "University of Trieste – Marine Biology Laboratory",
+            "name": "University of Trieste – Marine Biology Laboratory",
+            "url": "https://oceanexpert.org/institution/19370"
+        }
+    ]
+}

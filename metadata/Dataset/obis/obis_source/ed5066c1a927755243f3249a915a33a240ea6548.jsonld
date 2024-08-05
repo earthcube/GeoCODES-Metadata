@@ -1,0 +1,89 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3297b6db-7039-4a55-bae8-ffbf214e6dca",
+    "name": "Sample locations for Genetic and Genomic data for scalloped hammerheads (Sphyrna lewini) Australia (2007-2016)",
+    "description": "The sample locations presented are a subset of the samples collected for the analysis of the genetic and genomic data of scalloped hammerheads (Sphyrna lewini) from Australia and Indo-Pacific. See the citation for links to the complete dataset which includes other sample locations (place name only) in the Australian and Asian regions.",
+    "url": "https://obis.org/dataset/3297b6db-7039-4a55-bae8-ffbf214e6dca",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nesp_hammerhead_genetics",
+        "https://doi.org/10.25919/5e5e38f61430b"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Appleyard, Sharon; Green, Madeline (2020): Genetic and Genomic data for scalloped hammerheads (Sphyrna lewini). v1. CSIRO. Data Collection. https://doi.org/10.25919/5e5e38f61430b",
+    "version": "2023-08-11T11:46:12.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "",
+            "description": "Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Clasper Stage",
+            "url": "",
+            "description": "Clasper Stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Clasper Length",
+            "url": "",
+            "description": "Clasper Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.25919/5e5e38f61430b",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25919/5e5e38f61430b",
+        "url": "https://doi.org/10.25919/5e5e38f61430b"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nesp_hammerhead_genetics",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "112.956 -30.84667,112.956 0.91082,155.38385 0.91082,155.38385 -30.84667,112.956 -30.84667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

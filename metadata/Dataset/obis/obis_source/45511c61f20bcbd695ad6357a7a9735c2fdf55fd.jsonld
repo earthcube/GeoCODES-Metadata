@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cfceb150-bbe2-4efb-8682-14cfc7167e7c",
+    "name": "Abundance of Rocky Reef Fishes, Invertebrates and Algae, Reef Check California (RCCA), 2006 - 2017",
+    "description": "Data in this collection include the abundance of organisms observed during Self-Contained Underwater Breathing Apparatus (SCUBA) diver surveys conducted by Reef Check California (RCCA) volunteers in nearshore, rocky reef environments along the coast of California between 2006 and 2019. After completing training through RCCA, volunteer teams of divers select survey sites and perform surveys according to RCCA standard protocol. Since its inception in 2006, RCCA trained divers have conducted thousands of these surveys at hundreds of sites, including sites within more than 50 State Marine Reserves and State Marine Conservation Areas. \n\nAt each site, buddy teams of divers conduct 18, 30 m x 2 m benthic transects to monitor key species of invertebrates, algae and fish. For fish and algae, size measurements are also collected. Finally, the substrate type, biological cover and relief of the reef are characterized, using a Uniform Point Contact (UPC) sampling strategy. Each site is divided into two \"zones\" by depth: shallow (5-12 m) and deep (12-18 m). These zones are distributed from offshore to inshore at sites with little depth variation. Half of the transects are conducted in each zone. RCCA’s survey methods are based on visual census survey methods developed by the Partnership of Interdisciplinary Studies of Coastal Oceans (PISCO) and have been modified so that they can be taught in a reasonable amount of time to volunteer SCUBA divers. Species are selected because of their ecological or economic importance or because they are of specific management interest. \n\nData are presented as three comma-separated values (.csv) files: RCCA_occurrence.csv, RCCA_event.csv and RCCA_MoF.csv. The occurrence file contains the presence/absence and density for 33 invertebrate taxa, 9 algal taxa and 37 fish taxa, identified to the Genus or Species level. The event file contains the location of each site, the depth of each transect, and the date each transect was conducted. The Measurement or Fact (MoF) file contains temperature and visibility measurements taken at the beginning of each transect, the UPC data from each transect, the number of stipes for each giant kelp (Macrocystis pyrifera) observed, the length for each individual fish observed, and the minimum and maximum size for each group of fish observed. This data set was transformed from its native format into a table structure using Darwin Core term names as column names.\n\nOriginal data, additional size data, and full description of methods can be found at these links:\nhttps://opc.dataone.org/view/doi%3A10.25494%2FP6JS3M, https://opc.dataone.org/view/doi%3A10.25494%2FP69885, https://opc.dataone.org/view/doi%3A10.25494%2FP65K5W, https://opc.dataone.org/view/doi%3A10.25494%2FP6F30N \n\nThe data has these identifiers: doi:10.25494/P6JS3M,  doi:10.25494/P69885, doi:10.25494/P65K5W, doi:10.25494/P6F30N",
+    "url": "https://obis.org/dataset/cfceb150-bbe2-4efb-8682-14cfc7167e7c",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=rcca_transects"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2023-01-18T20:38:20.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "visibility",
+            "url": "",
+            "description": "visibility"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "temperature",
+            "url": "",
+            "description": "temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "relief",
+            "url": "",
+            "description": "relief"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "substrate",
+            "url": "",
+            "description": "substrate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "cover",
+            "url": "",
+            "description": "cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "",
+            "description": "length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "size",
+            "url": "",
+            "description": "size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "minimum length",
+            "url": "",
+            "description": "minimum length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "maximum length",
+            "url": "",
+            "description": "maximum length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=rcca_transects",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-124.294724 32.694233000000004,-124.294724 42.045155,-117.264999 42.045155,-117.264999 32.694233000000004,-124.294724 32.694233000000004"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23070",
+            "@type": "Organization",
+            "legalName": "United States Marine Biodiversity Observation Network",
+            "name": "United States Marine Biodiversity Observation Network",
+            "url": "https://oceanexpert.org/institution/23070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23204",
+            "@type": "Organization",
+            "legalName": "Central & Northern California Ocean Observing System",
+            "name": "Central & Northern California Ocean Observing System",
+            "url": "https://oceanexpert.org/institution/23204"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23205",
+            "@type": "Organization",
+            "legalName": "Reef Check Foundation",
+            "name": "Reef Check Foundation",
+            "url": "https://oceanexpert.org/institution/23205"
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/654629d8-915b-45ba-a609-f025f84f8215",
+    "name": "Macrobenthos Data from Shoreham, the Tyne and the Thames Estuaries, UK, 2000 to 2006",
+    "description": "These data describe counts of macrobenthic infauna (with associated station metadata) taken from sediment samples collected at sites in the Tyne, Thames and Shoreham, UK from 2000 to 2006. For selected samples, wet biomass data is also included per taxon. The samples from the Shoreham site were collected across an aggregate extraction area over 4 years with the aim to test several habitat mapping techniques by documenting the presence of different faunal levels across the area. The samples collected at the Tyne and Thames were initiated at former sewage sludge disposal sites. Cefas conducted annual sampling in these areas during and post cessation of sewage disposal after January 1999 to monitor the benthic macrofauna community.",
+    "url": "https://obis.org/dataset/654629d8-915b-45ba-a609-f025f84f8215",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cefas_02",
+        "https://doi.org/10.14466/CefasDataHub.45"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Rees et al.; (2020): Macrobenthos Data from Shoreham, the Tyne and the Thames Estuaries, UK, 2000 to 2006. Cefas, UK. V1. https://doi.org/10.14466/CefasDataHub.45",
+    "version": "2024-02-27T00:09:07.000Z",
+    "keywords": [
+        "Abundance",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "AreaBedSamp",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "AreaBedSamp"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sieveMeshSize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "sieveMeshSize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ObservedIndividualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "ObservedIndividualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "description": "biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gender",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Gender"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2006",
+    "identifier": {
+        "@id": "https://doi.org/10.14466/CefasDataHub.45",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14466/CefasDataHub.45",
+        "url": "https://doi.org/10.14466/CefasDataHub.45"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cefas_02",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-1.3745 50.642,-1.3745 55.0622,1.2136 55.0622,1.2136 50.642,-1.3745 50.642"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

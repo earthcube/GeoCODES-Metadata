@@ -1,0 +1,91 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fbfec490-ee3a-404c-80b2-9432345bcb15",
+    "name": "Benthos Westerschelde 1963-2012",
+    "description": "Benthos Westerschelde 1963-2012",
+    "url": "https://obis.org/dataset/fbfec490-ee3a-404c-80b2-9432345bcb15",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=benthosws"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "NIOZ (2023) Benthos Westerschelde 1963-2012",
+    "version": "2023-12-08T17:48:34.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ash-free dry weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL03/",
+            "description": "Ash-free dry weight biomass of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Wet weight biomass of biological entity specified elsewhere per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1963/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=benthosws",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.587677 51.33645,3.587677 51.458212,4.246143 51.458212,4.246143 51.33645,3.587677 51.33645"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7656",
+            "@type": "Organization",
+            "legalName": "Koninklijk Nederlands Instituut voor Onderzoek der Zee",
+            "name": "Koninklijk Nederlands Instituut voor Onderzoek der Zee",
+            "url": "https://oceanexpert.org/institution/7656"
+        }
+    ]
+}

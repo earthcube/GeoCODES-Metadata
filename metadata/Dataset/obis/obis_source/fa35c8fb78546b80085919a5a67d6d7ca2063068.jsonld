@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6acbc1d8-419e-4b2f-963f-0d8770d8297b",
+    "name": "Zooplankton biodiversity along the central coast in the Brazilian EEZ (OBIS South America, BRAZIL)",
+    "description": "This volume of the REVIZEE Documents Series presents, in atlas form, the principal groups of the zooplankton community recorded during the Program to Evaluate the Sustainable Potential of Living Resources in the Exclusive Economic Zone (REVIZEE) - SCORE Central. The specimens were collected during the Central III, Central IV and Bahia 1 campaigns, in the period from 1998 through 2000. The collections were made between the Real River in Bahia (12 degrees S) and Cape São Tomé in Rio de Janeiro (22oS), including the seamounts of the Vitória-Trindade and Martin Vaz chain.",
+    "url": "https://obis.org/dataset/6acbc1d8-419e-4b2f-963f-0d8770d8297b",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=zooplankton_central_coast_revizee",
+        "http://doi.org/10.25607/vv7aof"
+    ],
+    "license": "Unrestricted",
+    "citation": "Bonecker, S.L.C. (ed.) 2006. Atlas de zooplâncton da região central da Zona Econômica Exclusiva brasileira. Rio de Janeiro: Museu Nacional, 2006. (Série Livros; 21) 234 p. ISBN 85-7427-016-4",
+    "version": "2021-07-02T11:01:36.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2000",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/vv7aof",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/vv7aof",
+        "url": "http://doi.org/10.25607/vv7aof"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=zooplankton_central_coast_revizee",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-41.0291666667 -24.3083333333,-41.0291666667 -11.44,-28.8186666667 -11.44,-28.8186666667 -24.3083333333,-41.0291666667 -24.3083333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

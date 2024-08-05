@@ -1,0 +1,76 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d2fe1f97-a9a8-4911-bb47-2c764ce64fb0",
+    "name": "Edward Forbes. Report on the Mollusca and Radiata of the Aegean Sea, and on their distribution, considered as bearing on Geology. 13th Meeting of the British Association for the Advancement of Science, London, 1844.",
+    "description": "A historical dataset, by Edward Forbes, Professor of Botany in King's College, London. This digitised report, requested by the British Association, refers to the Mollusca and Radiata inhabiting the Aegean and the Red Sea. The data upon which this report is founded have been entirely derived from a voyage of 18 months to the Aegean. The calculations have been based upon more than 100 fully recorded dredging operations in various depths and in many localities. The digitization process concerns the Appendix of the Report, which refers to the Examples of Dredging Papers, selected in order to show the associations of species in several regions. The numerous dredging operations on which this Report is founded were all registered in a similar manner. ",
+    "url": "https://obis.org/dataset/d2fe1f97-a9a8-4911-bb47-2c764ce64fb0",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=mollusca_forbes",
+        "http://doi.org/10.25607/dppswx"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Mavraki D., Sarafidou G., Legaki A., Nikolopoulou S., and V. Gerovasileiou (2021). Digitization of the dredging papers included in the Report on the Mollusca and Radiata of the Aegean Sea, and on their distribution, considered as bearing on Geology by Edward Forbes, 13th Meeting of the British Association for the Advancement of Science, London, 1844.",
+    "version": "2023-03-22T08:20:33.000Z",
+    "keywords": [
+        "Sampling event",
+        "Historical Dataset",
+        "Mollusca"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ObservedIndividualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "ObservedIndividualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1841/1843",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/dppswx",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/dppswx",
+        "url": "http://doi.org/10.25607/dppswx"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=mollusca_forbes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "22.962239 36.361667,22.962239 38.580856,29.105278 38.580856,29.105278 36.361667,22.962239 36.361667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

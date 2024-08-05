@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9ddcb9c5-0312-4e94-952d-87f824399226",
+    "name": "Poríferos de la Colección de Referencia de Biología Marina de la Universidad del Valle (CRBMpor-UV)",
+    "description": "Este conjunto de datos hace parte de la Colección de Referencia de Biología Marina de la Universidad del Valle. Posee 17 registros iniciales de esponjas (todos de la clase Demospongiae), pertenecientes en su totalidad a la región del Pacífico colombiano. Los registros datan desde el año 2017 hasta el año 2022, en donde el Biólogo Edgardo Londoño-Cruz PhD. fue quien inició con esta colección.",
+    "url": "https://obis.org/dataset/9ddcb9c5-0312-4e94-952d-87f824399226",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=crbmpor-uv",
+        "https://doi.org/10.15472/k8z5po"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Salazar Hernandez J A, Londoño-Cruz E, Montoya-Cadavid E (2023): Poríferos de la Colección de Referencia de Biología Marina de la Universidad del Valle (CRBMpor-UV). v1.0. Universidad del Valle. Dataset/Occurrence. https://doi.org/10.15472/k8z5po",
+    "version": "2023-07-04T04:56:39.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Porífera",
+        "Esponjas",
+        "Pacífico colombiano",
+        "Universidad del Valle"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/k8z5po",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/k8z5po",
+        "url": "https://doi.org/10.15472/k8z5po"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=crbmpor-uv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.61339 2.94095,-81.61339 4.0122,-77.25778 4.0122,-77.25778 2.94095,-81.61339 2.94095"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

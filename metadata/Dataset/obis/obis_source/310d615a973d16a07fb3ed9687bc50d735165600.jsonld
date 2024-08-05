@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c6ac36b6-2d0c-4d86-9bd1-d5401045e33b",
+    "name": "HMAP Dataset 14: Galapagos Marine Reserve, Ecuador II",
+    "description": "This dataset contains data on historical catch and effort statistics for sea cucumber, spiny lobster and finfish fisheries in the Galapagos Marine Reserve since 1961.",
+    "url": "https://obis.org/dataset/c6ac36b6-2d0c-4d86-9bd1-d5401045e33b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_14"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "M. Castrejón and J. Moreno, 'HMAP Dataset 14: Galapagos Marine Reserve, Ecuador II', in J.H. Nicholls (comp.) HMAP Data Pages (https://oceanspast.org/hmap_db.php)",
+    "version": "2023-12-08T18:30:28.000Z",
+    "keywords": [
+        "Fish catch statistics",
+        "Fishery statistics",
+        "Fishing effort statistics",
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_14",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-91.6604309082031 -1.40910005569458,-91.6604309082031 0.64709997177124,-89.2403030395508 0.64709997177124,-89.2403030395508 -1.40910005569458,-91.6604309082031 -1.40910005569458"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17927",
+            "@type": "Organization",
+            "legalName": "University of Hull, Oceans Past Initiative",
+            "name": "University of Hull, Oceans Past Initiative",
+            "url": "https://oceanexpert.org/institution/17927"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18303",
+            "@type": "Organization",
+            "legalName": "Fundación Charles Darwin",
+            "name": "Fundación Charles Darwin",
+            "url": "https://oceanexpert.org/institution/18303"
+        }
+    ]
+}

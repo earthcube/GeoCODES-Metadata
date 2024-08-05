@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1518e369-0e28-4734-b85e-bc1c1ed4f00d",
+    "name": "Marine Invertebrata specimen database of Osaka Museum of Natutal History",
+    "description": "Marine Invertebrata specimen database of Osaka Museum of Natutal History",
+    "url": "https://obis.org/dataset/1518e369-0e28-4734-b85e-bc1c1ed4f00d",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=omnh_lv"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Ishida S (2016). Marine Invertebrata specimen database of Osaka Museum of Natutal History. National Institute of Genetics, ROIS. Occurrence dataset https://doi.org/10.15468/zhubgk accessed via GBIF.org on yyyy-mm-dd.",
+    "version": "2023-12-07T07:19:36.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1951/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=omnh_lv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "124.146 -31.633301,124.146 44.053101,159.05 44.053101,159.05 -31.633301,124.146 -31.633301"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

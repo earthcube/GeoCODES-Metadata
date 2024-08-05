@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/44b2cad5-bf98-4332-88d8-ee1934f1c332",
+    "name": "Abundance of Posidonie species - Posidonia oceanica (Linnaeus) Delile, 1813 - in Mediterraneen Sea",
+    "description": "Posidonia oceanica meadows data are collected in Mediterranean sea, in particular for the implementation of the Water Framework Directive.",
+    "url": "https://obis.org/dataset/44b2cad5-bf98-4332-88d8-ee1934f1c332",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=posidonie_data_collected_during_the_rebent_project_from_march_2007_to_june_2019"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "REBENT Network (2021). Abundance of Posidonie species - Posidonia oceanica (Linnaeus) Delile, 1813 - in Mediterraneen Sea",
+    "version": "2023-03-09T02:15:15.000Z",
+    "keywords": [
+        "European Water Framework Directive (WFD)",
+        "Marine",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Instrument.Info",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Instrument.Info"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ObservedIndividualCount..dimensionless.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "ObservedIndividualCount..dimensionless."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingEffort..m2.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "SamplingEffort..m2."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SubSamplingCoefficient..dimensionless.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "description": "SubSamplingCoefficient..dimensionless."
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=posidonie_data_collected_during_the_rebent_project_from_march_2007_to_june_2019",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.15967 41.36634,3.15967 43.76498,9.57075 43.76498,9.57075 41.36634,3.15967 41.36634"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16194",
+            "@type": "Organization",
+            "legalName": "Université de Liège",
+            "name": "Université de Liège",
+            "url": "https://oceanexpert.org/institution/16194"
+        }
+    ]
+}

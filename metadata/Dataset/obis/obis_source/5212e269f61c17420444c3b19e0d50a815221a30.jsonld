@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e164a936-41a4-408a-a4ca-1f01c82954c7",
+    "name": "Marine Microbes from RV Investigator voyage IN2016_T01, Australia (2016)",
+    "description": "This dataset was acquired on the RV Investigator voyage IN2016_T01. The aim was the investigation into the microbial contribution to C, N and S cycling in the Coral Sea. Full details of data, reports and publications of the voyage is at http://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2016_T01",
+    "url": "https://obis.org/dataset/e164a936-41a4-408a-a4ca-1f01c82954c7",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bioplatforms_mm_in2016_t01"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Please see https://www.australianmicrobiome.com/protocols/acknowledgements/ for citation examples and links to the data policy.",
+    "version": "2020-11-19T11:18:25.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bioplatforms_mm_in2016_t01",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "152.25268 -34.98522,152.25268 -20.00675,171.295 -20.00675,171.295 -34.98522,152.25268 -34.98522"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/15442",
+            "@type": "Organization",
+            "legalName": "University of Technology, Sydney",
+            "name": "University of Technology, Sydney",
+            "url": "https://oceanexpert.org/institution/15442"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        }
+    ]
+}

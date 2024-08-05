@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a666081f-572e-4371-b609-0d38362c3829",
+    "name": "Atlantic grey seal breeding colonies in Hay and Saddle Islands, Nova Scotia",
+    "description": "Original provider:\nDuke Marine Robotics and Remote Sensing Lab\n\nDataset credits:\nDuke Marine Robotics and Remote Sensing Lab\n\nAbstract:\nThese RGB mosaics and thermal indices of Atlantic grey seal colonies at Hay and Saddle Island, Nova Scotia, were collected by small unmanned aircraft systems (UAS). The mosaics and thermal indices were assessed by human analysts, who counted the seals in the mosaic and classified individuals as 'young of the year' or 'adult'. Concurrently, an automated detection and classification model was applied to the datasets and compared to human counts.\n\nPurpose:\nThese datasets were used to assess Atlantic grey seal populations and to compare and test wildlife survey methods.\n\nSupplemental information:\nThe downloadable shapefile includes TIFF images of RGB mosaics and thermal indices. The size of the zipped file is 1GB and may take a long time to download.\n\nWithin the dowloaded file, the 'Analysis Materials' folders contain point shapefiles of the seals counted and classified by human analysts. In addition, the folders contain the landscape masks that were applied to the thermal indices before running the automated detection models.",
+    "url": "https://obis.org/dataset/a666081f-572e-4371-b609-0d38362c3829",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1462"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Seymour, A., Dale, J., Hammill, M., Halpin, P and Johnston, D. 2017. Automated detection and enumeration of marine wildlife using unmanned aircraft systems (UAS) and thermal imagery. Scientific Reports. 7: 45127.",
+    "version": "2021-04-24T06:26:16.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Computer Vision,Unmanned Aerial Vehicals,UAV,Unmanned Aircraft Systems,UAS",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1462",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-63.252503 45.813784,-63.252503 46.024682,-59.683002 46.024682,-59.683002 45.813784,-63.252503 45.813784"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

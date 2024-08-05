@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a951be55-4e8f-4551-9892-2c4879c6265a",
+    "name": "Australian National Wildlife Collection provider for OZCAM - Marine records",
+    "description": "Australia's wildlife heritage through the collection of land vertebrates including birds, amphibians, reptiles and mammals. ANWC is part of the Australia's Commonwealth Scientific and Industrial Research Organisation (CSIRO. Further details at https://www.csiro.au/en/Research/Collections/ANWC\nRecords provided by Australian National Wildlife Collection, accessed through Atlas of Living Australia website. Occurrence download at http://biocache.ala.org.au/occurrences/search?&amp;q=data_resource_uid%3Adr341&amp;fq=species_habitats%3A%22Marine%22 accessed on Fri Mar 10 09:40:03 UTC 2017. Species were matched to the LSID from WoRMS and recorded in the scientificnameId field. The 2667 records with basisofrecord set as 'MaterialSample' have been changed to 'PreservedSpecimen'",
+    "url": "https://obis.org/dataset/a951be55-4e8f-4551-9892-2c4879c6265a",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_anwc_marine"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cawsey M (2023): Australian National Wildlife Collection provider for OZCAM - Marine records. v1.11. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=csiro_anwc_marine&amp;v=1.11",
+    "version": "2023-08-11T11:18:43.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1879/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_anwc_marine",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.5833 -77.5,-179.5833 78.6452,174.45 78.6452,174.45 -77.5,-179.5833 -77.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

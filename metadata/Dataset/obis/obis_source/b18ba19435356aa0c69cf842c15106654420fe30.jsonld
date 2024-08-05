@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9e2005b5-0e20-4701-bbdb-bd441bd65ea3",
+    "name": "Occurrences of HAB species in the Mediterranean",
+    "description": "This dataset contains occurrences of HAB species in the Mediterranean found in literature.\n\nProtoceratium reticulatum is considered uncertain in all cases when molecular or toxin data are lacking: in these cases it could be the species Pentaplacodinium saltoense/Ceratocorys mariaovidiorum. Chattonella subsalsa from Sardinia includes 2 genotypes. Pseudo-nitzschia seriata is not in in the Mediterranean Sea, all records were uploaded as \"Pseudo-nitzschia\". Ostreopsis ovata is changed to  Ostreopsis cf. ovata in all records, since the type material is not available and so the proper identification of the species is not possible. Dinophysis acuminata has been considered \"probable\" since the presence of this species in the Mediterranean Sea is not clear.",
+    "url": "https://obis.org/dataset/9e2005b5-0e20-4701-bbdb-bd441bd65ea3",
+    "sameAs": [
+        "http://ipt.iobis.org/hab/resource?r=hab-mediterranean"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2020-05-13T12:08:49.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1909/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/hab/archive.do?r=hab-mediterranean",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.55 31.15,-5.55 46.6844,90.317 46.6844,90.317 31.15,-5.55 31.15"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8450",
+            "@type": "Organization",
+            "legalName": "The Stazione Zoologica Anton Dohrn",
+            "name": "The Stazione Zoologica Anton Dohrn",
+            "url": "https://oceanexpert.org/institution/8450"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16122",
+            "@type": "Organization",
+            "legalName": "Aristotle University of Thessaloniki",
+            "name": "Aristotle University of Thessaloniki",
+            "url": "https://oceanexpert.org/institution/16122"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17805",
+            "@type": "Organization",
+            "legalName": "UNESCO-IOC",
+            "name": "UNESCO-IOC",
+            "url": "https://oceanexpert.org/institution/17805"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19657",
+            "@type": "Organization",
+            "legalName": "Alexandria University-Faculty of Science- Oceanography Department",
+            "name": "Alexandria University-Faculty of Science- Oceanography Department",
+            "url": "https://oceanexpert.org/institution/19657"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ca6b412a-6106-4c21-8a0a-9d51be84a3c8",
+    "name": "Data on cetacean strandings on the Ukrainian coast of the Black Sea (2017)",
+    "description": "This nation-wide dataset contains data on cetacean strandings recorded on the Ukrainian coast of the Black sea by researchers from a few institutions and personally reported by local residents and visitors, with photographs. Creation of the dataset was recommended by the Research Council on Marine Mammal Protection and the Ministry of Ecology and National Resources of Ukraine. Some field activities in 2017 were funded by the ACCOBAMS (project “Identification and initial assessment of cetacean groupings in coastal waters of the north-western Black Sea, Ukrainian sector”)",
+    "url": "https://obis.org/dataset/ca6b412a-6106-4c21-8a0a-9d51be84a3c8",
+    "sameAs": [
+        "http://gp.sea.gov.ua:8082/ipt/resource?r=strandings2017"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Vishnyakova K, Savenko O, Gladilina E, Gol'din P, Neprokin O (2017): Data on cetacean strandings on the Ukrainian coast of the Black Sea (2017). v1.6. Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES). Dataset/Occurrence. http://gp.sea.gov.ua:8082/ipt/resource?r=strandings2017&amp;v=1.6",
+    "version": "2018-03-26T19:03:20.000Z",
+    "keywords": [
+        "Occurrence",
+        "Black Sea",
+        "cetaceans",
+        "Observation",
+        "strandings"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://gp.sea.gov.ua:8082/ipt/archive.do?r=strandings2017",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.623506 44.40532,29.623506 46.980419,36.644972 46.980419,36.644972 44.40532,29.623506 44.40532"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11858",
+            "@type": "Organization",
+            "legalName": "Ukrainian Scientific Centre of Ecology of the Sea",
+            "name": "Ukrainian Scientific Centre of Ecology of the Sea",
+            "url": "https://oceanexpert.org/institution/11858"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19423",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences – I. I. Schmalhausen Institute of Zoology",
+            "name": "National Academy of Sciences – I. I. Schmalhausen Institute of Zoology",
+            "url": "https://oceanexpert.org/institution/19423"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1004a490-c117-4712-9868-a8412420f4c8",
+    "name": "TOPP Fish (TOPP)",
+    "description": "TOPP Fish (TOPP)",
+    "url": "https://obis.org/dataset/1004a490-c117-4712-9868-a8412420f4c8",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=topp_fish"
+    ],
+    "license": "Unrestricted",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=topp_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-78 -40,-78 42,180 42,180 -40,-78 -40"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

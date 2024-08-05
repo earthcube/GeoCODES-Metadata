@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b3821368-8599-47b4-b13c-4ccfbed920b4",
+    "name": "MARMAP Bottom Longline 1990-2009",
+    "description": "Abundance and biomass of fish species collected during the day from 1983 to 2000 off the coast of the southeastern United States (Cape Fear, NC to Cape Canaveral, FL). Bottom Longlines are constructed of 3.2-mm galvanized cable (1525 m long), deployed from a longline reel with 1220 m of cable used as groundline and the remaining 305 m buoyed to the surface. The groundline consists of a 10 kg weight attached to the terminal end, 100 gangions (comprising of an AK snap, approximately 0.5 m of 90 kg monofilament and a tuna circle hook at 12-m intervals) attached to the groundline, and another weight at the groundline’s buoy end. From 1982 through 1987 hook sizes were #5, #7 or #9; after 1996 the hook sizes were #5 or #7.",
+    "url": "https://obis.org/dataset/b3821368-8599-47b4-b13c-4ccfbed920b4",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=marmap_bottomlongline"
+    ],
+    "license": "Restricted",
+    "citation": "Marcel Reichert, 2010, MARMAP Bottom Longline 1990-2009, SCDNR/NOAA MARMAP Program, SCDNR MARMAP Aggregate data surveys, The Marine Resources Monitoring, Assessment, and Prediction (MARMAP) Program, Marine Resources Research Institute, South Carolina Department of Natural Resources, P. O. Box 12559, Charleston SC 29422-2559, U.S.A.Retrieved from http://www.usgs.gov/obis-usa/",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=marmap_bottomlongline",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.1399993896 27.9300003052,-80.1399993896 32.7299995422,-78.0899963379 32.7299995422,-78.0899963379 27.9300003052,-80.1399993896 27.9300003052"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

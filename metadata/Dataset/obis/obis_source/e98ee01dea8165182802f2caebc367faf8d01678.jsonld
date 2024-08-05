@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5e5197d2-8a17-49c3-9197-758091a2cc48",
+    "name": "Tasmanian Marine Molluscs Observational Records (2003-2017)",
+    "description": "The Molluscs of Tasmania http://www.molluscsoftasmania.org.au/) contains information on all the marine mollusc species that are currently recognised as occurring in Tasmanian waters by the author of these pages, Simon Grove. This project grew out of the 2006 publication of A systematic list of the marine molluscs of Tasmania, by Simon Grove, Ron Kershaw, Brian Smith and Elizabeth Turner. Because molluscan taxonomy is in a continual state of flux, and because our understanding of what species occur in Tasmania is advancing all the time, a paper publication on this subject rapidly becomes outdated as new species are discovered, new names and taxonomic relationships are introduced and old ones invalidated.\nNearly all records from this provider are from beached material ('death assemblages'), and do not necessarily indicate the presence of live animals at the recorded locality. Images and other distribution records are available at the Molluscs of Tasmania website.\nThis data set of 20,000 records sourced from Simon Groves, September 2017. Taxa (463 species out of 473) have been matched to the World Register of Marine Species.",
+    "url": "https://obis.org/dataset/5e5197d2-8a17-49c3-9197-758091a2cc48",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=tasmanian_molluscs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Grove, S.J. (2017). A Guide to the Seashells and other Marine Molluscs of Tasmania, web-site. http://www.molluscsoftasmania.org.au",
+    "version": "2022-06-07T06:01:50.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=tasmanian_molluscs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "143.8446 -43.611,143.8446 -39.587,148.3571 -39.587,148.3571 -43.611,143.8446 -43.611"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19431",
+            "@type": "Organization",
+            "legalName": "Tasmanian Museum and Art Gallery – Collections and Research Facility",
+            "name": "Tasmanian Museum and Art Gallery – Collections and Research Facility",
+            "url": "https://oceanexpert.org/institution/19431"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

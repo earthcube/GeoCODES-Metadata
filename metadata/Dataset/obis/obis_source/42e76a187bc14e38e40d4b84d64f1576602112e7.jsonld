@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dd7b09c3-137c-443d-a145-2401f400c441",
+    "name": "Australian Museum Ornithology Collection - marine records",
+    "description": "Specimens of rare and extinct Australian and international bird species. Historical Australian collections from 1860s onwards. This dataset resticted to marine birds.",
+    "url": "https://obis.org/dataset/dd7b09c3-137c-443d-a145-2401f400c441",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=am_ornithology"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Boles W (2022): Australian Museum Ornithology Collection - marine records. v1.12. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=am_ornithology&amp;v=1.12",
+    "version": "2022-06-08T05:29:27.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1861/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=am_ornithology",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-165.966 -68.333,-165.966 68.133,177.083 68.133,177.083 -68.333,-165.966 -68.333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19275",
+            "@type": "Organization",
+            "legalName": "Australian Museum",
+            "name": "Australian Museum",
+            "url": "https://oceanexpert.org/institution/19275"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

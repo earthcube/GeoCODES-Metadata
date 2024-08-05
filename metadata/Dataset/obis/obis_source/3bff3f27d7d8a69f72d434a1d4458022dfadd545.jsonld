@@ -1,0 +1,100 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a94aa77d-c064-48b6-9101-b2091f074c09",
+    "name": "Mesopelagic Crustaceans of the North Western Portuguese Coast between 1998 and 2000",
+    "description": "The objective of this data collection was to study the structure of the mesopelagic ecosistem off the Northwestern Portuguese coast which is composed by planktonic and nectonics organisms. Mesopelagic organisms live during the day concentrating in big numbers in deeper depths while during the night migrates towards the upper layers.  The data was collected aiming to study the composition and the Dynamics of the mesopelagic community and their trophic relations with the fish in the area. Data was collected with an Isaac-Kidd midwater trawl in May 1998 and 2000 and February 1999, together with environmental parameters as temperature, salinity, etc.",
+    "url": "https://obis.org/dataset/a94aa77d-c064-48b6-9101-b2091f074c09",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dsl-crustaceans",
+        "https://dx.doi.org/10.14284/466"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Dos Santos, A.; Marraccini, A.; Afonso, C.; Correia, C.; Cunha, M. E.; Quintela, M. F. (2017). Mesopelagic Crustaceans of the North Western Portuguese Coast. https://dx.doi.org/10.14284/466",
+    "version": "2023-05-23T11:27:37.000Z",
+    "keywords": [
+        "Mesopelagic zone",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Trawled Time",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Trawled Time"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gender of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Gender of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2000",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/466",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/466",
+        "url": "https://dx.doi.org/10.14284/466"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dsl-crustaceans",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-9.735 38.575,-9.735 41.805,-9.16 41.805,-9.16 38.575,-9.735 38.575"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/14932",
+            "@type": "Organization",
+            "legalName": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "name": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "url": "https://oceanexpert.org/institution/14932"
+        }
+    ]
+}

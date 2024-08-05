@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9f1a9d1c-833e-4fbc-9ecf-1918c7a8b699",
+    "name": "Canadian Museum of Nature Fish Collection",
+    "description": "Our Fish Collection contains more than 754 190 specimens in 63 655 lots of fluid-preserved specimens. We have about 1740 type specimens that are mainly paratypes. We have a good representation of freshwater and marine species, predominately from North American high latitudes. The museum holds the best Canadian Arctic and lamprey collection in the world.",
+    "url": "https://obis.org/dataset/9f1a9d1c-833e-4fbc-9ecf-1918c7a8b699",
+    "sameAs": [
+        "http://ipt.nature.ca/resource?r=cmn_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Khidas K (2024): Canadian Museum of Nature Fish Collection. v1.135. Canadian Museum of Nature. Dataset/Occurrence. http://ipt.nature.ca/resource?r=cmn_fish&amp;v=1.135",
+    "version": "2024-01-08T15:27:31.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1875/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.nature.ca/archive.do?r=cmn_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.733 -77.8667,-179.733 85.8075,179.733 85.8075,179.733 -77.8667,-179.733 -77.8667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5222",
+            "@type": "Organization",
+            "legalName": "Canadian Museum of Nature, Research & Collections",
+            "name": "Canadian Museum of Nature, Research & Collections",
+            "url": "https://oceanexpert.org/institution/5222"
+        }
+    ]
+}

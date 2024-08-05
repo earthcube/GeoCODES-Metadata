@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b8a0d284-fa0a-4a20-8d27-0e736a42ae25",
+    "name": "Marine and Coastal Management - Copepod Surveys",
+    "description": "Marine and Coastal Management (MCM) is one of four branches of the Department of Environmental Affairs and Tourism. Their copepod data set has been collected from cruises around the South African Coast, and currently contains 91705 records of 9 families.",
+    "url": "https://obis.org/dataset/b8a0d284-fa0a-4a20-8d27-0e736a42ae25",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=mcm_copepod"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marine and Coastal Management - Copepod Surveys",
+    "version": "2020-12-02T14:08:59.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=mcm_copepod",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.891699791 -36.9399986267,14.891699791 -26.75,26.9029998779 -26.75,26.9029998779 -36.9399986267,14.891699791 -36.9399986267"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

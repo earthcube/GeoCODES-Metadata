@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3e9b3c7e-d405-4333-b545-9ebe92cd1660",
+    "name": "Biopearl expedition: SeaStars (Echinodermata, Asteroidea)",
+    "description": "This dataset includes information on sea stars collected during the Biopearl (Biodiversity, Phylogeny, Evolution and Adaptive Radiation of Life in Antarctica) expedition (2006). The expedition focused on 29 stations along the Scotia Arc at 4 different depths (200, 500, 1000, 1500 m), using an Epibenthic Sledge (EBS). \nSynonymy was resolved by consulting the Register of Antarctic Marine Species (RAMS), that is accessible via internet and that compiles the most recent information about Antarctic asteroid taxonomy (Danis &amp; Jangoux, 2007), delivering us in this way the valid species names.",
+    "url": "https://obis.org/dataset/3e9b3c7e-d405-4333-b545-9ebe92cd1660",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=biopearl_asteroida"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "British Antarctic Survey, BIOPEARL I expedition  JR 144 on RRS James Clark Ross",
+    "version": "2019-03-19T14:48:04.000Z",
+    "keywords": [
+        "BIC",
+        "Distribution",
+        "Echinoderm",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=biopearl_asteroida",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-61.74768 -62.34795,-61.74768 -53.611105,-27.280495 -53.611105,-27.280495 -62.34795,-61.74768 -62.34795"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5163",
+            "@type": "Organization",
+            "legalName": "British Antarctic Survey",
+            "name": "British Antarctic Survey",
+            "url": "https://oceanexpert.org/institution/5163"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

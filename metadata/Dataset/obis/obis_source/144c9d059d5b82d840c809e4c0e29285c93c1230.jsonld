@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/56e153b6-9480-4bd6-8875-f3871d41dcc8",
+    "name": "Western Australian Seabirds",
+    "description": "The Western Australian Department of Environment and Conservation (DEC) Seabird Island Database includes all available literature records since the publication of The Handbook of Australian Seabirds (Serventy et al. 1971) (plus selected references prior to that date), data from our own and colleagues' field note books, data from the Birds Australia Nest Records Scheme (up to 1985) and information provided by scientists and naturalists via a Seabird Breeding Islands Database Form. The Database is designed to be used by conservation managers, scientists and naturalists and depends on the contributions of interested people.\nData downloaded from ALA (http://collections.ala.org.au/public/show/dr792) and taxa matched to the World Register of Marine Species",
+    "url": "https://obis.org/dataset/56e153b6-9480-4bd6-8875-f3871d41dcc8",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=wa_seabirds_obis"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Burdidge A (2023): Western Australian Seabirds. v1.1. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=wa_seabirds_obis&amp;v=1.1",
+    "version": "2023-07-14T00:37:45.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1929/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=wa_seabirds_obis",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.053 -35.182,113.053 -12.2423,128.7752 -12.2423,128.7752 -35.182,113.053 -35.182"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19314",
+            "@type": "Organization",
+            "legalName": "Western Australian Parks and Wildlife Service",
+            "name": "Western Australian Parks and Wildlife Service",
+            "url": "https://oceanexpert.org/institution/19314"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

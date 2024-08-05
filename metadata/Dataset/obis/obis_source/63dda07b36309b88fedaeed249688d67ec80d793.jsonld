@@ -1,0 +1,99 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/15ab464d-e8d0-47c7-8003-29b88a7a780b",
+    "name": "Macroalgal coverage from video surveys of long spined sea urchin (Centrostephanus rodgersii) barrens habitat, eastern Tasmania, Australia (2001-2002)",
+    "description": "The macroalgal cover was recorded from video surveys of the spatial extent of C. rodgersii \"barrens\" on rocky reef habitats using a towed underwater video system. Sampling took place at 13 regions along the east coast of Tasmania, each comprising 3 subsites. Thus, at each site, ca. 6-7 km of inshore rocky reef was surveyed for barren habitat using this method, with the entire survey covering &gt; 80 km of reef.\nSubstratum types were resolved as either \"unclassified reef\" if the substratum type was unclear (usually where macroalgal cover prevented a clear view of the substratum) or, where the substratum could be discerned, \"flat rock\" with little apparent relief, \"boulder reef\", \"cobble\", \"gravel\", \"pebble\", or \"sand\". Habitat types denoted either C. rodgersii barrens, or habitat dominated by particular canopy-forming species.\nAbsence records are recorded. Macroalagal cover per taxa is measured as percent cover in 3 categories of 'Dominant algal species, &gt;80% of canopy','Common algal species, 40-80% of canopy' and  'Rare algal species, &lt;40% of canopy' for each observation.\nMetadata record is http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=6d88abe0-8e7a-11dc-94b1-00188b4c0af8 and data download was from the IMAS Data Portal on 2019-09-05 via https://geoserver.imas.utas.edu.au/geoserver/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=imas:FR1_CRJohnson_Video_surveys_macroalgae_substratum_DATA&amp;outputFormat=CSV",
+    "url": "https://obis.org/dataset/15ab464d-e8d0-47c7-8003-29b88a7a780b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=imas_video_sea_urchin_barrens"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Attribution Constraints\n\nThe citation in a list of references is: citation author name/s (year metadata published), metadata title. Citation author organisation/s. File identifier and Data accessed at (add http link).\n\nUsage Constraints\n\nThe data described in this record are the intellectual property of the University of Tasmania through the School of Zoology and the Tasmanian Aquaculture and Fisheries Institute.\n\nBy using this data you are accepting the license agreement and terms specified above. You accept all risks and responsibility for losses, damages, costs and other consequences resulting directly or indirectly from using this site and any information or material available from it.",
+    "version": "2022-06-07T03:12:28.000Z",
+    "keywords": [
+        "GOOS EOV: Macroalgal Canopy Cover and Composition",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Dominant Substrate",
+            "url": "",
+            "description": "Dominant Substrate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Secondary Substrate",
+            "url": "",
+            "description": "Secondary Substrate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "% alagal cover",
+            "url": "",
+            "description": "% alagal cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "% of video transect",
+            "url": "",
+            "description": "% of video transect"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Barren category",
+            "url": "",
+            "description": "Barren category"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Patch Size",
+            "url": "",
+            "description": "Patch Size"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=imas_video_sea_urchin_barrens",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "146.9182 -43.5969,146.9182 -40.9139,148.3716 -40.9139,148.3716 -43.5969,146.9182 -43.5969"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13402",
+            "@type": "Organization",
+            "legalName": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "name": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "url": "https://oceanexpert.org/institution/13402"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

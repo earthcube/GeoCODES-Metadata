@@ -1,0 +1,121 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ba239315-1d4f-47aa-a398-5293782012fc",
+    "name": "CorMedNet- Distribution and demographic data of habitat-forming invertebrate species from Mediterranean coralligenous assemblages between 1882 and 2019.",
+    "description": "This dataset compiles data on geographic and depth distribution, demography, population and mortality, of different habitat-forming invertebrate species dwelling the Mediterranean coralligenous assemblages.",
+    "url": "https://obis.org/dataset/ba239315-1d4f-47aa-a398-5293782012fc",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cormednet",
+        "https://dx.doi.org/10.14284/467"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Linares, Cristina; Figuerola, Laura; Gómez-Gras, Daniel; Pagès-Escolà, Marta; Olvera, Àngela, Aubach, Àlex; Amate, Roger; Figuerola, Blanca; Kersting, Diego; Ledoux, Jean-Baptiste; López-Sanz, Àngel; López-Sendino, Paula; Medrano, Alba; Garrabou, Joaquim; (2020); CorMedNet- Distribution and demographic data of habitat-forming invertebrate species from Mediterranean coralligenous assemblages between 1882 and 2019 https://dx.doi.org/10.14284/467",
+    "version": "2023-05-23T11:33:05.000Z",
+    "keywords": [
+        "Conservation",
+        "Demography",
+        "diver",
+        "Mortality",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen height of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPHGXX01/",
+            "description": "Specimen height of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Diameter of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDDM/",
+            "description": "Diameter of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion necrosis by area",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600170/",
+            "description": "Proportion necrosis by area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of coralligenous colonies [Subgroup: with percentage necrosis >=10%]",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PCRCNC10/",
+            "description": "Proportion of coralligenous colonies [Subgroup: with percentage necrosis >=10%]"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Corallium rubrum colonies (ITIS: 202513: WoRMS 125416) [Size: diameter >=7mm]",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PCCRDI01/",
+            "description": "Corallium rubrum colonies (ITIS: 202513: WoRMS 125416) [Size: diameter >=7mm]"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Corallium rubrum colonies (ITIS: 202513: WoRMS 125416) [Size: height >=100mm]",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PCCRHT01/",
+            "description": "Corallium rubrum colonies (ITIS: 202513: WoRMS 125416) [Size: height >=100mm]"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Species Recruitment",
+            "url": "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0819/",
+            "description": "Species Recruitment"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1882/2019",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/467",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/467",
+        "url": "https://dx.doi.org/10.14284/467"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cormednet",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-6.048 31.71775,-6.048 45.68883,35.98775 45.68883,35.98775 31.71775,-6.048 31.71775"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23191",
+            "@type": "Organization",
+            "legalName": "Universitat de Barcelona",
+            "name": "Universitat de Barcelona",
+            "url": "https://oceanexpert.org/institution/23191"
+        }
+    ]
+}

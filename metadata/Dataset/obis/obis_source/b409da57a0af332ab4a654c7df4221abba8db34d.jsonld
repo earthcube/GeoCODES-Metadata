@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ea93b52d-23aa-4be7-9686-a56be3b3ee2b",
+    "name": "NEFSC Right Whale Aerial Survey",
+    "description": "Original provider:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nDataset credits:\nProtected Species Branch, Northeast Fisheries Science Center, NOAA/NMFS\n\nAbstract:\nThe North Atlantic Right Whale Sighting Survey (NARWSS) is a NOAA Fisheries program which locates and records the seasonal distribution of right whales off the northeastern United States.\n\nPurpose:\nnot provided\n\nSupplemental information:\n2023-02-08: The 2022 data (Oct through Dec) were appended.\n2022-08-31: The 2022 data (Feb through Aug) were appended.\n2022-02-03: The 2021 data were appended.\n2021-06-22: The 2020 data were appended.\n2020-12-30: The 2018-19 data were appended.\n2019-10-30: The date/time of the 2017 data were corrected (initially they were at UTC. Now they are at local time zone as other records are).\n2019-09-13: The 2017 data were appended.\n2017-03-10: Data format was changed and the 2016 data were appended.\n2016-06-09: 2015 Nov-Dec data were appended.\n2016-03-08: 2015 Jan-Aug data were appended.\nThe following two records got the animal count corrected.\n- Right whale 06/03/02 16:58:20 0 -&gt; 3\n- Basking shark 06/20/03 17:52:03 0 =&gt; 1 (dead shark)\n2015-05-06: 2013 winter and 2014 data were appended.\n2015-03-24: A few records had a wrong animal count of zero. The value is replaced with a blank representing species presence only.\n2014-08-11: Sightings originally identified as 'CWDO' and not included in the dataset were reclassified as 'UNCW' (common or white-sided dolphin) and now are included.\n2014-02-27: Data in 2013 Jan through July were appended.\n2013-12-18: The count field for the following two records were updated:\nRight whale 2002-06-03 16:58:20: Null (previously a zero)\nBasking shark 2003-06-20 17:52:03: 1 (previously a zero)\n2013-03-04: Upon provider's request, right whale sightings with all psb_legstage flags except '9' were dropped to avoid potential re-sightings to be mapped.\npsb_legstage, a hidden attribute, is a flag indicating the stage of watch. The value of '9' indicates a final estimate of right whales after the animals were first sighted.\n2013-01-22: 2012 data were appended.\nData format for the 2007-2011 data was changed from the Consortium format to the NEFSC original format.\n2012-09-24: The dataset name was changed from NEFSC Right Whale Survey to NEFSC Right Whale Aerial Survey to distinguish this from the associated vessel survey.\n2012-06-25: Data correction: STDO was classified as Stenella coeruleoalba (previously as Stenella attenuata/frontalis). \n2012-06-20: 2011 data were added. \nData correction 2/8/11: Records with LETU sightings were incorrectly associated with Softshell turtles (ITIS TSN: 173845) and was corrected as leatherback sea turtles (ITIS TSN: 173843)\n\nOther references:\n<a href=\"http://www.nefsc.noaa.gov/publications/crd/crd0905/\">Khan C, Cole TVN, Duley P, Glass AH, Niemeyer M, Christman C. 2009. North Atlantic Right Whale Sighting Survey (NARWSS) and Right Whale Sighting Advisory System (RWSAS) 2008 Results Summary. US Dept Commer, Northeast Fish Sci Cent Ref Doc. 09-05; 7 p.</a>\n\n<a href=\"http://www.nefsc.noaa.gov/publications/crd/crd0806/index.html\">Niemeyer, M., T.V.N. Cole, C.L. Christman, P. Duley and A.H. Glass. 2008. North Atlantic Right Whale Sighting Survey (NARWSS) and Right Whale Sighting Advisory System (RWSAS) 2007 results summary. Northeast Fisheries Science Center Reference Document. 08-06; 6 p. </a>\n\n<a href=\"http://www.nefsc.noaa.gov/publications/crd/crd0702/\">Cole TVN, Gerrior P, Merrick RL. 2007. Methodologies of the NOAA National Marine Fisheries Service aerial survey program for right whales (Eubalaena glacialis) in the Northeast U.S., 1998-2006. US Dep Commer, Northeast Fish Sci Cent Ref Doc 07-02; 11 p.</a>",
+    "url": "https://obis.org/dataset/ea93b52d-23aa-4be7-9686-a56be3b3ee2b",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_513"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Cole, T. and C. Khan. 2022. NEFSC Right Whale Aerial Survey. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/513) on yyyy-mm-dd.",
+    "version": "2024-01-23T16:04:08.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Aircraft,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_513",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-75.44653 37.20013,-75.44653 50.15105,-58.0944 50.15105,-58.0944 37.20013,-75.44653 37.20013"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

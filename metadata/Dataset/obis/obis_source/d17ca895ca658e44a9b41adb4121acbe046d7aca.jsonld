@@ -1,0 +1,92 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9c7c8f21-f1d6-4320-809d-1d1e319623e6",
+    "name": "Abundancia y Distribución de Temora turbinata y Temora stylifera en el Parque Nacional Mochima, Venezuela",
+    "description": "Existen especies de copépodos pelágicos muy característicos, cuya sola presencia tiene importancia como indicador de ciertas masas de agua, como por ejemplo Temora turbinata; la cual, está asociada a la época de relajación (no surgencia) y a zonas costeras. El Parque Nacional Mochima (PN. Mochima), está sujeto a un centro activo de surgencia costera, este fenómeno presenta un comportamiento estacional; por lo tanto, con el presente trabajo se pretende tener información cuantitativa sobre las especies de la familia Temoridae, analizando las variaciones estacionales y espaciales de su abundancia y la estructura etaria de la población en los periodos de surgencia y relajación, en relación con las variables ambientales. La toma de muestras se llevó a cabo bimestralmente desde diciembre de 2015 hasta octubre de 2016. Se utilizó una red tipo Bongo de 30 cm de diámetro y 300 µm de abertura de malla; el calado se realizó desde una embarcación tipo peñero, de forma oblicua, a una velocidad de 2 nudos por 15 min a 10 y 50 metros de distancia de la costa, en 6 estaciones, distribuidas en el PN. Mochima: 3 estaciones externas (estaciones 1, 2 y 3) y 3 internas (estaciones 4, 5 y 6). En cada estación se midió la temperatura, la salinidad y el oxígeno superficial por medio de una sonda multiparamétrica (YSI). Solo se halló diferencias significativas en la temperatura durante los meses de estudio, mientras que la biomasa zooplanctónica mostró diferencias significativas espaciales en las dos distancias estudiadas. La densidad zooplanctónica registró los valores medios más altos en abril 2016, con 335 y 551 ind.m-3 a 10 y 50 m respectivamente, se demostró diferencias significativas espaciales, así como en los dos periodos de muestreo y en ambas distancias muestreadas. T. turbinata fue más abundante y dominante que su congénere T. stylifera. La abundancia de T. turbinata no varió temporalmente, ni para las distancias de la costa; sin embargo, los mayores valores se registraron en las estaciones internas. A diferencia de T. stylifera, las mayores abundancias se registraron a 50 m de distancia de la costa y en las estaciones externas.La mayor abundancia comprobada para la especie T. turbinata, debido a su ciclo de vida corto y alto número de generaciones por año, le confieren ventaja reproductiva sobre las otras especies.",
+    "url": "https://obis.org/dataset/9c7c8f21-f1d6-4320-809d-1d1e319623e6",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=iov_udo_copepoda_temora"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Colina-Romero H M, Marquez-Rojas B (2022): Abundancia y Distribución de Temora turbinata y Temora stylifera en el Parque Nacional Mochima, Venezuela. v1.5. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=iov_udo_copepoda_temora&amp;v=1.5",
+    "version": "2022-10-21T07:30:19.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Copepoda",
+        "Temoridae",
+        "upwelling",
+        "Parque Nacional Mochima",
+        "CaribeSur",
+        "ID:BID-CA2020-025-NAC",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/",
+            "description": "Oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ASLTZZ01/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea surface temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0381/",
+            "description": "Sea surface temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/Z34CM02Z/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/Z34CM00Z/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=iov_udo_copepoda_temora",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.439408 10.3375,-64.439408 10.3847,-64.329558 10.3847,-64.329558 10.3375,-64.439408 10.3375"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6839",
+            "@type": "Organization",
+            "legalName": "Instituto Oceanográfico de Venezuela, Universidad de Oriente",
+            "name": "Instituto Oceanográfico de Venezuela, Universidad de Oriente",
+            "url": "https://oceanexpert.org/institution/6839"
+        }
+    ]
+}

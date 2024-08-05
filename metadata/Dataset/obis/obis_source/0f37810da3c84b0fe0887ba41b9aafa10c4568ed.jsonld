@@ -1,0 +1,117 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bb8a2596-a3e6-4d2d-99cc-2680a480d4d3",
+    "name": "anfipodos_mopex",
+    "description": "Registro de anfípodos en un transecto zonal desde la zona costera-somera de Valparaíso hasta el talud. Las muestras analizadas fueron obtenidas en el crucero oceanográfico MOPEX (Expedición Oceánica de Mesoescala del Plancton) en 2016.\n \n",
+    "url": "https://obis.org/dataset/bb8a2596-a3e6-4d2d-99cc-2680a480d4d3",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=anfipodos_mopex"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Espinosa-Leal L (2021): anfipodos_mopex. v1.0. Universidad de Concepción e Instituto Milenio de Oceanografía (IMO). Dataset/Samplingevent. http://ipt.iobis.org/esp-obis/resource?r=anfipodos_mopex&amp;v=1.0",
+    "version": "2021-09-21T22:32:13.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Zooplancton",
+        "Anfípodos",
+        "Fosa de Atacama"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Body water Salinity _maximum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/",
+            "description": "Body water Salinity _maximum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Body water Salinity _minimum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/",
+            "description": "Body water Salinity _minimum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Body water temperature_maximum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/",
+            "description": "Body water temperature_maximum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Body water temperature_minimum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/",
+            "description": "Body water temperature_minimum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved Oxygen_maximum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/",
+            "description": "Dissolved Oxygen_maximum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved Oxygen_minimum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/",
+            "description": "Dissolved Oxygen_minimum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Body Size",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600096/",
+            "description": "Body Size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Carbon_Nitrogen ratio",
+            "url": "http://vocab.nerc.ac.uk/collection/S29/current/PE001391/",
+            "description": "Carbon_Nitrogen ratio"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "natural abundance of C stable isotopes",
+            "url": "http://vocab.nerc.ac.uk/collection/S27/current/CS002837/",
+            "description": "natural abundance of C stable isotopes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "natural abundance of N stable isotopes",
+            "url": "http://vocab.nerc.ac.uk/collection/S27/current/CS002808/",
+            "description": "natural abundance of N stable isotopes"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=anfipodos_mopex",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-72.6 -32.98,-72.6 -28,-71.67 -28,-71.67 -32.98,-72.6 -32.98"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16784",
+            "@type": "Organization",
+            "legalName": "Instituto Milenio de Oceanografía",
+            "name": "Instituto Milenio de Oceanografía",
+            "url": "https://oceanexpert.org/institution/16784"
+        }
+    ]
+}

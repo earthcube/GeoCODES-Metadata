@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6b7a8fc5-84cd-4075-9328-79d2771086aa",
+    "name": "Historical occurrence of whales in Scottish Waters inferredfrom whaling records",
+    "description": "Original provider:\nConor Ryan\n\nDataset credits:\nIWC\n\nAbstract:\nArchived logbooks detailing landings at Scottish shore-based whaling stations between 1903 and 1951 were used to map whale catch locations. \nHistorical distribution and occurrence are inferred and summary statistics on total landings are updated for blue (Balaenoptera musculus), fin (Balaenoptera physalus), humpback (Megaptera novaeangliae), North Atlantic right (Eubalaena glacialis), sei (Balaenoptera borealis) and sperm (Physeter macrocephalus) whales: a total of 9,996 whales were caught \nduring this period, which is 3.7% higher than previously reported and 25% higher for blue whales.\n\nSupplemental information:\nThis dataset contains a subset of the data used in the citation. The data \nbelong to IWC and the use of the data should be credited to the references.",
+    "url": "https://obis.org/dataset/6b7a8fc5-84cd-4075-9328-79d2771086aa",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2213",
+        "https://doi.org/10.1002/aqc.3873"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Conor Ryan, Susannah Calderan, Cherry Allison, Russell Leaper, Denise Risch. 2022. Historical occurrence of whales in Scottish Waters inferred from whaling records. Aquatic Conservation: Marine and Freshwater Ecosystems. 1 - 18.",
+    "version": "2022-09-29T15:24:41.000Z",
+    "keywords": [
+        "Occurrence,Whale catch,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1904/1951",
+    "identifier": {
+        "@id": "https://doi.org/10.1002/aqc.3873",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1002/aqc.3873",
+        "url": "https://doi.org/10.1002/aqc.3873"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2213",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-14.463548 56.170033,-14.463548 63.409481,3.396713 63.409481,3.396713 56.170033,-14.463548 56.170033"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

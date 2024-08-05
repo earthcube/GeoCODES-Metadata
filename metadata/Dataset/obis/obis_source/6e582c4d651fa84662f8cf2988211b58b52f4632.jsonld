@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c871a755-f66a-49e6-8024-86bf700c1210",
+    "name": "Marine Geoscience Data System",
+    "description": "This dataset contains biological specimens sampled at the seafloor, taken from NSF Ridge2000 expeditions.",
+    "url": "https://obis.org/dataset/c871a755-f66a-49e6-8024-86bf700c1210",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=mgds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Carbotte, S.M., R. Arko, D.N. Chayes, W. Haxby, K. Lehnert, S. OHara, W.B.F. Ryan, R.A. Weissel, T. Shipley, L. Gahagan, K. Johnson, T. Shank (2004), New Integrated Data Management System for Ridge2000 and MARGINS Research, Eos Trans. AGU, 85(51), 553, doi:10.1029/2004EO510002. Consulted on http://www.iobis.org on [date].",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=mgds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-176.568283081 -21.9894618988,-176.568283081 9.84575843811,-104.278953552 9.84575843811,-104.278953552 -21.9894618988,-176.568283081 -21.9894618988"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18934",
+            "@type": "Organization",
+            "legalName": "Columbia University, Lamont-Doherty Earth Observatory",
+            "name": "Columbia University, Lamont-Doherty Earth Observatory",
+            "url": "https://oceanexpert.org/institution/18934"
+        }
+    ]
+}

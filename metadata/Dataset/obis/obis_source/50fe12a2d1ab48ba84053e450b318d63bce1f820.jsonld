@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/857a8ddb-d144-416e-bc61-5f58280a0a01",
+    "name": "Svalbard Tidal Zone data",
+    "description": "Data were collected as part of wider coastal management programmes, sponsored by the Norwegian Polar Research Institute. The main purpose of this data collection was to present an ecological inventory of the Svalbard Archipelago and to map the areas of great biological importance.",
+    "url": "https://obis.org/dataset/857a8ddb-d144-416e-bc61-5f58280a0a01",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=largenet_is"
+    ],
+    "license": "Restricted",
+    "citation": "Węslawski J. M. (1997). Svalbard tidal zone data. Polish Academy of Sciences; Institute of Oceanology (IOPAS), Poland.",
+    "version": "2023-12-08T17:09:16.000Z",
+    "keywords": [
+        "Algae",
+        "Benthos",
+        "Macrobenthos",
+        "Rocky shores",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=largenet_is",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.642 74.3375,13.642 78.8185,26.51406667 78.8185,26.51406667 74.3375,13.642 74.3375"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/da968cfe-26cf-48f4-b6f7-14375ff5fae3",
+    "name": "Flow Cytometry data from the R/V TINRO, NOAA Bell M. Shimada and CCGS Sir John Franklin during the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition",
+    "description": "Phytoplankton community composition and size structure vary considerably between oligotrophic and eutrophic regions (areas of low or high macro and micronutrients (e.g., iron)) (Hill et al., 2005; Martin et al., 1989; Strom et al., 2006; 2016), between surface and subsurface depths (Hill et al., 2005), and with season (Moran et al., 2012) and climatic conditions (Batten et al., 2021). Phytoplankton represent the base of the food web providing energy for zooplankton, which in turn support the growth of juvenile and adult salmon populations. Certain phytoplankton, like many diatom species, are particularly important food items in the Gulf of Alaska (GOA, Odate 1996, Strom et al., 2007). We aim to broaden understanding of phytoplankton dynamics in the GOA/North Pacific Ocean by investigating spatial and temporal patterns in community structure and biomass and exploring environmental (physics and nutrients) drivers of taxonomic variability that may lead to variation in the quality of phytoplankton biomass available to primary consumers during winter. The spatial variations in phytoplankton biomass, and taxa and community size structure were characterized through measurements of (among others) flow cytometry data collected at all IYS stations. In zone 4 (US Ship NOAA Bell M. Shimada) flow cytometry samples were collected from 5, 25, and 50 m for assessment of microbial community cell sizes (Moran et al. 2012). Flow cytometry were also collected at 5 m depths in zone 5 (on Canadian ship CCGS Sir John Franklin) and in zones 2-3 (on Russian ship R/V TINRO), so we have samples over the entire area surveyed. The flow cytometry analysis deliverables include tabulated counts (cells/ml) and estimated carbon content (C/cell and C/population) for the following 4 phytoplankton pico- and nanoplankton: Synechococcus, Cryptophytes, picoeukaryotes, nanoeukaryotes (excluding Cryptophytes).",
+    "url": "https://obis.org/dataset/da968cfe-26cf-48f4-b6f7-14375ff5fae3",
+    "sameAs": [
+        "https://ipt.iobis.org/obiscanada/resource?r=test-iso-eml"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY 4.0) License",
+    "citation": "Eisner, L. B., &amp; Lomas, M. (2022). Flow Cytometry data from the R/V TINRO, NOAA Bell M. Shimada and CCGS Sir John Franklin during the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition [Data set]. North Pacific Anadromous Fish Commission. https://doi.org/10.21966/j26w-by50",
+    "version": "2023-03-31T21:28:58.000Z",
+    "keywords": [
+        "North Pacific Ocean",
+        "IYS",
+        "International Year of the Salmon",
+        "phytoplankton",
+        "abundance and biomass",
+        "small cells",
+        "flow",
+        "cytometry",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of cells per milliliter",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PYTTAFTX/",
+            "description": "Abundance of cells per milliliter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass as carbon per unit volume",
+            "url": "",
+            "description": "Biomass as carbon per unit volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Functional microbial group",
+            "url": "",
+            "description": "Functional microbial group"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Particulate Organic Carbon per cell",
+            "url": "",
+            "description": "Particulate Organic Carbon per cell"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2022/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=test-iso-eml",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-172.6283333 44.9955,-172.6283333 58.0085,-126.4011 58.0085,-126.4011 44.9955,-172.6283333 44.9955"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2633ced5-70d7-492d-a72e-fcee04738467",
+    "name": "Cysts from plankton from the South Adriatic Sea",
+    "description": "Dataset collected in the North and South Adriatic Sea. Only presence data available, geographical information was aggregated to a region level instead of actual point locations.",
+    "url": "https://obis.org/dataset/2633ced5-70d7-492d-a72e-fcee04738467",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=belmonte_cysts",
+        "https://dx.doi.org/10.14284/35"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Belmonte, G. (2000). Cysts from plankton from the South Adriatic Sea. University of Salento, Department of Biological and Environmental Science and Technologies, Laboratory of Zoology and Marine Biology (LZMB), Italy. https://dx.doi.org/10.14284/35",
+    "version": "2024-02-26T23:20:50.000Z",
+    "keywords": [
+        "Cysts",
+        "Plankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2000",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/35",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/35",
+        "url": "https://dx.doi.org/10.14284/35"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=belmonte_cysts",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.1425 40.27666666666667,13.1425 44.77166666666666,19.43958333333333 44.77166666666666,19.43958333333333 40.27666666666667,13.1425 40.27666666666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

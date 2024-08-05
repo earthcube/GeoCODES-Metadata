@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/575e393f-4b35-4dc0-8d49-c04e3a9ce5ec",
+    "name": "Fish assemblages across artificial and natural reefs in Puerto Rico",
+    "description": "This database contains raw biological data from 12 sites around the main island of Puerto Rico, each belonging to one of four reef types: “accidental” (Muelle de Azucar, Crash Boat Beach, and Roosevelt Roads’ shipwreck), “restoration” (Escambron Beach, Condado Beach, Atolladora Beach), “transplanted” (Tres Palmas, Cayo San Cristobal, Bridges Beach), and “natural” (El Natural [Playa India], Maria’s Beach, Cayo Turrumote). The identity, abundance and size of reef fish and other commercially and ecologically important fish and megabenthic invertebrate, were characterized at these sites from spring 2018 to spring 2019. Sampling was done through Stationary Point Counting (SPC) (Bohnsack &amp; Bannerot, 1986), were divers pivoted in a point within 1m of an artificial or natural reef structure, and visually monitored fish in a cylinder of 7.5 m radius for 10 minutes. SPC surveys occurred 3 to 4 times per site visit, with an average of three site visits per season. Effort was made to include both non-cryptic and cryptic species and to identify them to the lowest taxonomic level possible. Fish length estimations were recorded as the median of 5cm interval size classes. The cephalothorax length (measurement from the tip of the rostrum to end of the thorax), also known as carapace length (CL) in centimeters is used to report the size of lobsters (Panulirus spp., Scyllarides spp.) With the length-weight relationship information available in FishBase.org, biomass estimates were calculated for each species when information on the species was available; if not, the species were excluded from biomass estimates. “Adjacent habitat type” and “distance to adjacent habitat” were not recorded during the first sampling season (spring 2018) but was recorded for the remainder of the experiment.",
+    "url": "https://obis.org/dataset/575e393f-4b35-4dc0-8d49-c04e3a9ce5ec",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=puerto-rico-coral-reef-fish-assemblages-2018-2019"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-02-25T23:19:13.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "Mean size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05",
+            "description": "Biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=puerto-rico-coral-reef-fish-assemblages-2018-2019",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.26918 17.93498,-67.26918 18.46281,-65.60128 18.46281,-65.60128 17.93498,-67.26918 17.93498"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16063",
+            "@type": "Organization",
+            "legalName": "Caribbean Coastal Ocean Observing System",
+            "name": "Caribbean Coastal Ocean Observing System",
+            "url": "https://oceanexpert.org/institution/16063"
+        }
+    ]
+}

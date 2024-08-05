@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e4dacf5c-6bfa-493e-8699-d65c31435107",
+    "name": "Diving into the vertical dimension of elasmobranch movement ecology (2000-2019)",
+    "description": "A dataset of dives compiled 96,169 days of vertical movement data from 989 individuals, encompassing 38 species that were representatives of 14 families of elasmobranch. Most depth data were obtained from tag deployments on representatives of the families Lamnidae and \nCarcharhinidae, accounting for 43.7 and 21.7% of the data days and 37.4 and 28.9% of the individuals, respectively. The number of tagged individuals varied across species, ranging from 1 (Munk’s pygmy devil ray, Mobula munkiana; pelagic stingray, Pteroplatytrygon\nviolacea; and Cuban dogfish, Squalus cubensis) to 187 (white shark, Carcharodon carcharias) (Table 1). The number of days of data\nrecorded by the tags per individual ranged from 7 to 784, with a mean (± SD) of 98.4 ± 80.9 data days per tag deployment across all species.\nData sourced on 2022-08-12  from Zendo repository doi:10.5281/zenodo.6885455 referenced in the cited paper.",
+    "url": "https://obis.org/dataset/e4dacf5c-6bfa-493e-8699-d65c31435107",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=elasmobranch_dives"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Andrzejaczek et al. (2022) Diving into the vertical dimension of elasmobranch movement ecology. Sci. Adv. 8, doi:10.1126/sciadv.abo1754",
+    "version": "2022-10-10T04:48:53.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Total length",
+            "url": "",
+            "description": "Total length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "",
+            "description": "Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Forked length",
+            "url": "",
+            "description": "Forked length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=elasmobranch_dives",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-177.85 -46.9119,-177.85 76.68386,179.27786 76.68386,179.27786 -46.9119,-177.85 -46.9119"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

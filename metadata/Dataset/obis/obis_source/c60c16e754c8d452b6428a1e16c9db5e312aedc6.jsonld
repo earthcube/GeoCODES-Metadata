@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4c4d6b47-5fc1-4a92-9da4-73395b6fe23f",
+    "name": "Diversidad de peces marinos y dulceacuícolas de Bahía Málaga",
+    "description": "Con el objetivo de caracterizar la fauna íctica presente en los ambientes marinos, estuarinos y dulceacuícolas de Bahía Málaga se realizó un muestreo de 11 días en el marco de la Expedición Científica Pacifico 2021-II. El conjunto de datos contiene registros visuales en las zonas de estudio y datos de especímenes colectados a través de artes de pesca como atarraya, trasmallo, línea de mano, palangre y arpón. En total se registraron 128 especies pertenecientes a 47 familias distribuidas en 33 órdenes.",
+    "url": "https://obis.org/dataset/4c4d6b47-5fc1-4a92-9da4-73395b6fe23f",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=univalle_fauna_ictica",
+        "https://doi.org/10.15472/ihxnol"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Tavera J, Arias J D, Cano M F (2023): Diversidad de peces marinos y dulceacuícolas de Bahía Málaga. v1.1. Universidad del Valle. Dataset/Occurrence. https://doi.org/10.15472/ihxnol",
+    "version": "2023-12-21T13:36:11.000Z",
+    "keywords": [
+        "Censos visuales",
+        "Línea de mano",
+        "Lutjanidae",
+        "Haemulidae",
+        "Fondos rocosos",
+        "Occurrence",
+        "Observation",
+        "SiB_MARINO"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2021",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/ihxnol",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/ihxnol",
+        "url": "https://doi.org/10.15472/ihxnol"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=univalle_fauna_ictica",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-77.43450539237598 3.890505,-77.43450539237598 4.067440994323102,-77.223391 4.067440994323102,-77.223391 3.890505,-77.43450539237598 3.890505"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18879",
+            "@type": "Organization",
+            "legalName": "Universidad del Valle",
+            "name": "Universidad del Valle",
+            "url": "https://oceanexpert.org/institution/18879"
+        }
+    ]
+}

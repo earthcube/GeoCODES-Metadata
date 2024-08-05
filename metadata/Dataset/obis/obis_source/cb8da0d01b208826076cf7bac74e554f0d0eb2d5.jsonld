@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7eee0f1c-5afc-4135-94df-f3ecb169fa38",
+    "name": "Marine Bird Sighting Data, Arctic Marine Biodiversity Observing Network (AMBON) Chukchi Sea research cruise on the vessel Norseman II from 2017-08-05 to 2017-08-25",
+    "description": "This dataset contains seabird survey and associated environmental conditions data collected in the Chukchi Sea during the 5 August - 25 August 2017 Arctic Marine Biodiversity Observing Network (AMBON) research cruises. Seabirds were surveyed using line transect methods. Seabird observations were recorded directly into a laptop computer using software which logged the geographic coordinates of each sighting. Incidental sightings of marine mammal were also recorded. Supplementary environmental data are included for the beginning of each survey period. The dataset is two comma-separated values (csv) files. The file named dlog_2017_dwc_core.csv contains the count of observed marine birds and mammals by species, their behavior, and the environmental conditions recorded during the surveys for the 2017 research cruise. The file named taxon_codes_2017.csv is an associated taxon code list of the observed species.This dataset was transformed from the native format into a table structure using Darwin Core term names as column names.",
+    "url": "https://obis.org/dataset/7eee0f1c-5afc-4135-94df-f3ecb169fa38",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=ambon_seabirds_2017"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2023-01-18T17:47:25.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "flying bird survey method",
+            "url": "",
+            "description": "flying bird survey method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "fog conditions code",
+            "url": "",
+            "description": "fog conditions code"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "footprintWKT",
+            "url": "",
+            "description": "footprintWKT"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ice classification",
+            "url": "",
+            "description": "ice classification"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observationConditions",
+            "url": "",
+            "description": "observationConditions"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "percent ice",
+            "url": "",
+            "description": "percent ice"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "record number",
+            "url": "",
+            "description": "record number"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "scan interval",
+            "url": "",
+            "description": "scan interval"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "survey active",
+            "url": "",
+            "description": "survey active"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "survey id",
+            "url": "",
+            "description": "survey id"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=ambon_seabirds_2017",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-168.952499 64.468338,-168.952499 72.485497,-158.350998 72.485497,-158.350998 64.468338,-168.952499 64.468338"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18955",
+            "@type": "Organization",
+            "legalName": "Axiom Data Science",
+            "name": "Axiom Data Science",
+            "url": "https://oceanexpert.org/institution/18955"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20908",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks",
+            "name": "University of Alaska Fairbanks",
+            "url": "https://oceanexpert.org/institution/20908"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23070",
+            "@type": "Organization",
+            "legalName": "United States Marine Biodiversity Observation Network",
+            "name": "United States Marine Biodiversity Observation Network",
+            "url": "https://oceanexpert.org/institution/23070"
+        }
+    ]
+}

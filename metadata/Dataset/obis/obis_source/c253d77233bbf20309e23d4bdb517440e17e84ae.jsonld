@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6b4593d1-587c-44a5-8af0-d046ae131b5b",
+    "name": "Interstitial Turbellaria in the Dutch Delta 1978-1979",
+    "description": "List and counts of observed Turbellaria species in 1978-1979 in the Dutch Delta area. The data were digitized by VLIZ from the original report: Martens, P. (1980). Interstitiële Turbellaria van het Nederlands Deltagebied. BSc Thesis. Rijksuniversiteit Gent. Fakulteit Wetenschappen: Gent. 102 pp.",
+    "url": "https://obis.org/dataset/6b4593d1-587c-44a5-8af0-d046ae131b5b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=turbellaria_dutch_delta_1978-1979",
+        "https://dx.doi.org/10.14284/191"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Martens P.; Coomans A.; Faculteit Wetenschappen. RUG: Belgium; (2016): Interstitial Turbellaria of the Dutch Delta area (1978-1979). (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4396) https://dx.doi.org/10.14284/191",
+    "version": "2024-02-26T23:14:12.000Z",
+    "keywords": [
+        "Deltas",
+        "Digitization",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "area sampled of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area sampled of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "core diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "core diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observed individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "observed individual count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/1979",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/191",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/191",
+        "url": "https://dx.doi.org/10.14284/191"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=turbellaria_dutch_delta_1978-1979",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.611667 51.36167,3.611667 51.782683,4.067105 51.782683,4.067105 51.36167,3.611667 51.36167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9162",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Faculteit Wetenschap",
+            "name": "Universiteit Gent, Faculteit Wetenschap",
+            "url": "https://oceanexpert.org/institution/9162"
+        }
+    ]
+}

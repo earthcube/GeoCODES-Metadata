@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/beab1dcb-8235-4072-85cd-d8c3373e4ae0",
+    "name": "MarineGEO Global Seagrass Habitat Monitoring Data",
+    "description": "This dataset contains seagrass time-series monitoring data collected by the Smithsonian Institution’s MarineGEO (Marine Global Earth Observatory) and its network partners. The dataset includes measurements on seagrass density, seagrass cover, and epifaunal invertebrates. The data is collected using MarineGEO’s standard survey design for sampling seagrass habitats.\nMarineGEO seagrass monitoring at each site is conducted along three 50-m fixed transects intended to be permanent and sampled regularly (usually annually). Transects are located parallel to shore and along the shallow (inshore), middle (interior), and deep (offshore) parts of the seagrass bed, although variation can occur due to local site conditions. The seagrass cover measurements are taken every 4 meters along the transect (n = 12 per transect), the seagrass density measurements are taken alongside the cover measurements at every other replicate (n = 6 per transect), and epifaunal community samples are collected every 8 meters (n = 3 per transect).\nSeagrass cover is measured by placing a quadrat (recommended size is 50 x 50 cm) alongside the transect line and estimating the cover of each seagrass species, other sessile organisms, and bare substratum. Seagrass density is measured by counting the number of seagrass shoots within a quadrat (recommended size is 25 x 25 cm). Epifauna samples are collected by randomly selecting an area ~ 1 meter to any side of the transect and quickly removing seagrass shoots with associated epifauna into a mesh bag; the animals are later identified in a laboratory by the data collectors. All data has undergone QA/QC by MarineGEO Central at the Smithsonian after submission by MarineGEO partners.\nNote that the dataset may include submerged aquatic vegetation (not technically seagrass) in brackish to tidal freshwater sites collected with the MarineGEO seagrass protocol. This dataset will be updated on an on-going basis.",
+    "url": "https://obis.org/dataset/beab1dcb-8235-4072-85cd-d8c3373e4ae0",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=marinegeo-seagrass-monitoring"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY 4.0) License",
+    "citation": null,
+    "version": "2023-06-23T17:44:42.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Percent Cover",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "Percent Cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Shoot Density",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Shoot Density"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=marinegeo-seagrass-monitoring",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-82.343535 9.291375,-82.343535 38.894135000000006,-76.51474 38.894135000000006,-76.51474 9.291375,-82.343535 9.291375"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

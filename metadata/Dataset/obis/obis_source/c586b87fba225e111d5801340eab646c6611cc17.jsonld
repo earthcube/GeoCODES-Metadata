@@ -1,0 +1,194 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/baa2fd15-8103-4153-acaa-268bd41e5462",
+    "name": "Mass mortality events in Mediterranean marine coastal ecosystems",
+    "description": "The Mass Mortality Events database (hereafter MME-T-MEDNet) is a collaborative initiative involving more than 30 research institutions from 10 Mediterranean countries including EU and non-EU countries. This initiative aims to facilitate the access to information (published in scientific journals and gray literature or still unpublished) related to Mediterranean Mass Mortality Events (MMEs).",
+    "url": "https://obis.org/dataset/baa2fd15-8103-4153-acaa-268bd41e5462",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mme-t-mednet",
+        "http://dx.doi.org/10.20350/digitalCSIC/8575"
+    ],
+    "license": "Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)",
+    "citation": "Garrabou, Joaquim; Bazairi, Hocein; Espinosa, Free; Ramdani, Mohamed; Grimes, Samir; Benabdi, Mouloud; Ben Souissi, Jamila; Soufi, Emna; Khamassi, Faten; Ghanem, Raouia; Ocaña, Óscar; Ramos Esplá, Alfonso A.; Izquierdo, Andrés; Antón, Irene; Portillo, Esther; Barberá, Carmen; Marbà, Núria; Hendriks, Iris E.; Duarte, Carlos M.; Cebrian, Emma; Deudero Company, María de la Salud; Díaz, David; Vázquez-Luis, Maite; Álvarez, Elvira; Linares, Cristina; Hereu, Bernat; Kersting, D. K.; Bensoussan, Nathaniel; Gómez-Gras, D.; Azzurro, Ernesto; Ledoux, J. B.; Gori, Andrea; Viladrich, Nuria; Sartoretto, Stéphane; Pairaud, Ivane Lilian; Ruitton, Sandrine; Fraschetti, Simonetta; Rivetti, Irene; Cerrano, Carlo; Ponti, Massimo; Bavestrello, G.; Cattaneo-Vietti, R.; Bo, Marzia; Bertolino, Marco; Montefalcone, Monica; Kipson, Silvija; Bakran-Petricioli, Tatjana; Gerovasileiou, Vasilis; Sini, Maria; Tuney Kizilkaya, Inci; Zilizkaya, Zafer; Eda Topçu, N.; Rilov, Gil ; 2018; \"MME-T-MEDNet: Mass mortality events in Mediterranean marine coastal ecosystems [Dataset]\"; DIGITAL.CSIC; http://dx.doi.org/10.20350/digitalCSIC/8575",
+    "version": "2023-05-23T11:34:37.000Z",
+    "keywords": [
+        "Citizen science",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Percentage of affected colonies/specimens/individuals in the surveyed depth and study location (range 0-100%)",
+            "url": "",
+            "description": "Percentage of affected colonies/specimens/individuals in the surveyed depth and study location (range 0-100%)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Protection status of the location at the date of the mass mortality event (1=marine protected area or 0=unprotected)",
+            "url": "",
+            "description": "Protection status of the location at the date of the mass mortality event (1=marine protected area or 0=unprotected)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abiotic drivers related to the mass mortality events",
+            "url": "",
+            "description": "Abiotic drivers related to the mass mortality events"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Qualitative estimate of mass mortality impact 10 =< Low < 30 % 30 =< Moderate < 60 % Severe => 60 %",
+            "url": "",
+            "description": "Qualitative estimate of mass mortality impact 10 =< Low < 30 % 30 =< Moderate < 60 % Severe => 60 %"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Year of the most recent protection status for the geographic location",
+            "url": "",
+            "description": "Year of the most recent protection status for the geographic location"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of colonies/specimens/individuals surveyed for the mass mortality assessment",
+            "url": "",
+            "description": "Number of colonies/specimens/individuals surveyed for the mass mortality assessment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Type of disease biotic driver",
+            "url": "",
+            "description": "Type of disease biotic driver"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Other abiotic drivers related to the mass mortality events",
+            "url": "",
+            "description": "Other abiotic drivers related to the mass mortality events"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biotic drivers related to the mass mortality events",
+            "url": "",
+            "description": "Biotic drivers related to the mass mortality events"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2020",
+    "identifier": {
+        "@id": "http://dx.doi.org/10.20350/digitalCSIC/8575",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.20350/digitalCSIC/8575",
+        "url": "http://dx.doi.org/10.20350/digitalCSIC/8575"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mme-t-mednet",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-4.4076 31.3267,-4.4076 44.9703,35.0897 44.9703,35.0897 31.3267,-4.4076 31.3267"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8450",
+            "@type": "Organization",
+            "legalName": "The Stazione Zoologica Anton Dohrn",
+            "name": "The Stazione Zoologica Anton Dohrn",
+            "url": "https://oceanexpert.org/institution/8450"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10957",
+            "@type": "Organization",
+            "legalName": "Instituto Español de Oceanografía – Centro Oceanográfico de Baleares",
+            "name": "Instituto Español de Oceanografía – Centro Oceanográfico de Baleares",
+            "url": "https://oceanexpert.org/institution/10957"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13433",
+            "@type": "Organization",
+            "legalName": "Italian National Research Council",
+            "name": "Italian National Research Council",
+            "url": "https://oceanexpert.org/institution/13433"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13636",
+            "@type": "Organization",
+            "legalName": "Universidad de Alicante",
+            "name": "Universidad de Alicante",
+            "url": "https://oceanexpert.org/institution/13636"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13830",
+            "@type": "Organization",
+            "legalName": "Sorbonne Université",
+            "name": "Sorbonne Université",
+            "url": "https://oceanexpert.org/institution/13830"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18357",
+            "@type": "Organization",
+            "legalName": "Laboratoire d'Océanographie de Villefranche-sur-Mer",
+            "name": "Laboratoire d'Océanographie de Villefranche-sur-Mer",
+            "url": "https://oceanexpert.org/institution/18357"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18893",
+            "@type": "Organization",
+            "legalName": "Università Politecnica delle Marche",
+            "name": "Università Politecnica delle Marche",
+            "url": "https://oceanexpert.org/institution/18893"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19609",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research, Crete",
+            "name": "Hellenic Centre for Marine Research, Crete",
+            "url": "https://oceanexpert.org/institution/19609"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23191",
+            "@type": "Organization",
+            "legalName": "Universitat de Barcelona",
+            "name": "Universitat de Barcelona",
+            "url": "https://oceanexpert.org/institution/23191"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23201",
+            "@type": "Organization",
+            "legalName": "Université de Tunis El Manar",
+            "name": "Université de Tunis El Manar",
+            "url": "https://oceanexpert.org/institution/23201"
+        }
+    ]
+}

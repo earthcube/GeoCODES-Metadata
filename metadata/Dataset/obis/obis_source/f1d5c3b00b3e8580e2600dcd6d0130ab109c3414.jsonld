@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f0f23def-2abb-4671-864f-6f3dd1ade46b",
+    "name": "Digital Aerial Baseline Survey of Marine Wildlife in Support of Offshore Wind Energy - OPA 2018",
+    "description": "Original provider:\nNYSERDA, APEM, Normandeau Associates\n\nDataset credits:\nNYSERDA, Normandeau Associates Inc., APEM Ltd.\n\nAbstract:\nIn support of New York State’s commitment to incorporating offshore \nwind into its energy portfolio, the New York State Energy Research and \nDevelopment Authority (NYSERDA) embarked on a multi-year ultra-\nhigh resolution aerial digital survey of marine resources in a 43,745.20 \nkm2 (12,754.06 mi2) offshore planning area (OPA) in 2016. The OPA \nencompasses the waters of the New York Bight from Long Island \nsoutheast to the continental shelf break. Surveys are conducted on a \nquarterly basis, timed to coincide with periods of abundance of avian \nand marine species that could be vulnerable to impacts from offshore \nwind activities. Each survey collected images covering at least 7% of \nthe OPA. \n\nFor each survey, approximately 300,000 images were collected within \nthe OPA using a transect design. During the first survey year, special \nattention was also paid to the wind energy area (WEA) using a more \ndetailed grid survey design, collecting around 100,000 images. Each \nsurvey collected images covering at least 10% of the WEA. WEA survey \ndata are in a separate dataset.There was some variation in sampling \neffort among surveys as a different camera system that captured a \nlarger footprint was used after the Summer 2016 survey.YR3 consists \nof Survey09 Summer2018, Survey10 Fall2018, Survey11 Winter2018-\n19, Survey12 Spring2019.\n\nPurpose:\nThe New York State Energy Research and Development Authority \n(NYSERDA) contracted with Normandeau Associates Inc. \n(Normandeau) and teaming partner APEM Inc. (APEM) to use high \nresolution aerial digital imagery to collect data on birds, marine \nmammals, sea turtles, cartilaginous fish, and other taxa encountered \noffshore. \n\nSurveys are conducted four times a year over three years. The surveys \nhave been designed in light of available historical data and use the \nlatest digital and sensor technology to provide high identification \nsuccess. \n\nSurvey results for birds, marine mammals, turtles, and cartilaginous \nfish are presented in semiannual reports, which will cumulatively \nprovide insight into interseasonal and interannual variation in species \ncomposition, densities, and distributions. Reports are available at \nhttps://remote.normandeau.com/nys_docs.php.\n\nSupplemental information:\n[2022-06-07] The following recorded species names got their assigned scientific names corrected.\nGANNET: Morus =&gt; Sulidae\nBLACK SCOTER: Pluvialis squatarola =&gt; Melanitta nigra\nBLACK TERN: Pterodroma hasitata =&gt; Chlidonias niger\nBLACK-BELLIED PLOVER: Rissa tridactyla =&gt; Pluvialis squatarola\nBLACK-CAPPED PETREL: Melanitta nigra =&gt; Pterodroma hasitata\nBLACK-LEGGED KITTIWAKE: Chlidonias niger =&gt; Rissa tridactyla\nLOGGERHEAD TURTLE: Cheloniidae =&gt; Caretta caretta\nLOGGERHEAD/KEMP'S TURTLE: Caretta caretta =&gt; Cheloniidae\nRED PHALAROPE: Mergus serrator =&gt; Phalaropus fulicarius\nRED/RED-NECKED PHALAROPE: Phalaropus lobatus =&gt; Phalaropus\nRED-BREASTED MERGANSER: Phalaropus fulicarius =&gt; Mergus serrator\nRED-NECKED PHALAROPE: Phalaropus =&gt; Phalaropus lobatus\n\nTransect area is calculated based on the planned aircraft altitude and \nassumed to be a consistent value. Actual coverage of the area may \nvary due to fluctuations in the aircraft altitude during the survey. This \nmay result in target observation points being displayed outside the \ntransect area.\n\nTracklines are viewable online as a static layer.\n\nThe data in 2016 is available at\nhttp://seamap.env.duke.edu/dataset/1817\nhttp://seamap.env.duke.edu/dataset/1818\n\nThe data in 2017 is available at\nhttp://seamap.env.duke.edu/dataset/1994",
+    "url": "https://obis.org/dataset/f0f23def-2abb-4671-864f-6f3dd1ade46b",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_2073"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Normandeau Associates and APEM data prepared for New York State Energy Research and Development Authority. 2019. Digital Aerial Baseline Survey of Marine Wildlife in Support of Offshore Wind Energy. NYSERDA.",
+    "version": "2022-06-07T16:23:49.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Seabirds,Marine mammals,Sea turtles,Visual Sighting,Aircraft",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2073",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.8919 38.454,-73.8919 41.0088,-70.6011 41.0088,-70.6011 38.454,-73.8919 38.454"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

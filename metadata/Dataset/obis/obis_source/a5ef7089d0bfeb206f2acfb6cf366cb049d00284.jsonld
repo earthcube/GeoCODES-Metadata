@@ -1,0 +1,107 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cbd631ea-c8ff-419f-8340-b29c7fdc416a",
+    "name": "Occurrence of Eukaryotes in the size fraction &gt;200 micrometres, collected worldwide during the Tara Oceans expedition (2009-2013) using a WPII net and analysed on a ZooScan imaging platform.",
+    "description": "The Tara Oceans project sampled contrasting ecosystems of the world oceans during a three-year expedition (2009-2013), collecting environmental data and plankton, from viruses to metazoans, on board the 36-metre Tara Schooner. It surveyed 210 ecosystems in 20 biogeographic provinces, collecting over 35,000 samples of seawater and plankton. Samples were later analysed using modern sequencing and state-of-the-art imaging technologies.",
+    "url": "https://obis.org/dataset/cbd631ea-c8ff-419f-8340-b29c7fdc416a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dasid_6515",
+        "https://dx.doi.org/10.14284/521"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Romagnan, J.B., Jalabert, L., Olivier, M., Elineau, A., Brandao, M., Caray-Counil, L., Dimier, C., Picheral, M., Searson, S., Kandels-Lewis, S., Tara Oceans Consortium Coordinators, Karsenti, E., Pesant, S., Irisson, J.O., Lombard, F., Stemmann, L., Gorsky, G.; (2020) Occurrence of Eukaryotes in the size fraction &gt;200 micrometres, collected worldwide during the Tara Oceans expedition (2009-2013) using a WPII net and analysed on a ZooScan imaging platform. https://dx.doi.org/10.14284/521",
+    "version": "2024-02-26T23:17:42.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2013",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/521",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/521",
+        "url": "https://dx.doi.org/10.14284/521"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dasid_6515",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-168.282867 -64.348333,-168.282867 80.503917,174.8785 80.503917,174.8785 -64.348333,-168.282867 -64.348333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13830",
+            "@type": "Organization",
+            "legalName": "Sorbonne Université",
+            "name": "Sorbonne Université",
+            "url": "https://oceanexpert.org/institution/13830"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18357",
+            "@type": "Organization",
+            "legalName": "Laboratoire d'Océanographie de Villefranche-sur-Mer",
+            "name": "Laboratoire d'Océanographie de Villefranche-sur-Mer",
+            "url": "https://oceanexpert.org/institution/18357"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23192",
+            "@type": "Organization",
+            "legalName": "European Bioinformatics Institute",
+            "name": "European Bioinformatics Institute",
+            "url": "https://oceanexpert.org/institution/23192"
+        }
+    ]
+}

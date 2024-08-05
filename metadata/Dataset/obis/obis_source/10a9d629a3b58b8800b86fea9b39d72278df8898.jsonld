@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/527ef2c2-0537-4853-86ac-2d9c02663e78",
+    "name": "Passive acoustic monitoring of killer whales in the Gulf of Alaska 2019-2021",
+    "description": "Original provider:\nHannah Myers\n\nDataset credits:\nHannah Myers, University of Alaska Fairbanks\n\nAbstract:\nDefining a marine mammal population’s calling rate can enable acoustic density \nestimation. We used killer whale dialects, long-term photo-identification, and year-round acoustic data across multiple locations to establish calling rates for three killer whale populations. This dataset includes acoustic detections of the AD8 and AD16 pods of southern Alaska resident (fish-eating) killer whales, as well as detections of the Gulf of Alaska transient (mammal-eating) and AT1 transient (mammal-eating) populations. \n\nThese populations and pods were recognized using published call catalogues as well as field recordings during which the animals present were photographically identified. \n\nThe number of discrete calls in each four- or five-min recording was counted. For resident killer whales, the number of animals present is the number of animals photographically documented that year in the pod; for transients, it is the mean number of animals documented over long-term vessel survey efforts.\n\nPurpose:\nEstablish calling rates for passive acoustic density estimation of three populations of killer whales.\n\nSupplemental information:\nThis dataset includes some overlap with \"Passive acoustic monitoring of killer whales in the northern Gulf of Alaska\" which collects data from 2016 - 2020 while this dataset collects data from June 2019 - Aug 2021.\n\nFor transient populations, the mean number (non-integer) of animals in vessel survey encounters was calculated and stored in number_of_animals. obs_count for these  records is blank, indicating presence-only.",
+    "url": "https://obis.org/dataset/527ef2c2-0537-4853-86ac-2d9c02663e78",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2263"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Myers, H. 2023. Passive acoustic monitoring of killer whales in the Gulf of Alaska 2019-2021. Data downloaded from OBIS-SEAMAP (https://seamap.env.duke.edu/dataset/2263) on yyyy-mm-dd.",
+    "version": "2023-07-07T21:51:45.000Z",
+    "keywords": [
+        "Occurrence,Marine Biology,Marine mammals,Acoustic detection,Ocean-based Platforms,Calling rate",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2263",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-149.5 59.7,-149.5 60.3,-147 60.3,-147 59.7,-149.5 59.7"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20908",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks",
+            "name": "University of Alaska Fairbanks",
+            "url": "https://oceanexpert.org/institution/20908"
+        }
+    ]
+}

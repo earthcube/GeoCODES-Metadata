@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fb3fe774-a1e5-45cd-ab4c-398bf7932a7d",
+    "name": "Environmental baseline data in abyssal plain off Minami Torishima based on megafauna occurrence obtained from the 2022 cruise",
+    "description": "SIP Ocean program conducted the research cruises for technical development and data collection of baseline condition in deep-sea environments off Minami Torishima. This data set contains occurrence of megafauna recorded by video cameras of Edokko Mark 1, which were deployed on the seafloor in the 2022 cruise (KR22-01C, YK22-08C). Three cameras with different angles (upper, middle, lower) have been installed within Eodokko Mark 1, and data for each camera is described.",
+    "url": "https://obis.org/dataset/fb3fe774-a1e5-45cd-ab4c-398bf7932a7d",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=jamstec_sip-2-megafauna-video-data_2022"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Inomata K. Kawagucci S. Miwa T. and Yamamoto H (2023) Environmental baseline data in abyssal plain off Minami Torishima based on 16S rRNA gene, 18S rRNA gene, physicochemical parameters and meiofauna community, and megafauna occurrence. https://doi.org/10.48518/00020",
+    "version": "2023-04-20T03:10:44.000Z",
+    "keywords": [
+        "Occurrence",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Type of bait",
+            "url": "",
+            "description": "Type of bait"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "bait residues",
+            "url": "",
+            "description": "bait residues"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2022/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=jamstec_sip-2-megafauna-video-data_2022",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "153.886245 22.99744167,153.886245 23.06091333,154.4045317 23.06091333,154.4045317 22.99744167,153.886245 22.99744167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18293",
+            "@type": "Organization",
+            "legalName": "JAMSTEC Tokyo Office",
+            "name": "JAMSTEC Tokyo Office",
+            "url": "https://oceanexpert.org/institution/18293"
+        }
+    ]
+}

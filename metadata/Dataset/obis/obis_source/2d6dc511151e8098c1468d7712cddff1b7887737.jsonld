@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a5610a68-0e31-4526-b55f-685fe96ed132",
+    "name": "Abundance of young mullet Mugil liza Valenciennes, 1836 in the surf zone along the southern coast of Brazil",
+    "description": "<p>This dataset presents abundance data of juveniles <i>Mugil liza</i> recorded in surf-zone in south Brazilian coast. The fish were collected monthly between June 2011 and May 2012 in the surf zones adjacent to the mouths of the six estuaries from 29°S, 48°W to 34°S, 53°W.</p>",
+    "url": "https://obis.org/dataset/a5610a68-0e31-4526-b55f-685fe96ed132",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=mugilliza_brazil",
+        "https://doi.org/10.17882/75808"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Lemos Valéria Marques, Vieira João Paes (2020). Abundance of young mullet Mugil liza Valenciennes, 1836 in the surf zone along the southern coast of Brazil. SEANOE. https://doi.org/10.17882/75808",
+    "version": "2023-12-08T17:11:41.000Z",
+    "keywords": [
+        "Abundance",
+        "Surf zone",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2012",
+    "identifier": {
+        "@id": "https://doi.org/10.17882/75808",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17882/75808",
+        "url": "https://doi.org/10.17882/75808"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mugilliza_brazil",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-53.509 -33.902,-53.509 -28.478,-48.761 -28.478,-48.761 -33.902,-53.509 -33.902"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3cb562c7-59b4-4f8c-ac62-fc49fc7ef79b",
+    "name": "Esponjas asociadas a raíces de Rhizophora mangle del Parque Nacional Morrocoy",
+    "description": "Ocurrencia y cobertura de las especies de esponjas asociadas a las raíces de R. mangle en 3 localidades del Parque Nacional Morrocoy, Venezuela. Los registros se realizaron mensualmente durante el 2011.",
+    "url": "https://obis.org/dataset/3cb562c7-59b4-4f8c-ac62-fc49fc7ef79b",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=esponjas_mangle_morrocoy"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Pérez J (2022): Esponjas asociadas a raíces de Rhizophora mangle del Parque Nacional Morrocoy. v1.5. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=esponjas_mangle_morrocoy&amp;v=1.5",
+    "version": "2022-11-01T13:54:19.000Z",
+    "keywords": [
+        "Samplingevent",
+        "sponges",
+        "Parque Nacional Morrocoy",
+        "Falcón",
+        "Venezuela",
+        "CaribeSur",
+        "ID:BID-CA2020-025-NAC.",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Coverage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "Coverage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=esponjas_mangle_morrocoy",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.2994611 10.8354806,-68.2994611 10.8457611,-68.2276611 10.8457611,-68.2276611 10.8354806,-68.2994611 10.8354806"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18896",
+            "@type": "Organization",
+            "legalName": "Universidad Central de Venezuela",
+            "name": "Universidad Central de Venezuela",
+            "url": "https://oceanexpert.org/institution/18896"
+        }
+    ]
+}

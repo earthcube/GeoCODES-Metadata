@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0ff2a317-589a-4a3c-8f87-cd37173da0d6",
+    "name": "Museum and Art Gallery of the Northern Territory Crustacean Collection",
+    "description": "The Museum and Art Gallery of the Northern Territory (MAGNT) Crustacean Collection was established in 1981 and consists of about 19000 databased specimens and additional material that is not yet registered. The majority of the specimens have been collected from locations in Northern Australia. The collection includes 225 holotypes and over 370 paratype lots.\nThis dataset was sourced from the Atlas of Living Australia (ALA) January 2019 (https://collections.ala.org.au/public/show/co206). Taxa have been matched to the World Register of Marine Species (WoRMS) and if not then matched to the Australian Faunal Directory (AFD)",
+    "url": "https://obis.org/dataset/0ff2a317-589a-4a3c-8f87-cd37173da0d6",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_co206"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T05:17:29.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1893/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_co206",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-175.325 -44.13342,-175.325 59.36667,178.5 59.36667,178.5 -44.13342,-175.325 -44.13342"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

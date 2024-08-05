@@ -1,0 +1,117 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b99fe048-7da1-4558-a118-c98c213f4fde",
+    "name": "Meiofauna of the Mar Piccolo of Taranto (Ionian Sea), 2013-2014",
+    "description": "Meiofauna monitoring in the Mar Piccolo of Taranto (Ionian Sea, southern Italy), 2013-2014 in the framework of the Italian flagship project RITMARE. In June 2013 and April 2014, sampling was carried out at four sites by scuba divers who collected five virtually undisturbed sediment cores using polycarbonate sample tubes (12.7 cm I.D. with a sample area of 127 cm2). In laboratory, one sediment core was subsampled by means of 3 cut-off plastic syringes (2.7 cm I.D., surface area of 5.72 cm2, 0-10 cm top sediment) in order to obtain three pseudoreplicates for the meiofauna. Meiofaunal organisms (38–1000 µm) were extracted from sediment subsamples by sieving each pseudoreplicate and by centrifuging the material retained by a 38 μm mesh net with Ludox HS-40 (density of 1.15–1.18 g cm−3). All meiobenthic organisms were counted and taxonomically classified to the main groups under a stereomicroscope (Olympus SZX12; final magnification of 32-40x)",
+    "url": "https://obis.org/dataset/b99fe048-7da1-4558-a118-c98c213f4fde",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=meiofauna_taranto"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Franzo A. and Del Negro P. (2020): Meiofauna of the Mar Piccolo of Taranto (Ionian Sea), 2013-2014. OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. Italy. Dataset/Occurrence. https://nodc.inogs.it/metadata/doidetails?doi=10.6092/cbcda0f7-4599-4fce-ba2c-c337879443ee",
+    "version": "2023-12-08T17:21:01.000Z",
+    "keywords": [
+        "diver",
+        "Marine",
+        "Meiobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Depth (spatial coordinate) relative to bed surface in the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/COREDIST/",
+            "description": "Depth (spatial coordinate) relative to bed surface in the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lower sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Lower sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample extraction method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100005/",
+            "description": "Sample extraction method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Subsampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100006/",
+            "description": "Subsampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Upper sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100008/",
+            "description": "Upper sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=meiofauna_taranto",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "17.26055555 40.47944444,17.26055555 40.48361111,17.29611111 40.48361111,17.29611111 40.47944444,17.26055555 40.47944444"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

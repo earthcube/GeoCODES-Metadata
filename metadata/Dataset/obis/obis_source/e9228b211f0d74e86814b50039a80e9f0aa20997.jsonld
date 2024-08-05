@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8e323d59-ae6c-4b62-840e-8f6eb68e40ed",
+    "name": "Tracking of Far Eastern Curlew (Numenius madagascariensis) along the East Asian-Australasian Flyway (EAAF) (2017-2021)",
+    "description": "GPS tracking devices were deployed  on far eastern curlews  (Numenius madagascariensis)  at two sites in northwest Australia (Broome n = 8 [−17.7513°N, 122.5528°E], Darwin n = 3 [−12.4867°N, 130.8927°E]) and two sites in southeast Australia (Moreton Bay n = 8 [−27.0335°N, 153.0925°E], Western Port n = 3 [−38.2321°N, 145.4820°E])  over the course of two nonbreeding seasons, November–March 2017/2018 and November–March 2018/2019. A total of 22 individuals were fitted with either a solar-powered GPS-GSM transmitter (15 or 20 g Ornitrack, Ornitela, Lithuania) or an Argos solar-powered platform transmitter terminal. See cited paper for additional information\nTracking data accessed from Movebank Data Repository (https://www.datarepository.movebank.org/handle/10255/move.1314) on 2022-12-01.",
+    "url": "https://obis.org/dataset/8e323d59-ae6c-4b62-840e-8f6eb68e40ed",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=far_eastern_curlew_tracking_eeaf"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Morrick ZN, Lilleyman A, Fuller RA, Bush R, Coleman JT, Garnett ST, Gerasimov YN, Jessop R, Ma Z, Maglio G, Minton CDT, Syroechkovskiy E, Woodworth BK. (2021) Differential population trends align with migratory connectivity in an endangered shorebird. Conserv Sci Pract. doi:10.1111/csp2.594",
+    "version": "2022-12-08T23:21:25.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "ARGOS Location Class",
+            "url": "",
+            "description": "ARGOS Location Class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mass",
+            "url": "",
+            "description": "Mass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=far_eastern_curlew_tracking_eeaf",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.01245 -38.74236,-179.01245 56.45519,172.2815 56.45519,172.2815 -38.74236,-179.01245 -38.74236"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

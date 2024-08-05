@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e168c19e-d9e9-447c-b077-1faa487df4a6",
+    "name": "IMOS - Zooplankton Abundance and Biomass Index (CPR)",
+    "description": "AusCPR: Zooplankton Abundance The Australian Continuous Plankton Recorder (AusCPR) survey is a joint project of CSIRO Oceans and Atmosphere (O&amp;A) and the Australian Antarctic Division (AAD) to measure plankton communities as a guide to the health of Australia's oceans. The zooplankton analysis is conducted differently to that described in Richardson et al 2006 as it is counted off the silk in a Bogorov tray. This is accomplished by rinsing the silks in water and straining through a 10 micron mesh sieve. The collected plankton is transferred to a Bogorov tray and counted under a dissecting scope. This is done to retain the phytoplankton. After counting the zooplankton and phytoplankton are stored with the silk segment in PGP preservative. AusCPR decided to analyse the zooplankton this way as it provides a more accurate analysis of the zooplankton present. It is easy to miss zooplankton when it is still on the silk and it is harder to identify. The aims of the AusCPR survey are to: * map plankton biodiversity and distribution * develop the first long-term plankton baseline for Australian waters * document plankton changes in response to climate change * provide indices for fisheries management * detect harmful algal blooms * validate satellite remote sensing * initialise and test ecosystem models Servicing and maintenance of the CPRs and analysis of the samples for the AusCPR survey will be carried out by staff based at the CMAR laboratories in Queensland and at the AAD in Hobart. The project was funded by the Integrated Marine Observing System (IMOS) and falls with the Ships of Opportunity facility. Data storage and access is planned to be interoperable with other national and international programs through the IMOS eMarine Information Infrastructure (eMII). Results from the AusCPR survey are available through the IMOS data portal: http://imos.aodn.org.au/webportal/ For information on using the data please refer to the Richardson et al. 2006. As the taxonomic resolution of the data has changed over time, due to continual training, it is important that users refer to the change log tables included in your data download. These will provide information on the validity of the taxa, from what date we have been identifying certain taxa etc. Classification fields may be blank depending on the level to which that taxa has been identified, i.e. if only identified to family, genus and species will be blank. This data is freely available but please acknowledge all relevant parties, as detailed in acknowledgement section:\n\n----\nThese data are from the Australian Continuous Plankton Recorder (AusCPR) survey part of the Integrated Marine Observing System (IMOS) - IMOS is a national collaborative research infrastructure, supported by the Australian Government.\n\nPlease also acknowledge the relevant party that helped to collect the data. This information is contained in the download of the zooplankton abundance.\n\nANL - ANL Windarra container shipping\nCSIRO - Commonwealth Scientific and Industrial Research Organisation\nMNF - Marine National Facility\nSealord Group Ltd.\nSOCPR - Southern Ocean Continuous Plankton Recorder Survey\nAIMS - Australian Institute of Marine Science\nGA - Geoscience Australia\nSwire Shipping\nMalaspina Cruise - March 2011 aboard vessel Hespérides\n----\nAdditional information for this dataset may be available via the metadata link below:\nhttps://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/bf287dfe-9ce4-4969-9c59-51c39ea4d011",
+    "url": "https://obis.org/dataset/e168c19e-d9e9-447c-b077-1faa487df4a6",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=imos_auscpr_zoop"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "These data are from the Australian Continuous Plankton Recorder (AusCPR) survey part of the Integrated Marine Observing System (IMOS) - IMOS is a national collaborative research infrastructure, supported by the Australian Government.\n\nPlease also acknowledge the relevant party that helped to collect the data. This information is contained in the download of the zooplankton abundance.\n\nANL - ANL Windarra container shipping\nCSIRO - Commonwealth Scientific and Industrial Research Organisation\nMNF - Marine National Facility\nSealord Group Ltd.\nSOCPR - Southern Ocean Continuous Plankton Recorder Survey\nAIMS - Australian Institute of Marine Science\nGA - Geoscience Australia\nSwire Shipping\nMalaspina Cruise - March 2011 aboard vessel Hespérides",
+    "version": "2022-06-07T05:45:36.000Z",
+    "keywords": [
+        "Oceans &gt; Marine Biology &gt; Marine Microbiota",
+        "Oceans &gt; Ocean Chemistry &gt; Organic Matter",
+        "Oceans &gt; Ocean Temperature &gt; Water Temperature",
+        "Oceans &gt; Salinity/Density &gt; Salinity",
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass Index",
+            "url": "",
+            "description": "Biomass Index"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "estimate of the amount of chlorophyl in the water",
+            "url": "",
+            "description": "estimate of the amount of chlorophyl in the water"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=imos_auscpr_zoop",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "89.6289 -65.2428,89.6289 -10.6017,174.335 -10.6017,174.335 -65.2428,89.6289 -65.2428"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

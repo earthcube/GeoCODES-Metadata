@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2102c55e-588b-4c35-96c7-822fd50c3437",
+    "name": "University of Amsterdam (NL) - Benthos monitoring of the North Sea research database",
+    "description": "Benthos monitoring data from the North Sea between 1990 and 2002. The database was compiled from different sources, mainly under the \"Biodiversity and Global Change\" (BIGC) programme of the \"Netherlands Organisation for Scientific Research\" (NWO).",
+    "url": "https://obis.org/dataset/2102c55e-588b-4c35-96c7-822fd50c3437",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_9186",
+        "https://doi.org/10.15468/smncop"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Netherlands Biodiversity Information Facility (NLBIF): Zoological Museum Amsterdam, University of Amsterdam (NL) - Benthos monitoring of the North Sea_ research database. Accessed via http://www.gbif.org/dataset/50361be0-d9cd-11de-b793-b8a03c50a862 on yyyy-mm-dd https://doi.org/10.15468/smncop",
+    "version": "2023-12-08T17:50:24.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2002",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/smncop",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/smncop",
+        "url": "https://doi.org/10.15468/smncop"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_9186",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.679167 51.6175,2.679167 55.471667,6.5625 55.471667,6.5625 51.6175,2.679167 51.6175"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

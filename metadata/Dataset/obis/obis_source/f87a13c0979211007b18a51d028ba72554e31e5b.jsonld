@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/534558e7-765f-40e2-89bd-dfc4cda06e0c",
+    "name": "Antarctic Krill occurrence data from Japanese expeditions",
+    "description": "Antarctic Krill (Euphausia superba) occurence data from Japanese expeditions, collected in the framework of CCAMLR",
+    "url": "https://obis.org/dataset/534558e7-765f-40e2-89bd-dfc4cda06e0c",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=japanese_krill"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "A. Atkinson, V. Siegel , E. Pakhomov, P. Rothery (2004):  Long-term decline in krill stock and increase in salps within the Southern Ocean. Nature 432: 100-103",
+    "version": "2019-03-19T14:46:02.000Z",
+    "keywords": [
+        "Ccamlr",
+        "Krill",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=japanese_krill",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "97.06 -65.49666667,97.06 -56.35,152.8 -56.35,152.8 -65.49666667,97.06 -65.49666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/15531",
+            "@type": "Organization",
+            "legalName": "Thünen Institut für Seefischerei",
+            "name": "Thünen Institut für Seefischerei",
+            "url": "https://oceanexpert.org/institution/15531"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

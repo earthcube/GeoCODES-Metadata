@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b3746871-cda0-4b4b-8b7c-76a88eaeeae0",
+    "name": "Gray whale Infrared blow detections from shore 2015",
+    "description": "Original provider:\nRegina A. Guazzo, Scripps Institution of Oceanography\n\nDataset credits:\nNational Oceanic and Atmospheric Administration, Southwest Fisheries Science Center\n\nAbstract:\nDuring the eastern North Pacific gray whale 2014–2015 southbound migration, acoustic call recordings, infrared blow detections, and visual sightings were combined to estimate cue rates, needed to convert detections into abundance. The gray whale M3 acoustic call rate was 2.3–24 calls/whale/day with an average of 7.5 calls/whale/day over the entire migration (southbound and northbound) and showed a positive trend from 30 December–13 February. The infrared camera blow rate averaged 49 blows/whale/hour over 5–8 January. With a call rate model, we estimated that 4,340 gray whales migrated south before visual observations began on 30 December, which is 2,829 more gray whales than used in the visual abundance estimate. This finding highlights the usefulness of cue rates to increase precision in abundance estimates. We suggest that visual observers increase their survey effort to all of December to verify gray whale abundance corrections. Probability of detection of a whale blow by the infrared camera was the same at night as during the day. However, probability of detection decreased beyond 2.1 km offshore, whereas visual sightings revealed consistent whale densities up to 3 km offshore. We suggest that future infrared camera surveys use multiple cameras optimized for different ranges offshore.\n\nSupplemental information:\nInfrared camera located at 36 26' 24.61\" N 121 55'19.41\"W\n\n\"Effort\" tab gives the start and end times of each infrared video in Julian Date, Matlab datenum format: Days since Jan 0, 0000.  Note that there are short gaps between videos.\n\nThe original datasheet is included in the downloadable zipped file.",
+    "url": "https://obis.org/dataset/b3746871-cda0-4b4b-8b7c-76a88eaeeae0",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1864"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Guazzo, R. A., Weller, D. W., Europe, H. M., Durban, J. W., D\\'Spain, G. L., and Hildebrand, J. A. in review. Migrating eastern North Pacific gray whale cue rates estimated from acoustic recordings, infrared images, and visual sightings. Scientific Reports.",
+    "version": "2021-04-24T07:52:07.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Land-based",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1864",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-121.979872 36.415893,-121.979872 36.438129,-121.926783 36.438129,-121.926783 36.415893,-121.979872 36.415893"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23188",
+            "@type": "Organization",
+            "legalName": "Naval Information Warfare Center Pacific",
+            "name": "Naval Information Warfare Center Pacific",
+            "url": "https://oceanexpert.org/institution/23188"
+        }
+    ]
+}

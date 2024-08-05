@@ -1,0 +1,118 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0820b10a-5710-4e90-b9ed-a2ad7c7ec742",
+    "name": "IMOS - Animal Tracking Facility - Acoustic Tracking - Quality Controlled Detections (2007 -2021)",
+    "description": "Over the last decade, the Integrated Marine Observing System’s Animal Tracking Facility (IMOS ATF) has established a permanent array of acoustic receivers around Australia to detect the movements of tagged marine animals in coastal waters. Simultaneously, IMOS ATF developed a centralised national database (https://animaltracking.aodn.org.au/) to encourage collaborative research across the user community and provide unprecedented opportunities to quantify individual behaviour across a broad range of taxa. Here we present the database and quality control procedures developed to collate 67 million valid detections from 1891 receiving stations. This dataset consists of detection data for 7800 tags deployed on 154 species (fish, sharks, rays, reptiles, and mammals), with distances traveled ranging from a few to thousands of kilometres. This dataset of acoustic detections constitutes a valuable resource facilitating meta-analysis of animal movement, distributions, and habitat use, and is important for relating species distribution shifts with environmental covariates.\nThis copy of the IMOS ATF data is of the valid detections downloaded via the IMOS Animal Tracking Portal at https://animaltracking.aodn.org.au/detection. This dataset has been summarized by reducing the detection records to the count of detections per animal per site per day (UTC). The DwC field organismId has been used to record the transmitter serial number. The initial deployment/release of the animal has also been added to the dataset via EMoF using an occurrenceId of the transmitter tag with a postfix of '-release'. Parameters include transmitter type, length and weight of the released animal.\nDownloads of the detection, deployments and receiver stations are  from https://animaltracking.aodn.org.au/detection accessed in 2021-01-04",
+    "url": "https://obis.org/dataset/0820b10a-5710-4e90-b9ed-a2ad7c7ec742",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=imos_atf_ad"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Users of IMOS data are required to clearly acknowledge the source material by including the following statement:\n\n\"Australia’s Integrated Marine Observing System (IMOS) is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS).\nIt is operated by a consortium of institutions as an unincorporated joint venture, with the University of Tasmania as Lead Agent.\"",
+    "version": "2022-06-08T01:58:14.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Transmitter type",
+            "url": "",
+            "description": "Transmitter type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "total length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "total length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "fork length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "fork length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01",
+            "description": "weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "width",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "carapace length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "carapace length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Pre-Caudal Length",
+            "url": "",
+            "description": "Pre-Caudal Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=imos_atf_ad",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-146.59 -46.84,-146.59 20.15,168.22 20.15,168.22 -46.84,-146.59 -46.84"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11456",
+            "@type": "Organization",
+            "legalName": "Integrated Marine Observing System",
+            "name": "Integrated Marine Observing System",
+            "url": "https://oceanexpert.org/institution/11456"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

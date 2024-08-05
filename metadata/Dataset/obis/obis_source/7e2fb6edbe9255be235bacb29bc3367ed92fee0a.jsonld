@@ -1,0 +1,97 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3fd63e87-e4c0-4b2e-be33-a7a1306a3539",
+    "name": "Young Fish Survey Data 1981 to 2010",
+    "description": "Total numbers of individual fish identified during the Cefas Young Fish Survey (YFS) which ran from 1981 to 2010. The survey deployed a light 2-meter beam trawl to survey inshore locations for small / young fish around the British Isles, predominantly along the south and east coasts. Total numbers of fish (identified to species or if not to the highest taxonomic level) were recorded at each station, and were measured in the majority of cases. The surveys were primarily undertaken to evaluate the abundance of juvenile sole and plaice, as well as providing further information on the abundance of other species of fish. The YFS formed part of the International Young Fish Survey, coordinated by ICES.",
+    "url": "https://obis.org/dataset/3fd63e87-e4c0-4b2e-be33-a7a1306a3539",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cefas_01",
+        "https://doi.org/10.14466/CefasDataHub.73"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Burt et al.; (2019): Young Fish Survey Data 1981 to 2010. Cefas, UK. V1. https://doi.org/10.14466/CefasDataHub.73",
+    "version": "2023-05-23T12:14:30.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Fish",
+        "Fisheries",
+        "surface vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length of sampling track",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Length of sampling track"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Width of sample collector (aperture) {mouth width}",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MTHWDTH1/",
+            "description": "Width of sample collector (aperture) {mouth width}"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ObservedIndividualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "ObservedIndividualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1981/2010",
+    "identifier": {
+        "@id": "https://doi.org/10.14466/CefasDataHub.73",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14466/CefasDataHub.73",
+        "url": "https://doi.org/10.14466/CefasDataHub.73"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cefas_01",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-3.469 50.61,-3.469 55.381,1.831 55.381,1.831 50.61,-3.469 50.61"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/36fbc01b-72bd-42f0-af0a-e1701cddcf94",
+    "name": "FishNet2 Marine Data",
+    "description": "The data is compiled from FishNet2 service for OBIS to include marine specimens with coordinates data only. ",
+    "url": "https://obis.org/dataset/36fbc01b-72bd-42f0-af0a-e1701cddcf94",
+    "sameAs": [
+        "https://bgnn.tulane.edu/ipt/resource?r=fishnet2_marine"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Fishnet2 Portal, http://www.fishnet2.net, [Access date]",
+    "version": "2021-02-12T19:42:48.000Z",
+    "keywords": [
+        "Occurrence",
+        "FishNet2",
+        "Specimen",
+        "Occurrence",
+        "Marine"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "201/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://bgnn.tulane.edu/ipt/archive.do?r=fishnet2_marine",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -88.0333333,-180 89.6667,180 89.6667,180 -88.0333333,-180 -88.0333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19103",
+            "@type": "Organization",
+            "legalName": "Tulane University Biodiversity Research Institute",
+            "name": "Tulane University Biodiversity Research Institute",
+            "url": "https://oceanexpert.org/institution/19103"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9df9e620-d008-4cd2-82d6-aecc6af23644",
+    "name": "Macrobenthos collected in the Po River Delta - North Adriatic Sea (RITMARE Project) in December 2014",
+    "description": "Macrobenthos collected in the Po Delta - North Adriatic Sea in the framework of the Italian Flagship Project RITMARE in December 2014.",
+    "url": "https://obis.org/dataset/9df9e620-d008-4cd2-82d6-aecc6af23644",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macrobenthosritmare-podelta",
+        "https://doi.org/10.6092/gtc1-bp60"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Nasi F., Auriemma R., &amp; Cibic T. (2018): Macrobenthos collected in the Po River Delta - North Adriatic Sea (RITMARE Project) in December 2014. OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. Italy. https://doi.org/10.6092/gtc1-bp60",
+    "version": "2023-05-23T11:33:50.000Z",
+    "keywords": [
+        "Delta",
+        "Ecological monitoring",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Lower sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Lower sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/gtc1-bp60",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/gtc1-bp60",
+        "url": "https://doi.org/10.6092/gtc1-bp60"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macrobenthosritmare-podelta",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "12.457 44.7087,12.457 44.99,12.581 44.99,12.581 44.7087,12.457 44.7087"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

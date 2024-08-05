@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/de2825af-7d83-4585-b6cb-118cff3774cd",
+    "name": "Benthic fauna in Estonian territorial waters 1993-2016",
+    "description": "Quantitative results of large invertebrates species/taxon biomass and abundance sampled during Estonian national monitoring in Estonian coastal sea, Baltic Sea. The samples are collected and treated in accordance with Manual for Marine Monitoring in the COMBINEprogramme of HELCOM.",
+    "url": "https://obis.org/dataset/de2825af-7d83-4585-b6cb-118cff3774cd",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zoobenthos_estonia_93-16"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Estonian Marine Institute, University of Tartu (2019): Benthic fauna in Estonian territorial waters 1993-2016.",
+    "version": "2023-12-08T17:07:51.000Z",
+    "keywords": [
+        "Time series",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling device",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling device"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "description": "biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dimension of the device",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "dimension of the device"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "arvukus",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "arvukus"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Lifestage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zoobenthos_estonia_93-16",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "20.533334 57.6149,20.533334 59.916669,28.01258 59.916669,28.01258 57.6149,20.533334 57.6149"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

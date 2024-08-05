@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b5899349-ac13-49f4-bf88-ca3bbf4b4751",
+    "name": "Deep Panuke whale sightings 2003",
+    "description": "Original provider:\nEncana Corporation\n\nDataset credits:\nMarielle Thillet, Deep Panuke Project, Encana Corporation\n\nAbstract:\nWe present marine mammal observation statistics, high-frequency seismic source characteristics, and example denoising of marine mammal acoustical recordings using data collected during the mitigation and monitoring program for a 3-D seismic survey by Encana Corporation, Calgary, Alberta, Canada, in the northwest Atlantic during 2003. Marine mammals were observed both visually and acoustically. No marine mammal incidents or adverse reactions were observed during the survey.\n\nAcoustical observations were made by the Seamap Passive\nAcoustic Cetacean Monitoring System (SPACMS), consisting of\ntwo hydrophones placed 50 m apart, towed ahead of and to one\nside of the seismic source. Visual and acoustical detections were uncorrelated, indicating the complementary nature of the two observational techniques. Visual detections were more common per hour of effort than acoustical detections. Acoustical detection rates showed no significant day–night difference.\n\nMarine mammals appeared to have avoided very close ranges (100 m) from the seismic array during seismic acquisition, but the overall number of marine mammals in the observable radius (1–2 km) did not change significantly when the seismic source was “on” compared to “off.” Marine mammals were observed in larger groups and appeared to have become less vocal when the seismic source was active. It should be noted however, that the results from this data gathering effort may be affected by potential sources of bias (such as the combination of data from toothed and baleen whales).\n\nSignal processing of seismic source signatures indicated some\nhigh-frequency energy content consistent with expectations from\nearlier work. This analysis confirmed that most of the seismic\nenergy was concentrated at lower frequencies (500 Hz). No\nlow-frequency comparisons with near-field data could be made\ndue to the geometry of the SPACMS recording hydrophones\nand seismic source, which resulted in the Lloyd’s mirror effect\nobliterating low-frequency components in the SPACMS records.\nA wavelet-based denoising method was applied to improve the visibility of marine mammal vocalizations on a spectrogram display.\n\nSupplemental information:\nAcoustic data collected in this survey are registered on OBIS-SEAMAP separately as the <a href=\"http://seamap.env.duke.edu/datasets/detail/651\">Deep Panuke whale acoustic 2003</a> dataset.",
+    "url": "https://obis.org/dataset/b5899349-ac13-49f4-bf88-ca3bbf4b4751",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_650"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Thillet, M. 2011. Deep Panuke whale sightings 2003. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/650) on yyyy-mm-dd.",
+    "version": "2021-04-24T10:09:40.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_650",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-57.747667 42.32,-57.747667 44.545,-57.098333 44.545,-57.098333 42.32,-57.747667 42.32"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

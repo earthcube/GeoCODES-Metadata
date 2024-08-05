@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/32e4711c-07ff-4d6c-8a03-968985a924f2",
+    "name": "Diversity and ecological features of Majidae crabs from Morrocoy National Park - Venezuela",
+    "description": "Abundance and  diversity of Majidae crabs in the National Park Morrocoy, Falcón, Venezuela.",
+    "url": "https://obis.org/dataset/32e4711c-07ff-4d6c-8a03-968985a924f2",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=majidaemorrocoy"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Carmona-Suárez C (2022): Diversity and ecological features of Majidae crabs from Morrocoy National Park - Venezuela. v1.8. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=majidaemorrocoy&amp;v=1.8",
+    "version": "2022-11-04T13:43:17.000Z",
+    "keywords": [
+        "Samplingevent",
+        "CaribeSur",
+        "BID-CA2020-025-NAC",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Females",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9769/",
+            "description": "Females"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Males",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9769/",
+            "description": "Males"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Maximum carapace length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMAXLX/",
+            "description": "Maximum carapace length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Minimum carapace length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMAXLX/",
+            "description": "Minimum carapace length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/1994",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=majidaemorrocoy",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.288 10.806,-68.288 10.81,-68.283 10.81,-68.283 10.806,-68.288 10.806"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7f5f426e-80bc-4f3b-8d1c-697b086287e8",
+    "name": "Fish catch from 1996/97 Voyage 2 WASTE (WOCE Antarctic Southern Transect Expedition)",
+    "description": "Fish catch from 1996/97 Voyage 2 WASTE (WOCE Antarctic Southern Transect Expedition)",
+    "url": "https://obis.org/dataset/7f5f426e-80bc-4f3b-8d1c-697b086287e8",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=trawl_waste"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "\tSee Metadata record for details http://data.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/ASAC_2070",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/1996",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=trawl_waste",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.316665649 -60.0278320312,141.316665649 -45.9196662903,147.416671753 -45.9196662903,147.416671753 -60.0278320312,141.316665649 -60.0278320312"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

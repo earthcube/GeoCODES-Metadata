@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/924c4d25-6358-44a3-8f4d-24086256ad3e",
+    "name": "Observatoire Pelagis boat surveys 2003-2021",
+    "description": "Original provider:\nObservatoire PELAGIS UAR 3462 University La Rochelle - CNRS\n\nDataset credits:\nObservatoire PELAGIS UAR 3462, University La Rochelle - CNRS\n\nAbstract:\nSince 2003, the Observatoire PELAGIS (La Rochelle University) participated to annual halieutic surveys, led by the IFREMER, to collect data on the distribution of marine top predators in order to estimate their relative abundance and preferred habitats in the Bay of Biscay, the Channel and the North Sea. \nEach year, three observers take place on board the vessel “Thalassa” to record sightings of seabirds, marine mammals, large fish and fishing boats, from dawn to dusk. Following distance sampling methods, visual censuses are made by two observers (while the third observer is resting) from the upper platform of the boat (min. 14m above the sea level). They are placed on each side of the deck, looking ahead for marine predator with an angle of 180°. For each sighting, the species and the number of individuals are recorded, as well as the behaviour, distance and angle (upon request).\n\nPurpose:\nOne of the main advantages of this survey lays in its ecosystemic approach, which provides information on all the components of the food web (from planktonic organisms to predators) as well as data on the environmental parameters (sea surface temperature, salinity…). Interactions between prey and predators are complex in marine ecosystems, which are submitted to strong spatio-temporal variations. Thanks to ecosystem-based surveys, observed distributions and densities of marine predators can be related to the occurrence of their prey, providing to scientists and managers a better understanding of the marine ecosystems structure.\n\nSupplemental information:\n[2022-10-20] The records on 2016-09-21 got the longitude sign swapped. they are corrected.\n[2022-01-18] Data in 2020 and 2021 were appended.\n[2018-04-26] Data in 2016 and 2017 were appended.\n\nTime and group size of the sightings are not available online. They may be released upon request.",
+    "url": "https://obis.org/dataset/924c4d25-6358-44a3-8f4d-24086256ad3e",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1403"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Doremus, G. 2022. Observatoire Pelagis boat surveys 2003-2021. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1403) on yyyy-mm-dd.",
+    "version": "2022-10-20T14:53:17.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Seabirds,Marine mammals,Cetaceans,Sea turtles,Elasmobranchii,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_1403",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-11.292789 -25.61275,-11.292789 55.280026,47.3583 55.280026,47.3583 -25.61275,-11.292789 -25.61275"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

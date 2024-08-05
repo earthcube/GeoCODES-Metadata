@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b81d6803-77a2-44db-8a75-896d8b80d387",
+    "name": "BioChem: Planktonic Foraminifera collected in the Equatorial and North Pacific, 1970",
+    "description": "Twenty-nine plankton tows were collected at different water depths in the equatorial and northern Pacific Ocean during the Hudson 70 cruise. Thirty planktonic foraminiferal species, belonging to eleven genera and three families, have been identified. Absolute and relative abundance of individual species, their size, structural modifications, and coiling directions of the tests are compared with the physical and chemical parameters of the Pacific Water masses.",
+    "url": "https://obis.org/dataset/b81d6803-77a2-44db-8a75-896d8b80d387",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=dfo_mar_hudson70_forams"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Kennedy, M.K. 2011. BioChem: Planktonic Foraminifera collected in the Equatorial and North Pacific, 1970. OBIS Canada Digital Collections. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Table digital, retrieved from http://www.iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/1970",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=dfo_mar_hudson70_forams",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-157 -10,-157 55,-150 55,-150 -10,-157 -10"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

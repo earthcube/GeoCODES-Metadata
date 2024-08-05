@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3c3f44b4-5fec-48c6-9f0a-d4329d1cc0fd",
+    "name": "Marine metagenomes from the bioGEOTRACES project (2010-2011)",
+    "description": "Marine metagenomes from the bioGEOTRACES project Metagenome.  Study details at https://www.ebi.ac.uk/metagenomics/studies/MGYS00005294 This dataset was sourced from GBIF  https://www.gbif.org/dataset/3de01c29-b3d4-4eeb-bd5c-b2bb475566cc on 2023-10-10. It contains samples from CSIRO Voyage SS2011_V02 (details at http://127.0.0.1/data/trawler/survey_details.cfm?survey=SS2011_V02) and known within the GEOTRACES survey GP13.\nOf the 6000+ taxa, about 3,300 can be matched to WoRMS.",
+    "url": "https://obis.org/dataset/3c3f44b4-5fec-48c6-9f0a-d4329d1cc0fd",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=biogeotraces"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "MGnify (2020). Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2023-09-28",
+    "version": "2023-10-27T02:21:56.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=biogeotraces",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.303 -49.5475,-179.303 49.7225,178 49.7225,178 -49.5475,-179.303 -49.5475"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

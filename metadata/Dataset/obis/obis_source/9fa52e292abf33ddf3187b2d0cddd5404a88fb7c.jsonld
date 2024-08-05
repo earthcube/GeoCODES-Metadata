@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/517ac935-af0f-4358-88fb-7093015182af",
+    "name": "Australian Museum Marine Invertebrate Collection",
+    "description": "The Marine Invertebrate collections contain registered specimens, microscope slides, Scanning Electron Microscope (SEM) preparations and photographic images. They include various marine invertebrates, and all other invertebrates except molluscs, insects and spiders, including freshwater and terrestrial representatives. The specimens contained in the collections are predominantly from New South Wales, Australia and the Indo-Pacific.",
+    "url": "https://obis.org/dataset/517ac935-af0f-4358-88fb-7093015182af",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=am_marine_inverts"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Keable S (2023): Australian Museum Marine Invertebrate Collection. v1.10. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=am_marine_inverts&amp;v=1.10",
+    "version": "2023-06-28T04:41:36.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1860/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=am_marine_inverts",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.933 -78.166,-179.933 84.31633,179.783 84.31633,179.783 -78.166,-179.933 -78.166"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19275",
+            "@type": "Organization",
+            "legalName": "Australian Museum",
+            "name": "Australian Museum",
+            "url": "https://oceanexpert.org/institution/19275"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/375d7789-8635-4e61-9556-60532577d393",
+    "name": "Antarctic, Sub-Antarctic and cold temperate echinoid database",
+    "description": "This database includes spatial data of Antarctic, Sub-Antarctic and cold temperate echinoid distribution (Echinodermata: Echinoidea) collected during many oceanographic campaigns led in the Southern Hemisphere from 1872 to 2010. The dataset lists occurrence data of echinoid distribution south of 35°S latitude, together with information on taxonomy (from species to genus level), sampling sources (cruise ID, sampling dates, ship names) and sampling sites (geographic coordinates and depth). Echinoid occurrence data were compiled from the Antarctic Echinoid Database (David et al., 2005a), which integrates records from oceanographic cruises led in the Southern Ocean until 2003. This database has been upgraded to take into account data from oceanographic cruises led after 2003. The dataset now reaches a total of 6160 occurrence data that have been checked for systematics reliability and consistency. It constitutes today the most complete database on Antarctic and Sub-Antarctic echinoids.",
+    "url": "https://obis.org/dataset/375d7789-8635-4e61-9556-60532577d393",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=antarctic_subantarctic_and_cold_temperate_echinoid_database"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "The data underpinning analyses of the paper are deposited at GBIF, the Global Biodiversity Information Facility, http://ipt.biodiversity.aq/resource.do?r=antarctic_subantarctic_and_cold_temperate_echinoid_database",
+    "version": "2019-03-19T14:43:57.000Z",
+    "keywords": [
+        "Southern Ocean; echinoids; Antarctic species; Sub-Antarctic species; cold temperate species",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=antarctic_subantarctic_and_cold_temperate_echinoid_database",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.9835 -77.861702,-179.9835 -35,179.999496 -35,179.999496 -77.861702,-179.9835 -77.861702"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19298",
+            "@type": "Organization",
+            "legalName": "Laboratoire Biogéosciences (UMR CNRS/uB 6282)",
+            "name": "Laboratoire Biogéosciences (UMR CNRS/uB 6282)",
+            "url": "https://oceanexpert.org/institution/19298"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0a3d1f18-2f69-4fae-bb1d-f2cca98c980a",
+    "name": "AMAPPS Northeast Aerial Cruise Spring 2014",
+    "description": "Original provider:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nDataset credits:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nSupplemental information:\nPerpendicular distance to the animal is not publicly available. Please contact the data provider to obtain this attribute.",
+    "url": "https://obis.org/dataset/0a3d1f18-2f69-4fae-bb1d-f2cca98c980a",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1379"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Josephson, B. 2016. AMAPPS Northeast Aerial Cruise Spring 2014. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1379) on yyyy-mm-dd.",
+    "version": "2021-04-24T06:11:46.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Aerial",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1379",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.869202 39.797329,-71.869202 44.37479,-65.593597 44.37479,-65.593597 39.797329,-71.869202 39.797329"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

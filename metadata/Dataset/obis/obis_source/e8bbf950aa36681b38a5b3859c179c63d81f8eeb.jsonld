@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/97bdf279-6f78-4ed7-ad9d-27a5886f8ff2",
+    "name": "Senckenberg's collection management system",
+    "description": "Sesam is the Collection Management System of the Senckenberg Museum. SeSam was developed together with com2 (Bad Homburg). All collections (both zoological and botanical) of the Senckenberg Research Institute are going to use this efficient tool.",
+    "url": "https://obis.org/dataset/97bdf279-6f78-4ed7-ad9d-27a5886f8ff2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=sesam"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Türkay, M. Senckenbergisches Sammlungsverwaltungssystem, SeSam. Senckenbergische Naturforschende Gesellschaft , Frankfurt, Germany. http://sesam.senckenberg.de/",
+    "version": "2023-05-23T11:37:57.000Z",
+    "keywords": [
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=sesam",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-177.733333333 -77.73,-177.733333333 88.7805,179 88.7805,179 -77.73,-177.733333333 -77.73"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6271",
+            "@type": "Organization",
+            "legalName": "Senckenberg Gesellschaft für Naturforschung",
+            "name": "Senckenberg Gesellschaft für Naturforschung",
+            "url": "https://oceanexpert.org/institution/6271"
+        }
+    ]
+}

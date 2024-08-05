@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f1a11336-64b8-46f4-ba10-5095d150039f",
+    "name": "DFO Newfoundland and Labrador Region Ecosystem Trawl Surveys",
+    "description": "An OBIS version of the Fisheries and Oceans Canada Newfoundland and Labrador region (DFO-NL) ecosystem trawl survey data from 1977-2011. Survey data are collected by DFO stock assessment staff during stratified random seasonal (spring and fall) bottom trawl surveys.  These surveys were initially designed to estimate abundance and distribution of commercial groundfish species, but since 1995 have also been regularly recording non-commercial species and invertebrates. The area surveyed has varied over time, as has the trawl gear used and the fishing methodology (tow duration) employed. Note in some years the ‘fall’ survey (usually Oct-Dec), continued January of the following calendar year.\n\nThis dataset is the OBIS version of the 'bottom trawl' dataset and only species presence information is included at this time for standard sets.\n\nTaxonomic limitations \nDue to the emphasis on commercial fish species, taxonomic classifications of non-commercial fish and invertebrates prior to 1995 were frequently limited to genus or family and sometimes order.  With the introduction of the Campelen trawl came a major change in the taxonomic detail recorded and by 2008 efforts were made to identify all fish to species, when possible. However although improved, identifications of some invertebrate taxa continue to be recorded at higher taxonomic levels.   Consequently  the absence of records for a particular species cannot be equated with an absence of the species, particularly when higher taxonomic classifications are present.    \n\n",
+    "url": "https://obis.org/dataset/f1a11336-64b8-46f4-ba10-5095d150039f",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_nl_groundfish"
+    ],
+    "license": "rights:  http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms\n\nrights holder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "Brodie, Bill, Mowbray, Fran and Power, Debbie, 2013. DFO Newfoundland and Labrador Region Ecosystem Trawl Surveys. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2013-10-28T17:18:04.000Z",
+    "keywords": [
+        "biota",
+        "oceans",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=dfo_nl_groundfish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-60.92 42.01,-60.92 57.69,-40.74 57.69,-40.74 42.01,-60.92 42.01"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9838",
+            "@type": "Organization",
+            "legalName": "Northwest Atlantic Fisheries Centre (DFO – NWAFC), Fisheries and Oceans Canada",
+            "name": "Northwest Atlantic Fisheries Centre (DFO – NWAFC), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/9838"
+        }
+    ]
+}

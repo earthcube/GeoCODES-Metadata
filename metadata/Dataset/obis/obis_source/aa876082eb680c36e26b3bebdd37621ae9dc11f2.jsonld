@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f8d136bb-2473-4879-a916-da02085f5e09",
+    "name": "Genomic sampling locations for ribbon weed (Posidonia australis) and wire weed (Amphibolis antarctica) in Shark Bay (Gathaagudu), Australia (2012-2019)",
+    "description": "Genomic sampling locations and meadow indices for ribbon weed (Posidonia australis) and wire weed (Amphibolis antarctica) in Shark Bay (Gathaagudu). Data sourced from https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/cbe117a8-c04a-48a2-91b2-dfcd4f109e39 on 2021-12-01.",
+    "url": "https://obis.org/dataset/f8d136bb-2473-4879-a916-da02085f5e09",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=shark_bay_seaweed_sampling"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "This dataset is hosted by the Institute for Marine and Antarctic Studies (IMAS), University of Tasmania, on behalf of the University of Western Australia (UWA) and NESP Marine Biodiversity Hub Project E6.\n\nThe citation in a list of references is: citation author name/s (year metadata published), metadata title. Citation author organisation/s. File identifier and Data accessed at (add http link).",
+    "version": "2022-06-12T11:30:05.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/PSAL",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01",
+            "description": "Water temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=shark_bay_seaweed_sampling",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.07661 -26.45553,113.07661 -25.58981,113.83094 -25.58981,113.83094 -26.45553,113.07661 -26.45553"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18840",
+            "@type": "Organization",
+            "legalName": "The University of Western Australia",
+            "name": "The University of Western Australia",
+            "url": "https://oceanexpert.org/institution/18840"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

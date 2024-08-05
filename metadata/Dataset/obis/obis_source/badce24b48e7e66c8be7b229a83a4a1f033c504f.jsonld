@@ -1,0 +1,127 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6d589629-7053-4bd8-84c0-228909705ccd",
+    "name": "Study of epibenthos and demersal fish in and around the dredging areas of the Belgian Continental Shelf (1977-1981)",
+    "description": "Presence, density and biomass data for ichtyofauna and epibenthos sampled in and around the dredging areas between 1977 and 1981. The data were digitized by VLIZ from the original report: Maertens, D. (1984). Analyse van de levensgemeenschappen op het Belgisch Kontinentaal Plat: studie van de epibenthale biocoenoses en van de demersale Pisces in en rondom de baggerzones. Mededelingen van het Rijksstation voor Zeevisserij (CLO Gent), 201. CLO Gent: Gent. 45, + annexes pp.",
+    "url": "https://obis.org/dataset/6d589629-7053-4bd8-84c0-228909705ccd",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=epibenthos_demersal_fish_belgian_continental_shelf_1977-1981",
+        "https://dx.doi.org/10.14284/192"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Maertens D.; Rijksstation voor Zeevisserij; Centrum voor Landbouwkundig Onderzoek (CLO): Belgium; (2016): Study of epibenthos and demersal fish in and around the dredging areas of the Belgian Continental Shelf (1977-1981). (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5430) https://dx.doi.org/10.14284/192",
+    "version": "2024-02-26T23:37:49.000Z",
+    "keywords": [
+        "Abiotic factors",
+        "Dredging",
+        "Epibenthos",
+        "Dredging wastes",
+        "Ecological monitoring",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MSHSIZE1/",
+            "description": "mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "time per haul",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "time per haul"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Direction of moving water mass according to the compass (N= north, E= east, W= west, S= south)",
+            "url": "",
+            "description": "Direction of moving water mass according to the compass (N= north, E= east, W= west, S= south)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea-floor depth {bathymetric depth} in the water body measured from keel of ship to the sea bottom",
+            "url": "",
+            "description": "Sea-floor depth {bathymetric depth} in the water body measured from keel of ship to the sea bottom"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "proportion of biomass total",
+            "url": "",
+            "description": "proportion of biomass total"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "water transparency measured with Secchi disk",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SECCSDNX/",
+            "description": "water transparency measured with Secchi disk"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "description": "Biomass of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "water temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "water temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1977/1981",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/192",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/192",
+        "url": "https://dx.doi.org/10.14284/192"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=epibenthos_demersal_fish_belgian_continental_shelf_1977-1981",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.7775 51.2361111,2.7775 51.4711111,3.2202778 51.4711111,3.2202778 51.2361111,2.7775 51.2361111"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

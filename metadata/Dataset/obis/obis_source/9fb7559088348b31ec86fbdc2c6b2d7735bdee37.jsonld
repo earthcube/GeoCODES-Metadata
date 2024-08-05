@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3c19013a-8190-441a-9d0f-8b908185d87d",
+    "name": "ASEAN Fish Occurrences Literature",
+    "description": "A collection of Fish Occurrence Literature in the ASEAN Region",
+    "url": "https://obis.org/dataset/3c19013a-8190-441a-9d0f-8b908185d87d",
+    "sameAs": [
+        "http://bim-mirror.aseanbiodiversity.org:8080/ipt/resource?r=asean_fish_occurrences_literature"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2024-04-17T23:53:32.000Z",
+    "keywords": [
+        "ASEAN Species Occurrence",
+        "Species Occurrence",
+        "ASEAN Species Occurrence",
+        "Species Occurrence",
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1909/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://bim-mirror.aseanbiodiversity.org:8080/ipt/archive.do?r=asean_fish_occurrences_literature",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-177.067 -18.2469,-177.067 27.3333,153.733 27.3333,153.733 -18.2469,-177.067 -18.2469"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/15961",
+            "@type": "Organization",
+            "legalName": "ASEAN Centre for Biodiversity",
+            "name": "ASEAN Centre for Biodiversity",
+            "url": "https://oceanexpert.org/institution/15961"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/376b6d39-629d-4df6-95a7-6765f72d8369",
+    "name": "Environmental impact assessments in the eastern part of Adriatic sea - species list of benthic invertebrates and phytobenthos (2000-2010)",
+    "description": "Provided dataset includes species list of benthic invertebrates and phytobenthos, collected by divers using direct sampling method of randomly chosen samples. Samples were collected for environmental impact assessments under scopes of different projects from 2000 till 2010",
+    "url": "https://obis.org/dataset/376b6d39-629d-4df6-95a7-6765f72d8369",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=iof_bent_eia_2000_10"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Antolić B, Žuljević A, Despalatović M, Cvitković I (2021): Environmental impact assessments in the eastern part of Adriatic sea - species list of benthic invertebrates and phytobenthos (2000-2010)",
+    "version": "2024-02-26T23:21:45.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "surface area"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=iof_bent_eia_2000_10",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.17331 42.927213,14.17331 45.1339,17.539873 45.1339,17.539873 42.927213,14.17331 42.927213"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9824",
+            "@type": "Organization",
+            "legalName": "Institute of Oceanography and  Fisheries Croatia",
+            "name": "Institute of Oceanography and  Fisheries Croatia",
+            "url": "https://oceanexpert.org/institution/9824"
+        }
+    ]
+}

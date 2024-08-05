@@ -1,0 +1,117 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e83eb96b-fdc0-4031-abc9-bc6e79ca7eb9",
+    "name": "Trawl Data from the F/V Northwest Explorer during the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition",
+    "description": "This data set contains the at sea data collected aboard the F/V Northwest Explorer for the International Year of the Salmon (IYS) survey in 2022 in the northwestern Gulf of Alaska. This data package contains three separate components; event, catch, and specimen. The event data contains all of the sampling event information, including time, location, and duration. All dates and times are in UTC, and all length measurements are in meters. The catch data contains all of the catch records, as counts and weights, for each species/taxa at each station. The sampling method for every catch weight should be total weight, and all weights are in kilograms. The specimen data contains individual lengths and weights for sampled individuals from each station. Specimen lengths are in centimeters and specimen weights are in kilograms.",
+    "url": "https://obis.org/dataset/e83eb96b-fdc0-4031-abc9-bc6e79ca7eb9",
+    "sameAs": [
+        "https://ipt.iobis.org/obiscanada/resource?r=trawl-catch-and-specimen-data-from-the-2022-international-year-of-the-salmon-expedition",
+        "https://doi.org/10.21966/shnm-s480"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Murphy, J., &amp; Dimond, A. (2022). Trawl Data from the FV Northwest Explorer during the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition (Version 1.0) [Data set]. North Pacific Anadromous Fish Commission. https://doi.org/10.21966/shnm-s480",
+    "version": "2023-01-17T00:05:28.000Z",
+    "keywords": [
+        "Occurrence",
+        "International Year of the Salmon; Trawl; Specimen; Expedition"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Haversine Distance",
+            "url": "https://vocab.nerc.ac.uk/collection/P01/current/LENSMTRK/",
+            "description": "Haversine Distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Research Vessel",
+            "url": "http://vocab.nerc.ac.uk/collection/L06/current/31/",
+            "description": "Research Vessel"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling_Duration_Minutes",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sampling_Duration_Minutes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600088/",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Catch_Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600088/",
+            "description": "Catch_Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2022/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.21966/shnm-s480",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.21966/shnm-s480",
+        "url": "https://doi.org/10.21966/shnm-s480"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=trawl-catch-and-specimen-data-from-the-2022-international-year-of-the-salmon-expedition",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-173.61172165429832 48.529350767219626,-173.61172165429832 53.656900704598584,-162.98414068350704 53.656900704598584,-162.98414068350704 48.529350767219626,-173.61172165429832 48.529350767219626"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        }
+    ]
+}

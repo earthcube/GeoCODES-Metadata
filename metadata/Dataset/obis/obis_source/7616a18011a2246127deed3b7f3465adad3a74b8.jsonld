@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7e86d210-be4f-4c21-81c5-b611b3906e1a",
+    "name": "Antarctic Jellyfish",
+    "description": "The present dataset is a compliation of distribution records found in the literature. The compilation was sent by Dhugal Lindsay, from the Japan Agency for Marine-Earth Science and Technology (JAMSTEC).",
+    "url": "https://obis.org/dataset/7e86d210-be4f-4c21-81c5-b611b3906e1a",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=antarctic_jellyfish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lindsay D [date accessed]. Antarctic Jellyfish, a literature-based compilation. Accessed online through the SCAR-MarBIN portal",
+    "version": "2019-03-19T14:43:45.000Z",
+    "keywords": [
+        "Abundance",
+        "Distribution",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=antarctic_jellyfish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-121.03 -73.61,-121.03 81.12,150.29 81.12,150.29 -73.61,-121.03 -73.61"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11797",
+            "@type": "Organization",
+            "legalName": "Japan Agency for Marine-Earth Science and Technology, Yokosuka",
+            "name": "Japan Agency for Marine-Earth Science and Technology, Yokosuka",
+            "url": "https://oceanexpert.org/institution/11797"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6755ad82-6061-4fd0-80fc-4e2d305bbaca",
+    "name": "Phytoplankton samples - 2001/02 V3 CLIVAR",
+    "description": "Locations of sampling sites for ASAC project 40 on voyage 3 of the Aurora Australis in the 2001/2002 season. The dataset also contains information on chlorophyll, carotenoids, coccolithophorids and species indentification and counts. CLIVAR (CLIVAR - Climate Variability - see http://data.aad.gov.au/aadc/voyages/display_voyage.cfm?voyage_id=150).",
+    "url": "https://obis.org/dataset/6755ad82-6061-4fd0-80fc-4e2d305bbaca",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=clivar_phytoplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Phytoplankton samples - 2001/02 V3 CLIVAR.",
+    "version": "2021-05-06T04:58:35.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=clivar_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "139.821 -62.35867,139.821 -44.00267,146.33483 -44.00267,146.33483 -62.35867,139.821 -62.35867"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

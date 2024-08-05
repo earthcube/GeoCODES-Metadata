@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0fd1dae1-3b8c-4e11-bcad-10c95de2e95f",
+    "name": "SWFSC Marine Mammal Survey, SWAPS 1997, Cruise 1607",
+    "description": "Original provider:\nNOAA Southwest Fisheries Science Center (SWFSC)\n\nDataset credits:\nMarine Mammal and Turtle Division, Southwest Fisheries Science Center, NMFS, NOAA\n\nAbstract:\nThe 1997 Sperm Whale Abundance and Population Structures (SWAPS) line-transect survey was designed to census sperm whales near the end of their breeding season in the North Pacific Ocean from the west coast of the U.S. out to 158 degrees west longitude. This survey was conducted by the NOAA Southwest Fisheries Science Center aboard the NOAA ship <i>McArthur</i> for a total of approximately 12,000 kilometers surveyed from early March to early June 1997. This dataset provides the time-date and geographical coordinates, by species/stock, of all cetaceans detected during the survey, as well as the daily and intra-daily start and end points of the line-transect survey.\n\nPurpose:\nThe primary objective was to census sperm whales near the end of their breeding season in the North Pacific Ocean from the west coast of the U.S. out to 158 degrees west longitude.\n\nSupplemental information:\nData of SWFSC Marine Mammal Sightings from 1997 to 2009 were put together and submitted to OBIS-SEAMAP by Tim Gerrodette, NOAA SWFSC. The data are registered separately per cruise.",
+    "url": "https://obis.org/dataset/0fd1dae1-3b8c-4e11-bcad-10c95de2e95f",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1028"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Taylor, B. 2014. SWFSC Marine Mammal Survey, SWAPS 1997, Cruise 1607. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1028) on yyyy-mm-dd.",
+    "version": "2022-03-03T12:57:06.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings,Sperm Whale,Population,Abundance,Survey,Census,SWAPS",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1028",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-160.93 20.51,-160.93 46.01,-118.58 46.01,-118.58 20.51,-160.93 20.51"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

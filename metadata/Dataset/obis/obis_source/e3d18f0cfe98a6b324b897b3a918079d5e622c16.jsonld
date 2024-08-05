@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5bac0fd0-82cd-47df-bb58-a7fe226194ac",
+    "name": "Pesquería Artesanal de la Ciénaga Grande de Santa Marta - SIPEIN",
+    "description": "La ecorregión de la Ciénaga Grande de Santa Marta - CGSM es el complejo lagunar estuarino más extenso de Colombia del que hacen parte 14 municipios. Por sus características hidrológicas, ecológicas y geomorfológicas, sus ecosistemas estuarinos son considerados de los más productivos de la zona tropical, hecho que le ha permitido estar designada con cinco figuras de protección. A pesar de su gran importancia, la CGSM mostró un grave deterioro ambiental en la década de los 90 como producto del desequilibrio hídrico originado por la construcción de la carretera Ciénaga-Barranquilla en los 50s, que condujo progresivamente a la hipersalinización del sistema. Con el objeto de promover su rehabilitación, se cuenta con un monitoreo continuo de los recursos pesqueros desde hace más de dos décadas, usando el Sistema de Información Pesquera del Invemar - SIPEIN. Este es una herramienta para el desarrolla programas de monitoreo pesquero, ya que integra información de variables biológico-pesqueras, económicas y sociales, que facilitan el cálculo de indicadores en un proceso que incluye la toma de datos en campo, la digitación, el procesamiento, y la producción de reportes numéricos y gráficos que contribuyen a la evaluación de las pesquerías y la toma de decisiones. El INVEMAR  ha  venido  realizando  el  monitoreo  ambiental,  con  el  apoyo  de CORPAMAG  en  el  marco  del  convenio  de  cooperación  No.  16  del  27 de diciembre del 2006, estos esfuerzos  fueron reforzados  en  el 2014  con  la  suscripción  del  convenio  de  asociación  No  40.\nEn este conjunto de datos se reportan diferentes grupos biológicos, documentados en seis estaciones de monitoreo en la región del Caribe continental colombiano, que corresponden a 2,015.289 registros biológicos obtenidos entre los años 1999 y 2020.",
+    "url": "https://obis.org/dataset/5bac0fd0-82cd-47df-bb58-a7fe226194ac",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=invemar_sipein",
+        "https://doi.org/10.15472/tnmzsc"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Blanco J, Chávez S, Narváez J C, Racedo Escobar F, Romero A, Rueda Hernández M, Salas S, Viloria Maestre E A, Castro A, Ojeda Ochoa K A (2023): Pesquería Artesanal de la Ciénaga Grande de Santa Marta - SIPEIN. v1.1. Instituto de Investigaciones Marinas y Costeras - Invemar. Dataset/Occurrence. https://doi.org/10.15472/tnmzsc",
+    "version": "2023-12-12T19:39:44.000Z",
+    "keywords": [
+        "Caribe Colombiano",
+        "Biodiversidad",
+        "Conservación",
+        "Especies amenazadas",
+        "Manejo",
+        "Santa Marta",
+        "Departamento del Magdalena",
+        "Ciénaga Grande de Santa Marta",
+        "SIB_MARINO",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Peso",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/FIBM/",
+            "description": "Peso"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1999/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/tnmzsc",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/tnmzsc",
+        "url": "https://doi.org/10.15472/tnmzsc"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=invemar_sipein",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-74.83028353 10.5569399893283,-74.83028353 11.08556393,-74.2538450668508 11.08556393,-74.2538450668508 10.5569399893283,-74.83028353 10.5569399893283"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19053",
+            "@type": "Organization",
+            "legalName": "Sistema de Información sobre Biodiversidad de Colombia - SiB Colombia",
+            "name": "Sistema de Información sobre Biodiversidad de Colombia - SiB Colombia",
+            "url": "https://oceanexpert.org/institution/19053"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5901bed2-eb86-4fff-ab36-ad2762307b8f",
+    "name": "Global Distribution and Diversity of Solenidae Species",
+    "description": "This dataset was compiled after a careful data-collection and cleaning procedure over four years for Hanieh Saeedi PhD project. Data were collected using field sampling, literature and museum collections. Then all the records went through quality control procedures such as validating the taxonomy of the species by examining and re-identifying the specimens in museum collections and using taxonomic and geographic data quality control tools in the World Register of Marine Species (WoRMS) and the robis package (Provoost and Bosch 2017). This dataset can thus be further used for taxonomical and biogeographical studies of Solenidae",
+    "url": "https://obis.org/dataset/5901bed2-eb86-4fff-ab36-ad2762307b8f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=solenidae_worldwide_dataset"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Saeedi, H.; (2019): Global Distribution and Diversity of Solenidae Species",
+    "version": "2024-02-26T23:13:22.000Z",
+    "keywords": [
+        "Literature",
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=solenidae_worldwide_dataset",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-134.39 -44.99,-134.39 56.72,167.28 56.72,167.28 -44.99,-134.39 -44.99"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5381f98a-1d08-4c96-a019-c0716bac3b08",
+    "name": "Duke North Atlantic Turtle Tracking (aggregated per 1-degree cell)",
+    "description": "Original provider:\nCatherine McClellan, Duke University Marine Lab\n\nDataset credits:\nData provider\nDuke University Marine Laboratory\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject sponsor or sponsor description\nDuke University Marine Lab\n\n\nAbstract:\nWe are attaching satellite transmitters to loggerheads, green and Kemp's ridley sea turtles to examine interaction between the turtles and commercial fisheries in North Carolina. Turtles are commonly caught in fishing gear in the sounds of North Carolina, particularly in the fall months when both turtles and flounder are migrating to the ocean. Gill nets, in particular, have been implicated in large mortality events and as a result this type of fishing gear has been restricted to certain parts of Pamlico Sound. In addition, the fall flounder gill net fishery has been closed prematurely in the past few years due to observed mortalities of turtles. We are studying interactions between turtles and gill nets by tracking the movements of turtles in and around Pamlico Sound during the fall flounder season and comparing the distribution of turtles with that of gill nets. In addition, we hope to gain valuable life history information by following the migration patters of individuals. We work closely with researchers from the Southeast Fisheries Science Center, NOAA Fisheries, in this program. This research is funded by the North Carolina Sea Grant's Fisheries Resource Grant program. For more information, please see the report: <a href=\"http://seamap.env.duke.edu/Members/catherin/FRG_Final_all.pdf/file_view\">Habitat Use of Sea Turtles in Relation to Fisheries Interactions</a>.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=113\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/5381f98a-1d08-4c96-a019-c0716bac3b08",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_316_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "McClellan C. 2021. Duke North Atlantic Turtle Tracking. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/316) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=113).",
+    "version": "2021-04-24T09:17:08.000Z",
+    "keywords": [
+        "Occurrence,Marine Biology",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_316_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-111.5 25.5,-111.5 46.5,-34.5 46.5,-34.5 25.5,-111.5 25.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

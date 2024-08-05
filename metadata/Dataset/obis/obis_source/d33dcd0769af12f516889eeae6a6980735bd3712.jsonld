@@ -1,0 +1,102 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/39935c63-785e-42c0-ad76-9fe8926a245d",
+    "name": "Seasonal fluctuation of Macropipus holsatus in front of the Belgian Coast between 1973 and 1981",
+    "description": "Seasonal fluctuations in abundance and biomass of the <i>Macropipus holsatus</i> population along the Belgian coast. The data were digitized by VLIZ from the original report: Borremans, C. (1982). Populatiedynamiek van Macropipus holsatus (Fabr.) voor de Belgische kust. MSc Thesis. VUB: Brussel. 62 pp.",
+    "url": "https://obis.org/dataset/39935c63-785e-42c0-ad76-9fe8926a245d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macropipus_holsatus_belgian_coast_1973-1981",
+        "https://dx.doi.org/10.14284/127"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Borremans C.; Polk P.; Laboratorium voor Ecologie en Systematiek; Faculteit Wetenschappen; VUB: Belgium; (2016): Seasonal fluctuation of Macropipus holsatus in front of the Belgian Coast between 1973 and 1981. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5040) https://dx.doi.org/10.14284/127",
+    "version": "2024-02-26T23:37:49.000Z",
+    "keywords": [
+        "Epibenthos",
+        "Seasonal fluctuations",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average weight per individual",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Average weight per individual"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average yearly abundance of M. holsatus per 100m^2",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Average yearly abundance of M. holsatus per 100m^2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average yearly biomass of M. holsatus in g per 100m^2",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Average yearly biomass of M. holsatus in g per 100m^2"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/1981",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/127",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/127",
+        "url": "https://dx.doi.org/10.14284/127"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macropipus_holsatus_belgian_coast_1973-1981",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.58027778 51.15222222,2.58027778 51.46166667,3.26805556 51.46166667,3.26805556 51.15222222,2.58027778 51.15222222"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18819",
+            "@type": "Organization",
+            "legalName": "Instituut voor Landbouw, Visserij en voedingonderzoek",
+            "name": "Instituut voor Landbouw, Visserij en voedingonderzoek",
+            "url": "https://oceanexpert.org/institution/18819"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5a1c4411-6045-4a7c-95de-9de3bd608a4d",
+    "name": "Annual wrack biomass of the northern Portugal sandy beaches",
+    "description": "Wrack accumulations are a source of nutrients on sandy beaches and host invertebrate species, increasing local biodiversity. The distribution of these important accumulations varies in space and time depending on the environmental conditions of the area and the biological factors of the species that compose it. Consequently, this spatio-temporal variability in the wrack accumulations remains poorly understood in some regions. This database compiles the monthly variability in dry weight biomass of six seaweed taxa(Saccorhiza polyschides, Fucus spp., Ascophyllum nodosum, Cystoseira spp., Ulva spp. and Sargassum muticum) which forming the wrack of four sandy beaches in the northern Portugal (Âncora, Cabedelo, Paramos and São Pedro de Maceda)through a year.",
+    "url": "https://obis.org/dataset/5a1c4411-6045-4a7c-95de-9de3bd608a4d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=annual-wrack-biomass-portugal",
+        "https://dx.doi.org/10.14284/562"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Guerrero-Meseguer L.; Veiga P. and Rubal M. CIIMAR - Interdisciplinary Centre of Marine and Environmental Research: Portugal; (2022): Annual wrack biomass of the northern Portugal sandy beaches. https://dx.doi.org/10.14284/562",
+    "version": "2023-05-23T12:24:50.000Z",
+    "keywords": [
+        "Biometrics",
+        "Portugal",
+        "Seagrass",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Dry weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "description": "Dry weight biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2020",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/562",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/562",
+        "url": "https://dx.doi.org/10.14284/562"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=annual-wrack-biomass-portugal",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-8.865841 40.93195,-8.865841 41.807008,-8.651105 41.807008,-8.651105 40.93195,-8.865841 40.93195"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

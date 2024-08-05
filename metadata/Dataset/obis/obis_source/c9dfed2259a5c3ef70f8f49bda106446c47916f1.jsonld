@@ -1,0 +1,84 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f90edaa5-9342-466a-a3c6-e504ae639f99",
+    "name": "Maine DMR: Coastal rivers Adult Salmon Stocking",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Government of Maine (GoMaine)  Maine DMR: Coastal rivers Adult Salmon Stocking, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=MCS).\nAbstract:Bureau of Sea Run Fisheries and Habitat (BSRFH) staff annually release excess captivereared gravid adult Atlantic salmon (Salmo salar) broodstock for augmentation and comparison of current juvenile  production from fry stocking. Staff biologists have observed broodstock spawning, documented creation of viable redds by fry trapping, documented juvenile production to the parr lifestage by electrofishing,  and trapped emigrating smolts. However, during redd count surveys, BSRFH staff observations suggest approximately 50% of the adult salmon transplanted in a spawning stream are not seen during spawning. It is  uncertain if the unobserved adults are being removed from the stream by predators or poachers, or if they are experiencing mortality due to decreased fitness or stress prior to spawning. It is also possible that broodstock are leaving the transplanted stream and spawning in other areas of drainages. Movement of adults outside study reaches potentially  confounds wild salmon return estimates, may lead to negative biological interaction with wild conspecifics, and limits agency ability to fully assess juvenile production potential of captive-reared  broodstock. Further assessment of the movements and behavior of transplanted broodstock before, during, and after spawning is needed. The objectives of this study are: (1) to document captive-reared gravid  adult Atlantic salmon broodstock spawning behavior, locations, and movements within a release stream or in other reaches of a drainage; (2) quantitatively assess juvenile production from in-river spawning of captive-reared broodstock for comparison with production from fry point stocking; (3) document post-spawn movement of kelts; and (4) document post-spawn habitat used by  overwintering kelts.",
+    "url": "https://obis.org/dataset/f90edaa5-9342-466a-a3c6-e504ae639f99",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnmedmr-bsrfhmainedmrco",
+        "https://doi.org/10.14286/fruzl3"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bruchs, C.W.B., Atkinson, E.J., Zydlewski, J. 2010. Movement, juvenile production, and overwinter habitat of captive-reared gravid Atlantic salmon (Salmo salar) broodstock transplanted in a spawning stream. . Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T16:33:55.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2011",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/fruzl3",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/fruzl3",
+        "url": "https://doi.org/10.14286/fruzl3"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnmedmr-bsrfhmainedmrco",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.50896 44.94246,-67.50896 45.36747,-64.38838 45.36747,-64.38838 44.94246,-67.50896 44.94246"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

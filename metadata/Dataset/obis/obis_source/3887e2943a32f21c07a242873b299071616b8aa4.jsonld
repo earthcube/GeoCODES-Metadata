@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/386ac1f4-922d-4991-ada2-0ce50dfd3ba7",
+    "name": "North Sea observations of Crustacea, Polychaeta, Echinodermata, Mollusca and some other groups between 1986 and 2003",
+    "description": "Northsea observations of Crustacea, Polychaeta, Echinodermata, Mollusca and some other groups between 1986 and 2003",
+    "url": "https://obis.org/dataset/386ac1f4-922d-4991-ada2-0ce50dfd3ba7",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zma_noordzee"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Addinck, W. &amp; de Kluijver, M. (2003). North Sea observations of Crustacea, Polychaeta, Echinodermata, Mollusca and some other groups between 1986 and 2003. Expert Centre for Taxonomic Idenditification (ETI), the Netherlands.",
+    "version": "2023-05-23T11:30:41.000Z",
+    "keywords": [
+        "Long term follow up",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zma_noordzee",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.3975 51.5167,2.3975 55.5178,6.57667 55.5178,6.57667 51.5167,2.3975 51.5167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

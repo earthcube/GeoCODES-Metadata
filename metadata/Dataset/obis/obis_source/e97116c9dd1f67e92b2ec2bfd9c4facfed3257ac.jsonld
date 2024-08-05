@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0dee1c07-b9b6-4260-a4bc-6c6fff25a041",
+    "name": "Jellyfish Database Initiative: Global records on gelatinous zooplankton for the past 200 years, collected from global sources and literature, subset of records from Australian and adjacent seas. (1907-2011)",
+    "description": "The Jellyfish Database Initiative (JeDI) is a scientifically-coordinated global database dedicated to gelatinous zooplankton (members of the Cnidaria, Ctenophora and Thaliacea) and associated environmental data. The database holds 476,000 quantitative, categorical, presence-absence and presence only records of gelatinous zooplankton spanning the past four centuries (1790-2011) assembled from a variety of published and unpublished sources. Gelatinous zooplankton data are reported to species level, where identified, but taxonomic information on phylum, family and order are reported for all records. This dataset is a subset of data in Australian waters and adjacent seas.",
+    "url": "https://obis.org/dataset/0dee1c07-b9b6-4260-a4bc-6c6fff25a041",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=jedi"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Condon, R., Lucas, C., Duarte, C. M., Pitt, K. (2014) Jellyfish Database Initiative: Global records on gelatinous zooplankton for the past 200 years, collected from global sources and literature (Trophic BATS project). Biological and Chemical Oceanography Data Management Office (BCO-DMO). (Version 2014-08-28) Version Date 2014-08-28 [if applicable, indicate subset used]. doi:10.1575/1912/7191 [access date]",
+    "version": "2023-05-11T05:41:38.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1907/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=jedi",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "60.00006 -77.9167,60.00006 -0.02,174.8833 -0.02,174.8833 -77.9167,60.00006 -77.9167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

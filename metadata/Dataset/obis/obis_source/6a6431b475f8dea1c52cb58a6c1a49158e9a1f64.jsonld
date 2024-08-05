@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fb706b08-4826-485e-abfa-cd96905d8e3e",
+    "name": "Spatial distribution in sediment characteristics and benthic activity on the northwestern Black Sea shelf: macrobenthos",
+    "description": "This dataset is the outcome of research done on the benthic system of the Black Sea Shelf. Data on macrobenthos (density and biomass), oxygen flux to the sediment and sediment characteristics are presented.",
+    "url": "https://obis.org/dataset/fb706b08-4826-485e-abfa-cd96905d8e3e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nw_black_sea_macrobent",
+        "https://dx.doi.org/10.14284/525"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Wijsman, J.; Koninklijk Nederlands Instituut voor Onderzoek der Zee - NIOZ Yerseke: Netherlands;  (1995): Spatial distribution in sediment characteristics and benthic activity on the northwestern Black Sea shelf: macrobenthos. Marine Data Archive https://dx.doi.org/10.14284/525",
+    "version": "2023-05-23T11:33:09.000Z",
+    "keywords": [
+        "Distribution",
+        "Macrobenthos",
+        "Mineralization",
+        "Sediments",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1995",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/525",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/525",
+        "url": "https://dx.doi.org/10.14284/525"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nw_black_sea_macrobent",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "28.044099807739258 43.133201599121094,28.044099807739258 46.55059814453125,33.69279861450195 46.55059814453125,33.69279861450195 43.133201599121094,28.044099807739258 43.133201599121094"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16218",
+            "@type": "Organization",
+            "legalName": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke",
+            "name": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke",
+            "url": "https://oceanexpert.org/institution/16218"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/28b3b579-c7d1-43ad-8cf6-3e5d6b3b2016",
+    "name": "SHARK - National Epibenthos monitoring in Sweden since 1992",
+    "description": "Epibenthos has been nationally monitored in Sweden since 1992. The monitoring program was initiated by the Swedish Environmental Protection Agency and later the Swedish Agency for Marine and Water Management took over the responsibility and financing of the program. The monitoring is performed by Stockholm University, University of Gothenburg and Linnaeus University.  The data is stored in the database SHARK, hosted and maintained by the Swedish Meteorological and Hydrological Institute. The epibenthos monitoring program studies hard and soft bottoms from the surface down to 10-20 meters. Data is collected in transects or squares with help of divers. Species abundances are determined directly by the divers or photographs are taken and analyzed later.  More information is available in Swedish at https://www.havochvatten.se/hav/samordning--fakta/miljoovervakning/miljoovervakningens-programomrade-kust-och-hav/delprogram-vegetationskladda-bottnar.html",
+    "url": "https://obis.org/dataset/28b3b579-c7d1-43ad-8cf6-3e5d6b3b2016",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=smhi-epibenthos-nat"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Stockholm University, University of Gothenburg, Linnaeus University , Swedish Agency for Marine and Water Management, Swedish Environmental Protection Agency and Swedish Meteorological and Hydrological Institute (2017). SHARK - National Epibenthos monitoring in Sweden since 1992.",
+    "version": "2023-12-08T17:08:02.000Z",
+    "keywords": [
+        "Benthos",
+        "diver",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Method documentation",
+            "url": "",
+            "description": "Method documentation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cover",
+            "url": "",
+            "description": "Cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Epibiont",
+            "url": "",
+            "description": "Epibiont"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Station exposure",
+            "url": "",
+            "description": "Station exposure"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampler type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Station marking",
+            "url": "",
+            "description": "Station marking"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Detached",
+            "url": "",
+            "description": "Detached"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Secchi depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SECCSDNX/",
+            "description": "Secchi depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Monitoring program code",
+            "url": "",
+            "description": "Monitoring program code"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water level deviation",
+            "url": "",
+            "description": "Water level deviation"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=smhi-epibenthos-nat",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.03961 56.01585,11.03961 62.90333,18.91022 62.90333,18.91022 56.01585,11.03961 56.01585"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8493",
+            "@type": "Organization",
+            "legalName": "Sveriges meteorologiska och hydrologiska institut",
+            "name": "Sveriges meteorologiska och hydrologiska institut",
+            "url": "https://oceanexpert.org/institution/8493"
+        }
+    ]
+}

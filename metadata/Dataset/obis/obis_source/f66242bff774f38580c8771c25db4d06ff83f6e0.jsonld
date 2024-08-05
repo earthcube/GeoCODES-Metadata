@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7df14e0f-ba9f-468e-a239-0d2032c0676d",
+    "name": "Phytoplankton data collected in the Black Sea, Bosphorus area, Marmara Sea, Aegean Sea, Ionian Sea, Tunisian Strait, and Mediterranean Sea during the 65th cruise of the R/V \"Kovalevskiy\" in 1969-1970",
+    "description": "Phytoplankton data collected in the Black Sea, Bosphorus  area, Marmara Sea, Aegean Sea, Ionian Sea, Tunisian Strain, and Mediterranean Sea during 65 cruise of the R/V \"Kovalevskiy\" and processed by Lyudmila Georgieva. \nThe samples were taken with 6 liter bathometers at standard depths and in the thermocline layer.  The standard sedimentation technique for samples preparation (Usachev, 1926) was used. Samples were preserved by buffered formalin 40% and were settled within 30 days. Then a volume of water was siphoned off and samples were concentrated to 10-20 ml. After thorough mixing the subsamples (0.05 or 0.1 ml) were transferred to the counting chamber. Organisms were counted in two subsamples at ×300 - 400 magnification.",
+    "url": "https://obis.org/dataset/7df14e0f-ba9f-468e-a239-0d2032c0676d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_blacksea_1969_1970"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lyudmila Georgieva (2012). Phytoplankton data collected in the Black Sea, Bosphorus  area, Marmara Sea, Aegean Sea, Ionian Sea, Tunisian Strait, and Mediterranean Sea during the 65th cruise of the R/V \"Kovalevskiy\" in 1969-1970. National Academy of Sciences of Ukraine; Institute of Biology of the Southern Sea",
+    "version": "2024-02-27T00:12:06.000Z",
+    "keywords": [
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "individualcount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "",
+            "description": "biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CellSize",
+            "url": "",
+            "description": "CellSize"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1969/1970",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_blacksea_1969_1970",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "9.56 35.39,9.56 41.54,29.11 41.54,29.11 35.39,9.56 35.39"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

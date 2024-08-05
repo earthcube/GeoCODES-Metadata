@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/53bfa100-9727-4926-bf0a-6875a1bd14fe",
+    "name": "ACAP Humber Arm eelgrass monitoring program, 2012-2014",
+    "description": "Between 2012-2014 the ACAP Humber Arm field program was aimed at collecting data to determine the presence, distribution and abundance of eelgrass within the Bay of Islands Coastal Management Area. This dataset includes both presence and absence information.",
+    "url": "https://obis.org/dataset/53bfa100-9727-4926-bf0a-6875a1bd14fe",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=acap_humberarm_2012-2014"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Moore G, Peddle S (2015): ACAP Humber Arm eelgrass monitoring program, 2012-2014. v1.1. Canadian node of the Ocean Biogeographic Information System (OBIS Canada). Dataset/Occurrence. http://ipt.iobis.org/obiscanada/resource?r=acap_humberarm_2012-2014&amp;v=1.1",
+    "version": "2017-02-11T17:45:13.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=acap_humberarm_2012-2014",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-58.4101 48.95869,-58.4101 49.12682,-57.88918 49.12682,-57.88918 48.95869,-58.4101 48.95869"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19186",
+            "@type": "Organization",
+            "legalName": "ACAP Humber Arm",
+            "name": "ACAP Humber Arm",
+            "url": "https://oceanexpert.org/institution/19186"
+        }
+    ]
+}

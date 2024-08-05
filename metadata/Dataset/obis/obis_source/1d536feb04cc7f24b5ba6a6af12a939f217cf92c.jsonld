@@ -1,0 +1,90 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/006dcedb-1aa9-40fa-b058-f0ba6a930009",
+    "name": "Dutch long-term monitoring of microzooplankton in the Dutch Continental Economical Zone of the North Sea (2000-2010)",
+    "description": "Dutch long-term monitoring of microzooplankton in the Dutch Continental Economical Zone of the North Sea between 2000 and 2010. This monitoring program was part of the MWTL phytoplankton sampling.",
+    "url": "https://obis.org/dataset/006dcedb-1aa9-40fa-b058-f0ba6a930009",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=dutch_microzooplankton_2000_2010"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "RWS, the Netherlands, 2022. Dutch long term monitoring of phytoplankton in the Dutch Continental Economical Zone of the North Sea (2000-2018). https://waterinfo-extra.rws.nl/monitoring/biologie/zooplankton/",
+    "version": "2023-12-08T17:14:47.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length maximum of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMAXLX/",
+            "description": "Length maximum of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length minimum of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMINLX/",
+            "description": "Length minimum of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dutch_microzooplankton_2000_2010",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.6778 51.4119888,2.6778 55.1715111,7.1566583 55.1715111,7.1566583 51.4119888,2.6778 51.4119888"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

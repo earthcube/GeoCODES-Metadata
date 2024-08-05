@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/62b1e8fb-fb6d-461a-870c-a6445815112d",
+    "name": "MarBEF Publication Series data",
+    "description": "These data are published in papers held within the MarBEF Publication Series. The MarBEF Data Management team has been screening these papers and provides the distribution data via EurOBIS.",
+    "url": "https://obis.org/dataset/62b1e8fb-fb6d-461a-870c-a6445815112d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=marbef"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "MarBEF (2006) MarBEF Publication Series data. Available online on EurOBIS. Consulted on dd-mm-yyyy.",
+    "version": "2023-05-23T12:14:20.000Z",
+    "keywords": [
+        "Algae",
+        "Biodiversity",
+        "Biogeography",
+        "Macrobenthos",
+        "Zoobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1800/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=marbef",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-28 30.572777777778,-28 78.91666667,36.44 78.91666667,36.44 30.572777777778,-28 30.572777777778"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

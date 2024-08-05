@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f7e3baa2-48c9-47d9-9219-0a457615d610",
+    "name": "DFO Central and Arctic Multi-species Stock Assessment Surveys",
+    "description": "The Fisheries and Oceans Canada Central and Arctic Region multi-species stock assessment surveys began in 1999 and are planned to continue indefinitely. Seven survey areas are defined within the spatial extents outlined here; northern NAFO 0A, southern NAFO 0A, NAFO 0B,SFA0, SFA1, SFA3 and western Hudson Strait. From 2006, the area surveyed alternates between NAFO 0A/SFA0&amp;1 in even numbered years and SFA3/NAFO 0B/western Hudson Strait in odd numbered years. \n\nThis dataset is the OBIS version of the stock assessment survey and only species presence information is included at this time for the years 2005-2015.",
+    "url": "https://obis.org/dataset/f7e3baa2-48c9-47d9-9219-0a457615d610",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=obis_dfo_cna_multispeciessurveys"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "DFO. (2016). Central and Arctic Multi-Species Stock Assessment Surveys \nVersion 6 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2022-03-29T20:38:57.000Z",
+    "keywords": [
+        "biota",
+        "oceans",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=obis_dfo_cna_multispeciessurveys",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-79.734 57.614,-79.734 75.576,-57.564 75.576,-57.564 57.614,-79.734 57.614"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6110",
+            "@type": "Organization",
+            "legalName": "Freshwater Institute (DFO – FWI), Fisheries and Oceans Canada",
+            "name": "Freshwater Institute (DFO – FWI), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6110"
+        }
+    ]
+}

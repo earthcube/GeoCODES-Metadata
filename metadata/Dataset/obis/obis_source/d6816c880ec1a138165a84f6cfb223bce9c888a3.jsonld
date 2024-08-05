@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/54f17a84-34e4-4364-b819-857eccc5f44d",
+    "name": "HMAP Dataset 05: Newfoundland, 1698-1833",
+    "description": "This fisheries dataset from Newfoundland includes data on fisheries statistics, cod catches, fishing effort and the Newfoundland settlement. The data covers the time period 1698-1833.",
+    "url": "https://obis.org/dataset/54f17a84-34e4-4364-b819-857eccc5f44d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_05"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "M. Haines, ed. 'Newfoundland, 1698-1833' in J.H Nicholls (comp.) HMAP Data Pages (https://oceanspast.org/hmap_db.php)",
+    "version": "2023-12-08T18:30:06.000Z",
+    "keywords": [
+        "Cod fisheries",
+        "Fishery statistics",
+        "Fishing effort",
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1753/1832",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_05",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-59.4000015258789 45.5,-59.4000015258789 51.5499992370605,-50.5 51.5499992370605,-50.5 45.5,-59.4000015258789 45.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17927",
+            "@type": "Organization",
+            "legalName": "University of Hull, Oceans Past Initiative",
+            "name": "University of Hull, Oceans Past Initiative",
+            "url": "https://oceanexpert.org/institution/17927"
+        }
+    ]
+}

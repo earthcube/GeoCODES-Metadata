@@ -1,0 +1,142 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/563f7733-16c7-4069-903a-392665f69593",
+    "name": "DFO Pacific Outside North Hard Bottom Longline Surveys",
+    "description": "The Outside North Hard Bottom Longline (HBLL)  survey is one of a set of long-term and coordinated surveys that together cover most of the nearshore, hard-bottom habitat of coastal British Columbia. The other surveys are the Outside South HBLL survey, Inside North HBLL survey, and Inside South HBLL survey.\nThe Outside North HBLL survey was first conducted in 2006 and has been repeated every second year in alternate years to the Outside South HBLL survey, with the exception that no surveys were conducted in 2013.   The survey was not impacted by the COVID-19 pandemic. The objective of these surveys is to provide fishery-independent abundance indices and associated biological data for the assessment of nearshore rockfishes and other groundfish species that live on untrawlable, hard bottom habitats. The surveys follow a random depth-stratified design and the sampling units are 2 km by 2 km blocks. The Outside HBLL surveys use size 14/0 circle hooks, baited with frozen squid.\nThe Outside North HBLL Survey is conducted by DFO in collaboration with the Pacific Halibut Management Association (PHMA) and takes place on several chartered commercial fishing vessels each year. This survey covers the northern portion of the British Columbia coastline, including the mainland coast north of Milbanke Sound, Dixon Entrance, and the east and west coasts of Haida Gwaii. The PHMA provides the chartered commercial fishing vessels and field technicians, while DFO provides support for running the surveys, including survey design and equipment.\nThe data provided include information about the annual survey trips and fishing events (tows/sets) that are part of this survey series, including the vessel name, dates, times, spatial coverage, gear details, and effort information. Catch information (total weight in kg or counts of individual specimens) is included from successful fishing events. Catches are identified to species or to the lowest taxonomic level possible. Most catches are weighed, but some are too small (“trace” amounts) or too large (e.g. very large Big Skate). Some catches were subsampled and biological data were collected from individual fish specimens, including length, sex, and weight information. Where age structures were collected and processed, fish ages have been included.",
+    "url": "https://obis.org/dataset/563f7733-16c7-4069-903a-392665f69593",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=hbll-out-n",
+        "https://doi.org/10.25607/lnewao"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cornthwaite M (2023). DFO Pacific Outside North Hard Bottom Longline Surveys. Version 3.0. Fisheries and Oceans Canada. Samplingevent dataset. https://doi.org/10.25607/lnewao",
+    "version": "2023-09-05T20:33:58.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Groundfish",
+        "Commercial Species",
+        "Longline Survey",
+        "Fishery Independent Data",
+        "Canadian Groundfish Research and Conservation Society",
+        "CGRCS",
+        "Collaborative Agreement",
+        "Stock Assessment",
+        "Hard Bottom Habitats",
+        "Relative Abundance",
+        "Relative Biomass",
+        "Pacific Ocean",
+        "North Pacific",
+        "British Columbia",
+        "Oceans",
+        "Marine biology",
+        "Fish",
+        "Resources management",
+        "Fisheries",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Vessel name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/1/",
+            "description": "Vessel name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fishing hook spacing",
+            "url": "",
+            "description": "Fishing hook spacing"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of fishing hooks deployed",
+            "url": "",
+            "description": "Number of fishing hooks deployed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sample duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Type of fishing hook deployed",
+            "url": "",
+            "description": "Type of fishing hook deployed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length (fork length) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FL01XX01/",
+            "description": "Length (fork length) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9769/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen weight of biological entitiy specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Specimen weight of biological entitiy specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "total count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "total count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2021",
+    "identifier": {
+        "@id": "https://doi.org/10.25607/lnewao",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/lnewao",
+        "url": "https://doi.org/10.25607/lnewao"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=hbll-out-n",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-133.626666 51.75075,-133.626666 54.67,-128.396666 54.67,-128.396666 51.75075,-133.626666 51.75075"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14254",
+            "@type": "Organization",
+            "legalName": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "name": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/14254"
+        }
+    ]
+}

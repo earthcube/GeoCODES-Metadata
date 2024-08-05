@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2dc9bb15-a021-4b16-bfbd-ec05bf4ca57d",
+    "name": "Red Sea Cetacean Review - Strandings",
+    "description": "Original provider:\nTethys Research Institute\n\nDataset credits:\nMarina Costa &amp; Giuseppe Notarbartolo di Sciara, Tethys Research Institute\nSighting records were collected from the data owners:\n\nEritrea Project - Yohannes Mebrahtu\n\nIsrael Marine Mammal Research &amp; Assistance Center - IMMRAC\nMia Elasar, Daphna Feingold, Oz Goffman, Nir Hadar, Dan Kerem, Aviad Scheinin\n\nRed Sea Dolphin Project - HEPCA\n\n\n\nAbstract:\nThis dataset includes information about stranding occurred along: 1. the Egyptian coast of the Red Sea and collected by the MEGABase program within the Hurghada Environmental Protection and Conservation Association (HEPCA), http://www.hepca.org/\n2. the Eritrean coast by Eritrea Project - Yohannes Mebrahtu\n3. The Israeli coast of the Red Sea by IMMRAC\n\nPurpose:\nGather cetacean stranding information occurred along the Red Sea and \n\nSupplemental information:\nStranding records were collected from the data owners:\nEritrea Project - Yohannes Mebrahtu\nIMMRAC\nRed Sea Dolphin Project - HEPCA\n\nTemporal resolution varies per record. Time values are not available. \"tprecision\" column is added to indicate the resolution.",
+    "url": "https://obis.org/dataset/2dc9bb15-a021-4b16-bfbd-ec05bf4ca57d",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1543"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Notarbartolo di Sciara G., Kerem D., Smeenk C., Rudolph P., Cesario A., Costa M., Elasar M., Feingold D., Fumagalli M., Goffman O., Hadar N., Mebrathu Y.T., Scheinin A. 2017. Cetaceans of the Red Sea. CMS Technical Series 33. 86p.",
+    "version": "2021-04-24T06:40:16.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Land-based",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1543",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "33.66335 13.054444,33.66335 27.791538,42.673056 27.791538,42.673056 13.054444,33.66335 13.054444"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f4766a0b-f067-4874-a2f7-b19ade26ae1b",
+    "name": "Records of the vertical distribution of planktonic copepods in the Southern Caribbean",
+    "description": "Counts of copepods from the Cariaco Basin and adjacent Venezuelan waters (Southern Caribbean) collected on five oceanographic cruises made by the Motor Ship (M/S) La Salles between 1967 and 1968. Collections were made at different depths using a large Clarke-Bumpus sampler and plankton nets. The data represent the number of females and males (per specie), copepodites and nauplii.",
+    "url": "https://obis.org/dataset/f4766a0b-f067-4874-a2f7-b19ade26ae1b",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=vertical_planktonic_copepods_southern_caribbean"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cervigón F, Scott-Frías J (2022): Records of the vertical distribution of planktonic copepods in the Southern Caribbean. v1.10. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=vertical_planktonic_copepods_southern_caribbean&amp;v=1.10",
+    "version": "2022-11-01T13:52:09.000Z",
+    "keywords": [
+        "Planktonic copepods",
+        "Copepoda",
+        "vertical distribution",
+        "Cariaco Basin",
+        "Southern Caribbean",
+        "Venezuela",
+        "CaribeSur",
+        "ID:BID-CA202-025-NAC",
+        "samplingEvent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "female",
+            "url": "http://vocab.nerc.ac.uk/collection/S10/current/S102/",
+            "description": "female"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Large Clarke-Bumpus sampler 30.48 cm diameter mouth",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Large Clarke-Bumpus sampler 30.48 cm diameter mouth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net silk No. 20",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Net silk No. 20"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Single net or net pair horizontal tow",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Single net or net pair horizontal tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "male",
+            "url": "http://vocab.nerc.ac.uk/collection/S10/current/S103/",
+            "description": "male"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Meter net",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Meter net"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net silk No. 2",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Net silk No. 2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Single net or net pair vertical tow",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Single net or net pair vertical tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS5753/",
+            "description": "life stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "copepodites",
+            "url": "http://vocab.nerc.ac.uk/collection/S11/current/S115/",
+            "description": "copepodites"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1967/1968",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=vertical_planktonic_copepods_southern_caribbean",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-66.9333333 10.483333,-66.9333333 11.75,-64.4333333 11.75,-64.4333333 10.483333,-66.9333333 10.483333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18896",
+            "@type": "Organization",
+            "legalName": "Universidad Central de Venezuela",
+            "name": "Universidad Central de Venezuela",
+            "url": "https://oceanexpert.org/institution/18896"
+        }
+    ]
+}

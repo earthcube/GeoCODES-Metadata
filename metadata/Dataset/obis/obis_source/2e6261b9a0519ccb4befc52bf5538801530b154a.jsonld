@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0264be1a-9d3f-495d-afcb-ac22718a70ce",
+    "name": "Victorian Biodiversity Atlas, Victoria, Australia (1900-2017) - marine records",
+    "description": "The Department of Environment, Land, Water &amp; Planning works in partnership with a range of agencies and stakeholders to protect and preserve Victoria’s native landscape through a range of biodiversity, wildlife and community programs. We manage threatened species conservation and recovery, biodiversity research, invasive species, and climate change adaptation strategies. - See more at: http://www.delwp.vic.gov.au/environment-and-wildlife#sthash.giDedj4S.dpuf\nThe Victorian Biodiversity Atlas (VBA) is the web-based information system designed to manage information about native and naturalised species occurring in Victoria. The system includes species attribute information, including origin and conservation status, along with more than six million records of species distribution and abundance. All the published records have been through the verification process of the VBA which includes review by a panel of Victorian experts. The VBA includes the data submitted to DELWP from external sources as well as the Department’s own data collections from systematic surveys and general observations. For further information and access to the VBA please go to the DELWP website http://www.depi.vic.gov.au/environment-and-wildlife/biodiversity/victorian-biodiversity-atlas)\nThe VBA taxa has been validated using the World Register of Marine Species (http://www.marinespecies.org) and has been included in this dataset if it's habitat is marine. The field scientificnameId contains the WoRMS identifier.",
+    "url": "https://obis.org/dataset/0264be1a-9d3f-495d-afcb-ac22718a70ce",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=victorian_biodiversity_atlas"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "In any reproduction, distribution or publication of the data, or in any use or adaptation of the data to create derivative works, the user must include a citation which attributes the source of the data and the date the data was published, as follows:\n\nData Source: 'Victorian Biodiversity Atlas', © The State of Victoria, Department of Environment, Land, Water and Planning (published [month, year]).\n\nAdditional details are at https://www.environment.vic.gov.au/biodiversity/victorian-biodiversity-atlas/terms-and-conditions",
+    "version": "2022-06-07T05:57:07.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1770/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=victorian_biodiversity_atlas",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "140 -41.6692,140 -37.0067,151.0083 -37.0067,151.0083 -41.6692,140 -41.6692"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19503",
+            "@type": "Organization",
+            "legalName": "Victoria State Government —Department of Environment, Land, Water & Planning",
+            "name": "Victoria State Government —Department of Environment, Land, Water & Planning",
+            "url": "https://oceanexpert.org/institution/19503"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

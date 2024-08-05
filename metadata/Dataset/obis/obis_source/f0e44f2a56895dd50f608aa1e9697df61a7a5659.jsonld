@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bc699d5e-059e-4a45-bc0c-18a0faaa295a",
+    "name": "DFO Gulf Region Snow Crab Research Trawl Surveys 2010-2020",
+    "description": "This dataset contains trawl survey data used primarily for assessing the status of snow crab stocks in the southern Gulf of St. Lawrence.",
+    "url": "https://obis.org/dataset/bc699d5e-059e-4a45-bc0c-18a0faaa295a",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_gulf_snowcrabsurveys_2010_2020"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Wade, E.J. 2011. DFO Gulf Region Snow Crab Research Trawl Surveys. Version 1. In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2022-03-30T15:05:23.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfo_gulf_snowcrabsurveys_2010_2020",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.62978333 45.8948,-65.62978333 48.96783333,-60.31435 48.96783333,-60.31435 45.8948,-65.62978333 45.8948"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6185",
+            "@type": "Organization",
+            "legalName": "Gulf Region, Fisheries and Oceans Canada",
+            "name": "Gulf Region, Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6185"
+        }
+    ]
+}

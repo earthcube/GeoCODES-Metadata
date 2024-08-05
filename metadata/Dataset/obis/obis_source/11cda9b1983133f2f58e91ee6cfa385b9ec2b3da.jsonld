@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7350daa3-7c45-4f0f-b897-32b2a2b9c241",
+    "name": "Marine birds and mammals of the Southern Ocean (a census for the CAML)",
+    "description": "Marine bird and mammal survey for CAML, on board of the ice breaker \"Ivan Papanin\" in the Southern Ocean, with the International Polar Foundation.",
+    "url": "https://obis.org/dataset/7350daa3-7c45-4f0f-b897-32b2a2b9c241",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=belare_birds_mammals_2008"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "CAML bird and mammal census in the Southern Ocean.  I.R.Sc.N.B. / I.P.F. supported by \"Fond Léopold III\"",
+    "version": "2023-04-11T06:57:51.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=belare_birds_mammals_2008",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-13.895 -71.11,-13.895 -57.35,23.325 -57.35,23.325 -71.11,-13.895 -71.11"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c5687a17-e454-40f9-9a4b-d04b2c812d74",
+    "name": "UF Invertebrate Zoology",
+    "description": "The UF Invertebrate collection holds ~580,000 databased lots of mollusks and marine invertebrates.  It began as a Malacology collection almost 100 years ago and the collection is particularly strong in non-marine mollusks.  Approximately ~85% of the holdings are mollusks but since 2000 the collection was expanded to cover all invertebrate phyla, focusing on marine taxa.  Today it holds &gt;40,000 species from 28 phyla.",
+    "url": "https://obis.org/dataset/c5687a17-e454-40f9-9a4b-d04b2c812d74",
+    "sameAs": [
+        "http://ipt.flmnh.ufl.edu:8080/ipt/resource?r=invertebratezoology"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2023-12-11T05:01:04.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1874/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.flmnh.ufl.edu:8080/ipt/archive.do?r=invertebratezoology",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.973 -88.0272,-179.973 85.6666667,179.73 85.6666667,179.73 -88.0272,-179.973 -88.0272"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19304",
+            "@type": "Organization",
+            "legalName": "Florida Museum of Natural History",
+            "name": "Florida Museum of Natural History",
+            "url": "https://oceanexpert.org/institution/19304"
+        }
+    ]
+}

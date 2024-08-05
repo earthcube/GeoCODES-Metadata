@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c28a98ea-84bc-4930-8d82-778ed7402269",
+    "name": "Phytoplankton composition, biomass and abundance in Estonian territorial waters 1993-2016",
+    "description": "The dataset contains abundance and biomass for different taxonomical units of phytoplankton (from phylum to species, according to identification accuracy) sampled from Estonian open and coastal waters in the Baltic Sea. Samples are collected with Ferrybox method (sampling depth appr. 5m) or by pooling samples from discrete depths (1, 5 and 10m) in national monitoring stations. Phytoplankton identification and enumeration was carried out using microscopy, biomass calculations were done using volume formulas provided by HELCOM-PEG (phytoplankton expert group) and published in http://www.ices.dk/marine-data/data-portals/Pages/DOME.aspx (PEG BIOVOLUME).",
+    "url": "https://obis.org/dataset/c28a98ea-84bc-4930-8d82-778ed7402269",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_data_from_estonian_marine_monitoring_1993-2016"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Estonian Marine Institute, University of Tartu and Marine Systems Institute, Tallinn University of Technology (2019): Phytoplankton composition, biomass and abundance in Estonian territorial waters 1993-2016",
+    "version": "2024-02-26T23:19:40.000Z",
+    "keywords": [
+        "Time series",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL14/",
+            "description": "biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "trophic stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTROPH01/",
+            "description": "trophic stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "arvukus",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "arvukus"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling device",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling device"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_data_from_estonian_marine_monitoring_1993-2016",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "19.2023 57.616667,19.2023 59.916667,28.008333 59.916667,28.008333 57.616667,19.2023 57.616667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6094",
+            "@type": "Organization",
+            "legalName": "University of Tartu, Estonian Marine Institute",
+            "name": "University of Tartu, Estonian Marine Institute",
+            "url": "https://oceanexpert.org/institution/6094"
+        }
+    ]
+}

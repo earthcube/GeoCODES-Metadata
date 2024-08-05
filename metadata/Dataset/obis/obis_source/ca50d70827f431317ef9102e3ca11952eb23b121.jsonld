@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/eb82a737-66d1-495e-a5da-2745b5fc0152",
+    "name": "Phytoplankton data for Danish marine monitoring (ODAM) from 1988 - 2016",
+    "description": "Data is an assembly of plankton monitoring stations situated between 54° and 58° North along the Danish coasts and in estuaries. There are multiple phytoplankton stations and 15 of them are maintained by 2016, although the data set also contains data of several discontinued stations. Each phytoplankton station is visited 1 to 4 times per month over a period of 25 years for some of the stations (two times per month is the norm). Samples are analyzed to estimate phytoplankton composition and abundance. The cell volume is determined for a sub group of cell of each species encountered, thus estimating a cell volume that is applied to the entire sample",
+    "url": "https://obis.org/dataset/eb82a737-66d1-495e-a5da-2745b5fc0152",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=odam_phytoplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Danish Centre for Environment and Energy (2019). Phytoplankton data for Danish marine monitoring (ODAM) from 1988 - 2016",
+    "version": "2023-05-23T12:15:41.000Z",
+    "keywords": [
+        "Time series",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "VolWBodySamp..l.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "VolWBodySamp..l."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "WaterAbund_BE007117....l.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "WaterAbund_BE007117....l."
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=odam_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "8.22433 54.61752,8.22433 57.60783,15.987 57.60783,15.987 54.61752,8.22433 54.61752"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

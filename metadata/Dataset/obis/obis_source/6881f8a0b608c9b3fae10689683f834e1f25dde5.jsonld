@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c395ee53-32a7-4ed6-ad70-3ef025004a3c",
+    "name": "Museo Argentino de Ciencias Naturales (MACN), Buenos Aires: sea stars collection (Asteroidea, Echinodermata)",
+    "description": "Sea stars collection from various Argentinian expeditions, ranging from 1920 and 1979. Data sent by Prof Alejandro Tablado.",
+    "url": "https://obis.org/dataset/c395ee53-32a7-4ed6-ad70-3ef025004a3c",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=macn_asteroida"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Danis B, Wilmes J, Tablado A, 2008. Sea stars from the Museo Argentino de Ciencias Naturales (MACN) collection. Contribution to the SCAR-Marine Biodiversity Information Network.",
+    "version": "2019-03-19T14:43:01.000Z",
+    "keywords": [
+        "Distribution",
+        "Echinoderm",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=macn_asteroida",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-75.35 -69.5,-75.35 -31.93333,-15.885399 -31.93333,-15.885399 -69.5,-75.35 -69.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18",
+            "@type": "Organization",
+            "legalName": "Museo Argentino de Ciencias Naturales \"Bernardino Rivadavia\"",
+            "name": "Museo Argentino de Ciencias Naturales \"Bernardino Rivadavia\"",
+            "url": "https://oceanexpert.org/institution/18"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

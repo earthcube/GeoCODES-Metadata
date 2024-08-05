@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0b91d8f6-a50e-44e4-b313-0df7f91f7483",
+    "name": "National Whale and Dolphin Sightings and Strandings Database",
+    "description": "The National Whale and Dolphin Sightings and Strandings Database records reported sightings of whales and dolphins in Australian waters and maintains details of stranding events around the Australian coastline. This resource currently only show the sighting records.",
+    "url": "https://obis.org/dataset/0b91d8f6-a50e-44e4-b313-0df7f91f7483",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=nssd"
+    ],
+    "license": "",
+    "citation": "See metadata record http://www1.data.antarctica.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/DB_Cetaceans_NSSD",
+    "version": "2015-01-28T05:30:47.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=nssd",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-176 -77.4333333333,-176 38.9,179.916666667 38.9,179.916666667 -77.4333333333,-176 -77.4333333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ad407107-a13e-46ea-bd96-9279efccf706",
+    "name": "Fucus virsoides distribution in 1992-1993. Gulf of Trieste, North Adriatic",
+    "description": "Distribution of the brown algae Fucus virsoides J.Agardh, 1868 in the Gulf of Trieste, North Adriatic Sea from a survey carried out in Autumn 1992.",
+    "url": "https://obis.org/dataset/ad407107-a13e-46ea-bd96-9279efccf706",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=fucus-virsoides",
+        "https://doi.org/10.6092/6600dd16-ce89-4c4c-be83-4cfae78e789b"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lipizer, M. (2017): Fucus virsoides distribution in 1992-1993. Gulf of Trieste, North Adriatic. OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. https://doi.org/10.6092/6600dd16-ce89-4c4c-be83-4cfae78e789b",
+    "version": "2023-05-23T12:24:37.000Z",
+    "keywords": [
+        "Biological sampling",
+        "Habitat",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "surface coverage",
+            "url": "",
+            "description": "surface coverage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/1993",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/6600dd16-ce89-4c4c-be83-4cfae78e789b",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/6600dd16-ce89-4c4c-be83-4cfae78e789b",
+        "url": "https://doi.org/10.6092/6600dd16-ce89-4c4c-be83-4cfae78e789b"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=fucus-virsoides",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.53056103 45.59693391,13.53056103 45.78116492,13.7902206 45.78116492,13.7902206 45.59693391,13.53056103 45.59693391"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

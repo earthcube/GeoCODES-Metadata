@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/564b07e1-4b8b-4a95-a648-bc84fd0662b3",
+    "name": "Seabird 2000",
+    "description": "The Seabird 2000 dataset is a full census of all of the breeding seabirds in Britain and Ireland. The data was gathered by over 1000 surveyors mainly between the years 1999 and 2003 from both coastal and inland colonies.",
+    "url": "https://obis.org/dataset/564b07e1-4b8b-4a95-a648-bc84fd0662b3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nbn_ga000089",
+        "https://doi.org/10.15468/ibm5hb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Mitchell, P.I., S.F. Newton, N. Ratcliffe &amp; T.E. Dunn. Seabird 2000. Joint Nature Conservation Committee, Peterborough, UK. https://doi.org/10.15468/ibm5hb",
+    "version": "2024-02-26T23:21:48.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Birds (marine)",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/2003",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/ibm5hb",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/ibm5hb",
+        "url": "https://doi.org/10.15468/ibm5hb"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nbn_ga000089",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.628998 49.814733,-10.628998 61.48797,1.692847 61.48797,1.692847 49.814733,-10.628998 49.814733"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6974",
+            "@type": "Organization",
+            "legalName": "Joint Nature Conservation Committee",
+            "name": "Joint Nature Conservation Committee",
+            "url": "https://oceanexpert.org/institution/6974"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

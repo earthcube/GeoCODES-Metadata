@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/18e09669-93f6-47b9-b50c-60d1f028442f",
+    "name": "Texas Cooperative Wildlife Collection Marine Invertebrates",
+    "description": "The Collection of Marine Invertebrates at the Texas Cooperative Wildlife Collection consists of over 47,000 dry and fluid-preserved marine invertebrates primarily from the Gulf of Mexico and the Caribbean Sea. The majority of the specimens were collected by Research Vessels Alaminos and Gyre during the 1960's and 1970's.",
+    "url": "https://obis.org/dataset/18e09669-93f6-47b9-b50c-60d1f028442f",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=tcwc_cnidaria"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Department of Wildlife and Fisheries Sciences. Texas Cooperative Wildlife Collection Marine Invertebrates. 2011. Texas Cooperative Wildlife Collection, Department of Wildlife and Fisheries Sciences. Texas A&amp;M University. Retrieved from http://www.usgs.gov/obis-usa/",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1946/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=tcwc_cnidaria",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-126 -17.7700004578,-126 41.5299987793,55.3100013733 41.5299987793,55.3100013733 -17.7700004578,-126 -17.7700004578"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

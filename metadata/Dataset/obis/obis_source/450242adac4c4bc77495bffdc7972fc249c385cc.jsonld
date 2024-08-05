@@ -1,0 +1,108 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e437e667-a179-451d-87ba-96ea827dba9f",
+    "name": "Northeast Area Monitoring and Assessment Program Near Shore Trawl Survey (NEAMAP)",
+    "description": "NEAMAP stands for NorthEast Area Monitoring and Assessment Program.  NEAMAP was developed to meet the needs of fisheries management and stock assessment activities in the northeastern United States. NEAMAP began in 2006 with a fall pilot survey and in 2008 began conducting both a spring and fall survey.  NEAMAP samples from Cape Cod, MA south to Cape Hatteras, NC and targets both juvenile and adult fishes.\n\nNEAMAP is an integrated, cooperative state/federal data collection program. Its mission is to facilitate the collection and dissemination of fishery-independent information obtained in the Northeast for use by state and federal fisheries management agencies, the fishing industry (commercial and recreational), researchers, and others requesting such information. The intent of NEAMAP is not to change existing programs, but to coordinate and standardize procedures and improve data quality and accessibility.",
+    "url": "https://obis.org/dataset/e437e667-a179-451d-87ba-96ea827dba9f",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=vims_neamap"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2018-03-13T20:23:21.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "air temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01/",
+            "description": "air temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wind speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01/",
+            "description": "wind speed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "barometric pressure",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0015/",
+            "description": "barometric pressure"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "catch per unit effort biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/FIBM/",
+            "description": "catch per unit effort biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "total number of individuals caught",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/FCNT/",
+            "description": "total number of individuals caught"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "catch per unit effort count",
+            "url": "",
+            "description": "catch per unit effort count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wind direction",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/WINDF/",
+            "description": "wind direction"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wave height",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/HEAV/",
+            "description": "wave height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wave type",
+            "url": "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0956/",
+            "description": "wave type"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=vims_neamap",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-76.10787201 35.15586853,-76.10787201 41.43578332,-70.868 41.43578332,-70.868 35.15586853,-76.10787201 35.15586853"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19317",
+            "@type": "Organization",
+            "legalName": "Virginia Institute of Marine Sciences",
+            "name": "Virginia Institute of Marine Sciences",
+            "url": "https://oceanexpert.org/institution/19317"
+        }
+    ]
+}

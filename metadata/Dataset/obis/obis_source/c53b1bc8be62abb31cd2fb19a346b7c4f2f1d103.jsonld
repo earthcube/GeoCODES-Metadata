@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/790f9ddf-433c-4e47-aa6c-ccef0b8634fa",
+    "name": "KOBIS database",
+    "description": "KOBIS (Korea Ocen Beogeographic Information System) is hosted and managed by Korea Institute of Ocean Science and Technology (KIOST) to provide the occurrence information of the marine organisms appearing in the Korean waters.\nKIOST started to develop KOBIS in 2007 and KOBIS is a regional node of the international Ocean Biogeographic Information System (iOBIS).",
+    "url": "https://obis.org/dataset/790f9ddf-433c-4e47-aa6c-ccef0b8634fa",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-malaysia/resource?r=korea_kobisv1"
+    ],
+    "license": "",
+    "citation": null,
+    "version": "2018-11-12T15:03:42.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1941/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-malaysia/archive.do?r=korea_kobisv1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "123.5 32,123.5 42.2000007629,136.5 42.2000007629,136.5 32,123.5 32"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7029",
+            "@type": "Organization",
+            "legalName": "Korea Ocean Research & Development Institute",
+            "name": "Korea Ocean Research & Development Institute",
+            "url": "https://oceanexpert.org/institution/7029"
+        }
+    ]
+}

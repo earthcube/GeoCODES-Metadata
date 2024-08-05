@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/59ea7e58-052b-4107-9b7d-23ec2c46122e",
+    "name": "Hydrographic profiles in South West Atlantic Ocean derived from Southern Elephant seals dives",
+    "description": "The resource contains 3181 data derived from sensors (Time Depth Recorder) placed on southern elephant seals. Sea temperature, depth and diving location were stored in eMof format as mean, minimum and maximum values. Data were obtained during the marine-pelagic phase of 9 seals tracked between 1995 to 2008, along  the SW Atlantic Ocean, covered all seasons. The novelty of this dataset is that being also  available as Linked Open Data (LOD) through the SPARQL endpoint http://linkeddata.cenpat-conicet.gob.ar/snorql/. The dataset is a subset of a larger dataset (Records at sea of juveniles southern elephant seals,Mirounga leonina, from Península Valdés, Argentina) http://arobis.cenpat-conicet.gob.ar:8081/resource?r=mleonina_juv",
+    "url": "https://obis.org/dataset/59ea7e58-052b-4107-9b7d-23ec2c46122e",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=sestracks"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Zárate M (2020): Hydrographic profiles in South West Atlantic Ocean derived from Southern Elephant seals dives. v1.6. ArOBIS Centro Nacional Patagónico. Dataset/Samplingevent. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=sestracks&amp;v=1.6",
+    "version": "2021-01-07T16:16:02.000Z",
+    "keywords": [
+        "Mirounga leonina",
+        "South West Atlantic Ocean",
+        "Bio-logging",
+        "Sea temperature",
+        "Linked Open Data."
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/R03/current/TEMP/",
+            "description": "Temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=sestracks",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-52.409 -66.274,-52.409 -54.361,-42.554 -54.361,-42.554 -66.274,-52.409 -66.274"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a8c6fd8c-4b26-4203-8ff7-8d3b7af1b499",
+    "name": "Sargasso 2005 - cetacean sightings",
+    "description": "Original provider:\nDalhousie University\n\nDataset credits:\nHal Whitehead, Department of Biology, Dalhousie University\n\nAbstract:\nThe Sargasso Sea cruise surveyed marine mammals in the Northeast Atlantic Ocean, during the spring and summer of 2005. This survey onboard the Valiant 40 ocean-going research vessel Balaena, consisted of two survey legs: a sail from the Caribbean to offshore waters north of the Bahamas (April 19  - June 2), and a sail north to Halifax, Nova Scotia. Sperm whales were surveyed using acoustics and visual techniques during both cruise legs by members of the Hal Whitehead laboratory.\n\nPurpose:\nThe purpose of this cruise was to study the behavior (principally social organization), ecology, and population biology of sperm whales.  This is the second study year, after a similar cruise in the summer of 2004.\n\nSupplemental information:\nThis dataset includes cetacean observations and survey effort.  The survey track was recorded by logging a position every 10 minutes using the vessel's GPS. The cetacean observations includes sightings during surveys (on effort) and during focal follows of sperm whale schools (off effort).\n\nThere are two types records for sperm whale, census and encounter. Encounters, which are defined as events where researchers observe whales by sight or acoustic techniques, are denoted 'S' (survey), 'E' (encounter), or 'AE' (acoustic encounter) in the [Enctr_type] field. These records do not have animal counts recorded, and count field for these records is null  in the dataset.\n\nIn addition to encounters, this dataset includes sightings during 'census' surveys, which include group size data, as well as information on the radial distance and angle to each sighting. These survey metadata are available from the primary data providers.\n\nCensus records have non-zero animal counts as for other species. They are denoted C in [Enctr_type] field.\nNote that the [Enctr_type] field is not downloadable by the public, but may be available by request. Please request this data after obtaining permission from the primary data providers.",
+    "url": "https://obis.org/dataset/a8c6fd8c-4b26-4203-8ff7-8d3b7af1b499",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_332"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Hyrenbach, D. and H. Whitehead. 2013. Sargasso 2005 - cetacean sightings. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/332) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:21:08.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings,sperm whales,cetaceans,Sargasso Sea",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_332",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-70.326667 16.58,-70.326667 43.935,-58.978333 43.935,-58.978333 16.58,-70.326667 16.58"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

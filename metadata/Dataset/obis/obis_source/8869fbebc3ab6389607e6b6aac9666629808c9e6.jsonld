@@ -1,0 +1,116 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/10d996d9-55d4-4906-8717-c36a614eb38d",
+    "name": "Study of the biotic environment in the Sluice Dock in relation to oyster farming between 1960 and 1964",
+    "description": "Biomass of plankton groups and presence records of the most important species related to the oyster farming which were present in the Sluice Dock between 1960 and 1964. The data were digitized by VLIZ from the original reports: Leloup, E. et al. Recherches sur l'ostréiculture dans le bassin de chasse d'Ostende. Ministère de l'Agriculture. Commission TWOZ. Groupe de Travail Ostréiculture: Ostende.",
+    "url": "https://obis.org/dataset/10d996d9-55d4-4906-8717-c36a614eb38d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=study_of_the_biotic_environment_in_the_sluice_dock_in_relation_to_oyster_farming_between_1960_and_1964",
+        "https://dx.doi.org/10.14284/135"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Leloup E.; Van Meel L.; Polk P.; Halewyck R.; Gryson A; Ministère de l'Agriculture - Commission T.W.O.Z. Groupe de travail Ostreiculture: Belgium; (2016): Study of the biotic environment in the Sluice Dock in relation to oyster farming between 1960 and 1964. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4583) https://dx.doi.org/10.14284/135",
+    "version": "2023-05-23T11:34:35.000Z",
+    "keywords": [
+        "Bivalvia",
+        "coastal structure",
+        "Microplankton",
+        "Oyster culture",
+        "Phytoplankton",
+        "Zooplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sample size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "sample size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "average of organic matter",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/HMSB/",
+            "description": "average of organic matter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "maximum organic matter",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/HMSB/",
+            "description": "maximum organic matter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "minimum organic matter",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/HMSB/",
+            "description": "minimum organic matter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "parameter statistic entity",
+            "url": "http://vocab.nerc.ac.uk/collection/S01/current/S0112/",
+            "description": "parameter statistic entity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Relative percentage abundance of biological entity (phytoplankton group) that was present in the 100l water sample",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL06/",
+            "description": "Relative percentage abundance of biological entity (phytoplankton group) that was present in the 100l water sample"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "life stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1960/1964",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/135",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/135",
+        "url": "https://dx.doi.org/10.14284/135"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=study_of_the_biotic_environment_in_the_sluice_dock_in_relation_to_oyster_farming_between_1960_and_1964",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.939827 51.224666,2.939827 51.229917,2.960311 51.229917,2.960311 51.224666,2.939827 51.224666"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

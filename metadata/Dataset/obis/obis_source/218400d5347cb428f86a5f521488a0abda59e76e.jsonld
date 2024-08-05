@@ -1,0 +1,90 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e0f45753-759a-4bc2-ab24-26dba4376707",
+    "name": "Inner Bay of Fundy Striped Bass",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Department of Fisheries and Oceans Canada (DFO)  Inner Bay of Fundy Striped Bass, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=IBFS).\nAbstract:The Shubenacadie-Stewiacke rivers system is an important spawning and wintering area for Bay of Fundy (BoF) Striped Bass.  BoF Striped Bass support economically and culturally significant indigenous food fisheries and a large recreational angling fishery. The effects of these fisheries on population status are difficult to assess because of data deficiencies concerning removal rates. This principal objective of this project is to monitor inter-annual total mortality (Z) of striped bass that are &gt; the minimum legal retention size of 68 cm Total Length and to relate the annual rates of annual recruitments as estimated from young-of-the-year abundance surveys and fishery-independent indices of number at age. Acoustic tags with expected operational times exceeding 6 years are used to track individual fish through several spawning and over-wintering cycles. Hydrophones are deployed during April to July in the spawning areas in tidal waters and maintained through the calendar year in the non-tidal section of the Shubenacadie River to monitor annual returns to the spawning and wintering grounds respectively. The acoustic tags and hydrophone array are as well used to support a number of other research and monitoring initiatives including Striped Bass-Atlantic Salmon interactions, and American eel and Atlantic tomcod migration studies.",
+    "url": "https://obis.org/dataset/e0f45753-759a-4bc2-ab24-26dba4376707",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndfo-bioinnerbayoffundy",
+        "https://doi.org/10.14286/bftrsn"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bradford, R., LeBlanc, P. 2012. Innner Bay of Fundy Atlantic Salmon Acoustic Telemetry Tag Releases.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-23T01:56:11.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FL",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FL"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2023",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/bftrsn",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/bftrsn",
+        "url": "https://doi.org/10.14286/bftrsn"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndfo-bioinnerbayoffundy",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-123.06213 38.02061,-123.06213 48.18192,-53.79708 48.18192,-53.79708 38.02061,-123.06213 38.02061"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

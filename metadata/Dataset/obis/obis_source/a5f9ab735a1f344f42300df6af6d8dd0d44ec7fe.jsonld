@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e548f7dc-7f39-4597-8258-351bfe98aaf0",
+    "name": "BioChem: Zooplankton collected from Davis Strait, 1976-1977",
+    "description": "This work was part of a larger environmental studies program for offshore oil and gas exploration for the Arctic Petroleum Operators Association conducted between July 1976 and August 1978 in Davis Strait, Hudson Strait, Flemish Pass, coastal Labrador and Northeast Newfoundland. The OBIS view of this dataset contains zooplankton abundance information.",
+    "url": "https://obis.org/dataset/e548f7dc-7f39-4597-8258-351bfe98aaf0",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=dfo_biochem_maclaren"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Spry, J.M. 2012. BioChem: Zooplankton collected from Davis Strait, 1976-1977. OBIS Canada Digital Collections. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Digital, retrieved from http://iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/1978",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=dfo_biochem_maclaren",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.99 46.75,-69.99 67,-44.14 67,-44.14 46.75,-69.99 46.75"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

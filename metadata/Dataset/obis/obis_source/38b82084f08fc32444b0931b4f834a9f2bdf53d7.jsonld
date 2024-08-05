@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/646a02cb-9839-4d0f-ab84-53ba34864c20",
+    "name": "American eel distribution on the east coast of Canada as inferred from fishing records",
+    "description": "This dataset maps fishing locations of American eels on the east coast of Canada, derived from logbook records, interviews with fisheries officers, and data collected by government agencies. Fishing locations indicate presence of eels because fishers would not fish at these locations if eels were absence.  However, absence of records does not indicate absence of eels.  There may be no eel fishery in a given area for several reasons, including regulatory prohibitions, lack of markets, and lack of a local eel fishing tradition.",
+    "url": "https://obis.org/dataset/646a02cb-9839-4d0f-ab84-53ba34864c20",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_gulf_eel_atlas"
+    ],
+    "license": "rights: 'http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms rightsholder: 'Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans'",
+    "citation": "Cairns, D.K. (2013).  American eel distribution on the east coast of Canada as inferred from fishing records. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-05-21T18:24:26.000Z",
+    "keywords": [
+        "biota",
+        "oceans",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfo_gulf_eel_atlas",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.21778 43.45459,-71.21778 54.07158,-52.92375 54.07158,-52.92375 43.45459,-71.21778 43.45459"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19387",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Prince Edward Island",
+            "name": "Fisheries and Oceans Canada – Prince Edward Island",
+            "url": "https://oceanexpert.org/institution/19387"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19633",
+            "@type": "Organization",
+            "legalName": "OBIS Canada",
+            "name": "OBIS Canada",
+            "url": "https://oceanexpert.org/institution/19633"
+        }
+    ]
+}

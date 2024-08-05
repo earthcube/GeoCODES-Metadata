@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/310aaf6f-15c2-4c12-b684-1e3e5da8457d",
+    "name": "AIMS Long-term Monitoring Program: Crown-of-thorns starfish and benthos Manta Tow Data, Great Barrier Reef, Australia (1983 - present)",
+    "description": "64 'key' reefs in 11 sectors of the Great Barrier Reef (Cape Grenville, Princess Charlotte Bay, Cooktown/Lizard Island, Cairns, Innisfail, Townsville, Cape Upstart, Whitsunday, Pompey Complex, Swain and Capricorn Bunker) are annually surveyed for crown-of-thorns starfish using the manta tow technique. An additional 117 reefs from the sectors (excluding the Whitsunday, Swain and Capricorn-Bunker sectors) are scheduled for survey every third year ('cycle' reefs).\nThis data is a subset for the NERP TE project. The full dataset is described at https://apps.aims.gov.au/metadata/view/5bb9a340-4ade-11dc-8f56-00008a07204e",
+    "url": "https://obis.org/dataset/310aaf6f-15c2-4c12-b684-1e3e5da8457d",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=aims_ltmp_cots"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Australian Institute of Marine Science (AIMS). (2015), AIMS Long-term Monitoring Program: Crown-of-thorns starfish and benthos Manta Tow Data (Great Barrier Reef), https://doi.org/10.25845/5c09b0abf315a, accessed 24-Jul-2020.",
+    "version": "2022-06-20T04:34:41.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Number of Manta tows",
+            "url": "",
+            "description": "Number of Manta tows"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "crown-of-thorns starfish status",
+            "url": "",
+            "description": "crown-of-thorns starfish status"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=aims_ltmp_cots",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "142.76667 -23.90833,142.76667 -9.5075,152.73333 -9.5075,152.73333 -23.90833,142.76667 -23.90833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

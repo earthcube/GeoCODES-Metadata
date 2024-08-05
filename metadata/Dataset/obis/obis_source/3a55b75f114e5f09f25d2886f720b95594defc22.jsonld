@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/059a80c4-0955-484c-ab64-d2f524c7e9bb",
+    "name": "Phytoplankton observations for the Storm Bay Biogeochemical Modelling Project, Tasmania, Australia (2019-2020)",
+    "description": "Phytoplankton observations for the Storm Bay Biogeochemical Modelling Project, Tasmania, Australia (2019-2020). Data sourced from the CSIRO Data Access Portal (see cited paper)",
+    "url": "https://obis.org/dataset/059a80c4-0955-484c-ab64-d2f524c7e9bb",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=storm_bay_frdc_project_2017_215",
+        "https://doi.org/10.25919/x6pt-qz77"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY 4.0) License",
+    "citation": "Wild-Allen, Karen; Bodrossy, Levente; Brewer, Elizabeth; Eriksen, Ruth; Gregor, Robert; Hughes, David; Jansen, Peter; Martini, Andrew; McMahon, Merinda; Revill, Andy; Schwanger, Cassie (2023): Observations for Storm Bay Biogeochemical Modelling. v1. CSIRO. Data Collection. https://doi.org/10.25919/x6pt-qz77",
+    "version": "2023-12-11T11:13:01.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.25919/x6pt-qz77",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25919/x6pt-qz77",
+        "url": "https://doi.org/10.25919/x6pt-qz77"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=storm_bay_frdc_project_2017_215",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "147.4386 -43.20342,147.4386 -43.1049,147.6352 -43.1049,147.6352 -43.20342,147.4386 -43.20342"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

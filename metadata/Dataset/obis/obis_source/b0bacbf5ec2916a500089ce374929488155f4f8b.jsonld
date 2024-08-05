@@ -1,0 +1,140 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2d60dbdc-e801-4c66-991e-d484e8b08227",
+    "name": "Fish length, weight, and abundance data from trawl surveys in the Chukchi Sea, Arctic Marine Biodiversity Observing Network (AMBON) research cruise on the vessel Norseman II, 09 August 2015 - 03 September 2015",
+    "description": "This dataset is three comma-separated values (csv) files containing fish haul information collected during trawl surveys in the Chukchi Sea during the 9 August - 3 September 2015 Arctic Marine Biodiversity Observing Network (AMBON) research cruise. Tables describe haul event information, species occurrence per haul, and fish morphometric information. Fish were collected with a plump-staff beam trawl and Isaac-Kidds midwater trawl, identified to species, and their life stage, length, and weight were measured and recorded. The data was transformed from the native format into a table structure using Darwin Core terms and organized in the OBIS-ENV-DATA format.",
+    "url": "https://obis.org/dataset/2d60dbdc-e801-4c66-991e-d484e8b08227",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=ambon_fish_hauls_2015"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2023-01-18T17:38:08.000Z",
+    "keywords": [
+        "Samplingevent",
+        "EARTH SCIENCE",
+        "BIOSPHERE",
+        "ECOLOGICAL DYNAMICS",
+        "COMMUNITY DYNAMICS",
+        "COMMUNITY STRUCTURE",
+        "BIOLOGICAL CLASSIFICATION",
+        "ANIMALS/VERTEBRATES",
+        "FISH",
+        "OCEANS",
+        "MARINE ENVIRONMENT MONITORING",
+        "ECOSYSTEMS",
+        "MARINE ECOSYSTEMS",
+        "Fish",
+        "abundance",
+        "Vessel survey",
+        "Survey",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "bottom depth at station",
+            "url": "",
+            "description": "bottom depth at station"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "distance towed",
+            "url": "",
+            "description": "distance towed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "performance",
+            "url": "",
+            "description": "performance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observed individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "observed individual count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length class",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "length class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area",
+            "url": "",
+            "description": "area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "aggregate weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01",
+            "description": "aggregate weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=ambon_fish_hauls_2015",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-168.95775 67.67147,-168.95775 72.493595,-159.3811 72.493595,-159.3811 67.67147,-168.95775 67.67147"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7304",
+            "@type": "Organization",
+            "legalName": "Bureau of Ocean Energy Management of the US Department of the Interior",
+            "name": "Bureau of Ocean Energy Management of the US Department of the Interior",
+            "url": "https://oceanexpert.org/institution/7304"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18955",
+            "@type": "Organization",
+            "legalName": "Axiom Data Science",
+            "name": "Axiom Data Science",
+            "url": "https://oceanexpert.org/institution/18955"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20908",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks",
+            "name": "University of Alaska Fairbanks",
+            "url": "https://oceanexpert.org/institution/20908"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23070",
+            "@type": "Organization",
+            "legalName": "United States Marine Biodiversity Observation Network",
+            "name": "United States Marine Biodiversity Observation Network",
+            "url": "https://oceanexpert.org/institution/23070"
+        }
+    ]
+}

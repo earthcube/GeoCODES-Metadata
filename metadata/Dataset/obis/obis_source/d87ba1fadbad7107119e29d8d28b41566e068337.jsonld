@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4e2cf30c-b238-4ca9-ae05-0809da31d4cc",
+    "name": "ICES Historical Plankton Dataset",
+    "description": "Data from seven historical ICES volumes has been digitized and quality checked through a cooperative project between SAHFOS, ICES and the University of Plymouth (UK). Data include &gt;13,000 plankton samples. Approximately 2000 taxa, many identified to species level, are included. The data are from a variety of cruises. Within EurOBIS and EMODnet, presence only values have been made available. \n<ul>\n<li>ICES Bulletin Resultats Acquis Pendant les Courses Periodiques 1901-1902\n</li><li> ICES Bulletin Resultats Acquis Pendant les Courses Periodiques 1902-1903\n</li><li> Resultats Acquis Pendant les Courses Periodiques 1903-1904\n</li><li> Resultats Acquis Pendant les Courses Periodiques 1904-1905\n</li><li> Resultats Acquis Pendant les Courses Periodiques 1905-1906\n</li><li> Resultats Acquis Pendant les Courses Periodiques 1906-1907\n</li><li> Bulletin Planktonique 1907-1912\n</li></ul>",
+    "url": "https://obis.org/dataset/4e2cf30c-b238-4ca9-ae05-0809da31d4cc",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ices_historical_plankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES Historical Plankton Dataset (1901-1912). The International Council for the Exploration of the Sea, Copenhagen. 2010. Online source: http://ecosystemdata.ices.dk.",
+    "version": "2024-02-26T23:43:05.000Z",
+    "keywords": [
+        "Plankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "SampleNumber",
+            "url": "",
+            "description": "SampleNumber"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Stage",
+            "url": "https://vocab.ices.dk/?ref=52/",
+            "description": "Stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance number (number counted)",
+            "url": "https://vocab.ices.dk/?CodeID=53840/",
+            "description": "Abundance number (number counted)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1902/1912",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ices_historical_plankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-13.4167 47.7667,-13.4167 75,49.75 75,49.75 47.7667,-13.4167 47.7667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8326",
+            "@type": "Organization",
+            "legalName": "Sir Alister Hardy Foundation for Ocean Science",
+            "name": "Sir Alister Hardy Foundation for Ocean Science",
+            "url": "https://oceanexpert.org/institution/8326"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

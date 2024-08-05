@@ -1,0 +1,119 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3fa28b9b-9117-4e17-b77d-63de04622f3d",
+    "name": "Joint Open Sea Surveys 2017, Improving Environmental Monitoring in the Black Sea - Phase II (EMBLAS-II), ENPI/2013/313-169, (Mesozooplankton)",
+    "description": "Mesozooplankton data: species composition, abundance (ind/m3), biomass (mg/m3) collected during the Joint Open Sea Survey (JOSS UA - GE 2017) in the Black Sea waters (Transects Odessa - Batumi) onboard the R/V \"Mare Nigrum\" (Romania) in August - September 2017.",
+    "url": "https://obis.org/dataset/3fa28b9b-9117-4e17-b77d-63de04622f3d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=jossge-ua2017_mesozooplankton"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Nabokin M., Zotov, A. Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES), Institute of Marine Biology (IMB), Academy of Science of Ukraine; (2020): Joint Open Sea Surveys 2017, Improving Environmental Monitoring in the Black Sea - Phase II (EMBLAS-II), ENPI/2013/313-169, (Mesozooplankton)",
+    "version": "2023-12-08T17:11:06.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Biological sampling",
+        "Mare Nigrum",
+        "research vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Standard Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "Standard Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Standard weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/NEWCXX02/",
+            "description": "Standard weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYAAOP/",
+            "description": "Dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=jossge-ua2017_mesozooplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.816666666667 41.783333333333,29.816666666667 46.383333333333,41.216666666667 46.383333333333,41.216666666667 41.783333333333,29.816666666667 41.783333333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17300",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine , Institute of Marine Biology",
+            "name": "National Academy of Sciences of Ukraine , Institute of Marine Biology",
+            "url": "https://oceanexpert.org/institution/17300"
+        }
+    ]
+}

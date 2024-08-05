@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cf2e7bbe-9fe9-4f1f-a71d-e34aedacd0f6",
+    "name": "BioChem: Fish, eggs and larvae in the Gulf of St. Lawrence, 1972-1975",
+    "description": "This report contains tabular data on abundance and distribution of 54 species or categories of fish eggs and larvae caught on stations spread throughout the Gulf of St. Lawrence, mainly south of the Laurentian Channel, in May, June, August and September of 1965 to 1975.",
+    "url": "https://obis.org/dataset/cf2e7bbe-9fe9-4f1f-a71d-e34aedacd0f6",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=dfo_mar_kohler_fisheggslarvae_gsl"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "St-Pierre, I., Kennedy, M.K. 2011. OBIS BioChem: Fish, eggs and larvae in the Gulf of St. Lawrence, 1972-1975. Canada Digital Collections. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Digital, retrieved from http://iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1972/1975",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=dfo_mar_kohler_fisheggslarvae_gsl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.5749969482 45.8250007629,-64.5749969482 48.8250007629,-59.1749992371 48.8250007629,-59.1749992371 45.8250007629,-64.5749969482 45.8250007629"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

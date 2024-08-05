@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/16a0cea1-9b1a-4fc9-97ba-c0fa325db02b",
+    "name": "Torres Strait Seagrass Mapping Consolidation  - intertidal and subtidal  data (JCU), Australia",
+    "description": "Between 2002 and 2014 Torres Strait was surveyed to assess seagrass presence and absence, and biomass (grams dry weight per m2) in the intertidal and subtidal zone.\nFurther details and source of the data files from https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=e7ea913e-2528-4ece-847c-a25722e11c1f",
+    "url": "https://obis.org/dataset/16a0cea1-9b1a-4fc9-97ba-c0fa325db02b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seamapaus_qld_torresstrait_seagrass"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cite data as: James Cook University (2014). Torres Strait Seagrass Mapping Consolidation. Data accessed at http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=e7ea913e-2528-4ece-847c-a25722e11c1 on (access date).",
+    "version": "2022-06-08T05:38:40.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Observervation Method",
+            "url": "",
+            "description": "Observervation Method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Density of coverage",
+            "url": "",
+            "description": "Density of coverage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Percent of coverage",
+            "url": "",
+            "description": "Percent of coverage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seamapaus_qld_torresstrait_seagrass",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.429869853393 -10.7672733874469,141.429869853393 -9.14055782294657,143.878029988538 -9.14055782294657,143.878029988538 -10.7672733874469,141.429869853393 -10.7672733874469"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        }
+    ]
+}

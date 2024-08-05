@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2bd0707f-3650-47e8-9da2-5c4c77d42cfb",
+    "name": "Macroinvertebrate groups on deep-sea volcanic habitats in the Galapagos Marine Reserve in the Eastern Tropical Pacific Ocean: Mollusca",
+    "description": "Macroinvertebrate groups on deep-sea volcanic habitats in the Galapagos Marine Reserve in the Eastern Tropical Pacific Ocean: Mollusca",
+    "url": "https://obis.org/dataset/2bd0707f-3650-47e8-9da2-5c4c77d42cfb",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-deepsea/resource?r=dwc_mollusca"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2018-11-28T15:32:58.000Z",
+    "keywords": [
+        "Deep-sea; Galapagos Marine Reserve; Macroinvertebrate; Mollusca; Seamounts; Volcanic seascapes"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PRESPS02/",
+            "description": "Depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYOP01/",
+            "description": "Oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALCU01/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPCU01/",
+            "description": "Temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-deepsea/archive.do?r=dwc_mollusca",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-92.133182 -0.402182452,-92.133182 1.883822131,-90.81466005 1.883822131,-90.81466005 -0.402182452,-92.133182 -0.402182452"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18303",
+            "@type": "Organization",
+            "legalName": "Fundación Charles Darwin",
+            "name": "Fundación Charles Darwin",
+            "url": "https://oceanexpert.org/institution/18303"
+        }
+    ]
+}

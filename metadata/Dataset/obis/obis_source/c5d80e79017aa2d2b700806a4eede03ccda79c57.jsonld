@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5fd0a2a6-db76-4268-be7e-6e11209dfab8",
+    "name": "Kelp rafts in the Southern Ocean",
+    "description": "Records of observations of kelp rafts passing within 50 m of one side of the vessel over replicated periods of 1 hour. Data collected over subantarctic latitudes only. Records include: size, species, presence/absence of holdfast, latitude and longitude, ship speed.",
+    "url": "https://obis.org/dataset/5fd0a2a6-db76-4268-be7e-6e11209dfab8",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=kelp"
+    ],
+    "license": "",
+    "citation": "See metadata record http://www1.data.antarctica.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/ASAC_2163",
+    "version": "2015-04-16T00:19:49.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=kelp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "56.3 -61.2833,56.3 -43.0667,158.6333 -43.0667,158.6333 -61.2833,56.3 -61.2833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/aac5ca81-638a-4335-9aa7-5c2bda67a362",
+    "name": "LBBG_ZEEBRUGGE - Lesser black-backed gulls (Larus fuscus, Laridae) breeding at the southern North Sea coast (Belgium and the Netherlands) [subsampled representation]",
+    "description": "This animal tracking dataset is derived from Stienen et al. (2022, <a href=\"https://doi.org/10.5281/zenodo.6579497\">https://doi.org/10.5281/zenodo.6579497</a>) a deposit of Movebank study <a href=\"https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study985143423\">985143423</a>. Data have been standardized to Darwin Core using the <a href=\"https://inbo.github.io/movepub/\">movepub</a> R package and are downsampled to the first GPS position per hour. The original dataset description follows.\n<em>LBBG_ZEEBRUGGE - Lesser black-backed gulls (Larus fuscus, Laridae) breeding at the southern North Sea coast (Belgium and the Netherlands)</em> is a bird tracking dataset published by the <a href=\"https://www.inbo.be/en\">Research Institute for Nature and Forest (INBO)</a>. It contains animal tracking data collected by the LifeWatch GPS tracking network for large birds (<a href=\"http://lifewatch.be/en/gps-tracking-network-large-birds\">http://lifewatch.be/en/gps-tracking-network-large-birds</a>) for the project/study <strong>LBBG_ZEEBRUGGE</strong>, using trackers developed by the University of Amsterdam Bird Tracking System (UvA-BiTS, <a href=\"http://www.uva-bits.nl\">http://www.uva-bits.nl</a>). The study has been operational since 2013. In total 162 individuals of Lesser black-backed gull (<em>Larus fuscus</em>) have been tagged in or near their breeding area at the southern North Sea coast (Zeebrugge and Ostend in Belgium and Vlissingen in the Netherlands), mainly to study their habitat use and migration behaviour. Data are periodically uploaded from the UvA-BiTS database to Movebank and from there archived on Zenodo (see <a href=\"https://github.com/inbo/bird-tracking\">https://github.com/inbo/bird-tracking</a>).\nThis dataset was collected using infrastructure provided by VLIZ and INBO funded by Research Foundation - Flanders (FWO) as part of the Belgian contribution to LifeWatch.",
+    "url": "https://obis.org/dataset/aac5ca81-638a-4335-9aa7-5c2bda67a362",
+    "sameAs": [
+        "https://ipt.inbo.be/resource?r=lbbg_zeebrugge"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-06-10T14:46:22.000Z",
+    "keywords": [
+        "animal movement",
+        "animal tracking",
+        "gps tracking",
+        "accelerometer",
+        "altitude",
+        "temperature",
+        "biologging",
+        "birds",
+        "LifeWatch",
+        "UvA-BiTS",
+        "Movebank",
+        "frictionlessdata",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.inbo.be/archive.do?r=lbbg_zeebrugge",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-17.77747 12.355771,-17.77747 57.4918472,17.6120126 57.4918472,17.6120126 12.355771,-17.77747 12.355771"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6656",
+            "@type": "Organization",
+            "legalName": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "name": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "url": "https://oceanexpert.org/institution/6656"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12703",
+            "@type": "Organization",
+            "legalName": "Universiteit Antwerpen",
+            "name": "Universiteit Antwerpen",
+            "url": "https://oceanexpert.org/institution/12703"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17039",
+            "@type": "Organization",
+            "legalName": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "name": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "url": "https://oceanexpert.org/institution/17039"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19328",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent",
+            "name": "Universiteit Gent",
+            "url": "https://oceanexpert.org/institution/19328"
+        }
+    ]
+}

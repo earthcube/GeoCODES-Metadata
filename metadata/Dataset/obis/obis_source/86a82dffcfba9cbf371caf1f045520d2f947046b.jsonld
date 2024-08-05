@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bdfaba78-f1fe-43df-aaa5-886e676f3939",
+    "name": "Registro de Corales en el Parque Nacional Jardines de la Reina, Cuba",
+    "description": "Registro de especies de Corales presentes en el Parque Nacional Jardines de la Reina, Cuba",
+    "url": "https://obis.org/dataset/bdfaba78-f1fe-43df-aaa5-886e676f3939",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=corales_pn_jardinesdelareina_cuba"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Hernandez F., Leslie (2017). Corales del Parque Nacional Jardines de la Reina, Cuba",
+    "version": "2020-06-09T01:35:01.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/caribbeanobis/archive.do?r=corales_pn_jardinesdelareina_cuba",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-79.1 20.761,-79.1 20.9,-78.847 20.9,-78.847 20.761,-79.1 20.761"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5413",
+            "@type": "Organization",
+            "legalName": "Centro de Investigaciones de Ecosistemas Costeros",
+            "name": "Centro de Investigaciones de Ecosistemas Costeros",
+            "url": "https://oceanexpert.org/institution/5413"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8887",
+            "@type": "Organization",
+            "legalName": "Universidad Simon Bolivar",
+            "name": "Universidad Simon Bolivar",
+            "url": "https://oceanexpert.org/institution/8887"
+        }
+    ]
+}

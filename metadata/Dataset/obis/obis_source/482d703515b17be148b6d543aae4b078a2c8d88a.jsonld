@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/585a89fa-cfac-4d3a-b5c0-6ba4f7829619",
+    "name": "Survey data of rocky shores on the Monitoring sites 1000 project, BDCJ",
+    "description": "This dataset contains data of the occurrence of the focal species, such as sessile organisms, which was recorded at the Monitoring Sites 1000 Projects: Coastal Area Survey (Rocky shore). The annual survey was carried out with six places of Japanese coast from north (Hokkaido) to south (Okinawa). In addition, the data about reference specimens and the occurrence of organisms within quadrats in five years is included. The data of this dataset is derived from the data file of the Monitoring Sites 1000 Projects: Coastal Area Survey. The data file includes the information about quantity data of organisms (a cover degree of sessile organisms per quadrats).",
+    "url": "https://obis.org/dataset/585a89fa-cfac-4d3a-b5c0-6ba4f7829619",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=bdcj_mot-rs"
+    ],
+    "license": "This work is licensed under a\n                 Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Biodiversity Center of Japan, Ministry of the Environment. Data file of rocky shores survey on Monitoring sites 1000 project at http://www.biodic.go.jp/moni1000/findings/data/index_file_rockyshores.html. Accessed on yyyy-mm-dd.",
+    "version": "2024-01-18T08:18:09.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=bdcj_mot-rs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "124.07 24.43,124.07 43.01,145.02 43.01,145.02 24.43,124.07 24.43"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19339",
+            "@type": "Organization",
+            "legalName": "Ministry of the Environment",
+            "name": "Ministry of the Environment",
+            "url": "https://oceanexpert.org/institution/19339"
+        }
+    ]
+}

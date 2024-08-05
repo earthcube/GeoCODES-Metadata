@@ -1,0 +1,101 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/befd3ee1-5957-4884-a286-00d41069b38f",
+    "name": "Pacific Region Commercial Salmon Fishery In-season Catch Estimates",
+    "description": "The Fishery Operations System (FOS) is the Department of Fisheries and Oceans Canada’s (DFO) centralized Oracle database that holds commercial salmon fishery catch, effort and biological data. The FOS database was built in 2001 and continues to be the current repository for all data pertaining to DFO’s Pacific Region Commercial Salmon Logbook program.The Commercial Salmon Logbook program was initiated in 1998 with fleet wide participation made mandatory during the 2001 season. The program requires all commercial salmon fishers to record their daily catch and effort information in a harvest logbook and to subsequently report it to DFO using a service provider within deadlines defined in the conditions of licence. A portion of the information collected from the logbook program contains fisher personal information and is therefore protected and un-releasable. Fishery Managers use the fisher reported catch and effort, in addition to information collected from other sources such as overflights, to calculate in-season catch estimates. NOTES: This report contains ONLY commercial catch estimates — it DOES NOT include testfishing, recreational or First Nations data. These figures are preliminary in-season catch estimates and are subject to change. Consult the applicable Fishery Manager or Biologist as to the status of particular catch estimates. All catch estimates are reported in pieces (numbers of fish). Catch estimates include adults and jacks combined (\"jacks\" are small but sexually mature early-return males).",
+    "url": "https://obis.org/dataset/befd3ee1-5957-4884-a286-00d41069b38f",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=in-seasonsalmon"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Fisheries and Oceans Canada. 2021. Commercial salmon in-season catch estimates, 2004-2020.Fishery Operations System (FOS), Pacific Biological Station.",
+    "version": "2022-03-23T16:18:25.000Z",
+    "keywords": [
+        "Pacific",
+        "Pacific Ocean",
+        "British Columbia",
+        "Pacific Salmon",
+        "Coho Salmon",
+        "Chinook Salmon",
+        "Sockeye Salmon",
+        "Pink Salmon",
+        "Chum Salmon",
+        "Gill Net",
+        "Seine Net",
+        "Troll",
+        "In-season Estimates",
+        "Commercial Salmon Fishery",
+        "Pacific Fishery Management Areas (PFMA's)",
+        "PFMA",
+        "Logbook",
+        "Catch Reporting",
+        "Fishery Operations System (FOS)",
+        "Fish",
+        "Fisheries",
+        "Fisheries management",
+        "Fisheries resources",
+        "Marine conservation areas",
+        "Resources management",
+        "Scientific information",
+        "Events",
+        "Occurrences",
+        "Extended Measurement Or Fact",
+        "Oncorhynchus"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "",
+            "description": "count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "fishing gear type",
+            "url": "https://www.pac.dfo-mpo.gc.ca/fm-gp/salmon-saumon/comm-gear-engin-eng.html",
+            "description": "fishing gear type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individual count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=in-seasonsalmon",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-135.22474 47.943101,-135.22474 54.638968,-123.252662 54.638968,-123.252662 47.943101,-135.22474 47.943101"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

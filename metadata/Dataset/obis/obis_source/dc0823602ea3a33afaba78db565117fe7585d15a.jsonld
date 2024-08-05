@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/18ca2c17-c652-4cc8-83e3-1345be74f265",
+    "name": "Biogeographic Characterization of Benthic Habitat Communities within the Flower Garden Banks National Marine Sanctuary (2006 - Present)",
+    "description": "This spatially resolved assessment of the bottom types in the Sanctuary will provide the framework necessary to more efficiently characterize and quantify benthic fish communities throughout the Sanctuary and thus provide an important complement to the inventory work conducted to-date.",
+    "url": "https://obis.org/dataset/18ca2c17-c652-4cc8-83e3-1345be74f265",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=noaa_gominv"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=noaa_gominv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-93.8232421875 27.8722400665,-93.8232421875 27.9195594788,-93.5962371826 27.9195594788,-93.5962371826 27.8722400665,-93.8232421875 27.8722400665"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

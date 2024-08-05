@@ -1,0 +1,124 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/09939bb8-6425-4e05-9e54-f55d03f6c762",
+    "name": "Ocean Salmon Program - Barkley Sound Juvenile Salmon Study from 1987 to 1994",
+    "description": "During the period of 1987 to 1994, Robin J. LeBrasseur and N. Brent Hargreaves lead a juvenile salmon predation research project in Alberni Inlet and Barkley Sound BC. This dataset contains the research survey catch data and individual fish examinations data.",
+    "url": "https://obis.org/dataset/09939bb8-6425-4e05-9e54-f55d03f6c762",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=osp_barkley-sound_juvenile-salmon"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Fisheries and Oceans Canada . (2021): Ocean Salmon Program - Barkley Sound Juvenile Salmon Study from 1987 to 1994. v1.4. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=osp_barkley-sound_juvenile-salmon&amp;v=1.4",
+    "version": "2022-03-23T16:25:22.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Juvenile Salmon",
+        "Commercial",
+        "Pacific",
+        "British Columbia",
+        "Barkley Sound",
+        "Fisheries",
+        "Salt water",
+        "fish",
+        "Scientific research",
+        "Migration"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "count of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "count of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "life stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "coded wire tag (CWT)",
+            "url": "",
+            "description": "coded wire tag (CWT)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "bite marks",
+            "url": "",
+            "description": "bite marks"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "preservative use",
+            "url": "",
+            "description": "preservative use"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length (fork length)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FL01XX01/",
+            "description": "Length (fork length)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifeStage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length (total length) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TL01XX01",
+            "description": "Length (total length) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1987/1994",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=osp_barkley-sound_juvenile-salmon",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-125.7623 48.8038,-125.7623 49.2483,-124.79 49.2483,-124.79 48.8038,-125.7623 48.8038"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

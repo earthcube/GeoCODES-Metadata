@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/559e0d2f-0818-4e28-8aa3-c600ea6d4ec7",
+    "name": "Interannual variability of ichthyoplankton diversity in the Patos Lagoon estuary Southern Brazil",
+    "description": "This sub-project aims to study the interannual variability of long term disturbance dynamics of recruitment and of Ichthyoplankton diversity in the estuary of the Patos Lagoon (PLE).",
+    "url": "https://obis.org/dataset/559e0d2f-0818-4e28-8aa3-c600ea6d4ec7",
+    "sameAs": [
+        "https://ipt.sibbr.gov.br/peld/resource?r=interannual_variability_of_ichthyoplankton_diversity_in_the_patos_lagoon_estuary_southern_brazil"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Muelbert J H (2018): Interannual variability of ichthyoplankton diversity in the Patos Lagoon estuary Southern Brazil. v1.12. Sistema de Informação sobre a Biodiversidade Brasileira - SiBBr. Dataset/Samplingevent. https://ipt.sibbr.gov.br/peld/resource?r=interannual_variability_of_ichthyoplankton_diversity_in_the_patos_lagoon_estuary_southern_brazil&amp;v=1.12",
+    "version": "2020-10-22T19:32:45.000Z",
+    "keywords": [
+        "Samplingevent",
+        "fish eggs",
+        "fish larvae",
+        "interannual variability",
+        "environmental disturbances",
+        "recruitment",
+        "estuarine ecology"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMP001/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPP681/",
+            "description": "Water temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/3/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.sibbr.gov.br/peld/archive.do?r=interannual_variability_of_ichthyoplankton_diversity_in_the_patos_lagoon_estuary_southern_brazil",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-52.176 -32.206,-52.176 -31.993,-52.088 -31.993,-52.088 -32.206,-52.176 -32.206"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13853",
+            "@type": "Organization",
+            "legalName": "Federal University of Rio Grande-FURG, Rio Grande",
+            "name": "Federal University of Rio Grande-FURG, Rio Grande",
+            "url": "https://oceanexpert.org/institution/13853"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6b07e4bb-4bfb-4d38-a2f4-db945248f215",
+    "name": "Euphausiids-COPAS Center",
+    "description": "This database covers the spatial and temporal distribution of most euphausiids species dominating the coastal and oceanic areas of Central/southern Chile.",
+    "url": "https://obis.org/dataset/6b07e4bb-4bfb-4d38-a2f4-db945248f215",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=copas_eup1"
+    ],
+    "license": "Unrestricted",
+    "citation": "Escribano, R., Manríquez, K, Riquelme-Bugueño, R. Godoy, F. 2010. Euphausiids from the coastal upwelling zone off Central/southern Chile. Eastern South Pacific Regional Node of OBIS (ESPOBIS)",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=copas_eup1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-93.6999969482 -45,-93.6999969482 -30,-72.8166656494 -30,-72.8166656494 -45,-93.6999969482 -45"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

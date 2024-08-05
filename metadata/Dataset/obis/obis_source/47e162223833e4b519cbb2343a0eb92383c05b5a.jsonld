@@ -1,0 +1,118 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7137155d-f555-449c-9a9b-28af6f17c4a4",
+    "name": "North Atlantic and Arctic Isopoda sampled during the BIOICE project",
+    "description": "The North Atlantic and Arctic Isopoda dataset contains three parts: 1. Distribution records collected from literature; 2. Distribution records of specimens collected by the BIOICE project (Benthic Invertebrates of Icelandic waters 1992-2004); 3. Distribution records of specimens collected by the IceAGE project (Icelandic marine animals: Genetics and Ecology, since 2011).\n\nThis dataset contains distribution data regarding the 2nd group, isopods occurrences sampled during the BIOICE project",
+    "url": "https://obis.org/dataset/7137155d-f555-449c-9a9b-28af6f17c4a4",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=bioice_isopods"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Brix, S.; Malyutina, M; Schnurr, S., Riehl, T.; Kürzel, K.; Stransky, B.; Brökeland W.; Eichsteller A.; Siebert, A.; Svavarsson, J.; (2020). North Atlantic and Arctic Isopoda sampled during the BIOICE project",
+    "version": "2024-02-27T00:12:16.000Z",
+    "keywords": [
+        "Filter feeders",
+        "Marine",
+        "Predators",
+        "Scavengers",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gear",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Gear"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample.volume..liters.",
+            "url": "",
+            "description": "Sample.volume..liters."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lowersievemeshsize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Lowersievemeshsize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Uppersievemeshsize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100008/",
+            "description": "Uppersievemeshsize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Volume.sieved..liters.",
+            "url": "",
+            "description": "Volume.sieved..liters."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom.temp....C.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Bottom.temp....C."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity..ppm.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity..ppm."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Description.of.substrate",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/BDDESC01/",
+            "description": "Description.of.substrate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Smell.of.sulphur..Yes.No.",
+            "url": "",
+            "description": "Smell.of.sulphur..Yes.No."
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=bioice_isopods",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-29.91266721 60.0360804,-29.91266721 69.24950028,-7.917333024 69.24950028,-7.917333024 60.0360804,-29.91266721 60.0360804"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/23199",
+            "@type": "Organization",
+            "legalName": "University of Iceland",
+            "name": "University of Iceland",
+            "url": "https://oceanexpert.org/institution/23199"
+        }
+    ]
+}

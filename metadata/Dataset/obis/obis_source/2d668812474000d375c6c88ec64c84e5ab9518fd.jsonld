@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f17d8dae-4125-4a45-a491-81f8d018e19c",
+    "name": "Museum and Art Gallery of the Northern Territory Ichthyology Collection - Marine records",
+    "description": "The Museum and Art Gallery of the Northern Territory (MAGNT) Ichthyology Collection was established in 1981. It contains over 38,000 databased lots and about 250,000 specimens including 90 holotypes and 500 paratype lots. The collection was founded by a significant donation from NT Fisheries, and has subsequently continued to grow through MAGNT field collecting activities, voucher collections lodged by external researchers (e.g. the Arid Zone and JETINDOFISH collections), museum exchanges and public donations.\nThe collection's emphasis is on the marine, estuarine and freshwater fishes of Northern and Central Australia, Southeast Asia and the Indo-West Pacific. One of the collections strengths is the large and diverse holdings of tropical gobies.\nData downloaded from ALA (http://collections.ala.org.au/public/show/co42), taxa matched to World Register of Marine Species. This dataset excludes non-marine taxa.",
+    "url": "https://obis.org/dataset/f17d8dae-4125-4a45-a491-81f8d018e19c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=magnt_ichthyology"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T01:46:50.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1937/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=magnt_ichthyology",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-177.875 -42.133,-177.875 54.633,178.908 54.633,178.908 -42.133,-177.875 -42.133"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19575",
+            "@type": "Organization",
+            "legalName": "Museum and Art Gallery, Northern Territory",
+            "name": "Museum and Art Gallery, Northern Territory",
+            "url": "https://oceanexpert.org/institution/19575"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

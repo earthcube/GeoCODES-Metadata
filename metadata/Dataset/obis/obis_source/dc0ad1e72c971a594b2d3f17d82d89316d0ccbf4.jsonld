@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ab739816-4077-4067-8f2e-00b9c41f8ddb",
+    "name": "IMR Juvenile fish monitoring",
+    "description": "The dataset contains juvenile fish (postlarvae) from the Barents Sea sampled during June-July 1977-91 (1980-91 in database, 1977-79 on files).",
+    "url": "https://obis.org/dataset/ab739816-4077-4067-8f2e-00b9c41f8ddb",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imr_juveline_fish_monitoring"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bakkeplass, K. (2014). IMR Juvenile fish monitoring. Institute of Marine Research, Norway",
+    "version": "2023-05-23T11:54:50.000Z",
+    "keywords": [
+        "Juveniles",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/1991",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imr_juveline_fish_monitoring",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0.1667 62,0.1667 75.3667,31.2167 75.3667,31.2167 62,0.1667 62"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

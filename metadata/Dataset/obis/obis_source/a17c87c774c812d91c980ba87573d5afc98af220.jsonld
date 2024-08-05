@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3e8a8d84-09c1-475f-a172-c4d69af5d2ca",
+    "name": "DFO Pacific IOS zooplankton database - Zooplankton samples collected during cruises to the Canadian Arctic between 1987 and 2000",
+    "description": "The Fisheries and Oceans Canada, Pacific Region Institute of Ocean Science (IOS) Zooplankton Database is a MS Access Application for data entry, storage, and retrieval of zooplankton and related data. This OBIS resource contains a small subset of species distribution records extracted from the IOS database. \n\n\nThe 'Arctic pre2001' dataset contains records of zooplankton collected during IOS cruises (8770, 9207, 9324, 9470, 9526, 9924, 0022) to the arctic between 1987 to 2000. Some of the samples were collected through the ice using a collapsing  or hinged frame on a modified SCOR net the rest were vertical Bongo net hauls.",
+    "url": "https://obis.org/dataset/3e8a8d84-09c1-475f-a172-c4d69af5d2ca",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_ios_arcticpre2001"
+    ],
+    "license": "rights: http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms  rights holder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "Galbraith, M. (2013) DFO Pacific IOS zooplankton database - Zooplankton collection from Arctic cruises, 1987-2000. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2022-03-30T14:53:03.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfo_ios_arcticpre2001",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.01 48.37,-178.01 90,179.01 90,179.01 48.37,-178.01 48.37"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6741",
+            "@type": "Organization",
+            "legalName": "Institute of Ocean Science (DFO – IOS), Fisheries and Oceans Canada",
+            "name": "Institute of Ocean Science (DFO – IOS), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6741"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c606c47a-3892-4645-9521-630c9085e59f",
+    "name": "Benthic Epifauna Biomass and Abundance Data, Arctic Marine Biodiversity Observing Network (AMBON) research cruise, August 2017",
+    "description": "Marine biodiversity is a key component of ocean health. Monitoring and understanding marine biodiversity is essential for our ability to forecast and respond to changes. The goal of the Arctic Marine Biodiversity Observing Network (AMBON) project is to demonstrate and build an operational marine biodiversity observing network from microbes to whales, integrating diversity levels from genetic to organismal. AMBON field region is located on the Chukchi Sea continental shelf in the US Arctic as a region exposed to climatic changes and anthropogenic influences. This dataset contains biomass and abundance data collected in the Chukchi Sea during the August 2017 Arctic Marine Biodiversity Observing Network (AMBON) research cruise. Epifauna samples were collected using beam trawl during a research cruise during August 2017 in the Chukchi Sea, U.S. Arctic. The data consist of biomass per taxon of epibenthic invertebrates. The dataset is a comma separated values file exported from a Microsoft Excel spreadsheet. This dataset was transformed from the native format into a table structure using Darwin Core term names as column names.",
+    "url": "https://obis.org/dataset/c606c47a-3892-4645-9521-630c9085e59f",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=ambon_epifauna_2017"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2023-01-18T17:35:08.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "count_per_1000m2",
+            "url": "",
+            "description": "count_per_1000m2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight_g_per_1000m2",
+            "url": "",
+            "description": "weight_g_per_1000m2"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=ambon_epifauna_2017",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-168.9543 67.66753,-168.9543 72.49645,-159.4053 72.49645,-159.4053 67.66753,-168.9543 67.66753"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18955",
+            "@type": "Organization",
+            "legalName": "Axiom Data Science",
+            "name": "Axiom Data Science",
+            "url": "https://oceanexpert.org/institution/18955"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20908",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks",
+            "name": "University of Alaska Fairbanks",
+            "url": "https://oceanexpert.org/institution/20908"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23070",
+            "@type": "Organization",
+            "legalName": "United States Marine Biodiversity Observation Network",
+            "name": "United States Marine Biodiversity Observation Network",
+            "url": "https://oceanexpert.org/institution/23070"
+        }
+    ]
+}

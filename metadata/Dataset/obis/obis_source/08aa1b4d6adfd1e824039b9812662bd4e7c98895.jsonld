@@ -1,0 +1,76 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6833b887-45e1-463e-9817-838afc6155ca",
+    "name": "West River, Sheet Harbour, Brook Trout",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Ocean Tracking Network (OTN)  West River, Sheet Harbour, Brook Trout, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=ABC).\nAbstract:This project examined the estuarine migration, behaviour, habitat use and general ecology of brook charr while in estuarine and coastal habitats. This was a two year project (2009 &amp; 2010) and ran concurrent to the West River Sheet Harbour Atlantic Salmon smolt tracking project (WRS).",
+    "url": "https://obis.org/dataset/6833b887-45e1-463e-9817-838afc6155ca",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnnsfisherieswestrivers"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Halfyard, E.A., MacMillan, J. 2009. Assessing estuarine ecology of anadromous brook charr in the West River, Sheet Harbour.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T16:09:14.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnnsfisherieswestrivers",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-62.61062 44.84825,-62.61062 45.63324,-61.95128 45.63324,-61.95128 44.84825,-62.61062 44.84825"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

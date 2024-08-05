@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/af201b38-f32e-4213-a901-fe16c5423a2a",
+    "name": "Offshore ref. stations, North/Norwegian sea",
+    "description": "The original dataset objective is the sampling of reference stations for large-scale annual surveys of petroleum installations.",
+    "url": "https://obis.org/dataset/af201b38-f32e-4213-a901-fe16c5423a2a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=largenet_o6"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "The Norwegian Oil Industry Association, 2001: Offshore reference stations, North/Norwegian sea.  The Norwegian Oil Industry Association (OLF), Akvaplan-niva and Det Norske Veritas, Norway",
+    "version": "2024-02-26T23:11:22.000Z",
+    "keywords": [
+        "Benthos",
+        "Macrobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=largenet_o6",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.485 56.0419018,2.485 57.8653857,4.5217288 57.8653857,4.5217288 56.0419018,2.485 56.0419018"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19588",
+            "@type": "Organization",
+            "legalName": "High North Research Centre for Climate and the Environment",
+            "name": "High North Research Centre for Climate and the Environment",
+            "url": "https://oceanexpert.org/institution/19588"
+        }
+    ]
+}

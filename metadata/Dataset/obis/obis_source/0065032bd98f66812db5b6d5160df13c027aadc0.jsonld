@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a9818622-ac1a-4690-a26f-7e57f387bf5c",
+    "name": "Cetacean sightings of PELACUS surveys: Continental shelf of Galicia and Bay of Biscay - Database of the Spanish Institute of Oceanography (IEO-CSIC)",
+    "description": "<p>This dataset provides access to cetacean sighting records collected throughout the historical series of PELACUS surveys, from 2007 to 2022.</p><p>The PELACUS survey is an annual survey for the evaluation of fishing resources organized by the Spanish Institute of Oceanography (IEO-CSIC) that has incorporated top predators’ (marine mammals, birds and turtles) observers since 2007. The spatial coverage of this survey covers the continental shelf waters in the north and northwest of the Iberian Peninsula, comprising Spanish waters found between the coast and the 1000 meters isobath, from the northern border with Portugal, at the mouth of the Miño River, to the border with France in the Bay of Biscay. This survey has carried out additional transects in some of its editions, sampling on the continental shelf of northern Portugal, as well as the French slope in the Bay of Biscay. Data on sightings in these areas are included.</p><p>&nbsp;</p>",
+    "url": "https://obis.org/dataset/a9818622-ac1a-4690-a26f-7e57f387bf5c",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=pelacus_cetacean"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Álvarez-González M, Vázquez J A, Saavedra C (2023). Cetacean sightings of PELACUS surveys: Continental shelf of Galicia and Bay of Biscay - Database of the Spanish Institute of Oceanography (IEO-CSIC).",
+    "version": "2024-02-27T00:07:22.000Z",
+    "keywords": [
+        "Cetacea",
+        "Spain",
+        "Continental shelf",
+        "Continental shelf",
+        "Spain",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pelacus_cetacean",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-9.675483333 41.1999484,-9.675483333 48.2052,-1.664 48.2052,-1.664 41.1999484,-9.675483333 41.1999484"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18010",
+            "@type": "Organization",
+            "legalName": "Instituto Español de Oceanografía",
+            "name": "Instituto Español de Oceanografía",
+            "url": "https://oceanexpert.org/institution/18010"
+        }
+    ]
+}

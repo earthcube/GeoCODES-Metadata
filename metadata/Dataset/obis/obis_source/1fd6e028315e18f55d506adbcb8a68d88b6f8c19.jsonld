@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/848027ba-3900-4ebd-b7d8-4c71e0cdf0ba",
+    "name": "Biodiversidad íctica de Providencia durante la Expedición Seaflower 2019 - Proyecto Colombia BIO",
+    "description": "En el marco de las expediciones científicas a la Reserva Seaflower, en el año 2019 se realizaron salidas de campo dirigidas al ecosistema de manglar en la laguna del Parque Nacional Natural McBean Lagoon y los arrecifes coralinos adyacentes. En total se realizaron 10 días de muestreo efectivo en campo, 2 para el parque y 8 para los arrecifes adyacentes.E valuando un total de 23 estaciones.\n\nSe registraron un total de 242 especies de peces, la mayoria de registros fueron identificados visualmente a nivel de especie.",
+    "url": "https://obis.org/dataset/848027ba-3900-4ebd-b7d8-4c71e0cdf0ba",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=peces_unal_seaflower",
+        "https://doi.org/10.15472/oee2kl"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Rivas Escobar N, Tavera J J, Puentes A, Acero Pizarro A (2021): Biodiversidad íctica de Providencia durante la Expedición Seaflower 2019 - Proyecto Colombia BIO. v1.1. Universidad Nacional de Colombia. Dataset/Occurrence. https://doi.org/10.15472/oee2kl",
+    "version": "2021-07-15T16:44:23.000Z",
+    "keywords": [
+        "Ictiofauna",
+        "Providencia",
+        "Santa Catalina",
+        "Expedición Seaflower",
+        "SIB_MARINO",
+        "SEAFLOWER",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/oee2kl",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/oee2kl",
+        "url": "https://doi.org/10.15472/oee2kl"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=peces_unal_seaflower",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.4236 13.322,-81.4236 13.521,-81.3064 13.521,-81.3064 13.322,-81.4236 13.322"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18879",
+            "@type": "Organization",
+            "legalName": "Universidad del Valle",
+            "name": "Universidad del Valle",
+            "url": "https://oceanexpert.org/institution/18879"
+        }
+    ]
+}

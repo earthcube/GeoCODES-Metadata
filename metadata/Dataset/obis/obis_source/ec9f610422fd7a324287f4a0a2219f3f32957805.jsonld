@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0144c394-a96e-48dc-a9eb-ab418e6bffcf",
+    "name": "White shark (Carcharodon carcharias) tagging along eastern Australia (2007-2017)",
+    "description": "White sharks were tagged at 10 locations in eastern Australia between October 2007 and November2017. Satellite-linked radio tags (hereafter referred to as tags) were attached to their first dorsal fin. Two models of tags were used: Wildlife Computers© SPOT and SPLASH tags. This dataset only describes the deployments of tags on 33 males and 44 females.",
+    "url": "https://obis.org/dataset/0144c394-a96e-48dc-a9eb-ab418e6bffcf",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=white_shark_tagging"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Lee, Kate &amp; Butcher, Paul &amp; Harcourt, Rob &amp; Patterson, Toby &amp; Peddemors, Victor &amp; Roughan, Moninya &amp; Harasti, David &amp; Smoothey, Amy &amp; Bradford, Russell. (2020). Oceanographic conditions associated with white shark (Carcharodon carcharias) habitat use along eastern Australia. Marine Ecology Progress Series. 659.",
+    "version": "2023-05-11T05:30:27.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Total length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "Total length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=white_shark_tagging",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "152.2403 -32.6915,152.2403 -28.7184,153.6246 -28.7184,153.6246 -32.6915,152.2403 -32.6915"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

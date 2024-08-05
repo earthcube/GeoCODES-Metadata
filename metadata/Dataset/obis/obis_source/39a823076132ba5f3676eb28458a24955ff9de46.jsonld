@@ -1,0 +1,84 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d19d6c41-ab39-467e-871c-472ae67bbd57",
+    "name": "Zooplankton biomass and abundance in Estonian territorial waters 1993-2016",
+    "description": "Zooplankton dataset contains data on the species composition, biomass and abundance of meso- and merozooplankton groups. The data are gathered during the Estonian national monitoring of coastal and open seain the Baltic Sea. Samples are collected vertically from three horizons 1) near-bottom to upper halocline layer, 2) halocline top layer to termocline top layer 3) termocline top layer to surface in accordance with the Manual for Marine Monitoring in the COMBINE programme of HELCOM. The samples are analysed using microscopy. Biomass and abundance records are provided for such groups like Rotatoria, Copepoda, Cladocera etc.",
+    "url": "https://obis.org/dataset/d19d6c41-ab39-467e-871c-472ae67bbd57",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zooplankton_data_estonian_territorial_waters_1993-2016"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Estonian Marine Institute, University of Tartu (2019): Zooplankton biomass and abundance in Estonian territorial waters 1994-2016",
+    "version": "2024-02-27T00:07:21.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling device",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling device"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "arvukus",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "arvukus"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Lifestage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zooplankton_data_estonian_territorial_waters_1993-2016",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "20.533334 57.616668,20.533334 59.916667,27.976441 59.916667,27.976441 57.616668,20.533334 57.616668"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6094",
+            "@type": "Organization",
+            "legalName": "University of Tartu, Estonian Marine Institute",
+            "name": "University of Tartu, Estonian Marine Institute",
+            "url": "https://oceanexpert.org/institution/6094"
+        }
+    ]
+}

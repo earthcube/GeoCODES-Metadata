@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c07711f4-a3db-4868-8382-b27407bf9b64",
+    "name": "On the Radiata of the Eastern Mediterranean. Part I. Ophiuridae, by Edward Forbes",
+    "description": "This is a historical dataset by Edward Forbes regarding species of the family Ophiuridae from the Eastern Mediterranean Sea within the years 1841 and 1843. Species occurrence data is provided while temporal and spatial data is not provided for every record.",
+    "url": "https://obis.org/dataset/c07711f4-a3db-4868-8382-b27407bf9b64",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=forbes_ophiuridae"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Zachariou P, Sarafidou G, Gerovasileiou V (2023): On the Radiata of the Eastern Mediterranean. Part I. Ophiuridae, by Edward Forbes. v1.2. Hellenic Center for Marine Research. Dataset/Samplingevent. http://ipt.medobis.eu/resource?r=forbes_ophiuridae&amp;v=1.2",
+    "version": "2023-01-31T11:16:58.000Z",
+    "keywords": [
+        "Ophiuridae",
+        "Eastern Mediterranean",
+        "historical dataset"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length (total length) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TL01XX01/",
+            "description": "Length (total length) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1842/1842",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=forbes_ophiuridae",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "25.1369 36.2162,25.1369 40.400379,26.84343 40.400379,26.84343 36.2162,25.1369 36.2162"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

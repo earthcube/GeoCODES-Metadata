@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ed62786d-6530-43ad-8dd3-a63527bc5d43",
+    "name": "Invertebrates compiled by W.Block",
+    "description": "Observations taken from literature cited by W.Block. Data includes 800 species, 220 references and 3000 observations. There are some marine species that are listed in SCAR-MarBIN Register of Antarctic Marine Species (RAMS).",
+    "url": "https://obis.org/dataset/ed62786d-6530-43ad-8dd3-a63527bc5d43",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=wblock_invertebrate"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre (2018). Invertebrates compiled by W.Block.",
+    "version": "2021-05-12T04:24:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1903/1988",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=wblock_invertebrate",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-176 -85.2167,-176 62,172.5 62,172.5 -85.2167,-176 -85.2167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/5163",
+            "@type": "Organization",
+            "legalName": "British Antarctic Survey",
+            "name": "British Antarctic Survey",
+            "url": "https://oceanexpert.org/institution/5163"
+        }
+    ]
+}

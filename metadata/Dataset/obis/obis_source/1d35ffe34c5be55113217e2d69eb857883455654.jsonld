@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/42d933bd-8c8d-464c-b827-d04e9031ed92",
+    "name": "Macrobenthos monitoring in function of the Water Framework Directive in the period 2007-2009",
+    "description": "Macrobenthos monitoring in function of the Water Framework Directive",
+    "url": "https://obis.org/dataset/42d933bd-8c8d-464c-b827-d04e9031ed92",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macro_wfd",
+        "https://dx.doi.org/10.14284/52"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bio-environmental research group; Institute of Agricultural and Fisheries research (ILVO), Belgium; (2015): Macrobenthos monitoring in function of the Water Framework Directive in the period 2007-2009 https://dx.doi.org/10.14284/52",
+    "version": "2023-05-23T11:40:32.000Z",
+    "keywords": [
+        "Indicators",
+        "Macrobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2008",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/52",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/52",
+        "url": "https://dx.doi.org/10.14284/52"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macro_wfd",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.554 51.104,2.554 51.3800010681152,3.34999990463257 51.3800010681152,3.34999990463257 51.104,2.554 51.104"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19366",
+            "@type": "Organization",
+            "legalName": "Vlaamse overheid; Beleidsdomein Landbouw en Visserij; Instituut voor landbouw- , visserij en voedingsonderzoek; Kenniseenheid: Dier; Aquatisch Milieu en Kwaliteit",
+            "name": "Vlaamse overheid; Beleidsdomein Landbouw en Visserij; Instituut voor landbouw- , visserij en voedingsonderzoek; Kenniseenheid: Dier; Aquatisch Milieu en Kwaliteit",
+            "url": "https://oceanexpert.org/institution/19366"
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/42fbe736-2c09-45e3-a48c-5370c999f389",
+    "name": "1743-2010 National Marine Aquarium (NMA) United Kingdom Marine Fish Recording Scheme",
+    "description": "Records of rare fish sightings and catches submitted to the National Marine Aquarium, Plymouth.",
+    "url": "https://obis.org/dataset/42fbe736-2c09-45e3-a48c-5370c999f389",
+    "sameAs": [
+        "https://www.dassh.ac.uk/ipt/resource?r=dasshdt00000002",
+        "https://doi.org/10.17031/2x2hau"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "National Marine Aquarium, Plymouth (2018): 1743-2010 National Marine Aquarium (NMA) United Kingdom Marine Fish Recording Scheme. v3.0. Marine Biological Association. Dataset/Samplingevent. https://doi.org/10.17031/2x2hau",
+    "version": "2019-10-16T09:59:28.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "locationname",
+            "url": "",
+            "description": "locationname"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "recorder",
+            "url": "",
+            "description": "recorder"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "locationdescription",
+            "url": "",
+            "description": "locationdescription"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplenotes",
+            "url": "",
+            "description": "samplenotes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalsamplelatitude",
+            "url": "",
+            "description": "originalsamplelatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "transcriptionchecks",
+            "url": "",
+            "description": "transcriptionchecks"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalsamplelongitude",
+            "url": "",
+            "description": "originalsamplelongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "validationdate",
+            "url": "",
+            "description": "validationdate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "",
+            "description": "length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1743/2010",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/2x2hau",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/2x2hau",
+        "url": "https://doi.org/10.17031/2x2hau"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.dassh.ac.uk/ipt/archive.do?r=dasshdt00000002",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-16.866666666667 32.735413,-16.866666666667 68.911606,15.071944 68.911606,15.071944 32.735413,-16.866666666667 32.735413"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

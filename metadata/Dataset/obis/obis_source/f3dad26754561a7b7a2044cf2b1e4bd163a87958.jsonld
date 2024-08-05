@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ce753762-62fc-4664-88b5-43c8e917e4ba",
+    "name": "Inventory of phytoplankton taxa on the Togolese coast",
+    "description": "Inventory of the phytoplankton taxa on the Togolese coast from the Centre de gestion intégrée du littoral et de l'environnement (CGILE) et le Centre national de données Océanographiques CNDO) du TOGO.",
+    "url": "https://obis.org/dataset/ce753762-62fc-4664-88b5-43c8e917e4ba",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=togo_phytoplankton"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Edorh T, Lawson L. (2014). Marine phytoplankton diversity in Togo. Laboratory of Palynology &amp; Algology (FDS-UL) and CGILE.",
+    "version": "2020-12-02T14:08:28.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=togo_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.20638 4.64182752,1.20638 6.22651,1.82766365 6.22651,1.82766365 4.64182752,1.20638 4.64182752"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10355",
+            "@type": "Organization",
+            "legalName": "Université de Lomé, Centre De Gestion Integrée du Littoral et de Environnement",
+            "name": "Université de Lomé, Centre De Gestion Integrée du Littoral et de Environnement",
+            "url": "https://oceanexpert.org/institution/10355"
+        }
+    ]
+}

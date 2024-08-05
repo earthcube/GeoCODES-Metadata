@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/30b8ae20-47fd-44a8-9f61-c9b066154ec8",
+    "name": "Data from the 1935-1936 cruises of the Belgian training ship Mercator 3 Pisces collection",
+    "description": "Data from the cruises of the Belgian training ship Mercator, 3: Pisces collection. The data were digitized by the Flanders Marine Institute using the citizen science platform DoeDat, and transformed according to the standards of the DwC Event core format.",
+    "url": "https://obis.org/dataset/30b8ae20-47fd-44a8-9f61-c9b066154ec8",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=mercator-expedition-pisces"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Delsman H. C. Musée Royal d'Histoire Naturelle de Belgique; (2022). Data from the 1935-1936 cruises of the Belgian training ship Mercator 3 Pisces collection.",
+    "version": "2024-02-27T00:19:03.000Z",
+    "keywords": [
+        "Citizen participation",
+        "Historical records",
+        "surface vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "breadth",
+            "url": "",
+            "description": "breadth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1935/1936",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mercator-expedition-pisces",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-82.87 -3.11,-82.87 32.27,-13.712 32.27,-13.712 -3.11,-82.87 -3.11"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

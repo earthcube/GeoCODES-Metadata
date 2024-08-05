@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/db99b405-1b51-432b-86b6-cc77465d08c5",
+    "name": "Cetacean sightings in the Black Sea, Sea of Azov and Kerch Strait",
+    "description": "Over 645 sightings of cetacean groups (of one and more individuals) have been recorded in the Black Sea, Azov Sea and Kerch Strait during the period from 1993 to 2010 inclusive.",
+    "url": "https://obis.org/dataset/db99b405-1b51-432b-86b6-cc77465d08c5",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=birkun_cetacea_sighting"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cetacean sightings in the Black Sea, Sea of Azov and Kerch Strait (CetSiBS). 2011. Dataset assembled by A.Birkun, Jr. and S.Krivokhizhin. EMODNet.",
+    "version": "2023-05-23T12:23:55.000Z",
+    "keywords": [
+        "Marine mammals",
+        "surface vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualcount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=birkun_cetacea_sighting",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "30.2 41.53,30.2 46.58,41.75 46.58,41.75 41.53,30.2 41.53"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19454",
+            "@type": "Organization",
+            "legalName": "Brema Laboratory",
+            "name": "Brema Laboratory",
+            "url": "https://oceanexpert.org/institution/19454"
+        }
+    ]
+}

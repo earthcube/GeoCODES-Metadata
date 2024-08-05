@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9818d42f-87ed-4bea-95bf-dac9226f3748",
+    "name": "TOPP northern elephant seal (Mirounga angustirostris) ARGOS satellite tracking",
+    "description": "Data collected from adult female seals at Año Nuevo state reserve in California, USA. This dataset is part of an ongoing research project at the University of California, Santa Cruz.",
+    "url": "https://obis.org/dataset/9818d42f-87ed-4bea-95bf-dac9226f3748",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=topp_eseal"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=topp_eseal",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179 25,-179 59,179.5 59,179.5 25,-179 25"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17545",
+            "@type": "Organization",
+            "legalName": "Univserity of California, Santa Cruz",
+            "name": "Univserity of California, Santa Cruz",
+            "url": "https://oceanexpert.org/institution/17545"
+        }
+    ]
+}

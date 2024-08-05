@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f41e98f0-f234-4888-b54e-b25abfb61ae4",
+    "name": "Arctic Marine Fish Museum Specimens",
+    "description": "This data set contains 3,102 records: the results of an evaluation of Arctic marine fish specimens in museums and other permanent collections",
+    "url": "https://obis.org/dataset/f41e98f0-f234-4888-b54e-b25abfb61ae4",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=arc_2007f1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Mecklenburg, C. W., T. A. Mecklenburg, B. A. Sheiko, and N. V. Chernova. 4 July 2006. Arctic marine fish museum specimens. Database submitted to ArcOD, Institute of Marine Science, University of Alaska Fairbanks",
+    "version": "2019-08-26T14:16:44.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=arc_2007f1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 36.1800003052,-180 88.4300003052,180 88.4300003052,180 36.1800003052,-180 36.1800003052"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19280",
+            "@type": "Organization",
+            "legalName": "California Academy of Sciences - Department of Ichthyology",
+            "name": "California Academy of Sciences - Department of Ichthyology",
+            "url": "https://oceanexpert.org/institution/19280"
+        }
+    ]
+}

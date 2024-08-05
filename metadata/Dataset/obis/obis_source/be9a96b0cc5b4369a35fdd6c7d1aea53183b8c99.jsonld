@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ea4f836-9e28-4542-ac4a-af10630fbb7a",
+    "name": "CRED REA Algal Quadrate Images in the Pacific Ocean 2002-2008",
+    "description": "CRED is studying tropical reef algae to address the following questions: (1) What is the best way to quantify algal functional groups (macroalgae, crustose coralline algae, turf algae) in tropical reef settings? (2) What species are present in each island ecosystem and in what quantity? (3) Do changes in algal populations serve as a good environmental indicator of reef heath? (4) How do algal diversity and abundance change over time? (5) Can biogeographical hypotheses be formulated about algal dispersal and evolution using qualitative and quantitative data from island groups around the Pacific? A modified Rapid Ecological Assessment technique that incorporates the use of digital cameras and photoquadrats is our primary field method.",
+    "url": "https://obis.org/dataset/5ea4f836-9e28-4542-ac4a-af10630fbb7a",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=cred_benthic_algae_photoquad"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Coral Reef Ecosystem Division (CRED), Pacific Island Fisheries Sciences Center, NOAA National Marine Fisheries Service. 2011. CRED REA Algal Quadrate Images in the Pacific Ocean 2002-2008. Coral Reef Ecosystem Division, Honolulu, HI.Retrieved from http://www.usgs.gov/obis-usa/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=cred_benthic_algae_photoquad",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.378433228 -14.5593166351,-178.378433228 28.4536495209,166.657363892 28.4536495209,166.657363892 -14.5593166351,-178.378433228 -14.5593166351"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        }
+    ]
+}

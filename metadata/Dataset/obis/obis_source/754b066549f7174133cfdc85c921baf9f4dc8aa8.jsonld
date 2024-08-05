@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/01e33461-4719-4e9b-8b3f-8162a04707b0",
+    "name": "Phytoplankton data of Sevastopol Bay of the Black Sea during 1972",
+    "description": "Phytoplankton data collected by the IBSS staff in Sevastopol Bay, Black Sea during 1972. This dataset contains abundance data (individuals per liter) and biomass (mg/m³) for phytoplankton taxa. Also size records are given for most of them. No additional metadata is available.",
+    "url": "https://obis.org/dataset/01e33461-4719-4e9b-8b3f-8162a04707b0",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phyto_black_sea_1972"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Phytoplankton data of Sevastopol Bay of the Black Sea, 1972.  Institute of Biology of the Southern Seas of the National Academy of Sciences of Ukraine.",
+    "version": "2024-02-26T23:48:00.000Z",
+    "keywords": [
+        "Digitization",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "individualcount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "",
+            "description": "biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CellSize",
+            "url": "",
+            "description": "CellSize"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1972/1972",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phyto_black_sea_1972",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

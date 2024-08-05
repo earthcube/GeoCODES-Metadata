@@ -1,0 +1,102 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9ff05ce0-80c9-4517-908e-8b16800f0e7c",
+    "name": "Bathynomus giganteus de la Colección de Crustáceos del Museo de Historia Natural Marina de Colombia - Makuriwa",
+    "description": "El Museo de Historia Natural Marina de Colombia (MHNMC) alberga la colección más importante de crustáceos marinos del país. Los ejemplares se han recolectado como producto de múltiples proyectos desarrollados tanto por el INVEMAR, como por investigadores externos y otras entidades. La recolección se ha hecho por medio de técnicas como el arrastre bentónico, uso de nasas y trampas. Uno de los crustáceos que hacen parte de la colección es el isópodo gigante Bathynomus giganteus. Este organismo se encuentra en las aguas profundas del Atlántico tropical, incluyendo el Golfo de México, el Caribe y el Océano Índico (Shih 1972). Se desarrolla en áreas que oscilan entre los 300 y los 2000 m de profundidad (Obis 2021) y tiene una alimentación oportunista, centrada principalmente en carroña (Shih 1972). Se pueden identificar varios estadios de desarrollo en B. giganteus. El primer estadio, conocido como manca, se caracteriza por la falta de desarrollo del séptimo par de patas, en los individuos jóvenes, el séptimo par de patas está presente pero aún es pequeño, mientras que en los adultos se ha desarrollado por completo (Barradas-Ortiz, 2003). Las mancas de B. giganteus no pueden ser sexadas. En algunos casos, es posible identificar el sexo de los juveniles, y en los adultos, se distingue al macho por la presencia de penes en el esternito del séptimo pereionito, mientras que en la hembra se observan oosteguitos en la base de los pereiópodos I a V (Barradas-Ortiz, 2003). En otras especies de isópodos gigantes se ha reportado el consumo de macroalgas, estas últimas, son organismos clave en el secuestro del carbono en océanos. De ahí que, se espera que B. gigantes también cumpla este rol y por lo tanto resulta de interés para este proyecto. \n\nLos individuos de B. giganteus que reposan en la Colección de Crustáceos del MHNMC fueron recolectados en el Mar Caribe colombiano entre 2008-06-06 y 2019-01-11 y se encuentran almacenados en lotes que pueden contener uno o más individuos. El material fue consultado entre 2022-07-25 y 2022-08-03 para realizar el registro de medidas morfológicas a los ejemplares. El presente recurso contiene una extensión de datos que detalla las medidas de longitud, peso, sexo y estadío de desarrollo de 308 individuos pertenecientes a 46 lotes de la especie B. giganteus conservados dicha colección biológica.",
+    "url": "https://obis.org/dataset/9ff05ce0-80c9-4517-908e-8b16800f0e7c",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=bathynomus_giganteus-mhnmc",
+        "https://doi.org/10.15472/yabp1s"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Pardo-Castro L J, Muñoz P D, Panche A L, Dueñas L F, Montoya-Cadavid E (2023): Bathynomus giganteus de la Colección de Crustáceos del Museo de Historia Natural Marina de Colombia - Makuriwa. v1.1. Universidad Nacional de Colombia. Dataset/Occurrence. https://doi.org/10.15472/yabp1s",
+    "version": "2023-09-22T16:04:50.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "MeasurementOrFacts",
+        "Bathynomus giganteus",
+        "Caribe colombiano",
+        "Crustáceos",
+        "Medidas",
+        "Sexo",
+        "Estadio",
+        "Longitud",
+        "Peso",
+        "Animalia",
+        "Arthropoda",
+        "Malacostraca",
+        "Eumalacostraca",
+        "Cirolanidae",
+        "Bathynomus"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Estadio",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Estadio"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Longitud total",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TL01XX01/",
+            "description": "Longitud total"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Peso húmedo",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600088/",
+            "description": "Peso húmedo"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sexo",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/3/",
+            "description": "Sexo"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/yabp1s",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/yabp1s",
+        "url": "https://doi.org/10.15472/yabp1s"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=bathynomus_giganteus-mhnmc",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-77.14488 9.10161,-77.14488 12.83847,-71.58293 12.83847,-71.58293 9.10161,-77.14488 9.10161"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6795",
+            "@type": "Organization",
+            "legalName": "Instituto de Investigaciones Marinas y Costeras José Benito Vives de Andreis",
+            "name": "Instituto de Investigaciones Marinas y Costeras José Benito Vives de Andreis",
+            "url": "https://oceanexpert.org/institution/6795"
+        }
+    ]
+}

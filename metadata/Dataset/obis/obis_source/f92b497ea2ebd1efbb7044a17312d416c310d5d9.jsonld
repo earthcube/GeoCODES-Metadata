@@ -1,0 +1,92 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8c57c625-6098-4aa2-802a-c8b704c9f171",
+    "name": "Biometric measurements of the seagrass Zostera marina in the Mira channel of the Ria de Aveiro from December 2019 to August 2020",
+    "description": "Biometric measurements of four colonizing Zostera marina patches in the Mira channel of the Ria de Aveiro from December 2019 to August 2020\nDescription Biometric measurements of four colonizing Zostera marina patches (shoot density, seagrass coverage, leaf width, number of leaves per shoot and leaf surface area) were taken in the Mira channel of the Ria de Aveiro from December 2019 to August 2020. The seagrass coverage was measured in each patch by recording species presence using a metal frame of 50 × 50 cm divided into 25 sub-quadrats of 10 × 10 cm (n= 4). Shoot density was calcu lated by counting the number of vertical rhizomes of each patch into 4 sub-quadrants per each quadrant of 50 × 50 cm (n=4). Then, shoot density per square meter was calculated. Four shoots per quadrant were selected to measure leaf length, leaf width and the number of leaves per shoot and to calculate leaves per shoot and leaf surface area. Seagrass measurements were always done during low tide periods.",
+    "url": "https://obis.org/dataset/8c57c625-6098-4aa2-802a-c8b704c9f171",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zostera_marina_aveiro",
+        "https://dx.doi.org/10.14284/555"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Guerrero-Meseguer L.; Rubal M. Interdisciplinary Centre of Marine and Environmental Research (CIIMAR). Portugal; (2021): Biometric measurements of the seagrass Zostera marina in the Mira channel of the Ria de Aveiro from December 2019 to August 2020. https://dx.doi.org/10.14284/555",
+    "version": "2023-12-08T17:23:02.000Z",
+    "keywords": [
+        "Biometrics",
+        "Seagrass",
+        "Portugal",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Leaf surface area",
+            "url": "",
+            "description": "Leaf surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Leaf width",
+            "url": "",
+            "description": "Leaf width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Leaves per shoot",
+            "url": "",
+            "description": "Leaves per shoot"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Seagrass coverage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "Seagrass coverage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Shoot density",
+            "url": "",
+            "description": "Shoot density"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2020",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/555",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/555",
+        "url": "https://dx.doi.org/10.14284/555"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zostera_marina_aveiro",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-8.73964 40.61773,-8.73964 40.61899,-8.73902 40.61899,-8.73902 40.61773,-8.73964 40.61773"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

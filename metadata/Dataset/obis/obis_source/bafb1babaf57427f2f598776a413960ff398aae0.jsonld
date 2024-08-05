@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0c9db499-759b-46d8-8989-799f9ff9f235",
+    "name": "Auckland Museum NZ Marine Collection",
+    "description": "The Auckland Museum Maine Collection - NZ Specimens Only",
+    "url": "https://obis.org/dataset/0c9db499-759b-46d8-8989-799f9ff9f235",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=auckland_museum_marine"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Blom W, Moriarty A (2018). Auckland Museum NZ Marine Collection. Version 1.11. Auckland War Memorial Museum. Occurrence Dataset https://doi.org/10.15468/plyefd accessed via GBIF.org on 2018-01-15.",
+    "version": "2018-08-08T20:59:53.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1887/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=auckland_museum_marine",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.878333 -54.620812,-179.878333 -29.216667,180 -29.216667,180 -54.620812,-179.878333 -54.620812"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19272",
+            "@type": "Organization",
+            "legalName": "Auckland War Memorial Museum",
+            "name": "Auckland War Memorial Museum",
+            "url": "https://oceanexpert.org/institution/19272"
+        }
+    ]
+}

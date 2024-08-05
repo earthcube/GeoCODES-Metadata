@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7949d5c3-15f9-4380-ac9f-29d01a4842ce",
+    "name": "Long-term Ecological Monitoring Research Brazilian Oceanic Islands (reef fish)",
+    "description": "PELD-ILOC (Long Term Ecological Research of Brazilians Oceanic Islands) is a network of Brazilian scientists from several universities and organizations engaged in long-term ecological research of marine biodiversity on the four Brazilian oceanic islands. The network unites researchers to monitoring the marine wildlife all around the St. Peter and St. Paul’s Archipelago, Fernando de Noronha Archipelago, Rocas Atoll and Trindade Island and Martin Vaz Archipelago since 2013. Gaining these long-term knowledge, PELD-ILOC plays a fundamental role in understanding oceanic islands ecosystems and thereby provide the prerequisites for knowledge-based solutions to many current and future environmental problems. The goal of the PELD-ILOC is to provide long-term research to the scientific community, policymakers, and society with the knowledge and predictive understanding necessary to conserve, protect, and manage the Brazilian oceanic islands ecosystems, their biodiversity, and the services they provide.\nThis dataset compiles data from 2006 to 2019 gathered from all four islands at different depths and sites and is related to reef fish (Actinopterygii) species occurrence, size and abundance.",
+    "url": "https://obis.org/dataset/7949d5c3-15f9-4380-ac9f-29d01a4842ce",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=peld_ilhas-oceanicas_peixes",
+        "http://doi.org/10.25607/rov4or"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cordeiro C M M, Quimbayo J P, Silveira T, Ferreira C E L (2021): Long-term Ecological Monitoring Research Brazilian Oceanic Islands (reef fish). v1.0. Tropical and Subtropical Western South Atlantic OBIS. Dataset/Samplingevent. http://doi.org/10.25607/rov4or",
+    "version": "2022-02-02T18:56:20.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2019",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/rov4or",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/rov4or",
+        "url": "http://doi.org/10.25607/rov4or"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=peld_ilhas-oceanicas_peixes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-33.820619 -20.52876,-33.820619 0.97447,-14.332353 0.97447,-14.332353 -20.52876,-33.820619 -20.52876"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7785",
+            "@type": "Organization",
+            "legalName": "Universidade Federal de Santa Catarina",
+            "name": "Universidade Federal de Santa Catarina",
+            "url": "https://oceanexpert.org/institution/7785"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/22463",
+            "@type": "Organization",
+            "legalName": "Universidade Estadual do Norte Fluminense Darcy Ribeiro",
+            "name": "Universidade Estadual do Norte Fluminense Darcy Ribeiro",
+            "url": "https://oceanexpert.org/institution/22463"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/22585",
+            "@type": "Organization",
+            "legalName": "Universidade Federal de São Paulo, Campus Sao Paolo",
+            "name": "Universidade Federal de São Paulo, Campus Sao Paolo",
+            "url": "https://oceanexpert.org/institution/22585"
+        }
+    ]
+}

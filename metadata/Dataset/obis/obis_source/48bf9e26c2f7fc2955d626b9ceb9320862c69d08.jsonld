@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2ea246a7-cd94-4c51-9a30-65d0036a660a",
+    "name": "Marine Life Survey Data (collected by volunteers) collated by MarLIN",
+    "description": "Collection of marine life surveys collated by the Marine Life Information Network (MarLIN) as part of their data access program.",
+    "url": "https://obis.org/dataset/2ea246a7-cd94-4c51-9a30-65d0036a660a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nbn_ga000189"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Parr, J. Marine Life Survey Data (collected by volunteers) collated by MarLIN. MarLIN, collated Marine Life Survey Datasets, Marine Biological Association of the UK, Plymouth, UK.",
+    "version": "2023-12-08T18:32:10.000Z",
+    "keywords": [
+        "Data",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nbn_ga000189",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.608076 49.40345,-10.608076 58.96545,1.135957 58.96545,1.135957 49.40345,-10.608076 49.40345"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

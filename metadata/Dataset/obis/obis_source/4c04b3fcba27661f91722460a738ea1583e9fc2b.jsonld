@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7331b723-da84-496c-a6b9-2e413b51e464",
+    "name": "Long-term Ecological Monitoring Research Brazilian Oceanic Islands (benthic community)",
+    "description": "Brazil has four tropical oceanic islands: St. Peter and St. Paul’s Archipelago, Fernando de Noronha Archipelago, Rocas Atoll and Trindade Island and Martin Vaz Archipelago. These islands are geographically highly isolated, experience less harmful human-driven impacts than the coastal area, and encompass different levels of protection. Therefore, these more pristine islands represent a fundamental reservoir of marine biodiversity not only to the country but to the whole world. However, the Brazilian oceanic islands remain unknown to the majority of the population. Our mission is to increase the awareness and interest among Brazil’s population, providing knowledge to support governmental decisions and thereby help to protect and preserve the diversity, manifoldness and health of the unique marine ecosystems of our oceanic islands.",
+    "url": "https://obis.org/dataset/7331b723-da84-496c-a6b9-2e413b51e464",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=peld-iloc_benthic-community",
+        "http://doi.org/10.25607/yrfths"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cordeiro C A M M, Silveira T, Zamoner J B, Picolotto V, Medeiros C, Vergara D, Birolli M, Monteiro-Leonel A (2022): Long-term Ecological Monitoring Research Brazilian Oceanic Islands (benthic community). v1.0. Tropical and Subtropical Western South Atlantic OBIS. Dataset/Samplingevent. http://doi.org/10.25607/yrfths",
+    "version": "2022-02-02T18:40:38.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Percentage cover",
+            "description": "Percentage cover"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2019",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/yrfths",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/yrfths",
+        "url": "http://doi.org/10.25607/yrfths"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=peld-iloc_benthic-community",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-33.818934 -20.522423,-33.818934 0.917081,-29.321447 0.917081,-29.321447 -20.522423,-33.818934 -20.522423"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7785",
+            "@type": "Organization",
+            "legalName": "Universidade Federal de Santa Catarina",
+            "name": "Universidade Federal de Santa Catarina",
+            "url": "https://oceanexpert.org/institution/7785"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/22463",
+            "@type": "Organization",
+            "legalName": "Universidade Estadual do Norte Fluminense Darcy Ribeiro",
+            "name": "Universidade Estadual do Norte Fluminense Darcy Ribeiro",
+            "url": "https://oceanexpert.org/institution/22463"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/22585",
+            "@type": "Organization",
+            "legalName": "Universidade Federal de São Paulo, Campus Sao Paolo",
+            "name": "Universidade Federal de São Paulo, Campus Sao Paolo",
+            "url": "https://oceanexpert.org/institution/22585"
+        }
+    ]
+}

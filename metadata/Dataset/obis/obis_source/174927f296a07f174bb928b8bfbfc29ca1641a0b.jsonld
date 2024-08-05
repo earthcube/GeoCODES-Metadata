@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e7f84807-573e-4a3e-b109-f5c1e96e7158",
+    "name": "Simultaneous surveys of littoral organisms in Osaka Bay",
+    "description": "The “Simultaneous surveys of littoral organisms in Osaka Bay” is a project to survey all living creatures in Osaka Bay simultaneously, conducted by the “Osaka Bay Environmental Restoration Liaison Committee” consisting of universities, civic groups, national and local governments and others, with the cooperation of groups working along the coast of Osaka Bay. The results of this survey will be the basis for understanding the water environment in various areas of Osaka Bay.",
+    "url": "https://obis.org/dataset/e7f84807-573e-4a3e-b109-f5c1e96e7158",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=oberlc_littoral_organisms",
+        "https://doi.org/10.48518/00024"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Osaka Bay Environmental Restoration Liaison Committee (2023) Simultaneous surveys of littoral organisms in Osaka Bay. https://doi.org/10.48518/00024. Accessed on YYYY-MM-DD",
+    "version": "2024-01-04T13:51:19.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2023/2023",
+    "identifier": {
+        "@id": "https://doi.org/10.48518/00024",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.48518/00024",
+        "url": "https://doi.org/10.48518/00024"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=oberlc_littoral_organisms",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "134.950927 34.285073,134.950927 34.725351,135.446746 34.725351,135.446746 34.285073,134.950927 34.285073"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

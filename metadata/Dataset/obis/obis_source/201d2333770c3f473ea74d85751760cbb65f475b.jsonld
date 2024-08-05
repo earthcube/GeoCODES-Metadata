@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/92430db9-eccc-4b53-a7d0-1d89250bff4f",
+    "name": "TRIAP Franklin 2008 Waterbirds - Marine records",
+    "description": "As part of the Tropical Rivers Inventory and Assessment Project (TRIAP), a database of 94,148 waterbird records was assembled, comprising 82,596 records from the TRIAP area and 11,552 records from a surrounding 10 km buffer. These records were sourced from databases for Atlas1 and Atlas2 provided by Birds Australia, 99.1% of which are from the Historical Atlas (pre-1977), the first Field Atlas (1977-1981) or the second Field Atlas (1997-2002).\nThis version is all records where the taxa have been catalogued in the World Register of Marine Species and therefore are potential marine species.",
+    "url": "https://obis.org/dataset/92430db9-eccc-4b53-a7d0-1d89250bff4f",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=acef_triap_birds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-13T23:29:28.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1900/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=acef_triap_birds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "122.039 -21.6667,122.039 -12.5833,145.5 -12.5833,145.5 -21.6667,122.039 -21.6667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18363",
+            "@type": "Organization",
+            "legalName": "Department of Environment and Heritage Protection",
+            "name": "Department of Environment and Heritage Protection",
+            "url": "https://oceanexpert.org/institution/18363"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

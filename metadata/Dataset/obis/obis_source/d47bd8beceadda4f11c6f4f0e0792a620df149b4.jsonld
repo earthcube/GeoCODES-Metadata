@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cc8f28ce-e48d-4945-abfe-9d150a22dcd6",
+    "name": "Hamburg pelagic fish database",
+    "description": "Data on pelagic fishes from German North Atlantic cruises from the 1970s to 1980s kept by the Zoological Museum of Hamburg (ZIM Hamburg). The dataset was provided to MAR-ECO by Dr. Heino Fock. Primary reference: Post, A. 1987. Pelagic transects of FRVs \"Walther Herwig\" and \"Anton Dohrn\" in the Atlantic Ocean 1966 to 1986. Mitt. Inst. f. Seefischerei d. BfaFi Hamburg, 42: 1-68.",
+    "url": "https://obis.org/dataset/cc8f28ce-e48d-4945-abfe-9d150a22dcd6",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mareco_hampelfish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Post, A. 1987. Pelagic transects of FRVs \"Walther Herwig\" and \"Anton Dohrn\" in the Atlantic Ocean 1966 to 1986. Mitt. Inst. f. Seefischerei d. BfaFi Hamburg, 42: 1-68.",
+    "version": "2023-12-08T18:30:06.000Z",
+    "keywords": [
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/1986",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mareco_hampelfish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-66.133 25.817,-66.133 67.475,-7.767 67.475,-7.767 25.817,-66.133 25.817"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

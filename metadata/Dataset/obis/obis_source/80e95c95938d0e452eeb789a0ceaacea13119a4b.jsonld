@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f7d8aa43-cdfe-4be2-82a6-88ee33c5c60c",
+    "name": "Biogeographic data from BODC - British Oceanographic Data Centre",
+    "description": "Partial contribution from the British Oceanographic Data Centre's databases (see below for details on status).",
+    "url": "https://obis.org/dataset/f7d8aa43-cdfe-4be2-82a6-88ee33c5c60c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=bodc"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "British Oceanographic Data Centre, UK. Biogeographic data from BODC. in : EurOBIS. http://www.marbef.org/data/eurobissearch.php?dataprovider=47, accessed on [date].",
+    "version": "2023-12-08T17:11:52.000Z",
+    "keywords": [
+        "Biogeography",
+        "Biota",
+        "Geographical distribution",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=bodc",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-85.7438 -70.3142,-85.7438 70.4167,67.30558 70.4167,67.30558 -70.3142,-85.7438 -70.3142"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5168",
+            "@type": "Organization",
+            "legalName": "British Oceanographic Data Centre",
+            "name": "British Oceanographic Data Centre",
+            "url": "https://oceanexpert.org/institution/5168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

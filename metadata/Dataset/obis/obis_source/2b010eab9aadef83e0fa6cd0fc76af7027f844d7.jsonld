@@ -1,0 +1,122 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/553e6cd6-89a8-4482-b767-fb79a8d9c6ee",
+    "name": "CSIRO, North West Shelf Demersal Marine Resources Study 1980-1997",
+    "description": "The North West Shelf study was set up to examine the population dynamics and biology of demersal marine resources of the North West Shelf of Australia, in relation to their physical, chemical and biological environment. The first phase of the study comprised 10 cruises by the vessel Soela between 1982 and 1984 to investigate aspects of the ecosystem, followed by an experimental management phase from 1985 to 1992 during which parts of the fishery were closed and the resulting changes monitored. Data gathered during the study included the distribution, reproduction, diet, growth and mortality of the shelf ecosystem biota as well as information about the water column, sediments, and bottom environment. Over 1000 different fish species were recorded during the course of the study. Return cruises to the North West Shelf were made annually from 1986 to 1991 and also in 1995 and 1997.\nThis data has been republished (2022-09-05 with additional details of each occurrence where they can be one of three types:  catch composition (counts per taxa and optional aggregated weights by trawl event), catch measurements (length and/or weight) of individual taxa and/or catch specimens and their stored location. The occurrence type is recorded in occurrenceremarks.\n\n",
+    "url": "https://obis.org/dataset/553e6cd6-89a8-4482-b767-fb79a8d9c6ee",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_nw_shelf_demersal"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Further introductory information available in CSIRO Marine Labs Research Report 1981-1984, p. 69-74, and Division of Fisheries Report 1991-92, p. 39-40.",
+    "version": "2022-09-13T06:02:16.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total catch weight",
+            "url": "",
+            "description": "Total catch weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Catch effort",
+            "url": "",
+            "description": "Catch effort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tow direction",
+            "url": "",
+            "description": "Tow direction"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample catch weight",
+            "url": "",
+            "description": "Sample catch weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen Count",
+            "url": "",
+            "description": "Specimen Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net sonde temp",
+            "url": "",
+            "description": "Net sonde temp"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom temp",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01",
+            "description": "Bottom temp"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_nw_shelf_demersal",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114.79417 -20.92667,114.79417 -8.88333,141 -8.88333,141 -20.92667,114.79417 -20.92667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

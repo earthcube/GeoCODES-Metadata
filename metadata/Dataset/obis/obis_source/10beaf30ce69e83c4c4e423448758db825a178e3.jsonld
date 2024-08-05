@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3afa6b1c-0084-40eb-9bf4-56989286b063",
+    "name": "Sampling of the host-specific parasitic copepod Pandarus rhincodonicus from Whale Sharks (Rhincodon typus), Ningaloo, Western Australia (2016-2022)",
+    "description": "Dermal tissue of whale sharks and Pandarus rhincodonicus were collected near Black Rock Passage and Norwegian Bay in the Ningaloo Marine Park, Western Australia, between 2016 and 2022. Tissues were collected from host whale sharks using a modified hole-punch spear to remove an\napproximately three-centimetre-deep skin biopsy spear near the first dorsal fin on each shark. At the same time, a free diver scraped copepods off whale shark hosts using a plastic knife, which were subsequently collected with a hand net. The sex of each whale shark was determined by the observation of claspers, and the individual length was measured using EventMeasure.",
+    "url": "https://obis.org/dataset/3afa6b1c-0084-40eb-9bf4-56989286b063",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=whale_shark_copepod_samples",
+        "https://doi.org/10.3390/fishes8050261"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Osorio, B.J.; Skrzypek, G.; Meekan, M. Parasitic Copepods as Biochemical Tracers of Foraging Patterns and Dietary Shifts in Whale Sharks (Rhincodon typus Smith, 1828). Fishes 2023, 8, 261. https://doi.org/10.3390/fishes8050261 ",
+    "version": "2023-05-17T05:18:12.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Total length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "Total length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.3390/fishes8050261",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.3390/fishes8050261",
+        "url": "https://doi.org/10.3390/fishes8050261"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=whale_shark_copepod_samples",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.53608 -22.83846,113.53608 -22.55102,113.68225 -22.55102,113.68225 -22.83846,113.53608 -22.83846"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

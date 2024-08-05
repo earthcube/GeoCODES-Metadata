@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fac03461-04f3-4878-980f-75c5e07f6505",
+    "name": "MIRC PIFSC CNMI Vessel Surveys May-Jul 2012",
+    "description": "Original provider:\nHDR Environmental, Operations and Construction, Inc.\n\nDataset credits:\nThe U.S. Navy Marine Species Monitoring Program\n\nAbstract:\nFeatures in this feature class represent sightings from the PIFSC CNMI Vessel Surveys May-Jul 2012.",
+    "url": "https://obis.org/dataset/fac03461-04f3-4878-980f-75c5e07f6505",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1526"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Ampela, K. and C. Bacon. 2017. MIRC PIFSC CNMI Vessel Surveys May-Jul 2012. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1526) on yyyy-mm-dd.",
+    "version": "2021-04-24T06:36:56.000Z",
+    "keywords": [
+        "Occurrence,Mariana Islands Range Complex,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1526",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "144.6093 13.26592,144.6093 15.622688,145.879157 15.622688,145.879157 13.26592,144.6093 13.26592"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23183",
+            "@type": "Organization",
+            "legalName": "HDR, Inc.",
+            "name": "HDR, Inc.",
+            "url": "https://oceanexpert.org/institution/23183"
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/53f0f94d-2343-461c-b732-8d8c1b8379b2",
+    "name": "RV Investigator Voyage IN2017_V01 Whale Observations, Sabrina coast, Antarctica (2017)",
+    "description": "Marine mammal observations were undertaken during seismic strike and dip lines surveys of the continental slope of the Sabrina coast margin, using seismic equipment.\n\nVoyage details (metadata, projects, other datasets either online or as downloads, publications and reports, events, maps etc) can be accessed at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2017_V01\nIf this data has been used in any products, please acknowledge with the following: We acknowledge the use of the CSIRO Marine National Facility (https://ror.org/01mae9353) in undertaking this research.\n",
+    "url": "https://obis.org/dataset/53f0f94d-2343-461c-b732-8d8c1b8379b2",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=in2017_v01_wov"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Pirotta V (2023): RV Investigator Voyage IN2017_V01 Whale Observations, Sabrina coast, Antarctica (2017). v1.11. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=in2017_v01_wov&amp;v=1.11",
+    "version": "2023-11-30T03:42:46.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Cloud cover (oktas)",
+            "url": "",
+            "description": "Cloud cover (oktas)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind Speed (knt)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ESSAZZ01",
+            "description": "Wind Speed (knt)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea state",
+            "url": "http://vocab.nerc.ac.uk/collection/C39/current/",
+            "description": "Sea state"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth (m)",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/574",
+            "description": "Depth (m)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Visibility",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/390",
+            "description": "Visibility"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind direction (deg)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01",
+            "description": "Wind direction (deg)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Air Pressure (hPa)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CAPHZZ01",
+            "description": "Air Pressure (hPa)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Atmospheric temperature (deg C)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01",
+            "description": "Atmospheric temperature (deg C)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cloud cover",
+            "url": "",
+            "description": "Cloud cover"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=in2017_v01_wov",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114.45167 -65.0522,114.45167 -64.15194,119.92972 -64.15194,119.92972 -65.0522,114.45167 -65.0522"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19389",
+            "@type": "Organization",
+            "legalName": "Macquarie University",
+            "name": "Macquarie University",
+            "url": "https://oceanexpert.org/institution/19389"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

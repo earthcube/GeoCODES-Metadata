@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/82a0b489-1b56-4810-a97c-b2866ca0e901",
+    "name": "Four Decades of Seagrass Spatial Data from Torres Strait and Gulf of Carpentaria, Australia (1986-2022)",
+    "description": "This dataset summarises 40 years of seagrass data collection (1983-2022) within Torres Strait and the Gulf of Carpentaria. In this project the investigators compiled seagrass spatial data collected during surveys in Torres Strait and the Gulf of Carpentaria into a standardised form with point-specific and meadow-specific spatial and temporal information. They revisited, evaluated, simplified, standardised, and corrected individual records, including those collected several decades ago by drawing on the knowledge of one of the authors (RG Coles) who led the early seagrass data collection and mapping programs. Also incorporates new data, such as from photo records of an aerial assessment of mangroves in the Gulf of Carpentaria in 2017.\nThis dataset comprises the following : (1) a point shapefile that includes survey data for 48,612 geolocated sites, and (2) a polygon geopackage describing seagrass at 641 individual or composite meadows. A detailed report describing this project is available:\nCarter A, McKenna S, Rasheed M, Taylor H, van de Wetering C, Chartrand K, Reason C, Collier C, Shepherd L, Mellors J, McKenzie L, Roelofs A, Smit N, Groom R, Barrett D, Evans S, Pitcher R, Murphy N, Duke NC, Carlisle M, David M, Lui S, Torres Strait Indigenous Rangers (led by Whap T, Pearson L, Laza T, Bon A), and Coles RG (2022). Four Decades of Seagrass Spatial Data from Torres Strait and Gulf of Carpentaria. Report to the National Environmental Science Program. Centre for Tropical Water and Aquatic Ecosystem Research (TropWATER), James Cook University. https://www.nespmarinecoastal.edu.au/technical-reports-2/",
+    "url": "https://obis.org/dataset/82a0b489-1b56-4810-a97c-b2866ca0e901",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nesp_mac_113_seagrass"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Carter, A., McKenna, S., Coles, R., Rasheed, M., Taylor, H., Van de Wetering, C., Chartrand, K., Reason, C., Collier, C., Shepherd, L., Mellors, J., McKenzie, L., Roelofs, A., Smit, N., Groom, R., Barret, D., Evans, S., Pitcher, R., Duke, N., … Bon, A. (2022). Four Decades of Seagrass Spatial Data from Torres Strait and Gulf of Carpentaria (NESP MaC Project 1.13, TropWATER JCU) [Data set]. eAtlas. https://doi.org/10.26274/2CR2-JK51",
+    "version": "2023-06-22T10:38:07.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Survey Method",
+            "url": "",
+            "description": "Survey Method"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nesp_mac_113_seagrass",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "135.38473 -17.71577,135.38473 -9.13895,144.24349 -9.13895,144.24349 -17.71577,135.38473 -17.71577"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

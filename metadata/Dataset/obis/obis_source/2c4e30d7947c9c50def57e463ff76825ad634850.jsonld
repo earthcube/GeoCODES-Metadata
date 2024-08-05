@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/49f74e10-b23b-4aca-a0f2-62b4f1109dd3",
+    "name": "Species assemblages, biomass and regional habitat characterisation across the offshore Kimberley region, Australia (2015)",
+    "description": "Tow video and epibenthic sled collections were matched to a wide set of environmental data in the Kimberley region and subsequently identified as nine habitat/species assemblages that provided broad spatial characterisation of the region. Project details at https://wamsi.org.au/project/benthic-biodiversity/ and data for WAMSI 1.1.1.5 from https://data.pawsey.org.au/download/WA Node Ocean Data Network/WAMSI2/KMRP/1.1/1.1.1/Taxanomic Samples/Abundance by group (Camden Sound).csv",
+    "url": "https://obis.org/dataset/49f74e10-b23b-4aca-a0f2-62b4f1109dd3",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=wamsi_1115"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Species assemblages, biomass and regional habitat characterisation across the offshore Kimberley region. John Keesing, Roland Pitcher, Joanna Strzelecki. WAMSI Kimberley Marine Research Program Final Report Subproject 1.1.1.5 September 2018",
+    "version": "2022-06-09T23:55:59.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "",
+            "description": "Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=wamsi_1115",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "124.05919 -15.94544,124.05919 -15.22044,124.69209 -15.22044,124.69209 -15.94544,124.05919 -15.94544"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/22762",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans & Atmosphere, Indian Ocean Marine Research Centre",
+            "name": "CSIRO Oceans & Atmosphere, Indian Ocean Marine Research Centre",
+            "url": "https://oceanexpert.org/institution/22762"
+        }
+    ]
+}

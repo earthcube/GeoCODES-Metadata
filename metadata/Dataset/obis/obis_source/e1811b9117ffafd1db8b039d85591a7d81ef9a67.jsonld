@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f4accecd-9166-43fb-a72b-b909e5f52987",
+    "name": "A census of penguin colony counts (provided to OBIS) from the year 1900 to 1996 in the Antarctic Region",
+    "description": "This dataset is a census of penguin colony counts from the year 1900 in the Antarctic region. It forms part of the Inventory of Antarctic seabird breeding sites within the Antarctic and subantarctic islands.",
+    "url": "https://obis.org/dataset/f4accecd-9166-43fb-a72b-b909e5f52987",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=iasb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Eric Woehler (2008) A census of penguin colony counts (provided to OBIS) from the year 1900 to 1996 in the Antarctic Region (FAUNA_PENGUIN_COLONY)",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Colonies",
+        "Penguins"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1900/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=iasb",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-165.417007446 -80.733001709,-165.417007446 76.5,179.917007446 76.5,179.917007446 -80.733001709,-165.417007446 -80.733001709"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

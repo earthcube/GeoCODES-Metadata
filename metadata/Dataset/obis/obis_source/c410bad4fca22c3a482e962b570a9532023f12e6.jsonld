@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/031dba90-d480-419a-a562-be9a34bc5c49",
+    "name": "Queensland WildNet wildlife marine records , Australia (1788-2022)",
+    "description": "This is a subset of the marine wildlife records from the Department of Environment and Science's WildNet database. It contains the WildNet wildlife records approved for release (by data providers), that are not classed as erroneous or duplicate, that have a location precision equal to or less than 10000 metres, do not have a count of zero and for taxa not listed as confidential. This dataset is generated weekly. ",
+    "url": "https://obis.org/dataset/031dba90-d480-419a-a562-be9a34bc5c49",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=acef_qldwildnet"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Wildnet at https://qldspatial.information.qld.gov.au/",
+    "version": "2022-06-08T05:36:58.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1788/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=acef_qldwildnet",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "138.02889 -29.12397,138.02889 -9.14022,155.5835 -9.14022,155.5835 -29.12397,138.02889 -29.12397"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5d6813fd-a0e2-4d9f-93c0-2bb399fbad84",
+    "name": "Macrozoobenthos, Joint Open Sea Surveys August 2017, EMBLAS-II",
+    "description": "Macrozoobenthos data: species composition, abundance (ind/m²), biomass (g/m²) collected during the Joint Open Sea Survey (JOSS UA - GE 2017) in the Black Sea waters (Transects Odessa – Batumi) onboard the R/V \"Mare Nigrum\" (Romania) in August - September 2017",
+    "url": "https://obis.org/dataset/5d6813fd-a0e2-4d9f-93c0-2bb399fbad84",
+    "sameAs": [
+        "http://gp.sea.gov.ua:8082/ipt/resource?r=jossge-ua2017_macrozoobenthos"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Oleg Kachalov Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES)",
+    "version": "2021-10-01T11:50:30.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weighted Biomas",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/NEWCXX02/",
+            "description": "Weighted Biomas"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Calculated Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01",
+            "description": "Calculated Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYAAOP/",
+            "description": "Dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://gp.sea.gov.ua:8082/ipt/archive.do?r=jossge-ua2017_macrozoobenthos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.8166666666667 44.85,29.8166666666667 46.3833333333333,31.3333333333333 46.3833333333333,31.3333333333333 44.85,29.8166666666667 44.85"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11858",
+            "@type": "Organization",
+            "legalName": "Ukrainian Scientific Centre of Ecology of the Sea",
+            "name": "Ukrainian Scientific Centre of Ecology of the Sea",
+            "url": "https://oceanexpert.org/institution/11858"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/11bc2cb2-a837-4cd1-9450-52e3bb427cf6",
+    "name": "ECNASAP - East Coast North America Strategic Assessment",
+    "description": "This resource was created for the Census of Marine Life by OBIS Canada and is based on fishery-independent groundfish data for the east coast of North America from Cape Hatteras to the US/Canadian border and for Bay of Fundy through the Scotian Shelf. Time period is 1970-1995.",
+    "url": "https://obis.org/dataset/11bc2cb2-a837-4cd1-9450-52e3bb427cf6",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=ecnasap"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Brown S.K.R., Zwanenburg K., Branton R. (2005).  ECNASAP - East Coast North America Strategic Assessment. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-04-06T21:28:35.000Z",
+    "keywords": [
+        "oceans",
+        "biota",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=ecnasap",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-86.18 5.34,-86.18 69.53,-6.57 69.53,-6.57 5.34,-86.18 5.34"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

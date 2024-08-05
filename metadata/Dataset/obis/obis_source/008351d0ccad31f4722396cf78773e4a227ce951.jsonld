@@ -1,0 +1,126 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c4e7e0d6-aef2-480f-8157-134bd1c6b229",
+    "name": "Macrozoobenthos data from the southeastern North Sea in 2000",
+    "description": "This dataset contains macrozoobenthos data from the southeastern North Sea from 2000.",
+    "url": "https://obis.org/dataset/c4e7e0d6-aef2-480f-8157-134bd1c6b229",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nsbp_rachor"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Alfred Wegener Institut für Polar- und Meeresforschung; Senckenbergische Naturforschende Gesellschaft. - Germany (2015). Macrozoobenthos data from the southeastern North Sea in 2000.",
+    "version": "2023-12-08T18:15:12.000Z",
+    "keywords": [
+        "Benthos",
+        "Macrobenthos",
+        "Zoobenthos",
+        "Data",
+        "Marine Genomics",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D10",
+            "url": "",
+            "description": "D10"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D50",
+            "url": "",
+            "description": "D50"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D75-D25",
+            "url": "",
+            "description": "D75-D25"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D75/D25",
+            "url": "",
+            "description": "D75/D25"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D90-D10",
+            "url": "",
+            "description": "D90-D10"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D90/D10",
+            "url": "",
+            "description": "D90/D10"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D90",
+            "url": "",
+            "description": "D90"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Medium gravel",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PRPCL555/",
+            "description": "Medium gravel"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nsbp_rachor",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3 53.71666667,3 56.13,8.333333333 56.13,8.333333333 53.71666667,3 53.71666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6271",
+            "@type": "Organization",
+            "legalName": "Senckenberg Gesellschaft für Naturforschung",
+            "name": "Senckenberg Gesellschaft für Naturforschung",
+            "url": "https://oceanexpert.org/institution/6271"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/58260603-43be-431e-9e8a-cf298245db17",
+    "name": "USGS 2001 Buck Island National Monument Cryptic Fish Survey",
+    "description": "Because cryptic fishes are difficult to accurately survey, they are undersampled components of coral reef habitats. Fifty-eight enclosed stations were sampled in shoreline, nearshore reef, lagoon, backreef, forereef, and bank/shelf habitats with an ichthyocide (rotenone) at Buck Island Reef National Monument, St. Croix, U.S. Virgin Islands in July-August 2001. Our samples included 228 fish species in 55 families, including 60 species previously unreported from St. Croix.",
+    "url": "https://obis.org/dataset/58260603-43be-431e-9e8a-cf298245db17",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=buckislandfish"
+    ],
+    "license": "Restricted",
+    "citation": "Smith-Vaniz, W.F., H.L. Jelks, and L.A. Rocha. 2010. USGS 2001 Buck Island National Monument Cryptic Fish Survey. U.S. Geological Survey, 7920 NW 71st Street, Gainesville, Florida 32653.Retrieved from http://www.usgs.gov/obis-usa/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=buckislandfish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.6376419067 17.7831707001,-64.6376419067 17.8016395569,-64.6112289429 17.8016395569,-64.6112289429 17.7831707001,-64.6376419067 17.7831707001"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

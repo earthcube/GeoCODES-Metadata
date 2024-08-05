@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/92d92da9-b1f8-4b32-bcd9-a9690473a319",
+    "name": "BRUVS data conducted in the Northern Demersal Scalefish Fishery (NDSF) north of Broome off the coast of north western Autralia (2007)",
+    "description": "All sampling was conducted in the Northern Demersal Scalefish Fishery (NDSF) north of Broome off the coast of north western Australia (Fig. 1) in depths of 60–110 m across a range of habitats (sand, rubble areas, sponges and soft corals). Samples were collected using commercial fish traps and stereo-BRUV from commercial fishing vessels in June of 2007, 2008 and 2009. Data were collected from 356 trap and 275 stereo-BRUV deployments.",
+    "url": "https://obis.org/dataset/92d92da9-b1f8-4b32-bcd9-a9690473a319",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ndsf_bruvs_2007"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Tim J. Langlois, Stephen J. Newman, Mike Cappo, Euan S. Harvey, Ben M. Rome, Craig L. Skepper, Corey B. Wakefield, (2015) Length selectivity of commercial fish traps assessed from in situ comparisons with stereo-video: Is there evidence of sampling bias?, Fisheries Research, Volume 161, pages 145-155, ISSN 0165-7836, https://doi.org/10.1016/j.fishres.2014.06.008.",
+    "version": "2023-12-11T10:52:22.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ndsf_bruvs_2007",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.91066 -22.03736,113.91066 -21.88869,113.97569 -21.88869,113.97569 -22.03736,113.91066 -22.03736"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

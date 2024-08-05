@@ -1,0 +1,126 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/33c1db5a-fd19-4dfd-822c-d82c0487009b",
+    "name": "National Pilot Monitoring Studies 2016, Improving Environmental Monitoring in the Black Sea - Phase II (EMBLAS-II), ENPI/2013/313-169, (Phytoplankton)",
+    "description": "Phytoplankton data: species composition, volume of the cell [µm3], abundance [*1000cells/l], biomass (mg/m3) and Carbon biomass collected during the survey of the National Pilot Monitoring Studies Ukraine (NPMS UA) in the Ukrainian waters (North-Western part of the Black Sea) onboard the R/V \"Mare Nigrum\" (Romania) in May 2016",
+    "url": "https://obis.org/dataset/33c1db5a-fd19-4dfd-822c-d82c0487009b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=npmsua2016_phytoplankton"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Grandova M., Terenko G., Zotov, A.: Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES), Institute of Marine Biology (IMB), Academy of Science of Ukraine; (2020): National Pilot Monitoring Studies 2016, Improving Environmental Monitoring in the Black Sea - Phase II (EMBLAS-II), ENPI/2013/313-169, (Phytoplankton)",
+    "version": "2023-05-23T11:29:56.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Biological sampling",
+        "lowered unmanned submersible",
+        "Mare Nigrum",
+        "research vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved oxygen",
+            "url": "https://vocab.nerc.ac.uk/collection/P01/current/DOXYAAOP/",
+            "description": "Dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WWBMM00Z/",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Carbon biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL12/",
+            "description": "Carbon biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Stage of the cell",
+            "url": "",
+            "description": "Stage of the cell"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "analysis instrument",
+            "url": "",
+            "description": "analysis instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Diameter1 of the cell",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDDM/",
+            "description": "Diameter1 of the cell"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Height of the cell",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPHGXX01/",
+            "description": "Height of the cell"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=npmsua2016_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.81026667 44.98146667,29.81026667 46.50891667,31.46665 46.50891667,31.46665 44.98146667,29.81026667 44.98146667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17300",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine , Institute of Marine Biology",
+            "name": "National Academy of Sciences of Ukraine , Institute of Marine Biology",
+            "url": "https://oceanexpert.org/institution/17300"
+        }
+    ]
+}

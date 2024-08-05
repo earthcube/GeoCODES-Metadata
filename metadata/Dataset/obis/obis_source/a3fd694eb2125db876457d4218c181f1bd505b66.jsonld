@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a419c8da-35ed-4b62-9709-39b56369c44e",
+    "name": "Video Annotation and Reference System (VARS) database",
+    "description": "The original dataset, provided by OBIS-USA, contains all distribution records. The dataset in OBIS Seamap is a subset of the original dataset, only containing marine mammal, seabird and/or sea turtle records.",
+    "url": "https://obis.org/dataset/a419c8da-35ed-4b62-9709-39b56369c44e",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=mbari"
+    ],
+    "license": "",
+    "citation": "Nancy Jacobsen Stout, Linda Kuhnz, Lonny Lundsten, Kyra Schlining, Susan von Thun, (2002) Video Annotation and Reference System (VARS) database, Year 2000, Monterey Bay Aquarium Research Institute, Moss Landing, California USA, Database, www.mbari.org/vars",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=mbari",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-130.436050415 34.1539878845,-130.436050415 45.9362983704,-119.915817261 45.9362983704,-119.915817261 34.1539878845,-130.436050415 34.1539878845"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7363",
+            "@type": "Organization",
+            "legalName": "Monterey Bay Aquarium Research Institute",
+            "name": "Monterey Bay Aquarium Research Institute",
+            "url": "https://oceanexpert.org/institution/7363"
+        }
+    ]
+}

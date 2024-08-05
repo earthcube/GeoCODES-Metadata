@@ -1,0 +1,120 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d17e4cae-baf5-4f8b-980f-aa6806f070e2",
+    "name": "DATRAS Canadian Maritimes Trawl Survey",
+    "description": "<p>The Fisheries and Oceans Canada ecosystem surveys are conducted annually and are a source of integrated ecosystem monitoring data. These survey data are the primary data source for monitoring trends in species distribution, abundance, and biological condition within the region, and also provide data to the Atlantic Zonal Monitoring Program (AZMP) for monitoring hydrographic conditions, along with zooplankton and phytoplankton. The surveys follow a stratified random sampling design, and include sampling using a bottom otter trawl, CTD rosette and vertical plankton tows. Data from the bottom trawl catch are used to monitor the distribution and abundance of fish and invertebrates throughout the Scotian Shelf, Bay of Fundy and Georges Bank.</p>",
+    "url": "https://obis.org/dataset/d17e4cae-baf5-4f8b-980f-aa6806f070e2",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=ices_datras_canmar"
+    ],
+    "license": "Licence",
+    "citation": "International Council for the Exploration of the Sea (ICES), Denmark; (2023): DATRAS Canadian Maritimes Trawl Survey (CAN-MAR).&nbsp;",
+    "version": "2024-02-27T00:20:31.000Z",
+    "keywords": [
+        "Biota",
+        "CTD profilers",
+        "Otter trawlers",
+        "No limitations to public access",
+        "Species distribution",
+        "WGS84 (EPSG:4326)",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "BycSpecRecCode",
+            "url": "https://vocab.ices.dk/?ref=89",
+            "description": "BycSpecRecCode"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cal_DateID",
+            "url": "",
+            "description": "Cal_DateID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DataType",
+            "url": "https://vocab.ices.dk/?ref=9",
+            "description": "DataType"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorSpread",
+            "url": "",
+            "description": "DoorSpread"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorSurface",
+            "url": "",
+            "description": "DoorSurface"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorType",
+            "url": "https://vocab.ices.dk/?ref=98",
+            "description": "DoorType"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorWgt",
+            "url": "",
+            "description": "DoorWgt"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Netopening",
+            "url": "",
+            "description": "Netopening"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Rigging",
+            "url": "",
+            "description": "Rigging"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "StdSpecRecCode",
+            "url": "https://vocab.ices.dk/?ref=88",
+            "description": "StdSpecRecCode"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ices_datras_canmar",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.7115 41.2635,-67.7115 47.9333,-57.109 47.9333,-57.109 41.2635,-67.7115 41.2635"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

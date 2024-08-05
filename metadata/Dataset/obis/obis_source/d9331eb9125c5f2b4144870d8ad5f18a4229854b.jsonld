@@ -1,0 +1,66 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3cdb3dca-4df4-4931-9155-b41da2ce4075",
+    "name": "MBON POLE TO POLE: ROCKY SHORE BIODIVERSITY OF GALAPAGOS",
+    "description": "The MBON Pole to Pole effort seeks to develop a framework for the collection, use and sharing of marine biodiversity data in a coordinated, standardized manner leveraging on existing infrastructure managed by the Global Ocean Observing System (GOOS; IOC-UNESCO), the GEO Biodiversity Observation Network (GEO BON), and the Ocean Biogeographic Information System (OBIS). The MBON Pole to Pole aims to become a key resource for decision-making and management of living resource across countries in the Americas for reporting requirements under the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), Aichi Targets of the Convention of Biological Diversity (CBD), and the UN 2030 Agenda for Sustainable Development Goals (SDGs).\nThis collection corresponds to the species registered on benthic fauna and flora of the intertidal rocky shores of the Galapagos Islands (Ecuador) by the Charles Darwin Research Station, Charles Darwin Foundation, using the MBON P2P sampling protocol for rocky shores.\nThe Charles Darwin Foundation for the Galapagos Islands (CDF) www.darwinfoundation.org is an international non-profit organization dedicated to scientific research. CDF has carried out its mission in the Galapagos since 1959, thanks to an agreement with the Government of Ecuador and with the mandate to pursue and maintain collaborations with government agencies by providing scientific knowledge and technical assistance to promote and secure conservation of Galapagos. The mission of the Charles Darwin Foundation and its Research Station is to provide knowledge and assistance through scientific research and complementary action to ensure the conservation of the environment and biodiversity in the Galapagos Archipelago.\nNicolas Moity and Inti Keith from CDF were supported by the Gordon &amp; Betty Moore Foundation, Galapagos Conservancy, Galapagos Conservation Trust, IGTOA y Paul M. Angell Family Foundation.\nThe Pole to Pole project is supported by the National Aeronautics and Space Administration (NASA) grant 80NSSC18K0318, ”Laying the foundations of the Pole-to-Pole Marine Biodiversity Observation Network (MBON) of the Americas”, and co-sponsored by AmeriGEO.",
+    "url": "https://obis.org/dataset/3cdb3dca-4df4-4931-9155-b41da2ce4075",
+    "sameAs": [
+        "http://ipt.iobis.org/mbon/resource?r=galapagos"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2021-08-18T19:11:41.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "cover",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P06/current/UMSQ/1/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/mbon/archive.do?r=galapagos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-90.339391 -0.764513,-90.339391 -0.743373,-90.301799 -0.743373,-90.301799 -0.764513,-90.339391 -0.764513"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18303",
+            "@type": "Organization",
+            "legalName": "Fundación Charles Darwin",
+            "name": "Fundación Charles Darwin",
+            "url": "https://oceanexpert.org/institution/18303"
+        }
+    ]
+}

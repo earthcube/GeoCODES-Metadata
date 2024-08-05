@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9b8fb0ac-3957-4aa0-9361-2435c9c46ef6",
+    "name": "SEFSC GoMMAPPS Vessel Survey 2018 Summer",
+    "description": "Original provider:\nNOAA Southeast Fisheries Science Center (SEFSC)\n\nDataset credits:\nNOAA Southeast Fisheries Science Center (SEFSC)\n\nAbstract:\nAs part of the Gulf of Mexico Marine Assessment Program for Protected Species (GoMMAPPS), the SEFSC conducted shipboard surveys of the oceanic waters of the Gulf out to the U.S. Exclusive Economic Zone (EEZ) between 11 August and 6 October 2018. A two independent visual observer teams approach with Distance sampling was implemented to estimate the detection probabilities for marine mammal sightings.\n\nPurpose:\nThe primary goal was to collect data on the distribution and abundance of marine mammals in the U.S. waters of the Gulf of Mexico (GOM) using visual survey teams and passive acoustic monitoring.\n\nSupplemental information:\nProvider's survey code is PC1805.\nPerpendicular distance to the animal is not publicly available.\nThe dataset is accompanied by transect (effort) data which is provided as a separate file.\n\nSightings included were detected by the flying bridge only or by both the flying bridge and bridge wing teams.\n\nEnvironmental Attribute Codes\nBeaufort Sea state\n0 Calm, mirror like seas\n1 Waves &lt;1ft, rippled surface\n2 Small wavelets (&lt;2 ft), no white caps\n3 Large wavelets (&lt;3ft), scattered white caps\n4 Swell 3-4 ft, numerous white caps\n5 Swell &gt;5 ft, many white caps, some spray\n6 Swell &gt;10 ft, white caps everywhere, spray\nVisibility\n0 Clear\n1 Good\n2 Fair\n3 Poor\nWeather\n0 Clear\n1 Mist\n2 Light Rain\n3 Heavy Rain\nCloud Cover\n0 Clear\n1 0-25% Cloudy\n2 26-50% Cloudy\n3 51-75% Cloudy\n4 76-100% Cloudy\n5 Overcast\nGlare\n0 No Glare\n1 &lt;10% of visual field\n2 10-25% of visual field\n3 26-50% of visual field\n4 51-75% of visual field\n5 &gt;75% of visual field\nGlare intensity\n0 No Impairment\n1 Slight Impairment\n2 Moderate Impairment\n3 Severe Impairment\nConditions\n0 Poor\n1 Fair\n2 Moderate\n3 Good\n4 Excellent",
+    "url": "https://obis.org/dataset/9b8fb0ac-3957-4aa0-9361-2435c9c46ef6",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1984"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Rappucci, G. and L. Garrison. 2019. SEFSC GoMMAPPS Vessel Survey 2018 Summer. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1984) on yyyy-mm-dd.",
+    "version": "2021-09-08T16:35:18.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1984",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-96.41447 24.1911,-96.41447 29.06436,-82.47377 29.06436,-82.47377 24.1911,-96.41447 24.1911"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7534",
+            "@type": "Organization",
+            "legalName": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "name": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "url": "https://oceanexpert.org/institution/7534"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

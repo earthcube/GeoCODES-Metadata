@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4d6cd31a-4559-4fd3-beff-4d47f5e2ee86",
+    "name": "HMAP Dataset 18: Colombian Caribbean Sea",
+    "description": "This dataset contains catch data collected during scientific cruises in the northern Colombian Caribbean Sea. The data covers the time period 1970-2001.",
+    "url": "https://obis.org/dataset/4d6cd31a-4559-4fd3-beff-4d47f5e2ee86",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_18"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "C.B. García and L.O. Duarte, 'Columbian Caribbean Sea', in J.H. Nicholls (comp.) HMAP Data Pages (https://oceanspast.org/hmap_db.php)",
+    "version": "2023-12-08T18:30:18.000Z",
+    "keywords": [
+        "Artisanal fishing",
+        "Fish catch statistics",
+        "Fishery statistics",
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_18",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-74.5100021362305 11.1999998092651,-74.5100021362305 12.5,-71.879997253418 12.5,-71.879997253418 11.1999998092651,-74.5100021362305 11.1999998092651"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

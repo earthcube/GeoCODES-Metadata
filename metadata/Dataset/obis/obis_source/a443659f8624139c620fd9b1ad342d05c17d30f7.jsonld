@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/31526716-5b6e-4854-93e1-8f7a1410bb81",
+    "name": "OTN Shark Spotters shark tracking - Tag Release Metadata",
+    "description": "This is the OBIS extraction of the OTN Shark Spotters shark tracking project, consisting only of the release tagging metadata. i.e. the locations  and dates of tagged animal release. If readers are  interested in the full source  dataset they should refer to the OTN web site  (members.oceantrack.org). Abstract: South Africa's Institute for Aquatic Biodiversity (SAIAB), located on the campus of Rhodes University in Grahamstown, South Africa, maintains the Acoustic Tracking Array Platform (ATAP). OTN supports ATAP through equipment loans, and by working with ATAP data managers to build a telemetry data node for use by African scientists. This South African node is leveraging OTN's data toolset and templates and integrating with the OTN and its partners' data systems to help build a global tracking base. Collaboration between researchers is essential for understanding large-scale movement patterns of ecologically important species.  ATAP's arrays and data systems includes detections from equipment owned by itself, on loan from the OTN, or placed and maintained by independent partners who share data through the ATAP data node. The ATAP network provides comprehensive coastal and estuarine coverage across South Africa's coastline and north into the waters of Angola and Mozambique on Africa's west and east coasts, respectively. These arrays are providing scientists in the region with an unprecedented opportunity to study the movements of top predators such as white sharks as well as other migratory coastal and estuarine species. Additional details about individual tracking projects which are a part of ATAP are available by contacting the associated researcher.",
+    "url": "https://obis.org/dataset/31526716-5b6e-4854-93e1-8f7a1410bb81",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnsharkspotterssharkspot"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Kock, A., Barnett, A. yyyy. Shark Spotters shark tracking. Version # In OBIS Digital Collections. Published by OBIS, Digital http://www.obis.org/. Accessed on - INSERT DATE",
+    "version": "2019-02-20T14:44:25.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnsharkspotterssharkspot",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "18.38442 -34.34962,18.38442 -33.79221,18.85601 -33.79221,18.85601 -34.34962,18.38442 -34.34962"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19477",
+            "@type": "Organization",
+            "legalName": "Shark Spotters",
+            "name": "Shark Spotters",
+            "url": "https://oceanexpert.org/institution/19477"
+        }
+    ]
+}

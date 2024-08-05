@@ -1,0 +1,51 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fc9c2fcc-42ca-4cf2-95a7-e45cf1f0a5de",
+    "name": "Marine Microbes from the Darwin Harbour National Reference Station (NRS), Northern Territory, Australia (2015-2020)",
+    "description": "The Australian Marine Microbial Biodiversity Initiative (AMMBI) provides methodologically standardized, continental scale, temporal phylogenetic amplicon sequencing data describing Bacteria, Archaea and microbial Eukarya assemblages. Sequence data is linked to extensive physical, biological and chemical oceanographic contextual information. Samples are collected monthly to seasonally from multiple depths at seven National Reference Stations (NRS) sites: Darwin Harbour (Northern Territory), Yongala (Queensland), North Stradbroke Island (Queensland), Port Hacking (New South Wales), Maria Island (Tasmania), Kangaroo Island (South Australia), Rottnest Island (Western Australia). The Integrated Marine Observing System (IMOS) NRS network is described at http://imos.org.au/facilities/nationalmooringnetwork/nrs/\nSite details from Brown, M. V. et al. Continental scale monitoring of marine microbiota by the Australian Marine Microbial Biodiversity Initiative. Sci. Data 5:180130 doi: 10.1038/sdata.2018.130 (2018).\nSite location: Darwin Harbour National Reference Station (NRS), Northern Territory, Australia\nNote on data download/processing:\nData downloaded from Australian Microbiome Initiative via Bioplatforms Australia Data Portal on 17 June 2022. The search filter applied to download data from Bioplatforms Australia Data portal are stored in the Darwin Core property (identificationRemarks). Taxonomy is assigned according to the taxonomic database (SILVA 138) and method (Sklearn) which is stored in the Darwin Core Extension\nDNA derived data property (otu_db). Prefix were removed from the taxonomic names as shown in the example (e.g. d__Bacteria to Bacteria). Scientific name is assigned to the valid name available from the highest taxonomic rank.\nThis collection is published as Darwin Core Occurrence, so the event level measurements need to be replicated for every occurrence. Instead of data replication, the event level eMoF data are made available separately at https://www.marine.csiro.au/data/services/obisau/emof_export.cfm?ipt_resource=bioplatforms_mm_nrs_dar",
+    "url": "https://obis.org/dataset/fc9c2fcc-42ca-4cf2-95a7-e45cf1f0a5de",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bioplatforms_mm_nrs_dar"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Please see https://www.australianmicrobiome.com/protocols/acknowledgements/ for citation examples and links to the data policy.",
+    "version": "2022-06-22T05:10:24.000Z",
+    "keywords": [
+        "occurrence",
+        "occurrence",
+        "16S rRNA",
+        "18S rRNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bioplatforms_mm_nrs_dar",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/21685",
+            "@type": "Organization",
+            "legalName": "University of Newcastle",
+            "name": "University of Newcastle",
+            "url": "https://oceanexpert.org/institution/21685"
+        }
+    ]
+}

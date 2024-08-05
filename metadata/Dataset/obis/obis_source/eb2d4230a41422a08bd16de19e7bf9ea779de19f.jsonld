@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/373bacd9-e375-4513-8e98-f2e7f63275e4",
+    "name": "HELCOM/OSPAR Ballast water observations",
+    "description": "This dataset includes the data used in in the HELCOM/OSPAR Ballast Water Exemptions Decision Support Tool. This tool was developed in 2013 based on the overall IMO framework, the 21 Baltic and North-East Atlantic coastal states and the EU. It allows user to define 'low risk' routes, as well as other necessary steps in granting exemptions under regulation A-4 of the IMO Ballast Water Management Convention (BWMC)",
+    "url": "https://obis.org/dataset/373bacd9-e375-4513-8e98-f2e7f63275e4",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=helcom_ospar_ballast_water_observations"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "HELCOM/OSPAR Joint Ballast Water Exemptions Decision Support Tool: https://maps.helcom.fi/website/RA_tool/ HELCOM and OSPAR, 2020",
+    "version": "2023-12-08T18:32:10.000Z",
+    "keywords": [
+        "Ballast water",
+        "Invasive species",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity_max",
+            "url": "",
+            "description": "Salinity_max"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity_min",
+            "url": "",
+            "description": "Salinity_min"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALZZXX/",
+            "description": "Salinity"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=helcom_ospar_ballast_water_observations",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-15.42127123 28.12856733,-15.42127123 63.86027,27.166851 63.86027,27.166851 28.12856733,-15.42127123 28.12856733"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/21369",
+            "@type": "Organization",
+            "legalName": "OSPAR Commission",
+            "name": "OSPAR Commission",
+            "url": "https://oceanexpert.org/institution/21369"
+        }
+    ]
+}

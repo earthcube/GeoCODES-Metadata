@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bd91634e-d431-4eb7-a3f7-dc29bf6262be",
+    "name": "Romanian Black Sea Phytoplankton data from 1956 - 1960",
+    "description": "Phytoplankton data collected in the Black Sea between 1956 and 1960 and processed by Hilarius Skolka and Nicolae Bodeanu. This dataset contains abundance data (cells per liter) and biomass (mg/m3) for individual phytoplankton taxa. Samples were taken by 1L Nansen bottle at standard depths. The standard sedimentation technique for samples preparation (Morozova-Vodianitkaia, 1954) was used.",
+    "url": "https://obis.org/dataset/bd91634e-d431-4eb7-a3f7-dc29bf6262be",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=romania_phytoplankton_1956"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Laura Boicenco (2015). Phytoplankton data collected in the Romanian Black Sea waters between 1956 and 1960. NIMRD-National Institute for Marine Research and Development \"Grigore Antipa\"",
+    "version": "2023-05-23T12:18:14.000Z",
+    "keywords": [
+        "Biological sampling",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "Wet weight biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abudance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abudance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1956/1960",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=romania_phytoplankton_1956",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "28.61 43.8,28.61 45.31,32.9 45.31,32.9 43.8,28.61 43.8"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8113",
+            "@type": "Organization",
+            "legalName": "National Institute for Marine Research and Development “Grigore Antipa”",
+            "name": "National Institute for Marine Research and Development “Grigore Antipa”",
+            "url": "https://oceanexpert.org/institution/8113"
+        }
+    ]
+}

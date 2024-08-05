@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b8617377-eb1c-4db2-baa6-8788a632e810",
+    "name": "Ichthyology Collection - Royal Ontario Museum",
+    "description": "The ROM ichthyology collection has over one million specimens of approximately 7,000 species from around the world. The collection currently holds over 93,000 catalogued lots, including 124 holotypes and 1,045 paratypes, with additional types being added regularly through both in-house and collaborative research. The ROM houses the largest and most diverse collection of Canadian freshwater fishes in existence.",
+    "url": "https://obis.org/dataset/b8617377-eb1c-4db2-baa6-8788a632e810",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=fishes"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1826/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=fishes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-174.56493 -81.9947860872,-174.56493 79.964166,179.802777778 79.964166,179.802777778 -81.9947860872,-174.56493 -81.9947860872"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19531",
+            "@type": "Organization",
+            "legalName": "Royal Ontario Museum",
+            "name": "Royal Ontario Museum",
+            "url": "https://oceanexpert.org/institution/19531"
+        }
+    ]
+}

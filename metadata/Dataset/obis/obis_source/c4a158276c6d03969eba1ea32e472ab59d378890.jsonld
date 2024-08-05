@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7ca26f19-09ce-4bb4-8f92-405bdb835f25",
+    "name": "HMAP Dataset 15: Galapagos Marine Reserve, Ecuador III",
+    "description": "This dataset contains data on historical catch and effort statistics for sea cucumber, spiny lobster and finfish fisheries in the Galapagos Marine Reserve since 1961.",
+    "url": "https://obis.org/dataset/7ca26f19-09ce-4bb4-8f92-405bdb835f25",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_15"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "M. Castrejón and J. Moreno, 'HMAP Dataset 15: Galapagos Marine Reserve, Ecuador III', in J.H. Nicholls (comp.) HMAP Data Pages (https://oceanspast.org/hmap_db.php)",
+    "version": "2023-12-08T18:30:28.000Z",
+    "keywords": [
+        "Fish catch statistics",
+        "Fishery statistics",
+        "Fishing effort statistics",
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_15",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-92.0118637084961 -1.40910005569458,-92.0118637084961 1.67999994754791,-89.2403030395508 1.67999994754791,-89.2403030395508 -1.40910005569458,-92.0118637084961 -1.40910005569458"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18303",
+            "@type": "Organization",
+            "legalName": "Fundación Charles Darwin",
+            "name": "Fundación Charles Darwin",
+            "url": "https://oceanexpert.org/institution/18303"
+        }
+    ]
+}

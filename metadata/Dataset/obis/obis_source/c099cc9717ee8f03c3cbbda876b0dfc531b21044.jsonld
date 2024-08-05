@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cb4f80b8-ac98-4b22-a4bd-584e20c9de63",
+    "name": "Harpacticoida from a scientific cruise of the R. \"Akademik\" in the western part of the Black Sea",
+    "description": "Data on Harpacticoida from field survey during a scientific cruise of RV \"Akademik\" (Institute Oceanology, BAS) in the western part of the Black Sea in September - October 2003.",
+    "url": "https://obis.org/dataset/cb4f80b8-ac98-4b22-a4bd-584e20c9de63",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=blacksea_northwestern",
+        "https://dx.doi.org/10.14284/148"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Garlitska, L.; Moscow State University. 2003. Harpacticoida from a scientific cruise of the R. \"Akademik\" in the western part of the Black Sea https://dx.doi.org/10.14284/148",
+    "version": "2023-12-08T17:20:28.000Z",
+    "keywords": [
+        "Akademik",
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSSTTS01/",
+            "description": "Temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2003",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/148",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/148",
+        "url": "https://dx.doi.org/10.14284/148"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=blacksea_northwestern",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.9 44.712333,29.9 46.454167,31.603 46.454167,31.603 44.712333,29.9 44.712333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

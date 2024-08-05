@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9d4df8dc-8a90-405b-8a3a-84e78955dee5",
+    "name": "Environmental Benchmark Studies in Casco Bay-Portland Harbor, Maine, April 1980",
+    "description": "Data of macrobenthic communities of Casco Bay and Portland Harbor, Maine sampled in April 1980 in order to provide an environmental benchmark",
+    "url": "https://obis.org/dataset/9d4df8dc-8a90-405b-8a3a-84e78955dee5",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=cascobay"
+    ],
+    "license": "Unrestricted",
+    "citation": "Larsen, P.F., A.C. Johnson. L.F. Dogget and A. Pugh. 2009. Environmental Benchmark Studies in Casco Bay - Portland Harbor, Maine, April 1980. NOAA Technical Memorandum NMFS-F/NEC-19. 173 pp.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=cascobay",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-70.2621688843 43.625667572,-70.2621688843 43.8343315125,-69.9756698608 43.8343315125,-69.9756698608 43.625667572,-70.2621688843 43.625667572"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5091",
+            "@type": "Organization",
+            "legalName": "Bigelow Laboratory for Ocean Sciences",
+            "name": "Bigelow Laboratory for Ocean Sciences",
+            "url": "https://oceanexpert.org/institution/5091"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

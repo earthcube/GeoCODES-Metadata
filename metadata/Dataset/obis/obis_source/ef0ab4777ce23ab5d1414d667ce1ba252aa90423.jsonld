@@ -1,0 +1,86 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e3a77f70-7147-4a94-a067-98b3fb9b36fc",
+    "name": "MegFeod-Black Sea",
+    "description": "The original dataset objective was to execute a comparative investigation of macrozoobenthic assemblages structure and spatial patterns along the coast of south-eastern Crimea",
+    "url": "https://obis.org/dataset/e3a77f70-7147-4a94-a067-98b3fb9b36fc",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macroben_megfeod_evco"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Petrov A. &amp; N. Revkov, 1986: MegFeod-Black Sea dataset IBSS, Sevastopol. Institute of Biology of the Southern Seas (IBSS), Ukraine",
+    "version": "2023-05-23T11:37:57.000Z",
+    "keywords": [
+        "Community diversity",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Equipment",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Equipment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/1986",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macroben_megfeod_evco",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "35.06539 44.76067,35.06539 44.94416,35.42746 44.94416,35.42746 44.76067,35.06539 44.76067"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

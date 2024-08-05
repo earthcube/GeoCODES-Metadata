@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0edaa9e1-af7c-4baa-bf11-5e1c7334193d",
+    "name": "Polychaeta",
+    "description": "Symbiotic Polychaeta of the stony coral <i>Mussismilia hispida</i> (Verril, 1868) in two islands off the coast of São Paulo State. Identified by J.M. Nogueira.",
+    "url": "https://obis.org/dataset/0edaa9e1-af7c-4baa-bf11-5e1c7334193d",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=polychaeta",
+        "http://doi.org/10.25607/tagwkb"
+    ],
+    "license": "Unrestricted",
+    "citation": "Fabio Lang da Silveira and Rubens M. Lopes Symbiotic Polychaeta of the stony coral <i>Mussismilia hispida</i> (Verril, 1868) in two islands off the coast of Sao Paulo State (OBIS South America, BRAZIL). WSAOBIS, Sao Paulo, January 2009, Version 1.",
+    "version": "2021-07-02T11:07:18.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/2006",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/tagwkb",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/tagwkb",
+        "url": "http://doi.org/10.25607/tagwkb"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=polychaeta",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-46.9122 -25.386,-46.9122 -23.7967,-45.214 -23.7967,-45.214 -25.386,-46.9122 -25.386"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3423c536-23ac-4fbf-9633-97cc911778d3",
+    "name": "Northumberland Strait multi-species trawl survey dataset",
+    "description": "Catch weight, length frequencies, and biological information for crustaceans and fish caught during the annual July-August research vessel trawl survey in Northumberland Strait (NAFO Division 4T). Abundance indices and spatial distribution patterns of commercial and non-commercial crustaceans and other groundfish.",
+    "url": "https://obis.org/dataset/3423c536-23ac-4fbf-9633-97cc911778d3",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=northumberland_trawl"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Asselin N (2021): Northumberland Strait multi-species trawl survey dataset. v1.2. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=northumberland_trawl&amp;v=1.2",
+    "version": "2022-03-29T20:45:36.000Z",
+    "keywords": [
+        "Samplingevent",
+        "occurrence",
+        "emof",
+        "trawl"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=northumberland_trawl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.14308333 45.69775,-65.14308333 47.33833333,-61.19083333 47.33833333,-61.19083333 45.69775,-65.14308333 45.69775"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6185",
+            "@type": "Organization",
+            "legalName": "Gulf Region, Fisheries and Oceans Canada",
+            "name": "Gulf Region, Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6185"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/14254",
+            "@type": "Organization",
+            "legalName": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "name": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/14254"
+        }
+    ]
+}

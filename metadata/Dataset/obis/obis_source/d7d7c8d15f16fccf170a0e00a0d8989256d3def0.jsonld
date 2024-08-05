@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/db07ed8a-5f8a-436a-8b3c-5d63e93b6d84",
+    "name": "MidMedPol: Polychaetes from midlittoral rocky shores in Greece and Italy (Mediterranean Sea)",
+    "description": "This dataset contains records of polychaetes from intertidal rocky shores in the Mediterranean Sea.",
+    "url": "https://obis.org/dataset/db07ed8a-5f8a-436a-8b3c-5d63e93b6d84",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mediterraneanpolychaetaintertidal"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Keklikoglou K, Chatzigeorgiou G, Faulwetter S, Badalamenti F, Kitsos, MS, Arvanitidis C (2013) Polychaetes from intertidal rocky shores in the Mediterranean Sea.",
+    "version": "2024-02-27T00:19:37.000Z",
+    "keywords": [
+        "Data",
+        "Intertidal environment",
+        "Rocky shores",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mediterraneanpolychaetaintertidal",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "12.8027 35.261249,12.8027 41.005812,25.751781 41.005812,25.751781 35.261249,12.8027 35.261249"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13189",
+            "@type": "Organization",
+            "legalName": "Institute for Coastal Marine Environment - National Research Council",
+            "name": "Institute for Coastal Marine Environment - National Research Council",
+            "url": "https://oceanexpert.org/institution/13189"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16122",
+            "@type": "Organization",
+            "legalName": "Aristotle University of Thessaloniki",
+            "name": "Aristotle University of Thessaloniki",
+            "url": "https://oceanexpert.org/institution/16122"
+        }
+    ]
+}

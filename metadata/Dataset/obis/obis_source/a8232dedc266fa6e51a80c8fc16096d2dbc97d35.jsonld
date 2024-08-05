@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a47ec11c-94b0-479d-b186-a5cdf82c5a95",
+    "name": "Paranaguá Bay - Plankton and Benthos Database",
+    "description": "Several plankton and benthos faunistic assessments have been performed in Paranaguá Bay (Southern Brazil) in the last 20 years. This data source includes information on zooplankton and zoobenthos distribution in different areas of the bay, ranging from oligohaline to euhaline sectors. Time-series observations are also available for zooplankton data, in a sampling program carried out from 1993 to 1996 at weekly intervals.",
+    "url": "https://obis.org/dataset/a47ec11c-94b0-479d-b186-a5cdf82c5a95",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=paranagua_bay_plankton_and_benthos_database",
+        "http://doi.org/10.25607/f0hyzm"
+    ],
+    "license": "Unrestricted",
+    "citation": "Fabio Lang da Silveira &amp; Rubens M. Lopes Paranagua Bay - Plankton and Benthos Database. In: Paranagua Bay - Plankton and Benthos . NA, Sao paulo City, January 2006, Version 1.0.",
+    "version": "2021-07-02T11:04:45.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/1996",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/f0hyzm",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/f0hyzm",
+        "url": "http://doi.org/10.25607/f0hyzm"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=paranagua_bay_plankton_and_benthos_database",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-48.798 -25.633,-48.798 -25.25,-48.221 -25.25,-48.221 -25.633,-48.798 -25.633"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

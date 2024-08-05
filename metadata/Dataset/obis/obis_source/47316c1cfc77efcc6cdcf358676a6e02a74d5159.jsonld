@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bdf60768-eed9-4ef1-9eb8-7eccaf36330b",
+    "name": "Explore Your Shore",
+    "description": "Marine Species Records submitted to the National Biodiversity Data Centre’s Citizen Science Portal from 01/01/2019 onwards",
+    "url": "https://obis.org/dataset/bdf60768-eed9-4ef1-9eb8-7eccaf36330b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=explore_your_shore_project_data",
+        "https://dx.doi.org/10.14284/563"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Biodiversity Data Centre (NBDC), Ireland; (2022): Explore Your Shore https://dx.doi.org/10.14284/563",
+    "version": "2024-02-26T23:16:55.000Z",
+    "keywords": [
+        "Marine organisms",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/2021",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/563",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/563",
+        "url": "https://dx.doi.org/10.14284/563"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=explore_your_shore_project_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.514217 51.3558172,-10.514217 55.37968114,-5.298875 55.37968114,-5.298875 51.3558172,-10.514217 51.3558172"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19590",
+            "@type": "Organization",
+            "legalName": " National Biodiversity Data Centre",
+            "name": " National Biodiversity Data Centre",
+            "url": "https://oceanexpert.org/institution/19590"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5173de13-ca01-44e0-bb59-9b9dfda40266",
+    "name": "Demersal and mega-benthic species from the MEDITS (Mediterranean International Trawl Survey) project on the Spanish continental shelf between 1994 and 2009",
+    "description": "Data on demersal and mega-benthic species were sampled in the context of the MEDITS suveys carried out on the Spanish Mediterranean continental shelf since 1994.  MEDITS is a program of bottom trawl surveys developed annually in the Mediterranean, in which all the participants use the same gear, sampling protocol and methodology, with the objective to evaluate the abundance and distribution of stocks, independently of the data provided by commercial fisheries, and to assess the impact of the fishing activity on the environment.",
+    "url": "https://obis.org/dataset/5173de13-ca01-44e0-bb59-9b9dfda40266",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=medits-spain-v2",
+        "https://dx.doi.org/10.14284/420"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Massuti, Enric; García, Cristina; Guijarro, Beatriz; Quetglas, Antoni; Gil de Sola, Luis; Instituto Español de Oceanografía (IEO); Spain; (2017): Demersal and mega-benthic species from the MEDITS (Mediterranean International Bottom Trawl Survey) program at the Spanish continental shelf and upper slope between 1994 and 2009. https://dx.doi.org/10.14284/420",
+    "version": "2023-12-08T17:11:29.000Z",
+    "keywords": [
+        "Cornide de Saavedra",
+        "Miguel Oliver",
+        "lowered unmanned submersible",
+        "research vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length of sampling track",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Length of sampling track"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sample duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture width",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/",
+            "description": "Sampling device aperture width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of measurement platform relative to ground surface {speed over ground}",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/APSAZZ01/",
+            "description": "Speed of measurement platform relative to ground surface {speed over ground}"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Wet weight biomass of biological entity specified elsewhere per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/2009",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/420",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/420",
+        "url": "https://dx.doi.org/10.14284/420"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=medits-spain-v2",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.24 35.89,-5.24 42.39,4.52 42.39,4.52 35.89,-5.24 35.89"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18010",
+            "@type": "Organization",
+            "legalName": "Instituto Español de Oceanografía",
+            "name": "Instituto Español de Oceanografía",
+            "url": "https://oceanexpert.org/institution/18010"
+        }
+    ]
+}

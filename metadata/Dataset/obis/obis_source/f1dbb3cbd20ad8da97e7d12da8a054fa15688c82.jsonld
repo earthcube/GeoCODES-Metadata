@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bf823e19-82eb-4da6-be39-2daf297d3a92",
+    "name": "BRUVS data from Elizabeth and Middleton Reefs, Tasman Sea, Australia (2020)",
+    "description": "Sampling was undertaken in Lord Howe Australian Marine Park at Elizabeth and Middleton Reefs using NESP BRUV and Sampling SOPs (https://marine-sampling-field-manual.github.io/). Partners included IMAS, Geoscience Australia, NSW Fisheries.\nSampling was done using a BAS spatially balanced design as per detailed in Carroll, A.G., Monk, J., Barrett, N., Nichol, S., Dalton, S.J., Dando, N., Siwabessy, J., Leplastrier, A., Evans, H., Huang, Z., Hulls, J., Brown, K., Swete, T., Turak, E., Williams, J., Jordan, J., Harasti, D., Louden, B., Hammond, M., Linklater, M., Ingleton, T., Reeks, C., Lees, L., Toohey, L., Henderson, D. (2020). Australian Marine Park Baseline and Monitoring Survey: Middleton and Elizabeth Reefs, Lord Howe Marine Park, Post Survey Report. Report to the National Environmental Science Program, Marine Biodiversity Hub. Geoscience Australia. Pages 126. A mixture of cannon hfg 25/40 and gopro3/4 on medium FoV were used.\nMetadata and data from GlobalArchive (https://globalarchive.org/geodata/data/campaign/get/993) accessed 2021-08-31",
+    "url": "https://obis.org/dataset/bf823e19-82eb-4da6-be39-2daf297d3a92",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=globalarchive_269_emr"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T02:17:07.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Forked Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Forked Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=globalarchive_269_emr",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "159.02576 -29.94691,159.02576 -29.40132,159.14598 -29.40132,159.14598 -29.94691,159.02576 -29.94691"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13402",
+            "@type": "Organization",
+            "legalName": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "name": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "url": "https://oceanexpert.org/institution/13402"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

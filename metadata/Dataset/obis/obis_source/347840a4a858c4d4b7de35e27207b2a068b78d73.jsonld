@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2a8ddd06-2a18-4fae-81cc-5f5bfe0ef335",
+    "name": "USGS Patuxent Wildlife Research Center Seabirds Compendium",
+    "description": "Several bureaus within the Department of Interior compiled available information from seabird observation datasets from the Atlantic Outer Continental Shelf into a single database, with the goal of conducting research and informing coastal and offshore planning activities.  The cooperators were the Bureau of Ocean Energy Management's (BOEM) Environmental Studies Program (http://www.boem.gov/Environmental-Stewardship/Environmental-Studies/Environmental-Studies.aspx), the U.S. Fish and Wildlife Service's (USFWS) Division of Migratory Bird Management (http://www.fws.gov/migratorybirds/) and the U.S. Geological Survey's (USGS) Patuxent Wildlife Research Center (http://www.pwrc.usgs.gov).  The resulting product is the Atlantic Offshore Seabird Dataset Catalog, which characterizes the survey effort and bird observations that have been collected across space and time. As of December 2013, the database contains over 70 datasets from 1906-2013 with about 300,000 records of seabird observations. Data were initially provided as summary web mapping services, with web feature services (for downloading and looking at single-species data) at the linkage given elsewhere in this document.  A full archive of the scientific data is available at the National Oceanic and Atmospheric Administration (NOAA) National Oceanographic Data Center (NODC).  The data archived at NODC is comprised of roughly 50 datasets from 1938-2013 with about 260,000 observation records.  This archive is a subset of the main database, excluding datasets from surveys where the scientific design was not specifically designed to sample marine birds (e.g. coastal portions of National Audubon Society's Christmas Bird Counts).",
+    "url": "https://obis.org/dataset/2a8ddd06-2a18-4fae-81cc-5f5bfe0ef335",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=usgs_pwrc_seabirdscompendium"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2021-08-27T20:59:10.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1938/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=usgs_pwrc_seabirdscompendium",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-95.39556 24.2343,-95.39556 63.83333,-8.55056 63.83333,-8.55056 24.2343,-95.39556 24.2343"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19363",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey – Patuxent Wildlife Research Center",
+            "name": "U.S. Geological Survey – Patuxent Wildlife Research Center",
+            "url": "https://oceanexpert.org/institution/19363"
+        }
+    ]
+}

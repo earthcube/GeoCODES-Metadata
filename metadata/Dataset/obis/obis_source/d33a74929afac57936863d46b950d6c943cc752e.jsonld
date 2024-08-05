@@ -1,0 +1,128 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ef55cd8-05a1-4569-8e17-ceb224e40f59",
+    "name": "Wilkinson Basin Time Series Station (WBTS): Mesozooplankton 2004-2017",
+    "description": "Mesozooplankton time series data collected at Wilkinson Basin Time Series (WBTS) between January 1, 2005 and July 19, 2017. Sampling was conducted in collaboration with Drs. Doug Vandemark and Joe Salisbury and Research Associate Shawn Shellito at the University of New Hampshire (UNH).  Between 2004-2008, the WBTS station was sampled at approximately monthly intervals by the Coastal Ocean Observing and Analysis Center (COOA: http://www.opal.sr.unh.edu/) at the University of New Hampshire, where J. Runge was a research faculty member until moving to the University of Maine in October, 2006.  The WBTS station (known as Station WB-7 during the COOA project) was the furthest station on a transect extending out from Portsmouth Harbor. Funding for COOA ended in 2008 and the Wilkinson Basin was sampled at much less frequent intervals without zooplankton sample collection between September, 2008 and April, 2012.  Between April 6, 2012 and May 21, 2013, the WBTS station was sampled at monthly intervals including zooplankton collection with the support of an NSF RAPID award to J. Runge (OCE-.1235920). In 2014, WBTS was sampled on three occasions. With the NSF award OCE- 1459087, entitled “Collaborative Research: Mechanisms supporting persistence of a key plankton species during climate change on the Northwest Atlantic continental shelf”, funding for monthly sampling at the WBTS station was supported between March, 2015 to July, 2017. The zooplankton samples were collected and analyzed by Rebecca Jones (2005-2011) and Cameron Thompson (2012-2017) under the supervision of J.Runge. Hydrographic and other environmental data were collected by the OPAL group at UNH under the supervision of J. Salisbury and D. Vandemark.",
+    "url": "https://obis.org/dataset/5ef55cd8-05a1-4569-8e17-ceb224e40f59",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=gom_wbts_mesozooplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Runge J, Karp Boss L, Kinnison M, Poulton N, Teegarden G, Vandemark D (2023): Wilkinson Basin Time Series Station (WBTS): Mesozooplankton 2004-2017. v1.4. United States Geological Survey. Dataset/Samplingevent. https://www1.usgs.gov/obis-usa/ipt/resource?r=gom_wbts_mesozooplankton&amp;v=1.4",
+    "version": "2023-01-18T16:42:56.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Total Dilution factor CFIN",
+            "url": "http://vocab.nerc.ac.uk/collection/",
+            "description": "Total Dilution factor CFIN"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass per area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "description": "biomass per area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dilution factor",
+            "url": "http://vocab.nerc.ac.uk/collection/",
+            "description": "dilution factor"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "net depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DXPHPRST/",
+            "description": "net depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "net type",
+            "url": "http://vocab.nerc.ac.uk/collection/L05/current/22/",
+            "description": "net type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "plankton net area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "plankton net area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sample dry weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "description": "sample dry weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sample split",
+            "url": "http://vocab.nerc.ac.uk/collection/",
+            "description": "sample split"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "volume filtered",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/VOL/",
+            "description": "volume filtered"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=gom_wbts_mesozooplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.8822 42.85,-69.8822 42.9568,-69.53 42.9568,-69.53 42.85,-69.8822 42.85"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5091",
+            "@type": "Organization",
+            "legalName": "Bigelow Laboratory for Ocean Sciences",
+            "name": "Bigelow Laboratory for Ocean Sciences",
+            "url": "https://oceanexpert.org/institution/5091"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23070",
+            "@type": "Organization",
+            "legalName": "United States Marine Biodiversity Observation Network",
+            "name": "United States Marine Biodiversity Observation Network",
+            "url": "https://oceanexpert.org/institution/23070"
+        }
+    ]
+}

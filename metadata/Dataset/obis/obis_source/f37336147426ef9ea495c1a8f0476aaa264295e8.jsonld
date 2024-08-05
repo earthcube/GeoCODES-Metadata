@@ -1,0 +1,66 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bd1a0f89-afb6-45d9-9a33-eb7504f7d76e",
+    "name": "Algunos Copépodos de la Fachada Atlántica de Venezuela",
+    "description": "Abundancia y talla de los copépodos de 15 estaciones seleccionadas para una tesis de grado. Las muestras corresponden a parte del proyecto de “Estudio de la comunidad Zooplanctónica de la Fachada Atlántica de Venezuela” las cuales fueron obtenidas durante el macro proyecto “Estudio Geológico – Ambiental de la Fachada Atlántica” durante octubre 2001",
+    "url": "https://obis.org/dataset/bd1a0f89-afb6-45d9-9a33-eb7504f7d76e",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=copepodos_fachada_atlantica_2001"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Camisotti H, Pérez J (2022): Algunos Copépodos de la Fachada Atlántica de Venezuela. v1.11. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=copepodos_fachada_atlantica_2001&amp;v=1.11",
+    "version": "2022-10-24T07:46:11.000Z",
+    "keywords": [
+        "Copépodos",
+        "Fachada Atlántica",
+        "Venezuela",
+        "CaribeSur",
+        "ID:BID-CA2020-025-NAC.",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Total length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TL01XX01/",
+            "description": "Total length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=copepodos_fachada_atlantica_2001",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-60.565 8.8033,-60.565 10.2766,-57.705 10.2766,-57.705 8.8033,-60.565 8.8033"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18896",
+            "@type": "Organization",
+            "legalName": "Universidad Central de Venezuela",
+            "name": "Universidad Central de Venezuela",
+            "url": "https://oceanexpert.org/institution/18896"
+        }
+    ]
+}

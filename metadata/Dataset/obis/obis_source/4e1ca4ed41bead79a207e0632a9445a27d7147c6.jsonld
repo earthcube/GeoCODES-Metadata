@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5e6d5906-af9e-4b8a-95d5-e0b0bc21e5c5",
+    "name": "NEFSC Survey 1991",
+    "description": "Original provider:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nDataset credits:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nAbstract:\nThe aerial survey period was October 11-24, 1991.  The survey was completed in 14 days with 8 flight days.  The survey was based out of Bangor International Airport in Maine, and covered the Gulf of Maine and Massachusetts Bay area.  A total of 42.2 hr were flown, covering over 4,600 mi of trackline.\n\nThe survey covered the area of the 1991 harbor porpoise shipboard survey in order to get an indication of the fall distribution of harbor porpoise, and surveyed Massachusetts Bay primarily to determine distribution and density of pilot whales during the time of mass strandings on Cape Cod. \n\nSupplemental information:\n[2014-03-13] The platform of this dataset was incorrect. It was classified as a boat survey but it is an aerial survey.\nThe metadata also described a wrong survey. These issues are fixed now. The updated abstract was copied from Item 15 in the following URL upon provider's permission:\nhttp://www.nefsc.noaa.gov/publications/tm/tm120/appendices/tm120d.html\n\nIn addition to the sightings data, effort data were recorded every half hour or whenever conditions changed. This dataset, therefore, should be used with the effort data.",
+    "url": "https://obis.org/dataset/5e6d5906-af9e-4b8a-95d5-e0b0bc21e5c5",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_111"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Palka, D. 2014. NEFSC Survey 1991. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/111) on yyyy-mm-dd.",
+    "version": "2021-09-08T16:44:22.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Aircraft,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1991",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_111",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-70.58 41.756,-70.58 44.602,-65.36 44.602,-65.36 41.756,-70.58 41.756"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

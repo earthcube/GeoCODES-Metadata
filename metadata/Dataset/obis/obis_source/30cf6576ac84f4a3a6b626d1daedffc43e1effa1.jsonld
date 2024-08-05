@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b0dd257d-fc59-4621-ad78-99bf3c872a0d",
+    "name": "Elasmobranch sightings along the South African coastline",
+    "description": "Elasmobranch sightings along the South African coastline submitted through the ELMO (South African Elasmobranch Monitoring) citizen science project. Data include underwater, terrestrial and aerial observations.",
+    "url": "https://obis.org/dataset/b0dd257d-fc59-4621-ad78-99bf3c872a0d",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=elmo"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Schroeter, L.S. 2016. ELMO (South African Elasmobranch Monitoring). Citizen Science",
+    "version": "2020-12-02T14:08:28.000Z",
+    "keywords": [
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=elmo",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-34.2718 18.4599,-34.2718 32.893689,-26.841456 32.893689,-26.841456 18.4599,-34.2718 18.4599"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

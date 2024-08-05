@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e64fd081-4b4f-4883-bdfb-10f829816c36",
+    "name": "CSIRO, Australian National Algae Culture Collection (ANACC), Global, 1949-2008",
+    "description": "The Australian National Algae Culture Collection (ANACC) is housed at the Hobart laboratories of CSIRO, Australia. The collection consists of 1000 strains of more than 300 microalgae species, including Bacillariophyta (diatoms), Chlorophyta (unicellular green algae including Chlorophyceae, Prasinophyceae and Trebouxiophyceae), Chrysophyta (golden algae), Cryptophyta (cryptomonads), Cyanophyta (blue-green algae or cyanobacteria), Dinophyta (dinoflagellates), Euglenophyta (euglenoid flagellates), Eustigmatophyceae (eustigmatophytes), Haptophyta (prymnesiophytes), Raphidophyta (chloromonads) and Rhodophyta (red algae). 779 strains have associated georeferenced data and information on these is supplied to OBIS, the Ocean Biogeographic Information System. A small proportion of the strains (mainly of Cyanophyta) represent freshwater species, with the majority being marine or brackish. Some strains have originated from other algal culture collections worldwide, while the majority are new isolates from the Australian region. For more information see https://www.csiro.au/en/about/facilities-collections/collections/anacc",
+    "url": "https://obis.org/dataset/e64fd081-4b4f-4883-bdfb-10f829816c36",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_anacc"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "CSIRO - Australian National Algae Culture Collection",
+    "version": "2022-06-07T05:42:26.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1950/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_anacc",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-122.27167 -68.5,-122.27167 60,172.9062223 60,172.9062223 -68.5,-122.27167 -68.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

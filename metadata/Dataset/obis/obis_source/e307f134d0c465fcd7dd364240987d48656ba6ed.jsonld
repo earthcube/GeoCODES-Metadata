@@ -1,0 +1,66 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/680d54a2-3504-4989-be97-581023102d7b",
+    "name": "Occurrences of HAB species from Northern Benguela (Namibia)",
+    "description": "Occurrences of HAB species from Northern Benguela (Namibia).",
+    "url": "https://obis.org/dataset/680d54a2-3504-4989-be97-581023102d7b",
+    "sameAs": [
+        "http://ipt.iobis.org/hab/resource?r=hab_benguela"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2021-02-18T19:59:47.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "quantity",
+            "url": "",
+            "description": "quantity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Yessotoxins: homo-YTX and OH-YTX",
+            "url": "",
+            "description": "Yessotoxins: homo-YTX and OH-YTX"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1964/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/hab/archive.do?r=hab_benguela",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.213944 -23.005069,14.213944 -22.902933,14.481881 -22.902933,14.481881 -23.005069,14.213944 -23.005069"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18439",
+            "@type": "Organization",
+            "legalName": "United Nations Educational, Scientific and Cultural Organization",
+            "name": "United Nations Educational, Scientific and Cultural Organization",
+            "url": "https://oceanexpert.org/institution/18439"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/34991b8f-e6a9-4870-812c-7ca24a729d13",
+    "name": "Gulf of Gdansk",
+    "description": "Data on macrobenthos in the Gulf of Gdansk collected as part of the phD thesis of Janas U.",
+    "url": "https://obis.org/dataset/34991b8f-e6a9-4870-812c-7ca24a729d13",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macroben_gulfofgdansk",
+        "https://dx.doi.org/10.14284/262"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Janas U., 2002: Gulf of Gdansk dataset. University of Gdansk; Institute of Oceanography; Department of Marine Biology and Ecology, Poland https://dx.doi.org/10.14284/262",
+    "version": "2023-12-08T17:11:19.000Z",
+    "keywords": [
+        "Macrobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sediment",
+            "url": "",
+            "description": "sediment"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/2002",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/262",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/262",
+        "url": "https://dx.doi.org/10.14284/262"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macroben_gulfofgdansk",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "18.066659927368164 54.04766082763672,18.066659927368164 54.08261489868164,19.003299713134766 54.08261489868164,19.003299713134766 54.04766082763672,18.066659927368164 54.04766082763672"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19441",
+            "@type": "Organization",
+            "legalName": "University of Gdansk – Institute of Oceanography – Department of Marine Biology and Ecology – Marine Invertebrates Ecophysiology Laboratory",
+            "name": "University of Gdansk – Institute of Oceanography – Department of Marine Biology and Ecology – Marine Invertebrates Ecophysiology Laboratory",
+            "url": "https://oceanexpert.org/institution/19441"
+        }
+    ]
+}

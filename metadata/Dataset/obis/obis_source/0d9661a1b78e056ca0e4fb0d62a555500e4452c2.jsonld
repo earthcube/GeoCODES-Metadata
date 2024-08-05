@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/78987543-213d-464c-9bb0-a1729a91a505",
+    "name": "Baltic Seabirds Transect Surveys",
+    "description": "Original provider:\nInstitute of Ecology of Vilnius University\n\nDataset credits:\nGediminas Vaitkus, Institute of Ecology of Vilnius University\n\nAbstract:\nSeabirds transect surveys were conducted in Baltic Sea from 1992 to 1999. Standard seabird offshore sampling techniques assume that line transect of 300 m width is basically used for counting birds sitting on the water surface, whereas the 'snap-shot' method is used for the counting of flying birds at strongly fixed intervals of time.\n\nAdditional efforts were put into studies of the offshore seabird and waterfowl movements. We recorded flying\nbirds along 1,000 m wide transect over the 'classic' 300 m transect used for calculations of seabird densities\nduring 'snap-shots'.\n\nPurpose:\nThe main purpose of our work was to investigate spatial structure and dynamics of the offshore seabird populations and to assess their status in specific conditions of the Baltic Sea marine ecosystem. The main tasks of our work were the following:\n-Study species composition, abundance and spatial distribution of seabird populations in different seasons of the year, distinguish dominating species and the most important seabird concentration areas in the eastern Baltic; \n-Study community structure of inter-specific assemblages and ecological adaptations of wintering seabird populations; \n-Study the processes of spatial dynamics and trends of spatial structure in regional seabird populations within the gradient of winter climatic conditions; and \n-Study offshore migratory routes and temporary concentration areas of seabirds in the Baltic Proper.\n\nSupplemental information:\n[2020-10-01] The following invalid species names were corrected according to the Integrated Taxonomic Information System (ITIS).\nLarus ridibundus (176835) =&gt; Chroicocephalus ridibundus (824041)\nCorvus monedula (179746) =&gt; Coloeus monedula (916629)\nLittle Gull: Larus minutus (176840) =&gt; Hydrocoloeus minutus (824065)\nLittle Tern: Sterna albifrons (176899) =&gt; Sternula albifrons (824126)\nMergus albellus (175190) =&gt; Mergellus albellus (175196)\n\n[2015-03-24] There were 199 records with a value of \"EMPTY\" or \"empty\" in the species column. These records are removed.",
+    "url": "https://obis.org/dataset/78987543-213d-464c-9bb0-a1729a91a505",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_358"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Zydelis, R. 2006. Baltic Seabirds Transect Surveys. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/358) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:25:18.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings,Seabirds,transect surveys,density,distribution",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_358",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "17.68533 54.83183,17.68533 58.88333,24.36367 58.88333,24.36367 54.83183,17.68533 54.83183"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

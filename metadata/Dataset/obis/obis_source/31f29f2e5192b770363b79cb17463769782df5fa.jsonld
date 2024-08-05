@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f957689d-e479-4a3a-9e06-d390ff3d44c9",
+    "name": "Species list of benthic invertebrates and phytobenthos from eastern side of Adriatic Sea - Vir-Pag-Konavle 1986-2009",
+    "description": "Provided dataset includes species list of benthic invertebrates and phytobenthos, collected by divers using direct sampling method of randomly chosen samples. Samples were collected under scope of monitoring program that covered eastern side of middle and south Adriatic.",
+    "url": "https://obis.org/dataset/f957689d-e479-4a3a-9e06-d390ff3d44c9",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=iof_bentvpk_1986_2009"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Antolić B, Žuljević A, Despalatović M, Cvitković I (2021): Species list of benthic invertebrates and phytobenthos from eastern side of Adriatic Sea - Vir-Pag-Konavle 1986-2009",
+    "version": "2023-05-23T12:15:41.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "surface area"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=iof_bentvpk_1986_2009",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "15.04427778 42.63327778,15.04427778 44.47338889,18.11902778 44.47338889,18.11902778 42.63327778,15.04427778 42.63327778"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9824",
+            "@type": "Organization",
+            "legalName": "Institute of Oceanography and  Fisheries Croatia",
+            "name": "Institute of Oceanography and  Fisheries Croatia",
+            "url": "https://oceanexpert.org/institution/9824"
+        }
+    ]
+}

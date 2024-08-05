@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f843542b-57aa-45a1-8a37-ae770b47a932",
+    "name": "Industry Sea Lice Counts at BC Marine Finfish Aquaculture Sites, 2020 and Ongoing",
+    "description": "Fisheries and Oceans Canada’s (DFO’s) conditions of licence for marine finfish aquaculture contain monitoring and intervention requirements to minimize the potential exposure of wild and farmed fish to sea lice. The Industry Sea Lice Abundance Counts report is updated monthly. It shows which Atlantic salmon farms were actively raising fish during the month and the results of industry's monthly sea lice monitoring.",
+    "url": "https://obis.org/dataset/f843542b-57aa-45a1-8a37-ae770b47a932",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=industrysealice_2020_ongoing"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Aquaculture Management Division . (2021): Industry Sea Lice Counts at BC Marine Finfish Aquaculture Sites, 2020 and Ongoing. v1.5. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=industrysealice_2020_ongoing&amp;v=1.5",
+    "version": "2022-03-22T20:49:47.000Z",
+    "keywords": [
+        "events; occurrences; emof; Fisheries and Oceans Canada; Pacific Region; Aquaculture; fish farming; salmon farming; sea lice; British Columbia; BC"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Number of sites sampled",
+            "url": "",
+            "description": "Number of sites sampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average number of parasites per host fish",
+            "url": "",
+            "description": "Average number of parasites per host fish"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "yearClass",
+            "url": "",
+            "description": "yearClass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=industrysealice_2020_ongoing",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-128.57494 49.23503,-128.57494 52.79609,-123.83407 52.79609,-123.83407 49.23503,-128.57494 49.23503"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

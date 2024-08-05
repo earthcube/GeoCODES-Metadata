@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fcb93dda-56d4-43a9-b4e4-314bdd7215fc",
+    "name": "Phytoplankton data collected during R/V Issledovatel cruise in September 1948",
+    "description": "Phytoplankton data collected by the IBSS staff on the R/V Issledovatel in several stations in the Black Sea during the cruise 1 in September 1948. This dataset contains abundance data (individuals per liter) for phytoplankton taxa. No additional metadata is available.",
+    "url": "https://obis.org/dataset/fcb93dda-56d4-43a9-b4e4-314bdd7215fc",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phyto_black_sea_1948"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Phytoplankton data collected during R/V Issledovatel cruise in September 1948. Institute of Biology of the Southern Seas of the National Academy of Sciences of Ukraine. 2013.",
+    "version": "2024-02-26T23:19:43.000Z",
+    "keywords": [
+        "Digitization",
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1948/1948",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phyto_black_sea_1948",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "32.78333 42.95,32.78333 43.1,33.00667 43.1,33.00667 42.95,32.78333 42.95"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

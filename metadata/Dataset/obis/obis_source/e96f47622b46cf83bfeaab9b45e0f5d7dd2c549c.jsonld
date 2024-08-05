@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0e6462e3-28fd-4a90-85e2-34718c6d795a",
+    "name": "Biomass of Characteristic Intertidal and Subtidal Taxa in the N of Spain from 1992 to 2003",
+    "description": "The second dataset was developed with the objective of the ecological status assessment in marine areas where sewage outfall discharges were projected. For this purpose, several field campaigns were carried out along the north coast of Spain (Avilés, Gijón, Saja-Besaya, Santander, Santoña, Urdaibai and San Sebastián-Pasajes) between 1998 and 2003. In each of these sites transects perpendicular to the coast were established. Then, samples were taken both in the intertidal and shallow subtidal to obtain the biomass of macroalgae taxa. The main characteristic and canopy taxa of the area were selected: Bifurcaria bifurcata, Cystoseira baccata, Cystoseira tamariscifolia, Gelidium corneum, Gelidium spinosum, Laminaria hyperborea, Laminaria ochroleuca, Saccorhiza polyschides and Stypocaulon scoparium.",
+    "url": "https://obis.org/dataset/0e6462e3-28fd-4a90-85e2-34718c6d795a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=biomass_intertidal_subtidal_n_spain_1992_2003"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Juanes, A. J; Environmental Hydraulics Institute (IHCantabria), University of Cantabria, Spain (2019): Biomass of characteristic intertidal and subtidal taxa in the N of Spain from 1992 to 2003",
+    "version": "2023-05-23T11:40:32.000Z",
+    "keywords": [
+        "Ecological monitoring",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass (Dry Weight)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "description": "Biomass (Dry Weight)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass (Fresh Weight)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Biomass (Fresh Weight)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=biomass_intertidal_subtidal_n_spain_1992_2003",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.988330714 43.296342,-5.988330714 43.62630928,-1.752186 43.62630928,-1.752186 43.296342,-5.988330714 43.296342"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14102",
+            "@type": "Organization",
+            "legalName": "Environmental Hydraulics Institute",
+            "name": "Environmental Hydraulics Institute",
+            "url": "https://oceanexpert.org/institution/14102"
+        }
+    ]
+}

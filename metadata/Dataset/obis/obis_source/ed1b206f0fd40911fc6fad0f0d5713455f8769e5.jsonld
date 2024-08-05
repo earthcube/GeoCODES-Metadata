@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/562af5fe-eb3e-451a-8c1b-fc8165f76da2",
+    "name": "Location of  stopping sites from satellite tracking of 25 bar-tailed godwits (Limosa lapponica)  in the East Asian–Australasian Flyway (EAAF). (2015-2017)",
+    "description": "Bar-tailed godwits were captured by cannon netting at two non-breeding sites in northwest Australia: at the northern beaches of Roebuck Bay (17.98°S, 122.35°E) in October 2014 and 2015 and February 2017 and at the central and northern portions of Eighty Mile Beach (19.40°S, 121.27°E), in February 2017.  Stopping sites in the East Asian–Australasian Flyway (EAAF) (including ‘staging sites’, i.e. sites where migrating birds make long stops, and ‘stopover sites’ where birds make short stops), were extracted by first clustering consecutive points where rate of movement was under 5 km h−1 and then grouping all clusters within 20 km of each other.\n\nStopping sites data accessed from cited paper on 2022-12-01. There are three other datasets in OBIS linked to the East Asian–Australasian Flyway (EAAF).",
+    "url": "https://obis.org/dataset/562af5fe-eb3e-451a-8c1b-fc8165f76da2",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bar_tailed_godwits_eaaf"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Ying-Chi Chan, T. Lee Tibbitts, Dmitry Dorofeev, Chris J. Hassell and Theunis Piersma (2022) Hidden in plain sight: migration routes of the elusive Anadyr bar-tailed godwit revealed by satellite tracking. Journal of Avian Biology 2022: e02988. doi:10.1111/jav.02988",
+    "version": "2022-12-08T23:05:11.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bar_tailed_godwits_eaaf",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.58929 -10.60015,113.58929 75.75174,166.2373 75.75174,166.2373 -10.60015,113.58929 -10.60015"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19584",
+            "@type": "Organization",
+            "legalName": "Royal Netherlands Institute for Sea Research — Estuarine & Delta Systems",
+            "name": "Royal Netherlands Institute for Sea Research — Estuarine & Delta Systems",
+            "url": "https://oceanexpert.org/institution/19584"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

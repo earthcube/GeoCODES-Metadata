@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8143329b-ae80-4bf3-941f-dad54de1b9c0",
+    "name": "Australian Seagrass distribution Points Dataset 2005",
+    "description": "Australian Seagrass distribution (2005 - Points Dataset) as subsetted from Global Distribution of Seagrasses. The seagrass dataset has been compiled by UNEP-WCMC in collaboration with Dr Frederick T. Short, University of New Hampshire, USA to show the global distribution of seagrass species. This dataset has been created from multiple sources and was used in the creation of the “World Atlas of Seagrasses”(2003). This polygon feature dataset is an update of the data used in the Atlas and is a unique data holding about the state of the world’s seagrasses. For a complete overview of global seagrass distribution this dataset should be displayed together with the associated point dataset.",
+    "url": "https://obis.org/dataset/8143329b-ae80-4bf3-941f-dad54de1b9c0",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=acef_seagrass_2005"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "See https://acef.tern.org.au/geonetwork/srv/eng/main.home?uuid=0017D0D1-FFD1-45B9-93AB-B7169A9ED4DE for constraints",
+    "version": "2022-06-13T23:28:27.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=acef_seagrass_2005",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.01863 -43.04363,113.01863 -10.49621,159.08001 -10.49621,159.08001 -43.04363,113.01863 -43.04363"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9622",
+            "@type": "Organization",
+            "legalName": "UNEP World Conservation Monitoring Centre",
+            "name": "UNEP World Conservation Monitoring Centre",
+            "url": "https://oceanexpert.org/institution/9622"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19608",
+            "@type": "Organization",
+            "legalName": "University of Queensland — Global Change Institute",
+            "name": "University of Queensland — Global Change Institute",
+            "url": "https://oceanexpert.org/institution/19608"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

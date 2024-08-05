@@ -1,0 +1,115 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1662ded3-666e-4e85-b4a7-fe7f103521bd",
+    "name": "Soft-bottom macrozoobenthos from the littoral zone of the Natura 2000 MPA \"Ropotamo\", Southern Bulgarian Black Sea (2013)",
+    "description": "Abundance (individuals/m2) of macrozoobenthic taxa at littoral/upper infralittoral soft-bottom stations in the Natura 2000 MPA \"Ropotamo\" (BG0001001), southern Bulgarian Black Sea. The data were collected during field surveys of IBER-BAS in 2013 as part of project COCONET. The dataset also contains a visual description of sediment type at the stations, and a habitat type classification to EUNIS L3.  ",
+    "url": "https://obis.org/dataset/1662ded3-666e-4e85-b4a7-fe7f103521bd",
+    "sameAs": [
+        "http://gp.sea.gov.ua:8082/ipt/resource?r=macrozoobenthos_sand_coconet_iber-bas"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Klayn S, Karamfilov V (2021): Soft-bottom macrozoobenthos from the littoral zone of the Natura 2000 MPA Ropotamo, Southern Bulgarian Black Sea (2013). v1. Institute of Biodiversity and Ecosystem Research, Bulgarian Academy of Sciences (IBER-BAS). Dataset/Samplingevent. http://gp.sea.gov.ua:8082/ipt/resource?r=macrozoobenthos_sand_coconet_iber-bas&amp;v=1.0",
+    "version": "2021-06-30T06:52:51.000Z",
+    "keywords": [
+        "Black Sea",
+        "Marine parks",
+        "Coastal zone",
+        "Littoral zone",
+        "Marine invertebrates",
+        "Community composition",
+        "Abundance",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Description of lithology of sediment by visual estimation",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SEDTYCAT/1/",
+            "description": "Description of lithology of sediment by visual estimation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Habitat characterisation",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/HBCH/",
+            "description": "Habitat characterisation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lower sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Lower sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample extraction method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100005/",
+            "description": "Sample extraction method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance per square metre",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance per square metre"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/S11/current/",
+            "description": "Life stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://gp.sea.gov.ua:8082/ipt/archive.do?r=macrozoobenthos_sand_coconet_iber-bas",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "27.71166 42.21778,27.71166 42.36599,27.7911 42.36599,27.7911 42.21778,27.71166 42.21778"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19357",
+            "@type": "Organization",
+            "legalName": "Bulgarian Academy of Sciences –The Institute of Biodiversity and Ecosystem Research",
+            "name": "Bulgarian Academy of Sciences –The Institute of Biodiversity and Ecosystem Research",
+            "url": "https://oceanexpert.org/institution/19357"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e4a2fe06-f082-4f36-9165-73263a121508",
+    "name": " MBON POLE TO POLE:  ROCKY SHORE BIODIVERSITY OF CONCEPCION CHILE",
+    "description": "The MBON Pole to Pole effort seeks to develop a framework for the collection, use and sharing of marine biodiversity data in a coordinated, standardized manner leveraging on existing infrastructure managed by the Global Ocean Observing System (GOOS; IOC-UNESCO), the GEO Biodiversity Observation Network (GEO BON), and the Ocean Biogeographic Information System (OBIS). The MBON Pole to Pole aims to become a key resource for decision-making and management of living resource across countries in the Americas for reporting requirements under the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), Aichi Targets of the Convention of Biological Diversity (CBD), and the UN 2030 Agenda for Sustainable Development Goals (SDGs).\nThis collection corresponds to the species registered on intertidal rocky shores of different sites in the Concepción Province, Central Chile, using the MBON Pole to Pole sampling protocol for Rocky Shores, with funding from AlgaLAB (Laboratorio de Estudios Algales de la Universidad de Concepción y Centro FONDAL IDEAL 15150003)",
+    "url": "https://obis.org/dataset/e4a2fe06-f082-4f36-9165-73263a121508",
+    "sameAs": [
+        "http://ipt.iobis.org/mbon/resource?r=mbon_rs_chile"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Macaya E, Jeldres R (2019): MBON POLE TO POLE:  ROCKY SHORE BIODIVERSITY OF CONCEPCION CHILE. v1.1. Caribbean OBIS Node. Dataset/Samplingevent. http://ipt.iobis.org/mbon/resource?r=mbon_rs_chile&amp;v=1.1",
+    "version": "2019-08-19T21:44:41.000Z",
+    "keywords": [
+        "MBON",
+        "Pole To Pole",
+        "Concepcion",
+        "Dichato",
+        "Cocholgüe",
+        "Central Chile"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "cover",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P06/current/UMSQ/1/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/mbon/archive.do?r=mbon_rs_chile",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-72.980834 -36.609013,-72.980834 -36.5392,-72.93358 -36.5392,-72.93358 -36.609013,-72.980834 -36.609013"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

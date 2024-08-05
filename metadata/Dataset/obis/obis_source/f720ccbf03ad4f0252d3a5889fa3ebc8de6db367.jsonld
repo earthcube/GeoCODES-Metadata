@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0724e96a-c4b4-4ab9-adde-ab6bf621b616",
+    "name": "Zooplankton Species Biomass and Abundance Data, Arctic Marine Biodiversity Observing Network (AMBON) Chukchi Sea research cruise on the Norseman II, 11 August - 3 September 2015",
+    "description": "This dataset contains zooplankton species biomass and abundance data collected in the Chukchi Sea during the 9 August - 3 September 2015 Arctic Marine Biodiversity Observing Network (AMBON) research cruise on the vessel Norseman II. This dataset contains three comma separate values (csv) files. The data were collected from zooplankton samples caught with traditional 150µm plankton nets and taxonomically identified. Each data file include the location, date, time, depth, and identification of zooplankton taxa collected during the 2015 AMBON cruise. The data in the file named AMBON2015_Zooplankton_Abundance_150_DC.csv and AMBON2015_505_Zooplankton_Abundance_DWC.csv consists of abundance per taxon of zooplankton. The data in the file named AMBON2015_Zooplankton_Biomass_150_DC.csv and AMBON2015_505_Zooplankton_Biomass_DWC.csv consists of biomass per taxon of zooplankton. These data files are presented in a table structure using Darwin Core term names as column names. This dataset also contains the file AMBON_station_masterlist.csv, describing stations sampled during AMBON cruises.",
+    "url": "https://obis.org/dataset/0724e96a-c4b4-4ab9-adde-ab6bf621b616",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=ambon_zooplankton_2015"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-03-29T16:10:54.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance_[#/m3]",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600002/",
+            "description": "Abundance_[#/m3]"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass_[mg dw/m3]",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600086/",
+            "description": "Biomass_[mg dw/m3]"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=ambon_zooplankton_2015",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-168.9545 67.6723,-168.9545 72.498,-159.3966 72.498,-159.3966 67.6723,-168.9545 67.6723"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18955",
+            "@type": "Organization",
+            "legalName": "Axiom Data Science",
+            "name": "Axiom Data Science",
+            "url": "https://oceanexpert.org/institution/18955"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20908",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks",
+            "name": "University of Alaska Fairbanks",
+            "url": "https://oceanexpert.org/institution/20908"
+        }
+    ]
+}

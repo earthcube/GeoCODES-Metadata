@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f378dbb6-0513-4a1b-81fb-075a985fef97",
+    "name": "Australian Institute of Marine Science (AIMS) - CReefs Ningaloo Reef Biodiversity Expedition, Australia (2008 - 2010)",
+    "description": "The CReefs Australia project is a collection of a variety of taxa from three locations: Ningaloo Reefs in Western Australia, and Heron and Lizard Islands off the coast of Queensland (separate metadata records are kept for each location) between 2008 and 2010. Sampling was conducted by scuba, snorkel and beach collection.\nCollection was mainly by hand; some samples were obtained by traps, grabs, sediment pumps, hook and line, speargun.",
+    "url": "https://obis.org/dataset/f378dbb6-0513-4a1b-81fb-075a985fef97",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=aims_creefs_ningaloo"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Australian Institute of Marine Science (AIMS). 2009, CReefs Australia - Ningaloo, Western Australia, https://apps.aims.gov.au/metadata/view/7f82b6ac-427c-4b9b-a36c-12799cab6ae6, accessed 16-Jul-2018",
+    "version": "2022-06-07T05:23:04.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=aims_creefs_ningaloo",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.5601 -23.05463,113.5601 -21.54106,114.048 -21.54106,114.048 -23.05463,113.5601 -23.05463"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

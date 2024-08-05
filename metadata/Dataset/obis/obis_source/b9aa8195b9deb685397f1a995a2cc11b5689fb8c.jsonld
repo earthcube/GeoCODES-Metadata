@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/43ebc6a7-f850-4e80-baa1-4f93fcf60271",
+    "name": "PIFSC, Cetacean Survey, HITEC 2016, Cruise 1604, NOAA Pacific Islands Fisheries Science Center",
+    "description": "Original provider:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nDataset credits:\nNOAA Pacific Islands Fisheries Science Center\n\nAbstract:\nThe Hawaiian Islands Technology for the Ecology of Cetaceans (HI-TEC) survey was a shipboard line-transect survey within 50 nmi of the main Hawaiian Islands (28 June - 27 July 2016). The survey was broken into two legs. Leg 1 (28 June - 4 July) was dedicated to unmanned aerial system (UAS) flight test operations. Leg 2 (4-27 July) included surveys in both leeward and windward water of the islands including offshore seamounts. The ship had to divert from the study area (23-24 July) to avoid Tropical Storm Darby.  There were 99 cetacean sightings during which there were 13 species identified and other unidentified dolphins, large whales, and beaked whales.\n\nSupplemental information:\nData were collected under NMFS permit 15240.\nThe data included here are the sightings and on-effort tracks recorded within WinCruz survey software and extracted from the QA/QC'd DAS file using the R package swfscDAS (https://smwoodman.github.io/swfscDAS).\n\nAttributes for fields within the trackline files:\nCruise - see description in attribute table below\nsegnum - segment number for continuous on-effort line\nDate - Local date m/dd/yyyy\nTimeStart - Local time at start of on-effort segment\nLatStart - Latitude in decimal degrees at starting point of on-effort segment\nLongStart - Longitude in decimal degrees at starting point of on-effort segment\nTimeEnd - Local time at end of on-effort segment\nLatEnd - Latitude in decimal degrees at end point of on-effort segment\nLongEnd - Longitude in decimal degrees at end point of on-effort segment\nMode - see description in attribute table below\nEffType - see description in attribute table below\navgSpdKt - average speed (knots) of the ship over the on-effort segment traveled\navgBft - average Beaufort Sea State over the on-effort segment\n\nOther data not included here:\nPhotos and biopsy samples were collected and satellite tags were deployed during some sightings. Acoustic detections were recorded from a towed hydrophone array. Sonobuoys were deployed opportunistically.  High-frequency Acoustic Recording Packages (HARP) were recovered and redeployed off the Kona Coast of Hawaii Island, deployed off Kauai and at Cross Seamount. Oceanographic data were collected (CTD, XBT). UAS operations occurred during some sightings.",
+    "url": "https://obis.org/dataset/43ebc6a7-f850-4e80-baa1-4f93fcf60271",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2232"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Hill, M. 2023. PIFSC, Cetacean Survey, HITEC 2016, Cruise 1604, NOAA Pacific Islands Fisheries Science Center. Data downloaded from OBIS-SEAMAP (https://seamap.env.duke.edu/dataset/2232) on yyyy-mm-dd.",
+    "version": "2023-09-07T16:00:32.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2232",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-160.0905 18.05917,-160.0905 22.92883,-154.87083 22.92883,-154.87083 18.05917,-160.0905 18.05917"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

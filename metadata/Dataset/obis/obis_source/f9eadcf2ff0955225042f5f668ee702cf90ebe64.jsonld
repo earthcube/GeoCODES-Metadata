@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/357e7c4a-d05c-45f8-ad06-0f430e3dba4e",
+    "name": "Benthic survey of Dugong and Turtle seagrass habitats in the North-West Torres Strait for November 2015 and January 2016 (NESP TWQ 3.5, TropWATER, JCU)",
+    "description": "This dataset summarises benthic surveys of seagrass for Dugong and Turtle habitats in the North-West Torres Strait for November 2015 and January 2016. The Site data describes seagrass at 853 sites; while the Meadow data describes seagrass at 34 individual meadows. The data includes information on seagrass species, biomass, diversity, and BMI and algae percent cover. The dataset is available as shapefiles, GIS layer packages, and/or a CSV file.\nThe sampling methods used to study, describe and monitor seagrass meadows were developed by the TropWATER Seagrass Group and tailored to the location and habitat surveyed; these are described in detail in the relevant publications (https://research.jcu.edu.au/tropwater).\nData downloaded on 2020-07-23 from https://eatlas.org.au/data/uuid/034ce816-0777-4bbd-aefc-8b73bd540245",
+    "url": "https://obis.org/dataset/357e7c4a-d05c-45f8-ad06-0f430e3dba4e",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nesp_twq_35_torres"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Carter, A. B. and Rasheed, M. A. (2016) Assessment of Key Dugong and Turtle Seagrass Resources in Northwest Torres Strait. Report to the National Environmental Science Programme and Torres Strait Regional Authority. Reef and Rainforest Research Centre Limited, Cairns (41pp.).",
+    "version": "2022-06-06T23:34:02.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Algae Cover",
+            "url": "",
+            "description": "Algae Cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Substrate",
+            "url": "",
+            "description": "Substrate"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nesp_twq_35_torres",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.33658 -10.09762,141.33658 -9.14026,142.34451 -9.14026,142.34451 -10.09762,141.33658 -10.09762"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

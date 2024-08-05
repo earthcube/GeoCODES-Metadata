@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b7041269-d327-49fc-9c2d-729e971158b9",
+    "name": "eDNA metabarcoding survey of Cocos (Keeling) Islands, Indian Ocean (2017)",
+    "description": "A total of six 1 L seawater replicates were sampled from 42 sites in and around the main Cocos (Keeling) Islands atoll in April 2017, totalling 252 samples across a 140 km2 area. Samples were obtained from six different habitats zones based on habitat classifications generated from prior environmental surveys. The four metabarcoding assays run across 252 seawater eDNA extracts yielded a total of 61,219,212 sequencing reads, leading to 372 identifiable taxa, representing 110 families within 40 orders.\nData accessed on 2022-03-14 from the linked Dryad Digital Repository referenced in the cited paper.",
+    "url": "https://obis.org/dataset/b7041269-d327-49fc-9c2d-729e971158b9",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=curtin_edna_cki_reef",
+        "https://doi.org/10.1111/mec.15382"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "West KM, Stat M, Harvey ES, et al. eDNA metabarcoding survey reveals fine-scale coral reef community variation across a remote, tropical island  ecosystem. Mol Ecol. 2020;29:1069–1086. https://doi.org/10.1111/mec.15382",
+    "version": "2022-06-08T03:16:34.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "identifier": {
+        "@id": "https://doi.org/10.1111/mec.15382",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1111/mec.15382",
+        "url": "https://doi.org/10.1111/mec.15382"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=curtin_edna_cki_reef",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "96.81345 -12.20715,96.81345 -12.09179,96.90721 -12.09179,96.90721 -12.20715,96.81345 -12.20715"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/67",
+            "@type": "Organization",
+            "legalName": "Curtin University of Technology",
+            "name": "Curtin University of Technology",
+            "url": "https://oceanexpert.org/institution/67"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/24c11a51-fb48-46a9-a534-6507d54d9a39",
+    "name": "Historical landings for the lagoon of Venice (Italy) between 1945 and 2001",
+    "description": "The dataset was obtained from the original registers of the fish markets of Venice and Chioggia that were available on paper documents from 1945 to 1996, and in electronic spreadsheets from 1997. The data originally included information on landings from aquaculture and sea- and lagoon-fishery merged together.",
+    "url": "https://obis.org/dataset/24c11a51-fb48-46a9-a534-6507d54d9a39",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=historical_landings_lagoon_venice_italy_between_1945_2001",
+        "https://dx.doi.org/10.14284/292"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Institute of Oceanography and Experimental Geophysics (OGS), Italy; Italian National Institute for Environmental Protection and Research (ISPRA), Italy; (2017): Historical landings for the lagoon of Venice (Italy) between 1945 and 2001 https://dx.doi.org/10.14284/292",
+    "version": "2023-12-08T17:23:02.000Z",
+    "keywords": [
+        "Historical records",
+        "Marine ecology",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Life Stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Life Stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "moulting",
+            "url": "",
+            "description": "moulting"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "moulting",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "moulting"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1945/2001",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/292",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/292",
+        "url": "https://dx.doi.org/10.14284/292"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=historical_landings_lagoon_venice_italy_between_1945_2001",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19580",
+            "@type": "Organization",
+            "legalName": "Italian National Institute for Environmental Protection and Research — Branch office Chioggia",
+            "name": "Italian National Institute for Environmental Protection and Research — Branch office Chioggia",
+            "url": "https://oceanexpert.org/institution/19580"
+        }
+    ]
+}

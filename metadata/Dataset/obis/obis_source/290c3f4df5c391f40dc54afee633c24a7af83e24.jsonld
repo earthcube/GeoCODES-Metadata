@@ -1,0 +1,92 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/75bd3b87-1059-4355-b757-40a2f141fd3f",
+    "name": "DFO Pacific: Herring Biosample Database",
+    "description": "Herring biological (fish and sample) data as part of Herring Stock Assessment database",
+    "url": "https://obis.org/dataset/75bd3b87-1059-4355-b757-40a2f141fd3f",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=herring"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Burton A (2021): DFO Pacific: Herring Biosample Database. v1.4. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=herring&amp;v=1.4",
+    "version": "2022-03-23T18:27:19.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Pacific herring",
+        "herring"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Maturity",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS11612/",
+            "description": "Maturity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fork length",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261/",
+            "description": "Fork length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS260/",
+            "description": "age"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gonad weight",
+            "url": "NA",
+            "description": "Gonad weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gonad length",
+            "url": "NA",
+            "description": "Gonad length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1945/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=herring",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-132.918779948698 48.3575808920642,-132.918779948698 55.1181426898955,-122.872510092458 55.1181426898955,-122.872510092458 48.3575808920642,-132.918779948698 48.3575808920642"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14254",
+            "@type": "Organization",
+            "legalName": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "name": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/14254"
+        }
+    ]
+}

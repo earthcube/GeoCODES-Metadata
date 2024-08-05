@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d3e1e641-b33b-4427-8a5b-d98995c5baf0",
+    "name": "Peru Cabezonas (aggregated per 1-degree cell)",
+    "description": "Original provider:\nPro Delphinus &amp; NOAA - Southwest Fisheries Science Center\n\nDataset credits:\nData provider\nNOAA Southwest Fisheries Science Center\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nPro Delphinus works in close coordination with Dr. Peter Dutton, Dr. Jeffrey Seminoff and Denise Parker of our project partner NOAA-Southwest Fisheries Science Center in all aspects of the satellite telemetry program.The NOAA NMFS Marine Turtle Program at Southwest Fisheries Science works toward the recovery of marine turtle stocks throughout the world’s oceans, with an emphasis on the Pacific Ocean Basin – particularly the Eastern Pacific. Chief among our directives is to assess the conservation status of and threats to marine turtle species and fulfill NOAA’s mandate under the Endangered Species Act (ESA) to recover endangered and threatened species of marine turtles. In addition, we provide scientific advice and practical support to those who manage and conserve marine turtles.\nProject sponsor or sponsor description\nFunding for the Pro Delphinus satellite telemetry program comes from NOAA-Southwest Fisheries Science Center and the National Fish and Wildlife Foundation (NFWF).  Other funders for our sea turtle research and education initiatives include the British Petroleum Conservation Programme, Cleveland Metroparks Zoo, Columbus Zoo and Aquarium, and Idea Wild.\n\n\nAbstract:\nPro Delphinus is a Peruvian NGO whose aim is to implement an integrated approach to marine fauna conservation.  Our projects focus heavily on applied research, environmental education, awareness raising and training among local communities.  By educating the local populous and relying heavily on the involvement of local researchers we hope to ensure the long term conservation of Peru’s marine species.Our satellite tracking project is the first telemetry study of loggerhead turtles in the southeastern Pacific Ocean.  The presence of loggerheads in this region was only recently verified.  “Cabezona” (big head) or “Amarilla” (yellow) are the local names for this species.  The goal of this study is to improve our understanding of loggerhead habitat use, migration and foraging patterns in the southeastern Pacific.  We began our telemetry study in 2003 and have released 15 loggerhead turtles with satellite transmitters.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=199\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/d3e1e641-b33b-4427-8a5b-d98995c5baf0",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_931_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Mangel J. 2021. Peru Cabezonas. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/931) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=199).",
+    "version": "2021-04-24T11:10:31.000Z",
+    "keywords": [
+        "Occurrence,Radio transmitters,Animal movements",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_931_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-115.5 -24.5,-115.5 -7.5,-51.5 -7.5,-51.5 -24.5,-115.5 -24.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

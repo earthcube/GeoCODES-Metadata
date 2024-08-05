@@ -1,0 +1,119 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5854c350-c259-4ed7-af6c-067df8062725",
+    "name": "Zooplankton respiration data from Fort Jesus and measurements of dry weight and length of copepods collected at Tudor Creek between August 1985 and June 1986",
+    "description": "Day and night respiration, dry weight and carbon respiration of zooplankton from Fort Jesus and mean dry weight and mean length of copepod groups from Tudor Creek. The data were digitized by VLIZ from the original report: Polk, P. (Ed.) (1986). Kenya report. VUB: Brussel. 358 pp.",
+    "url": "https://obis.org/dataset/5854c350-c259-4ed7-af6c-067df8062725",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zooplankton_fort_jesus_1985_1986",
+        "https://dx.doi.org/10.14284/172"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Okemwa E.N.; Kenya Marine and Fisheries Research Institute: Kenya; (2016): Zooplankton respiration data from Fort Jesus and measurements of dry weight and length of copepods collected at Tudor Creek between August 1985 and June 1986. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5423) https://dx.doi.org/10.14284/172",
+    "version": "2023-12-08T18:17:16.000Z",
+    "keywords": [
+        "Respiration rate",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Mean dry weight per individual (µg)",
+            "url": "",
+            "description": "Mean dry weight per individual (µg)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of animals for calculation of mean length and weight",
+            "url": "",
+            "description": "Number of animals for calculation of mean length and weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean length per individual (mm)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Mean length per individual (mm)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Respiration Day (µg O2/12hrs/animal)",
+            "url": "",
+            "description": "Respiration Day (µg O2/12hrs/animal)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Respiration Night (µg O2/12hrs/animal)",
+            "url": "",
+            "description": "Respiration Night (µg O2/12hrs/animal)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "% of body carbon weight used in respiration",
+            "url": "",
+            "description": "% of body carbon weight used in respiration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Individual Dry weight (µg)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "description": "Individual Dry weight (µg)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Respiration (µg C)",
+            "url": "",
+            "description": "Respiration (µg C)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/1986",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/172",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/172",
+        "url": "https://dx.doi.org/10.14284/172"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zooplankton_fort_jesus_1985_1986",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "39.6558 -4.07,39.6558 -4.02811,39.69 -4.02811,39.69 -4.07,39.6558 -4.07"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11578",
+            "@type": "Organization",
+            "legalName": "Kenya Marine and Fisheries Research Institute",
+            "name": "Kenya Marine and Fisheries Research Institute",
+            "url": "https://oceanexpert.org/institution/11578"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d6661617-6965-4f1f-8a38-71d585443306",
+    "name": "Occurrences of Harmful Micro Algae in HAB Region 5 (Australia and New Zealand)",
+    "description": "This dataset contains literature records of IOC-UNESCO Taxonomic Reference List of Harmful Micro Algae (http://www.marinespecies.org/hab) species in HAB Region 5 (Australia and New Zealand).",
+    "url": "https://obis.org/dataset/d6661617-6965-4f1f-8a38-71d585443306",
+    "sameAs": [
+        "http://ipt.iobis.org/hab/resource?r=hab-region-5"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2019-06-18T15:28:50.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1878/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/hab/archive.do?r=hab-region-5",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.42 -46.98,-178.42 -12.48,177.43 -12.48,177.43 -46.98,-178.42 -46.98"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18077",
+            "@type": "Organization",
+            "legalName": "University of Tasmania",
+            "name": "University of Tasmania",
+            "url": "https://oceanexpert.org/institution/18077"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18439",
+            "@type": "Organization",
+            "legalName": "United Nations Educational, Scientific and Cultural Organization",
+            "name": "United Nations Educational, Scientific and Cultural Organization",
+            "url": "https://oceanexpert.org/institution/18439"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20186",
+            "@type": "Organization",
+            "legalName": "Université de Bretagne Occidentale",
+            "name": "Université de Bretagne Occidentale",
+            "url": "https://oceanexpert.org/institution/20186"
+        }
+    ]
+}

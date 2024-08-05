@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dfba2240-b672-4759-9171-d269bba44a70",
+    "name": "North BR Mangrove",
+    "description": "Western South Atlantic mangrove ecosystems of Brazil, roughly 85% of 7,367 km coastline covering 16 States, on her North area.",
+    "url": "https://obis.org/dataset/dfba2240-b672-4759-9171-d269bba44a70",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=north_br_mangrove",
+        "http://doi.org/10.25607/6epl57"
+    ],
+    "license": "Unrestricted",
+    "citation": "Fabio Lang da Silveira and Rubens M. Lopes North Mangroves of Western South Atlantic. Sao Paulo City, 24 December 2009, Version 1.0.",
+    "version": "2021-07-02T11:09:14.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/2008",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/6epl57",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/6epl57",
+        "url": "http://doi.org/10.25607/6epl57"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=north_br_mangrove",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-50.4022 -2.8125,-50.4022 -0.1457,-41.8125 -0.1457,-41.8125 -2.8125,-50.4022 -2.8125"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

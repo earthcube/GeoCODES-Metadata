@@ -1,0 +1,134 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4bbfb75e-7b41-4f8f-b475-051d8c21860a",
+    "name": "Sistema de Monitoreo de Arrecifes Coralinos - SIMAC: Estructura Coralina",
+    "description": "Los datos se derivan de la línea de investigación del SIMAC: Sistema de monitoreo para los ambientes arrecifales en Colombia y evaluación de agentes de mortalidad coralina; dentro del programa de Biodiversidad y Ecosistemas Marinos. El proyecto busca generar información sobre la salud y la dinámica de los arrecifes coralinos en Colombia, mediante la evaluación de su estado, para contribuir a su entendimiento y a su conservación, así como al uso sostenible de sus recursos.\nEn este conjunto de datos se reporta la información sobre la estructura coralina en estaciones de monitoreo del SIMAC, ubicadas en el Mar Caribe y Océano Pacífico colombiano, que corresponden a un total de 113.004 registros biológicos obtenidos entre 1994 y 2018.\nLos datos colectados de 1994 a 1998 se tomaron en el marco del programa internacional\nCARICOMP, en donde se realizó monitoreo de corales, únicamente en las estaciones de Bahía de Chengue en Santa Marta. Posteriormente, estos monitoreos se unieron a los datos obtenidos por el SIMAC a partir de 1998.",
+    "url": "https://obis.org/dataset/4bbfb75e-7b41-4f8f-b475-051d8c21860a",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=simac_cobertura_coralina",
+        "https://doi.org/10.15472/na9fdj"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Garzón-Ferreira J, Gil D L, Rodríguez A, Mejía N, Rojas J, Navas Camacho R, Bejarano S, Duque G, López M, Herrera O, Posada S, Zapata F, Aguirre A, Bernal C, Manrique N, Muñoz C, Ortiz M, Rodríguez M, Orozco C, Zea S, Olaya J, Vega J, Santodomingo N, Gómez K, Bolaños N, Abril A, Gutiérrez C, Gómez López D I, Torres J, Prato J, Zamora-Martínez D L (2021): Sistema de Monitoreo de Arrecifes Coralinos - SIMAC: Estructura Coralina. v1.2. Instituto de Investigaciones Marinas y Costeras - Invemar. Dataset/Samplingevent. https://doi.org/10.15472/na9fdj",
+    "version": "2022-02-14T19:46:55.000Z",
+    "keywords": [
+        "Samplingevent",
+        "INVEMAR",
+        "estructura coralina",
+        "Mar Caribe",
+        "Océano Pacífico",
+        "monitoreo",
+        "arrecife",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Cantidad de eslabones",
+            "url": "",
+            "description": "Cantidad de eslabones"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Número de eslabón",
+            "url": "",
+            "description": "Número de eslabón"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tamaño del eslabón",
+            "url": "",
+            "description": "Tamaño del eslabón"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Forma de crecimiento",
+            "url": "",
+            "description": "Forma de crecimiento"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dead",
+            "url": "S1347",
+            "description": "dead"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/na9fdj",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/na9fdj",
+        "url": "https://doi.org/10.15472/na9fdj"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=simac_cobertura_coralina",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.7333333 2.9404166,-81.7333333 13.4560278,-74.1119444 13.4560278,-74.1119444 2.9404166,-81.7333333 2.9404166"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17783",
+            "@type": "Organization",
+            "legalName": "CORALINA",
+            "name": "CORALINA",
+            "url": "https://oceanexpert.org/institution/17783"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17925",
+            "@type": "Organization",
+            "legalName": "Instituto de Investigaciones Marinas y  Costeras",
+            "name": "Instituto de Investigaciones Marinas y  Costeras",
+            "url": "https://oceanexpert.org/institution/17925"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18356",
+            "@type": "Organization",
+            "legalName": "Parques Nacionales Naturales de Colombia",
+            "name": "Parques Nacionales Naturales de Colombia",
+            "url": "https://oceanexpert.org/institution/18356"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18879",
+            "@type": "Organization",
+            "legalName": "Universidad del Valle",
+            "name": "Universidad del Valle",
+            "url": "https://oceanexpert.org/institution/18879"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19053",
+            "@type": "Organization",
+            "legalName": "Sistema de Información sobre Biodiversidad de Colombia - SiB Colombia",
+            "name": "Sistema de Información sobre Biodiversidad de Colombia - SiB Colombia",
+            "url": "https://oceanexpert.org/institution/19053"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19413",
+            "@type": "Organization",
+            "legalName": "Parque Nacional Natural Los Corales del Rosario y de San Bernardo",
+            "name": "Parque Nacional Natural Los Corales del Rosario y de San Bernardo",
+            "url": "https://oceanexpert.org/institution/19413"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ff8b7809-41bc-40ad-8160-0e33862817a0",
+    "name": "Biodiversity Research Museum, Academia Sinica, Taiwan",
+    "description": "This dataset contains information on specimens in the Biodiversity Research Museum, Academia Sinica, Taiwan.",
+    "url": "https://obis.org/dataset/ff8b7809-41bc-40ad-8160-0e33862817a0",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=fb9093"
+    ],
+    "license": "Unrestricted",
+    "citation": "TELDAP, Biodiversity Research Museum, Academia Sinica, Taiwan (accessed through GBIF data portal, http://data.gbif.org/datasets/resource/9093, yyyy-mm-dd)",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1903/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=fb9093",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-157.289993286 -49.3899993896,-157.289993286 43.9199981689,167.119995117 43.9199981689,167.119995117 -49.3899993896,-157.289993286 -49.3899993896"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20778",
+            "@type": "Organization",
+            "legalName": "Biodiversity Research Centre, Academia Sinica",
+            "name": "Biodiversity Research Centre, Academia Sinica",
+            "url": "https://oceanexpert.org/institution/20778"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3d26a417-cfa1-4306-821d-015840063655",
+    "name": "Ano Nuevo 2015 Juvenile California sea lions (aggregated per 1-degree cell)",
+    "description": "Original provider:\nUC Santa Cruz and Stanford University\n\nDataset credits:\nData provider\nDominica Sea Turtle Conservation Organisation\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\n\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=1159\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/3d26a417-cfa1-4306-821d-015840063655",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1324_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Costa D. 2022. Ano Nuevo 2015 Juvenile California sea lions. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1324) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=1159).",
+    "version": "2022-06-02T13:08:25.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_1324_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-124.5 33.5,-124.5 39.5,-110.5 39.5,-110.5 33.5,-124.5 33.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20892",
+            "@type": "Organization",
+            "legalName": "The Costa Lab",
+            "name": "The Costa Lab",
+            "url": "https://oceanexpert.org/institution/20892"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

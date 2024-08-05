@@ -1,0 +1,102 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8612623b-aa64-4105-aaa0-50b9bef135ba",
+    "name": "Invertebrates observations delivered by \"Canarias por una Costa Viva\" project",
+    "description": "The project ‘Canarias, por una costa viva (CCV)’ was an integrated research and educational initiative that run between 2003 – 2004 with the goals of gathering robust scientific information of keystone coastal habitats and the promotion of public awareness about responsible uses of marine resources in the Canary Islands (Central East Atlantic Ocean). Sampling effort has been carried out biannually at 100 locations around the coastlines of the overall Canary Islands. Specifically, we have studied the conservation status of key fish species and their role in their ecosystems. The relationship between the human population, the natural environment and the pressures it supports has been observed in different anthropogenically stressed areas (sewage areas, shell fishing activity, sea-cage fish farms and ports) and preserved areas.",
+    "url": "https://obis.org/dataset/8612623b-aa64-4105-aaa0-50b9bef135ba",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ccv-invertebrates",
+        "https://dx.doi.org/10.14284/471"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "ECOAQUA institute, University Las Palmas de Gran Canaria; Spain; (2015): Invertebrates observations delivered by \"Canarias por una Costa Viva\" project https://dx.doi.org/10.14284/471",
+    "version": "2023-05-23T12:24:00.000Z",
+    "keywords": [
+        "Citizen science",
+        "Coastal monitoring",
+        "Marine invertebrates",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture length",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/",
+            "description": "Sampling device aperture length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture width",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/",
+            "description": "Sampling device aperture width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "The number of individuals of a biological object (identified elsewhere in the data or metadata) in the sample or observation.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "The number of individuals of a biological object (identified elsewhere in the data or metadata) in the sample or observation."
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2004",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/471",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/471",
+        "url": "https://dx.doi.org/10.14284/471"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ccv-invertebrates",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-18.0267 27.6379,-18.0267 29.4111,-13.4524 29.4111,-13.4524 27.6379,-18.0267 27.6379"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18991",
+            "@type": "Organization",
+            "legalName": "Universidad Las Palmas de Gran Canaria",
+            "name": "Universidad Las Palmas de Gran Canaria",
+            "url": "https://oceanexpert.org/institution/18991"
+        }
+    ]
+}

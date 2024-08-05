@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/52364f4e-c5cf-4e23-b467-e1fc665096e9",
+    "name": "Moluscos del Museo de Ciencias Naturales de la Universidad Simón Bolivar",
+    "description": "Este set de datos contiene registros preservados de moluscos del Museo de Ciencias Naturales de la Universidad Simón Bolívar.",
+    "url": "https://obis.org/dataset/52364f4e-c5cf-4e23-b467-e1fc665096e9",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=inverte_museo_usb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2017-05-02T18:03:39.000Z",
+    "keywords": [
+        "Occurrence",
+        "Mollusca",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1972/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/caribbeanobis/archive.do?r=inverte_museo_usb",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.405123 10.14999444,-71.405123 15.673775,-62.15274722 15.673775,-62.15274722 10.14999444,-71.405123 10.14999444"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8887",
+            "@type": "Organization",
+            "legalName": "Universidad Simon Bolivar",
+            "name": "Universidad Simon Bolivar",
+            "url": "https://oceanexpert.org/institution/8887"
+        }
+    ]
+}

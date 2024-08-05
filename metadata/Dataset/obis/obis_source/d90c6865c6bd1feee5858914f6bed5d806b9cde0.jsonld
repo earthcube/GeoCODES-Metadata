@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5eadc9bf-ceb9-493f-ba9d-04e62870766e",
+    "name": "Benthic Network",
+    "description": "The REBENT dataset results from the monitoring activities undertaken by the  \"Réseau benthique\" REBENT project. The dataset contains mainly data relating to seabed habitats and associated benthic biocenosis living along the  the French coastal area's.",
+    "url": "https://obis.org/dataset/5eadc9bf-ceb9-493f-ba9d-04e62870766e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=rebent_ifremer"
+    ],
+    "license": "Unrestricted",
+    "citation": "Agence pour la recherche et la Valorisation Marines (ARVAM); Cellule De Suivi Du Littoral Normand (CSLN); Creocean;  Groupe d'Etude des Milieux Estuariens et Littoraux; Groupe d'étude des milieux estuariens et littoraux Normandie (GEMEL Normandie); Hemisphere Sub; Impact Mer; Institut Français de Recherche pour l'Exploitation de la Mer (IFREMER); MAREX Expertise &amp; Conseil en Environnement Marin (MAREX); National Natural History Museum Paris; CRESCO - Station de biologie marine de Dinard; National Natural History Museum Paris; Station de Biologie Marine de Concarneau; Pierre &amp; Marie Curie University; Roscoff biology station (RBS); TBM Environnement; The National Center for Scientific Research; Laboratoire d'Ecogéochimie des Environnements Benthiques UMR 8222 (LECOB); The National Center for Scientific Research; Laboratoire d’Océanologie et de Géosciences - UMR 8187 LOG (LOG); Université Bordeaux 1; Environnements et Paléoenvironnements Océaniques (EPOC); Université de Bretagne Occidentale; Institut Universitaire Européen de la Mer (IUEM); Université de Bretagne Occidentale; Laboratoire d'écophysiologie et de biotechnologie des halophytes et algues Marines (IUEM-LEBHAM); Université de Bretagne Occidentale; Laboratory of Sciences of the Marine Environment CNRS-UMR6539 (LEMAR); Université de la Réunion; Laboratoire d'Ecologie Marine (ECOMAR); Université de Liège; Station de Recherche Sous-marines et Océanographiques (STARESO); Université de Nantes; Laboratoire de Biologie Marine (Bio-littoral); Université des Sciences et Technologies de Lille; Station Marine de Wimereux (INSU/CNRS); (2019): REBENT - Réseau Benthique.",
+    "version": "2023-12-08T17:08:23.000Z",
+    "keywords": [
+        "Bioaccumulation",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "SubSamplingCoefficient..dimensionless.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "description": "SubSamplingCoefficient..dimensionless."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Instrument.Info",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Instrument.Info"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingEffort..m2.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "SamplingEffort..m2."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ObservedIndividualCount..dimensionless.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "ObservedIndividualCount..dimensionless."
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=rebent_ifremer",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-61.01926 14.4064,-61.01926 51.02333,9.5834 51.02333,9.5834 14.4064,-61.01926 14.4064"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        }
+    ]
+}

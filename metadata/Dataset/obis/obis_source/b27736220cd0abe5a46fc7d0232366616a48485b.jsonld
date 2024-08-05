@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/678cec8f-e0ae-431e-b836-703a0c1c2c37",
+    "name": "Porpoises (NRM)",
+    "description": "This database is about observations of porpoises around Sweden.",
+    "url": "https://obis.org/dataset/678cec8f-e0ae-431e-b836-703a0c1c2c37",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_1042",
+        "https://doi.org/10.15468/yrxfxp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Swedish Museum of Natural History: Porpoises (NRM), 2013-09-11.\nAccessed via http://www.gbif.org/dataset/6aa7c400-0c66-11dd-84d2-b8a03c50a862 on yyyy-mm-dd https://doi.org/10.15468/yrxfxp",
+    "version": "2024-02-26T23:23:24.000Z",
+    "keywords": [
+        "Marine mammals",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/yrxfxp",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/yrxfxp",
+        "url": "https://doi.org/10.15468/yrxfxp"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_1042",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "9.6326 54.65,9.6326 69.5,20.3 69.5,20.3 54.65,9.6326 54.65"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

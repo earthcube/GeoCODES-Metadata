@@ -1,0 +1,49 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c44c75e9-c974-4931-ab3e-cc61726a2275",
+    "name": "Harmful algal bloom monitoring data near Frenchman Bay from 2004-2022",
+    "description": "The Community Environmental Health Lab at the MDI Biological Laboratories has monitored phytoplankton and water quality in Frenchman Bay for the past few decades. Our goal was to understand how climate change and local changes in anthropogenic activity, including cruise ship activity, have altered the water quality and phytoplankton dynamics in the bay. This data provides information on target harmful algae bloom species as well as a few measures of phytoplankton biodiversity. Our data were collected by a variety of field technicians and citizen scientists who perform weekly sampling throughout the year at Bar Harbor town pier and during the summer months at the MDIBL pier and cruise ship anchorages.",
+    "url": "https://obis.org/dataset/c44c75e9-c974-4931-ab3e-cc61726a2275",
+    "sameAs": [
+        "https://bison.usgs.gov/ipt/resource?r=cehl-phyto"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-12-31T15:19:43.000Z",
+    "keywords": [
+        "phytoplankton",
+        "seawater",
+        "oceans",
+        "ecology",
+        "oceanography",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://bison.usgs.gov/ipt/archive.do?r=cehl-phyto",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.35578705 44.2347384,-68.35578705 44.47337562,-68.13522605 44.47337562,-68.13522605 44.2347384,-68.35578705 44.2347384"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

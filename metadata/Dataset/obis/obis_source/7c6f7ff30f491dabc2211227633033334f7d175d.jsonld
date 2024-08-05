@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dc39bfb5-78df-4919-b62f-c0d18782a29a",
+    "name": "SHARK - Regional monitoring and monitoring projects of Epibenthos in Sweden since 1994",
+    "description": "Regional monitoring programs for Epibenthos have been performed since 1994 in Sweden. The monitoring is financed by the Swedish county administration boards, Swedish municipalities and Swedish coalitions of water conservation.  Recipient control data financed by companies are also included. Sampling is performed by a large number of different institutes and consulting firms. Data from monitoring projects are also included in this dataset. The data is stored in the database SHARK, hosted and maintained by the Swedish Meteorological and Hydrological Institute. The Epibenthos monitoring programs and projects studies hard and soft bottoms from the surface down to 10-20 meters. Data is collected in transects or squares with help of divers. Species abundances are determined directly by the divers or photographs are taken and analyzed later.",
+    "url": "https://obis.org/dataset/dc39bfb5-78df-4919-b62f-c0d18782a29a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=smhi_epibenthos_reg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Swedish county administration boards, Swedish municipalities, Swedish coalitions of water conservation, Swedish Meteorological and Hydrological Institute, et al (2017). SHARK - Regional monitoring and monitoring projects of Epibenthos in Sweden since 1994",
+    "version": "2023-03-09T01:52:53.000Z",
+    "keywords": [
+        "Diving",
+        "Regional",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Transect length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Transect length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Epibiont",
+            "url": "",
+            "description": "Epibiont"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cover (%)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "Cover (%)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Detached",
+            "url": "",
+            "description": "Detached"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampler area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sediment deposition code",
+            "url": "",
+            "description": "Sediment deposition code"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Transect width",
+            "url": "",
+            "description": "Transect width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Secchi depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SECCSDNX/",
+            "description": "Secchi depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total cover of all species (%)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PMA08441/",
+            "description": "Total cover of all species (%)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01/",
+            "description": "Wind speed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=smhi_epibenthos_reg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0 0,0 65.87292,24.14635 65.87292,24.14635 0,0 0"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8493",
+            "@type": "Organization",
+            "legalName": "Sveriges meteorologiska och hydrologiska institut",
+            "name": "Sveriges meteorologiska och hydrologiska institut",
+            "url": "https://oceanexpert.org/institution/8493"
+        }
+    ]
+}

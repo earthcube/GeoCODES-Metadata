@@ -1,0 +1,122 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f1ad2d12-8f7e-4b56-848c-ffa9c6103eb1",
+    "name": "SHARK - National marine environmental monitoring of zooplankton in Sweden since 1979",
+    "description": "The national monitoring program was initiated by the Swedish Environmental Protection Agency and is now financed by the Swedish Agency for Marine and Water Management.\n\nMonitoring is performed by Stockholm University, Umeå University, Swedish Meteorological and Hydrological Institute and Gothenburg University. Data are stored in the Swedish Ocean Archive (SHARK) by the Swedish Meteorological and Hydrological Institute (SMHI).",
+    "url": "https://obis.org/dataset/f1ad2d12-8f7e-4b56-848c-ffa9c6103eb1",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=shark-zooplankton-nat",
+        "https://doi.org/10.15468/edkb5r"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Stockholm University, Umeå University, Swedish Meteorological and Hydrological Institute, Gothenburg University, Swedish Agency for Marine and Water Management and Swedish Environmental Protection Agency (2022). SHARK - National marine environmental monitoring of zooplankton in Sweden since 1979 https://doi.org/10.15468/edkb5r",
+    "version": "2023-12-08T17:15:40.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Counted portions",
+            "url": "",
+            "description": "Counted portions"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of portions",
+            "url": "",
+            "description": "Number of portions"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mesh size",
+            "url": "",
+            "description": "Mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampler area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Plankton sampling method",
+            "url": "",
+            "description": "Plankton sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "# counted",
+            "url": "",
+            "description": "# counted"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water depth",
+            "url": "",
+            "description": "Water depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampler type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Visit id",
+            "url": "",
+            "description": "Visit id"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/edkb5r",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/edkb5r",
+        "url": "https://doi.org/10.15468/edkb5r"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=shark-zooplankton-nat",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "10.51333 54.97333,10.51333 65.73417,23.24267 65.73417,23.24267 54.97333,10.51333 54.97333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2b99fd91-5a53-41fd-b54d-cb10ec4ab745",
+    "name": "Fish of the Recherche Archipelago , Western Australia (2002)",
+    "description": "The Recherche Archipelago is a chain of approximately 105 islands and 1500\nislets extending over 470 km of coastline (230 km linear distance) in\ntemperate southern Western Australia with a wide variety of benthic habitats (Seagrass, Reef, Rhodoliths and Sand). Between the 26th of May and 13th of June 2002 fish assemblages within these habitats were sampled using baited stereo-video and single camera systems.\nData and report sourced from https://data.pawsey.org.au/public/?path=/WA%20Node%20Ocean%20Data%20Network/AODN/FRDC_Recherche and https://www.frdc.com.au/project/2001-060 respectively.",
+    "url": "https://obis.org/dataset/2b99fd91-5a53-41fd-b54d-cb10ec4ab745",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=frdc_recherche_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Gary A. Kendrick, Euan Harvey, Justin McDonald, Chari Pattiaratchi, Mike\nCappo, Jane Fromont, Mark Shortis, Simon Grove, Andy Bickers, Katrina\nBaxter, Nisse Goldberg, Mat Kletczkowski, James Butler (2004) Characterising the fish habitats in the Recherche Archipelago, Western Australia. FRDC report 2001/060",
+    "version": "2022-06-08T03:14:14.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=frdc_recherche_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "121.80482 -34.141,121.80482 -33.85381,123.23813 -33.85381,123.23813 -34.141,121.80482 -34.141"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18840",
+            "@type": "Organization",
+            "legalName": "The University of Western Australia",
+            "name": "The University of Western Australia",
+            "url": "https://oceanexpert.org/institution/18840"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

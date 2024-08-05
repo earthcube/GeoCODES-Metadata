@@ -1,0 +1,116 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f68aab55-9261-49fa-8bf9-e6fe6fa7661b",
+    "name": "Royal Belgian Institute of Natural Sciences Mollusca Collection (Mollusca)",
+    "description": "The Royal Belgian Institute of Natural Sciences Mollusca collection contains 55526 digitised specimens over 1702 taxa (mostly species). This dataset only contains the marine species of the collection. The following classes are included: Articulata Huxley, 1869, Bivalvia, Bivalvia Linnaeus, 1758, Cephalopoda Cuvier, 1797, Gastropoda Cuvier, 1797, Heliozoa, Hydrozoa Owen, 1843, Insecta Linnaeus, 1758, Malacostraca Latreille, 1802, Maxillopoda Dahl, 1956, Monoplacophora, Polychaeta, Polyplacophora Gray, 1821, Scaphopoda Bronn, 1862.",
+    "url": "https://obis.org/dataset/f68aab55-9261-49fa-8bf9-e6fe6fa7661b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=be_rbins_invertebrates_mollusca"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Samyn, Y., Semal, P. (2020) Royal Belgian Institute of Natural Sciences Mollusca collection",
+    "version": "2024-02-27T00:12:17.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+            "description": "sampling_depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_elevation",
+            "url": "https://www.wikidata.org/wiki/Q2633778/",
+            "description": "sampling_elevation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "quality",
+            "url": "",
+            "description": "quality"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "body_length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "body_length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_depth_max",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MAXWDIST/",
+            "description": "sampling_depth_max"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_depth_min",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MINWDIST/",
+            "description": "sampling_depth_min"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1763/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=be_rbins_invertebrates_mollusca",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.47599 -78.15856,-178.47599 85,178.916667 85,178.916667 -78.15856,-178.47599 -78.15856"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

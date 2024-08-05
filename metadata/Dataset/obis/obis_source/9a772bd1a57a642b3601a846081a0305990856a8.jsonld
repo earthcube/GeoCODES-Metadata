@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d166642a-5670-46e5-a4de-88554adc5073",
+    "name": "Distributional records of Ross Sea (Antarctica) planktonic Copepoda from bibliographic data and samples curated at the Italian National Antarctic Museum (MNA)",
+    "description": "This dataset gathers distributional data on planktonic copepods (Crustacea, Copepoda) collected in the framework of the III, V and X Expeditions of the Italian National Antarctic Program (PNRA) held in the western Ross Sea from 1987 to 1995. Sampling was conducted with BIONESS and WP2 net in 94 different sampling stations, mainly distributed in the Terra Nova Bay area, at the depth of 0-1000 meters. In terms of spatial coverage, this dataset covers 6027 distributional records that are also reported in terms of original abundance data (ind/m3) to allow a possible modelization of species distributions thanks to the availability of environmental variables that were collected together with the biological samples. The total of distributional records here reported has two different origins: 5306 are represented by bibliographic records obtained by digitizing the original data reports, whereas 721 correspond to physical museum vouchers, now curated by the Italian National Antarctic Museum (MNA, Section of Genoa). This group of museum samples comprises 8225 individual specimens, that were identified to the lowest possible taxonomic level. They belong to 4 orders, 25 families, 52 genera and 82 species, out of which 17 could be only determined at the genus level.",
+    "url": "https://obis.org/dataset/d166642a-5670-46e5-a4de-88554adc5073",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=antarctic_biblio_copepoda"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2020-07-09T09:32:39.000Z",
+    "keywords": [
+        "Occurrence",
+        "Copepoda",
+        "distribution",
+        "abundance",
+        "BIONESS",
+        "Antarctica",
+        "Ross Sea",
+        "Terra Nova Bay"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=antarctic_biblio_copepoda",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.96333 -75.40556,-179.96333 -61.99067,179.90667 -61.99067,179.90667 -75.40556,-179.96333 -75.40556"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19424",
+            "@type": "Organization",
+            "legalName": "Museo Nazionale dell'Antartide, Genova",
+            "name": "Museo Nazionale dell'Antartide, Genova",
+            "url": "https://oceanexpert.org/institution/19424"
+        }
+    ]
+}

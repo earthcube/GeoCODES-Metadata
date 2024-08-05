@@ -1,0 +1,86 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/930000f4-81ef-421b-8884-042abdf8fbc8",
+    "name": "CSIRO, Cruise SS200510, Benthic Biodiversity, Western Australia, 2005",
+    "description": "These data were collected as part of a study on the benthic biodiversity of the deep continental shelf and slope in Australia's south west region. The scientific objectives for the survey were split across two voyages (SS07/2005 for leg 1 and SS10/2005 for leg 2). The first leg was to map and visually survey (video) the upper continental slope (and at selected sites transects from the outer shelf to the mid-slope) at regular intervals of 1deg latitude; the second leg was to targeted sample the surveyed locations to document the benthic biodiversity. Epibenthic megafauna was sampled in 123 stations using the epibenthic sled Sherman and a beamtrawl at roughly 1 degree intervals from Bald Island in southern WA to Barrow Island (northern WA), at 100 and 400m depth; additional depths (200m, 700m 1000m) were sampled at targeted 'transect sites'.\nReports, metadata and other data from this voyage are at https://www.marine.csiro.au/data/trawler/survey_details,cfm?survey=SS200507 and https://www.marine.csiro.au/data/trawler/survey_details,cfm?survey=SS200510\n",
+    "url": "https://obis.org/dataset/930000f4-81ef-421b-8884-042abdf8fbc8",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_wa_2005"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "CSIRO - Southern Surveyor voyage SS 10/2005, benthic biodiversity of the deep continental shelf and slope in Australia's SW region",
+    "version": "2022-09-05T05:35:06.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Total catch weight",
+            "url": "",
+            "description": "Total catch weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "",
+            "description": "Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_wa_2005",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "112.2445 -35.52875,112.2445 -20.9896,118.721 -20.9896,118.721 -35.52875,112.2445 -35.52875"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

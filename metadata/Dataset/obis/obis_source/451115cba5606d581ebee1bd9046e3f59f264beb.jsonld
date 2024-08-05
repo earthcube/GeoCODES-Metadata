@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/15b142e2-866e-433f-9b2c-e7ea5939bab4",
+    "name": "Distribución de Ctenóforos en los Montes Submarinos de la Dorsal Juan Fernández",
+    "description": "Registro de la distribución y abundancia de ctenóforos correspondiente a los Montes Submarinos en la Dorsal de Juan Fernández. Se analizaron muestras zooplanctónicas obtenidas en los montes JF5 y Monte O’Higgins durante el crucero oceanográfico FIP “Montes Submarinos” en 2015.",
+    "url": "https://obis.org/dataset/15b142e2-866e-433f-9b2c-e7ea5939bab4",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=ctenoforo_ms"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Fernández-Zapata B (2019): Distribución de Ctenóforos en los Montes Submarinos de la Dorsal Juan Fernández. v1.2. Universidad de Concepción e Instituto Milenio de Oceanografía (IMO). Dataset/Samplingevent. http://ipt.iobis.org/esp-obis/resource?r=ctenoforo_ms&amp;v=1.2",
+    "version": "2021-09-01T20:35:09.000Z",
+    "keywords": [
+        "Zooplancton gelatinoso",
+        "Ctenóforos",
+        "Montes Submarinos",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved Oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/",
+            "description": "Dissolved Oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/",
+            "description": "Water Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individual count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=ctenoforo_ms",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.03 -34.2,-80.03 -32.85,-73.567 -32.85,-73.567 -34.2,-80.03 -34.2"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16784",
+            "@type": "Organization",
+            "legalName": "Instituto Milenio de Oceanografía",
+            "name": "Instituto Milenio de Oceanografía",
+            "url": "https://oceanexpert.org/institution/16784"
+        }
+    ]
+}

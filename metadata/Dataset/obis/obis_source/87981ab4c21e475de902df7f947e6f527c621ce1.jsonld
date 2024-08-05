@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/aaa7c282-5909-4055-845c-026b0db8b86f",
+    "name": "IPOE_Benthos_Steffens",
+    "description": "Data of macrobenthic fauna of the eastern Laptev Sea.",
+    "url": "https://obis.org/dataset/aaa7c282-5909-4055-845c-026b0db8b86f",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=arcod_2006b8"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Matthias Steffens. (2006) Distribution and structure of macrobenthic fauna in the eastern Laptev Sea in relation to environmental factors. Polar Biology, 29(10):837-848",
+    "version": "2019-08-26T14:16:55.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=arcod_2006b8",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "127.459999084 73,127.459999084 75.8099975586,139.690002441 75.8099975586,139.690002441 73,127.459999084 73"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19296",
+            "@type": "Organization",
+            "legalName": "Institut für Polarökologie der Christian-Albrechts-Universität",
+            "name": "Institut für Polarökologie der Christian-Albrechts-Universität",
+            "url": "https://oceanexpert.org/institution/19296"
+        }
+    ]
+}

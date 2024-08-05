@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/eb4c9fce-7d3f-43e4-a00e-9404866472c9",
+    "name": "Avistamiento de fauna marina desde la embarcación en la Expedición de Montes Submarinos 2021",
+    "description": "Registros de avistamientos de fauna realizados en la primera expedición de montes submarinos en aguas costarricenses y en el SFF Malpelo. Todas las observaciones se realizaron desde la embarcación. \nEste conjunto de datos contiene 53 registros, abarcando aves (31), reptiles (3), elasmobranquios (3), peces (1) y mamíferos (15). Los datos fueron tomados en marzo del 2021, en dos localidades diferentes.",
+    "url": "https://obis.org/dataset/eb4c9fce-7d3f-43e4-a00e-9404866472c9",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=seamountsexpedition_2021",
+        "https://doi.org/10.15472/r2x4jf"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Martínez S B, Ladino F, Bessudo S (2021): Avistamiento de fauna desde la embarcación en la Expedición de Montes Submarinos 2021. Version 1.0 Fundación Malpelo y Otros Ecosistemas Marinos. Dataset/Occurrence. https://doi.org/10.15472/r2x4jf",
+    "version": "2021-05-04T22:10:38.000Z",
+    "keywords": [
+        "Aves",
+        "Mamíferos",
+        "Peces",
+        "Reptiles",
+        "Rayas",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2021",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/r2x4jf",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/r2x4jf",
+        "url": "https://doi.org/10.15472/r2x4jf"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=seamountsexpedition_2021",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-83.8026722 3.9067333,-83.8026722 7.8965222,-78.9311833 7.8965222,-78.9311833 3.9067333,-83.8026722 3.9067333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

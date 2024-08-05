@@ -1,0 +1,186 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d8b738c8-6eda-4735-8136-53630eedab6a",
+    "name": "Myctobase, a circumpolar database of mesopelagic fishes for new insights into deep pelagic prey fields - data",
+    "description": "The global importance of mesopelagic fish is increasingly recognised, but they remain relatively poorly studied. This is particularly true in the Southern Ocean, where mesopelagic fishes are both key predators and prey, but where the remote environment makes sampling challenging. Despite this, multiple national Antarctic research programs have undertaken regional sampling of mesopelagic fish over several decades. However, data are dispersed, and sampling methodologies often differ precluding comparisons and limiting synthetic analyses. We identified potential data holders by compiling a metadata catalogue of existing survey data for Southern Ocean mesopelagic fishes. Data holders contributed 17,491 occurrence and 11,190 abundance records from 4780 net hauls from 72 different research cruises. Data span across 37 years from 1991 to 2019 and include trait-based information (length, weight, maturity). The final dataset underwent quality control processes and detailed metadata was provided for each sampling event. This dataset can be accessed through the Antarctic Biodiversity Portal. Myctobase will enhance research capacity by providing the broadscale baseline data necessary for observing and modelling mesopelagic fishes. The paper which this dataset refers to is available at https://doi.org/10.1038/s41597-022-01496-y. \nThe original dataset as submitted for the paper is also available on Zenodo at https://doi.org/10.5281/zenodo.6131579.\nThis dataset is published by SCAR-AntOBIS under the license CC-BY 4.0. We would appreciate it if you could follow the guidelines from the SCAR and IPY Data Policies (https://www.scar.org/excom-meetings/xxxi-scar-delegates-2010-buenos-aires-argentina/4563-scar-xxxi-ip04b-scar-data-policy/file/) when using the data. If you have any questions regarding this dataset, please do not hesitate to contact us via the contact information provided in the metadata or via data-biodiversity-aq@naturalsciences.be. Issues with dataset can be reported at https://github.com/biodiversity-aq/data-publication/\n\nThis dataset is part of the Belgian contribution to the EU-Lifewatch project funded by the Belgian Science Policy Office (BELSPO, contract n°FR/36/AN1/AntaBIS) .",
+    "url": "https://obis.org/dataset/d8b738c8-6eda-4735-8136-53630eedab6a",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=myctobase"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Woods B, Trebilco R, Walters A, Hindell M, Duhamel G, Flores H, Moteki M, Pruvost P, Reiss C, Saunders R, Sutton C, Gan Y, Van de Putte A (2023). Myctobase, a circumpolar database of mesopelagic fishes for new insights into deep pelagic prey fields - data. Version 1.1. SCAR - AntOBIS. Samplingevent dataset. https://ipt.biodiversity.aq/resource?r=myctobase&amp;v=1.1",
+    "version": "2023-05-04T09:13:35.000Z",
+    "keywords": [
+        "Samplingevent",
+        "SOUTHERN OCEAN",
+        "OCEANIC ZONE",
+        "PELAGIC",
+        "MIDWATER TRAWLS",
+        "POPULATION ABUNDANCE",
+        "TRAWL",
+        "ANTARCTIC",
+        "MESOPELAGIC",
+        "LANTERNFISH",
+        "MYCTOPHIDAE",
+        "BATHYLAGIDAE",
+        "BIOMASS",
+        "ABUNDANCE",
+        "WEIGHT",
+        "LENGTH",
+        "BIOMASS"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "describes whether the net was an opening-closing system or an open mouth net",
+            "url": "",
+            "description": "describes whether the net was an opening-closing system or an open mouth net"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "gives an explanation for why a record may have failed quality control checks.",
+            "url": "",
+            "description": "gives an explanation for why a record may have failed quality control checks."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "how bottom depth was determined eg. from echosounder or underway data.",
+            "url": "",
+            "description": "how bottom depth was determined eg. from echosounder or underway data."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "index to indicate whether a record passed quality control processes where 0 = fail, 1 = pass.",
+            "url": "",
+            "description": "index to indicate whether a record passed quality control processes where 0 = fail, 1 = pass."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "indicates whether net was hauled at dawn, day, dusk or night",
+            "url": "",
+            "description": "indicates whether net was hauled at dawn, day, dusk or night"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "method used for calculation of 'solarPosition' and 'diel' (eg. maptools or onboard observations)",
+            "url": "",
+            "description": "method used for calculation of 'solarPosition' and 'diel' (eg. maptools or onboard observations)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "net number (i.e., six codends labelled from 1 to 6 or two nets labelled 1 to 2).",
+            "url": "",
+            "description": "net number (i.e., six codends labelled from 1 to 6 or two nets labelled 1 to 2)."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling net used (i.e., RMT 25; IYGPT with MIDOC).",
+            "url": "",
+            "description": "sampling net used (i.e., RMT 25; IYGPT with MIDOC)."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "size of mesh at the opening of the net (mm).",
+            "url": "https://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "size of mesh at the opening of the net (mm)."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "size of the mouth opening of the net (m2)",
+            "url": "https://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "size of the mouth opening of the net (m2)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=myctobase",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-63.5176 -70.332,-63.5176 -40.0092,160.29 -40.0092,160.29 -70.332,-63.5176 -70.332"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/4953",
+            "@type": "Organization",
+            "legalName": "Alfred-Wegener-Institut (Helmholtz-Zentrum für Polar- und Meeresforschung)",
+            "name": "Alfred-Wegener-Institut (Helmholtz-Zentrum für Polar- und Meeresforschung)",
+            "url": "https://oceanexpert.org/institution/4953"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/5163",
+            "@type": "Organization",
+            "legalName": "British Antarctic Survey",
+            "name": "British Antarctic Survey",
+            "url": "https://oceanexpert.org/institution/5163"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8668",
+            "@type": "Organization",
+            "legalName": "Tokyo University of Marine Science and Technology",
+            "name": "Tokyo University of Marine Science and Technology",
+            "url": "https://oceanexpert.org/institution/8668"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18077",
+            "@type": "Organization",
+            "legalName": "University of Tasmania",
+            "name": "University of Tasmania",
+            "url": "https://oceanexpert.org/institution/18077"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19324",
+            "@type": "Organization",
+            "legalName": "Université Libre de Bruxelles",
+            "name": "Université Libre de Bruxelles",
+            "url": "https://oceanexpert.org/institution/19324"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19410",
+            "@type": "Organization",
+            "legalName": "Muséum National d'Histoire Naturelle – Service du Patrimoine naturel",
+            "name": "Muséum National d'Histoire Naturelle – Service du Patrimoine naturel",
+            "url": "https://oceanexpert.org/institution/19410"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20324",
+            "@type": "Organization",
+            "legalName": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "name": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "url": "https://oceanexpert.org/institution/20324"
+        }
+    ]
+}

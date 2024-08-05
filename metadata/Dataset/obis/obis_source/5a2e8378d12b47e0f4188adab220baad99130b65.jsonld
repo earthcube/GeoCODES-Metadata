@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b06bc9f1-220a-4c9c-9bf3-30b2638e70a0",
+    "name": "PANGAEA - Data from Biogeochemical fluxes of matter and energy in the deep sea (BIGSET)",
+    "description": "Data from Biogeochemical fluxes on the benthic boundary layer (BBL).",
+    "url": "https://obis.org/dataset/b06bc9f1-220a-4c9c-9bf3-30b2638e70a0",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pangaea_2728"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-05-23T11:39:49.000Z",
+    "keywords": [
+        "Benthic boundary layer",
+        "Deep sea",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pangaea_2728",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "59.765 9.99466,59.765 19.9998,68.567 19.9998,68.567 9.99466,59.765 9.99466"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

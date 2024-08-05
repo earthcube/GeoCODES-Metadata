@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6d842380-1cf0-4a1b-9b12-f6d1a8d892b2",
+    "name": "An Indo-Pacific coral spawning database",
+    "description": "The discovery of multi-species synchronous spawning of scleractinian corals on the Great Barrier Reef in the 1980s stimulated an extraordinary effort to document spawning times in other parts of the globe. Unfortunately, most of these data remain unpublished which limits our understanding of regional and global reproductive patterns. The Coral Spawning Database (CSD) collates much of these disparate data into a single place. The CSD includes 6178 observations (3085 of which were unpublished) of the time or day of spawning for over 300 scleractinian species in 61 genera from 101 sites in the Indo-Pacific. The goal of the CSD is to provide open access to coral spawning data to accelerate our understanding of coral reproductive biology and to provide a baseline against which to evaluate any future changes in reproductive phenology.\nData and metadata sourced from https://www.nature.com/articles/s41597-020-00793-8 on 2021-11-22. See article for the full list of contributors and their organisations.",
+    "url": "https://obis.org/dataset/6d842380-1cf0-4a1b-9b12-f6d1a8d892b2",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=indo_pacific_coral_spawning_database"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Baird, A.H., Guest, J.R., Edwards, A.J. et al. An Indo-Pacific coral spawning database. Sci Data 8, 35 (2021). https://doi.org/10.1038/s41597-020-00793-8",
+    "version": "2022-06-08T01:52:31.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gamete release state",
+            "url": "",
+            "description": "Gamete release state"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=indo_pacific_coral_spawning_database",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-170.70083 -31.567,-170.70083 33.36667,178.95015 33.36667,178.95015 -31.567,-170.70083 -31.567"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6f44d12a-ce3a-4589-9b3a-69234ee207d1",
+    "name": "MARMAP Yankee Trawl 1990-2009",
+    "description": "This dataset contains abundance and biomass of fish species collected during the day from 1973 to 1980 off the coast of the southeastern United States (Cape Fear, NC to Cape Canaveral, FL).",
+    "url": "https://obis.org/dataset/6f44d12a-ce3a-4589-9b3a-69234ee207d1",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=marmap_yankeetrawl"
+    ],
+    "license": "Restricted",
+    "citation": "Marcel Reichert, 2010, MARMAP Yankee Trawl 1990-2009, SCDNR/NOAA MARMAP Program, SCDNR MARMAP Aggregate data surveys, The Marine Resources Monitoring, Assessment, and Prediction (MARMAP) Program, Marine Resources Research Institute, South Carolina Department of Natural Resources, P. O. Box 12559, Charleston SC 29422-2559, U.S.A. Retrieve from http://obisusa.nbii.gov",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/1980",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=marmap_yankeetrawl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.3700027466 28.7399997711,-81.3700027466 35.3600006104,-74.9499969482 35.3600006104,-74.9499969482 28.7399997711,-81.3700027466 28.7399997711"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

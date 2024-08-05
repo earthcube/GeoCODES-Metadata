@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/871e92ab-2a00-4851-b948-cb6dda862f9c",
+    "name": "MBON POLE TO POLE: ROCKY SHORE BIODIVERSITY OF GORGONA ISLAND",
+    "description": "The MBON Pole to Pole effort seeks to develop a framework for the collection, use and sharing of marine biodiversity data in a coordinated, standardized manner leveraging on existing infrastructure managed by the Global Ocean Observing System (GOOS; IOC-UNESCO), the GEO Biodiversity Observation Network (GEO BON), and the Ocean Biogeographic Information System (OBIS). The MBON Pole to Pole aims to become a key resource for decision-making and management of living resource across countries in the Americas for reporting requirements under the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), Aichi Targets of the Convention of Biological Diversity (CBD), and the UN 2030 Agenda for Sustainable Development Goals (SDGs).\nIn line with these goals, the information in this document represents an effort to inform the biodiversity of marine invertebrates associated to the rocky shores of Gorgona Island, one of the most well-managed National Natural Parks in Colombia, which appears in the GreenList. The data was gathering implementing the standard methodology used by the MBON Pole to Pole team, based on the SARCE protocol. Partial financial support was received from the Park administration.",
+    "url": "https://obis.org/dataset/871e92ab-2a00-4851-b948-cb6dda862f9c",
+    "sameAs": [
+        "http://ipt.iobis.org/mbon/resource?r=rockycolombia"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Londono-Cruz E (2019): MBON POLE TO POLE: ROCKY SHORE BIODIVERSITY OF GORGONA ISLAND. v1.5. Caribbean OBIS Node. Dataset/Samplingevent. http://ipt.iobis.org/mbon/resource?r=rockycolombia&amp;v=1.5",
+    "version": "2019-08-17T08:43:49.000Z",
+    "keywords": [
+        "MBON\nPole to Pole\nMarine invertebrates\nRocky shore\nBenthos\nIsland\nPacific Coast"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P06/current/UMSQ/1/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "cover",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "cover"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/mbon/archive.do?r=rockycolombia",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-78.203117 2.934317,-78.203117 2.95695,-78.198133 2.95695,-78.198133 2.934317,-78.203117 2.934317"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

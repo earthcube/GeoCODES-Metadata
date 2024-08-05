@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/18e06e2d-1cde-4deb-a60e-4a6423428118",
+    "name": "Previous Fisheries REVIZEE Program",
+    "description": "Fisheries data from the REVIZEE Program, Brazil",
+    "url": "https://obis.org/dataset/18e06e2d-1cde-4deb-a60e-4a6423428118",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=fisheries_revizee",
+        "http://doi.org/10.25607/fkn6ys"
+    ],
+    "license": "Unrestricted",
+    "citation": " (2018): Previous Fisheries REVIZEE Program. v2.0. Tropical and Subtropical Western South Atlantic OBIS. Dataset/Occurrence. http://doi.org/10.25607/fkn6ys",
+    "version": "2021-07-02T11:07:32.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1965/1992",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/fkn6ys",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/fkn6ys",
+        "url": "http://doi.org/10.25607/fkn6ys"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=fisheries_revizee",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-57.8 -35.8495,-57.8 7.7667,-29.35 7.7667,-29.35 -35.8495,-57.8 -35.8495"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

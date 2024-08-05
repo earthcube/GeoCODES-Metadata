@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ac30d841-5e85-433d-a640-1e7482723cc0",
+    "name": "Marine records from the First Bird Atlas, Birdlife Australia (1976-1984)",
+    "description": "Records collected by Birds Australia between 1977 and 1981, each survey was ascribed to a grid with the coords given as the central point. Grids size varied, with most being 10-minute grids or 1-degree grids.\nThis dataset is a subset of marine species downloaded from ALA https://collections.ala.org.au/public/show/dr571 on 2020-07-14. Many records have missing dates but the data has been collected between 1976 and 1984.",
+    "url": "https://obis.org/dataset/ac30d841-5e85-433d-a640-1e7482723cc0",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_dr571"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": " (2023): Marine records from the First Bird Atlas, Birdlife Australia (1976-1984). v1.9. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=ala_dr571&amp;v=1.9",
+    "version": "2023-06-28T04:34:15.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/1984",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_dr571",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113 -43.91,113 -9.08,153.91 -9.08,153.91 -43.91,113 -43.91"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19273",
+            "@type": "Organization",
+            "legalName": "Birdlife Australia",
+            "name": "Birdlife Australia",
+            "url": "https://oceanexpert.org/institution/19273"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

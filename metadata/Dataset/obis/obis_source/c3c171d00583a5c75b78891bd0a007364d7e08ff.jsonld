@@ -1,0 +1,102 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/057d7f8c-5286-4032-aaf9-5ce078833262",
+    "name": "Finnish Baltic Sea phytoplankton monitoring, KPLANK database",
+    "description": "The KPLANK database includes data on phytoplankton, covering the Finnish coastal areas as well as the offshore areas of the Baltic Sea. The quantitative data mainly stem from the Finnish national monitoring program and statutory monitoring programs. In total the database contain approximately 240 000 quantitative records including size classes. The data span from 1937 to present. The database is regularly maintained and data is added continuously.",
+    "url": "https://obis.org/dataset/057d7f8c-5286-4032-aaf9-5ce078833262",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=syke-kplank-phytoplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Finnish Environment Institute SYKE; (2019); Finnish Baltic Sea phytoplankton monitoring, KPLANK database",
+    "version": "2024-02-26T23:49:11.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/BATHDPTH/",
+            "description": "Bottom depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Trophic type",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS10997/",
+            "description": "Trophic type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass of phytoplankton per unit volume of the water body by optical microscopy and computation by morphometric method",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WWBMM00Z/",
+            "description": "Wet weight biomass of phytoplankton per unit volume of the water body by optical microscopy and computation by morphometric method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Carbon biomass of phytoplankton per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PHYTC1ZZ/",
+            "description": "Carbon biomass of phytoplankton per unit volume of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Subsample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "Subsample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "Sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1937/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=syke-kplank-phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14 53.99307,14 65.77439,30.13038 65.77439,30.13038 53.99307,14 53.99307"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6169",
+            "@type": "Organization",
+            "legalName": "Finnish Environment Institute",
+            "name": "Finnish Environment Institute",
+            "url": "https://oceanexpert.org/institution/6169"
+        }
+    ]
+}

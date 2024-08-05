@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a9af8063-840a-4295-98d9-62843f12f0ba",
+    "name": "National Institute of Marine Sciences and Technologies - Trawling surveys",
+    "description": "Dataset from trawl surveys by the Laboratory of Marine Living Resources.",
+    "url": "https://obis.org/dataset/a9af8063-840a-4295-98d9-62843f12f0ba",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=instm_trawl"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Institute of Marine Sciences and Technologies, Republic of Tunisia Trawling Surveys. Republic of Tunisia.",
+    "version": "2020-12-02T14:08:39.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=instm_trawl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "5.14200019836 17.1030006409,5.14200019836 38.0950012207,13.3669996262 38.0950012207,13.3669996262 17.1030006409,5.14200019836 17.1030006409"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

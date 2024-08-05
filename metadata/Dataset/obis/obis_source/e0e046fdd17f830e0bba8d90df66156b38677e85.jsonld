@@ -1,0 +1,114 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e7e9e58c-6c4c-4cc0-9df3-dd255fd303bd",
+    "name": "Plankton Diversity Along the Portuguese Coast in the 1970s",
+    "description": "<p>Hydrographic Institute campaigns in collaboration with the Marine Biology Station (predecessor of INIP, IPIMAR, and IPMA) of the CAPEC program (1970s).</p>",
+    "url": "https://obis.org/dataset/e7e9e58c-6c4c-4cc0-9df3-dd255fd303bd",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=capec"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "dos Santos A, Niza H, Silva A, Almeida S (2023): Plankton Diversity Along the Portuguese Coast in the 1970s. v1.15. IPMA - Instituto Português do Mar e da Atmosfera. Dataset/Samplingevent. http://ipt.gbif.pt/ipt/resource?r=capec&amp;v=1.15",
+    "version": "2024-02-26T23:18:22.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMP001/",
+            "description": "Sampling salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved oxygen concentration in the water column",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYZZXX/",
+            "description": "Dissolved oxygen concentration in the water column"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved oxygen saturation in the water column",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OXYSZZ01/",
+            "description": "Dissolved oxygen saturation in the water column"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Concentration of phosphate",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PHOSZZXX/",
+            "description": "Concentration of phosphate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Concentration of nitrate",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/",
+            "description": "Concentration of nitrate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Air pressure",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/CAPH/",
+            "description": "Air pressure"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Air temperature dry",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CDTASS01/",
+            "description": "Air temperature dry"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Air temperature wet",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CWETZZ01/",
+            "description": "Air temperature wet"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Concentration of chloride",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CLXXIETX/",
+            "description": "Concentration of chloride"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/1974",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=capec",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.58 36.17,-10.58 41.88,-7.33 41.88,-7.33 36.17,-10.58 36.17"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14932",
+            "@type": "Organization",
+            "legalName": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "name": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "url": "https://oceanexpert.org/institution/14932"
+        }
+    ]
+}

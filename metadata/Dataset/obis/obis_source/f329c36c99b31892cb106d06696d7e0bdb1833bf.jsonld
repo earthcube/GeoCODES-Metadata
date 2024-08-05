@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/450c989e-9b23-4877-a0f7-d5f7ea9cacbd",
+    "name": "sardina_anchoveta",
+    "description": "Información proveniente de informes FIP Subpesca, Gobierno de Chile",
+    "url": "https://obis.org/dataset/450c989e-9b23-4877-a0f7-d5f7ea9cacbd",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=sardina_anchoveta"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Canales-Aguirre CB, Ferrada-Fuentes S, Galleguillos R, Sepúlveda HH, Artal OE, Parada C, Medel MC, Niklitschek EJ, Garcés C, Aedo G, Hernández CE, Rivera R, Santis O, Gormáz A. 2017. Identificación de áreas de conservación o resguardo para los recursos sardina común y anchoveta en la zona centro sur de Chile. Informe final FIPA 2016-34. 326 pp",
+    "version": "2021-11-25T19:43:48.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Sardina común",
+        "Anchoveta",
+        "Zona centro-sur de Chile"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=sardina_anchoveta",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-74 -39.98,-74 -32.7,-71.5 -32.7,-71.5 -39.98,-74 -39.98"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16784",
+            "@type": "Organization",
+            "legalName": "Instituto Milenio de Oceanografía",
+            "name": "Instituto Milenio de Oceanografía",
+            "url": "https://oceanexpert.org/institution/16784"
+        }
+    ]
+}

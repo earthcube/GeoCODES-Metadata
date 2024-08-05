@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0001aa41-e3e4-40a0-9193-9a5c81c627bf",
+    "name": "Polychaeta distribution data from: Deep-sea fauna of European seas - an annotated species check-list of benthic invertebrates living deeper than 2000 m in the seas bordering Europe",
+    "description": "An annotated check-list is given of Polychaeta species occurring deeper than 2000 m in the seas bordering Europe.",
+    "url": "https://obis.org/dataset/0001aa41-e3e4-40a0-9193-9a5c81c627bf",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=deepsea_polychaetes"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Budaeva, N.E.; Jirkov, I.A.; Savilova, T.A.; Paterson, G.L.J.; (2017). Polychaeta distribution data from: Deep-sea fauna of European seas - an annotated species check-list of benthic invertebrates living deeper than 2000 m in the seas bordering Europe.",
+    "version": "2024-02-26T23:48:00.000Z",
+    "keywords": [
+        "Deep sea",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1872/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=deepsea_polychaetes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.76 20,-178.76 86.62,178.87 86.62,178.87 20,-178.76 20"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8603",
+            "@type": "Organization",
+            "legalName": "The Natural History Museum",
+            "name": "The Natural History Museum",
+            "url": "https://oceanexpert.org/institution/8603"
+        }
+    ]
+}

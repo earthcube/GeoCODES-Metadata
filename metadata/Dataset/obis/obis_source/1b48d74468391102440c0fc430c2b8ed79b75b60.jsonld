@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1ebbe2a8-9a22-464f-8abe-043d3339bb87",
+    "name": "Mystic Aquarium's marine mammal and sea turtle stranding data 1976-2011",
+    "description": "Original provider:\nMystic Aquarium\n\nDataset credits:\nMystic Aquarium\n\nAbstract:\nMystic Aquarium’s Animal Rescue Program supports animals in need, educates the public about the marine environment and its inhabitants, and promotes our mission to inspire people to care about and protect our ocean planet. Mystic Aquarium is a founding member of the Northeast Region Stranding Network. The network consists of independent organizations dedicated to caring for sick and injured marine animals and learning more about the reasons they come ashore. Only groups and facilities authorized by the National Marine Fisheries Service are permitted to handle these animals, which are protected under federal law.\nThe efforts of the Aquarium and its volunteer \"first responder\" network are centered on the coasts of Connecticut, Rhode Island and Fishers Island, New York, USA, but the Aquarium has also supported institutions from Maine to New Jersey, and even in Texas, when other institutions have needed support for their operations. To date the Aquarium has responded to more than 1100 stranded seals, whales, dolphins, porpoises and sea turtles. From 2007 to 2012, we have responded to 376 strandings and 426 sightings and accepted 113 seals from other facilities for rehabilitation.\n\nPurpose:\nAquarium scientists maintain data on marine mammal and sea turtle strandings and sightings as a means of monitoring the behavior and health of these animals, always vigilant for changes in patterns that might signal an unusual event such as a viral outbreak or a toxic algal bloom. The condition of these animals reveals much about the health of our oceans.\n\nSupplemental information:\n[2020-09-30] The following invalid species names were corrected according to the Integrated Taxonomic Information System (ITIS).\nTurtles: Testudines (173749) =&gt; Testudines (948936)\n\nApril 9, 2013: Time of stranding was not available, so 00:00:00 was used; two records did not have month or day available, so Jan 1 was used.",
+    "url": "https://obis.org/dataset/1ebbe2a8-9a22-464f-8abe-043d3339bb87",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_945"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Smith, A. 2014. Mystic Aquarium's marine mammal and sea turtle stranding data 1976-2011. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/945) on yyyy-mm-dd.",
+    "version": "2021-04-24T11:11:51.000Z",
+    "keywords": [
+        "Occurrence,Land-based,Sightings",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_945",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.6475 40.999444,-73.6475 41.8625,-71.101667 41.8625,-71.101667 40.999444,-73.6475 40.999444"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/471a8de8-80f8-43f9-9443-88a45712feba",
+    "name": "ChEssBase",
+    "description": "ChEssBase is a dynamic relational database for all deep-water species from chemosynthetic ecosystems (hydrothermal vents, cold seeps and other reducing environments such as whale carcasses, sunken wood or OMZs) being constructed from the ChEss project (Biogeography of Deep-Water Chemosynthetic Ecosystems) within the Census of Marine Life initiative.",
+    "url": "https://obis.org/dataset/471a8de8-80f8-43f9-9443-88a45712feba",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=chessbase"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Ramirez-Llodra, E., Blanco, 2005. ChEssBase: an online information system on biodiversity and biogeography of deep-sea fauna from chemosynthetic ecosystems. Version 2. World Wide Web electronic publications, http://www.noc.soton.ac.uk/chess/database/db_home.php",
+    "version": "2023-05-23T12:18:21.000Z",
+    "keywords": [
+        "Bibliographic information",
+        "Biogeography",
+        "Biology",
+        "Ecology",
+        "Taxonomy",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=chessbase",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-158.130004882812 -55.1011009216309,-158.130004882812 72,179.699996948242 72,179.699996948242 -55.1011009216309,-158.130004882812 -55.1011009216309"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13321",
+            "@type": "Organization",
+            "legalName": "National Oceanography Centre, Southampton",
+            "name": "National Oceanography Centre, Southampton",
+            "url": "https://oceanexpert.org/institution/13321"
+        }
+    ]
+}

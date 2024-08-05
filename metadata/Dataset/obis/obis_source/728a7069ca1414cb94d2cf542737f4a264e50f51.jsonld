@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9625bb4a-bbbb-4cde-946f-e74f973fdba4",
+    "name": "Regionally Integrated Marine Database (RINKAI), managed by JAMBIO, an association of Japanese university-based marine stations",
+    "description": "Japanese Association for Marine Biology (JAMBIO), an association of Japanese university-based marine stations, was established to facilitate collaboration in research and education and information sharing among the research community. One of its central strategic projects is the JAMBIO Coastal Organism Joint Surveys, in which researchers and students across the country stay at a marine station for a few days, collect, and make records of marine organisms. As of 2021, 22 surveys have been performed at 7 locations, with 408 participants from 37 institutes taking part. Some of the organisms collected during the JAMBIO Coastal Organism Joint Surveys, as well as other organisms collected by researchers at Shimoda Marine Research Center, University of Tsukuba, are listed in the JAMBIO Regionally Integrated Marine Database (RINKAI). Data of this dataset is derived from RINKAI, and photographs of the organisms are displayed at the original database (https://www.shimoda.tsukuba.ac.jp/~marinelife-db/).",
+    "url": "https://obis.org/dataset/9625bb4a-bbbb-4cde-946f-e74f973fdba4",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=jambio_rinkai",
+        "https://doi.org/10.48518/00010"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Japanese Association for Marine Biology (2022) Regionally Integrated Marine Database (RINKAI), managed by JAMBIO, an association of Japanese university-based marine stations. Available at https://doi.org/10.48518/00010. Accessed on YYYY-MM-DD.",
+    "version": "2024-03-31T15:00:15.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.48518/00010",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.48518/00010",
+        "url": "https://doi.org/10.48518/00010"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=jambio_rinkai",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "137.229725 34.1282085,137.229725 42.992971,144.811065 42.992971,144.811065 34.1282085,137.229725 34.1282085"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

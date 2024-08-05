@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/455e7040-7bac-4d72-ac4e-42f7dbae7b0b",
+    "name": "Queen Victoria Museum and Art Gallery - Mammals - marine records",
+    "description": "The basis of the zoological collections of the QVMAG was formed from the Launceston Mechanics' Institute, which opened in 1842. Many exotic species, mainly mounted specimens, were acquired during the early years as a result of exchanges with other museums around the world. Dr RH Green, Curator of Zoology 1961-90 was responsible for significantly increasing the size of the Tasmanian mammal and bird research collections including the range of species represented.\nThis dataset is of marine species sourced from the Atlas of Living Australia (ALA) January 2019 (https://collections.ala.org.au/public/show/co157). Taxa have been matched to the World Register of Marine Species (WoRMS) and if not then matched to the Australian Faunal Directory (AFD)",
+    "url": "https://obis.org/dataset/455e7040-7bac-4d72-ac4e-42f7dbae7b0b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_co157"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-07T03:08:34.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1939/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_co157",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "74.51666 -54.48333,74.51666 -35,158.9 -35,158.9 -54.48333,74.51666 -54.48333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/036dc775-c4d6-4d31-8bfe-2ca66d298b95",
+    "name": "Mesozooplankton in the Sea Scheldt between 1995 and 1996",
+    "description": "Quantitative and qualitative study on mesozooplankton species in the Sea Scheldt between 1995 and 1996. The data were digitized by VLIZ from the original report: Van Mieghem, R. (1996). Mesozooplankton in de Zeeschelde. BSc Thesis. Vrije Universiteit Brussel: Brussel. 28, + annexes pp.",
+    "url": "https://obis.org/dataset/036dc775-c4d6-4d31-8bfe-2ca66d298b95",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mesozooplankton_scheldt_1995-1996",
+        "https://dx.doi.org/10.14284/125"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Van Mieghem R.; Daro N.; Faculteit Wetenschappen, Laboratorium voor Ecologie en Systematiek. VUB: Belgium; (2016): Mesozooplankton in the Sea Scheldt between 1995 and 1996. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4598) https://dx.doi.org/10.14284/125",
+    "version": "2023-12-08T17:10:50.000Z",
+    "keywords": [
+        "Zooplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MSHSIZE1/",
+            "description": "mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observed individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "observed individual count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Life stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1996",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/125",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/125",
+        "url": "https://dx.doi.org/10.14284/125"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mesozooplankton_scheldt_1995-1996",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.8037776947022 51.00566482544,3.8037776947022 51.34774,4.3940644264221 51.34774,4.3940644264221 51.00566482544,3.8037776947022 51.00566482544"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ae274cc9-1bdf-4f9c-9db1-55fa8c95530a",
+    "name": "Report on the Danish Oceanographical expeditions 1908-1910 to the Mediterranean and adjacent seas. Vol II Biology. A.8 Lepadogaster By Frederic Guitel (1919)",
+    "description": "This is a historical dataset that forms part of the \"Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas\". It includes data for the fish of the genus Lepadogaster sampled from several sites of the North Atlantic Ocean, near the English and French coasts and the Strait of Gibraltar during the years 1904-1910. The infromation extraction was based on the Table 1 of the publication and included abundance data and metadata of location, date, depth and the sampling effort. Additional information, such as the life stage, was extracted from the main text of the publication. The dataset was curated by the citizen scientists of the Zooniverse platform within the efforts of incorporating citizen science in the management of historical datasets of EMODnet Biology project. Standard quality control steps followed after this process.",
+    "url": "https://obis.org/dataset/ae274cc9-1bdf-4f9c-9db1-55fa8c95530a",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=lepadogaster_thor"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Sarafidou G, Mavraki D (2022): Report on the Danish Oceanographical expeditions 1908-1910 to the Mediterranean and adjacent seas. Vol II Biology. A.8 Lepadogaster By Frederic Guitel (1919). v1.5. Hellenic Center for Marine Research. Dataset/Samplingevent. http://ipt.medobis.eu/resource?r=lepadogaster_thor&amp;v=1.5",
+    "version": "2023-02-10T13:54:42.000Z",
+    "keywords": [
+        "Lepadogaster",
+        "English Channel",
+        "North Atlantic Ocean",
+        "historical dataset"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea-floor depth (below mean sea level) {bathymetric depth}",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/BATHDPTH/",
+            "description": "Sea-floor depth (below mean sea level) {bathymetric depth}"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1904/1910",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=lepadogaster_thor",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-6.2166667 35.75,-6.2166667 58.8,2.3833333 58.8,2.3833333 35.75,-6.2166667 35.75"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

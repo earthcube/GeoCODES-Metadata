@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/29c5ae7e-cf95-45bb-93e8-762dbf11c1da",
+    "name": "NAFO: Cod fisheries at Greenland: catch statistics, 1911-1995",
+    "description": "This dataset includes annual nominal catches of cod extracted from Volume 28 of the NAFO Journal of Northwest Atlantic Fishery Science which documents the development of the cod fisheries around Greenland. Official statistics from this area were first recorded in 1910 (Svend Aage Horsted, 2000). \n\nData records include the scientific name, the NAFO fishing area and nominal position, the year, annual nominal catches(tons) and vessel type (small Greenland boats below 50 GRT; Greenland trawlers above 150 GRT;non-greenlandic vessels above 150 GRT). Nominal catches are landed weight, for instance gutted, heads-on fish converted to corresponding weight of round fresh fish.\n\nZero catches are not included in this version of the dataset.",
+    "url": "https://obis.org/dataset/29c5ae7e-cf95-45bb-93e8-762dbf11c1da",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=nafojournal_greenland_cod"
+    ],
+    "license": "rights: http://creativecommons.org/publicdomain/zero/1.0/ &amp; http://www.canadensys.net/norms\n\nrightsHolder: Northwest Atlantic Fisheries Organization (NAFO)",
+    "citation": "NAFO 2014.  NAFO: Cod fisheries at Greenland: catch statistics, 1911-1995. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2014-11-03T19:56:27.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=nafojournal_greenland_cod",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-61.89 57.81,-61.89 73.25,-47.58 73.25,-47.58 57.81,-61.89 57.81"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18847",
+            "@type": "Organization",
+            "legalName": "Northwest Atlantic Fisheries Organization",
+            "name": "Northwest Atlantic Fisheries Organization",
+            "url": "https://oceanexpert.org/institution/18847"
+        }
+    ]
+}

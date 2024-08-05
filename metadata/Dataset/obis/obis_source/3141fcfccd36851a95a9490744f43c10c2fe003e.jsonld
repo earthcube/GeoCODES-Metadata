@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/496f8c69-942b-4ee0-9e1b-b2a1b1f272e4",
+    "name": "Bolus Herbarium Algal Specimen Database",
+    "description": "The Bolus Herbarium algal collection is the most comprehensive collection in South Africa. Also a reasonable collection of foreign material form various parts of the world. The latter do not form part of the database material.",
+    "url": "https://obis.org/dataset/496f8c69-942b-4ee0-9e1b-b2a1b1f272e4",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=uct_algae"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bolus Herbarium Algal Specimen Database",
+    "version": "2020-12-02T14:08:39.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1865/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=uct_algae",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.15832996368 -60.1399993896,1.15832996368 -14.4499998093,40.0299987793 -14.4499998093,40.0299987793 -60.1399993896,1.15832996368 -60.1399993896"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

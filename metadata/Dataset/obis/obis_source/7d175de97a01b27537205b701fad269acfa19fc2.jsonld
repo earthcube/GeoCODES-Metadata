@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d3feb3bf-b230-4c45-9031-091b7c432238",
+    "name": "Museums Victoria Herpetology Collection - marine records",
+    "description": "The Herpetology Collection comprises more than 76,000 specimens of snakes, lizards, frogs, salamanders, tortoises and turtles.\n\nEstablished in the 1850s, the majority of the collection comprises specimens kept in 70% alcohol, plus sub-collections of ethanol-fixed and frozen tissues, a dry and skeletal collection, an X-ray and photographic collection.\nThis dataset is of marine species sourced from the Atlas of Living Australia (ALA) January 2019 (https://collections.ala.org.au/public/show/co117). Taxa have been matched to the World Register of Marine Species (WoRMS) and if not then matched to the Australian Faunal Directory (AFD)",
+    "url": "https://obis.org/dataset/d3feb3bf-b230-4c45-9031-091b7c432238",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_co117"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Bray D (2023): Museums Victoria Herpetology Collection - marine records. v1.8. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=ala_co117&amp;v=1.8",
+    "version": "2023-06-28T04:31:50.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1877/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_co117",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.2122 -40.05,14.2122 10.35,161.5 10.35,161.5 -40.05,14.2122 -40.05"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1f15159f-6d35-4c3f-86e8-b3a89041ea33",
+    "name": "SHARK - National phytoplankton monitoring in Sweden since 1983",
+    "description": "Data collected within various monitoring programmes and surveys. Standard quantitative phytoplankton techniques following HELCOM MONAS guidelines. Counts and sometimes biovolumes on species level.",
+    "url": "https://obis.org/dataset/1f15159f-6d35-4c3f-86e8-b3a89041ea33",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=smhi-phytoplankton-nat",
+        "https://doi.org/10.15468/s3yg8z"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Stockholm University, Swedish Meteorological and Hydrological Institute, Gothenburg University, Umeå University, Swedish Agency for Marine and Water Management and Swedish Environmental Protection Agency (2020). National phytoplankton monitoring in Sweden since 1983. https://doi.org/10.15468/s3yg8z",
+    "version": "2023-12-08T18:31:58.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampler type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biovolume concentration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL13/",
+            "description": "Biovolume concentration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water depth",
+            "url": "",
+            "description": "Water depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sedimentation volume",
+            "url": "",
+            "description": "Sedimentation volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Magnification",
+            "url": "",
+            "description": "Magnification"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampled volume",
+            "url": "",
+            "description": "Sampled volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Coefficient",
+            "url": "",
+            "description": "Coefficient"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Plankton sampling method",
+            "url": "",
+            "description": "Plankton sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "# counted",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "# counted"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/2021",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/s3yg8z",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/s3yg8z",
+        "url": "https://doi.org/10.15468/s3yg8z"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=smhi-phytoplankton-nat",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "10.5133 54.97017,10.5133 65.89667,24.03917 65.89667,24.03917 54.97017,10.5133 54.97017"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

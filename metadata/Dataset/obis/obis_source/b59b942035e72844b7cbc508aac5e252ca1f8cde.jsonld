@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/29a6a38b-1add-414f-a7ea-22d12c5b0fb6",
+    "name": "Phytoplankton samples - 2006/07 V3 SAZ-Sense",
+    "description": "Locations of sampling sites for ASAC project 40 on voyage 3 of the Aurora Australis in the 2006/2007 season. The dataset also contains information on chlorophyll, carotenoids, coccolithophorids and species indentification and counts. LOSS ( see http://data.aad.gov.au/aadc/voyages/display_voyage.cfm?voyage_id=336).",
+    "url": "https://obis.org/dataset/29a6a38b-1add-414f-a7ea-22d12c5b0fb6",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=saz_sense_phytoplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Phytoplankton samples - 2006/07 V3 SAZ-Sense.",
+    "version": "2019-05-08T23:30:27.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=saz_sense_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "140.3533 -54.141,140.3533 -45.2735,153.6691 -45.2735,153.6691 -54.141,140.3533 -54.141"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

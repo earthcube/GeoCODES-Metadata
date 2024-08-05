@@ -1,0 +1,100 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0c1cb7e9-c7d1-4643-b245-daa8839a183f",
+    "name": "The UK Archive for Marine Species and Habitats Data",
+    "description": "Accredited through the MEDIN partnership, and core-funded by the Department for the Environment, Food and Rural Affairs (Defra) and the Scottish Government, DASSH provides tools and services for the long-term curation, management and publication of marine species and habitats data, within the UK and internationally.",
+    "url": "https://obis.org/dataset/0c1cb7e9-c7d1-4643-b245-daa8839a183f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dassh"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Marine Biological Association of the UK (MBA); (2016): DASSH: The UK Archive for Marine Species and Habitats Data",
+    "version": "2023-12-08T17:13:34.000Z",
+    "keywords": [
+        "Data",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "VolumeSampled",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "VolumeSampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SACFORN abundance scale",
+            "url": "",
+            "description": "SACFORN abundance scale"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Percentage cover",
+            "url": "",
+            "description": "Percentage cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingDeviceApertureSurfaceArea",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "SamplingDeviceApertureSurfaceArea"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Shoot density",
+            "url": "",
+            "description": "Shoot density"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1948/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dassh",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-25.65861111 36.54111111,-25.65861111 61.64194222,6.77135 61.64194222,6.77135 36.54111111,-25.65861111 36.54111111"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

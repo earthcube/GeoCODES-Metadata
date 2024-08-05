@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/98b326d9-78c0-40c5-82e1-467dcf4cdca9",
+    "name": "DFO-Maritimes: Planktonic sea scallop larvae in the Canadian Gulf of Maine: Distribution and abundance data 1984-1988.",
+    "description": "Objective: To relate to oceanographic conditions the horizontal and vertical distribution of sea scallop larvae (Placopecten magellanicus) in the Canadian Gulf of Maine area (Bay of Fundy, western Scotian Shelf and Georges Bank)\n\nRecords in this dataset were digitized as part of an ongoing data recovery activity. Version 1 of the dataset contains counts of larvae per sample for cruises conducted in 1984. Abundance information (#/m3) is not included in this version. Records indicate the number of individual scallop larvae sized but these measurements are not included in this version.",
+    "url": "https://obis.org/dataset/98b326d9-78c0-40c5-82e1-467dcf4cdca9",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=mar_tremblay_scalloplarva"
+    ],
+    "license": "rights: http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms  \nrights holder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "Tremblay, M.J. 2014. DFO-Maritimes: Planktonic scallop larval abundance and density data 1984-1988. Version 1 In OBIS Canada Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS. http://www.iobis.org/. (consulted on [date])",
+    "version": "2021-04-16T11:33:28.000Z",
+    "keywords": [
+        "occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/1984",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=mar_tremblay_scalloplarva",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.13333 44.31667,-67.13333 45.38333,-64.61667 45.38333,-64.61667 44.31667,-67.13333 44.31667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

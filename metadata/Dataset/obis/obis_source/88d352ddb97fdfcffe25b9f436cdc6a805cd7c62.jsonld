@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f0fe4815-0d3d-4035-936a-28dc1f097135",
+    "name": "Ornithological observations in the southeast of the North Sea between June 1971 and January 1972",
+    "description": "Counts of marine bird species observed during three oceanographic cruises in the South-eastern part of the North Sea on board of the A962 \"Mechelen\" between June 1971 and January 1972. The data were digitized by VLIZ from the original report: Joiris, C. (1972). Observations ornithologiques réalisées dans le sud-est de la Mer du Nord entre juin 1971 et janvier 1972: 1. Oiseaux marins.",
+    "url": "https://obis.org/dataset/f0fe4815-0d3d-4035-936a-28dc1f097135",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ornithological_observations_in_the_southeast_of_the_north_sea_between_june_1971_and_january_1972",
+        "https://dx.doi.org/10.14284/136"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Joiris C.; Laboratorium voor Ekologie en Systematiek. VUB: Belgium; (2016): Ornithological observations in the southeast of the North Sea between June 1971 and January 1972. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5161) https://dx.doi.org/10.14284/136",
+    "version": "2023-05-23T11:51:17.000Z",
+    "keywords": [
+        "Mechelen",
+        "research vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "platform category",
+            "url": "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/",
+            "description": "platform category"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "platform name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "platform name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Birding time",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Birding time"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Observed Individual Count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Observed Individual Count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/1972",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/136",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/136",
+        "url": "https://dx.doi.org/10.14284/136"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ornithological_observations_in_the_southeast_of_the_north_sea_between_june_1971_and_january_1972",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.62963 51.09195,1.62963 52.63218,4.388889 52.63218,4.388889 51.09195,1.62963 51.09195"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bfa928e8-142f-4825-9641-589a4ab807fe",
+    "name": "Mortalidad de copépodos Mejillones ",
+    "description": "El estudio se realizó en el norte de Chile (Bahía de Mejillones) dentro del Sistema de la Corriente de Humboldt (HCS). Se realizó un muestreo mensual en 2010 y 2011 en tres estaciones a lo largo de un transecto costero. Se midió la temperatura del agua, la salinidad y el oxígeno disuelto (OD) en cada estación mediante el perfilador autónomo SeaBird SBE-19.",
+    "url": "https://obis.org/dataset/bfa928e8-142f-4825-9641-589a4ab807fe",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=mortalidad"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Yáñez S (2021): Mortalidad de copépodos Mejillones. v1.0. Universidad de Concepción e Instituto Milenio de Oceanografía (IMO). Dataset/Samplingevent. http://ipt.iobis.org/esp-obis/resource?r=mortalidad&amp;v=1.0",
+    "version": "2021-10-20T18:43:11.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Zooplancton",
+        "Mortalidad de copépodos",
+        "Bahía de Mejillones"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "CTD-O SeaBird SBE-19 Plus",
+            "url": "http://vocab.nerc.ac.uk/collection/L22/current/TOOL0047/",
+            "description": "CTD-O SeaBird SBE-19 Plus"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "WP-2 Net",
+            "url": "http://vocab.nerc.ac.uk/collection/L22/current/NETT0168/",
+            "description": "WP-2 Net"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Chlorophyll a",
+            "url": "http://vocab.nerc.ac.uk/collection/S27/current/CS002896/",
+            "description": "Chlorophyll a"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved Oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/",
+            "description": "Dissolved Oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/",
+            "description": "Water Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Stage-specific mortality rates",
+            "url": "http://vocab.nerc.ac.uk/collection/C47/current/IN1_3_1/",
+            "description": "Stage-specific mortality rates"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPP01/",
+            "description": "Water Temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=mortalidad",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-70.47 -23.07,-70.47 -23.00333,-70.43 -23.00333,-70.43 -23.07,-70.47 -23.07"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16784",
+            "@type": "Organization",
+            "legalName": "Instituto Milenio de Oceanografía",
+            "name": "Instituto Milenio de Oceanografía",
+            "url": "https://oceanexpert.org/institution/16784"
+        }
+    ]
+}

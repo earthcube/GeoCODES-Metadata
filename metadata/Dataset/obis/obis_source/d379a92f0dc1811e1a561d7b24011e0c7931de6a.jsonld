@@ -1,0 +1,112 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b84e48b3-7c84-417e-a086-cf9b2def23af",
+    "name": "Microphytobenthos in Panarea Island. ECO2 Project",
+    "description": "Microphytobenthos collected in Panarea Island in the framework of ECO2 Project.",
+    "url": "https://obis.org/dataset/b84e48b3-7c84-417e-a086-cf9b2def23af",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=microphytobenthos-eco2",
+        "https://doi.org/10.6092/eff90de9-adef-4df3-b2b5-1f90a43a4b0a"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "T. Cibic, C. De Vittor (2018): Microphytobenthos in Panarea, ECO2 Project. OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. Italy. https://doi.org/10.6092/eff90de9-adef-4df3-b2b5-1f90a43a4b0a",
+    "version": "2023-12-08T18:31:17.000Z",
+    "keywords": [
+        "Community composition",
+        "diver",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Maximum depth below surface of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MAXCDIST/",
+            "description": "Maximum depth below surface of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Minimum depth below surface of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MINCDIST/",
+            "description": "Minimum depth below surface of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample extraction method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100005/",
+            "description": "Sample extraction method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "Sampling device aperture diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/USPBIOSV/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the sediment"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/eff90de9-adef-4df3-b2b5-1f90a43a4b0a",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/eff90de9-adef-4df3-b2b5-1f90a43a4b0a",
+        "url": "https://doi.org/10.6092/eff90de9-adef-4df3-b2b5-1f90a43a4b0a"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=microphytobenthos-eco2",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "15.0786 38.6423,15.0786 38.6638,15.119 38.6638,15.119 38.6423,15.0786 38.6423"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3382a517-aab5-4c5f-a3b3-c2b793cb5f94",
+    "name": "Cetacean strandings in the northern Black Sea and the Sea of Azov",
+    "description": "More than 1220 strandings of Black Sea cetaceans have been recorded on the coasts of Crimea peninsula during the period from 1989-2010.",
+    "url": "https://obis.org/dataset/3382a517-aab5-4c5f-a3b3-c2b793cb5f94",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=birkun_cetacea_strandings"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cetacean strandings in the northern Black Sea and the Sea of Azov (CeStraBS). 2011. Dataset assembled by A. Birkun, Jr. and S. Krivokhizhin.EMODnet.",
+    "version": "2024-02-26T23:21:47.000Z",
+    "keywords": [
+        "Stranding",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=birkun_cetacea_strandings",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "32.52 44.389,32.52 45.879,36.613 45.879,36.613 44.389,32.52 44.389"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19454",
+            "@type": "Organization",
+            "legalName": "Brema Laboratory",
+            "name": "Brema Laboratory",
+            "url": "https://oceanexpert.org/institution/19454"
+        }
+    ]
+}

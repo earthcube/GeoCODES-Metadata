@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a54a77db-7b42-4101-8d71-1adec3dd4ed5",
+    "name": "NOAA Pacific Islands Fisheries Science Center, Ecosystem Science Division Coral Reef Ecosystem Program, Rapid Ecological Assessments of Fish Belt Transect Surveys (BLT) at Coral Reef Sites across the Pacific Ocean from 2000 to 2009",
+    "description": "Belt transects (BLT) are a non-invasive underwater-survey method that enumerates the diverse components of diurnally active shallow-water reef fish assemblages. At each Rapid Ecological Assessment survey site, BLT fish surveys are conducted along 3 consecutively-placed, 25m transect lines to quantify relatively small-bodied and abundant fishes. A pair of scuba diver-observers conducts parallel swims along the transect lines, recording size-class specific counts of all fishes encountered, to species-level where possible, within visually estimated but defined belt widths: 4 m wide for fishes &gt; 20 cm TL (100 m2 area) on the initial swim-out, and 2 m wide for fishes &lt; 20 cm TL (50 m2 area) on the subsequent swim back. Transect lines are typically set at depths of 10-15 m. Reef ledges and holes are visually searched. Stations are completed on all sides of the island/atoll, weather and sea conditions permitting. Raw survey data includes species level abundance estimates.",
+    "url": "https://obis.org/dataset/a54a77db-7b42-4101-8d71-1adec3dd4ed5",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=ncrmp_blt_fish_pacific"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Coral Reef Ecosystem Program; Pacific Islands Fisheries Science Center (2017). Pacific Reef Assessment and Monitoring Program: Rapid Ecological Assessments of Fish Belt Transect Surveys (BLT) in the Pacific Ocean from 2000-09-09 to 2009-05-05 (NCEI Accession 0162462). NOAA National Centers for Environmental Information. Dataset. https://accession.nodc.noaa.gov/0162462",
+    "version": "2023-01-27T21:04:45.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Survey Length",
+            "url": "",
+            "description": "Survey Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Survey Width",
+            "url": "",
+            "description": "Survey Width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Consumer type: APEX (apex predator), Cor (corallivore), H (herbivore), MI (mobile invertivore), Om (Omnivore), Par (parrotfish), Pisc (piscivore), Pk (planktivore), SI (sessile invertivore), X (if unidentified fish), Z (zooplantivore)",
+            "url": "",
+            "description": "Consumer type: APEX (apex predator), Cor (corallivore), H (herbivore), MI (mobile invertivore), Om (Omnivore), Par (parrotfish), Pisc (piscivore), Pk (planktivore), SI (sessile invertivore), X (if unidentified fish), Z (zooplantivore)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fish Total Length, TL",
+            "url": "",
+            "description": "Fish Total Length, TL"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fish species parameter \"a\" used in length-weight calculations",
+            "url": "",
+            "description": "Fish species parameter \"a\" used in length-weight calculations"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fish species parameter \"b\" used in length-weight calculations",
+            "url": "",
+            "description": "Fish species parameter \"b\" used in length-weight calculations"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length conversion factor used to determine fish max length",
+            "url": "",
+            "description": "Length conversion factor used to determine fish max length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Theoretical maximum length for fish species",
+            "url": "",
+            "description": "Theoretical maximum length for fish species"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Trophic Level (Primary Consumer, Secondary Consumer, Planktivore, Piscivore)",
+            "url": "",
+            "description": "Trophic Level (Primary Consumer, Secondary Consumer, Planktivore, Piscivore)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=ncrmp_blt_fish_pacific",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.3785833 -14.560017,-178.3785833 28.456708,166.65736 28.456708,166.65736 -14.560017,-178.3785833 -14.560017"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11379",
+            "@type": "Organization",
+            "legalName": "National Oceanic and Atmospheric Administration, Washington",
+            "name": "National Oceanic and Atmospheric Administration, Washington",
+            "url": "https://oceanexpert.org/institution/11379"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20188",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Ocean Observing System",
+            "name": "Pacific Islands Ocean Observing System",
+            "url": "https://oceanexpert.org/institution/20188"
+        }
+    ]
+}

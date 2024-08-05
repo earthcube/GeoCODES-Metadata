@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a7e4c440-295f-4fc6-bd95-ddec607d2751",
+    "name": "Spotted Handfish (Brachionichthys hirsutus) - GPS Underwater Visual Census - 2014-2018 repeated population surveys",
+    "description": "Dive surveys were conducted in 2014 and the same sites resurveyed annually until 2018, to establish a baseline and monitor the status of the critically endangered spotted handfish (Brachionichthys hirsutus) population. This dataset is a summary of all surveys season 2014 to 2018 in which the 11 sites across the Derwent Estuary and D'Entrecasteaux Channel were assessed. The data describes the search effort (transect length, swathed area) and counts of handfish observed on each transect, including size measurements (total length) and depth records for each sighted fish.\nNote that the specific latitude and longitude of individual fish have been redacted due to the vulnerable status of the species. Contact the point of contact listed in this record for more information.",
+    "url": "https://obis.org/dataset/a7e4c440-295f-4fc6-bd95-ddec607d2751",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_handfish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Link to originating metadata record.  http://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=51702b57-d4e4-4477-b199-b3485675f66c",
+    "version": "2022-06-07T03:20:57.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_handfish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "147.1 -43.2881,147.1 -42.8801,147.4254 -42.8801,147.4254 -43.2881,147.1 -43.2881"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

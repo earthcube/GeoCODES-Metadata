@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cd6933a8-797e-41f4-94f0-fcd969b6794e",
+    "name": "MEDGULL_ANTWERPEN - Mediterranean gulls (Ichthyaetus melanocephalus, Laridae) breeding near Antwerp (Belgium) [subsampled representation]",
+    "description": "This animal tracking dataset is derived from Stienen et al. (2022, <a href=\"https://doi.org/10.5281/zenodo.6599273\">https://doi.org/10.5281/zenodo.6599273</a>) a deposit of Movebank study <a href=\"https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study1609400843\">1609400843</a>. Data have been standardized to Darwin Core using the <a href=\"https://inbo.github.io/movepub/\">movepub</a> R package and are downsampled to the first GPS position per hour. The original dataset description follows.\n<em>MEDGULL_ANTWERPEN - Mediterranean gulls (Ichthyaetus melanocephalus, Laridae) breeding near Antwerp (Belgium)</em> is a bird tracking dataset published by the <a href=\"https://inbo.be/\">Research Institute for Nature and Forest (INBO)</a>. It contains animal tracking data collected by the LifeWatch GPS tracking network for large birds (<a href=\"http://lifewatch.be/en/gps-tracking-network-large-birds\">http://lifewatch.be/en/gps-tracking-network-large-birds</a>) for the project/study MEDGULL_ANTWERPEN, using trackers developed by Ornitela (<a href=\"https://www.ornitela.com\">https://www.ornitela.com</a>). The study has been operational since 2021. In total 4 individuals of Mediterranean gull (<em>Ichthyaetus melanocephalus</em>) have been tagged in their breeding area near the city of Antwerp (Belgium), mainly to study their habitat use and migration behaviour. Data are automatically synced with Movebank and from there periodically archived on Zenodo (see <a href=\"https://github.com/inbo/bird-tracking\">https://github.com/inbo/bird-tracking</a>).\nThis dataset was collected using infrastructure provided by INBO and funded by Research Foundation - Flanders (FWO) as part of the Belgian contribution to LifeWatch.",
+    "url": "https://obis.org/dataset/cd6933a8-797e-41f4-94f0-fcd969b6794e",
+    "sameAs": [
+        "https://ipt.inbo.be/resource?r=medgull_antwerpen"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-05-31T15:26:33.000Z",
+    "keywords": [
+        "animal movement",
+        "animal tracking",
+        "gps tracking",
+        "altitude",
+        "temperature",
+        "biologging",
+        "birds",
+        "LifeWatch",
+        "Ornitela",
+        "Movebank",
+        "frictionless",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.inbo.be/archive.do?r=medgull_antwerpen",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.127567291259766 43.382591247558594,-5.127567291259766 52.142539978027344,4.726968288421631 52.142539978027344,4.726968288421631 43.382591247558594,-5.127567291259766 43.382591247558594"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17039",
+            "@type": "Organization",
+            "legalName": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "name": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "url": "https://oceanexpert.org/institution/17039"
+        }
+    ]
+}

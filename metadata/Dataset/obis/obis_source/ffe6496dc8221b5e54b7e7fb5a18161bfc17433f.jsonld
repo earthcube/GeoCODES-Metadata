@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/190f3394-a704-413b-a430-26b91a555dcb",
+    "name": "DFO-SABS: Plankton data collected during 1923 Strait of Belle Isle Expedition.",
+    "description": "In the summer of 1923 an expedition was organized to investigate the waters of the Strait of Belle Isle and adjacent contributory waters. Hauls of plankton were made at various points, and some of these form the basis of two reports. \n\nAs part of a data recovery project information on species distribution contained in these reports was extracted and Darwin Core records created for submission to OBIS.",
+    "url": "https://obis.org/dataset/190f3394-a704-413b-a430-26b91a555dcb",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=entomostraca_sobi_1923"
+    ],
+    "license": "rights: 'http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms\nrightsholder: 'Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans'",
+    "citation": "DFO. (2014). Entomostraca collected in and around the Strait of Belle isle during expeditions in 1923. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS. http://www.iobis.org/. (consulted on [date])",
+    "version": "2021-04-16T11:33:28.000Z",
+    "keywords": [
+        "oceans",
+        "biota",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1923/1923",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=entomostraca_sobi_1923",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-61.39 46.39,-61.39 52.2,-52.45 52.2,-52.45 46.39,-61.39 46.39"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

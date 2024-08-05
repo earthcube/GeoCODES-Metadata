@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/58a383eb-59c1-4023-b5f1-251bf89512c0",
+    "name": "Diatom and foraminiferal samples from surficial sediments of Prydz Bay, Antarctica",
+    "description": "Surficial bottom sediments have been collected from Prydz Bay, Antarctica from 5 voyages from 1981 to 1995. Devices used include gravity core, grabs, pipe dredge. Most collections are from 200 to 800 metres depth with the deepest at 3200 metres.",
+    "url": "https://obis.org/dataset/58a383eb-59c1-4023-b5f1-251bf89512c0",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=prydz_diatoms",
+        "https://doi.org/10.15468/hlabtl"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Diatom and foraminiferal samples from surficial sediments of Prydz Bay, Antarctica.",
+    "version": "2021-05-07T04:35:42.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1997",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/hlabtl",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/hlabtl",
+        "url": "https://doi.org/10.15468/hlabtl"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=prydz_diatoms",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "61.16666667 -69.13333333,61.16666667 -55.75333333,110.17333333 -55.75333333,110.17333333 -69.13333333,61.16666667 -69.13333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19389",
+            "@type": "Organization",
+            "legalName": "Macquarie University",
+            "name": "Macquarie University",
+            "url": "https://oceanexpert.org/institution/19389"
+        }
+    ]
+}

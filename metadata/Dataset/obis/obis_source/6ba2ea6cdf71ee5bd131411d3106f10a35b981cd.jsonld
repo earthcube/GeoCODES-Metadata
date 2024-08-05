@@ -1,0 +1,103 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/001ddbcd-a655-4ff1-8c15-130217d98d76",
+    "name": "Mangrove crabs and their relationship with the environment in mangrove forests of Dabaso and Gazi (Kenya) sampled in 1998 and 1999",
+    "description": "Counts of observed mangrove crabs and their relationship with the environment (abiotic data for the location where the crabs were found). The data were digitized by VLIZ from the original report: Gillikin, D. P. (2000). Factors controlling the distribution of Kenyan brachyuran mangrove crabs: salinity tolerance and ecophysiology of two Kenyan Neosarmatium species. MSc Thesis. Vrije Universiteit Brussel (ECOMAMA): Brussel. 152 pp.",
+    "url": "https://obis.org/dataset/001ddbcd-a655-4ff1-8c15-130217d98d76",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=kenyan_brachyuran_mangrove_crabs_1998_1999",
+        "https://dx.doi.org/10.14284/157"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gillikin D.P.; Tack J.; Vannini M.; De Wachter B; Free University of Brussels: Belgium; University of Florence: Italy; University of Antwerp: Belgium; (2016): Mangrove crabs and their relationship with the environment in mangrove forests of Dabaso and Gazi (Kenya) sampled in 1998 and 1999. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5407) https://dx.doi.org/10.14284/157",
+    "version": "2024-02-26T23:22:41.000Z",
+    "keywords": [
+        "Mangrove forests",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "% species associated with detrivores",
+            "url": "",
+            "description": "% species associated with detrivores"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "% species associated with herbivores",
+            "url": "",
+            "description": "% species associated with herbivores"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "% species associated with predators",
+            "url": "",
+            "description": "% species associated with predators"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1999/1999",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/157",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/157",
+        "url": "https://dx.doi.org/10.14284/157"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=kenyan_brachyuran_mangrove_crabs_1998_1999",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "39.51 -4.41,39.51 -3.35,39.98 -3.35,39.98 -4.41,39.51 -4.41"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11578",
+            "@type": "Organization",
+            "legalName": "Kenya Marine and Fisheries Research Institute",
+            "name": "Kenya Marine and Fisheries Research Institute",
+            "url": "https://oceanexpert.org/institution/11578"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12703",
+            "@type": "Organization",
+            "legalName": "Universiteit Antwerpen",
+            "name": "Universiteit Antwerpen",
+            "url": "https://oceanexpert.org/institution/12703"
+        }
+    ]
+}

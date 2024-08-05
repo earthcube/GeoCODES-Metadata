@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cfa6809d-50cf-4f29-99d1-9e9bbf39c59c",
+    "name": "Irish Benthos monitoring as part of the Water framework directive since 2012",
+    "description": "A requirement of the Water Framework Directive is that benthic macro-invertebrates must be sampled from coastal and transitional waters at least twice within a river basin cycle (6 years) in order to classify these waterbodies. Numerous samples will be taken from sites in matched habitats throughout the water body. Sampling and analysis is carried out according to established protocols. The Directive requires the sampling of nominated coastal and transitional waters for benthic macro-invertebrates. This includes the field sampling, processing and analysis of samples. In addition, grab samples have been taken on vessels of opportunity and are considered suitable to fulfill obligations under the WFD. For each grab sample collected this dataset contains: - lists and abundance of benthic species &gt;1mm, -sediment particle size analysis (PSA), -Folk (1954) sediment classification, and an estimate of organic matter (LOI).",
+    "url": "https://obis.org/dataset/cfa6809d-50cf-4f29-99d1-9e9bbf39c59c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mi_wfd_benthos"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marine Institute (2020), Irish Benthos monitoring as part of the Water framework directive since 2012",
+    "version": "2024-02-26T23:19:43.000Z",
+    "keywords": [
+        "Marine",
+        "vessel of opportunity",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mi_wfd_benthos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.10868 51.434,-10.10868 55.2562,-5.985201 55.2562,-5.985201 51.434,-10.10868 51.434"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

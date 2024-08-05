@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bd657dbe-cc8f-4a89-85a5-c62d185ba4b2",
+    "name": "VIES Herbarium UFES - Brazil",
+    "description": "Herbário VIES, from the Federal University of Espírito Santo, presents a collection of more than 40,000 specimens of phanerogams, algae, fungi, lycophytes and monilophytes.\n\nIt is one of the main herbariums of Espírito Santo, with important collections of restingas in the State.",
+    "url": "https://obis.org/dataset/bd657dbe-cc8f-4a89-85a5-c62d185ba4b2",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=vies_herbarium_ufes_brazil",
+        "http://doi.org/10.25607/4vgwcb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "VIES H (2020): VIES Herbarium UFES - Brazil. v2.0. Tropical and Subtropical Western South Atlantic OBIS. Dataset/Samplingevent. http://doi.org/10.25607/4vgwcb",
+    "version": "2021-07-02T11:03:24.000Z",
+    "keywords": [
+        "macroalgae",
+        "herbarium",
+        "Espírito Santo",
+        "Brazil",
+        "UFES"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1964/2016",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/4vgwcb",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/4vgwcb",
+        "url": "http://doi.org/10.25607/4vgwcb"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=vies_herbarium_ufes_brazil",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-40.811169 -21.039775,-40.811169 -18.5996,-29.313594 -18.5996,-29.313594 -21.039775,-40.811169 -21.039775"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8902",
+            "@type": "Organization",
+            "legalName": "Universidade Federal do Espírito Santo",
+            "name": "Universidade Federal do Espírito Santo",
+            "url": "https://oceanexpert.org/institution/8902"
+        }
+    ]
+}

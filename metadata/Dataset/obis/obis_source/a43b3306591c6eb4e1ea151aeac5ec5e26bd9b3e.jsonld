@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8d4a8bf1-0d31-402b-8b59-1170c100813c",
+    "name": "Biological Databases of South Australia (BDBSA), Australia (1938 - 2016) - marine records",
+    "description": "The Biological Databases of South Australia (BDBSA)is comprised of an integrated collection of corporate databases which meet Department of Environment, Water and Natural Resources (DEWNR) standards for data quality, integrity and maintenance. BDBSA was initially established to hold the data collected by the Biological Survey of South Australia but has evolved into a central access point for all biological data within South Australia.\nThe fauna data for this collection has been downloaded from the Atlas of Living Australia(https://collections.ala.org.au/public/show/dr365) as a Darwin Core archive. The taxa have been matched to the World Register of Marine Species (http://www.marinespecies.org) and non-marine taxa excluded. The taxonomy is 'as supplied'.\nIf any errors have been identified, please contact the Bio Data support email address DEWBioDataSupport@sa.gov.au",
+    "url": "https://obis.org/dataset/8d4a8bf1-0d31-402b-8b59-1170c100813c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bdbsa_fauna"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Department of Environment and Natural Resources, Biological Databases of SA (BDSA), Date of Extraction: [month year]",
+    "version": "2022-06-08T04:55:50.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1967/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bdbsa_fauna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "130.46667 -40.50012,130.46667 -31.85,140.88333 -31.85,140.88333 -40.50012,130.46667 -40.50012"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19494",
+            "@type": "Organization",
+            "legalName": "Government of South Australia — Department for Environment and Water",
+            "name": "Government of South Australia — Department for Environment and Water",
+            "url": "https://oceanexpert.org/institution/19494"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

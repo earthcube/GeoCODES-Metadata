@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/513e4437-9cc7-4383-9a69-1bd18ec2046a",
+    "name": "MARMAP Neuston Nets 1990-2009",
+    "description": "Abundance and biomass of fish species collected during the day from 1973 to 1980 off the coast of the southeastern United States (Cape Fear, NC to Cape Canaveral, FL).",
+    "url": "https://obis.org/dataset/513e4437-9cc7-4383-9a69-1bd18ec2046a",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=marmap_neustonnets"
+    ],
+    "license": "Restricted",
+    "citation": "Marcel Reichert, 2010, MARMAP Neuston Nets 1990-2009, SCDNR/NOAA MARMAP Program, SCDNR MARMAP Aggregate data surveys, The Marine Resources Monitoring, Assessment, and Prediction (MARMAP) Program, Marine Resources Research Institute, South Carolina Department of Natural Resources, P. O. Box 12559, Charleston SC 29422-2559, U.S.A.Retrieved from http://www.usgs.gov/obis-usa/",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/1980",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=marmap_neustonnets",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.3099975586 27.3500003815,-81.3099975586 35.2799987793,-75.1200027466 35.2799987793,-75.1200027466 27.3500003815,-81.3099975586 27.3500003815"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

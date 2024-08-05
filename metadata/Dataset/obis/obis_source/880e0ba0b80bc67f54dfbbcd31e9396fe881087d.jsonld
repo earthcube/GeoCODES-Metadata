@@ -1,0 +1,100 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ff1eca2d-d949-42ce-9cb2-95c26b61d198",
+    "name": "Zooplankton abundance and biomass from the RADIALES time series programme (N-NW Spain)",
+    "description": "\"Zooplankton abundance and biomass data collected within the framework of the RADIALES time series monitoring programme, carried out by the CSIC-IEO. The sampling is undertaken monthly from 1991 at a series of stations located along five transects perpendicular to the North and Northwest Spanish coastline.",
+    "url": "https://obis.org/dataset/ff1eca2d-d949-42ce-9cb2-95c26b61d198",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=radiales_zoopl_test"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Isla A, Aierbe E, Bode A, González-Quirós R, Nogueira E, Valdés L; IEO-CSIC (2022) Zooplankton abundance and biomass from the RADIALES time series programme (N-NW Spain)",
+    "version": "2024-02-26T23:21:33.000Z",
+    "keywords": [
+        "Abundance",
+        "Biomass",
+        "Species composition",
+        "Time series",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling platform name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Sampling platform name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Life stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dry weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL09/",
+            "description": "Dry weight biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size category",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600270/",
+            "description": "Size category"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=radiales_zoopl_test",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-8.958 42.142,-8.958 44.333,-3.783 44.333,-3.783 42.142,-8.958 42.142"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18010",
+            "@type": "Organization",
+            "legalName": "Instituto Español de Oceanografía",
+            "name": "Instituto Español de Oceanografía",
+            "url": "https://oceanexpert.org/institution/18010"
+        }
+    ]
+}

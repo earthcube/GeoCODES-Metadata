@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/270f3e70-ff9b-411d-b170-2bc914d83f26",
+    "name": "Biological Reference Collections ICM CSIC",
+    "description": "The Biological Reference Collections (CBR) are located at the Institute of Marine Sciences (ICM-CSIC) in Barcelona. They were created in 1981, thanks to the efforts of Jaume Rucabado, Domingo Lloris and Concepción Allué.",
+    "url": "https://obis.org/dataset/270f3e70-ff9b-411d-b170-2bc914d83f26",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cbr-icm",
+        "https://dx.doi.org/10.15470/qlqqdx"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Olivas González F J (2016): Biological Reference Collections ICM CSIC. Institute of Marine Sciences (ICM-CSIC). https://dx.doi.org/10.15470/qlqqdx",
+    "version": "2023-05-23T11:38:11.000Z",
+    "keywords": [
+        "Museum specimens",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "habitat",
+            "url": "",
+            "description": "habitat"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1888/2017",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.15470/qlqqdx",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15470/qlqqdx",
+        "url": "https://dx.doi.org/10.15470/qlqqdx"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cbr-icm",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-170.8667 -74.6,-170.8667 79.4333,168.15 79.4333,168.15 -74.6,-170.8667 -74.6"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

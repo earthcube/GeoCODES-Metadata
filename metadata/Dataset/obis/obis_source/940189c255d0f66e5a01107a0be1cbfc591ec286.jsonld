@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/651931ca-4450-4463-9685-bbe826d62077",
+    "name": "Cetaceo_Ecuador_Project_SIBIMAP",
+    "description": "This database contains the sightings of marine mammals observed in Ecuador (includes the Galapagos Islands), the data comes from the records delivered by suppliers to the SIBIMAP Project.\n\n",
+    "url": "https://obis.org/dataset/651931ca-4450-4463-9685-bbe826d62077",
+    "sameAs": [
+        "http://cpps.dyndns.info:8080/cpps-ipt/resource?r=cetaceo_project_sibimap"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2019-11-05T00:43:42.000Z",
+    "keywords": [
+        "Occurrence",
+        "sightings",
+        "cetaceans",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1959/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://cpps.dyndns.info:8080/cpps-ipt/archive.do?r=cetaceo_project_sibimap",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-92.266667 -4.316667,-92.266667 1.7116667,-79.916944 1.7116667,-79.916944 -4.316667,-92.266667 -4.316667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11723",
+            "@type": "Organization",
+            "legalName": "Comisión Permanente para el Pacífico Sur",
+            "name": "Comisión Permanente para el Pacífico Sur",
+            "url": "https://oceanexpert.org/institution/11723"
+        }
+    ]
+}

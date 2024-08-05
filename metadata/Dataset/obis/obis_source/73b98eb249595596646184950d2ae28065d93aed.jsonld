@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a4f58b58-c6fc-4a69-8f58-8f061dcdaf43",
+    "name": "MARMAP Kali Pole 1990-2009",
+    "description": "Abundance and biomass of fish species collected during the day from 1983 to 1986 off the coast of the southeastern United States (Cape Fear, NC to Cape Canaveral, FL). Kali poles are \"off-bottom\" longlines, designed to place a large number of baited hooks in close proximity to rugged rocky bottom, while minimizing hangups of the gear in the rocks. The poles are attached to a 91-m (100-yard) treated cotton groundline [6.4 mm (1/4 inch)]. Each pole is 3 m (10 feet) long PVC plastic pipe [25-mm (1-inch diameter), schedule 80] and has 6. Each 91-m (100-yard) polypropylene groundline has 20 poles.",
+    "url": "https://obis.org/dataset/a4f58b58-c6fc-4a69-8f58-8f061dcdaf43",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=marmap_kalipole"
+    ],
+    "license": "Restricted",
+    "citation": "Marcel Reichert, 2010, MARMAP Kali Pole 1990-2009, SCDNR/NOAA MARMAP Program, SCDNR MARMAP Aggregate data surveys, The Marine Resources Monitoring, Assessment, and Prediction (MARMAP) Program, Marine Resources Research Institute, South Carolina Department of Natural Resources, P. O. Box 12559, Charleston SC 29422-2559, U.S.A.Retrieved from http://www.usgs.gov/obis-usa/",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/1986",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=marmap_kalipole",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-79.2399978638 32.0699996948,-79.2399978638 32.8400001526,-77.9800033569 32.8400001526,-77.9800033569 32.0699996948,-79.2399978638 32.0699996948"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

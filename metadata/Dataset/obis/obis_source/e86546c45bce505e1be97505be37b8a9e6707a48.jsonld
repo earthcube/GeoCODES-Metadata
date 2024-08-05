@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d9d55990-19b7-4691-ac31-af8c905174ed",
+    "name": "Distribution ashore of Southern elephant seals in Península Valdés",
+    "description": "Number of individuals per breeding group and distribution ashore of Southern Elephant seals (Mirounga leonina) during censuses on foot carried out on October 3-7. All the groups were counted, located and beaches classified by the substrate.",
+    "url": "https://obis.org/dataset/d9d55990-19b7-4691-ac31-af8c905174ed",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=censoemspv"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Lewis M N, Campagna C, Ferrari M A (2015): Distribution ashore of Southern elephant seals in Península Valdés. v1.15. ArOBIS Centro Nacional Patagónico. Dataset/Occurrence. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=censoemspv&amp;v=1.15",
+    "version": "2017-11-24T13:40:41.000Z",
+    "keywords": [
+        "Occurrence",
+        "Southern Elephant seal",
+        "Península Valdés",
+        "Patagonia",
+        "breeding distribution",
+        "population dynamic"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=censoemspv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.55499 -43.09344,-64.55499 -42.07277,-63.58367 -42.07277,-63.58367 -43.09344,-64.55499 -43.09344"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9605",
+            "@type": "Organization",
+            "legalName": "Wildlife Conservation Society",
+            "name": "Wildlife Conservation Society",
+            "url": "https://oceanexpert.org/institution/9605"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4945cc97-c830-42bd-aec0-036f74937b93",
+    "name": "Antarctic Marine Species Sequence Data",
+    "description": "DNA sequence data for Antarctic marine species, mainly invertebrates",
+    "url": "https://obis.org/dataset/4945cc97-c830-42bd-aec0-036f74937b93",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=rachel_mixed_taxa"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2019-03-19T14:44:18.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=rachel_mixed_taxa",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.3 -77.8167,-71.3 70.7167,170.75 70.7167,170.75 -77.8167,-71.3 -77.8167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19508",
+            "@type": "Organization",
+            "legalName": "Hartpury College and University Centre",
+            "name": "Hartpury College and University Centre",
+            "url": "https://oceanexpert.org/institution/19508"
+        }
+    ]
+}

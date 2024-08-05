@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/de1b9e9a-d29a-4052-8706-29849dc7a8f3",
+    "name": "OTN Noakes Tags - Tag Release Metadata",
+    "description": "This is the OBIS extraction of the OTN Noakes Tags project, consisting only of the release tagging metadata. i.e. the locations  and dates of tagged animal release. If readers are  interested in the full source  dataset they should refer to the OTN web site  (members.oceantrack.org). Abstract: The Pacific Ocean Shelf Tracking (POST) project was designed to develop and promote the application of acoustic tagging technology to study the life history of Pacific salmon and other species migrating along the continental shelf of western North America. POST envisioned the eventual creation of a permanent continental-scale telemetry system, however, during its existence more limited pilot-scale arrays were deployed, primarily concentrated in the Pacific Northwest. These included several acoustic receiver curtains between Vancouver Island and the mainland, creating an excellent means by which to monitor coastal marine animal migrations, especially by juvenile salmonids (smolts) migrating to sea (see projects QCS, JDF and NSOG). In addition to arrays on the continental shelf, POST equipment was deployed upstream and in the estuaries of several major salmon-producing rivers.  POST arrays, and POST data, were incorporated into the OTN in 2012. The integration of these arrays, their equipment and the associated animal tagging projects into OTN's global network allowed for international, widespread monitoring of important species within the Northeast Pacific Ocean. Tracking data generated from the POST arrays can be applied to the development of fishery management policies aimed at the sustainable harvest of resources, and to the understanding and conservation of other marine and diadromous species. Additional details about specific tracking projects which were originally a part of POST are only available by contacting the associated researcher.",
+    "url": "https://obis.org/dataset/de1b9e9a-d29a-4052-8706-29849dc7a8f3",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnosunoakestags"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Noakes, David 2009 Version # In OBIS Digital Collections. Published by OBIS, Digital http://www.obis.org/. Accessed on - INSERT DATE",
+    "version": "2019-02-20T15:23:54.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnosunoakestags",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-123.756319284439 44.4061936184099,-123.756319284439 45.8080831598261,-123.7505364 45.8080831598261,-123.7505364 44.4061936184099,-123.756319284439 44.4061936184099"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13818",
+            "@type": "Organization",
+            "legalName": "Oregon State University",
+            "name": "Oregon State University",
+            "url": "https://oceanexpert.org/institution/13818"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

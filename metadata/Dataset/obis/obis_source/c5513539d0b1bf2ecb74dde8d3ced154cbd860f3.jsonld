@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/28621175-b49c-4fbf-9f60-9b82d78b7b0c",
+    "name": "European Green Crab surveys - DFO Pacific",
+    "description": "This resource contains data from trap surveys targeting European green crab (Carcinus maenas) throughout coastal British Columbia.",
+    "url": "https://obis.org/dataset/28621175-b49c-4fbf-9f60-9b82d78b7b0c",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=egc_surveys"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gale K, Howard B, Therriault T (2023). European Green Crab surveys - DFO Pacific. Version 1.1. Fisheries and Oceans Canada. Samplingevent dataset. https://ipt.iobis.org/obiscanada/resource?r=egc_surveys&amp;v=1.1",
+    "version": "2023-02-10T20:29:52.000Z",
+    "keywords": [
+        "invasive species",
+        "introduced species",
+        "trap",
+        "intertidal",
+        "crab",
+        "monitoring",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Soak time of trap set",
+            "url": "",
+            "description": "Soak time of trap set"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Identification number of individual trap within set",
+            "url": "",
+            "description": "Identification number of individual trap within set"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Notch-to-notch carapace width",
+            "url": "",
+            "description": "Notch-to-notch carapace width"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=egc_surveys",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-132.677666666667 48.3303333333333,-132.677666666667 55.4365,-122.837333333333 55.4365,-122.837333333333 48.3303333333333,-132.677666666667 48.3303333333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

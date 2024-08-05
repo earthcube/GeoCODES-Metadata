@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b0ae29fa-8e83-4218-ba06-80efa0cf82e5",
+    "name": "Marine observation data from surveys around Fiji",
+    "description": "Occurrence details of Fiji marine fauna and flora from around the coastline and offshore. Information is assimilated from a variety of sources including unpublished data sets and digitised from journal articles. Where the source is from a published paper the source paper citation is listed at the record level.",
+    "url": "https://obis.org/dataset/b0ae29fa-8e83-4218-ba06-80efa0cf82e5",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=fiji_marine_data"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "SWPRON (2018). Marine observation data from surveys around Fiji. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 1143 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=fiji_marine_data released on January 16, 2018.",
+    "version": "2018-08-08T21:06:59.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1934/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=fiji_marine_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.30435 -19.133,-179.30435 -17.00438,179.26694 -17.00438,179.26694 -19.133,-179.30435 -19.133"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        }
+    ]
+}

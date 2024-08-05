@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/04e3fd32-b08b-4806-a016-d2dff52ae55a",
+    "name": "Asia-Pacific Dataset",
+    "description": "This dataset contains marine organism occurrence data of the Asia-Pacific region which were extracted from published literature by S9-5 supported by the Environment Research and Technology Development Fund (S9) of the Ministry of the Environment, Japan.",
+    "url": "https://obis.org/dataset/04e3fd32-b08b-4806-a016-d2dff52ae55a",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=s9-5_asia-pacific"
+    ],
+    "license": "This work is licensed under a\n                 Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Jintsu-Uchifune, Y., Yamamoto, H. (2016) Marine organism occurrence data of the Asia-Pacific region extracted from literature. Available at http://www.godac.jamstec.go.jp/bismal/e/S9-5_Asia-Pacific. Accessed on yyyy-mm-dd.",
+    "version": "2023-06-10T07:19:01.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1900/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=s9-5_asia-pacific",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.65015 -46.45,-179.65015 59.6,179.1049 59.6,179.1049 -46.45,-179.65015 -46.45"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11797",
+            "@type": "Organization",
+            "legalName": "Japan Agency for Marine-Earth Science and Technology, Yokosuka",
+            "name": "Japan Agency for Marine-Earth Science and Technology, Yokosuka",
+            "url": "https://oceanexpert.org/institution/11797"
+        }
+    ]
+}

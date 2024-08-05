@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1e3ba2fc-7d13-4a24-8619-e94b243f9d2d",
+    "name": "CAS Mammalogy (MAM)",
+    "description": "The electronic catalog of the mammalogy collection at the California Academy of Sciences, San Francisco.",
+    "url": "https://obis.org/dataset/1e3ba2fc-7d13-4a24-8619-e94b243f9d2d",
+    "sameAs": [
+        "http://ipt.calacademy.org:8080/resource?r=mam"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2024-01-15T23:00:48.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1884/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.calacademy.org:8080/archive.do?r=mam",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.1975 -54.25,-179.1975 79.95,179.3666687012 79.95,179.3666687012 -54.25,-179.1975 -54.25"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5196",
+            "@type": "Organization",
+            "legalName": "California Academy of Sciences",
+            "name": "California Academy of Sciences",
+            "url": "https://oceanexpert.org/institution/5196"
+        }
+    ]
+}

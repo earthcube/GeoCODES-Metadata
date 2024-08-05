@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/76f565d1-00e5-4093-a3e2-e0174091feaa",
+    "name": "Marine benthic animal data along Yokohama City Coast",
+    "description": "This dataset is a compilation of benthic animal data obtained from marine organism surveys conducted by the Yokohama City Environmental Science Research Institute. The main survey area is the coastal area of Yokohama City in Tokyo Bay. The original data is published on the website as the report \"Yokohama's rivers and sea creatures\" (https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/kankyohozen/kansoku/science/shiryo/kawatoumi/). For more information on the survey, contact to Yokohama Environmental Science Research Institute (ks-kanken@city.yokohama.jp).",
+    "url": "https://obis.org/dataset/76f565d1-00e5-4093-a3e2-e0174091feaa",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=yokohama_esri_benthic_animal",
+        "https://doi.org/10.48518/00023"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Yokohama Environmental Science Research Institute (2023) Marine benthic animal data along Yokohama City Coast. Available at https://doi.org/10.48518/00023. Accessed on YYYY-MM-DD.",
+    "version": "2023-10-10T02:05:02.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/2021",
+    "identifier": {
+        "@id": "https://doi.org/10.48518/00023",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.48518/00023",
+        "url": "https://doi.org/10.48518/00023"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=yokohama_esri_benthic_animal",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "139.62 35.32,139.62 35.47,139.73 35.47,139.73 35.32,139.62 35.32"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

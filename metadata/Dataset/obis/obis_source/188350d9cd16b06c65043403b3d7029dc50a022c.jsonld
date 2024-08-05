@@ -1,0 +1,134 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a449c6d1-7a79-4b84-a31d-028a3a70b0cb",
+    "name": "North Atlantic and Arctic Amphipoda sampled during the IceAGE project",
+    "description": "This Amphipoda dataset contains three parts: 1. Distribution records collected from literature; 2. Distribution records of specimens collected by the BioICE project (Benthic Invertebrates of Icelandic waters 1992-2004); 3. Distribution records of specimens collected by the IceAGE project (Icelandic marine animals: Genetics and Ecology, since 2011). The IceAGE data are outcome of two Amphipoda identification workshops held in Wilhelmshaven, Germany (2016) and Spala, Polen (2017).",
+    "url": "https://obis.org/dataset/a449c6d1-7a79-4b84-a31d-028a3a70b0cb",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=north-atlantic-artic-amphipoda-iceage"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lörz, A.-N.; Kürzel, K.; Andres, H.G.; Tandberg, A.H.; Hughes, L.; Peart, W.; Krapp-Schickel, T.; Campean, A.J.; Stransky, B.; Guerra-García, J.M.; Svavarsson, J.; Brix, S.; (2019); North Atlantic and Arctic Amphipoda sampled during IceAGE project. Marine Data Archive",
+    "version": "2024-02-27T00:22:35.000Z",
+    "keywords": [
+        "Brooders",
+        "Filter feeders",
+        "Predators",
+        "Scavengers",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of wind (gust) {wind speed} in the atmosphere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EGTSZZ01/",
+            "description": "Speed of wind (gust) {wind speed} in the atmosphere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Direction of motion of measurement platform relative to ground surface",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/APDAZZ01/",
+            "description": "Direction of motion of measurement platform relative to ground surface"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of measurement platform relative to ground surface",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/APSAZZ01/",
+            "description": "Speed of measurement platform relative to ground surface"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Direction (from) of wind (gust) relative to True North {wind direction} in the atmosphere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EGTDZZ01/",
+            "description": "Direction (from) of wind (gust) relative to True North {wind direction} in the atmosphere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=north-atlantic-artic-amphipoda-iceage",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.2295 60.4055,-10.2295 63.41316,1.35116 63.41316,1.35116 60.4055,-10.2295 60.4055"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8603",
+            "@type": "Organization",
+            "legalName": "The Natural History Museum",
+            "name": "The Natural History Museum",
+            "url": "https://oceanexpert.org/institution/8603"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23199",
+            "@type": "Organization",
+            "legalName": "University of Iceland",
+            "name": "University of Iceland",
+            "url": "https://oceanexpert.org/institution/23199"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23200",
+            "@type": "Organization",
+            "legalName": "Tromso University Museum",
+            "name": "Tromso University Museum",
+            "url": "https://oceanexpert.org/institution/23200"
+        }
+    ]
+}

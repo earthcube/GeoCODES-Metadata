@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a410a638-2b80-4f66-a0e3-87b9cb280423",
+    "name": "Species distribution and bycatch of three dominant sunfishes in the Southwest Pacific and Indian Oceans (2013-2016)",
+    "description": "Skin biopsies were obtained from sunfish caught as bycatch in the Australian Eastern Tuna and Billfish Fishery and New Zealand longline fisheries between February 2013 and February 2014, and between July 2013 and August 2014, respectively, by fisheries observers. Total length of each sunfish was recorded. There are additional occurrences recorded  from the Australian Western Tuna and Billfish Fishery - see cited paper and links to the occurrences.",
+    "url": "https://obis.org/dataset/a410a638-2b80-4f66-a0e3-87b9cb280423",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=swp_sunfish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Marianne Nyegaard,  Neil Loneragan, Steve Hall, James Andrew, Etsuro Sawai, Mette Nyegaard (2018) Giant jelly eaters on the line: Species distribution and bycatch of three dominant sunfishes in the Southwest Pacific. Estuarine, Coastal and Shelf Science 207. 1-15.  doi:10.1016/j.ecss.2018.03.017",
+    "version": "2023-05-15T00:41:50.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Total length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "Total length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=swp_sunfish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "111.417 -39.1,111.417 -18.954,178.667 -18.954,178.667 -39.1,111.417 -39.1"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/15539",
+            "@type": "Organization",
+            "legalName": "Murdoch University",
+            "name": "Murdoch University",
+            "url": "https://oceanexpert.org/institution/15539"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2786a328-5d83-458d-ba7f-96e055f4432e",
+    "name": "Tracking 21 White-necked Petrels (Pterodroma cervicalis) from Phillip Island (Norfolk Island), Tasman Sea (2019)  ",
+    "description": "Tracking 21 White-necked Petrels (Pterodroma cervicalis) as part of a study by Halpin et al. (2021) looking at the accuracy of geo-locators. Data sourced from the Dryad repository described in the cited paper.",
+    "url": "https://obis.org/dataset/2786a328-5d83-458d-ba7f-96e055f4432e",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=white_necked_petrel_tracking"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Luke R. Halpin, Jeremy D. Ross, Raül Ramos, Rowan Mott, Nicholas Carlile, Nick Golding, José Manuel Reyes‐González, Teresa Militão, Fernanda De Felipe, Zuzana Zajková, Marta Cruz‐Flores, Sarah Saldanha, Virginia Morera‐Pujol, Leia Navarro‐Herrero, Laura Zango, Jacob González‐Solís, Rohan H. Clarke, Double‐tagging scores of seabirds reveals that light‐level geolocator accuracy is limited by species idiosyncrasies and equatorial solar profiles, Methods in Ecology and Evolution, 10.1111/2041-210X.13698, (2021).",
+    "version": "2022-06-24T03:30:15.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=white_necked_petrel_tracking",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "156.03369 -40.22044,156.03369 -26.27738,174.95914 -26.27738,174.95914 -40.22044,156.03369 -40.22044"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ea900c7e-8837-41d7-b4b5-0022356543fd",
+    "name": "CEAMARC Eastern Antarctic Gelatinous Mesozooplankton (Cnidaria and Ctenophora)",
+    "description": "This dataset holds occurrence data of gelatinous mesozooplankton species (Cnidaria and Ctenophora) that was collected during the Japanese contribution to the Collaborative East Antarctic Marine Census (CEAMARC) project. CEAMARC was a multinational contribution to the Census for Antarctic Marine Life (CAML, IPY Project 53). It involved scientists and students from several nations using three ships from Australia, Japan and France surveying the one area. This collaboration was a highly coordinated and comprehensive survey of the plankton, fish, benthos, oceanography and geophysical conditions of the waters north of Terre Adélie and George V Land of Eastern Antarctica. CEAMARC has provided a robust benchmark of the marine life in this poorly studied sector and will help to establish the monitoring of future changes in this region.",
+    "url": "https://obis.org/dataset/ea900c7e-8837-41d7-b4b5-0022356543fd",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=ceamarc_antarctic_gelatinous_mesozooplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lindsay, D.J. &amp; Fuentes, V.L. 2010. Antarctic Gelatinous Predator Database (ANGELbase):A study of the gelatinous mesozooplankton (Cnidaria and Ctenophora) of Eastern Antarctica, summer 2008. Mary Grossmann, under the direction of Dhugal J. Lindsay. Master thesis, Master Oceanographie et Environnements Marins, Paris VI, 2010",
+    "version": "2020-02-18T20:13:01.000Z",
+    "keywords": [
+        "Samplingevent",
+        "SCAR-MARBIN",
+        "BASO",
+        "CAML",
+        "CEAMARC"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=ceamarc_antarctic_gelatinous_mesozooplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "121.5 -67,121.5 -42.8,144.99 -42.8,144.99 -67,121.5 -67"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

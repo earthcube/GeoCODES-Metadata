@@ -1,0 +1,92 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/93c55b6a-0da2-45c4-a7b2-e59102d554b7",
+    "name": "Larvae of decapods off Portuguese coast from 1986 to 1994",
+    "description": "Larvae of decapods off Portuguese coast from 1986 to 1994",
+    "url": "https://obis.org/dataset/93c55b6a-0da2-45c4-a7b2-e59102d554b7",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=decapods",
+        "https://doi.org/10.15468/w67xkq"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "dos Santos A (2022): Larvae of decapods off Portuguese coast from 1986 to 1994. v1.42. IPMA - Instituto Português do Mar e da Atmosfera. Dataset/Samplingevent https://doi.org/10.15468/w67xkq",
+    "version": "2023-12-08T17:20:27.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method used to collect or make the in-situ measurement or observation",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling method used to collect or make the in-situ measurement or observation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Skin temperature of the water column",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/PSST/",
+            "description": "Skin temperature of the water column"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature of the water column",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/TEMP/",
+            "description": "Temperature of the water column"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Life cycle development stage of the biological entity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Life cycle development stage of the biological entity"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/1994",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/w67xkq",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/w67xkq",
+        "url": "https://doi.org/10.15468/w67xkq"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=decapods",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.2 36.53,-10.2 41.83,-7.4167 41.83,-7.4167 36.53,-10.2 36.53"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14932",
+            "@type": "Organization",
+            "legalName": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "name": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "url": "https://oceanexpert.org/institution/14932"
+        }
+    ]
+}

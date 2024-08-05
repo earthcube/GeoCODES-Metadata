@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4b40df27-6421-4503-8206-202d14e686c1",
+    "name": "EPOS3: SeaStars (Echinodermata, Asteroidea)",
+    "description": "This dataset includes information on sea stars collected during the EPOS3 expedition, which took place in 1989. The expedition focused on the Weddell Sea.",
+    "url": "https://obis.org/dataset/4b40df27-6421-4503-8206-202d14e686c1",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=epos3_asteroida"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Danis B, Wilmes J, Jangoux M, 2008. Sea stars from the EPOS 3 expedition. Contribution to the SCAR-Marine Biodiversity Information Network.",
+    "version": "2019-03-19T14:43:16.000Z",
+    "keywords": [
+        "Distribution",
+        "Echinoderm",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/1989",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=epos3_asteroida",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-55.66 -75.2675,-55.66 -60.83083333,-12.1875 -60.83083333,-12.1875 -75.2675,-55.66 -75.2675"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

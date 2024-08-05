@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/22db1028-b084-421d-909b-2b6d5aa510a1",
+    "name": "Posidonia oceanica Survey 2005",
+    "description": "Data on <i>Posidonia oceanica</i> collected during spring and summer 2005 in three sites within the Bay of Roses.",
+    "url": "https://obis.org/dataset/22db1028-b084-421d-909b-2b6d5aa510a1",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gaynor",
+        "https://doi.org/10.15468/d4vnow"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Rosier, G. Posidonia oceanica Survey 2005. KennaEcodiving, Girona, Spain. https://doi.org/10.15468/d4vnow",
+    "version": "2024-02-27T00:19:01.000Z",
+    "keywords": [
+        "Algae",
+        "Benthos",
+        "Diving surveys",
+        "Monitoring",
+        "Seagrass",
+        "diver",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2005",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/d4vnow",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/d4vnow",
+        "url": "https://doi.org/10.15468/d4vnow"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gaynor",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.170000076293945 42.10580062866211,3.170000076293945 42.108299255371094,3.173799991607666 42.108299255371094,3.173799991607666 42.10580062866211,3.170000076293945 42.10580062866211"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19425",
+            "@type": "Organization",
+            "legalName": "Kenna Eco Diving",
+            "name": "Kenna Eco Diving",
+            "url": "https://oceanexpert.org/institution/19425"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dfa763e6-4a7a-4b88-96c5-1512cee68cc6",
+    "name": "Gwaii Haanas Marine Plants",
+    "description": "The database covers the Haida Gwaii archipelago on the West Coast of Canada, including all species of the Haida Gwaii region from any published source, accessible collection and unpublished observations from scientists. Lists all marine plant species and maps their distributions from the first records (1911) to 1999 and includes 348 seaweed and 4 seagrass species from 456 intertidal to shallow subtidal locations. This inventory had detailed regional starting points (Hawkes et al. 1978; Scagel et al. 1993) and &gt;90% of the plant species are represented by specimens in the Phycological Herbarium of the University of British Columbia Botany Department.",
+    "url": "https://obis.org/dataset/dfa763e6-4a7a-4b88-96c5-1512cee68cc6",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=ghmp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Sloan, N.A., Bartier, P.M. 2004. Gwaii Haanas Marine Plants (Living marine legacy of Gwaii Haanas I: Marine plant baseline to 1999). Parks Canada-Technical Reports in Ecosystem Science. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Digital, retrieved from http://iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1897/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=ghmp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-133.186004639 51.9265518188,-133.186004639 54.2555999756,-130.940505981 54.2555999756,-130.940505981 51.9265518188,-133.186004639 51.9265518188"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

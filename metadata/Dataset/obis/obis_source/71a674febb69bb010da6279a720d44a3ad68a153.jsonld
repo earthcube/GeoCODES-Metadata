@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7a4427f6-67ee-4cc1-b95f-3045523420a1",
+    "name": "Sanctuary Soundscape Monitoring Project (SanctSound) Daily Aggregated Species Detections",
+    "description": "NOAA and the U.S. Navy are working to better understand underwater sound within the National Marine Sanctuary System. From 2018-2021, these agencies worked with numerous scientific partners to study sound within seven national marine sanctuaries and one marine national monument, which includes waters off Hawai‘i and the east and west coasts. Standardized measurements were used to assess sounds produced by marine animals, physical processes (e.g., wind and waves), and human activities. Collectively, this information will help NOAA and the Navy measure sound levels and baseline acoustic conditions in sanctuaries. This work is a continuation of ongoing Navy and NOAA monitoring and research, including efforts by NOAA's Office of National Marine Sanctuaries.\nThis dataset includes the SanctSound species detections based on recorded sounds produced by marine animals with those observations aggregated to daily presence. The full resolution SanctSound species detection products can be discovered and accessed at the NCEI Passive Acoustic Data Archive along with the dataset-specific metadata, processing details and citation. Sound sources were extracted from the SanctSound audio dataset also available at the the NCEI Passive Acoustic Data Archive (NOAA Office of National Marine Sanctuaries and U.S Navy. 2021. SanctSound Raw Passive Acoustic Data. NOAA National Centers for Environmental Information. https://doi.org/10.25921/saca-sp25).",
+    "url": "https://obis.org/dataset/7a4427f6-67ee-4cc1-b95f-3045523420a1",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=noaa_sanctsound_daily_species"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "NOAA Office of National Marine Sanctuaries and U.S Navy (2023). Sanctuary Soundscape Monitoring Project (SanctSound) Daily Aggregated Species Detections. Version 1.1. Occurrence dataset. https://ipt-obis.gbif.us/resource?r=noaa_sanctsound_daily_species&amp;v=1.1",
+    "version": "2023-08-16T16:35:06.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Acoustic Frequency",
+            "url": "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0007/",
+            "description": "Acoustic Frequency"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Moored instrument depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/MPMN/",
+            "description": "Moored instrument depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sound Pressure Level",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600238/",
+            "description": "Sound Pressure Level"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=noaa_sanctsound_daily_species",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-168.13411 21.28542,-168.13411 48.4905,-70.178603 48.4905,-70.178603 21.28542,-168.13411 21.28542"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9783",
+            "@type": "Organization",
+            "legalName": "Woods Hole Oceanographic Institution",
+            "name": "Woods Hole Oceanographic Institution",
+            "url": "https://oceanexpert.org/institution/9783"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17339",
+            "@type": "Organization",
+            "legalName": "Scripps Institution of Oceanography",
+            "name": "Scripps Institution of Oceanography",
+            "url": "https://oceanexpert.org/institution/17339"
+        }
+    ]
+}

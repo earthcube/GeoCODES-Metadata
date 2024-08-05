@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3b71a712-ca34-4368-a029-52b5db32b140",
+    "name": "NMFS Turtle Tracking",
+    "description": "Original provider:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nDataset credits:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nAbstract:\nSatellite telemetry from 26 loggerhead (<i>Caretta caretta</i>) and 10 olive ridley (<i>Lepidochelys olivacea</i>) sea turtles captured and released from pelagic longline fishing gear provided information on the turtles' position and movement in the central North Pacific.\nThese data, together with environmental data from satellite remote sensing, are used to describe the oceanic habitat used by these turtles. The results indicate that loggerheads travel westward, move seasonally north and south primarily through the region 28-40 deg N, and occupy sea surface temperatures (SST)\nof 15-25 deg C. Their dive depth distribution indicated that they spend 40% of their time at the surface and\n90% of their time at depths &lt;40 m. Loggerheads are found in association with fronts, eddies, and geostrophic\ncurrents. Specifically, the Transition Zone Chlorophyll Front (TZCF) and the southern edge of the Kuroshio Extension Current (KEC) appear to be important forage and migratiom habitats for loggerheads. In contrast, olive ridleys were found primarily south of loggerhead habitat in the region 8-31 deg N latitude, occupying warmer water with SSTs of 23-28 deg C. They have a deeper dive pattern than loggerheads, spending only 20% of their time at the surface\nand 60% shallower than 40 m. However, the three olive ridleys identified from genetics to be of western Pacific origin spent some time associated with major\nocean currents, specifically the southern edge of the KEC, the North Equatorial Current (NEC), and the Equatorial Counter Current (ECC). These habitats were not used by any olive ridleys of eastern Pacific origin suggesting that olive ridleys from different populations may occupy different oceanic habitats.\n\nPurpose:\nTo determine movements of loggerheads throughout the Pacific ocean and to define their oceanic habitat.\n\nSupplemental information:\nTrack data from 2000 till 2013 were added in August 2015. During this process, the following changes were made.\n- Some of the field names were changed (e.g. series =&gt; argos_id, lc_code =&gt; lc)\n- SCL, CCL, Sex and Weight attributes were added. SCL, Sex and Weight are empty for data before 2000, though.\n- Tag ID was modified by adding the last two digits of the year the tag was deployed.\n\nThe following errors were found and fixed.\n- The time values of 19588_97 and 19589_97 were in a wrong format and invalid. The time values were refilled.\n- The time value of 19582_97 on 6/13/1997 was corrected to 01:36:00.\n- The time value of 25315_00 on 05/13/00 was corrected to 20:13:00.\n\nAdditional reference: <a href=\"http://www.plosone.org/article/info:doi/10.1371/journal.pone.0073274\">Abecassis, M., I. Senina, P. Lehodey, P. Gaspar, D. Parker, G. Balazs, and J. Polovina. 2013. A model of loggerhead sea turtle (<i>Caretta caretta</i>) habitat and movement in the oceanic North Pacific. PLoS ONE 8:e73274.</a>",
+    "url": "https://obis.org/dataset/3b71a712-ca34-4368-a029-52b5db32b140",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_320"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Parker, D., G. Balazs and J. Polovina. 2015. NMFS Turtle Tracking. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/320) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:18:38.000Z",
+    "keywords": [
+        "Occurrence,Radio transmitters,Animal movements,Turtles,Longline fisheries interactions,Loggerhead,Olive ridley,Habitat",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_320",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.998 7.345,-179.998 50.065,180 50.065,180 7.345,-179.998 7.345"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

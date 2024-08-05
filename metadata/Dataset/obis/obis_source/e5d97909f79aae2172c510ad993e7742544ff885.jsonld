@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d5479acf-29cc-44b3-b3d7-bd4e40f83efc",
+    "name": "Occurrences of harmful micro algae within the Belgian Part of the North Sea compiled from literature and monitoring records",
+    "description": "This dataset represents the Belgian contribution to IOC-UNESCO’s Global HAB Status report. The Intergovernmental Oceanographic Commission of UNESCO (IOC) aims to create reliable, verified data sets for all known HAB species for each geographic region of the globe. Records within the dataset originate from authoritative sources, usually publications that contain observations of harmful algae in the Belgian part of the North Sea. Uniquely, this dataset also contains records from Flanders Environment Agency (= Vlaamse Milieumaatschappij VMM), the regional governance body which was legally responsible for the phytoplankton monitoring of Shellfish Water (in accordance to the EC Shellfish Waters Directive) between 2000 and 2015. Literature sources were found by scouring the “Belgian Marine Bibliography” (http://www.vliz.be/en/belgian-marine-bibliography) up to 2018; a reference list maintained by Flanders Marine Institute that lists all known (grey) publications (1636-today) on the Belgian part of the North Sea. All literature dealing with phytoplankton were screened for records of harmful algae, as recognized by IOC-UNESCO in the Taxonomic Reference List of Harmful Micro Algae (http://www.marinespecies.org/hab/). Observations were reproduced to the greatest possible spatiotemporal resolution (latitude/longitude and date/time) and graded for certainty based on the information (e.g. description, visual evidence, genetic identification) given. If the publication provided an exact area definition with latitude and longitude for the geographic extent, this information is provided. If only a regional place name was given, then a known locality name and nominal coordinates were assigned by the literature search editor using the Marine Regions gazetteer (http://www.marineregions.org/). If a harmful algal event was associated with the species occurrence, then a link to the IODE/HAEDAT database (http://haedat.iode.org/) was included. In summary, this dataset provides a unique, trustworthy list of all known occurrence of HAB taxa within the confines of the Belgian economic exclusion zone.",
+    "url": "https://obis.org/dataset/d5479acf-29cc-44b3-b3d7-bd4e40f83efc",
+    "sameAs": [
+        "http://ipt.iobis.org/hab/resource?r=hab_beligium"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "De Rijcke, M., Van de Vyver, E., Verdievel, M., 2018. Occurrences of harmful micro algae within the Belgian Part of the North Sea compiled from literature and monitoring records. v1.4. In IOC-HAB Digital Collections. IOC, Paris, France. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2019-07-19T08:50:10.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "quantity",
+            "url": "",
+            "description": "quantity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "saxitoxin",
+            "url": "",
+            "description": "saxitoxin"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1907/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/hab/archive.do?r=hab_beligium",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.4 51.09277778,2.4 51.84722222,3.22 51.84722222,3.22 51.09277778,2.4 51.09277778"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17805",
+            "@type": "Organization",
+            "legalName": "UNESCO-IOC",
+            "name": "UNESCO-IOC",
+            "url": "https://oceanexpert.org/institution/17805"
+        }
+    ]
+}

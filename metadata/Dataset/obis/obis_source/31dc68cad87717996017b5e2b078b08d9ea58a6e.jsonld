@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/80d12cdc-b97d-44b8-8a38-bed0bc54590f",
+    "name": "Acoustic detections in Northeast and South Atlantic",
+    "description": "Original provider:\nThomas Webber, University of St Andrews\n\nDataset credits:\nThomas Webber, University of St Andrews\n\nAbstract:\nAcoustic detcetions of odontocetes from over 30,000km of survey effort from \nthe Arctic, Atlantic, Southern and Indian Oceans, using a streamlined \nworkflow for increasing the speed of acoustic anakysis for large datasets \nutilizing existing modules within PAMGuard.\n\nSupplemental information:\nEach record represents species presence only.\nRecords of \"SONAR\" were dropped.\nSurvey trackline is provided as a static image online.",
+    "url": "https://obis.org/dataset/80d12cdc-b97d-44b8-8a38-bed0bc54590f",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2155"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Webber, T. 2021. Acoustic detections in Northeast and South Atlantic. Data downloaded from OBIS-SEAMAP (https://seamap.env.duke.edu/dataset/2155) on yyyy-mm-dd.",
+    "version": "2022-05-23T15:56:02.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Acoustic precense/absence,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2155",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.01 -64.597,-67.01 78.816113,20.034518 78.816113,20.034518 -64.597,-67.01 -64.597"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

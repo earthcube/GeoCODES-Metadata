@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/17ce69d0-2504-4ae3-bc87-16b096863f51",
+    "name": "Archives of the Arctic Seas Zooplankton",
+    "description": "Dataset containing over 45579 quantitative zooplankton records. Data collected from scientific cruises from 1900-1973 in the Eurasian Arctic Seas, Polar Basin and the North-West Pacific.",
+    "url": "https://obis.org/dataset/17ce69d0-2504-4ae3-bc87-16b096863f51",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=as_zoo"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Markhaseva, E.L., Golikov, A.A., Agapova, T.A., Beig, A.A. 1985 Archives of the Arctic Seas Zooplankton 1",
+    "version": "2019-09-03T14:14:08.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=as_zoo",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.966705322 50.25,-179.966705322 89.6999969482,180 89.6999969482,180 50.25,-179.966705322 50.25"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        }
+    ]
+}

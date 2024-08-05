@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/528fe00d-8ca0-4c32-b6b2-fe72b05d9a6e",
+    "name": "British Antarctic Survey Argos satellite tracking data",
+    "description": "Location information derived from ARGOS PTT tracking devices deployed on higher predators since 1990.",
+    "url": "https://obis.org/dataset/528fe00d-8ca0-4c32-b6b2-fe72b05d9a6e",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=bas_argos"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Citation will vary depending on data used, please contact the data provider",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Marine birds",
+        "Marine mammals",
+        "Predators",
+        "Tracking"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=bas_argos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-145.518005371 -70.0390014648,-145.518005371 -24.3220005035,99.7040023804 -24.3220005035,99.7040023804 -70.0390014648,-145.518005371 -70.0390014648"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

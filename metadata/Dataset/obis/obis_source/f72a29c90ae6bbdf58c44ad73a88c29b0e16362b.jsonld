@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e1df0eb1-0b1e-4f7a-bd85-e3df36bec1e8",
+    "name": "SINBIOTA Marine Data",
+    "description": "SinBiota, the environmental information system for the program Biota/FAPESP, integrates data collected by researchers carrying out surveys within the State of São Paulo with a digital cartographic base, thus providing a mechanism for free and open dissemination of data and information about the State’s biodiversity to all interested.",
+    "url": "https://obis.org/dataset/e1df0eb1-0b1e-4f7a-bd85-e3df36bec1e8",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=sinbiota_marinedata",
+        "http://doi.org/10.25607/kc3p1n"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "FAPESP (2018): SINBIOTA Marine Data. v1.1. Tropical and Subtropical Western South Atlantic OBIS. Dataset/Occurrence. http://ipt.iobis.org/wsaobis/resource?r=sinbiota_marinedata&amp;v=1.1",
+    "version": "2021-07-02T11:01:08.000Z",
+    "keywords": [
+        "Occurrence",
+        "Biodiversity",
+        "Brazil",
+        "FAPESP",
+        "SinBiota"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/2003",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/kc3p1n",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/kc3p1n",
+        "url": "http://doi.org/10.25607/kc3p1n"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=sinbiota_marinedata",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-45.9792 -25.8356,-45.9792 -23.3506,-44.0042 -23.3506,-44.0042 -25.8356,-45.9792 -25.8356"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

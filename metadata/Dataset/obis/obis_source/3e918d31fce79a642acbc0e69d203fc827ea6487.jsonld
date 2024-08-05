@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1cfc4d23-9fcd-42b2-95bf-9c4ee9bc50f6",
+    "name": "Marine Turtles",
+    "description": "Sightings and strandings of both dead and alive marine turtles in the British Isles and the Republic of Ireland.",
+    "url": "https://obis.org/dataset/1cfc4d23-9fcd-42b2-95bf-9c4ee9bc50f6",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_865",
+        "https://doi.org/10.15468/fyt9hw"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Biodiversity Network Trust. Marine Turtles. National Biodiversity Network Trust, Newark, UK. https://doi.org/10.15468/fyt9hw",
+    "version": "2023-05-23T12:26:45.000Z",
+    "keywords": [
+        "Aquatic reptiles",
+        "Biodiversity",
+        "Marine",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1908/2011",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/fyt9hw",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/fyt9hw",
+        "url": "https://doi.org/10.15468/fyt9hw"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_865",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-15.999999 44.385278,-15.999999 63.76,6.033333 63.76,6.033333 44.385278,-15.999999 44.385278"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19591",
+            "@type": "Organization",
+            "legalName": " The Marine Environment Monitoring and Assessment National database",
+            "name": " The Marine Environment Monitoring and Assessment National database",
+            "url": "https://oceanexpert.org/institution/19591"
+        }
+    ]
+}

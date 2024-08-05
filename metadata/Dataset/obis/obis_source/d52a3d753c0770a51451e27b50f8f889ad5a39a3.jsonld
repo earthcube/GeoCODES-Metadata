@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/81052564-3563-4036-9031-872cb056e936",
+    "name": "Fauna Atlas N.T. - marine records, Northern Territory, Australia",
+    "description": "Record fauna observational summary data within the N.T. Taxonomic and collection data for observed mammals, birds, reptiles, frogs. Includes presence/absence info, date, time, and location of sighting. Data collected after 1995 may also include counts.\nRecords were downloaded from the Atlas of Living Australia (https://collections.ala.org.au/public/show/dr361). Taxa have been matched to the World Register of Marine Species. Non-marine records based on that register have been excluded from this version.",
+    "url": "https://obis.org/dataset/81052564-3563-4036-9031-872cb056e936",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=fauna_atlas_nt"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Data supplied by Dept. Natural Resources, Environment, The Arts and Sport. Northern Territory of Australia",
+    "version": "2022-06-08T03:16:08.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1875/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=fauna_atlas_nt",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "121.0013 -26.10758,121.0013 -7.9986,142.07764 -7.9986,142.07764 -26.10758,121.0013 -26.10758"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

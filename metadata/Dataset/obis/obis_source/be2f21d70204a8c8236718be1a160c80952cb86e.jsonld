@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ed5e9990-0225-4437-b25d-047a2b21521c",
+    "name": "Abundances of benthic invertebrate species in the CEAMARC region 2007/08",
+    "description": "Percent-cover estimates from forward facing still-images collected during the benthic trawls of the 2007/08 CEAMARC voyage (raw data-set here: https://data.aad.gov.au/metadata/records/CEAMARC_CASO_200708_V3_IMAGES). All fauna in the bottom third of each image was scored to the lowest taxonomic resolution possible. The images originate from 32 transects, but were split by their lon-lat-position within a spatial grid of environmental variables into 41 sites. \nThis dataset contains: \n(1)\n- species/ morphotypes identified to the highest taxonomic resolution possible\n- broader taxonomic classification (phylum/class)\n- each species mobility, feeding-type and body-shape if possible\n- average abundances in percent-cover at each site\n(2)\n- the mean longitude of all images aggregated per site\n- the mean latitude of all images aggregated per site\n- the number of images scored per site\nQuality: Australian Antarctic Data Centre note - 2018-07-03:\nThe original datasheet was reformatted to fit IPT Biodiversity.AQ standard. The new datasheet \"ceamarc_0708_invertebrates.csv\" provides the dataset ID, sites, decimal latitude and longitude, country, continent, occurrence, date of event, organism quantity (biomass). The taxonomical organisation is provided to the lowest taxonomical rank that could be determined, after matched in WoRMS (World Register of Marine Species).",
+    "url": "https://obis.org/dataset/ed5e9990-0225-4437-b25d-047a2b21521c",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=ceamar_0708"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Robineau, C., Delaplanque-Lasserre, J., Jansen, J. and Eleaume, M.P. (2018, updated 2018) Abundances of benthic invertebrate species in the CEAMARC region 2007/08 -",
+    "version": "2020-03-05T05:18:21.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=ceamar_0708",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "139.3363488 -67.02725014,139.3363488 -65.45589495,145.5009625 -65.45589495,145.5009625 -67.02725014,139.3363488 -67.02725014"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

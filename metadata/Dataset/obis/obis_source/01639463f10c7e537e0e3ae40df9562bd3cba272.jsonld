@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a7c96474-3f59-4901-81da-8370557d51d4",
+    "name": "Squid collection from 1995/96 V4 BROKE",
+    "description": "Squid collected as a product of fish surveys. Some records here are not in the RMT trawl collection of pelagic fish for this voyage.",
+    "url": "https://obis.org/dataset/a7c96474-3f59-4901-81da-8370557d51d4",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=broke_squid"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Squid collection from 1995/96 V4 BROKE.",
+    "version": "2021-05-06T03:28:49.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/1996",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=broke_squid",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "79.99016667 -65.48433333,79.99016667 -62.57283333,149.99533333 -62.57283333,149.99533333 -65.48433333,79.99016667 -65.48433333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18077",
+            "@type": "Organization",
+            "legalName": "University of Tasmania",
+            "name": "University of Tasmania",
+            "url": "https://oceanexpert.org/institution/18077"
+        }
+    ]
+}

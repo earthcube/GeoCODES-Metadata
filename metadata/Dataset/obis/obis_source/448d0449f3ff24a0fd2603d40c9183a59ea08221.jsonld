@@ -1,0 +1,131 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4f4ab916-8e30-4161-8720-6a2c6c43f5dd",
+    "name": "Predation of Crangon crangon by Agonus cataphractus in Belgian coastal waters between 1973 and 1977",
+    "description": "Data on abundances of <i>Agonus cataphractus</i> and stomach contents with special attention to the presence of <i>Crangon crangon</i>. The data were digitized by VLIZ from the original report: Gabriels, I. (1977). Quantitatieve studie van de predatie-mortaliteit van Crangon crangon (L.) door Agonus cataphractus (L.). BSc Thesis. Free University of Brussels: Brussel. 91 pp.",
+    "url": "https://obis.org/dataset/4f4ab916-8e30-4161-8720-6a2c6c43f5dd",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=crangon_crangon_agonus_cataphractus_belgian_coastal_waters_1973-1977",
+        "https://dx.doi.org/10.14284/126"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gabriels I.; Polk P.; Vakgroep Biologie; Faculteit Wetenschappen. VUB: Belgium; (2016): Predation of Crangon crangon by Agonus cataphractus in Belgian coastal waters between 1973 and 1977. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5039) https://dx.doi.org/10.14284/126",
+    "version": "2024-02-26T23:14:12.000Z",
+    "keywords": [
+        "Epibenthos",
+        "Predator prey relationships",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "average observed individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "average observed individual count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average weight of the biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Average weight of the biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lenght of Agonus cataphractus",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "lenght of Agonus cataphractus"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average number of Agonus cataphractus per 10^4 m^2 (yearly or monthly)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Average number of Agonus cataphractus per 10^4 m^2 (yearly or monthly)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area sampled of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area sampled of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "sampling duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "fresh weight of Agonus cataphractus in g per 10^4 m^2",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "fresh weight of Agonus cataphractus in g per 10^4 m^2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "fresh weight of Agonis cataphractus",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "description": "fresh weight of Agonis cataphractus"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "grams Carbon of Agonus cataphractus",
+            "url": "",
+            "description": "grams Carbon of Agonus cataphractus"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/1977",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/126",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/126",
+        "url": "https://dx.doi.org/10.14284/126"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=crangon_crangon_agonus_cataphractus_belgian_coastal_waters_1973-1977",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.58027778 51.15222222,2.58027778 51.536182091972,3.26805556 51.536182091972,3.26805556 51.15222222,2.58027778 51.15222222"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        }
+    ]
+}

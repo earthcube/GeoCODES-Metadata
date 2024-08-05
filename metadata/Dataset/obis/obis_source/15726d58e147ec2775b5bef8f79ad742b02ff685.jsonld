@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e839da1a-847c-4a51-9692-b65640e9d51f",
+    "name": "Little shearwater (Puffinus assimilis haurakiensis) geolocation tracking from Burgess Island, Mokohinau Group, Hauraki Gulf, New Zealand (2011-2012)",
+    "description": "Tracking of nine breeding Little shearwater (Puffinus assimilis haurakiensis) birds from Burgess Island, Mokohinau Group, Hauraki Gulf from Sept 2011 to Aug/Sept 2012. Equinox periods are filtered out for some birds and occasional days when unrealistic movements were present (probably caused by feathers shading the light sensor)\nData sourced from Zoatrack project 104 (https://zoatrack.org/projects/104/) on 2021-05-01",
+    "url": "https://obis.org/dataset/e839da1a-847c-4a51-9692-b65640e9d51f",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=zoatrack_104_lish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "The data in this project is publicly available under a Creative Commons Attribution-NonCommercial-ShareAlike License. If you use these data in any type of publication then you must cite the project DOI (if available) or any published peer-reviewed papers associated with the study. We strongly encourage you to contact the data custodians to discuss data usage and appropriate accreditation.\n\nRights Statement\nCopyright: New Zealand Department of Conservation",
+    "version": "2022-06-06T11:50:51.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=zoatrack_104_lish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.99 -55.58,-179.99 -25.21,180 -25.21,180 -55.58,-179.99 -55.58"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20909",
+            "@type": "Organization",
+            "legalName": "Department of Conservation- Wellington Office",
+            "name": "Department of Conservation- Wellington Office",
+            "url": "https://oceanexpert.org/institution/20909"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

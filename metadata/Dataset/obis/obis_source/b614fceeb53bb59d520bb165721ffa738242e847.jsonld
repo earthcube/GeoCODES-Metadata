@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/49db7b2f-d4ec-4dbf-947e-65a607f64282",
+    "name": "CMAR Australian and New Zealand marine fish otoliths collection",
+    "description": "The Australian and New Zealand marine fish otoliths collection has 10425 otoliths (and some scales) from 50 species collected by CSIRO researchers from Australia and New Zealand's marine waters for the period 1940-2006. Species include those inhabiting tropical and temperate waters, ranging from near shore to deep sea. The collection is housed partly in Dutton Park and partly at Hobart at present. Details of the collection is at https://marlin.csiro.au/geonetwork/srv/eng/catalog.search#/metadata/2d378ae8-2e01-418b-ae42-2224234f473d",
+    "url": "https://obis.org/dataset/49db7b2f-d4ec-4dbf-947e-65a607f64282",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=anfc_otoliths"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Graham A (2023): CMAR Australian and New Zealand marine fish otoliths collection. v1.4. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=anfc_otoliths&amp;v=1.4",
+    "version": "2023-06-29T03:40:49.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Otolith Condition",
+            "url": "",
+            "description": "Otolith Condition"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=anfc_otoliths",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "127.36 -29.43,127.36 -10.74,153.626 -10.74,153.626 -29.43,127.36 -29.43"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

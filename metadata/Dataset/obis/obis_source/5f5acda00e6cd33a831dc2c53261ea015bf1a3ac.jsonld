@@ -1,0 +1,107 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e323bf2a-deb3-4492-a1ad-e318ad0b3753",
+    "name": "Macrobenthos of the Voordelta (Grevelingen, Oosterschelde) in 1988 and 1989",
+    "description": "Counts of bivalves and polychaetes per family for several replicates sampled at 4 stations in the Voordelta between April 1988 and March 1989 and average density and biomass of macrobenthos species for several clustered stations sampled in the Grevelingen and Oosterschelde area between July and August 1988. The data were digitized by VLIZ from the original report: Craeymeersch, J.A.; Buijs, J.; Brand, R.; Hannewijk, A.; Sistermans, W.C.H.; Stikvoort, E. (1990). Benthosonderzoek in relatie tot abiotische dynamiek het macrobenthos van de Voordelta: interimrapportage juli 1989. DIHO rapporten en verslagen, 1990(4). Dienst Hydrologisch Onderzoek (DIHO): Yerseke. 72 pp.",
+    "url": "https://obis.org/dataset/e323bf2a-deb3-4492-a1ad-e318ad0b3753",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macrobenthos_voordelta_grevelingen_oosterschelde_1988-1989",
+        "https://dx.doi.org/10.14284/195"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Craeymeersch J.A.; Buijs J.; Brand R.; Hannewijk A.; Sistermans W.; Stikvoort E.; (2016): Macrobenthos of the Voordelta (Grevelingen, Oosterschelde) in 1988 and 1989. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5183) https://dx.doi.org/10.14284/195",
+    "version": "2023-12-08T17:48:57.000Z",
+    "keywords": [
+        "Macrobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MSHSIZE1/",
+            "description": "mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observed individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "observed individual count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance (per taxon) of macrobenthos individuals per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance (per taxon) of macrobenthos individuals per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average ash-free dry weight biomass (per taxon) of macrobenthos per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL03/",
+            "description": "Average ash-free dry weight biomass (per taxon) of macrobenthos per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/1989",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/195",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/195",
+        "url": "https://dx.doi.org/10.14284/195"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macrobenthos_voordelta_grevelingen_oosterschelde_1988-1989",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.5516 51.56081,3.5516 51.7616,3.98333 51.7616,3.98333 51.56081,3.5516 51.56081"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19612",
+            "@type": "Organization",
+            "legalName": "Rijkswaterstaat Water, Verkeer en Leefomgeving",
+            "name": "Rijkswaterstaat Water, Verkeer en Leefomgeving",
+            "url": "https://oceanexpert.org/institution/19612"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20904",
+            "@type": "Organization",
+            "legalName": "Koninklijke Nederlandse Academie van Wetenschappen",
+            "name": "Koninklijke Nederlandse Academie van Wetenschappen",
+            "url": "https://oceanexpert.org/institution/20904"
+        }
+    ]
+}

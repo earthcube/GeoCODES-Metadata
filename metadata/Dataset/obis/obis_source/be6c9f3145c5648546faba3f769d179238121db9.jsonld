@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/96c7952d-5021-4749-b87e-14b8de026eb0",
+    "name": "USGS Great Lakes Science Center Research Vessel Catch Information System Trawl",
+    "description": "Data collected on various vessel operations on the Great Lakes and select connecting waterways.  This vessel operations data set is part of and connected to a larger database of Great Lakes research that includes trawl and gillnet catch data, sample information, as well as effort, operation conditions, and location details.  Multiple operations were conducted on all Great Lakes each year (1958-2016) beginning in early spring and ending in late fall. Each vessel operation was completed for a specific purpose, or target mission, which are enumerated in this data set. RVCAT stores data from the research vessels associated with the United States Geological Survey, Great Lakes Science Center and it's partners. The Trawl Tables contain data collected from the research vessel deploying various trawl gear.",
+    "url": "https://obis.org/dataset/96c7952d-5021-4749-b87e-14b8de026eb0",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=usgs_glsc_rvcat_trawl"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2018-03-06T20:30:29.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "temperature at depth of gear deployment",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/",
+            "description": "temperature at depth of gear deployment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "total weight of fish caught",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600088/",
+            "description": "total weight of fish caught"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "fish length",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600101/",
+            "description": "fish length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1960/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=usgs_glsc_rvcat_trawl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-92.2742 41.3038,-92.2742 48.9525,-76.095 48.9525,-76.095 41.3038,-92.2742 41.3038"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

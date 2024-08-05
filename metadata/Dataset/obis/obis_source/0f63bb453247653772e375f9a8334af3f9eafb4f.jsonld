@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b19eed73-2149-4a94-8a93-28ba7d759086",
+    "name": "South Caribbean Diversity",
+    "description": "Collection of occurrence data obtained from the literature archived in the Marine Biology Laboratory of Universidad Simón Bolívar.",
+    "url": "https://obis.org/dataset/b19eed73-2149-4a94-8a93-28ba7d759086",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=biodiversitysouthcaribbean"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Library of the Marine Biology Laboratory, USB. Biodiversity of Golfo Triste, Venezuela.",
+    "version": "2018-03-13T12:31:09.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/caribbeanobis/archive.do?r=biodiversitysouthcaribbean",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-82.24 9.338,-82.24 18.46,-59.6 18.46,-59.6 9.338,-82.24 9.338"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8887",
+            "@type": "Organization",
+            "legalName": "Universidad Simon Bolivar",
+            "name": "Universidad Simon Bolivar",
+            "url": "https://oceanexpert.org/institution/8887"
+        }
+    ]
+}

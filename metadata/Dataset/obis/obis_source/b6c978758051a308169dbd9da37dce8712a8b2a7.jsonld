@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2988d0f0-e51c-493b-8f6f-9a88a0fb6435",
+    "name": "Jellyfish Sightings Along the Italian Coastline from 2009 to 2017",
+    "description": "The lack of gelatinous blooms data reveals scant attention to such phenomena due to their irregular occurrence (Boero et al. 2008), to modern publication trends that give no importance to observations (Boero 2013b), to current monitoring programs that usually do not cover jellyfish (Riisgård et al. 2012) and to the lack of remote sensing tools to detect jellyfish. From 2009 the Italian project Occhio alla Medusa started involving citizens to record sightings of gelatinous organisms. In 2010 till 2015, the Italian popular science magazine FOCUS supported the campaign dedicating a webpage and releasing a smartphone app to upload records.",
+    "url": "https://obis.org/dataset/2988d0f0-e51c-493b-8f6f-9a88a0fb6435",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=jellyobs_09_17",
+        "https://dx.doi.org/10.14284/345"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Boero Ferdinando, Piraino Stefano, Zampardi Serena;  (2019) - Jellyfish sightings along the Italian coastline from 2009 to 2017 https://dx.doi.org/10.14284/345",
+    "version": "2023-12-08T18:17:47.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL06/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2017",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/345",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/345",
+        "url": "https://dx.doi.org/10.14284/345"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=jellyobs_09_17",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "7.580715 35.494938,7.580715 45.930454,18.519819 45.930454,18.519819 35.494938,7.580715 35.494938"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/677cbeca-903e-4a9d-bdf2-11184ad0c201",
+    "name": "Ophiuroidea distribution data from: Deep-sea fauna of European seas - an annotated species check-list of benthic invertebrates living deeper than 2000 m in the seas bordering Europe",
+    "description": "An annotated check-list is given of Ophiuroidea species occurring deeper than 2000 m in the seas bordering Europe.",
+    "url": "https://obis.org/dataset/677cbeca-903e-4a9d-bdf2-11184ad0c201",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=deepsea_ophiuroidea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Smirnov, I.S.; Piepenburg, D.; Ahearn, C.; Juterzenka, K.V.; (2016). Ophiuroidea distribution data from: Deep-sea fauna of European seas - an annotated species check-list of benthic invertebrates living deeper than 2000 m in the seas bordering Europe.",
+    "version": "2023-12-08T17:25:56.000Z",
+    "keywords": [
+        "Data",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1872/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=deepsea_ophiuroidea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-128.39 1.78,-128.39 84.31,160.8 84.31,160.8 1.78,-128.39 1.78"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9651",
+            "@type": "Organization",
+            "legalName": "Zoological Institute of the Russian Academy of Sciences",
+            "name": "Zoological Institute of the Russian Academy of Sciences",
+            "url": "https://oceanexpert.org/institution/9651"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19296",
+            "@type": "Organization",
+            "legalName": "Institut für Polarökologie der Christian-Albrechts-Universität",
+            "name": "Institut für Polarökologie der Christian-Albrechts-Universität",
+            "url": "https://oceanexpert.org/institution/19296"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e043b505-c1af-45dd-a2e7-96571d7b39d0",
+    "name": "Monitored bycatch of Mustelus mustelus, Squalus acanthias, Myliobatis aquila, Pteroplatytrygon violacea and Caretta caretta in mid-water pair trawl in the northern Adriatic Sea, from 2006-2017",
+    "description": "Gridded data of monitored fishing effort and relative bycatch of Mustelus mustelus, Squalus acanthias, Myliobatis aquila, Pteroplatytrygon violacea and Caretta caretta in mid-water pair trawl in the northern Adriatic Sea from, 2006-2017.",
+    "url": "https://obis.org/dataset/e043b505-c1af-45dd-a2e7-96571d7b39d0",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=bycatch_species_adriatic_sea_2006_2017"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Pulcinella, J.; Bonanomi,S.; Colombelli, A.; Moro, F.; Sala, A.; Fortuna, C.M.; Institute for Biological Resources and Marine Biotechnologies (IRBIM), Italian National Institute for Environmental Protection and Research (ISPRA); (2020): Monitored bycatch of Mustelus mustelus, Squalus acanthias, Myliobatis aquila, Pteroplatytrygon violacea and Caretta caretta in mid-water pair trawl in the northern Adriatic Sea, from 2006-2017",
+    "version": "2024-02-26T23:13:58.000Z",
+    "keywords": [
+        "Bycatches",
+        "Midwater trawls",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "number of fishing hauls",
+            "url": "",
+            "description": "number of fishing hauls"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=bycatch_species_adriatic_sea_2006_2017",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "12.267194 42.476556,12.267194 45.584556,15.039194 45.584556,15.039194 42.476556,12.267194 42.476556"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13433",
+            "@type": "Organization",
+            "legalName": "Italian National Research Council",
+            "name": "Italian National Research Council",
+            "url": "https://oceanexpert.org/institution/13433"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/15791",
+            "@type": "Organization",
+            "legalName": "Italian National Institute for Environmental Protection and research",
+            "name": "Italian National Institute for Environmental Protection and research",
+            "url": "https://oceanexpert.org/institution/15791"
+        }
+    ]
+}

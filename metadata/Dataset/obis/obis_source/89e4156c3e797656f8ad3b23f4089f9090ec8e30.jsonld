@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7e5af076-62d8-4d54-a4a8-b4b755e454aa",
+    "name": "Sea Mammal Research Unit (SMRU) UK aerial surveys of harbour seals (Phoca vitulina) and grey seals (Halichoerus grypus) during the summer harbour seal moult 2016-2019",
+    "description": "The Sea Mammal Research Unit (SMRU) conducts an ongoing programme of aerial surveys along the English and Scottish coastlines during the harbour seal (Phoca vitulina) summer moult. These surveys are funded by the Natural Environment Research Council (NERC National Capability Funding, Grant Numbers SMRU10001 and NE/R015007/1), NatureScot, formerly Scottish Natural Heritage (SNH), and Natural England.\nTo monitor harbour seal numbers, individuals onshore are counted in August, during their annual moult season, when animals generally spend more time hauled out. Such moult season counts tend to be slightly higher and more consistent than at other times of year. Grey seals (Halichoerus grypus) are also counted during these summer surveys, but their distribution can change more throughout the year because they congregate in breeding colonies during the autumn. These aerial surveys are conducted within 2 hours of low water using either a helicopter or fixed-wing aircraft. No surveying is carried out during periods with prolonged rain or heavy showers.\nThe helicopter surveys began in 1988 and cover a different area each year. A full round of Scotland usually takes 3-5 years to complete. This dataset covers the 2016-2019 round of helicopter surveys that used multi-sensor (infrared, high-resolution DSLR, and video) gimbal-led imaging.\nParts of the Moray Firth as well as the Firth of Tay and Eden Estuary Special Area of Conservation (SAC) are surveyed annually. Almost all the seals here haul out on sandbanks, which makes them much easier to spot. For that reason, less expensive fixed-wing aircraft and hand-held photography can be used.\nThe same applies to the main harbour seal areas in England. Each year, SMRU performs fixed-wing surveys of the coastlines of Lincolnshire and Norfolk between Donna Nook and Scroby Sands. Less frequently, SMRU also surveys the Thames Estuary from Felixstowe to Goodwin Sands (fixed wing 2018 and 2019), the East Coast from around Coquet Island to Flamborough Head (fixed-wing 2016), and the Berwickshire and North Northumberland Coast SAC (helicopter 2018).\nThe presence/absence and counts of hauled-out individuals from each of the years from 2016 to 2019 have been aggregated using the cells of a 5 km x 5 km UTM zone 30N (EPSG:32630) grid. Mean values are given for cells surveyed more than once in a single season. No value is reported if only part of the intertidal zone within a given cell was surveyed during a given year.\nThe reports produced by SMRU for NERC’s Special Committee on Seals (SCOS), in particular Briefing Papers 17/03, 18/04, 19/03, and 20/03 in the 2017-2020 reports, contain additional information on these surveys and the data gathered. These are available from SMRU’s website: http://www.smru.st-andrews.ac.uk/scos/scos-reports/\nFurther details of the Scottish surveys over this period and the data they collected can also be found in this report: NatureScot Research Report 1256 - Aerial surveys of seals in Scotland during the harbour seal moult, 2016-2019 https://www.nature.scot/doc/naturescot-research-report-1256-aerial-surveys-seals-scotland-during-harbour-seal-moult-2016-2019",
+    "url": "https://obis.org/dataset/7e5af076-62d8-4d54-a4a8-b4b755e454aa",
+    "sameAs": [
+        "https://www.dassh.ac.uk/ipt/resource?r=smru_seals_2016-2019"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-05-16T13:59:31.000Z",
+    "keywords": [
+        "marine",
+        "mammal",
+        "surveys",
+        "census",
+        "aerial imagery",
+        "intertidal",
+        "abundance",
+        "population dynamics",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Area of survey {surveyed area} by aerial survey",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPARAC/",
+            "description": "Area of survey {surveyed area} by aerial survey"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count method in biodiversity projects related to sea birds and marine mammals",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Count method in biodiversity projects related to sea birds and marine mammals"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform type",
+            "url": "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/",
+            "description": "Platform type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count of hauled-out individuals",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count of hauled-out individuals"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Estimate type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Estimate type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "LifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "LifeStage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Seal activity type",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/SEBH/",
+            "description": "Seal activity type"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.dassh.ac.uk/ipt/archive.do?r=smru_seals_2016-2019",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-7.72141957095125 51.1633921215987,-7.72141957095125 60.8468026171566,1.84067143681273 60.8468026171566,1.84067143681273 51.1633921215987,-7.72141957095125 51.1633921215987"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

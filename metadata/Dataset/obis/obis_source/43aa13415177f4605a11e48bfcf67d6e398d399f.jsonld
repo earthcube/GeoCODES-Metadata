@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a9848680-b804-455a-b6b5-2c5c1d0dbcde",
+    "name": "Historical distribution of whales shown by logbook records 1785-1913",
+    "description": "Original provider:\nWildlife Conservation Society\n\nDataset credits:\nWildlife Conservation Society\n\nAbstract:\nThe Wildlife Conservation Society (WCS) has digitally captured the Townsend Whaling Charts that were published as a series of 4 charts with the article titled \"The distribution of certain whales as shown by logbook records of American whale ships\" by Charles Haskins Townsend in the journal Zoologica in 1935.\nThe 4 charts show the locations of over 50,000 captures of 4 whale species; sperm whales (36,908), right whales (8,415), humpback whales (2,883) and bowhead whales (5,114). Capture locations were transcribed from North American (“Yankee”) pelagic whale vessel log books dating from 1761 to 1920 and plotted onto nautical charts in a Mercator projection by a cartographer. Each point plotted on the charts represents the location of a whaling ship on a day when one or more whales were taken and is symbolized by month of the year using a combination of color and open and closed circles.\nTownsend and his cartographer plotted vessel locations as accurately as possible according to log book records.  When plotting locations on an earlier sperm whale chart published in 1931 the cartographer spaced points where locations were very dense, \"extending areas slightly\" for a number of whaling grounds. However, for charts in preparation at this time, Townsend states that \"this difficulty is avoided by omitting some of the data, rather than extend the ground beyond actual whaling limits.\" We assumed that this statement refers to the 1935 charts but there is still some question as to whether the cartographer did in fact space locations and thus expand whaling grounds. \n\nPurpose:\nThis dataset provides point features that represent the historical locations of right whale catches taken by North American pelagic whaling vessels between 1761 to 1920. Points were derived from 4 charts that were first scanned on a large format scanner at a resolution of 200 dpi. The charts were then georeferenced in the native projection of the charts, the Mercator projection, using GIS software (ESRI ArcView 3.2). Each vessel capture location plotted on the charts was then digitized as a point feature and attributed with the month of capture. One GIS file (ESRI shapefile) was then created for each whale species represented by the charts; sperm whale, right whale, humpback whale and bowhead whale.\n\nDigitizing errors include missed points, particularly from areas of dense chart locations, and incorrect assignment of month of capture because of difficulty distinguishing between chart colors. However to limit these errors multiple checks of digitized and chart locations were made and color enhancements of chart scans were used to ensure correct month assignments. Overall we are confident that at least 95% of catch locations have been digitized and that at least 95% of month attributes are correct.\n\nFor full resolution digital copies of the Townsend charts please contact Gillian Woolmer (gwoolmer@wcs.org).\n\nSupplemental information:\n[2023-01-31] The year of the date was changed from 1913 to 1849, the midpoint of the time range of the data.\n\nWCS digitized the Townsend whaling charts in 2002 using ArcView 3.2 from ESRI. The information WCS has captured for each point location is the whale species (based on the chart) and the month, based on the chart point symbol. Exact dates and number of whales taken was not possible to determine. Right whale captures were separated into northern and southern right whale species, based on their geographic location.\n\nSince time, count, day, and year were not available, \"00:00:00,\" 1, 1, and 1913 were used, respectively. Only month is available.",
+    "url": "https://obis.org/dataset/a9848680-b804-455a-b6b5-2c5c1d0dbcde",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_885"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Woolmer, G. 2013. Historical distribution of whales shown by logbook records 1785-1913. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/885) on yyyy-mm-dd.",
+    "version": "2023-02-08T21:32:36.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings,whales,charts,sperm whale,humpback whale",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1849/1849",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_885",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.97438 -58.46414,-179.97438 73.26411,179.98864 73.26411,179.98864 -58.46414,-179.97438 -58.46414"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8faf0e94-1c0e-479d-942c-7f21a4c0a5b4",
+    "name": "Tasmanian Museum and Art Gallery provider for OZCAM - marine records",
+    "description": "Tasmanian Museum and Art Gallery provider for OZCAM dataset restricted to marine species. Data downloaded from ALA and taxa matched to World Register of Marine Species.",
+    "url": "https://obis.org/dataset/8faf0e94-1c0e-479d-942c-7f21a4c0a5b4",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=tmag_marine"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Webmaster O (2022): Tasmanian Museum and Art Gallery provider for OZCAM - marine records. v1.9. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=tmag_marine&amp;v=1.9",
+    "version": "2022-06-07T06:01:06.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1857/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=tmag_marine",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-125.6167 -68.8167,-125.6167 47.9167,168.6667 47.9167,168.6667 -68.8167,-125.6167 -68.8167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19430",
+            "@type": "Organization",
+            "legalName": "Tasmanian Museum and Art Gallery",
+            "name": "Tasmanian Museum and Art Gallery",
+            "url": "https://oceanexpert.org/institution/19430"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

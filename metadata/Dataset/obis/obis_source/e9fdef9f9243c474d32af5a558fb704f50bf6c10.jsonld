@@ -1,0 +1,118 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/20078fb0-3f5e-4b1f-94d9-e28efe7d3cde",
+    "name": "DATRAS Irish Anglerfish and Megrim Survey",
+    "description": "<p>The dataset includes age- and length-based catch per unit effort data for commercial fish species collected during the Irish Anglerfish and Megrim survey.</p>",
+    "url": "https://obis.org/dataset/20078fb0-3f5e-4b1f-94d9-e28efe7d3cde",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=ices_datras_ieiams"
+    ],
+    "license": "Licence",
+    "citation": "International Council for the Exploration of the Sea (ICES), Denmark; (2023): DATRAS Irish Anglerfish and Megrim Survey (IE-IAMS).",
+    "version": "2024-02-26T23:46:58.000Z",
+    "keywords": [
+        "Biota",
+        "No limitations to public access",
+        "Species distribution",
+        "WGS84 (EPSG:4326)",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Buoyancy",
+            "url": "",
+            "description": "Buoyancy"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "BycSpecRecCode",
+            "url": "https://vocab.ices.dk/?ref=89",
+            "description": "BycSpecRecCode"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cal_DateID",
+            "url": "",
+            "description": "Cal_DateID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DataType",
+            "url": "https://vocab.ices.dk/?ref=9",
+            "description": "DataType"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Distance",
+            "url": "",
+            "description": "Distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorSpread",
+            "url": "",
+            "description": "DoorSpread"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorSurface",
+            "url": "",
+            "description": "DoorSurface"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorType",
+            "url": "https://vocab.ices.dk/?ref=98",
+            "description": "DoorType"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorWgt",
+            "url": "",
+            "description": "DoorWgt"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GroundSpeed",
+            "url": "",
+            "description": "GroundSpeed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ices_datras_ieiams",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-14.909 48.17,-14.909 58.632,-6.711 58.632,-6.711 48.17,-14.909 48.17"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

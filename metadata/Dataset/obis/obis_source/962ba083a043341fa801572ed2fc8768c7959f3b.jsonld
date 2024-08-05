@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f325a99c-f6a6-4ba7-96ae-7463a0002982",
+    "name": "Monitoreo de peces arrecifales y tiburones parte de los valores objetos de conservación (VOC) en el santuario Malpelo para el año 2020",
+    "description": "Registros de avistamientos de fauna marina realizados en el Santuario de Fauna y Flora Malpelo durante expediciones de monitoreo. El objetivo del registro es reportar las especies avistadas durante monitoreos de valores objetos de conservación (VOC) para llevar un registro de abundancias relativas en el tiempo.\nEste conjunto de datos contiene 475 registros, abarcando peces (416), tiburones (56), reptiles (2) y mamíferos (1), todos clasificados a nivel de especie. Los datos fueron tomados en febrero y octubre del año 2020, en dos localidades diferentes.",
+    "url": "https://obis.org/dataset/f325a99c-f6a6-4ba7-96ae-7463a0002982",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=monitoreo_sffmalpelo_2020",
+        "https://doi.org/10.15472/sl6las"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Martínez S B, Ladino F, Bessudo S (2021): Monitoreo de peces arrecifales y tiburones parte de los valores objetos de conservación (VOC) en el santuario Malpelo para el año 2020. v2.1. Fundación Malpelo y Otros Ecosistemas Marinos. Dataset/Occurrence. https://doi.org/10.15472/sl6las",
+    "version": "2021-03-23T12:55:50.000Z",
+    "keywords": [
+        "Peces",
+        "Tiburones",
+        "Mamíferos",
+        "Reptiles",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/sl6las",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/sl6las",
+        "url": "https://doi.org/10.15472/sl6las"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=monitoreo_sffmalpelo_2020",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.6121667 4.0011611,-81.6121667 4.0044528,-81.6033556 4.0044528,-81.6033556 4.0011611,-81.6121667 4.0011611"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

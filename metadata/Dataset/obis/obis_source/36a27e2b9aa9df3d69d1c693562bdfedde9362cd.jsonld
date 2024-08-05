@@ -1,0 +1,88 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1a88b55b-84b7-4b22-ba1c-b845a8d73e1a",
+    "name": "Total phytoplankton inventory in the western part (Grote Rede, Negenvaam, Buiten Ratel, Oost Dyck) of the North Sea between 1977 and 1978",
+    "description": "Abundances and densities of phytoplankton species at Flemish (Negenvaam, Buiten Ratel and Oost Dyck) and Western Coastal Banks (Grote Rede) sampled between 1977 and 1978. The data are digitized from technical reports in the frame of the 4DEMON project.",
+    "url": "https://obis.org/dataset/1a88b55b-84b7-4b22-ba1c-b845a8d73e1a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=total_phytoplankton_inventory_in_the_western_part_of_the_north_sea_between_1977_and_1978",
+        "https://dx.doi.org/10.14284/341"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "De Block E.; Dekelver L.; De Roover F.; Goossens A.; Minten J.; Piron J.; Reniers B.; Symens D.; Louis A.; Laboratorium van Algologie. KUL: Belgium; (2019): Total phytoplankton inventory in the western part (Grote Rede, Negenvaam, Buiten Ratel, Oost Dyck) of the North Sea between 1977 and 1978. Marine Data Archive. https://dx.doi.org/10.14284/341",
+    "version": "2023-05-23T11:41:04.000Z",
+    "keywords": [
+        "Phytoplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of phytoplankton species per unit volume of the water column",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of phytoplankton species per unit volume of the water column"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1977/1978",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/341",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/341",
+        "url": "https://dx.doi.org/10.14284/341"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=total_phytoplankton_inventory_in_the_western_part_of_the_north_sea_between_1977_and_1978",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.402777778 51.241666666667,2.402777778 51.275,2.911111111 51.275,2.911111111 51.241666666667,2.402777778 51.241666666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19418",
+            "@type": "Organization",
+            "legalName": "Katholieke Universiteit Leuven",
+            "name": "Katholieke Universiteit Leuven",
+            "url": "https://oceanexpert.org/institution/19418"
+        }
+    ]
+}

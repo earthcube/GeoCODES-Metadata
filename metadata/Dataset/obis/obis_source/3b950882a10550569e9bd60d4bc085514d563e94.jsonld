@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cf8dde43-858e-4e8a-927f-53c90ab5cd5e",
+    "name": "Juday Net Zooplankton Data from the 2019 Gulf of Alaska International Year of the Salmon Expedition",
+    "description": "This dataset contains zooplankton data collected in the Northeast Pacific Ocean with a Juday net. These data were collected as part of the International Year of the Salmon (IYS) High Seas Expedition conducted in February and March 2019, to further improve the understanding of factors impacting salmon early marine winter survival. Two Juday nets (0.1 m2 mouth area, 160 um mesh size) were deployed at 58 stations to a depth of 200 meters, and samples were processed onboard the vessel. Taxa were identified to the lowest taxonomic rank possible. Where possible, sex and lifestage are determined. For count, abundance and biomass measurements, please reach out to the point of contact(s) listed. The samples from 2019 were processed by Aleksander Slabinskiy. The data collected is used to understand the underlying food web structure.",
+    "url": "https://obis.org/dataset/cf8dde43-858e-4e8a-927f-53c90ab5cd5e",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=juday-net-zooplankton-data-from-the-2019-gulf-of-alaska-international-year-of-the-salmon-expedition"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Slabinsky, A., Somov, A., &amp; Pakhomov, E. (2022). Juday Net Zooplankton Data from the 2019 Gulf of Alaska International Year of the Salmon Expedition (Version 1.0) [Data set]. North Pacific Anadromous Fish Commission. https://doi.org/10.21966/ZW3V-MD11",
+    "version": "2022-12-16T18:03:01.000Z",
+    "keywords": [
+        "Occurrence",
+        "Zooplankton",
+        "International Year of the Salmon",
+        "Gulf of Alaska",
+        "Juday net",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=juday-net-zooplankton-data-from-the-2019-gulf-of-alaska-international-year-of-the-salmon-expedition",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-147.5 47.67,-147.5 56.67,-128.52 56.67,-128.52 47.67,-147.5 47.67"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5899",
+            "@type": "Organization",
+            "legalName": "University of British Columbia",
+            "name": "University of British Columbia",
+            "url": "https://oceanexpert.org/institution/5899"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10093",
+            "@type": "Organization",
+            "legalName": "Pacific Fisheries Research Center (TINRO-Center)",
+            "name": "Pacific Fisheries Research Center (TINRO-Center)",
+            "url": "https://oceanexpert.org/institution/10093"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        }
+    ]
+}

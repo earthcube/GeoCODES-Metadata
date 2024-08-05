@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2e653f52-25c7-4f72-9674-fa75ec5dca51",
+    "name": "Reef shark prey abundances from 46 sites in the Solomon Islands (2015)",
+    "description": "Stereo diver operated video (stereo-DOV) were deployed at 46 sites occurring between October 17 and November 1, 2015, in four main locations: western Kolombangara Island (Kolombangara), north-western Parara and Gizo islands (Parara/Gizo), southern Vangunu Island (Vangunu), and eastern Gatokae and adjacent smaller islands Gatokae) in the Western Province, Solomon Islands. At each site six 5 m by 50 m belt transects separated by 10 m were completed at depths between 8 and 12 m\nTo calculate prey biomass, fish families that were known to be the prey of reef sharks were extracted from the stereo-DOV data and included: Acanthuridae, Balistidae, Carangidae, Chaetodontidae, Haemulidae, Holocentridae, Labridae, Lethrinidae, Monacanthidae, Mullidae, Pomacentridae, Scaridae, Scombridae and Zanclidae [44±47]. Fishes of all sizes were included in calculations of prey biomass, as 99.5% were below 50 cm in length and therefore likely to be predated upon\nThese surveys were conducted in the customary waters of tribes on Kolombangara, Parara, Gatokae and Vangunu islands. The authors of the cited publication acknowledge the authority of leaders at each site who approved this work and thank them for their support",
+    "url": "https://obis.org/dataset/2e653f52-25c7-4f72-9674-fa75ec5dca51",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bruvs_solomon_islands",
+        "https://doi.org/10.1371/journal.pone.0200960"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Goetze JS, Langlois TJ, McCarter J, Simpfendorfer CA, Hughes A, Leve JT, et al. (2018) Drivers of reef shark abundance and biomass in\nthe Solomon Islands. PLoS ONE 13(7): e0200960. https://doi.org/10.1371/journal.pone.0200960",
+    "version": "2023-10-31T03:20:02.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.1371/journal.pone.0200960",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1371/journal.pone.0200960",
+        "url": "https://doi.org/10.1371/journal.pone.0200960"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bruvs_solomon_islands",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "156.95156 -8.80791,156.95156 -8.05163,158.31793 -8.05163,158.31793 -8.80791,156.95156 -8.80791"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

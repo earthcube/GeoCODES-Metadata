@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/82519150-e1af-4512-bf2a-2bbdad6bfe7e",
+    "name": "Barrow Island flatback tracking 2009-2010 (aggregated per 1-degree cell)",
+    "description": "Original provider:\nPENV\n\nDataset credits:\nData provider\nWest Australian Sea Turtle Satellite Tracking Project\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nChevron Australia, Gorgon projectPendoley Environmental Pty Ltd\nProject sponsor or sponsor description\nChevron Gorgon Project\n\n\nAbstract:\nFlatback turtles are being tracked from Barrow Island as part of the environmental investigations underpinning  Chevron's Gorgon LNG project based on the island.  The first flatback turtles to be satellite tracked in Western Australia were released from Barrow Island in 2005 and since that time flatback turtles have been tracked annually from Barrow and from Mundabullangana Station on the mainland.  All proceeds from the adoption program for these animals are being donated to seaturtle.org\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=457\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/82519150-e1af-4512-bf2a-2bbdad6bfe7e",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1428_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Pendoley K. 2021. Barrow Island flatback tracking 2009-2010. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1428) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=457).",
+    "version": "2021-04-24T06:20:56.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1428_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "87.5 -21.5,87.5 -9.5,140.5 -9.5,140.5 -21.5,87.5 -21.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

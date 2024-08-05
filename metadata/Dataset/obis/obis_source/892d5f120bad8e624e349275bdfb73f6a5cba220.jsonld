@@ -1,0 +1,131 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e8f8c72a-5a67-472a-b5ef-033e98369629",
+    "name": "Ecological study of the plankton in the port of Ostend in 1965",
+    "description": "An overview of all plankton species and corresponding environmental parameters measured in the harbour of Ostend in 1965. The data were digitized by VLIZ from the original report: De Pauw, C. (1966). Oekologische studie van het plankton in de haven van Oostende gedurende 1965. MSc Thesis. Universiteit Gent. Faculteit Wetenschappen: Gent. 147, bijlage 54 pp.",
+    "url": "https://obis.org/dataset/e8f8c72a-5a67-472a-b5ef-033e98369629",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=plankton_ostend_1965",
+        "https://dx.doi.org/10.14284/194"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "De Pauw C.; De Coninck L.A.P.; Faculteit Wetenschappen. RUG: Belgium; (2016): Ecological study of the plankton in the port of Ostend in 1965. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4531) https://dx.doi.org/10.14284/194",
+    "version": "2023-12-08T18:14:51.000Z",
+    "keywords": [
+        "Phytoplankton",
+        "Zooplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "air temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01/",
+            "description": "air temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "chlorinity",
+            "url": "http://vocab.nerc.ac.uk/collection/S27/current/CS003123/",
+            "description": "chlorinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dissolved oxygen saturation",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00003/",
+            "description": "dissolved oxygen saturation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dissolved oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/DOXY/",
+            "description": "dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "pH",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00168/",
+            "description": "pH"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMP001/",
+            "description": "salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "water temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/TEMP/",
+            "description": "water temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observed individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "observed individual count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1965/1965",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/194",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/194",
+        "url": "https://dx.doi.org/10.14284/194"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=plankton_ostend_1965",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.92117 51.225191,2.92117 51.23809,2.940331 51.23809,2.940331 51.225191,2.92117 51.225191"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9162",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Faculteit Wetenschap",
+            "name": "Universiteit Gent, Faculteit Wetenschap",
+            "url": "https://oceanexpert.org/institution/9162"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1057a007-c31c-48a3-a6d8-b82450cb93d8",
+    "name": "Census of annual pup production by Australian fur seal populations, Australia (1986-2015)",
+    "description": "In Australia, it is thought that up to 26 Australian Fur Seal (Arctocephalus pusillus doriferus) colonies existed prior to the onset of commercial harvesting in the early 1800s [34]. The uncertainty regarding the number of colonies is caused by an inability to determine the exact location of all sealing locations and a lack of clarity as to which species was harvested [35]. At the end of commercial harvesting in 1921, fewer than 10 Australian Fur Seal colonies were extant with greatly reduced numbers of fur seals [35]. The number and size of colonies in south-eastern Australia have regenerated subsequently , but with 20 breeding sites identified in 2007 the population is still considered to be in recovery\nData sourced from McIntosh RR, Kirkman SP, Thalmann S, Sutherland DR, Mitchell A, Arnould JPY, et al. (2018) Understanding metapopulation trends of the Australian fur seal, with insights for adaptive monitoring. PLoS ONE 13(9): e0200253. https://doi.org/10.1371/journal.pone.0200253",
+    "url": "https://obis.org/dataset/1057a007-c31c-48a3-a6d8-b82450cb93d8",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=afs_census"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "McIntosh RR, Kirkman SP, Thalmann S, Sutherland DR, Mitchell A, Arnould JPY, et al. (2018) Understanding metapopulation trends of the Australian fur seal, with insights for adaptive monitoring. PLoS ONE 13(9): e0200253. https://doi.org\n/10.1371/journal.pone.0200253",
+    "version": "2022-06-06T23:26:04.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=afs_census",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "135.96667 -43.63333,135.96667 -35.01667,150.23333 -35.01667,150.23333 -43.63333,135.96667 -43.63333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

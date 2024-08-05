@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c5017efe-c392-48ca-9826-7fe23220fe90",
+    "name": "Australian Museum Herpetology Collection - marine records",
+    "description": "The estimated number of specimens in the Australian Museum Herpetology Collection is 162,000. This dataset is of marine species sourced from the Atlas of Living Australia (ALA) January 2019 (https://collections.ala.org.au/public/show/co10). Taxa have been matched to the World Register of Marine Species (WoRMS) and if not then matched to the Australian Faunal Directory (AFD).",
+    "url": "https://obis.org/dataset/c5017efe-c392-48ca-9826-7fe23220fe90",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_co10"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Rowley J (2023): Australian Museum Herpetology Collection - marine records. v1.9. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=ala_co10&amp;v=1.9",
+    "version": "2023-06-28T03:51:49.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1887/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_co10",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-175.133 -36.45,-175.133 29.22291,179.966 29.22291,179.966 -36.45,-175.133 -36.45"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19275",
+            "@type": "Organization",
+            "legalName": "Australian Museum",
+            "name": "Australian Museum",
+            "url": "https://oceanexpert.org/institution/19275"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

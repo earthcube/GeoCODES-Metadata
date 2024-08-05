@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8f843938-1617-4c9e-be03-d1a2af8ebd89",
+    "name": "Marine species list for iSimangaliso Wetland Park 2009",
+    "description": "Data obtained from available literature in 2009. The current data is listed in a species database for the province of KwaZulu-Natal, maintained by Ezemvelo KZN Wildlife.",
+    "url": "https://obis.org/dataset/8f843938-1617-4c9e-be03-d1a2af8ebd89",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=isimangaliso_species_checklist_obis_jan_2014"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Olbers, J. (2014). Marine species list for iSimangaliso Wetland Park. Ezemvelo KZN Wildlife",
+    "version": "2017-01-26T12:46:24.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=isimangaliso_species_checklist_obis_jan_2014",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "32.56 -28.12,32.56 -26.89,32.88 -26.89,32.88 -28.12,32.56 -28.12"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

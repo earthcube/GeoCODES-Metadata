@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f62024d7-1126-41a8-8dde-ff257d232c4d",
+    "name": "Ecoscope Observation Database",
+    "description": "Dataseries collected for tropical tuna fisheries and research of tuna and associated species.",
+    "url": "https://obis.org/dataset/f62024d7-1126-41a8-8dde-ff257d232c4d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ecoscope_observation_database",
+        "https://doi.org/10.15468/dz1kk0"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cauquil, P., Barde, J., Rodriguez, C., Chassot, E., Chavance, P. 2012. Ecoscope Observation Database. Institut de Recherche pour le Developpement (IRD). https://doi.org/10.15468/dz1kk0",
+    "version": "2024-02-26T23:46:58.000Z",
+    "keywords": [
+        "Tuna fisheries",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/dz1kk0",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/dz1kk0",
+        "url": "https://doi.org/10.15468/dz1kk0"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ecoscope_observation_database",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-42.4260999999999 -44.7545,-42.4260999999999 25.033623333333,114.8049 25.033623333333,114.8049 -44.7545,-42.4260999999999 -44.7545"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17617",
+            "@type": "Organization",
+            "legalName": "Institut de Recherche pour le Développement",
+            "name": "Institut de Recherche pour le Développement",
+            "url": "https://oceanexpert.org/institution/17617"
+        }
+    ]
+}

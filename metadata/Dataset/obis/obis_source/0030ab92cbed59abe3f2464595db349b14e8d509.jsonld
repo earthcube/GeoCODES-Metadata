@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d64477cf-491f-4de5-8291-8c07986fa37e",
+    "name": "Canary Islands - OAG (aggregated per 1-degree cell)",
+    "description": "Original provider:\nObservatorio Ambiental Granadilla\n\nDataset credits:\nData provider\nObservatorio Ambiental Granadilla\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nObservatorio Ambiental Granadilla (OAG).- Dr Antonio MachadoSociedad de Estudio de Cetáceos en el Archipiélago Canario (SECAC).- Vidal MartínCentro de Gestión de Biodiversidad (BIOGES) del Departamento de Biología de la Universidad de Las Palmas de Gran Canaria.- Dr Luis Pelipe López-JuradoCentro de Recuperación de Fauna Silvestre del Cabildo Insular de Gran Canaria (CRFS).- Pascual Calabuig\nProject sponsor or sponsor description\nMinisterio de Fomento\n\n\nAbstract:\nThe waters around Canary Islands constitute a foraging ground for juvenile loggerheads from different Atlantic nesting populations.The Granadilla Environmental Observatory (OAG, Observatorio Ambiental Granadilla) is developing a monitoring program of the loggerhead in order to gain additional information on the distributional patterns of the species provided by previous programs (i.e. Aegina). The OAG is a Spanish State foundation recently created and based in Tenerife, Canary Islands, aiming to monitor environmental conditions of the sea and the state of biodiversity and marine protected areas in waters around the Canary Islands and, extensively, the archipelago of Madeira and the Azores (the Atlantic subregion called Macaronesia). One of its objectives is also the follow-up of the impacts of large marine-based infrastructures, such as large ports.\n\nPurpose:\nLoggerheads are present in the archipelago the entire the year, but there are no breeding colonies. To study an open resident segment of the Atlantic population, satellite tracking data from previous projects were compiled, and 19 additional animals marked, increasing the dataset to 39 turtles, with 14,608 high quality signals. Each year observation\ntransects were performed on at least three islands for estimating the relative\ndensity of turtles. To analyze the segment size/age structure as well as the negative impacting factors on the species, data from all recovery centers in the Canaries were compiled and studied (2,836 specimens, 1998-2012). These dataseries are far from being optimal, but constitute the best available information at present.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=315\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/d64477cf-491f-4de5-8291-8c07986fa37e",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_496_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Machado A. 2021. Canary Islands - OAG. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/496) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=315).",
+    "version": "2021-04-24T09:50:20.000Z",
+    "keywords": [
+        "Occurrence,Radio transmitters,Animal movements",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_496_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-74.5 5.5,-74.5 45.5,32.5 45.5,32.5 5.5,-74.5 5.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

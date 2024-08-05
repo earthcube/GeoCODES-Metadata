@@ -1,0 +1,131 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/52043fc3-6c50-4637-8956-4e3eb0d48257",
+    "name": "Macrobenthos of the Western Scheldt (Ossenisse, Valkenisse, Terneuzen and Vlissingen) on 27 and 28 September 1978",
+    "description": "Counts, density and biomass of macrobenthos species for 20 stations sampled in the Western Scheldt estuary on 27-28 September 1978. The data were digitized by VLIZ from the original report: Vermeulen, Y. (1980). Studie van het makrobenthos van het Westerschelde-estuarium. MSc Thesis. Rijksuniversiteit Gent: Gent. 83, maps, figures pp.",
+    "url": "https://obis.org/dataset/52043fc3-6c50-4637-8956-4e3eb0d48257",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macrobenthos_western_scheldt_27-28_september_1978",
+        "https://dx.doi.org/10.14284/231"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Vermeulen Y.; Coomans A.; Faculteit Wetenschappen. RUG: Belgium; (2016): Macrobenthos of the Western Scheldt (Ossenisse, Valkenisse, Terneuzen and Vlissingen) on 27 and 28 September 1978. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4221) https://dx.doi.org/10.14284/231",
+    "version": "2023-12-08T17:23:18.000Z",
+    "keywords": [
+        "Macrobenthos",
+        "Sediment analysis",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "area sampled of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area sampled of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance (per taxon) of macrobenthos per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance (per taxon) of macrobenthos per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ash-free dry weight biomass (per taxon) of macrobenthos per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL03/",
+            "description": "Ash-free dry weight biomass (per taxon) of macrobenthos per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dry weight biomass (per taxon) of macrobenthos per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "description": "Dry weight biomass (per taxon) of macrobenthos per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observed individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "observed individual count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth of the station",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+            "description": "Depth of the station"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Grain-size median diameter of particles in sediment by sieving",
+            "url": "",
+            "description": "Grain-size median diameter of particles in sediment by sieving"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (gravel size-fraction) in the sediment",
+            "url": "",
+            "description": "Proportion of particles (gravel size-fraction) in the sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (sand size-fraction) in sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SANDZZZZ/",
+            "description": "Proportion of particles (sand size-fraction) in sediment"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/1978",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/231",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/231",
+        "url": "https://dx.doi.org/10.14284/231"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macrobenthos_western_scheldt_27-28_september_1978",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.596667 51.34667,3.596667 51.4425,4.121667 51.4425,4.121667 51.34667,3.596667 51.34667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9162",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Faculteit Wetenschap",
+            "name": "Universiteit Gent, Faculteit Wetenschap",
+            "url": "https://oceanexpert.org/institution/9162"
+        }
+    ]
+}

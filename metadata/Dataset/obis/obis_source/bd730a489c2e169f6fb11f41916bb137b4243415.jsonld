@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/20a9662f-75ea-41bb-a9b8-659cc60710c5",
+    "name": "Cephalopod specimens from RV Investigator voyage IN2017_v04, Tasman Sea, Australia (2017)",
+    "description": "Cephalopods were sampled from a cyclonic cold-core eddy in the western Tasman Sea, using midwater trawls from 10th to 12th September 2017 during a research voyage on Australia's Marine National Facility RV  Investigator. Two different types of trawl equipment were used. The first trawl type sampled the upper 100 m of the eddy using a Danish pelagic trawl with 300 μm mesh, towed at approximately 1 m/s (2 knots) for 60    min per trawl (n= 9). The second trawl type was an International Young Gadoid Pelagic Trawl (IYGPT) fitted with a MIDwater Open and Closing net system with six distinct codends to enable depth stratified sampling. The IYGPT trawl has a mesh size of 200 mm reducing to 10  mm, and the codend mesh size was 500 μm. The IYGPT trawl was lowered to 500 m, with the first codend sampling obliquely from the surface to 500 m, and each subsequent codend sampled 100 m depth intervals for approximately 20 min each at 1 m/s, as the trawl returned to the surface.\nData supporting this study are available from a GitHub repository archived using Zenodo https://doi.org/10.5281/zenodo.3980411 - see citation (Murphy et al., 2020). Deployment locations are from event logs stored in the ships data archive.\nVoyage details (metadata, projects, other datasets either online or as downloads, publications and reports, events, maps etc) can be accessed at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2017_V04\nIf this data has been used in any products, please acknowledge with the following: We acknowledge the use of the CSIRO Marine National Facility (https://ror.org/01mae9353) in undertaking this research.\n",
+    "url": "https://obis.org/dataset/20a9662f-75ea-41bb-a9b8-659cc60710c5",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=mnf_in2017_v04_cephalopods"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Murphy, Kieran J.,Pecl, Gretta T.,Richards, Shane A.,Semmens, Jayson M.,Revill, Andrew T.,Suthers, Iain M.,Everett, Jason D.,Trebilco, Rowan,Blanchard, Julia L.,O'Gorman, Eoin (2020) Functional traits explain trophic allometries of cephalopods. Journal of Animal Ecology 89 pp2692-2703.",
+    "version": "2023-11-30T03:26:36.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SL01XX01",
+            "description": "Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01",
+            "description": "Weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=mnf_in2017_v04_cephalopods",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "153.21889 -34.88583,153.21889 -34.51583,153.5025 -34.51583,153.5025 -34.88583,153.21889 -34.88583"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20324",
+            "@type": "Organization",
+            "legalName": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "name": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "url": "https://oceanexpert.org/institution/20324"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

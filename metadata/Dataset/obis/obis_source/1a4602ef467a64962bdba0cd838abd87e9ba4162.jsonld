@@ -1,0 +1,82 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a708668e-0b62-498b-abc7-35b4b05caf8c",
+    "name": "ImagDOP Benthic Video Annotations in Condor seamount in 2010",
+    "description": "Annotations of benthic sessile and mobile species recorded on video by Remote Operated Vehicle (ROV) during dives performed in the Condor seamount, located 10 nm SW of Faial Island, in the Azores archipelago, Portugal. Videos were recorded between 180 and 1100 meters depth.",
+    "url": "https://obis.org/dataset/a708668e-0b62-498b-abc7-35b4b05caf8c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imagedop_video_annotations_condor_seamount",
+        "https://dx.doi.org/10.14284/304"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Gomes-Pereira JN; Institute of Marine Research (IMAR - Azores), Portugal; Department of Oceanography and Fisheries (DOP) - UAC, Portugal (2017) ImagDOP Benthic Video Annotations in Condor seamount in 2010. https://dx.doi.org/10.14284/304",
+    "version": "2023-05-23T11:32:02.000Z",
+    "keywords": [
+        "Data",
+        "Deep water",
+        "Deep water corals",
+        "propelled unmanned submersible",
+        "ROV",
+        "Video observations",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2010",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/304",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/304",
+        "url": "https://dx.doi.org/10.14284/304"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imagedop_video_annotations_condor_seamount",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-29.03 38.52,-29.03 38.56,-28.97 38.56,-28.97 38.52,-29.03 38.52"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19372",
+            "@type": "Organization",
+            "legalName": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "name": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "url": "https://oceanexpert.org/institution/19372"
+        }
+    ]
+}

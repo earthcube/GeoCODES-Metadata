@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/00017595-e015-4ec6-bf8a-b013e0dca521",
+    "name": "OTN Gilbert Bay Telemetry - Tag Release Metadata",
+    "description": "This is the OBIS extraction of the OTN Gilbert Bay Telemetry project, consisting only of the release tagging metadata. i.e. the locations  and dates of tagged animal release. If readers are  interested in the full source  dataset they should refer to the OTN web site  (members.oceantrack.org). Abstract: Understanding the movement and dispersal of marine animals is an important aspect of marine ecology, and has important resource management applications including the ability to assess and manage Marine Protected Areas effectively. Gilbert Bay, Labrador, was designated as an MPA under Canada's Oceans Act in 2005. Since then the movements of Atlantic cod and other species have been monitored remotely using a network of acoustic telemetry receivers. Since 2009, remote monitoring has consisted of approximately 35 receiver stations covering an area of approximately 330 square kilometres, including Gilbert Bay, Alexis Bay, and a section of the south Labrador coast. Manual tracking has been conducted in this area since 1997. This long-term acoustic monitoring  program has also detected animals from other acoustic tagging studies, including Atlantic salmon and Atlantic cod. This small receiver network, located within a sub-arctic ecosystem, is a potentially valuable contribution to the larger OTN network. This is a SPERA project dataset.",
+    "url": "https://obis.org/dataset/00017595-e015-4ec6-bf8a-b013e0dca521",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndfo-nafcgilbertbaytele"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Morris, C., Green, J. 2009. Long-term telemetry study of Gilbert Bay Marine Protected Area, Southern Labrador. Version # In OBIS Digital Collections. Published by OBIS, Digital http://www.obis.org/. Accessed on - INSERT DATE",
+    "version": "2019-02-20T15:18:39.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndfo-nafcgilbertbaytele",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-56.0574 52.46865,-56.0574 56.5831,-55.5502 56.5831,-55.5502 52.46865,-56.0574 52.46865"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9838",
+            "@type": "Organization",
+            "legalName": "Northwest Atlantic Fisheries Centre (DFO – NWAFC), Fisheries and Oceans Canada",
+            "name": "Northwest Atlantic Fisheries Centre (DFO – NWAFC), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/9838"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2b5f9b56-27bf-4000-8f95-3e6e703c6a85",
+    "name": "CSIRO Marine Invertebrates Image Collection (MIIC)",
+    "description": "The CSIRO Marine Invertebrates Image Collection (MIIC) is a catalogue of geo-referenced images of invertebrates from surveys around Australia. Identifications have been done at CSIRO on the survey vessels or post voyage or the specimens have been passed to various Australian museums for identification. Images identifications use the Codes for Australian Aquatic Biota (CAAB) database and where possible CAAB records are cross linked to the World Register of Marine Species. Each specimen has a record identifier labelled CSIRO Specimen Reference.\nAs at January 2020, there are 4900 images linked to 1565 taxa with the deepset sample from 4890 m. Many of the images have revised identifications. A significant addition is specimens from the RV Investigator research voyage in2017_v03, titled \"Sampling the abyss: latitudinal biodiversity patterns along the base of Australia's eastern continental margin.\"  See https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2017_V03 for survey details.\nIf this data has been used in any products, please acknowledge with the following: We acknowledge the use of the CSIRO Marine National Facility (https://ror.org/01mae9353) in undertaking this research.\n",
+    "url": "https://obis.org/dataset/2b5f9b56-27bf-4000-8f95-3e6e703c6a85",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_miic"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gowlett-Holmes K (2023): CSIRO Marine Invertebrates Image Collection (MIIC). v1.31. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=csiro_miic&amp;v=1.31",
+    "version": "2023-11-30T03:52:12.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_miic",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "112.243 -45.3742,112.243 -12.4324,171.662 -12.4324,171.662 -45.3742,112.243 -45.3742"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

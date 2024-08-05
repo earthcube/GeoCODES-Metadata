@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0e4e4700-5e70-48b1-b100-d6b05888dfa9",
+    "name": "Australian Museum's Lizard Island Research Station, Queensland, Australia (1900 - 2018)",
+    "description": "Records from the Australian Museum's Lizard Island Research Station. The station is a coral reef research facility that is owned and operated by the Australian Museum.\nData sourced from Atlas of Living Australia (Dec 2018). Taxa matched to the World register of Marine Species. This copy of the data holds only marine records.",
+    "url": "https://obis.org/dataset/0e4e4700-5e70-48b1-b100-d6b05888dfa9",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_dr836"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "citation is at record level - details at https://collections.ala.org.au/public/show/dr836",
+    "version": "2022-06-08T05:04:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1900/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_dr836",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "135.925 -34.6084,135.925 -8.62719,158.21201 -8.62719,158.21201 -34.6084,135.925 -34.6084"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19275",
+            "@type": "Organization",
+            "legalName": "Australian Museum",
+            "name": "Australian Museum",
+            "url": "https://oceanexpert.org/institution/19275"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/153f8079-a5b2-42aa-85af-f2cd72801a2e",
+    "name": "Digital Aerial Baseline Survey of Marine Wildlife in Support of Offshore Wind Energy - WEA 2016",
+    "description": "Original provider:\nNYSERDA, APEM, Normandeau Associates\n\nDataset credits:\nNYSERDA, Normandeau Associates Inc., APEM Ltd.\n\nAbstract:\nIn support of New York State’s commitment to incorporating offshore wind into its energy portfolio, the New York State Energy Research and Development Authority (NYSERDA) embarked on a multi-year ultra-high resolution aerial digital survey of marine resources in a 43,745.20 km2 (12,754.06 mi2) offshore planning area (OPA) in 2016. During the first year, the New York WEA, including a 4-km buffer, was surveyed in a grid pattern, which covers 850.92 km2 (248.09 mi2). After the lease was awarded, survey effort over this area was reduced to the same pattern as the rest of the OPA. This dataset is for the NY WEA area. OPA survey data are in a separate dataset.\n\nYR1 consists of Survey01 Summer2016, Survey02 Fall2016, Survey03 Winter2016-17, Survey04 Spring2017.\n\nPurpose:\nThe New York State Energy Research and Development Authority (NYSERDA) contracted with Normandeau Associates Inc. (Normandeau) and teaming partner APEM Inc. (APEM) to use high resolution aerial digital imagery to collect data on birds, marine mammals, sea turtles, cartilaginous fish, and other taxa encountered offshore. Surveys are conducted four times a year over three years. The surveys have been designed in light of available historical data and use the latest digital and sensor technology to provide high identification success. Survey results for birds, marine mammals, turtles, and cartilaginous fish are presented in semiannual reports, which will cumulatively provide insight into interseasonal and interannual variation in species composition, densities, and distributions. Reports are available at https://remote.normandeau.com/nys_docs.php.\n\nSupplemental information:\n[2020-08-06] Data were updated with additional attributes. Species identification was revised.\n\nhttps://remote.normandeau.com\nhttps://remote.normandeau.com/aer_docs.php?pj=6",
+    "url": "https://obis.org/dataset/153f8079-a5b2-42aa-85af-f2cd72801a2e",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1818"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "APEM and Normandeau Associates prepared for New York State Energy Research and Development Authority. 2018. Digital Aerial Baseline Survey of Marine Wildlife in Support of Offshore Wind Energy - WEA 2016. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1818) on yyyy-mm-dd.",
+    "version": "2021-04-24T07:44:27.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Seabirds,Marine mammals,Sea turtles,Visual Sighting,Aircraft",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1818",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.6675 40.1517,-73.6675 40.4307,-73.0442 40.4307,-73.0442 40.1517,-73.6675 40.1517"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

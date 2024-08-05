@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5cfef543-d293-45b8-b656-c3628ff34b7c",
+    "name": "NMFS-COPEPOD: The Global Plankton Database, WEBSEC Sub-Collection",
+    "description": "Sub-Collection of The Global Plankton Database with data of the data collected during the Western Beaufort Sea Ecological Cruises (WEBSEC).",
+    "url": "https://obis.org/dataset/5cfef543-d293-45b8-b656-c3628ff34b7c",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=websec"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "NMFS-COPEPOD: the global plankton database. ONLINE. 2009. Available: http://www.st.nmfs.noaa.gov/plankton/index.html.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/1970",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=websec",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-168.932998657 68.9000015259,-168.932998657 70.5670013428,-162.399993896 70.5670013428,-162.399993896 68.9000015259,-168.932998657 68.9000015259"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13750",
+            "@type": "Organization",
+            "legalName": "National Oceanic & Atmospheric Administration, National Marine Fisheries Service",
+            "name": "National Oceanic & Atmospheric Administration, National Marine Fisheries Service",
+            "url": "https://oceanexpert.org/institution/13750"
+        }
+    ]
+}

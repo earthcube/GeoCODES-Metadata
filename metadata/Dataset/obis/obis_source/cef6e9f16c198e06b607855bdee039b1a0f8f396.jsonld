@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1c3b71d3-d66c-4aa9-90f4-c10f1f9e9ca0",
+    "name": "Ecological surveys using BRUVS within the Joseph Bonaparte Gulf Marine Park, Northern Territory, Australia (2020-2021)",
+    "description": "The Joseph Bonaparte Gulf Marine Park (JBGMP) is located across the Northern Territory and Western Australian border. The remote nature of the park has limited what information we have of the marine environment, fauna and flora within this region.  This BRUVS dataset is the results of the two-year project that outlines the training conducted by the Australian Institute of Marine Science (AIMS), and the baseline data collected by AIMS and the Thamarrurr Rangers on the marine biodiversity at multiple locations within the JBGMP. A total of 59 BRUVs deployments and 26 DropCam transects were conducted over four one-week trips between October 2020 and July 2022. The BRUVs surveys identified 79 species across the four locations, including 10 threatened and endangered species of elasmobranchs (sharks and rays).",
+    "url": "https://obis.org/dataset/1c3b71d3-d66c-4aa9-90f4-c10f1f9e9ca0",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=thamarrurr_jbgmp_bruvs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Institute of Marine Science (AIMS). (2023). Ranger led marine ecological surveys within the Joseph Bonaparte Gulf Marine Park. https://apps.aims.gov.au/metadata/view/e72fea7c-8959-4fcc-b504-54c9b1ba1d88",
+    "version": "2023-11-07T22:56:23.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Seafloor type",
+            "url": "",
+            "description": "Seafloor type"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=thamarrurr_jbgmp_bruvs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "129.36053 -13.94779,129.36053 -13.74974,129.70107 -13.74974,129.70107 -13.94779,129.36053 -13.94779"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

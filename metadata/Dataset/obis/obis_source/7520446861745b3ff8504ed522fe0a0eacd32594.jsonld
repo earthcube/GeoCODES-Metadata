@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/76fed020-c5fb-467d-a70e-8e2ef1eb3069",
+    "name": "Biodiversity of Crustacea Decapoda from La Blanquilla Island- Venezuela",
+    "description": "Diversity, abundance, and body size of crustacean decapods from La Blanquilla Island- Venezuela",
+    "url": "https://obis.org/dataset/76fed020-c5fb-467d-a70e-8e2ef1eb3069",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=crustaceosislalablanquilla"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Carmona-Suarez C (2022): Biodiversity of Crustacea Decapoda from La Blanquilla Island- Venezuela. v1.8. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=crustaceosislalablanquilla&amp;v=1.8",
+    "version": "2022-11-03T23:13:49.000Z",
+    "keywords": [
+        "Samplingevent",
+        "diversity",
+        "abundance",
+        "body size",
+        "Crustacea",
+        "Decapoda",
+        "La Blanquilla Island",
+        "Venezuela",
+        "CaribeSur",
+        "BID-CA2020-025-NAC",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Maximum carapace length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMAXLX/",
+            "description": "Maximum carapace length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Minimum carapace length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMAXLX/",
+            "description": "Minimum carapace length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1965/1986",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=crustaceosislalablanquilla",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.635 11.809,-64.635 11.869,-64.572 11.869,-64.572 11.809,-64.635 11.809"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

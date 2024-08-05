@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/20ed089b-f985-4a2b-9507-7f14945d5c1c",
+    "name": "North West Shelf Joint Environmental Management Study - historic data (1895-1994)",
+    "description": "NWSJEMS was a A$7.7m marine environmental study of the North West Shelf, jointly funded by CSIRO and the Western Australian Government. The overarching objective was to develop and demonstrate practical science-based methods that could support integrated regional planning and multiple-use management of the North West Shelf marine ecosystems. This datasets is historic species occurrences covering marine and some terrestrial species.\nProject information at http://www.cmar.csiro.au/nwsjems/ and https://coastalresearch.csiro.au/?q=node/56",
+    "url": "https://obis.org/dataset/20ed089b-f985-4a2b-9507-7f14945d5c1c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=jems"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Condie S (2023): North West Shelf Joint Environmental Management Study - historic data (1895-1994). v1.3. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=jems&amp;v=1.3",
+    "version": "2023-06-30T11:08:35.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1895/1993",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=jems",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.6667 -22.717,113.6667 -19.4333,120.85 -19.4333,120.85 -22.717,113.6667 -22.717"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

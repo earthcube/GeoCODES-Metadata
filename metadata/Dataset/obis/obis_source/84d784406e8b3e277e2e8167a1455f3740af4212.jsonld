@@ -1,0 +1,49 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/65429205-459b-4600-bd4e-e3abe7aeab31",
+    "name": "KUBI Ichthyology Collection",
+    "description": "The University of Kansas Ichthyology collection contains more than 680,000 specimens of fishes from around the world and is the basis of the research and educational activities of the Division of Ichthyology. The collection has an emphasis on freshwater fishes of the central United States and also has significant marine and estuarine collections. The fish collection has representation from 3171 taxa (297 families and 1262 genera) and 79 countries including Ecuador, Fiji, Mexico, Nepal, Nicaragua, and various marine localities. The collections and the scope of research activities in the division continue to grow due to the ongoing activities of ichthyology staff and students.",
+    "url": "https://obis.org/dataset/65429205-459b-4600-bd4e-e3abe7aeab31",
+    "sameAs": [
+        "http://ichthyology.specify.ku.edu/static/depository/export_feed/kui-dwca.zip"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/deed.en_US and http://biodiversity.ku.edu/research/university-kansas-biodiversity-institute-data-publication-and-use-norms",
+    "citation": null,
+    "version": "2024-01-10T22:30:07.000Z",
+    "keywords": [
+        "fish",
+        "ichthyology",
+        "USA",
+        "Kansas",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1882/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ichthyology.specify.ku.edu/static/depository/export_feed/kui-dwca.zip",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.3600833333 -77.85,-179.3600833333 72.6666641235,179.14125 72.6666641235,179.14125 -77.85,-179.3600833333 -77.85"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

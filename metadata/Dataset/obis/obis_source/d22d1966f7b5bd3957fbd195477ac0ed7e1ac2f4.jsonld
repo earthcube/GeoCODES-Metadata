@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fc8addee-5e44-43b6-bb8b-5dd54d04023a",
+    "name": "Colección de Cnidarios del sector costero del departamento del Magdalena",
+    "description": "Los Cnidarios son un grupo de organismos en su mayoría marinos, que cuentan con una alta diversidad, entre estos encontramos a las medusas, las anémonas, los corales e hidroideos, entre otros. Se caracterizan por poseer simetría radial, unas células urticantes denominadas cnidocitos y un ciclo de vida dimórfico. La amplia diversidad de estos organismos, se debe en gran parte, a que poseen reproducción asexual y un ciclo de vida dimórfico que les permite habitar distintos ecosistemas. Se han realizado un número importante de investigaciones, enfocadas hacia la taxonomía, ecología e importancia médica de estos organismos. A pesar de lo anterior, en Colombia es poco lo que se conoce y la literatura es reducida. Con el objetivo de aumentar los conocimientos en la biodiversidad y fortalecer las colecciones biológicas, se llevaron a cabo recolecciones de Cnidarios en algunas localidades del departamento del Magdalena, generando este conjunto de datos con un total de 57 registros.  Los especímenes fueron depositados el Centro de Colecciones Científicas - Sección Colecciones Biológicas de la Universidad del Magdalena bajo el acrónimo CBUMAG:CNI.",
+    "url": "https://obis.org/dataset/fc8addee-5e44-43b6-bb8b-5dd54d04023a",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=umagdalena_cnidarios",
+        "https://doi.org/10.15472/bvwamk"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "González-Rojas S, Cedeño-Posso C, Quiroga S, Berben A (2022): Colección de Cnidarios del sector costero del departamento del Magdalena. v1.0. Universidad del Magdalena. Dataset/Occurrence. https://doi.org/10.15472/bvwamk",
+    "version": "2022-03-09T17:39:10.000Z",
+    "keywords": [
+        "Medusa",
+        "Diversidad",
+        "Cnidarios",
+        "PERMISO_COLECTA",
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/bvwamk",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/bvwamk",
+        "url": "https://doi.org/10.15472/bvwamk"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=umagdalena_cnidarios",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-74.30444 10.98472,-74.30444 11.29836,-74.1488 11.29836,-74.1488 10.98472,-74.30444 10.98472"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6795",
+            "@type": "Organization",
+            "legalName": "Instituto de Investigaciones Marinas y Costeras José Benito Vives de Andreis",
+            "name": "Instituto de Investigaciones Marinas y Costeras José Benito Vives de Andreis",
+            "url": "https://oceanexpert.org/institution/6795"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10047",
+            "@type": "Organization",
+            "legalName": "Universidad del Magdalena",
+            "name": "Universidad del Magdalena",
+            "url": "https://oceanexpert.org/institution/10047"
+        }
+    ]
+}

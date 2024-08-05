@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/07574d33-c6d7-4c80-9132-da186f68df87",
+    "name": "Atlas of Life in the Coastal Wilderness - Sightings",
+    "description": "The Atlas of Life in the Coastal Wilderness is an ongoing citizen-science project. It was originally the initiative of a small group of dedicated people who, in 2011, recognised the biological importance of the far south coastal region of NSW. They sought to encourage the documentation of the area’s biodiversity, building a community-based resource and network of contributors.\nData sourced from Atlas of Living Australia (https://collections.ala.org.au/public/show/dr702) December 2018. Taxa have been matched to the World Register of Marine Species (WoRMS) and non-marine records have been excluded.",
+    "url": "https://obis.org/dataset/07574d33-c6d7-4c80-9132-da186f68df87",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_dr702"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Atlas of Life in the Coastal Wilderness http://www.atlasoflife.org.au/",
+    "version": "2022-06-08T05:04:41.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1961/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_dr702",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "149.207 -37.8033,149.207 -35.4436,150.631 -35.4436,150.631 -37.8033,149.207 -37.8033"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20814",
+            "@type": "Organization",
+            "legalName": "Atlas of life",
+            "name": "Atlas of life",
+            "url": "https://oceanexpert.org/institution/20814"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

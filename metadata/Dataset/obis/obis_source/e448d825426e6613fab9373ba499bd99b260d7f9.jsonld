@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c633b0f8-90bb-43f2-8680-65ac26dd8400",
+    "name": "O_VLIELAND - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding and wintering on Vlieland (the Netherlands) [subsampled representation]",
+    "description": "This animal tracking dataset is derived from van der Kolk et al. (2022, <a href=\"https://doi.org/10.5281/zenodo.5653891\">https://doi.org/10.5281/zenodo.5653891</a>) a deposit of Movebank study <a href=\"https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study1605802367\">1605802367</a>. Data have been standardized to Darwin Core using the <a href=\"https://inbo.github.io/movepub/\">movepub</a> R package and are downsampled to the first GPS position per hour. The original dataset description follows.\n<em>O_VLIELAND - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding and wintering on Vlieland (the Netherlands)</em> is a bird tracking dataset published by the <a href=\"https://nioo.knaw.nl\">Netherlands Institute of Ecology (NIOO-KNAW)</a>, <a href=\"http://www.sovon.nl\">Sovon</a>, <a href=\"http://www.ru.nl\">Radboud University</a>, the <a href=\"https://ibed.uva.nl\">University of Amsterdam</a> and the <a href=\"https://www.inbo.be/en\">Research Institute for Nature and Forest (INBO)</a>. It contains animal tracking data collected during <a href=\"https://chirpscholekster.nl\">CHIRP</a> (Cumulative Human Impact on biRd Populations) for the study <strong>O_VLIELAND</strong> using trackers developed by the University of Amsterdam Bird Tracking System (UvA-BiTS, <a href=\"http://www.uva-bits.nl\">http://www.uva-bits.nl</a>). The study has been operational from 2016 to 2021. In total 103 individuals of Eurasian oystercatchers (<em>Haematopus ostralegus</em>) have been tagged either as a breeding bird or while overwintering on the Wadden island Vlieland (the Netherlands), mainly to study how they respond to disturbances from aircraft. Data are uploaded from the UvA-BiTS database to Movebank and from there archived on Zenodo (see <a href=\"https://github.com/inbo/bird-tracking\">https://github.com/inbo/bird-tracking</a>). No new data are expected.\nThese data were collected by the Netherlands Institute of Ecology (NIOO-KNAW), in collaboration with Sovon, Radboud University and the University of Amsterdam (UvA) for the CHIRP (Cumulative Human Impact on biRd Populations) project. Funding was provided by the Applied and Engineering Sciences domain of the Netherlands Organisation for Scientific Research (NWO-TTW 14638) and co-funding via NWO-TTW by Royal Netherlands Air Force, Birdlife Netherlands, NAM gas exploration and Deltares. The dataset was published with funding from Stichting NLBIF - Netherlands Biodiversity Information Facility.",
+    "url": "https://obis.org/dataset/c633b0f8-90bb-43f2-8680-65ac26dd8400",
+    "sameAs": [
+        "https://ipt.inbo.be/resource?r=o_vlieland"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-05-30T15:53:09.000Z",
+    "keywords": [
+        "animal movement",
+        "animal tracking",
+        "gps tracking",
+        "accelerometer",
+        "altitude",
+        "temperature",
+        "behaviour",
+        "biologging",
+        "birds",
+        "UvA-BiTS",
+        "Movebank",
+        "frictionlessdata",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.inbo.be/archive.do?r=o_vlieland",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.8451833 51.8433,3.8451833 69.294394,41.8793338 69.294394,41.8793338 51.8433,3.8451833 51.8433"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6656",
+            "@type": "Organization",
+            "legalName": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "name": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "url": "https://oceanexpert.org/institution/6656"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17039",
+            "@type": "Organization",
+            "legalName": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "name": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "url": "https://oceanexpert.org/institution/17039"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23186",
+            "@type": "Organization",
+            "legalName": "Sovon Dutch Centre for Field Ornithology",
+            "name": "Sovon Dutch Centre for Field Ornithology",
+            "url": "https://oceanexpert.org/institution/23186"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23187",
+            "@type": "Organization",
+            "legalName": "Radboud University",
+            "name": "Radboud University",
+            "url": "https://oceanexpert.org/institution/23187"
+        }
+    ]
+}

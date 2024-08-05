@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9b7abffc-cdc6-41cb-b8b8-3da22355a64a",
+    "name": "Biogeographic distribution of Antarctic and sub-Antarctic Mysida",
+    "description": "The dataset comprises all Antarctic and sub-Antarctic occurrence records of Mysida species.",
+    "url": "https://obis.org/dataset/9b7abffc-cdc6-41cb-b8b8-3da22355a64a",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=antarctic_mysida"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Petryashov. V.V. 2007. Biogeographical division of Antarctic and Subantarctic by Mysid (Crustacea: Mysidacea) fauna.  Russian Journal of Marine Biology 33(1): 1-16",
+    "version": "2019-03-19T14:43:59.000Z",
+    "keywords": [
+        "Antarctic",
+        "Southern Ocean",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=antarctic_mysida",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-174.34833 -78.43333333,-174.34833 -39.73333333,178.1375 -39.73333333,178.1375 -78.43333333,-174.34833 -78.43333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9651",
+            "@type": "Organization",
+            "legalName": "Zoological Institute of the Russian Academy of Sciences",
+            "name": "Zoological Institute of the Russian Academy of Sciences",
+            "url": "https://oceanexpert.org/institution/9651"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

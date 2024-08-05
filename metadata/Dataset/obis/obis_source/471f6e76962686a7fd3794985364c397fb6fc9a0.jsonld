@@ -1,0 +1,107 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/11ca6599-6a0c-4de2-9790-b37853dbd7b3",
+    "name": "Polish Monitoring Programme - Monitoring of the Baltic Sea: phytoplankton",
+    "description": "Phytoplankton data from Polish Exclusive Economic Zone of the Baltic Sea collected in frame of the Polish Monitoring Programme. Data include information on species composition, abundance and biomass (biovolume and C biomass) of phytoplankton community for the period of 2002-2012.",
+    "url": "https://obis.org/dataset/11ca6599-6a0c-4de2-9790-b37853dbd7b3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=polish_monitoring_phytoplankton_data"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Polish Monitoring Programme - Monitoring of the Baltic Sea, Poland; (2016), PMS, IMWM Database: phytoplankton",
+    "version": "2023-05-23T11:40:20.000Z",
+    "keywords": [
+        "Long-term monitoring",
+        "Monitoring",
+        "Phytoplankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biovolume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL14/",
+            "description": "Biovolume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CarbonBiomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL12/",
+            "description": "CarbonBiomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "PEG_BVOL_year_HELCOM_COMBINE",
+            "url": "",
+            "description": "PEG_BVOL_year_HELCOM_COMBINE"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sizeclass",
+            "url": "",
+            "description": "Sizeclass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CellVolume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CELLVOLM/",
+            "description": "CellVolume"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=polish_monitoring_phytoplankton_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.25 53.67333,14.25 55.555,19.70667 55.555,19.70667 53.67333,14.25 53.67333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19294",
+            "@type": "Organization",
+            "legalName": "Główny Inspektorat Ochrony Środowiska (GIOŚ)",
+            "name": "Główny Inspektorat Ochrony Środowiska (GIOŚ)",
+            "url": "https://oceanexpert.org/institution/19294"
+        }
+    ]
+}

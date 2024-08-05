@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d9c9d38f-add2-45dc-a3fe-234f46c1d41d",
+    "name": "IFCB Uto 2021 JERICO-RI Gulf of Finland Pilot Supersite",
+    "description": "\nThe data set available here is published with article “Kraft et al. (2022). Towards operational phytoplankton recognition with automated high-throughput imaging, near real-time data processing, and convolutional neural networks. Front Mar. Sci. 9. Doi: 10.3389/fmars.2022.867695” and if used for further purposes, the article should be cited accordingly. The data set contains approximately 150 000 images belonging to 50 different classes (~57 000) + unclassifiable (~94 000) consisting mainly of phytoplankton. The images can be used to validate classifier model performance with data from natural samples. The images were collected with an Imaging FlowCytobot from a continuous deployment in 2021 at the Utö Atmospheric and Marine Research Station operated by Finnish Environment Institute and Finnish Meteorological Institute. The images were manually annotated by expert taxonomists.&nbsp;",
+    "url": "https://obis.org/dataset/d9c9d38f-add2-45dc-a3fe-234f46c1d41d",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=syke-ifcb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Kraft, K., Haraguchi, L., Velhonoja, O., Seppälä, J. (2022). SYKE-plankton_IFCB_Utö_2021. https://doi.org/10.23728/B2SHARE.7C273B6F409C47E98A868D6517BE3AE3",
+    "version": "2023-12-08T17:20:29.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Imaging instrument name",
+            "url": "",
+            "description": "Imaging instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biovolume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL14/",
+            "description": "biovolume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=syke-ifcb",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

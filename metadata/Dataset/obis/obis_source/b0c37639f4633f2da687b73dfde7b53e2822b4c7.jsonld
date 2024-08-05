@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e2e400f9-29a8-4c04-bc72-f6f5390770cc",
+    "name": "Seagrass coverage of Pelican Lagoon, Kangaroo Island, South Australia (2013)",
+    "description": "Inshore benthic habitat mapping of Pelican Lagoon, Kangaroo Island as part of a wider Department of Environment, Water and Natural Resources (DEWNR) project to map specific areas of the South Australian inshore environments. Data was captured on Kangaroo Island during 2013 which included field observations and Underwater video footage. This data is part of a national program Seamap Australia (testing a national marine benthic habitat classification scheme) and NESP Marine Biodiversity Hub Project D3 (Reefs on the Australian Continental Shelf).",
+    "url": "https://obis.org/dataset/e2e400f9-29a8-4c04-bc72-f6f5390770cc",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seamap_dewnr"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Department of Environment, Water and Natural Resources, South Australian Government (2014). South Australia State Marine Benthic Habitats (DEWNR). Data accessed at http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=cbe02d9e-2450-4364-ad76-c1d27f030943 on (date accessed).",
+    "version": "2022-06-08T05:51:28.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Area of coverage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS",
+            "description": "Area of coverage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cover percent",
+            "url": "",
+            "description": "Cover percent"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Substratum",
+            "url": "",
+            "description": "Substratum"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seamap_dewnr",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "137.744057792775 -35.8412026242907,137.744057792775 -35.7865085412606,137.812962363242 -35.7865085412606,137.812962363242 -35.8412026242907,137.744057792775 -35.8412026242907"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

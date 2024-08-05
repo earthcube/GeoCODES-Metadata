@@ -1,0 +1,116 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8a93d04d-ad46-439a-b264-6aa4bdf4eeb4",
+    "name": "Nematode genera abundance from Portuguese canyons HERMES HERMIONE",
+    "description": "Nematode genera counts (100-200individuals per slice) and density (nematode abundance per m2) from multiple corer samples (in 1cm slices) taken during 2005-2007 HERMES and HERMIONE (EU FP6-7 Framework Programmes) cruises in Portuguese submarine canyons (Nazare, Cascais and Setubal) and adjacent slope.",
+    "url": "https://obis.org/dataset/8a93d04d-ad46-439a-b264-6aa4bdf4eeb4",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-deepsea/resource?r=nematodesportuguesecanyons"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Ingels J (2016): Nematode genera abundance from Portuguese canyons HERMES HERMIONE. v1.4. Deep-sea OBIS node. Dataset/Samplingevent. new combined dataset, doi to be assigned",
+    "version": "2022-04-20T14:30:47.000Z",
+    "keywords": [
+        "occurence",
+        "phylum",
+        "genus",
+        "Nematoda",
+        "nematodes",
+        "genera",
+        "submarine canyons",
+        "Portugal",
+        "Portuguese coast",
+        "deep sea",
+        "free-living nematodes",
+        "canyons",
+        "Setubal",
+        "Nazare",
+        "Cascais",
+        "HERMES",
+        "HERMIONE",
+        "benthos",
+        "meiofauna"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area sampled",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Area sampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lower sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Lower sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-deepsea/archive.do?r=nematodesportuguesecanyons",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.3682 38.1075,-10.3682 40.59567,-9.6157 40.59567,-9.6157 38.1075,-10.3682 38.1075"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6638",
+            "@type": "Organization",
+            "legalName": "Florida State University Coastal and Marine Laboratory",
+            "name": "Florida State University Coastal and Marine Laboratory",
+            "url": "https://oceanexpert.org/institution/6638"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7979",
+            "@type": "Organization",
+            "legalName": "Plymouth Marine Laboratory",
+            "name": "Plymouth Marine Laboratory",
+            "url": "https://oceanexpert.org/institution/7979"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19328",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent",
+            "name": "Universiteit Gent",
+            "url": "https://oceanexpert.org/institution/19328"
+        }
+    ]
+}

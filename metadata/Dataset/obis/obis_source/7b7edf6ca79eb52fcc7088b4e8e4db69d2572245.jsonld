@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f2c730f0-f684-4625-892b-43ada04e3733",
+    "name": "Occurrence data of seagrasses in Southeast Asia extracted from literature",
+    "description": "This dataset contains occurrence data of seagrasses in Southeast-Asia extracted from the literatures by S9-5 supported by the Environment Research and Technology Development Fund (S9) of the Ministry of the Environment, Japan.",
+    "url": "https://obis.org/dataset/f2c730f0-f684-4625-892b-43ada04e3733",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=s9-5_sg-sea"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the\n                 Public Domain (CC0 1.0)",
+    "citation": "Sano, M., Sakamoto, S., Komatsu, T. (2016) Occurrence data of seagrasses in Southeast Asia extracted from literature. Available at http://www.godac.jamstec.go.jp/bismal/e/S9-5_SG-SEA. Accessed on yyyy-mm-dd.",
+    "version": "2024-01-06T07:19:48.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=s9-5_sg-sea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "92.880714 -10.643518,92.880714 20.850333,163.0256 20.850333,163.0256 -10.643518,92.880714 -10.643518"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7510",
+            "@type": "Organization",
+            "legalName": "National Institute of Polar Research",
+            "name": "National Institute of Polar Research",
+            "url": "https://oceanexpert.org/institution/7510"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12468",
+            "@type": "Organization",
+            "legalName": "University of Tokyo – Atmosphere and Ocean Research Institute",
+            "name": "University of Tokyo – Atmosphere and Ocean Research Institute",
+            "url": "https://oceanexpert.org/institution/12468"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18052",
+            "@type": "Organization",
+            "legalName": "The University of Tokyo, Atmosphere and Ocean Research Institute",
+            "name": "The University of Tokyo, Atmosphere and Ocean Research Institute",
+            "url": "https://oceanexpert.org/institution/18052"
+        }
+    ]
+}

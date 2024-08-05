@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/528c565f-fdad-4638-b1a1-3fb385d4ac1f",
+    "name": "Fish Species Observed in the Hawaii Exclusive Economic Zone from the 1750s through 2003",
+    "description": "A list of Hawaiian fish species was created from contemporary and historical documents dating back to 1758. For each species, the name of the person who described and first named the species (according to The International Code of Zoological Nomenclature) along with the date of the description, the family, the status (indigenous, etc.), the range along the Hawaiian archipelago for the sightings, and miscellaneous notes are given. Observations were taken within the 200 nmi Hawaiian Exclusive Economic Zone. The list was taken from \"A Checklist of the Fishes of the Hawaiian Archipelago\" by B. Mundy, in press, B. P. Bishop Museum Bulletin of Zoology, Bishop Museum Press.",
+    "url": "https://obis.org/dataset/528c565f-fdad-4638-b1a1-3fb385d4ac1f",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=mundy_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Mundy, Bruce. 2004. Fish Species Observed in the Hawaiian Exclusive Economic Zone from the 1750s through 2003 (NODC Accession 0001486). NOAA/NMFS. http://www.nodc.noaa.gov.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=mundy_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.333328247 19.7522192001,-178.333328247 29.1299991608,179.26701355 29.1299991608,179.26701355 19.7522192001,-178.333328247 19.7522192001"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

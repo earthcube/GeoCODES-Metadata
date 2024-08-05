@@ -1,0 +1,103 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b91be453-493d-473d-9f1f-370bf651e6ec",
+    "name": "Seabird observations by Neil Cheshire on the Coral Geographer from Zanzibar to Fremantle, Indian Ocean (2023)",
+    "description": "Seabird observations by Neil Cheshire on the tourist vessel Coral Geographer from Zanzibar to Fremantle, Indian Ocean in march 2023. \nObservations typically 2 to 3 times per day. Weather details (air and sea temperature, cloud cover, wind speed and direction and atmospheric pressure) were recorded once per day. Original data recording sheets can be downloaded at https://www.marine.csiro.au/data/trawler/download.cfm?file_id=5393. Data entered by OBIS Australia and where possible matched to WoRMS taxa. ",
+    "url": "https://obis.org/dataset/b91be453-493d-473d-9f1f-370bf651e6ec",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seabirds_coral_2023"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Seabird observations by Neil Cheshire on the Coral Geographer from Zanzibar to Fremantle, Indian Ocean (2023). v1.0. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=seabirds_coral_2023&amp;v=1.0",
+    "version": "2023-06-21T03:03:28.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sea state",
+            "url": "",
+            "description": "Sea state"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Air Pressure (hPa)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CAPHZZ01",
+            "description": "Air Pressure (hPa)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cloud cover (oktas)",
+            "url": "",
+            "description": "Cloud cover (oktas)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind Speed (knt)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ESSAZZ01",
+            "description": "Wind Speed (knt)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Atmospheric temperature (deg C)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01",
+            "description": "Atmospheric temperature (deg C)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind direction (deg)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01",
+            "description": "Wind direction (deg)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea surface temperature",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/97",
+            "description": "Sea surface temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bird behaviour",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/GP088",
+            "description": "Bird behaviour"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2023/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seabirds_coral_2023",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "39.18333 -31.16667,39.18333 -6.15,113.08333 -6.15,113.08333 -31.16667,39.18333 -31.16667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8e48c245-e862-4e74-b818-53812c435ccd",
+    "name": "Brazilian Marine Invertebrate Data Sets from SpeciesLink",
+    "description": "This dataset contains only georeferenced marine invertebrate records out of SpeciesLink, a distributed information system that integrates primary data from biological collections.",
+    "url": "https://obis.org/dataset/8e48c245-e862-4e74-b818-53812c435ccd",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-malaysia/resource?r=brazil_macrobenthic_v1"
+    ],
+    "license": "Unrestricted",
+    "citation": "Fabio Lang da Silveira and Rubens M. Lopes Brazilian Marine Invertebrate Data Sets from SpeciesLink. WSAOBIS, São Paulo, February 2009, Version 1.",
+    "version": "2018-11-12T15:46:10.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1957/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-malaysia/archive.do?r=brazil_macrobenthic_v1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-49.9628 -29.8167,-49.9628 -0.6136,-38.5083 -0.6136,-38.5083 -29.8167,-49.9628 -29.8167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

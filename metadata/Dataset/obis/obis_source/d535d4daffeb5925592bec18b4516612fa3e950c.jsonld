@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ffda777b-ea11-4cdf-b0cf-7919a0a97670",
+    "name": "BIOMÔR 5 Habitat Mapping for Conservation and Management of the Southern Irish Sea (HABMAP)",
+    "description": "The HABMAP project was set up to address the need for better spatial awareness of habitat distributions in the southern Irish Sea, and aimed to provide seabed habitat maps that could be used for conservation and management.",
+    "url": "https://obis.org/dataset/ffda777b-ea11-4cdf-b0cf-7919a0a97670",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=biomor5"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "<p>\nRobinson, K.A., Darbyshire, T., Van Landeghem, K., Lindenbaum, C., McBreen, F., Creaven, S., Ramsay, K., Mackie, A.S.Y., Mitchell, N.C., Wheeler, A., Wilson, J.G. &amp; O'Beirn, F. 2009. Habitat mapping for conservation and management of the southern Irish Sea (HABMAP). I: Seabed surveys. Studies in Marine Biodiversity and Systematics from the National Museum of Wales. BIÔMOR Reports 5(1): 234 pp.</p>",
+    "version": "2023-12-08T18:14:19.000Z",
+    "keywords": [
+        "Benthos",
+        "Habitat",
+        "Mapping",
+        "Nature conservation",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=biomor5",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-6.49995 51.27161666666667,-6.49995 53.451633333333334,-4.519416666666666 53.451633333333334,-4.519416666666666 51.27161666666667,-6.49995 51.27161666666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11144",
+            "@type": "Organization",
+            "legalName": "University College Cork, Coastal and Marine Research Centre",
+            "name": "University College Cork, Coastal and Marine Research Centre",
+            "url": "https://oceanexpert.org/institution/11144"
+        }
+    ]
+}

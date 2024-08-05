@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/af26e02c-7fae-44ff-9f20-1ba274cb10ce",
+    "name": "Museums Victoria DNA Laboratory (1984 - 2017)",
+    "description": "Museums Victoria DNA Laboratory records. Data downloaded from Atlas of living Australia (https://collections.ala.org.au/public/show/co274) Dec 2018. Taxa matched to the World Register of Marine Species (WoRMS). This copy contains only marine records.",
+    "url": "https://obis.org/dataset/af26e02c-7fae-44ff-9f20-1ba274cb10ce",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_co274"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T05:14:59.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_co274",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.9125 -68.58,-81.9125 35,173.12 35,173.12 -68.58,-81.9125 -68.58"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18185",
+            "@type": "Organization",
+            "legalName": "Museums Victoria",
+            "name": "Museums Victoria",
+            "url": "https://oceanexpert.org/institution/18185"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

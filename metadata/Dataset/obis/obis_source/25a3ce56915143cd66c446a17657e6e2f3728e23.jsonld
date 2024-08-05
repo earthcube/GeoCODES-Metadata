@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e668dcb3-24cd-4d87-8835-e14d1961cccd",
+    "name": "BIS dataset of the south-western part of Netherlands (1985-2004)",
+    "description": "This CD contains part of the data from the Benthos Information system, the database of the Monitor Task-group of the NIOO.",
+    "url": "https://obis.org/dataset/e668dcb3-24cd-4d87-8835-e14d1961cccd",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=largenet_n1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Hummel H. 2004: BIS dataset of the south-western part of Netherlands (1985-2004). Netherlands Institute of Ecology; Centre for Estuarine and Marine Ecology, Netherlands. Metadata available at http://mda.nioo.knaw.nl/imis.php?module=dataset&amp;dasid=599",
+    "version": "2023-12-08T17:10:17.000Z",
+    "keywords": [
+        "Benthic fauna",
+        "Benthos",
+        "Biogeography",
+        "Biomass",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1974/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=largenet_n1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.08478761 51.33583875,3.08478761 52.13267724000001,4.28662687 52.13267724000001,4.28662687 51.33583875,3.08478761 51.33583875"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16218",
+            "@type": "Organization",
+            "legalName": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke",
+            "name": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke",
+            "url": "https://oceanexpert.org/institution/16218"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bd6463c3-1afe-417a-bcbb-64db96906e47",
+    "name": "Southern Ocean octopus",
+    "description": "Occurrence records for Southern Ocean Octopoda, as provided by Louise Allcock.",
+    "url": "https://obis.org/dataset/bd6463c3-1afe-417a-bcbb-64db96906e47",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=southern_ocean_octopus"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Allcock L [date accessed]. Southern Ocean Octopoda. Contribution to SCAR-MarBIN, available online",
+    "version": "2020-05-08T08:11:58.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=southern_ocean_octopus",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.69833333 -73.89,-68.69833333 -53.33,-10.57833333 -53.33,-10.57833333 -73.89,-68.69833333 -73.89"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19521",
+            "@type": "Organization",
+            "legalName": "National University of Ireland, Galway – The Martin Ryan Science Institute – Department of Zoology",
+            "name": "National University of Ireland, Galway – The Martin Ryan Science Institute – Department of Zoology",
+            "url": "https://oceanexpert.org/institution/19521"
+        }
+    ]
+}

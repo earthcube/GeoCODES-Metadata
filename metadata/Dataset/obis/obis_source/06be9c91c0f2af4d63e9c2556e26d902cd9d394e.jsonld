@@ -1,0 +1,83 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/40d6ac81-78db-485b-af37-bce551d5c151",
+    "name": "Waterbird observations in Lake Victoria wetlands, south Kenya coast and Tana River dams (Kenya) in 1995",
+    "description": "Count of observed waterbirds during a survey in Kenya in 1995. The data were digitized by VLIZ from the original report: Nasirwa, O.; Oyugi, J.; Jackson, C.; Lens, L.; Bennun, L.; Seys, J. (1995). Surveys of waterbirds in Kenya, 1995: Lake Victoria wetlands, south Kenya coast and Tana River dams. Centre for Biodiversity Research Reports: Ornithology, 20. National Museums of Kenya: Nairobi. 22 pp.",
+    "url": "https://obis.org/dataset/40d6ac81-78db-485b-af37-bce551d5c151",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=waterbird_survey_kenya_1996",
+        "https://dx.doi.org/10.14284/175"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Nasirwa O.; Oyugi J.; Jackson C.; Lens L.; Bennun L.; Seys J.; Department of Ornithology, National Museums of Kenya; Kenya Marine and Fisheries Research Institute: Kenya; (2016): Waterbird observations in Lake Victoria wetlands, south Kenya coast and Tana River dams (Kenya) in 1995. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4238) https://dx.doi.org/10.14284/175",
+    "version": "2023-05-23T12:12:56.000Z",
+    "keywords": [
+        "Waterbirds",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "AreaSampled",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "AreaSampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "%area_counted",
+            "url": "",
+            "description": "%area_counted"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1995",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/175",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/175",
+        "url": "https://dx.doi.org/10.14284/175"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=waterbird_survey_kenya_1996",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "34.133333 -4.6425,34.133333 -0.116666667,40.15388889 -0.116666667,40.15388889 -4.6425,34.133333 -4.6425"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11578",
+            "@type": "Organization",
+            "legalName": "Kenya Marine and Fisheries Research Institute",
+            "name": "Kenya Marine and Fisheries Research Institute",
+            "url": "https://oceanexpert.org/institution/11578"
+        }
+    ]
+}

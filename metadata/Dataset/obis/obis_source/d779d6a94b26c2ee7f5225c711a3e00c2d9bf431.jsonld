@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9db24ef5-0c19-4a5b-82a7-be3a31dec4b8",
+    "name": "Plankton&amp;BenthosResearch",
+    "description": "Data extracted from manuscripts published in \"Plankton and Benthos Research\", a joint publication of The Plankton Society of Japan and The Japanese Association of Benthology. These manuscripts are available as Open Access pdfs at J-STAGE (https://www.jstage.jst.go.jp/browse/pbr)",
+    "url": "https://obis.org/dataset/9db24ef5-0c19-4a5b-82a7-be3a31dec4b8",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=planktonbenthosresearch"
+    ],
+    "license": "This work is licensed under a\n                 Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "The Plankton Society of Japan, The Japanese Association of Benthology (2018) Plankton&amp;BenthosResearch at http://www.godac.jamstec.go.jp/bismal/e/PlanktonBenthosResearch. Accessed on yyyy-mm-dd.",
+    "version": "2023-06-10T07:18:10.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1905/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=planktonbenthosresearch",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-157.8576972 -60.05,-157.8576972 45,149.9063278 45,149.9063278 -60.05,-157.8576972 -60.05"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19629",
+            "@type": "Organization",
+            "legalName": "Plankton Society of Japan",
+            "name": "Plankton Society of Japan",
+            "url": "https://oceanexpert.org/institution/19629"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b96d1556-21b7-410b-9109-1a91e3eb8aa1",
+    "name": "Distribución espacial y abundancia de la Familia Corycaeidae Dana, 1852 (Copepoda: Cyclopoida) en el Golfo de Cariaco, Venezuela",
+    "description": "La composición, distribución y abundancia de la Familia Corycaeidae (Copepoda: Cyclopoida), fue estudiada en el golfo de Cariaco. Las muestras fueron recolectadas con una red tipo Bongo (300μm) entre 0 – 25 m en 10 estaciones, 5 extendidas en la zona Pariche-Manicuare (zona norte) y 5 en la zona Cumaná - El Peñón (zona sur). La temperatura y salinidad del agua superficial mostraron diferencias significativas entre los meses pero no entre las dos zonas. Se examinaron 1034 ejemplares y se identificaron 14 especies, siendo la más frecuente y abundante en ambas zonas Ditrichocorycaeus amazonicus, luego le siguieron Onychocorycaeus catus y Monocorycaeus robustus en la zona norte, mientras que en la zona sur le secundaron Corycaeus speciosus y Farranula rostrata. La densidad media en la zona norte fue de 914 ind.m-3, mientras que en la zona sur fue más baja (145 ind.m-3). Se hallaron diferencias significativas en la abundancia entre las dos localidades, permitiendo dividir a dichas especies en dos grupos: marinas y estuarinas. El reporte de M. robustus y F. carinata son el primer registro para el Mar Caribe y el golfo de Cariaco, respectivamente.",
+    "url": "https://obis.org/dataset/b96d1556-21b7-410b-9109-1a91e3eb8aa1",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=iov_udo_corycaeidae"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Brightdoom Márquez-Rojas, Oscar Díaz-Díaz, Luis Troccoli, Josefa Morales &amp; Luz Mary Marcano. (2021). Distribución espacial y abundancia de la Familia Corycaeidae\nDana, 1852 (Copepoda: Cyclopoida) en el Golfo de Cariaco, Venezuela",
+    "version": "2022-10-21T07:26:12.000Z",
+    "keywords": [
+        "Composición",
+        "Caribe sur-oriental",
+        "Corycaeidae",
+        "Golfo de Cariaco",
+        "Cyclopoida",
+        "CaribeSur",
+        "ID:BID-CA2020-025-NAC",
+        "Composición",
+        "Caribe sur-oriental",
+        "Corycaeidae",
+        "Golfo de Cariaco",
+        "Cyclopoida",
+        "CaribeSur",
+        "ID:BID-CA2020-025-NAC",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/",
+            "description": "temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ASLTZZ01/",
+            "description": "salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/Z300M00Z/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=iov_udo_corycaeidae",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.217217 10.459572,-64.217217 10.55257,-64.07886 10.55257,-64.07886 10.459572,-64.217217 10.459572"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6839",
+            "@type": "Organization",
+            "legalName": "Instituto Oceanográfico de Venezuela, Universidad de Oriente",
+            "name": "Instituto Oceanográfico de Venezuela, Universidad de Oriente",
+            "url": "https://oceanexpert.org/institution/6839"
+        }
+    ]
+}

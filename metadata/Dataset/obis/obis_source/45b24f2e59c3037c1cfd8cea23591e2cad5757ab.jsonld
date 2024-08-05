@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/26fb9cdc-1f1a-453a-b074-ad7f395d1122",
+    "name": "Marine species from published papers of the Kenyan EEZ in the period 1975-2013",
+    "description": "Kenya Marine and Fisheries Institute has a digital library repository of published work called KMFRI/dspace http://41.215.122.106/dspace/ from which publications with marine species were downloaded and the species described in them, their sampling locations and latitudes and longitudes. This data will contribute sopecies lists in Afremas, Worms and OBIS datasets. This effort has been championed by the ODINAFRICA project.",
+    "url": "https://obis.org/dataset/26fb9cdc-1f1a-453a-b074-ad7f395d1122",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=kenya_eez_1975-2013"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Marine species from published papers of the Kenyan EEZ in the period 1975-2014, collected by Kenya marine and Fisheries Research Insitute",
+    "version": "2017-01-26T12:40:03.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=kenya_eez_1975-2013",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "39.175 -4.505125,39.175 -1.666667,41.793333 -1.666667,41.793333 -4.505125,39.175 -4.505125"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11578",
+            "@type": "Organization",
+            "legalName": "Kenya Marine and Fisheries Research Institute",
+            "name": "Kenya Marine and Fisheries Research Institute",
+            "url": "https://oceanexpert.org/institution/11578"
+        }
+    ]
+}

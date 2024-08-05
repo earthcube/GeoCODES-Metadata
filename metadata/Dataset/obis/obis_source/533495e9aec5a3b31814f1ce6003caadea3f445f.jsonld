@@ -1,0 +1,86 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b14abb47-b481-4272-a8d6-d4e2b612dce9",
+    "name": "Observation of marine vulnerable mobile species in Sicilian waters, Ionian Sea (surveys 2015-2019)",
+    "description": "Data on different mobile species recorded by expert observers in Sicily, Ionian Sea, with a focus in the Gulf of Catania, in the framework of the project \"Dolphin watching and conservation in the Gulf of Catania\" promoted by the MareCamp association (years 2015-2019), and the \"Floating Laboratories\" initiative carried out with the supervision of the Low Impact Fishers of Europe (LIFE) platform (year 2019).",
+    "url": "https://obis.org/dataset/b14abb47-b481-4272-a8d6-d4e2b612dce9",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=vulnerablespecies_sicilianwaters"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Monaco, Clara; Garofalo, Dario; Raffa, Alessandra; MareCamp Association; Cavallè, Marta; LIFE platform (2020); Observation of marine vulnerable mobile species in Sicilian waters, Ionian Sea (surveys 2015-2019)",
+    "version": "2024-02-27T00:07:21.000Z",
+    "keywords": [
+        "Visual observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight wet biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "description": "Weight wet biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size range",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TL01XX01/",
+            "description": "Size range"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=vulnerablespecies_sicilianwaters",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "15.094386 37.2962,15.094386 37.646423,15.245957 37.646423,15.245957 37.2962,15.094386 37.2962"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23185",
+            "@type": "Organization",
+            "legalName": "Marecamp ",
+            "name": "Marecamp ",
+            "url": "https://oceanexpert.org/institution/23185"
+        }
+    ]
+}

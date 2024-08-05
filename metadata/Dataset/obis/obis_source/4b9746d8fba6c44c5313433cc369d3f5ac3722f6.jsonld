@@ -1,0 +1,97 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b74f72f3-cc3d-42b2-aa01-930d5ad4f9c2",
+    "name": "IMOS - Larval Fish Sub-Facility - Database of Marine Larval Fish Assemblages in Australian temperate and subtropical waters (1983 - ongoing)",
+    "description": "Larval fishes are a useful metric of marine ecosystem state and change, as well as species-specific patterns in phenology. This information sheds light on larval distribution and spawning for fisheries management needs. This dataset includes larval fish abundances collected from 12 voyages around Australia since 1983, as well as more recent data from the Marine National Facility (MNF). The backbone of the dataset is from five Integrated Marine Observing Systems (IMOS) National Reference Stations (NRS) (North Stradbroke, Port Hacking, Maria Island, Kangaroo Island and Rottnest Island), between 2014 and 2021 as part of the IMOS Larval Fish Monitoring Sub-Facility of the National Mooring Network Facility (data currently available up to 2019). This adds information to the biological, ecological and oceanic measurements already sampled at these long-term monitoring sites. For information on using the data from the NRS stations and research voyages, please refer to Smith et al., 2018. It is advised that anyone using this data should read this methodology or contact the project contact person to understand the nuances of each sampling and analysis chain.\nThe fish larvae product is available as raw count product, where fish larvae are classified to the lowest taxonomic level possible (with 228 taxonomic groups identified so far, at either the Family, Genus, or Species level). Associated metadata includes location, temperature, salinity, net type, and tow volume.\nThere is a static snapshot of the database as at March 2018 (https://dx.doi.org/10.4225/69/5ab33c62f9c52), and this has been documented in a Scientific Data publication (Smith et al., 2018). This metadata record provides access to the dynamic (most recent) version of the database, which can serve as a data repository for survey of larval fish assemblages in the region.\nIn addition species have been mapped to the World Register of Marine Species and abiotic parameters and units of measure have where possible mapped to the BODC vocabularies. Data accessed on 2022-04-20 from https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/8e754b8b-c40f-4a21-ae82-573a67fc3556",
+    "url": "https://obis.org/dataset/b74f72f3-cc3d-42b2-aa01-930d5ad4f9c2",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=imos_larval_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Smith, JA, Miskiewicz, AG, Beckley, LE, Everett, JD, Garcia, V, Gray, CA, Holliday D, Jordan, AR, Keane, J, Lara-Lopez, A, Leis, JM, Matis, PA, Muhling, BA, Neira, FJ, Richardson, AJ, Smith, KA, Swadling, KM, Syahailatua, A, Taylor, MD, van Ruth, PD, Ward, TM, Suthers, IM (2018), Database of Marine Larval Fish Assemblages in Australian temperate and subtropical waters 1983 - 2016. Australian Ocean Data Network - DOI: 10.4225/69/5ab33c62f9c52 (http://dx.doi.org/10.4225/69/5ab33c62f9c52)",
+    "version": "2022-06-08T05:33:38.000Z",
+    "keywords": [
+        "Occurrence",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gear mesh size",
+            "url": "",
+            "description": "Gear mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biovolume swept",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/22",
+            "description": "Biovolume swept"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample Depth",
+            "url": "",
+            "description": "Sample Depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ocean Depth",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/574",
+            "description": "Ocean Depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/TEMP",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity (psu)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSLTZZ01",
+            "description": "Salinity (psu)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1982/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=imos_larval_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "111.5585 -43.2833,111.5585 -21.9997,154.5195 -21.9997,154.5195 -43.2833,111.5585 -43.2833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        }
+    ]
+}

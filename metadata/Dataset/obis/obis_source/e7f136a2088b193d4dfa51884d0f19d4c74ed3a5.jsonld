@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/41de338d-6a8a-43f7-a351-ce5c61a7708e",
+    "name": "Atlantic Anguilla surveys (1862-2007)",
+    "description": "This historical dataset includes data gathered from various surveys conducted in different times in North Atlantic. The surveys were focused on different stages of eel larvae. The ICES group taking care of the data is WGEEL.",
+    "url": "https://obis.org/dataset/41de338d-6a8a-43f7-a351-ce5c61a7708e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=eel"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES. Atlantic Anguilla surveys (1862-2007). Available online at http://eggsandlarvae.ices.dk. Consulted on yyyy-mm-dd.",
+    "version": "2023-12-08T18:32:00.000Z",
+    "keywords": [
+        "Fish larvae",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "https://vocab.ices.dk/?ref=152/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1862/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=eel",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-87.33333333 -41.93333333,-87.33333333 62.75,19.46666667 62.75,19.46666667 -41.93333333,-87.33333333 -41.93333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

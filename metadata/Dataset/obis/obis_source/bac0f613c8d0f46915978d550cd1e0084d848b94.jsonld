@@ -1,0 +1,90 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e466439e-6a74-4b50-adc9-4e174e7311b2",
+    "name": "Invertebrates San Matias gulf from shallows waters, Patagonia, Argentina",
+    "description": "Survey of volutid snails (4 species) and infaunal and epibenthic bivalves (9 species) of interest for the artisanal fisheries at the southwest region of the San Matias Gulf, Patagonia.  Data were collected in 1998-1999 by expert researchers of Research Council of Argentina, commissioned by the provincial administration to estimate biomass of species susceptible to commercial capture. The data were stored in digital support by the Fishing Agency of Chubut Province, Argentina.",
+    "url": "https://obis.org/dataset/e466439e-6a74-4b50-adc9-4e174e7311b2",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=invertebrados_pto_lobos"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Almonacid S., Marin M. R., Bigatti G., Lewis M.(2018). Database of marine invertebrates of San Jorge Gulf, Argentina.  Version 1.0. CESIMAR-CONICET.",
+    "version": "2021-05-13T15:43:26.000Z",
+    "keywords": [
+        "Occurrence; marine invertebrates; volutid; bivalves; shallow waters; Patagonia Argentina"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Population Density",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS8518/",
+            "description": "Population Density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Relative abundance and/or Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/C47/current/IN1_6_2/",
+            "description": "Relative abundance and/or Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean length Standard Deviation",
+            "url": "",
+            "description": "Mean length Standard Deviation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean length",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS11694/",
+            "description": "Mean length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean weight Standard Deviation",
+            "url": "",
+            "description": "Mean weight Standard Deviation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS11695/",
+            "description": "Mean weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1999/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=invertebrados_pto_lobos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.0672222222222 -45.0833333333333,-65.0672222222222 -41.8305555555556,-64.6666666666667 -41.8305555555556,-64.6666666666667 -45.0833333333333,-65.0672222222222 -45.0833333333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2973fc19-d734-4766-9f89-34793549ca03",
+    "name": "Presence of cetaceans in Sicilian waters, Ionian and Tyrrhenian Sea (records 2008-2019)",
+    "description": "Data collection on population size and distribution of cetaceans in Sicily, Ionian Sea, promoted by the MareCamp association thanks to the citizen science initiative \"Report a sighting and help the research\" through phone and e-mail communications made by yachtsmen and fishers, and also filling in the following online form https://forms.gle/mAx9ZHZDzrPfs9P59 \nData here provided were collected in 2008-2019 period. The project is ongoing; sightings are reported in the database only if the advisories have good photos of reference able to distinguish the species and the area of observation.\nPresence of boats, fishing activities, other species like birds, fish, jellyfish, meteorological and sea conditions are also collected.",
+    "url": "https://obis.org/dataset/2973fc19-d734-4766-9f89-34793549ca03",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=cetaceans_sicily"
+    ],
+    "license": "Unrestricted after moratorium period",
+    "citation": "Monaco, Clara; Garofalo, Dario; Pellegrino, Giuliana; Raffa, Alessandra; MareCamp Association;(2020); Presence of cetaceans in Sicilian waters, Ionian and Tyrrhenian Sea (records 2008-2019).",
+    "version": "2024-02-27T00:22:35.000Z",
+    "keywords": [
+        "Visual observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cetaceans_sicily",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.318686 36.669103359961,13.318686 38.294681,15.710614165581 38.294681,15.710614165581 36.669103359961,13.318686 36.669103359961"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23185",
+            "@type": "Organization",
+            "legalName": "Marecamp ",
+            "name": "Marecamp ",
+            "url": "https://oceanexpert.org/institution/23185"
+        }
+    ]
+}

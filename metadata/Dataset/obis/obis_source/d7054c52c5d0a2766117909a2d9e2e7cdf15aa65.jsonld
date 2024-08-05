@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a1f6bab4-58f6-4308-9ab9-e62041783406",
+    "name": "CBU: Meroplankton of Sydney Harbour, Nova Scotia",
+    "description": "This dataset contains species distribution records collected as part of a Cape Breton University BSC Honours thesis project.\nOn each sampling date, triplicate, surface zooplankton tows of approximately 300m length were made parallel to the shores within each of the three sampling areas in Sydney Harbour, Cape Breton: one tow in the centre, and one closer to each shore.",
+    "url": "https://obis.org/dataset/a1f6bab4-58f6-4308-9ab9-e62041783406",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=obis_cbu_rporter_2013"
+    ],
+    "license": "IP rights of this resource http://creativecommons.org/publicdomain/zero/1.0/ &amp; http://www.canadensys.net/norms\n\nThe copyright to the thesis is held by the University, as per the title page of the thesis.",
+    "citation": "Porter, R., Hatcher, B. 2013. Meroplankton of Sydney Harbour, Nova Scotia. OBIS Canada Digital Collections. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Digital. Retrieved from http://iobis.org/.",
+    "version": "2014-03-31T13:52:43.000Z",
+    "keywords": [
+        "biota",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=obis_cbu_rporter_2013",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-60.27 46.17,-60.27 46.22,-60.2 46.22,-60.2 46.17,-60.27 46.17"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19286",
+            "@type": "Organization",
+            "legalName": "Cape Breton University",
+            "name": "Cape Breton University",
+            "url": "https://oceanexpert.org/institution/19286"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19633",
+            "@type": "Organization",
+            "legalName": "OBIS Canada",
+            "name": "OBIS Canada",
+            "url": "https://oceanexpert.org/institution/19633"
+        }
+    ]
+}

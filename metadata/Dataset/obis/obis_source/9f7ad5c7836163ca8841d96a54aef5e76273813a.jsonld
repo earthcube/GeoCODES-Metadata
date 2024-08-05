@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b1d6e504-32df-424c-92d6-a7f3495b0dae",
+    "name": "Cetacean distribution around Mayotte Island",
+    "description": "Original provider:\nJeremy Kiszka\n\nDataset credits:\nJeremy Kiszka\n\nAbstract:\nThis dataset gather 434 cetacean sightings around the Mozambique Channel island of Mayotte (France). These data were systematically collected during surveys having various objectives (small cetaceans, humpback whales). It includes 18 species, including the dugong, the humpback whale, beaked whales (2 species), sperm whales (3 species) and 11 delphinids.\n\nSupplemental information:\nEffort data will be appended later.",
+    "url": "https://obis.org/dataset/b1d6e504-32df-424c-92d6-a7f3495b0dae",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_463"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Kiszka, J. 2009. Cetacean distribution around Mayotte Island. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/463) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:42:29.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_463",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "44.898879 -13.118571,44.898879 -12.518143,45.349509 -12.518143,45.349509 -13.118571,44.898879 -13.118571"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

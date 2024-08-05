@@ -1,0 +1,98 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f6352e4d-31b5-4baa-99e1-d39646043e88",
+    "name": "Macrobenthos in the Dutch Sector of the North Sea 2000-2001",
+    "description": "This dataset contains macrobenthos data from the Dutch Sector of the North Sea between 2000 and 2001.",
+    "url": "https://obis.org/dataset/f6352e4d-31b5-4baa-99e1-d39646043e88",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nsbp_duineveld"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Koninklijk Nederlands Instituut voor Zeeonderzoek (Texel), National Institute for Coastal and Marine Management  (Ministery of Transport and Public Works) - 2001. Macrobenthos in the Dutch Sector of the North Sea 2000-2001.",
+    "version": "2024-02-27T00:10:22.000Z",
+    "keywords": [
+        "Macrobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "NSBP sediment class",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SEDTYCAT/",
+            "description": "NSBP sediment class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "The mean of grain-size distribution",
+            "url": "",
+            "description": "The mean of grain-size distribution"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "fraction of mud",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PRPCL312/",
+            "description": "fraction of mud"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifeStage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nsbp_duineveld",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.6791666666667 51.617777777778,2.6791666666667 55.471666666667,6.5461111111111 55.471666666667,6.5461111111111 51.617777777778,2.6791666666667 51.617777777778"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7656",
+            "@type": "Organization",
+            "legalName": "Koninklijk Nederlands Instituut voor Onderzoek der Zee",
+            "name": "Koninklijk Nederlands Instituut voor Onderzoek der Zee",
+            "url": "https://oceanexpert.org/institution/7656"
+        }
+    ]
+}

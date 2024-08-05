@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/af8c1d46-8090-4dcc-9853-5c9ee8b7a551",
+    "name": "Phytoplankton and zooplankton abundance off New South Wales (~30°S, 153°E), Australia in 2011/2012",
+    "description": "Phytoplankton and zooplankton samples were collected monthly along two cross shelf transects (CH-Line, B-Line) and one intermediate coastal station (SS) off Coffs Harbour (~30°S, 153°E), Eastern Australia, between May 2011 and September 2012. The exact sampling locations (coordinates) and times were recorded. Two of the sampling stations (CH3 and CH5) are also the sites of permanent IMOS moorings (CH070 and CH100, respectively).",
+    "url": "https://obis.org/dataset/af8c1d46-8090-4dcc-9853-5c9ee8b7a551",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=phytoplankton_zooplankton_nsw"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Armbrecht, L.H., Roughan, M., Rossi, V., Schaeffer, A., Davies, P.L., Waite, A., Armand, L.K., 2014. Phytoplankton composition under contrasting oceanographic conditions: Upwelling and downwelling (Eastern Australia). Cont. Shelf Res. 75, 54–67.",
+    "version": "2022-06-07T06:12:04.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=phytoplankton_zooplankton_nsw",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "153.19517 -30.2905,153.19517 -29.99333,153.50533 -29.99333,153.50533 -30.2905,153.19517 -30.2905"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10566",
+            "@type": "Organization",
+            "legalName": "Australian National University, Research School of Earth Science",
+            "name": "Australian National University, Research School of Earth Science",
+            "url": "https://oceanexpert.org/institution/10566"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19390",
+            "@type": "Organization",
+            "legalName": "Macquarie University – Department of Biological Sciences",
+            "name": "Macquarie University – Department of Biological Sciences",
+            "url": "https://oceanexpert.org/institution/19390"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

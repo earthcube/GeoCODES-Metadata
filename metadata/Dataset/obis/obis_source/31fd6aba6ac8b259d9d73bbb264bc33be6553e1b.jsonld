@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/74d67d71-2d25-4fa1-9a1e-df71c6af891e",
+    "name": "Marine Microbes from the North Stradbroke Island  National Reference Station (NRS), Queensland, Australia (2012-2020)",
+    "description": "The Australian Marine Microbial Biodiversity Initiative (AMMBI) provides methodologically standardized, continental scale, temporal phylogenetic amplicon sequencing data describing Bacteria, Archaea and microbial Eukarya assemblages. Sequence data is linked to extensive physical, biological and chemical oceanographic contextual information. Samples are collected monthly to seasonally from multiple depths at seven National Reference Stations (NRS) sites: Darwin Harbour (Northern Territory), Yongala (Queensland), North Stradbroke Island (Queensland), Port Hacking (New South Wales), Maria Island (Tasmania), Kangaroo Island (South Australia), Rottnest Island (Western Australia). The Integrated Marine Observing System (IMOS) NRS network is described at http://imos.org.au/facilities/nationalmooringnetwork/nrs/\nNorth Stradbroke Island NRS is located 6.6 nm north east of North Stradbroke Island at a depth of 60 m over sandy substrate. It is 30 km southeast of the major city of Brisbane, Queensland (population 2.099 million), at the opening to large, shallow, Moreton Bay. The site is impacted by the southerly flowing EAC and its eddies, which may cause periodic nutrient enrichment through upwelling. This latitude is the biogeographic boundary for many tropical and subtropical species. The water column is well mixed between May-August and stratified for the remainder of the year and salinity may at times be affected by floodwaters from the nearby Brisbane River outflow.\n\n\n \n Site details from Brown, M. V. et al. Continental scale monitoring of marine microbiota by the Australian Marine Microbial Biodiversity Initiative. Sci. Data 5:180130 doi: 10.1038/sdata.2018.130 (2018).\nSite location: North Stradbroke Island  National Reference Station (NRS), Queensland, Australia\nNote on data download/processing:\nData downloaded from Australian Microbiome Initiative via Bioplatforms Australia Data Portal on 17 June 2022. The search filter applied to download data from Bioplatforms Australia Data portal are stored in the Darwin Core property (identificationRemarks). Taxonomy is assigned according to the taxonomic database (SILVA 138) and method (Sklearn) which is stored in the Darwin Core Extension\nDNA derived data property (otu_db). Prefix were removed from the taxonomic names as shown in the example (e.g. d__Bacteria to Bacteria). Scientific name is assigned to the valid name available from the highest taxonomic rank.\nThis collection is published as Darwin Core Occurrence, so the event level measurements need to be replicated for every occurrence. Instead of data replication, the event level eMoF data are made available separately at https://www.marine.csiro.au/data/services/obisau/emof_export.cfm?ipt_resource=bioplatforms_mm_nrs_nsi\nPlease see https://www.australianmicrobiome.com/protocols/acknowledgements/ for citation examples and links to the data policy.",
+    "url": "https://obis.org/dataset/74d67d71-2d25-4fa1-9a1e-df71c6af891e",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bioplatforms_mm_nrs_nsi",
+        "https://doi.org/10.1038/sdata.2018.130"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Brown, M. V. et al. Continental scale monitoring of marine microbiota by the Australian Marine Microbial Biodiversity Initiative. Sci. Data 5:180130 doi: 10.1038/sdata.2018.130 (2018).",
+    "version": "2023-07-18T23:52:17.000Z",
+    "keywords": [
+        "occurrence",
+        "occurrence",
+        "16S rRNA",
+        "18S rRNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2021",
+    "identifier": {
+        "@id": "https://doi.org/10.1038/sdata.2018.130",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1038/sdata.2018.130",
+        "url": "https://doi.org/10.1038/sdata.2018.130"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bioplatforms_mm_nrs_nsi",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/21685",
+            "@type": "Organization",
+            "legalName": "University of Newcastle",
+            "name": "University of Newcastle",
+            "url": "https://oceanexpert.org/institution/21685"
+        }
+    ]
+}

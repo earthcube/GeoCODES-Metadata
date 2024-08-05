@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/333a0cb5-5a6b-4f97-957c-9128270ee540",
+    "name": "Southeast BR Mangrove",
+    "description": "Western South Atlantic mangrove ecosystems of Brazil, roughly 85% of 7,367 km coastline covering 16 States, on her Southeast area.\n\nOriginal data obtained from http://splink.cria.org.br/brobis/DiGIR.php and registered into iOBIS on 2010-12-07. This dataset on OBIS-SEAMAP is a <b>subset</b> of marine mammal, seabird and/or sea turtle records from the dataset on iOBIS (Total number of records: 4233) harvested into OBIS-SEAMAP on 2011-10-11.\n\nDataset credit = Tropical and Subtropical Western South Atlantic OBIS",
+    "url": "https://obis.org/dataset/333a0cb5-5a6b-4f97-957c-9128270ee540",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=southeast_br_mangrove",
+        "http://doi.org/10.25607/8ozaqr"
+    ],
+    "license": "",
+    "citation": " (2018): Southeast BR Mangrove. v2.0. Tropical and Subtropical Western South Atlantic OBIS. Dataset/Occurrence. http://doi.org/10.25607/8ozaqr",
+    "version": "2021-07-02T10:57:43.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1969/2010",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/8ozaqr",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/8ozaqr",
+        "url": "http://doi.org/10.25607/8ozaqr"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/wsaobis/archive.do?r=southeast_br_mangrove",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-48.016 -25.091,-48.016 -18.5924,-39.7394 -18.5924,-39.7394 -25.091,-48.016 -25.091"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

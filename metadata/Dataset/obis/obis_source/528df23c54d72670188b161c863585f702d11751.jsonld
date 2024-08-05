@@ -1,0 +1,93 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/46d695ea-ee18-4e39-a4ee-81065beab06b",
+    "name": "Epibenthic and fish community in Gazi Bay sampled from 12-15 October 1994",
+    "description": "Counts on epibenthos and fish species sampled in October 1994 by beam trawling in the mangroves and seagrass beds of Gazi Bay (kenya). Minimum and maximum standard length of fish was measured. The data were digitized by VLIZ from the original report: Boone, A. (1996). Epibenthische gemeenschappen in een tropische baai (Gazi Baai, Kenya)= Epibenthic communities in a tropical bay (Gazi Bay, Kenya). MSc Thesis. Universiteit Gent, Faculteit van de wetenschappen, vakgroep biologie: Ghent. 125, appendix pp.",
+    "url": "https://obis.org/dataset/46d695ea-ee18-4e39-a4ee-81065beab06b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=epibenthic_gazi_bay_1994",
+        "https://dx.doi.org/10.14284/95"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Boone A.; Vincx M.; Sectie Mariene Biologie; Vakgroep Morfologie, Systematiek en Ecologie. Universiteit Gent: Belgium; (2016): Epibenthic and fish community in Gazi Bay sampled from 12-15 October 1994. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4520) https://dx.doi.org/10.14284/95",
+    "version": "2023-05-23T11:33:05.000Z",
+    "keywords": [
+        "Demersal fishes",
+        "Epibenthos",
+        "Mangroves",
+        "Seagrass beds",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "NetMeshSize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "NetMeshSize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/1994",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/95",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/95",
+        "url": "https://dx.doi.org/10.14284/95"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=epibenthic_gazi_bay_1994",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "39.5 -4.44,39.5 -4.4,39.53 -4.4,39.53 -4.44,39.5 -4.44"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11578",
+            "@type": "Organization",
+            "legalName": "Kenya Marine and Fisheries Research Institute",
+            "name": "Kenya Marine and Fisheries Research Institute",
+            "url": "https://oceanexpert.org/institution/11578"
+        }
+    ]
+}

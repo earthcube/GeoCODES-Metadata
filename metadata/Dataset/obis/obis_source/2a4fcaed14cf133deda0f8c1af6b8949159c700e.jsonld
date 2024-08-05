@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6ced1167-d236-4a60-a783-b0ea06b49ff0",
+    "name": "CMarZ (Census of Marine Zooplankton)-Asia Database",
+    "description": "CMarZ-Asia Database is an integrated search system of zooplankton information provided by the CMarZ.",
+    "url": "https://obis.org/dataset/6ced1167-d236-4a60-a783-b0ea06b49ff0",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=cmarz_asia"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Nishida, S. (2013) CMarZ (Census of Marine Zooplankton)-Asia Database at http://www.godac.jamstec.go.jp/bismal/e/dataset/cmarz_asia. Accessed on yyyy-mm-dd.",
+    "version": "2023-12-07T07:19:46.000Z",
+    "keywords": [
+        "marine",
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1977/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=cmarz_asia",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 37,-180 51.4000015259,180 51.4000015259,180 37,-180 37"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12468",
+            "@type": "Organization",
+            "legalName": "University of Tokyo – Atmosphere and Ocean Research Institute",
+            "name": "University of Tokyo – Atmosphere and Ocean Research Institute",
+            "url": "https://oceanexpert.org/institution/12468"
+        }
+    ]
+}

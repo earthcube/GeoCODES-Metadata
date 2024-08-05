@@ -1,0 +1,93 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b7f2143c-1e72-4351-88cd-fd170ded09a5",
+    "name": "Presence of cetaceans and sea turtles in the Gulf of Catania, Eastern Sicily, Ionian Sea (surveys 2015-2019)",
+    "description": "Data on population size, structure, behavior and distribution of cetaceans and sea turtles in eastern Sicily, Ionian Sea, collected by expert observers of the MareCamp association in the framework of the project \"Dolphin watching and conservation in the Gulf of Catania\" (years 2015-2019).",
+    "url": "https://obis.org/dataset/b7f2143c-1e72-4351-88cd-fd170ded09a5",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=ceataceans_seaturtles_gulf_of_catania"
+    ],
+    "license": "Unrestricted after moratorium period",
+    "citation": "Monaco, Clara; Garofalo, Dario; Raffa, Alessandra; MareCamp Association; (2020); Presence of cetaceans and sea turtles in the Gulf of Catania, Eastern Sicily, Ionian Sea (surveys 2015-2019)",
+    "version": "2023-05-23T12:13:28.000Z",
+    "keywords": [
+        "self-propelled small boat",
+        "Visual observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cetacean behaviour",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/CEBH/",
+            "description": "Cetacean behaviour"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ceataceans_seaturtles_gulf_of_catania",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "15.09366808 37.31638,15.09366808 37.74775479,15.3372187 37.74775479,15.3372187 37.31638,15.09366808 37.31638"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23185",
+            "@type": "Organization",
+            "legalName": "Marecamp ",
+            "name": "Marecamp ",
+            "url": "https://oceanexpert.org/institution/23185"
+        }
+    ]
+}

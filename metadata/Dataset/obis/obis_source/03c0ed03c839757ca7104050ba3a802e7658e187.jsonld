@@ -1,0 +1,108 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/861b081f-8e2e-4ad4-ae69-4214f40dce98",
+    "name": "Fishing with motorized boats in the Belgian littoral area in 1932",
+    "description": "Measurements and counts of fish caught by motorized boats in May 1932. The data were digitized by VLIZ from the original report: Gilson, G. (1932). Destruction du jeune poisson par la pêche littorale à moteur. Annales de l'Institut d'Etudes Maritimes d'Ostende = Annalen van het Zeewetenschappelijk Instituut, 2. Zeewetenschappelijk Instituut = Institut d'Etudes Maritimes: Oostende. 20 pp.",
+    "url": "https://obis.org/dataset/861b081f-8e2e-4ad4-ae69-4214f40dce98",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=fishing_motorized_belgium_1932",
+        "https://dx.doi.org/10.14284/264"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gilson G.; Instituut voor Zeewetenschappelijk Onderzoek: Belgium; (2016): Fishing with motorized boats in the Belgian littoral area in 1932. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4603) https://dx.doi.org/10.14284/264",
+    "version": "2023-12-08T17:09:05.000Z",
+    "keywords": [
+        "Fishing",
+        "Motor boats",
+        "Historic",
+        "self-propelled small boat",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean length of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Mean length of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Weight of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total number of destroyed fish",
+            "url": "",
+            "description": "Total number of destroyed fish"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "number of fishing days - The period of time during which a sample was collected or an observation was made, such as a the time a net was towed through the water or duration of a visual census.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "number of fishing days - The period of time during which a sample was collected or an observation was made, such as a the time a net was towed through the water or duration of a visual census."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean count per trawl of biological entity specified elsewhere",
+            "url": "",
+            "description": "Mean count per trawl of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1926/1932",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/264",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/264",
+        "url": "https://dx.doi.org/10.14284/264"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=fishing_motorized_belgium_1932",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.641687 51.145508,2.641687 51.385417,3.108173 51.385417,3.108173 51.145508,2.641687 51.145508"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1ed6515b-6587-448b-8987-1646acbb4641",
+    "name": "Zooplankton collected in the Mediterranean Sea in 1959 on board the R/V Akademik S. Vavilov",
+    "description": "The data were collected by the IBSS staff at several stations in the Mediterranean Sea during a cruise on board of R/V Akademik S. Vavilov in 1959. This dataset contains abundance data (individuals per m³) and biomass data (mg/m³). \nSampling instrument: Juday net, diameter - 30 cm, mouth - 0,071 m². Samples collected by V.Chuhchin and Yu.Gorbenko. No additional metadata is available.",
+    "url": "https://obis.org/dataset/1ed6515b-6587-448b-8987-1646acbb4641",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zoopl_med_sea_59"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Zooplankton collected in the Mediterranean Sea in 1959 on board the R/V Akademik S. Vavilov. Institute of Biology of the Southern Seas of the National Academy of Sciences of Ukraine.",
+    "version": "2023-12-08T17:11:18.000Z",
+    "keywords": [
+        "Akademik Sergey Vavilov",
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1959/1959",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zoopl_med_sea_59",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "9.768666 37.31667,9.768666 40.43472,15.48333 40.43472,15.48333 37.31667,9.768666 37.31667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

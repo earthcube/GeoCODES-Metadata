@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/43b58971-4fda-4210-a6ef-654fe0ce226d",
+    "name": "National Benthic Inventory",
+    "description": "The NOAA National Benthic Inventory (NBI) is a dynamic quantitative database on benthic species distributions obtained from studies conducted by NOAA and partnering institutions in estuarine and coastal-ocean areas of the United States.",
+    "url": "https://obis.org/dataset/43b58971-4fda-4210-a6ef-654fe0ce226d",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=noaa_nbi"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "NOAA (2018): National Benthic Inventory. v1. GBIF Secretariat. Dataset/Occurrence. https://nccos-coastalscience-products-web-ipt.azurewebsites.net/",
+    "version": "2019-10-29T17:22:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "benthic",
+        "infauna",
+        "macroinfauna"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=noaa_nbi",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.3667 23.05562,-178.3667 48.995,-68.699028 48.995,-68.699028 23.05562,-178.3667 23.05562"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7692",
+            "@type": "Organization",
+            "legalName": "NOAA, Center for Sponsored Coastal Ocean Research, Silver Spring",
+            "name": "NOAA, Center for Sponsored Coastal Ocean Research, Silver Spring",
+            "url": "https://oceanexpert.org/institution/7692"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23190",
+            "@type": "Organization",
+            "legalName": "National Centers for Coastal Ocean Science",
+            "name": "National Centers for Coastal Ocean Science",
+            "url": "https://oceanexpert.org/institution/23190"
+        }
+    ]
+}

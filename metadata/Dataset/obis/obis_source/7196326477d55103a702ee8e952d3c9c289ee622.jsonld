@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a9e4f771-6674-42c7-a5bc-05a26b8aee32",
+    "name": "Israel Sea Turtle Tracking Project 2008: Loggerhead &amp; Green Turtles (aggregated per 1-degree cell)",
+    "description": "Original provider:\nYaniv Levy\n\nDataset credits:\nData provider\nMarine Turtle Research Group\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\n\n\nAbstract:\nIsrael National Nature and Parks Authority (INNPA) conducts  a management plan for sea turtles since the 1980s. During more than 20 years, rangers are surveying the Mediterranean coasts, tracking, protecting and relocating loggerhead and green turtles' nests into hatcheries in coastal nature reserves. The hatcheries are protected and during the hatching season, the hatchlings are released by the help of rangers and volunteers. More than 50,000 hatchlings were released so far. In 1999 INNPA established a sea turtle rescue center and every year dozens of wounded turtles are rehabilitated and more than 60% are released back to the wild. The turtles suffer from various injuries that result from fishing activity, pollution, plastic debris etc'. One part of the rescue center’s work is raising a breeding stock of green sea turtles. Their offspring will be released to the sea from the hatcheries.   An additional activity of the INNPA is sampling stranded sea turtle carcasses in order to collect different data, such as genetic information, population size and distribution.All of the above information is included in our website.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=303\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/a9e4f771-6674-42c7-a5bc-05a26b8aee32",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1964_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Center I. 2021. Israel Sea Turtle Tracking Project 2008: Loggerhead &amp; Green Turtles. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1964) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=303).",
+    "version": "2021-04-24T08:10:57.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1964_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-50.5 21.5,-50.5 47.5,87.5 47.5,87.5 21.5,-50.5 21.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

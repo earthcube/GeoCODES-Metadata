@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4c224fea-7e00-442b-a163-3fe82870f93c",
+    "name": "ICES Baltic International Trawl Survey for commercial fish species",
+    "description": "Baltic International Bottom Trawl Survey dataset includes age- and length-based catch per unit effort data for commercial fish species in ICES Baltic sub-divisions.",
+    "url": "https://obis.org/dataset/4c224fea-7e00-442b-a163-3fe82870f93c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ices_datras_bits"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Fish trawl survey: ICES Baltic International Trawl Survey for commercial fish species. ICES Database of trawl surveys (DATRAS). The International Council for the Exploration of the Sea, Copenhagen. 2010. Online source: http://ecosystemdata.ices.dk.",
+    "version": "2024-02-27T00:11:44.000Z",
+    "keywords": [
+        "research vessel",
+        "Trawling",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "BycSpecRecCode",
+            "url": "https://vocab.ices.dk/?ref=89/",
+            "description": "BycSpecRecCode"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cal_DateID",
+            "url": "",
+            "description": "Cal_DateID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "StdSpecRecCode",
+            "url": "https://vocab.ices.dk/?ref=88/",
+            "description": "StdSpecRecCode"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DataType",
+            "url": "https://vocab.ices.dk/?ref=9/",
+            "description": "DataType"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GroundSpeed",
+            "url": "",
+            "description": "GroundSpeed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Distance",
+            "url": "",
+            "description": "Distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Warplngt",
+            "url": "",
+            "description": "Warplngt"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "WindSpeed",
+            "url": "",
+            "description": "WindSpeed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "WindDir",
+            "url": "",
+            "description": "WindDir"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "HydroStNo",
+            "url": "",
+            "description": "HydroStNo"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ices_datras_bits",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "9.5758 54.0667,9.5758 58.65,24.4333 58.65,24.4333 54.0667,9.5758 54.0667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/15450cc0-d3a9-4ea6-a169-55bd7cc7e83c",
+    "name": "Mollusca fauna from the Mediterranean reef ecosystem (1170 habitat)",
+    "description": "This dataset contains occurrence records of infralittoral molluscs from several locations in the Mediterranean basin. These data come from available data, published papers in scientific journals as well as free available PhD thesis, dating back to 1969.",
+    "url": "https://obis.org/dataset/15450cc0-d3a9-4ea6-a169-55bd7cc7e83c",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=moll_poursani"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Dimitris Poursanidis &amp; Drosos Koutsoubas (2015). Mollusca fauna from the Mediterranean reef ecosystem (1170) – the zone of the photophilic algae.",
+    "version": "2023-02-23T09:26:37.000Z",
+    "keywords": [
+        "Occurrence",
+        "infralittoral zone",
+        "Mediterranean",
+        "rocky shores",
+        "1170 habitat",
+        "photophilic algae"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1969/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=moll_poursani",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.418617 35.498197,-5.418617 45.547993,27.139167 45.547993,27.139167 35.498197,-5.418617 35.498197"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9039",
+            "@type": "Organization",
+            "legalName": "University of the Aegean, Lesvos",
+            "name": "University of the Aegean, Lesvos",
+            "url": "https://oceanexpert.org/institution/9039"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12048",
+            "@type": "Organization",
+            "legalName": "Foundation for Research and Technology - Hellas - Institute of Applied & Computational Mathematics",
+            "name": "Foundation for Research and Technology - Hellas - Institute of Applied & Computational Mathematics",
+            "url": "https://oceanexpert.org/institution/12048"
+        }
+    ]
+}

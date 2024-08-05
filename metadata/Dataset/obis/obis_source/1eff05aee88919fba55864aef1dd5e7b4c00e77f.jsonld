@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/99fa29f2-30a7-4d9b-b874-eef31de90089",
+    "name": "Manx Basking Shark Watch 2017-2018 (aggregated per 1-degree cell)",
+    "description": "Original provider:\nManx Basking Shark atch\n\nDataset credits:\nData provider\nManx Basking Shark Watch\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nDr Matt Witt of Exeter University has also been tagging basking sharks. He and his team very kindly analyse our tag data with theirs, adding huge value to our work. We have jointly published papers about this work in Nature Scientific Papers. See the paper here https://www.nature.com/articles/srep42837\nProject sponsor or sponsor description\nThe Manx Government's Department of Environment, Fisheries and Agriculture (DEFA) generously supports the running costs of Happy Jack, the MBSW research boat.The Manx Lottery Trust very kindly sponsored Mae's SPOT tag.\n\n\nAbstract:\nManx Basking Shark Watch is a charity with two aims 1: To study basking sharks.2: To help the public to understand as much as possible about these enigmatic endangered animals and our work with them.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=1279\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/99fa29f2-30a7-4d9b-b874-eef31de90089",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1512_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Watch J. 2021. Manx Basking Shark Watch 2017-2018. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1512) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=1279).",
+    "version": "2021-04-24T06:33:56.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1512_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-7.5 51.5,-7.5 55.5,-4.5 55.5,-4.5 51.5,-7.5 51.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

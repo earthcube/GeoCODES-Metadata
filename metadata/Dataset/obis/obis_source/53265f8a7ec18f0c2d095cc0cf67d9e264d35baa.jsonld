@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e36a9445-2b01-4088-aa33-cf331ae23eaf",
+    "name": "Chondrichthyans Of Ireland",
+    "description": "Chondrichthyan data collated from a variety of sources in order to record and understand the geographic distribution of chondrichthyans in Irish waters in support of the Chondrichthyan Regional Red List.",
+    "url": "https://obis.org/dataset/e36a9445-2b01-4088-aa33-cf331ae23eaf",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=chondrichthyans_ireland",
+        "https://doi.org/10.15468/cijjon"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Biodiversity Data Centre: Collated by the National Biodiversity Data Centre from different sources - Chondrichthyans Of Ireland. Dataset/Occurrence. https://doi.org/10.15468/cijjon",
+    "version": "2023-12-08T17:10:51.000Z",
+    "keywords": [
+        "Chondrichthyes",
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "DayNight",
+            "url": "",
+            "description": "DayNight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/cijjon",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/cijjon",
+        "url": "https://doi.org/10.15468/cijjon"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=chondrichthyans_ireland",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-14.8665 48.6332,-14.8665 56.315,-5.1833 56.315,-5.1833 48.6332,-14.8665 48.6332"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19590",
+            "@type": "Organization",
+            "legalName": " National Biodiversity Data Centre",
+            "name": " National Biodiversity Data Centre",
+            "url": "https://oceanexpert.org/institution/19590"
+        }
+    ]
+}

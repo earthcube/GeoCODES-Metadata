@@ -1,0 +1,93 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/35388ea8-2f75-4a9b-9e7d-6bec69dbd72d",
+    "name": "National ferrybox project - discrete sampling by IMWM",
+    "description": "Since 2008, discrete sampling twice a week in the vegetation period. Along the Southern Baltic - a transect from Gdynia (Poland)  to Karlskrona (Sweden). Measurements of chlorophyll a, phytoplankton, hepatoxins.",
+    "url": "https://obis.org/dataset/35388ea8-2f75-4a9b-9e7d-6bec69dbd72d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=polish_ferrybox_phytoplankton_data"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Institute of Meteorology and Water Management - IMGW, Poland; (2016). National ferrybox project - discrete sampling by IMWM",
+    "version": "2023-05-23T11:40:43.000Z",
+    "keywords": [
+        "Biological sampling",
+        "Discrete",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "PEG_BVOL_year_HELCOM_COMBINE",
+            "url": "",
+            "description": "PEG_BVOL_year_HELCOM_COMBINE"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sizeclass",
+            "url": "",
+            "description": "Sizeclass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biovolume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL14/",
+            "description": "Biovolume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CarbonBiomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL12/",
+            "description": "CarbonBiomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=polish_ferrybox_phytoplankton_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "15.63333 54.53333,15.63333 56.01667,18.86667 56.01667,18.86667 54.53333,15.63333 54.53333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

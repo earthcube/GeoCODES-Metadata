@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b325d40a-4dae-4b65-8f1f-6d363a181a69",
+    "name": "parasites_deep-sea",
+    "description": "Parásitos de peces de profundidad de seis especies de profundidad. Macrourus holotrachys, Antimora rostrata, Coryphaenoides ariommus, Coelorhynchus sp. y Diastobranchus capensis del mar profundo de Chile.",
+    "url": "https://obis.org/dataset/b325d40a-4dae-4b65-8f1f-6d363a181a69",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=ocurrence_parasites"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Ñacari L A (2018): parasites_deep-sea. v1.4. Universidad de Concepción e Instituto Milenio de Oceanografía (IMO). Dataset/Occurrence. http://ipt.iobis.org/esp-obis/resource?r=ocurrence_parasites&amp;v=1.4",
+    "version": "2022-01-31T20:53:47.000Z",
+    "keywords": [
+        "Occurrence",
+        "Marine parasite",
+        "Deep-sea",
+        "Chile"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=ocurrence_parasites",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-72.88333333 -35.08333333,-72.88333333 -22.26666667,-70.63333333 -22.26666667,-70.63333333 -35.08333333,-72.88333333 -35.08333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16784",
+            "@type": "Organization",
+            "legalName": "Instituto Milenio de Oceanografía",
+            "name": "Instituto Milenio de Oceanografía",
+            "url": "https://oceanexpert.org/institution/16784"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18868",
+            "@type": "Organization",
+            "legalName": "Universidad de Antofagasta",
+            "name": "Universidad de Antofagasta",
+            "url": "https://oceanexpert.org/institution/18868"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/706a6f92-0fe6-44b0-980a-e5e0fa53166f",
+    "name": "Survey data of tidal flats on the Monitoring sites 1000 project, BDCJ",
+    "description": "This dataset contains data of the occurrence of macrozoobenthos which was recorded at survey sites of the Monitoring Sites 1000 Projects: Coastal Area Survey (Tidal flats). The annual survey was carried out with eight places of Japanese coast from north (Hokkaido) to south (Okinawa). In addition, the data about reference specimens in the survey every five years is included. The data of this dataset is derived from the data file of the Monitoring Sites 1000 Projects: Coastal Area Survey. The data file includes the information about quantity data of macrozoobenthos (the number of individuals per quadrats).",
+    "url": "https://obis.org/dataset/706a6f92-0fe6-44b0-980a-e5e0fa53166f",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=bdcj_mot-tf"
+    ],
+    "license": "This work is licensed under a\n                 Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Biodiversity Center of Japan, Ministry of the Environment. Data file of tidal flats survey on Monitoring sites 1000 project at http://www.biodic.go.jp/moni1000/findings/data/index_file_tidalflats.html. Accessed on yyyy-mm-dd.",
+    "version": "2023-06-10T07:17:59.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=bdcj_mot-tf",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "124.13695 24.44,124.13695 43.0525,144.9432 43.0525,144.9432 24.44,124.13695 24.44"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19339",
+            "@type": "Organization",
+            "legalName": "Ministry of the Environment",
+            "name": "Ministry of the Environment",
+            "url": "https://oceanexpert.org/institution/19339"
+        }
+    ]
+}

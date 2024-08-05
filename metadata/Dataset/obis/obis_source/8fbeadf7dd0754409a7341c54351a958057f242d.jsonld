@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/81903d9a-f9f2-4bee-ab8c-07609b308e6b",
+    "name": "Invertebrates of the Recherche Archipelago , Western Australia (2002)",
+    "description": "The Recherche Archipelago is a chain of approximately 105 islands and 1500 islets extending over 470 km of coastline (230 km linear distance) in temperate southern Western Australia with a wide variety of benthic habitats (Seagrass, Reef, Rhodoliths and Sand). In October 2002, macroalgae, sessile invertebrates and reef fish assemblages were surveyed in the Recherche Archipelago, by stratifying sampling by depth, exposure and island group. The factor depth was stratified into three groups: &lt;10 m, 10 to 20 m, 20 to 28 m (hereafter referred as &gt;20 m). Exposure was defined as sheltered (mainland-facing side of the island) and exposed (seaward-facing side of the island). Island groups consisted of islands inshore (Woody, Thomas, and Black Island) and offshore (Remark, Long, and Frederick) Esperance Bay as well as Mondrain and Figure of Eight Islands, within the Western Archipelago.\nData and report sourced from https://data.pawsey.org.au/public/?path=/WA%20Node%20Ocean%20Data%20Network/AODN/FRDC_Recherche and https://www.frdc.com.au/project/2001-060 respectively.",
+    "url": "https://obis.org/dataset/81903d9a-f9f2-4bee-ab8c-07609b308e6b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=frdc_recherche_invertebrates"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T03:12:15.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=frdc_recherche_invertebrates",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "121.93509 -34.05882,121.93509 -33.88717,122.02193 -33.88717,122.02193 -34.05882,121.93509 -34.05882"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18840",
+            "@type": "Organization",
+            "legalName": "The University of Western Australia",
+            "name": "The University of Western Australia",
+            "url": "https://oceanexpert.org/institution/18840"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

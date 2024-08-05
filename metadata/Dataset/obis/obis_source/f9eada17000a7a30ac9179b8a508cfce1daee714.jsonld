@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/38f2df58-b9e5-4ded-854e-fbf37c0be23c",
+    "name": "Biometric measurements of the seagrass Zostera noltii in the Mira channel of the Ria de Aveiro throughout the year 2020",
+    "description": "Biometric measurements (shoot density, leaf width, leaves per shoot and leaf area) carried out in the Zostera noltei meadows along the Mira channel of the Ria de Aveiro lagoon throughout 2020.",
+    "url": "https://obis.org/dataset/38f2df58-b9e5-4ded-854e-fbf37c0be23c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=noltei_mira_2020",
+        "https://dx.doi.org/10.14284/529"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Guerrero-Meseguer L, Rubal M (2021)Biometric measur ements of the seagrass Zostera noltii in the Mira channel of the Ria de Aveiro throughout the year 2020 https://dx.doi.org/10.14284/529",
+    "version": "2024-02-26T23:38:01.000Z",
+    "keywords": [
+        "Biometrics",
+        "Sea grass",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Leaf surface area",
+            "url": "",
+            "description": "Leaf surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Leaf width",
+            "url": "",
+            "description": "Leaf width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Leaves per shoot",
+            "url": "",
+            "description": "Leaves per shoot"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Shoot density",
+            "url": "",
+            "description": "Shoot density"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2020",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/529",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/529",
+        "url": "https://dx.doi.org/10.14284/529"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=noltei_mira_2020",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-8.743483 40.595125,-8.743483 40.6254,-8.73575 40.6254,-8.73575 40.595125,-8.743483 40.595125"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

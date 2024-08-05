@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/75da81ec-cdd9-4bbc-aaeb-c499df50fe68",
+    "name": "Copepodos Chile",
+    "description": "Copepods are numerically dominant and major contributors to the zooplankton biomass in the coastal upwelling zone of the eastern South Pacific. This data set comprises the majority of planktonic species of copepods found in the upwelling Northern Chile and Central/southern Chile.",
+    "url": "https://obis.org/dataset/75da81ec-cdd9-4bbc-aaeb-c499df50fe68",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=copepodoschile"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2019-08-16T22:15:18.000Z",
+    "keywords": [
+        "Biology",
+        "Zooplankton",
+        "Marine"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=copepodoschile",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.71199799 -36.51599884,-73.71199799 -20,-70.13330078 -20,-70.13330078 -36.51599884,-73.71199799 -36.51599884"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16784",
+            "@type": "Organization",
+            "legalName": "Instituto Milenio de Oceanografía",
+            "name": "Instituto Milenio de Oceanografía",
+            "url": "https://oceanexpert.org/institution/16784"
+        }
+    ]
+}

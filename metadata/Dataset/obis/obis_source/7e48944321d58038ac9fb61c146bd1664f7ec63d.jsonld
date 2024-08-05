@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2e34a667-0140-40a4-a5c3-a4b0e37ae88c",
+    "name": "IndOBIS Dataset (8001-10000)",
+    "description": "A literature-based dataset comprises distribution records of marine organisms reported from the Indian Ocean region gathered as part of the MLR Programme- Integrated Taxonomic Information System (ITIS).",
+    "url": "https://obis.org/dataset/2e34a667-0140-40a4-a5c3-a4b0e37ae88c",
+    "sameAs": [
+        "http://ipt.iobis.org/indobis/resource?r=indobisdataset8001-10000"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Indian Ocean Biodiversity Information System (IndOBIS)- Distribution records of marine organisms from the Indian Ocean.",
+    "version": "2021-12-23T11:03:17.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1758/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/indobis/archive.do?r=indobisdataset8001-10000",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "18.416666 -40.9,18.416666 28.58,147.75 28.58,147.75 -40.9,18.416666 -40.9"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7503",
+            "@type": "Organization",
+            "legalName": "CSIR - National Institute of Oceanography, Goa",
+            "name": "CSIR - National Institute of Oceanography, Goa",
+            "url": "https://oceanexpert.org/institution/7503"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11420",
+            "@type": "Organization",
+            "legalName": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "name": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "url": "https://oceanexpert.org/institution/11420"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/62b97724-da17-4ca7-9b26-b2a22aeaab51",
+    "name": "18S Monterey Bay Time Series: an eDNA data set from Monterey Bay, California, including years 2006, 2013 - 2016",
+    "description": "These data are from marine filtered seawater samples collected at a nearshore station in Monterey Bay, CA. They have undergone metabarcoding for the 18S V9 region. A selection of samples from this plate were included in the publication \"Environmental DNA reveals seasonal shifts and potential interactions in a marine community\" (Djurhuus et al., 2020). Samples were collected by CTD rosette and filtered by a peristaltic pump system.\nIllumina MiSeq metabarcoding data was processed in the following steps: (1) primer sequences were removed through atropos (Didion et al., 2017), (2) reads were denoised, ASV sequences inferred, paired reads merged and chimeras removed through Dada2 (Callahan et al., 2016), (3) taxonomic ranks were assigned through blastn searches to NCBI GenBank's non-redundant nucleotide database (nt) with hits filtered by lowest common ancestor algorithm within MEGAN6 (Huson et al., 2016). Furthermore, post-MEGAN6 filtering was performed to ensure only contigs with a hit of ≥97% sequence identity were annotated to the species level and only contigs with a hit of ≥95% sequence identity were annotated to the genus level. Annotations were elevated to the next highest taxonomic level for contigs that failed these conditions.\nData are presented in two comma-separated values files: occurrence.csv, and DNADerivedData.csv. The former contains the taxonomic identification of each ASV observed and its number of reads, in addition to relevant metadata including the location the water sample was taken, references for the identification procedure, and links to archived sequences. The latter contains the DNA sequence of each ASV observed, in addition to relevant metadata including primer information and links to detailed field and laboratory methods. This data set was transformed from its native format into a table structure using Darwin Core and DNA Derived Data Extension term names as column names.\nReferences:\nDjurhuus, A, Closek, CJ, Kelly, RP et al. (2020). Environmental DNA reveals seasonal shifts and potential interactions in a marine community. Nat Commun 11, 254. https://doi.org/10.1038/s41467-019-14105-1\nDidion JP, Martin M, Collins FS. (2017) Atropos: specific, sensitive, and speedy trimming of sequencing reads. PeerJ 5:e3720 https://doi.org/10.7717/peerj.3720\nCallahan, B., McMurdie, P., Rosen, M. et al. (2016) DADA2: High-resolution sample inference from Illumina amplicon data. Nat Methods 13, 581–583 . https://doi.org/10.1038/nmeth.3869\nHuson DH, Beier S, Flade I, Górska A, El-Hadidi M, Mitra S, Ruscheweyh HJ, Tappu R. (2016) MEGAN community edition-interactive exploration and analysis of large-scale microbiome sequencing data. PLoS computational biology.  Jun 21;12(6):e1004957.",
+    "url": "https://obis.org/dataset/62b97724-da17-4ca7-9b26-b2a22aeaab51",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=18s_monterey_bay_time_series_edna"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-01-18T16:56:38.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "18S"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=18s_monterey_bay_time_series_edna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-121.85 36.7933,-121.85 36.7983,-121.8383 36.7983,-121.8383 36.7933,-121.85 36.7933"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7363",
+            "@type": "Organization",
+            "legalName": "Monterey Bay Aquarium Research Institute",
+            "name": "Monterey Bay Aquarium Research Institute",
+            "url": "https://oceanexpert.org/institution/7363"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23070",
+            "@type": "Organization",
+            "legalName": "United States Marine Biodiversity Observation Network",
+            "name": "United States Marine Biodiversity Observation Network",
+            "url": "https://oceanexpert.org/institution/23070"
+        }
+    ]
+}

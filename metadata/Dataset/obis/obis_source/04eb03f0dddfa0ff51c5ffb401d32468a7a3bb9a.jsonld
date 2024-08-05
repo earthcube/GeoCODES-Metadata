@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/91aba9e5-a179-410c-82bd-7eb0829fbcbb",
+    "name": "Zooplankton in the Sluice Dock (Oostende) sampled between 1968 and 1972",
+    "description": "Zooplankton data (density, biomass, respiration, production, grazing) and chlorophyll a measurements in the Sluice Dock sampled between 1968 and 1972. The data were digitized by VLIZ from the original report: Polk-Daro, M.H. (1974). De rol van het zooplankton in de ekologie van de Spuikom te Oostende. PhD Thesis. Vrije Universiteit Brussel: Brussel. 2 vol. Pp.",
+    "url": "https://obis.org/dataset/91aba9e5-a179-410c-82bd-7eb0829fbcbb",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zooplankton_in_the_sluice_dock_oostende_sampled_between_1968_and_1972",
+        "https://dx.doi.org/10.14284/239"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Polk-Daro M.H.; Den Hartog C.; Fakulteit Wetenschappen; Dienst Ekologie en Systematiek. VUB: Belgium; Rijksherbarium Leiden: The Netherlands; (2016): Zooplankton in the Sluice Dock (Oostende) sampled between 1968 and 1972. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5445) https://dx.doi.org/10.14284/239",
+    "version": "2023-05-23T11:50:27.000Z",
+    "keywords": [
+        "coastal structure",
+        "Digitization",
+        "Mortality",
+        "Respiration",
+        "Zooplankton grazing",
+        "Zooplankton productivity",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "life stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average concentration of chlorophyll a",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CHLAEPIM/",
+            "description": "Average concentration of chlorophyll a"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "density",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Generation of biomass fresh weight of the population (mg/50L) per week",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600012/",
+            "description": "Generation of biomass fresh weight of the population (mg/50L) per week"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of samples taken on eventDate",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/TMES/",
+            "description": "Number of samples taken on eventDate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mortality - decrease of carbon mass per square meter per week",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS6652/",
+            "description": "mortality - decrease of carbon mass per square meter per week"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind force",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WMOCWFBF/",
+            "description": "Wind force"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1968/1972",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/239",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/239",
+        "url": "https://dx.doi.org/10.14284/239"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zooplankton_in_the_sluice_dock_oostende_sampled_between_1968_and_1972",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        }
+    ]
+}

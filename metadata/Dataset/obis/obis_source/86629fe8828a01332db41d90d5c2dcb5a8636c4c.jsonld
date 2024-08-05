@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/92b694e1-1534-4d37-8e11-3c2c6d2d5edc",
+    "name": "Southern Surveyor Voyage SS 03/2005 Box Core Infauna Samples, Gulf of  Carpentaria, Australia (2005)",
+    "description": "The dataset comprises catch records of invertebrates and fish from epibenthic sled deployments completed on research voyage SS 03/2005. The survey design was a natural experiment (i.e. control-impact, but not before-after) to test the long-term, broadscale effects of prawn fishing on non-target species and habitats. Deployments were stratified by fishing intensity (three strata) and day/night. The survey was repeated in three regions: (a) north of Groote Eylandt, (b) north-east of the Vanderlins, and (c) north of Mornington Island. The number of deployments completed as part of the natural experiment was 124. Two additional deployments were completed for other reasons.\nSurvey details (voyage track, deployments, reports, other datasets) are at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=SS200503",
+    "url": "https://obis.org/dataset/92b694e1-1534-4d37-8e11-3c2c6d2d5edc",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_ss200503_infauna"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Bustamante R (2023): Southern Surveyor Voyage SS 03/2005 Box Core Infauna Samples, Gulf of  Carpentaria, Australia (2005). v1.1. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=csiro_ss200503_infauna&amp;v=1.1",
+    "version": "2023-06-29T11:02:00.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Equipment used",
+            "url": "",
+            "description": "Equipment used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_ss200503_infauna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "136.7488 -16.16068,136.7488 -12.95953,140.36312 -12.95953,140.36312 -16.16068,136.7488 -16.16068"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5605",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "name": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "url": "https://oceanexpert.org/institution/5605"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

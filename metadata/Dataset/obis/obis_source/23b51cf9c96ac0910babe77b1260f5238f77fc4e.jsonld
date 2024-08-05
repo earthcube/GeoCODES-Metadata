@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d815b624-43e6-4e3e-9136-094353e776f8",
+    "name": "ANTXXIII-8 Birds and Mammals",
+    "description": "This dataset is a compilation of observation recorded by Henri Robert (Royal Belgian Instiute of Natural Sciences) and Gauthier Chapelle (International Polar Foundation) during the ANTXXIII-8 expedition.",
+    "url": "https://obis.org/dataset/d815b624-43e6-4e3e-9136-094353e776f8",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=antxxiii"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2019-03-19T14:43:34.000Z",
+    "keywords": [
+        "Aquatic mammals",
+        "Birds (marine)",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=antxxiii",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-63 -70,-63 -34,18 -34,18 -70,-63 -70"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19582",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen — Departement Invertebraten",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen — Departement Invertebraten",
+            "url": "https://oceanexpert.org/institution/19582"
+        }
+    ]
+}

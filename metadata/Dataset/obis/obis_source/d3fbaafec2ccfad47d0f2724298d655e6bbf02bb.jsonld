@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a97def2e-3a89-4a40-83c3-82ed18859ed1",
+    "name": "Marine species recorded in Ireland during field surveys by EcoServe, Ecological Consultancy Services Ltd.",
+    "description": "This dataset contains data on marine species recorded in Ireland during field suveys by EcoServe, Ecological Consultancy Services Ltd.",
+    "url": "https://obis.org/dataset/a97def2e-3a89-4a40-83c3-82ed18859ed1",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=marinelife_ireland",
+        "https://dx.doi.org/10.14284/485"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Allen D., Beckett B., Brophy J., Costello M.J., Emblow C., Maciejewska B., McCrea M., Nash R., Penk M. &amp; Tierney A. (2009) Marine species recorded in Ireland during field surveys by EcoServe, Ecological Consultancy Services Ltd. https://dx.doi.org/10.14284/485",
+    "version": "2024-02-26T23:21:44.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Check lists",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1999/2008",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/485",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/485",
+        "url": "https://dx.doi.org/10.14284/485"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=marinelife_ireland",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.424394 51.515586666666664,-10.424394 55.2758,-2.20691 55.2758,-2.20691 51.515586666666664,-10.424394 51.515586666666664"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19588",
+            "@type": "Organization",
+            "legalName": "High North Research Centre for Climate and the Environment",
+            "name": "High North Research Centre for Climate and the Environment",
+            "url": "https://oceanexpert.org/institution/19588"
+        }
+    ]
+}

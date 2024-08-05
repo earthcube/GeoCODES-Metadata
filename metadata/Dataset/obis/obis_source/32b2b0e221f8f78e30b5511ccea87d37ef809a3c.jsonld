@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2ae2a2bd-8412-405b-8a9f-b71adc41d4c5",
+    "name": "NOAA Pacific Islands Fisheries Science Center, Ecosystem Sciences Division, National Coral Reef Monitoring Program: Stratified random surveys (StRS) of reef fish in the U.S. Pacific Islands",
+    "description": "The stationary point count (nSPC) method is used by the NOAA Pacific Islands Fisheries Science Center (PIFSC), Ecosystem Sciences Division (ESD; formerly the Coral Reef Ecosystem Division) to conduct reef fish surveys in the Hawaiian and Mariana Archipelagos, American Samoa, and the Pacific Remote Island Areas. The first iteration of the nSPC surveys were conducted as part of the Pacific Reef Assessment and Monitoring Program (RAMP) from 2008-2012. In 2013 the reef fish surveys, and Pacific RAMP, became part of the NOAA National Coral Reef Monitoring Program (NCRMP). \n\nThe nSPC method catalogs the diversity (species richness), abundance (numeric density) and biomass (fish mass per unit area) of diurnally active reef fish assemblages in shallow-water (less than 30 m) hard-bottom habitats. Visual estimates of benthic cover and topographic complexity are also recorded, with benthic organisms grouped into broad functional categories (e.g., 'Hard Coral', 'Macroalgae'). A stratified random sampling (StRS) design is employed to survey the coral reef ecosystems throughout the U.S.-Pacific regions. For all regions, the survey domain encompasses the majority of the mapped area of reef and hard bottom habitats and the stratification includes island, reef zone, and depth, with the exception of the Main Hawaiian Islands that includes habitat structure type as well. Sampling effort is allocated based on strata area.\n\nReef fish and benthic estimate data provided in this data set were primarily collected during ESD-led research cruises funded by the NOAA Coral Reef Conservation Program (CRCP) as part of Pacific RAMP or NCRMP. Additionally, data collected during Papahānaumokuākea Marine National Monument led research cruises to the Northwestern Hawaiian Islands from 2007 to 2017, and PIFSC annual Reef Fish Survey cruises from 2014 to 2016 in Guam, the main Hawaiian Islands, and American Samoa, respectively, are also included as these data are funded separately from but are complementary to the CRCP-funded data.",
+    "url": "https://obis.org/dataset/2ae2a2bd-8412-405b-8a9f-b71adc41d4c5",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=ncrmp_nspc_fish_pacific"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Williams I, DesRochers A (2020). NOAA Pacific Islands Fisheries Science Center, Ecosystem Sciences Division, National Coral Reef Monitoring Program: Stratified random surveys (StRS) of reef fish in the U.S. Pacific Islands. Version 1.2. United States Geological Survey. Sampling event dataset https://doi.org/10.15468/tk1hwm",
+    "version": "2021-08-25T16:46:53.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "\"LW_A\" Fish Species Parameter used in length-weight calculations",
+            "url": "",
+            "description": "\"LW_A\" Fish Species Parameter used in length-weight calculations"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "\"LW_B\" Fish Species Parameter used in length-weight calculations",
+            "url": "",
+            "description": "\"LW_B\" Fish Species Parameter used in length-weight calculations"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Consumer type: APEX (apex predator), Cor (corallivore), H (herbivore), MI (mobile invertivore), Om (Omnivore), Par (parrotfish), Pisc (piscivore), Pk (planktivore), SI (sessile invertivore), X (if unidentified fish), Z (zooplantivore)",
+            "url": "",
+            "description": "Consumer type: APEX (apex predator), Cor (corallivore), H (herbivore), MI (mobile invertivore), Om (Omnivore), Par (parrotfish), Pisc (piscivore), Pk (planktivore), SI (sessile invertivore), X (if unidentified fish), Z (zooplantivore)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Theoretical maximum length for fish species",
+            "url": "",
+            "description": "Theoretical maximum length for fish species"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length conversion factor used to determine fish max length",
+            "url": "",
+            "description": "Length conversion factor used to determine fish max length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Trophic level (Primary Consumer, Secondary Consumer, Planktivore, Piscivore)",
+            "url": "",
+            "description": "Trophic level (Primary Consumer, Secondary Consumer, Planktivore, Piscivore)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of individuals of a species of the same length observed within a given time",
+            "url": "",
+            "description": "Number of individuals of a species of the same length observed within a given time"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fish Total Length, TL",
+            "url": "",
+            "description": "Fish Total Length, TL"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Crustose Coralline Algae Substrate Cover",
+            "url": "",
+            "description": "Crustose Coralline Algae Substrate Cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Hard Coral Substrate Cover",
+            "url": "",
+            "description": "Hard Coral Substrate Cover"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=ncrmp_nspc_fish_pacific",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.3843301 -14.88716,-178.3843301 28.459465,166.6604718 28.459465,166.6604718 -14.88716,-178.3843301 -14.88716"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11379",
+            "@type": "Organization",
+            "legalName": "National Oceanic and Atmospheric Administration, Washington",
+            "name": "National Oceanic and Atmospheric Administration, Washington",
+            "url": "https://oceanexpert.org/institution/11379"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20188",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Ocean Observing System",
+            "name": "Pacific Islands Ocean Observing System",
+            "url": "https://oceanexpert.org/institution/20188"
+        }
+    ]
+}

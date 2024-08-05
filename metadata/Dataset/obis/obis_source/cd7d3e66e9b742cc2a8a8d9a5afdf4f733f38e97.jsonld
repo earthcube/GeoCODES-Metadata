@@ -1,0 +1,104 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/94733b9b-61d0-40c3-8577-440dd4cb2c41",
+    "name": "Royal Belgian Institute of Natural Sciences Mammalia Collection (Mammalia)",
+    "description": "The Royal Belgian Institute of Natural Sciences Mammalia collection contains 650 digitised specimens over 56 taxa (mostly species). This dataset only contains the marine species of the collection. The following classes are included: Mammalia Linnaeus, 1758, Reptilia Laurenti, 1768.",
+    "url": "https://obis.org/dataset/94733b9b-61d0-40c3-8577-440dd4cb2c41",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=be_rbins_vertebrates_mammalia"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Semal, P. (2020) Royal Belgian Institute of Natural Sciences Mammalia collection",
+    "version": "2023-12-08T17:21:05.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_elevation",
+            "url": "https://www.wikidata.org/wiki/Q2633778/",
+            "description": "sampling_elevation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "body_length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "body_length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "body_weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "body_weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+            "description": "sampling_depth"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1822/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=be_rbins_vertebrates_mammalia",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-162.1666666667 -78.15856,-162.1666666667 72.5,155.7333333333 72.5,155.7333333333 -78.15856,-162.1666666667 -78.15856"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

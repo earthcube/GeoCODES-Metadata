@@ -1,0 +1,97 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a20a5836-2902-43cb-b505-74b281300e91",
+    "name": "Romanian Black Sea Phytoplankton data from 1975 to 1980",
+    "description": "The phytoplankton dataset includes samples collected from shallow to shelf Romanian waters, in the period 1975 - 1980, from March to November; there is no similar frequency each year. Dataset contains abundance data (cells per liter) and biomass (mg/m3) for individual phytoplankton taxa.",
+    "url": "https://obis.org/dataset/a20a5836-2902-43cb-b505-74b281300e91",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ro_black_sea_fpk_1975_1980"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Laura Boicenco, Oana Culcea, Elena Pantea (2017). Romanian Black Sea Phytoplankton data from 1975 to 1980. NIMRD-National Institute for Marine Research and Development \"Grigore Antipa\"",
+    "version": "2023-12-08T17:09:16.000Z",
+    "keywords": [
+        "Species composition",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Volume sampled of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "Volume sampled of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass as carbon of biological entity specified elsewhere per unit volume of the water body by morphometric measurements of each species, calculating the total volume of the various species",
+            "url": "",
+            "description": "Biomass as carbon of biological entity specified elsewhere per unit volume of the water body by morphometric measurements of each species, calculating the total volume of the various species"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1975/1980",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ro_black_sea_fpk_1975_1980",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "28.68333333 44.08333333,28.68333333 45.08333333,30.03333333 45.08333333,30.03333333 44.08333333,28.68333333 44.08333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8113",
+            "@type": "Organization",
+            "legalName": "National Institute for Marine Research and Development “Grigore Antipa”",
+            "name": "National Institute for Marine Research and Development “Grigore Antipa”",
+            "url": "https://oceanexpert.org/institution/8113"
+        }
+    ]
+}

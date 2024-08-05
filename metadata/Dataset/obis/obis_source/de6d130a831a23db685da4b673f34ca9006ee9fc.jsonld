@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c9ef68c5-b82b-4545-9d7c-aeaebcc5e99f",
+    "name": "Spatial distribution of the macrobenthic fauna in Laki Lagoon (Evros Delta, N. Aegean Sea)",
+    "description": "The dataset contains biotic data from different stations in the Laki lagoon in the Ervos Delta in Southeast Greece. It contains presence/absence data for 15 species at stations in september 1997.",
+    "url": "https://obis.org/dataset/c9ef68c5-b82b-4545-9d7c-aeaebcc5e99f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=marcroben_evros_laki"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Mogias, A &amp; Kevrekidis, T; Spatial distribution of the macrobenthic fauna in Laki Lagoon (Evros Delta, N. Aegean Sea); Democritus University of Thrace; Department of Primary Education. Http://www.vliz.be/imis/imis.php?module=dataset&amp;dasid=2972",
+    "version": "2023-12-08T18:32:00.000Z",
+    "keywords": [
+        "Environmental conditions",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=marcroben_evros_laki",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "26.005536 40.803581,26.005536 40.817613,26.01124 40.817613,26.01124 40.803581,26.005536 40.803581"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

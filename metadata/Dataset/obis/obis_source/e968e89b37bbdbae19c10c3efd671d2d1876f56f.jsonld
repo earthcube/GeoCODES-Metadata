@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3410f695-4bbb-40c3-82e9-1991c30d4d6d",
+    "name": "Sistema de Monitoreo de Arrecifes Coralinos - SIMAC: Salud Coralina",
+    "description": "Los datos se derivan de la línea de investigación del SIMAC: Sistema de monitoreo para los ambientes arrecifales en Colombia y evaluación de agentes de mortalidad coralina; dentro del programa de Biodiversidad y Ecosistemas Marinos. El proyecto busca generar información sobre la salud y la dinámica de los arrecifes coralinos en Colombia, mediante la evaluación de su estado. De esta forma contribuir al entendimiento y conservación del sistema arrecifal, así como al uso sostenible de sus recursos. En este conjunto de datos se reporta la información sobre la salud coralina en estaciones de monitoreo del SIMAC, ubicadas en el Mar Caribe y Océano Pacífico colombiano, que corresponde a un total de 46424 registros biológicos obtenidos entre 1998 y 2018. ",
+    "url": "https://obis.org/dataset/3410f695-4bbb-40c3-82e9-1991c30d4d6d",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=invemar_simac_saludcoralina",
+        "https://doi.org/10.15472/iqg4rz"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Garzón-Ferreira J, Gil D L, Rodríguez A, Mejía N, Rojas J, Navas Camacho R, Bejarano S, Duque G, López M, Herrera O, Posada S, Zapata F, Aguirre A, Bernal C, Manrrique N, Muñoz C, Ortiz M, Rodríguez M, Orozco C, Zea S, Olaya J, Vega J, Santodomingo N, Gómez K, Bolaños N, Abril A, Gutiérrez C, Gómez López D I, Torres J, Prato J (2021): Sistema de Monitoreo de Arrecifes Coralinos - SIMAC: Salud Coralina. v1.0. Instituto de Investigaciones Marinas y Costeras - Invemar. Dataset/Occurrence. https://doi.org/10.15472/iqg4rz",
+    "version": "2021-10-26T14:12:46.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "INVEMAR",
+        "Salud Coralina",
+        "Corales",
+        "Monitoreo",
+        "Mar Caribe",
+        "Océano Pacífico"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/iqg4rz",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/iqg4rz",
+        "url": "https://doi.org/10.15472/iqg4rz"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=invemar_simac_saludcoralina",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.7333333 2.9404166,-81.7333333 13.4560278,-74.1119444 13.4560278,-74.1119444 2.9404166,-81.7333333 2.9404166"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6795",
+            "@type": "Organization",
+            "legalName": "Instituto de Investigaciones Marinas y Costeras José Benito Vives de Andreis",
+            "name": "Instituto de Investigaciones Marinas y Costeras José Benito Vives de Andreis",
+            "url": "https://oceanexpert.org/institution/6795"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19053",
+            "@type": "Organization",
+            "legalName": "Sistema de Información sobre Biodiversidad de Colombia - SiB Colombia",
+            "name": "Sistema de Información sobre Biodiversidad de Colombia - SiB Colombia",
+            "url": "https://oceanexpert.org/institution/19053"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/105b3c12-a0c1-497e-bc61-4d8a09c30a69",
+    "name": "South Australian Museum Mammology Collection - marine records",
+    "description": "There are over 24,000 specimens in this collection, including skulls, skins, skeletons, spirit specimens, photographs and frozen tissue. It includes over 1600 marine mammals and its comprehensiveness makes this collection the best of its kind in Australia.\nThe collection has also historical importance as it includes many specimens from early expeditions in Australia and to the subantarctic Islands and Antarctica. Well-known people such as Sir Douglas Mawson, Edgar R. Waite and Hedley Finlayson have contributed to the collection.\nData downloaded from ALA (http://collections.ala.org.au/public/show/co126) on 2022-06-01 and non-marine records have been excluded. Taxa have been matched to the World Register of Marine Species.",
+    "url": "https://obis.org/dataset/105b3c12-a0c1-497e-bc61-4d8a09c30a69",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=sam_marine_mammalogy"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-23T03:17:58.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1885/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=sam_marine_mammalogy",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-153.6667 -57.4944,-153.6667 57.3333,177.53 57.3333,177.53 -57.4944,-153.6667 -57.4944"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19474",
+            "@type": "Organization",
+            "legalName": "South Australian Museum",
+            "name": "South Australian Museum",
+            "url": "https://oceanexpert.org/institution/19474"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

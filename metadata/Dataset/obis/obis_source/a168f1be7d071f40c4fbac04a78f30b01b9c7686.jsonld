@@ -1,0 +1,98 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/76e20e5d-0bbc-4a0f-90c7-598a3edd4258",
+    "name": "Hakai Institute Juvenile Salmon Program",
+    "description": "The Hakai Institute Juvenile Salmon Program has been monitoring juvenile salmon migrations in the Discovery Islands and Johnstone Strait in British Columbia Canada, since 2015 to understand how ocean conditions experienced by juvenile salmon during their early marine migration impacts their growth, health and ultimately survival.",
+    "url": "https://obis.org/dataset/76e20e5d-0bbc-4a0f-90c7-598a3edd4258",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=hakai_jsp",
+        "http://dx.doi.org/10.21966/1.566666"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Johnson B, Gan J, Godwin S, Bachen K, van der Stap T, Krkosek M, Rogers L, Lauren P, Janusson C, Hunt B (2023). Hakai Institute Juvenile Salmon Program. Version 1.26. Canadian node of the Ocean Biogeographic Information System (OBIS Canada). Samplingevent dataset. http://dx.doi.org/10.21966/1.566666",
+    "version": "2023-06-14T17:07:00.000Z",
+    "keywords": [
+        "Fish",
+        "Fisheries",
+        "Salmon",
+        "Marine Ecology",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Life stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length (fork length)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FL01XX01/",
+            "description": "Length (fork length)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Standard length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SL01XX01/",
+            "description": "Standard length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2022",
+    "identifier": {
+        "@id": "http://dx.doi.org/10.21966/1.566666",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.21966/1.566666",
+        "url": "http://dx.doi.org/10.21966/1.566666"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=hakai_jsp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-126.81988 49.9613,-126.81988 50.60278,-124.747 50.60278,-124.747 49.9613,-126.81988 49.9613"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5899",
+            "@type": "Organization",
+            "legalName": "University of British Columbia",
+            "name": "University of British Columbia",
+            "url": "https://oceanexpert.org/institution/5899"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6963aa86-a154-459c-aeb0-0496668512f6",
+    "name": "Marine Biological Sample Database, JAMSTEC",
+    "description": "This dataset contains data of biological samples which were collected during scientific missions of JAMSTEC ships (NATSUSHIMA, KAIYO, YOKOSUKA, KAIREI and MIRAI) and submersibles.Data of this dataset is derived from the Marine Biological Sample Database of JAMSTEC. At the original database, you may search sample information such as number of individuals, preservation methods, sex, life stages, identification, collecting information and related literatures.",
+    "url": "https://obis.org/dataset/6963aa86-a154-459c-aeb0-0496668512f6",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=jamstec_sampledb"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Japan Agency for Marine-Earth Science and Technology (2016 onwards). JAMSTEC Marine Biological Samples Database. https://doi.org/10.48518/00001. Accessed on yyyy-mm-dd.",
+    "version": "2023-05-24T10:28:54.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1982/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=jamstec_sampledb",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.9828 -34.8815,-179.9828 79.1833,180 79.1833,180 -34.8815,-179.9828 -34.8815"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18293",
+            "@type": "Organization",
+            "legalName": "JAMSTEC Tokyo Office",
+            "name": "JAMSTEC Tokyo Office",
+            "url": "https://oceanexpert.org/institution/18293"
+        }
+    ]
+}

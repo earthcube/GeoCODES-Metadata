@@ -1,0 +1,113 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/23c8118f-5343-4fca-a09a-de477348e0b2",
+    "name": "Stable isotope ratios of C and N in benthic macrofauna from Mediterranean seagrass litter accumulations from Calvi Bay in 2011-2012",
+    "description": "Measurements of trophic markers performed in benthic macrofauna sampled in seagrass litter accumulations from Calvi Bay (Corsica, France) in 2011-2012.",
+    "url": "https://obis.org/dataset/23c8118f-5343-4fca-a09a-de477348e0b2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=stable_isotopes",
+        "https://dx.doi.org/10.14284/454"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Michel, L.; Remy, F.; Mascart, T.; De Troch, M.; Lepoint, G.; (2021): Stable isotope ratios of C and N in benthic macrofauna from Mediterranean seagrass litter accumulations from Calvi Bay in 2011-2012. Marine Data Archive. https://dx.doi.org/10.14284/454",
+    "version": "2023-05-23T12:23:59.000Z",
+    "keywords": [
+        "Food webs",
+        "Mediterranean",
+        "Phytodetritus",
+        "Seagrass",
+        "Stable isotopes",
+        "Trophic markers",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "preservationMethod",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "preservationMethod"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "C13",
+            "url": "",
+            "description": "C13"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "N15",
+            "url": "",
+            "description": "N15"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2012",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/454",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/454",
+        "url": "https://dx.doi.org/10.14284/454"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=stable_isotopes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "8.72444 42.57389,8.72444 42.57972,8.72611 42.57972,8.72611 42.57389,8.72444 42.57389"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16194",
+            "@type": "Organization",
+            "legalName": "Université de Liège",
+            "name": "Université de Liège",
+            "url": "https://oceanexpert.org/institution/16194"
+        }
+    ]
+}

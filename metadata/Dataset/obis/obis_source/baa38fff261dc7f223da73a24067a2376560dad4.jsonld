@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/aaf1a74e-d12a-42da-8203-bdd1fe3bd42b",
+    "name": "IndOBIS Dataset (48001-50000)",
+    "description": "The dataset comprises of distribution records of marine organisms reported from the Indian Ocean region gathered as part of the MLR Programme- Integrated Taxonomic Information System (IT IS)",
+    "url": "https://obis.org/dataset/aaf1a74e-d12a-42da-8203-bdd1fe3bd42b",
+    "sameAs": [
+        "http://ipt.iobis.org/indobis/resource?r=indobisdataset-48001-50000"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Indian Ocean Biodiversity Information System (IndOBIS)- Distribution records of marine organisms from the Indian Ocean.",
+    "version": "2022-01-24T05:15:01.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1743/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/indobis/archive.do?r=indobisdataset-48001-50000",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "17.530556 -42.333332,17.530556 27.09,123.8 27.09,123.8 -42.333332,17.530556 -42.333332"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11420",
+            "@type": "Organization",
+            "legalName": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "name": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "url": "https://oceanexpert.org/institution/11420"
+        }
+    ]
+}

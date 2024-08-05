@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6b40c0b6-0df1-4fea-a2f3-742926ecba0b",
+    "name": "Zooplankton data from voyages of the research vessel Warreen, South East Australia  (1938-1942)",
+    "description": "This dataset contains surface net and N70 net plankton data collected by FRV \"Warreen\" over the period May 1938-July 1942 in south-eastern Australian waters. Voyages in 1938-1939 were largely exploratory in nature, while those in 1940-1942 aimed at biannual sampling of specified transect lines ranging from Byron Bay to off Tasmania. Details of fish collections from these voyages were published elsewhere. \"Warreen\" was seconded for war work in September 1942 and this sequence of observations ceased. The data were published in 2 volumes of CSIRO's \"Oceanographical Station List\" series. Volume 1 of the published data is prefaced by a description of the \"Warreen\". Additional data was added in Dec 2010 with the digitization of the zooplankton records from the Warreen cruises of 1938-1942. The source dataset includes surface zooplankton observations with synoptic oceanographic conditions (see cited publication Baird et al 2011.)\nData is from https://marlin.csiro.au/geonetwork/srv/eng/catalog.search#/metadata/14229075-3293-46a4-a514-3d5b6678633a",
+    "url": "https://obis.org/dataset/6b40c0b6-0df1-4fea-a2f3-742926ecba0b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=warreen_zooplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": " (2022): Zooplankton data from voyages of the research vessel Warreen, South East Australia  (1938-1942). v1.1. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=warreen_zooplankton&amp;v=1.1",
+    "version": "2022-06-07T03:27:37.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gear Type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Gear Type"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1938/1942",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=warreen_zooplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "135.82 -44.33,135.82 -23.08,153.98 -23.08,153.98 -44.33,135.82 -44.33"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

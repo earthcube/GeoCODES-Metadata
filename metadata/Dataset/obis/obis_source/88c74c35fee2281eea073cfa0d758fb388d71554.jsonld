@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d0ff251e-b059-470e-88b6-aefa546f6ddf",
+    "name": "Cross Sands broadscale survey 1998",
+    "description": "Broadscale benthic survey undertaken by CEFAS off the east coast of the United Kingdom.",
+    "url": "https://obis.org/dataset/d0ff251e-b059-470e-88b6-aefa546f6ddf",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=csbs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cooper, K.M., S.E. Boyd &amp; H.L. Rees. Cross Sands broadscale survey 1998. Centre for Environment, Fisheries and Aquaculture, Burnham laboratory, Essex, UK.",
+    "version": "2023-12-08T17:48:58.000Z",
+    "keywords": [
+        "Benthos",
+        "Macrobenthos",
+        "Zoobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=csbs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.7024234 52.1815034,1.7024234 52.8150863,2.5261902 52.8150863,2.5261902 52.1815034,1.7024234 52.1815034"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

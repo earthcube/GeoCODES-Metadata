@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ed7cb012-2169-41e9-98b6-3da7c23d018f",
+    "name": "Specific diversity data of macrobenthic communities in the \"Pierre Noire\" study site in the English Channel from 1977 on",
+    "description": "Monitoring of species richness, abundances of all macrobenthic species, biomass, sediment grain size, temperature and salinity",
+    "url": "https://obis.org/dataset/ed7cb012-2169-41e9-98b6-3da7c23d018f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=benthobs-pn",
+        "https://doi.org/10.21411/kfms-pq29"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Houbin C, Thiebaut E, Hoebeke M (2019): Specific diversity data of macrobenthic communities in the \"Pierre Noire\" study site in the English Channel from 1977 on https://doi.org/10.21411/kfms-pq29",
+    "version": "2023-12-08T17:15:50.000Z",
+    "keywords": [
+        "Benthos",
+        "Data",
+        "Marine Genomics",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "density",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "description": "biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1977/2016",
+    "identifier": {
+        "@id": "https://doi.org/10.21411/kfms-pq29",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.21411/kfms-pq29",
+        "url": "https://doi.org/10.21411/kfms-pq29"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=benthobs-pn",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19642",
+            "@type": "Organization",
+            "legalName": "Station Biologique de Roscoff",
+            "name": "Station Biologique de Roscoff",
+            "url": "https://oceanexpert.org/institution/19642"
+        }
+    ]
+}

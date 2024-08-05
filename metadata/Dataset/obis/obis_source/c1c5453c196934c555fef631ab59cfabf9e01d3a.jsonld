@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1da4e98c-2b0a-499f-a869-15731d560b01",
+    "name": "Gulf of Riga Larval Fish Survey",
+    "description": "Dataset provided to ICES by the Estonian Marine Institute with ichthyoplankton records from the Gulf of Riga (Baltic Sea).",
+    "url": "https://obis.org/dataset/1da4e98c-2b0a-499f-a869-15731d560b01",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gorl"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES; (2020). Gulf of Riga Larval Fish Survey. Available online at http://eggsandlarvae.ices.dk",
+    "version": "2024-02-26T23:13:58.000Z",
+    "keywords": [
+        "Fish larvae",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "https://vocab.ices.dk/?ref=152/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gorl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "24.08333333 58.11666667,24.08333333 58.36666667,24.51666667 58.36666667,24.51666667 58.11666667,24.08333333 58.11666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

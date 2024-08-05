@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b1f8bc4c-5427-40c8-8728-aad4d463b944",
+    "name": "Marine Invertebrate from Argentina, Uruguay and Chile",
+    "description": "Data on invertebrate taxa were obtained from available literature, technical reports, databases, museum data collections and from the NaGISA project in the case of Golfo Nuevo rocky shore invertebrates. It should be taken into account that the data presented here does not represent a revision of the identifications. Species must be evaluated through the material deposited in museum collections or by searching the species in the locality or area that they were cited. However, and although data presented must be verified by experts of each group, these results should reflect the current knowledge of marine invertebrate biodiversity in the analyzed area. Georeferences are consigned as latitudinal and longitudinal ranks when a continuous distribution is assumed, and with data-points in case of discontinuous distribution.",
+    "url": "https://obis.org/dataset/b1f8bc4c-5427-40c8-8728-aad4d463b944",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=arobis-marineinvertebrate"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Bigatti G (2015): Marine Invertebrate from Argentina, Uruguay and Chile. v1.4. ArOBIS Centro Nacional Patagónico. Dataset/Occurrence. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=arobis-marineinvertebrate&amp;v=1.4",
+    "version": "2016-11-17T17:54:33.000Z",
+    "keywords": [
+        "Occurrence",
+        "marine invertebrate",
+        "Argentina",
+        "Uruguay",
+        "Chile",
+        "biodiversity"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=arobis-marineinvertebrate",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-89.099998 -73,-89.099998 3.3050001,173 3.3050001,173 -73,-89.099998 -73"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

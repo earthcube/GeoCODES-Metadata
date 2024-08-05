@@ -1,0 +1,90 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7239fcad-39bb-4fe6-84cc-4295cdf08143",
+    "name": "Counts of isopods sampled at Gazi Bay (Kenya) between 18 and 25 October 1994",
+    "description": "In October 1994, the hyperbenthos of Gazi Bay was sampled at 38 locations using a hyperbenthic sledge to study the diversity of isopods. Sampling (day and night) was conducted in as many different habitats as possible. The data were digitized by VLIZ from the original report: De Bont, R. (1999). Diversiteit van de isopoden van Gazi Bay (Kenia)= Diversity of the isopods of Gazi Bay, Kenya. Thesis. Universiteit Gent: Ghent. 28 pp.",
+    "url": "https://obis.org/dataset/7239fcad-39bb-4fe6-84cc-4295cdf08143",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hyperbenthic_gazi_bay_1994",
+        "https://dx.doi.org/10.14284/83"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "De Bont R.; Vincx M.; Vakgroep Biologie; Faculteit Wetenschappen. Universiteit Gent: Belgium; (2016): Counts of isopods sampled at Gazi Bay (Kenya) between 18 and 25 October 1994. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4502) https://dx.doi.org/10.14284/83",
+    "version": "2023-12-08T17:08:03.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Digitization"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "NetMeshSize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "NetMeshSize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/1994",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/83",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/83",
+        "url": "https://dx.doi.org/10.14284/83"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hyperbenthic_gazi_bay_1994",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "39.51128437 -4.447235242,39.51128437 -4.406848033,39.53229588 -4.406848033,39.53229588 -4.447235242,39.51128437 -4.447235242"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9162",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Faculteit Wetenschap",
+            "name": "Universiteit Gent, Faculteit Wetenschap",
+            "url": "https://oceanexpert.org/institution/9162"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11578",
+            "@type": "Organization",
+            "legalName": "Kenya Marine and Fisheries Research Institute",
+            "name": "Kenya Marine and Fisheries Research Institute",
+            "url": "https://oceanexpert.org/institution/11578"
+        }
+    ]
+}

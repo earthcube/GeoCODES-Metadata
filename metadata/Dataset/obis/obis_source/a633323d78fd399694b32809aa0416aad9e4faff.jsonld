@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f7328e9a-79f6-40e1-8805-530c1e61a181",
+    "name": "Benthic fauna in the Pechora Sea",
+    "description": "Benthic fauna in the Pechora Sea was mapped in July 1992 by Akvaplan-niva",
+    "url": "https://obis.org/dataset/f7328e9a-79f6-40e1-8805-530c1e61a181",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pechorasea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dahle S., S. Cochrane, S. Denisenko., 1992: Benthic fauna around Pechora Sea. Akvaplan-niva, Norway",
+    "version": "2024-02-26T23:19:54.000Z",
+    "keywords": [
+        "Benthic fauna",
+        "Benthos",
+        "Macrobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/1992",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pechorasea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "49.98433333 68.57000000000001,49.98433333 70.70733333,58.943 70.70733333,58.943 68.57000000000001,49.98433333 68.57000000000001"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19188",
+            "@type": "Organization",
+            "legalName": "Akvaplan-niva",
+            "name": "Akvaplan-niva",
+            "url": "https://oceanexpert.org/institution/19188"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19588",
+            "@type": "Organization",
+            "legalName": "High North Research Centre for Climate and the Environment",
+            "name": "High North Research Centre for Climate and the Environment",
+            "url": "https://oceanexpert.org/institution/19588"
+        }
+    ]
+}

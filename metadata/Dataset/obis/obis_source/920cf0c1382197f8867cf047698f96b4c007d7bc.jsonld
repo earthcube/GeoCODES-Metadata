@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8426d16e-cb66-4b6e-8d3c-d8e8b977fc79",
+    "name": "JNCC seabird distribution and abundance data (all trips) from ESAS database",
+    "description": "Original provider:\nEuropean Seabirds at Sea\n\nDataset credits:\nJoint Nature Conservation Committee (United Kingdom)\nNederlands Instituut voor Onderzoek der Zee (the Netherlands)\nOrnis Consult (Denmark)\nNational Institute for Coastal and Marine Management/RIKZ (the Netherlands)\nNederlands Zeevogelgroep (the Netherlands)\nInstituut voor Bos- en Natuuronderzoek (the Netherlands)\nInstituut voor Natuur Behoud (Belgium)\nNational Environmental Research Institute (Denmark)\nNorsk Institutt for Naturforskning (Norway)\nVogelwarte Helgoland (Germany)\n\nAbstract:\nThe European Seabirds at Sea (ESAS) database was established in 1991 as a collaboration between individuals and institutes who had collected data on the distribution of seabirds and marine mammals in north-west European offshore areas. The most recent version of this database contains over two million records which were collected over 25 years.\n\nPurpose:\nThe founding aim of this project was to merge data from different collaborators and use these to publish an atlas depicting vulnerable concentrations of seabirds to oil pollution. Subsequently, these data have been used for a wide variety of research purposes. The collaboration has also developed and defined common standards in data capture, processing and storage.\n\nSupplemental information:\n[2020-10-01] The following invalid species names were corrected according to the Integrated Taxonomic Information System (ITIS).\nLarus ridibundus (176835) =&gt; Chroicocephalus ridibundus (824041)\nCorvus monedula (179746) =&gt; Coloeus monedula (916629)\nLittle Gull: Larus minutus (176840) =&gt; Hydrocoloeus minutus (824065)\nLittle Tern: Sterna albifrons (176899) =&gt; Sternula albifrons (824126)\nMediterranean Gull: Larus melanocephalus (176858) =&gt; Ichthyaetus melanocephalus (824070)\nRed Phalarope: Phalaropus fulicaria (554376) =&gt; Phalaropus fulicarius (176734)\nSandwich Tern: Sterna sandvicensis (176927) =&gt; Thalasseus sandvicensis (176932)\nTurtles: Testudines (173749) =&gt; Testudines (948936)\nPhylloscopus sibilatrix (179847) =&gt; Phylloscopus sibillatrix (916708)\nSula bassanus (174711) =&gt; Morus bassanus (174712)\nLarus sabini (176865) =&gt; Xema sabini (176866)\nSaxicola torquata (554448) =&gt; Saxicola torquatus (726114)\n\n[2015-03-24] A few records had a wrong animal count of zero. The value is replaced with a blank representing species presence only.\n\nThis dataset represents a subset of version 4.1 of the ESAS database, which is composed of three related tables. As some attributes from the original dataset are dropped in the public view, certain records may appear as duplicate observations. This, however, is not the case, as these records will have varying attribute values in the original database (e.g., age/plumage/behavior, etc.) and should therefore be treated as separate entities.\n\nSpecies notes:\nSpecies EURING code 462 (noted [sp_obs] field in the dataset) is <i>Puffinus puffinus mauretanicus</i>. As ITIS doesn't register this species, it is represented as <i>Puffinus puffinus</i> (TSN 174555), instead.\nSpecies EURING code 460 (noted the [sp_obs] field in the dataset) is <i>Puffinus puffinus</i> whose counterpart in ITIS is also <i>Puffinus puffinus</i> (TSN 174555).\n\nThis dataset includes multiple trips whose survey methods vary. Please consult the data provider for the proper use of the dataset.",
+    "url": "https://obis.org/dataset/8426d16e-cb66-4b6e-8d3c-d8e8b977fc79",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_427"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Dunn, T. 2012. JNCC seabird distribution and abundance data (all trips) from ESAS database. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/427) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:50:50.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings,seabirds; seabird; sea; ESAS; marine; mammal; cetacean; turtle; offshore; ocean;",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_427",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-28.85 38.633,-28.85 76.85,14.9 76.85,14.9 38.633,-28.85 38.633"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6974",
+            "@type": "Organization",
+            "legalName": "Joint Nature Conservation Committee",
+            "name": "Joint Nature Conservation Committee",
+            "url": "https://oceanexpert.org/institution/6974"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

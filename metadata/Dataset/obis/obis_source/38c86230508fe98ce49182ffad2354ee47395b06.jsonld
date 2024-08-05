@@ -1,0 +1,134 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/06bf1a7e-55fb-43a7-8427-86d5c3f56e17",
+    "name": "Composición del fitoplancton y zooplancton en zonas adyacentes a la Ciénaga de Los Olivitos- Venezuela",
+    "description": "Inventario y abundancia del fitoplancton y de zooplancton presente en el manglar del refugio de Fauna Silvestre y Reserva de Pesca ciénaga Los Olivitos y sus adyacencias.",
+    "url": "https://obis.org/dataset/06bf1a7e-55fb-43a7-8427-86d5c3f56e17",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=planctonlosolivitosvenezuela"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Guerrero-Rios R, Hernandez N (2022): Composición del fitoplancton y zooplancton en zonas adyacentes a la Ciénaga de Los Olivitos- Venezuela. v1.10. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=planctonlosolivitosvenezuela&amp;v=1.10",
+    "version": "2022-10-19T19:40:00.000Z",
+    "keywords": [
+        "fitoplancton",
+        "zooplancton",
+        "abundancia de organismos",
+        "cloruro",
+        "conductividad",
+        "fosfato",
+        "nitrato",
+        "oxígeno",
+        "pH",
+        "potencial redox",
+        "salinidad",
+        "solidos totales disueltos",
+        "sulfato",
+        "temperatura",
+        "transparencia",
+        "Ciénaga los olivitos",
+        "Sistema de Maracaibo",
+        "Estado Zulia Venezuela. BID-CA2020-025-NAC",
+        "samplingEvent",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Cloruro",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CLXXICD2/",
+            "description": "Cloruro"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Conductividad",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/",
+            "description": "Conductividad"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fosfato",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MDMAP906/",
+            "description": "Fosfato"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Nitrato",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/NO3FLTIC/",
+            "description": "Nitrato"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Oxigeno",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYSE01/",
+            "description": "Oxigeno"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinidad",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinidad"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Solidos totales disueltos",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TURBXXXX/",
+            "description": "Solidos totales disueltos"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sulfato",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPHTICD2/",
+            "description": "Sulfato"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperatura",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPP01/",
+            "description": "Temperatura"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Transparencia",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SECCSDNX/",
+            "description": "Transparencia"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=planctonlosolivitosvenezuela",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.519 10.803,-71.519 10.962,-71.405 10.962,-71.405 10.803,-71.519 10.803"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/22200",
+            "@type": "Organization",
+            "legalName": "Universidad del Zulia",
+            "name": "Universidad del Zulia",
+            "url": "https://oceanexpert.org/institution/22200"
+        }
+    ]
+}

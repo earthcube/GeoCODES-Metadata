@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/95518627-a380-4691-86d8-3a3b5a11196c",
+    "name": "New Zealand research tagging database",
+    "description": "Tagging programmes have been used to provide information on fish and fisheries to central government policy makers in New Zealand for many years. A wide variety of species have been the subject of such studies, including finfish, shellfish and rock lobsters. In New Zealand, the Ministry for Primary Industries (formerly the Ministry of Fisheries) has funded these programmes to aid with fisheries research and stock assessment. Data from these programme are held in the \"tag\" database, from which the data in this dataset are sourced.",
+    "url": "https://obis.org/dataset/95518627-a380-4691-86d8-3a3b5a11196c",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=mpi_tag"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Ministry for Primary Industries (2014). New Zealand research tagging database. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 411926 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=mpi_tag released on November 5, 2014.",
+    "version": "2018-08-08T20:59:46.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1965/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=mpi_tag",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.993333 -79.583333,-179.993333 -8.108333,180 -8.108333,180 -79.583333,-179.993333 -79.583333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        }
+    ]
+}

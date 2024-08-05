@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4c9f5c30-1d78-4529-ad1a-bb2c8df04b6d",
+    "name": "Data on coral species occurrences in Japan since 1929",
+    "description": "This dataset contains the species occurrence record of zooxanthellate reef‐building corals at 1059 sites on the Japanese coast, recorded from 1929 to 2020. We compiled coral occurrence data including 482 species from 162 literature sources, most of which were written in Japanese and published as gray literature in local journals or individual reports. This dataset is published as a data paper in Ecological Research (see https://doi.org/10.1111/1440-1703.12136).",
+    "url": "https://obis.org/dataset/4c9f5c30-1d78-4529-ad1a-bb2c8df04b6d",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=nies_coraloccurrence"
+    ],
+    "license": "This work is licensed under a\n                 Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "National Institute for Environmental Studies (2022) Data on coral species occurrences in Japan since 1929. Version 1. National Institute for Environmental Studies. Dataset/Species occurrences.",
+    "version": "2024-03-31T15:00:15.000Z",
+    "keywords": [
+        "Occurrence",
+        "biodiversity",
+        "climate change",
+        "Japan",
+        "marine ecosystem",
+        "zooxanthellate coral"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1930/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=nies_coraloccurrence",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "123.67309 20.4,123.67309 38.07279,142.23169 38.07279,142.23169 20.4,123.67309 20.4"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7485",
+            "@type": "Organization",
+            "legalName": "National Institute for Environmental Studies",
+            "name": "National Institute for Environmental Studies",
+            "url": "https://oceanexpert.org/institution/7485"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11797",
+            "@type": "Organization",
+            "legalName": "Japan Agency for Marine-Earth Science and Technology, Yokosuka",
+            "name": "Japan Agency for Marine-Earth Science and Technology, Yokosuka",
+            "url": "https://oceanexpert.org/institution/11797"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18292",
+            "@type": "Organization",
+            "legalName": "University of Tsukuba, Shimoda Marine Research Center",
+            "name": "University of Tsukuba, Shimoda Marine Research Center",
+            "url": "https://oceanexpert.org/institution/18292"
+        }
+    ]
+}

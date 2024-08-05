@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/205f1a46-6e59-488e-a674-92c02cffb67c",
+    "name": "Residence Time and Survival of Fraser River (Chilko) Chinook Salmon in the Strait of Georgia, 2016",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Kintama Research Services (KRS)  Residence Time and Survival of Fraser River (Chilko) Chinook Salmon in the Strait of Georgia, 2016, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=NEP.CCS).\nAbstract:Marine survival of Fraser River Chinook salmon stocks has decreased to &lt;1% in recent years and lack of information on downstream and early marine survival hampers their effective management. We conducted a small acoustic telemetry pilot study on 100 Chilko River Chinook that were reared at Chehalis Hatchery B.C. and then transported and released into the Chilko River.  The project goals were to estimate freshwater survival, investigate residence timing in the Strait of Georgia, and begin to investigate early marine survival. Because marine acoustic receiver arrays capable of detecting smolts implanted with small 180 kHz acoustic tags only monitor the northern exit from the Strait of Georgia, residence time and early marine survival could only be potentially estimated if smolts migrated north before tag batteries expired five months after ocean entry. Freshwater survival of acoustic-tagged Chinook to the Fraser River mouth (49%) was comparable to other populations or species which migrate the same distance downstream; however, their downstream migration rate 18 km/day) was dramatically slower than that of wild Chilko Lake sockeye, which migrate rapidly to the ocean after exit from Chilko Lake (100-170 km/day). It is unknown whether this behavioural difference is the result of their hatchery origin and transport to Chilko Lake. Only one fish was detected in the Strait of Georgia and none were detected exiting. Combined with the results from trawl surveys, the complete lack of detections in the Discovery Islands and Johnstone Strait suggest that Chilko Chinook do not migrate directly north after river exit. Instead, they likely remain in the Strait of Georgia for at least several months. It is unclear if smolts eventually exited the Strait via the southern route, died during their summer residence, or simply ceased migration to take up residence. An animation of the movements of the Chilko Lake Chinook smolts released in 2016 is available on our website (http://kintama.com/visualizations/).",
+    "url": "https://obis.org/dataset/205f1a46-6e59-488e-a674-92c02cffb67c",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnkrsresidencetimeandsur",
+        "https://doi.org/10.14286/ea3dmj"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Welch, D., Rechisky, E., Porter, A., Winchell, P. 2016. Residence Time and Survival of Fraser River (Chilko) Chinook Salmon in the Strait of Georgia, 2016. Kintama Research Services.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T15:58:54.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AGEBENTX/",
+            "description": "age"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/ea3dmj",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/ea3dmj",
+        "url": "https://doi.org/10.14286/ea3dmj"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnkrsresidencetimeandsur",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-124.5401 49.11707,-124.5401 52.0666,-122.29969 52.0666,-122.29969 49.11707,-124.5401 49.11707"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

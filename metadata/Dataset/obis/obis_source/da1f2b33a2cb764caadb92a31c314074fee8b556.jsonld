@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bc258313-a035-4e4e-b034-8eb7383b89e2",
+    "name": "Zooplankton collected in the Black Sea during Cruise 5 in February 1957",
+    "description": "The data were collected by the IBSS staff at several stations in the Black Sea during Cruise 5 in February 1957. This dataset contains abundance data (individuals per m³) and biomass data (mg/m³) for zooplankton taxa. No additional metadata is available.",
+    "url": "https://obis.org/dataset/bc258313-a035-4e4e-b034-8eb7383b89e2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zoo_black_sea_febr_1957"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Zooplankton collected in the Black Sea during Cruise 5 in February 1957. Institute of Biology of the Southern Seas of the National Academy of Sciences of Ukraine.",
+    "version": "2023-12-08T17:50:03.000Z",
+    "keywords": [
+        "Digitization",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sea surface temperature",
+            "url": "",
+            "description": "Sea surface temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "",
+            "description": "biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "individualcount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CellSize",
+            "url": "",
+            "description": "CellSize"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1957/1957",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zoo_black_sea_febr_1957",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "38.65 41.33,38.65 43.3,39.97 43.3,39.97 41.33,38.65 41.33"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

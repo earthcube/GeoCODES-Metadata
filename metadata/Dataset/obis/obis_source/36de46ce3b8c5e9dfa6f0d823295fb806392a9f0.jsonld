@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e14c909c-d812-4eb9-8c9d-74cf7e654732",
+    "name": "Fecundity and egg size of giant crabs (Pseudocarcinus gigas), Australia (1995)",
+    "description": "Fecundity and egg size of giant crabs (Pseudocarcinus gigas) were determined from egg masses of 162 crabs sampled from three sites in south-eastern Australia: western Victoria, western Tasmania and eastern Tasmania. Crabs ranged in carapace length from 126 to 220 mm and egg number ranged from 830000 to 2500000. Data from https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=1574f320-44a9-11dc-8cd0-00188b4c0af8 - accessed on 2021-03-01",
+    "url": "https://obis.org/dataset/e14c909c-d812-4eb9-8c9d-74cf7e654732",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=imas_giant_crab_eggs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Gardner C. (1997) Effect of size on reproductive output of giant crabs Pseudocarcinus gigas (Lamarck): Oziidae Marine Freshwater Research,48:581-587.",
+    "version": "2022-06-06T11:02:47.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Carapace Length",
+            "url": "",
+            "description": "Carapace Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=imas_giant_crab_eggs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "142.25 -42.25,142.25 -38.75,148.75 -38.75,148.75 -42.25,142.25 -42.25"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13402",
+            "@type": "Organization",
+            "legalName": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "name": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "url": "https://oceanexpert.org/institution/13402"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

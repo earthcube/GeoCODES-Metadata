@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4bdc1f6f-e16a-48b4-b995-b51bd41caa8d",
+    "name": "Dataset of the multidisciplinary research surveys in the seamounts of Ewing and Valdivia Bank (Walvis Ridge) - SE Atlantic",
+    "description": "The dataset is the result of the sampling conducted between 2008 and 2010 on the R/V Vizconde de Eza.",
+    "url": "https://obis.org/dataset/4bdc1f6f-e16a-48b4-b995-b51bd41caa8d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ewing_valdivia_bank",
+        "https://dx.doi.org/10.14284/58"
+    ],
+    "license": "Attribution-NoDerivatives (CC BY-ND)",
+    "citation": "López-Abellán, L. J.; Sarralde Vizuete, R.; González Jiménez, J. F.; Centro Oceanográfico de Canarias – IEO, Spain (2015). Dataset of the multidisciplinary research surveys in the seamounts of Ewing and Valdivia Bank (Walvis Ridge) - SE Atlantic https://dx.doi.org/10.14284/58",
+    "version": "2023-12-08T17:21:49.000Z",
+    "keywords": [
+        "research vessel",
+        "Seamounts",
+        "Vizconde de Eza",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "description": "Biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2010",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/58",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/58",
+        "url": "https://dx.doi.org/10.14284/58"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ewing_valdivia_bank",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "4.999 -26.56,4.999 -23.1549,8.3504 -23.1549,8.3504 -26.56,4.999 -26.56"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18622",
+            "@type": "Organization",
+            "legalName": "Centro Oceanográfico de Canarias - Instituto Español de Oceanografía",
+            "name": "Centro Oceanográfico de Canarias - Instituto Español de Oceanografía",
+            "url": "https://oceanexpert.org/institution/18622"
+        }
+    ]
+}

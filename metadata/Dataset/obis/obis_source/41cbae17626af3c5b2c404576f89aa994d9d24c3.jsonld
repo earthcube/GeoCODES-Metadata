@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/58420107-111e-41f9-bcb7-d8abd65a7c1b",
+    "name": "SHARK - Regional monitoring, recipient control and monitoring projects of phytoplankton in Sweden since 1985",
+    "description": "Phytolankton have been regionally monitored in Sweden since 1985.\nThe monitoring is financed by the Swedish county administration boards, Swedish municipalities and Swedish coalitions of water conservation. Recipient control data financed by companies are also included. Monitoring is performed by Swedish universities and consulting firms.\nData are stored in the Swedish Ocean Archive database (SHARK), by the Swedish Meteorological and Hydrological Institute. Data are collected and analyzed according to the HELCOM COMBINE Manual - Part C Annex C6 Monitoring of phytoplankton species composition, abundance and biomass (https://www.helcom.fi/wp-content/uploads/2019/08/Guidelines-for-monitoring-phytoplankton-species-composition-abundance-and-biomass.pdf) or similar methods.",
+    "url": "https://obis.org/dataset/58420107-111e-41f9-bcb7-d8abd65a7c1b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=smhi-phytoplankton-reg",
+        "https://doi.org/10.15468/bkzpdj"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Swedish county administration boards, Swedish municipalities, Swedish coalitions of water conservation, and Swedish Meteorological and Hydrological Institute et.al.(2021). Regional monitoring and monitoring projects of phytoplankton in Sweden since 1985. https://doi.org/10.15468/bkzpdj",
+    "version": "2023-05-23T11:54:18.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampler type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water depth",
+            "url": "",
+            "description": "Water depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Method reference",
+            "url": "",
+            "description": "Method reference"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sedimentation volume",
+            "url": "",
+            "description": "Sedimentation volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Magnification",
+            "url": "",
+            "description": "Magnification"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "# counted",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "# counted"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Coefficient",
+            "url": "",
+            "description": "Coefficient"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampled volume",
+            "url": "",
+            "description": "Sampled volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sedimentation time",
+            "url": "",
+            "description": "Sedimentation time"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/bkzpdj",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/bkzpdj",
+        "url": "https://doi.org/10.15468/bkzpdj"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=smhi-phytoplankton-reg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.05333 55.32533,11.05333 65.8885,24.14358 65.8885,24.14358 55.32533,11.05333 55.32533"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8493",
+            "@type": "Organization",
+            "legalName": "Sveriges meteorologiska och hydrologiska institut",
+            "name": "Sveriges meteorologiska och hydrologiska institut",
+            "url": "https://oceanexpert.org/institution/8493"
+        }
+    ]
+}

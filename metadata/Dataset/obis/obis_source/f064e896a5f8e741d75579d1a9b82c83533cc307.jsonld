@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7d6d9150-68a4-4aad-8081-29573eadce66",
+    "name": "GPS tracking and dive data from 84 foraging trip tracks of Little Penguins (32 female, 31 male) , Port Campbell, Victoria, Australia (2012-2013)",
+    "description": "The study was conducted at the London Bridge breeding colony (38°37′19″S, 142°55′57″E), south-eastern Australia, during the chick-rearing period in 2011/12 and 2012/13. This small mainland colony hosted 68 and 70 active nests in the first and second study periods, respectively. Chick-rearing lasts for 8–10 weeks and consists of two stages: guard stage (2 weeks) where adults make one-day foraging trips while the partner tends to the chicks; and post guard stage (6 to 8 weeks) where adults leave chicks unattended to forage at sea [19]. Breeding adults were instrumented with a GPS data logger (IgotU120, Mobile Action Technology, 44.5×28.5×13 mm), packaged in heat-shrink tubing, programmed to sample location (±10 m) every 2 min. In addition, individuals were deployed with a time-depth recorder (TDR LAT1500, Lotek Wireless Inc, 35×8×8 mm) to measure depth (±0.01 m) every 4 s\nData has been reduced to 5 minute GPS locations if on the surface (depth &lt; 0.5 metre) whilst full dive data has been retained. Complete data is sourced from the cited paper and https://figshare.com/articles/dataset/_At_Sea_Associations_in_Foraging_Little_Penguins_/1137590 on 2021-03-21",
+    "url": "https://obis.org/dataset/7d6d9150-68a4-4aad-8081-29573eadce66",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=lipe_tracks_port_campbell",
+        "doi.org/10.1371/journal.pone.0105065"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Berlincourt M, Arnould JPY (2014) At-Sea Associations in Foraging Little Penguins. PLoS ONE 9(8): e105065. https://doi.org/10.1371/journal.pone.0105065",
+    "version": "2022-06-06T23:07:25.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2013",
+    "identifier": {
+        "@id": "doi.org/10.1371/journal.pone.0105065",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1371/journal.pone.0105065",
+        "url": "doi.org/10.1371/journal.pone.0105065"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=lipe_tracks_port_campbell",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "142.66565 -39.17255,142.66565 -38.60197,143.02406 -38.60197,143.02406 -39.17255,142.66565 -39.17255"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19636",
+            "@type": "Organization",
+            "legalName": "Deakin University",
+            "name": "Deakin University",
+            "url": "https://oceanexpert.org/institution/19636"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

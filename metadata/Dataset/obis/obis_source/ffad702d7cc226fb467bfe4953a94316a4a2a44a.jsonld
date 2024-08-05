@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/34c50cbc-55f7-48aa-9974-45e973f74cff",
+    "name": "Historical distribution data of Cumacea (North Atlantic and Arctic Ocean), ICECU-HISTO",
+    "description": "Historical distribution data of Cumacea (North Atlantic and Arctic Ocean)",
+    "url": "https://obis.org/dataset/34c50cbc-55f7-48aa-9974-45e973f74cff",
+    "sameAs": [
+        "https://ipt.iobis.org/obis-deepsea/resource?r=historical_distribution_cumacea_natlantic_arctic"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Uhlir C, Svavarsson J, Renaud P, Brix S (2022): Historical distribution data of Cumacea (North Atlantic and Arctic Ocean), ICECU-HISTO. v1.1. Deep-sea OBIS node. Dataset/Samplingevent. https://ipt.iobis.org/obis-deepsea/resource?r=historical_distribution_cumacea_natlantic_arctic&amp;v=1.1",
+    "version": "2022-11-17T17:32:40.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1869/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obis-deepsea/archive.do?r=historical_distribution_cumacea_natlantic_arctic",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-56 38.116667,-56 80.87415,56.583333 80.87415,56.583333 38.116667,-56 38.116667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6271",
+            "@type": "Organization",
+            "legalName": "Senckenberg Gesellschaft für Naturforschung",
+            "name": "Senckenberg Gesellschaft für Naturforschung",
+            "url": "https://oceanexpert.org/institution/6271"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23199",
+            "@type": "Organization",
+            "legalName": "University of Iceland",
+            "name": "University of Iceland",
+            "url": "https://oceanexpert.org/institution/23199"
+        }
+    ]
+}

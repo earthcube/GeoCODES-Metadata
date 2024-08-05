@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/22b21edc-6d6c-4d45-846f-27887469f0d3",
+    "name": "MarineGEO visual diver surveys of fish communities around Carrie Bow Cay, Belize, 2015",
+    "description": "As part of the Smithsonian’s MarineGEO (marinegeo.si.edu) program, diver visual surveys following the Reef Life Survey (reeflifesurvey.com) protocol surveyed subtidal communities around Carrie Bow Cay, Belize in September 2015. Surveys were conducted in reef, seagrass, mangrove, and sandy bottom habitats.",
+    "url": "https://obis.org/dataset/22b21edc-6d6c-4d45-846f-27887469f0d3",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=marinegeo_reeflifesurvey"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2019-11-15T21:27:21.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "underwater visibility",
+            "url": "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0923/",
+            "description": "underwater visibility"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "body length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "body length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "count of individuals",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "count of individuals"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=marinegeo_reeflifesurvey",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-88.14677 16.776183,-88.14677 16.883806,-88.066167 16.883806,-88.066167 16.776183,-88.14677 16.776183"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19436",
+            "@type": "Organization",
+            "legalName": "Tennenbaum Marine Observatories Network",
+            "name": "Tennenbaum Marine Observatories Network",
+            "url": "https://oceanexpert.org/institution/19436"
+        }
+    ]
+}

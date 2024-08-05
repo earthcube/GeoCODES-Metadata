@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/345c1b88-2bab-4403-ad2c-1733c0b0a3dd",
+    "name": "DFO Maritimes Region Cetacean Sightings",
+    "description": "This is an OBIS formatted version of the Fisheries and Oceans Canada Maritimes Region Whale Sightings Database for visual sightings of cetaceans (e.g. whales, dolphins and porpoises) mostly from the Scotian Shelf/Bay of Fundy portions of Canada's east coast, as well as the Gulf of St. Lawrence in recent years. The collectors of these sightings are diverse (e.g. NGO researchers, fisheries observers, private consultants, etc.), mostly on-board ships and mostly collected since the late 1990s.\n\nThe horizontal resolution of the data (e.g. distance between sightings) varies by a vast amount - just metres in some areas like the Bay of Fundy, and tens to thousands of kilometers elsewhere, like off northern Labrador. A small portion of the database  are standardized marine mammal survey data, where a line transect sightings survey is conducted and sightings effort is logged. Only these survey data allow for the calculation of Sightings Per Unit Effort and the use of Distance Sampling methods, leading to a statistically-based, unbiased abundance estimate. This information is not provided in this resource.\n\nThis resource contains presence information only. No absences are recorded.\n\nThe design and structure of the main project database is consistent with other DFO databases and with the University of Rhode Island (URI) whale sightings database. Departures from the URI standard (mainly species and gear codes) are easily translated by users of either database.\n\nThis database is a compilation of a number of datasets, most of the data being gathered opportunistically. More detailed information on the individual sightings, human interactions, and animal behaviour are available from the source database and the resource creator should be contacted.",
+    "url": "https://obis.org/dataset/345c1b88-2bab-4403-ad2c-1733c0b0a3dd",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=obis_marwhale",
+        "http://doi.org/10.25607/xjo4dj"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "DFO. (2022).  DFO Maritimes Region Cetacean Sightings. Version 9 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2024-04-05T12:25:14.000Z",
+    "keywords": [
+        "oceans",
+        "biota",
+        "biological classification",
+        "Event",
+        "Occurrence",
+        "Extended Measurement Or Fact",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1963/2021",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/xjo4dj",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/xjo4dj",
+        "url": "http://doi.org/10.25607/xjo4dj"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=obis_marwhale",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-93.833333 11.911,-93.833333 74.491333,-11.106666 74.491333,-11.106666 11.911,-93.833333 11.911"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

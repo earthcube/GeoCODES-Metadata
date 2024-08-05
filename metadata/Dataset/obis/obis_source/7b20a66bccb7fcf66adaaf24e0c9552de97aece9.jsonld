@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/80479e14-2730-436d-acaa-b63bdc7dd06f",
+    "name": "World Ocean Database 2009",
+    "description": "World Ocean Database 2009 (WOD09) is a collection of scientifically quality-controlled ocean profile and plankton data that includes measurements of temperature, salinity, oxygen, phosphate, nitrate, silicate, chlorophyll, alkalinity, pH, pCO2, TCO2, Tritium, delta-13Carbon, delta-14Carbon, delta-18Oxygen, Freons, Helium, delta-3Helium, Neon, and plankton. A discussion of data sources is provided. Data are both historical and modern with the most recent data from 2008.World Ocean Database 2009 is an update of World Ocean Database 2005. It expands on the older version by including new variables, data types, and additional historical, as well as modern, observations. It contains all data from earliest observation through our collection as of Dec. 31, 2009. The 2009 database, updated from the 2005 edition, is significantly larger providing approximately 9.1 million temperature profiles and 3.5 million salinity reports. The 2009 database also captures 29 categories of scientific information from the oceans, including oxygen levels and chemical tracers, plus information on gases and isotopes that can be used to trace the movement of ocean currents. An online version of the World Ocean Database is updated quarterly. This subset of the World Ocean Database contains the biological observations only.",
+    "url": "https://obis.org/dataset/80479e14-2730-436d-acaa-b63bdc7dd06f",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=wod_2009"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Baranova, O.K, T.D. O'Brien, T.P. Boyer and I.V. Smolyar (2009). Plankton data. Chapter 16 in Boyer, T. P., J. I. Antonov , O. K. Baranova, H. E. Garcia, D. R. Johnson, R. A. Locarnini, A. V. Mishonov, T. D. O'Brien, D. Seidov, I. V. Smolyar, M. M. Zweng, 2009. World Ocean Database 2009. S. Levitus, Ed., NOAA Atlas NESDIS 66, U.S. Gov. Printing Office, Wash., D.C., 216 pp., DVDs",
+    "version": "2020-11-17T22:52:07.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1905/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=wod_2009",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -78.4983,-180 89.9999008,180 89.9999008,180 -78.4983,-180 -78.4983"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11379",
+            "@type": "Organization",
+            "legalName": "National Oceanic and Atmospheric Administration, Washington",
+            "name": "National Oceanic and Atmospheric Administration, Washington",
+            "url": "https://oceanexpert.org/institution/11379"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

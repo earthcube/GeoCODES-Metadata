@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/88c9a4f5-0c51-4cdf-8734-77d3d6aa934f",
+    "name": "Museum and Art Gallery of the Northern Territory Bird Collection - Marine records",
+    "description": "The MAGNT bird collection, established in 1981, consists of about 6,000 databased specimens, the majority of which are from the Northern Territory.\n\nThe majority of the specimens are held as study skins with a small collection of ethanol preserved and skeletal specimens as well as a minor egg collection. Recently, frozen and ethanol-fixed tissue samples have been kept for genetic studies.\nThis dataset was downloaded from ALA (http://collections.ala.org.au/public/show/co138). Taxa were matched to World Register of Marine Species and non-marine records removed from this dataset.",
+    "url": "https://obis.org/dataset/88c9a4f5-0c51-4cdf-8734-77d3d6aa934f",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=magnt_marine_ornithology"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T01:46:13.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1937/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=magnt_marine_ornithology",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "123.042 -39.633,123.042 -11.183,159.083 -11.183,159.083 -39.633,123.042 -39.633"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19575",
+            "@type": "Organization",
+            "legalName": "Museum and Art Gallery, Northern Territory",
+            "name": "Museum and Art Gallery, Northern Territory",
+            "url": "https://oceanexpert.org/institution/19575"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

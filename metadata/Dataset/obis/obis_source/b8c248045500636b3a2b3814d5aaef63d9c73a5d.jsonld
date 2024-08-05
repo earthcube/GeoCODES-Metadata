@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/089ef71a-b32c-4e35-8c74-79cde58dbfff",
+    "name": "Tagged Seal Location Data from SOGLOBEC",
+    "description": "Tagged Seal Location Data from SOGLOBEC",
+    "url": "https://obis.org/dataset/089ef71a-b32c-4e35-8c74-79cde58dbfff",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=globec_tagged_seals"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Burns, Jennifer M., Daniel P. Costa. The movements of 35 seals were monitored via satellite, Antarctic, 2001 and 2002, GLOBEC",
+    "version": "2019-03-19T14:46:04.000Z",
+    "keywords": [
+        "Crabeatersatellite tracking",
+        "Leopard seal",
+        "Seal",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=globec_tagged_seals",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-111.811 -73.433,-111.811 59.606,-5.63 59.606,-5.63 -73.433,-111.811 -73.433"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5836",
+            "@type": "Organization",
+            "legalName": "University of South Florida, College of Marine Science",
+            "name": "University of South Florida, College of Marine Science",
+            "url": "https://oceanexpert.org/institution/5836"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9783",
+            "@type": "Organization",
+            "legalName": "Woods Hole Oceanographic Institution",
+            "name": "Woods Hole Oceanographic Institution",
+            "url": "https://oceanexpert.org/institution/9783"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

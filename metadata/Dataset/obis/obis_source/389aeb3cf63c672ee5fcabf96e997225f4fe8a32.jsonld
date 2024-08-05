@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b46bbf90-245d-4a32-b18a-e934fd7b0ff3",
+    "name": "Effects of ultraviolet radiation exposure on salmon smolt mortality",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and University of Washington (UWash)  Effects of ultraviolet radiation exposure on salmon smolt mortality, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=NEP.MLNCHK).\nAbstract:Marine survival rates of many juvenile salmon populations have declined in recent decades. Although several potential causes have been proposed, there has been little conclusive evidence for which factors are responsible or not responsible for these declines. We experimen- tally addressed the hypothesis that exposure of coho salmon Oncorhynchus kisutch or sockeye salmon O. nerka to solar ultraviolet-B radiation (UVB) during freshwater rearing of fry and parr life-history stages increases mortality at the time of smoltification and ocean entry. Juvenile coho and sockeye salmon were reared in outdoor hatchery tanks either exposed to full spectrum sun- light or shielded from UVB radiation by plastic screens for up to 9 mo prior to release. Smolts were tagged with acoustic transmitters and detected with hydrophone receivers during their downriver and early ocean migration. Survival of treatment groups was compared using Cormack-Jolly- Seber and Burnham mark-recapture models. While exposure to UVB resulted in decreased growth of juvenile coho salmon, survivorship during the early marine period was unaffected by the UVB treatment for both populations. This first attempt to experimentally address the hypo - thesis of impaired survival resulting from solar UVB radiation has shown that other factors are more likely responsible for observed declines in salmon marine survival rates. Taken directly from Melnychuk MC, Walters CJ, Christensen V, Bothwell ML, and Welch DW. 2012. Effects of solar ultraviolet radiation exposure on early ocean survival and fry-to-smolt growth of juvenile salmon. Marine Ecology Progress Series 457: 251–264. doi:10.3354/meps09426",
+    "url": "https://obis.org/dataset/b46bbf90-245d-4a32-b18a-e934fd7b0ff3",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnuwasheffectsofultravio",
+        "https://doi.org/10.14286/2ed1h1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Melnychuk MC, Walters CJ, Christensen V, Bothwell ML, and Welch DW. 2012. Effects of solar ultraviolet radiation exposure on early ocean survival and fry-to-smolt growth of juvenile salmon.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T17:46:33.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2008",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/2ed1h1",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/2ed1h1",
+        "url": "https://doi.org/10.14286/2ed1h1"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnuwasheffectsofultravio",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-127.49274 47.73783,-127.49274 50.90033,-121.97974 50.90033,-121.97974 47.73783,-127.49274 47.73783"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

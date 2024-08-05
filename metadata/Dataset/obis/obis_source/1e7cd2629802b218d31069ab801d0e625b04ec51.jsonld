@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3b00bf46-5fb6-49fc-bf89-5bde09fb63ac",
+    "name": "Benthic Isopoda of the Aegir Ridge (Norwegian Sea) collected during the IceAGE3 (SO276 MerMet17-06) expedition in summer 2020",
+    "description": "Benthic isopods from this data set were collected during the IceAGE 3 expedition (SO276) on board RV Sonne in July 2020 with an epibenthic sledge (EBS). A total of seven EBS samples were taken in two areas of the Aegir ridge (Norwegian basin) at depths between 681 m to 3,702 m. The benthic samples taken are the first from the deep seabed within the Aegir ridge and therefore represent an important data set for assessing the diversity of the deep Nordic seas and their relationship to water mass distribution and depth. Isopoda collected by the EBS contained 1,978 specimens divided into eleven families, 25 genera and at least 42 species. Munnopsidae were by far the most dominant family contributing 59.1% to total isopod specimens, followed by the Munnidae (18.3) and Katianiridae (17.8). The remaining families were present with less than 5% of total Isopoda.",
+    "url": "https://obis.org/dataset/3b00bf46-5fb6-49fc-bf89-5bde09fb63ac",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=aegir_ridge_isopods"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Kaiser, Stefanie; Kürzel, Karlotta; Brix, Saskia (2021) Benthic Isopoda of the Aegir Ridge (Norwegian Sea) collected during the IceAGE3 (SO276 MerMet17-06) expedition in summer 2020.",
+    "version": "2024-02-27T00:21:48.000Z",
+    "keywords": [
+        "Deep sea",
+        "Detritus feeders",
+        "Zoobenthos",
+        "lowered unmanned submersible",
+        "research vessel",
+        "Sonne",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length of sampling track",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Length of sampling track"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=aegir_ridge_isopods",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-9.654816 64.80858,-9.654816 66.15993,-2.9693 66.15993,-2.9693 64.80858,-9.654816 64.80858"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

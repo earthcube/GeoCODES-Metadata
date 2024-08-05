@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1a9a4e57-5a9d-4dfa-af84-900010f64b79",
+    "name": "coral_inventory_pahang_malaysia",
+    "description": "Cnidaria inventory of Pulau Seri Buat, Pahang, Malaysia",
+    "url": "https://obis.org/dataset/1a9a4e57-5a9d-4dfa-af84-900010f64b79",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-malaysia/resource?r=coral_cover_tioman_v1"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2018-11-16T11:28:56.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-malaysia/archive.do?r=coral_cover_tioman_v1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "103.90362 2.67892,103.90362 2.7002,103.92531 2.7002,103.92531 2.67892,103.90362 2.67892"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

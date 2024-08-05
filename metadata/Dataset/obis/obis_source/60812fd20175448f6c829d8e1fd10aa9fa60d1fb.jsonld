@@ -1,0 +1,115 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3bc8cc0d-875b-4fdd-bead-bcce8a07ebec",
+    "name": "RV Investigator Voyage IN2020_V01 Seabird Observations, Broken Ridge region, Indian Ocean (2020)",
+    "description": "A team of 4 observers recorded 446 incidental seabird and cetacean sightings from Perth, Western Australia and return on the RV Investigator voyage IN2020_V01. The bulk of the observations is at Broken Ridge on the edge of the Kerguelen Plateau. \nVoyage details (metadata, projects, other datasets either online or as downloads, publications and reports, events, maps etc) can be accessed at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2020_V01\nIf this data has been used in any products, please acknowledge with the following: We acknowledge the use of the CSIRO Marine National Facility (https://ror.org/01mae9353) in undertaking this research.\n",
+    "url": "https://obis.org/dataset/3bc8cc0d-875b-4fdd-bead-bcce8a07ebec",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=in2020_v01_wov"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Sime T (2023): RV Investigator Voyage IN2020_V01 Seabird Observations, Broken Ridge region, Indian Ocean (2020). v1.5. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=in2020_v01_wov&amp;v=1.5",
+    "version": "2023-11-30T03:29:38.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Air Pressure (hPa)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CAPHZZ01",
+            "description": "Air Pressure (hPa)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth (m)",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/574",
+            "description": "Depth (m)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind Speed (knt)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ESSAZZ01",
+            "description": "Wind Speed (knt)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind direction (deg)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01",
+            "description": "Wind direction (deg)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Atmospheric temperature (deg C)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01",
+            "description": "Atmospheric temperature (deg C)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cloud cover",
+            "url": "",
+            "description": "Cloud cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea state",
+            "url": "",
+            "description": "Sea state"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind Force (Beaufort scale)",
+            "url": "",
+            "description": "Wind Force (Beaufort scale)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Visibility",
+            "url": "",
+            "description": "Visibility"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cloud cover (oktas)",
+            "url": "",
+            "description": "Cloud cover (oktas)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=in2020_v01_wov",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "78.1087 -55.4197,78.1087 -31.6221,115.6594 -31.6221,115.6594 -55.4197,78.1087 -55.4197"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

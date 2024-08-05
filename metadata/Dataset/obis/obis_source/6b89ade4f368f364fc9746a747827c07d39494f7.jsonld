@@ -1,0 +1,106 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e18538d7-87e2-470d-8848-7a6b76394bde",
+    "name": "copepods_rvsonne_2010 Chile",
+    "description": "Registro de copépodos en muestra zooplanctónica colectada durante el crucero RV SONNE en la estación del track de muestreo localizada frente a la región de Antofagasta, Chile.\nLa muestra fue colectada por medio de una red tipo Midi multinet de 63 micras, en 5 estratos entre la superficie y los 650m de profundidad.",
+    "url": "https://obis.org/dataset/e18538d7-87e2-470d-8848-7a6b76394bde",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=copepods_rvsonne_ocurrence"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Fierro P A (2018): copepods_rvsonne_2010 Chile. v1.5. Universidad de Concepción e Instituto Milenio de Oceanografía (IMO). Dataset/Samplingevent. http://ipt.iobis.org/esp-obis/resource?r=copepods_rvsonne_ocurrence&amp;v=1.5",
+    "version": "2022-02-17T21:25:55.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Copepods",
+        "species",
+        "Antofagasta",
+        "Chile"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Density",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CNDCSD02/",
+            "description": "Density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved Oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYZZXX/",
+            "description": "Dissolved Oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Hyrdo-Bios MultiNet Mammoth",
+            "url": "http://vocab.nerc.ac.uk/collection/L22/current/NETT0187/",
+            "description": "Hyrdo-Bios MultiNet Mammoth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea-Bird SBE 41 CTD",
+            "url": "http://vocab.nerc.ac.uk/collection/L22/current/TOOL0668/",
+            "description": "Sea-Bird SBE 41 CTD"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size net Hyrdo-Bios MultiNet Mammoth",
+            "url": "",
+            "description": "Size net Hyrdo-Bios MultiNet Mammoth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/ZATX/",
+            "description": "Abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=copepods_rvsonne_ocurrence",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.13 -36.51,-73.13 -23.85,-70.66 -23.85,-70.66 -36.51,-73.13 -36.51"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16784",
+            "@type": "Organization",
+            "legalName": "Instituto Milenio de Oceanografía",
+            "name": "Instituto Milenio de Oceanografía",
+            "url": "https://oceanexpert.org/institution/16784"
+        }
+    ]
+}

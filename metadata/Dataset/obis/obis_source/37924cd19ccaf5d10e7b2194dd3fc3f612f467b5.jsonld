@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1b37891a-9d12-4f54-a4fc-6d5dd5dd92b3",
+    "name": "Orca observations from the shores of Macquarie Island",
+    "description": "This dataset contains sporadic shore based observations of killer whales (Orcinus orca) from Macquarie Island from 1989 to 1998 (inclusive).",
+    "url": "https://obis.org/dataset/1b37891a-9d12-4f54-a4fc-6d5dd5dd92b3",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=orca"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "See metadata record http://data.aad.gov.au/metadata/records/Orcas_observations_MI",
+    "version": "2022-06-07T02:25:10.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=orca",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "158.7902 -54.7765,158.7902 -54.4846,158.9778 -54.4846,158.9778 -54.7765,158.7902 -54.7765"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

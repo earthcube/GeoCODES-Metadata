@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fecdf302-3e69-43e1-9bf6-77d955416130",
+    "name": "Australian Sea Lion and New Zealand Fur Seal Distribution Database  from Coastal and Marine Resources Information System (CAMRIS)",
+    "description": "This database contains information about the distribution and abundance of Australian sea lions and New Zealand fur seals around the Australian coastline. It is derived from information held at the former CSIRO Division of Wildlife and Ecology, and provided by Dr. P. Shaughnessy.",
+    "url": "https://obis.org/dataset/fecdf302-3e69-43e1-9bf6-77d955416130",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_camris"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-07T05:39:04.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1975/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_camris",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114 -36.1,114 -28,138.3 -28,138.3 -36.1,114 -36.1"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

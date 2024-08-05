@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4948203e-5c4f-4454-9e49-074f408afb9b",
+    "name": "Mediterranean Ocean Biodiversity Information System",
+    "description": "The Mediterranean Ocean Biodiversity Information System (MedOBIS) is a distributed system that allows you to search multiple datasets simultaneously for biogeographic information on marine organisms.",
+    "url": "https://obis.org/dataset/4948203e-5c4f-4454-9e49-074f408afb9b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=medobis"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hellenic Centre For Marine Research, MedOBIS - Mediterranean Ocean Biodiversity Information System. Hellenic Centre for Marine Research; Institute of Marine Biology and Genetics; Biodiversity and Ecosystem Management Department, Heraklion, Greece. Http://www.medobis.org/",
+    "version": "2023-12-08T17:13:57.000Z",
+    "keywords": [
+        "Benthic fauna",
+        "Benthos",
+        "Biogeography",
+        "Data analysis",
+        "Data transmission",
+        "Data",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=medobis",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "12.3 31.89,12.3 45.69,35.39 45.69,35.39 31.89,12.3 31.89"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

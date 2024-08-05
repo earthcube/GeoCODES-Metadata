@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/196349b0-4015-44c1-bab4-e7f0ef513275",
+    "name": "United States Geological Survey Nonindigenous Aquatic Species Database Asian Tiger Shrimp",
+    "description": "The Nonindigenous Aquatic Species Database (NAS) information resource is an established central repository for spatially referenced biogeographic accounts of introduced aquatic species. The NAS website provides scientific reports, online/real-time queries, spatial data sets, distribution maps, fact sheets, and general information.",
+    "url": "https://obis.org/dataset/196349b0-4015-44c1-bab4-e7f0ef513275",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=usgs_nas_tigershrimp"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2016-03-16T18:02:17.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=usgs_nas_tigershrimp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-157.5 10.9165,-157.5 36.181948,-67.32422 36.181948,-67.32422 10.9165,-157.5 10.9165"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19361",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey – Wetland and Aquatic Research Center",
+            "name": "U.S. Geological Survey – Wetland and Aquatic Research Center",
+            "url": "https://oceanexpert.org/institution/19361"
+        }
+    ]
+}

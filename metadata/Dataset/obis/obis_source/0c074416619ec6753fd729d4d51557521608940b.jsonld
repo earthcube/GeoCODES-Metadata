@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e6b54a48-48f8-47ae-9b71-f439e1f0aa6f",
+    "name": "Bahamas Marine Mammal Research Organisation Opportunistic Sightings",
+    "description": "Original provider:\nBahamas Marine Mammal Research Organisation\n\nDataset credits:\nBahamas Marine Mammal Research Organisation\n\nAbstract:\nBMMRO has been conducting a long-term study documenting the occurrence, distribution, and abundance of marine mammals around the islands of The Bahamas since 1991. Currently based in Sandy Point on Great Abaco Island, this project provides the only comprehensive documentation of marine mammal fauna in this part of the world. \nThe dataset presented here includes only marine mammal sightings, and other sea turtle sightings and marine mammal strandings and sightings are included in separate datasets in OBIS-SEAMAP. The dataset presented here is a subset of marine mammal sightings between 1988 and 2011, including sightings reported from the public. The dataset also is a subset of BMMRO vessel encounters with marine mammals between 1991 and 2011, comprising 20 different species, with the Atlantic bottlenose dolphin representing 60% of all encounters. The entire dataset includes stranding records between 1944 and 2011. In addition, the entire dataset includes sightings of turtles comprising 3 different species between 1991 and 2011.\nA sighting is when our vessel was unable to close in on the group of animals while an encounter is when closing was successful and photographs / video recording of the animals were obtained. The dataset includes off-transect sightings and encounters (opportunistic).\n\nSupplemental information:\nPlease use this dataset along with off-transect tracklines. Note that the original ship location data were recorded every minute. Tracklines up to 2006 were constructed using locations every five minutes to reduce the data size; tracklines constructed for 2006-2011 used data recorded every minute. Tracklines that intersected land were excluded. On-transect sightings and encounters are provided in a different dataset.\n8/15/2011: This dataset was updated to include data collected from 2006 to 2008. Data from 2006-2008 did not include group size estimates and \"1\" was used to be conservative. Effort transects are only available for 3/11/1997-10/1/2008.\n06/12/2013: This dataset was updated to include group size estimate data collected from 2006-2008 and sightings/effort data for 2008-2011. When records did not include group size estimates or time, \"1\" was used to be conservative, and 00:00:00 was used, respectively.\n8/8/2013: Effort tracklines that crossed land were excluded and updated, as well as records that had incorrect time values. Shapefile and csv files were updated.",
+    "url": "https://obis.org/dataset/e6b54a48-48f8-47ae-9b71-f439e1f0aa6f",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_329"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Dunn, C. 2013. Bahamas Marine Mammal Research Organisation Opportunistic Sightings. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/329) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:20:08.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings,Marine mammals,Encoutners",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_329",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-79.373067 21.833333,-79.373067 27.309833,-72.5 27.309833,-72.5 21.833333,-79.373067 21.833333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

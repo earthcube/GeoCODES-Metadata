@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e3b7d014-2ea6-44a4-ab17-19da017db40f",
+    "name": "Trawl-survey data from the Pipeta Expedition in the Adriatic Sea (Mediterranean) collected in 1982",
+    "description": "The “Pipeta programme” (named after the Italian commercial trawler used; 300 HP; LOA = 26 m) was started in 1982 by the Laboratory of Marine Biology and Fisheries (LMBF, Italy) and the Institute of Oceanography and Fisheries (IOF, Croatia). The expedition was a fishery-independent trawl-survey of the demersal communities using a bottom otter-trawl net (wing mesh-size: 55 mm; cod-end mesh-size: 22 mm; foot-rope length: 41 m; head-rope length: 32 m). The survey was successively called GRUND programme and ended in 2007.",
+    "url": "https://obis.org/dataset/e3b7d014-2ea6-44a4-ab17-19da017db40f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pipeta_1_trawl_survey_1982_benthos",
+        "https://dx.doi.org/10.14284/282"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Institute of Oceanography and Experimental Geophysics (OGS), Italian National Institute for Environmental Protection and Research (ISPRA), Italy; (2017): Trawl-survey data from the Pipeta Expedition in the Adriatic Sea (Mediterranean) collected in 1982 https://dx.doi.org/10.14284/282",
+    "version": "2023-12-08T18:31:57.000Z",
+    "keywords": [
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "CPUE_Kg_h",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WWBIOL02/",
+            "description": "CPUE_Kg_h"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CPUE_N_h",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADBIOL02/",
+            "description": "CPUE_N_h"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1982/1982",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/282",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/282",
+        "url": "https://dx.doi.org/10.14284/282"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pipeta_1_trawl_survey_1982_benthos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "12.34 41.9,12.34 45.49,17 45.49,17 41.9,12.34 41.9"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19580",
+            "@type": "Organization",
+            "legalName": "Italian National Institute for Environmental Protection and Research — Branch office Chioggia",
+            "name": "Italian National Institute for Environmental Protection and Research — Branch office Chioggia",
+            "url": "https://oceanexpert.org/institution/19580"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/89e23fc8-3f61-4480-9de3-358fe6eefe0b",
+    "name": "National Museum of Natural History Invertebrate Zoology Collections",
+    "description": "NMNH Invertebrate Zoology Collections records, 8784 Bryozoa, 68401 Coelenterates, 220965 Crustacea, 75012 Echinoderms, 196851 Mollusks, 28853 Porifera, 16466 Tunicates, 171401 Worms, 93268 General; Total number of 884216 records currently represent approximately 33% of actual specimen holdings, as of 10 May 2007.",
+    "url": "https://obis.org/dataset/89e23fc8-3f61-4480-9de3-358fe6eefe0b",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=nmnh-iz"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Museum of Natural History, Smithsonian Institution NMNH Invertebrate Zoology Collection Database. National Museum of Natural History, Smithsonian Institution, 10th and Constitution Ave. N.W., Washington, DC 20560-0193, 2001, Version 3.2.04 (0802221).",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Bryozoan",
+        "Coelenterates",
+        "Crustacea",
+        "Echinoderm",
+        "Molluscs",
+        "Worms"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1720/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=nmnh-iz",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -90,-180 85.5950012207,180 85.5950012207,180 -90,-180 -90"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7553",
+            "@type": "Organization",
+            "legalName": "National Museum of Natural History, Smithsonian Institution",
+            "name": "National Museum of Natural History, Smithsonian Institution",
+            "url": "https://oceanexpert.org/institution/7553"
+        }
+    ]
+}

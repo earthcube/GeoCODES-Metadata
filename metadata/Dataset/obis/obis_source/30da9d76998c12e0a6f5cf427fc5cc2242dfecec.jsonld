@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f5c1c99a-93ee-401e-94c9-409db8c908bf",
+    "name": "Marine Mammals distribution data from Northern Indian Ocean",
+    "description": "The present dataset comprises of spatial distribution and abundance of marine mammals from northern Indian ocean which covers entire Indian EEZ. A systematic and opportunistic survey on cetaceans was conducted to create baseline data and to estimate its spatial distribution and abundance in Indian EEZ.",
+    "url": "https://obis.org/dataset/f5c1c99a-93ee-401e-94c9-409db8c908bf",
+    "sameAs": [
+        "http://ipt.iobis.org/indobis/resource?r=marine_mammals_reis_dataset2"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Marine Mammals distribution data from Northern Indian Ocean. IndOBIS-Centre for Marine Living Resources &amp; Ecology (CMLRE).",
+    "version": "2020-05-29T06:12:24.000Z",
+    "keywords": [
+        "Occurrence",
+        "Cetaceans",
+        "Mammals",
+        "Northern Indian Ocean"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/indobis/archive.do?r=marine_mammals_reis_dataset2",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "69.19433333 5.714833333,69.19433333 19.664,93.2095 19.664,93.2095 5.714833333,69.19433333 5.714833333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11420",
+            "@type": "Organization",
+            "legalName": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "name": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "url": "https://oceanexpert.org/institution/11420"
+        }
+    ]
+}

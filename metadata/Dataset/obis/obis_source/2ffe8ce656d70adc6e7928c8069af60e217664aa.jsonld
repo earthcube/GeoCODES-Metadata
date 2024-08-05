@@ -1,0 +1,140 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/047ce186-4302-4c3f-967f-ccae9d3a1804",
+    "name": "Data from: Rehabilitating the cyanobacteria – niche partitioning, resource use efficiency, and phytoplankton community structure during diazotrophic cyanobacterial blooms",
+    "description": "1. Blooms of nitrogen-fixing cyanobacteria are recurrent phenomena in marine and freshwater habitats, and their supplying role in aquatic biogeochemical cycles is generally considered vital. The objective of this study is to analyze if an increasing proportion of nitrogen-fixing cyanobacteria affects (i) the composition of the non-diazotrophic component of ambient phytoplankton communities, and (ii) resource use efficiency (RUE; ratio of chl a to total nutrients) – an important ecosystem function.",
+    "url": "https://obis.org/dataset/047ce186-4302-4c3f-967f-ccae9d3a1804",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=rehab_cyano",
+        "https://doi.org/10.5061/dryad.d0826"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Olli, Kalle; Klais, Riina; Tamminen, Timo (2016), Data from: Rehabilitating the cyanobacteria – niche partitioning, resource use efficiency, and phytoplankton community structure during diazotrophic cyanobacterial blooms, Dryad, Dataset, https://doi.org/10.5061/dryad.d0826",
+    "version": "2023-05-23T11:31:13.000Z",
+    "keywords": [
+        "Aphanizomenon",
+        "Limiting nutrients",
+        "Nitrogen fixation",
+        "Nodularia",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "distance_from_shoreline_(km)",
+            "url": "",
+            "description": "distance_from_shoreline_(km)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "total_phytoplankton_wet_weight_(microgram/L)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "total_phytoplankton_wet_weight_(microgram/L)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wet_weight_of_Aphanizomenon",
+            "url": "",
+            "description": "wet_weight_of_Aphanizomenon"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wet_weight_of_Nodularia",
+            "url": "",
+            "description": "wet_weight_of_Nodularia"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wet_weight_of_nitrogen_fixers_(microgram/L)",
+            "url": "",
+            "description": "wet_weight_of_nitrogen_fixers_(microgram/L)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wetWeightBiomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "wetWeightBiomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sample_temperature_(celsius)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "sample_temperature_(celsius)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "phosphorus_use_efficiency",
+            "url": "",
+            "description": "phosphorus_use_efficiency"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "nitrogen_use_efficiency",
+            "url": "",
+            "description": "nitrogen_use_efficiency"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1966/2008",
+    "identifier": {
+        "@id": "https://doi.org/10.5061/dryad.d0826",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.5061/dryad.d0826",
+        "url": "https://doi.org/10.5061/dryad.d0826"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=rehab_cyano",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "12.387 53.671,12.387 60.57,29.73 60.57,29.73 53.671,12.387 53.671"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6169",
+            "@type": "Organization",
+            "legalName": "Finnish Environment Institute",
+            "name": "Finnish Environment Institute",
+            "url": "https://oceanexpert.org/institution/6169"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18755",
+            "@type": "Organization",
+            "legalName": "Tartu Ülikool",
+            "name": "Tartu Ülikool",
+            "url": "https://oceanexpert.org/institution/18755"
+        }
+    ]
+}

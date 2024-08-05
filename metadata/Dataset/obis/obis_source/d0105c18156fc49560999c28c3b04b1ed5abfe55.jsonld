@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e71d452f-615e-4654-b78d-35b8a1d91936",
+    "name": "Virginia and Maryland Sea Turtle Research and Conservation Initiative Aerial Survey Sightings, May 2011 through July 2013",
+    "description": "Original provider:\nVirginia Aquarium and Marine Science Center Foundation\n\nDataset credits:\nVirginia Aquarium Foundation - Susan G. Barco &amp; Gwen G. Lockhart\nRiverhead Foundation for Marine Research &amp; Preservation - Robert A. DiGiovanni Jr. &amp; Allison M. DePerte\n\nAbstract:\nThe data provided were collected as part of the the Virginia and Maryland Sea Turtle Research &amp; Conservation Initiative - funded by the National Marine Fisheries Service Species Recovery Grants program  No. NA09NMF4720033.\n\nPurpose:\nPrevious sea turtle abundance estimates reported in the Virginia portion of the Chesapeake Bay where developed using aerial surveys without correcting for seasonal differences and availability bias. More recent surveys yielded estimates of availability throughout the turtles' residency periods using radio transmitters and satellite telemetry. These estimates where significantly different then previous surveys and changed over time. This project was conducted in order to quantify turtles surfacing time for the purpose of calculating seasonal and annual differences in availability, conduct aerial surveys in a manner that will allow for the calculation of perception bias, and compare estimates generated during previous projects.\n\nSupplemental information:\nAerial surveys were conducted along the coastal waters and bays of Virginia and Maryland. This project is broken into two survey periods. The survey platform was a De Havilland twin otter DHC‐6 modified for observational research. The aircraft was configured so as to have two forward observers and a data recorder on their own communication system and have a second team consisting of a belly observer and one additional observer (either port or starboard) along with a data recorder. The separation of the communications systems enables the two teams to function independently thereby functioning as two individual surveys. Groups of sea turles, marine mammals, and other marine mammals were recorded. This method was developed in order to calculate a perception bias using mark recapture techniques.  This dataset is the filtered version – meaning all the duplicate sightings have been removed.  All records are marked as observed by only team one, only team two, or by both.  There is only one record for each sighting even if the animal was sighted by both teams.  The raw dataset, with all sighting from both teams, is available by request from the Virginia Aquarium &amp; Marine Science Foundation.",
+    "url": "https://obis.org/dataset/e71d452f-615e-4654-b78d-35b8a1d91936",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1201"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Barco, S. 2014. Virginia and Maryland Sea Turtle Research and Conservation Initiative Aerial Survey Sightings, May 2011 through July 2013. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1201) on yyyy-mm-dd.",
+    "version": "2021-04-24T05:36:25.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Visual Sighting,Aircraft",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1201",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-76.39647 36.58278,-76.39647 38.52142,-74.39849 38.52142,-74.39849 36.58278,-76.39647 36.58278"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f254adb6-b758-40a8-8a99-fb1b19b6266b",
+    "name": "South Coast Tasmania BRUVS data, Australia (2014 - 2015)",
+    "description": "Stereo BRUV sampling of Tasman Fracture Australian Marine Park, South East and South Capes. More details in Monk et al. (2016) report (ISBN 978 1 86295 871 5)\nData and metadata from GlobalArchive Project 148 South Coast Tasmania (https://globalarchive.org/geodata/data/project/get/148) accessed 2021-08-31",
+    "url": "https://obis.org/dataset/f254adb6-b758-40a8-8a99-fb1b19b6266b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=globalarchive_south_coast_tas_bruvs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T02:10:43.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Forked Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Forked Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=globalarchive_south_coast_tas_bruvs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "146.2045 -43.7731,146.2045 -43.6716,146.8755 -43.6716,146.8755 -43.7731,146.2045 -43.7731"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13402",
+            "@type": "Organization",
+            "legalName": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "name": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "url": "https://oceanexpert.org/institution/13402"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ba45853-ef44-4778-8162-c2c7b931c304",
+    "name": "Analysis of macrobenthos in the Southern Bight of the North Sea (1971-1972)",
+    "description": "Species frequencies, density and biomass for macrobenthos sampled in the Southern Bight of the North Sea between May 1971 and September 1972 and sediment grain size data for all 60 sampling locations. Samples were taken using Van Veen grabs. The data were digitized by VLIZ from the original report: Govaere, J. (1978). Numerieke analyse van het makrobenthos in de Southern Bight (Noordzee). PhD Thesis. Rijksuniversiteit Gent: Gent. 220, 122 tab. [2 delen] pp.",
+    "url": "https://obis.org/dataset/5ba45853-ef44-4778-8162-c2c7b931c304",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macrobenthos_southern_bight_of_north_sea_1971-1972",
+        "https://dx.doi.org/10.14284/208"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Govaere J.; De Coninck L.A.P.; Coomans A.; Faculteit Wetenschappen. RUG: Belgium; (2016): Analysis of macrobenthos in the Southern Bight of the North Sea (1971-1972). (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5439) https://dx.doi.org/10.14284/208",
+    "version": "2024-02-27T00:20:41.000Z",
+    "keywords": [
+        "Grain size analysis",
+        "Macrobenthos",
+        "Numerical analysis",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "area sampled of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area sampled of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass of biological entity specified elsewhere per unit area of the bed",
+            "url": "",
+            "description": "Biomass of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dispersion",
+            "url": "",
+            "description": "Dispersion"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Grain-size median of particles (sand size-fraction) in sediment",
+            "url": "",
+            "description": "Grain-size median of particles (sand size-fraction) in sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+            "description": "depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "distance",
+            "url": "",
+            "description": "distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "proportion of organic carbon in the sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00173/",
+            "description": "proportion of organic carbon in the sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "proportion of particles (gravel size-fraction) in sediment",
+            "url": "",
+            "description": "proportion of particles (gravel size-fraction) in sediment"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/1972",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/208",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/208",
+        "url": "https://dx.doi.org/10.14284/208"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macrobenthos_southern_bight_of_north_sea_1971-1972",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.64722 51.08889,1.64722 52.60833,4.55 52.60833,4.55 51.08889,1.64722 51.08889"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9162",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Faculteit Wetenschap",
+            "name": "Universiteit Gent, Faculteit Wetenschap",
+            "url": "https://oceanexpert.org/institution/9162"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c92f63eb-83b6-40ff-a07c-738c52aae60c",
+    "name": "Aerial counts and breeding success monitoring of grey seal, Estonian national monitoring 2000-2016.",
+    "description": "Aerial and on-land counts of individuals and breeding success estimations (the number of offspring) of grey seal (Halichoerus grypus) recorded during Estonian national monitoring programme in 2000-2016. Breeding success was estimated through the enumeration of live and dead grey seal cubs.",
+    "url": "https://obis.org/dataset/c92f63eb-83b6-40ff-a07c-738c52aae60c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=est_grey_seals_00-16"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Jüssi, I.; NGO Pro Mare (2019): Aerial counts and breeding success monitoring of grey seal, Estonian national monitoring 2000-2016.",
+    "version": "2024-02-26T23:13:12.000Z",
+    "keywords": [
+        "Demography",
+        "Time series",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling device",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling device"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "living or dead",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL11/",
+            "description": "living or dead"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=est_grey_seals_00-16",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "21.8041535 58.099072,21.8041535 59.676758,26.535274 59.676758,26.535274 58.099072,21.8041535 58.099072"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

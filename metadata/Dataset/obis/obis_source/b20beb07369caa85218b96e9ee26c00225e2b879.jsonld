@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9500b860-c97b-45e7-a3b1-0a8e046b99d0",
+    "name": "Sea Turtles of Dominica (aggregated per 1-degree cell)",
+    "description": "Original provider:\nJacob Levenson\n\nDataset credits:\nData provider\nDominica Sea Turtle Conservation Organization\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nThis project has been funded, in part, by grants from International Fund for Animal Welfare (IFAW). IFAW has been instrumental in the progress of sea turtle conservation on Dominica. Through direct funding of the program and through marine mammal conservation and education in Dominica as part of the Floating Classroom program. A program focused on the conservation of whale species through out the worlds oceans.\nProject sponsor or sponsor description\nA grant from Disney's Friends for Change Project Green program gave the satellite tagging program the funding to get off the ground as part of the DomSeTCo/IFAW Floating Classroom Program.\n\n\nAbstract:\nDominica Sea turtle Conservation Organization, originally started as ROSTI, has been focused on sea turtle conservation in Dominica. A small island in the Caribbean, Dominica has several sea turtle species nesting on it's beaches. Leatherbacks have been the main focus due tp poaching on the island of adults and nests. DomSeTCO supports patrollers on the main leatherback nesting beaches and has initiated a sea turtle tour program bringing visitors and locals alike to witness sea turtle nesting events on the island. DomSeTCO also participates in IFAW's Floating Classroom Program, bringing sea turtle conservation to the classroom.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=773\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/9500b860-c97b-45e7-a3b1-0a8e046b99d0",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_890_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Levenson J. 2021. Sea Turtles of Dominica. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/890) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=773).",
+    "version": "2021-04-24T10:59:11.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_890_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-62.5 14.5,-62.5 51.5,-18.5 51.5,-18.5 14.5,-62.5 14.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

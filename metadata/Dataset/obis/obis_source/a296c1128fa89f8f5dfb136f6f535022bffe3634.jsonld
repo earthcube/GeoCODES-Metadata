@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/471d3cf0-5c70-4355-9906-19a92774257c",
+    "name": "Marine fauna sightings within Australian marine parks during surveys by the company BMT, Western Australia (2019)",
+    "description": "Marine fauna sightings during surveys within Australian Marine Parks by the company BMT (www.bmt.org). The license conditions for the survey require the data to be published to OBIS.",
+    "url": "https://obis.org/dataset/471d3cf0-5c70-4355-9906-19a92774257c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bmt_mfo"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Bevilaqua A (2023): Marine fauna sightings within Australian marine parks during surveys by the company BMT, Western Australia (2019). v1.12. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=bmt_mfo&amp;v=1.12",
+    "version": "2023-06-28T05:35:07.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bmt_mfo",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "120.5348 -19.6306,120.5348 -19.304,120.79917 -19.304,120.79917 -19.6306,120.5348 -19.6306"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20852",
+            "@type": "Organization",
+            "legalName": "BMT Scientific Marine Services- Australia",
+            "name": "BMT Scientific Marine Services- Australia",
+            "url": "https://oceanexpert.org/institution/20852"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

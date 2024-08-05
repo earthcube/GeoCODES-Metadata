@@ -1,0 +1,110 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/872bb654-ad87-4947-a5e8-bb4f1eec021a",
+    "name": "Index Site Surveys Data for Olympia Oysters, Ostrea lurida, in British Columbia – 2009 to 2017",
+    "description": "The Olympia oyster (Ostrea lurida Carpenter, 1864) is one of four species of oysters established in British Columbia (BC), Canada, and the only naturally occurring oyster in BC (Bourne 1997; Gillespie 1999, 2009). O. lurida reaches the northern limit of its range in the Central Coast of British Columbia at Gale Passage, Campbell Island, approximately 52°12’N, 128°24’W (Gillespie 2009).\nFirst Nations historically utilized Olympia oysters for food and their shells for ornamentation (Ellis and Swan 1981; Harbo 1997). European settlers harvested Olympia oysters commercially from the early 1800s until the early 1930s when stocks became depleted and the industry moved towards other larger, introduced oyster species (Bourne 1997; Quayle 1988). Since that time, Olympia oysters have likely maintained stable populations in BC, but have not recovered to abundance levels observed prior to the late 1800s (Gillespie 1999, 2009).\nOlympia oysters were designated a species of Special Concern by the Committee on the Status of Endangered Wildlife in Canada (COSEWIC) in 2000 and 2010 and listed under the Species at Risk Act (SARA) in 2003 (DFO 2009; COSEWIC 2011). A management plan was developed and posted to the SARA Public Registry in 2009 (DFO 2009). One of the objectives of this plan was to ensure maintenance of the relative abundance (density) of Olympia oyster at index sites. The plan also recommended development of a survey protocol for determining relative abundance (density) estimates. In response, a Canadian Science Advisory Secretariat (CSAS) Research Document was completed recommending a survey method for Olympia oysters (Norgard et al. 2010); a CSAS Science Advisory Report (DFO 2010) for selection of index sites was also completed.\nThirteen index sites were chosen from a mixture of previously surveyed sites, and by random site selection. In 2014, a fourteenth site was added at Joes Bay in the Broken Group area in partnership with Parks Canada. The selected sites provided a representative sample of Olympia oyster populations in different geographic zones in the Pacific region and span the much of the range of Olympia oysters in BC.",
+    "url": "https://obis.org/dataset/872bb654-ad87-4947-a5e8-bb4f1eec021a",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=bc_index-site-surveys_olympia-oysters"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bureau D (2021): Index Site Surveys Data for Olympia Oysters, Ostrea lurida, in British Columbia – 2009 to 2017. v1.4. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=bc_index-site-surveys_olympia-oysters&amp;v=1.4",
+    "version": "2022-03-22T20:56:12.000Z",
+    "keywords": [
+        "SARA",
+        "Species at Risk",
+        "Olympia Oyster",
+        "Ostrea lurida",
+        "Density",
+        "Length",
+        "Frequency",
+        "Pacific",
+        "British Columbia",
+        "Vancouver Island",
+        "Fisheries management",
+        "Fisheries resources",
+        "Scientific research",
+        "Environment",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Area sampled of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Area sampled of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "quadrat size",
+            "url": "",
+            "description": "quadrat size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "strata area",
+            "url": "",
+            "description": "strata area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length (total length) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TL01XX01/",
+            "description": "Length (total length) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling Protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Sampling Protocol"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=bc_index-site-surveys_olympia-oysters",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-127.72 48.3902,-127.72 50.2975,-123.4162 50.2975,-123.4162 48.3902,-127.72 48.3902"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

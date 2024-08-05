@@ -1,0 +1,90 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c5f3e1e4-af88-4990-ba7c-e6b7e7151f77",
+    "name": "Ictioplancton en cinco puntos del sector San Carlos del Lago de Maracaibo: composición distribución y abundancia",
+    "description": "Se aportan datos sobre la composición, distribución y abundancia del ictioplancton del Sector San Carlos, ubicado al noroeste de la Bahía El Tablazo, Lago de Maracaibo, Venezuela.",
+    "url": "https://obis.org/dataset/c5f3e1e4-af88-4990-ba7c-e6b7e7151f77",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=ictioplanctonsancarloslagomaracaibo"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Guerrero-Rios R, Hernandez N (2022): Ictioplancton en cinco puntos del sector San Carlos del Lago de Maracaibo: composición distribución y abundancia. v1.10. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=ictioplanctonsancarloslagomaracaibo&amp;v=1.10",
+    "version": "2022-11-03T21:19:27.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Abundancia",
+        "composición de especies",
+        "distribución",
+        "ictioplancton",
+        "huevos de peces",
+        "Lago de Maracaibo",
+        "larvas de peces",
+        "manglar",
+        "Venezuela.",
+        "BID-CA2020-025-NAC",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Temperatura",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPP02/",
+            "description": "Temperatura"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundancia",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/B7A60170/",
+            "description": "abundancia"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinidad",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSLTZZ01/",
+            "description": "salinidad"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundancia",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AFI02269/",
+            "description": "abundancia"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/1990",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=ictioplanctonsancarloslagomaracaibo",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.755 10.956,-71.755 10.997,-71.606 10.997,-71.606 10.956,-71.755 10.956"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/22200",
+            "@type": "Organization",
+            "legalName": "Universidad del Zulia",
+            "name": "Universidad del Zulia",
+            "url": "https://oceanexpert.org/institution/22200"
+        }
+    ]
+}

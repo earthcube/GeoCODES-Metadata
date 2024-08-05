@@ -1,0 +1,141 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/81ace119-09fd-467e-8f6e-74ca29b01634",
+    "name": "Trawl Data from the CCGS Sir John Franklin during the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition",
+    "description": "This data set contains the at sea data collected by Fisheries and Oceans Canada (DFO) in the eastern Gulf of Alaska, aboard the CCGS Sir John Franklin, in contribution to the 2022 International Year of the Salmon (IYS) Pan-Pacific Winter Expedition coordinated by the North Pacific Anadromous Fish Commission (NPAFC). This data package contains three separate components; event, catch, and specimen. The event data contains all of the sampling event information, including time, location, and duration. All dates and times are in UTC, depth measurements are in meters and distance measurements are in kilometers. The catch data contains all of the catch records, as counts and weights, for each species/taxa at each station. The sampling method for every catch weight should be total weight, and all weights are in kilograms. Weights too small to be weighed accurately are recorded as “Trace”. The specimen data contains individual lengths and weights for sampled individuals from each station. Specimen lengths are in millimeters and specimen weights are in grams. To join event information to catch or specimen information, join on the station event id field. To join catch and specimen data, join on the catch id field.\n\nThis data is contained in Canadian Technical Report of Fisheries and Aquatic Sciences, which should be referenced in any use of this data as follows:\n\nKing, J.R., Freshwater, C., Tabata, A.M., Zubkowski, T.B., Stanley, C., Wright, C., Anderson, E.D., and Flynn, K.L. 2022. Eastern Gulf of Alaska Pacific Salmon Trawl Survey, February 19 - March 21, 2022 onboard the CCGS Sir John Franklin as contribution to the International Year of the Salmon Pan-Pacific Winter High Seas Expedition. Can. Tech. Rep. Fish. Aquat. Sci. 3502: vii + 61 p.",
+    "url": "https://obis.org/dataset/81ace119-09fd-467e-8f6e-74ca29b01634",
+    "sameAs": [
+        "https://ipt.iobis.org/obiscanada/resource?r=trawl-catch-and-specimen-data-from-the-ccgs-sir-john-franklin-during-the-2022-international-year-of-the-salmon-expedition",
+        "https://doi.org/10.21966/gmrz-ad56"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "King, J. R., Tabata, A., Freshwater, C., &amp; Zubkowski, T. (2022). Trawl Data from the CCGS Sir John Franklin during the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition [Data set]. North Pacific Anadromous Fish Commission. https://doi.org/10.21966/gmrz-ad56",
+    "version": "2022-12-16T18:08:17.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Trawl",
+        "specimen",
+        "catch",
+        "eastern North Pacific Ocean",
+        "International Year of the Salmon"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom_Depth_Meters",
+            "url": "http://vocab.nerc.ac.uk/collection/P09/current/BATH/",
+            "description": "Bottom_Depth_Meters"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Research Vessel",
+            "url": "http://vocab.nerc.ac.uk/collection/L06/current/31/",
+            "description": "Research Vessel"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling_Duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sampling_Duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tow_distance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Tow_distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tow_speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TOWSPEED/",
+            "description": "Tow_speed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wave_height",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/JNQS0CMX/",
+            "description": "Wave_height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Age_Class",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Age_Class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen_Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600088/",
+            "description": "Specimen_Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen fork length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FL01XX01/",
+            "description": "Specimen fork length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2022/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.21966/gmrz-ad56",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.21966/gmrz-ad56",
+        "url": "https://doi.org/10.21966/gmrz-ad56"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=trawl-catch-and-specimen-data-from-the-ccgs-sir-john-franklin-during-the-2022-international-year-of-the-salmon-expedition",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-144.01504454355756 46.01907465758977,-144.01504454355756 57.007489984207034,-132.02589301260767 57.007489984207034,-132.02589301260767 46.01907465758977,-144.01504454355756 46.01907465758977"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20688",
+            "@type": "Organization",
+            "legalName": "Department of Fisheries and Oceans",
+            "name": "Department of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/20688"
+        }
+    ]
+}

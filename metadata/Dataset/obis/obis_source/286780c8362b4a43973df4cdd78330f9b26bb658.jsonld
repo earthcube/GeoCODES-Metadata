@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ca3f5618-f328-4417-83fe-8ca85502a4d0",
+    "name": "Phytoplankton monitoring in Grado, GO - North Adriatic Sea. 2016",
+    "description": "Phytoplankton monitoring in Grado, GO, Italy. Single coastal monitoring for water quality evaluation on June 2016. Shallow coastal waters in the northern part of the Adriatic Sea, in the Gulf of Trieste",
+    "url": "https://obis.org/dataset/ca3f5618-f328-4417-83fe-8ca85502a4d0",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton-grado2016",
+        "https://doi.org/10.6092/c03aec6c-d230-48d6-8122-1b968de2a3a9"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Fornasaro D, Gordini E, Del Negro P (2018). OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. Italy. https://doi.org/10.6092/c03aec6c-d230-48d6-8122-1b968de2a3a9",
+    "version": "2023-05-23T11:55:53.000Z",
+    "keywords": [
+        "Water quality",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance per unit volume of the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/c03aec6c-d230-48d6-8122-1b968de2a3a9",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/c03aec6c-d230-48d6-8122-1b968de2a3a9",
+        "url": "https://doi.org/10.6092/c03aec6c-d230-48d6-8122-1b968de2a3a9"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton-grado2016",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.4151 45.67065,13.4151 45.6825,13.4368 45.6825,13.4368 45.67065,13.4151 45.67065"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

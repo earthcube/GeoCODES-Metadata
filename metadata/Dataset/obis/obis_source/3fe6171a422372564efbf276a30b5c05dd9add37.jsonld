@@ -1,0 +1,131 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6126d698-3e12-4f10-8b05-65122298d02e",
+    "name": "Benthic bycatch data from non-native Crepidula fornicata dredge surveys in Belfast Lough from 2013-2017",
+    "description": "This dataset contains information on the presence and absence of bycaught infaunal species from Crepidula fornicata surveys in Belfast Lough from 2013 to 2017 on board the Fisheries Protection Vessel, Banríon Uladh (renamed in 2016 to Queen of Ulster). The surveys were carried out each year in late September and early October (each over 2 days of surveying). It is important to note that this dataset contains bycatch information and this was not the key aim of the survey. The C.fornicata survey is carried out to routinely monitor the extent of the breeding population of C.fornicata (non-native in Northern Ireland) to enable policies to be put in place to minimise the spread of non-native fauna. In the years 2013-2015, a small oyster dredge was used to collect samples, in 2016 and 2017 a small AFBI naturalist dredge was used. In total over the 4 years, 278 samples were collected for identification &amp; analysis. The most frequently recorded species was the gastropod Philine aperta.",
+    "url": "https://obis.org/dataset/6126d698-3e12-4f10-8b05-65122298d02e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dasshse00000049",
+        "https://doi.org/10.17031/bhwln1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Agri-Food and Biosciences Institute (AFBI) (2019): Benthic bycatch data from non-native Crepidula fornicata dredge surveys in Belfast Lough from 2013-2017. v3.3. Marine Biological Association. Dataset/Samplingevent https://doi.org/10.17031/bhwln1",
+    "version": "2024-02-26T23:45:23.000Z",
+    "keywords": [
+        "Bycatches",
+        "surface vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "devicearea",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "devicearea"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "methodqcnotes",
+            "url": "",
+            "description": "methodqcnotes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "platformname",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "platformname"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "platformtype",
+            "url": "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/",
+            "description": "platformtype"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "qcscheme",
+            "url": "",
+            "description": "qcscheme"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplingdevice",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "samplingdevice"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "startlatitude",
+            "url": "",
+            "description": "startlatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "startlongitude",
+            "url": "",
+            "description": "startlongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "starttime",
+            "url": "",
+            "description": "starttime"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "endlatitude",
+            "url": "",
+            "description": "endlatitude"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2017",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/bhwln1",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/bhwln1",
+        "url": "https://doi.org/10.17031/bhwln1"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dasshse00000049",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.893433333333 54.643695,-5.893433333333 54.712308514863,-5.777566666667 54.712308514863,-5.777566666667 54.643695,-5.893433333333 54.643695"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13220",
+            "@type": "Organization",
+            "legalName": "Agri-Food and Biosciences Institute",
+            "name": "Agri-Food and Biosciences Institute",
+            "url": "https://oceanexpert.org/institution/13220"
+        }
+    ]
+}

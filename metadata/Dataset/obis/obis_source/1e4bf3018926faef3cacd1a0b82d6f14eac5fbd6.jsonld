@@ -1,0 +1,98 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9c215c9b-8055-4d71-bf86-3ec62618256c",
+    "name": "Phytoplankton abundance data from the Gibraltar coastline 2009-2019",
+    "description": "Full community phytoplankton analysis results, expressed as cells per litre, from samples collected from the Gibraltar coastline between 2009 to 2019. The data were derived from water samples collected at a 2m depth using a Niskin sampler on an quarterly basis at four sites by HM Government of Gibraltar. Site positions are included in the dataset, and are accurate to +/- 30m.",
+    "url": "https://obis.org/dataset/9c215c9b-8055-4d71-bf86-3ec62618256c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cefas_gibraltar_phyto",
+        "https://doi.org/10.14466/CefasDataHub.111"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Phytoplankton Analysis Team, Cefas &amp; HM Government of Gibraltar (2020). Phytoplankton abundance data from the Gibraltar coastline 2009-2019. Cefas, UK. V1 https://doi.org/10.14466/CefasDataHub.111",
+    "version": "2023-12-08T18:28:53.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling platform name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Sampling platform name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "VOLUME SAMPLED OF WATER BODY",
+            "url": "http://vocab.nerc.ac.uk/collection/P09/current/VSAM/",
+            "description": "VOLUME SAMPLED OF WATER BODY"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "platform_class",
+            "url": "http://vocab.nerc.ac.uk/collection/L19/current/SDNKG05/",
+            "description": "platform_class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.14466/CefasDataHub.111",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14466/CefasDataHub.111",
+        "url": "https://doi.org/10.14466/CefasDataHub.111"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cefas_gibraltar_phyto",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.36806 36.11911,-5.36806 36.15258,-5.33879 36.15258,-5.33879 36.11911,-5.36806 36.11911"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

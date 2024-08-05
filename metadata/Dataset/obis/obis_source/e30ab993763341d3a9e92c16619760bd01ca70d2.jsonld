@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8a1ae661-e911-4967-bc06-1168fc5f2d89",
+    "name": "iziko South African Museum - Fish Collection",
+    "description": "The iziko South African Museum has a comprehensive holdings comprising of identified bony and cartilaginous fish, mostly from Cape waters, but extending to Angola and Mozambique and the Southern, Indian and Atlantic Oceans. It currently contains 15048 records of 293 families.",
+    "url": "https://obis.org/dataset/8a1ae661-e911-4967-bc06-1168fc5f2d89",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=iziko_fish"
+    ],
+    "license": "Restricted",
+    "citation": "iziko South African Museum - Fish Collection",
+    "version": "2020-12-02T14:08:59.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1829/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/afrobis/archive.do?r=iziko_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-155.518005371 -77.8499984741,-155.518005371 60.4667015076,179.13999939 60.4667015076,179.13999939 -77.8499984741,-155.518005371 -77.8499984741"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

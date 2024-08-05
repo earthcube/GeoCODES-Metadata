@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/01bbd84c-d271-4ba3-ac22-3fcf07701eb6",
+    "name": "Zooplankton of the Eastern South Pacific, Universidad de Guayaquil, Ecuador",
+    "description": "The purpose of this work is to contribute to the knowledge of the biodiversity in Ecuadorian waters. This dataset contains planktonic foraminifera data from 1973 (between 01°22'N and 03°16'N), and data on fish larvae and foraminifera from 1997 to 2000 (81°05'W - 02°04'S).",
+    "url": "https://obis.org/dataset/01bbd84c-d271-4ba3-ac22-3fcf07701eb6",
+    "sameAs": [
+        "http://cpps.dyndns.info:8080/cpps-ipt/resource?r=plancton_ecuador"
+    ],
+    "license": "Unrestricted",
+    "citation": null,
+    "version": "2021-11-08T17:31:43.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/1973",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://cpps.dyndns.info:8080/cpps-ipt/archive.do?r=plancton_ecuador",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-85.28299713 -2.73300004,-85.28299713 1.366999984,-80.13300323 1.366999984,-80.13300323 -2.73300004,-85.28299713 -2.73300004"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

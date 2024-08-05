@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3ff82f02-aefe-45bb-a37e-3035394b3e56",
+    "name": "Mid-winter waterfowl count, Estonian national monitoring 1991-2016",
+    "description": "Waterfoul species individuals counts in monitoring sectors. The monitoring was performed in Estonian territorial waters in 1991-2016",
+    "url": "https://obis.org/dataset/3ff82f02-aefe-45bb-a37e-3035394b3e56",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=est_midwinter_waterfowl_1991-2016"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Estonian Ornithological Society (2019): Mid-winter waterfowl count, Estonian national monitoring 1991-2016",
+    "version": "2023-12-08T17:10:07.000Z",
+    "keywords": [
+        "Waterfowl",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling device",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling device"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=est_midwinter_waterfowl_1991-2016",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "21.795165404812 57.907522164527,21.795165404812 59.672980564697,27.815699216955 59.672980564697,27.815699216955 57.907522164527,21.795165404812 57.907522164527"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

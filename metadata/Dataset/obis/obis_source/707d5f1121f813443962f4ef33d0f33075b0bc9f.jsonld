@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/da77ef95-bff6-43f9-8af8-2a1dfa400ba8",
+    "name": "CRED Rapid Ecological Assessment of Invertebrate in the Pacific Ocean",
+    "description": "CRED Rapid Ecological Assessment of Invertebrate in the Pacific Ocean",
+    "url": "https://obis.org/dataset/da77ef95-bff6-43f9-8af8-2a1dfa400ba8",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=cred_rea_inverts"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Coral Reef Ecosystem Division (CRED), NOAA Pacific Island Fisheries Science Center, 2008-05-08, CRED Rapid Ecological Assessment of Invertebrate in the Pacific Ocean, from 2002 to 2008",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=cred_rea_inverts",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.378433228 -14.5593166351,-178.378433228 28.4536495209,145.852920532 28.4536495209,145.852920532 -14.5593166351,-178.378433228 -14.5593166351"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        }
+    ]
+}

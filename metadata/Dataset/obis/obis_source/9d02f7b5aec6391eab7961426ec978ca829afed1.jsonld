@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1418786c-0a73-464b-be4b-743a021078bc",
+    "name": "University of Costa Rica (UCR) Fish Database",
+    "description": "Marine and freshwater fishes from Central America, principally Costa Rica.",
+    "url": "https://obis.org/dataset/1418786c-0a73-464b-be4b-743a021078bc",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=costarica_fish"
+    ],
+    "license": "Unrestricted",
+    "citation": "Myrna López and William Bussing (1964): Museum of Zoology, Biology Department, University of Costa Rica",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1934/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=costarica_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-117.209999084 -21.4799995422,-117.209999084 32.7599983215,12.5600004196 32.7599983215,12.5600004196 -21.4799995422,-117.209999084 -21.4799995422"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

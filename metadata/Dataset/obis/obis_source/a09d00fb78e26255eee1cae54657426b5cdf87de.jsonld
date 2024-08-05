@@ -1,0 +1,119 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b3e37be8-62ed-49c6-b171-444e83731e57",
+    "name": "DFO Gulf Region Aquatic Invasive Species Data",
+    "description": "DFO Science monitors for AIS in the Gulf Region along with several provincial agencies, universities and NGOs. The data collected from DFO's biofouling monitoring program provides an overview of the distribution and abundance of Aquatic Invasive Species (AIS) in the Gulf Region. This information can be used by the general public, scientists and DFO managers.",
+    "url": "https://obis.org/dataset/b3e37be8-62ed-49c6-b171-444e83731e57",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=gulf_data"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "DFO. 2021: DFO Gulf Region Aquatic Invasive Species Data. v1.1. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=gulf_data&amp;v=1.1",
+    "version": "2022-03-22T20:35:21.000Z",
+    "keywords": [
+        "Samplingevent",
+        "occurrence core",
+        "event core",
+        "emof",
+        "tunicate",
+        "aquatic invasive species"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Surface Type",
+            "url": "",
+            "description": "Surface Type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "collectorID",
+            "url": "",
+            "description": "collectorID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "conductivity",
+            "url": "http://vocab.nerc.ac.uk/collection/L22/current/TOOL1136/",
+            "description": "conductivity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PPSBSF01/",
+            "description": "depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dissolved oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P09/current/OSAT/",
+            "description": "dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dissolved oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/DOXY/",
+            "description": "dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600085/",
+            "description": "salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "specific conductance",
+            "url": "http://vocab.nerc.ac.uk/collection/L22/current/TOOL1136/",
+            "description": "specific conductance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/TEMP/",
+            "description": "temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "percent cover",
+            "url": "",
+            "description": "percent cover"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=gulf_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.76234 45.63723,-65.76234 47.89532,-61.00823 47.89532,-61.00823 45.63723,-65.76234 45.63723"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6185",
+            "@type": "Organization",
+            "legalName": "Gulf Region, Fisheries and Oceans Canada",
+            "name": "Gulf Region, Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6185"
+        }
+    ]
+}

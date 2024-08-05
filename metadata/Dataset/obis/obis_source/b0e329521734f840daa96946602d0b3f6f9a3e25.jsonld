@@ -1,0 +1,66 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2ca8a7bc-7ef4-4c60-88be-8759d1af856d",
+    "name": "Monitoreo de foraminiferos en el Parque Nacional Natural Corales de profundidad de 2014 a 2017",
+    "description": "Este monitoreo fue llevado a cabo en el Parque Corales de profundidad entre los años 2014 a 2017, con el objetivo de evaluar como varia la composición de las comunidades de foraminíferos bentónicos (simbióticos, oportunistas y heterótrofos pequeños) asociados a arrecifes mesofóticos. Contiene un total de 365 registros, pertenecientes a 71 géneros.",
+    "url": "https://obis.org/dataset/2ca8a7bc-7ef4-4c60-88be-8759d1af856d",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=pnn_corales-profun_foraminiferos",
+        "https://doi.org/10.15472/ghwhmd"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Henao A, Navas G, Benavides Serrato M (2022): Monitoreo de foraminiferos en el Parque Nacional Natural Corales de profundidad de 2014 a 2017. v1.3. Parques Nacionales Naturales de Colombia. Dataset/Occurrence. https://doi.org/10.15472/ghwhmd",
+    "version": "2022-03-15T21:04:37.000Z",
+    "keywords": [
+        "Parques Nacionales",
+        "Foraminíferos",
+        "Monitoreo",
+        "SIB_MARINO",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2017",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/ghwhmd",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/ghwhmd",
+        "url": "https://doi.org/10.15472/ghwhmd"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=pnn_corales-profun_foraminiferos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-76.0823 10.0105,-76.0823 10.0303694,-76.0645833 10.0303694,-76.0645833 10.0105,-76.0823 10.0105"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18356",
+            "@type": "Organization",
+            "legalName": "Parques Nacionales Naturales de Colombia",
+            "name": "Parques Nacionales Naturales de Colombia",
+            "url": "https://oceanexpert.org/institution/18356"
+        }
+    ]
+}

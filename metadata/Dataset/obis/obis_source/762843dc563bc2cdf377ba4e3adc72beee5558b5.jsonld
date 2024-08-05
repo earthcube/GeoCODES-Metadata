@@ -1,0 +1,114 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/92bacebb-9cfb-419a-b435-ce1ecb061859",
+    "name": "2015 Orkney Islands Council Harbour Authority (OICHA) Marine Non-Native Species Monitoring Programme",
+    "description": "Orkney Islands Council marine non-native species survey.  The aim of this survey was to determine the extent of non-native species in Orkney.",
+    "url": "https://obis.org/dataset/92bacebb-9cfb-419a-b435-ce1ecb061859",
+    "sameAs": [
+        "https://www.dassh.ac.uk/ipt/resource?r=dasshdt00000282",
+        "https://doi.org/10.17031/jnfcip"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Orkney Islands Council, Department of Harbours (OIC) (2022): 2015 Orkney Islands Council Harbour Authority (OICHA) Marine Non-Native Species Monitoring Programme. v2.2. Marine Biological Association. Dataset/Samplingevent. https://doi.org/10.17031/jnfcip",
+    "version": "2022-05-19T09:59:33.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "locationname",
+            "url": "",
+            "description": "locationname"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalsamplelatitude",
+            "url": "",
+            "description": "originalsamplelatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "recorder",
+            "url": "",
+            "description": "recorder"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplelatitude",
+            "url": "",
+            "description": "samplelatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplelongitude",
+            "url": "",
+            "description": "samplelongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "developmentstage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01",
+            "description": "developmentstage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL06",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "",
+            "description": "length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "gender",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01",
+            "description": "gender"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/jnfcip",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/jnfcip",
+        "url": "https://doi.org/10.17031/jnfcip"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.dassh.ac.uk/ipt/archive.do?r=dasshdt00000282",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-3.3122672 58.792,-3.3122672 59.323119,-2.9579541 59.323119,-2.9579541 58.792,-3.3122672 58.792"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

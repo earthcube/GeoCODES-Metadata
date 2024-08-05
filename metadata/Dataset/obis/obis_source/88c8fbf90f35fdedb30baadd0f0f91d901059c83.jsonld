@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ff262d96-c716-4ef8-a651-4898972e82c6",
+    "name": "New Zealand Coralline Algae",
+    "description": "Occurence of New Zealand's non-geniculate coralline flora. This dataset is based on two identification guides published by NIWA and funded through the Ministry of Fisheries Biodiversity Programme in order to make information accessible to marine scientists and resource managers and to improve understanding of these algae.",
+    "url": "https://obis.org/dataset/ff262d96-c716-4ef8-a651-4898972e82c6",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=mbiscoralline_algae"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Harvey, A., Woelkerling, W.,Farr, T., Broom, J., Hart, D., Neill, K., Nelson, W. (2013). Coralline algae of northern and central New Zealand. Southwestern OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 1050 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=mbiscoralline_algae released on Jul 2, 2013.",
+    "version": "2018-08-08T21:04:05.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1916/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=mbiscoralline_algae",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.4333333 -52.55,-178.4333333 -29.24333333,178.7531667 -29.24333333,178.7531667 -52.55,-178.4333333 -52.55"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        }
+    ]
+}

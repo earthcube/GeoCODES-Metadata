@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fd2f7640-4095-40d2-92a8-7b4f09006d65",
+    "name": "Observaciones de Poliquetos de la Universidad del Valle (CRBMUV)",
+    "description": "El presente conjunto de datos corresponde a la observaciones de poliquetos de la Universidad del Valle. En esta publicación se incluyen las observaciones (sin espécimen preservado) que estaban incluidas dentro de la publicación de la colección biológica. Contiene 5 registros de poliquetos, todos provenientes del Pacífico colombiano. ",
+    "url": "https://obis.org/dataset/fd2f7640-4095-40d2-92a8-7b4f09006d65",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=poliquetos_univalle",
+        "https://doi.org/10.15472/i7rcbr"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Universidad del Valle (2014). Poliquetos de la Colección de Referencia de Biología Marina de la Universidad del Valle, 5 registros, aportados por Lizcano-Sandoval, L.D. (Creador del recurso), Bolívar, G. (Curador de la colección, Contacto del recurso) &amp; Carmona, A. (Proveedor de los metadatos, Contacto del recurso), En línea, http://ipt.sibcolombia.net/valle/resource.do?r=poliquetos_univalle, versión 1 (actualizado el 14/04/2021).",
+    "version": "2021-04-14T22:10:49.000Z",
+    "keywords": [
+        "Polychaeta",
+        "Universidad del Valle",
+        "Pacífico colombiano",
+        "Occurrence",
+        "Observation",
+        "VALLE_DEL_CAUCA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2011",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/i7rcbr",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/i7rcbr",
+        "url": "https://doi.org/10.15472/i7rcbr"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=poliquetos_univalle",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-78.20537 2.93417,-78.20537 3.00361,-78.17111 3.00361,-78.17111 2.93417,-78.20537 2.93417"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

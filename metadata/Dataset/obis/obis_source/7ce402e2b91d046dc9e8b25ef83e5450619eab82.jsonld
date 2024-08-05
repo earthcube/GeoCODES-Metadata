@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3eb5bcd4-5258-48a4-93dd-ae14de6f7e56",
+    "name": "IOW Macrozoobenthos monitoring Baltic Sea (1980-2005)",
+    "description": "This time series on species composition and biomass or abundance of macrozoobenthos in the Belt Sea and the Baltic proper provide data from 1979 till 2005 as part of the HELCOM monitoring",
+    "url": "https://obis.org/dataset/3eb5bcd4-5258-48a4-93dd-ae14de6f7e56",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macroben_zettler_evco"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Zettler M. L., 2005: Macrozoobenthos baltic sea (1980-2005) as part of the IOW-Monitoring. Institut für Ostseeforschung Warnemünde, Germany",
+    "version": "2023-05-23T11:38:11.000Z",
+    "keywords": [
+        "Benthos",
+        "Biodiversity",
+        "Long-term monitoring",
+        "Macrobenthos",
+        "Monitoring",
+        "Time series",
+        "Zoobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macroben_zettler_evco",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.06 54.03,11.06 59.92,25.6 59.92,25.6 54.03,11.06 54.03"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

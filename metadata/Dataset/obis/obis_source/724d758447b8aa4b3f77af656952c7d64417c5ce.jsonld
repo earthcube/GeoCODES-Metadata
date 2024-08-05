@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4e42d212-8135-4e9c-bd9f-492c5f349f21",
+    "name": "Western Australian Museum Worms Collection - marine records",
+    "description": "The Western Australian Museum’s Worm Collection comprises specimens from a wide range of unrelated animals commonly referred to as worms owing to their generally long and skinny bodies. There are approximately 42,000 specimens in the collection. This set is marine records by matching taxa to WoRMS.",
+    "url": "https://obis.org/dataset/4e42d212-8135-4e9c-bd9f-492c5f349f21",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_co289"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hosie A (2022): Western Australian Museum Worms Collection - marine records. v1.6. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=ala_co289&amp;v=1.6",
+    "version": "2022-06-07T03:09:41.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1922/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_co289",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.525 -35.65,113.525 -12.2102,137.6333 -12.2102,137.6333 -35.65,113.525 -35.65"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19312",
+            "@type": "Organization",
+            "legalName": "Western Australian Museum",
+            "name": "Western Australian Museum",
+            "url": "https://oceanexpert.org/institution/19312"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

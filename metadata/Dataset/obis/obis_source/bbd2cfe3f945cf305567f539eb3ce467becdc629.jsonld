@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9e65f306-4762-4f71-98e9-695a2abaebcb",
+    "name": "Phytoplankton data collected in the Black Sea along the Tuapse transect in August 1951",
+    "description": "Data collected by the IBSS staff at several stations in the Black Sea along the Tuapse transect in August 1951. This dataset contains abundance data (individuals per liter) for phytoplankton taxa. No additional metadata is available.",
+    "url": "https://obis.org/dataset/9e65f306-4762-4f71-98e9-695a2abaebcb",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phyto_black_sea_1952"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Phytoplankton data collected in the Black Sea along the Tuapse transect in August 1951. Institute of Biology of the Southern Seas of the National Academy of Sciences of Ukraine.",
+    "version": "2024-02-26T23:18:58.000Z",
+    "keywords": [
+        "Digitization",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "SampleVolume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "SampleVolume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "individualcount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1951/1951",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phyto_black_sea_1952",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "36.34 41.63,36.34 43.96,39.07 43.96,39.07 41.63,36.34 41.63"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

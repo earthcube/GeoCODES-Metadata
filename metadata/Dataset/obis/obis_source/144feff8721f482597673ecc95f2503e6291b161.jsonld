@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6c813a6c-86f7-4d45-beb5-33eebd8de938",
+    "name": "Vulnerable marine ecosystems in the South Pacific Ocean region",
+    "description": "Vulnerable marine ecosystems (VMEs) are any ecosystem that are highly vulnerable to one or more kinds of fishing activity or other disturbance, and are identified by the vulnerability of their components (e.g. habitats, communities or species). The South Pacific Regional Fisheries Management Organisation (SPRFMO) Convention includes specific provisions to protect VMEs. SPRFMO has defined ten benthic invertebrate taxa that are regarded as indicators of VMEs. They are: Porifera (sponges); Actiniaria (anemones); Alcyonacea (soft corals); Gorgonacea (sea fans); Pennatulacea (sea pens); Scleractinia (stony corals); Antipatharia (black corals); Stylasteridae (hydrocorals); Crinoidea (sea lilies); and Brisingida (armless stars). For management purposes, it is important to know where VMEs are known or likely to occur, based on the best available scientific and technical information. The likely presence of VMEs can be identified using habitat suitability models for indicator taxa, ideally across the entire SPRFMO area. This is the aim of the South Pacific VME project. Records of VME indicator taxa extracted for the SPRFMO area and the New Zealand EEZ from OBIS (Online Biogeographic Information System: www.iobis.org) together with other online data sources, and data from research institutes (e.g., NIWA, CSIRO) and fisheries agencies (e.g. MPI, AFMA) were used for the project. These data were compiled and groomed prior to use in the habitat suitability modelling. Data in this dataset represent records of the VME indicator taxa as extracted from the variety of data sources listed above and may include records that are outside of the SPRFMO area.",
+    "url": "https://obis.org/dataset/6c813a6c-86f7-4d45-beb5-33eebd8de938",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=vme_inverts"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "NIWA (2016). Vulnerable marine ecosystems in the South Pacific Ocean region. National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 202873 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=vme_inverts released on February 3, 2016.",
+    "version": "2020-02-15T08:50:49.000Z",
+    "keywords": [
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1839/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=vme_inverts",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -78.4333,-180 32.41666667,180 32.41666667,180 -78.4333,-180 -78.4333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        }
+    ]
+}

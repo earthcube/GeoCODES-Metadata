@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/10fe54bb-b93b-4f00-bf4c-bd51542614ef",
+    "name": "Taxonomic Information System for the Belgian coastal area",
+    "description": "Taxonomic Information System for the Belgian coastal area. Biogeographical information on (mainly) Belgian species. Focus area of the dataset spans from north of Wimereux (northern France) to the Scheldt estuary (southern Netherlands).",
+    "url": "https://obis.org/dataset/10fe54bb-b93b-4f00-bf4c-bd51542614ef",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=tisbe"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Flanders Marine Institute (VLIZ). Taxonomic Information System for the Belgian coastal area. 10 Aug 2004, Oostende, Belgium, Accessed on [dd/mm/yyyy].",
+    "version": "2023-05-23T11:40:43.000Z",
+    "keywords": [
+        "Bibliographic information",
+        "Biogeography",
+        "Biology",
+        "Ecology",
+        "Habitat",
+        "Morphology (organisms)",
+        "Taxonomy",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1768/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=tisbe",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-149.625 -47.012427052093,-149.625 85,180 85,180 -47.012427052093,-149.625 -47.012427052093"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

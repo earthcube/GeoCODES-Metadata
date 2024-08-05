@@ -1,0 +1,116 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e5389590-6d7e-4752-b84b-faa2a411db87",
+    "name": "Vulnerable Marine Ecosystems",
+    "description": "The dataset is comprised of; 1) 'VME habitats' which are records for which there is unequivocal evidence for a VME, e.g. ROV observations of a coral reef, 2) VME indicators which are records that suggest the presence of a VME with varying degrees of uncertainty. For VME indicators a weighting system of vulnerability and uncertainty is provided as part of the database to aid interpretation.",
+    "url": "https://obis.org/dataset/e5389590-6d7e-4752-b84b-faa2a411db87",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=ices-vme"
+    ],
+    "license": "Licence",
+    "citation": "ICES VME Database (http://vme.ices.dk)",
+    "version": "2024-02-27T00:21:58.000Z",
+    "keywords": [
+        "Deep sea",
+        "propelled unmanned submersible",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "MiddleLatitude",
+            "url": "",
+            "description": "MiddleLatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "MiddleLongitude",
+            "url": "",
+            "description": "MiddleLongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "VesselType",
+            "url": "http://vocab.ices.dk/?ref=57",
+            "description": "VesselType"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Reference",
+            "url": "",
+            "description": "Reference"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "PlaceName",
+            "url": "",
+            "description": "PlaceName"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "VME_Indicator",
+            "url": "http://vocab.ices.dk/?ref=1409",
+            "description": "VME_Indicator"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "EndLatitude",
+            "url": "",
+            "description": "EndLatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "EndLongitude",
+            "url": "",
+            "description": "EndLongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "StartLatitude",
+            "url": "",
+            "description": "StartLatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "StartLongitude",
+            "url": "",
+            "description": "StartLongitude"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1894/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ices-vme",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-79.7073168208 35.633335,-79.7073168208 81.5878852,43.035 81.5878852,43.035 35.633335,-79.7073168208 35.633335"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

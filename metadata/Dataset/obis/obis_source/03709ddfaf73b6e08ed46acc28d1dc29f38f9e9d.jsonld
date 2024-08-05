@@ -1,0 +1,105 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/08a645b0-1947-4168-b628-405cdb8e54fc",
+    "name": "At-sea GPS tracks of little penguins (Eudyptula minor) tagged at three colonies around Storm Bay (Boronia Beach, Wedge Island and Bruny Island Neck), Tasmania, Australia over the 2015/16 summer breeding season.",
+    "description": "This data contains at-sea GPS tracks of little penguins (Eudyptula minor) tagged at three colonies around Storm Bay, Tasmania (Boronia Beach, Wedge Island and Bruny Island Neck) over the 2015/16 summer breeding season. This data was collected as part of an honours thesis submitted in 2016. Metadata details are at http://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=db737c5a-708f-4929-b0f6-376366a8a5a5\nThe tracking data occurrences is complimented with the deployment and retrieval times (occurrenceids tagged with -deploy and -retrive respectively). Additional information of the number of chicks in the nest, their estimated age, the bill biometrics of the adult bird and its weight upon deployment are linked to the initial deployment record.",
+    "url": "https://obis.org/dataset/08a645b0-1947-4168-b628-405cdb8e54fc",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=imas_little_penguins_derwent"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Phillips, L., Lea, M.A., Hindell, M., Hobday, A. (2017), Little penguin tracking in Storm Bay - Summer 2015/16. Institute for Marine and Antarctic Studies (IMAS), University of Tasmania. Data accessed from http://metadata.imas.utas.edu.au/geonetwork/srv/en/meta\ndata.show?uuid=db737c5a-708f-4929-b0f6-376366a8a5a5 on (date accessed).",
+    "version": "2022-06-06T10:49:53.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Bill depth",
+            "url": "",
+            "description": "Bill depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bill length",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600097/",
+            "description": "Bill length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bill width",
+            "url": "",
+            "description": "Bill width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Chick age (estimation)",
+            "url": "",
+            "description": "Chick age (estimation)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Chick quantity",
+            "url": "",
+            "description": "Chick quantity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Head length",
+            "url": "",
+            "description": "Head length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight before deployment",
+            "url": "",
+            "description": "Weight before deployment"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=imas_little_penguins_derwent",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "147.3232 -43.5586,147.3232 -42.9452,147.7912 -42.9452,147.7912 -43.5586,147.3232 -43.5586"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13402",
+            "@type": "Organization",
+            "legalName": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "name": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "url": "https://oceanexpert.org/institution/13402"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

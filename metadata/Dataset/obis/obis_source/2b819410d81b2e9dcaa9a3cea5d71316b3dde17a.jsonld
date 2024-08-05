@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/172bfa9a-ada7-48cf-aecd-8508c6128b7d",
+    "name": "Bongo Zooplankton Data from the R/V TINRO, NOAA Bell M. Shimada, F/V Northwest Explorer and R/V CCGS Sir John Franklin during the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition",
+    "description": "This data set contains the zooplankton data collected using paired bongo tows from the R/V TINRO, NOAA Bell M. Shimada, F/V Northwest Explorer and R/V CCGS Sir John Franklin from February 2 - April 18, 2022 in the North Pacific Ocean. The paired bongo nets (60 cm in diameter, 253 micron mesh size) were deployed to a depth of approximately 250 m and retrieved vertically at 1 m s-1. Collected data are used to offer insights in zooplankton community composition, density and distribution. After the bongo net deployment and recovery, the net was rinsed down into the cod end. Volume of sea water filtered was determined using flowmeters. This dataset includes samples that were preserved in formalin. These samples were enumerated and identified to the lowest taxonomic rank possible or practical. Abundance (individuals per cubic meter) was recorded by species, lifestage, sex and size (range).",
+    "url": "https://obis.org/dataset/172bfa9a-ada7-48cf-aecd-8508c6128b7d",
+    "sameAs": [
+        "https://ipt.iobis.org/obiscanada/resource?r=zooplankton-bongo-net-data-from-the-2022-gulf-of-alaska-international-year-of-the-salmon-expedition",
+        "https://doi.org/10.21966/ymv6-8024"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Breckenridge, J., Galbraith, M., King, J., Pinchuk, A., Stark, C., &amp; Pakhomov, E. (2023). Bongo Zooplankton Data from the R/V TINRO, NOAA Bell M. Shimada, F/V Northwest Explorer and R/V CCGS Sir John Franklin during the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition (v1.0). North Pacific Anadromous Fish Commission. https://doi.org/10.21966/ymv6-8024",
+    "version": "2023-11-23T19:03:21.000Z",
+    "keywords": [
+        "abundance and biomass; North Pacific Ocean; International Year of the Salmon; Bongo; Zooplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2022/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.21966/ymv6-8024",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.21966/ymv6-8024",
+        "url": "https://doi.org/10.21966/ymv6-8024"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=zooplankton-bongo-net-data-from-the-2022-gulf-of-alaska-international-year-of-the-salmon-expedition",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-172.365 44.998083333333334,-172.365 58.00618333333333,-130.66743333333332 58.00618333333333,-130.66743333333332 44.998083333333334,-172.365 44.998083333333334"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20908",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks",
+            "name": "University of Alaska Fairbanks",
+            "url": "https://oceanexpert.org/institution/20908"
+        }
+    ]
+}

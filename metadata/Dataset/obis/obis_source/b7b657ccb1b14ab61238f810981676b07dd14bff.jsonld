@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6c805e4d-ac32-4e7e-a568-bb34ab492d11",
+    "name": "Weight of Copepoda in the Southern Bight of the North Sea in 1971 and 1974",
+    "description": "Mean weight and thorax length of the most important Copepoda species of samples taken between January and October 1971 and for 1 sample taken on 30th of May 1974 at station M55. The data were digitized by VLIZ from the original report: Van Gijsegem, B. (1979). Bijdrage tot de gewichtsbepaling van de belangrijkste soorten Copepoda in de zuidelijke bocht van de Noordzee. BSc Thesis. VUB: Brussel. 48 pp.",
+    "url": "https://obis.org/dataset/6c805e4d-ac32-4e7e-a568-bb34ab492d11",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=copepoda_southern_bight_north_sea_1971_1974",
+        "https://dx.doi.org/10.14284/173"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Van Gijsegem B.; Daro N.; Laboratorium voor Ekologie en Systematiek. VUB: Belgium; (2016): Weight of Copepoda in the Southern bight of the North Sea in 1971 and 1974. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5048) https://dx.doi.org/10.14284/173",
+    "version": "2023-05-23T11:27:59.000Z",
+    "keywords": [
+        "Thorax",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "life stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/1974",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/173",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/173",
+        "url": "https://dx.doi.org/10.14284/173"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=copepoda_southern_bight_north_sea_1971_1974",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.00333333 51.47361111,3.00333333 51.5611,3.02083333 51.5611,3.02083333 51.47361111,3.00333333 51.47361111"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        }
+    ]
+}

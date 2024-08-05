@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/22aa5133-5670-49a8-b48e-dbfbb56c5d9a",
+    "name": "The dispersal of benthic marine invertebrates by kelp rafts in the Southern Ocean",
+    "description": "Metadata record for data expected from ASAC Project 2163 \nSee the link below for public details on this project. \n\nRecords of observations of kelp rafts passing within 50 m of one side of the vessel over replicated periods of 1 hour. Data collected over subantarctic latitudes only. Records include: size, species, presence/absence of holdfast, latitude and longitude, ship speed.",
+    "url": "https://obis.org/dataset/22aa5133-5670-49a8-b48e-dbfbb56c5d9a",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=kelp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Smith, S. D. A. (2008). Kelp rafts in the Southern Ocean. Global Ecology and Biogeography (ASAC_2163)",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Community structure",
+        "Migration"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=kelp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "56.2999992371 -61.2833328247,56.2999992371 -43.0666656494,158.633331299 -43.0666656494,158.633331299 -61.2833328247,56.2999992371 -61.2833328247"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

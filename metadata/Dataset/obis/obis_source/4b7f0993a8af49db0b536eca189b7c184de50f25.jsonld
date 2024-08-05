@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8e6bb676-f180-4bbb-97ba-5911d7661b07",
+    "name": "St. Mary's River Salmon Tracking",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Department of Fisheries and Oceans Canada (DFO)  St. Mary's River Salmon Tracking, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=SMR).\nAbstract:This project examines the within-river migrations of wild adult Atlantic salmon prior, during and post-spawning. Additionally, the project simultaneously tracks supportive-reared adult salmon (collected as wild parr and grown to maturity) released back to their natal water to spawn.",
+    "url": "https://obis.org/dataset/8e6bb676-f180-4bbb-97ba-5911d7661b07",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndfosmrsalmon"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Halfyard, E.A., Gibson, J. 2010. St. Mary’s River adult Atlantic salmon tracking project.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T17:11:41.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndfosmrsalmon",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-63.53336 44.16254,-63.53336 48.56511,-53.88809 48.56511,-53.88809 44.16254,-63.53336 44.16254"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

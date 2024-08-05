@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/25ee2970-094d-4664-99da-4fd245fbcc6a",
+    "name": "Satellite Tracking of Hawksbill Turtles in Melaka, Malaysia (aggregated per 1-degree cell)",
+    "description": "Original provider:\nWWF-Malaysia\n\nDataset credits:\nData provider\nWWF-Malaysia\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nThe Melaka Hawksbill satellite tracking project is a collaborative effort between WWF-Malaysia, the Melaka State Department of Fisheries, and the Melaka State Government.\n\n\nAbstract:\nWWF-Malaysia aims to use satellite telemetry and computer mapping technology to identify important coastal turtle habitat ranges during the nesting period, their migration routes and foraging areas. The mapping result will be utilised to advocate legal protection for offshore waters of important nesting rookeries and develop management guidelines for the protected areas. The information gathered is also crucial in persuading Malaysia to ratify the relevant international treaties that relate to marine turtle conservation.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=185\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/25ee2970-094d-4664-99da-4fd245fbcc6a",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_983_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "WWF-Malaysia W. 2022. Satellite Tracking of Hawksbill Turtles in Melaka, Malaysia. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/983) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=185).",
+    "version": "2022-05-02T20:50:08.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_983_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "54.5 -8.5,54.5 9.5,114.5 9.5,114.5 -8.5,54.5 -8.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

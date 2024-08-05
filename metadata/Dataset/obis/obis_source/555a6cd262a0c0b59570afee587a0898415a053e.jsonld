@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/163b3b00-c6bb-49dd-a990-c3c4f5b1bcc9",
+    "name": "Polychaetes and Amphipodes from major ports in Greece in 2020-2021",
+    "description": "A dataset of Polychaeta and Amphipoda collected from 4 major ports of Greece: Pireaus, Patra, Heraklion, Rhodes during the period 2020-2021. For this purpose, a netted frame and a suction sampler were used to sample the benthic fauna on artificial reefs (of concrete) and floating platforms. This work is part of the project AlienPorts.",
+    "url": "https://obis.org/dataset/163b3b00-c6bb-49dd-a990-c3c4f5b1bcc9",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=alienports_polychaetes"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Chatzigeorgiou G, Androulakis D, Skouradakis G, Rallis I, Gratsia E (2022): Polychaetes and Amphipodes from major ports in Greece in 2020-2021. v1.11. Hellenic Center for Marine Research. Dataset/Samplingevent. http://ipt.medobis.eu/resource?r=alienports_polychaetes&amp;v=1.11",
+    "version": "2023-01-27T12:40:39.000Z",
+    "keywords": [
+        "Ports",
+        "Marinas",
+        "Polychaetes",
+        "Samplingevent",
+        "Amphipodes"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=alienports_polychaetes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "21.73784074 35.3431573,21.73784074 38.26470052,28.23905295 38.26470052,28.23905295 35.3431573,21.73784074 35.3431573"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f6e5b0ee-d645-40fc-a433-17fd8965c941",
+    "name": "JODC Dataset",
+    "description": "　Identified data set including about 290,000 records of the plankton observation data observed by the Japanese institutes concerned (Ministry of Environment, Fishery Agency, Meteorological Agency and Local gorvernments etc.) from 1951 to 2006.",
+    "url": "https://obis.org/dataset/f6e5b0ee-d645-40fc-a433-17fd8965c941",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=jodc_j-doss"
+    ],
+    "license": "This work is licensed under a\n                 Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "JODC (2013) JODC Dataset. (Available: http://www.godac.jamstec.go.jp/bismal/j/JODC_J-DOSS. Accessed: YYYY-MM-DD).",
+    "version": "2023-06-10T07:28:01.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=jodc_j-doss",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "122.5 -11,122.5 51.466667,176.116667 51.466667,176.116667 -11,122.5 -11"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11036",
+            "@type": "Organization",
+            "legalName": "Japan Oceanographic Data Center",
+            "name": "Japan Oceanographic Data Center",
+            "url": "https://oceanexpert.org/institution/11036"
+        }
+    ]
+}

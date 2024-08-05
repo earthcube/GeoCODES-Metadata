@@ -1,0 +1,92 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b56e4c0d-7688-4b09-9a1e-34a9e6430d51",
+    "name": "DFO Quebec Region Coastal biodiversity of the benthic epifauna of the St. Lawrence Estuary (2018-2019)",
+    "description": "The north shore of the Lower Estuary (Haute-Côte-Nord, Québec) is a productive coastal system where many commercial species of benthic invertebrates are fished in the infralittoral (10-20 m) and circalittoral (20-50 m) zones. However, this is an environment where little data exists on the biodiversity of non-commercial species and the environmental characteristics of benthic habitat. This project therefore aims to fill this knowledge gap by developing a framework for collecting biodiversity and environmental data (water column and seabed) which will be used to determine the baseline state of the benthic ecosystem of this region in the depth interval 10-50 m over a period of two years (2018-2019). Benthic species were collected using a beam trawl at selected stations across a depth gradient. Species were identified, counted and weighed.\nThis project was funded by DFO Coastal Environmental Baseline Program under Canada’s Oceans Protection Plan. This initiative aims to acquire environmental baseline data contributing to the characterization of important coastal areas and to support evidence-based assessments and management decisions for preserving marine ecosystems. /\nLa rive-nord de l’estuaire maritime (Haute-Côte-Nord, Québec) est un système côtier productif où de nombreuses espèces commerciales d’invertébrés benthiques sont pêchées dans la zone infralittorale (10-20 m) et circalittorale (20-50 m). Cependant, c’est un milieu où peu de données existent sur la biodiversité des espèces non-commerciales et les caractéristiques environnementales de l’habitat benthique. Le présent projet vise donc à combler ce manque de connaissances en développant un cadre de prises de données de biodiversité et environnementales (colonne d’eau et fond marin) qui serviront à déterminer l’état de référence de l’écosystème benthique de cette région dans l’intervalle de profondeur 10-50 m sur une durée de deux ans (2018-2019). Les espèces benthiques ont été collectées à l'aide d'un chalut à bâton (chalut à perche) à des stations sélectionnées sur un gradient de profondeur. Les espèces ont été identifiées, comptées et pesées.\nCe projet a été financé par le Programme sur les données environnementales côtières de référence de Pêches et Océans Canada dans le cadre du Plan de protection des océans. Cette initiative vise à acquérir des données environnementales de base qui contribuent à la caractérisation des zones côtières d’importance et appuient des évaluations fondées sur des preuves ainsi que les décisions de gestion afin de préserver les écosystèmes marins.",
+    "url": "https://obis.org/dataset/b56e4c0d-7688-4b09-9a1e-34a9e6430d51",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=ppo_stl_est_ben",
+        "https://doi.org/10.26071/ogsl-c2a02113-e69c"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Roy V (2021): DFO Quebec Region Coastal biodiversity of the benthic epifauna of the St. Lawrence Estuary (2018-2019). v1.2. Fisheries and Oceans Canada. Dataset/Samplingevent. https://doi.org/10.26071/ogsl-c2a02113-e69c",
+    "version": "2022-03-29T18:25:24.000Z",
+    "keywords": [
+        "Occurrence",
+        "Biodiversity",
+        "St. Lawrence river",
+        "St. Lawrence Estuary",
+        "North coast St. Lawrence Estuary",
+        "Quebec",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Sample size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling effort",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/SAMP/",
+            "description": "Sampling effort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/MVB/current/MVB000018/",
+            "description": "Life stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.26071/ogsl-c2a02113-e69c",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.26071/ogsl-c2a02113-e69c",
+        "url": "https://doi.org/10.26071/ogsl-c2a02113-e69c"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=ppo_stl_est_ben",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.0481 48.6461,-69.0481 49.295475,-67.718716 49.295475,-67.718716 48.6461,-69.0481 48.6461"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6190",
+            "@type": "Organization",
+            "legalName": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "name": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6190"
+        }
+    ]
+}

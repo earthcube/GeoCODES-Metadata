@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/873ef09c-82b6-4d92-bc91-252c11f5e97d",
+    "name": "Demersais survey in the Azores between 1996 and 2013",
+    "description": "Demersal surveys performed with bottom longline during research cruises around Azorean islands and several seamounts. Surveys conducted annually (few exceptions) from 1996 to 2013.",
+    "url": "https://obis.org/dataset/873ef09c-82b6-4d92-bc91-252c11f5e97d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=demersais_survey_azores_1996_2013",
+        "https://dx.doi.org/10.14284/22"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Menezes, G.; Institute of Marine Research (IMAR - Azores), Portugal; Department of Oceanography and Fisheries, University of the Azores (DOP/UAC), Portugal; (2014): Demersais survey in the Azores between 1996 and 2013. https://dx.doi.org/10.14284/22",
+    "version": "2023-05-23T11:34:35.000Z",
+    "keywords": [
+        "Bait fishing",
+        "Demersal fisheries",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/2013",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/22",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/22",
+        "url": "https://dx.doi.org/10.14284/22"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=demersais_survey_azores_1996_2013",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-37.44979863 36.83765468,-37.44979863 40.35700806,-24.27808753 40.35700806,-24.27808753 36.83765468,-37.44979863 36.83765468"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19372",
+            "@type": "Organization",
+            "legalName": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "name": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "url": "https://oceanexpert.org/institution/19372"
+        }
+    ]
+}

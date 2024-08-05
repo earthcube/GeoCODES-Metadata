@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4c76caff-942a-4ced-832b-f7670052ed66",
+    "name": "ACZISC-AEI: Republication of species distribution records from Atlantic Canada - A Survey of Marine Algae of the Maritime Provinces conducted between 1924 - 1931",
+    "description": "Species distribution information associated with the publication by Bell and MacFarlane, 1933 were digitized, standardized and republished by the Coalition-SGSL as part of the Atlantic Coastal Zone Information Steering Committee (ACZISC) Atlantic Ecosystem Initiative (AEI) funded project “Atlantic Canada’s Biological Data for Ecosystem Planning and Decision-making” and OBIS Canada.\n\nThe abstract for the source publication is as follows: 'The marine algae of the Atlantic coast of the Maritime provinces of Canada were collected at representative places all along the coast. The most intensive collecting was done at St. Andrew's, New Brunswick and at Halifax, Nova Scotia. An entire summer was spent collecting around Prince_Edward Island.\nThe report covers the work of more than seven years. The collecting was done chiefly during the summer, but regular collecting was also carried out for two winters. The area is divided into three distinct geographical and ecological\nregions, namely, the Bay of Fundy, the Atlantic and the Prince Edward Island region. In the list of species, their regional distribution and prevalence are given in tabular form. The list includes 120 species, divided into 30 Chlorophyceae, 41 Phaeophyceae and 49 Rhodophyceae. In addition to critical notes regarding certain forms, the striking differences in the marine flora from region to region are indicated diagramatically by distribution maps for a number of\nspecies.'\n\nThis resource contains species presence information associated with the general place names assigned in the source document. These locations, Atlantic, Bay of Fundy, PEI, were georeferenced as part of the ACZISC-AEI project and coordinates defining these areas are included in the DwC.FootprintWKT field (http://rs.tdwg.org/dwc/terms/#footprintWKT).\n",
+    "url": "https://obis.org/dataset/4c76caff-942a-4ced-832b-f7670052ed66",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=aei_bellmacfarlane_algae1933a"
+    ],
+    "license": "rights:  http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms  \nrightsHolder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "Coalition-SGSL. 2015. ACZISC-AEI: Republication of species distribution records from Atlantic Canada - A Survey of Marine Algae of the Maritime Provinces conducted between 1924 - 1931. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2015-08-24T19:10:17.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=aei_bellmacfarlane_algae1933a",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.38 43.69,-65.38 46.53,-62.27 46.53,-62.27 43.69,-65.38 43.69"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19471",
+            "@type": "Organization",
+            "legalName": "Southern Gulf of St. Lawrence Coalition on Sustainability",
+            "name": "Southern Gulf of St. Lawrence Coalition on Sustainability",
+            "url": "https://oceanexpert.org/institution/19471"
+        }
+    ]
+}

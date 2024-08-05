@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6a3833f7-2857-4df4-af1c-69f1632d69c3",
+    "name": "POPA- Fisheries Observer Program of the Azores: Seabird sightings in the Azores tuna fishery from 1998 to 2013: while fishing",
+    "description": "Recorded sightings of seabirds close to the boat and/or interacting with the tuna fishing, while capturing the tunas.",
+    "url": "https://obis.org/dataset/6a3833f7-2857-4df4-af1c-69f1632d69c3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=popa_birds_sightings_while_fishing_1998_2013",
+        "https://dx.doi.org/10.14284/12"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Machete, M.; Institute of Marine Research (IMAR), Portugal; Department of Oceanography and Fisheries, University of the Azores (DOP/UAC), Portugal; (2014): POPA- Fisheries Observer Program of the Azores: Seabird sightings in the Azores tuna fishery from 1998 to 2013: while fishing. https://dx.doi.org/10.14284/12",
+    "version": "2023-05-23T12:24:37.000Z",
+    "keywords": [
+        "Tuna fisheries",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2013",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/12",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/12",
+        "url": "https://dx.doi.org/10.14284/12"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=popa_birds_sightings_while_fishing_1998_2013",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-51.1757 21.35115,-51.1757 85.66666667,12.46728333 85.66666667,12.46728333 21.35115,-51.1757 21.35115"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19372",
+            "@type": "Organization",
+            "legalName": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "name": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "url": "https://oceanexpert.org/institution/19372"
+        }
+    ]
+}

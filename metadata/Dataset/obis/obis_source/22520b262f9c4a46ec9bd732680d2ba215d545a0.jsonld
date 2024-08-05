@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/11c9e3fc-84e2-45eb-95cb-0e8e3743f9f6",
+    "name": "AMAPPS Northeast Shipboard Cruise Summer 2011",
+    "description": "Original provider:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nDataset credits:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nSupplemental information:\nPerpendicular distance to the animal is not publicly available.",
+    "url": "https://obis.org/dataset/11c9e3fc-84e2-45eb-95cb-0e8e3743f9f6",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1269"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Josephson, B. 2015. AMAPPS Northeast Shipboard Cruise Summer 2011. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1269) on yyyy-mm-dd.",
+    "version": "2021-04-24T05:48:45.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1269",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-74.83516 36.62551,-74.83516 42.08188,-64.82075 42.08188,-64.82075 36.62551,-74.83516 36.62551"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

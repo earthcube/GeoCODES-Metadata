@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b4668bbe-4b5f-412a-ae1f-1dae3dedb38a",
+    "name": "Marine Microbes from RV Investigator voyage IN2015_C02, Australia (2015)",
+    "description": "This dataset was acquired on the RV Investigator voyage IN2015_C02 in the Great Australian Bight (GAB). The aim was to describe the community structure, dynamics, biodiversity and endemism of microbes (i.e., viruses and bacteria), plankton (i.e., phytoplankton, zooplankton, ichthyoplankton) and micronekton (including squids, small pelagic and mesopelagic fish and gelatinous organisms). Full details of data, reports and publications of the voyage is at http://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2015_C02\nNote on data download/processing:\nData downloaded from Australian Microbiome Initiative via Bioplatforms Australia Data Portal on 17 June 2022. The search filter applied to download data from Bioplatforms Australia Data portal are stored in the Darwin Core property (identificationRemarks). Taxonomy is assigned according to the taxonomic database (SILVA 138) and method (Sklearn) which is stored in the Darwin Core Extension\nDNA derived data property (otu_db). Prefix were removed from the taxonomic names as shown in the example (e.g. d__Bacteria to Bacteria). Scientific name is assigned to the valid name available from the highest taxonomic rank.\nThis collection is published as Darwin Core Occurrence, so the event level measurements need to be replicated for every occurrence. Instead of data replication, the event level eMoF data are made available separately at https://www.marine.csiro.au/data/services/obisau/emof_export.cfm?ipt_resource=bioplatforms_mm_in2015_c02",
+    "url": "https://obis.org/dataset/b4668bbe-4b5f-412a-ae1f-1dae3dedb38a",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bioplatforms_mm_in2015_c02"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Please see https://www.australianmicrobiome.com/protocols/acknowledgements/ for citation examples and links to the data policy.",
+    "version": "2022-06-24T08:52:21.000Z",
+    "keywords": [
+        "occurrence",
+        "Specimen",
+        "occurrence",
+        "16S rRNA",
+        "18S rRNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bioplatforms_mm_in2015_c02",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "130.217521 -37.2659,130.217521 -33.05488,136.45298 -33.05488,136.45298 -37.2659,130.217521 -37.2659"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/15442",
+            "@type": "Organization",
+            "legalName": "University of Technology, Sydney",
+            "name": "University of Technology, Sydney",
+            "url": "https://oceanexpert.org/institution/15442"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

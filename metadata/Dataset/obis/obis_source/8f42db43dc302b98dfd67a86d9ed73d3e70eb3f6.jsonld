@@ -1,0 +1,84 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/500c9a4a-30c7-4b85-82f8-ce89b8c27512",
+    "name": "Benthic data from Sevastopol (Black Sea)",
+    "description": "The dataset contains the abundance and biomass values of sediment organisms from the Sevastopol region (South-Western Crimea, The Black Sea, Ukraine) collected between 1982 and 1992.",
+    "url": "https://obis.org/dataset/500c9a4a-30c7-4b85-82f8-ce89b8c27512",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=benthic_data_sevastopol"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Petrov, A; Milovidova, N. , Alyomov S., Shadrina L. Initial data set (1982-1992) on abundance and biomass of soft-bottom macrozoobenthos , key abiotic variables in near-bottom layers of Sevastopol bay, SW Crimea, Ukraine. Institute of Biology of Southern Seas, Ukraine.",
+    "version": "2023-12-08T17:10:49.000Z",
+    "keywords": [
+        "Benthos",
+        "Data",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "individualcount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wet weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "wet weight biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1982/1992",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=benthic_data_sevastopol",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "33.38 44.5,33.38 44.71,33.6 44.71,33.6 44.5,33.38 44.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

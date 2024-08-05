@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/003063a2-57ad-4c7b-a58b-df6f40fbf4ba",
+    "name": "SEFSC GoMex Oceanic 1993 (S)",
+    "description": "Original provider:\nNOAA Southeast Fisheries Science Center (SEFSC)\n\nDataset credits:\nSoutheast Fisheries Science Center, NOAA\n\nAbstract:\nA spring marine mammals survey in Gulf of Mexico was conducted in 1993 by NOAA Southeast Fisheries Science Center to examine the diversity, distribution and estimate abundance of marine mammals in U.S. waters. The survey was aimed at meeting the responsibilities under the provisions of the Marine Mammal Protection Act. The survey followed a winter survey in 1993.\nThis dataset contains sightings of not only cetaceans but also other species including sea turtles, fish and shark observed during the ship survey. During the 39 survey days, 18 species were sighted, including:\nAtlantic spotted dolphin\nBowhead whale\nClymene dolphin\nCuvier’s beaked whale\nDwarf sperm whale\nDwarf/pygmy sperm whale\nFalse killer whale\nKiller whale\nMelon-headed whale\nPantropical spotted dolphin\nPygmy killer whale\nPygmy sperm whale\nRisso's dolphin\nRough-toothed dolphin\nShort/Long-finned pilot whale\nSperm whale\nSpinner dolphin\nStandard bottlenose dolphin\nStriped dolphin\n\nPurpose:\nThe purpose of this survey is to examine the distribution and estimate abundance of cetaceans in U.S. waters. Specific objectives of this survey are:\n1. Complete a line transect survey of the study area for marine mammals during daylight hours,\n2. Collect ichthyoplankton with bongo and double neuston trawl gear for estimates of abundance of eggs, larvae and small juveniles, particularly those of bluefin tuna,\n3. Obtain associated environmental and oceanographic data,\n4. Record data on marine life, seabirds and debris encountered during line transects,\n5. Obtain marine mammal biopsy samples for analysis, and\n6. Collect tar samples encountered during  neuston sampling SEAMAP stations for analysis.\n\nSupplemental information:\n[2020-09-30] The following invalid species names were corrected according to the Integrated Taxonomic Information System (ITIS).\nBridled Tern: Sterna anaethetus (176897) =&gt; Onychoprion anaethetus (824104)\nLaughing Gull: Larus atricilla (176837) =&gt; Leucophaeus atricilla (824079)\nRed Phalarope: Phalaropus fulicaria (554376) =&gt; Phalaropus fulicarius (176734)\nRoyal Tern: Sterna maxima (176922) =&gt; Thalasseus maximus (824142)\nSandwich Tern: Sterna sandvicensis (176927) =&gt; Thalasseus sandvicensis (176932)\nSooty Tern: Sterna fuscata (176894) =&gt; Onychoprion fuscatus (824105)\n\nThe dataset is accompanied by transect data which is provided as a separate file.",
+    "url": "https://obis.org/dataset/003063a2-57ad-4c7b-a58b-df6f40fbf4ba",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_17"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Garrison, L. 2013. SEFSC GoMex Oceanic 1993 (S). Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/17) on yyyy-mm-dd.",
+    "version": "2021-09-08T16:07:55.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Seabirds,Sea turtles,Vessel,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/1993",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_17",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-96.314 24.4862,-96.314 29.5317,-83.9938 29.5317,-83.9938 24.4862,-96.314 24.4862"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7534",
+            "@type": "Organization",
+            "legalName": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "name": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "url": "https://oceanexpert.org/institution/7534"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

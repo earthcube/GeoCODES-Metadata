@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8bd1c7c0-717d-4a4e-8b1c-9ff3c5698067",
+    "name": "A Biotic Database of Indo-Pacific Marine Mollusks",
+    "description": "Database of the estimated 25,000 named species of mollusks in the Indo-Pacific region, with summary data on their distribution and ecology.",
+    "url": "https://obis.org/dataset/8bd1c7c0-717d-4a4e-8b1c-9ff3c5698067",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-malaysia/resource?r=indopacific_molluscs_v1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Rosenberg et al. A Biotic Database of Indo-Pacific Marine Mollusks. Morris, P., Pennsylvania, USA. http://clade.acnatsci.org/obis/",
+    "version": "2018-11-12T15:22:17.000Z",
+    "keywords": [
+        "Occurrence",
+        "Benthos",
+        "Zoobenthos"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1824/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-malaysia/archive.do?r=indopacific_molluscs_v1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179 -62.9799995422,-179 72,180 72,180 -62.9799995422,-179 -62.9799995422"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

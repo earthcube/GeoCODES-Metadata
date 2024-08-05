@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/55e8c1e5-bb02-482b-adf5-ed576b0f7133",
+    "name": "DFO Maritimes - Groundfish and Small Pelagic Tagging database. 1953-1999",
+    "description": "Contains mark and recapture data for almost every Canadian fish tagging study conducted west of Newfoundland between 1953 and 1999.\n\nThis dataset is the OBIS version of the fish tagging database records. The dataset contains the release and the recapture locations for the tagged fish.",
+    "url": "https://obis.org/dataset/55e8c1e5-bb02-482b-adf5-ed576b0f7133",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_mar_fishtagging"
+    ],
+    "license": "rights:  http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms  rights holder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "Fowler, G.M., and W.T. Stobo, 2014. DFO Maritimes - Groundfish and Small Pelagic Tagging database. Version 2 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2022-03-30T14:44:30.000Z",
+    "keywords": [
+        "biota",
+        "oceans",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1953/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfo_mar_fishtagging",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.41667 40,-71.41667 66.33333,-46.33333 66.33333,-46.33333 40,-71.41667 40"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

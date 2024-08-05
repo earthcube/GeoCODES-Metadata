@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9eadbad7-d3b7-4e44-a230-bff702e35f91",
+    "name": "Krill abundance, vertical and horizontal distribution (MOCNESS system), April-June 2001-02, continental margin west of Antarctic Peninsula, GLOBEC.",
+    "description": "Krill abundance, vertical and horizontal distribution (MOCNESS system), April-June 2001-02, continental margin west of Antarctic Peninsula, GLOBEC.",
+    "url": "https://obis.org/dataset/9eadbad7-d3b7-4e44-a230-bff702e35f91",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=globec"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "see <a href=\"http://globec.whoi.edu/globec-dir/data-acknowledgement-policy.html\">http://globec.whoi.edu/globec-dir/data-acknowledgement-policy.html</a>",
+    "version": "2019-03-19T14:48:46.000Z",
+    "keywords": [
+        "Krill",
+        "Zooplankton",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=globec",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-72.49215 -69.709,-72.49215 -66.02892,-67.3131 -66.02892,-67.3131 -69.709,-72.49215 -69.709"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5836",
+            "@type": "Organization",
+            "legalName": "University of South Florida, College of Marine Science",
+            "name": "University of South Florida, College of Marine Science",
+            "url": "https://oceanexpert.org/institution/5836"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9783",
+            "@type": "Organization",
+            "legalName": "Woods Hole Oceanographic Institution",
+            "name": "Woods Hole Oceanographic Institution",
+            "url": "https://oceanexpert.org/institution/9783"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

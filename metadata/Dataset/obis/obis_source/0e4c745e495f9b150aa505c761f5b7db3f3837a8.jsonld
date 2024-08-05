@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9fe2e775-30d6-4779-9d8c-d31a1ad31fae",
+    "name": "Type localities and distribution records of Proseriata (Platyhelminthes) in the world",
+    "description": "Overview of world wide distributions and type localities of species belonging to the families of Archimonocelidae, Calviriidae, Coelogynoporidae, Meidiamidae, Monocelididae, Monotoplanidae, Otoplanidae, Polystyliphoridae. The data were digitized by VLIZ from the original report: Martens, P.M. (1989). Revisie van de Monocelididae Hofsten, 1907 (Platyhelminthes). PhD Thesis. Rijksuniversteit Gent : Faculteit Wetenschappen: Gent. 2 volumes pp.",
+    "url": "https://obis.org/dataset/9fe2e775-30d6-4779-9d8c-d31a1ad31fae",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=distribution_proseriata_world",
+        "https://dx.doi.org/10.14284/240"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Martens P.; Coomans A.; Schockaert E.; Laboratorium voor Morfologie en Systematiek der Dieren; Faculteit Wetenschappen. RUG; Onderzoeksgroep Dierkunde. LUC: Belgium; (2016): Type localities and distribution records of Proseriata (Platyhelminthes) in the world. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5471) https://dx.doi.org/10.14284/240",
+    "version": "2023-05-23T11:34:36.000Z",
+    "keywords": [
+        "Distribution records",
+        "Type localities",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1940/1986",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/240",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/240",
+        "url": "https://dx.doi.org/10.14284/240"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=distribution_proseriata_world",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-157.781479 -5.1025,-157.781479 65.900002,119.285835 65.900002,119.285835 -5.1025,-157.781479 -5.1025"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9162",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Faculteit Wetenschap",
+            "name": "Universiteit Gent, Faculteit Wetenschap",
+            "url": "https://oceanexpert.org/institution/9162"
+        }
+    ]
+}

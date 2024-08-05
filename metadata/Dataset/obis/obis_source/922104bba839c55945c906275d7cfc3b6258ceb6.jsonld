@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/38bf88fd-48e5-47a3-b508-f9aa06d3104d",
+    "name": "Marine Ornithological Records around New Zealand from the OSNZ",
+    "description": "This dataset contains observation records of marine birds as published online in the Notornis journal. Notornis is the Ornithological Society of New Zealand's quarterly scientific journal. This peer-reviewed journal has been publishing ornithological research relevant to New Zealand and the South Pacific since 1943 (originally as New Zealand Bird Notes).\nRecords are mainly of unusual bird reports received to the OSNZ Records Appraisal Committee (RAC) and reports of bird surveys around islands offshore of New Zealand and in the southwest Pacific Ocean.",
+    "url": "https://obis.org/dataset/38bf88fd-48e5-47a3-b508-f9aa06d3104d",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=vagrantnzbirds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Notornis (2018): Marine Ornithological Records around New Zealand from the OSNZ. v1. The Ornithological Society of New Zealand. Dataset/Occurrence. https://nzobisipt.niwa.co.nz/resource?r=vagrantnzbirds&amp;v=1.0",
+    "version": "2018-08-08T21:02:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1890/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=vagrantnzbirds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.9167 -53.4,-178.9167 49.667,178.89 49.667,178.89 -53.4,-178.9167 -53.4"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19438",
+            "@type": "Organization",
+            "legalName": "Ornithological Society of New Zealand",
+            "name": "Ornithological Society of New Zealand",
+            "url": "https://oceanexpert.org/institution/19438"
+        }
+    ]
+}

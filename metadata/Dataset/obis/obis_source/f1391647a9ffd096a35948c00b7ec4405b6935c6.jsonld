@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/519e0e77-1a8e-4d1f-b82d-0127655b8963",
+    "name": "Bali turtles (aggregated per 1-degree cell)",
+    "description": "Original provider:\nUdayana University &amp; WWF Indonesia\n\nDataset credits:\nData provider\nUdayana University - WWF Joint Program\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nUdayana University has been involved in sea turtle conservation in Indonesia since early 1990s. Main arena are research and education/training.\nProject sponsor or sponsor description\nWWF Indonesia is the leading non-government organization in the country who committed to focus on sea turtle conservation in all aspects of turtle issues, i.e. habitat protection, trade reduction, and bycatch mitigation.\n\n\nAbstract:\nThis project is part of the larger program entitled: TRACKING AND GENETIC ANALYSIS OF SEA TURTLES IN THE EASTERN PART OF INDONESIA, to identify post nesting migration of Olive, green and hawksbill turtles, as well as raising awareness of the locals to support turtle conservation in the region.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=390\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/519e0e77-1a8e-4d1f-b82d-0127655b8963",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_503_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Udayana University of Bali &amp; WWF Indonesia . 2022. Bali turtles. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/503) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=390).",
+    "version": "2022-05-02T21:16:02.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_503_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-63.5 -9.5,-63.5 56.5,115.5 56.5,115.5 -9.5,-63.5 -9.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

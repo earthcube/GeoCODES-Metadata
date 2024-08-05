@@ -1,0 +1,98 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/757de0ba-3fa4-4823-b22d-42627427e70c",
+    "name": "Dutch coast monitoring - Natuurlijk Veilig: Spisula survey",
+    "description": "Spisula survey on the Dutch coastline between the eastern Wadden Sea and IJmuiden.",
+    "url": "https://obis.org/dataset/757de0ba-3fa4-4823-b22d-42627427e70c",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=dutch-coast-spisula-survey"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "WMR_IMARES, the Netherlands, 2022. Dutch coast Spisula survey.",
+    "version": "2023-12-08T17:49:09.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Width",
+            "url": "",
+            "description": "Width"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dutch-coast-spisula-survey",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "4.4033333333333 52.475,4.4033333333333 53.641666666667,6.5833333333333 53.641666666667,6.5833333333333 52.475,4.4033333333333 52.475"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10663",
+            "@type": "Organization",
+            "legalName": "Wageningen University and Research Centre",
+            "name": "Wageningen University and Research Centre",
+            "url": "https://oceanexpert.org/institution/10663"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11289",
+            "@type": "Organization",
+            "legalName": "Deltares",
+            "name": "Deltares",
+            "url": "https://oceanexpert.org/institution/11289"
+        }
+    ]
+}

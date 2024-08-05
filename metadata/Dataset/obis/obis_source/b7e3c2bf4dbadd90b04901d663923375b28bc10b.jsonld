@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2c30e8ee-3068-437c-bf94-499e06cdd4e4",
+    "name": "De Beers Marine Namibia Benthic Monitoring Programme",
+    "description": "De Beers Marine Namibia undertake marine diamond mining to depths of 130 m offshore of  southern Namibia using remote mining tools.  As part of their mining licence agreement with the Government of Namibia, De Beers Marine Namibia have undertaken a number of baseline and impact monitoring surveys with the view to quantitatively assessing the direct and indirect effects of deep-water marine mining on benthic macrofaunal  communities, and to monitor post-mining recovery.\nBenthic grab samples were collected from both mined and unmined sites in 2005 - 2008 and 2011, using a Van Veen grab. Macrofauna was identified, and abundance and biomass determined. \n\nThe data were made available to AfrOBIS as a series of Excel sheets. At AfrOBIS, the data were quality-controlled and transformed to comply with the Darwin Core/OBIS Schema. Funds for data operations were kindly provided by the Census of Marine Life International Cosmos Prize Fund, through a grant to Rutgers University.",
+    "url": "https://obis.org/dataset/2c30e8ee-3068-437c-bf94-499e06cdd4e4",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=de_beers_marine_namibia__benthos"
+    ],
+    "license": "De Beers Marine Namibia kindly allowed the data to be made public. The data are and remain property of De Beers Marine Namibia. The scientists involved in the collection of these datasets should be acknowledged, and a citation to the dataset (similar to the one suggested in this metadata record) should be included in any analysis or other work that makes substantial use of these data.",
+    "citation": "Steffani, N; Pulfrich, A. (2013). De Beers Marine Namibia Benthic Monitoring Programme. Dataset published by AfrOBIS; consulted via iOBIS",
+    "version": "2020-12-02T14:08:39.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=de_beers_marine_namibia__benthos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "15.22545 -28.841116,15.22545 -27.229483,16.292616 -27.229483,16.292616 -28.841116,15.22545 -28.841116"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5684",
+            "@type": "Organization",
+            "legalName": "Council for Scientific and Industrial Research, Stellenbosch",
+            "name": "Council for Scientific and Industrial Research, Stellenbosch",
+            "url": "https://oceanexpert.org/institution/5684"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20901",
+            "@type": "Organization",
+            "legalName": "De Beers Namibia Holdings",
+            "name": "De Beers Namibia Holdings",
+            "url": "https://oceanexpert.org/institution/20901"
+        }
+    ]
+}

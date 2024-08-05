@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1931f1a3-0b4c-4a72-9721-78f9270455f7",
+    "name": "North American Sessile Marine Invertebrate Survey",
+    "description": "As part of a national and global effort to understand and document patterns of invasion in marine coastal waters, we are collecting invertebrates from embayments across the United States, Panama and Australia.",
+    "url": "https://obis.org/dataset/1931f1a3-0b4c-4a72-9721-78f9270455f7",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-malaysia/resource?r=northamersesi_macrobenthic_v1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Ruiz GM, Fofonoff PW, Steves B, Huber T, Larson K, McCann L, Hitchcock NG, Hines AH, &amp; Carlton JT. 2005. North American Sessile Marine Invertebrate Survey. http://invasions.si.edu/nemesis/",
+    "version": "2018-11-13T01:29:52.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-malaysia/archive.do?r=northamersesi_macrobenthic_v1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-166.596328735 25.4625492096,-166.596328735 61.0900840759,-47.3879318237 61.0900840759,-47.3879318237 25.4625492096,-166.596328735 25.4625492096"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

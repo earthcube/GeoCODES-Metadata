@@ -1,0 +1,82 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f5825142-2c9f-49d8-8c78-18bd318ec279",
+    "name": "Polish Monitoring Programme - Monitoring of the Baltic Sea: zoobenthos",
+    "description": "Zoobenthos data from Polish Exclusive Economic Zone of the Baltic Sea collected in frame of the Polish Monitoring Programme. Data include information on species composition, abundance and biomass (wet and dry) of zoobenthos community for the period of 1979-2012.",
+    "url": "https://obis.org/dataset/f5825142-2c9f-49d8-8c78-18bd318ec279",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=polish_monitoring_macrozoobenthos_data"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Polish Monitoring Programme - Monitoring of the Baltic Sea, Poland; (2016), PMS, IMWM Database: zoobenthos",
+    "version": "2023-12-08T17:11:39.000Z",
+    "keywords": [
+        "Benthos",
+        "Monitoring",
+        "Zoobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "WetWeight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "WetWeight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DryWeight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "description": "DryWeight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=polish_monitoring_macrozoobenthos_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.25 54.06667,14.25 55.555,19.70667 55.555,19.70667 54.06667,14.25 54.06667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

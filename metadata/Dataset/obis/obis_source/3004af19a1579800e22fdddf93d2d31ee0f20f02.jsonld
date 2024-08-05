@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1d063315-5a15-4d9d-9a2f-b62ba744198b",
+    "name": "Mingan Island Cetacean Study 84-07",
+    "description": "Original provider:\nRichard Sears, Mingan Island Cetacean Study\n\nDataset credits:\nRichard Sears, Mingan Island Cetacean Study\n\nAbstract:\nThe sightings contained in this dataset were obtained during surveys designed to photo-identify blue whales in the Sea of Cortez during their peak abundance in February and March. The surveys were conducted between 1984 and 2007 from 25' fiberglass boats in sea state less than 3-4 and designed to maximize the number of blue whale IDs. Although focusing primarily on the areas where blue whales are most commonly sighted, they also covered most of the area accessible by boat during a day trip at least once per field season.\n\nAny marine mammal sighting was recorded using cross-bearings from 1984 to 1991 and using GPS from 1992 on. Unusual bird and fish sightings were also recorded.\n\nSupplemental information:\n[2015-03-24] A few records had a wrong animal count of zero. The value is replaced with a blank representing species presence only.\n\n[2014-04-16] Species identification of Kogia simus (ITIS TSN: 612590) was corrected to Kogia sima (180492). There were 10 sightings of this species.\n\nThe sightings of <i>Balaenoptera edeni</i> were recognized as Bryde's whale by the data provider. The ITIS taxonomy database gives it the common name of Eden's whale. Thus, in our system it shows Eden's whale instead of Bryde's whale as a common name.\n\nThere may seem to be duplicated records in the dataset.  However, records are different, near-by sightings (within 100-200 m) recorded while the researchers were conducting photo-ID activities and for which an exact position could not be obtained. Thus, their positions were approximated as that of the animal/group the researchers were working with at that time.\n\nThe records without coordinates were removed.",
+    "url": "https://obis.org/dataset/1d063315-5a15-4d9d-9a2f-b62ba744198b",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_460"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Delarue, J. 2014. Mingan Island Cetacean Study 84-07. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/460) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:41:59.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings,Blue whale - Marine mammals - sightings",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_460",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-112.35 22.9125,-112.35 26.920833,-106.486944 26.920833,-106.486944 22.9125,-112.35 22.9125"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20784",
+            "@type": "Organization",
+            "legalName": "Allied Whale",
+            "name": "Allied Whale",
+            "url": "https://oceanexpert.org/institution/20784"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b1ae4344-aa5a-49fb-80f6-e0e28e67833e",
+    "name": "National Pilot Monitoring Studies Phyllophora July 2017, Improving Environmental Monitoring in the Black Sea - Phase II (EMBLAS-II), ENPI/2013/313-169, (Macrozoobenthos)",
+    "description": "Macrozoobenthos data: species composition, abundance (ind/m²), biomass (g/m²) collected during the survey of the National Pilot Monitoring Studies Ukraine (NPMS UA) in the Ukrainian waters (North-Western part of the Black Sea) in the area of the Zernov’s Phyllophora Field onboard the M/V \"Auguste Piccard\" (Ukraine) in July 2017",
+    "url": "https://obis.org/dataset/b1ae4344-aa5a-49fb-80f6-e0e28e67833e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=npmsuaphyllophorajuly2017_macrozoobenthos"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Kachalov, O.; Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES); (2020): National Pilot Monitoring Studies Phyllophora July 2017, Improving Environmental Monitoring in the Black Sea - Phase II (EMBLAS-II), ENPI/2013/313-169, (Macrozoobenthos)",
+    "version": "2023-05-23T11:28:42.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Biological sampling",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Calculated Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Calculated Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=npmsuaphyllophorajuly2017_macrozoobenthos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "30.50377 45.50698,30.50377 46.00042,31.25068 46.00042,31.25068 45.50698,30.50377 45.50698"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

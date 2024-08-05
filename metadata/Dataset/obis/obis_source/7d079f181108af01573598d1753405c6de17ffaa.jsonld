@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b695804a-2c12-4b7f-ba1b-4c2d2f6adb4c",
+    "name": "Queensland Museum Protozoans - marine records",
+    "description": "These collections focus on parasitic protozoans, including the largest collection in the world of avian haemaotozoa (formerly the International Reference Centre for Avian Haematozoa), the historical collections of Bancroft and Mackerras from the former School of Tropical Medicine, Townsville and, more recently, myxozoan parasites of fishes.\nThis dataset is of marine species sourced from the Atlas of Living Australia (ALA) January 2019 (https://collections.ala.org.au/public/show/co143). Taxa have been matched to the World Register of Marine Species (WoRMS) and if not then matched to the Australian Faunal Directory (AFD)",
+    "url": "https://obis.org/dataset/b695804a-2c12-4b7f-ba1b-4c2d2f6adb4c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_co143"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T05:21:29.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1921/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_co143",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-123.793 -42.8667,-123.793 59.8333,173 59.8333,173 -42.8667,-123.793 -42.8667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

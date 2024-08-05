@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dadd8252-0f72-417a-be62-9bde09e93c61",
+    "name": "Marine Biota Along the West Coast of Ceara State - Northeast Brazil",
+    "description": "This data set includes the results of the sampling activities undertaken over two years (dry season 2002 and wet season 2003) during low spring tide and at five different localities along the west coast of Ceara State, Brazil. Mainly macrofauna samples were obtained, either from rocky as well from sand beaches including the mouth of two rivers.",
+    "url": "https://obis.org/dataset/dadd8252-0f72-417a-be62-9bde09e93c61",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=marine_biota_west_coast_of_ceara_ne_brazil",
+        "http://doi.org/10.25607/uyrgpf"
+    ],
+    "license": "Unrestricted",
+    "citation": "Fabio Lang da Silveira and Rubens M. Lopes Marine Biota Along the West Coast of Ceara State, Northeast Brazil. WSAOBIS, São Paulo, June 2008, Version 1, Publication.",
+    "version": "2021-07-02T10:59:23.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2003",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/uyrgpf",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/uyrgpf",
+        "url": "http://doi.org/10.25607/uyrgpf"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=marine_biota_west_coast_of_ceara_ne_brazil",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-39.3706666667 -3.58218333333,-39.3706666667 -3.17195,-38.7817166667 -3.17195,-38.7817166667 -3.58218333333,-39.3706666667 -3.58218333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

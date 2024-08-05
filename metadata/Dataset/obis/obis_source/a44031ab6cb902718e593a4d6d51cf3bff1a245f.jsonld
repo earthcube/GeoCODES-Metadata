@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d1b4b08f-d53c-4d0d-a17e-0649c3d88050",
+    "name": "NAFO: Historical collection of annual fisheries catch statistics for flatfish in the Northwest Atlantic during the period 1893-1959",
+    "description": "In 2013 the NAFO Secretariat produced a working paper 'A compilation of historical groundfish catch data from the NAFO Regulatory Area 1804-1959' (SCS 14-07). This report was based upon a literature review of documents.\n\nThe compiled records contained country, scientific name, NAFO fishing area, year and annual catch (metric tons). A nominal latitude and longitude were assigned to each record based upon the NAFO fishing areas definitions access through the Marine regions gazetteer www.marineregions.org\n\nNominal catches are landed weight, for instance gutted, heads-on fish converted to corresponding weight of round fresh fish. Zero catches are not included in this version of the dataset.\n\nThe original report contains catch statistics dating back to 1804 but many of these earlier records do not reference a defined NAFO fishing subarea.",
+    "url": "https://obis.org/dataset/d1b4b08f-d53c-4d0d-a17e-0649c3d88050",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=nafo_hcatchstats_2"
+    ],
+    "license": "rights: http://creativecommons.org/publicdomain/zero/1.0/ &amp; http://www.canadensys.net/norms\n\nrightsHolder: Northwest Atlantic Fisheries Organization (NAFO)",
+    "citation": "NAFO 2015. NAFO: Historical collection of annual fisheries catch statistics for flatfish in the Northwest Atlantic during the period 1893-1959. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-04-16T11:33:07.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=nafo_hcatchstats_2",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.61685 41.23384,-68.61685 64.3705,-48.50351 64.3705,-48.50351 41.23384,-68.61685 41.23384"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18847",
+            "@type": "Organization",
+            "legalName": "Northwest Atlantic Fisheries Organization",
+            "name": "Northwest Atlantic Fisheries Organization",
+            "url": "https://oceanexpert.org/institution/18847"
+        }
+    ]
+}

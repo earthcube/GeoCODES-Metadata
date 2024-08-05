@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/71b4648d-70b2-4a95-8ac2-02d449fd0777",
+    "name": "Type Localities for organisms and fossils first described from Antarctica",
+    "description": "This data set lists over 300 organisms (74 taxa are fossils) that were first described from locations either on the Antarctic continent, or on islands immediately to the north of the Antarctic Peninsula. Work was completed in early 2000 and does not contain any newer references. Higher level taxonomy have been checked and completed against the Interim Register of Marine and Nonmarine Genera (IRMNG) (https://www.irmng.org). Place name locations taken from the SCAR Composite Gazetteer (http://data.aad.gov.au/aadc/gaz/scar/).",
+    "url": "https://obis.org/dataset/71b4648d-70b2-4a95-8ac2-02d449fd0777",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=type_localities"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY 4.0) License",
+    "citation": "Gibson, J.A. (2001) Type Localities for organisms and fossils first described from Antarctica, Ver. 1, Australian Antarctic Data Centre",
+    "version": "2023-12-21T22:03:05.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=type_localities",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-176.3333333 -85,-176.3333333 -54.4833,174 -54.4833,174 -85,-176.3333333 -85"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

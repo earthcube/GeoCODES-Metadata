@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0459e8f2-6ad3-47ef-b740-2e7b24d97a72",
+    "name": "SHARK - National environmental monitoring of Harbour seal in Sweden since 1988",
+    "description": "The national monitoring program was initiated by the Swedish Environmental Protection Agency and is now financed by the Swedish Agency for Marine and Water Management.\n\nThe monitoring is performed by the Swedish Museum of Natural History.\n\nData is stored in the database SHARK, hosted and maintained by the Swedish Meteorological and Hydrological Institute.\n\nMonitoring of seals is performed by counting seals from land, ship or airplane.\n\nMore information is available in Swedish at https://www.havochvatten.se/hav/samordning--fakta/miljoovervakning/miljoovervakningens-programomrade-kust-och-hav/delprogram-sal-och-havsorn.html",
+    "url": "https://obis.org/dataset/0459e8f2-6ad3-47ef-b740-2e7b24d97a72",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=smhi-harbourseal-nat",
+        "https://doi.org/10.15468/yq77dh"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Swedish Museum of Natural History, Swedish Agency for Marine and Water Management, Swedish Environmental Protection Agency and Swedish Meteorological and Hydrological Institute (2022). SHARK - National environmental monitoring of Harbour seal in Sweden since 1988. https://doi.org/10.15468/yq77dh",
+    "version": "2024-02-27T00:11:33.000Z",
+    "keywords": [
+        "aeroplane",
+        "land or seafloor",
+        "ship",
+        "Air monitoring",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Observation point",
+            "url": "",
+            "description": "Observation point"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampler type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Method documentation",
+            "url": "",
+            "description": "Method documentation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "# counted",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "# counted"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling laboratory accredited",
+            "url": "",
+            "description": "Sampling laboratory accredited"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Monitoring program code",
+            "url": "",
+            "description": "Monitoring program code"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Analytical laboratory accredited",
+            "url": "",
+            "description": "Analytical laboratory accredited"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/yq77dh",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/yq77dh",
+        "url": "https://doi.org/10.15468/yq77dh"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=smhi-harbourseal-nat",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "10.79845 55.36146,10.79845 59.00201,16.94164 59.00201,16.94164 55.36146,10.79845 55.36146"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8493",
+            "@type": "Organization",
+            "legalName": "Sveriges meteorologiska och hydrologiska institut",
+            "name": "Sveriges meteorologiska och hydrologiska institut",
+            "url": "https://oceanexpert.org/institution/8493"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19522",
+            "@type": "Organization",
+            "legalName": " Havs- och Vattenmyndigheten",
+            "name": " Havs- och Vattenmyndigheten",
+            "url": "https://oceanexpert.org/institution/19522"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23203",
+            "@type": "Organization",
+            "legalName": "Swedish Environmental Protection Agency",
+            "name": "Swedish Environmental Protection Agency",
+            "url": "https://oceanexpert.org/institution/23203"
+        }
+    ]
+}

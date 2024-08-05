@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e5947aa3-8d18-425b-958e-36fe264bf2c8",
+    "name": "NTNU River Nidelva Project",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Norwegian University of Science and Technology (NTNU)  NTNU River Nidelva Project, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=RNP).\nAbstract:The purpose of the River Nidelva project is to monitor the migration of anadromous brown trout between river and fjord. Hatchery-reared sea trout are tracked in order to monitor their willingness to migrate to the ocean. Adult sea trout of wild origin are tagged and tracked for 14 months in order to map their movements between freshwater and saline habitats.",
+    "url": "https://obis.org/dataset/e5947aa3-8d18-425b-958e-36fe264bf2c8",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnntnuntnurivernidelvapr",
+        "https://doi.org/10.14286/eydvuf"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Davidsen, J.G., Arnekleiv, J.V., Koksvik, J.I. 2012. Migration of anadromous brown trout between river and fjord, Nidelva, Norway.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T15:01:16.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "NATURAL LENGTH",
+            "url": "",
+            "description": "NATURAL LENGTH"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AGEBENTX/",
+            "description": "age"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/eydvuf",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/eydvuf",
+        "url": "https://doi.org/10.14286/eydvuf"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnntnuntnurivernidelvapr",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "10.3491 63.3832,10.3491 63.45153,10.42727 63.45153,10.42727 63.3832,10.3491 63.3832"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

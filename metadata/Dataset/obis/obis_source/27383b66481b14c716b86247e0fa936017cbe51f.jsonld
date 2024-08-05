@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c6ea3c9e-d55e-4927-91e9-da8a40c324ba",
+    "name": "Flatback Whereabouts Project (aggregated per 1-degree cell)",
+    "description": "Original provider:\nAdam Barnett\n\nDataset credits:\nData provider\nDEHP2\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nThis project is jointly funded by James Cook University and WWF-Australia’s Species Conservation team in conjunction with the Department of Environment and Heritage Protection and  partners from the Gudjuda Reference Group, Queens Beach Action Group.\n\n\nAbstract:\nJames Cook University, Department of Environment and Heritage Protection, WWF-Australia and their partners are working together to solve the mystery of the flatback turtles’ whereabouts in the northern Great Barrier Reef.  At Wunjunga Beach, just south of Townsville in Queensland, scientists are continuing their study to identify the migration pathways, diets and critical foraging habitats of this vulnerable turtle.In November 2014, four satellite transmitters were attached to nesting flatback turtles originating from Wunjunga Beach. Another six have been deployed during the 2014-2015 nesting season from the same location.Complementary to the information acquired by satellite tracking, stable isotope collection and analysis of carbon (&#948;13C) and nitrogen (&#948;15N) will assist us to determine the flatbacks’ diet, if there are one or more foraging grounds, and their migration paths.Sampling the foraging grounds will also help us to determine flatback habitat type and diet preference.There are many studies that show how marine turtles are being adversely affected by environmental change. With so little known about the flatback turtle, it is a priority that we identify their key foraging habitats and monitor their presence at nesting beaches, to gauge their responses to a changing environment.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=1064\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/c6ea3c9e-d55e-4927-91e9-da8a40c324ba",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1223_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "adam.barnett@jcu.edu.au a. 2022. Flatback Whereabouts Project. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1223) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=1064).",
+    "version": "2022-05-02T21:16:50.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_1223_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "142.5 -22.5,142.5 -10.5,150.5 -10.5,150.5 -22.5,142.5 -22.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

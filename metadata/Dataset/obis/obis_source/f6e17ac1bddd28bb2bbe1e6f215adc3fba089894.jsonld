@@ -1,0 +1,99 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/85459925-17f0-437c-b371-8f3b07976099",
+    "name": "Eufáusidos norte de Chile",
+    "description": "Registro de eufáusidos en el área costera frente al norte de Chile (18°S-25°S, 70°O-71.5°O).",
+    "url": "https://obis.org/dataset/85459925-17f0-437c-b371-8f3b07976099",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=eufausidos"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Díaz-Astudillo M (2021): Eufáusidos norte de Chile. v1.1. Universidad de Concepción e Instituto Milenio de Oceanografía (IMO). Dataset/Samplingevent. http://ipt.iobis.org/esp-obis/resource?r=eufausidos&amp;v=1.1",
+    "version": "2021-10-01T13:40:18.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Zooplancton",
+        "Eufáusidos",
+        "norte de Chile"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Bongo Net",
+            "url": "http://vocab.nerc.ac.uk/collection/L22/current/NETT0176/",
+            "description": "Bongo Net"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CTD Sea Bird 911",
+            "url": "http://vocab.nerc.ac.uk/collection/L22/current/TOOL0035/",
+            "description": "CTD Sea Bird 911"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Chlorophyll-a",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CPHLPS01/",
+            "description": "Chlorophyll-a"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved Oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYZZXX/",
+            "description": "Dissolved Oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of Euphausiacea",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AEU09416/",
+            "description": "Abundance of Euphausiacea"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=eufausidos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.79666667 -27.16666667,-71.79666667 -20,-70.14666 -20,-70.14666 -27.16666667,-71.79666667 -27.16666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16784",
+            "@type": "Organization",
+            "legalName": "Instituto Milenio de Oceanografía",
+            "name": "Instituto Milenio de Oceanografía",
+            "url": "https://oceanexpert.org/institution/16784"
+        }
+    ]
+}

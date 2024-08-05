@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/aa8844ac-4bc0-428d-a83d-7c26c6b85357",
+    "name": "TU_Fish",
+    "description": "Tulane University Fish Collection",
+    "url": "https://obis.org/dataset/aa8844ac-4bc0-428d-a83d-7c26c6b85357",
+    "sameAs": [
+        "https://bgnn.tulane.edu/ipt/resource?r=tu_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bakis Y (2021): TU_Fish. v1.1. No organization. Dataset/Occurrence. https://bgnn.tulane.edu/ipt/resource?r=tu_fish&amp;v=1.1",
+    "version": "2021-02-12T20:11:58.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1875/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://bgnn.tulane.edu/ipt/archive.do?r=tu_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-156.485 -43.28333,-156.485 88.81667,175.38333 88.81667,175.38333 -43.28333,-156.485 -43.28333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

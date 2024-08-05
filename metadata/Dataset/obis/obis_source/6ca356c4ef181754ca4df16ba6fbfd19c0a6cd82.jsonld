@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/16e98c5b-7e56-4bd9-9772-9b790112e9ea",
+    "name": "Historic Vessel Strikes with Whales in Australian Waters (1872-2015)",
+    "description": "Records of collisions between vessels and whales in Australian waters between 1872 and 2015 as described in the paper Peel, D., Smith, J. N., &amp; Childerhouse, S. (2018). Vessel Strike of Whales in Australia: The Challenges of Analysis of Historical Incident Data. Frontiers in Marine Science, 5, 69.\nAs many locations as possible have been geo-referenced based on the site description. Some are too vague to do so. Only clearly identified taxa are in this dataset. For the complete list, including unidentified cetaceans, see the citation for the complete dataset.",
+    "url": "https://obis.org/dataset/16e98c5b-7e56-4bd9-9772-9b790112e9ea",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=historic_vessel_whale_strikes"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Peel, David; Smith, Joshua; Childerhouse, Simon (2018): Historic Vessel Strikes with Whales in Australian Waters. v1. CSIRO. Data Collection. https://doi.org/10.25919/5be5086a6fda1",
+    "version": "2022-06-08T02:07:06.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1872/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=historic_vessel_whale_strikes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114.3251 -43.0759,114.3251 -12.4253,153.7593 -12.4253,153.7593 -43.0759,114.3251 -43.0759"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

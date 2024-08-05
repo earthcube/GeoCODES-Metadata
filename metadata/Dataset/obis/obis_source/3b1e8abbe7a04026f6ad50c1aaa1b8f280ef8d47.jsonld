@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/96053ac5-f5c6-4e85-8124-9b010dd8a206",
+    "name": "Southern Ocean Ostracoda (except Halocypridina)",
+    "description": "The Southern Ocean Ostracoda database will include all records of Ostracoda except for the Halocypridina, which are edited by Martin Angel and Kasia Blachowiak-Samolyk.",
+    "url": "https://obis.org/dataset/96053ac5-f5c6-4e85-8124-9b010dd8a206",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=so_ostracoda"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Brandão, Simone Nunes. Southern Ocean Ostracoda (except Halocypridina) database.",
+    "version": "2020-05-12T07:01:20.000Z",
+    "keywords": [
+        "Biogeography",
+        "Ostracoda",
+        "Southern Ocean",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1961/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=so_ostracoda",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-151.65 -76.5,-151.65 0,0 0,0 -76.5,-151.65 -76.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18179",
+            "@type": "Organization",
+            "legalName": "Universität Hamburg, Centrum für Naturkunde, Zoologisches Museum",
+            "name": "Universität Hamburg, Centrum für Naturkunde, Zoologisches Museum",
+            "url": "https://oceanexpert.org/institution/18179"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

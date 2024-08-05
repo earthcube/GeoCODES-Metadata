@@ -1,0 +1,115 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/14d5f344-9e79-496f-b914-c98ea5b9617e",
+    "name": "Benthic invertebrate surveys conducted between 2009-2011 as part of the Sydney Tar Ponds Cleanup and Coke Ovens Remediation Project.",
+    "description": "Monitoring of benthic invertebrate communities in Sydney Harbour and the surrounding area was conducted between 2009-2011 as part of the marine component of the environmental effects and surface water compliance monitoring program for the Sydney Tar Ponds Cleanup and Coke Ovens Remediation Project.\n\nThe soft bottom in the sampling region combined with the presence of benthic communities with significant abundances and number of species made it suitable to conduct repeatable sampling surveys to assess impacts if any from the Remediation Project.\n\nSamples were collected from sediments at a series of nearshore stations in various parts of Sydney Harbour. These stations were assessed for sediment type, content of organic carbon and environmental conditions were noted. Seabed invertebrate communities were examined in terms of species composition and distribution. \n\nThis resource contains a subset of the data collected as part of these surveys – records contain species occurrence information (scientific name, geographic location, date of sampling, depth of sampling, quantitative abundance) plus a number of associated measurements (sediment composition, grain diameter, TOC). For information on the complete study including data analysis and discussion please consult the original reports. (Dillon 2010, 2011a, 2011b).",
+    "url": "https://obis.org/dataset/14d5f344-9e79-496f-b914-c98ea5b9617e",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dillon_sydneytarponds_01"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Stewart P L, Levy H A, Walker T R (2016): Benthic invertebrate surveys conducted between 2009-2011 as part of the Sydney Tar Ponds Cleanup and Coke Ovens Remediation Project.. v1.2. Canadian node of the Ocean Biogeographic Information System (OBIS Canada). Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=dillon_sydneytarponds_01&amp;v=1.2",
+    "version": "2022-03-22T20:25:50.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Grain size median",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MDGSPPXX/",
+            "description": "Grain size median"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (clay size-fraction) in sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CLAYZZZZ/",
+            "description": "Proportion of particles (clay size-fraction) in sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (gravel size-fraction) in sediment",
+            "url": "",
+            "description": "Proportion of particles (gravel size-fraction) in sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (sand size-fraction) in sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SANDZZZZ/",
+            "description": "Proportion of particles (sand size-fraction) in sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (silt size-fraction) in sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SILTZZZZ/",
+            "description": "Proportion of particles (silt size-fraction) in sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total Organic Carbon",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00173/",
+            "description": "Total Organic Carbon"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Description of lithology of sediment by visual estimation",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SEDTYCAT/",
+            "description": "Description of lithology of sediment by visual estimation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "",
+            "url": "",
+            "description": ""
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dillon_sydneytarponds_01",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-60.2802166666667 46.1286166666667,-60.2802166666667 46.1993,-60.2038 46.1993,-60.2038 46.1286166666667,-60.2802166666667 46.1286166666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19479",
+            "@type": "Organization",
+            "legalName": "Dalhousie University – School for Resource and Environmental Studies",
+            "name": "Dalhousie University – School for Resource and Environmental Studies",
+            "url": "https://oceanexpert.org/institution/19479"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19490",
+            "@type": "Organization",
+            "legalName": "Envirosphere Consultants Ltd",
+            "name": "Envirosphere Consultants Ltd",
+            "url": "https://oceanexpert.org/institution/19490"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5f39885a-4f4f-4e9d-b70f-764ae24375f6",
+    "name": "INRAM: Benthic fauna monitoring in Belgian harbours and Belgian coastal area",
+    "description": "This database contains data on population characteristics of the hyper- and epibenthos, sampled in the Scheldt estuary, Belgian coastal waters and Belgian coastal harbours.",
+    "url": "https://obis.org/dataset/5f39885a-4f4f-4e9d-b70f-764ae24375f6",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imram_benthic"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marine Biology Section, Ugent. Belgium. INRAM. Benthic fauna monitoring- SSD - Belgian Science Policy. Available online http://www.vliz.be/projects/inram/imers.php. [accessed on ‘date’]",
+    "version": "2024-02-26T23:17:42.000Z",
+    "keywords": [
+        "Benthos",
+        "Epibenthos",
+        "Population characteristics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imram_benthic",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.42888879776001 51.13420486450195,2.42888879776001 51.44916534423828,4.391660213470459 51.44916534423828,4.391660213470459 51.13420486450195,2.42888879776001 51.13420486450195"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10708",
+            "@type": "Organization",
+            "legalName": "POD Federaal Wetenschapsbeleid",
+            "name": "POD Federaal Wetenschapsbeleid",
+            "url": "https://oceanexpert.org/institution/10708"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        }
+    ]
+}

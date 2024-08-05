@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6a13e564-26f4-4050-a7e8-151504270d84",
+    "name": "Whale log - observations from ANARE voyages",
+    "description": "Ship-based observations of whales sightings from the original 'ANARE Whale Log' books have been recovered into a single repository of sightings. ANARE (Australian National Antarctic Research Expeditions) is the historic acronym for these voyages.",
+    "url": "https://obis.org/dataset/6a13e564-26f4-4050-a7e8-151504270d84",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=whale_log"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Watts, D. (2009) Whale log - observations from ANARE voyages , Australian Antarctic Data Centre - CAASM Metadata (http://data.aad.gov.au/aadc/metadata/)",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Biodiversity",
+        "Incidental sightings",
+        "Southern Ocean",
+        "Whales"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=whale_log",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "61.7999992371 -69.0370025635,61.7999992371 -45.0830001831,158.966995239 -45.0830001831,158.966995239 -69.0370025635,61.7999992371 -69.0370025635"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

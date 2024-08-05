@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c8a10b95-b250-4da7-a964-b9a99c0db5b2",
+    "name": "Gross body measurements of Antarctic Rock Cod (Trematomus bernacchii) collected at sites adjacent to Casey Station 2012/13",
+    "description": "Gross body measurements of fish length (cm), weight (g), and sex (M/F). Fish were collected on line and in box traps at Brown Bay, Shannon Bay, near Wilkes Station, O'Brien Bay and Sparkes Bay. Sex was determined after dissection for other analyses.\nQuality: Note from the AADC, 2018-08-02:\n\nThe original datasheet was reformatted to fit IPT Biodiversity.AQ standard. The new datasheet provides the dataset ID, record number, event date, decimal latitude, decimal longitude, locality, continent, country, occurrence, and basis of record. The individuals measurements provided are: length (measurement unit in cm), and weight (measurement unit in grams). The taxonomical organisation is provided to the lowest taxonomical rank that could be determined, after matched in WoRMS (World Register of Marine Species).",
+    "url": "https://obis.org/dataset/c8a10b95-b250-4da7-a964-b9a99c0db5b2",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=trematomus_measurements"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Corbett, P. (2017, updated 2018) Gross body measurements of Antarctic Rock Cod (Trematomus bernacchii) collected at sites adjacent to Casey Station - ",
+    "version": "2018-10-02T04:45:24.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=trematomus_measurements",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "110.524 -66.359,110.524 -66.257,110.567 -66.257,110.567 -66.359,110.524 -66.359"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

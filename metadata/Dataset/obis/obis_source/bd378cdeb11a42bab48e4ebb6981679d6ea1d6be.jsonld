@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/726e33e7-6415-45ae-9d20-7c9a60e01343",
+    "name": "Historical benthos data from the North Sea and Baltic Sea from 1902-1912",
+    "description": "This dataset has been reconstructed from museum collections.",
+    "url": "https://obis.org/dataset/726e33e7-6415-45ae-9d20-7c9a60e01343",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hbno"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Rumohr, H., Historical benthosdata from the North Sea and Baltic Sea from 1902-1912.  Christian-Albrechts-University Kiel; Leibniz Institute of Marine Sciences; Marine Ecology Division; Benthos Ecology section, Kiel, Germany.",
+    "version": "2023-12-08T17:24:32.000Z",
+    "keywords": [
+        "Benthos",
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1907/1907",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hbno",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-2.19 50.03,-2.19 61.295,21.53 61.295,21.53 50.03,-2.19 50.03"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

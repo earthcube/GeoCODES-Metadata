@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/55fdf3b0-744a-4a29-a81e-7d9884be1a91",
+    "name": "IMR Zooplankton Norwegian Sea",
+    "description": "The IMR zooplankton database holds Norwegian Sea data on size fractionated biomass as well as biomass for particular zooplankton groups obtained from standard seasonal transects (Svinøy, Gimsøy and Bjørnøya-vest) and a regional coverage of the Norwegian Sea during spring. Data on species composition (abundance) are limited.",
+    "url": "https://obis.org/dataset/55fdf3b0-744a-4a29-a81e-7d9884be1a91",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imr_zoopl_norw_sea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Broms, C. (2014). IMR Zooplankton Norwegian Sea. Institute of Marine Research, Norway",
+    "version": "2023-12-08T18:32:21.000Z",
+    "keywords": [
+        "Phytoplankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imr_zoopl_norw_sea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-11.992 61.5005,-11.992 82.1067,17 82.1067,17 61.5005,-11.992 61.5005"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6bf16e2d-8564-4a2a-b2eb-d1c9954658c0",
+    "name": "Collation of spatial seagrass data (meadow extent polygons, species presence/absence points) from 1984 - 2018 for the Great Barrier Reef World Heritage Area (GBRWHA) (NESP TWQ Project 3.2.1 and 5.4, TropWATER, James Cook University)",
+    "description": "This dataset summarises 35 years of seagrass data collection (1984-2018) within the Great Barrier Reef World Heritage Area into one GIS shapefile containing seagrass presence and absence survey data for 81,387 sites. This dataset is dominated by 1,010,826 'absent' compared to 47,049 'present' records.\nManaging seagrass resources in the GBRWHA requires adequate baseline information on where seagrass is (presence/absence), what species are present, and date of collection. This baseline is particularly important as a reference point against which to compare seagrass loss or change through time. The scale of the GBRWHA (1000s of kilometres) and the remoteness of many seagrass meadows from human populations present a challenge for research and management agencies reporting on the state of seagrass ecological indicators. Broad-scale and repeated surveys/studies of areas this large are logistically and financially impracticable. However seagrass data is being collected through various projects which, although designed for specific reasons, are amenable to collating a picture of the extent and state of the seagrass resource. \nThe data used here along with additional references and descriptions of the data is at https://eatlas.org.au/data/uuid/18386963-6960-4eb9-889b-d0964069ce13",
+    "url": "https://obis.org/dataset/6bf16e2d-8564-4a2a-b2eb-d1c9954658c0",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nesp_seagrass"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Carter A, McKenna S, Rasheed M, Pitcher R, McKenzie L, Coles R (2023): Collation of spatial seagrass data (meadow extent polygons, species presence/absence points) from 1984 - 2018 for the Great Barrier Reef World Heritage Area (GBRWHA) (NESP TWQ Project 3.2.1 and 5.4, TropWATER, James Cook University). v1.6. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=nesp_seagrass&amp;v=1.6",
+    "version": "2023-10-19T04:42:38.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "depth",
+            "url": "",
+            "description": "depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dominant sediment type",
+            "url": "",
+            "description": "dominant sediment type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "survey method",
+            "url": "",
+            "description": "survey method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "tidal zone",
+            "url": "",
+            "description": "tidal zone"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nesp_seagrass",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "142.52026 -24.49939,142.52026 -10.70632,153.10113 -10.70632,153.10113 -24.49939,142.52026 -24.49939"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        }
+    ]
+}

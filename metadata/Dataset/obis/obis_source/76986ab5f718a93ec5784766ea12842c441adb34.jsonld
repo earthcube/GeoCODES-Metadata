@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4e88f9c8-868e-4b0a-bc48-3d409a5448fe",
+    "name": "UWFC Ichthyology Collection",
+    "description": "The University of Washington Fish Collection is a state-supported facility that is part of the Burke Museum of Natural History and Culture and the School of Aquatic and Fishery Sciences located on the University of Washington campus in Seattle. The collection is constantly growing. At the end of 2013, we have 8.2 million specimens in 160,000 lots, as well as over 2 million otoliths from north Pacific fishes.  The majority of specimens are eggs and larvae, with 7.7 million specimens in 103,000 lots. There are 380,000 juvenile and adult specimens in 52,000 lots, representing some 4,076 species in 1,386 genera and 328 families.  All specimens are stored in glass jars or stainless steel tanks containing 70% ethanol preservative. Tissue samples are available for over 5000 lots representing 800 species.  There are 38 primary and 318 secondary type specimens in the collection.  Approximately 324 lots of cleared and stained specimens, representing 203 species in 63 families, are also available. These are stored in full strength glycerin and maintained separately from the main collection. These skeletal preparations are augmented by an extensive library of X-rays of North Pacific fishes. Begun in 1981, this library now includes some 765 X-rays, including representatives of 135 species in 66 families. We also have a growing dry skeleton collection, most of which has been donated by local archaeologists wanting to make their reference collections available to the public.",
+    "url": "https://obis.org/dataset/4e88f9c8-868e-4b0a-bc48-3d409a5448fe",
+    "sameAs": [
+        "http://ipt.vertnet.org:8080/ipt/resource?r=uwfc_fish"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "University of Washington Ichthyology Collection (UWFC)",
+    "version": "2019-03-15T20:53:54.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1886/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.vertnet.org:8080/ipt/archive.do?r=uwfc_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -65.0166667,-180 76.24,180 76.24,180 -65.0166667,-180 -65.0166667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19315",
+            "@type": "Organization",
+            "legalName": "Burke Museum",
+            "name": "Burke Museum",
+            "url": "https://oceanexpert.org/institution/19315"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20644",
+            "@type": "Organization",
+            "legalName": "Berkeley Natural History Museums",
+            "name": "Berkeley Natural History Museums",
+            "url": "https://oceanexpert.org/institution/20644"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3e866061-37ff-46f4-9904-b7434ce433e2",
+    "name": "Demersal and pelagic species of fish and squid from the Patagonian shelf",
+    "description": "Dataset containing 2007 records of occurrence of 39 species of fish and 2 species of squid distributed on the Patagonian continental shelf and slope. This dataset describes a new and revised version of the original data published through OBIS and contains individual morphometrics. Specimens are representative of pelagic, demersal, demersal-pelagic, demersal-benthic and benthic habits and they were collected by commercial fishing vessels in autumn (May-June, 2001, 51 catches), winter (July-August, 2001, 38 catches) and summer (January-February, 2002, 112 catches). The sampling was carried out with bottom trawls at a depth range of 73-370 m. The survey was located between 39° - 52° S and 55° - 65° W. / Conjunto de datos con 2007 registros morfometricos de 39 especies de peces y 2 especies de calamares de la plataforma y talud continental patagónicos. Este conjunto de datos describe una nueva versión de los datos originales publicados a través de OBIS y contiene datos de morfometría individual.Los especimenes representan organismos de hábitos pelágico, demersal, demersal-pelágico, demersal-bentónico y bentónico y fueron recolectados por barcos comerciales en otoño (Mayo-Junio 2001, 51 lances de captura), invierno (Julio-Agosto 2001, 38 lances de captura) y en verano (enero-febrero 2002, 112 lances de captura).  El muestreo fue llevado a cabo con redes de arrastre a un rango de profundidad de 73-370 m. El área relevada se localizó entre 39° - 52° S y los 55° - 65° O.",
+    "url": "https://obis.org/dataset/3e866061-37ff-46f4-9904-b7434ce433e2",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=argentina-fishes"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Eder E B, Marin M R, Lewis M N (2015): Demersal and pelagic species of fish and squid from the Patagonian shelf. v1.7. ArOBIS Centro Nacional Patagónico. Dataset/Samplingevent. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=argentina-fishes&amp;v=1.7",
+    "version": "2017-03-10T18:10:35.000Z",
+    "keywords": [
+        "Occurrence",
+        "Patagonia",
+        "teleosts",
+        "elasmobranches",
+        "cephalopods",
+        "Southwestern Atlantic Ocean",
+        "demersal habitat",
+        "pelagic habitat."
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weigth of viscera",
+            "url": "",
+            "description": "Wet weigth of viscera"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weigth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/NEWCXX02/",
+            "description": "Wet weigth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Total length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Standard length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SL01XX01/",
+            "description": "Standard length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Left finn length  (skates)",
+            "url": "",
+            "description": "Left finn length  (skates)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Maximum finn width (skates)",
+            "url": "",
+            "description": "Maximum finn width (skates)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Rigth finn length  (skates)",
+            "url": "",
+            "description": "Rigth finn length  (skates)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Finn length",
+            "url": "",
+            "description": "Finn length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Finn width (squids)",
+            "url": "",
+            "description": "Finn width (squids)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Head length (squids)",
+            "url": "",
+            "description": "Head length (squids)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=argentina-fishes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.45 -52.03,-65.45 -39.45,-55.57 -39.45,-55.57 -52.03,-65.45 -52.03"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

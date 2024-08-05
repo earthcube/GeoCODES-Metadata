@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/aaf06c66-d482-41f2-885a-a5f2b3b932c1",
+    "name": "Fish monitoring of the shelf region of the Huon Australian Marine Park, Tasmania, Australia (2021)",
+    "description": "Fish monitoring of the shelf region of the Huon Australian Marine Park, Tasmania, Australia in June-July 2021 using  stereo-BRUVs funded by Parks Australia. Data sourced from GlobalArchive Project 319 (https://globalarchive.org/) on 2023-07-01.",
+    "url": "https://obis.org/dataset/aaf06c66-d482-41f2-885a-a5f2b3b932c1",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=globalarchive_319_huon_amp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Monk J (2023): Fish monitoring of the shelf region of the Huon Australian Marine Park, Tasmania, Australia (2021). v1.0. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=globalarchive_319_huon_amp&amp;v=1.0",
+    "version": "2023-07-03T06:15:43.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Forked Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Forked Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=globalarchive_319_huon_amp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "146.96014 -44.0212,146.96014 -43.60635,147.52635 -43.60635,147.52635 -44.0212,146.96014 -44.0212"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20324",
+            "@type": "Organization",
+            "legalName": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "name": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "url": "https://oceanexpert.org/institution/20324"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

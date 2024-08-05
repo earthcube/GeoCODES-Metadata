@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8c844caa-0559-4482-b506-7ab97915376a",
+    "name": "Whale log - observations from ANARE voyages",
+    "description": "On many voyages, a seperate whale log was kept on the bridge for crew or expeditioners to note any incidental whale sightings. This collection aggregates all known whale log entries into one set with links to each voyage. Databases such the Wildlife on Voyage also contain whale observations as extras from the primary purpose of seabird observations and are kept with that collection. Covers six whale species - Blue, Fin, Sei, Minke, Orca and Humpback. Any whale observations which were not identified at the species level, or cannot be georeferenced have been excluded from this collection.",
+    "url": "https://obis.org/dataset/8c844caa-0559-4482-b506-7ab97915376a",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=anare_whales"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Whale log - observations from ANARE voyages.",
+    "version": "2021-05-05T23:54:27.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1963/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=anare_whales",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "61.8 -69.037,61.8 -41.367,158.967 -41.367,158.967 -69.037,61.8 -69.037"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

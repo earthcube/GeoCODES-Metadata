@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/681d6731-c74b-4b38-ba19-239b794dd174",
+    "name": "Rügen Herring Larvae Survey",
+    "description": "Dataset with abundance and growth data of the western Baltic spring spawning herring in the main spawning area Greifswald Bay. The yearly survey is carried out by the Thünen Institute of Baltic Sea Fisheries once per week during the herring spawning season from March to June. The survey provides the base for an annual recruitment index (N20) used for the assessment of this herring stock. WGIPS is the ICES group responsible for this dataset.",
+    "url": "https://obis.org/dataset/681d6731-c74b-4b38-ba19-239b794dd174",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ices_eggs_rugen_herring"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES; (2020). Rügen Herring Larvae Survey. Available online at http://eggsandlarvae.ices.dk",
+    "version": "2024-02-27T00:20:53.000Z",
+    "keywords": [
+        "Ichthyoplankton surveys",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "https://vocab.ices.dk/?ref=152/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear deployment",
+            "url": "https://vocab.ices.dk/?ref=1416/",
+            "description": "Gear deployment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Haul duration",
+            "url": "",
+            "description": "Haul duration"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ices_eggs_rugen_herring",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "10.88783 53.96767,10.88783 54.5815,14.08217 54.5815,14.08217 53.96767,10.88783 53.96767"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

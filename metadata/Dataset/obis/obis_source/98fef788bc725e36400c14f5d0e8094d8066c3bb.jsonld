@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ac9233e9-170a-49ab-9505-46f09ac3c90f",
+    "name": "National Monitoring Programme for Phytoplankton Species occurrence in Aquaculture Production Areas",
+    "description": "The Phytoplankton National Monitoring Programme for the identification and enumeration of phytoplanktonic species is an important measurement in the detection of those species which may form a Harmful Algal Bloom event. Where favourable environmental conditions occur, some species may form 'blooms' where high cell densities may cause water discolouration, foaming, mass mortalities of fish, shellfish, invertebrate and benthic organisms through oxygen depletion or produce biotoxins which can accumulate in species of filter feeding bi-valve molluscs, which can cause a variety of human illnesses if consumed when placed on the market for human consumption.",
+    "url": "https://obis.org/dataset/ac9233e9-170a-49ab-9505-46f09ac3c90f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mi_habs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marine Institute, Ireland; (2002): National Monitoring Programme for Phytoplankton Species occurrence in Aquaculture Production Areas",
+    "version": "2023-05-23T11:55:52.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Harmful algal blooms",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mi_habs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.56889 51.47306,-10.56889 55.28389,-6.02972 55.28389,-6.02972 51.47306,-10.56889 51.47306"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

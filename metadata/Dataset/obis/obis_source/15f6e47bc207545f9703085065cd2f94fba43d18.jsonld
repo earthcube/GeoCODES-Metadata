@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f7f30f55-6052-42bb-ba7b-506086394644",
+    "name": "Seagrass records of the COREMAP-CTI Project",
+    "description": "Seagrass species recorded during COREMAP-CTI Project by RCO-LIPI Indonesia",
+    "url": "https://obis.org/dataset/f7f30f55-6052-42bb-ba7b-506086394644",
+    "sameAs": [
+        "http://obis.lipi.go.id:8080/ipt/resource?r=seagrass_coremap"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "COREMAP-CTI. 2018. Dataset: Seagrass species recorded during Reef Health Monitoring of the COREMAP-CTI. Research Center for Oceanography, Indonesian Institute of Sciences.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Seagrass"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://obis.lipi.go.id:8080/ipt/archive.do?r=seagrass_coremap",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "97.16679 -10.31861,97.16679 3.9523,136.61353 3.9523,136.61353 -10.31861,97.16679 -10.31861"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18092",
+            "@type": "Organization",
+            "legalName": "Pusat Penelitian Oseanografi. Lemabga Ilmu Pengetahuan Indonesia",
+            "name": "Pusat Penelitian Oseanografi. Lemabga Ilmu Pengetahuan Indonesia",
+            "url": "https://oceanexpert.org/institution/18092"
+        }
+    ]
+}

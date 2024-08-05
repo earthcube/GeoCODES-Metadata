@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/af015774-471e-4e5f-a061-50e0a74c4bb7",
+    "name": "Tracks of breeding and non-breeding Chatham Island taiko (Pterodroma magentae) from Chatham Islands New Zealand (2008 - 2012)",
+    "description": "Tracks of 24 breeding and non-breeding Chatham Island taiko (Pterodroma magentae) from Chatham Islands between 2008 and 2012. Data from Zoatrack project 102 (https://zoatrack.org/projects/102/) accessed on 2021-07-02",
+    "url": "https://obis.org/dataset/af015774-471e-4e5f-a061-50e0a74c4bb7",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=zoatrack_102_chatham_taiko"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "The data in this project is publicly available under a Creative Commons Attribution-NonCommercial-ShareAlike License. If you use these data in any type of publication then you must cite the project DOI (if available) or any published peer-reviewed papers associated with the study. We strongly encourage you to contact the data custodians to discuss data usage and appropriate accreditation.\n\nRights Statement\nCopyright - New Zealand Department of Conservation",
+    "version": "2022-06-08T05:52:25.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=zoatrack_102_chatham_taiko",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.99 -63.61,-179.99 -5.53,179.99374 -5.53,179.99374 -63.61,-179.99 -63.61"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20909",
+            "@type": "Organization",
+            "legalName": "Department of Conservation- Wellington Office",
+            "name": "Department of Conservation- Wellington Office",
+            "url": "https://oceanexpert.org/institution/20909"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

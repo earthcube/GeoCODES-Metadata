@@ -1,0 +1,104 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bf8259cd-0738-4d2b-9f87-8c7ba8603587",
+    "name": "Multi-decadal shifts in fish community diversity across a dynamic biogeographic transition zone",
+    "description": "A 21-year fisheries-independent monitoring dataset was used to explore fish community diversity across a latitudinal gradient to quantify how diversity has changed and relate those changes in diversity to changes in the abiotic environment. Additionally, this study spans a biogeographic transition zone, providing insight into future species assemblages across regions of relatively high species diversity.",
+    "url": "https://obis.org/dataset/bf8259cd-0738-4d2b-9f87-8c7ba8603587",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=multi-decadal_shifts_fish_community_diversity"
+    ],
+    "license": "Attribution-ShareAlike (CC BY-SA)",
+    "citation": "Troast Brittany, Paperno Richard, Cook Geoffrey (2019). Multi-decadal shifts in fish community diversity across a dynamic biogeographic transition zone. SEANOE. https://doi.org/10.17882/70325",
+    "version": "2024-02-26T23:12:15.000Z",
+    "keywords": [
+        "Species diversity",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALPR01/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Conductivity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/",
+            "description": "Conductivity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "pH",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PHTLWCAL/",
+            "description": "pH"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved Oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYZZXX/",
+            "description": "Dissolved Oxygen"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=multi-decadal_shifts_fish_community_diversity",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.85867 27.65037,-80.85867 28.8069,-80.36652 28.8069,-80.36652 27.65037,-80.85867 27.65037"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18261",
+            "@type": "Organization",
+            "legalName": "University of Central Florida",
+            "name": "University of Central Florida",
+            "url": "https://oceanexpert.org/institution/18261"
+        }
+    ]
+}

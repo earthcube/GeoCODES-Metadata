@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ee591f31-1844-44b4-91ab-57e6b5c87101",
+    "name": "Cymodocea nodosa in the slovenian coastal area",
+    "description": "Cymodocea nodosa sampling in the Slovenian coast in 2009-2010. This dataset contains length of the photosynthetic part of the leaf and abundance of Cymodocea nodosa. 10 samples were collected at each of the 10 locations. In each sample, the length of the photosynthetic part was measured for 60 adult/intermediate leaves for a correct assessment of the Mediterranean meadows which is of great importance for the implementation of the Water Framework Directive (WFD), the Marine Strategy Framework Directive (MSFD), and the Habitat Directive (HD)",
+    "url": "https://obis.org/dataset/ee591f31-1844-44b4-91ab-57e6b5c87101",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cymodocea_nodosa_in_the_slovenian_coastal_area"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Orlando-Bonaca, M.; National Institute of Biology - Marine Biology Station; (2019): Cymodocea nodosa in the slovenian coastal area",
+    "version": "2024-02-27T00:12:06.000Z",
+    "keywords": [
+        "Biological sampling",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Platform name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Platform name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform type",
+            "url": "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/",
+            "description": "Platform type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Quadrat area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Quadrat area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count in sample",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count in sample"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cymodocea_nodosa_in_the_slovenian_coastal_area",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.5682 45.482016666667,13.5682 45.59415,13.719883333333 45.59415,13.719883333333 45.482016666667,13.5682 45.482016666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

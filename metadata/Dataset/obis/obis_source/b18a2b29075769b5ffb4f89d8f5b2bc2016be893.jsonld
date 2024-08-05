@@ -1,0 +1,84 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/946a04da-69e3-4255-8dcd-13b5a70b6152",
+    "name": "Rhodolith occurrences in the Azores (central north Atlantic) between 1998 and 2018",
+    "description": "Rhodoliths is a general term used to designate non-geniculate coralline red algae (Rhodophyta) that live unattached (Riosmena-Rodríguez, 2017). The term is used here to encompass (i) branched free-living coralline algae devoid of an evident nucleus, but also (ii) nucleated nodules where the biogenic calcium carbonate deposit around the core represents &gt;50%, as well as (iii) “coated grains” where the core is larger than the algal carbonate component.",
+    "url": "https://obis.org/dataset/946a04da-69e3-4255-8dcd-13b5a70b6152",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=rhodoliths_azores",
+        "https://dx.doi.org/10.14284/559"
+    ],
+    "license": "Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND)",
+    "citation": "Tempera F.; Sinde-Mano A.L.; Quartau R.; Rebelo A.C.; Graça G.; Das D.; Milla i Figueras D.; Bates R.; Ramos M.; Isidro E.; Afonso P.; IMAR-Institute of Marine Research, University of the Azores, Portugal; (2021): Rhodolith occurrences in the Azores (central north Atlantic) between 1998 and 2018. https://dx.doi.org/10.14284/559",
+    "version": "2023-12-08T18:31:15.000Z",
+    "keywords": [
+        "Aguas Vivas",
+        "Arquipelago",
+        "Cameras",
+        "Corers",
+        "Grabs",
+        "Remotely operated vehicles",
+        "Scuba diving",
+        "diver",
+        "propelled unmanned submersible",
+        "research vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Description of habitat by classification to a term from EUNIS A - Marine habitats (version 2012 amended 2019)",
+            "url": "https://dd.eionet.europa.eu/vocabulary/biodiversity/eunishabitats/",
+            "description": "Description of habitat by classification to a term from EUNIS A - Marine habitats (version 2012 amended 2019)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2018",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/559",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/559",
+        "url": "https://dx.doi.org/10.14284/559"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=rhodoliths_azores",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-31.3 36.9,-31.3 39.75,-24.75 39.75,-24.75 36.9,-31.3 36.9"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/efebefae-fbd0-4900-9569-41d59a58b8e2",
+    "name": "Arqueomonitor project: Abundance of the Bucentaure and Fougueux shipwrecks benthic communities, Cadiz Bay (Spain) 2012-2013",
+    "description": "This dataset contains abundance data of the benthic community around the shipwrecks Bucentaure and Fougueux, in the Cadiz Bay, Spain during 2012-2013 within the framework of the Arqueomonitor Project. Three random replicated belt transects of 50× 300 cm by site (shipwreck) and season were carried out. The ARQUEOMONITOR Project, supported by the Spanish Ministry of Economy and Competitiveness and FEDER (CTM2009-08668 and CTM2010-16363) studied in what grade, the generation, conservation or degradation of archaeological sites are influenced by marine environmental variables, employing two wrecks of the same chronology subjected to very different environmental conditions, Fougueux and Bucentaure (1805)",
+    "url": "https://obis.org/dataset/efebefae-fbd0-4900-9569-41d59a58b8e2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=arqueomonitor"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gonzélez Duarte, M. M.; Bethencourt Núñez, M.; (2019): Arqueomonitor project: Abundance of the Bucentaure and Fougueux shipwrecks benthic communities, Cadiz Bay (Spain) 2012-2013",
+    "version": "2024-02-26T23:38:03.000Z",
+    "keywords": [
+        "Dynamics",
+        "Ecological succession",
+        "Sessile species",
+        "Preservation",
+        "Shipwrecks",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "CountInSample",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "CountInSample"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=arqueomonitor",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-6.32387 36.40548,-6.32387 36.53745,-6.23804 36.53745,-6.23804 36.40548,-6.32387 36.40548"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

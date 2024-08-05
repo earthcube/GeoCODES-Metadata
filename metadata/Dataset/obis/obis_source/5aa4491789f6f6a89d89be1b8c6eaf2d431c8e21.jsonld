@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ab3cb4b7-5d54-4d1a-9be2-93d5efac54f6",
+    "name": "Data on cetacean strandings (1999 - 2014) on the Ukrainian coast of the Black Sea and the Sea of Azov and adjoining areas",
+    "description": "This dataset contains data on cetacean strandings collected from 1999 to 2014 on the coastal areas of the Black sea and the Sea of Azov. Observations were conducted by  Pavel Gol'din and Karina Vishnyakova, with the help provided by D. Markov, E. Gladilina, E. Gol'din, V. Sokhin, E. Kushnir, V. Serbin, Yu. Lyashenko, L. Godlevska, A. Nadolny, M. Kovalyova, O. Savenko, N. Kukharev and other colleagues and volunteers who took part in the field excursions and provided information on strandings.",
+    "url": "https://obis.org/dataset/ab3cb4b7-5d54-4d1a-9be2-93d5efac54f6",
+    "sameAs": [
+        "http://gp.sea.gov.ua:8082/ipt/resource?r=cetacean_strandings_data_bs_as"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Vishnyakova K, Gol'din P (2016): Data on cetacean strandings (1999 - 2013) on the Ukrainian coast of the Black Sea and the Sea of Azov and adjoining areas. v1.3. Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES). Dataset/Occurrence. http://gp.sea.gov.ua:8082/ipt/resource?r=cetacean_strandings_data_bs_as&amp;v=1.3",
+    "version": "2017-10-17T07:05:45.000Z",
+    "keywords": [
+        "Occurrence",
+        "Black Sea",
+        "The Sea of Azov",
+        "cetaceans",
+        "Phocoena",
+        "Delphinus",
+        "Tursiops",
+        "Observation",
+        "strandings"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://gp.sea.gov.ua:8082/ipt/archive.do?r=cetacean_strandings_data_bs_as",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "33.5625 44.8716,33.5625 45.92795,36.559717 45.92795,36.559717 44.8716,33.5625 44.8716"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11858",
+            "@type": "Organization",
+            "legalName": "Ukrainian Scientific Centre of Ecology of the Sea",
+            "name": "Ukrainian Scientific Centre of Ecology of the Sea",
+            "url": "https://oceanexpert.org/institution/11858"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19423",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences – I. I. Schmalhausen Institute of Zoology",
+            "name": "National Academy of Sciences – I. I. Schmalhausen Institute of Zoology",
+            "url": "https://oceanexpert.org/institution/19423"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a86b3849-dc24-4058-a8a6-7b6fd55a0151",
+    "name": "Royal Belgian Institute of Natural Sciences Reptilia Collection (Reptilia)",
+    "description": "The Royal Belgian Institute of Natural Sciences Reptilia collection contains 211 digitised specimens over 24 taxa (mostly species). This dataset only contains the marine species of the collection. The following classes are included: Reptilia Laurenti, 1768.",
+    "url": "https://obis.org/dataset/a86b3849-dc24-4058-a8a6-7b6fd55a0151",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=be_rbins_vertebrates_reptilia"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Semal, P. (2020) Royal Belgian Institute of Natural Sciences Pisces collection",
+    "version": "2023-12-08T17:10:07.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_elevation",
+            "url": "https://www.wikidata.org/wiki/Q2633778/",
+            "description": "sampling_elevation"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1824/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=be_rbins_vertebrates_reptilia",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-153.4 -55.3166666667,-153.4 55.33333,179.3166666667 55.33333,179.3166666667 -55.3166666667,-153.4 -55.3166666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

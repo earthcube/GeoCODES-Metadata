@@ -1,0 +1,115 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5c2508f8-e945-429f-b091-57b06d71031b",
+    "name": "Romanian Black Sea Zooplankton data from 2001 to 2010",
+    "description": "The zooplankton dataset contains samples collected during 2001-2010, from different stations, from the Romanian Black Sea waters. Samples were collected from different depths, in different seasons . All samples were collected using the modified Juday net, with an opening of 36 cm diameter. Zooplankton samples were analyzed both from quantitative (density and biomass) and qualitative (list of species) point of view.",
+    "url": "https://obis.org/dataset/5c2508f8-e945-429f-b091-57b06d71031b",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=ro_black_sea_zpk_2001_2010"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Harcotă George, Elena Bișinicu, Tabarcea Cristina, Timofte Florin; National Institute for Marine Research and Development \"Grigore Antipa\"; (NIMRD), Romania; (2023): Romanian Black Sea Zooplankton data from 2001 to 2010",
+    "version": "2024-02-26T23:13:46.000Z",
+    "keywords": [
+        "Black sea",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Seafloor depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MBANNV01/",
+            "description": "Seafloor depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Subsampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100006/",
+            "description": "Subsampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Zooplankton biomass and diversity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "Zooplankton biomass and diversity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sex category",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Sex category"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ro_black_sea_zpk_2001_2010",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "28.6011 43.7344,28.6011 45.1439,30.8014 45.1439,30.8014 43.7344,28.6011 43.7344"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8113",
+            "@type": "Organization",
+            "legalName": "National Institute for Marine Research and Development “Grigore Antipa”",
+            "name": "National Institute for Marine Research and Development “Grigore Antipa”",
+            "url": "https://oceanexpert.org/institution/8113"
+        }
+    ]
+}

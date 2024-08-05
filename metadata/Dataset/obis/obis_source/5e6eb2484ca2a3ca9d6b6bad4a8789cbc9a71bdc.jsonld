@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8a5040ba-4284-4146-a727-30375d243846",
+    "name": "SPG - Atlantic salmon migration, survival and disease",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Dalhousie University (DAL)  SPG - Atlantic salmon migration, survival and disease, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=V2LATSLM).\nAbstract:Healthy, sustainable Atlantic salmon (Salmo salar) stocks are important economically, ecologically, and culturally to Canada. However, many populations have been severely decreasing since the 1980s, leading to an endangered listing for many populations by the Committee on the Status of Endangered Wildlife in Canada (COSEWIC). Currently, the greatest impacts to their survival have been linked to juvenile survival upon entry into the marine environment. In this Strategic Partnership Grant proposal, we will use acoustic telemetry and cutting edge genomic techniques to address several strategic issues. Firstly, with our partners at Fisheries and Oceans Canada (DFO) and at the Atlantic Salmon Federation (ASF), we will examine the role of naturally occurring pathogens in mediating the migration behaviour and mortality of juvenile salmon in populations throughout the Maritimes, Quebec, and Newfoundland &amp; Labrador. Secondly, we will examine the interactions of wild salmon with aquaculture net-pens throughout the region by quantifying residency patterns, migration pathways, and mortality near net-pens. In parallel, we will characterize pathogen profiles in water samples collected near net-pens, and by opportunistically sampling net-pen escapees, which are frequently caught in a fish-ladder on a river in New Brunswick, we will compare disease profiles of aquaculture and wild salmon in the same river. Thirdly, we will examine the effects of hatchery rearing on the behaviour and survival of juveniles salmon. Hatchery rearing is commonly used for salmon supplementation, and by comparing hatchery and wild fish in the same river, we will explore whether hatchery fish have different susceptibilities to pathogens and altered migration behaviour. Ultimately, we will use the data that we collect from these studies to develop models that examine the degree to which mortality can be explained by aquaculture and/or hatchery operations versus natural environmental variation, and whether these are actually preventing the recovery of Atlantic salmon populations. These issues are of paramount importance to DFO and ASF, given that the Species at Risk Act stipulates that recovery strategies must address the threats identified by COSEWIC.",
+    "url": "https://obis.org/dataset/8a5040ba-4284-4146-a727-30375d243846",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndalspg-atlanticsalmonm",
+        "https://doi.org/10.14286/ajqudl"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Crossin, G., Bailey, M., Hutchings, J, Whoriskey, F. 2019. Interactions between migration, marine survival and disease susceptibility in Atlantic salmon.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T17:19:14.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/ajqudl",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/ajqudl",
+        "url": "https://doi.org/10.14286/ajqudl"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndalspg-atlanticsalmonm",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.38 46.33,-67.38 51.51897,-56.578 51.51897,-56.578 46.33,-67.38 46.33"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5711",
+            "@type": "Organization",
+            "legalName": "Dalhousie University",
+            "name": "Dalhousie University",
+            "url": "https://oceanexpert.org/institution/5711"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

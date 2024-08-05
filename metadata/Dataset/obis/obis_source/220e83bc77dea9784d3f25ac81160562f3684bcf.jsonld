@@ -1,0 +1,46 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5082de5d-7e3a-4c5f-9da6-b0d4952b7652",
+    "name": "Whale Observations from the British, Australian and New Zealand Antarctic Research Expedition (BANZARE) voyages 1929-30 and 1930-31",
+    "description": "Observations of whales collated from the logs of the two British, Australian and New Zealand Antarctic Reaserch Expedition (BANZARE) voyages 19-Oct-1929 to 1-April-1930 and 22-Nov-1930 to 19-Mar-1931. Covers six whale species - Blue, Fin, Sei, Minke, Orca and Humpback. Any whale observations which were not identified at the species level have been excluded from this collection.",
+    "url": "https://obis.org/dataset/5082de5d-7e3a-4c5f-9da6-b0d4952b7652",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=banzare_whales"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Whale Observations from the British, Australian and New Zealand Antarctic Research Expedition (BANZARE) voyages 1929-30 and 1930-31.",
+    "version": "2021-05-06T02:53:15.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1929/1931",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=banzare_whales",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "19.669 -66.983,19.669 -36.947,177.002 -36.947,177.002 -66.983,19.669 -66.983"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e92b6433-c003-47b2-8f46-6a1e87db48c9",
+    "name": "Tethys Research Institute shipboard survey cetacean sightings 1986-2012",
+    "description": "Original provider:\nTethys Research Institute\n\nDataset credits:\nTethys Research Institute\n\nAbstract:\nThis dataset, belonging as a whole to Tethys Research Institute, comprises the work carried out between 1986 and 2012 mainly in the Mediterranean Sea and in particular in the Corso-Ligurian-Provencal basin, in the Ionian Sea and in the Adriatic Sea. Research has also been carried out investigating cetaceans in Atlantic Ocean (Canary Islands, Morocco coasts) and in the Caribbean Sea. The dataset generated includes more than 8.400 sightings of cetaceans collected in 25 years of research activity.\n\nPurpose:\nFounded in 1986, the Tethys Research Institute is a private non-profit organization specializing in cetacean research. Tethys has generated one of the largest datasets on Mediterranean cetaceans and contributed over 300 scientific publications. Tethys aims to protect the Mediterranean biodiversity by promoting the adoption of a precautionary approach for the management of natural resources. The work carried out by Tethys strives to prevent the decline of marine species and to encourage sustainable use of the marine environment. Tethys first conceived and proposed the creation a Marine Reserve in the Corso-Ligurian Basin, the “Pelagos Sanctuary.” Several internationally renowned institutions have emphasized the importance of the Sanctuary, including the World Conservation Union (IUCN), the Bonn Convention on migratory species, and the newly-born Agreement on the Conservation of Cetaceans of the Mediterranean Sea, Black Sea and Contiguous Atlantic Areas (ACCOBAMS). The Sanctuary has also been added to the list of Specially Protected Areas of Mediterranean Importance (SPAMI), created at the Barcelona Convention in 1999. This makes the Ligurian Sea Cetacean Sanctuary the first and only high seas protected area in the world. Moreover, based primarily on data collected by the Tethys Research Institute, a Dolphin Reserve was formally established in Losinj, Croatia in 2006.\n\nResearch methods utilized by Tethys include the use of remote sensing and telemetry data, the combined use of laser range-finding binoculars and GPS to record the movements of whales, population studies based on distance sampling and photographic capture-recapture, bioacoustics research, behavioral sampling, remote collection of biopsy samples for genetic and toxicological analyses, and historical studies. The Institute holds vast photographic archives of cetacean images that have enabled the identification of over 1,500 individuals of eight Mediterranean species.\n\nTethys Research Institute has involved in its expeditions thousands of people from all over the world, and has developed a remarkable cetacean research and conservation network. Tethys has been conducting its research and conservation activities thanks to support received from national and international organizations. Tethys is partner to the UNEP's Agreement on the Conservation of Cetaceans in the Black Sea, Mediterranean Sea and Contiguous Atlantic Area (ACCOBAMS). The Italian Ministry of the Environment funded various cetacean research and conservation activities carried out by the Institute. The UNEP's Regional Activity Centre for Specially Protected Areas (RAC-SPA), the Earthwatch Institute, OceanCare and The Whale and Dolphin Conservation Society WDCS have been providing support to specific projects conducted by Tethys in the context of a long-term collaboration.\n\nSupplemental information:\n[2015-03-24] A few records had a wrong animal count of zero. The value is replaced with a blank representing species presence only.\n\n[2014-03-05] 2011-2012 data were added.\n\nEffort data are only available for a subset of surveys. For records with time and observed count not available, the corresponding columns were empty.",
+    "url": "https://obis.org/dataset/e92b6433-c003-47b2-8f46-6a1e87db48c9",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_774"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Lanfredi, C. and G. Notarbartolo di Sciara. 2014. Tethys Research Institute shipboard survey cetacean sightings 1986-2012. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/774) on yyyy-mm-dd.",
+    "version": "2021-04-24T10:33:50.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_774",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.341667 10.286944,-67.341667 45.633333,22.7965 45.633333,22.7965 10.286944,-67.341667 10.286944"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

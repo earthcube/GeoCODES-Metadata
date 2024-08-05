@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/67e67ba9-a2ea-452d-985e-6343a7280ec6",
+    "name": "Catalogue and description of the coccolithophores (Haptophyta, Coccolithophyceae), calcareous, scale-bearing microalgae, in New Zealand waters",
+    "description": "This dataset is from the first volume in the NIWA Biodiversity Memoir (NBM) series that addresses photosynthetic organisms, cataloguing the wonderful diversity of coccolithophores in New Zealand\nwaters.\nA checklist is presented of living, calcareous, scale-bearing microalgae previously recorded from the New Zealand region; it contains 80 species, plus three different life-cycle forms of two of these species. Studies of this group of microalgae, based on 160 samples collected from 10 ocean-going surveys between January 2009 and February 2012, revealed a total of 50 named individual groups of microalgae (taxa), with two taxa as first records for the region (Cyrtosphaera lecaliae Kleijne, 1992, and Syracosphaera azureaplaneta Young et al., 2018, both recorded here for the first time). The 50 taxa recorded in this study are illustrated in the Memoir with 157 scanning electron micrographs in 29 plates. Of the 50 taxa presented in this monograph, 45 were placed in a group characterised by having calcareous scales of variable shape and size that are formed inside the cell (heterococcolithophores), while three taxa (with one being transferred to to the family Syracosphaeraceae) were placed in another group characterised by having numerous minute crystallite scales that appear to be calcified outside the cell (holococcolithophores). Two of the first group also had forms showing characteristics of both groups. Forty-two taxa from the first group were placed in seven families in the four orders: Coccolithales, Isochrysidales, Syracosphaerales and Zygodiscales, and five taxa in four families of uncertain taxonomic position. Three holococcolithophore taxa were placed in the family Calyptrosphaeraceae. Emiliania huxleyi was the most plentiful and widespread taxon. On three occasions, in spring 2009 and two consecutive summers in 2011 and 2012, this species formed massive blooms off the central east coast of New Zealand, two of which (spring 2009 and summer 2011) were visible in NASA’s satellite observations. Seven other relatively widespread species recorded here were: Reticulofenestra parvula, Umbellosphaera tenuis type II, Syracosphaera molischii, Syracosphaera anthos, Gephyrocapsa ericsonii, Syracosphaera mediterranea, and Calcidiscus leptoporus. In spring 2009 Reticulofenestra parvula was the second species found in bloom proportion (up to 571,000 cells l-1), but the bloom was limited to Kaikoura on the east coast of New Zealand. In this study the genus Syracosphaera was the largest group, with 17 species and one life-cycle form of one of these species, which made up about 36% of all living coccolithophores identified. Most of the other genera, however, did not have many species and occurred in very limited areas. This work provides a diagnostic description of all 50 living coccolithophores identified in New Zealand waters, using scanning electron microscopy (SEM), and gives information on cell abundances and distribution in the New Zealand region.",
+    "url": "https://obis.org/dataset/67e67ba9-a2ea-452d-985e-6343a7280ec6",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=nz_coccolithosphore"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Chang H (2021): Catalogue and description of the coccolithophores (Haptophyta, Coccolithophyceae), calcareous, scale-bearing microalgae, in New Zealand waters. v1.4. The National Institute of Water and Atmospheric Research (NIWA). Dataset/Samplingevent. https://nzobisipt.niwa.co.nz/resource?r=nz_coccolithosphore&amp;v=1.4",
+    "version": "2021-12-20T22:11:36.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "temperature",
+            "url": "P01/current/TEMPP681/",
+            "description": "temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "nitrate",
+            "url": "P01/current/NTRAMW04/",
+            "description": "nitrate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "phosphate",
+            "url": "P01/current/PHOSKGD1/",
+            "description": "phosphate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "url": "P02/current/PSAL/",
+            "description": "salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "silicate",
+            "url": "P01/current/SLCAZZXX/",
+            "description": "silicate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ammonium",
+            "url": "P01/current/AMONZZXX/",
+            "description": "ammonium"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "chlorophyll a",
+            "url": "P01/current/CPHLZZXX/",
+            "description": "chlorophyll a"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "url": "P01/current/SLCAZZXX/",
+            "description": "salinity"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1958/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=nz_coccolithosphore",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.84483333 -51.2875,-179.84483333 -17.75,179.205 -17.75,179.205 -51.2875,-179.84483333 -51.2875"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

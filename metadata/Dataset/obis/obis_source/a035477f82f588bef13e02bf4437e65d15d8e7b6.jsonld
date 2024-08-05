@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0c59dc30-4b06-4572-addc-155042f81fd0",
+    "name": "NaGISA Project",
+    "description": "Records obtained during campaigns and field activities of NaGISA project in various parts of the world.",
+    "url": "https://obis.org/dataset/0c59dc30-4b06-4572-addc-155042f81fd0",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=nagisa"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2018-03-21T07:22:26.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/caribbeanobis/archive.do?r=nagisa",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.61855 -77.853217,-178.61855 78.382,179.30525 78.382,179.30525 -77.853217,-178.61855 -77.853217"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8887",
+            "@type": "Organization",
+            "legalName": "Universidad Simon Bolivar",
+            "name": "Universidad Simon Bolivar",
+            "url": "https://oceanexpert.org/institution/8887"
+        }
+    ]
+}

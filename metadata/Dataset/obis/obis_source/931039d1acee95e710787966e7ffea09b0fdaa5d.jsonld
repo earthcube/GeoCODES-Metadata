@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4b25fd6e-e5de-4866-aee5-2d7ea4c407da",
+    "name": "Zooplankton of the Eastern South Pacific",
+    "description": "The Humboldt Current System is one of the large and highly productive upwelling ecosystems of the world ocean. In the coastal upwelling system of northern and central/south of Chile a data base of marine zooplankton has been created after more than 15 years of study. Samples collections are available from 18º S to 36º S.",
+    "url": "https://obis.org/dataset/4b25fd6e-e5de-4866-aee5-2d7ea4c407da",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=zooplancton"
+    ],
+    "license": "Unrestricted",
+    "citation": "Escribano, R., Hidalgo, P., Manríquez, K., 2005. Humboldt Current species.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=zooplancton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-77.8050003052 -38,-77.8050003052 -20.202999115,-70.3280029297 -20.202999115,-70.3280029297 -38,-77.8050003052 -38"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

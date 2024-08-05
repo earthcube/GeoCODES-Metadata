@@ -1,0 +1,99 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a7a946da-3764-43c4-a84a-ffe8df855b37",
+    "name": "Mesozooplankton in the South Adriatic Sea (MEDGES Experiment) in March 2013",
+    "description": "Mesozooplankton collected in the South Adriatic Sea during a cruise in March 2013, as part of MEDGES experiment in the framework of the Italian project \"RITMARE - La Ricerca ITaliana per il MARE\"",
+    "url": "https://obis.org/dataset/a7a946da-3764-43c4-a84a-ffe8df855b37",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zooplankton_medges",
+        "https://doi.org/10.6092/001y-7x62"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "De Olazabal A., &amp; Civitarese G (2018): Mesozooplankton in the South Adriatic Sea (MEDGES Experiment) in March 2013. OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. Italy. https://doi.org/10.6092/001y-7x62",
+    "version": "2023-05-23T11:28:21.000Z",
+    "keywords": [
+        "Species composition",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "Sampling device aperture diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance per unit volume of the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2013",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/001y-7x62",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/001y-7x62",
+        "url": "https://doi.org/10.6092/001y-7x62"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zooplankton_medges",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.73 41.53,14.73 42.88,18.29 42.88,18.29 41.53,14.73 41.53"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

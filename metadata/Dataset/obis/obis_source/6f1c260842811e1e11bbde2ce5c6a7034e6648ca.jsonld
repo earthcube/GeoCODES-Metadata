@@ -1,0 +1,125 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7a067da3-9c42-4805-a32f-f72a3b880eab",
+    "name": "Global Marine biodiversity data from Seawatchers Marine Citizen Science Platform 1980-2020",
+    "description": "Observadores del Mar is a marine citizen science platform launched in 2012 devoted to enhancing the understanding of the conservation status of marine ecosystems. The platform hosts 13 projects covering 8 main taxa: corals, jellyfishes, decapod crustaceans, fishes, seaweeds, seagrasses, seabirds and molluscs, in addition to two projects focused on marine litter and reporting information on two main topics: i) biodiversity data focusing mainly on species distribution and abundance, and ii) the impacts of anthropogenic activities  (e.g. jellyfish blooms) and associated mid- to long-term changes (e.g. colonization of invasive species). Almost 5500 observations validated by scientists have been already collected resulting in more than 20 scientific papers and communications. The major findings have been new records of introduced and invasive species, tracking the spread of novel pen shell mortality outbreak in the Mediterranean Sea and monitoring microplastic concentration on beaches.",
+    "url": "https://obis.org/dataset/7a067da3-9c42-4805-a32f-f72a3b880eab",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=observadoresdelmar",
+        "https://dx.doi.org/10.14284/519"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Chic, Oscar; Garrabou, Joaquim. (2020) Global Marine biodiversity data from Seawatchers Marine Citizen Science Platform between 1980 and 2020 https://dx.doi.org/10.14284/519",
+    "version": "2023-12-08T18:28:53.000Z",
+    "keywords": [
+        "Citizen participation",
+        "Nature conservation",
+        "Climate change",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Approximate size in cm of the fishes",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMAXLX/",
+            "description": "Approximate size in cm of the fishes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Approximate size in cm of the fishes",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMINLX/",
+            "description": "Approximate size in cm of the fishes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Maximum width of pen shell",
+            "url": "",
+            "description": "Maximum width of pen shell"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Evidence of anchoring, mass mortality, excessive algal covering, dumping, water turbidity impact of Pen Shell",
+            "url": "",
+            "description": "Evidence of anchoring, mass mortality, excessive algal covering, dumping, water turbidity impact of Pen Shell"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Paramuricea clavata in reproduction?",
+            "url": "",
+            "description": "Paramuricea clavata in reproduction?"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Invasive algae",
+            "url": "",
+            "description": "Invasive algae"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Approximate size in cm of the fishes",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Approximate size in cm of the fishes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Reproductive structures of seagrass in reproduction",
+            "url": "",
+            "description": "Reproductive structures of seagrass in reproduction"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of reproductive structures",
+            "url": "",
+            "description": "Abundance of reproductive structures"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/2020",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/519",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/519",
+        "url": "https://dx.doi.org/10.14284/519"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=observadoresdelmar",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-28.6258 27.6384,-28.6258 45.7626,35.9064 45.7626,35.9064 27.6384,-28.6258 27.6384"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

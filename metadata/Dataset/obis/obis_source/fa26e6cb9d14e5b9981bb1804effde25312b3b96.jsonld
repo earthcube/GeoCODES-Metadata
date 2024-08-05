@@ -1,0 +1,91 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b52cf4cf-6222-4318-9e43-355026336e03",
+    "name": "Reef Check Med - key Mediterranean marine species 2001-2020",
+    "description": "The dataset consists of abundance records of 43 marine species in the Mediterranean Sea from 2001 to 2020. Selected species include some protected and non-indigenous species, ecosystem engineers, species sensitive to climate change, and/or threatened by human activities. Taken together, these taxa represent key ecological aspects of Mediterranean subtidal habitats (Cerrano et al., 2017)  and can be used to calculate the MedSens, an index of the environmental status of subtidal rocky coastal habitats based on species sensitivity (Turicchia et al., 2021). Observations were carried out by the EcoDivers (trained scuba divers, freedivers and snorkelers) according to a rigorous protocol (RCMed U-CEM) developed by the association Reef Check Italia onlus.",
+    "url": "https://obis.org/dataset/b52cf4cf-6222-4318-9e43-355026336e03",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=rcmed_2001-2020",
+        "https://dx.doi.org/10.14284/468"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Ponti, M., Turicchia, E., Rossi, G., Cerrano, C.; Reef Check Italia onlus; (2020): Reef Check Med - key Mediterranean marine species 2001-2020 https://dx.doi.org/10.14284/468",
+    "version": "2024-02-26T23:13:35.000Z",
+    "keywords": [
+        "Climate change",
+        "diver",
+        "human",
+        "Overfishing",
+        "Protected species",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sample duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance category of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL06/",
+            "description": "Abundance category of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth maximum of biological entity specified elsewhere on the bed by epibenthic sampling",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DMAX7117/",
+            "description": "Depth maximum of biological entity specified elsewhere on the bed by epibenthic sampling"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth minimum of biological entity specified elsewhere on the bed by epibenthic sampling",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DMIN7117/",
+            "description": "Depth minimum of biological entity specified elsewhere on the bed by epibenthic sampling"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2020",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/468",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/468",
+        "url": "https://dx.doi.org/10.14284/468"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=rcmed_2001-2020",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-1.15455 35.40266,-1.15455 45.7636,25.362 45.7636,25.362 35.40266,-1.15455 35.40266"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

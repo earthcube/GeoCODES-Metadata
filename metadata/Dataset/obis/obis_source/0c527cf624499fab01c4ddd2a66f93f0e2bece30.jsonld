@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a9703223-de3f-43ac-a717-bc386cbb79fd",
+    "name": "Phytoplankton in the South Adriatic Sea (MEDGES Experiment) 2013",
+    "description": "Phytoplankton collected in the South Adriatic Sea during a cruise in February 2013, as part of MEDGES experiment in the framework of the Italian project \"RITMARE - La Ricerca Italiana per il MARE\"",
+    "url": "https://obis.org/dataset/a9703223-de3f-43ac-a717-bc386cbb79fd",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=medges-phyto",
+        "https://doi.org/10.6092/8ba429c3-88ca-48c0-a2aa-66e56c931428"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cerino F, Civitarese G (2018): Phytoplankton in the South Adriatic Sea (MEDGES Experiment) 2013. https://doi.org/10.6092/8ba429c3-88ca-48c0-a2aa-66e56c931428",
+    "version": "2024-02-26T23:14:33.000Z",
+    "keywords": [
+        "Species composition",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance per unit volume of the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2013",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/8ba429c3-88ca-48c0-a2aa-66e56c931428",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/8ba429c3-88ca-48c0-a2aa-66e56c931428",
+        "url": "https://doi.org/10.6092/8ba429c3-88ca-48c0-a2aa-66e56c931428"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=medges-phyto",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.73 41.2,14.73 42.88,18.29 42.88,18.29 41.2,14.73 41.2"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

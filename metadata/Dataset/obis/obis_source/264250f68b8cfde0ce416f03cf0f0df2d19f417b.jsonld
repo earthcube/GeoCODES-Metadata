@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3b1da04e-7b8d-4080-ba17-d29909d6d95b",
+    "name": "O_AMELAND - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding on Ameland (the Netherlands) [subsampled representation]",
+    "description": "This animal tracking dataset is derived from Oosterbeek et al. (2022, <a href=\"https://doi.org/10.5281/zenodo.6656937\">https://doi.org/10.5281/zenodo.6656937</a>) a deposit of Movebank study <a href=\"https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study1605803389\">1605803389</a>. Data have been standardized to Darwin Core using the <a href=\"https://inbo.github.io/movepub/\">movepub</a> R package and are downsampled to the first GPS position per hour. The original dataset description follows.\n<em>O_AMELAND - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding on Ameland (the Netherlands)</em> is a bird tracking dataset published by <a href=\"http://www.sovon.nl\">Sovon</a>, the <a href=\"https://ibed.uva.nl\">University of Amsterdam</a> and the <a href=\"https://www.inbo.be/en\">Research Institute for Nature and Forest (INBO)</a>. It contains animal tracking data for the study <strong>O_AMELAND</strong> using trackers developed by the University of Amsterdam Bird Tracking System (UvA-BiTS, <a href=\"http://www.uva-bits.nl\">http://www.uva-bits.nl</a>). The study was&nbsp;operational from 2010 to 2013. In total 15 individuals of Eurasian oystercatchers (<em>Haematopus ostralegus</em>) have been tagged as a breeding bird on the Wadden island Ameland (the Netherlands), mainly to study their space use during the breeding season. Data are uploaded from the UvA-BiTS database to Movebank and from there archived on Zenodo (see <a href=\"https://github.com/inbo/bird-tracking\">https://github.com/inbo/bird-tracking</a>). No new data are expected.\nThese data were collected by Sovon and University of Amsterdam (UvA). Funding was provided by NAM and supported by the UvA-BiTS virtual lab on the Dutch national e-infrastructure, built with support of LifeWatch, the Netherlands eScience Center, SURFsara and SURFfoundation. The dataset was published with funding from Stichting NLBIF - Netherlands Biodiversity Information Facility.",
+    "url": "https://obis.org/dataset/3b1da04e-7b8d-4080-ba17-d29909d6d95b",
+    "sameAs": [
+        "https://ipt.inbo.be/resource?r=o_ameland"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-06-17T15:30:52.000Z",
+    "keywords": [
+        "animal movement",
+        "animal tracking",
+        "gps tracking",
+        "accelerometer",
+        "altitude",
+        "temperature",
+        "biologging",
+        "birds",
+        "UvA-BiTS",
+        "Movebank",
+        "frictionlessdata",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.inbo.be/archive.do?r=o_ameland",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "5.3334233 53.1016779,5.3334233 53.5483944,6.4987089 53.5483944,6.4987089 53.1016779,5.3334233 53.1016779"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6656",
+            "@type": "Organization",
+            "legalName": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "name": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "url": "https://oceanexpert.org/institution/6656"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17039",
+            "@type": "Organization",
+            "legalName": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "name": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "url": "https://oceanexpert.org/institution/17039"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23186",
+            "@type": "Organization",
+            "legalName": "Sovon Dutch Centre for Field Ornithology",
+            "name": "Sovon Dutch Centre for Field Ornithology",
+            "url": "https://oceanexpert.org/institution/23186"
+        }
+    ]
+}

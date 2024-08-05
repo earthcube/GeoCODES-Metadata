@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/09be818d-531c-4d86-8eba-5db81d42fdba",
+    "name": "COLETA - IMAR/DOP-Uac reference collection from 1977 to 2012",
+    "description": "Reference collection of the IMAR/DOP-UAz, consisting in several taxa preserved with different methods and collected mostly in the Azores area. \nThe reference collection has been created in order to be a referential of marine species of the Azores, both common and rare. Thus, new occurrences could be compared with new ones. Therefore, material in the collection can be useful for new scientific and taxonomic studies.",
+    "url": "https://obis.org/dataset/09be818d-531c-4d86-8eba-5db81d42fdba",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=coleta",
+        "https://dx.doi.org/10.14284/23"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Institute of Marine Research (IMAR - Azores), Portugal; Department of Oceanography and Fisheries (DOP) - UAC, Portugal (2015): COLETA - IMAR/DOP-Uac reference collection from 1977 to 2012. https://dx.doi.org/10.14284/23",
+    "version": "2023-12-08T18:30:06.000Z",
+    "keywords": [
+        "Coastal areas",
+        "Deep sea",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1977/2012",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/23",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/23",
+        "url": "https://dx.doi.org/10.14284/23"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=coleta",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-37.156 32.4,-37.156 41.56,-16.6 41.56,-16.6 32.4,-37.156 32.4"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19372",
+            "@type": "Organization",
+            "legalName": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "name": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "url": "https://oceanexpert.org/institution/19372"
+        }
+    ]
+}

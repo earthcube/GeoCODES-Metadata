@@ -1,0 +1,132 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8c5103cf-25f9-45a2-9cfc-ba0a158cfedb",
+    "name": "Abundance and biomass of benthic infauna from mud grabs in the Irish sea as part of a mud habitat project from 2014-2015",
+    "description": "This dataset contains information on infaunal abundance and biomass from sediment grabs from the Western Irish Sea collected in 2014 and 2015 from the RV Corystes. This survey was carried out to assess the presence, extent and the condition of subtidal mud habitats in the Western Irish Sea. A 0.1m2 day grab was used to obtain the sediment and infaunal samples. In total there were 85 grab samples taken and this was also supplemented with underwater video tows of the area for nephrops (Nephrops norvegicus) but this information is not included in this dataset. Particle Size analysis (PSA) of the sediment was also carried out along with Carbon &amp; Nitrogen (C &amp; N) analysis. The most abundant species found was the Bivalve Abra alba and the most frequently recorded species was the Bivalve Abra nitida.",
+    "url": "https://obis.org/dataset/8c5103cf-25f9-45a2-9cfc-ba0a158cfedb",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dasshdt00000406",
+        "https://doi.org/10.17031/cclqtr"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Agri-Food and Biosciences Institute (AFBI) (2019): Abundance and biomass of benthic infauna from mud grabs in the Irish sea as part of a mud habitat project from 2014-2015. v2.3. Marine Biological Association. Dataset/Samplingevent https://doi.org/10.17031/cclqtr",
+    "version": "2023-05-23T11:55:01.000Z",
+    "keywords": [
+        "Benthic infauna",
+        "Corystes",
+        "research vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "devicearea",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "devicearea"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "methodqcnotes",
+            "url": "",
+            "description": "methodqcnotes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "qcscheme",
+            "url": "",
+            "description": "qcscheme"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplingdevice",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "samplingdevice"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sievemeshsize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "sievemeshsize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "gravel",
+            "url": "",
+            "description": "gravel"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mud",
+            "url": "",
+            "description": "mud"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sand",
+            "url": "",
+            "description": "sand"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon biomass",
+            "url": "",
+            "description": "taxon biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "taxon abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/cclqtr",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/cclqtr",
+        "url": "https://doi.org/10.17031/cclqtr"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dasshdt00000406",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.56895 53.7296,-5.56895 54.176633,-4.936666666667 54.176633,-4.936666666667 53.7296,-5.56895 53.7296"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13220",
+            "@type": "Organization",
+            "legalName": "Agri-Food and Biosciences Institute",
+            "name": "Agri-Food and Biosciences Institute",
+            "url": "https://oceanexpert.org/institution/13220"
+        }
+    ]
+}

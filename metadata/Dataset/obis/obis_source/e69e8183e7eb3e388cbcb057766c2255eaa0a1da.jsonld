@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/46c52e34-73b7-45e6-a2ac-742e4c2058c5",
+    "name": "ICES Phytoplankton Community dataset",
+    "description": "Biological phytoplankton community data",
+    "url": "https://obis.org/dataset/46c52e34-73b7-45e6-a2ac-742e4c2058c5",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dome-phytoplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES Environmental Database (DOME), Phytoplankton community. Available online at http://dome.ices.dk. ICES, Copenhagen. Consulted on yyyy-mm-dd.",
+    "version": "2023-12-08T18:32:21.000Z",
+    "keywords": [
+        "Community diversity",
+        "Community ecology",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dome-phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-26.366667 -65.391667,-26.366667 65.8085,33.841667 65.8085,33.841667 -65.391667,-26.366667 -65.391667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

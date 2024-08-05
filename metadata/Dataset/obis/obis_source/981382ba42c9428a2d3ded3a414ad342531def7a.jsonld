@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ea61c258-8998-45ef-916b-002b53666c36",
+    "name": "Benthic marine algae from Cabo Frio",
+    "description": "The dataset \"Benthic marine algae from Cabo Frio region and surroundings\" is based on 2 publications.",
+    "url": "https://obis.org/dataset/ea61c258-8998-45ef-916b-002b53666c36",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=benthic_marine_algae_from_cabo_frio"
+    ],
+    "license": "Unrestricted",
+    "citation": "Fabio Lang da Silveira and Rubens M. Lopes Benthic marine algae from Cabo Frio. WSAOBIS, Sao Paulo City, 24 December 2009, Version 1.0.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1968/1984",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=benthic_marine_algae_from_cabo_frio",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-42.0354 -23.0052,-42.0354 -22.7328,-41.8693 -22.7328,-41.8693 -23.0052,-42.0354 -23.0052"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

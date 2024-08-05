@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/604310ab-706b-49b4-84d1-31f0bc578528",
+    "name": "Mortality events at British Columbia finfish aquaculture sites",
+    "description": "Mortality at salmon aquaculture facilities is closely monitored. If the amount of dead fish at a farm exceeds thresholds outlined in conditions of licence, a mortality event is said to have occurred and must be reported to DFO within 24 hours of discovery. Facility managers and veterinarian(s) must determine the probable cause of the event and develop a plan to mitigate ongoing harm to the farmed fish and reduce any risk to wild fish. Companies must continue to update Fisheries and Oceans Canada (DFO) every 10 days for the duration of the mortality event, including daily mortality counts, mitigation applied, determination of the cause(s) of the event and any updated plan.\nThis report provides a summary of mortality events reported by aquaculture companies to Fisheries and Oceans Canada.\nHistorical data are available from 2011 to the present. Explanation of the terms used in the report’s column headings can be found in the terminology file https://open.canada.ca/data/en/dataset/7fbb2662-391a-4df7-99b4-3343fa68fc93",
+    "url": "https://obis.org/dataset/604310ab-706b-49b4-84d1-31f0bc578528",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=aqua_mortality"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Aquaculture Management Division . (2020): Mortality events at British Columbia finfish aquaculture sites. v1.6. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=aqua_mortality&amp;v=1.6",
+    "version": "2022-03-29T20:43:16.000Z",
+    "keywords": [
+        "events; occurrences; emof; Fisheries and Oceans Canada; Pacific Region; Aquaculture; fish farming; salmon farming; mortality; British Columbia; BC"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "",
+            "url": "",
+            "description": ""
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=aqua_mortality",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-128.57494 49.21433,-128.57494 52.80048,-123.78337 52.80048,-123.78337 49.21433,-128.57494 49.21433"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

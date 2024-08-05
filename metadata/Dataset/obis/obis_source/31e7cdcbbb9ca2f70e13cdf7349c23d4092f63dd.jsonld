@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/550b4cc1-c40d-4070-a0cb-26e010eca9d4",
+    "name": "O_ASSEN - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding in Assen (the Netherlands) [subsampled representation]",
+    "description": "This animal tracking dataset is derived from Dijkstra et al. (2022, <a href=\"https://doi.org/10.5281/zenodo.5653311\">https://doi.org/10.5281/zenodo.5653311</a>) a deposit of Movebank study <a href=\"https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study1605797471\">1605797471</a>. Data have been standardized to Darwin Core using the <a href=\"https://inbo.github.io/movepub/\">movepub</a> R package and are downsampled to the first GPS position per hour. The original dataset description follows.\n<em>O_ASSEN - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding in Assen (the Netherlands)</em> is a bird tracking dataset published by the <a href=\"https://assen.knnv.nl/werkgroep/vogel-werkgroep/\">Vogelwerkgroep Assen</a>, <a href=\"https://nioo.knaw.nl\">Netherlands Institute of Ecology (NIOO-KNAW)</a>, <a href=\"http://www.sovon.nl\">Sovon</a>, <a href=\"http://www.ru.nl\">Radboud University</a>, the <a href=\"https://ibed.uva.nl\">University of Amsterdam</a> and the <a href=\"https://www.inbo.be/en\">Research Institute for Nature and Forest (INBO)</a>. It contains animal tracking data collected for the study <strong>O_ASSEN</strong> using trackers developed by the University of Amsterdam Bird Tracking System (UvA-BiTS, <a href=\"http://www.uva-bits.nl\">http://www.uva-bits.nl</a>). The study has been operational in 2018 and 2019. In total 6 individuals of Eurasian oystercatchers (<em>Haematopus ostralegus</em>) have been tagged as a breeding bird in the city of Assen (the Netherlands), mainly to study space use of oystercatchers breeding in urban areas. Data are uploaded from the UvA-BiTS database to Movebank and from there archived on Zenodo (see <a href=\"https://github.com/inbo/bird-tracking\">https://github.com/inbo/bird-tracking</a>). No new data are expected.\nThese data were collected by Bert Dijkstra and Rinus Dillerop from Vogelwerkgroep Assen, in collaboration with the Netherlands Institute of Ecology (NIOO-KNAW), Sovon, Radboud University and the University of Amsterdam (UvA). Funding was provided by the Prins Bernard Cultuurfonds Drenthe, municipality of Assen, IJsvogelfonds (from Birdlife Netherlands and Nationale Postcodeloterij) and the Waterleiding Maatschappij Drenthe. The dataset was published with funding from Stichting NLBIF - Netherlands Biodiversity Information Facility.",
+    "url": "https://obis.org/dataset/550b4cc1-c40d-4070-a0cb-26e010eca9d4",
+    "sameAs": [
+        "https://ipt.inbo.be/resource?r=o_assen"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-05-30T07:41:19.000Z",
+    "keywords": [
+        "animal movement",
+        "animal tracking",
+        "gps tracking",
+        "accelerometer",
+        "altitude",
+        "temperature",
+        "biologging",
+        "birds",
+        "UvA-BiTS",
+        "Movebank",
+        "frictionlessdata",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.inbo.be/archive.do?r=o_assen",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "6.2973591 52.9707472,6.2973591 53.5517201,6.6407507 53.5517201,6.6407507 52.9707472,6.2973591 52.9707472"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6656",
+            "@type": "Organization",
+            "legalName": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "name": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "url": "https://oceanexpert.org/institution/6656"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17039",
+            "@type": "Organization",
+            "legalName": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "name": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "url": "https://oceanexpert.org/institution/17039"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23186",
+            "@type": "Organization",
+            "legalName": "Sovon Dutch Centre for Field Ornithology",
+            "name": "Sovon Dutch Centre for Field Ornithology",
+            "url": "https://oceanexpert.org/institution/23186"
+        }
+    ]
+}

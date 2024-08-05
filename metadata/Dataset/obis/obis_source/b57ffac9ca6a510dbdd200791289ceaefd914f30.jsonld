@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ab46e252-9b77-4b08-b27f-c737dfde4236",
+    "name": "Zooplankton abundance in the Kerguelen Axis region 2016",
+    "description": "Zooplankton were collected with a Rectangular Midwater Trawl (RMT 8+1 net) from 37 sampling sites on and near the Southern Kerguelen Plateau. The contents of each net were preserved in 5% buffered formaldehyde. This dataset covers the counts of the contents of the RMT1 net. The contents were split in the laboratory using a Motoda Box and then identified and counted under a Leica M165C stereo-microscope. A flow meter attached to the mouth of the RMT 8 was used to record the volume of seawater passing through the net, and this volume was  converted to water passing through the RMT 1 by applying the conversion factor of 2.027357. The organisms in the samples were identified to the lowest taxonomic level possible. For copepods and euphausiids this level was to species, and generally to sex and/or development stage. For other groups, the identifications were to high levels such as Family or Order.\nQuality: No problems with the data collection or the analysis.\n\n2018-08-29 - The original datasheet was reformatted to fit IPT Biodiversity.AQ standard. The new datasheet \"ZooplanktonKerguelenPlateau.csv\" provides the datasetID, eventID (Cruiser and sampling site), eventDate, decimalLatitude, decimalLongitude, locationID, continent, occurrenceStatus, and basisOfRecord, samplingProtocol, and preparation. The individuals abundance in 1000 m-3. The taxonomical organization is provided to the lowest taxonomical rank that could be determined, after matched in WoRMS (World Register of Marine Species). Some species showed sex and life stage classification.",
+    "url": "https://obis.org/dataset/ab46e252-9b77-4b08-b27f-c737dfde4236",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=kerguelen_zooplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Swadling, K. (2017, updated 2018) Zooplankton abundance in the Kerguelen Axis region",
+    "version": "2022-11-09T00:28:56.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=kerguelen_zooplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "71.17725 -65.172,71.17725 -57.60793333,93.59541667 -57.60793333,93.59541667 -65.172,71.17725 -65.172"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18077",
+            "@type": "Organization",
+            "legalName": "University of Tasmania",
+            "name": "University of Tasmania",
+            "url": "https://oceanexpert.org/institution/18077"
+        }
+    ]
+}

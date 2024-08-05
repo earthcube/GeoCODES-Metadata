@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/897b06c4-72f3-4e62-874c-71787b0a25f7",
+    "name": "BioChem: Ring net samples collected as part of a JGOFS cruise in the North Atlantic during the fall of 1992",
+    "description": "This resource contains species distribution records extracted from the Fisheries and Oceans Canada BioChem database for the BioChem 'BIO-JGOFS 1992' series of records.  This collection contains zooplankton abundance and distribution information for locations from a cruise transect across the North Atlantic.  Samples were collected from 120 m to the surface using a 75 cm diameter conical net of 202 micron mesh towed vertically through the water column. \n\nSample analysis results were archived in the BioChem database.  This OBIS resource contains a subset of these database records - at this time only abundance information has been released.",
+    "url": "https://obis.org/dataset/897b06c4-72f3-4e62-874c-71787b0a25f7",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=biochem_bio_jgofs_1992"
+    ],
+    "license": "rights: http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms\nrights holder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "Head, E.J.H. (2013).  Ring net samples collected as part of a JGOFS cruise in the North Atlantic during the fall of 1992. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-03-16T18:26:25.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "oceans",
+        "aquatic sciences\nbiological classification",
+        "biosphere",
+        "aquatic ecosystems",
+        "plankton",
+        "zooplankton",
+        "biota\nplankton surveys"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=biochem_bio_jgofs_1992",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-59.03 28.23,-59.03 43.16,-18.43 43.16,-18.43 28.23,-59.03 28.23"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

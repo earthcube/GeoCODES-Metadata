@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/13ff4ab7-0427-4a2f-8d9e-ed89f65d5120",
+    "name": "Echinoderms of Hispaniola Island",
+    "description": "Project Hispabiota Marina. Museums and literature reviews about the biodiversity of echinoderms in the Hispaniola Island",
+    "url": "https://obis.org/dataset/13ff4ab7-0427-4a2f-8d9e-ed89f65d5120",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=echinoderms_hispaniola"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Herrera-Moreno, A. 2014. Contribution of Hispabiota Marina Project to the Biogeographic Information System of the Oceans: OBIS. I. Echinoderms from Hispaniola.  Reportes de Biodiversidad del Programa Ecomar, 1: 1-5.",
+    "version": "2017-11-28T13:38:10.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1931/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/caribbeanobis/archive.do?r=echinoderms_hispaniola",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-75.11666667 17.8833,-75.11666667 20.06666667,-68.66666667 20.06666667,-68.66666667 17.8833,-75.11666667 17.8833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8887",
+            "@type": "Organization",
+            "legalName": "Universidad Simon Bolivar",
+            "name": "Universidad Simon Bolivar",
+            "url": "https://oceanexpert.org/institution/8887"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16002",
+            "@type": "Organization",
+            "legalName": "Programa EcoMar, Inc.",
+            "name": "Programa EcoMar, Inc.",
+            "url": "https://oceanexpert.org/institution/16002"
+        }
+    ]
+}

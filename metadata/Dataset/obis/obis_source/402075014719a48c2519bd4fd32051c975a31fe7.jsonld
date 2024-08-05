@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2c001849-8854-43dd-889f-7130f9335dce",
+    "name": "CSIRO, Cruise SS200705, Benthic Biodiversity, Northwest Australia, 2007",
+    "description": "These data were collected on Southern Surveyor Voyage SS 05/2007, which aimed to study the benthic biodiversity of the tropical deep continental shelf and slope in Australia's north west region. Sampling was undertaken using benthic sleds and commercial size fish trawls. The voyage took place between Dampier and Darwin in June-July 2007.\n\nReports, metadata and other data from this voyage are at https://www.marine.csiro.au/data/trawler/survey_details,cfm?survey=SS200705\n",
+    "url": "https://obis.org/dataset/2c001849-8854-43dd-889f-7130f9335dce",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_ss200705"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "CSIRO - Southern Surveyor Voyage SS 05/2007, benthic biodiversity of the deep continental shelf and slope in Australia's NW region",
+    "version": "2022-09-05T05:36:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "",
+            "description": "Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "",
+            "description": "Weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_ss200705",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114.0101 -21.0345,114.0101 -12.4334,124.02195 -12.4334,124.02195 -21.0345,114.0101 -21.0345"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

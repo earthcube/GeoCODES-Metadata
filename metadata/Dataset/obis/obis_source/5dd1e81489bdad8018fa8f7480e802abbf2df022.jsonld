@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/af375b33-c322-42b8-9799-9ca70f342b64",
+    "name": "Colección de Algas del grupo de Biotecnología de la Universidad de Antioquia",
+    "description": "Este recurso contiene la información de la colección de Algas del grupo de Biotecnología de la Universidad de Antioquia, la cual posee diferentes cultivos microalgales que han sido extraídos en las campañas oceanográficas en el interior del golfo de Urabá y llevados al cepario de microalgas de la Universidad de Antioquia, además de algunas cepas de referencia de ceparios internacionales.",
+    "url": "https://obis.org/dataset/af375b33-c322-42b8-9799-9ca70f342b64",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=udea_cepas-biotecnologia",
+        "https://doi.org/10.15472/hdkgn6"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Durango Martínez M C, Naranjo E J, Atehortúa L, Portillo Cogollo L, Lara A (2022): Colección de Algas del grupo de Biotecnología de la Universidad de Antioquia. v1.0. Universidad de Antioquia. Dataset/Occurrence. https://doi.org/10.15472/hdkgn6",
+    "version": "2022-04-27T00:43:56.000Z",
+    "keywords": [
+        "Microalgas",
+        "Pirenoide",
+        "Cloroplasto",
+        "Datos de muestreo",
+        "Registro biológico",
+        "PERMISO_COLECTA",
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Luz",
+            "url": "",
+            "description": "Luz"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Medio de cultivo",
+            "url": "",
+            "description": "Medio de cultivo"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "",
+            "url": "",
+            "description": ""
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/hdkgn6",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/hdkgn6",
+        "url": "https://doi.org/10.15472/hdkgn6"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=udea_cepas-biotecnologia",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-123.249269 8.09524444,-123.249269 49.265052,-8.421636 49.265052,-8.421636 8.09524444,-123.249269 8.09524444"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16726",
+            "@type": "Organization",
+            "legalName": "Universidad de Antioquia",
+            "name": "Universidad de Antioquia",
+            "url": "https://oceanexpert.org/institution/16726"
+        }
+    ]
+}

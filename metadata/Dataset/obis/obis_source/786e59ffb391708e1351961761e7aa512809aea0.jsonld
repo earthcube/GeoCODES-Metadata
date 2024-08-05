@@ -1,0 +1,98 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c1cb71f2-31a1-4343-b82c-3e36171f498c",
+    "name": "Biodiversity Characterisation of Pilbara Marine Regions (Epibenthic Sled, Trawl, Towed Video and Sediment), Australia (2013)",
+    "description": "This dataset is an output of the Pilbara Marine Conservation Partnership (PMCP) Environmental Pressures Theme - Project Habitats and Biodiversity Characterisation and Mapping. The benthic invertebrate, plant and fish biodiversity of the west Pilbara region was sampled between 10 and 27 June 2013 during voyages on the CSIRO vessel RV Linnaeus and WA Fisheries vessel RV Naturaliste. The equipment used was: 0.75m epibenthic sled at 13 sites for a distance of ~300m or a 1.5m epibenthic sled at 98 sites for a distance of ~150m per tow; a Pipe dredge attached to each sled; an 8 Fathom Florida Flyer Trawl at 43 sites for a distance of ~1km per tow; and a Drop-Camera video system towed for a 500 m transect at 123 sites to observe and record video of the seabed habitat.\nMetadata sourced from https://marlin.csiro.au/geonetwork/srv/eng/catalog.search#/metadata/c935a434-168f-41bd-a83d-eeb4bdf4583f. Data from https://data.pawsey.org.au/ in the following path PMCP/Data_and_scripts/Environmental Pressures/habitat and biodiversity.",
+    "url": "https://obis.org/dataset/c1cb71f2-31a1-4343-b82c-3e36171f498c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=pilbara_sled_trawls"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-09T23:55:28.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Distance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Duration",
+            "url": "",
+            "description": "Duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample method",
+            "url": "",
+            "description": "Sample method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Swept Area",
+            "url": "",
+            "description": "Swept Area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Catch Weight",
+            "url": "",
+            "description": "Catch Weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=pilbara_sled_trawls",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114.16988 -21.78375,114.16988 -20.26817,116.70063 -20.26817,116.70063 -21.78375,114.16988 -21.78375"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18840",
+            "@type": "Organization",
+            "legalName": "The University of Western Australia",
+            "name": "The University of Western Australia",
+            "url": "https://oceanexpert.org/institution/18840"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/22762",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans & Atmosphere, Indian Ocean Marine Research Centre",
+            "name": "CSIRO Oceans & Atmosphere, Indian Ocean Marine Research Centre",
+            "url": "https://oceanexpert.org/institution/22762"
+        }
+    ]
+}
