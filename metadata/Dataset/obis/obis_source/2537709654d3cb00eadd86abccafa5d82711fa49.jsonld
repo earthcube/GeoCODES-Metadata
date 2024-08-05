@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/685de728-3eb8-4b31-8bfd-40035bb8aa4d",
+    "name": "Jervis Bay Marine Ecological Studies (JBMES) 1988-1991",
+    "description": "The Jervis Bay Baseline Studies was a three year research project that comprised the Jervis Bay Marine Ecological Studies (JBMES) funded by the Australian Department of Defence.\nIt covered the following topics: Mangroves and saltmatshes; Seagrasses; Mobile fauna of sandy beaches; Deepwater fauna and flora; Intertidal and subtidal epifauna of rocky shores; Infauna of seagrasses and sediments; Epifauna of mangroves and saltmarshes; Water quality; Contaminants; Water circulation; Modelling water circulation;\nThis resource covers sea grasses, fish and sandy fauna. The data has been recovered from database dumps from a 4D database, geographic positions have been converted from UTM 56 grid to WGS84, species have been matched to WoRMS where possible. Some longitudes from sample locations were suspect and these records have been excluded from this dataset.",
+    "url": "https://obis.org/dataset/685de728-3eb8-4b31-8bfd-40035bb8aa4d",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_jbmes"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Jervis Bay Baseline Studies, Final Report, May 1994. copyright Commonwealth of Australia reproduced by permission’",
+    "version": "2022-06-08T04:39:39.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/1991",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_jbmes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "150.098 -36.2214,150.098 -33.9491,151.2 -33.9491,151.2 -36.2214,150.098 -36.2214"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

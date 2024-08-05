@@ -1,0 +1,51 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/40d3d980-b417-4f0f-a90a-6b98a0093bc4",
+    "name": "Marine Microbes from the Yongala National Reference Station (NRS), Queensland, Australia (2015-2020)",
+    "description": "The Australian Marine Microbial Biodiversity Initiative (AMMBI) provides methodologically standardized, continental scale, temporal phylogenetic amplicon sequencing data describing Bacteria, Archaea and microbial Eukarya assemblages. Sequence data is linked to extensive physical, biological and chemical oceanographic contextual information. Samples are collected monthly to seasonally from multiple depths at seven National Reference Stations (NRS) sites: Darwin Harbour (Northern Territory), Yongala (Queensland), North Stradbroke Island (Queensland), Port Hacking (New South Wales), Maria Island (Tasmania), Kangaroo Island (South Australia), Rottnest Island (Western Australia). The Integrated Marine Observing System (IMOS) NRS network is described at http://imos.org.au/facilities/nationalmooringnetwork/nrs/\nYongala NRS is located 11 nm offshore at a depth of 28 m over sandy substrate, mid-shelf between the mainland and the coral reef in the tropical Great Barrier Reef (GBR) Lagoon. The mooring is located near the Yongala Wreck, out from Cape Bowling Green, in the central GBR. The closest major city is Townsville (population 171,824), approximately 100 km to the north. The site is generally well mixed with competing influences of the south-eastward lagoonal branch of the EAC and the opposing south-easterly trade wind forced coastal current. However, the monsoonal climate brings rain during December to April, and may result in river plume impingement and stratification. This is a site where significant ocean acidification projects are being carried out.\n\n \n Site details from Brown, M. V. et al. Continental scale monitoring of marine microbiota by the Australian Marine Microbial Biodiversity Initiative. Sci. Data 5:180130 doi: 10.1038/sdata.2018.130 (2018).\nSite location: Yongala National Reference Station (NRS), Queensland, Australia\nNote on data download/processing:\nData downloaded from Australian Microbiome Initiative via Bioplatforms Australia Data Portal on 17 June 2022. The search filter applied to download data from Bioplatforms Australia Data portal are stored in the Darwin Core property (identificationRemarks). Taxonomy is assigned according to the taxonomic database (SILVA 138) and method (Sklearn) which is stored in the Darwin Core Extension\nDNA derived data property (otu_db). Prefix were removed from the taxonomic names as shown in the example (e.g. d__Bacteria to Bacteria). Scientific name is assigned to the valid name available from the highest taxonomic rank.\nThis collection is published as Darwin Core Occurrence, so the event level measurements need to be replicated for every occurrence. Instead of data replication, the event level eMoF data are made available separately at https://www.marine.csiro.au/data/services/obisau/emof_export.cfm?ipt_resource=bioplatforms_mm_nrs_yon",
+    "url": "https://obis.org/dataset/40d3d980-b417-4f0f-a90a-6b98a0093bc4",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bioplatforms_mm_nrs_yon"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Please see https://www.australianmicrobiome.com/protocols/acknowledgements/ for citation examples and links to the data policy.",
+    "version": "2022-08-02T23:41:07.000Z",
+    "keywords": [
+        "occurrence",
+        "occurrence",
+        "16S rRNA",
+        "18S rRNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bioplatforms_mm_nrs_yon",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/21685",
+            "@type": "Organization",
+            "legalName": "University of Newcastle",
+            "name": "University of Newcastle",
+            "url": "https://oceanexpert.org/institution/21685"
+        }
+    ]
+}

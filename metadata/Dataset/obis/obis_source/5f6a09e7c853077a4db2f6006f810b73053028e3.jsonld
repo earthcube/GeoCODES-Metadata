@@ -1,0 +1,82 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/af8f2254-138c-4e46-b0ef-79394ce2095f",
+    "name": "Phytoplankton data collected during cruise 37 (second joint Soviet-American expedition) of R/V Akademik Korolev (July 1984) in the Bering Sea",
+    "description": "Dataset includes phytoplankton data collected during cruise 37 (second joint Soviet-American expedition) of R/V Akademik Korolev (July 1984) in the Bering Sea.",
+    "url": "https://obis.org/dataset/af8f2254-138c-4e46-b0ef-79394ce2095f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phyto_cosmos_cruise37"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Senichkina L. (1984). Phytoplankton data collected during cruise 37 (second joint Soviet-American expedition) of R/V Akademik Korolev (July 1984) in the Bering Sea. Dataset published in electronic format by IBSS in 2013, consulted via iOBIS on [date].",
+    "version": "2024-02-26T23:12:20.000Z",
+    "keywords": [
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "individualcount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "",
+            "description": "biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/1984",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phyto_cosmos_cruise37",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.91 53.25,-178.91 64.35,177.1 64.35,177.1 53.25,-178.91 53.25"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19526",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine – Institute of Biology of the Southern Seas – Department of plankton",
+            "name": "National Academy of Sciences of Ukraine – Institute of Biology of the Southern Seas – Department of plankton",
+            "url": "https://oceanexpert.org/institution/19526"
+        }
+    ]
+}

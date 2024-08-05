@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7ca781bf-163f-4202-86ea-cb9a243d878a",
+    "name": "Cetacean Sightings Survey and Southern Ocean cetacean program",
+    "description": "This dataset includes sightings, resightings and incidental sightings from Australian Antarctic Division voyages of whales in the Southern Ocean. These data will allow us to connect fine scale variability with regional and circum-Antarctic processes, and eventually to understand how the dynamics of the Antarctic ecosystem and environmental change might affect the recovery of whale populations.",
+    "url": "https://obis.org/dataset/7ca781bf-163f-4202-86ea-cb9a243d878a",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=whale_survey"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "See metadata record See Metadata record for details http://data.aad.gov.au/metadata/records/ASAC_915_2253",
+    "version": "2021-05-13T05:46:20.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=whale_survey",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "60.07 -69.38,60.07 -42,158.98 -42,158.98 -69.38,60.07 -69.38"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16203",
+            "@type": "Organization",
+            "legalName": "The Australian National University",
+            "name": "The Australian National University",
+            "url": "https://oceanexpert.org/institution/16203"
+        }
+    ]
+}

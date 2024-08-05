@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e191604f-fe12-424a-9bc7-98100d969515",
+    "name": "Atlantic and Gulf Rapid Reef Assessment - Fish",
+    "description": "Survey of health of reef communities in the Western Atlantic Ocean and Gulf of Mexico",
+    "url": "https://obis.org/dataset/e191604f-fe12-424a-9bc7-98100d969515",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=agrra_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marks, K.W. 2007. “AGRRA Database, version (05/2007).” Available online",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=agrra_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-93.8089981079 -17.9920005798,-93.8089981079 27.921667099,-38.6556663513 27.921667099,-38.6556663513 -17.9920005798,-93.8089981079 -17.9920005798"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8124",
+            "@type": "Organization",
+            "legalName": "Rosenstiel School of Marine & Atmospheric Science, University of Miami",
+            "name": "Rosenstiel School of Marine & Atmospheric Science, University of Miami",
+            "url": "https://oceanexpert.org/institution/8124"
+        }
+    ]
+}

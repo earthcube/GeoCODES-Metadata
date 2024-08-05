@@ -1,0 +1,108 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f180f1e9-817b-49f7-b5f4-04e1cc193f48",
+    "name": "Occurrence of Eukaryotes in the size fraction &gt;300 micrometres, collected worldwide during the Tara Oceans expedition (2009-2013) using a Bongo net and analysed on a ZooScan imaging platform",
+    "description": "Tara expeditions sampled the world’s oceans with standardized protocols, putting an exceptional effort into sampling plankton diversity across a large size range, using a combination of water samples and net tows.\nThe efforts to explore the genomic diversity of plankton, through metabarcoding and metagenomics, have led to well publicized papers and have made the renown of Tara. While a similar extensive effort has been put on imaging, the datasets are not public yet. \nIn a limited number of stations, in addition to the usual 5μm -&gt; ~5cm Tara sampling strategy, Bongo net samples were taken during the day and during the night, at the same station; this is the content of this dataset. Using a 300µm mesh net, it cover organisms from 300µm to ~3cm",
+    "url": "https://obis.org/dataset/f180f1e9-817b-49f7-b5f4-04e1cc193f48",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dasid_6512",
+        "https://dx.doi.org/10.14284/518"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Romagnan, J.B., Jalabert, L., Llopiz Monferrer, N., Elineau, A., Dimier, C., Picheral, M., Searson, S., Kandels-Lewis, S., Tara Oceans Consortium Coordinators, Karsenti, E., Pesant, S., Irisson, J.O., Lombard, F., Stemmann, L., Gorsky, G.; (2020) Occurrence of Eukaryotes in the size fraction &gt;300 micrometres, collected worldwide during the Tara Oceans expedition (2009-2013) using a Bongo net and analysed on a ZooScan imaging platform https://dx.doi.org/10.14284/518",
+    "version": "2024-02-26T23:17:16.000Z",
+    "keywords": [
+        "Imaging",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2013",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/518",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/518",
+        "url": "https://dx.doi.org/10.14284/518"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dasid_6512",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-168.348333 -64.355,-168.348333 79.218333,174.86 79.218333,174.86 -64.355,-168.348333 -64.355"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13830",
+            "@type": "Organization",
+            "legalName": "Sorbonne Université",
+            "name": "Sorbonne Université",
+            "url": "https://oceanexpert.org/institution/13830"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18357",
+            "@type": "Organization",
+            "legalName": "Laboratoire d'Océanographie de Villefranche-sur-Mer",
+            "name": "Laboratoire d'Océanographie de Villefranche-sur-Mer",
+            "url": "https://oceanexpert.org/institution/18357"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19642",
+            "@type": "Organization",
+            "legalName": "Station Biologique de Roscoff",
+            "name": "Station Biologique de Roscoff",
+            "url": "https://oceanexpert.org/institution/19642"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/21945",
+            "@type": "Organization",
+            "legalName": "Institut de la Mer de Villefranche",
+            "name": "Institut de la Mer de Villefranche",
+            "url": "https://oceanexpert.org/institution/21945"
+        }
+    ]
+}

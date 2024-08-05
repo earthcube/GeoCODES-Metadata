@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/687729d2-ca2c-48b6-946e-38269716dbda",
+    "name": "Mesozooplankton abundance from 1972-1995 in the coastal Middle Adriatic Sea",
+    "description": "Monthly mesoozooplankton samplings started in 1950s, performed by vertical tows of Hensen net (73 cm mouth diameter, 330 μm mesh size) from 35–0 m. Samples were fixed in 2 % formaldehyde solution buffered with borax. No flowmeter was used. From 1950s-1995 mesozooplankton was sampled on approximately monthly basis and data are available from January 1972 to November 1995 (with gaps in 1975) and include the abundances expressed as no.ind.m-3 at group level of the zooplankton groups such as Copepoda, Cladocera, Appendicularia, Chaetognatha, Tunicata, Ostracoda, Polychaeta, Decapoda larvae, various meroplankton larvae, Pisces ova, Pisces larvae and Hydromedusae/Siphonophora. From 1995 the sampling program with Hensen net was interrupted and investigations continued with Nansen net, 125 μm mesh size.",
+    "url": "https://obis.org/dataset/687729d2-ca2c-48b6-946e-38269716dbda",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zooplankton_kastela_bay_1972-95"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Damjanović T, Bojanić N (2021): Mesozooplankton abundance from 1972-1995 in the coastal Middle Adriatic Sea",
+    "version": "2023-12-08T17:09:05.000Z",
+    "keywords": [
+        "Marine",
+        "Zooplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length of sampling track",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Length of sampling track"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "Sampling device aperture diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Lifestage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1972/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zooplankton_kastela_bay_1972-95",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9824",
+            "@type": "Organization",
+            "legalName": "Institute of Oceanography and  Fisheries Croatia",
+            "name": "Institute of Oceanography and  Fisheries Croatia",
+            "url": "https://oceanexpert.org/institution/9824"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/72f1ab78-1fc3-493d-943f-8e16c6112f26",
+    "name": "PANGAEA - Data from paleoenvironmental reconstructions from marine sediments @ AWI",
+    "description": "This dataset contains data from paleoenvironmental reconstructions from marine sediments from the AWI. These data are derived from PANGAEA.",
+    "url": "https://obis.org/dataset/72f1ab78-1fc3-493d-943f-8e16c6112f26",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pangaea_2751"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-05-23T11:33:29.000Z",
+    "keywords": [
+        "Data",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1966/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pangaea_2751",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.49 -77.7373,-178.49 81.5377,179.5 81.5377,179.5 -77.7373,-178.49 -77.7373"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

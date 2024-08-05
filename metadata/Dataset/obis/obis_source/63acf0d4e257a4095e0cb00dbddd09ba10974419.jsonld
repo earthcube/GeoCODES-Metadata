@@ -1,0 +1,113 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/db9358a6-7487-4c74-8fd8-9d47c2a3a30e",
+    "name": "Analysis of the macrobenthic community near Nieuwpoort (1970-1971)",
+    "description": "Average density and biomass for macrobenthos species sampled at 7 stations near Nieuwpoort between June 1970 and November 1971. The data were digitized by VLIZ from the original report: Govaere, J. (1975). Kwalitatieve en kwantitatieve analyse van het macrobenthos ter hoogte van Nieuwpoort. Mededelingen van het Rijksstation voor Zeevisserij (CLO Gent) 99: 315-327.",
+    "url": "https://obis.org/dataset/db9358a6-7487-4c74-8fd8-9d47c2a3a30e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macrobenthic_community_nieuwpoort_1970-1971",
+        "https://dx.doi.org/10.14284/206"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Govaere J.; Laboratorium voor Morfologie en Systematiek der Dieren. RUG: Belgium; (2016): Analysis of the macrobenthic community near Nieuwpoort (1970-1971). (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5432) https://dx.doi.org/10.14284/206",
+    "version": "2024-02-27T00:22:25.000Z",
+    "keywords": [
+        "Grain size analysis",
+        "Macrobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sample size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "sample size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mean abundance per unit area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "mean abundance per unit area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mean fresh weight per unit area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "mean fresh weight per unit area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "percentage organic matter",
+            "url": "",
+            "description": "percentage organic matter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "percentage sand",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SANDZZZZ/",
+            "description": "percentage sand"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "percentage silt-clay",
+            "url": "",
+            "description": "percentage silt-clay"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/1971",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/206",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/206",
+        "url": "https://dx.doi.org/10.14284/206"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macrobenthic_community_nieuwpoort_1970-1971",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.630833 51.14278,2.630833 51.21694,2.8125 51.21694,2.8125 51.14278,2.630833 51.14278"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9162",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Faculteit Wetenschap",
+            "name": "Universiteit Gent, Faculteit Wetenschap",
+            "url": "https://oceanexpert.org/institution/9162"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c3286697-c89b-4f5c-b7c4-d076529bee34",
+    "name": "Baltic Sea benthic meiofauna and macrofauna mid 1990s",
+    "description": "Biomass and abundance of western Baltic Sea benthic meio and macrofauna (all fauna &gt;6 um sieve). Individual measures of body size, from Bornholm to Lulea. Only from Swedish and Danish waters.",
+    "url": "https://obis.org/dataset/c3286697-c89b-4f5c-b7c4-d076529bee34",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=duplisea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Duplisea, D.E. 1998. Structuring of benthic communities, with a focus on size spectra. PhD thesis. Department of Systems Ecology, Stockholm University. ISBN 91-628-2919-X.",
+    "version": "2023-05-23T11:55:53.000Z",
+    "keywords": [
+        "Abundance",
+        "Benthos",
+        "Biomass",
+        "Meiofauna",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=duplisea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.425 55.223333333333336,13.425 65.45833333333333,23.443333333333335 65.45833333333333,23.443333333333335 55.223333333333336,13.425 55.223333333333336"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5922",
+            "@type": "Organization",
+            "legalName": "Stockholm University, Department of Systems Ecology",
+            "name": "Stockholm University, Department of Systems Ecology",
+            "url": "https://oceanexpert.org/institution/5922"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

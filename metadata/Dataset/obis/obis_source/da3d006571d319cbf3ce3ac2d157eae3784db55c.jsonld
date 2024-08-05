@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a92e38d2-05ee-4a8f-8b1a-8d58fd34317f",
+    "name": "Antarctic Starfish (Echinodermata: asteroidea) from the ANDEEP3 expedition",
+    "description": "This dataset includes information on sea stars collected during the ANDEEP3 expedition, which took place in 2005. The expedition focused on deep-sea stations in the Powell Basin and Weddell Sea. \nSea stars were collected using an Agassiz trawl (3m, mesh-size 500µm), deployed in 16 stations during the ANTXXII/3 (ANDEEP3, PS72) expedition of the RV Polarstern. Sampling depth ranged from 1047 to 4931m. Trawling distance ranged from 731 to 3841m. The sampling area ranges from -41°S to -71°S (latitude) and from 0 to -65°W (longitude). A complete list of stations is available from the PANGAEA data system (http://www.pangaea.de/PHP/CruiseReports.php?b=Polarstern), including a cruise report (http://epic-reports.awi.de/3694/1/PE_72.pdf). \nThe dataset includes 50 records, with individual counts ranging from 1-10, reaching a total of 132 specimens.  \nThe andeep3-Asteroidea is a unique dataset as it covers an under-explored region of the Southern Ocean, and that very little information was available regarding Antarctic deep-sea star fish. Before this study, most of the information available focused on star fish from shallower depths than 1000m. This dataset allowed to make unique observations, such as the fact that some species were only present at very high depths (Hymenaster crucifer, Hymenaster pellucidus, Hymenaster praecoquis, Psilaster charcoti, Freyella attenuata, Freyastera tuberculata, Styrachaster chuni and Vemaster sudatlanticus were all found below -3770m), while others displayed remarkable eurybathy, with very high depths amplitudes (Bathybiaster loripes (4842m), Lysasterias adeliae (4832m), Lophaster stellans (4752m), Cheiraster planeta (4708m), Eremicaster crassus (4626m), Lophaster gaini (4560m) and Ctenodiscus australis (4489m)). \nEven if the number of records is relatively small, the data bring many new insights on the taxonomic, bathymetric and geographic distributions of Southern starfish, covering a very large sampling zone. The dataset also brings to light six species, newly reported in the Southern Ocean.\nThe quality of the data was controlled very thoroughly, by means of on-board Polarstern GPS systems, checking of identification by a renowned specialist (Prof. Michel Jangoux, Université Libre de Bruxelles), and matching to the Register of Antarctic Marine Species (RAMS) and World Register of Marine Species (WoRMS). The data is therefore fit for completing checklists, for inclusion in biodiversity patterns analysis, or niche modeling. It also nicely fills an information gap regarding deep-sea starfish from the Southern Ocean, for which data is very scarce at this time. The authors may be contacted if any additional information is needed before carrying out detailed biodiversity or biogeographic studies.",
+    "url": "https://obis.org/dataset/a92e38d2-05ee-4a8f-8b1a-8d58fd34317f",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=andeep3_asteroidea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Danis, B. &amp; Jangoux M. Contribution to the SCAR-MarBIN Register of Antarctic Marine Species (RAMS): Asteroidea, Echinodermata. Accessed through: De Broyer, C.; Clarke, A.; Koubbi, P.; Pakhomov, E.; Scott, F.; Vanden Berghe, E. and Danis, B. (Eds). The SCAR-MarBIN Register of Antarctic Marine Species (RAMS)",
+    "version": "2019-03-19T14:44:16.000Z",
+    "keywords": [
+        "Asteroidea",
+        "Biodiversity",
+        "Deep-Sea",
+        "Census of Antarctic Marine Life",
+        "Census of Marine Life",
+        "ANDEEP cruises",
+        "Polarstern",
+        "Sea-stars",
+        "Starfish",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=andeep3_asteroidea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.63860321 -71.31,-64.63860321 -41.1276,-0.0031 -41.1276,-0.0031 -71.31,-64.63860321 -71.31"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19324",
+            "@type": "Organization",
+            "legalName": "Université Libre de Bruxelles",
+            "name": "Université Libre de Bruxelles",
+            "url": "https://oceanexpert.org/institution/19324"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

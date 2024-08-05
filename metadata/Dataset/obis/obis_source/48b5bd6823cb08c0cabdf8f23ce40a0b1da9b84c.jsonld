@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/27529112-fa4c-4307-8a43-b4dcc91421f8",
+    "name": "1507-1997 Paul F. Clark North East Atlantic Crab Atlas",
+    "description": "A detailed distribution of true crabs (Brachyura) in the North-East Atlantic.",
+    "url": "https://obis.org/dataset/27529112-fa4c-4307-8a43-b4dcc91421f8",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dasshdt00000071",
+        "https://doi.org/10.17031/fyi30u"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Clark, Paul F.; Marine Conservation Society, United Kingdom; (2019) 1507-1997 Paul F. Clark North East Atlantic Crab Atlas https://doi.org/10.17031/fyi30u",
+    "version": "2023-05-23T11:38:21.000Z",
+    "keywords": [
+        "Data",
+        "Marine Genomics",
+        "Species distribution",
+        "Taxonomy",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "taxon abundance: count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "taxon abundance: count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon abundance: non-standard abundance unit",
+            "url": "",
+            "description": "taxon abundance: non-standard abundance unit"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon abundance: non standard abundance unit",
+            "url": "",
+            "description": "taxon abundance: non standard abundance unit"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1776/1997",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/fyi30u",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/fyi30u",
+        "url": "https://doi.org/10.17031/fyi30u"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dasshdt00000071",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-19.966666666667 -6.3666667,-19.966666666667 65.93333,10.3166667 65.93333,10.3166667 -6.3666667,-19.966666666667 -6.3666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

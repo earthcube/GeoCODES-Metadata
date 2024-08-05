@@ -1,0 +1,51 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a4f4931f-7036-47db-9a59-a89fac1501af",
+    "name": "Biodiversidad Marina del Parque Nacional Laguna de La Restinga",
+    "description": "Se registra la biodiversidad marina del Parque Nacional Laguna de La Restinga con base en diversos informes técnicos, trabajos de grado y publicaciones publicados entre 1973 y 2012.",
+    "url": "https://obis.org/dataset/a4f4931f-7036-47db-9a59-a89fac1501af",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=biodiversidad_restinga"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Lira C (2022): Biodiversidad Marina del Parque Nacional Laguna de La Restinga. v1.8. Caribbean OBIS Node. Dataset/Occurrence. https://ipt.iobis.org/caribbeanobis/resource?r=biodiversidad_restinga&amp;v=1.8",
+    "version": "2022-11-01T13:16:06.000Z",
+    "keywords": [
+        "Occurrence",
+        "ascidians",
+        "inventory",
+        "molluscs",
+        "crustaceans",
+        "CaribeSur",
+        "BID-CA2020-025-NAC",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=biodiversidad_restinga",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.42222222 10.026549,-64.42222222 11.09722222,-64.07762 11.09722222,-64.07762 10.026549,-64.42222222 10.026549"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

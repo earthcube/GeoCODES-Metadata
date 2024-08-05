@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2e471257-d3af-40f7-ba72-fccdb460fc2b",
+    "name": "iziko South African Museum - Marine Mammal Collection",
+    "description": "The Iziko South African Museum has a comprehensive collection of cetacean and Cape fur seal skeletal material. Skeletal material from other marine mammals is also held. Part of this collection is on exhibition in the museums Whale Well. It currently contains 1184 records of 12 families.",
+    "url": "https://obis.org/dataset/2e471257-d3af-40f7-ba72-fccdb460fc2b",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=iziko_marine_mammals"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "iziko South African Museum - Marine Mammal Collection",
+    "version": "2020-12-02T14:08:28.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1880/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=iziko_marine_mammals",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-170.479003906 -70.1667022705,-170.479003906 63.6941986084,174.5 63.6941986084,174.5 -70.1667022705,-170.479003906 -70.1667022705"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

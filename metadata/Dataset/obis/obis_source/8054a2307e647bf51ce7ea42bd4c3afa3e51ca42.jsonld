@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/be8b6264-6dcf-42d1-95bc-cb048ca1fe0f",
+    "name": "Observaciones de Crustáceos de la Universidad del Valle (CERBMcr-UV)",
+    "description": "El presente conjunto de datos corresponde a la observaciones de crustáceos asociados a la Colección de Referencia de Biología Marina de la Universidad del Valle. En esta publicación se incluyen las observaciones (sin espécimen preservado) que estaban incluidas dentro de la publicación de la colección biológica. Contiene 675 registros correspondientes a 15 especies de crustáceos, principalmente marinos. La mayoría de los especímenes registrados pertenecen a la región del Pacífico colombiano. ",
+    "url": "https://obis.org/dataset/be8b6264-6dcf-42d1-95bc-cb048ca1fe0f",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=crustacea_univalle_observaciones",
+        "https://doi.org/10.15472/h3uxrl"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Universidad del Valle (2014). Crustáceos de la Colección de Referencia de Biología Marina de la Universidad del Valle, 675 registros, aportados por Lizcano-Sandoval, L.D. (Creador del recurso), Londoño-Cruz, E. (Curador de la colección, Contacto del recurso) &amp; Carmona, A. (Proveedor de los metadatos, Contacto del recurso), En línea, http://ipt.sibcolombia.net/valle/resource.do?r=crustacea_univalle, versión 4 (actualizado el 14/04/2021).",
+    "version": "2021-04-14T22:30:47.000Z",
+    "keywords": [
+        "Universidad del Valle",
+        "Pacífico colombiano",
+        "Sessilia",
+        "Observation",
+        "Occurrence",
+        "Crustácea",
+        "Decapoda",
+        "Isopoda",
+        "Stomatopoda",
+        "VALLE_DEL_CAUCA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2011",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/h3uxrl",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/h3uxrl",
+        "url": "https://doi.org/10.15472/h3uxrl"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=crustacea_univalle_observaciones",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-78.20556 2.93417,-78.20556 4.040324,-77.231616 4.040324,-77.231616 2.93417,-78.20556 2.93417"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

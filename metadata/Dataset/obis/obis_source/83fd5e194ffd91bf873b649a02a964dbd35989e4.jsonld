@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/58a0fdd1-89d4-471a-9d35-c27ffa7fcf86",
+    "name": "Distribution of nematodes in Patagonia Argentina coast",
+    "description": "Data of the different free-living marine Nematode species since 1979.",
+    "url": "https://obis.org/dataset/58a0fdd1-89d4-471a-9d35-c27ffa7fcf86",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=argentina-nematodes"
+    ],
+    "license": "Unrestricted",
+    "citation": "PASTOR, C.T. (2006). Distribution of nematodes in Patagonia Argentina coast from 1979 to the present time. In: Nematodes. Pastor, C.T.. Laboratorio de Bentos Centro Nacional Patagónico, Puerto Madryn, Puerto Madryn, Chubut, Argentina. Retrieved from http://www.iobis.org.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/1987",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=argentina-nematodes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-66.4702 -51.6991,-66.4702 -42.1667,-57.7776 -42.1667,-57.7776 -51.6991,-66.4702 -51.6991"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f72a8220-662c-4948-a634-8613a21a88ba",
+    "name": "Records at sea of juveniles southern elephant seals (Mirounga leonina) from Península Valdés, Argentina",
+    "description": "This resource contains satellite-tracked locations obtained through Argos system from juveniles of southern elephant seal of Península Valdés, Argentina, during the pelagic phase in the South Atlantic and South Pacific oceans. The dataset encompasses the satellite positions of tags deployed on 6 males and 7 females in 2004 and 2005 winter haul out (July-August), and 18 males and 7 females in 2003, 2005 to 2007 summer haul out (December-January). A filter was applied to delete unrealistic locations.",
+    "url": "https://obis.org/dataset/f72a8220-662c-4948-a634-8613a21a88ba",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=mleonina_juv"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Lewis M, Campagna C (2016): Records at sea of juveniles southern elephant seals (Mirounga leonina) from Península Valdés, Argentina. v1.0. ArOBIS Centro Nacional Patagónico. Dataset/Samplingevent. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=mleonina_juv&amp;v=1.0",
+    "version": "2017-04-05T19:05:40.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Southern elephant seal",
+        "Juveniles",
+        "satellite tracking",
+        "SW Atlantic Ocean",
+        "South Pacific Ocean",
+        "Patagonia",
+        "locations at sea"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sensor",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sensor"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=mleonina_juv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.140725 -51.565488,-69.140725 -39.87216,-43.987814 -39.87216,-43.987814 -51.565488,-69.140725 -51.565488"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9605",
+            "@type": "Organization",
+            "legalName": "Wildlife Conservation Society",
+            "name": "Wildlife Conservation Society",
+            "url": "https://oceanexpert.org/institution/9605"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/81cdec15-c098-4e1d-8225-3b07b81f011f",
+    "name": "Southern Surveyor Voyage SS 03/2005 Prawn Trawl Samples, Gulf of Carpentaria, Australia (2005)",
+    "description": "The dataset comprises catch records of demersal fish and invertebrates from prawn trawl deployments completed on research voyage SS 03/2005. The survey design was a natural experiment (i.e. control-impact, but not before-after) to test the long-term, broadscale effects of prawn fishing on non-target species and habitats. Deployments were stratified by fishing intensity (three strata) and day/night. The survey was repeated in three regions: (a) north of Groote Eylandt, (b) north-east of the Vanderlins, and (c) north of Mornington Island. The number of deployments completed as part of the natural experiment was 124. Outside of the natural experiment, an additional 31 deployments were completed at dawn or dusk for diet analysis and an additional two deployments were completed for other reasons.\nDetails of the voyage are at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=SS200503 with links to related data.",
+    "url": "https://obis.org/dataset/81cdec15-c098-4e1d-8225-3b07b81f011f",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_ss200503_catch"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T03:23:43.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01",
+            "description": "Weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_ss200503_catch",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "136.73414 -16.17267,136.73414 -12.94746,140.36253 -12.94746,140.36253 -16.17267,136.73414 -16.17267"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5605",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "name": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "url": "https://oceanexpert.org/institution/5605"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

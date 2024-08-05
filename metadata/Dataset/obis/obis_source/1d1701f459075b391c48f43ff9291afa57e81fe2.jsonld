@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/269609a8-58e6-4b58-86af-7d3b5cd44e71",
+    "name": "Loggerhead turtle movement off the coast of Taiwan",
+    "description": "Original provider:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nDataset credits:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nAbstract:\nSatellite tags were attached to 34 non-reproductive loggerhead turtles (<i>Caretta caretta</i>) caught as bycatch in the Taiwanese coastal poundnet fishery from 2002 to 2008. Transmission durations ranged from 6 to 503 d (median 172 d), with 5860 d tracked in total. Horizontal track data were processed using the Bayesian state-space modelling to extract the most likely daily positions, taking into account ARGOS data quality and other forms of statistical error. A region of high occupancy in the East China Sea, covering 433 549 km2 of coastal and pelagic area next to Taiwan, China, Japan, and South Korea, was characterized from the tracking data. Various attributes of this hotspot are described using satellite tracks and remotely sensed data. The tracks were merged with oceanographic data, emphasizing a new global dataset characterizing mesoscale eddies from satellite altimetry data. A proximity-probability approach coupled with odds ratio testing was used to infer orientation to eddy features. Comparisons against random points, simulated particle tracks, and drifter buoys were used to demonstrate turtle differential responses to eddies inside and outside the hotspot, depending on eddy features (i.e. cyclonic vs. anticyclonic, edges vs. centres). Turtles inside the hotspot utilize fewer strong cyclonic eddy edges than those outside.\n\nPurpose:\nDefine habitat use of loggerhead sea turtle, <i>Caretta caretta </i> in the Pacific Ocean Basin.\n\nSupplemental information:\nMetadata for individual animals / trackings including PTT Type, Duty cycle, Date deployed, Deployment location, Tag nos., Final location, Date terminated, Distance traveled,  Transmitting days, Mean Speed of Travel, Capture status\nare available upon request.",
+    "url": "https://obis.org/dataset/269609a8-58e6-4b58-86af-7d3b5cd44e71",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1304"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Parker, D., G. Balazs and J. Polovina. 2015. Loggerhead turtle movement off the coast of Taiwan. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1304) on yyyy-mm-dd.",
+    "version": "2021-04-24T05:56:46.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Sea turtles,Animal tagging,Radio transmitters",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1304",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "104.059 1.807,104.059 40.809,166.18 40.809,166.18 1.807,104.059 1.807"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

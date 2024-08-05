@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/749b833f-d87a-4fde-95d1-f5b34a392c7e",
+    "name": "Decline in the Acropora population due to repeated moderate disturbances in Okinotorishima Island, Japan",
+    "description": "Okinotorishima Island, an isolated remote table reef island in the southernmost territory of Japan, provides an excellent site to examine the effect of only global stress, as there are no local human stresses present. Yamamoto et al. (2023) established 17 fixed quadrats (1×1 meter) on 9 knolls in the shallow lagoon of Okinotorishima Island, and observed coral population every May from 2006 to 2015. This dataset compiles data on coverage and number of colonies of Acropora and co-occurring corals published in Yamamoto et al. (2023). Yamamoto, H., Kawasaki, T., Tamura, K., Kanyama, T. Hosono, T., Fudo, M., Omori, M., Kayanne, H.: Decline in the Acropora population due to repeated moderate disturbances in Okinotorishima Island, Japan. Glaxea: Jour. Coral Reef Studies 25: 18-30 (2023). doi: 10.3755/galaxea.G26-3",
+    "url": "https://obis.org/dataset/749b833f-d87a-4fde-95d1-f5b34a392c7e",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=univ_tokyo_okitori_coral",
+        "https://doi.org/10.48518/00022"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Yamamoto, H., Kawasaki, T., Tamura, K., Kanyama, T., Fudo, M., Omori, M., Kayanne, H. (2023) Decline in the Acropora population due to repeated moderate disturbances in Okinotorishima Island, Japan. Available at https://doi.org/10.48518/00022. Accessed on YYYY-MM-DD.",
+    "version": "2023-09-05T00:04:08.000Z",
+    "keywords": [
+        "Occurrence",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "coverage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "coverage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "number of colonies",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "number of colonies"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.48518/00022",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.48518/00022",
+        "url": "https://doi.org/10.48518/00022"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=univ_tokyo_okitori_coral",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "136.07181 20.41714,136.07181 20.4245,136.10414 20.4245,136.10414 20.41714,136.07181 20.41714"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

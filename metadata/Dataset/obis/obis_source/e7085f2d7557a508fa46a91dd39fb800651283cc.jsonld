@@ -1,0 +1,46 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f5828e31-2039-413c-aac9-59266865ac84",
+    "name": "T_TRUNCATUS_GULF_GUAYAQUIL_2012_2014",
+    "description": "The abundance and spatial distribution of the population status of the coastal bottlenose dolphin (Tursiops truncatus) inhabiting the inner estuary of the Gulf of Guayaquil, Ecuador.",
+    "url": "https://obis.org/dataset/f5828e31-2039-413c-aac9-59266865ac84",
+    "sameAs": [
+        "http://cpps.dyndns.info:8080/cpps-ipt/resource?r=cetacea_co-ii-01-2011"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Félix F (2019): T_TRUNCATUS_GULF_GUAYAQUIL_2012_2014. v1.4. cpps. Dataset/Occurrence. http://cpps.dyndns.info:8080/cpps-ipt/resource?r=cetacea_co-ii-01-2011&amp;v=1.4",
+    "version": "2019-10-29T14:47:14.000Z",
+    "keywords": [
+        "Occurrence",
+        "dolphin",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://cpps.dyndns.info:8080/cpps-ipt/archive.do?r=cetacea_co-ii-01-2011",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.2598 -3.049,-80.2598 -2.4071,-79.8779 -2.4071,-79.8779 -3.049,-80.2598 -3.049"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

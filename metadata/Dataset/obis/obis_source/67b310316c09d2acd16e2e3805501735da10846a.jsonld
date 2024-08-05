@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d8eac0e1-f1ad-4ff1-abb2-71319ebcd405",
+    "name": "dem_datasurv_mau",
+    "description": "Data from demersal stock assessment surveys in the Mauritanian EEZ aboard N / A AL AWAM during the cold season 2016.",
+    "url": "https://obis.org/dataset/d8eac0e1-f1ad-4ff1-abb2-71319ebcd405",
+    "sameAs": [
+        "http://ipt.iobis.org/senegal/resource?r=dem_datasurv_mau"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "EL Vally, Y. 2016. Demersal stock assessment survey data in the Mauritanian EEZ on board the O / V AL AWAM during the cold season 2016.",
+    "version": "2017-10-03T11:01:57.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/senegal/archive.do?r=dem_datasurv_mau",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-17.76666667 16.02833333,-17.76666667 20.58416667,-16.11583333 20.58416667,-16.11583333 16.02833333,-17.76666667 16.02833333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10049",
+            "@type": "Organization",
+            "legalName": "Institut Mauritanien de Recherche Océanographique et des Pêches",
+            "name": "Institut Mauritanien de Recherche Océanographique et des Pêches",
+            "url": "https://oceanexpert.org/institution/10049"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13565",
+            "@type": "Organization",
+            "legalName": "Centre de Recherche Océanographique de Dakar Thiaroye (CRODT-ISRA)/ LPAOSF-ESP-UCAD",
+            "name": "Centre de Recherche Océanographique de Dakar Thiaroye (CRODT-ISRA)/ LPAOSF-ESP-UCAD",
+            "url": "https://oceanexpert.org/institution/13565"
+        }
+    ]
+}

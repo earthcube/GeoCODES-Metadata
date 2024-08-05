@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f3416b37-508f-45f0-a91f-165800611f4d",
+    "name": "Intertidal and Subtidal Macroalgae taxa data from French REBENT Network",
+    "description": "French intertidal and subtidal Macroalgae taxa data are collected during REBENT monitoring surveys on the English Channel / Bay of Biscay coasts.  Protocols are implemented in the Water Framework Directive.",
+    "url": "https://obis.org/dataset/f3416b37-508f-45f0-a91f-165800611f4d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=intertidal_subtidal_macroalgae"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "REBENT network (2019). Intertidal and Subtidal Macroalgae taxa data  in ODV format from French REBENT Network. SEANOE. Https://doi.org/10.17882/60891",
+    "version": "2023-05-23T11:33:05.000Z",
+    "keywords": [
+        "Intertidal environment",
+        "Subtidal environment",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Instrument.Info",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Instrument.Info"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SubSamplingCoefficient..dimensionless.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "description": "SubSamplingCoefficient..dimensionless."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingEffort..m2.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "SamplingEffort..m2."
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=intertidal_subtidal_macroalgae",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.14172 43.38344,-5.14172 50.91317,1.67682 50.91317,1.67682 43.38344,-5.14172 43.38344"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18797",
+            "@type": "Organization",
+            "legalName": "Laboratoire d'Océanologie et Geosciences - UMR 8187 - Centre National de la Recherche Scientifique - Université du Littoral Côte d'Opale - Université de Lille",
+            "name": "Laboratoire d'Océanologie et Geosciences - UMR 8187 - Centre National de la Recherche Scientifique - Université du Littoral Côte d'Opale - Université de Lille",
+            "url": "https://oceanexpert.org/institution/18797"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20186",
+            "@type": "Organization",
+            "legalName": "Université de Bretagne Occidentale",
+            "name": "Université de Bretagne Occidentale",
+            "url": "https://oceanexpert.org/institution/20186"
+        }
+    ]
+}

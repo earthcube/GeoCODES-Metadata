@@ -1,0 +1,91 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2a3f2498-1f94-4756-addf-dccccfb26b94",
+    "name": "Southern Surveyor Voyage SS 10/95 survey in the Gulf of Carpentaria, Australia (Nov 1995)",
+    "description": "The  Southern Surveyor cruise SS 10/95 took place in the Gulf of Carpentaria during 10 October - 5 November 1995, under the leadership of John Salini. Biological data collected on this cruise include samples from 92 paired bycatch reduction device (BRD) prawn trawls and from 50 environmentally friendly net (EFN) trawls, clear video images of fish behaviour in the BRD codends of the prawn net and the EFN, shark longlining including dyed bait experiments and samples of saurids for population genetic studies. Details of the voyage and related data is at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=SS199510",
+    "url": "https://obis.org/dataset/2a3f2498-1f94-4756-addf-dccccfb26b94",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_ss199510_catch"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Salini J (2023): Southern Surveyor Voyage SS 10/95 survey in the Gulf of Carpentaria, Australia (Nov 1995). v1.5. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=csiro_ss199510_catch&amp;v=1.5",
+    "version": "2023-06-29T10:44:28.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cloud cover (oktas)",
+            "url": "",
+            "description": "Cloud cover (oktas)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind Speed (knt)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ESSAZZ01",
+            "description": "Wind Speed (knt)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea state",
+            "url": "http://vocab.nerc.ac.uk/collection/C39/current/",
+            "description": "Sea state"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind direction (deg)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01",
+            "description": "Wind direction (deg)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_ss199510_catch",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "140.95333 -12.80333,140.95333 -12.31,141.595 -12.31,141.595 -12.80333,140.95333 -12.80333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17021",
+            "@type": "Organization",
+            "legalName": "CSIRO Dutton Park, Brisbane",
+            "name": "CSIRO Dutton Park, Brisbane",
+            "url": "https://oceanexpert.org/institution/17021"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

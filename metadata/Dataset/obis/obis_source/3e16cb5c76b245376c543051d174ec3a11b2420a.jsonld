@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5e2c6a71-6a29-47a4-b67f-7faa7ff7218c",
+    "name": "Western Australian Museum, Marine Invertebrate Specimens, Ningaloo Reef - Northwest Cape, Northwest Australia, 1952-2004",
+    "description": "This dataset comprises records of marine cnidaria and echinoderm specimens in the Western Australia Museum's Ningaloo Marine Invertebrate Zoology database. There are 1942 records of 663 discrete taxa in this dataset, representing 282 Cnidarian and 381 Echinoderm taxa. The specimens were collected between 1952 and 2004 in the region adjacent to Ningaloo Reef, a 260 km coral reef off the coast of North West Cape in NW Western Australia, in water depths ranging from 0 to 850 meters.",
+    "url": "https://obis.org/dataset/5e2c6a71-6a29-47a4-b67f-7faa7ff7218c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=wam_ningaloo_miz"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "WA Museum - Ningaloo Marine Invertebrate Zoology database",
+    "version": "2022-06-07T05:55:45.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1952/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=wam_ningaloo_miz",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113 -24.4833,113 -21,114.4755 -21,114.4755 -24.4833,113 -24.4833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18229",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/18229"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19312",
+            "@type": "Organization",
+            "legalName": "Western Australian Museum",
+            "name": "Western Australian Museum",
+            "url": "https://oceanexpert.org/institution/19312"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

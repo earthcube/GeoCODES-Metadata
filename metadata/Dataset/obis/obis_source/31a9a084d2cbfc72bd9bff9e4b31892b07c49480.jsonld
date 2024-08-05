@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/82558ef8-fe1b-451e-a0ee-e2d89b7c8bf9",
+    "name": "SMRU Grey Seal UK 1991-1993",
+    "description": "Original provider:\nSea Mammal Research Unit, University of St. Andrews\n\nDataset credits:\nSea Mammal Research Unit (SMRU), University of St. Andrews\n\nAbstract:\nThe movements of 14 grey seals <i>Halichoerus grypus</i> Fab. caught at the Farnes in north-east England (n = 12) and Abertay in eastern Scotland (n = 2) between August 1991 and July 1993 were investigated using Argos Satellite Relay Data Loggers (SRDL). The data are a spreadsheet of points representing seal locations. The low and irregular uplink rate from an SRDL on a seal to the Argos satellites can result in potentially significant errors in some location fixes. Therefore, locations were filtered using an algorithm based on a [maximum speed parameter] of 2 m s-1. This filter rejected 17% of the primary locations that would have required an unrealistic rate of travel to achieve. However, this does not remove all invalid locations hence there are still some data points occurring inland. There are 9,454 locations in the spreadsheet covering all months of the year except February and March.\n\nPurpose:\nGrey seals <i>Halichoerus grypus</i> Fab. are large, numerous marine top predators. The British population in 1994 was estimated to be 108,000 individuals and it has been steadily increasing since. Fears concerning competition with fisheries have prompted calls for control measures under the UK Conservation of Seals Act 1970. However, little is known about the areas where grey seals forage or of the distances they may travel. Management must be based on an understanding of the complex seal-fishery interactions, a component of which is having information on the temporal and spatial distribution of seals.",
+    "url": "https://obis.org/dataset/82558ef8-fe1b-451e-a0ee-e2d89b7c8bf9",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_71"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Macleod, K. 2012. SMRU Grey Seal UK 1991-1993. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/71) on yyyy-mm-dd.",
+    "version": "2021-04-24T10:18:40.000Z",
+    "keywords": [
+        "Occurrence,Radio transmitters,Animal movements",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1993",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_71",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-18.892 50.69,-18.892 62.346,3.953 62.346,3.953 50.69,-18.892 50.69"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10795",
+            "@type": "Organization",
+            "legalName": "University of St Andrews, Scottish Oceans Institute",
+            "name": "University of St Andrews, Scottish Oceans Institute",
+            "url": "https://oceanexpert.org/institution/10795"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

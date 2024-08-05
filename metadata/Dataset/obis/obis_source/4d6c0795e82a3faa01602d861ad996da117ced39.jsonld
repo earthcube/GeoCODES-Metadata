@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/143e83d6-a818-4ac4-9909-146009f0fd0d",
+    "name": "Trawl-survey data from the “expedition Hvar” in the Adriatic Sea (Mediterranean) collected in 1948-1949",
+    "description": "The “expedition HVAR” (1948-1949), organised by the Institute of Oceanography and Fisheries of Split (IOF, Croatia), was the first large-scale fishery-independent trawl-survey ever performed in the Adriatic Sea. The survey was conducted with the motorboat “Hvar” (250 HP; LOA = 25 m) in the territorial waters of the former Yugoslavia (currently territorial waters of the Republics of Slovenia, Croatia, Bosnia and Herzegovina and Montenegro) and Albania, and in the international waters to approximately 20 nautical miles off the Italian coast.",
+    "url": "https://obis.org/dataset/143e83d6-a818-4ac4-9909-146009f0fd0d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hvar_trawl_survey_1948_1949",
+        "https://dx.doi.org/10.14284/285"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Institute of Oceanography and Experimental Geophysics (OGS); Italian National Institute for Environmental Protection and Research (ISPRA), Italy; (2017): Trawl-survey data from the “expedition Hvar” in the Adriatic Sea (Mediterranean) collected in 1948-1949. https://dx.doi.org/10.14284/285",
+    "version": "2024-02-26T23:18:33.000Z",
+    "keywords": [
+        "Historical records",
+        "self-propelled small boat",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "CPUE_kg_h",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WWBIOL02/",
+            "description": "CPUE_kg_h"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CPUE_n_h",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADBIOL02/",
+            "description": "CPUE_n_h"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sediment type",
+            "url": "",
+            "description": "Sediment type"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1948/1949",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/285",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/285",
+        "url": "https://dx.doi.org/10.14284/285"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hvar_trawl_survey_1948_1949",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.11 40.13,13.11 45.3,19.53 45.3,19.53 40.13,13.11 40.13"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19580",
+            "@type": "Organization",
+            "legalName": "Italian National Institute for Environmental Protection and Research — Branch office Chioggia",
+            "name": "Italian National Institute for Environmental Protection and Research — Branch office Chioggia",
+            "url": "https://oceanexpert.org/institution/19580"
+        }
+    ]
+}

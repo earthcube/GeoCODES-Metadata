@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/065f0e0e-049b-4bf7-b249-3c76a652e0a9",
+    "name": "LifeWatch observatory data: permanent Cetacean passive acoustic sensor network in the Belgian part of the North Sea",
+    "description": "As part of the Belgian LifeWatch observatory, a permanent Cetacean passive acoustic network is established in the Belgian Part of the North Sea. The sensor network uses C-PODs (Chelonia Limited) to register the presence of harbour porpoise (<i>Phocoena phocoena</i>) in the neighbourhood. Click trains of harbour porpoises are detected and classified using the CPOD software and high and moderate quality click trains are selected. \n<p>The dataset is published yearly in the highest time resolution, per hour.</p>",
+    "url": "https://obis.org/dataset/065f0e0e-049b-4bf7-b249-3c76a652e0a9",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=lifewatch_cpod",
+        "https://dx.doi.org/10.14284/447"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Flanders Marine Institute (VLIZ), Belgium; (2021): LifeWatch observatory data: permanent Cetacean passive acoustic sensor network in the Belgian part of the North Sea. Marine Data Archive. https://dx.doi.org/10.14284/447",
+    "version": "2023-12-08T17:20:17.000Z",
+    "keywords": [
+        "Data",
+        "Echolocation",
+        "Marine mammals",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "presence/absence",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PRESABS1/",
+            "description": "presence/absence"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2021",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/447",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/447",
+        "url": "https://dx.doi.org/10.14284/447"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=lifewatch_cpod",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.3 51.2325,2.3 51.7047,3.107 51.7047,3.107 51.2325,2.3 51.2325"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

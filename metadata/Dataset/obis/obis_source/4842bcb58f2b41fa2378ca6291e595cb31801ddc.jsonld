@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2a9b0eb5-8000-44e9-b985-be11c228e343",
+    "name": "BioChem: Zooplankton collected from the Bay of Fundy, 2002-2007",
+    "description": "The sampling program was part of a study led by the Canadian Wildlife Service with the objective to determine the plankton composition in the surface waters at two specific locations in the Bay of Fundy. Sampling occurring during six cruises to two areas in the Bay of Fundy: Deer Island and Lords Cove and around Brier island between the years 2002 to 2007. A specialized net was used to collect surface plankton samples. This OBIS dataset contains only presence information data - abundance data will be released at a later date.",
+    "url": "https://obis.org/dataset/2a9b0eb5-8000-44e9-b985-be11c228e343",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=dfo_biochem_cws_bof_zp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Chardine, J. 2011. BioChem: Zooplankton collected from the Bay of Fundy, 2002-2007. OBIS Canada Digital Collections. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Digital, retrieved from http://iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=dfo_biochem_cws_bof_zp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-66.99241 44.17012,-66.99241 44.9916,-66.31086 44.9916,-66.31086 44.17012,-66.99241 44.17012"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7e4228e5-a962-4b01-952f-7bf33e213a9c",
+    "name": "BioChem: Sameoto zooplankton collection",
+    "description": "This resource contains zooplankton datasets collected by Dr. D. D. Sameoto using a number of sampling devices including the BIONESS sampler, ring nets and an Icelandic high speed sampler.  Sampling took place as part of multidisciplinary oceanographic cruises that took place between 1967 and 2006. Sampling concentrated on the Scotian Shelf but there were cruises to the Arctic and the mid Atlantic.",
+    "url": "https://obis.org/dataset/7e4228e5-a962-4b01-952f-7bf33e213a9c",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_biochem_sameoto"
+    ],
+    "license": "rights: http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms rights holder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "Sameoto, D.D., Kennedy, M., Spry, J.S, Spry, J.M. (2013). Zooplankton datasets collected using the BIONESS sampler, ring nets and an Icelandic high speed sampler, 1967-2006. OBIS Canada Digital Collections. Published by OBIS http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-02-02T21:13:24.000Z",
+    "keywords": [
+        "biota",
+        "oceans",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfo_biochem_sameoto",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-90.06 31.92,-90.06 77.09,-41 77.09,-41 31.92,-90.06 31.92"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19633",
+            "@type": "Organization",
+            "legalName": "OBIS Canada",
+            "name": "OBIS Canada",
+            "url": "https://oceanexpert.org/institution/19633"
+        }
+    ]
+}

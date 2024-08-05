@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fbe20230-f4f1-48e7-83ee-4cd3ad15a1db",
+    "name": "Occurrence records of southern African aquatic biodiversity",
+    "description": "Specimen-records (of physical specimens) of fishes, mostly from southern Africa and surrounding oceans, but also from elsewhere in the world.",
+    "url": "https://obis.org/dataset/fbe20230-f4f1-48e7-83ee-4cd3ad15a1db",
+    "sameAs": [
+        "http://ipt.saiab.ac.za/resource?r=saiab"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "SAIAB (2016): Specimen-records of preserved specimens in the National Collection of Fishes of South Africa. v1.2. The South African Institute for Aquatic Biodiversity. Dataset/Occurrence. http://ipt.saiab.ac.za/resource?r=saiab&amp;v=1.2",
+    "version": "2023-04-03T08:19:14.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "",
+            "url": "",
+            "description": ""
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "standard length",
+            "url": "",
+            "description": "standard length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "snout-vent length",
+            "url": "",
+            "description": "snout-vent length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SL",
+            "url": "",
+            "description": "SL"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1891/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.saiab.ac.za/archive.do?r=saiab",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.333333 -78.483333,-179.333333 79.120003,179.765 79.120003,179.765 -78.483333,-179.333333 -78.483333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6970",
+            "@type": "Organization",
+            "legalName": "South African Institute for Aquatic Biodiversity",
+            "name": "South African Institute for Aquatic Biodiversity",
+            "url": "https://oceanexpert.org/institution/6970"
+        }
+    ]
+}

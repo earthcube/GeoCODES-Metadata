@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/93410e9a-ae53-4dde-9ea5-d9b2dae6db22",
+    "name": "North Marine Region demersal fish and invertebrate collection records (DEW collation), Australia (1980 - 1997)",
+    "description": "The dataset comprises catch records of demersal fish and invertebrates from demersal fish trawls, demersal prawn trawls and epibenthic sled samples from the Northern Planning Region. It is a compilation of data from 9 research voyages (SO 05/80, SO 07/80, SO 02/81, SS 03/90, SS 05/91, SS 01/93, SS 02/97, SS 08/97and SS 03/98). The catch of each species in a sample is recorded as raw weight and count, gross weight and count (raw values divided by the subsampling fraction) and per area weight and count. Species are recorded as CAAB codes. Sample attributes include the voyage, location, time, sampling gear and sampled area. The dataset was created for the Department of the Environment and Water Resources (DEW) for use in profiling of the North Marine Region during the development of a marine bioregional plan for the region. Data from all voyages are in a single set of tables and in the same structure and measurement units. The aim of the dataset is to provide convenient access to the data from the source datasets, which were stored in various data structures in various locations. Although the data are presented in uniform measurement units of counts and weights per unit area, data from different samples cannot be assumed to be comparable. In particular, the catchability of a species varies among types of sampling gears. Even samples from a given gear type on a given voyage may not all be comparable to one another. For example, gear may be altered during a voyage (e.g. multiple codend mesh sizes may be tried) and fish trawls are occasionally aimed at fish visible on the echo sounder. The data should therefore be analysed no more than semi-quantitatively. Assumptions on the comparability of samples -- even from a single voyage and gear type -- should be based on reference to the voyage reports.",
+    "url": "https://obis.org/dataset/93410e9a-ae53-4dde-9ea5-d9b2dae6db22",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nmr_regions_fish_invertebrates"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T01:38:44.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nmr_regions_fish_invertebrates",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "115.73333 -20.4,115.73333 -8.88333,143.26667 -8.88333,143.26667 -20.4,115.73333 -20.4"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5605",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "name": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "url": "https://oceanexpert.org/institution/5605"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

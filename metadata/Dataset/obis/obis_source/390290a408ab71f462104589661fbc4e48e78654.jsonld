@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8c65364c-8676-437a-a707-d0835d9ff1be",
+    "name": "Invertebrates, REVIZEE South Region - Benthos",
+    "description": "This data set includes the results of the activities undertaken in the REVIZEE Program by the South Score/Benthos (Cabo de São Tomé, RJ - Arroio Chuí, RS). The field collections were taken from December 13th 1997 to April 20th 1998 in the continental shelf and slope (60 - 810 m depth) with the Oceanographic Vessel Prof. W. Besnard (IO-USP). The fauna was collected using the benthic samplers van Veen and Box-corer and the rectangular dredge, summing up 322 samples.",
+    "url": "https://obis.org/dataset/8c65364c-8676-437a-a707-d0835d9ff1be",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=invertebrates_revizee_south_region_benthos",
+        "http://doi.org/10.25607/gvyjeh"
+    ],
+    "license": "Unrestricted",
+    "citation": "REVIZEE South Score / Benthos - Amaral, A.C.Z. &amp; Rossi-Wongtschowski, C.L.D.B. (eds.) 2004. Biodiversidade bentônica da região sudeste-sul do Brasil, plataforma externa e talude superior. São Paulo : Instituto Oceanográfico da USP, 2004 (Série Documentos Revizee - Score Sul). 216 p. ISBN 85-98729-08-6.",
+    "version": "2021-07-02T11:07:07.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/1999",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/gvyjeh",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/gvyjeh",
+        "url": "http://doi.org/10.25607/gvyjeh"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=invertebrates_revizee_south_region_benthos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-52.046 -34.483,-52.046 -21.814,-40.028 -21.814,-40.028 -34.483,-52.046 -34.483"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

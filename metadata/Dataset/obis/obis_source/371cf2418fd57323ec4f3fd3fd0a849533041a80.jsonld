@@ -1,0 +1,113 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bb359cf9-a325-45ee-a973-10d639498cf1",
+    "name": "Spatial variation of the zooplankton community in the Belgian part of the North Sea on 18-19 April 1978",
+    "description": "Qualitative and quantitative composition and spatial distribution of the zooplankton community for 32 stations sampled on 18-19 April 1978 in the Belgian part of the North Sea.The data are digitized from technical reports in the frame of the 4DEMON project.",
+    "url": "https://obis.org/dataset/bb359cf9-a325-45ee-a973-10d639498cf1",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zooplankton_belgian_north_sea_1978",
+        "https://dx.doi.org/10.14284/268"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bossicart M.; Laboratorium voor Ekologie en Systematiek. VUB: Belgium; (2019): Spatial variation of the zooplankton community in the Belgian part of the North Sea on 18-19 April 1978. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4697) https://dx.doi.org/10.14284/268",
+    "version": "2023-05-23T12:24:26.000Z",
+    "keywords": [
+        "Composition",
+        "Distribution",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Density",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifeStage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Chorophyll-a concentration",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/CHLA/",
+            "description": "Chorophyll-a concentration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "reproductiveCondition",
+            "url": "http://vocab.nerc.ac.uk/collection/MVB/current/MVB000021/",
+            "description": "reproductiveCondition"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/1978",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/268",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/268",
+        "url": "https://dx.doi.org/10.14284/268"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zooplankton_belgian_north_sea_1978",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.283333 51.18333,2.283333 51.63333,3.283333 51.63333,3.283333 51.18333,2.283333 51.18333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        }
+    ]
+}

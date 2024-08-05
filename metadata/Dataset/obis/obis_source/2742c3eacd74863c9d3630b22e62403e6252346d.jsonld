@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a198615f-05a3-4543-adc0-5a03ff1ba8f0",
+    "name": "SharkBase records of shark encounters",
+    "description": "SharkBase is a website for recording and sharing sharks, rays, and chimaeras encounters, including associated photos. Data downloaded from Atlas of Living Australia (https://collections.ala.org.au/public/show/dr2383) and taxa matched to the World Register of Marine species (WoRMS)",
+    "url": "https://obis.org/dataset/a198615f-05a3-4543-adc0-5a03ff1ba8f0",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_dr2383"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T05:14:02.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_dr2383",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-162.07899 -41.3226,-162.07899 51.2926,178.194 51.2926,178.194 -41.3226,-162.07899 -41.3226"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

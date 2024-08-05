@@ -1,0 +1,107 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d5d038ac-e400-4381-8283-a0ef9efa9dae",
+    "name": "Scotian Shelf Snow Crab Tagging",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Department of Fisheries and Oceans Canada (DFO)  Scotian Shelf Snow Crab Tagging, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=ZSC).\nAbstract:The snow crab (Chionoecetes opilio) is the third most important fishery species in terms of landing value in Nova Scotia. Based on fishery landings, snow crabs are thought to segregate by sex and size. The species is migratory, based on the seasonal disappearance and reappearance of crabs in different geographical areas, and limited tagging studies that have been conducted to date. However, the tagging studies necessary to document the scale and scope of such migrations have not yet been conducted. Information about the migratory movements of the species will be very important to managers as they determine quotas for fisheries in the different crab fishing zones (geographical management areas). At present, snow crab movements are too poorly understood to assist in developing management regimes for the species. This project involves the tagging and release of snow crab onto the Scotian Shelf by the Department of Fisheries and Oceans along with subsequent deployments of acoustic receivers in order to track their movements. Additional receivers have been deployed in the area through collaboration with industrial partners. Tagging has occurred in several areas off Cape Breton, Halifax and within St. Anne's Bank MPA.",
+    "url": "https://obis.org/dataset/d5d038ac-e400-4381-8283-a0ef9efa9dae",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndfo-bioscotianshelfsno",
+        "https://doi.org/10.14286/fqur72"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Zisserson, B., Choi, J., Cook, A., Cameron, B. 2013. Scotian Shelf snow crab tagging.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-23T01:27:17.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CARAPACE WIDTH",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CAPWID01",
+            "description": "CARAPACE WIDTH"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AGEBENTX/",
+            "description": "age"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CLAWH",
+            "url": "",
+            "description": "CLAWH"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ABDOMENW",
+            "url": "",
+            "description": "ABDOMENW"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2021",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/fqur72",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/fqur72",
+        "url": "https://doi.org/10.14286/fqur72"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndfo-bioscotianshelfsno",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-87.1041 17.78,-87.1041 49.29557,-59.08555 49.29557,-59.08555 17.78,-87.1041 17.78"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

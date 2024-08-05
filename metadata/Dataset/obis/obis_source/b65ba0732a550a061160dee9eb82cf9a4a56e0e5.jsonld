@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/afef5da2-614b-4208-aee6-c2413ed5ab76",
+    "name": "Time series of zooplankton abundance of the South Florida Program / Sanctuaries Marine Biodiversity Observation Network programs",
+    "description": "Sampling is carried out bi-monthly on the R/V Walton Smith (University of Miami) as part of the South Florida Program (NOAA Atlantic Oceanographic and Meteorological Laboratory/ AOML) and the Marine Biodiversity Observation Network (MBON). Samples are collected at three stations: Molasses Reef (25.051638 N, 280.22858 W), Looe Key (24.323028 N, 281.248068 W), and Western Sambo (24.286048 N, 281.428898 W). At each station, horizontal hauls (surface water) are performed with 64, 200, and 500 mm mesh size Bongo plankton nets. Each net tow is carried out for 5 min at 1 knot. The three size classes are split using a Folsom plankton splitter and preserved with 15 % formalin for morphological analysis. Morphological identification follow the protocols of the International Council for the Exploration of the Sea (ICES) (Roger et al. 2000) targeting a minimum count of 200 animals per sample. For the 64 and 200 mm net tows, a 5–10 mL aliquot is subsampled after resuspension of 300 ml of the original zooplankton sample using a Stempel pipette. Zooplankton are then identified and counted using a microscope. Zooplankton are identified to the lowest taxonomic level possible. Zooplankton abundances (density; individuals m-3) are calculated by dividing animal counts by the product of net mouth area, tow speed, and tow duration (i.e., volume of water filtered by the net). Abundances of gastropods, the copepod order Harpacticoida, and the genera Paracalanus and Oithona are converted to biomass after Kelble et al. (2010).",
+    "url": "https://obis.org/dataset/afef5da2-614b-4208-aee6-c2413ed5ab76",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=sfmbon_zooplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Montes E, Kelble C, Muller-Karger F, Djurhuus A (2020). Time series of zooplankton abundance of the South Florida Program / Sanctuaries Marine Biodiversity Observation Network programs. Version 1.1. United States Geological Survey. Occurrence dataset https://doi.org/10.15468/buqg4u.",
+    "version": "2023-04-20T21:10:26.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=sfmbon_zooplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.7197036743164 24.280000686645508,-81.7197036743164 25.536083221435547,-80.22000122070312 25.536083221435547,-80.22000122070312 24.280000686645508,-81.7197036743164 24.280000686645508"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5836",
+            "@type": "Organization",
+            "legalName": "University of South Florida, College of Marine Science",
+            "name": "University of South Florida, College of Marine Science",
+            "url": "https://oceanexpert.org/institution/5836"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23070",
+            "@type": "Organization",
+            "legalName": "United States Marine Biodiversity Observation Network",
+            "name": "United States Marine Biodiversity Observation Network",
+            "url": "https://oceanexpert.org/institution/23070"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7671ae8a-9202-459d-9afe-4c1e12db6916",
+    "name": "A global, historical database of tuna, billfish, and saury larval distributions (1956-1981)",
+    "description": "The authors of the cited paper have digitized the data from Nishikawa et al. (1985), which were collected from 1956–1981 and are near-global (50°N–50°S), seasonal distribution maps of fish larvae of 18 mainly commercial pelagic taxa of the families Scombridae, Xiphiidae, Istiophoridae,\nScombrolabracidae, and Scomberesocidae. Data were collected from the Pacific, Atlantic, and Indian Oceans. Table 1 from the paper has been used to assign taxa names to the supplied vernacular names in the data accessed from the Zendo repository on 2022-08-01.",
+    "url": "https://obis.org/dataset/7671ae8a-9202-459d-9afe-4c1e12db6916",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nishikawa_larval_distributions"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Buenafe, K.C.V., Everett, J.D., Dunn, D.C. et al. A global, historical database of tuna, billfish, and saury larval distributions. Sci Data 9, 423 (2022). https://doi.org/10.1038/s41597-022-01528-7",
+    "version": "2022-08-10T00:33:03.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1968/1968",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nishikawa_larval_distributions",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179 -42,-179 46,180 46,180 -42,-179 -42"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

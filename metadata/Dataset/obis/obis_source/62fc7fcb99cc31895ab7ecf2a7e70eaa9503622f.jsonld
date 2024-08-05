@@ -1,0 +1,109 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/67cbcff9-7799-49e1-943a-4e431eea99b8",
+    "name": "Seabird observations in Australian waters and the Southern Ocean from voyages of the fisheries patrol vessel Oceanic Viking (2005-2007)",
+    "description": "Seabird observations by Neil Cheshire (ships officer) from the fisheries patrol vessel Oceanic Viking. Records have been digitised from paper recording sheets that are available upon request.",
+    "url": "https://obis.org/dataset/67cbcff9-7799-49e1-943a-4e431eea99b8",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seabirds_oceanic_viking"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cheshire N (2023): Seabird observations in Australian waters and the Southern Ocean from voyages of the fisheries patrol vessel Oceanic Viking (2005-2007). v1.7. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=seabirds_oceanic_viking&amp;v=1.7",
+    "version": "2023-08-10T11:39:27.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Depth (m)",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/574",
+            "description": "Depth (m)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea state",
+            "url": "http://vocab.nerc.ac.uk/collection/C39/current/",
+            "description": "Sea state"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cloud cover (oktas)",
+            "url": "",
+            "description": "Cloud cover (oktas)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind Speed (knt)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ESSAZZ01",
+            "description": "Wind Speed (knt)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Air Pressure (hPa)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CAPHZZ01",
+            "description": "Air Pressure (hPa)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Atmospheric temperature (deg C)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01",
+            "description": "Atmospheric temperature (deg C)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea surface temperature",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/97",
+            "description": "Sea surface temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind direction (deg)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01",
+            "description": "Wind direction (deg)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity (psu)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSLTZZ01",
+            "description": "Salinity (psu)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seabirds_oceanic_viking",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "38 -65.63333,38 -12.33333,157.18333 -12.33333,157.18333 -65.63333,38 -65.63333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

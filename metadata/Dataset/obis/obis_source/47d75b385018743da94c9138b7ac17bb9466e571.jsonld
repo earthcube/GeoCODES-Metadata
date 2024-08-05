@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/48b53def-46f8-4e6f-9fae-fb4d90a24fd1",
+    "name": "BGRPMN12016 Biodiversity Envdata",
+    "description": "Sampling data captured in Oceanic Exploration Research One objective of the exploration campaign in 2016 was to increase the box corer sampling density in a nodule field of high economic potential (prospective area #1 [PA1] in the eastern German license area) called sub-cluster CL11 (231 km2) in order to (1) determine its reservoir content in more detail, and (2) investigate whether and to what extent resource assessment can be improved (and the efficiency of exploration planning increased) by determining the optimal number of box core samples required per target area. For the analysis of nodule abundances obtained from box core samples, the geostatistical methods variography and ordinary block kriging were used.",
+    "url": "https://obis.org/dataset/48b53def-46f8-4e6f-9fae-fb4d90a24fd1",
+    "sameAs": [
+        "https://datasets.obis.org/hosted/isa/bgrpmn12016_biodiversity_envdata/index.html"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Federal Institute for Geosciences and Natural Resources of Germany, (2016). BGRPMN12016 Biodiversity Envdata. Available : DeepData, International Seabed Authority https://data.isa.org.jm/ Accessed: [YYYY-MM-DD].",
+    "version": "2021-11-24T20:11:30.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Relative abundance",
+            "url": "",
+            "description": "Relative abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://datasets.obis.org/hosted/isa/bgrpmn12016_biodiversity_envdata/bgrpmn12016_biodiversity_envdata.zip",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-130.1045498 11.30111111,-130.1045498 14.0939881,-116.25027778 14.0939881,-116.25027778 11.30111111,-130.1045498 11.30111111"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11193",
+            "@type": "Organization",
+            "legalName": "Bundesanstalt für Geowissenschaften und Rohstoffe (BGR) in Hannover",
+            "name": "Bundesanstalt für Geowissenschaften und Rohstoffe (BGR) in Hannover",
+            "url": "https://oceanexpert.org/institution/11193"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13169",
+            "@type": "Organization",
+            "legalName": "International Seabed Authority",
+            "name": "International Seabed Authority",
+            "url": "https://oceanexpert.org/institution/13169"
+        }
+    ]
+}

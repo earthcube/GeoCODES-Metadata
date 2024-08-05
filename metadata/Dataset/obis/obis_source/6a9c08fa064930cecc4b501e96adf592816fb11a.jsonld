@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a3e8280e-fc7d-495d-9b76-ded6e8943300",
+    "name": "IMOS - AATAMS Facility - Tracking of Short-tailed shearwaters, Southern Ocean, Australia (2010 - 2012)",
+    "description": "AATAMS represents the higher biological monitoring of the marine environment for the IMOS program. This record presents data collected from tagged and recaptured Short-tailed shearwaters (Puffinus tenuirostris), with data presented throughout the Southern Ocean. The study was initially conducted on Wedge Island (43 km2), southern Tasmania (43o 07' S, 147o 40' E). Fifty geolocation archival (GLS) tag deployments were made on 34 adult birds in the pre-laying exodus (n = 18), incubation (n = 12) and early chick-rearing (ECR) phases (n = 20). In 2012, 12 birds were tracked during the pre-laying exodus. GLS tags were deployed between the 10th and the 18th of October. Ten birds were tracked from Wedge Island (as in 2010) and 2 were tracked from Whalebone Point, Bruny Island (43.44 South, 147.23 East; birds 22 and 80)",
+    "url": "https://obis.org/dataset/a3e8280e-fc7d-495d-9b76-ded6e8943300",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=imos_aatams_shearwaters"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Any users of IMOS data are required to clearly acknowledge the source of the material in the format: \"Data was sourced from the Integrated Marine Observing System (IMOS) - IMOS is a national collaborative research infrastructure, supported by Australian Government.\" If relevant, also credit other organisations involved in collection of the particular datastream (as listed in 'credit' in the metadata record). See http://imos.org.au/imostermsofuse0/",
+    "version": "2022-06-06T23:12:05.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Animal Mass",
+            "url": "",
+            "description": "Animal Mass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Culman Height",
+            "url": "",
+            "description": "Culman Height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Culman Length",
+            "url": "",
+            "description": "Culman Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tag Type",
+            "url": "",
+            "description": "Tag Type"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=imos_aatams_shearwaters",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "89.5669 -60.2673,89.5669 -36.6054,156.3563 -36.6054,156.3563 -60.2673,89.5669 -60.2673"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9329",
+            "@type": "Organization",
+            "legalName": "University of Queensland, St Lucia Campus",
+            "name": "University of Queensland, St Lucia Campus",
+            "url": "https://oceanexpert.org/institution/9329"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

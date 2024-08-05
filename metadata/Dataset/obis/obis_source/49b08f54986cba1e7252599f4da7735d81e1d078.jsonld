@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/35656466-53a2-42ea-84e7-10c5c8b62025",
+    "name": "Gelatinous zooplankton validated sightings reported in the Mediterranean Sea from 2019 onwards by avvistAPP users",
+    "description": "Sampling Methods\navvistAPP is a free citizen science tool that allows everyone to actively contribute to the monitoring of marine animals. Available both in Google and Apple app stores. App description: https://doi.org/10.13120/h127-9v54\n\nStudy Extent\tMediterranean Sea from 2019 onwards.\nMethod step description:\n\nThe reported sightings are validated by researchers.",
+    "url": "https://obis.org/dataset/35656466-53a2-42ea-84e7-10c5c8b62025",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gelatinous_zooplankton_validated_avvistapp_data_from_mediterranean_sea",
+        "https://doi.org/10.13120/3382-at05"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Tirelli V., Goruppi A. (2021). Gelatinous zooplankton validated sightings reported in the Mediterranean Sea from 2019 onwards by avvistAPP users. National Institute of Oceanography and Experimental Geophysics - OGS, Division of Oceanography. Italy. Dataset/Occurrence https://doi.org/10.13120/3382-at05",
+    "version": "2024-02-27T00:19:03.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.13120/3382-at05",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.13120/3382-at05",
+        "url": "https://doi.org/10.13120/3382-at05"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gelatinous_zooplankton_validated_avvistapp_data_from_mediterranean_sea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-0.326459 37.252807,-0.326459 45.7936807,18.49050522 45.7936807,18.49050522 37.252807,-0.326459 37.252807"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

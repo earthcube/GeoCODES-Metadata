@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ec8c1697-ecc2-41e1-904d-652e0004e4b0",
+    "name": "FPN-EH-AVES - Breeding Distribution of seabirds in Patagonia Argentina coast",
+    "description": "Updated distribution of sixteen species of seabirds along the Patagonian coast. Number of breeding pairs at colonies of penguins, cormorants, gulls and terns were evaluated by aerial, boat and ground surveys carried out between 1993-1995 during the implementation of the Patagonian Coastal Zone Management Plan (Fundación Patagonia Natural and Wildlife conservation Society - GEF-UNDP). Census dates were timed to coincide with the late incubation period for each species. Additional information after 1998 was updated with published records.",
+    "url": "https://obis.org/dataset/ec8c1697-ecc2-41e1-904d-652e0004e4b0",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=argentineanseabirds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Yorio P, Frere E, Gandini P, Harris G, Quintana F, Lopez de Casenave J (2015): FPN-EH-AVES - Breeding Distribution of seabirds in Patagonia Argentina coast. v1.6. ArOBIS Centro Nacional Patagónico. Dataset/Occurrence. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=argentineanseabirds&amp;v=1.6",
+    "version": "2017-04-05T19:17:10.000Z",
+    "keywords": [
+        "Occurrence",
+        "penguins",
+        "cormorants",
+        "gulls",
+        "terns",
+        "petrels",
+        "Patagonia",
+        "Argentina",
+        "coastal habitat",
+        "marine",
+        "animal breeding and genetics",
+        "birds"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=argentineanseabirds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.150002 -55.0667,-69.150002 -38.966702,-61.883301 -38.966702,-61.883301 -55.0667,-69.150002 -55.0667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19348",
+            "@type": "Organization",
+            "legalName": "Universidad Nacional de la Patagonia Austral - Unidad Académica Caleta Olivia",
+            "name": "Universidad Nacional de la Patagonia Austral - Unidad Académica Caleta Olivia",
+            "url": "https://oceanexpert.org/institution/19348"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19604",
+            "@type": "Organization",
+            "legalName": "Fundación Patagonia Natural",
+            "name": "Fundación Patagonia Natural",
+            "url": "https://oceanexpert.org/institution/19604"
+        }
+    ]
+}

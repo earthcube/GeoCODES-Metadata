@@ -1,0 +1,118 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e69a5cc7-2c7d-4ef7-8662-a68a326bddad",
+    "name": "Satellite-tracking of loggerhead sea turtles tracked from western Mediterranean",
+    "description": "Satellite-tracking data of 44 loggerhead sea turtles tracked from western Mediterranean between 2016-2018. Our dataset consists in a CSV file-format which provides the turtle identity name or number, the date and coordinates of the location data, and the Argos location class associated. A metadata spreadsheet file is also provided with other relevant information. Raw data was compiled from Argos, only Doppler locations class 2 and higher were included in the OBIS-ENV data transformation to provide location accuracy. Original dataset download link https://cloud.emodnet-ingestion.eu/index.php/s/wF4jn2ypDiAgJ2U",
+    "url": "https://obis.org/dataset/e69a5cc7-2c7d-4ef7-8662-a68a326bddad",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=satellitetracking-turtles-mediterranean"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2023-12-08T17:14:09.000Z",
+    "keywords": [
+        "Argos satellite",
+        "Satellite tracking",
+        "Data non conformant",
+        "Metadata conformant",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gender",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Gender"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Track duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TD02XX01/",
+            "description": "Track duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Type of capture",
+            "url": "",
+            "description": "Type of capture"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Straigth Carapace Length",
+            "url": "",
+            "description": "Straigth Carapace Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weigth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Weigth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Curvace Carapace Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Curvace Carapace Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Curvace Carapace Width",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CAPWID01/",
+            "description": "Curvace Carapace Width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Straigth Carapace Width",
+            "url": "",
+            "description": "Straigth Carapace Width"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=satellitetracking-turtles-mediterranean",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.676 -6.715,-64.676 55.049,88.035 55.049,88.035 -6.715,-64.676 -6.715"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ef21a152-309e-4cc5-86e6-31336f73535c",
+    "name": "Surface eDNA samples of eukaryote micro- and mesoplankton along the 110°E meridian (Second International Indian Ocean Expedition (IIOE-2) expedition) RV Investigator voyage IN2019_V03 (2019)",
+    "description": "Sea surface planktonic assemblages were sampled using environmental DNA at 1.5° latitudinal increments (from 39.5 to 11.5°S) following the 110°E meridian in the Eastern Indian Ocean to reveal factors structuring eukaryotic diversity. Bioinformatics and analyses were conducted in R version 4.1.1 (R Core Team 2021) and all bioinformatic scripts and matrices/databases are available in the GitHub (https://github.com/wwfoodw/East_Indian_eDNA_Transect). Note that no clustering is used, but Dada2, which runs a model of PCR/sequencing error and then generates lineage specific sequences (called ASVs or zero-radius OTUs). Raw FASTQ sequence data are publicly available in the Short Read Archive under BioProject PRJNA657626.\nThis collection is published as Darwin Core Occurrence, so the event level measurements need to be replicated for every occurrence. Instead of data replication, the event level eMoF data are made available separately at https://www.marine.csiro.au/data/services/obisau/emof_export.cfm?ipt_resource=in2019_v03_edna\nVoyage details (metadata, projects, other datasets either online or as downloads, publications and reports, events, maps etc) can be accessed at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2019_V03\nIf this data has been used in any products, please acknowledge with the following: We acknowledge the use of the CSIRO Marine National Facility (https://ror.org/01mae9353) in undertaking this research.\n",
+    "url": "https://obis.org/dataset/ef21a152-309e-4cc5-86e6-31336f73535c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=in2019_v03_edna",
+        "https://doi.org/10.1016/j.dsr2.2022.105178"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Richard O'Rorke, Aimee van der Reis, Ulla von Ammon, Lynnath E. Beckley, Xavier Pochon, Anastasija Zaiko, Andrew Jeffs,\neDNA metabarcoding shows latitudinal eukaryote micro- and mesoplankton diversity stabilizes across oligotrophic region of a &gt;3000 km longitudinal transect in the Indian Ocean, Deep Sea Research Part II: Topical Studies in Oceanography, Volume 205, 2022, 105178, ISSN 0967-0645, https://doi.org/10.1016/j.dsr2.2022.105178",
+    "version": "2023-11-30T01:53:30.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "18S rRNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.1016/j.dsr2.2022.105178",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1016/j.dsr2.2022.105178",
+        "url": "https://doi.org/10.1016/j.dsr2.2022.105178"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=in2019_v03_edna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "109.979 -39.491,109.979 -11.504,110.043 -11.504,110.043 -39.491,109.979 -39.491"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3b2a79a4-ef3c-4b0a-829a-9bcbc9f00e5c",
+    "name": "Marine and Coastal Management - Demersal Surveys (AfrOBIS)",
+    "description": "Marine and Coastal Management (MCM)'s demersal data set has been collected from cruises around the South African Coast, and currently contains 201741 of 230 families.",
+    "url": "https://obis.org/dataset/3b2a79a4-ef3c-4b0a-829a-9bcbc9f00e5c",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=mcm_demersal"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marine and Coastal Management - Demersal Surveys",
+    "version": "2020-12-02T14:09:21.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=mcm_demersal",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "10.220000267 -37.9832992554,10.220000267 -23.1100006104,42.75 -23.1100006104,42.75 -37.9832992554,10.220000267 -37.9832992554"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/98c3a921-3584-4a07-bb07-07ad84a6038e",
+    "name": "HMAP Dataset 01: SE Australian Trawl Fishery I: Fish (various) landings and fishing effort, South East Australia, 1918-1923",
+    "description": "Historical data relating to the South East Fishery (SEF), time period 1918-1923.",
+    "url": "https://obis.org/dataset/98c3a921-3584-4a07-bb07-07ad84a6038e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_dataset_01_se_australian_trawl_fishery_i_1918-1923"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Klaer, N.; (2020): HMAP Dataset 01: SE Australian Trawl Fishery I: Fish (various) landings and fishing effort, South East Australia, 1918-1923 in Nicholls, J, Breen, R &amp; Yang, Z. (comp.). HMAP Data (https://oceanspast.org/hmap_db.php)",
+    "version": "2023-12-08T17:21:38.000Z",
+    "keywords": [
+        "Fishery statistics",
+        "Overfishing",
+        "Historical records",
+        "Trawling",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "effort",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "effort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "home port",
+            "url": "",
+            "description": "home port"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "operator",
+            "url": "",
+            "description": "operator"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "power",
+            "url": "",
+            "description": "power"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "vessel name",
+            "url": "",
+            "description": "vessel name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "catch per unit effort in metric tonnes per hours",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WWBIOL02/",
+            "description": "catch per unit effort in metric tonnes per hours"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observed weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "description": "observed weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1918/1923",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_dataset_01_se_australian_trawl_fishery_i_1918-1923",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "148.52 -38.03,148.52 -29.11725,154.86781 -29.11725,154.86781 -38.03,148.52 -38.03"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

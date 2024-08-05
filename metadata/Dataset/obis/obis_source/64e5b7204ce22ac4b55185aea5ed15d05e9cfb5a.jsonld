@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c49997fd-7f9d-404d-af03-96c36b8dea9a",
+    "name": "Bay of Puck dataset",
+    "description": "The dataset was collected in July 1996 for habitat mapping of they Bay of Puck",
+    "url": "https://obis.org/dataset/c49997fd-7f9d-404d-af03-96c36b8dea9a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macroben_bayofpuck_evco"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Kotwicki L., 1996: Bay of Puck dataset. Polish Academy of Sciences, Institute of Oceanology, Department of Marine Ecology, Poland",
+    "version": "2024-02-27T00:22:55.000Z",
+    "keywords": [
+        "Data",
+        "Macrobenthos",
+        "Marine Genomics",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Equipment",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Equipment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "description": "biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/1996",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macroben_bayofpuck_evco",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "18.4009 54.6477,18.4009 54.7698,18.5999 54.7698,18.5999 54.6477,18.4009 54.6477"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19566",
+            "@type": "Organization",
+            "legalName": "Polish Academy of Sciences – Institute of Oceanology – Departement of Marine Ecology",
+            "name": "Polish Academy of Sciences – Institute of Oceanology – Departement of Marine Ecology",
+            "url": "https://oceanexpert.org/institution/19566"
+        }
+    ]
+}

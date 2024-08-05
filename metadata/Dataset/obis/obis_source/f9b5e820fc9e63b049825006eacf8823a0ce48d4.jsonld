@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ad6c4ff-fb89-4edf-b7b0-212671fb27cf",
+    "name": "A Biological Survey of the Waters of Woods Hole and Vacinity",
+    "description": "Data published in 1911 of a survey of the marine benthic fauna and flora of Buzzards Bay and Vineyard Sound, MA conducted between 1903 and 1907.",
+    "url": "https://obis.org/dataset/5ad6c4ff-fb89-4edf-b7b0-212671fb27cf",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=woodsholebiosurvey"
+    ],
+    "license": "",
+    "citation": "Sumner, F. B., R. C. Osborn, L. J. Cole, and B. M. Davis. A biological survey of the waters of Woods Hole and vicinity. Bulletin of the U.S. Bureau of Fisheries. 1911. 31: 1-860",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1903/1909",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=woodsholebiosurvey",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.3199996948 41.2599983215,-71.3199996948 41.75,-69.7900009155 41.75,-69.7900009155 41.2599983215,-71.3199996948 41.2599983215"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

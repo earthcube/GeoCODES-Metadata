@@ -1,0 +1,127 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/82b78486-c781-4959-a2ba-7b320606e93f",
+    "name": "Records of cephalopod paralarvae (Mollusca: Cephalopoda) in the Caribbean and Venezuelan Atlantic Ocean",
+    "description": "The dataset provides records of the composition, density and biomass of cephalopod planktonic paralarvae (Mollusca: Cephalopoda) in the Venezuelan Atlantic Ocean, Gulf of Venezuela and Aves Island areas",
+    "url": "https://obis.org/dataset/82b78486-c781-4959-a2ba-7b320606e93f",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=paralarvae_cephalopoda_ucv_2022"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Stella Chacin B G, Scott-Frías J (2022): Records of cephalopod paralarvae (Mollusca: Cephalopoda) in the Caribbean and Venezuelan Atlantic Ocean. v1.10. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=paralarvae_cephalopoda_ucv_2022&amp;v=1.10",
+    "version": "2022-10-24T10:16:31.000Z",
+    "keywords": [
+        "Paralarvae",
+        "Cephalopoda",
+        "Ommastrephidae",
+        "Loliginidae",
+        "density",
+        "biomass",
+        "dorsal mantle length",
+        "Southern Caribbean",
+        "Atlantic Ocean",
+        "Venezuela",
+        "CaribeSur",
+        "ID:BID-CA202-025-NAC",
+        "samplingEvent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of Cephalopoda",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/Z450M00R/",
+            "description": "Abundance of Cephalopoda"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bongo net",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Bongo net"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample volume (filtration)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLFMCXX/",
+            "description": "Sample volume (filtration)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/GP079/",
+            "description": "Wet weight biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Single net or net pair oblique tow",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Single net or net pair oblique tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS5753/",
+            "description": "life stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "number of specimens",
+            "url": "http://vocab.nerc.ac.uk/collection/L18/current/CSRU020/",
+            "description": "number of specimens"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dorsal mantle length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DML1XX01/",
+            "description": "Dorsal mantle length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Single net or net pair vertical tow",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Single net or net pair vertical tow"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=paralarvae_cephalopoda_ucv_2022",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-70.843797 8.835,-70.843797 15.67555556,-58.0533 15.67555556,-58.0533 8.835,-70.843797 8.835"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18896",
+            "@type": "Organization",
+            "legalName": "Universidad Central de Venezuela",
+            "name": "Universidad Central de Venezuela",
+            "url": "https://oceanexpert.org/institution/18896"
+        }
+    ]
+}

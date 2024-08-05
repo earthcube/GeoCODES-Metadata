@@ -1,0 +1,86 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/27f7853d-48c4-4365-8b0b-158d8fffb7c7",
+    "name": "Great Australian Bight Research Program, Australia (2015-2017)",
+    "description": "This dataset is the collections of benthic biota (and their derived data) from two Marine National Facility charter voyages conducted under the Benthic Characterisation Project (3.1) of the Great Australian Bight Research Program (GABRP): Southern Surveyor voyage SS2013_C02 and RV Investigator voyage IN2015_C02 and Project 4 - Benthic biota of volcanic seamounts, seeps and canyons of the GAB - of the Great Australian Bight Deepwater Marine Program (GABDMP): RV Investigator voyages IN2015_C01 and IN2017_C01. There is also data from  REM Etive voyage RE2017_C01.\nVoyage details (dataset metadata, maps, projects, publications, data reports and data) are at\n<a href=\"https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=SS2013_C02\">SS2013_C02</a>, \n<a href=\"https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2015_C01\">IN2015_C01</a>, \n<a href=\"https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2015_C02\">IN2015_C02</a>, \n<a href=\"https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2017_C01\">IN2017_C01</a> and \n<a href=\"https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=RE2017_C01\">RE2017_C01</a>.\nThis data has been republished (2022-08-29 with additional details of each occurrence where they can be one of three types:  catch composition (counts per taxa and optional aggregated weights by trawl event), catch measurements (length and/or weight) of individual taxa and/or catch specimens and their stored location. The occurrence type is recorded in occurrenceremarks.",
+    "url": "https://obis.org/dataset/27f7853d-48c4-4365-8b0b-158d8fffb7c7",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_gabrp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Althaus F (2023): Great Australian Bight Research Program, Australia (2015-2017). v1.11. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=csiro_gabrp&amp;v=1.11",
+    "version": "2023-06-29T10:36:05.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen Count",
+            "url": "",
+            "description": "Specimen Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Museum registration number",
+            "url": "",
+            "description": "Museum registration number"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_gabrp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "129.02 -37.2675,129.02 -33.3357,138.332 -33.3357,138.332 -37.2675,129.02 -37.2675"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

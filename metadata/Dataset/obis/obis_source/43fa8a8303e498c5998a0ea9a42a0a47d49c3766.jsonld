@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b60529e4-5012-4ea1-b7a6-acdc7dec58f6",
+    "name": "Bald Head Island 2003: Loggerhead Turtles (aggregated per 1-degree cell)",
+    "description": "Original provider:\nMarine Turtle Research Group / SEATURTLE.ORG\n\nDataset credits:\nData provider\nMarine Turtle Research Group\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nThe project is a collaboration among the <a href=\"http://www.bhic.org/\">Bald Head Island Conservancy</a> and the <a href=\"http://www.seaturtle.org/mtrg/\">Marine Turtle Research Group</a> (Annette Broderick, Brendan Godley, Lucy Hawkes) and the North Carolina <a href=\"http://www.ncwildlife.org/\">Wildlife Resources Commission</a> (Matthew Godfrey).\nProject sponsor or sponsor description\nThis work was possible as a result of the financial and inkind support of the Anderson Family, Crumpler Family, Humphries Family, <a href=\"http://www.nerc.ac.uk/\">Natural Environment Research Council </a>(NERC), <a href=\"http://www.newportaquarium.com/\">Newport Aquarium</a>, <a href=\"http://www.projectaware.org/\">PADI Project Aware</a>, <a href=\"http://www.progress-energy.com/\">Progress Energy</a>, Ann Pickering, and Juanita Roushdy.\n\n\nAbstract:\nThis project aims to find out more about the at-sea behaviour of loggerhead sea turtles following nesting on the beaches of Bald Head Island, North Carolina. We deployed 4 satellite transmitters or Platform Terminal Transmitters (PTT?s) on loggerhead sea turtles in July 2003. This has allowed us to track the long distance movements of these turtles and has given insights into migratory and foraging behaviour.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=1\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/b60529e4-5012-4ea1-b7a6-acdc7dec58f6",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_368_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Godley B. 2021. Bald Head Island 2003: Loggerhead Turtles. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/368) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=1).",
+    "version": "2021-04-24T09:26:28.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_368_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-78.5 33.5,-78.5 39.5,-74.5 39.5,-74.5 33.5,-78.5 33.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

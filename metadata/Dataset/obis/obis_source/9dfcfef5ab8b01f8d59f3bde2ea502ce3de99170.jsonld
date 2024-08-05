@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/00a7f490-7418-413b-a9f1-666f186769b6",
+    "name": "Museum and Art Gallery of the Northern Territory Malacology Collection - marine records",
+    "description": "The Museum and Art Gallery of the Northern Territory (MAGNT) Malacology (mollusc) collection comprises about 57,000 lots of dry shells for scientific research and education purposes, and about 2,000 specimen lots stored in either 70% ethyl alcohol for morphological study or absolute ethyl alcohol for genetics studies.\nThe bulk of the collection is registered into a database. Marine, land and freshwater species of molluscs are represented in the collection, with substantial holdings of shallow water tropical species from the Indo-Pacific, South East Asia and Northern Australia, with smaller holdings from other locations.\nData downloaded  from ALA (http://collections.ala.org.au/public/show/co141) and taxa matched to the World Register of Marine Species. This dataset excludes non-marine taxa.",
+    "url": "https://obis.org/dataset/00a7f490-7418-413b-a9f1-666f186769b6",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=magnt_malacology"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dally G (2023): Museum and Art Gallery of the Northern Territory Malacology Collection - marine records. v1.11. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=magnt_malacology&amp;v=1.11",
+    "version": "2023-06-28T03:29:28.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1935/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=magnt_malacology",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.98333 -77.3,-179.98333 70,179.92617 70,179.92617 -77.3,-179.98333 -77.3"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19575",
+            "@type": "Organization",
+            "legalName": "Museum and Art Gallery, Northern Territory",
+            "name": "Museum and Art Gallery, Northern Territory",
+            "url": "https://oceanexpert.org/institution/19575"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

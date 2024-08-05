@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0d2c75a7-2c0f-416a-9d7a-9b8594a09b6f",
+    "name": "ImageDOP Bentic Video Annotations in the Faial-Pico Channel in 2011",
+    "description": "Annotations of species recorded on video by Remote Operated Vehicle (ROV) during dives performed in the Faial-Pico Channel in the Azores archipelago, Portugal. Videos were recorded between 80 and 250 meters depth.",
+    "url": "https://obis.org/dataset/0d2c75a7-2c0f-416a-9d7a-9b8594a09b6f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imagedop_video_annotations",
+        "https://dx.doi.org/10.14284/209"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gomes-Pereira JN; Institute of Marine Research (IMAR - Azores), Portugal; Department of Oceanography and Fisheries (DOP) - UAC, Portugal (2016). ImageDOP Bentic Video Annotations in the Faial-Pico Channel in 2011 https://dx.doi.org/10.14284/209",
+    "version": "2023-05-23T11:38:55.000Z",
+    "keywords": [
+        "Data",
+        "Deep water",
+        "propelled unmanned submersible",
+        "Video observations",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2011",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/209",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/209",
+        "url": "https://dx.doi.org/10.14284/209"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imagedop_video_annotations",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-28.63 38.47,-28.63 38.52,-28.54 38.52,-28.54 38.47,-28.63 38.47"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19372",
+            "@type": "Organization",
+            "legalName": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "name": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "url": "https://oceanexpert.org/institution/19372"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/127e64ba-a186-4d99-aaaa-6c9d21035be3",
+    "name": "Home range and core range of little penguins in Port Phillip Bay, Victoria, Australia (2008 - 2012)",
+    "description": "Tracking of 33 Eudyptula minor (little penguins) in Port Phillip bay, Victoria, Australia. Data from ZoaTrack website https://zoatrack.org/projects/195/",
+    "url": "https://obis.org/dataset/127e64ba-a186-4d99-aaaa-6c9d21035be3",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=port_phillip_little_penguins"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Kowalczyk N (2023): Home range and core range of little penguins in Port Phillip Bay, Victoria, Australia (2008 - 2012). v1.9. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=port_phillip_little_penguins&amp;v=1.9",
+    "version": "2023-07-04T03:34:17.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=port_phillip_little_penguins",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "144.81437 -38.14235,144.81437 -36.25566,150.23416 -36.25566,150.23416 -38.14235,144.81437 -38.14235"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

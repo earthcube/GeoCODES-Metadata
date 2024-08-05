@@ -1,0 +1,117 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/36693923-2abf-4237-8154-8016f32844a0",
+    "name": "Pacific Reef Assessment and Monitoring Program: Rapid Ecological Assessments of Fish Large-Area Stationary Point Count Surveys (SPC) at Coral Reef Sites across the Pacific Ocean from 2000 to 2007",
+    "description": "The large-area stationary point count (SPC) method was used to conduct reef fish surveys in the Hawaiian and Mariana Archipelagos, American Samoa, and the Pacific Remote Island Areas as part of NOAA's Pacific Reef Assessment and Monitoring Program (Pacific RAMP). The SPC method catalogs the diversity (species richness), abundance (numeric density) and biomass (fish mass per unit area) of diurnally active reef fish assemblages in shallow-water (typically 10-15m, always &lt; 30m) hard-bottom habitats.\n\nStationary Point Counts (SPC) is one of several non-invasive underwater-survey methods to enumerate the diverse components of diurnally active shallow-water reef fish assemblages. At each REA survey sites, SPC fish surveys were conducted at 4 stations in conjunction with, but at least 10 m away from 3 consecutively-placed, 25m transect lines to quantify relatively larger (&gt;25 cm Total Length [TL]) and more vagile fish species(BLT). All fishes &gt;25 cm TL are recorded to species-level that enter a 20 m diameter cylinder (area ~314 m2) during a timed 5 minute count. Individuals or groups are estimated to the nearest 5 cm TL size-class bin. Four replicate, 5 minute cylinder counts are conducted at each station. Care is taken to avoid over-counting large transient or schooling species. Transects lines and stations are typically set at depths of 10-15 m. Reef ledges and holes are visually searched. Stations are completed on all sides of the island/atoll, weather and sea conditions permitting. Raw survey data included species level abundance estimates.",
+    "url": "https://obis.org/dataset/36693923-2abf-4237-8154-8016f32844a0",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=pifsc_spc_fish_pacific"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Coral Reef Ecosystem Program; Pacific Islands Fisheries Science Center (2017). Pacific Reef Assessment and Monitoring Program: Rapid Ecological Assessments of Fish Large-Area Stationary Point Count Surveys (SPC) in the Pacific Ocean from 2000-09-09 to 2007-06-08 (NCEI Accession 0162466). NOAA National Centers for Environmental Information. Dataset.",
+    "version": "2021-08-25T16:50:22.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Survey Radius",
+            "url": "",
+            "description": "Survey Radius"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Consumer type: APEX (apex predator), Cor (corallivore), H (herbivore), MI (mobile invertivore), Om (Omnivore), Par (parrotfish), Pisc (piscivore), Pk (planktivore), SI (sessile invertivore), X (if unidentified fish), Z (zooplantivore)",
+            "url": "",
+            "description": "Consumer type: APEX (apex predator), Cor (corallivore), H (herbivore), MI (mobile invertivore), Om (Omnivore), Par (parrotfish), Pisc (piscivore), Pk (planktivore), SI (sessile invertivore), X (if unidentified fish), Z (zooplantivore)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fish Total Length, TL",
+            "url": "",
+            "description": "Fish Total Length, TL"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fish species parameter 'a' used in length-weight calculations",
+            "url": "",
+            "description": "Fish species parameter 'a' used in length-weight calculations"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fish species parameter 'b' used in length-weight calculations",
+            "url": "",
+            "description": "Fish species parameter 'b' used in length-weight calculations"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length conversion factor used to determine fish max length",
+            "url": "",
+            "description": "Length conversion factor used to determine fish max length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Theoretical maximum length for fish species",
+            "url": "",
+            "description": "Theoretical maximum length for fish species"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Trophic Level (Primary Consumer, Secondary Consumer, Planktivore, Piscivore)",
+            "url": "",
+            "description": "Trophic Level (Primary Consumer, Secondary Consumer, Planktivore, Piscivore)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=pifsc_spc_fish_pacific",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.3785833 -14.559317,-178.3785833 28.45365,166.65736 28.45365,166.65736 -14.559317,-178.3785833 -14.559317"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11379",
+            "@type": "Organization",
+            "legalName": "National Oceanic and Atmospheric Administration, Washington",
+            "name": "National Oceanic and Atmospheric Administration, Washington",
+            "url": "https://oceanexpert.org/institution/11379"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20188",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Ocean Observing System",
+            "name": "Pacific Islands Ocean Observing System",
+            "url": "https://oceanexpert.org/institution/20188"
+        }
+    ]
+}

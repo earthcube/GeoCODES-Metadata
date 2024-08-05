@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/231dc661-d8d9-4d49-9ff0-45bd21a08541",
+    "name": "New Zealand fish and squid distributions from research bottom trawls 1964-2008",
+    "description": "From 1997 to 2008, a research programme to determine if fish assemblages in the New Zealand region could be classified into clearly identifiable communities based on their associations with each other and with environmental features was undertaken. This dataset is taken from the resulting fish communities database. These data have been used to show geographical and depth distributions of species from all research tows within the New Zealand EEZ since 2008.",
+    "url": "https://obis.org/dataset/231dc661-d8d9-4d49-9ff0-45bd21a08541",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=obisprovider"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "NIWA (2014). New Zealand fish and squid distributions from research bottom trawls. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 486781 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=obisprovider released on May 8, 2014.",
+    "version": "2020-02-14T08:11:05.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1961/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=obisprovider",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.9987 -54.209,-179.9987 -31.3207,180 -31.3207,180 -54.209,-179.9987 -54.209"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        }
+    ]
+}

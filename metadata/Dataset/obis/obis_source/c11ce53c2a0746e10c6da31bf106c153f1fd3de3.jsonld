@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a94140fb-fcdb-4999-b6a9-5aa382d558f3",
+    "name": "Bivalves surveys for the Monitoring and Evaluation Programme of the North Sea OWEZ wind park in 2007",
+    "description": "Field survey on juvenile bivalve densities; date: 8-11 October 2007; vessel: RV POSEIDON (operated by IFM Geomar, Germany); sampling stations: 20 stations in OWEZ and 10 stations in each of the 5 reference areas R2, R3, R4, R5, RL",
+    "url": "https://obis.org/dataset/a94140fb-fcdb-4999-b6a9-5aa382d558f3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mep_nsw_bivalves"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Ministery of Infrastructure and Environment, The Netherlands; (2019): Bivalves surveys for the Monitoring and Evaluation Programme of the North Sea OWEZ wind park in 2007",
+    "version": "2024-02-26T23:47:08.000Z",
+    "keywords": [
+        "Poseidon",
+        "research vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area sampled",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area sampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "AANTPOPVTE",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "AANTPOPVTE"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mep_nsw_bivalves",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "4.29355 52.50137,4.29355 52.6999,4.5064 52.6999,4.5064 52.50137,4.29355 52.50137"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11289",
+            "@type": "Organization",
+            "legalName": "Deltares",
+            "name": "Deltares",
+            "url": "https://oceanexpert.org/institution/11289"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19612",
+            "@type": "Organization",
+            "legalName": "Rijkswaterstaat Water, Verkeer en Leefomgeving",
+            "name": "Rijkswaterstaat Water, Verkeer en Leefomgeving",
+            "url": "https://oceanexpert.org/institution/19612"
+        }
+    ]
+}

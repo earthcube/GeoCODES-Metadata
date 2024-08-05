@@ -1,0 +1,150 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/86453e9e-24f5-47b1-b442-b6f86a9979b7",
+    "name": "European Seabirds At Sea (ESAS)",
+    "description": "European Seabirds At Sea (ESAS) assembles offshore monitoring data on seabirds and marine mammals. This international database mostly includes data from the North Sea, yet large parts of the northeastern Atlantic Ocean are covered as well. It finds its origin in the 'Seabirds at Sea' project, which was initiated in 1979 following the discovery of major oil potential in the North Sea and an urgent need to gain more knowledge on the occurrence and distribution of seabirds in their offshore habitat. This led to the execution of large-scale ship-based surveys across the North Sea using a standardized data collection method and a first European-wide data assembly in 1991.",
+    "url": "https://obis.org/dataset/86453e9e-24f5-47b1-b442-b6f86a9979b7",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=esas",
+        "https://dx.doi.org/10.14284/601"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Vanermen N, Stienen EWM, Fijn R, Markones N, Holdsworth N, Osypchuk A, Pinto C, Desmet P (2022): European Seabirds at Sea (ESAS). ICES, Copenhagen, Denmark. <a href=\"https://esas.ices.dk\">https://esas.ices.dk</a> https://dx.doi.org/10.14284/601",
+    "version": "2023-12-08T18:15:23.000Z",
+    "keywords": [
+        "Abundance",
+        "Birds (marine)",
+        "Distribution",
+        "Ecology",
+        "Environmental assessment",
+        "Marine birds",
+        "Marine ecology",
+        "Monitoring",
+        "Offshore",
+        "Pelagic environment",
+        "Species diversity",
+        "Animal behavior",
+        "non-buoyant aircraft",
+        "ship",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "platform class",
+            "url": "https://vocab.ices.dk/services/rdf/collection/Platform%20Class/",
+            "description": "platform class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "platform code",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "platform code"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "target taxa",
+            "url": "https://vocab.ices.dk/services/rdf/collection/TargetTaxa/",
+            "description": "target taxa"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "transect width",
+            "url": "",
+            "description": "transect width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "distance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DISTPHMS/",
+            "description": "distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPARAX/",
+            "description": "area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wind force",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WMOCWFBF/",
+            "description": "wind force"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "use of binoculars",
+            "url": "https://vocab.ices.dk/services/rdf/collection/UseOfBinoculars/",
+            "description": "use of binoculars"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "distance bins",
+            "url": "",
+            "description": "distance bins"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2021",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/601",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/601",
+        "url": "https://dx.doi.org/10.14284/601"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=esas",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-54.2481 14.8788,-54.2481 79.1508,20.2764 79.1508,20.2764 14.8788,-54.2481 14.8788"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19359",
+            "@type": "Organization",
+            "legalName": "Bureau Waardenburg bv – Ecology & Landscape",
+            "name": "Bureau Waardenburg bv – Ecology & Landscape",
+            "url": "https://oceanexpert.org/institution/19359"
+        }
+    ]
+}

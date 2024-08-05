@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fba3763c-6382-4a72-8f61-cb6b292bfb34",
+    "name": "Movement patterns of nesting green turtles in Tanzania (aggregated per 1-degree cell)",
+    "description": "Original provider:\nSea Sense\n\nDataset credits:\nData provider\nSea Sense, Tanzania\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\n\n\nAbstract:\nSea Sense is conducting research into the migratory behaviour of green turtles to better understand their movements and identify important foraging grounds and migratory corridors in the western Indian Ocean region.  This kind of information is being used in Tanzania to develop a National Sea Turtle Status Report which will eventually feed into a National Sea Turtle Recovery Plan. To date, satellite tags have been deployed on nesting green turtles in Mafia Island, Temeke and Pangani which are the three most important green turtle rookeries in Tanzania.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=918\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/fba3763c-6382-4a72-8f61-cb6b292bfb34",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1003_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "West L. 2021. Movement patterns of nesting green turtles in Tanzania. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1003) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=918).",
+    "version": "2021-04-24T04:56:35.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1003_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "38.5 -8.5,38.5 1.5,44.5 1.5,44.5 -8.5,38.5 -8.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

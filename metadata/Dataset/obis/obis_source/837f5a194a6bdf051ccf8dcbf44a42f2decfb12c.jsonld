@@ -1,0 +1,125 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/04730108-3137-483a-9281-8b53c4d2869a",
+    "name": "SHARK - National Ringed seal monitoring in Sweden since 1995",
+    "description": "Data from Swedish environmental monitoring of abundance of Ringed seal. Swedish monitoring of Ringed seals started in 1995. The monitoring program was initiated by the Swedish Environmental Protection Agency and later the Swedish Agency for Marine and Water Management took over the responsibility and financing of the program. The monitoring is performed by the Swedish Museum of Natural History. Data is stored in the database SHARK, hosted and maintained by the Swedish Meteorological and Hydrological Institute. Monitoring of ringed seal is performed by counting seals in transects from airplane. More information is available in Swedish at https://www.havochvatten.se/hav/samordning--fakta/miljoovervakning/miljoovervakningens-programomrade-kust-och-hav/delprogram-sal-och-havsorn.html",
+    "url": "https://obis.org/dataset/04730108-3137-483a-9281-8b53c4d2869a",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=smhi-ringedseal-nat"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Swedish Museum of Natural History, Swedish Agency for Marine and Water Management, Swedish Environmental Protection Agency and Swedish Meteorological and Hydrological Institute (2018).  SHARK - National Ringed seal monitoring in Sweden since 1995.",
+    "version": "2024-02-26T23:18:55.000Z",
+    "keywords": [
+        "Air monitoring",
+        "Seals (animals)",
+        "Marine mammals",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Observation point",
+            "url": "",
+            "description": "Observation point"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampler type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Method documentation",
+            "url": "",
+            "description": "Method documentation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling laboratory accredited",
+            "url": "",
+            "description": "Sampling laboratory accredited"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "# counted",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "# counted"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Monitoring program code",
+            "url": "",
+            "description": "Monitoring program code"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Calculated # counted",
+            "url": "",
+            "description": "Calculated # counted"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Coefficient",
+            "url": "",
+            "description": "Coefficient"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=smhi-ringedseal-nat",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "20.75545 63.11724,20.75545 65.775,25.19544 65.775,25.19544 63.11724,20.75545 63.11724"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8493",
+            "@type": "Organization",
+            "legalName": "Sveriges meteorologiska och hydrologiska institut",
+            "name": "Sveriges meteorologiska och hydrologiska institut",
+            "url": "https://oceanexpert.org/institution/8493"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19522",
+            "@type": "Organization",
+            "legalName": " Havs- och Vattenmyndigheten",
+            "name": " Havs- och Vattenmyndigheten",
+            "url": "https://oceanexpert.org/institution/19522"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23203",
+            "@type": "Organization",
+            "legalName": "Swedish Environmental Protection Agency",
+            "name": "Swedish Environmental Protection Agency",
+            "url": "https://oceanexpert.org/institution/23203"
+        }
+    ]
+}

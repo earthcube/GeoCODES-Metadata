@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/17f41026-fe23-41fb-8662-d89664dadd25",
+    "name": "Records of fish species in coastal lagoons and sea shore that belong to Municipality of Preveza, for the period 2002-2011",
+    "description": "Species and abundance records by fishermen, on annual basis, for the period 2002-2011.Responsible for these records is the Department of Fisheries and in particular the Regional Agency of Preveza.",
+    "url": "https://obis.org/dataset/17f41026-fe23-41fb-8662-d89664dadd25",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=fishspecies-preveza"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Akovitiotis K (2014): Records of fish species in coastal lagoons and sea shore that belong to Municipality of Preveza, for the period 2002-2011. v1.10. Hellenic Center for Marine Research. Dataset/Samplingevent. http://ipt.medobis.eu/resource?r=fishspecies-preveza&amp;v=1.10",
+    "version": "2023-02-23T08:39:39.000Z",
+    "keywords": [
+        "fish",
+        "lagoon",
+        "Amvrakikos Gulf",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=fishspecies-preveza",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "20.7468 38.960523,20.7468 39.045914,20.831237 39.045914,20.831237 38.960523,20.7468 38.960523"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19628",
+            "@type": "Organization",
+            "legalName": "Preveza Fisheries Department",
+            "name": "Preveza Fisheries Department",
+            "url": "https://oceanexpert.org/institution/19628"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/061760d0-53ed-4e5a-8e94-59100015b28d",
+    "name": "Encana: Deepwater benthic taxa collected as part of a survey of Stonehouse during August-September 2002.",
+    "description": "Jacques Whitford Environment Limited (now Stantec), on behalf of Encana Corporation, conducted a deep water benthic survey of former Exploration Licence 2414, referred to as Stonehouse. The survey was conducted on the 21 to 23 of August and 14 to 15 of September 2002. The Stonehouse area encompassed an area of 1,489 km2 and was located approximately 464 km from the port of Halifax, Nova Scotia. Water depths within the area ranged from approximately 500 to 3,200m.\n\nThis dataset contains species distribution records collected using 0.1 m2 Van Veen grab sampler. Additional information collected as part of the survey is available in the original report.",
+    "url": "https://obis.org/dataset/061760d0-53ed-4e5a-8e94-59100015b28d",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=encana_stonehouse_2002a"
+    ],
+    "license": "rights holder: Encana Corporation\nrights: http://creativecommons.org/publicdomain/zero/1.0/ &amp;http://www.canadensys.net/norms\n\nNOTE: All environmental assessment and resulting environmental effects monitoring data conducted under CEAA (Canadian Environmental Assessment Act) is public; however CEAA did not come into effect for offshore Eastern Canada projects until 2003. \nEncana has agreed to make the species occurrence data collected during this 2002 benthic survey public.",
+    "citation": "Encana Corporation 2015. Encana: Deepwater benthic taxa collected as part of a survey of Stonehouse during August-September 2002. Version 1 In OBIS Canada Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS. http://www.iobis.org/. (consulted on [date])",
+    "version": "2015-01-31T16:11:21.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=encana_stonehouse_2002a",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-57.73 43.87,-57.73 44.31,-57.3 44.31,-57.3 43.87,-57.73 43.87"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19404",
+            "@type": "Organization",
+            "legalName": "Encana Corporation",
+            "name": "Encana Corporation",
+            "url": "https://oceanexpert.org/institution/19404"
+        }
+    ]
+}

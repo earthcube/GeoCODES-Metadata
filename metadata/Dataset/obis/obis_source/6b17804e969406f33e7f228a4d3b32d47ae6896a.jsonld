@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3ad286a0-0af1-4b5e-980e-2b9b5e336ee2",
+    "name": "POPA- Fisheries Observer Program of the Azores: Seabird sightings in the Azores tuna fishery from 2000 on: during navigation or search mode",
+    "description": "Sightings of birds were recorded daily, at 6 different fixed periods (snap shots), when the boat was in navigation or search mode.",
+    "url": "https://obis.org/dataset/3ad286a0-0af1-4b5e-980e-2b9b5e336ee2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=popa_marine_birds_sightings_2000_2013",
+        "https://dx.doi.org/10.14284/11"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Machete, M.; Institute of Marine Research (IMAR), Portugal; Department of Oceanography and Fisheries, University of the Azores (DOP/UAC), Portugal; (2016): POPA- Fisheries Observer Program of the Azores: Seabird sightings in the Azores tuna fishery from 2000 on: during navigation or search mode. https://dx.doi.org/10.14284/11",
+    "version": "2024-02-26T23:17:42.000Z",
+    "keywords": [
+        "Tuna fisheries",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2015",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/11",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/11",
+        "url": "https://dx.doi.org/10.14284/11"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=popa_marine_birds_sightings_2000_2013",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-45.33333333 25.08333333,-45.33333333 58.48333333,-11.88333333 58.48333333,-11.88333333 25.08333333,-45.33333333 25.08333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19372",
+            "@type": "Organization",
+            "legalName": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "name": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "url": "https://oceanexpert.org/institution/19372"
+        }
+    ]
+}

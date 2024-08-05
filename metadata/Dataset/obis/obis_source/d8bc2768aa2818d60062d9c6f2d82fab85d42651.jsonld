@@ -1,0 +1,115 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/18d7384e-31ef-48a3-aa3a-bae1e32a38aa",
+    "name": "Diversidad, abundancia y distribución del ictioplancton y su relación con las condiciones oceanográficas y los períodos mareales en la subregión Sanquianga-Gorgona, frente al delta del río Patía",
+    "description": "Este estudio investigó las condiciones oceanográficas de la subregión Sanquianga-Gorgona durante los períodos de pleamar y bajamar cerca del delta del río Sanquianga, y su relación con la diversidad y abundancia del plancton, particularmente el ictioplancton.\n\nLa Expedición Científica Pacífico 2021-I Bocas de Sanquianga se llevó a cabo del 28 de abril al 19 de mayo de 2021 en la subregión Gorgona-Sanquianga, departamentos de Nariño y Cauca, a bordo del Buque Oceanográfico ‘ARC Providencia’ de la Dirección General Marítima.",
+    "url": "https://obis.org/dataset/18d7384e-31ef-48a3-aa3a-bae1e32a38aa",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=cccp-ictioplancton-sanquianga2021",
+        "https://doi.org/10.15472/xhfmaj"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Bermudez-Rivas C, Cuellar Chacón A, Herrera Carmona J C, Reyes J, Quintana H, Giraldo A, Moreno Y, Castrillón F, Gallego Zerrato J J, Ortiz Mieles L (2023): Diversidad, abundancia y distribución del ictioplancton y su relación con las condiciones oceanográficas y los períodos mareales en la subregión Sanquianga-Gorgona, frente al delta del río Patía. v1.0. Dirección General Marítima. Dataset/Samplingevent. https://doi.org/10.15472/xhfmaj",
+    "version": "2023-10-20T04:55:45.000Z",
+    "keywords": [
+        "Ictioplancton",
+        "zooplancton",
+        "fitoplancton",
+        "pleamar",
+        "bajamar",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Biomasa_300µm_ash-free_weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MSBOGVTX",
+            "description": "Biomasa_300µm_ash-free_weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomasa_300µm_peso_hum",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04",
+            "description": "Biomasa_300µm_peso_hum"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomasa_300µm_peso_seco",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MSBDGVSC",
+            "description": "Biomasa_300µm_peso_seco"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomasa_500µm_ash-free_weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MSBOGVTX",
+            "description": "Biomasa_500µm_ash-free_weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomasa_500µm_peso_hum",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04",
+            "description": "Biomasa_500µm_peso_hum"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomasa_500µm_peso_seco",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MSBDGVSC",
+            "description": "Biomasa_500µm_peso_seco"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biovolumen_300µm",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ZV00C00E",
+            "description": "Biovolumen_300µm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biovolumen_500µm",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ZV00C00B",
+            "description": "Biovolumen_500µm"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2021",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/xhfmaj",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/xhfmaj",
+        "url": "https://doi.org/10.15472/xhfmaj"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=cccp-ictioplancton-sanquianga2021",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-78.4005283 2.6212989,-78.4005283 2.8493008,-78.2223781 2.8493008,-78.2223781 2.6212989,-78.4005283 2.6212989"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18879",
+            "@type": "Organization",
+            "legalName": "Universidad del Valle",
+            "name": "Universidad del Valle",
+            "url": "https://oceanexpert.org/institution/18879"
+        }
+    ]
+}

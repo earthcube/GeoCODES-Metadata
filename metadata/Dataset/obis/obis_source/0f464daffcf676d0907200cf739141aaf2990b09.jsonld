@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/45fd60a8-cd81-4d04-b8e0-39c8fa75e4f8",
+    "name": "Fish and marine invertebrates from the Israeli Eastern Mediterranean Sea",
+    "description": "Fish and marine invertebrates caught with trawl surveys (fish and shrimp trawls) from the Mediterranean continental shelf and upper slope of Israel from 1990 to 2012 (1990-1994, 2000, and 2008-2012). ",
+    "url": "https://obis.org/dataset/45fd60a8-cd81-4d04-b8e0-39c8fa75e4f8",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=fish_invertebrates_israelimediterraneansea"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Edelist, D., Rilov, G., Golani, D., Carlton, J.T. &amp; Spanier, E. (2020) Fish and marine invertebrates from the Israeli Eastern Mediterranean Sea.",
+    "version": "2021-10-20T12:03:03.000Z",
+    "keywords": [
+        "Metadata",
+        "invasive species",
+        "non-indigenous species",
+        "fish",
+        "marine invertebrates",
+        "Mediterranean Sea",
+        "trawl"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "individualcount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=fish_invertebrates_israelimediterraneansea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "34.203959 31.336149,34.203959 33.083901,35.085182 33.083901,35.085182 31.336149,34.203959 31.336149"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/4889",
+            "@type": "Organization",
+            "legalName": "Israel Oceanographic & Limnological Research",
+            "name": "Israel Oceanographic & Limnological Research",
+            "url": "https://oceanexpert.org/institution/4889"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/5872",
+            "@type": "Organization",
+            "legalName": "Tel Aviv University, Department of Zoology",
+            "name": "Tel Aviv University, Department of Zoology",
+            "url": "https://oceanexpert.org/institution/5872"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

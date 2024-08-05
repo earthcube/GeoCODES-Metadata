@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7166db26-05a1-4ca7-832b-19af8260f32e",
+    "name": "Zooplankton of Lebanon",
+    "description": "This dataset contains data of zooplakton species which were found in Lebanese waters. The study area extends over 150 km between the south of Lebanon and offshore Tripoli city in the North. Monthly, seasonally and annual cruises were carried out between 1965 and 2007. Surface and vertical plankton samples were taken at standard depths 0m, 0-25m, 0-100m, 0-200m.\nData are available as a classification of the frequency of occurance.",
+    "url": "https://obis.org/dataset/7166db26-05a1-4ca7-832b-19af8260f32e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zoo_lebanon"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lakkis S., 2011.  Le Zooplancton Marin du Liban (Méditerranée orientale): Biologie, \tBiodiversité, \tBiogéographie. Publ.Université Libanaise, Beirut, Lebanon,No 23:566p.",
+    "version": "2023-12-08T18:28:31.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Introduced species",
+        "Vertical distribution",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1966/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zoo_lebanon",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "35.433333333 33.916666667,35.433333333 34.566666667,35.583333333 34.566666667,35.583333333 33.916666667,35.433333333 33.916666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19515",
+            "@type": "Organization",
+            "legalName": "Lebanese University — Faculty of Sciences — Marine Research Centre",
+            "name": "Lebanese University — Faculty of Sciences — Marine Research Centre",
+            "url": "https://oceanexpert.org/institution/19515"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19527",
+            "@type": "Organization",
+            "legalName": "National Council for Scientific Research – National Center for Marine Sciences – Laboratory of Marine Ecology and Plankton",
+            "name": "National Council for Scientific Research – National Center for Marine Sciences – Laboratory of Marine Ecology and Plankton",
+            "url": "https://oceanexpert.org/institution/19527"
+        }
+    ]
+}

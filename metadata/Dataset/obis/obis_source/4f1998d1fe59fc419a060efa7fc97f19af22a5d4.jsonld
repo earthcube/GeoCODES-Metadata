@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/55e369ca-ff48-4024-909f-7a3ce2d74dcc",
+    "name": "Meiofauna and Nematode abundance from the West Florida Escarpment, NOAA Hydrosmac project",
+    "description": "Meiofauna higher taxa density (abundance per m2), and Nematode genera counts (100-150 individuals per slice) from multiple corer samples (0-5 cm sediment depth, Ocean Instruments MC800) taken during 2019 Research Vessel Point Sur expedition (#PS20-8) to the West Florida Slope and Escarpment, Eastern Gulf of Mexico. Conducted under the auspices of the NOAA funded (NA180AR0110285) project: Combining habitat suitability and physical oceanography for targeted discovery of new benthic communities on the west Florida slope (Hydrosmac).",
+    "url": "https://obis.org/dataset/55e369ca-ff48-4024-909f-7a3ce2d74dcc",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=noaa_hydrosmac_fl_meiofauna"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Ingels J, Brooke S (2022): Meiofauna and Nematode abundance from the West Florida Escarpment, NOAA Hydrosmac project. v1.0. United States Geological Survey. Dataset/Samplingevent. https://www1.usgs.gov/obis-usa/ipt/resource?r=noaa_hydrosmac_fl_meiofauna&amp;v=1.0",
+    "version": "2022-09-28T17:11:21.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lower sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Lower sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area sampled",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Area sampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "",
+            "url": "",
+            "description": ""
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=noaa_hydrosmac_fl_meiofauna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-86.2466 25.921668,-86.2466 27.979875,-84.879727 27.979875,-84.879727 25.921668,-86.2466 25.921668"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a4695be4-9914-4cc2-ac24-201bd868db57",
+    "name": "Macrobenthos North Adriatic-ALPE ADRIA Project",
+    "description": "Macrobentos data collected within the ALPEADRIA monitoring project in the Gulf of Trieste, North Adriatic Sea from 1990 to 1993.",
+    "url": "https://obis.org/dataset/a4695be4-9914-4cc2-ac24-201bd868db57",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macrobenthos_alpe_adria",
+        "https://doi.org/10.6092/046b3834-9c72-4e2d-920f-8db346c90407"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Fonda-Umani, S. (2014). Macrobentos North Adriatic-ALPE ADRIA Project. University of Trieste; Marine Biology Laboratory https://doi.org/10.6092/046b3834-9c72-4e2d-920f-8db346c90407",
+    "version": "2023-12-08T17:11:39.000Z",
+    "keywords": [
+        "Environmental monitoring",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingDeviceApertureSurfaceArea",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "SamplingDeviceApertureSurfaceArea"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL03/",
+            "description": "Biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/1993",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/046b3834-9c72-4e2d-920f-8db346c90407",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/046b3834-9c72-4e2d-920f-8db346c90407",
+        "url": "https://doi.org/10.6092/046b3834-9c72-4e2d-920f-8db346c90407"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macrobenthos_alpe_adria",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.302 45.552,13.302 45.664,13.5961666666667 45.664,13.5961666666667 45.552,13.302 45.552"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19370",
+            "@type": "Organization",
+            "legalName": "University of Trieste – Marine Biology Laboratory",
+            "name": "University of Trieste – Marine Biology Laboratory",
+            "url": "https://oceanexpert.org/institution/19370"
+        }
+    ]
+}

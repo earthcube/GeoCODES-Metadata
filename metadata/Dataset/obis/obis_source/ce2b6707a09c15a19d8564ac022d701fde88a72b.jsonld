@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f2e8ea1b-2f0c-4f0a-9217-81184057b0e0",
+    "name": "IMR Capelin larvae monitoring",
+    "description": "Abundance and distribution of capelin larvae were investigated using a Gulf III plankton sampler on surveys conducted in May-June in the southern Barents Sea. The time series started in 1981 and lasted until 2006, when the survey series was discontinued.",
+    "url": "https://obis.org/dataset/f2e8ea1b-2f0c-4f0a-9217-81184057b0e0",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=capelin_larvae"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Eriksen, E. (2014). IMR Capelin larvae monitoring. Institute of Marine Research, Norway",
+    "version": "2023-05-23T12:12:25.000Z",
+    "keywords": [
+        "Fish larvae",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "VolumeSampled",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "VolumeSampled"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1982/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=capelin_larvae",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "15.8 69.1667,15.8 74,40 74,40 69.1667,15.8 69.1667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

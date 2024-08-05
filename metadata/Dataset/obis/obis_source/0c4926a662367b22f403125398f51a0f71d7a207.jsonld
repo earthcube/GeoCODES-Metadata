@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/10b213e6-a9c4-459e-a40c-ef9edc461b97",
+    "name": "Marine data from the Bernice P. Bishop Museum",
+    "description": "The Bernice Pauahi Bishop Museum, designated the Hawaiʻi State Museum of Natural and Cultural History, is a museum of history and science located in the Kalihi district of Honolulu on the Hawaiian island of O’ahu. Founded in 1889, it is the largest museum in Hawai’i and is home to one of the world’s largest collections of natural history material from the Pacific region, with approximately 21 million specimens. The main collections include Entomology, Malacology, Botany, Ichthyology, Vertebrate Zoology (Birds, Mammals, Amphibians and Reptiles) and Marine Invertebrates.\nThe filter criteria for this dataset restricts the complete dataset to only organisms taken from marine environments, and only records that have geo-reference coordinates assigned to them. The data consist primarily of vouchered specimens in the Ichthyology, Marine Invertebrate, and Algae collections of BPBM.",
+    "url": "https://obis.org/dataset/10b213e6-a9c4-459e-a40c-ef9edc461b97",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=bernicepbishopmuseum"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Pyle R (2016). Bernice P. Bishop Museum. Version 8.1. Bernice Pauahi Bishop Museum. Occurrence dataset https://doi.org/10.15468/s6ctus accessed via GBIF.org on 2018-11-16.",
+    "version": "2023-03-20T17:02:07.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1863/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=bernicepbishopmuseum",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -77.5,-180 79.3903,179.95 79.3903,179.95 -77.5,-180 -77.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5122",
+            "@type": "Organization",
+            "legalName": "Bishop Museum",
+            "name": "Bishop Museum",
+            "url": "https://oceanexpert.org/institution/5122"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20644",
+            "@type": "Organization",
+            "legalName": "Berkeley Natural History Museums",
+            "name": "Berkeley Natural History Museums",
+            "url": "https://oceanexpert.org/institution/20644"
+        }
+    ]
+}

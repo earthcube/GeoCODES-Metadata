@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/00cad65a-aa33-4d98-93a2-15155fa963e3",
+    "name": "HG_OOSTENDE - Herring gulls (Larus argentatus, Laridae) breeding at the southern North Sea coast (Belgium) [subsampled representation]",
+    "description": "This animal tracking dataset is derived from Stienen et al. (2022, <a href=\"https://doi.org/10.5281/zenodo.6594838\">https://doi.org/10.5281/zenodo.6594838</a>) a deposit of Movebank study <a href=\"https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study986040562\">986040562</a>. Data have been standardized to Darwin Core using the <a href=\"https://inbo.github.io/movepub/\">movepub</a> R package and are downsampled to the first GPS position per hour. The original dataset description follows.\n<em>HG_OOSTENDE - Herring gulls (Larus argentatus, Laridae) breeding at the southern North Sea coast (Belgium)</em> is a bird tracking dataset published by the <a href=\"https://www.inbo.be/en\">Research Institute for Nature and Forest (INBO)</a>. It contains animal tracking data collected by the LifeWatch GPS tracking network for large birds (<a href=\"http://lifewatch.be/en/gps-tracking-network-large-birds\">http://lifewatch.be/en/gps-tracking-network-large-birds</a>) for the project/study <strong>HG_OOSTENDE</strong>, using trackers developed by the University of Amsterdam Bird Tracking System (UvA-BiTS, <a href=\"http://www.uva-bits.nl\">http://www.uva-bits.nl</a>). The study has been operational since 2013. In total 60 individuals of European Herring gull (<em>Larus argentatus</em>) have been tagged in or near their breeding area at the southern North Sea coast (Ostend and Zeebrugge in Belgium), mainly to study their habitat use. Data are periodically uploaded from the UvA-BiTS database to Movebank and from there archived on Zenodo (see <a href=\"https://github.com/inbo/bird-tracking\">https://github.com/inbo/bird-tracking</a>).\nThis dataset was collected using infrastructure provided by VLIZ and INBO funded by Research Foundation - Flanders (FWO) as part of the Belgian contribution to LifeWatch.",
+    "url": "https://obis.org/dataset/00cad65a-aa33-4d98-93a2-15155fa963e3",
+    "sameAs": [
+        "https://ipt.inbo.be/resource?r=hg_oostende"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-06-10T14:48:48.000Z",
+    "keywords": [
+        "animal movement",
+        "animal tracking",
+        "gps tracking",
+        "accelerometer",
+        "altitude",
+        "temperature",
+        "biologging",
+        "birds",
+        "LifeWatch",
+        "UvA-BiTS",
+        "Movebank",
+        "frictionlessdata",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.inbo.be/archive.do?r=hg_oostende",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-0.3205981 48.577865,-0.3205981 51.7917332,4.5066523 51.7917332,4.5066523 48.577865,-0.3205981 48.577865"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6656",
+            "@type": "Organization",
+            "legalName": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "name": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "url": "https://oceanexpert.org/institution/6656"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17039",
+            "@type": "Organization",
+            "legalName": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "name": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "url": "https://oceanexpert.org/institution/17039"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e8e362d0-93a0-44bb-bd88-a599e3766f6f",
+    "name": "Phytoplankton, Joint Black Sea Survey in Georgia(GE) and Ukraine (UA) waters  2019, EMBLAS Plus Project",
+    "description": "Phytoplankton data: species composition, volume of the cell [µm3], abundance [*1000cells/l], biomass (mg/m3) and Carbon biomass collected during Joint Black Sea Survey in Georgia(GE) and Ukraine (UA) waters (JBSS GE-UA) onboard the Romanian research vessel “Mare Nigrum” in July-August 2019",
+    "url": "https://obis.org/dataset/e8e362d0-93a0-44bb-bd88-a599e3766f6f",
+    "sameAs": [
+        "http://gp.sea.gov.ua:8082/ipt/resource?r=jbssge-ua2019_phytoplankton"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Grandova M., Terenko G. Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES)",
+    "version": "2023-11-06T11:36:20.000Z",
+    "keywords": [
+        "Sampling event"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WWBMM00Z/",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Carbon biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL12/",
+            "description": "Carbon biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Stage of the cell",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Stage of the cell"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "analysis instrument",
+            "url": "",
+            "description": "analysis instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Diameter1 of the cell",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDDM",
+            "description": "Diameter1 of the cell"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYAAOP/",
+            "description": "Dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length of the cell",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length of the cell"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://gp.sea.gov.ua:8082/ipt/archive.do?r=jbssge-ua2019_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "30.2518 41.78355,30.2518 46.4835333333333,41.2196166666667 46.4835333333333,41.2196166666667 41.78355,30.2518 41.78355"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11858",
+            "@type": "Organization",
+            "legalName": "Ukrainian Scientific Centre of Ecology of the Sea",
+            "name": "Ukrainian Scientific Centre of Ecology of the Sea",
+            "url": "https://oceanexpert.org/institution/11858"
+        }
+    ]
+}

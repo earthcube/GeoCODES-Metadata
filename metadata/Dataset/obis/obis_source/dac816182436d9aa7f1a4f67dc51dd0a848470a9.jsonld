@@ -1,0 +1,118 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/38657257-deb3-4b74-aa25-ae740280b455",
+    "name": "DATRAS Scottish Rockall Groundfish Survey",
+    "description": "<p>The dataset includes age- and length-based catch per unit effort data for commercial fish species collected during the Scottish Rockall Survey. This is a new survey from 2011, replacing historical ROCKALL survey in DATRAS.</p>",
+    "url": "https://obis.org/dataset/38657257-deb3-4b74-aa25-ae740280b455",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=ices_datras_scoroc"
+    ],
+    "license": "Licence",
+    "citation": "International Council for the Exploration of the Sea (ICES), Denmark; (2023): DATRAS: ICES Database of trawl surveys, survey: SCOROC.",
+    "version": "2024-02-26T23:22:30.000Z",
+    "keywords": [
+        "Biota",
+        "No limitations to public access",
+        "Species distribution",
+        "WGS84 (EPSG:4326)",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "BycSpecRecCode",
+            "url": "https://vocab.ices.dk/?ref=89",
+            "description": "BycSpecRecCode"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cal_DateID",
+            "url": "",
+            "description": "Cal_DateID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DataType",
+            "url": "https://vocab.ices.dk/?ref=9",
+            "description": "DataType"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "StdSpecRecCode",
+            "url": "https://vocab.ices.dk/?ref=88",
+            "description": "StdSpecRecCode"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Buoyancy",
+            "url": "",
+            "description": "Buoyancy"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Distance",
+            "url": "",
+            "description": "Distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorSurface",
+            "url": "",
+            "description": "DoorSurface"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorType",
+            "url": "https://vocab.ices.dk/?ref=98",
+            "description": "DoorType"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DoorWgt",
+            "url": "",
+            "description": "DoorWgt"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GroundSpeed",
+            "url": "",
+            "description": "GroundSpeed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ices_datras_scoroc",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-15.9157 55.8203,-15.9157 58.319,-12.986 58.319,-12.986 55.8203,-15.9157 55.8203"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

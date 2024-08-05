@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/235cc175-25b4-4e5c-bb9b-60fb5afbcb6f",
+    "name": "Mid-Atlantic Nearshore and Mid-shelf Baleen Whale Monitoring",
+    "description": "Original provider:\nHDR Environmental, Operations and Construction, Inc.\n\nDataset credits:\nThe U.S. Navy Marine Species Monitoring Program\n\nAbstract:\nThe data in this dataset represent animal sightings and vessel tracks that \noccurred during nearshore and mid-shelf baleen whale surveys off the \ncoast of Virginia Beach, VA in the VACAPES OPAREA beginning in November \n2020. This project is ongoing and data will be updated annually. Work is \nbeing performed by HDR under contract to Naval Facilities Engineering \nSystems Command as part of the U.S. Navy’s Marine Species Monitoring \nProgram sponsored by U.S. Fleet Forces Command.\n\nSupplemental information:\nSightings and effort data were entered and organized in this geodatabase \nby HDR. Source data was provided by HDR under the MSM IDIQ contract. \nSighting locations represent actual animal locations. Sightings and effort \ndata for this project were collected using a prototype collection \napplication. Because this application used a different database structure, \nthere are no environmentals associated with the effort tracks.\n\nSurvey tracklines (aggregated over time) are available online and included \nin a downloadable zip file (shapefile format).",
+    "url": "https://obis.org/dataset/235cc175-25b4-4e5c-bb9b-60fb5afbcb6f",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2211"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Engelhaupt, A. 2022. Midshelf Baleen Whale Surveys 2020 - 2022. Data downloaded from OBIS-SEAMAP (https://seamap.env.duke.edu/dataset/2211) on yyyy-mm-dd.",
+    "version": "2023-11-08T16:10:48.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2211",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-76.097826 36.353812,-76.097826 41.315847,-69.55628 41.315847,-69.55628 36.353812,-76.097826 36.353812"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23183",
+            "@type": "Organization",
+            "legalName": "HDR, Inc.",
+            "name": "HDR, Inc.",
+            "url": "https://oceanexpert.org/institution/23183"
+        }
+    ]
+}

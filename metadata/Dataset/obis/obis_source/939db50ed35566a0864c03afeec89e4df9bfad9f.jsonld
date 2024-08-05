@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5b0af2c6-8260-4d5f-8059-70c74f302423",
+    "name": "Telemetry of loggeread turtles in Amvrakikos Bay (aggregated per 1-degree cell)",
+    "description": "Original provider:\nARCHELON, the Sea Turtle Protection Society of Greece\n\nDataset credits:\nData provider\nARCHELON (2002-2007)\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nETANAM - Local management agency of the Amvrakikos Bay region\nProject sponsor or sponsor description\nLIFE-Nature. A European Union funding programme to develope management plans and protection for NATURA 2000 sites.\n\n\nAbstract:\nLittle is known of the foraging turtles in Amvrakikos Bay. We have tag returns from turtles that have nested at the three nearby Ionian nesting areas, Kefalonia, Zakynthos and Kyparissia Bay, but when they come and go and where they move around in the bay was unknown. This project has helped to answere some of these important conservation issues.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=5\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/5b0af2c6-8260-4d5f-8059-70c74f302423",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1820_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "a.f.rees@exeter.ac.uk . 2021. Telemetry of loggeread turtles in Amvrakikos Bay. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1820) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=5).",
+    "version": "2021-04-24T07:44:47.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1820_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "20.5 33.5,20.5 39.5,35.5 39.5,35.5 33.5,20.5 33.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

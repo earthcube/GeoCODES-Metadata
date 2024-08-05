@@ -1,0 +1,91 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/46389886-a09c-4cc4-bd5b-76ada2157a52",
+    "name": "Phytoplankton abundance and composition and physico-chemical parameters in the Ebro delta embayments (Alfacs Bay and Fangar Bay, North Western Mediterranean)  during 1990-2019",
+    "description": "The dataset PHYTOENVDELTA contains the weekly values of abundance (cells/L) for more than 200 taxa of marine planktonic microalgae at 10 sampling stations located in the two embayments of the Ebro delta, together with the physico-chemical parameters (temperature (°C), salinity, oxygen saturation (%) measured at the same sampling stations during 30 years (1990-2019)",
+    "url": "https://obis.org/dataset/46389886-a09c-4cc4-bd5b-76ada2157a52",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=irta_phyto"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Fernández-Tejedor, Margarita; Delgado,Maximino;  Diogène, Jorge; Institute of Agriculture and Food Research and Technology  (IRTA); 2020. Phytoplankton abundance and composition and physico-chemical parameters in the Ebro delta embayments (Alfacs Bay and Fangar Bay, North Western Mediterranean)  during 1990-2019",
+    "version": "2024-02-27T00:19:59.000Z",
+    "keywords": [
+        "Embayments",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundace",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundace"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "LifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "LifeStage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Aggregation level",
+            "url": "",
+            "description": "Aggregation level"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1900/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=irta_phyto",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0.597816696 40.60760002,0.597816696 40.81059303,0.764788315 40.81059303,0.764788315 40.60760002,0.597816696 40.60760002"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

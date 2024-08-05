@@ -1,0 +1,88 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8a709617-5b83-48a3-bc1e-d3bbd2476ef6",
+    "name": "Macrobenthos of the Western Scheldt estuary in September 1978",
+    "description": "Species richness and density of macrobenthos and observed species of the Western Scheldt river in September 1978. The data were digitized by VLIZ from the original report: Vermeulen, Y.M.; Govaere, J.C.R. (1982). Macrobenthos in the Western Schelde estuary, in: Heip, C.H.R. et al. (Ed.) (1982). Geconcerteerde Onderzoeksacties Interuniversitaire Actie Oceanologie: eindverslag 3. Biological processes and translocations = Actions de Recherche Concertées Action Interuniversitaire Océanologie: rapport final 3. Biological processes and translocations. pp. 83-88",
+    "url": "https://obis.org/dataset/8a709617-5b83-48a3-bc1e-d3bbd2476ef6",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macrobenthos_westernscheldt_1978",
+        "https://dx.doi.org/10.14284/131"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Vermeulen Y.M.; Govaere J.C.R.; Marine Biology Section; Zoology Institute. Ugent: Belgium; (2016): Macrobenthos of the Western Scheldt estuary in September 1978. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5021) https://dx.doi.org/10.14284/131",
+    "version": "2024-02-26T23:19:57.000Z",
+    "keywords": [
+        "Macrobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "The description of the method or protocol used to produce the sample.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "The description of the method or protocol used to produce the sample."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "The count of different taxonomic macrobenthos groups obtained. (number of species)",
+            "url": "",
+            "description": "The count of different taxonomic macrobenthos groups obtained. (number of species)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/1978",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/131",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/131",
+        "url": "https://dx.doi.org/10.14284/131"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macrobenthos_westernscheldt_1978",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.596667 51.34667,3.596667 51.4425,4.121667 51.4425,4.121667 51.34667,3.596667 51.34667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        }
+    ]
+}

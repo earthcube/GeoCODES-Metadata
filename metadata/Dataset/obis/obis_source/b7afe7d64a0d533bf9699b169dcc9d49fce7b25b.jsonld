@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3c5f1bdc-dc9e-423b-9c06-bdbf37e0c1f8",
+    "name": "JAX SEASWITI Vessel Monitoring 2010",
+    "description": "Original provider:\nHDR Environmental, Operations and Construction, Inc.\n\nDataset credits:\nThe U.S. Navy Marine Species Monitoring Program\n\nAbstract:\nOn 4 December 2010, an Anti-Submarine Training Exercise (ASW) event occurred in the\nJacksonville Range Complex (JAX) off the eastern coast of Florida within the U.S. Navy’s\nproposed boundaries of the Undersea Warfare Training Range (USWTR).\n\nSupplemental information:\n[2014-07-02] The unit of Distance field was wrong in the metadata. It is in meters.\nAll the US Navy-funded survey datasets are found in the <a href=\"http://seamap.env.duke.edu/partner/NAVY\">OBIS-SEAMAP US Navy</a> page.",
+    "url": "https://obis.org/dataset/3c5f1bdc-dc9e-423b-9c06-bdbf37e0c1f8",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_867"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Spontak, D. 2012. JAX SEASWITI Vessel Monitoring 2010. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/867) on yyyy-mm-dd.",
+    "version": "2021-04-24T10:51:41.000Z",
+    "keywords": [
+        "Occurrence,Navy project,Vessels,Sightings",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_867",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.342 30.006,-80.342 30.283,-80.096 30.283,-80.096 30.006,-80.342 30.006"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23183",
+            "@type": "Organization",
+            "legalName": "HDR, Inc.",
+            "name": "HDR, Inc.",
+            "url": "https://oceanexpert.org/institution/23183"
+        }
+    ]
+}

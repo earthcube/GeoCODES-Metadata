@@ -1,0 +1,108 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ec1dc821-fead-4448-b25f-f26651959f7c",
+    "name": "OTN Canada Pacific Sockeye Salmon Tagging Project 2",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and University of British Columbia (UBC)  OTN Canada Pacific Sockeye Salmon Tagging Project 2, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=NEP.PSS2).\nAbstract:The objective is to assess the speed of outmigration, and location and level of mortality in freshwater and coastal areas, for individual smolts from Chilko Lake, a population situated 750 km inland from the ocean and is the highest elevation rearing lake for sockeye salmon in Canada. In spring 2010, 200 2-yr old juveniles were captured as they initiated their smolt outmigration and surgically implanted with acoustic transmitters. Sentinel acoustic receivers situated near the release site and in the lower Fraser River, and acoustic curtains associated with POST were used to determine travel rates and locales and levels of mortality.  Preliminary results indicate that smolts travelled at ~ 1-2 km/h during the initial sections of their migration through turbulent and clear water environments, and final sections, which were turbid and tidally influenced, of the freshwater migration. But they travelled ~ 5 km/h through the expansive fast flowing sections in between. Diel patterns were evident. On average fish reached the ocean in ~ 8 days with a range of 5-17 days among fish. Survival to reach the estuary is estimated at 20-30% and 15-20% to reach the first POST acoustic curtain situated in Northern Strait of Georgia about 180 km from the Fraser River mouth. We await the downloads of the other POST acoustic curtains to assess survival beyond this first acoustic receiver curtain. Of concern is that at present, POST does not have the funding available to download all of its Canadian curtains (e.g. the Queen Charlotte Strait line) and it is unclear when or if this will happen.",
+    "url": "https://obis.org/dataset/ec1dc821-fead-4448-b25f-f26651959f7c",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnubccanadapacificsockey",
+        "https://doi.org/10.14286/bjkpp5"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Clark, T., Jeffries, K., Lotto, A., Hinch, S., Farrell, T., Cooke, S., Patterson, D., Welch, D., Riddell, B. 2010. Ocean Tracking Network Canada Pacific Sockeye Salmon Tagging Project 2 Metadata and Data Set.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T15:37:23.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AGEBENTX/",
+            "description": "age"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "FL",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FL"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "TOTAL",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600262",
+            "description": "TOTAL"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/bjkpp5",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/bjkpp5",
+        "url": "https://doi.org/10.14286/bjkpp5"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnubccanadapacificsockey",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-128.1957 48.23813,-128.1957 52.0666,-121.81975 52.0666,-121.81975 48.23813,-128.1957 48.23813"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/40e338b5-44dd-46dc-a43a-3e28d1d225e7",
+    "name": "Nest census, Windmill Islands 2002/03",
+    "description": "Census of Windmill Islands nesting sites for snow petrels, Wilson's storm petrels, Cape petrels, skuas and 3 Adélie penguin sites.",
+    "url": "https://obis.org/dataset/40e338b5-44dd-46dc-a43a-3e28d1d225e7",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=wi_nests"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Nest census, Windmill Islands 2002/03.",
+    "version": "2021-05-12T04:51:13.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=wi_nests",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "110.3873 -66.483,110.3873 -66.2391,110.6875 -66.2391,110.6875 -66.483,110.3873 -66.483"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20324",
+            "@type": "Organization",
+            "legalName": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "name": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "url": "https://oceanexpert.org/institution/20324"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f908d978-1400-446a-8cf0-6784b52b0247",
+    "name": "Seabird observations from the Australasian Antarctic Expedition (AAE) 2013-2014",
+    "description": "Seabird observations from the Australasian Antarctic Expedition (AAE) 2013-2014  for the Australasian Seabird Group (ASG). Observer was Kerry-Jayne Wilson. The data is from two voyages, the first on the Akademik Shokalskiy (27-November-2013 to 2-January-2014) when it became beset near Commonwealth bay and the second  on the RV Aurora Australis (14-January-2014 to 21-January-2014)",
+    "url": "https://obis.org/dataset/f908d978-1400-446a-8cf0-6784b52b0247",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=aae_201314_wov"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-12T11:29:14.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Cloud cover",
+            "url": "",
+            "description": "Cloud cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind Force (Beaufort scale)",
+            "url": "",
+            "description": "Wind Force (Beaufort scale)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea state",
+            "url": "",
+            "description": "Sea state"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Visibility",
+            "url": "",
+            "description": "Visibility"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind direction (deg)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01",
+            "description": "Wind direction (deg)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea surface temperature",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/97",
+            "description": "Sea surface temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=aae_201314_wov",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "109.61783 -66.91283,109.61783 -45.27267,169.27867 -45.27267,169.27867 -66.91283,109.61783 -66.91283"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

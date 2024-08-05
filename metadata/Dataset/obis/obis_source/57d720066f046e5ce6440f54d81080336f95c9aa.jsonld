@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f7777a70-e23c-436a-a0cb-9200bf87e194",
+    "name": "Marine and Coastal Research Institute - INVEMAR, Colombia,IABIN",
+    "description": "Database of Colombian information on marine biodiversity.",
+    "url": "https://obis.org/dataset/f7777a70-e23c-436a-a0cb-9200bf87e194",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=invemar_obis"
+    ],
+    "license": "Restricted",
+    "citation": "INVEMAR. SIBM en línea: Sistema de Información sobre Biodiversidad Marina. Santa Marta: Instituto de investigaciones Marinas y Costeras José Benito Vives de Andréis,. http://www.invemar.org.co/siam/sibm/index.htm",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1905/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=invemar_obis",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-112.454246521 1.50222218037,-112.454246521 37.1016654968,-16.1399993896 37.1016654968,-16.1399993896 1.50222218037,-112.454246521 1.50222218037"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18300",
+            "@type": "Organization",
+            "legalName": "Instituto de Investigaciones Marinas y Costeras \"José Benito Vives de Andreis\"",
+            "name": "Instituto de Investigaciones Marinas y Costeras \"José Benito Vives de Andreis\"",
+            "url": "https://oceanexpert.org/institution/18300"
+        }
+    ]
+}

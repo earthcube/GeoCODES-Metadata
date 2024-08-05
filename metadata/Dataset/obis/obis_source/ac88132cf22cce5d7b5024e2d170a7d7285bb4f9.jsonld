@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/75e2a2b6-f58f-4c43-aefd-878cee7865b1",
+    "name": "RMT Trawl catch from 1985/86 V1 ADBEX III voyage",
+    "description": "This dataset contains results from the Antarctic Division BIOMASS Experiment III (ADBEX III) cruise of the Nella Dan. It is the fifth cruise in a series of six, conducting a long term field survey providing data on distribution, abundance and population structure of the krill Euphausia superba in the Prydz Bay region, Antarctica. Surveys were taken off Antarctica between October and November 1985.",
+    "url": "https://obis.org/dataset/75e2a2b6-f58f-4c43-aefd-878cee7865b1",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=trawl_adbex3"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre, RMT Trawl catch from 1985/86 V1 ADBEX III voyage (accessed through GBIF data portal)",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/1985",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=trawl_adbex3",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "51.1916694641 -65.6666717529,51.1916694641 -59.3166694641,63.8600006104 -59.3166694641,63.8600006104 -65.6666717529,51.1916694641 -65.6666717529"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

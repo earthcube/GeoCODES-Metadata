@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/002eea41-acbf-4d60-ad84-6f4e3c46d9be",
+    "name": "Tonga reef fish survey data 2016-2018",
+    "description": "This data represents coral reef ecological surveys conducted in the Kingdom of Tonga from 2016-2018. 375 sites were surveyed across the Tongatapu, Ha'apai and Vava'u island groups by Patrick Smallhorn-West, Dr. Daniela Ceccarelli and Karen Stone. All surveys were conducted on SCUBA.",
+    "url": "https://obis.org/dataset/002eea41-acbf-4d60-ad84-6f4e3c46d9be",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=tongareefsurvey2016"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Smallhorn-West P, Stone K, Ceccarelli D (2022): Tonga reef fish survey data 2016-2018. v1.0. Southwestern Pacific Ocean Biogeographic Information System (OBIS) Node. Dataset/Occurrence. https://nzobisipt.niwa.co.nz/resource?r=tongareefsurvey2016&amp;v=1.0",
+    "version": "2022-06-17T03:37:19.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=tongareefsurvey2016",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-175.405574 -21.132926,-175.405574 -18.15824,-173.91575 -18.15824,-173.91575 -21.132926,-175.405574 -21.132926"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23193",
+            "@type": "Organization",
+            "legalName": "Vava’u Environmental Protection Association",
+            "name": "Vava’u Environmental Protection Association",
+            "url": "https://oceanexpert.org/institution/23193"
+        }
+    ]
+}

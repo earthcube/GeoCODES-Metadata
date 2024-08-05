@@ -1,0 +1,76 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/daeb7864-98e9-4441-95e5-c5544995acc6",
+    "name": "Phytoplankton data collected during cruise 22 of R/V Fiolent (December 1987 - April 1988) in the Indian sector of the Southern Ocean",
+    "description": "Dataset includes phytoplankton data collected during cruise 22 of R/V Fiolent (December 1987 - April 1988) in the Indian sector of the Southern Ocean.",
+    "url": "https://obis.org/dataset/daeb7864-98e9-4441-95e5-c5544995acc6",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phyto_cosmos_cruise22"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bryantseva Yu. (1988). Phytoplankton data collected during cruise 22 of R/V Fiolent (December 1987 - April 1988) in the Indian sector of the Southern Ocean. Dataset published in electronic format by IBSS in 2013, consulted via iOBIS on [date].",
+    "version": "2024-02-26T23:12:31.000Z",
+    "keywords": [
+        "Fiolent",
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Cellvolume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CELLVOLM/",
+            "description": "Cellvolume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "individualcount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1987/1988",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phyto_cosmos_cruise22",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "49.96 -69,49.96 -60,80 -60,80 -69,49.96 -69"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

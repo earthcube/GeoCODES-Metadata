@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/03b0c6d9-af92-4ea5-a5b5-f0dfd98ed47e",
+    "name": "Zooplankton Abundance_Umbrella net_sea ice zone 2007/12",
+    "description": "Zooplankton were collected during the winter-spring transition during two cruises of the Aurora Australis: SIPEX in 2007 and SIPEX II in 2012. The umbrella net was 2 metres long, 28 cm2 mouth area and mesh size of 100 um. The net was lowered through holes drilled through the pack ice and lowered to 100 m. It was pulled slowly by hand to the surface, closed and brought back through the ice hole. The contents were preserved in 5% buffered formaldehyde and examined under a Leica M12 in the laboratory. Species were identified to the lowest taxon possible.\nQuality control:There were no problems encountered with this dataset.\n\nAustralian Antarctic Data Centre Note - 2018-07-04:\nThe original datasheet was reformatted to fit GBIF/IPT Biodiversity.AQ standard. The new datasheet \"ZooplanktonSIPEX_I_II.csv\" provides the dataset ID, event ID (cruise and station), sampling protocol, verbatim latitude and verbatim longitude that were converted to decimal latitude and longitude (also provided), continent, country, occurrence, basis of record, organism quantity (Abundance in individual per m3), sex and life stage. The taxonomical organisation is provided to the lowest taxonomical rank that could be determined, after matched in WoRMS (World Register of Marine Species).",
+    "url": "https://obis.org/dataset/03b0c6d9-af92-4ea5-a5b5-f0dfd98ed47e",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=zooplankton_sipex"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Swadling, K. (2017, updated 2018) Zooplankton Abundance_Umbrella net_sea ice zone - doi:10.4225/15/5a17970b29772",
+    "version": "2018-09-26T03:47:55.000Z",
+    "keywords": [
+        "SIPEX",
+        "SIPEX II",
+        "Zooplankton",
+        "PLANKTON NETS",
+        "BIOTA",
+        "OCEANS",
+        "R/V AA &gt; R/V Aurora Australis",
+        "BIOSPHERE &gt; ECOSYSTEMS &gt; AQUATIC ECOSYSTEMS &gt; PLANKTON &gt; ZOOPLANKTON",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=zooplankton_sipex",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "116.0593 -65.2648,116.0593 -64.4037,121.65 -64.4037,121.65 -65.2648,116.0593 -65.2648"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18077",
+            "@type": "Organization",
+            "legalName": "University of Tasmania",
+            "name": "University of Tasmania",
+            "url": "https://oceanexpert.org/institution/18077"
+        }
+    ]
+}

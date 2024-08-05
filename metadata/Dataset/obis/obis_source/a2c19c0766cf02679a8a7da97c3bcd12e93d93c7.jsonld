@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/79dbeea9-5ff2-49fd-b818-b7c114fc2037",
+    "name": "PANGAEA - Data from the Skagerrak experiment (SKAGEX)",
+    "description": "A joint international investigation in the Skagerrak area, the Skagerrak Experiment (SKAGEX) was carried out from spring 1990 to spring 1991. Four field phases (SKAGEX I-IV) were carried out, and 17 research ships from 7 countries participated.",
+    "url": "https://obis.org/dataset/79dbeea9-5ff2-49fd-b818-b7c114fc2037",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pangaea_2327"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dybern, B I; Dahlin, Hans; Dubra, Juozas; Fennel, Wolfgang; Fogelqvist, Elisabet; Foyn, Lars; Gaul, Horst; Hansen, Hans Peter; Hernroth, Lars; Johannessen, Ola M; Krol, Tadeusz; Lange, Wolfgang; Lindahl, O; Slaczka, W; Talpsepp, L; Vitautas, A; SKAGEX Members (2007): Physical, chemical and biological oceanography from the Skagerrak Experiment (SKAGEX). International Council for the Exploration of the Sea, Copenhagen",
+    "version": "2024-02-26T23:18:57.000Z",
+    "keywords": [
+        "lowered unmanned submersible",
+        "ship",
+        "Phytoplankton",
+        "Zooplankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/1991",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pangaea_2327",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "6.9833 56.7,6.9833 59.0083,11.525 59.0083,11.525 56.7,6.9833 56.7"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

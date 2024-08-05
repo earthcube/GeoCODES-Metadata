@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c51bd401-4ccc-4550-a35c-1b00e521e720",
+    "name": "fish from RCO reference collection",
+    "description": "Fishes of Reference Collection of Research Center for Oceanography-LIPI",
+    "url": "https://obis.org/dataset/c51bd401-4ccc-4550-a35c-1b00e521e720",
+    "sameAs": [
+        "http://obis.lipi.go.id:8080/ipt/resource?r=fishrefcol"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Oktaviany S (2019): fish from RCO reference collection. v1.0. No organisation. Dataset/Occurrence. http://obis.lipi.go.id:8080/ipt/resource?r=fishrefcol&amp;v=1.0",
+    "version": null,
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1975/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://obis.lipi.go.id:8080/ipt/archive.do?r=fishrefcol",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "95.3467 -10.6042,95.3467 8.7156,136.069 8.7156,136.069 -10.6042,95.3467 -10.6042"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18092",
+            "@type": "Organization",
+            "legalName": "Pusat Penelitian Oseanografi. Lemabga Ilmu Pengetahuan Indonesia",
+            "name": "Pusat Penelitian Oseanografi. Lemabga Ilmu Pengetahuan Indonesia",
+            "url": "https://oceanexpert.org/institution/18092"
+        }
+    ]
+}

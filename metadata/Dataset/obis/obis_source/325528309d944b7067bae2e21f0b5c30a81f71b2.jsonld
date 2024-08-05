@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/af43ae80-11b6-467a-a902-822ba33377d8",
+    "name": "WADFW PSAMP W1998",
+    "description": "Original provider:\nWashington Department of Fish &amp; Wildlife\n\nAbstract:\nThe metadata edits are in progress. Please contact the contact person for detail.\n\nAerial surveys of marine birds have been conducted annually since 1992 by the Puget Sound Ambient Monitoring Program (PSAMP) staff during both a summer (July) and a winter (December to early February) survey window, sampling some part of every portion of the marine shoreline of the inner marine waters of Washington state by two strata:  nearshore (&lt; 20 meters in depth) and offshore (&gt; 20 meters in depth).  \n\nThe datasets are split by season (summer or winter) and year.\n\nPurpose:\nThe purpose of this program is to monitor population trends of either summer or winter resident species rather than migrations around Puget Sound.\n\nSupplemental information:\n[2020-09-30] The following invalid species names were corrected according to the Integrated Taxonomic Information System (ITIS).\nBonaparte's Gull: Larus philadelphia (176839) =&gt; Chroicocephalus philadelphia (824040)\nAnas oustaleti (202228) =&gt; Anas platyrhynchos (175063)\n\nData correction Mar 17, 2006:\nWrong ITIS number for Unidentified Sea Lion\n180623 -&gt; 180615\n\nData correction Mar 14, 2006:\nWrong ITIS number for Unidentified [Large|Small] Gulls\n180297 -&gt; 176802\n\nThe nearshore strata were sampled in two fashions: \n1)in nearshore habitat that was relatively narrow, the plane flew parallel to the shoreline generally 100 meters from the high tide line; \n2)in nearshore habitat with broad extensive shallow areas such as river estuaries, the plane flew in an S-pattern to sample a larger proportion of the habitat available in that locality.  The offshore strata were sampled in a crisscross pattern that zigzagged back and forth across depth contours, with an attempt made to cut across most all banks and similar major underwater bathymetric features.  There was no attempt made to survey during the same tidal stage in these areas.\n\nThe survey always began in the southernmost study areas and proceeded to the northern portions; therefore the same areas were usually sampled during the same time of month each year, give or take a week.  The last two summer surveys (1997-98) did not include the southern and central portions of Puget Sound, due to budget cuts.  These areas were chosen to be continued on a less frequent basis because low and consistent numbers of birds were seen there during the July survey window in the previous five summer surveys.\n\nEffort data is provided in separate files.",
+    "url": "https://obis.org/dataset/af43ae80-11b6-467a-a902-822ba33377d8",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_248"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Evenson, J. and D. Kraege. 2013. WADFW PSAMP W1998. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/248) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:07:38.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Seabirds,Aircraft,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_248",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-124.6804 47.0461,-124.6804 49.0085,-122.2019 49.0085,-122.2019 47.0461,-124.6804 47.0461"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

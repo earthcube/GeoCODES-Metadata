@@ -1,0 +1,103 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/85cad20d-d596-482e-bb90-7475de8720d7",
+    "name": "Fish sampling, Peel-Harvey Estuary, Western Australia (2009-2011)",
+    "description": "The Peel-Harvey Estuary was divided into five regions; the Entrance Channel, Eastern Peel Inlet, Western Peel Inlet, Northern Harvey Estuary and Southern Harvey Estuary. Within each region four sites were sampled seasonally over two years (total of 8 sampling occasions). At each site, sampling of fish was conducted using seine nets with length and weight of all collected fish measured. In addition, water temperature, salinity, dissolved oxygen were measured at each site. The aim of the study is to develop cost-effective strategies for monitoring the fish community.\nThis dataset consists of 58,000 fish length measurements and 2500 catch composition records with catch weights. Data and metadata from WAMSI Node 4.2.1a - Bioregional level assessments based on fishery dependent and/or fishery independent data - Peel-Harvey Estuary (https://catalogue.aodn.org.au/geonetwork/srv/eng/metadata.show?uuid=3de3c432-e3ce-4f4e-8369-9395cf253308) and accessed 2021-08-15",
+    "url": "https://obis.org/dataset/85cad20d-d596-482e-bb90-7475de8720d7",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=wamsi_421a"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-07T05:49:18.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved Oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYZZXX/",
+            "description": "Dissolved Oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net",
+            "url": "",
+            "description": "Net"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/PSAL",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01",
+            "description": "Water Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weed cover",
+            "url": "",
+            "description": "Weed cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01",
+            "description": "Total weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=wamsi_421a",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "115.64293 -32.75065,115.64293 -32.5281,115.75772 -32.5281,115.75772 -32.75065,115.64293 -32.75065"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/15539",
+            "@type": "Organization",
+            "legalName": "Murdoch University",
+            "name": "Murdoch University",
+            "url": "https://oceanexpert.org/institution/15539"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

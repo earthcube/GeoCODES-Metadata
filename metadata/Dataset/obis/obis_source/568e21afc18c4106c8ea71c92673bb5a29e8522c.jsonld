@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3cd94a39-6a58-4f0e-9c74-e044e7a0e737",
+    "name": "Zooplankton Eastern Arctic Ocean Polarstern, 1995-1998",
+    "description": "This dataset comprises 14041 records of zooplankton abundances from the Eastern Arctic Ocean from Polarstern cruises during 1995--1998.",
+    "url": "https://obis.org/dataset/3cd94a39-6a58-4f0e-9c74-e044e7a0e737",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=arc_2009p6"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Originator: Kosobokova K.N., Hirche H Publication_Date: 2009 Title: Zooplankton Eastern Arctic Ocean 1995, 1996, 1997, 1998 (Polarstern ARK-XI/1, ARK-XII, ARK-XIII, ARK XIV) Geospatial_Data_Presentation_Form: database Series_Information: Series_Name: Progress in Oceanography Issue_Identification: 82:265-280",
+    "version": "2019-10-02T13:40:06.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=arc_2009p6",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "90.7799987793 78,90.7799987793 86.1600036621,177.059997559 86.1600036621,177.059997559 78,90.7799987793 78"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        }
+    ]
+}

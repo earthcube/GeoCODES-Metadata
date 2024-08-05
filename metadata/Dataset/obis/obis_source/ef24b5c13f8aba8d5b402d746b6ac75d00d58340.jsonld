@@ -1,0 +1,119 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1e5d0fc6-161d-46e6-bdc4-7d33bca644c6",
+    "name": "Joint Open Sea Surveys 2017, Improving Environmental Monitoring in the Black Sea - Phase II (EMBLAS-II), ENPI/2013/313-169, (Phytoplankton)",
+    "description": "Phytoplankton data: species composition, volume of the cell [µm3], abundance [*1000cells/l], biomass (mg/m3) and Carbon biomass collected during the Joint Open Sea Survey (JOSS UA - GE 2017) in the Black Sea waters (Transects Odessa - Batumi) onboard the R/V \"Mare Nigrum\" (Romania) in August - September 2017",
+    "url": "https://obis.org/dataset/1e5d0fc6-161d-46e6-bdc4-7d33bca644c6",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=jossge-ua2017_phytoplankton"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Grandova M., Terenko G., Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES); (2020): Joint Open Sea Surveys 2017, Improving Environmental Monitoring in the Black Sea - Phase II (EMBLAS-II), ENPI/2013/313-169, (Phytoplankton)",
+    "version": "2024-02-26T23:14:33.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Biological sampling",
+        "lowered unmanned submersible",
+        "research vessel",
+        "Mare Nigrum",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WWBMM00Z/",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Carbon biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL12/",
+            "description": "Carbon biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Stage of the cell",
+            "url": "",
+            "description": "Stage of the cell"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "analysis instrument",
+            "url": "",
+            "description": "analysis instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYAAOP/",
+            "description": "Dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Diameter1 of the cell",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDDM/",
+            "description": "Diameter1 of the cell"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length of the cell",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length of the cell"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=jossge-ua2017_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "31.016666666667 41.783333333333,31.016666666667 46.383333333333,41.216666666667 46.383333333333,41.216666666667 41.783333333333,31.016666666667 41.783333333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

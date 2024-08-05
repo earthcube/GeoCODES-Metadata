@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8d59cdce-1791-417d-abbc-400de4cc63ec",
+    "name": "Palau Marine Turtle Conservation and Monitoring Program (aggregated per 1-degree cell)",
+    "description": "Original provider:\nBureau of Marine Resources, Palau\n\nDataset credits:\nData provider\nMarine Turtle Conservation and Monitoring Program, BMR Palau\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\n\n\nAbstract:\nMore data on marine turtle abundance, distribution, nesting success, mortality, and movement throughout the Republic of Palau must be gathered to better ensure the survival and restoration of healthy turtle populations.  The Palau Marine Turtle Conservation and Monitoring Program’s goal is to continue to assess, publicize, and improve the current status of the critically endangered hawksbill turtle, Eretmochelys imbricata, as well as the threatened green turtle, Chelonia mydas.  The nation-wide turtle program, initiated in September of 2004, has established a national management program that includes nesting beach monitoring, flipper tagging, satellite transmitter tracking, and foraging surveys.  This program is the catalyst for collaborative efforts with local, regional, and international partners to improve turtle management in Palau.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=188\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/8d59cdce-1791-417d-abbc-400de4cc63ec",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_381_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Eberdong J. 2022. Palau Marine Turtle Conservation and Monitoring Program. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/381) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=188).",
+    "version": "2022-05-02T21:10:09.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_381_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-122.5 -53.5,-122.5 47.5,176.5 47.5,176.5 -53.5,-122.5 -53.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

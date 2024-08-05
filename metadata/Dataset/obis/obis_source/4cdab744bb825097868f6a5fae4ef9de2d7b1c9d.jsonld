@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5b32b27c-2042-4521-a010-fa84ce92c0d7",
+    "name": "Breeding success of Southern Australian little penguins, Australia (1990-2017)",
+    "description": "Breeding success (counts of eggs, fledgings, nestlings) of Little Penguins (Eudyptula minor) at 10 colonies in South Australian over a nonconsecutive 28-yr time period. Data from Flinders University Research Datasets (https://doi.org/10.25957/dyv5-4a64).",
+    "url": "https://obis.org/dataset/5b32b27c-2042-4521-a010-fa84ce92c0d7",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=flinders_lipe_colony_nests"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Bianca Johnson, Diane Colombelli-Négrel (2021) Breeding success in Southern Australian Little Penguins is negatively correlated with high wind speeds and sea surface temperatures. \nOrnithological Applications, Volume 123, Issue 1, 1 February 2021,  https://doi.org/10.1093/ornithapp/duaa062",
+    "version": "2022-06-07T05:30:38.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=flinders_lipe_colony_nests",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "137.2007 -35.982,137.2007 -35.1166,138.63 -35.1166,138.63 -35.982,137.2007 -35.982"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

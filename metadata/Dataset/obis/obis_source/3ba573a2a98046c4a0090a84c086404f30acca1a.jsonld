@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/318ced6a-41c2-4a6e-a270-61c7f342f4ea",
+    "name": "Fish species counts in 3, 20x40 m transects, Panama, 1980-2010",
+    "description": "This dataset present fish species counts in three 20x40 m transects. The surveys were conducted at the Uva Island coral reef (7o48’46”N, 81o45’35”W), Gulf of Chiriquí, Panama from 1980 to 2010 during both the wet and dry seasons. For a complete list of measurements, refer to the full dataset description in the supplemental file 'Dataset_description.pdf'. The most current version of this dataset is available at: https://www.bco-dmo.org/dataset/516234",
+    "url": "https://obis.org/dataset/318ced6a-41c2-4a6e-a270-61c7f342f4ea",
+    "sameAs": [
+        "https://ipt.obis.org/secretariat/resource?r=coiba-glynn-fong-2014",
+        "https://doi.org/10.25607/orijco"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Glynn P, Fong P, Earl C (2023). Fish species counts in 3, 20x40 m transects, Panama, 1980-2010. Version 2.0. OBIS Secretariat. Occurrence dataset. https://doi.org/10.25607/orijco",
+    "version": "2023-10-03T01:44:05.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/2010",
+    "identifier": {
+        "@id": "https://doi.org/10.25607/orijco",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/orijco",
+        "url": "https://doi.org/10.25607/orijco"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.obis.org/secretariat/archive.do?r=coiba-glynn-fong-2014",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.7590499999921 7.81464000001434,-81.7590499999921 7.81486500001307,-81.7589649999912 7.81486500001307,-81.7589649999912 7.81464000001434,-81.7590499999921 7.81464000001434"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18439",
+            "@type": "Organization",
+            "legalName": "United Nations Educational, Scientific and Cultural Organization",
+            "name": "United Nations Educational, Scientific and Cultural Organization",
+            "url": "https://oceanexpert.org/institution/18439"
+        }
+    ]
+}

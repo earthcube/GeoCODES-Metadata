@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bf742ba6-3957-448f-b5bc-d7beb39dc1f6",
+    "name": "Shallow-water fauna of Sagami Bay",
+    "description": "This dataset contains data of shallow-water fauna of Sagami bay which were collected during biological observation meeting by Discover Blue and citizen.",
+    "url": "https://obis.org/dataset/bf742ba6-3957-448f-b5bc-d7beb39dc1f6",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=disbl_lwto-kanagawa"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the\n                 Public Domain (CC0 1.0)",
+    "citation": "Discover Blue (2015). Shallow-water fauna of Sagami Bay investigated by Discover Blue (DISBL). Accessed at http://www.godac.jamstec.go.jp/bismal/j/DISBL_LWTO-KANAGAWA on YYYY-MM-DD.",
+    "version": "2023-06-10T07:19:01.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=disbl_lwto-kanagawa",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "139.161404 35.141123,139.161404 35.236453,139.270567 35.236453,139.270567 35.141123,139.161404 35.141123"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19596",
+            "@type": "Organization",
+            "legalName": "Discover Blue",
+            "name": "Discover Blue",
+            "url": "https://oceanexpert.org/institution/19596"
+        }
+    ]
+}

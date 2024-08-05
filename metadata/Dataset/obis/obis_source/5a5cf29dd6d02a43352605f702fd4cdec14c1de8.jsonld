@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ca3abe4d-379e-4d65-a90f-8c5514491972",
+    "name": "DFO Maritimes Region Seal Aerial Surveys",
+    "description": "Visual counts of grey and harbor seals were made during 5 helicopter surveys in 1985-87 and 1991-92 along the coast and offshore islands of the Bay of Fundy region from Machias Seal Island to Quaco Head, New Brunswick, and from Parkers Cove to Cape Sable Island, Nova Scotia. The OBIS collection is a subset of the report's dataset containing species distribution information with presence information only (no abundance or biomass estimates).",
+    "url": "https://obis.org/dataset/ca3abe4d-379e-4d65-a90f-8c5514491972",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=dfo_mar_seals_fowler_as"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Stobo, W.T., Fowler, G.M. 2012. DFO Maritimes Region Seal Aerial Surveys. OBIS Canada Digital Collections. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Digital, retrieved from http://iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/1992",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=dfo_mar_seals_fowler_as",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.0576019287 43.4869995117,-67.0576019287 45.2540016174,-65.1231002808 45.2540016174,-65.1231002808 43.4869995117,-67.0576019287 43.4869995117"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

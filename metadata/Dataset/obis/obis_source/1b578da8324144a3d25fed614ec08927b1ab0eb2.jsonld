@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/937da8a1-06b0-40ad-8ea4-af9db9490081",
+    "name": "BOLD - Australian records",
+    "description": "Barcode of Life data extract, October 2010\n\nBarcode of Life Data Systems (BOLD) is an informatics workbench aiding the acquisition, storage, analysis and publication of DNA barcode records. By assembling molecular, morphological and distributional data, it bridges the traditional bioinformatics chasm. BOLD is freely available to any researcher with interests in DNA Barcoding. By providing specialized services, it aids in the assembly of records that meet the standards needed to gain BARCODE designation in the global sequence databases. Because of its web-based delivery and flexible data security model, it is also well positioned to support projects that involve broad research alliances.\nData sourced from the Atlas of Living Australia (December 2018) https://collections.ala.org.au/public/show/dr375. Taxa have been matched to the World Register of Marine Species: WoRMS (www.marinespecies.org) and only marine records have been published.",
+    "url": "https://obis.org/dataset/937da8a1-06b0-40ad-8ea4-af9db9490081",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_dr375"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Page R D M (2016). International Barcode of Life project (iBOL). Institute of Biodiversity, Animal Health and Comparative Medicine, College of Medical, Veterinary and Life Sciences, University of Glasgow. Occurrence Dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2017-06-23.",
+    "version": "2022-06-08T05:03:26.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1965/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_dr375",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "67.083 -56.733,67.083 -9.367,168.41701 -9.367,168.41701 -56.733,67.083 -56.733"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

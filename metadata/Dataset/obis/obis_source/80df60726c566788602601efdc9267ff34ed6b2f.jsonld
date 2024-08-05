@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4732665a-947e-426c-b58c-25a10d98d35d",
+    "name": "Zooplankton of the South and South-Western Portuguese Coast in Winter 2006-07",
+    "description": "The objective of this data collection was to collect plankton samples to allow the analysis of the spatial and temporal distribution of decapod larvae in the water column in the south and southwestern Portuguese coast and to assess its correlations with environmental parameters.",
+    "url": "https://obis.org/dataset/4732665a-947e-426c-b58c-25a10d98d35d",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=lobassess"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "dos Santos A, Marraccini A, Niza H (2022): Zooplankton of the South and South-Western Portuguese Coast in Winter 2006-07. v1.9. IPMA - Instituto Português do Mar e da Atmosfera. Dataset/Samplingevent",
+    "version": "2023-05-23T11:29:56.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gender of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Gender of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=lobassess",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-9.5 36.6,-9.5 38.33333333,-7.616666667 38.33333333,-7.616666667 36.6,-9.5 36.6"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14932",
+            "@type": "Organization",
+            "legalName": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "name": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "url": "https://oceanexpert.org/institution/14932"
+        }
+    ]
+}

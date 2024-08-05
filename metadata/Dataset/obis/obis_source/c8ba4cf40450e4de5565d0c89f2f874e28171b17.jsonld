@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/44d02422-9ead-4392-8e0b-39aaefe2ce01",
+    "name": "ZooplanktonBeaufortSeaNOGAP1",
+    "description": "To assess species composition, abundance, distribution and biomass of zooplankton across locations of the Canadian Beaufort Sea Shelf.",
+    "url": "https://obis.org/dataset/44d02422-9ead-4392-8e0b-39aaefe2ce01",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=arcod_2006p3"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hopky, G.E. Lawrence, M.J. and Chiperzak, D.B.; Central and Arctic Region, Department of Fisheries and Oceans, Winnipeg, Manitoba R3T 2N6. (1994) NOGAP B2; Zooplankton Data from the Canadian Beaufort Sea Shelf, 1984 and 1985. Canadian Data Report of Fisheries and Aquatic Sciences: 922.",
+    "version": "2019-08-26T14:16:40.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=arcod_2006p3",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-139.020004272 69.1999969482,-139.020004272 70.3300018311,-131 70.3300018311,-131 69.1999969482,-139.020004272 69.1999969482"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/405eca39-cdda-4dcf-8cce-62a66320b32f",
+    "name": "ACCDC: Rare Species in Atlantic Canada and Adjacent Marine Waters",
+    "description": "The Atlantic Canada Conservation Data Centre (ACCDC) collects data on rare species and natural communities in New Brunswick, Nova Scotia, Prince Edward Island, Newfoundland, and Labrador and in adjacent marine waters. To determine which species are rare, the ACCDC develops sub-national (i.e. provincial) rarity ranks, or S-ranks, for each jurisdiction. These ranks are established with provincial and regional scientists, using available data and expert knowledge. This dataset represents occurrence records for rare species of: a) marine birds; b) anadromous fish; c) rare marine mammals for coasts and rivers in these five terrestrial jurisdictions plus the Bay of Fundy.\n\nACCDC gathered rare marine species occurrence information from a wide variety of sources, including the Canadian Wildlife Service, Department of Fisheries and Oceans, the University of New Brunswick and the North Atlantic Right Whale Consortium, georeferenced the data and compiled it into ACCDC database format.",
+    "url": "https://obis.org/dataset/405eca39-cdda-4dcf-8cce-62a66320b32f",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=accd"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lautenschlager, R. A., Bredin, K. (2004). Rare Species in Atlantic Canada and Adjacent Marine Waters. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-04-16T11:03:33.000Z",
+    "keywords": [
+        "Atlantic Ocean",
+        "Northwest Atlantic",
+        "Mammals",
+        "Extinction Rate",
+        "Endangered Species",
+        "Bay of Fundy",
+        "Gulf of St. Lawrence",
+        "Nova Scotia",
+        "New Brunswick",
+        "Prince Edward Island",
+        "Gulf Of Maine",
+        "Marine Mammals",
+        "GCMD",
+        "Fish data",
+        "SeaBirds",
+        "Whales",
+        "Biodiversity",
+        "Rare Species",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1929/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=accd",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.6826934814453 0,-68.6826934814453 56.4333610534668,0 56.4333610534668,0 0,-68.6826934814453 0"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

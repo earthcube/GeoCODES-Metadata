@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0b3b51a1-35e8-424c-a33f-7631d16397fb",
+    "name": "A Record of the Intertidal Malacofauna of Cape Bansho, Wakayama, Japan, from 1985 to 2010",
+    "description": "Dataset includes the species composition of mollusks on a rocky intertidal platform in Cape Bansho, Wakayama, Japan from 1985 to 2010. The data were digitized from the paper processing book: \"Ohgaki et al. (2011) A record of the intertidal malacofauna of Cape Bansho, Wakayama, Japan, from 1985 to 2010. Publications of the Seto Marine Biological Laboratory Special Publication Series 11:1-311\". The data were also quality-controlled and transformed to comply with the Darwin Core/OBIS Schema.",
+    "url": "https://obis.org/dataset/0b3b51a1-35e8-424c-a33f-7631d16397fb",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=seto_marine_biological_laboratory_ohgaki2011"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the\n                 Public Domain (CC0 1.0)",
+    "citation": "Ohgaki, S., K. Komemoto and N. Funayama (2011) A record of the intertidal malacofauna of Cape Bansho, Wakayama, Japan, from 1985 to 2010. Publications of the Seto Marine Biological Laboratory Special Publication Series, 11, 1-311. Dataset published in electronic format in 2020.",
+    "version": "2024-03-25T02:47:24.000Z",
+    "keywords": [
+        "Occurrence",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "density",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "cover",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "cover"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=seto_marine_biological_laboratory_ohgaki2011",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8299",
+            "@type": "Organization",
+            "legalName": "Seto Marine Biological Laboratory, Graduate School of Science, Kyoto University",
+            "name": "Seto Marine Biological Laboratory, Graduate School of Science, Kyoto University",
+            "url": "https://oceanexpert.org/institution/8299"
+        }
+    ]
+}

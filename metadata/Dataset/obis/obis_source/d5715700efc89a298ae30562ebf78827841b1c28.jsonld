@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/200898fc-2229-433d-abe5-db9eb084152d",
+    "name": "Steinbock (1937) Turbellaria XIV. The fishery grounds near Alexandria. Notes and Memories of the Fisheries Directorate of Egypt, No. 25",
+    "description": "Turbellarians (Phylum Platyhelminthes) collected by Professor Steurer during his stay in Alexandria (1933), including two new species to science.",
+    "url": "https://obis.org/dataset/200898fc-2229-433d-abe5-db9eb084152d",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=egyptexpeditionturbellaria"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Gerovasileiou Vasilis, Dimitra Mavraki, Nikolopoulou Stamatina (2020). Digitization of The fishery grounds near Alexandria. Turbellaria XIV. Notes and Memories of the Fisheries Directorate of Egypt, No. 25. ",
+    "version": "2020-04-03T16:43:48.000Z",
+    "keywords": [
+        "Metadata",
+        "Historical dataset",
+        "Egypt Expedition",
+        "Turbellaria",
+        "Platyhelminthes"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "individualcount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1933/1933",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=egyptexpeditionturbellaria",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.725917 31.099868,29.725917 31.386934,29.977202 31.386934,29.977202 31.099868,29.725917 31.099868"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e5d5eb76-532a-48c4-9d02-705f68486ebb",
+    "name": "CWS: Waterbird colony database (Atlantic region)",
+    "description": "The Canadian Wildlife Service maintains a waterbird colony database which holds colony census information such as counts of birds, nests, burrows, and holes observed at individual seabird colonies located in the Atlantic region of Canada. The methods used to conduct censuses are varied as it is not possible to regularly visit every colony. Each record in the colonies database census table references the census method.\n\nVersion 1 of this resource contains presence information of adult birds only. Future versions may contain more information. In the meantime please contact CWS directly should you require more information.",
+    "url": "https://obis.org/dataset/e5d5eb76-532a-48c4-9d02-705f68486ebb",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=cws_atlantic_colonydbase"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Wilhelm, Sabina (2017) CWS: Waterbird colony database (Atlantic region).\nVersion 1. In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-04-16T11:33:07.000Z",
+    "keywords": [
+        "pelagic seabird surveys; marine birds; Canadian Wildlife Service; distance sampling; distribution; abundance; density; standardized survey protocol;",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1883/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=cws_atlantic_colonydbase",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.78423 43.39672,-68.78423 60.27963,-52.64202 60.27963,-52.64202 43.39672,-68.78423 43.39672"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19284",
+            "@type": "Organization",
+            "legalName": "Canadian Wildlife Service - Atlantic Region",
+            "name": "Canadian Wildlife Service - Atlantic Region",
+            "url": "https://oceanexpert.org/institution/19284"
+        }
+    ]
+}

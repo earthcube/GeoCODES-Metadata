@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a997444d-a449-4b83-a321-2ff40151b215",
+    "name": "Gulper shark line selectivity project - Data 2011-2012",
+    "description": "Observer data collected from two small fishing vessels operating on the eastern seaboard during 2011 and 2012. Both vessels using the 'minor-line' fishing method on eastern seamounts, Fraser, Queensland, Recorder, Britania, Taupo and Barcoo. These vessels targeting Blue-eye Trevalla but also catch Harrisson's dogfish (Centrophorus harrissoni). Data comprised of complete catch composition (i.e. every fish put on deck was recorded) and partial length frequency mainly for Blue-eye and Harrisson's. Blue-eye otoliths also collected for another project examining population age structure. This information required to feed into management strategy for gulper sharks and also for designation of MPA's.",
+    "url": "https://obis.org/dataset/a997444d-a449-4b83-a321-2ff40151b215",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_line_selectivity"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Alan Williams, Judy Upston, Mark Green and Ken Graham (2016) Selective commercial line fishing and biodiversity conservation co-exist on seamounts in a deepwater marine reserve. Fisheries Research Volume 183, November 2016, Pages 617-624 https://doi.org/10.1016/j.fishres.2016.02.015",
+    "version": "2022-06-08T04:28:35.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gear",
+            "url": "",
+            "description": "Gear"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_line_selectivity",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "154.9133 -33.3633,154.9133 -24.4167,158.315 -24.4167,158.315 -33.3633,154.9133 -33.3633"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

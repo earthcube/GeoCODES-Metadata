@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4f1bd082-01de-43af-9faa-510eb483bdc0",
+    "name": "Harpacticoida from a monitoring survey in the Black Sea in 2000-2001",
+    "description": "Field long-term monitoring survey of ecologically intact zone (control) within the human-impacted area at north-western part of the Black Sea.",
+    "url": "https://obis.org/dataset/4f1bd082-01de-43af-9faa-510eb483bdc0",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=black_sea_harpacticoida",
+        "https://dx.doi.org/10.14284/147"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Garlitska, L.; Moscow State University. 2001. Harpacticoida from a monitoring survey in the Black Sea in 2000-2001. https://dx.doi.org/10.14284/147",
+    "version": "2023-05-23T11:32:02.000Z",
+    "keywords": [
+        "Long term follow up",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2001",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/147",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/147",
+        "url": "https://dx.doi.org/10.14284/147"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=black_sea_harpacticoida",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "30.990333 46.600167,30.990333 46.655,31.022167 46.655,31.022167 46.600167,30.990333 46.600167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

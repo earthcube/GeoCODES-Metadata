@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f072e2e5-6b80-4eb4-9806-0f4c3d2fe3b4",
+    "name": "Australian Museum Mel Ward’s Crustaceans - Cabinets 2 to 7, (1896 - 1988)",
+    "description": "Charles Melbourne Ward (1903-1966) was an actor, naturalist and marine collector. At the age of 23 years, he abandoned the stage for marine zoology after he discovered a red crab which was named Cleistostama wardi after him. &nbsp;Mel worked overseas, travelled widely collecting artefacts and zoological specimens which led to published papers in Australian and international scientific journals. He collected for the Australian Museum and donated his scientific collections and library to the Museum\nThis dataset is sourced from the Atlas of Living Australia (ALA) January 2019 (https://collections.ala.org.au/public/show/dr1172 dr1180 dr1181 dr1175 dr1177 ). Taxa have been matched to the World Register of Marine Species (WoRMS) and if not then matched to the Australian Faunal Directory (AFD)",
+    "url": "https://obis.org/dataset/f072e2e5-6b80-4eb4-9806-0f4c3d2fe3b4",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_ward_crustaceans"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-07T05:25:09.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1896/1988",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_ward_crustaceans",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-172.36166 -45.84,-172.36166 66,179 66,179 -45.84,-172.36166 -45.84"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19275",
+            "@type": "Organization",
+            "legalName": "Australian Museum",
+            "name": "Australian Museum",
+            "url": "https://oceanexpert.org/institution/19275"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

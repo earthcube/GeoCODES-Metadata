@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/72bb39c7-7bb4-435c-affc-1aa66a5b2a5b",
+    "name": "Cetacean distribution in the South Atlantic and South Pacific Ocean (AR-OBIS)",
+    "description": "Database containing published information from scientific papers and reports of cetaceans in the Atlantic Ocean, Magellanic region and South Pacific Ocean. Different records encompassing counting, sighting and stranding programs, personal communications with trained individuals, photographs, unpublished abstracts from meetings, books newspaper articles, and specimen collections from academic institutions and museums. The oldest records were accepted by the authors when the documentation and synonymy were reviewed. Distribution at near shore waters of open coast sheltered fjords, bays and river mouths. Peripheral records from farther offshore include reported sightings in Malvinas/Falkland Islands, Drake Passage and the South Shetland islands.",
+    "url": "https://obis.org/dataset/72bb39c7-7bb4-435c-affc-1aa66a5b2a5b",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=arobis-cetaceans"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Reyes L (2015): Cetacean distribution in the South Atlantic and South Pacific Ocean (AR-OBIS). v1.10. ArOBIS Centro Nacional Patagónico. Dataset/Occurrence. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=arobis-cetaceans&amp;v=1.10",
+    "version": "2021-05-17T22:15:29.000Z",
+    "keywords": [
+        "Occurrence",
+        "whales",
+        "dolphins",
+        "stranding",
+        "sightings",
+        "Southwest Atlantic ocean",
+        "Southeast Pacific Ocean",
+        "nearshore",
+        "offshore",
+        "porpoises",
+        "toothed"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1767/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=arobis-cetaceans",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-174 -63.5,-174 -3.6833334,-3 -3.6833334,-3 -63.5,-174 -63.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

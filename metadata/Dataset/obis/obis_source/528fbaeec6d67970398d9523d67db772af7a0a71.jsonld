@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5fa93408-14e2-4c94-ab39-8c87ffb07c71",
+    "name": "Islas Canarias (Proyecto Aegina): juvenile loggerheads (aggregated per 1-degree cell)",
+    "description": "Original provider:\nProyecto Aegina (Canary Islands)\n\nDataset credits:\nData provider\nProyecto Aegina\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nThis satellite project is a collaboration among the Instituto Canario de Ciencias Marinas (ICCM) of the Gobierno de Canarias, the Instituto Nacional de Desenvolvimento das Pescas (INDP), and the Direcção Geral do Ambiente, the latter depending on the Ministerio de Ambiente, Agricultura e Pescas of the Republic of Cabo Verde.The Centro de Recuperación de Fauna Silvestre (Cabildo de Gran Canaria) provides us logistic support for the development of this proyect\nProject sponsor or sponsor description\nThis project was funded by the European Regional Development Fund (FEDER) through the Interreg IIIB Program Açores-Madeira-Canarias, dependent on the European Union.\n\n\nAbstract:\nAegina is a cooperation project between Gobierno de Canarias (Spain) and Republic of Cabo Verde; the main goal of the project is to propose a management plan for the Protected Marine Areas important for the sea turtles at both archipelagos.In the Canary Islands there lives an important juvenile stock of loggerheads, and in Cabo Verde archipelago occurs one of the largest nesting populations of loggerheads in the world.Five transmitters will be deployed on males of the Cabo Verde nesting population, complementary with the ongoing studies of females by Marine Turtle Research Group (Brendan Godley, Lucy Hawkes; see also at Turtle Track). Another ten transmitters will be deployed on juvenile loggerheads in Canary Islands.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=126\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/5fa93408-14e2-4c94-ab39-8c87ffb07c71",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_347_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cruz N. 2021. Islas Canarias (Proyecto Aegina): juvenile loggerheads. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/347) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=126).",
+    "version": "2021-04-24T09:23:48.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_347_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-76.5 19.5,-76.5 54.5,18.5 54.5,18.5 19.5,-76.5 19.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

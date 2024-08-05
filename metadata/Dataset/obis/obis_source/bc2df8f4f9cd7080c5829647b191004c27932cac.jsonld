@@ -1,0 +1,120 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cbb0b14b-27f9-4b4d-a650-e55bdb322a7f",
+    "name": "Datos de monitoreo asociados al indicador de condición tendencias para arrecifes coralinos - ICTac",
+    "description": "Los datos se derivan de la línea de investigación del ICTac: Protocolo Indicador Condición Tendencias de áreas coralinas de los ecosistemas estratégicos marino-costero en Colombia. El protocolo busca establecer indicadores para proveer información sobre la condición y los cambios de los sistemas coralinas para entender, por medio de medidas prácticas y cuantitativas, la salud, integridad y el estado de conservación de estos ecosistemas. En este conjunto de datos se reportan corales duros, macroalgas frondosas y tapete algal, documentados en estaciones de monitoreo del Mar Caribe y Océano Pacífico colombiano, que corresponden a 125.818 registros biológicos obtenidos entre el año 2013 y 2020.",
+    "url": "https://obis.org/dataset/cbb0b14b-27f9-4b4d-a650-e55bdb322a7f",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=invemar_pitac_ecoralina",
+        "https://doi.org/10.15472/wmkitb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Navas Camacho R, Chaparro Acosta A F, Sánchez Valencia L, Corredor González J D, Vega Sequeda J C, Diaz C M, Galeano E, García J L, Cano M, Posada Riaño V, Duque D L, Vargas A, Aponte C, Chirimia H, Payan L, Abirl Howard A, Azcárate R, Meza Prada J F (2022): Datos de monitoreo asociados al indicador de condición tendencias para arrecifes coralinos - ICTac. v1.1. Instituto de Investigaciones Marinas y Costeras - Invemar. Dataset/Samplingevent. https://doi.org/10.15472/wmkitb",
+    "version": "2022-03-07T19:17:44.000Z",
+    "keywords": [
+        "samplingEvent",
+        "Océano Pacífico",
+        "Corales duros",
+        "Macroalgas frondosas y Tapete algal",
+        "Mar Caribe",
+        "samplingEvent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Categorías del sustrato o bentos",
+            "url": "",
+            "description": "Categorías del sustrato o bentos"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Profundidad",
+            "url": "",
+            "description": "Profundidad"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Valor eslabón",
+            "url": "",
+            "description": "Valor eslabón"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/wmkitb",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/wmkitb",
+        "url": "https://doi.org/10.15472/wmkitb"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=invemar_pitac_ecoralina",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.7333333 2.9285,-81.7333333 13.3987167,-71.96114444 13.3987167,-71.96114444 2.9285,-81.7333333 2.9285"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17783",
+            "@type": "Organization",
+            "legalName": "CORALINA",
+            "name": "CORALINA",
+            "url": "https://oceanexpert.org/institution/17783"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17925",
+            "@type": "Organization",
+            "legalName": "Instituto de Investigaciones Marinas y  Costeras",
+            "name": "Instituto de Investigaciones Marinas y  Costeras",
+            "url": "https://oceanexpert.org/institution/17925"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18356",
+            "@type": "Organization",
+            "legalName": "Parques Nacionales Naturales de Colombia",
+            "name": "Parques Nacionales Naturales de Colombia",
+            "url": "https://oceanexpert.org/institution/18356"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18879",
+            "@type": "Organization",
+            "legalName": "Universidad del Valle",
+            "name": "Universidad del Valle",
+            "url": "https://oceanexpert.org/institution/18879"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19053",
+            "@type": "Organization",
+            "legalName": "Sistema de Información sobre Biodiversidad de Colombia - SiB Colombia",
+            "name": "Sistema de Información sobre Biodiversidad de Colombia - SiB Colombia",
+            "url": "https://oceanexpert.org/institution/19053"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19413",
+            "@type": "Organization",
+            "legalName": "Parque Nacional Natural Los Corales del Rosario y de San Bernardo",
+            "name": "Parque Nacional Natural Los Corales del Rosario y de San Bernardo",
+            "url": "https://oceanexpert.org/institution/19413"
+        }
+    ]
+}

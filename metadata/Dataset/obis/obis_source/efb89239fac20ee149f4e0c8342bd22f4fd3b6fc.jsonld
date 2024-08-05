@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8843341c-ddd1-47a0-b4e6-5f37eec9b317",
+    "name": "Pelagic Fish Observations 1968-1999",
+    "description": "This dataset contains data from ten voyages (Prydz Bay, Heard and Macquarie Islands) and four stations (Mawson, Davis, Casey and Macqaurie) from 1968 to 1999. Contains depth caught, sex, lengths, weights and gonad stage. changes.",
+    "url": "https://obis.org/dataset/8843341c-ddd1-47a0-b4e6-5f37eec9b317",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=historic_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "See Metadata record for details http://aadc-maps.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/AADC-00038 http://aadc-maps.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/AADC-00068 http://aadc-maps.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/AADC-00073 http://aadc-maps.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/AADC-00075 http://aadc-maps.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/AADC-00080 http://aadc-maps.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/AADC-00082 http://aadc-maps.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/c88_data",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1968/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=historic_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "30.6200008392 -69.438331604,30.6200008392 -40.0583343506,159.041671753 -40.0583343506,159.041671753 -69.438331604,30.6200008392 -69.438331604"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

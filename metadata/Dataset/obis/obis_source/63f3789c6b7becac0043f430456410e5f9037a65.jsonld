@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/98861cd3-daf5-4da9-9eca-d442d652750d",
+    "name": "BRUVS observations at Ningaloo Marine Park, Western Australia (2019)",
+    "description": "This dataset is BRUVS data from 5 surveys at the Ningaloo Reef, Western Australia in 2019. It is part of the Marine Biodiversity Hub D3 project (https://www.nespmarine.edu.au/project/project-d3-implementing-monitoring-amps-and-status-marine-biodiversity-assets-continental) and has been downloaded from GlobalArchive (https://globalarchive.org/geodata/data/project/get/254) in January 2021. Video and images from the 5 BRUV trips are available at the CSIRO Data Access Portal. See Keesing, John; Langlois, Tim (2021): August 2019 Ningaloo DMR BRUV field trip - part 1of  3. v2. CSIRO. Data Collection. https://doi.org/10.25919/b9r3-x356 and the links to related dataset records.\nGlobalArchive is an online centralised repository of fish image annotation, stereo calibration and associated information that provides the ability to upload data with flexible file formats. It is designed to receive standardised datatable formats directly from EventMeasure (EM) software or from any other image annotation records or historical data sets and provides the ability to explore, query and share this data with other users across different projects and institutions. GlobalArchive is designed for working with annotation data that has already been generated via external sources. It solves the problem of data synthesis providing a centralised repository to work with and query the data, and also provides advanced sharing capability to allow for synthesis and collaboration between users and organisations. GlobalArchive was conceived by Timothy Langlois at the University of Western Australia and brought to life by Ariell Friedman at Greybits Engineering in Sydney.",
+    "url": "https://obis.org/dataset/98861cd3-daf5-4da9-9eca-d442d652750d",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=globalarchive_ningaloo_d3_bruvs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Langlois T, Kessing J (2023): BRUVS observations at Ningaloo Marine Park, Western Australia (2019). v1.9. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=globalarchive_ningaloo_d3_bruvs&amp;v=1.9",
+    "version": "2023-06-20T23:10:13.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Forked Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Forked Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=globalarchive_ningaloo_d3_bruvs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.48775 -22.85016,113.48775 -21.67475,114.09449 -21.67475,114.09449 -22.85016,113.48775 -22.85016"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18840",
+            "@type": "Organization",
+            "legalName": "The University of Western Australia",
+            "name": "The University of Western Australia",
+            "url": "https://oceanexpert.org/institution/18840"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19301",
+            "@type": "Organization",
+            "legalName": "Commonwealth Scientific and Industrial Research Organisation ",
+            "name": "Commonwealth Scientific and Industrial Research Organisation ",
+            "url": "https://oceanexpert.org/institution/19301"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/34988250-4f32-463c-ae8e-ccffcd87604c",
+    "name": "Polychaetes of Northern Australia (species identifications) Australia (2009-2012)",
+    "description": "This dataset contains identifications of polychaetes collected during surveys on the RV Solander in northern Australia: SOL4934 (27 August-24 September, 2009) , SOL5117 (30 July-27 August, 2010), SOL5463 (3-31 May 2012), and SOL5650 (12 September-6 October 2012). Sediment was collected with a Smith McIntyre grab or boxcore and elutriated over a 500um sieve. Elutriated material was then sorted back at Geoscience Australia, and all polychaetes were removed and sent to the Museum and Art Gallery of the Northern Territory (MAGNT). Chris Glasby and Charlotte Watson taxonomically identified each animal to the lowest possible level, differentiating species using established names and operational taxonomic units (OTUs). Specimens are lodged at the MAGNT. See relevant post-survey reports (GA Records 2010/09, 2011/08, 2012/66 and 2013/38) for further details on survey methods and specimen acquisition.\nMetadata record is https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/102241  Post survey voyage reports are at http://dapds00.nci.org.au/thredds/catalog/fk1/Post-survey_reports/catalog.html?dataset=fk1/Post-survey_reports/",
+    "url": "https://obis.org/dataset/34988250-4f32-463c-ae8e-ccffcd87604c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ga_na_polychaetes"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Przeslawski R (2023): Polychaetes of Northern Australia (species identifications) Australia (2009-2012). v1.8. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=ga_na_polychaetes&amp;v=1.8",
+    "version": "2023-06-28T05:48:24.000Z",
+    "keywords": [
+        "Occurrence",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ga_na_polychaetes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "126.92115 -12.846,126.92115 -10.29868,130.06278 -10.29868,130.06278 -12.846,126.92115 -12.846"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10307",
+            "@type": "Organization",
+            "legalName": "Geoscience Australia",
+            "name": "Geoscience Australia",
+            "url": "https://oceanexpert.org/institution/10307"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

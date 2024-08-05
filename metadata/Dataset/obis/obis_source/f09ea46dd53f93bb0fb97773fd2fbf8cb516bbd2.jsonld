@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/987a35d0-a3f3-4050-b8c4-de99b01d8eb6",
+    "name": "Australian Institute of Marine Science - Bioresources Library",
+    "description": "Collection of marine organisms for bioactivity screening, focused in the shallow waters off the coastlines of Queensland and Western Australia, beginning in 1987 and continuing to the present.",
+    "url": "https://obis.org/dataset/987a35d0-a3f3-4050-b8c4-de99b01d8eb6",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=aims_biotech"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Ericson G (2023): Australian Institute of Marine Science - Bioresources Library. v1.10. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=aims_biotech&amp;v=1.10",
+    "version": "2023-06-29T03:11:44.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1987/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=aims_biotech",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "97.643 -77.867,97.643 13.342,175.88 13.342,175.88 -77.867,97.643 -77.867"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        }
+    ]
+}

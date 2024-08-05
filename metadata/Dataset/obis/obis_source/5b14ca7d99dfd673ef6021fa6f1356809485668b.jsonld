@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/33240dba-2900-49e5-af34-fe7464ce98fe",
+    "name": "Phytoplankton abundance and composition from the RADIALES time series programme (N-NW Spain)",
+    "description": "\"Phytoplankton abundance data collected within the framework of the RADIALES time series monitoring program, carried out by the CSIC-IEO. The sampling is undertaken monthly from 1989 at five stations in North and Northwest Spanish shelf.\n\nSamples were taken at several depth strata using Niskin bottles mounted on a CTD rosette. They were fixed with Lugol and preserved until they were analysed at the laboratory under the inverted microscope following the Utermöhl method.\"",
+    "url": "https://obis.org/dataset/33240dba-2900-49e5-af34-fe7464ce98fe",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=radiales_phytopl_test"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Isla A, Aierbe E, Bode A, González-Quirós R, Nogueira E, Scharek R, Valdés L; IEO-CSIC (2022) Phytoplankton abundance and composition from the RADIALES time series programme (N-NW Spain).",
+    "version": "2023-12-08T17:22:21.000Z",
+    "keywords": [
+        "Abundance",
+        "Species composition",
+        "Time series",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling platform name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Sampling platform name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size category",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600270/",
+            "description": "Size category"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=radiales_phytopl_test",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-8.958 42.142,-8.958 43.7,-5.578 43.7,-5.578 42.142,-8.958 42.142"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18010",
+            "@type": "Organization",
+            "legalName": "Instituto Español de Oceanografía",
+            "name": "Instituto Español de Oceanografía",
+            "url": "https://oceanexpert.org/institution/18010"
+        }
+    ]
+}

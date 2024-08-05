@@ -1,0 +1,128 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f9748775-67d9-425c-b934-a38c9ca21611",
+    "name": "Infaunal abundance and biomass from sediment grabs in Belfast Lough as part of a habitat mapping project in 2018",
+    "description": "This dataset contains information on infaunal abundance &amp; biomass from sediment grabs in Belfast Lough as part of a larger &amp; ongoing habitat mapping project. The sediment &amp; infaunal survey was carried out in January 2018 by AFBI and this dataset was integrated into the larger mapping project since 2012.  The project is joint with the British Geological Society and Belfast Harbour with the aim of mapping the seabed floor and updating it from more historical information.",
+    "url": "https://obis.org/dataset/f9748775-67d9-425c-b934-a38c9ca21611",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dasshdt00000395",
+        "https://doi.org/10.17031/l405kk"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Agri-Food and Biosciences Institute (AFBI) (2019): Infaunal abundance and biomass from sediment grabs in Belfast Lough as part of a habitat mapping project in 2018. https://doi.org/10.17031/l405kk",
+    "version": "2023-05-23T11:29:14.000Z",
+    "keywords": [
+        "Benthic infauna",
+        "Corystes",
+        "research vessel",
+        "Seafloor mapping",
+        "surface vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "devicearea",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "devicearea"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "methodqcnotes",
+            "url": "",
+            "description": "methodqcnotes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "qcscheme",
+            "url": "",
+            "description": "qcscheme"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplingdevice",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "samplingdevice"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sievemeshsize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "sievemeshsize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "taxon abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon biomass",
+            "url": "",
+            "description": "taxon biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "platformname",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "platformname"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "platformtype",
+            "url": "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/",
+            "description": "platformtype"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/l405kk",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/l405kk",
+        "url": "https://doi.org/10.17031/l405kk"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dasshdt00000395",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.67495 54.7517,-5.67495 54.795,-5.6185 54.795,-5.6185 54.7517,-5.67495 54.7517"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13220",
+            "@type": "Organization",
+            "legalName": "Agri-Food and Biosciences Institute",
+            "name": "Agri-Food and Biosciences Institute",
+            "url": "https://oceanexpert.org/institution/13220"
+        }
+    ]
+}

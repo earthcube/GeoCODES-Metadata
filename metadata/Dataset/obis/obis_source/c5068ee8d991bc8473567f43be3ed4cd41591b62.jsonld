@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/829267b6-4bd2-408c-a7b8-a246b169f5cc",
+    "name": "Phytoplankton Universidad Arturo Prat",
+    "description": "This dataset contains data from three phytoplankton monitoring projects (PATACHE, CHIPANA 2003 and CHIPANA 2004-2005) in the eastern South Pacific.",
+    "url": "https://obis.org/dataset/829267b6-4bd2-408c-a7b8-a246b169f5cc",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=phytoplankton_unap"
+    ],
+    "license": "Unrestricted",
+    "citation": "Herrera, L., Escribano, R. (2006)",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=phytoplankton_unap",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-70.4589996338 -22.1700000763,-70.4589996338 -20.4740009308,-70.0690002441 -20.4740009308,-70.0690002441 -22.1700000763,-70.4589996338 -22.1700000763"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

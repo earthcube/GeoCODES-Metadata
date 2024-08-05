@@ -1,0 +1,131 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d895e645-a98d-4720-b6fb-332929190f36",
+    "name": "Maritimes Spring Research Vessel Surveys",
+    "description": "The Fisheries and Oceans Canada (DFO) ecosystem surveys consist of research vessel survey data collected to monitor the distribution and abundance of fish and invertebrates throughout the Scotian Shelf, Bay of Fundy and Georges Bank. The surveys follow a stratified random sampling design, and include sampling of fish and invertebrates using a bottom otter trawl. These survey data are the primary data source for monitoring trends in species distribution, abundance, and biological condition within the region, and also provide data to the Atlantic Zonal Monitoring Program (AZMP) for monitoring hydrographic variability. Collected data includes total catch in numbers and weights by species. Length frequency data is available for most species, as are the age, sex, maturity and weight information for a subset of the individual animals. Other data such as ageing material, genetic material, and stomach contents are often also collected, but are stored elsewhere.\n\n“Spring” cruises occur in January, February, March and April, and focus on Georges Bank (i.e. 5Z).",
+    "url": "https://obis.org/dataset/d895e645-a98d-4720-b6fb-332929190f36",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=maritimes_spring_rv_surveys"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Regnier-McKellar C (2021): Maritimes Spring Research Vessel Surveys. v1.2. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=maritimes_spring_rv_surveys&amp;v=1.2",
+    "version": "2022-03-23T20:56:26.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Agricultural",
+        "Aquatic Sciences",
+        "Agriculture",
+        "Animals/Vertebrates",
+        "Aquatic Sciences",
+        "Biological Classification",
+        "Biosphere",
+        "Earth Science",
+        "Ecological Dynamics",
+        "Fish",
+        "Fisheries",
+        "Oceans",
+        "Species/Population Interactions",
+        "Gulf of Maine and Bay of Fundy",
+        "North Atlantic Ocean",
+        "North Atlantic",
+        "Scotian Shelf"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Average tow speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TOWSPEED/",
+            "description": "Average tow speed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "average depth of tow",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600167/",
+            "description": "average depth of tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "duration of tow",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "duration of tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "trawling_distance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "trawling_distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length (fork length)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FL01XX01/",
+            "description": "Length (fork length)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea_Bottom_Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/2/",
+            "description": "Sea_Bottom_Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sea_surface_temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0381/",
+            "description": "sea_surface_temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity_at_bottom",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "salinity_at_bottom"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9769/",
+            "description": "sex"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=maritimes_spring_rv_surveys",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.991167 39.972167,-69.991167 46.483333,-57.216667 46.483333,-57.216667 39.972167,-69.991167 39.972167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

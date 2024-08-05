@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a413df1f-a16e-4384-a846-02650d74eefd",
+    "name": "Solenosmilia matrix annotations and VME habitat identification in video from voyage IN2018_V06, Australia (2018)",
+    "description": "Benthic video collected during the MNF Investigator voyage IN2018_V06, sampling seamounts off Tasmania, were annotated for the matrix-forming stony coral Solenosmilia variabilis (Metadata description in MarLIN). The present data set is a sub-set of the collection, processed for analyses presented in Williams et al. 2020, Frontiers in Marine Science (doi: 10.3389/fmars.2020.00187), where a method of identifying Vulnerable Marine Ecosystem (VME) habitats was applied and tested, using these data.",
+    "url": "https://obis.org/dataset/a413df1f-a16e-4384-a846-02650d74eefd",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=solenosmilia_matrix",
+        "https://doi.org/10.25919/5e7951b49d279"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Williams, Alan; Althaus, Franzis; Green, Mark; Maguire, Kylie; Untiedt, Candice; Mortimer, Nick; Jackett, Chris; Clark, Malcolm; Bax, Nic; Pitcher, Roland; Schlacher, Thomas (2020): Solenosmilia matrix annotations and VME habitat identification in video from voyage IN2018_V06. v1. CSIRO. Data Collection. https://doi.org/10.25919/5e7951b49d279",
+    "version": "2022-06-07T03:07:25.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Percent Cover",
+            "url": "",
+            "description": "Percent Cover"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.25919/5e7951b49d279",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25919/5e7951b49d279",
+        "url": "https://doi.org/10.25919/5e7951b49d279"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=solenosmilia_matrix",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "146.18965 -44.41102,146.18965 -41.23711,148.82643 -41.23711,148.82643 -44.41102,146.18965 -44.41102"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

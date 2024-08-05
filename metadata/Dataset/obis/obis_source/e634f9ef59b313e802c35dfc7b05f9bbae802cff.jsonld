@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/713998f6-4562-4c27-be49-24934e85a967",
+    "name": "Museum and Art Gallery of the Northern Territory Mammal Collection - marine records",
+    "description": "The MAGNT mammal collection, established in 1981, consists of about 8,200 databased specimens, the majority of which are from the Northern Territory.\nThis dataset is of marine species sourced from the Atlas of Living Australia (ALA) January 2019 (https://collections.ala.org.au/public/show/co137). Taxa have been matched to the World Register of Marine Species (WoRMS) and if not then matched to the Australian Faunal Directory (AFD)",
+    "url": "https://obis.org/dataset/713998f6-4562-4c27-be49-24934e85a967",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_co137"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Dally G (2023): Museum and Art Gallery of the Northern Territory Mammal Collection - marine records. v1.7. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=ala_co137&amp;v=1.7",
+    "version": "2023-06-28T04:32:45.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1944/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_co137",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "123.08333 -39.85,123.08333 -9.6,147.9 -9.6,147.9 -39.85,123.08333 -39.85"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

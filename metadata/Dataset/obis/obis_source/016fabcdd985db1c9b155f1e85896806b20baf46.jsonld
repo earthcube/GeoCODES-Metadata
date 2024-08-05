@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5f9b72c9-8d4c-450d-a63c-b54eeed33538",
+    "name": "Kimberley Islands Biodiversity Survey (Birds)",
+    "description": "Dataset collected as part of the Kimberley Islands Biodiversity Survey from 2006 to 2009. Gibson, L.A., Yates, S. &amp; Doughty, P., eds. (2014) Biodiversity values on selected Kimberley islands, Australia. Records of the Western Australian Museum, Supplement 81. Western Australian Museum, Perth.\nData sourced from the Atlas of Living Australia (December 2018) https://collections.ala.org.au/public/show/dr7814. Taxa have been matched to the World Register of Marine Species: WoRMS (www.marinespecies.org) and only marine records have been published.",
+    "url": "https://obis.org/dataset/5f9b72c9-8d4c-450d-a63c-b54eeed33538",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_dr7814"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Kimberley Islands Biodiversity Survey (Birds). NatureMap: Mapping Western Australia's Biodiversity. Department of Environment and Conservation. URL: http://naturemap.dec.wa.gov.au/",
+    "version": "2022-06-07T05:28:01.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_dr7814",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "123.179 -16.6231,123.179 -13.8712,128.30099 -13.8712,128.30099 -16.6231,123.179 -16.6231"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

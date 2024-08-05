@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ccd6e783-32be-4026-8ed8-0b9ca265aeb1",
+    "name": "SCAR Biogeographic Atlas of the Southern Ocean - Benthic Ostracoda - Data",
+    "description": "This dataset represents a literature study on the distribution of  fossil and recent benthic Ostracoda (Crustacea) from the Southern Ocean, with only a few records of planktonic taxa. Dataset supplied in the framework of the SCAR Biogeographic Atlas of the Southern Ocean (BASO).\n\nThe Biogeographic Atlas of the Southern Ocean is a collection of representative maps and syntheses on the distribution of the Southern Ocean organisms, providing a general overview of the biogeography of the Southern Ocean (s.l.) and a benchmark of current biogeographic knowledge at the end of the Census of Antarctic Marine Life. This updates the well-known and useful but largely outdated biogeographic Folios of the Antarctic Map Folio Series (American Geographical Society).\n\nThese records were compiled from 81 papers. \nA few papers were not included in the dataset because they were either compilations of previous studies: i.e., Brandt, Gooday, Brandão,et al., 2007; Dingle, Lord, Boomer, 1989; Majoran, Dingle, 2001; Majoran, Dingle, 2002; Seeling, Colin, Fauth, 2004.\nSome \"old\" papers are included in the dataset but their records should not be included in biogeographic, macroecological analyses, because there are too many misidentifications (i.e. Brady, 1880; Chapman, 1915; CHapman, 1919).\nThe following papers contain information on Southern Ocean Ostracoda, but were not included in the dataset because I (Brandao, S.N.) did not have access to them: Chapman, 1916a; Chapman, 1916; Cusminsky, Whatley, 2008; Gao, Zhang, 1986; Gazdzicki, 1996; Gazdzicki, 2001; Gou, 1994; Lofthouse, 1967; Müller, 1911; Poulsen, 1962; Setty, 1984; Scott, 1912; Whatley, Ramos, Moguilevsky, Chadwick, 1998.",
+    "url": "https://obis.org/dataset/ccd6e783-32be-4026-8ed8-0b9ca265aeb1",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=southernocean_ostracoda"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Brandao, S. N. Benthic Ostracoda from the Southern Ocean.",
+    "version": "2020-02-18T19:33:57.000Z",
+    "keywords": [
+        "Ostracoda",
+        "benthos",
+        "Southern Ocean; fossil; Recent; Mesozoic; Cenozoic; occurrences",
+        "SCAR-MARBIN",
+        "BASO",
+        "CAML",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1873/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=southernocean_ostracoda",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.58 -78.4,-178.58 -0.5,180 -0.5,180 -78.4,-178.58 -78.4"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19509",
+            "@type": "Organization",
+            "legalName": "Senckenberg Research Institute — German Centre for Marine Biodiversity Research",
+            "name": "Senckenberg Research Institute — German Centre for Marine Biodiversity Research",
+            "url": "https://oceanexpert.org/institution/19509"
+        }
+    ]
+}

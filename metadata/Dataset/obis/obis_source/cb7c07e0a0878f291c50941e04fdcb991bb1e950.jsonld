@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6a2c5c17-40cf-444f-8fda-c78fa257116f",
+    "name": "Marine Turtle Nesting Locations, Queensland and Northern Territory coastlines, Australia 1915-2012",
+    "description": "There are no information on how the data was acquired. See metadata record https://acef.tern.org.au/geonetwork/srv/eng/main.home?uuid=a2d67ad1-7fb2-4a35-81ca-d5b4d5bfdfc7 for contact details.",
+    "url": "https://obis.org/dataset/6a2c5c17-40cf-444f-8fda-c78fa257116f",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=acef_marine_turtle_nests"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-13T23:26:33.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1915/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=acef_marine_turtle_nests",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "138 -27.51,138 -9.1333,153.533 -9.1333,153.533 -27.51,138 -27.51"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18364",
+            "@type": "Organization",
+            "legalName": "Queensland Government",
+            "name": "Queensland Government",
+            "url": "https://oceanexpert.org/institution/18364"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19435",
+            "@type": "Organization",
+            "legalName": "Terrestrial Ecosystem Research Network",
+            "name": "Terrestrial Ecosystem Research Network",
+            "url": "https://oceanexpert.org/institution/19435"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

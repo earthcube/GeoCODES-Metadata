@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d9a55b00-17d0-471b-bd49-6f97c8a08f1f",
+    "name": "Phytoplankton-BG Black Sea-2007-2016",
+    "description": "Phytoplankton data, species composition, abundance (cells/l) (SDN:P01: PU00M00Z) and biomass (mg/m3) (SDN:P01: WWBMM00Z) collected at coastal stations located in the 1n.m. Bulgarian Black Sea area and stations on a coastal-open sea transects in the  Bulgarian Black Sea region, including the EEZ.",
+    "url": "https://obis.org/dataset/d9a55b00-17d0-471b-bd49-6f97c8a08f1f",
+    "sameAs": [
+        "http://gp.sea.gov.ua:8082/ipt/resource?r=phyto2016-37"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Snejana Moncheva; Institute of Oceanology, Bulgarian Academy of Sciences (IO-BAS); (2019): Phytoplankton abundance and biomass data from 2007 to 2016 in the Bulgarian Black Sea.",
+    "version": "2019-08-26T10:19:19.000Z",
+    "keywords": [
+        "Sampling event"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://gp.sea.gov.ua:8082/ipt/archive.do?r=phyto2016-37",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "27.5166667 42.0833333,27.5166667 43.6333333,30.93987 43.6333333,30.93987 42.0833333,27.5166667 42.0833333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6748",
+            "@type": "Organization",
+            "legalName": "Bulgarian Academy of Sciences, Institute of Oceanology",
+            "name": "Bulgarian Academy of Sciences, Institute of Oceanology",
+            "url": "https://oceanexpert.org/institution/6748"
+        }
+    ]
+}

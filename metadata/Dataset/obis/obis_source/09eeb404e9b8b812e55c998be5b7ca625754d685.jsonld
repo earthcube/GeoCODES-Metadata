@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0d712923-95e4-4ace-8aa2-6da6c10e54ef",
+    "name": "Seabird observations by John Hatch on the research vessel RV Franklin from Hobart to Adelaide, Australia (1987)",
+    "description": "Historic seabird observations from Hobart to Adelaide via a summer upwelling region nera Cape Portland observed and recorded by the ornithologist John Hatch. Observations typically over a ten minute period multiple times per day. Location and weather details (sea temperature, salinity, water depth and wnd speed and direction) were recorded at the start period. Original data recording sheets can be downloaded at https://www.marine.csiro.au/data/trawler/download.cfm?file_id=5467. Data entered by OBIS Australia and where possible matched to WoRMS taxa. Voyage details at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=FR198702",
+    "url": "https://obis.org/dataset/0d712923-95e4-4ace-8aa2-6da6c10e54ef",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=fr198702_wov"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hatch J (2023): Seabird observations by John Hatch on the research vessel RV Franklin from Hobart to Adelaide, Australia (1987). v1.1. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=fr198702_wov&amp;v=1.1",
+    "version": "2023-11-16T10:18:51.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Wind Speed (knt)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ESSAZZ01",
+            "description": "Wind Speed (knt)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind direction (deg)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01",
+            "description": "Wind direction (deg)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth (m)",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/574",
+            "description": "Depth (m)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity (psu)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSLTZZ01",
+            "description": "Salinity (psu)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea surface temperature",
+            "url": "http://vocab.aodn.org.au/def/discovery_parameter/entity/97",
+            "description": "Sea surface temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1987/1987",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=fr198702_wov",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "138.75 -43.26667,138.75 -36.66667,148.16667 -36.66667,148.16667 -43.26667,138.75 -43.26667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

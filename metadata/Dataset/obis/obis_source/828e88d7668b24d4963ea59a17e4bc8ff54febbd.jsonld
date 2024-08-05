@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4afc8df3-31f0-48e9-94f8-534554dbab71",
+    "name": "Marine Microbes from RV Aurora Australis voyage K-axis, Australia (2016)",
+    "description": "Samples were collected on board the RSV Aurora Australis during the Kerguelen Axis marine science voyage from 22 January to 17 February 2016. The cruise surveyed the region south of the Kerguelen Plateau including the Princess Elizabeth Trough and southern Kerguelen Plateau in a series of transects covering 8165 km in order to characterise the eukaryote communities.\nNote on data download/processing:\nData downloaded from Australian Microbiome Initiative via Bioplatforms Australia Data Portal on 17 June 2022. The search filter applied to download data from Bioplatforms Australia Data portal are stored in the Darwin Core property (identificationRemarks). Taxonomy is assigned according to the taxonomic database (SILVA 138) and method (Sklearn) which is stored in the Darwin Core Extension\nDNA derived data property (otu_db). Prefix were removed from the taxonomic names as shown in the example (e.g. d__Bacteria to Bacteria). Scientific name is assigned to the valid name available from the highest taxonomic rank.\nThis collection is published as Darwin Core Occurrence, so the event level measurements need to be replicated for every occurrence. Instead of data replication, the event level eMoF data are made available separately at https://www.marine.csiro.au/data/services/obisau/emof_export.cfm?ipt_resource=bioplatforms_mm_kaxis",
+    "url": "https://obis.org/dataset/4afc8df3-31f0-48e9-94f8-534554dbab71",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bioplatforms_mm_kaxis"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-06-07T00:37:39.000Z",
+    "keywords": [
+        "Occurrence",
+        "Samplingevent",
+        "16S rRNA",
+        "18S rRNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bioplatforms_mm_kaxis",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "74.1272 -65.180667,74.1272 -57.5929,93.57 -57.5929,93.57 -65.180667,74.1272 -65.180667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

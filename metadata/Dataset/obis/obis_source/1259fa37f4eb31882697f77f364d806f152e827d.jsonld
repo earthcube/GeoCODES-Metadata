@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/043e4751-b140-45e0-af27-2170b708a6bc",
+    "name": "Universidad Simon Bolivar Museum of Natural Sciences",
+    "description": "The dataset of the Museo de Ciencias Naturales of the Universidad Simon Bolivar contains 3 groups of sub-datasets from different projects carried out in the Venezuelan Caribbean and Atlantic front since 2000. Most of the registers come from two localities, the Morrocoy National Park in the central-west of Venezuela, and the east upwelling zone. Most represented groups are peracarid crustaceans and gastropods among other invertebrates.",
+    "url": "https://obis.org/dataset/043e4751-b140-45e0-af27-2170b708a6bc",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=usb-mcn"
+    ],
+    "license": "Unrestricted",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=usb-mcn",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.757774353 8.80333042145,-71.757774353 12.2936296463,-57.7008323669 12.2936296463,-57.7008323669 8.80333042145,-71.757774353 8.80333042145"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8887",
+            "@type": "Organization",
+            "legalName": "Universidad Simon Bolivar",
+            "name": "Universidad Simon Bolivar",
+            "url": "https://oceanexpert.org/institution/8887"
+        }
+    ]
+}

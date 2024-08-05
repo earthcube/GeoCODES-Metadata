@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e7c86904-aac7-4a17-a895-99a54c430d80",
+    "name": "NEFSC Benthic Database",
+    "description": "Benthic fauna data has been collected from 1881 to the present by the National Marine Fisheries Service Laboratories at Woods Hole, MA and Sandy Hook, NJ. The data includes the work by Wigley and Theroux on the macrofauna of the Northeastern United States. Other major studies include Ocean Pulse, the Northeast Monitoring Program, New York Bight, 12 Mile Dumpsite, Long Island Sound and Raritan Bay surveys. Parameters included in these surveys include depth, sediment type, gear type, number, weight, family, class, genus, species name, and abundance. A total of 21,000 sample sites are included in this data set with 4,000 meters being the maximum depth sampled.",
+    "url": "https://obis.org/dataset/e7c86904-aac7-4a17-a895-99a54c430d80",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=nefscbenthicdatabase"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Northeast Fisheries Science Center, National Marine Fisheries Service, NOAA, U.S. Department of Commerce. 2010. NEFSC Benthic Database. Northeast Fisheries Science Center, 166 Water Street, Woods Hole Laboratories, Woods Hole, MA 02543.Retrieved from http://www.usgs.gov/obis-usa/",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1900/1989",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=nefscbenthicdatabase",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-82 24.1669998169,-82 49.1669998169,-49.0670013428 49.1669998169,-49.0670013428 24.1669998169,-82 24.1669998169"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7541",
+            "@type": "Organization",
+            "legalName": "National Marine Fisheries Service, Northeast Fisheries Science Center, Massachusetts",
+            "name": "National Marine Fisheries Service, Northeast Fisheries Science Center, Massachusetts",
+            "url": "https://oceanexpert.org/institution/7541"
+        }
+    ]
+}

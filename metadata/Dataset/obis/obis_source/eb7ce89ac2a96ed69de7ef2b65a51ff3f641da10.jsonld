@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a1b11fb9-5069-458d-aa7d-86ff92cb645e",
+    "name": "Antarctic Marine Amoebae",
+    "description": "Seven Antarctic marine Gymnamoebae",
+    "url": "https://obis.org/dataset/a1b11fb9-5069-458d-aa7d-86ff92cb645e",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=antarctic_marine_amoebae"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Moran,D.M., Anderson,O.R., Dennett,M.R., Caron,D.A. and Gast,R.J.",
+    "version": "2019-03-19T14:48:17.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=antarctic_marine_amoebae",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-165.21806 -76.61,-165.21806 -65.234722,-134.97888 -65.234722,-134.97888 -76.61,-165.21806 -76.61"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

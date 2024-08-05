@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/45fc0c67-0761-4927-8dfb-34814794d1a3",
+    "name": "Spring Phytoplankton Assemblages in the Southern Ocean Between Australia and Antarctica (CLIVAR-SR3)",
+    "description": "Spring Phytoplankton Assemblages in the Southern Ocean Between Australia and Antarctica (CLIVAR-SR3) - For voyage details see http://data.aad.gov.au/aadc/voyages/display_voyage.cfm?voyage_id=150)",
+    "url": "https://obis.org/dataset/45fc0c67-0761-4927-8dfb-34814794d1a3",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=clivar_s3_phytoplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Spring Phytoplankton Assemblages in the Southern Ocean Between Australia and Antarctica (CLIVAR-SR3).",
+    "version": "2021-05-06T05:12:53.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=clivar_s3_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "139.822 -64.87783333,139.822 -46.924,144.32916667 -46.924,144.32916667 -64.87783333,139.822 -64.87783333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        }
+    ]
+}

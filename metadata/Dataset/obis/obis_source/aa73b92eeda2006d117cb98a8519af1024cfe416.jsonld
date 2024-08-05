@@ -1,0 +1,46 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/72ab964a-9ca1-4515-b19a-7239b6c86f48",
+    "name": "ABBBS Bird Banding records from the Australian Antarctic Territory and Heard Island",
+    "description": "Australian Bird and Bat Banding Scheme Bird Banding records from the Australian Antarctic Territory and Heard Island, a subset of banding and recovery records from within Australian Antarctic Territory and Heard Island.\n\nThe Australian Government under the auspices of the Australian Bird and Bat Banding Scheme (ABBBS) manages the collation of information on threatened and migratory bird and bat species. The information provided spans from 1953 to the present, and contains over 2 million records. This set comprises records of banding and recovery in the Australian Antarctic territory. Records are also included if the bird was recovered or banded outside this region.\n\nThe ABBBS site is at http://www.environment.gov.au/science/bird-and-bat-banding.",
+    "url": "https://obis.org/dataset/72ab964a-9ca1-4515-b19a-7239b6c86f48",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=aat_abbbs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2021-05-05T23:46:10.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1954/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=aat_abbbs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-108.6667 -69.4,-108.6667 -12.1,175.1667 -12.1,175.1667 -69.4,-108.6667 -69.4"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/472bfcd1-0629-4ba2-adf9-318618f69b14",
+    "name": "Northern Pelagic Shark Tagging Data 1983-1985 (releases), 1983-1997 (recaptures), tropical waters of Australia",
+    "description": "Between February 1983 and May 1985, some 10 500 sharks of 23 species were fin-tagged off northern Australia. Tagging concentrated on the commercially important Carcharhinus tilstoni and C. sorrah. Most recaptures were made in 1984 and 1985, but returns continued until May 1997. In all 579 tags (5.5%) were recovered. Tag shedding was estimated to be low (0.025 year1 for C. tilstoni) and tagging mortality was significantly lower for sharks caught by handline than by gillnet. Australian gillnetters, Taiwanese gillnetters (fishing in the Australian Fishing Zone) and Australian prawn trawlers accounted for most of the returns. The maximum distance between the release and recapture positions was over 1100 km, but most returns were made within 50 km of the tagging site. Nearly all of the releases were in inshore waters fished by Australian vessels. Although substantial numbers of recaptures were made by the offshore Taiwanese fishery, when fishing effort was considered, relatively few sharks appeared to move from inshore to offshore waters. This dataset contains the release and recapture information for all tag events and was collected as part of the CSIRO Northern Pelagic Fish Stock Research Project.",
+    "url": "https://obis.org/dataset/472bfcd1-0629-4ba2-adf9-318618f69b14",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_shark_tags_1983_1997"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Northern Pelagic Shark Tagging Data 1983-1985 (releases), 1983-1997 (recaptures) (1997)  CSIRO Northern Pelagic Fish Stock Research Project. https://marlin.csiro.au/geonetwork/srv/eng/catalog.search#/metadata/4980d04a-9329-4b16-a13d-03b96e6c8660",
+    "version": "2022-08-19T02:19:24.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Capture Method",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Capture Method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Forked Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Forked Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/1985",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_shark_tags_1983_1997",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "121.61667 -18.53333,121.61667 -9.01667,145.83333 -9.01667,145.83333 -18.53333,121.61667 -18.53333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

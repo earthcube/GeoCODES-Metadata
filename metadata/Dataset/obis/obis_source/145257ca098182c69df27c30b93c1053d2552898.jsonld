@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4c130a18-8fa7-4cae-b710-00da365d7f34",
+    "name": "Ecology / Infaunal morphospecies identifications from the Vlaming Sub-basin (GA0334), Australia (2012-2013)",
+    "description": "The Vlaming Sub-basin Marine Survey GA-0334 was undertaken in March and April 2012 as part of the Commonwealth Government's National CO2 Infrastructure Plan (NCIP). The purpose was to acquire geophysical and biophysical data to help identify sites suitable for the long term storage of CO2 within reasonable distances of major sources of CO2 emissions. This dataset contains identifications of animals collected from 32 Van Veen grabs deployed during GA-0334. Sediment was elutriated for ~ 5 minutes over a 500um sieve. Retained sediments and animals were then preserved in 70% ethanol for later laboratory sorting and identification (see `lineage'). During sorting, all worms were separated and sent to Infaunal Data Pty Ltd (Lynda Avery) for identification to species or operational taxonomic unit (OTU). Lynda Avery completed identifications on 17 April 2013, and specimens were lodged at the Museum of Victoria. All other taxa were identified to morphospecies at GA by an ecologist. Gray shading indicates taxa identified to species level by Lynda Avery (Refer to GeoCat # 76463 for raw data of species identifications by taxonomist); all other taxa were identified to morphospecies. Data is presented here exactly as delivered by the taxonomist/ecologist, and Geoscience Australia is unable to verify the accuracy of the taxonomic identifications. Stations are named XXGRYY where XX indicates the station number, GR indicates Van Veen grabs, and YY indicates the sequence of grabs deployed (i.e. the YYth grab on the entire survey). H indicates heavy fraction animals and HS indicates animals found on a sponge. The dataset is current as of November 2014, but will be updated as taxonomic experts contribute. See GA Record 2013/09 for further details on survey methods and specimen acquisition.",
+    "url": "https://obis.org/dataset/4c130a18-8fa7-4cae-b710-00da365d7f34",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ga_vlaming_infauna"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T02:28:08.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ga_vlaming_infauna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "115.29738 -32.30713,115.29738 -31.83725,115.57072 -31.83725,115.57072 -32.30713,115.29738 -32.30713"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10307",
+            "@type": "Organization",
+            "legalName": "Geoscience Australia",
+            "name": "Geoscience Australia",
+            "url": "https://oceanexpert.org/institution/10307"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

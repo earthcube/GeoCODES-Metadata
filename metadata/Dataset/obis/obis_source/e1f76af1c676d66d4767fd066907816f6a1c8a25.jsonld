@@ -1,0 +1,130 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0ce9f203-e88a-4067-a914-328f4370eddf",
+    "name": "Meiobenthic community in the Westerschelde estuary between 1977 and 1979",
+    "description": "Data on quantitative aspects of the meiofauna community in the Westerschelde estuary such as density, biomass, diversity and community structure. The data were digitized by VLIZ from the original report: Van Damme, D.; Herman, R.; Sharma, Y.; Holvoet, M.; Martens, P. (1980). Benthic studies of the Southern Bight of the North Sea and its adjacent continental estuaries: Progress Report 2. Fluctuation of the meiobenthic communities in the Westerschelde estuary.",
+    "url": "https://obis.org/dataset/0ce9f203-e88a-4067-a914-328f4370eddf",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=meiobenthos_westerschelde_1977_1979",
+        "https://dx.doi.org/10.14284/221"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Van Damme D.; Herman R.; Sharma Y.; Holvoet M.; Martens P.; Marine Biology Section; Zoology Institute. Ugent: Belgium; (2016): Meiobenthic community in the Westerschelde estuary between 1977 and 1979. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4237) https://dx.doi.org/10.14284/221",
+    "version": "2023-12-08T17:14:09.000Z",
+    "keywords": [
+        "Meiobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area sampled of the bed using the plastic core",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area sampled of the bed using the plastic core"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean abundance of meiofauna taxa 38-1000um in the sediment per 10 cm^2",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Mean abundance of meiofauna taxa 38-1000um in the sediment per 10 cm^2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Percentage of the dominant Nematoda species from the Westerschelde in the different salinity-zones (in %)",
+            "url": "",
+            "description": "Percentage of the dominant Nematoda species from the Westerschelde in the different salinity-zones (in %)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Annual mean abundance of meiofauna taxa 38-1000um in the sediment per 10 cm^2",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Annual mean abundance of meiofauna taxa 38-1000um in the sediment per 10 cm^2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Anual mean ash-free dry weight of meiobenthic taxa per m^2",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL03/",
+            "description": "Anual mean ash-free dry weight of meiobenthic taxa per m^2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Percentage of the Copepoda species from the Westerschelde and Salt marsh in the different salinity-zones over the whole sampling period(in %)",
+            "url": "",
+            "description": "Percentage of the Copepoda species from the Westerschelde and Salt marsh in the different salinity-zones over the whole sampling period(in %)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observed individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "observed individual count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Maximal abundance for genus, species or class of meiobenthos in the sediment per 10cm^2",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Maximal abundance for genus, species or class of meiobenthos in the sediment per 10cm^2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean ash-free dry weight in ug",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600086/",
+            "description": "Mean ash-free dry weight in ug"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1977/1979",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/221",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/221",
+        "url": "https://dx.doi.org/10.14284/221"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=meiobenthos_westerschelde_1977_1979",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.5460277749939 51.34167,3.5460277749939 51.472297458053,4.275833 51.472297458053,4.275833 51.34167,3.5460277749939 51.34167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        }
+    ]
+}

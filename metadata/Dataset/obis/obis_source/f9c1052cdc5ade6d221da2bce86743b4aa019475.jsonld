@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0d4d1d93-df06-4a12-8d03-bd1083864563",
+    "name": "MARMAP Blackfish Trap Survey 1990-2009",
+    "description": "Abundance and biomass of fish species collected during the day from 1977 to 1989 off the coast of the southeastern United States (Cape Fear, NC to Cape Canaveral, FL). Blackfish traps were set on live-bottom reef areas at depths &lt; 50 m. Blackfish trap were nearly cubic (0.6 m x 0.6 m x 0.5 m; 0.16 m3 volume) and constructed of 38-mm (1.5-inch) octagonal mesh (\"chicken wire\"). Each trap consisted of two entrances (0.13 m diameter, 0.09 m length) and one bait well (0.10 m diameter, 0.25 m length). Each trap was soaked between 90 and 120 mintues.",
+    "url": "https://obis.org/dataset/0d4d1d93-df06-4a12-8d03-bd1083864563",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=marmap_blackfishsurvey"
+    ],
+    "license": "Restricted",
+    "citation": "Marcel Reichert, 2009, MARMAP Blackfish Trap Survey 1990-2009, SCDNR/NOAA MARMAP Program, SCDNR MARMAP Aggregate Data Surveys, The Marine Resources Monitoring, Assessment, and Prediction (MARMAP) Program, Marine Resources Research Institute, South Carolina Department of Natural Resources, P. O. Box 12559, Charleston SC 29422-2559, U.S.A.Retrieved from http://www.usgs.gov/obis-usa/",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1977/1989",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=marmap_blackfishsurvey",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.6100006104 30.7199993134,-80.6100006104 34.3800010681,-76.5500030518 34.3800010681,-76.5500030518 30.7199993134,-80.6100006104 30.7199993134"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

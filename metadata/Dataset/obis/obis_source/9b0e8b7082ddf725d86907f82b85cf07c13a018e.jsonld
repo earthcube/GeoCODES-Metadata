@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bcd1417a-c05f-4495-8f79-ca6cdb691215",
+    "name": "Aerial surveys of cetaceans in the Zeehan, Apollo and Beagle Australian Marine Parks, Australia (2021-2023)",
+    "description": "Aerial surveys of cetaceans in the Zeehan and Apollo Australian Marine Parks were conducted as part of commercial research. The surveys were conducted at an altitude of about 300 metres at a speed of approximately 130 knots along transect lines totaling 60 nautical miles using the following equipment: fixed wing aircraft, DSLR cameras fitted with 400mm lenses, binoculars,GPS and data recording applications. This data has been supplied to OBIS Australia as part of the activity permit for the survey within Australian Marine Parks.\nThe dataset now includes marine mammal sightings from aerial surveys conducted within the Beagle Marine Park in 2023.",
+    "url": "https://obis.org/dataset/bcd1417a-c05f-4495-8f79-ca6cdb691215",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=zeehan_cetecean_survey_2021"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Donnelly D (2024). Aerial surveys of cetaceans in the Zeehan, Apollo and Beagle Australian Marine Parks, Australia (2021-2023). Version 1.7. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Occurrence dataset. https://www.marine.csiro.au/ipt/resource?r=zeehan_cetecean_survey_2021&amp;v=1.7",
+    "version": "2024-04-11T05:48:53.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=zeehan_cetecean_survey_2021",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "143.26122 -39.947,143.26122 -38.957,147.08784 -38.957,147.08784 -39.947,143.26122 -39.947"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

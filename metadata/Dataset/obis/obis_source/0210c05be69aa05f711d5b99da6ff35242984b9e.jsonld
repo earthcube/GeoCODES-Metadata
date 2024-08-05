@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ed74a4b3-8a94-42d4-8cd5-3d3a45cc0cb7",
+    "name": "Hunter CMR - Cross shelf comparison BRUVS data, New South Wales, Australia (2014-2018)",
+    "description": "Reefs in 80-120m of water were sampled as part of the National Environmental Science Program Marine Biodiversity Hub (NESP) D3 project to collect biological information in the Hunter Australian Marine Park (previously called Commonwealth Marine Reserve). In spring 2016, Stereo BRUVS were used to sampled the fish and invertebrate assemblages. Deployments were for 60 mins, however, the data was analysed as both 30min and 60min deployments.\nThis work was undertaken for the Marine Biodiversity Hub, a collaborative partnership supported through funding from the Australian Government’s National Environmental Science Program (NESP). NESP Marine Biodiversity Hub partners include the University of Tasmania; CSIRO, Geoscience Australia, Australian Institute of Marine Science, Museum Victoria, Charles Darwin University, the University of Western Australia, Integrated Marine Observing System, NSW Office of Environment and Heritage, NSW Department of Primary Industries.\nThis dataset has been updated with observations extended to 2018.",
+    "url": "https://obis.org/dataset/ed74a4b3-8a94-42d4-8cd5-3d3a45cc0cb7",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=globalarchive_hunter_bruvs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Williams J, Jordan A and Harasti D (2018). Fish assemblages on reefs in the Hunter Marine Park and adjacent waters: Milestone 9, completion of initial survey report from Hunter Marine Park.  Report to the National Environmental Science Program, Marine Biodiversity Hub. New South Wales,  Department of Primary Industries.",
+    "version": "2022-06-08T02:11:43.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Forked Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Forked Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=globalarchive_hunter_bruvs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "152.29504 -32.701,152.29504 -32.44051,152.61008 -32.44051,152.61008 -32.701,152.29504 -32.701"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/90b41b79-a5a2-4d6f-80d5-fbf2fa3a682b",
+    "name": "BIOMASS 1980-1985",
+    "description": "Original provider:\nDr. S.Z. El-Sayed\n\nDataset credits:\nAntarctic Environmental Data Centre, British Antarctic Survey\n\nAbstract:\nThe Biological Investigations of Marine Antarctic Systems and Stocks (BIOMASS) Programme was established in the late 1970's for the study of the Antarctic marine ecosystem and its living resources (Thorley, online resource). Data were collected during 3 major field experiments between 1981 and 1985, divided into two periods: First International BIOMASS Experiment (FIBEX) in 1980-1981, and the Second International BIOMASS Experiment (SIBEX) in 1983-1985.\nIn total 34 cruises were carried out (El-Sayed, online resource), of which  21 cruises were gathered in this data set. This data set provides sea-bird observation collected in the cruises.\n\nReference\nFor full citation information, see [Cross Reference].\n\nPurpose:\nThe main objective of BIOMASS was to gain a deeper understanding of the structure and dynamic functioning of the Antarctic marine eco­system as a basis for the future management of potential living resources (El-Sayed, online resource), with the particular focus on krill. Specifically, FIBEX was aimed at carrying out a quasi-synoptic survey over a wide area the South Atlantic, Indian Ocean and Pacific sectors of the Southern Ocean. SIBEX was designed to produce a temporal sequence of observations focused on much smaller areas of the Bransfield Strait and Prydz Bay regions (Canadian Geospatial Data Infrastructure, online resource).\nSea-birds data were collected as supporting data to krill.\nFor further detail, you are referred to El-Sayed (1994).\n\nReference\nFor full citation information, see [Cross Reference].\n\nSupplemental information:\n[2020-09-30] The following invalid species names were corrected according to the Integrated Taxonomic Information System (ITIS).\nDiomedea bulleri (174522) =&gt; Thalassarche bulleri (563380)\nChinstrap Penguin: Pygoscelis antarctica (174446) =&gt; Pygoscelis antarcticus (723249)\nGrey-headed Albatross: Diomedea chrysostoma (174523) =&gt; Thalassarche chrysostoma (563381)\nPterodroma brevirostris (174585) =&gt; Aphrodroma brevirostris (723250)\nRockhopper Penguin: Eudyptes crestatus (174453) =&gt; Eudyptes chrysocome (559996)\nShy Albatross: Diomedea cauta (174519) =&gt; Thalassarche cauta (554451)\nSouth Polar Skua: Catharacta maccormicki (176801) =&gt; Stercorarius maccormicki (660062)\nYellow-nosed Albatross: Diomedea chlororhynchos (174521) =&gt; Thalassarche chlororhynchos (554452)\n Phalacrocorax atriceps (174734) =&gt;  Leucocarbo atriceps (824003)\nPhalacrocorax olivaceus (174722) =&gt; Phalacrocorax brasilianus brasilianus (824220)\nChionis alba (176787) =&gt; Chionis albus (824031)\nPhalacrocorax albiventer (174730) =&gt; Leucocarbo albiventer (824004)\n\nWhen interested in a certain cruise, make a query for 'CRUISE' field.",
+    "url": "https://obis.org/dataset/90b41b79-a5a2-4d6f-80d5-fbf2fa3a682b",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_75"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Campbell, H. 2015. BIOMASS 1980-1985. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/75) on yyyy-mm-dd.",
+    "version": "2021-04-24T10:29:10.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings,Sea-bird,Sea bird,Bird,seabirds,marine birds,Biological Investigations of Marine Antarctic Systems and Stocks,BIOMASS,Krill,Ship survey,at-sea distributions",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/1985",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_75",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-98.4631 -77.7,-98.4631 -37.5,179.8667 -37.5,179.8667 -77.7,-98.4631 -77.7"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

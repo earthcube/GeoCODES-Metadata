@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/518c8422-0a94-4926-9e7a-42aaf70002f4",
+    "name": "CRED Rapid Ecological Assessments of Coral Population in the Pacific Ocean 2007-2010",
+    "description": "Corals are the defining species in one of the highest diversity marine ecosystems, coral reefs. CRED studies of corals address basic questions concerning the distribution, abundance, and condition of corals and coral reefs throughout selected areas of the tropical and subtropical Pacific under U.S. jurisdiction.",
+    "url": "https://obis.org/dataset/518c8422-0a94-4926-9e7a-42aaf70002f4",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=cred_benthic_rea_belt"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Coral Reef Ecosystem Division (CRED), Pacific Island Fisheries Sciences Center, NOAA National Marine Fisheries Service. 2011. CRED Rapid Ecological Assessments of Coral Population in the Pacific Ocean 2007-2010. Coral Reef Ecosystem Division, Honolulu, HI.Retrieved from http://www.usgs.gov/obis-usa/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=cred_benthic_rea_belt",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.378433228 -14.5593166351,-178.378433228 28.4545993805,166.657363892 28.4545993805,166.657363892 -14.5593166351,-178.378433228 -14.5593166351"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        }
+    ]
+}

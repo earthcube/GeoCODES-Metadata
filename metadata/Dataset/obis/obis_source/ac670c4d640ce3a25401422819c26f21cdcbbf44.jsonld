@@ -1,0 +1,119 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c87cb4d8-0757-442f-9166-fbc0489b9149",
+    "name": "Marine Recorder Snapshot extract of surveys entered by Natural England",
+    "description": "This dataset consists of surveys entered by Natural England.",
+    "url": "https://obis.org/dataset/c87cb4d8-0757-442f-9166-fbc0489b9149",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=jncc_mr_snapshot_whole_uk_5",
+        "https://doi.org/10.17031/thn0xd"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Natural England (NE) (2021): Marine Recorder Snapshot extract of surveys entered by Natural England. v2.0. Marine Biological Association. Dataset/Samplingevent. https://doi.org/10.17031/thn0xd",
+    "version": "2023-05-23T11:48:22.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "eventname",
+            "description": "eventname"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "geometry",
+            "description": "geometry"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalcoordinates",
+            "description": "originalcoordinates"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalsamplelatitude",
+            "description": "originalsamplelatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalsamplelongitude",
+            "description": "originalsamplelongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "primarylatitude",
+            "description": "primarylatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "primarylongitude",
+            "description": "primarylongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplelatitude",
+            "description": "samplelatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplelongitude",
+            "description": "samplelongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplenotes",
+            "description": "samplenotes"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1972/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/thn0xd",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/thn0xd",
+        "url": "https://doi.org/10.17031/thn0xd"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=jncc_mr_snapshot_whole_uk_5",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-7.557258 49.7668,-7.557258 55.91487,2.253046 55.91487,2.253046 49.7668,-7.557258 49.7668"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23114",
+            "@type": "Organization",
+            "legalName": "Natural England",
+            "name": "Natural England",
+            "url": "https://oceanexpert.org/institution/23114"
+        }
+    ]
+}

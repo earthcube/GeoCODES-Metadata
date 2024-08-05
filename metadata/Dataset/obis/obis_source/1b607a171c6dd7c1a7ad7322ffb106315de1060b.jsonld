@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/956d618f-91dc-4930-a253-cdf80ddb9371",
+    "name": "LifeWatch observatory data: phytoplankton observations by imaging flow cytometry (FlowCam) in the Belgian Part of the North Sea",
+    "description": "In the framework of the Lifewatch marine observatory a number of fixed stations in the Belgian Part of the North Sea (BPNS) are visited on a monthly or seasonal basis using RV Simon Stevin. A grid of nine stations covers the coastal zone and are sampled monthly. Eight additional stations, located further at sea, are sampled on a seasonal basis. Samples are taken using a 55µm mesh size Apstein net and fixed in Lugol's iodine solution. In the lab, the samples are processed using a VS-4 FlowCAM model at 4X magnification, size range imaged is 55-300µm. The identification of the image data is done with the use of a classifier and followed by a manual validation step.  Since May 2017, this dataset provides micro- and phytoplankton observations, mainly covering diatoms, dinoflagellates and cilliates, for the Belgian Part of the North Sea (BPNS).",
+    "url": "https://obis.org/dataset/956d618f-91dc-4930-a253-cdf80ddb9371",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=fyto",
+        "https://dx.doi.org/10.14284/544"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Flanders Marine Institute (VLIZ), Belgium (2018): LifeWatch observatory data: phytoplankton observations by imaging flow cytometry (FlowCam) in the Belgian Part of the North Sea https://dx.doi.org/10.14284/544",
+    "version": "2023-05-23T11:37:57.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Biological monitoring",
+        "Data",
+        "Marine Genomics",
+        "Phytoplankton",
+        "research vessel",
+        "Simon Stevin",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Platform Name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Platform Name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "Sampling device aperture diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of Coscinodiscophycidae (WoRMS:148971) per unit volume of the water body by image analysis",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of Coscinodiscophycidae (WoRMS:148971) per unit volume of the water body by image analysis"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of Bacillariophyceae (WoRMS:148899) per unit volume of the water body by image analysis",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of Bacillariophyceae (WoRMS:148899) per unit volume of the water body by image analysis"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of Rhizosolenia (WoRMS:149069) per unit volume of the water body by image analysis",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of Rhizosolenia (WoRMS:149069) per unit volume of the water body by image analysis"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of Dinoflagellata (WoRMS:146203) per unit volume of the water body by image analysis",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of Dinoflagellata (WoRMS:146203) per unit volume of the water body by image analysis"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of Ditylum brightwellii (WoRMS:149023) per unit volume of the water body by image analysis",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of Ditylum brightwellii (WoRMS:149023) per unit volume of the water body by image analysis"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2020",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/544",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/544",
+        "url": "https://dx.doi.org/10.14284/544"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=fyto",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0.74816 50.10156,0.74816 52.11949,3.96861 52.11949,3.96861 50.10156,0.74816 50.10156"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

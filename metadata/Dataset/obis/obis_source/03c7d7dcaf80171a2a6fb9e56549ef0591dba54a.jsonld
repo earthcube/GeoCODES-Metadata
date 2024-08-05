@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e13f0a51-f810-45d6-9503-64ecd7bedd70",
+    "name": "Ross Sea Biodiversity Survey 2004 (BioRoss)",
+    "description": "Marine biological data from the 2004 voyage of the R/V Tangaroa (TAN0402) to the Ross Sea, Antarctica. The main objective of the New Zealand Ministry of Fisheries project (BioRoss) was to carry out a quantitative survey of the biodiversity of selected marine communities in the Ross Sea region, including the Balleny Islands.",
+    "url": "https://obis.org/dataset/e13f0a51-f810-45d6-9503-64ecd7bedd70",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=mbis_caml"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "NIWA (2014). 2004 Ross Sea Biodiversity Survey (BIOROSS) data. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research, Wellington, New Zealand, 4093 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=mbis_caml released on June 18, 2014.",
+    "version": "2018-08-08T21:08:01.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=mbis_caml",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "160.881667 -72.343167,160.881667 -65.408333,173.353 -65.408333,173.353 -72.343167,160.881667 -72.343167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        }
+    ]
+}

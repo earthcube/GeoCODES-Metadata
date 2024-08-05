@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7be30bac-04ad-4418-b80c-c1b606eff358",
+    "name": "DFO Quebec Region Biodiversity of the Arctic surfclam hydraulic dredge survey in the St. Lawrence Estuary (2017)",
+    "description": "A research survey on the Arctic surfclam (Mactromeris polynyma) was carried out by DFO in 2017 in the Estuary of the St. Lawrence River on the clam bed named Forestville using a \"New England\" type hydraulic dredge. The main objective of this survey was to study the spatial distribution of pre-commercial (anteroposterior length of less than 80 mm) and commercial (anteroposterior length equal or greater than 80 mm) sizes of Arctic surfclams as well as to assess the abundance and diversity of benthic species associated with the sandy habitat of the Arctic surfclams. Only benthic species data associated with Arctic surfclams habitat are presented in this dataset.\nUn relevé de recherche sur le stock de la mactre de Stimpson (Mactromeris polynyma) a été réalisé par le MPO en 2017 dans l'estuaire du Saint-Laurent sur le gisement nommé Forestville à l’aide d’une drague hydraulique de type « Nouvelle-Angleterre ». L’objectif principal de ce relevé était d’étudier la répartition spatiale des tailles pré-commerciale (longueur antéropostérieure de moins de 80 mm) et commerciale (longueur antéropostérieure égale ou plus de 80 mm) de la mactre de Stimpson ainsi que d’évaluer l’abondance et la diversité des espèces benthiques associées à l’habitat sableux de la mactre de Stimpson. Seules les données des espèces benthiques associées à l’habitat de la mactre de Stimpson sont présentées dans ce jeu de données.",
+    "url": "https://obis.org/dataset/7be30bac-04ad-4418-b80c-c1b606eff358",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_que_est_mp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Roy V (2021): DFO Quebec Region Biodiversity of the Arctic surfclam hydraulic dredge survey in the St. Lawrence Estuary (2017). v1.2. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=dfo_que_est_mp&amp;v=1.2",
+    "version": "2022-03-30T12:00:26.000Z",
+    "keywords": [
+        "Occurrence",
+        "Biodiversity",
+        "St. Lawrence river",
+        "St. Lawrence Estuary",
+        "North coast St. Lawrence Estuary",
+        "Stimpson's surfclam",
+        "Arctic surfclam",
+        "Forestville",
+        "Quebec",
+        "samplingEvent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Sample size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling effort",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/SAMP/",
+            "description": "Sampling effort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling protocol"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfo_que_est_mp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.073375 48.6016,-69.073375 48.677758,-69.032258 48.677758,-69.032258 48.6016,-69.073375 48.6016"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6190",
+            "@type": "Organization",
+            "legalName": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "name": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6190"
+        }
+    ]
+}

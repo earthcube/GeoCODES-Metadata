@@ -1,0 +1,88 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b0a7add2-dd9e-4020-9ca4-5df048c8f6a2",
+    "name": "Bigood",
+    "description": "Deep-sea benthic fauna collected during Ifremer cruises",
+    "url": "https://obis.org/dataset/b0a7add2-dd9e-4020-9ca4-5df048c8f6a2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=biocean"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Fabri, M-C. et al., Ifremer BIOCEAN database (Deep Sea Benthic Fauna). Institut Français de Recherche pour l'Exploitation de la Mer, Ifremer, Issy-les-Moulineaux, France. World Wide Web electronic publication, http://www.ifremer.fr/isi/biocean",
+    "version": "2024-02-26T23:12:30.000Z",
+    "keywords": [
+        "Benthos",
+        "Deep sea",
+        "Fauna",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CRUISE",
+            "url": "",
+            "description": "CRUISE"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SAMPLING_DEVICE",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "SAMPLING_DEVICE"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1967/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=biocean",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-153.539252 -53,-153.539252 77,168 77,168 -53,-153.539252 -53"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        }
+    ]
+}

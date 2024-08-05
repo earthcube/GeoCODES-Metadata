@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0332e1b5-5525-4301-9659-ef3da3e4e2b6",
+    "name": "MARMAP Isaacs-Kidd Midwater Trawl 1990-2009",
+    "description": "Abundance and biomass of fish species collected during the day from February to August 1979 off the coast of the southeastern United States (Cape Fear, NC to Cape Canaveral, FL). The trawl consists of specifically designed nets attached to a V-shaped, rigid diving vane, which maintains the trawl at depth for extended periods of time at towing speeds up to 5 knots. The IKMT has a 1.8 m x 1.8 m mouth opening, with a 1.050 mm mesh cod end.",
+    "url": "https://obis.org/dataset/0332e1b5-5525-4301-9659-ef3da3e4e2b6",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=marmap_isaackiddmidwatertrawl"
+    ],
+    "license": "Restricted",
+    "citation": "Marcel Reichert, 2010, MARMAP Isaacs-Kidd Midwater Trawl 1990-2009, SCDNR/NOAA MARMAP Program, SCDNR MARMAP Aggregate data surveys, The Marine Resources Monitoring, Assessment, and Prediction (MARMAP) Program, Marine Resources Research Institute, South Carolina Department of Natural Resources, P. O. Box 12559, Charleston SC 29422-2559, U.S.A.Retrieved from http://www.usgs.gov/obis-usa/",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/1979",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=marmap_isaackiddmidwatertrawl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-79.0199966431 32.3499984741,-79.0199966431 32.7900009155,-78.3799972534 32.7900009155,-78.3799972534 32.3499984741,-79.0199966431 32.3499984741"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

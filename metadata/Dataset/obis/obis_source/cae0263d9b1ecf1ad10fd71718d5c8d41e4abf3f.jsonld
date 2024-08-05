@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6bf16e2d-8564-4a2a-b2eb-d1c9954658c0",
+    "name": "Collation of spatial seagrass data from 1984 - 2014 for the Great Barrier Reef World Heritage Area (GBRWHA) (NESP TWQ 3.1, TropWATER, JCU), Australia (1984-2014)",
+    "description": "This dataset summarises 30 years of seagrass data collection (1984-2014) within the Great Barrier Reef World Heritage Area. The Site data describes seagrass at 66,210 sites; while the Meadow data describes seagrass at 1,169 individual or composite meadows. The data includes information on species, meadow type and age and reliability of the data. The dataset\nis available as a shapefiles, GIS layer packages, and/or a CSV file. Data represented in this dataset has been collected by the TropWATER Seagrass Group and CSIRO in a GIS database.\nThis dataset is dominated by 822,000 'absent' compared to 37,666 'present' records.",
+    "url": "https://obis.org/dataset/6bf16e2d-8564-4a2a-b2eb-d1c9954658c0",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nesp_seagrass"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Carter A (2022): Collation of spatial seagrass data from 1984 - 2014 for the Great Barrier Reef World Heritage Area (GBRWHA) (NESP TWQ 3.1, TropWATER, JCU), Australia (1984-2014). v1.5. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=nesp_seagrass&amp;v=1.5",
+    "version": "2022-06-06T23:31:24.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nesp_seagrass",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "142.52026 -24.49939,142.52026 -10.63775,153.10113 -10.63775,153.10113 -24.49939,142.52026 -24.49939"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        }
+    ]
+}

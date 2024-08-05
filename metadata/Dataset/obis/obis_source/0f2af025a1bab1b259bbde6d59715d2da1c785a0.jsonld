@@ -1,0 +1,127 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/afa5b0e8-826d-4433-b698-beb176ef7880",
+    "name": "LifeWatch observatory data: zooplankton observations by imaging (ZooScan) in the Belgian Part of the North Sea",
+    "description": "In the framework of the Lifewatch marine observatory a number of fixed stations on the Belgian Part of the North  Sea (BPNS) are visited on a monthly or seasonal basis using the RV Simon Stevin. A grid of nine stations covers the coastal zone and are sampled monthly. Eight additional stations, located further at sea, are sampled on a seasonal basis. \n\nThis dataset contains zooplankton observations in  the Belgian Part of the North Sea (BPNS) since 2012.\n\nZooplankton is sampled by vertical WP2 net tows, samples scanned with  ZooScanner and identification with plankton analyser software, followed  by manual validation.",
+    "url": "https://obis.org/dataset/afa5b0e8-826d-4433-b698-beb176ef7880",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=lifewatch_zooplankton",
+        "https://dx.doi.org/10.14284/651"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Flanders Marine Institute (VLIZ), Belgium (2022): LifeWatch observatory data: zooplankton observations in the Belgian Part of the North Sea https://dx.doi.org/10.14284/651",
+    "version": "2024-02-26T23:37:49.000Z",
+    "keywords": [
+        "Data",
+        "Marine Genomics",
+        "research vessel",
+        "Simon Stevin",
+        "Zooplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling platform name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Sampling platform name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of artificial fibres per unit volume of the water body by image analysis",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FIB01ZIA/",
+            "description": "Abundance of artificial fibres per unit volume of the water body by image analysis"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of organic and mineral detritus per unit volume of the water body by image analysis",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DET01ZIA/",
+            "description": "Abundance of organic and mineral detritus per unit volume of the water body by image analysis"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of unidentified animal biota (ITIS: 202423: WoRMS 2) per unit volume of the water body by image analysis",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AUN08103/",
+            "description": "Abundance of unidentified animal biota (ITIS: 202423: WoRMS 2) per unit volume of the water body by image analysis"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SampleVolume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "SampleVolume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SubsamplingCoefficient",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "description": "SubsamplingCoefficient"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "imaging instrument name",
+            "url": "",
+            "description": "imaging instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2020",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/651",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/651",
+        "url": "https://dx.doi.org/10.14284/651"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=lifewatch_zooplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0.7481867 50.1015429,0.7481867 52.11949487,3.96861133 52.11949487,3.96861133 50.1015429,0.7481867 50.1015429"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

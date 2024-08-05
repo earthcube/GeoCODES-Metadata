@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/45e4536f-5d11-41a6-be5b-464653e419f1",
+    "name": "AIS Settlement Plate Program: Ongoing monitoring of invasive biofouling species on the Pacific coast of Canada",
+    "description": "The Aquatic Invasive Species Settlement Plate Program deploys experimental settlement surfaces, usually small PVC plates, on floating structures such as docks, wharfs, and marinas throughout coastal British Columbia annually. It targets non-native biofouling species, although other taxa and common native species are also tracked. This dataset includes both non-native and common native tunicates and bryozoans, identified to species.",
+    "url": "https://obis.org/dataset/45e4536f-5d11-41a6-be5b-464653e419f1",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=pacificais-foulingspecies"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Howard B, Therriault T (2023). AIS Settlement Plate Program: Ongoing monitoring of invasive biofouling species on the Pacific coast of Canada. Version 1.5. Fisheries and Oceans Canada. Samplingevent dataset. https://ipt.iobis.org/obiscanada/resource?r=pacificais-foulingspecies&amp;v=1.5",
+    "version": "2023-02-10T18:37:19.000Z",
+    "keywords": [
+        "tunicates; bryozoans; invasive species; fouling; invertebrates; marine",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=pacificais-foulingspecies",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-133.002 48.356,-133.002 54.561,-122.87 54.561,-122.87 48.356,-133.002 48.356"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

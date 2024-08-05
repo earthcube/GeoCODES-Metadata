@@ -1,0 +1,131 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/63fd1fc7-7fb2-4bdf-add6-154fc7ae276b",
+    "name": "Zooplankton monitoring in the Belgian Part of the North Sea between 2009 and 2010",
+    "description": "Zooplankton from the Belgian Part of the North Sea was sampled monthly in 2009 and 2010 at 10 monitoring stations, using a WP2 net (57cm, 200µm mesh size), which was towed in an oblique haul from bottom to surface.",
+    "url": "https://obis.org/dataset/63fd1fc7-7fb2-4bdf-add6-154fc7ae276b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zoopl_bpns",
+        "https://dx.doi.org/10.14284/55"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bio-environmental research group; Institute of Agricultural and Fisheries research (ILVO), Belgium; (2015): Zooplankton monitoring in the Belgian Part of the North Sea between 2009 and 2010 https://dx.doi.org/10.14284/55",
+    "version": "2023-05-23T11:41:41.000Z",
+    "keywords": [
+        "Zooplankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "VolumeSampled",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "VolumeSampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "#ind/m³ in length class - standard - [11 - 12] mm",
+            "url": "",
+            "description": "#ind/m³ in length class - standard - [11 - 12] mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "#ind/m³ in length class - standard - [9 - 10] mm",
+            "url": "",
+            "description": "#ind/m³ in length class - standard - [9 - 10] mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "#ind/m³ in length class - shell length - [2 - 3] mm",
+            "url": "",
+            "description": "#ind/m³ in length class - shell length - [2 - 3] mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "#ind/m³ in length class - standard - [14 - 15] mm",
+            "url": "",
+            "description": "#ind/m³ in length class - standard - [14 - 15] mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "#ind/m³ in length class - standard - [2 - 3] mm",
+            "url": "",
+            "description": "#ind/m³ in length class - standard - [2 - 3] mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "#ind/m³ in length class - standard - [3 - 4] mm",
+            "url": "",
+            "description": "#ind/m³ in length class - standard - [3 - 4] mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "#ind/m³ in length class - standard - [36 - 37] mm",
+            "url": "",
+            "description": "#ind/m³ in length class - standard - [36 - 37] mm"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2010",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/55",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/55",
+        "url": "https://dx.doi.org/10.14284/55"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zoopl_bpns",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.29 51.16,2.29 51.75,3.23 51.75,3.23 51.16,2.29 51.16"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19328",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent",
+            "name": "Universiteit Gent",
+            "url": "https://oceanexpert.org/institution/19328"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19366",
+            "@type": "Organization",
+            "legalName": "Vlaamse overheid; Beleidsdomein Landbouw en Visserij; Instituut voor landbouw- , visserij en voedingsonderzoek; Kenniseenheid: Dier; Aquatisch Milieu en Kwaliteit",
+            "name": "Vlaamse overheid; Beleidsdomein Landbouw en Visserij; Instituut voor landbouw- , visserij en voedingsonderzoek; Kenniseenheid: Dier; Aquatisch Milieu en Kwaliteit",
+            "url": "https://oceanexpert.org/institution/19366"
+        }
+    ]
+}

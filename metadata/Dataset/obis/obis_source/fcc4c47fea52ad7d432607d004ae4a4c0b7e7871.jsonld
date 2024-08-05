@@ -1,0 +1,117 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/35425466-4e93-48b8-9e91-b8a76c026ee1",
+    "name": "Eastern Channel dataset",
+    "description": "Data comprised a regular grid extending into the English Channel, including UK waters. In total, 15 stations were sampled for macrobenthos.",
+    "url": "https://obis.org/dataset/35425466-4e93-48b8-9e91-b8a76c026ee1",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nsbp_dewarumez"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dewarumez J.-M. &amp; Desroy N. - 2000. Eastern Channel dataset. Station Marine de Wimereux, France.",
+    "version": "2023-05-23T11:30:50.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Macrobenthos",
+        "Zoobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D10",
+            "url": "",
+            "description": "D10"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D50",
+            "url": "",
+            "description": "D50"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D75-D25",
+            "url": "",
+            "description": "D75-D25"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D75/D25",
+            "url": "",
+            "description": "D75/D25"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D90-D10",
+            "url": "",
+            "description": "D90-D10"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D90/D10",
+            "url": "",
+            "description": "D90/D10"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D90",
+            "url": "",
+            "description": "D90"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Medium gravel",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PRPCL555/",
+            "description": "Medium gravel"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mode 1",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MOGSPSXX/",
+            "description": "Mode 1"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nsbp_dewarumez",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0.99861666666667 50.001883333333,0.99861666666667 51.501483333333,2.49975 51.501483333333,2.49975 50.001883333333,0.99861666666667 50.001883333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3f845a8d-536a-4630-8d16-31d8ed1e29a6",
+    "name": "Tern Island Albatrosses - 1998",
+    "description": "Original provider:\nWake Forest University\n\nDataset credits:\nNational Science Foundation\n\nAbstract:\nSatellite telemetry was used to identify the foraging distributions of two congeneric species of albatrosses that nest in the tropics/subtropics. Breeding Black-footed albatross (<i>Phoebastria nigripes</i>) and Laysan albatross (<i>Phoebastria immutabilis</i>) nesting in Tern Island (Northwest Hawaiian Islands) and tracked during the 1998 breeding season (January - June) performed foraging trips to continental shelves off North America. Black-footed albatross made long trips to the west coast of North America (British Columbia to California). Laysan albatross traveled primarily to the north of the Hawaiian Islands, and reached the waters of the Aleutian Islands and the Gulf of Alaska. These albatross species mixed short and long trips during the chick-rearing period (February - June), but engaged in short foraging trips during the brooding period (within 18 days after chick hatched, January - February).\n\nPurpose:\nThe analysis of albatross movement patterns showed that the core feeding areas during long trips were located over the continental shelves of North America, from California to the Aleutians. An understanding on the foraging biology of North Pacific albatrosses has important implications for assessing their bycatch risk in commercial fisheries.\n\nWe thank C. Alexander, L. Carsten, P. Fernández, F. Juola,  P. Sievert, A. Viggiano and S. Wang for assistance in the field, and the United States Fish and Wildlife Service for logistical support. This research was funded by National Science Foundation grant DEB 9629539 to D. Anderson.\n\nSupplemental information:\nThese albatross were tracked using PTT-100 Argos transmitters (Microwave Telemetry, Columbia, MD) operating at a 90-second repetition rate and programmed to operate on a 8:24 h ON:OFF duty cycle. Transmitter bench-tests before deployment revealed that the Argos location quality classes (lcs) had the following median position errors, expressed in kilometers: lc B (24.23), lc A (2.95), lc 0 (5.65), lc 1 (1.53), lc 2 (0.73), and lc 3 (0.44).\n\nThe low-quality class B locations were discarded because they misrepresented the telemetry tracks. Thus, this dataset includes 3505 high-quality locations (lc classes A or better) with median positional errors &lt;6 km.",
+    "url": "https://obis.org/dataset/3f845a8d-536a-4630-8d16-31d8ed1e29a6",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_313"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Hyrenbach, D. and D. Anderson. 2013. Tern Island Albatrosses - 1998. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/313) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:15:28.000Z",
+    "keywords": [
+        "Occurrence,albatross,satellite tracking,North Pacific Ocean,Hawaii,Radio transmitters,Animal movements",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_313",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.976 18.524,-179.976 59.996,179.947 59.996,179.947 18.524,-179.976 18.524"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0291d647-fea2-4c10-a84f-149649e6f79c",
+    "name": "Kintama Research Services: Seymour River steelhead smolts.",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Kintama Research Services (KRS)  Kintama Research Services: Seymour River steelhead smolts., consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=NEP.KRS).\nAbstract:Fifty Seymour River steelhead smolts were double-tagged with VEMCO V9 and V4 acoustic transmitters, and then released in Malaspina Strait (east side of Texada Island in the Strait of Georgia) to migrate over acoustic arrays in the Salish Sea. The V9 transmitters allowed us to estimate early-marine survival through the northern Strait of Georgia and Discovery Islands, and provided a baseline estimate against which to evaluate the detection performance of the V4 transmitter (VEMCO’s newest, smallest transmitter). Cumulative survival over the ~170 km from release to Johnstone Strait was 46% (SE=7.0%).   Detection efficiency of the V4 was 74% (SE=10%) at the Discovery Island subarray compared to 100% for the V9 tags. Since the subarray was fully functional and the tags were operating within their warranted lifespan, we consider this to be a useful first estimate of what can be achieved with the V4 tags.An animation of the movements of the Seymour River steelhead smolts released in 2015 is available on our website (http://kintama.com/visualizations/).",
+    "url": "https://obis.org/dataset/0291d647-fea2-4c10-a84f-149649e6f79c",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnkrskintamaresearchserv",
+        "https://doi.org/10.14286/ejaqus"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Welch, D, Rechisky, E, Porter, A. 2015. Comparative Marine Survival of Seymour Steelhead and Testing Performance of 180 kHz Small Acoustic Tags in the Salish Sea. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T17:30:21.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AGEBENTX/",
+            "description": "age"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/ejaqus",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/ejaqus",
+        "url": "https://doi.org/10.14286/ejaqus"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnkrskintamaresearchserv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-127.48401 48.27411,-127.48401 50.85885,-124.03596 50.85885,-124.03596 48.27411,-127.48401 48.27411"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

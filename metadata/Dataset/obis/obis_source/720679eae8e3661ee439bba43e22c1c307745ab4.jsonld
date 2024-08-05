@@ -1,0 +1,136 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e4234681-4822-4490-9113-bdac90911dca",
+    "name": "SHARK - National zoobenthos monitoring in Sweden since 1971",
+    "description": "Data collected within various monitoring programmes and surveys. Standard zoobenthos techniques using benthic grabbers and species analyses for counts and weights on species level.",
+    "url": "https://obis.org/dataset/e4234681-4822-4490-9113-bdac90911dca",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=smhi-zoobenthos-nat",
+        "https://doi.org/10.15468/fggzdr"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Stockholm University, Gothenburg University, Umeå University, Linnaeus University, Swedish Agency for Marine and Water Management, Swedish Environmental Protection Agency and Swedish Meterological and Hydrological Institute (2020). National zoobenthos monitoring in Sweden since 1971. https://doi.org/10.15468/fggzdr",
+    "version": "2024-02-26T23:46:38.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Water depth",
+            "url": "",
+            "description": "Water depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampler type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampler area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampler area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lower mesh size",
+            "url": "",
+            "description": "Lower mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "BQIm",
+            "url": "",
+            "description": "BQIm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "# counted",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "# counted"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampled volume",
+            "url": "",
+            "description": "Sampled volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind speed",
+            "url": "",
+            "description": "Wind speed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wave height",
+            "url": "",
+            "description": "Wave height"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/2021",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/fggzdr",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/fggzdr",
+        "url": "https://doi.org/10.15468/fggzdr"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=smhi-zoobenthos-nat",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "10.57167 55,10.57167 65.83122,24.10917 65.83122,24.10917 55,10.57167 55"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8493",
+            "@type": "Organization",
+            "legalName": "Sveriges meteorologiska och hydrologiska institut",
+            "name": "Sveriges meteorologiska och hydrologiska institut",
+            "url": "https://oceanexpert.org/institution/8493"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19522",
+            "@type": "Organization",
+            "legalName": " Havs- och Vattenmyndigheten",
+            "name": " Havs- och Vattenmyndigheten",
+            "url": "https://oceanexpert.org/institution/19522"
+        }
+    ]
+}

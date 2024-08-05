@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/36b58f28-0a03-4447-b688-e4eed56afa3d",
+    "name": "ZooGene A DNA Sequence Database for Calanoid Copepods and Euphausiids",
+    "description": "Zooplankton genomic (ZooGene) database of DNA type sequences for calanoid copepods and euphausiids.",
+    "url": "https://obis.org/dataset/36b58f28-0a03-4447-b688-e4eed56afa3d",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-malaysia/resource?r=zoobankgene-v1"
+    ],
+    "license": "Unrestricted",
+    "citation": "Zooplankton genomic database (ZooGene) project: integrating molecular, taxonomic, and oceanographic data. Bucklin,A.; Wiebe,P. H.; Frost,B. W.; Groman,R. G.; Fogarty,M. J.",
+    "version": "2018-11-12T15:17:53.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-malaysia/archive.do?r=zoobankgene-v1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.506698608 -54.5,-178.506698608 78,160 78,160 -54.5,-178.506698608 -54.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

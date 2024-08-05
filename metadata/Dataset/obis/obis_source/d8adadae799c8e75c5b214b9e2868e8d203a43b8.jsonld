@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/132ab7ea-1b4b-46ea-8f5f-6b8da98db2be",
+    "name": "Macrobenthos from the eastern English Channel in 1999 and 2001",
+    "description": "This dataset contains macrobenthos data from the eastern English Channel from 1999 and 2001.",
+    "url": "https://obis.org/dataset/132ab7ea-1b4b-46ea-8f5f-6b8da98db2be",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nsbp_newel"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marine Ecological Surveys Ltd. - UK (2009). Macrobenthos from the eastern English Channel in 1999 and 2001.",
+    "version": "2023-05-23T11:28:21.000Z",
+    "keywords": [
+        "Benthos",
+        "Macrobenthos",
+        "Zoobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "samplingEffort",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "samplingEffort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1999/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nsbp_newel",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-0.458748 50.2279,-0.458748 50.6084,0.966236 50.6084,0.966236 50.2279,-0.458748 50.2279"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

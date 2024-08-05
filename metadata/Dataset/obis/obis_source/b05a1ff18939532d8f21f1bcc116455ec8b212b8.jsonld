@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6d5df2d0-f41d-4d92-87c4-8642d5a39cfa",
+    "name": "Tracking two rehabilitated green turtles off Eastern Australia using satellite tags (2010 - 2011)",
+    "description": "Two turtles trapped in crab pot float lines were found by members of the public and admitted to Australia Zoo wildlife hospital. They underwent rehabilitation and had their front flippers amputated due to necrosis. Upon release they were fitted with Argos satellite transmitters to determine their movements and survival potential.\nData is from https://zoatrack.org/projects/4.",
+    "url": "https://obis.org/dataset/6d5df2d0-f41d-4d92-87c4-8642d5a39cfa",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=cdu_green_turtles"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "The data in this project is publicly available from https://zoatrack.org/projects/4. If you use these data in any type of publication then you must cite the project DOI (if available) or any published peer-reviewed papers associated with the study. We strongly encourage you to contact the data custodians to discuss data usage and appropriate accreditation.\n\nThe data is the property of the University of Queensland. Permission is required to use this material.",
+    "version": "2022-06-08T04:52:26.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=cdu_green_turtles",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "152.262 -36.246,152.262 -26.647,161.098 -26.647,161.098 -36.246,152.262 -36.246"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20839",
+            "@type": "Organization",
+            "legalName": "Charles Darwin University",
+            "name": "Charles Darwin University",
+            "url": "https://oceanexpert.org/institution/20839"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

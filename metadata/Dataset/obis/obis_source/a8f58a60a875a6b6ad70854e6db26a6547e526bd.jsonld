@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/14242931-d643-4f29-a505-4d8eab59751b",
+    "name": "Canada_BasinMegabenthos2002",
+    "description": "Dataset of the infauna of the Arctic Canada Basin.",
+    "url": "https://obis.org/dataset/14242931-d643-4f29-a505-4d8eab59751b",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=arcod_2005b1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bluhm, B.A., MacDonald IR, Debenham C, Iken K. (2004) Macro and Megabenthic Communities in the High Arctic Canada Basin: Initial Findings. Polar Biology, 28: 218-231",
+    "version": "2019-08-26T14:16:28.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=arcod_2005b1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-162.309997559 70.5800018311,-162.309997559 75.9599990845,-122.980003357 75.9599990845,-122.980003357 70.5800018311,-162.309997559 70.5800018311"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        }
+    ]
+}

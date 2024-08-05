@@ -1,0 +1,108 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1848b553-5771-4b7b-9f84-fae0ea3014c0",
+    "name": "Spatial distribution of the macrozoobenthos on the 'Slikken van Vianen' (Oosterschelde) in 1979",
+    "description": "List of macrobenthos species which were present (counts) or absent (count=0) for several samples taken in 4 permanent quadrants (PQ) on the 'Slikken van Vianen' in September 1979. The data were digitized by VLIZ from the original report: Dereu, J. (1982). Ruimtelijke distributie van het macrozoöbenthos op de slikken van Vianen (Oosterschelde, NL). BSc Thesis. Rijksuniversiteit Gent: Gent. 95 pp.",
+    "url": "https://obis.org/dataset/1848b553-5771-4b7b-9f84-fae0ea3014c0",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macrozoobenthos_oosterschelde_1979",
+        "https://dx.doi.org/10.14284/227"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dereu J.; Coomans A.; Faculteit Wetenschappen. RUG: Belgium; (2016): Spatial distribution of the macrozoobenthos on the 'Slikken van Vianen' (Oosterschelde) in 1979. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5051) https://dx.doi.org/10.14284/227",
+    "version": "2023-05-23T11:54:51.000Z",
+    "keywords": [
+        "Macrozoobenthos",
+        "Mud flats",
+        "Spatial distribution",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wad tube aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "wad tube aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lower sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Lower sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample extraction method. Sampling instrument name for the density measurement",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100005/",
+            "description": "Sample extraction method. Sampling instrument name for the density measurement"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of macrobenthos per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of macrobenthos per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/1979",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/227",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/227",
+        "url": "https://dx.doi.org/10.14284/227"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macrozoobenthos_oosterschelde_1979",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "4.000814 51.611324,4.000814 51.614819,4.014124 51.614819,4.014124 51.611324,4.000814 51.611324"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9162",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Faculteit Wetenschap",
+            "name": "Universiteit Gent, Faculteit Wetenschap",
+            "url": "https://oceanexpert.org/institution/9162"
+        }
+    ]
+}

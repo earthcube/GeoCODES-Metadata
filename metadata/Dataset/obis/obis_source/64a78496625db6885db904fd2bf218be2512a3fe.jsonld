@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/54bf169c-13f6-44cd-8551-06b999c994a1",
+    "name": "Whale catches in the Southern Ocean",
+    "description": "Season whale catch records for austral summers from 1931/32 to 1979/80. Data has been aggregated into one degree cells centered on the reported position. Covers five whale species - Blue, Fin, Sei, Minke and Humpback.",
+    "url": "https://obis.org/dataset/54bf169c-13f6-44cd-8551-06b999c994a1",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=sp_whales"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre (2018). Whale catches in the Southern Ocean.",
+    "version": "2021-05-12T00:45:11.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1932/1980",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=sp_whales",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "54.5 -67.5,54.5 -57.5,105.5 -57.5,105.5 -67.5,54.5 -67.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

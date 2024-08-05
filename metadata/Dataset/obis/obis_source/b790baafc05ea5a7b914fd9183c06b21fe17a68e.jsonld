@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9c8a2ac6-f394-4fa1-981e-227fa7b14675",
+    "name": "ICES Phytobenthos community dataset",
+    "description": "Phytobenthos community data, a large portion of the data held are monitoring data submitted for the OSPAR CEMP and HELCOM COMBINE monitoring programmes and therefore follow specific monitoring programme guidelines.",
+    "url": "https://obis.org/dataset/9c8a2ac6-f394-4fa1-981e-227fa7b14675",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dome-phytobenthos"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES Environmental Database (DOME), Phytobenthos community. Available online at http://dome.ices.dk. ICES, Copenhagen. Consulted on yyyy-mm-dd.",
+    "version": "2023-05-23T11:38:21.000Z",
+    "keywords": [
+        "Phytobenthos",
+        "Species distribution",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dome-phytobenthos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.331167 54.266,11.331167 62.878,27.92154 62.878,27.92154 54.266,11.331167 54.266"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/29dbebfe-bf43-4167-ab9b-48bcd546edc9",
+    "name": "World Database of Nematodes",
+    "description": "A world checklist of free-living marine Nematodes, compiled by taxonomic experts and based on peer-reviewed literature.",
+    "url": "https://obis.org/dataset/29dbebfe-bf43-4167-ab9b-48bcd546edc9",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nemys",
+        "https://dx.doi.org/10.14284/366"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Nemys eds. (2023). Nemys: World Database of Nematodes. Accessed at https://nemys.ugent.be on yyyy-mm-dd https://dx.doi.org/10.14284/366",
+    "version": "2023-12-08T17:49:20.000Z",
+    "keywords": [
+        "Classification",
+        "Marine invertebrates",
+        "Species",
+        "Taxonomy",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1898/2000",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/366",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/366",
+        "url": "https://dx.doi.org/10.14284/366"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nemys",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-40.35 27.07,-40.35 78,64 78,64 27.07,-40.35 27.07"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

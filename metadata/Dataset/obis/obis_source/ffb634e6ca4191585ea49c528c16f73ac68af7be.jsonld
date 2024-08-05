@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c56bd06c-f51e-4506-9239-584938c0c880",
+    "name": "Southeast Area Monitoring and Assessment Program (SEAMAP) South Atlantic",
+    "description": "The original dataset, provided by OBIS-USA, contains all distribution records. The dataset in OBIS Seamap is a subset of the original dataset, only containing marine mammal, seabird and/or sea turtle records.",
+    "url": "https://obis.org/dataset/c56bd06c-f51e-4506-9239-584938c0c880",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=seamap-sa"
+    ],
+    "license": "",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=seamap-sa",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.4400024414 28.7560005188,-81.4400024414 35.2290000916,-75.5199966431 35.2290000916,-75.5199966431 28.7560005188,-81.4400024414 28.7560005188"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

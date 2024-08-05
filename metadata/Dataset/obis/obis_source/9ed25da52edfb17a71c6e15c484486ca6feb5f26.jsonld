@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6d44cfeb-de07-4efc-b71b-3d541cb4a413",
+    "name": "kerkyra",
+    "description": "Data from Kerkyra area in the Ionian Sea.",
+    "url": "https://obis.org/dataset/6d44cfeb-de07-4efc-b71b-3d541cb4a413",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=kerkyra"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Zenetos A. &amp; C. Bogdanos, 1992: Kerkyra dataset. Hellenic Centre for Marine Research, Greece",
+    "version": "2020-03-20T15:14:44.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1992",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=kerkyra",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "19.8686666666667 39.5,19.8686666666667 39.706,20.056 39.706,20.056 39.5,19.8686666666667 39.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6444",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biological Resources and Inland Waters",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biological Resources and Inland Waters",
+            "url": "https://oceanexpert.org/institution/6444"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

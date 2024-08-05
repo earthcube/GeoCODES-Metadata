@@ -1,0 +1,107 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b9bfb219-1d5c-450e-9b26-fd377aee8561",
+    "name": "Presence of sea turtles collected through Fixed-Line-Transect monitoring across the Western Mediterranean Sea (Civitavecchia-Barcelona route) between 2013 and 2017",
+    "description": "The dataset provided here consists of sighting data of sea turtles (Caretta caretta) collected between April 2013 and October 2017, along the ferry route between Italy and Spain, within the Fixed Line Transect Mediterranean monitoring Network (FLT Med Net), a multidisciplinary  monitoring project coordinated by ISPRA since 2007. The programme uses ferry boats as observation platforms to undertake surveys of marine macro-fauna and main threats (maritime traffic and floating marine litter), and involves several International partners that share common protocols for data collection across different routes in the Mediterranean Sea. This datasets includes 117 georeferenced sightings of loggerhead turtles, together with effort data covered in good weather conditions (Beaufort &lt;4), for a total of approximately 79.700 km, over 333 surveyed transects.",
+    "url": "https://obis.org/dataset/b9bfb219-1d5c-450e-9b26-fd377aee8561",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cc_flt_cbar_13-17",
+        "https://dx.doi.org/10.14284/532"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Arcangeli, A, Campana, I., Paraboschi, M.; ISPRA, Rome, Italy; (2018). Presence of sea turtles collected through Fixed-Line-Transect monitoring across the Western Mediterranean Sea (Civitavecchia-Barcelona route) between 2013 and 2017 https://dx.doi.org/10.14284/532",
+    "version": "2023-12-08T17:50:54.000Z",
+    "keywords": [
+        "Aquatic reptiles",
+        "self-propelled boat",
+        "Turtles",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "BEAUFORT WIND FORCE",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WMOCWFBF/",
+            "description": "BEAUFORT WIND FORCE"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform height",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AHSLZZ01/",
+            "description": "Platform height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of measurement platform relative to ground surface {speed over ground} by unspecified GPS system",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/APSAGP01/",
+            "description": "Speed of measurement platform relative to ground surface {speed over ground} by unspecified GPS system"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sighting distance",
+            "url": "",
+            "description": "Sighting distance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2017",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/532",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/532",
+        "url": "https://dx.doi.org/10.14284/532"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cc_flt_cbar_13-17",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.3172015 41.0269215,2.3172015 42.047337,11.621484 42.047337,11.621484 41.0269215,2.3172015 41.0269215"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

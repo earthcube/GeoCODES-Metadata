@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4a606f86-2e7b-44a3-b50d-3d55a887a11f",
+    "name": "DMNS Marine Invertebrate Collection (Arctos)",
+    "description": "The Denver Museum of Nature &amp; Science Marine Invertebrate Collection dates to the early 1900s. It is a diverse collection of worldwide specimens, the largest portion being marine shells. It also has specimens of echinoderms, corals, sponges, crustaceans, and other invertebrates. Despite its name, it includes a substantial collection of land and freshwater snail shells. The collection contains nearly 50,000 lots, of which more than half are databased in Arctos with more being added to the database each week. More than half of the databased lots are geolocated, and over 1,000 specimen records have images. \n\nSpecimens in the collection represent nearly 6,000 species in over 450 families. Specimens come from over 150 countries with the majority from the United States and most of those from Florida and Hawaii.   All specimens have been donated to the Museum by shell collectors, including many self-collected specimens.",
+    "url": "https://obis.org/dataset/4a606f86-2e7b-44a3-b50d-3d55a887a11f",
+    "sameAs": [
+        "http://ipt.vertnet.org:8080/ipt/resource?r=dmns_inv"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Denver Museum of Nature &amp; Science Marine Invertebrate Collection",
+    "version": "2023-06-01T00:00:38.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1879/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.vertnet.org:8080/ipt/archive.do?r=dmns_inv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.44694 -64.839217,-179.44694 78.490182,179.422333 78.490182,179.422333 -64.839217,-179.44694 -64.839217"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20644",
+            "@type": "Organization",
+            "legalName": "Berkeley Natural History Museums",
+            "name": "Berkeley Natural History Museums",
+            "url": "https://oceanexpert.org/institution/20644"
+        }
+    ]
+}

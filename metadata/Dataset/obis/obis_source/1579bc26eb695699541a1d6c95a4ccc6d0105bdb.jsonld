@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9c1aeafd-0a62-4799-95f5-88068b718c36",
+    "name": "Zooplankton Bongo Net Data from the 2019 and 2020 Gulf of Alaska International Year of the Salmon Expeditions",
+    "description": "This record contains zooplankton presence/absence data collected in the Gulf of Alaska (GoA) with a bongo net between February 19 - March 15, 2019, and March 14 – April 5, 2020, as part of the International Year of the Salmon High Seas Expeditions. The bongo net (3 m length, 250 µm mesh, 50 cm diameter) was deployed at 58 stations, to a depth of 250 m and retrieved vertically at 1 m s-1. Volume of sea water filtered was determined using General Oceanics flowmeters and by multiplying effective distance travelled by the mouth area. After the bongo net deployment and recovery, the net was rinsed down into the cod end. Samples from one cod end were rinsed into a jar and preserved in 4 % formaldehyde for future taxonomic analysis. The other cod end was rinsed into a sieve and transferred below deck where it was subsequently size fractionated (250-500 µm, 500-1000 µm, 1000-2000 µm, 2000-4000 µm, and &gt;4000 µm) onto pre-weighed filters. Individuals larger than 4000 µm were measured, identified to species level, and stored in individual Eppendorf tubes. Size fractionated zooplankton samples were stored on dry ice. This record contains the zooplankton occurrence data from both cod ends, identified to the lowest taxonomic rank possible.",
+    "url": "https://obis.org/dataset/9c1aeafd-0a62-4799-95f5-88068b718c36",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=zooplankton-bongo-net-data-from-the-2020-gulf-of-alaska-international-year-of-the-salmon-expedition",
+        "https://doi.org/10.21966/7cmt-ca72"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hunt, B., Mahara, N., &amp; Pakhomov, E. (2021). Zooplankton Bongo Net Data from the 2019 and 2020 Gulf of Alaska International Year of the Salmon Expeditions [Data set]. https://doi.org/10.21966/7cmt-ca72",
+    "version": "2023-06-02T21:25:26.000Z",
+    "keywords": [
+        "Metadata",
+        "International Year of the Salmon",
+        "Zooplankton biomass and diversity",
+        "Oceans",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.21966/7cmt-ca72",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.21966/7cmt-ca72",
+        "url": "https://doi.org/10.21966/7cmt-ca72"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=zooplankton-bongo-net-data-from-the-2020-gulf-of-alaska-international-year-of-the-salmon-expedition",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-147.534166666667 46.36,-147.534166666667 56.66733333333333,-127.996116666667 56.66733333333333,-127.996116666667 46.36,-147.534166666667 46.36"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5899",
+            "@type": "Organization",
+            "legalName": "University of British Columbia",
+            "name": "University of British Columbia",
+            "url": "https://oceanexpert.org/institution/5899"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        }
+    ]
+}

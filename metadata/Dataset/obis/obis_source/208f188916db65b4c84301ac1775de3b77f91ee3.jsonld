@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/284af94c-a92e-4ccd-8578-3295992a1123",
+    "name": "Vertical habitat use of black marlin (Istiompax indica) in the southwestern Pacific. (2002-2015)",
+    "description": "To characterize the vertical habitat use of Istiompax indica, 102 pop-up satellite archival tags were deployed off the east coast of Australia (Queensland and New South Wales) in consecutive years from 2002 to 2014 as part of two separate tagging programmes. Tags were programmed to record pressure (depth), temperature and light at 20 or 60 s intervals. Tags were programmed to release from fish after 120 days (n=14), 180 days (n=86) or 270 days (n=2) in order to capture both broad-scale and high-resolution data.\n\n\nThis dataset is the maximum depths per dive from the cited paper accessed on 2022-08-01. ",
+    "url": "https://obis.org/dataset/284af94c-a92e-4ccd-8578-3295992a1123",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=pacific_black_marlin",
+        "http://dx.doi.org/10.1098/rsos.170694"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Williams SM, Holmes BJ, Tracey SR, Pepperell JG, Domeier ML, Bennett MB. 2017 Environmental influences and ontogenetic differences in vertical habitat use of black marlin (Istiompax indica) in the southwestern Pacific. R. Soc. open sci. 4: 170694. http://dx.doi.org/10.1098/rsos.170694",
+    "version": "2022-08-04T23:59:56.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "",
+            "description": "Weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2015",
+    "identifier": {
+        "@id": "http://dx.doi.org/10.1098/rsos.170694",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1098/rsos.170694",
+        "url": "http://dx.doi.org/10.1098/rsos.170694"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=pacific_black_marlin",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.925 -38.525,-179.925 8.775,179.95 8.775,179.95 -38.525,-179.925 -38.525"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

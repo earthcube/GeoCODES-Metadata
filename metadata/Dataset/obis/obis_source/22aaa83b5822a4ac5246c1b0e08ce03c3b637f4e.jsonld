@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/57f47b43-dcf8-4c23-a56b-719cec84f8f3",
+    "name": "DFO Quebec Region Ecosystemic bottom trawl survey 1990-2005",
+    "description": "Fisheries and Oceans Canada Quebec Region (DFO-Qc) conducts a multidisciplinary scientific bottom trawl survey in the estuary and northern Gulf of St. Lawrence (NAFO areas 4RST) every year since 1978. Survey data are collected following a stratified random sampling with a bottom trawl. The main objectives are to examine spatial and temporal changes in the distribution and relative abundance of fish and their assemblages and biological parameters of commercial species. Over the years, this survey has been conducted aboard five vessels: the MV Gadus Atlantica (1978-1994), the MV Lady Hammond (1984-1990), the CCGS Alfred Needler (1990-2005), the CCGS Teleost (2004-2022) and since 2022 the CCGS John Cabot. The objectives, the protocols, the identification of species as well as the trawl used during the various surveys changed over time. The data are therefore not directly comparable between these surveys. Comparative analyzes were carried between vessels and conversion factors are available for a number of species. Contact the team for more information.\nThis data constitutes an OBIS version of the data collected from 1990 to 2005 onboard the CCGS Alfred Needler. At each sampling station, a URI shrimp trawl (81'/114') is towed for 25 minutes on the bottom at each sampling station. Physical oceanographic data are also collected at most stations using CTDs attached to the back of the trawl, a rosette and a zooplankton net. The OBIS view of this dataset includes presence and biomass information for fish and invertebrates species at the survey station locations.\nData collected onboard the CCGS Teleost (2004-2005) are also available on Obis.",
+    "url": "https://obis.org/dataset/57f47b43-dcf8-4c23-a56b-719cec84f8f3",
+    "sameAs": [
+        "https://ipt.iobis.org/obiscanada/resource?r=quebec_occurence"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY 4.0) License",
+    "citation": "Bernier D, Bourdages H, Nozères C, Vanier C, Boulanger M, Isabel L (2023). DFO Quebec Region Ecosystemic bottom trawl survey 1990-2005. Version 1.1. Fisheries and Oceans Canada. Samplingevent dataset. https://ipt.iobis.org/obiscanada/resource?r=quebec_occurence&amp;v=1.1",
+    "version": "2023-05-16T15:51:03.000Z",
+    "keywords": [
+        "Occurrence",
+        "Fish",
+        "Trawl",
+        "Biomass",
+        "Abundance"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Standardized number of individuals captured for 24 min tow",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADBIOL02/",
+            "description": "Standardized number of individuals captured for 24 min tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Standardized weight of total capture for 24 min tow",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WWBIOL02/",
+            "description": "Standardized weight of total capture for 24 min tow"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=quebec_occurence",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.3405 46.88833333,-69.3405 52.10233333,-55.47533333 52.10233333,-55.47533333 46.88833333,-69.3405 46.88833333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6190",
+            "@type": "Organization",
+            "legalName": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "name": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6190"
+        }
+    ]
+}

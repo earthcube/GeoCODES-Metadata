@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a5a59bfa-44a1-49cd-bde3-c7d21e923de2",
+    "name": "Patterns of population genetic structure among Australian and South Pacific humpback whales 2007/11",
+    "description": "A spreadsheet detailing the analysis of humpback whale biopsy samples including the field:\nSample ID\nDuplicate (notes field)\nLocation sample was taken\nCollection date (UTC)\nCollection latitude and longitude\nSex\nHaplotype\nDLOOP sequence\nMicrosatellite sequence\nSingle nucleotide polymorphism (SNP) markers\nBy utilising both mitochondrial and nuclear genetic markers, the population structure and distribution of humpback whales that migrate to separate winter breeding grounds along the north-western and north-eastern coasts of Australia,\nand their interaction with the endangered populations of the South Pacific can be examined. Specifically, this dataset was used to look at population structure among putative breeding populations, the mixing of breeding populations on high latitude Antarctic feeding grounds and evidence for sex-specific migration along the eastern Australian migratory corridor.\nAustralian Antarctic Data Centre Note, 2018-07-10:\n\nOriginal datasheet was reformatted to fit IPT Biodiversity.AQ standard. The new datasheet \"humpbackWhales.csv\" provides the dataset ID, decimal latitude and longitude, location, sex, occurrence, and date of event. The taxonomical organisation is provided to the lowest taxonomical rank that could be determined, after matched in WoRMS (World Register of Marine Species).",
+    "url": "https://obis.org/dataset/a5a59bfa-44a1-49cd-bde3-c7d21e923de2",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=humpack_whales"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Schmitt, N.T., M.C. Double, C.S. Baker, N. Gales, S. Childerhouse, A.M. Polanowski,  \nD. Steel, G.R. Albertson, C. Olavarria, C. Garrigue, M. Poole, N. Hauser, R. \nConstantine, D. Paton, K.C.S. Jenner, S.N. Jarman, R. Peakall. Mixed-stock analysis of humpback whales (Megaptera novaeangliae) on Antarctic feeding grounds. J. CETACEAN RES. MANAGE.14: 141–157, 2014",
+    "version": "2022-06-07T02:33:36.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=humpack_whales",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.7057 -70.2905,-179.7057 -21.5367,168.587 -21.5367,168.587 -70.2905,-179.7057 -70.2905"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

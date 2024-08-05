@@ -1,0 +1,100 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a2160400-5b14-45ce-b63a-b9b5d97e8de3",
+    "name": "Polish Arctic Marine Programme",
+    "description": "This represents data on Benthic fauna, Food webs and the littoral zone from the Polish Academy of Sciences; Institute of Oceanology, taken between 1981 - 1985 from 60 stations annually investigated during summer.",
+    "url": "https://obis.org/dataset/a2160400-5b14-45ce-b63a-b9b5d97e8de3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macroben_hornsund_evco",
+        "https://dx.doi.org/10.14284/183"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Weslawski J.-M., E. Malec, R. Jaskuła, M. Włodarska-Kowalczuk, M. Kędra, 2002: Polish Arctic Marine Programme. Macrobenthic data from Hornsund from 2002. Polish Academy of Sciences, Institute of Oceanology, Poland https://dx.doi.org/10.14284/183",
+    "version": "2023-05-23T12:24:37.000Z",
+    "keywords": [
+        "Benthic fauna",
+        "Data",
+        "Food webs",
+        "Littoral zone",
+        "Macrobenthos",
+        "Marine Genomics",
+        "Zoobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Equipment",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Equipment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifeStage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2002",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/183",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/183",
+        "url": "https://dx.doi.org/10.14284/183"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macroben_hornsund_evco",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "15.4242 76.9258,15.4242 77.04617,16.56312 77.04617,16.56312 76.9258,15.4242 76.9258"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7171",
+            "@type": "Organization",
+            "legalName": "Polish Academy of Sciences – Institute of Oceanology",
+            "name": "Polish Academy of Sciences – Institute of Oceanology",
+            "url": "https://oceanexpert.org/institution/7171"
+        }
+    ]
+}

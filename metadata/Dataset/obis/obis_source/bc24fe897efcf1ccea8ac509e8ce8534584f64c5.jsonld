@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6ac63ed4-27d4-4a07-ada2-97f619f66c05",
+    "name": "Marine mammal sightings off Galápagos",
+    "description": "Original provider:\nDaniel Palacios\n\nDataset credits:\nDaniel M. Palacios and Ocean Alliance\n\nAbstract:\nThis dataset contains sightings of marine mammals (whales, dolphins, otariids) collected off the Galápagos Islands, Ecuador, during three expeditions by the Ocean Alliance in 1988-1989, 1993-1994, and 2000, aboard research vessels Siben (1988-1989) and Odyssey (1993-1994, 2000).\n\nPurpose:\nThese sightings were collected during dedicated cruises primarily to study sperm whales.\n\nSupplemental information:\nSome records do not have time recorded. In this case, it is filled with “00:00:00” and noted in the [Notes] field.\n\nSome records do not have group size recorded. In this case, it is filled with “1” and noted in the [Notes] field.",
+    "url": "https://obis.org/dataset/6ac63ed4-27d4-4a07-ada2-97f619f66c05",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_656"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Palacios, D. 2013. Marine mammal sightings off Galápagos. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/656) on yyyy-mm-dd.",
+    "version": "2021-04-24T10:11:00.000Z",
+    "keywords": [
+        "Occurrence,sightings,cetaceans,otariids",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_656",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-93.6467 -1.6783,-93.6467 2.9933,-87.8667 2.9933,-87.8667 -1.6783,-93.6467 -1.6783"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

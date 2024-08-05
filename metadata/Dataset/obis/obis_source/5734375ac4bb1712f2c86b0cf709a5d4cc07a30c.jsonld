@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d2acb3d6-c1be-4733-b52f-f7a3e270b0c2",
+    "name": "Estuarine Demersal Fish of Brazil",
+    "description": "The dataset \"Estuarine Demersal Fish of Brazil\" is based on two publications, and includes species captured in 4 Brazilian estuaries between latitudes 0 and 25 degrees South, and 22 Brazilian estuarine locations with published lists of their respective inhabiting fish species, from equatorial to subtropical environments.",
+    "url": "https://obis.org/dataset/d2acb3d6-c1be-4733-b52f-f7a3e270b0c2",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=estuarine_demersal_fish_of_brazil"
+    ],
+    "license": "Unrestricted",
+    "citation": "Fabio Lang da Silveira and Rubens M. Lopes Estuarine Demersal Fish of Brazil . Sao Paulo City, 24 December 2009, Version 1.0.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=estuarine_demersal_fish_of_brazil",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-52.6667 -33,-52.6667 0.1667,-34.8167 0.1667,-34.8167 -33,-52.6667 -33"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

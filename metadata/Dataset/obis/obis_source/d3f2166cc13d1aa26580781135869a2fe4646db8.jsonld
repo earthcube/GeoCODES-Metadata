@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5c0e6a1c-adce-40ca-88c5-f1dfb1e650f9",
+    "name": "IOMPMN12014 Env Bio",
+    "description": "Sampling data captured in Oceanic Exploration Research Annual Report for Contract IOMPMN1",
+    "url": "https://obis.org/dataset/5c0e6a1c-adce-40ca-88c5-f1dfb1e650f9",
+    "sameAs": [
+        "https://datasets.obis.org/hosted/isa/iompmn12014_env_bio/index.html"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Interoceanmetal Joint Organization, (2014). IOMPMN12014 Env Bio. Available : DeepData, International Seabed Authority https://data.isa.org.jm/ Accessed: [YYYY-MM-DD].",
+    "version": "2023-06-22T20:03:16.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Relative abundance",
+            "url": "",
+            "description": "Relative abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://datasets.obis.org/hosted/isa/iompmn12014_env_bio/iompmn12014_env_bio.zip",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-119.6618 11.0676,-119.6618 11.0743,-119.6546 11.0743,-119.6546 11.0676,-119.6618 11.0676"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13169",
+            "@type": "Organization",
+            "legalName": "International Seabed Authority",
+            "name": "International Seabed Authority",
+            "url": "https://oceanexpert.org/institution/13169"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20003",
+            "@type": "Organization",
+            "legalName": "Interoceanmetal Joint Organization",
+            "name": "Interoceanmetal Joint Organization",
+            "url": "https://oceanexpert.org/institution/20003"
+        }
+    ]
+}

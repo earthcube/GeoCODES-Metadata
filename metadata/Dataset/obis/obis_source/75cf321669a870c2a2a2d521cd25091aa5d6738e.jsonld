@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bbf8695c-634c-468f-a4c8-7c0bea9b857b",
+    "name": "DFO audits of sea lice at finfish aquaculture sites",
+    "description": "Fisheries and Oceans Canada’s (DFO’s) conditions of licence for marine finfish aquaculture contain monitoring and intervention requirements to minimize the potential exposure of wild and farmed fish to sea lice.\nLicence holders must submit a Health Management Plan to DFO that includes sea lice management. The results of industry’s sea lice assessments of Atlantic salmon are provided to DFO monthly and posted to this website quarterly. DFO biologists and veterinarians conduct regular assessments throughout the year to verify the accuracy of licence holders’ procedures and reporting.\nThe DFO Sea Lice Audit Report shows the results of DFO’s random quarterly lice audits, which coincide with one of the licence holder's numerous scheduled counts. To assure quality, farm staff count lice on 50 per cent of the selected fish and DFO staff count lice on the other half. Terminology in English and French is available on Open Canada https://open.canada.ca/data/en/dataset/5cfd93bd-b3ee-4b0b-8816-33d388f6811d",
+    "url": "https://obis.org/dataset/bbf8695c-634c-468f-a4c8-7c0bea9b857b",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfosealiceaudits"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Aquaculture Management Division . (2020): DFO audits of sea lice at finfish aquaculture sites. v1.4. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=dfosealiceaudits&amp;v=1.4",
+    "version": "2022-03-22T20:33:54.000Z",
+    "keywords": [
+        "Samplingevent; audit; occurrences; emof; Fisheries and Oceans Canada; Pacific Region; Aquaculture; fish farming; salmon farming; sea lice; British Columbia; BC"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Fish Year Class",
+            "url": "",
+            "description": "Fish Year Class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "average",
+            "url": "",
+            "description": "average"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "development stage",
+            "url": "http://vocab.nerc.ac.uk/collection/S11/current/",
+            "description": "development stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfosealiceaudits",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-128.57494 49.21433,-128.57494 52.80048,-123.83407 52.80048,-123.83407 49.21433,-128.57494 49.21433"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

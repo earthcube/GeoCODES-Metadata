@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e815809e-fcb5-4ee7-8edd-639aa4b4892d",
+    "name": "Phytoplankton from the White Sea, Barents Sea, Norwegian Sea and Arctic Basin 1993-2003",
+    "description": "This dataset describes the Arctic plankton species and diversity in a study area northwest of Russia. It consists of a large database of 37,300 records from 1993-2003. A total of 434 species are represented.",
+    "url": "https://obis.org/dataset/e815809e-fcb5-4ee7-8edd-639aa4b4892d",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=arcod_2007p6"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2019-09-04T10:54:41.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=arcod_2007p6",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-9.49600028992 65.0899963379,-9.49600028992 88.9199981689,154.289993286 88.9199981689,154.289993286 65.0899963379,-9.49600028992 65.0899963379"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        }
+    ]
+}

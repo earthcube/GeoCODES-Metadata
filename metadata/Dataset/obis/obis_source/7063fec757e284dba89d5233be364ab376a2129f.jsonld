@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/12817fc1-84bd-49d1-a8b8-789e6e73aecd",
+    "name": "Light and temperature records of the seawater associated to southern elephant seal dives during foraging trips in South Atlantic and Pacific Oceans",
+    "description": "The dataset contains records of locations of 13 immature southern elephant seals, Mirounga leonina, during their postresting and postmolting feeding trips at sea, with observations of dive and surface interval durations, light level and temperature of the water column during dives. Seals were simultaneously equipped with affordable light–temperature loggers (LTLs) and satellite devices. This dataset describes an unpublished open access version of the original data with records of light level and temperature of the water column using the Darwin Core standard (DwC) through ArOBIS guaranteeing compliance with the FAIR principles. The LTLs recorded light level and temperature of the water column at 30-s intervals during dives, and light–time records were applied to estimate dive parameters of diurnal records from 06:00 am to 05:00 pm, since movements up and down the water column are reflected by changes in light level. For that, the minimum light level reached at the surface of a dive was determined experimentally with diurnal dive simulations at sea using the LTLs devices before deployment. As variation of temperature in the water column can be associated with the local distribution of other taxa of interest and variation of light level in the water column (light attenuation) could be linked to concentrations of phytoplankton assemblages as an index of primary productivity, the dataset can be of useful interest. This dataset also includes variation of light and temperature of records between 17 pm to 06:00 am. The dataset encompasses a wide time scale (2005, 2006 and 2007) and covers a wide geographic range in the South Atlantic and Pacific Oceans (South West [-58.75, -81.29], North East [-37.60, -28.65]).",
+    "url": "https://obis.org/dataset/12817fc1-84bd-49d1-a8b8-789e6e73aecd",
+    "sameAs": [
+        "https://arobis.cenpat-conicet.gob.ar:8081/resource?r=ses-light-temperature"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2023-02-01T12:30:18.000Z",
+    "keywords": [
+        "southern elephant seals",
+        "Southern Ocean",
+        "light-temperature loggers"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=ses-light-temperature",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.06 -63.61,-67.06 -41.54,-45.38 -41.54,-45.38 -63.61,-67.06 -63.61"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        }
+    ]
+}

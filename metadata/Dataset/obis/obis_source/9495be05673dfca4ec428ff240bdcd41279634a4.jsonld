@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5fbbc3e4-e951-4aa2-a16c-ac9258933d6c",
+    "name": "Historical data on invertebrates from the Baltic Sea and Gdansk Bay",
+    "description": "Historical benthic dredge samples from the southern baltic and the Gulf of Gdansk",
+    "url": "https://obis.org/dataset/5fbbc3e4-e951-4aa2-a16c-ac9258933d6c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mobius"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Rumohr, H. Historical data on invertebrates from the Baltic Sea and Gdansk Bay.  Christian-Albrechts-University Kiel; Leibniz Institute of Marine Sciences; Marine Ecology Division; Benthos Ecology section, Kiel, Germany.",
+    "version": "2024-02-26T23:14:33.000Z",
+    "keywords": [
+        "Benthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1880/1881",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mobius",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.32868 54.0498,11.32868 55.498,19.498 55.498,19.498 54.0498,11.32868 54.0498"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

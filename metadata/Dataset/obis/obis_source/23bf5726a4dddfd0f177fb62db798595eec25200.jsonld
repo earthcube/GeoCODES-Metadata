@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dc9c4c41-ec01-422f-9770-fb2061570142",
+    "name": "Seabird Atlas of South-eastern Australian Waters 1975-1993",
+    "description": "Seabird Atlas of South-eastern Australian Waters derived from multiple sources. Data from paper by Reid, T.A., Hindell, M.A., Eades, D.W. and Newman, M. 2002 Seabird Atlas of South-eastern Australian Waters, Birds Australia Monograph 4, Birds Australia, Melbourne. The following surveys/voyages have been removed as they exist in the existing OBIS dataset ANARE WoV - WOCE91, geosci , 1988/89 v4, 1989/90 v3, fishog and Thirst",
+    "url": "https://obis.org/dataset/dc9c4c41-ec01-422f-9770-fb2061570142",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seabird_atlas_southeast_australia"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Reid, T.A., Hindell, M.A., Eades, D.W. and Newman, M. 2002 Seabird Atlas of South-eastern Australian Waters, Birds Australia Monograph 4, Birds Australia, Melbourne.",
+    "version": "2022-06-08T01:39:31.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "EARTH SCIENCE &gt; Oceans &gt; Marine Biology &gt; Marine Birds",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1975/1993",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seabird_atlas_southeast_australia",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "136 -49,136 -33,153 -33,153 -49,136 -49"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

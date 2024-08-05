@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/48f919e0-150b-4c2b-ae4a-745d39dc4f1d",
+    "name": "RMT Trawl catch from the 2003/04 V3 BROKE-West voyage",
+    "description": "This study investigated distribution patterns of pelagic fish, larvae and juveniles collected by RMT trawls during ANAREs 2005/06 Voyage BROKE-West survey",
+    "url": "https://obis.org/dataset/48f919e0-150b-4c2b-ae4a-745d39dc4f1d",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=trawl_broke_west"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "\tSee Metadata record for details http://data.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/BROKE-West_RMT_Fish",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=trawl_broke_west",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.9157104492 -69.2129974365,29.9157104492 -61.6634597778,80.0221099854 -61.6634597778,80.0221099854 -69.2129974365,29.9157104492 -69.2129974365"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

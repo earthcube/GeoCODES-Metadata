@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1dcf7423-605a-4e1e-ae02-cc7bc419d18d",
+    "name": "Fish Collection Ismael Kong, Universidad de Antofagasta, Chile",
+    "description": "This database includes deep-water fishes and fishes collected at northern Chile during El Niño conditions in 1983-84. These fishes were collected and identified by Ismael Kong, who was a highly prestigious ichthyologist in Chile. The currently maintained at Universidad de Antofagasta in northern Chile.",
+    "url": "https://obis.org/dataset/1dcf7423-605a-4e1e-ae02-cc7bc419d18d",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=fishoccurrence_ismaelkong"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2019-09-11T14:11:35.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/1983",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=fishoccurrence_ismaelkong",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.61599731 -37.04999924,-73.61599731 -18.43300056,-70.13330078 -18.43300056,-70.13330078 -37.04999924,-73.61599731 -37.04999924"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/858c8d4a-e8df-4c89-9f4d-c6517b4082c9",
+    "name": "Image dataset of ophiuroid and other deep sea benthic organisms in 2015 extracted from the survey off Sanriku, Japan, by the research following the Great East Japan Earthquake 2011",
+    "description": "This is the first large image dataset and occurrence records of marine organisms in the Northwest Pacific off Tohoku, Japan. This area suffered by Great East Japan Earthquake 2011 and continental shelf and slope off of this area considered one of the most productive areas both for fishery and primary production in the world because of the complex mixture of the Kuroshio Current, Oyashio Current, and Tsugaru Warm Current. We compiled 3415 images of animals, stones, and sediments. Most of the images are of dominant species of Ophiuroidea (brittle stars), with 789 and 1421 images captured in two areas of different depth. These images are cropped from downward camera images collected during two dives in 2015 using remotely operated vehicles in a deeper area (670-800 m deep) off Kamaishi (cruise id KY15-08; dive no. HPD1812) and a shallower area (280 m deep) off Minami Sanriku town (cruise id NT15-E04; dive no. CRB17). The attribute of each image is listed in the subsequent comma delimited (csv) text file and the observed occurrence of each organisms was also converted into the text format used in Japan Ocean Biogeographic Information System Center (J-OBIS), which is comparable with Darwin Core 2.0. Basically, we recorded the higher taxonomic levels (e.g., order and class) that could be specified with certainty and added a list of potential species as an appendix. For better understanding the broad-scale impact of the earthquake along the continental shelf and slope, it is necessary to extract occurrence data of organisms from biological surveys. Gathering image or video data is appropriate for this purpose because most underwater surveys simultaneously record images and/or videos. This dataset will add the information of the status after 4 years of the disaster. These image data are also considered as training image data set for automatic extraction of organisms. We additionally updated DwC records from the data list in the paper of Yamakita et al. (2018) in 2020.",
+    "url": "https://obis.org/dataset/858c8d4a-e8df-4c89-9f4d-c6517b4082c9",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=jamstec_teams_0182_d01"
+    ],
+    "license": "This work is licensed under a\n                 Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Yamakita, T., Yokooka, H., Fujiwara, Y., Kawato, M., Tsuchida, S., Ishibashi, S., Kurokawa, T. and Fujikura, K. (2018) Image dataset of ophiuroid and other deep sea benthic organisms in 2015 extracted from the survey off Sanriku, Japan, by the research following the Great East Japan Earthquake 2011. Ecological Research 33: 285-285.https://doi.org/10.1007/s11284-018-1571-7",
+    "version": "2024-01-06T07:20:08.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=jamstec_teams_0182_d01",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.9449 38.558025,141.9449 39.31055532,142.3253202 39.31055532,142.3253202 38.558025,141.9449 38.558025"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11797",
+            "@type": "Organization",
+            "legalName": "Japan Agency for Marine-Earth Science and Technology, Yokosuka",
+            "name": "Japan Agency for Marine-Earth Science and Technology, Yokosuka",
+            "url": "https://oceanexpert.org/institution/11797"
+        }
+    ]
+}

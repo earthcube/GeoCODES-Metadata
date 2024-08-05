@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a70a7d6c-3e01-4891-9530-1f2e3a283dab",
+    "name": "Venomous Jellyfish Database (Stings and Specimen) (NESP TWQ 2.2.3, CSIRO)",
+    "description": "This dataset contains records of sting events and specimen samples of jellyfish (Irukandji) along the north Queensland coast from December 1998 to March 2017. This dataset contains an extract (1081 records) of the publicly available data contained in the Venomous Jellyfish Database. The full database contains approximately 3000 sting events from around Australia and includes records from sources that have not yet been cleared for release.\nData sourced from https://eatlas.org.au/data/uuid/16904861-53e6-4123-a7bb-781f2429629f which contains links to the project website, analysis code and data.",
+    "url": "https://obis.org/dataset/a70a7d6c-3e01-4891-9530-1f2e3a283dab",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nesp_venomous_jellyfish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-06T23:04:19.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1883/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nesp_venomous_jellyfish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "139.18333 -27.52693,139.18333 -10,153.28882 -10,153.28882 -27.52693,139.18333 -27.52693"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

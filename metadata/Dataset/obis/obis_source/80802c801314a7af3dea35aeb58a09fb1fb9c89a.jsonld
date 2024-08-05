@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9087a3e9-4982-4233-b3b0-81ebb945092f",
+    "name": "Icota - Pelagant",
+    "description": "Biodiversity of fish-larvae and plankton (phyto- and zooplankton) on the continental shelf between Terre Adélie and the Mertz Glacier Tongue.",
+    "url": "https://obis.org/dataset/9087a3e9-4982-4233-b3b0-81ebb945092f",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=icota2004"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Koubbi P., Goffart A., Hecq J.H., Swadling K., Beans C., Wright S., 2007. Plankton and ichthyoplankton database of the Icota-Pelagant Programmes from Terre Adélie to the Mertz Glacier Tongue, East-Antarctica, in January 2004.",
+    "version": "2019-03-19T14:43:58.000Z",
+    "keywords": [
+        "Ichthyoplankton",
+        "Phytoplankton",
+        "Zooplankton",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=icota2004",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "139 -67.1,139 -66.33,145 -66.33,145 -67.1,139 -67.1"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

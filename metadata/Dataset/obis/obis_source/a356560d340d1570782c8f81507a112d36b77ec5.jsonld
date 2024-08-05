@@ -1,0 +1,122 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c53a1d63-0ca7-4481-8607-0b2d01f9f99a",
+    "name": "CSIRO, fish surveys by the Courageous, 1978-1979",
+    "description": "Thirteen demersal and pelagic fish surveys by Courageous in the Great Australian Bight and North West Shelf.\n\nSpecies include including Chinaman leatherjacket (Navon ayraud), Swallowtail (Trachichthodes lineatus), Red snapper (Trachichthodes gerrardi), Jackass fish (Nemadactylus macropterus) Jack mackerel (Trachurus declivis) and Ruby fish (Plagiogeneion macroleas)goatfish (Mullidae), threadfin bream (Nemipteridae), lizard fish (Synodontidae), scad and trevally (Carangidae), pufferfish (Tetradontidae), bigeye (Priacanthidae), emperor (Lethrinidae) and to a lesser extent sea perch (Lutjanidae).\n\nLength, numbers, and weight were determined.\nThis data has been republished (2022-09-05 with additional details of each occurrence where they can be one of three types:  catch composition (counts per taxa and optional aggregated weights by trawl event), catch measurements (length and/or weight) of individual taxa and/or catch specimens and their stored location. The occurrence type is recorded in occurrenceremarks.",
+    "url": "https://obis.org/dataset/c53a1d63-0ca7-4481-8607-0b2d01f9f99a",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_fish_survey_1978_1979"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "CSIRO National Collections and Marine Infrastructure (2023): CSIRO, fish surveys by the Courageous, 1978-1979. v1.10. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=csiro_fish_survey_1978_1979&amp;v=1.10",
+    "version": "2023-06-28T03:38:03.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Catch effort",
+            "url": "",
+            "description": "Catch effort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total catch weight",
+            "url": "",
+            "description": "Total catch weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tow direction",
+            "url": "",
+            "description": "Tow direction"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of gear tow",
+            "url": "",
+            "description": "Speed of gear tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net sonde temp",
+            "url": "",
+            "description": "Net sonde temp"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net opening height",
+            "url": "",
+            "description": "Net opening height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom temp",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01",
+            "description": "Bottom temp"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Caudal fork (CF)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Caudal fork (CF)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen Count",
+            "url": "",
+            "description": "Specimen Count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/1979",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_fish_survey_1978_1979",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114.15 -38.23333,114.15 -9.775,141.01667 -9.775,141.01667 -38.23333,114.15 -38.23333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

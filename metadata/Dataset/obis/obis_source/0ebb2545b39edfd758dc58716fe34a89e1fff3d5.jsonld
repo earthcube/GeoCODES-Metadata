@@ -1,0 +1,66 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/572553d0-eaaa-4180-b399-f89bf37e070e",
+    "name": "Compilation of planktonic foraminiferal census counts from the Southern Hemisphere Oceans (1874 - 2012)",
+    "description": "The database compilation of planktonic foraminiferal census counts from the Southern Hemisphere Oceans (1874 - 2012) extends from 15°S, at the northern limb of the middle- to low-latitude gyres in the Atlantic, Indian, and Pacific Oceans to the coast of Antarctica, to allow the reconstruction of past latitudinal variations of the polar, subpolar, and subtropical waters. Data sourced from the cited PANGEA dataset.",
+    "url": "https://obis.org/dataset/572553d0-eaaa-4180-b399-f89bf37e070e",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=so_forams"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Haddam, Naoufel; Michel, Elisabeth; Siani, Giuseppe; Cortese, Giuseppe; Bostock, Helen C; Duprat, Josette M; Isguder, Gulay (2016): Compilation of planktonic foraminiferal census counts from the Southern Hemisphere Oceans. PANGAEA, https://doi.org/10.1594/PANGAEA.860938",
+    "version": "2022-11-14T02:11:13.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample method/device",
+            "url": "",
+            "description": "Sample method/device"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform",
+            "url": "",
+            "description": "Platform"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1875/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=so_forams",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.7 -64.55,-179.7 0,180 0,180 -64.55,-179.7 -64.55"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

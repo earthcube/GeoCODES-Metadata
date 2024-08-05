@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ca78b5b9-d4e4-4ab0-bbe1-9f75659769e2",
+    "name": "Digital Aerial Baseline Survey of Marine Wildlife in Support of Offshore Wind Energy - OPA 2017",
+    "description": "Original provider:\nNYSERDA, APEM, Normandeau Associates\n\nDataset credits:\nNYSERDA, Normandeau Associates Inc., APEM Ltd.\n\nAbstract:\nIn support of New York State’s commitment to incorporating offshore wind into its energy portfolio, the New York State Energy Research and Development Authority (NYSERDA) embarked on a multi-year ultra-high resolution aerial digital survey of marine resources in a 43,745.20 km2 (12,754.06 mi2) offshore planning area (OPA) in 2016. The OPA encompasses the waters of the New York Bight from Long Island southeast to the continental shelf break. Surveys are conducted on a quarterly basis, timed to coincide with periods of abundance of avian and marine species that could be vulnerable to impacts from offshore wind activities. Each survey collected images covering at least 7% of the OPA. \nFor each survey, approximately 300,000 images were collected within the OPA using a transect design. During the first survey year, special attention was also paid to the wind energy area (WEA) using a more detailed grid survey design, collecting around 100,000 images. Each survey collected images covering at least 10% of the WEA. WEA survey data are in a separate dataset.\nThere was some variation in sampling effort among surveys as a different camera system that captured a larger footprint was used after the Summer 2016 survey.\n\nYR2 consists of Survey05 Summer2017, Survey06 Fall2017, Survey07 Winter2017-18, Survey08 Spring2018.\n\nPurpose:\nThe New York State Energy Research and Development Authority (NYSERDA) contracted with Normandeau Associates Inc. (Normandeau) and teaming partner APEM Inc. (APEM) to use high resolution aerial digital imagery to collect data on birds, marine mammals, sea turtles, cartilaginous fish, and other taxa encountered offshore. Surveys are conducted four times a year over three years. The surveys have been designed in light of available historical data and use the latest digital and sensor technology to provide high identification success. Survey results for birds, marine mammals, turtles, and cartilaginous fish are presented in semiannual reports, which will cumulatively provide insight into interseasonal and interannual variation in species composition, densities, and distributions. Reports are available at https://remote.normandeau.com/nys_docs.php.\n\nSupplemental information:\n[2022-06-06] The following recorded species names got their assigned scientific names corrected.\nSAND TIGER SHARK: Carcharhinus plumbeus =&gt; Carcharias taurus\nSANDERLING: Carcharias taurus =&gt; Calidris alba\nBLACK SCOTER: Pluvialis squatarola =&gt; Melanitta nigra\nBLACK TERN: Pterodroma hasitata =&gt; Chlidonias niger\nBLACK-BELLIED PLOVER: Rissa tridactyla =&gt; Pluvialis squatarola\nBLACK-CAPPED PETREL: Melanitta nigra =&gt; Pterodroma hasitata\nBLACK-LEGGED KITTIWAKE: Chlidonias niger =&gt; Rissa tridactyla\nLOGGERHEAD TURTLE: Cheloniidae =&gt; Caretta caretta\nLOGGERHEAD/KEMP'S TURTLE: Caretta caretta =&gt; Cheloniidae\nRED PHALAROPE: Mergus serrator =&gt; Phalaropus fulicarius\nRED/RED-NECKED PHALAROPE: Phalaropus lobatus =&gt; Phalaropus\nRED-BREASTED MERGANSER: Phalaropus fulicarius =&gt; Mergus serrator\nRED-NECKED PHALAROPE: Phalaropus =&gt; Phalaropus lobatus\nSANDBAR SHARK: Calidris alba =&gt; Carcharhinus plumbeus\n\n[2020-08-06] Data were updated with additional attributes. Species identification was revised.\n\nTransect area is calculated based on the planned aircraft altitude and assumed to be a consistent value. Actual coverage of the area may vary due to fluctuations in the aircraft altitude during the survey. This may result in target observation points being displayed outside the transect area.\n\nTracklines are viewable online as a static layer.\n\nThe data in 2016 is available at\nhttp://seamap.env.duke.edu/dataset/1817\nhttp://seamap.env.duke.edu/dataset/1818",
+    "url": "https://obis.org/dataset/ca78b5b9-d4e4-4ab0-bbe1-9f75659769e2",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1994"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "APEM and Normandeau Associates prepared for New York State Energy Research and Development Authority. 2019. Digital Aerial Baseline Survey of Marine Wildlife in Support of Offshore Wind Energy - OPA 2017. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1817) on yyyy-mm-dd.",
+    "version": "2022-06-07T16:17:57.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Seabirds,Marine mammals,Sea turtles,Visual Sighting,Aircraft",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_1994",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.8907 38.4576,-73.8907 41.0079,-70.6058 41.0079,-70.6058 38.4576,-73.8907 38.4576"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

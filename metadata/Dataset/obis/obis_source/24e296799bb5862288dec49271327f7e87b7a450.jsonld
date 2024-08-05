@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/98335d75-74ca-4e05-b10c-c7b198c1e792",
+    "name": "Nematodes from Italy and Poland",
+    "description": "The general aim of this dataset was to describe and investigate the biodiversity and zonation patterns of nematodes in relation to several abiotic factors.",
+    "url": "https://obis.org/dataset/98335d75-74ca-4e05-b10c-c7b198c1e792",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=manuela_up"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gheskiere, T. (2000). Nematodes from Italy and Poland. Ghent University, Department of Biology, Marine Biology Section (MARBIOL), Belgium.",
+    "version": "2023-12-08T17:13:34.000Z",
+    "keywords": [
+        "Meiobenthos",
+        "Meiofauna",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=manuela_up",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "10.24416667 43.71472222,10.24416667 54.68555556,18.76027778 54.68555556,18.76027778 43.71472222,10.24416667 43.71472222"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        }
+    ]
+}

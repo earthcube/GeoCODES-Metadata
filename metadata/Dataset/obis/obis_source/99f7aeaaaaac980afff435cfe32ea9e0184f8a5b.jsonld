@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2e0f8766-9a75-4422-9ba4-7f65acfbeb51",
+    "name": "Kelp Dataset",
+    "description": "This dataset contains kelp occurrence data around Japan which were registered from various sources in Hokkaido and Japan by S9-5 supported by the Environment Research and Technology Development Fund (S9) of the Ministry of the Environment, Japan.",
+    "url": "https://obis.org/dataset/2e0f8766-9a75-4422-9ba4-7f65acfbeb51",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=s9-5_kelp"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Nakaoka, M., Watanabe, K. and Yotsukura, H. (2017) Kelp occurrence data around Japanese water extracted from literature. Available at http://www.godac.jamstec.go.jp/bismal/e/dataset/S9-5_Kelp.",
+    "version": "2024-01-06T07:19:48.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1883/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=s9-5_kelp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "124.08805 24.38333,124.08805 45.55,148.83 45.55,148.83 24.38333,124.08805 24.38333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

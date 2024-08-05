@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/58459779-1d20-4064-85eb-d11de3e147a9",
+    "name": "Southern Ocean RADiolarian dataset (SO-RAD) (1978-2017)",
+    "description": "Radiolarians (holoplanktonic Protozoa) found in marine sediments are commonly used in Southern Ocean as palaeoclimate proxies. Generating such reconstructions of past climate based on radiolarian abundances requires a spatially and environmentally comprehensive reference dataset of modern radiolarian census counts. The Southern Ocean RADiolarian (SO-RAD) dataset includes census counts for 237 radiolarian taxa from 228 surface sediment samples located in the Atlantic, Indian and South-west Pacific sectors of the Southern Ocean. This compilation is the largest radiolarian census dataset derived from surface sediment samples in the Southern Ocean. The SO-RAD dataset may be used as a reference dataset for palaeoceanographic reconstructions, or for studying modern radiolarian biogeography and species diversity.\nSome of the records are from the CSIRO Marine National Facility and is used in any products, please acknowledge with the following: We acknowledge the use of the CSIRO Marine National Facility (https://ror.org/01mae9353) in undertaking this research.\n",
+    "url": "https://obis.org/dataset/58459779-1d20-4064-85eb-d11de3e147a9",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=so_rad"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Lawler, K.-A., Cortese, G., Civel-Mazens, M., Bostock, H., Crosta, X., Leventer, A., Lowe, V., Rogers, J., and Armand, L. K.: The Southern Ocean Radiolarian (SO-RAD) dataset: a new compilation of modern radiolarian census data, Earth Syst. Sci. Data, 13, 5441–5453, https://doi.org/10.5194/essd-13-5441-2021, 2021.",
+    "version": "2023-11-30T04:18:11.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample method/device",
+            "url": "",
+            "description": "Sample method/device"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform",
+            "url": "",
+            "description": "Platform"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=so_rad",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.64 -78.43,-179.64 -11.51,180 -11.51,180 -78.43,-179.64 -78.43"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16203",
+            "@type": "Organization",
+            "legalName": "The Australian National University",
+            "name": "The Australian National University",
+            "url": "https://oceanexpert.org/institution/16203"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

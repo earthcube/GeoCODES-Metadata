@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/689b8597-99d6-4979-adb8-c8c72b94d04e",
+    "name": "West Australian Marine Science Institute Node 4.2 BRUVS deployments (2008-2010)",
+    "description": "West Australian Marine Science Institute Node 4.2 BRUVS deployments at Two Rocks, Rottnest Island, Abrolhos Island and capes south of Bunbury. Additional medata about the deployments are at GlobalArchives data portal (https://globalarchive.org/geodata/data/project/get/10)",
+    "url": "https://obis.org/dataset/689b8597-99d6-4979-adb8-c8c72b94d04e",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=globalarchive_wamsi_bruvs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Langlois T (2023): West Australian Marine Science Institute Node 4.2 BRUVS deployments (2008-2010). v1.12. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=globalarchive_wamsi_bruvs&amp;v=1.12",
+    "version": "2023-07-03T23:49:21.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Benthos",
+            "url": "",
+            "description": "Benthos"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Relief",
+            "url": "",
+            "description": "Relief"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=globalarchive_wamsi_bruvs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.90798 -33.6998,113.90798 -28.80529,115.58363 -28.80529,115.58363 -33.6998,113.90798 -33.6998"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

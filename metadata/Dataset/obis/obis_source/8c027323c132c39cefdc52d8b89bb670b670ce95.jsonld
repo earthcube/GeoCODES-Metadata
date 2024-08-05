@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c118a881-ffd3-4226-995c-699635d5a7d1",
+    "name": "NEFSC 1995 pe9501",
+    "description": "Original provider:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nDataset credits:\nNational Marine Fisheries Service\n\nAbstract:\nThe survey was performed from 09 July 1995 to 03 August 1995, starting in Norfolk, VA and ending in Woods Hole, MA. The study area, covering approximately 39,200 nmi2, was in the slope waters from Chesapeake Bay, VA to Cape Cod, MA. Most of the survey was between 10 nautical miles (nmi) inshore of the 50 fathom contour and 10nmi offshore of the 1000 fathom contour.\nThis survey was part of a large scale marine mammal sighting survey which consisted of two legs (each approximately a month long) where two ships were used during each leg, with an addition leg in which a plane was used to survey for six weeks. The entire study area was from Chesapeake Bay, VA, USA to\nthe Gulf of St. Lawrence, Canada.\n\nPurpose:\nThe objectives of this leg of the survey were to:\n1) Determine the spatial distribution and estimate the abundance of marine mammals found in the above study area.\n2) Determine if spatial distribution patterns of marine mammals are correlated with hydrographic features, such as, water depth, temperature or salinity, or with biological features, such as zooplankton distribution.\n\nSupplemental information:\nIn addition to the sighting data, effort data was recorded  every half hour or whenever conditions change.\nThis dataset, therefore, should be used with the effort data.",
+    "url": "https://obis.org/dataset/c118a881-ffd3-4226-995c-699635d5a7d1",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_296"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Palka, D. 2013. NEFSC 1995 pe9501. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/296) on yyyy-mm-dd.",
+    "version": "2021-09-08T16:44:58.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Vessel,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_296",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-74.696 36.808,-74.696 40.401,-69.719 40.401,-69.719 36.808,-74.696 36.808"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

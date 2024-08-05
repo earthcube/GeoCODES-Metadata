@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/12381619-5331-4665-8abf-df4bf4763e9a",
+    "name": "Dutch national shellfish monitoring in the coastal zone",
+    "description": "Every year, Wageningen Marine Research carries out shellfish surveys in the Dutch coastal waters (Wadden Sea, Oosterschelde, Westerschelde and Coastal Zone), investigating the distribution and size of the most important commercial shellfish species. These are mainly mussels, cockles, knife hives and Japanese oysters, but also other species with a certain importance for ecology or fishing are included. In addition, catch data from professional fishing are also collected. The data is used by the government when deciding whether or not to permit fishing.",
+    "url": "https://obis.org/dataset/12381619-5331-4665-8abf-df4bf4763e9a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dutch_shellfish_monitoring"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Wageningen Marine Research (2019). WOT-schelpdieren: Dutch national shellfish monitoring in the coastal zone",
+    "version": "2023-12-08T17:13:34.000Z",
+    "keywords": [
+        "Shellfish catch statistics",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "BEMSROPVK",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "BEMSROPVK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture length",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/",
+            "description": "Sampling device aperture length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture width",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/",
+            "description": "Sampling device aperture width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "AANTPOPVTE",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "AANTPOPVTE"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "MASSPOPVTE",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "MASSPOPVTE"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "LENGTE",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "LENGTE"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "BREEDTE",
+            "url": "",
+            "description": "BREEDTE"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dutch_shellfish_monitoring",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.1625 51.38333333,3.1625 53.7,6.54166667 53.7,6.54166667 51.38333333,3.1625 51.38333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11289",
+            "@type": "Organization",
+            "legalName": "Deltares",
+            "name": "Deltares",
+            "url": "https://oceanexpert.org/institution/11289"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/22957",
+            "@type": "Organization",
+            "legalName": "Wageningen Marine Research",
+            "name": "Wageningen Marine Research",
+            "url": "https://oceanexpert.org/institution/22957"
+        }
+    ]
+}

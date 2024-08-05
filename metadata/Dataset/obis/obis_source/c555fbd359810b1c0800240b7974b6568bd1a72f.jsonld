@@ -1,0 +1,98 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/58be7fc9-bef4-42db-9d4f-07106a711468",
+    "name": "Macrobenthos data from the Romanian part of the Black Sea between 2003 and 2011",
+    "description": "The dataset comprises data on the substrate type, temperature, salinity, oxygen saturation, and macrozoobenthos from samples colleceted at several stations in the Black Sea in 2003–2011. The sediment samples were taken with a Van-Veen grab. The sediment was preserved in buffered formalin 4% , then sieved through a 1 mm, 0.5 mm and 0.10 mm mesh sieve and subsequently stored in 70% ethanol. The database comprises taxonomic and quantitative data (density and wet weight biomass per square meter).",
+    "url": "https://obis.org/dataset/58be7fc9-bef4-42db-9d4f-07106a711468",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=benthos_blackseacruises_2003_2011"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Teaca A.; Begun T.; Gomoiu M.-T.; Secrieru; National Research and Development Institute for Marine Geology and Geoecology – GeoEcoMar, Romania  (2016): Macrobenthos data from the Romanian part of the Black Sea between 2003 and 2011",
+    "version": "2024-02-27T00:22:24.000Z",
+    "keywords": [
+        "Environmental conditions",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sediment class",
+            "url": "",
+            "description": "sediment class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSSTTS01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "oxygen saturation",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OXYSZZ01/",
+            "description": "oxygen saturation"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=benthos_blackseacruises_2003_2011",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "27.53 41.62,27.53 46.49,31.6 46.49,31.6 41.62,27.53 41.62"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cc082560-acd0-4789-84f2-eb4da0bb20ce",
+    "name": "Cefas05 - Structure of nematode communities in the southwestern North Sea",
+    "description": "This dataset provides information on the species composition and abundance of North Sea meiobenthic nematode assemblages",
+    "url": "https://obis.org/dataset/cc082560-acd0-4789-84f2-eb4da0bb20ce",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=manuela_c5"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Schratzberger, M. (2000). Structure of nematode communities in the south western North Sea. Centre for Environment, Fisheries and Aquaculture Science (CEFAS), UK.",
+    "version": "2023-05-23T11:40:31.000Z",
+    "keywords": [
+        "Meiobenthos",
+        "Population structure",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=manuela_c5",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-1 52.416666666666664,-1 55.25,2.833333333333334 55.25,2.833333333333334 52.416666666666664,-1 52.416666666666664"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

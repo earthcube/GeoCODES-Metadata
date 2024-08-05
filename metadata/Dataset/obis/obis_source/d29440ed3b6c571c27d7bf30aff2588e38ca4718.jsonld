@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7b411a8c-1b9e-44c5-b8d3-cd614281c032",
+    "name": "Animal Demography Unit - The Birds in Reserves Project (BIRP)",
+    "description": "BIRP is a joint project of BirdLife South Africa (BLSA), and the Animal Demography Unit (ADU), based at the University of Cape Town (UCT). The basic purpose of BIRP is to compile a comprehensive catalogue of the species of birds which occur and breed in South Africa's many protected areas.",
+    "url": "https://obis.org/dataset/7b411a8c-1b9e-44c5-b8d3-cd614281c032",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=adu_birp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Animal Demography Unit - The Birds in Reserves Project (BIRP)",
+    "version": "2020-12-02T14:09:10.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1906/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=adu_birp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "16.4599990845 -34.7799987793,16.4599990845 -22.6100006104,32.8600006104 -22.6100006104,32.8600006104 -34.7799987793,16.4599990845 -34.7799987793"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

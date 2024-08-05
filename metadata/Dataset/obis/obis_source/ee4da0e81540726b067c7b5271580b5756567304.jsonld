@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/889c5609-1351-4575-84d8-95c58f7deec8",
+    "name": "LifeWatch observatory data: reference collection of unique observations in the Belgian Part of the North Sea",
+    "description": "In the framework of the Lifewatch marine observatory nine fixed stations on the Belgian Part of the North Sea (BPNS) are visited on a monthly basis, and 17 fixed stations on a seasonal basis, using the RV Simon Stevin.\n\nThis dataset holds records of unique observations in the Belgian Part of the North Sea, which\nare not collected on a  continous base ('loose observations') and do not fit into any of the other described LifeWatch Datasets.",
+    "url": "https://obis.org/dataset/889c5609-1351-4575-84d8-95c58f7deec8",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=reference_collection_lifewatch",
+        "https://dx.doi.org/10.14284/267"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Flanders Marine Institute (VLIZ), Belgium (2017): LifeWatch observatory data: reference collection of unique observations in the Belgian Part of the North Sea https://dx.doi.org/10.14284/267",
+    "version": "2023-05-23T11:51:28.000Z",
+    "keywords": [
+        "Data",
+        "Marine Genomics",
+        "research vessel",
+        "Simon Stevin",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2016",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/267",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/267",
+        "url": "https://dx.doi.org/10.14284/267"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=reference_collection_lifewatch",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.8077773 51.3093385,2.8077773 51.43319,2.8525878 51.43319,2.8525878 51.3093385,2.8077773 51.3093385"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

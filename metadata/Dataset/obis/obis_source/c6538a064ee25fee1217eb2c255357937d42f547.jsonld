@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7e242e5a-d2ad-412e-8da7-682e78afc5d7",
+    "name": "HMAP Dataset 02: SE Australian Trawl Fishery II: Fish (various) landings and fishing effort, South East Australia, 1937-1943",
+    "description": "Historical data relating to the South East Fishery (SEF), time period 1937-1943.",
+    "url": "https://obis.org/dataset/7e242e5a-d2ad-412e-8da7-682e78afc5d7",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_02"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "N. Klaer ed. 'South East Australian Trawl Records, 1937-1943' in J.H Nicholls (comp.) HMAP Data Pages (https://oceanspast.org/hmap_db.php)",
+    "version": "2024-02-27T00:20:53.000Z",
+    "keywords": [
+        "Fishery statistics",
+        "Overfishing",
+        "Historical records",
+        "Trawling",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1937/1943",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_02",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "148.139999389648 -42.7999992370605,148.139999389648 -30.9200000762939,153.130004882812 -30.9200000762939,153.130004882812 -42.7999992370605,148.139999389648 -42.7999992370605"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17927",
+            "@type": "Organization",
+            "legalName": "University of Hull, Oceans Past Initiative",
+            "name": "University of Hull, Oceans Past Initiative",
+            "url": "https://oceanexpert.org/institution/17927"
+        }
+    ]
+}

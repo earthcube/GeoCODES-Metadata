@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5a9dda0b-bb6f-4f28-ad68-f43c1f3d330c",
+    "name": "DFO Gulf Region Community Aquatic Monitoring Program (CAMP)",
+    "description": "During 2003, the Stewardship and Environmental Science Sections of the Department of Fisheries and Oceans (DFO) Gulf region Oceans and Science Branch collaborated in developing a monitoring program to help determine the ecological health of estuaries and coastal shorelines in the southern Gulf of St. Lawrence (sGSL).\n\nThe outcome of this initiative was the Community Aquatic Monitoring Program (CAMP). One of the objectives of CAMP was to test the hypothesis that a relationship exists between the health of an estuary or coastal shoreline and the diversity and abundance of finfish and crustacean species which inhabit the littoral or near shore zone. Simply stated, an estuary which has been degraded by human activity may have fewer species or fewer individuals of certain species or more of other species than a healthy, undisturbed estuary. Other objectives of CAMP included the development of an outreach program for the DFO to interact with Environmental Non-Governmental Organization (ENGOs) to raise awareness of the ecology of estuaries and bays in sGSL and to acquire baseline data on abundance, diversity and coastal community assemblage for future comparisons.\n\nThe OBIS dataset contains a subset of the original CAMP dataset.\n--As part of the CAMP protocol each species is identified according to their developmental stage which are divided into 2 categories. The young of the year (YOY) are juveniles that were born in the current year and all others are categorized as adults.  Identification between the two developmental stage is done according to size (total length) that were based on information from the literature.  \n\nThe OBIS dataset is based upon the total abundance for each species per beach seine haul. The sample size is 15 m x 15 m = 225 m2). The beach seine is 30 m long by 2 m high with 6 mm mesh size). Only abundance data where the counts were greater than zero are included in this dataset. \n--The CAMP dataset also contains information on submerged aquatic vegetation - the protocol includes determination of the % cover of the 9 most common algae categories. This 'vegetation' information is not part of the OBIS dataset.  \n\n--The CAMP dataset also includes data on water temperature, salinity and dissolved oxygen. Only the temperature data is included with this OBIS dataset.\n\nThis is the 4th version of this resource and was created in May of 2015 - it contains records from 2004 to 2014.",
+    "url": "https://obis.org/dataset/5a9dda0b-bb6f-4f28-ad68-f43c1f3d330c",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_gulf_camp"
+    ],
+    "license": "rights: http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms rights holder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "Thériault, Marie-Hélène. 2015. DFO Gulf Region Community Aquatic Monitoring Program (CAMP) Version 4 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-01-29T18:49:11.000Z",
+    "keywords": [
+        "biota",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfo_gulf_camp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.66146 45.6237,-65.66146 47.817719,-61.017433 47.817719,-61.017433 45.6237,-65.66146 45.6237"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6185",
+            "@type": "Organization",
+            "legalName": "Gulf Region, Fisheries and Oceans Canada",
+            "name": "Gulf Region, Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6185"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19471",
+            "@type": "Organization",
+            "legalName": "Southern Gulf of St. Lawrence Coalition on Sustainability",
+            "name": "Southern Gulf of St. Lawrence Coalition on Sustainability",
+            "url": "https://oceanexpert.org/institution/19471"
+        }
+    ]
+}

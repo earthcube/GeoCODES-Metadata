@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e59f3fe1-8594-4dc4-81a2-58ddfa2a4026",
+    "name": "FRA-PLANKTON DATASET",
+    "description": "This dataset contains occurrence information of zooplankton obtained by research cruise related to the Japan Fisheries and Education Agency (FRA) from 1960 to 2003 in the Oyashio, Kuroshio-Oyashio Transition, and Kuroshio waters in the western North Pacific Ocean.",
+    "url": "https://obis.org/dataset/e59f3fe1-8594-4dc4-81a2-58ddfa2a4026",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=fra-plankton"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Tadokoro, K., Sugisaki, H. (2019) The Odate collection. Available at https://www.godac.jamstec.go.jp/bismal/e/dataset/FRA-PLANKTON. Accessed on yyyy-mm-dd.",
+    "version": "2024-01-06T08:21:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1960/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=fra-plankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.333 31.983,141.333 46.033,168 46.033,168 31.983,141.333 31.983"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18838",
+            "@type": "Organization",
+            "legalName": "National Research Institute of Fisheries Science, Japan Fisheries Research and Education Agency",
+            "name": "National Research Institute of Fisheries Science, Japan Fisheries Research and Education Agency",
+            "url": "https://oceanexpert.org/institution/18838"
+        }
+    ]
+}

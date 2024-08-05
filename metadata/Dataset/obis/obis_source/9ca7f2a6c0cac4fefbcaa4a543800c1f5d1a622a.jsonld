@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5771dcc0-6676-4bc3-a622-1dac9010876f",
+    "name": "Tracking of Buller's shearwaters adults from Aorangi Island, Poor Knights, from March 2011 to February 2013.",
+    "description": "Tracking of Buller's shearwaters (Puffinus bulleri) adults from Aorangi Island, Poor Knights, from March 2011 to February 2013. Filtered geolocation tracks with sea temperature corrected latitudes for some tags, mainly during equinox periods. Data sourced from Buller's shearwater tracking project 110 at Zoatrack (https://zoatrack.org/projects/110/) on 2021-03-04",
+    "url": "https://obis.org/dataset/5771dcc0-6676-4bc3-a622-1dac9010876f",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=zoatrack_110_aorangi_bush"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "The data in this project is publicly available under a Creative Commons Attribution-NonCommercial-ShareAlike License. If you use these data in any type of publication then you must cite the project DOI (if available) or any published peer-reviewed papers associated with the study. We strongly encourage you to contact the data custodians to discuss data usage and appropriate accreditation.\n\nRights Statement\nCopyright: New Zealand Department of Conservation",
+    "version": "2022-06-08T05:55:08.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=zoatrack_110_aorangi_bush",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.95 -52.97,-179.95 50.5,179.99 50.5,179.99 -52.97,-179.95 -52.97"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20909",
+            "@type": "Organization",
+            "legalName": "Department of Conservation- Wellington Office",
+            "name": "Department of Conservation- Wellington Office",
+            "url": "https://oceanexpert.org/institution/20909"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9afe0ed9-4d76-4325-a3ef-45714dc8afe7",
+    "name": "Benthic Haploniscidae (Isopoda) collected around Iceland during the BIOICE, IceAGE, IceAGE2,IceAGE_RR and IceAGE3 expedtions in 1992-2020",
+    "description": "Benthic Haploniscidae (Iopoda) in this data set were collected during BIOICE (Benthic invertebrates of Icelandic waters), IceAGE (Icelandic marine Animals: Genetics and Ecology), IceAge 2 (Icelandic marine Animals: Genetics and Ecology 2), IceAGE RR (Icelandic marine Animals: Genetics and Ecology Reykjanes Ridge) and IceAge 3 (Icelandic marine Animals: Genetics and Ecology cruises 3) projects during 1992- 2020",
+    "url": "https://obis.org/dataset/9afe0ed9-4d76-4325-a3ef-45714dc8afe7",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=haploniscidae",
+        "https://dx.doi.org/10.14284/551"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Kürzel, Karlotta; Svavarsson,Jörundur; Paulus, Eva; Brix, Saskia (2021) Benthic Haploniscidae (Isopoda) collected around Iceland during the BIOICE, IceAGE, IceAGE2,IceAGE_RR and IceAGE3 expedtions in 1992-2020 https://dx.doi.org/10.14284/551",
+    "version": "2024-02-27T00:09:07.000Z",
+    "keywords": [
+        "Deep sea",
+        "Detritus feeders",
+        "Zoobenthos",
+        "Isopoda",
+        "research vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gear",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Gear"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "gear",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "gear"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ship",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "ship"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom.temp....C.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Bottom.temp....C."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "course_start",
+            "url": "",
+            "description": "course_start"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "windspeed_start",
+            "url": "",
+            "description": "windspeed_start"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "course_end",
+            "url": "",
+            "description": "course_end"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wind_end",
+            "url": "",
+            "description": "wind_end"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wind_start",
+            "url": "",
+            "description": "wind_start"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/2020",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/551",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/551",
+        "url": "https://dx.doi.org/10.14284/551"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=haploniscidae",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-32.863432936694 57.617580007103,-32.863432936694 69.249500284664,0.025159655178369 69.249500284664,0.025159655178369 57.617580007103,-32.863432936694 57.617580007103"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/23199",
+            "@type": "Organization",
+            "legalName": "University of Iceland",
+            "name": "University of Iceland",
+            "url": "https://oceanexpert.org/institution/23199"
+        }
+    ]
+}

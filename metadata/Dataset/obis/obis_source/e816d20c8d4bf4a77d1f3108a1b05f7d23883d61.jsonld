@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/210f1cc3-ac90-468e-9701-67cfae734ac6",
+    "name": "Littoral Monitoring Network of Cantabria (Invertebrates)",
+    "description": "IHCantabria with the support of the Regional Government of Cantabria has been carried out since 2005 the monitoring of the coastal waters of Cantabria in accordance with the Water Framework Directive. Here is included the abundance and biomass of soft bottoms invertebrates obtained from field campaigns in the coast and the mouth of the two biggest estuaries.",
+    "url": "https://obis.org/dataset/210f1cc3-ac90-468e-9701-67cfae734ac6",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ihcantabria_invert"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Puente A (2022): Littoral Monitoring Network of Cantabria (Invertebrates).",
+    "version": "2023-05-23T11:31:46.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Wet weight biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ihcantabria_invert",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-4.38383128124 43.3966570222,-4.38383128124 43.5188647127,-3.20996256368 43.5188647127,-3.20996256368 43.3966570222,-4.38383128124 43.3966570222"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/14102",
+            "@type": "Organization",
+            "legalName": "Environmental Hydraulics Institute",
+            "name": "Environmental Hydraulics Institute",
+            "url": "https://oceanexpert.org/institution/14102"
+        }
+    ]
+}

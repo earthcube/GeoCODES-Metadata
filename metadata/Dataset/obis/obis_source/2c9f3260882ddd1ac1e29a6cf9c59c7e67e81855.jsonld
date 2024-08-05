@@ -1,0 +1,110 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c3687703-997c-410c-8b69-60b848ce924f",
+    "name": "Royal Belgian Institute of Natural Sciences Bryozoa Collection (Bryozoa)",
+    "description": "The Royal Belgian Institute of Natural Sciences Bryozoa collection contains 782 digitised specimens over 98 taxa (mostly species). This dataset only contains the marine species of the collection. The following classes are included: Gymnolaemata Allman, 1856, Stenolaemata Borg, 1926.",
+    "url": "https://obis.org/dataset/c3687703-997c-410c-8b69-60b848ce924f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=be_rbins_invertebrates_bryozoa"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Samyn, Y., Semal, P. (2020) Royal Belgian Institute of Natural Sciences Bryozoa collection",
+    "version": "2024-02-26T23:43:15.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+            "description": "sampling_depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_elevation",
+            "url": "https://www.wikidata.org/wiki/Q2633778/",
+            "description": "sampling_elevation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_depth_max",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MAXWDIST/",
+            "description": "sampling_depth_max"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_depth_min",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MINWDIST/",
+            "description": "sampling_depth_min"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "preparation",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "preparation"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1839/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=be_rbins_invertebrates_bryozoa",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-98.5 -71.4,-98.5 73.400014,153.45703125 73.400014,153.45703125 -71.4,-98.5 -71.4"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

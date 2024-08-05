@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/17a7d690-e05d-4054-bb61-77bb3f26ba0a",
+    "name": "Australian Institute of Marine Science (AIMS) - Lizard Island Reef Biodiversity Expedition, Queensland, Australia (2008 - 2009)",
+    "description": "The CReefs Australia project is a collection of a variety of taxa from three locations: Ningaloo Reefs in Western Australia, and Heron and Lizard Islands off the coast of Queensland (separate metadata records are kept for each location) between 2008 and 2010. Sampling was conducted by scuba, snorkel and beach collection.\nCollection was mainly by hand; some samples were obtained by traps, grabs, sediment pumps, hook and line, speargun.\nTaxa have been matched to the World Register of Marine Species (WoRMS). This dataset was sourced on July 2018 from the original DiGIR dataset at OBIS and updated to reflect changes in the OBIS data requirements.",
+    "url": "https://obis.org/dataset/17a7d690-e05d-4054-bb61-77bb3f26ba0a",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=aims_creefs_lizard"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Caley J (2023): Australian Institute of Marine Science (AIMS) - Lizard Island Reef Biodiversity Expedition, Queensland, Australia (2008 - 2009). v1.9. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=aims_creefs_lizard&amp;v=1.9",
+    "version": "2023-06-28T00:20:56.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=aims_creefs_lizard",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "145.1813 -14.826,145.1813 -14.23708,145.77251 -14.23708,145.77251 -14.826,145.1813 -14.826"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        }
+    ]
+}

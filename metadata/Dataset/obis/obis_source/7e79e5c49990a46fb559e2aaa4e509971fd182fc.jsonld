@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/63cb90c7-6607-46b6-8472-d6d7b14a95a5",
+    "name": "Queensland Museum Molluscs - Marine records",
+    "description": "Queensland has extraordinarily high diversities of marine and terrestrial molluscs. These encompass the megadiverse faunas of the Great Barrier Reef, the Wet Tropics and the Brigalow Belt with over 17,000 species represented in our collections. The collection contains donated marine collections of exceptional scientific importance.\nData downloaded from ALA (http://collections.ala.org.au/public/show/co147), marine records identified and taxa matched to World Register of Marine Species.",
+    "url": "https://obis.org/dataset/63cb90c7-6607-46b6-8472-d6d7b14a95a5",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=qm_molluscs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Healy J (2022): Queensland Museum Molluscs - Marine records. v1.9. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=qm_molluscs&amp;v=1.9",
+    "version": "2022-06-07T06:04:37.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1853/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=qm_molluscs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178 -48.01524,-178 66.91667,179.38364 66.91667,179.38364 -48.01524,-178 -48.01524"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19411",
+            "@type": "Organization",
+            "legalName": "Queensland Museum",
+            "name": "Queensland Museum",
+            "url": "https://oceanexpert.org/institution/19411"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

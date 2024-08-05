@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4fbae3cc-5d1b-4b54-933f-258e8cba69f8",
+    "name": "Phytoplankton data collected in the Black Sea in 1958",
+    "description": "Phytoplankton data collected in the Black Sea in 1958 and processed by Lyudmila Georgieva",
+    "url": "https://obis.org/dataset/4fbae3cc-5d1b-4b54-933f-258e8cba69f8",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_blacksea_1958"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lyudmila Georgieva (2012). Phytoplankton data collected in the Black Sea in 1958. IBSS, National Academy of Sciences of Ukraine; Institute of Biology of the Southern Seas",
+    "version": "2024-02-26T23:22:41.000Z",
+    "keywords": [
+        "Pigments",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "individualcount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CellSize",
+            "url": "",
+            "description": "CellSize"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1958/1958",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_blacksea_1958",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.01 41.36,29.01 41.46,29.02 41.46,29.02 41.36,29.01 41.36"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

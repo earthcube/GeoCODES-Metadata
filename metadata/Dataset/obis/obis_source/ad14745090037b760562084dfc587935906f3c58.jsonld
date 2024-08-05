@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cbe5c6ff-26f1-460d-8aee-557cb911a9bd",
+    "name": "Ecoscope Balbaya Database",
+    "description": "Balbaya is a detailed data base that contains all the data on catches , effort and measurements of French tropical tuna fishing. The data are obtained from the AVDTH database to which the species composition of catches is corrected and the  the sample sizes are homogenized. Balbaya contains data for the Atlantic Ocean and the Indian Ocean from 1991 to 2010.",
+    "url": "https://obis.org/dataset/cbe5c6ff-26f1-460d-8aee-557cb911a9bd",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=balbaya_tuna_ecoscope"
+    ],
+    "license": "Unrestricted",
+    "citation": "Balbaya database, managed by IRD, funded by DCF / DG-MARE",
+    "version": "2023-05-23T11:38:56.000Z",
+    "keywords": [
+        "Fishing",
+        "Purse seine fishery",
+        "surface vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1999/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=balbaya_tuna_ecoscope",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-33.02 -18.8,-33.02 20.75,89.45 20.75,89.45 -18.8,-33.02 -18.8"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17617",
+            "@type": "Organization",
+            "legalName": "Institut de Recherche pour le Développement",
+            "name": "Institut de Recherche pour le Développement",
+            "url": "https://oceanexpert.org/institution/17617"
+        }
+    ]
+}

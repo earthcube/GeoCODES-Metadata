@@ -1,0 +1,102 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/96c68fd3-790b-418b-9ba1-2b3762f0172b",
+    "name": "OTN Bras d'Or Lakes Array",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Cape Breton University (CBU)  OTN Bras d'Or Lakes Array, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=BDL).\nAbstract:The Bras d'Or Lakes Array will use OTN theory and technology to determine the ecological connections between Canada's inland sea (the Bras d'Or estuary of Cape Breton), its watershed, the Scotian Shelf, the Gulf of Saint Lawrence and the NW Atlantic Ocean. The intent is to fully instrument the sites of exchange between the major river catchements of the watershed and the estuary, the channels linking the major basins of the estuary, and all channels of exchange between the estuary and the surrounding ocean. Motile anadromous, catadromous, and marine species of significance (e.g., Atlantic salmon, American eel, Atlantic cod) will be acoustic tagged in rivers, bays, banks, and basins of the Bras d'Or to track their movements within the estuary and its watershed, and between the estuary and the surrounding OTN arenas of the NW Atlantic Ocean.  The Bras d'Or Lakes Array will be located throughout the Bras d'Or estuary, including all channels connecting the estuarine waters to those of the surrounding ocean, the channels connecting the major basins of the estuary, and the mouths of the main rivers flowing into the estuary. The initial array is composed of 15 stations. An additional 11 sites are proposed for subsequent years, depending on the results obtained during the first tagging experiments.",
+    "url": "https://obis.org/dataset/96c68fd3-790b-418b-9ba1-2b3762f0172b",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otncbubrasdorlakesarray",
+        "https://doi.org/10.14286/q0lblp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hatcher, B. 2011. Bras d'Or Lakes Array, Cape Breton, Nova Scotia, Canada. . Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T16:17:55.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FL",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FL"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AGEBENTX/",
+            "description": "age"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "TL",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600262",
+            "description": "TL"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/q0lblp",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/q0lblp",
+        "url": "https://doi.org/10.14286/q0lblp"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otncbubrasdorlakesarray",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-60.990277 45.6591102,-60.990277 51.48399,-56.73393 51.48399,-56.73393 45.6591102,-60.990277 45.6591102"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

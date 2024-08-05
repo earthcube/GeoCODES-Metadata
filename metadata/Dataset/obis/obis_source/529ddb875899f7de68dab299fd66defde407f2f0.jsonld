@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4b0fd78e-c074-4b7b-a716-adf7e3917776",
+    "name": "DFO NE Newfoundland Acoustic Array and Atlantic Cod Tagging",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Department of Fisheries and Oceans Canada (DFO)  DFO NE Newfoundland Acoustic Array and Atlantic Cod Tagging, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=JBC).\nAbstract:An extensive network comprising approximately 30 arrays of acoustic receivers (Vemco VR2/VR2W) has been deployed in nearshore waters off the NE coast of Newfoundland; the receivers are in the water throughout the year to provide continuous monitoring and data are uploaded once/twice per year depending on accessibility. Several hundred cod equipped with coded V16 and V13 pingers (including some with depth/temperature sensor tags) have been released inshore and offshore over the past 5 yrs along with &gt;35,000 conventionally (Floy) tagged cod. The primary purpose of the research is to investigate cod stock structure and movement patterns and estimate exploitation rates in support of assessments of the status of the cod stock in NAFO Divs 2J3KL. This is a SPERA project dataset.",
+    "url": "https://obis.org/dataset/4b0fd78e-c074-4b7b-a716-adf7e3917776",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndfo-nafcdfonenewfoundl",
+        "https://doi.org/10.14286/pomdkm"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Brattey, J., Morris, C. 2005. DFO NE Newfoundland Acoustic Array and Atlantic Cod Tagging.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-23T02:51:54.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AGEBENTX/",
+            "description": "age"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/pomdkm",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/pomdkm",
+        "url": "https://doi.org/10.14286/pomdkm"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndfo-nafcdfonenewfoundl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-124.137016666667 -32.02095,-124.137016666667 52.4839,115.22015 52.4839,115.22015 -32.02095,-124.137016666667 -32.02095"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

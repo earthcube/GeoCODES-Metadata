@@ -1,0 +1,83 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/36be7d35-bc96-4ba1-a27b-0b8a0496741b",
+    "name": "Phytoplankton monitoring in the South Adriatic (Adricosm-STAR project), 2008-2009",
+    "description": "Phytoplankton monitoring in the South Adriatic (Adricosm-STAR project), 2008-2009. \nDiscrete water samples are taken at multiple depth layers. The samples were fixed with Ca(HCO3)2-buffered formaldehyde (0.8% final concentration) and cell abundance and species composition of phytoplankton were estimated according to Utermöhl’s method (1958), using an inverted microscope equipped with phase contrast, at 200-320-400x final magnifications.",
+    "url": "https://obis.org/dataset/36be7d35-bc96-4ba1-a27b-0b8a0496741b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_adricosm_star_2008_2009",
+        "https://doi.org/10.6092/a641ca08-b2c3-42bb-a221-43c4abc9cfc0"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cabrini M., Fornasaro D. (2017) Phytoplankton monitoring in the South Adriatic (Adricosm - STAR project), 2008-2009. OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. https://doi.org/10.6092/a641ca08-b2c3-42bb-a221-43c4abc9cfc0",
+    "version": "2024-02-26T23:37:47.000Z",
+    "keywords": [
+        "Species composition",
+        "Water management",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "upper limit of the size-class",
+            "url": "",
+            "description": "upper limit of the size-class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lower limit of the size-class",
+            "url": "",
+            "description": "lower limit of the size-class"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2009",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/a641ca08-b2c3-42bb-a221-43c4abc9cfc0",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/a641ca08-b2c3-42bb-a221-43c4abc9cfc0",
+        "url": "https://doi.org/10.6092/a641ca08-b2c3-42bb-a221-43c4abc9cfc0"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_adricosm_star_2008_2009",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "16.1 41.331,16.1 42.4751667,19.5288333 42.4751667,19.5288333 41.331,16.1 41.331"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

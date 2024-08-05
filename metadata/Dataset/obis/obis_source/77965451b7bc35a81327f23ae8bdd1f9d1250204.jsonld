@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ea759464-5a9d-4b8c-83ce-858e57240d6e",
+    "name": "VIMS Chesapeake Bay Multispecies Monitoring and Assessment Program",
+    "description": "In general, ChesMMAP is fishery-independent monitoring survey that uses a large-mesh bottom trawl to sample late juvenile-to-adult fishes in the mainstem of Chesapeake Bay.  This program currently provides data on relative abundance, length, weight, sex ratio, maturity, age, and trophic interactions for several important fish species that inhabit the bay seasonally. ",
+    "url": "https://obis.org/dataset/ea759464-5a9d-4b8c-83ce-858e57240d6e",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=vims_chesmmap"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2016-10-03T21:07:59.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=vims_chesmmap",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-76.51733333 36.9325,-76.51733333 39.30233333,-75.92658335 39.30233333,-75.92658335 36.9325,-76.51733333 36.9325"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19317",
+            "@type": "Organization",
+            "legalName": "Virginia Institute of Marine Sciences",
+            "name": "Virginia Institute of Marine Sciences",
+            "url": "https://oceanexpert.org/institution/19317"
+        }
+    ]
+}

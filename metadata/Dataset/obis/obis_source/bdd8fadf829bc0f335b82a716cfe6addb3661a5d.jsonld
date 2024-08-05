@@ -1,0 +1,105 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8f5b49bc-b438-4f4c-972e-a0ae3e7b5665",
+    "name": "Phytoplankton studies in the North Sea and the Northeast Atlantic Ocean between 1968 and 1970",
+    "description": "Quantitative and qualitative analysis of phytoplankton species found between 1968-1970 in the North Sea and Northeast Atlantic Ocean. The data were digitized in the frame of the 4DEMON project and LifeWatch.",
+    "url": "https://obis.org/dataset/8f5b49bc-b438-4f4c-972e-a0ae3e7b5665",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_nsea_neatlantic_1968-70",
+        "https://dx.doi.org/10.14284/372"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Clarysse R.; Louis A.; Laboratorium van Algologie. KUL: Belgium; (2019): Phytoplankton studies in the North Sea and the Northeast Atlantic Ocean between 1968 and 1970. Marine Data Archive. https://dx.doi.org/10.14284/372",
+    "version": "2023-12-08T17:48:46.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of phytoplankton per unit volume of the water column",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of phytoplankton per unit volume of the water column"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind force",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01/",
+            "description": "Wind force"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Air temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01/",
+            "description": "Air temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1968/1970",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/372",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/372",
+        "url": "https://dx.doi.org/10.14284/372"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_nsea_neatlantic_1968-70",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-17.51667 51.35,-17.51667 63.73333,2.866667 63.73333,2.866667 51.35,-17.51667 51.35"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19418",
+            "@type": "Organization",
+            "legalName": "Katholieke Universiteit Leuven",
+            "name": "Katholieke Universiteit Leuven",
+            "url": "https://oceanexpert.org/institution/19418"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5db2ffe4-8764-4647-9271-467192832793",
+    "name": "Australian National Fish Collection (ANFC)",
+    "description": "The Australian National Fish Collection (ANFC)  (formerly the I.S.R. Munro Ichthyological Collection) contains more than 161,000 fish specimens representing more than 4,000 species. It was established by Dr I.S.R. Munro in the 1940's, when the CSIRO Division of Fisheries was based in Cronulla (Sydney, NSW). It is now housed at the CSIRO Marine Laboratories in Hobart (Tasmania). Most specimens were collected during CSIRO surveys and on research vessels, notably Fairwind (Papua New Guinea region, 1948-1950), Stanley Fowler (tropical Australia, 1948-1950), Rama (Gulf of Carpentaria, 1963-1965), FRV Courageous (1975-1979), FRV Soela (1979-1989), FRV Southern Surveyor (1990 to 2013) and RV Investigator (2015 to present). Some specimens were acquired from fisheries observers, fishers and via donations. The collection’s strengths are deep-water fishes and sharks and rays. The largest part of the collection is from Australian waters.  There are also collections from Papua New Guinea, the Bismarck Archipelago, Solomon Islands, New Zealand, Antarctic waters and south-east Asia (particularly Indonesia, Malaysia and Taiwan). In addition to adult fishes, the collection contains fish larvae and an extensive collection of photographs and x-rays. Further details of the  Australian National Fish Collection is at https://www.csiro.au/en/Research/Collections/ANFC\nThis dataset is the set of georeferenced specimens. Each has a specimen confidence level described in the taxon remarks. Most have lengths recorded (standard, total or disc width). This set also contains 109 freshwater species for other aggregators and about 350 names not yet resolved with WoRMS. The identification confidence level and identification method used for each specimen is recorded in identificationRemarks.",
+    "url": "https://obis.org/dataset/5db2ffe4-8764-4647-9271-467192832793",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_anfc"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T05:45:25.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Method collected",
+            "url": "",
+            "description": "Method collected"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Standard Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SL01XX01",
+            "description": "Standard Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total Length",
+            "url": "",
+            "description": "Total Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Type Status",
+            "url": "",
+            "description": "Type Status"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Disk width",
+            "url": "",
+            "description": "Disk width"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1887/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_anfc",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-176 -73.255,-176 77.1,178.92333 77.1,178.92333 -73.255,-176 -73.255"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

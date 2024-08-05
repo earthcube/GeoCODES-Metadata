@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/85e8931e-4bbb-4c6f-98b2-2261080c3ddf",
+    "name": "Netherlands Antilles Turtle Tracking 2007 (aggregated per 1-degree cell)",
+    "description": "Original provider:\nMarine Turtle Program Coordinator/St. Eustatius National Parks Foundation\n\nDataset credits:\nData provider\nDutch Caribbean Nature Alliance\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nThe 2007 DCNA turtle tracking effort is a collaborationwith CARMABI (Curacao), St Eustatius National Parks, andthe Nature Foundation Sint Maarten with support from Sea Turtle Conservation Bonaire.\n\n\nAbstract:\nThrough this tracking study, the Dutch Caribbean NatureAlliance (DCNA) aims to learn the geographical range ofmarine turtles breeding on islands of the Dutch Caribbean,engage the public in turtle conservation issues byshowcasing the turtles' migratory behavior, and build localcapabilities for performing advanced sea turtleconservation projects.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=239\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/85e8931e-4bbb-4c6f-98b2-2261080c3ddf",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_444_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Herrera A. 2021. Netherlands Antilles Turtle Tracking 2007. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/444) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=239).",
+    "version": "2021-04-24T09:39:29.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_444_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-72.5 17.5,-72.5 20.5,-60.5 20.5,-60.5 17.5,-72.5 17.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

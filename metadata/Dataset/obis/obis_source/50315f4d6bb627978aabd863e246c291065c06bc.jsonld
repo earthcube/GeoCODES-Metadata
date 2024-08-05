@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a4afb352-a688-418f-861c-aa549427a28a",
+    "name": "Seagrass meadows of Arnhem Land, Kakadu and Gulf of Carpentaria",
+    "description": "This is a collection of polygons outlining significant seagrass meadows around Arnhem Land, Kakadu and Gulf of Carpentaria coastal waters for the Northern Australia Marine Biodiversity Survey (NAMBS) project between 2003 and 2005. Data was collected from imagery and ground truthed by observers from helicopter and insitu sample grabs.\nData supplied by Department of Environment and Natural Resources. © Copyright Northern Territory of Australia",
+    "url": "https://obis.org/dataset/a4afb352-a688-418f-861c-aa549427a28a",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seamapaus_nt_seagrass"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cite data as: Department of Environment and Natural Resources, Northern Territory Government (2005). Seagrass meadows of Arnhem Land, Kakadu and Gulf of Carpentaria. Data accessed at http://metadata.imas.utas.edu.au/geonetwork/srv/en/meta\ndata.show?uuid=b110ebcb-7584-413f-bf12-71651d9b3b18 on (access date).",
+    "version": "2022-06-07T03:23:23.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Seagrass area",
+            "url": "",
+            "description": "Seagrass area"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seamapaus_nt_seagrass",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "132.277939853572 -17.6914523992912,132.277939853572 -10.9210250487996,142.2064394717 -10.9210250487996,142.2064394717 -17.6914523992912,132.277939853572 -17.6914523992912"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

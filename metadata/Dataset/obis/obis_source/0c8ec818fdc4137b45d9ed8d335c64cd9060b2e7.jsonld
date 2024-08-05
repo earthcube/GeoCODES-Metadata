@@ -1,0 +1,86 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/01dbc62a-e166-4752-8547-6db4542ec039",
+    "name": "O_SCHIERMONNIKOOG - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding on Schiermonnikoog (the Netherlands) [subsampled representation]",
+    "description": "This animal tracking dataset is derived from Oosterbeek et al. (2022, <a href=\"https://doi.org/10.5281/zenodo.6603183\">https://doi.org/10.5281/zenodo.6603183</a>) a deposit of Movebank study <a href=\"https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study1605799506\">1605799506</a>. Data have been standardized to Darwin Core using the <a href=\"https://inbo.github.io/movepub/\">movepub</a> R package and are downsampled to the first GPS position per hour. The original dataset description follows.\n<em>O_SCHIERMONNIKOOG - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding on Schiermonnikoog (the Netherlands)</em> is a bird tracking dataset published by <a href=\"http://www.sovon.nl\">Sovon</a>, the <a href=\"https://ibed.uva.nl\">University of Amsterdam</a> and the <a href=\"https://www.inbo.be/en\">Research Institute for Nature and Forest (INBO)</a>. It contains animal tracking data collected during <a href=\"https://chirpscholekster.nl\">CHIRP</a> (Cumulative Human Impact on biRd Populations) for the study <strong>O_SCHIERMONNIKOOG</strong> using trackers developed by the University of Amsterdam Bird Tracking System (UvA-BiTS, <a href=\"http://www.uva-bits.nl\">http://www.uva-bits.nl</a>). The study was operational from 2008 to 2014. In total 43 individuals of Eurasian oystercatchers (<em>Haematopus ostralegus</em>) have been tagged as a breeding bird on the saltmarshes of the island Schiermonnikoog (the Netherlands), mainly to study their space use both during the breeding season and winter season. Data are uploaded from the UvA-BiTS database to Movebank and from there archived on Zenodo (see <a href=\"https://github.com/inbo/bird-tracking\">https://github.com/inbo/bird-tracking</a>). No new data are expected.\nThese data were collected by Sovon in collaboration with the University of Amsterdam (UvA). Funding was provided by NAM and supported by the UvA-BiTS virtual lab on the Dutch national e-infrastructure, built with support of LifeWatch, the Netherlands eScience Center, SURFsara and SURFfoundation. The dataset was published with funding from Stichting NLBIF - Netherlands Biodiversity Information Facility.",
+    "url": "https://obis.org/dataset/01dbc62a-e166-4752-8547-6db4542ec039",
+    "sameAs": [
+        "https://ipt.inbo.be/resource?r=o_schiermonnikoog"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-06-02T07:03:51.000Z",
+    "keywords": [
+        "animal movement",
+        "animal tracking",
+        "gps tracking",
+        "accelerometer",
+        "altitude",
+        "temperature",
+        "biologging",
+        "birds",
+        "UvA-BiTS",
+        "Movebank",
+        "frictionlessdata",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.inbo.be/archive.do?r=o_schiermonnikoog",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "5.1414983 53.033799,5.1414983 53.5216116,6.6361929 53.5216116,6.6361929 53.033799,5.1414983 53.033799"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6656",
+            "@type": "Organization",
+            "legalName": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "name": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "url": "https://oceanexpert.org/institution/6656"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17039",
+            "@type": "Organization",
+            "legalName": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "name": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "url": "https://oceanexpert.org/institution/17039"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19569",
+            "@type": "Organization",
+            "legalName": "Universiteit Amsterdam",
+            "name": "Universiteit Amsterdam",
+            "url": "https://oceanexpert.org/institution/19569"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23186",
+            "@type": "Organization",
+            "legalName": "Sovon Dutch Centre for Field Ornithology",
+            "name": "Sovon Dutch Centre for Field Ornithology",
+            "url": "https://oceanexpert.org/institution/23186"
+        }
+    ]
+}

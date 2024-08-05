@@ -1,0 +1,114 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/531637ff-203d-447a-8595-519080144a1d",
+    "name": "Finnish Baltic Sea zooplankton monitoring",
+    "description": "The dataset include Finnish zooplankton monitoring data from the Baltic Sea. The Finnish zooplankton monitoring program started in 1979 and is still ongoing. The sampling has normally taken place in late summer (August), but since 2014 sampling is also carried out in early summer (May-June).The zooplankton monitoring was performed by Finnish Institute of Marine Research until 2008, thereafter the Finnish Environment Institute is responsible for the monitoring program. Samples are taken using a WP-2 net (normally 2550 cm2 opening and 100 um mesh size). The monitoring follows the HELCOM COMBINE guidelines, but subsampling is done using Folsom splitter.  The dataset is also accessible through the NOAA COPEPOD database.",
+    "url": "https://obis.org/dataset/531637ff-203d-447a-8595-519080144a1d",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=syke-zplank"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Finnish Environment Institute SYKE; (2018); Finnish Baltic Sea zooplankton monitoring",
+    "version": "2023-12-08T18:24:09.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "net area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "net area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling gear",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling gear"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/BATHDPTH/",
+            "description": "Bottom depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sub-sampling coefficient",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "description": "Sub-sampling coefficient"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Subsampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100006/",
+            "description": "Subsampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=syke-zplank",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.179 54.555,13.179 65.538,28.4804 65.538,28.4804 54.555,13.179 54.555"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6169",
+            "@type": "Organization",
+            "legalName": "Finnish Environment Institute",
+            "name": "Finnish Environment Institute",
+            "url": "https://oceanexpert.org/institution/6169"
+        }
+    ]
+}

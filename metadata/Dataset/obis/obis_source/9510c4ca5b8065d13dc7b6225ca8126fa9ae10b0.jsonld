@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a72786ef-6af6-451c-b339-d34d13e8c978",
+    "name": "SNU-FF Macrobenthos (1999)",
+    "description": "The macrozoobenthos of the Southern Black Sea coast (Turkey) was quantitatively investigated during May-July 1999.",
+    "url": "https://obis.org/dataset/a72786ef-6af6-451c-b339-d34d13e8c978",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=snu_ff_macro"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Sezgin, M. 1999. Macrobenthos data from 1999. Sinop University Fisheries Faculty (SNU-FF).",
+    "version": "2023-05-23T11:30:53.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Zoobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1999/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=snu_ff_macro",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "38.1173 40.9495,38.1173 41.4353,41.431 41.4353,41.431 40.9495,38.1173 40.9495"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11872",
+            "@type": "Organization",
+            "legalName": "Sinop University, Fisheries Faculty",
+            "name": "Sinop University, Fisheries Faculty",
+            "url": "https://oceanexpert.org/institution/11872"
+        }
+    ]
+}

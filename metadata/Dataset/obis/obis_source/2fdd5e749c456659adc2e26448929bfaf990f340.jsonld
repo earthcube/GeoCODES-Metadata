@@ -1,0 +1,115 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f98a08db-b2af-4fb9-8735-1b2af9117742",
+    "name": "Invertebrados Bentónicos de la II y III Expedición Colombia a la Antártica (CCO)",
+    "description": "Con el objetivo de contribuir al conocimiento de las comunidades de invertebrados bentónicos de la península Antártica se recolectaron especímenes durante la II y III Expedición Científica de Colombia a la Antártica, todo el trabajo se realizo con el apoyo logístico del Instituto Antártico Chileno, INACH, desde la Base Profesor Julio Escudero ubicada en la Bahía Fildes, Isla del Rey Jorge, Islas Shetland del Sur, se obtuvieron muestras tanto del intermareal como del submareal en diferentes bahías.\nDe estás muestras se separaron organismos de los Phyla: Chlorophyta, Rhodophyta, Ochrophyta, Cnidaria, Platyhelminthes, Annelida (Polychaeta), Mollusca (Gasteropoda, Bivalvia, Polyplacophora), Crustacea (Taniadacea, Cumacea, Decapoda, Isopoda) Echinodermata, Bryozoa, Sipuncula y Nemertea. Particularmente, los organismos del phylum Annelida, clase Polychaeta, se separaron organismos de al menos 13 familias. Adicionalmente, por su tamaño y representatividad de la zona, se pudieron identificar hasta especie el isópodo Glyptonotus antarticus, la estrella Odontaster validus, y los moluscos bivalvos, Laternulla elliptica y Nacella conccina.",
+    "url": "https://obis.org/dataset/f98a08db-b2af-4fb9-8735-1b2af9117742",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=expedicion-antartica_invertebrados",
+        "https://doi.org/10.15472/jd4g0x"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Quan Young L I, Ossa Yepes M, Londoño Mesa M H (2022): Invertebrados Bentónicos de la II y III Expedición Colombia a la Antártica (CCO). v1.2. Universidad CES. Dataset/Samplingevent. https://doi.org/10.15472/jd4g0x",
+    "version": "2022-10-13T16:34:35.000Z",
+    "keywords": [
+        "Colombia",
+        "Antártica",
+        "Invertebrados Bentónicos",
+        "SIB_MARINO",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Conteo de Individuos",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Conteo de Individuos"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Método de muestreo",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Método de muestreo"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperatura del aire",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/CDTA/",
+            "description": "Temperatura del aire"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Oxígeno disuelto",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/DOXY/",
+            "description": "Oxígeno disuelto"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Conductividad",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/CNDC/",
+            "description": "Conductividad"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinidad",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/PSAL/",
+            "description": "Salinidad"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Saturación de oxígeno",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OXYSOP01/",
+            "description": "Saturación de oxígeno"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2017",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/jd4g0x",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/jd4g0x",
+        "url": "https://doi.org/10.15472/jd4g0x"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=expedicion-antartica_invertebrados",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-58.9958333 -62.2237333,-58.9958333 -62.1689333,-58.6404667 -62.1689333,-58.6404667 -62.2237333,-58.9958333 -62.2237333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16726",
+            "@type": "Organization",
+            "legalName": "Universidad de Antioquia",
+            "name": "Universidad de Antioquia",
+            "url": "https://oceanexpert.org/institution/16726"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20359",
+            "@type": "Organization",
+            "legalName": "Universidad CES",
+            "name": "Universidad CES",
+            "url": "https://oceanexpert.org/institution/20359"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d1001fdc-d4a2-4d01-bcd2-2e122f2ca537",
+    "name": "Biodiversity of the Gulf of Mexico Database (BioGoMx)",
+    "description": "Subset of the original biotic inventory of the Gulf of Mexico, only containing marine mammal, seabird and/or sea turtle records.",
+    "url": "https://obis.org/dataset/d1001fdc-d4a2-4d01-bcd2-2e122f2ca537",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=biogomx"
+    ],
+    "license": "",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=biogomx",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-97.7937316895 18.211057663,-97.7937316895 30.4191112518,-82.3406906128 30.4191112518,-82.3406906128 18.211057663,-97.7937316895 18.211057663"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

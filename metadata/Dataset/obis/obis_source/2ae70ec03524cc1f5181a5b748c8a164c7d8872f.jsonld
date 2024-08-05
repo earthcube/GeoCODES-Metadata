@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/caaa3c28-7b09-4422-a7e5-4c4fac62630a",
+    "name": "Biodiversity of the upper-mesophotic octocoral habitats at Sporades Archipelago (Aegean Sea)",
+    "description": "The dataset describes the megabenthic biodiversity that has been recorded in five locations at the upper mesophotic zone of the National Marine Park of Alonissos Northern Sporades. The expedition ran in the summer of 2021 with a focus on the study of the structure of the octocoral habitats with emphasis on the forests of Eunicella cavolini and Paramuricea clavata. Non-invasive methods have been applied to collect the relevant information. This includes 4K GoPro cameras with lights and scaled laser beams along with an underwater camera system with strobes. The provided dataset is preliminary and far from being considered complete; however, it sets the foundation for new information to be added in future expeditions.",
+    "url": "https://obis.org/dataset/caaa3c28-7b09-4422-a7e5-4c4fac62630a",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=uppermesophotic"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Giovanni Chimienti, Michela Maiorca, Markos Digenis, Dimitris Poursanidis. Conservation status of upper-mesophotic octocoral habitats at Sporades Archipelago (Aegean Sea), 2023",
+    "version": "2023-09-05T14:08:31.000Z",
+    "keywords": [
+        "Metadata",
+        "Biodiversity",
+        "gorgonians",
+        "upper-mesophotic",
+        "octocoral",
+        "Northern Sporades",
+        "Aegean Sea"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=uppermesophotic",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "23.794795 39.135182,23.794795 39.27385,23.99767 39.27385,23.99767 39.135182,23.794795 39.135182"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

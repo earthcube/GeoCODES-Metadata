@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/33bd3b4d-12fc-4041-bae0-f0e053a4090b",
+    "name": "Soela Voyage SO 2/85  - Seabird Observations, Australia (1985)",
+    "description": "Incidental seabird observations from Hobart to Cascade seamount, Tasman Sea. Data sourced from publication. Voyage overview metadata record is http://www.marlin.csiro.au/geonetwork/srv/eng/search#!f85ddc97-282b-4a9e-a9d9-262946b7708d",
+    "url": "https://obis.org/dataset/33bd3b4d-12fc-4041-bae0-f0e053a4090b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=so198502_wov"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Blaber, S.J.M. 1986. The distribution and abundance of seabirds south east of Tasmania and over the Soela Seamount during April 1985. Emu.86: 239-244. https://doi.org/10.1071/MU9860239",
+    "version": "2022-06-06T10:50:34.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/1985",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=so198502_wov",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "148.0333 -43.91667,148.0333 -43.3,150.16667 -43.3,150.16667 -43.91667,148.0333 -43.91667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19301",
+            "@type": "Organization",
+            "legalName": "Commonwealth Scientific and Industrial Research Organisation ",
+            "name": "Commonwealth Scientific and Industrial Research Organisation ",
+            "url": "https://oceanexpert.org/institution/19301"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/80486acf-df76-4f48-b610-91258e8c3652",
+    "name": "Marine flora and fauna records from the North-east Atlantic",
+    "description": "This dataset contains marine littoral and sublittoral records of flora and fauna from the North-east Atlantic, provided by the Porcupine Marine Natural History Society.",
+    "url": "https://obis.org/dataset/80486acf-df76-4f48-b610-91258e8c3652",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_12028",
+        "https://doi.org/10.15468/pcmg9q"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marine flora and fauna records from the North-east Atlantic. Porcupine Marine Natural History Society, UK - UK National Biodiversity Network. https://doi.org/10.15468/pcmg9q",
+    "version": "2023-12-08T17:22:01.000Z",
+    "keywords": [
+        "Littoral zone",
+        "Sublittoral zone",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/2009",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/pcmg9q",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/pcmg9q",
+        "url": "https://doi.org/10.15468/pcmg9q"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_12028",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-9.93746185321657 50.106686031789394,-9.93746185321657 59.12757837514964,1.598821530040638 59.12757837514964,1.598821530040638 50.106686031789394,-9.93746185321657 50.106686031789394"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

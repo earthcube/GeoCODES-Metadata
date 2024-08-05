@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ee975652-147c-47a1-bfc1-052aaa11a60e",
+    "name": "DFO-SABS: Historical records from larval swordfish studies in the western Atlantic",
+    "description": "This resource was created as part of a data digitization project. A list of historical reports containing larval swordfish observations collected as part of Canadian sampling programs in the western Atlantic is being compiled.  Version 1 of this resource contains presence information extracted from one report (sampling took place during February 1965). This data recovery project is ongoing.",
+    "url": "https://obis.org/dataset/ee975652-147c-47a1-bfc1-052aaa11a60e",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=tibbo_swordfish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "DFO. (2014): DFO-SABS: Historical records from larval swordfish studies in the western Atlantic. v1.1. Canadian node of the Ocean Biogeographic Information System (OBIS Canada). Dataset/Occurrence. http://ipt.iobis.org/obiscanada/resource?r=tibbo_swordfish&amp;v=1.1",
+    "version": "2020-10-19T19:55:34.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1965/1965",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=tibbo_swordfish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.15 16.6,-80.15 34.17167,-61.96167 34.17167,-61.96167 16.6,-80.15 16.6"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19602",
+            "@type": "Organization",
+            "legalName": "Fisheries Research Board of Canada",
+            "name": "Fisheries Research Board of Canada",
+            "url": "https://oceanexpert.org/institution/19602"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ba5266b3-3ddf-4637-9a63-bac92d963b6a",
+    "name": "Raby Coho Salmon Tagging",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and University of British Columbia (UBC)  Raby Coho Salmon Tagging, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=NEP.RABY).\nAbstract:In August 2012, we conducted a pilot study in the Juan de Fuca strait where we tagged 50 wild adult coho salmon with VEMCO V8 acoustic transmitters (PhD student Raby, technicians Stamplecoskie, Hills, Thompson). This effectively is the first work anywhere on tracking the homeward migration of coho salmon in the marine environment. The fish we tagged were biopsied for DNA and we anticipate that we tagged a mixture of American (Puget Sound) and Canadian (Fraser River) stocks. This project utilized the acoustic receiver lines currently operating in the Juan de Fuca strait, the Fraser River mouth, the lower Fraser River, and likely also an American line operating in Puget Sound (tracking data to be downloaded). The project was a collaboration with industry partners (Area B Seine Society), the Pacific Salmon Foundation, and DFO, with the objective of generating a bycatch mortality estimate for coho salmon captured in purse seine fisheries that target sockeye and pink salmon. As a research platform, we chartered a purse seine vessel and crew, and tagging involved external attachment of V8 tags using Floy Tag \"spaghetti\" tags. As this was a novel tagging method for migrating adult salmon, we simultaneously conducted a tagging validation study using an on-board net pen with 24-h holding trials. Tagged coho salmon bycatch were also evaluated for injury and reflex impairment in order to link post-release fate with fish condition. Likewise, we were able to compare fish condition with mortality in the on-board 24-h holding study (repeated 4x) in order to bolster our samples sizes for the mortality estimate.  In August of 2013, other researchers (PhD students Cook and Drenner, technicians Ward, Hills, Chapman) repeated this study in the same area and with the same crew except with increased sample sizes; 220 coho bycatch were tagged.  Unlike in 2012, pink salmon abundances were high and the vessel was chartered to simulate an actual commercial pink salmon fishery.  Therefore, mortality estimates from 2013 are likely more realistic than those from 2012.  Additionally, longer holding studies (i.e. 3 days and 4 days) were conducted using the same on-board net pen to evaluate progression of disease and stress indices following capture.",
+    "url": "https://obis.org/dataset/ba5266b3-3ddf-4637-9a63-bac92d963b6a",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnubcrabycohosalmontaggi",
+        "https://doi.org/10.14286/duc6mu"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cook, K., Raby, G., Drenner, M., Hinch, S. 2012. Bycatch of coho salmon in a purse seine fishery: do reflex impairment, injury, and physiology predict post-release behaviour and survival?. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T17:57:22.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AGEBENTX/",
+            "description": "age"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "FL",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FL"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/duc6mu",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/duc6mu",
+        "url": "https://doi.org/10.14286/duc6mu"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnubcrabycohosalmontaggi",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-124.74912 48.07245,-124.74912 49.37433,-121.4895 49.37433,-121.4895 48.07245,-124.74912 48.07245"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

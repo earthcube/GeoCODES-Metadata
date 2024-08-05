@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1701dd73-9a96-48c8-9049-e5b1ca3c6993",
+    "name": "South East Fishery (SEF) Ecosystem Study 1993-1996: Fish Diet Data. Australia (1993-1997)",
+    "description": "Fish diet data collected as part of the 1993-1996 South East Fishery Ecosystem Study undertaken by CSIRO Division of Fisheries. Demersal trawls (33 per survey) were carried out at a range of depths (25m to 200m) on seven transects across the continental shelf in eastern Bass Strait, south-west Victoria, and south-west NSW waters. Data were collected in July 1993 (cruise SS 05/93), August 1994 (cruise SS 05/94), April 1996 (cruise SS 02/96) and November 1996 (cruise SS 06/96). Stomach samples were collected from betwen 2 and 120 specimens of each of a wide range of demersal fish caught in demersal trawls, including SEF quota species such as jack mackerel, tiger flathead, school whiting, redfish, spotted warehou and jackass morwong, among others, for laboratory analyses of diet composition. This information is being used to assess the influence of substrate types in providing food for particular demersal fish species.\nPredator and prey matched where possible to the World Register of Marine Species. Prey is resolved at various levels of taxonomic rank and in some cases not matched to WoRMS at all. Prey weight and count has been added into the EMoF schema and linked to the BODC vocabularies where possible.",
+    "url": "https://obis.org/dataset/1701dd73-9a96-48c8-9049-e5b1ca3c6993",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_sef_diet"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Williams A (2022): South East Fishery (SEF) Ecosystem Study 1993-1996: Fish Diet Data. Australia (1993-1997). v1.11. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=csiro_sef_diet&amp;v=1.11",
+    "version": "2022-06-08T04:34:36.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Weight (wet)",
+            "url": "",
+            "description": "Weight (wet)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_sef_diet",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "146.53 -42.72167,146.53 -36.34667,150.97667 -36.34667,150.97667 -42.72167,146.53 -42.72167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

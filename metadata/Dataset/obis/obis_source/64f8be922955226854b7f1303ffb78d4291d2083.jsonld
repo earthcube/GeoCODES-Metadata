@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ca3d16d7-e6ed-4066-b127-8df4700d160f",
+    "name": "HMAP Dataset 09: North Russian Salmon Catch Data, 1615-1937",
+    "description": "This dataset contains catch data relating to salmon from northern Russia between 1615 and 1937.",
+    "url": "https://obis.org/dataset/ca3d16d7-e6ed-4066-b127-8df4700d160f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_09"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "J. Lajus et al, eds., ‘North Russian Salmon Catch Data, 1615-1937’, in J.H Nicholls (comp.) HMAP Data Pages (https://oceanspast.org/hmap_db.php)",
+    "version": "2024-02-27T00:20:41.000Z",
+    "keywords": [
+        "Fish catch statistics",
+        "Salmon fisheries",
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1759/1937",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_09",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "31.2709999084473 60.6220016479492,31.2709999084473 71.1989974975586,61.0999984741211 71.1989974975586,61.0999984741211 60.6220016479492,31.2709999084473 60.6220016479492"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17927",
+            "@type": "Organization",
+            "legalName": "University of Hull, Oceans Past Initiative",
+            "name": "University of Hull, Oceans Past Initiative",
+            "url": "https://oceanexpert.org/institution/17927"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19384",
+            "@type": "Organization",
+            "legalName": "European University at Saint Petersburg",
+            "name": "European University at Saint Petersburg",
+            "url": "https://oceanexpert.org/institution/19384"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fa365193-b6d8-4005-a2b0-86670aa66550",
+    "name": "Eelgrass Community across an eutrophication gradient in New Brunswick and Prince Edward Island, Canada",
+    "description": "\tPresence-absence data collected across an eutrophication gradient to assess its impacts on communities associated with eelgrass beds in Atlantic Canada.",
+    "url": "https://obis.org/dataset/fa365193-b6d8-4005-a2b0-86670aa66550",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=fmap_eutroph"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Allison L. Schmidt. (2007). Eelgrass Community across an eutrophication gradient in New Brunswick and Prince Edward Island, Canada. Dalhousie University. Consulted on http://www.iobis.org on [date]",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=fmap_eutroph",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.9390029907 46.3650016785,-64.9390029907 47.7879981995,-62.6259994507 47.7879981995,-62.6259994507 46.3650016785,-64.9390029907 46.3650016785"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d835b33e-1e12-459b-b7ef-33e540252648",
+    "name": "Ceriantharia distribution data from: Deep-sea fauna of European seas - an annotated species check-list of benthic invertebrates living deeper than 2000 m in the seas bordering Europe",
+    "description": "An annotation is given for the species Cerianthus vogti Danielssen, 1890, the only ceriantharian species occurring deeper than 2000 m in the seas bordering Europe.",
+    "url": "https://obis.org/dataset/d835b33e-1e12-459b-b7ef-33e540252648",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=deepsea_ceriantharia",
+        "https://dx.doi.org/10.14284/254"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Molodtsova, T.N.; (2015). Ceriantharia distribution data from: Deep-sea fauna of European seas - an annotated species check-list of benthic invertebrates living deeper than 2000 m in the seas bordering Europe. https://dx.doi.org/10.14284/254",
+    "version": "2023-12-08T17:49:20.000Z",
+    "keywords": [
+        "Deep sea",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/254",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/254",
+        "url": "https://dx.doi.org/10.14284/254"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=deepsea_ceriantharia",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-1.633333333333333 63.53333333333333,-1.633333333333333 65.8,3.06666666666666 65.8,3.06666666666666 63.53333333333333,-1.633333333333333 63.53333333333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

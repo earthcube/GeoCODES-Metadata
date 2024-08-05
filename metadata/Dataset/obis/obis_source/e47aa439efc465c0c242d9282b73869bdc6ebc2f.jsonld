@@ -1,0 +1,97 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5463caa4-b929-477f-ae6c-7007b6d91baa",
+    "name": "Zooplankton densities collected from a seasonally hypoxic fjord (Hood Canal, Salish Sea, USA) on 2012-2013 cruises",
+    "description": "This zooplankton dataset was collected as part of a larger study examining the effects of hypoxia on species composition, distributions, and predator-prey interactions between zooplankton and fish in a pelagic marine ecosystem. Day/night paired zooplankton sampling was conducted in Hood Canal, Puget Sound (Washington state, US), during 10 monthly cruises from June to October, 2012 and 2013, at five stations: Dabob, Union, Hoodsport, Duckabush and Twanoh. An obliquely towed multi-net system was used to collect depth stratified and full water column samples. For the depth-stratified sampling, depth layers were based on the dissolved oxygen profiles from CTD casts. In the laboratory, zooplankton were quantitatively subsampled and microscopically counted, with zooplankton densities calculated. All individuals were identified to species or larger taxonomic grouping, and by life stages for some species, within each sample. This dataset as published with OBIS incorporates corrections and updates to a dataset previously published on BCO-DMO.",
+    "url": "https://obis.org/dataset/5463caa4-b929-477f-ae6c-7007b6d91baa",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=uwph_hoodcanalzoop",
+        "https://doi.org/10.15468/a7upu6"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY 4.0) License",
+    "citation": "Keister J E, Essington T, Horne J K, Parker-Stetter S, Herrmann B, Li L, Mayorga E, Winans A (2024). Zooplankton densities collected from a seasonally hypoxic fjord (Hood Canal, Salish Sea, USA) on 2012-2013 cruises. Version 1.2. United States Geological Survey. Samplingevent dataset. https://doi.org/10.15468/a7upu6",
+    "version": "2024-01-16T18:22:32.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Specimen",
+        "WASHINGTON",
+        "COASTAL",
+        "ZOOPLANKTON"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "multinet",
+            "url": "http://vocab.nerc.ac.uk/collection/L05/current/68/",
+            "description": "multinet"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2013",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/a7upu6",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/a7upu6",
+        "url": "https://doi.org/10.15468/a7upu6"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=uwph_hoodcanalzoop",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-123.125 47.371,-123.125 47.812,-122.807 47.812,-122.807 47.371,-123.125 47.371"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11379",
+            "@type": "Organization",
+            "legalName": "National Oceanic and Atmospheric Administration, Washington",
+            "name": "National Oceanic and Atmospheric Administration, Washington",
+            "url": "https://oceanexpert.org/institution/11379"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/379f8b86-e4a1-4b50-90e3-9b0ff4450671",
+    "name": "RMT Trawl catch from the 1984/85 V5 SIBEX2 voyage",
+    "description": "RMT Trawl catch from the 1984/85 V5 SIBEX II voyage.",
+    "url": "https://obis.org/dataset/379f8b86-e4a1-4b50-90e3-9b0ff4450671",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=rmt_sibex2"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. RMT Trawl catch from the 1984/85 V5 SIBEX2 voyage.",
+    "version": "2021-05-10T03:07:30.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/1985",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=rmt_sibex2",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "57.91666667 -68.00333333,57.91666667 -59.99833333,93.01333333 -59.99833333,93.01333333 -68.00333333,57.91666667 -68.00333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

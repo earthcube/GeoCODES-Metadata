@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3398cf39-62d9-4385-909d-507ce3967ae5",
+    "name": "Nanophytoplankton along the salinity gradient in the Tamar estuary in 1969",
+    "description": "List of phytoplankton species for 13 salinity zones along the Tamar estuary on 10th of April, 1969. The data were digitized by VLIZ from the original report: Mommaerts, J.-P. (1971). Note sur le nannoplankton de l'estuaire du Tamar (Plymouth, Grande-Bretagne): étude d'un transect couvrant tout le gradient de salinité.",
+    "url": "https://obis.org/dataset/3398cf39-62d9-4385-909d-507ce3967ae5",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nanophytoplankton_tamar_1969",
+        "https://dx.doi.org/10.14284/130"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Mommaerts J.-P.; Laboratorium voor Ekologie en Systematiek. VUB: Belgium; (2016): Nanophytoplankton along the salinity gradient in the Tamar estuary in 1969. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5158) https://dx.doi.org/10.14284/130",
+    "version": "2023-05-23T11:37:35.000Z",
+    "keywords": [
+        "Nannoplankton",
+        "Salinity gradients",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Chla",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00105/",
+            "description": "Chla"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifeStage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1969/1969",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/130",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/130",
+        "url": "https://dx.doi.org/10.14284/130"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nanophytoplankton_tamar_1969",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-4.237366 50.308531,-4.237366 50.506655,-4.151529 50.506655,-4.151529 50.308531,-4.237366 50.308531"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        }
+    ]
+}

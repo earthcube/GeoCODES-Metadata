@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6068d681-051a-4d47-8ce9-1ac2ed608e74",
+    "name": "National Taiwan Museum",
+    "description": "This dataset contains information on specimens in the National Taiwan Museum.",
+    "url": "https://obis.org/dataset/6068d681-051a-4d47-8ce9-1ac2ed608e74",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=fb9098",
+        "http://doi.org/10.15468/mpqvtt"
+    ],
+    "license": "Unrestricted",
+    "citation": "TELDAP, National Taiwan Museum (accessed through GBIF data portal, http://data.gbif.org/datasets/resource/9098, yyyy-mm-dd) http://doi.org/10.15468/mpqvtt",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1900/2007",
+    "identifier": {
+        "@id": "http://doi.org/10.15468/mpqvtt",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/mpqvtt",
+        "url": "http://doi.org/10.15468/mpqvtt"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=fb9098",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "109.430000305 18.3199996948,109.430000305 25.6200008392,122.069999695 25.6200008392,122.069999695 18.3199996948,109.430000305 18.3199996948"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

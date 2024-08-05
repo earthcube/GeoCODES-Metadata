@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4505624c-fbbd-4abc-833e-14cbb9fadc28",
+    "name": "A checklist of Indonesian polychaete species",
+    "description": "This dataset contains checklist of Indonesian polychaete species",
+    "url": "https://obis.org/dataset/4505624c-fbbd-4abc-833e-14cbb9fadc28",
+    "sameAs": [
+        "http://obis.lipi.go.id:8080/ipt/resource?r=polychaeta_pamungkas_2019"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Pamungkas J, Glasby CJ (2019). A checklist of Indonesian polychaete species",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Polychaeta",
+        "Indonesia",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://obis.lipi.go.id:8080/ipt/archive.do?r=polychaeta_pamungkas_2019",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "95.32 -10.87,95.32 5.88,134.9 5.88,134.9 -10.87,95.32 -10.87"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18092",
+            "@type": "Organization",
+            "legalName": "Pusat Penelitian Oseanografi. Lemabga Ilmu Pengetahuan Indonesia",
+            "name": "Pusat Penelitian Oseanografi. Lemabga Ilmu Pengetahuan Indonesia",
+            "url": "https://oceanexpert.org/institution/18092"
+        }
+    ]
+}

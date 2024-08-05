@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fe2ed263-2b21-47d7-a79f-f9b911132398",
+    "name": "eDNA observations, concurrent with trawl survey, of marine fish in coastal New Jersey, USA 2019",
+    "description": "These data are amplicon sequence variant (ASV) counts of marine fish derived from environmental DNA (eDNA) sampling targeting the 12S rDNA, V5 region. DNA was extracted from filtered water samples taken off coastal New Jersey during the 2019 New Jersey Ocean Trawl Survey. Sampling corresponded to the New Jersey Ocean Trawl Survey efforts, but trawl data are not included here. The data were originally published as supplementary tables in support of Stoeckle et al. (https://doi.org/10.1093/icesjms/fsaa225). Observations from supplementary tables 8A - 8D were subsequently aligned to Darwin Core.",
+    "url": "https://obis.org/dataset/fe2ed263-2b21-47d7-a79f-f9b911132398",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=rockefeller_njtrawl_edna_assessment"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Stoeckle M, Adolf J, Charlop-Powers Z, Dunton K J, Hinks G, VanMorter S M, Formel S K (2023). eDNA observations, concurrent with trawl survey, of marine fish in coastal New Jersey, USA 2019. Version 1.4. United States Geological Survey. Occurrence dataset. https://ipt-obis.gbif.us/resource?r=rockefeller_njtrawl_edna_assessment&amp;v=1.4",
+    "version": "2023-06-06T19:13:43.000Z",
+    "keywords": [
+        "FISH (UUID: ea855d4c-f132-44f9-b31c-447e1101684d)",
+        "TRAWL (UUID: c386fdd8-5a49-46c6-9be6-b56a9428f30d)",
+        "NERITIC ZONE (UUID: eb958dfb-5e38-401f-8b42-5f1273c75a4a)",
+        "ATLANTIC OCEAN (UUID: cf249a36-2e82-4d32-84cd-23a4f40bb393)",
+        "NEW JERSEY (UUID: 699b0e5a-6dbd-47aa-b0ca-c4502f044e35)",
+        "marine biome (ENVO:00000447)",
+        "coastal water (ENVO:00001250)",
+        "waterborne particulate matter (ENVO:01000436)",
+        "marine biota (ENVO: 06105013)",
+        "Environmental DNA (NCIT:C169196)",
+        "Fish (NCIT:C14207)",
+        "Occurrence",
+        "12S rDNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=rockefeller_njtrawl_edna_assessment",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-74.969 38.658,-74.969 40.468,-73.862 40.468,-73.862 38.658,-74.969 38.658"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

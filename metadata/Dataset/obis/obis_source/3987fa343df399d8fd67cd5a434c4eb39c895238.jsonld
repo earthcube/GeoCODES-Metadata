@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/012a6661-c257-4e5a-9057-138ad71071f7",
+    "name": "Ice core meiofauna during the SIPEX and SIPEX II voyages",
+    "description": "Zooplankton were collected during the winter-spring  transition during two cruises of the Aurora Australis: SIPEX in 2007 and SIPEX II in 2012. As part of the collections sea ice cores were collected to describe the ice habitat during the period of zooplankton collections. Ice cores were taken with a 20 cm diameter SIPRE corer and sectioned in the field with an ice core. Temperature was measured in the section using a spike thermometer and slivers of each section were melted without filtered water to record salinity. The remainders of each section were melted at 4oC in filtered seawater and the melted water was used to measure chlorophyll a concentration, and meiofauna species and abundance. Meiofauna were counted and identified using a Leica M12 microscope: to species in most cases and down to stage during 2012.\nQuality: No problems encountered with data collection.\n\nAustralian Antarctic Data Centre note - 2018-07-03:\n\nThe original datasheet was reformatted to fit IPT Biodiversity.AQ standard. The new datasheet \"IceCoreMeiofaunaSIPEX_I_II.csv\" provides the dataset ID, event Id (Cruiser), sampling protocol, verbatim depth, event remarks, event date, verbatim latitude and longitude that were converted to decimal latitude and longitude (also provided), continent, country, occurrence, basis of record, life stage, and organism count. The taxonomical organisation is provided to the lowest taxonomical rank that could be determined, after matched in WoRMS (World Register of Marine Species).\n\nSome corroborating information from this dataset have been included - https://data.aad.gov.au/metadata/records/AAS_4140_Environmentaldata",
+    "url": "https://obis.org/dataset/012a6661-c257-4e5a-9057-138ad71071f7",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=ice_meiofauna"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Swadling, K. (2017, updated 2018) Ice core meiofauna during the SIPEX and SIPEX II voyages \n\n",
+    "version": "2018-10-08T23:17:07.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=ice_meiofauna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "120.33 -64.97,120.33 -64.91,121.65 -64.91,121.65 -64.97,120.33 -64.97"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

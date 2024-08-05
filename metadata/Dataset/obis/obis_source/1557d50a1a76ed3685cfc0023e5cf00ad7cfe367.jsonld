@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ccd6a395-a14a-49ce-afca-fd478007f19c",
+    "name": "Size Indian Nematodes",
+    "description": "Length and width measurements of 800 nematodes from the Indian Ocean. Four stations were sampled, each with two replicates. The sampling depths varied from 50 to 2000 meters. The density (ind/m²) and the SCOC (mmol O2/m²/day) were calculated.",
+    "url": "https://obis.org/dataset/ccd6a395-a14a-49ce-afca-fd478007f19c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=manuela_in"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Soetaert, K. (1992). Length and width measurements of nematodes in the Indian Ocean. Netherlands Institute of Ecology, Centre for Estuarine and Marine Ecology (NIOO-CEME), the Netherlands.",
+    "version": "2023-12-08T17:16:25.000Z",
+    "keywords": [
+        "Deep sea",
+        "Meiobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/1992",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=manuela_in",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "40.23233333 -3.159833333,40.23233333 -3.133,41.2755 -3.133,41.2755 -3.159833333,40.23233333 -3.159833333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16218",
+            "@type": "Organization",
+            "legalName": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke",
+            "name": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke",
+            "url": "https://oceanexpert.org/institution/16218"
+        }
+    ]
+}

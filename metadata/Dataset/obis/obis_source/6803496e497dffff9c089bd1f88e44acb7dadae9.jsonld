@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3d8430ee-0281-4271-8449-67394407bc23",
+    "name": "Zooplankton Sampled with 10m2MOCNESS Net in Georges Bank 1995-1999",
+    "description": "Zooplankton populations were monitored on a monthly basis (Jan-Jun), years 1995-1999, in Georges Bank, for a total of thirty cruises.",
+    "url": "https://obis.org/dataset/3d8430ee-0281-4271-8449-67394407bc23",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=moc10gb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Madin, L. and E. Horgan. Zooplankton Sampled with 10m2MOCNESS Net in Georges Bank 1995-1999. March 10, 2006. U.S. GLOBEC JGOFS/GLOBEC Data Server. Woods Hole Oceanographic Institution, USA: U.S. GLOBEC Data Management Office. Retrieved from http://www.usgs.gov/obis-usa/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=moc10gb",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.9899978638 40.4500007629,-68.9899978638 42.2999992371,-65.8479995728 42.2999992371,-65.8479995728 40.4500007629,-68.9899978638 40.4500007629"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9022aeeb-b917-4e43-b002-d708069784a0",
+    "name": "Kelp occurrences in the Azores (northeast Atlantic)",
+    "description": "Dataset collating kelp occurrences (presences and absences) from surveys conducted across the Azores archipelago (NE Atlantic) using remotely operated vehicles, drop-down cameras, open and closed-circuit SCUBA diving, and fisheries by-catch information.",
+    "url": "https://obis.org/dataset/9022aeeb-b917-4e43-b002-d708069784a0",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=kelp_ocurrences_azores",
+        "https://dx.doi.org/10.14284/423"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Tempera, F, E. Atchoi, A.L. Sinde-Mano and D. Milla-Figueras; IMAR - Institute of Marine Research; 2020; Kelp occurrences in the Azores (NE Atlantic) https://dx.doi.org/10.14284/423",
+    "version": "2024-02-26T23:14:48.000Z",
+    "keywords": [
+        "Aguas Vivas",
+        "Arquipelago",
+        "By catch",
+        "Scuba diving",
+        "Cameras",
+        "Remotely operated vehicles",
+        "diver",
+        "propelled unmanned submersible",
+        "research vessel",
+        "Kelp",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+            "description": "Depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Platform"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Visual census",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Visual census"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2018",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/423",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/423",
+        "url": "https://dx.doi.org/10.14284/423"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=kelp_ocurrences_azores",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-31.25 36.9,-31.25 39.75,-24.75 39.75,-24.75 36.9,-31.25 36.9"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

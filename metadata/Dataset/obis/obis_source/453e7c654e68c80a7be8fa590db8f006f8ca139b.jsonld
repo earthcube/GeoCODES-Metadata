@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c04414fb-9ac0-42d2-be21-f0754f416e04",
+    "name": "Diversity of the Indo-Pacific (DIPnet)",
+    "description": "Not for profit network of biodiveristy researchers that primarily use molecular tools to study marine systems.",
+    "url": "https://obis.org/dataset/c04414fb-9ac0-42d2-be21-f0754f416e04",
+    "sameAs": [
+        "https://ipt.geome-db.org/resource?r=dipnet"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Deck J, Gaither MR, Ewing R, Davies N, Meyer C, Riginos C, Toonen R, Crandall E. The Genomic Observatories Metadatabase (GeOMe): A new repository for field and sampling event metadata associated with genetic samples. Plos Biology In review.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.geome-db.org/archive.do?r=dipnet",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.860914 -43.18,-179.860914 56.833333,179.449944 56.833333,179.449944 -43.18,-179.860914 -43.18"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20413",
+            "@type": "Organization",
+            "legalName": "Diversity of the Indo-Pacific Network",
+            "name": "Diversity of the Indo-Pacific Network",
+            "url": "https://oceanexpert.org/institution/20413"
+        }
+    ]
+}

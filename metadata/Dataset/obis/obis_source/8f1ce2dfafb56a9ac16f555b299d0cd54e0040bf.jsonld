@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ff3404ec-c4bc-46fe-8f1b-beaec6f0fae3",
+    "name": "GBIF: Nova Scotia Museum of Natural History - Freshwater mussels",
+    "description": "This is the Nova Scotia Museum of Natural History collection of freshwater mussels. It contains mostly Nova Scotia material but there is also representation from New Brunswick, Newfoundland, the Northwest Territories, and other parts of North America. Temporally, specimens were collected from 1895 to 2009. The dataset was developed from the Nova Scotia Museum of Natural History (NSMNH) - Museum Information Management System (MIMS) as an electronic catalogue of specimen and collecting information.",
+    "url": "https://obis.org/dataset/ff3404ec-c4bc-46fe-8f1b-beaec6f0fae3",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=nsmnh_freshwater_mussels"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hebda, A.(2014). Nova Scotia Museum of Natural History - Freshwater mussels. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-04-16T11:33:28.000Z",
+    "keywords": [
+        "oceans",
+        "biota",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=nsmnh_freshwater_mussels",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-79.48 34,-79.48 51.28,43 51.28,43 34,-79.48 34"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

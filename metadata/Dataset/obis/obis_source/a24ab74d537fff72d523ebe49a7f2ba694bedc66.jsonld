@@ -1,0 +1,134 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/24e96d02-8909-4431-bc61-8cf8eadc9b7a",
+    "name": "Trawl Catch and Species Abundance from the 2019 Gulf of Alaska International Year of the Salmon Expedition",
+    "description": "Fish species abundance and species-specific length and weight data was collected in the Gulf of Alaska using a midwater trawl net. These data were collected as part of the International Year of the Salmon (IYS) High Seas Expedition conducted in February and March 2019, to further improve the understanding of factors impacting salmon marine winter survival. A total of 64 tows were conducted, and for each tow the total species-specific weight and total (species-specific) catch numbers were recorded. This dataset only contains taxa that were identified to a species level, omitting some Aequorea, Salpa, Gonatidae, Calycopsis, Paralepididae and Ctenophora observations. For the full dataset, it is recommended to contact the data provider. Additionally, for some species individual biometrics were recorded, such as length, wet weight, sex and age class (maturation stage) where possible. The data collected from these trawls aims to improve our understanding of the food web structure.",
+    "url": "https://obis.org/dataset/24e96d02-8909-4431-bc61-8cf8eadc9b7a",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=trawl-catch-and-species-abundance-from-the-2019-gulf-of-alaska-international-year-of-the-salmon-expedition",
+        "https://doi.org/10.21966/DPHZ-AS73"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Neville, C., Esenkulova, S., Weitkamp, L., Urawa, S., Waters, C., &amp; Somov, A. (2021). Trawl Catch and Species Abundance from the 2019 Gulf of Alaska International Year of the Salmon Expedition [Data set]. North Pacific Anadromous Fish Commission. https://doi.org/10.21966/DPHZ-AS73",
+    "version": "2022-12-16T18:07:22.000Z",
+    "keywords": [
+        "Occurrence",
+        "Fish Abundance and Distribution",
+        "Salmon",
+        "International Year of the Salmon",
+        "Oceans",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Research Vessel",
+            "url": "http://vocab.nerc.ac.uk/collection/L06/current/31/",
+            "description": "Research Vessel"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "bottom_depth_trawl_finish",
+            "url": "http://vocab.nerc.ac.uk/collection/P09/current/BATH/",
+            "description": "bottom_depth_trawl_finish"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "bottom_depth_trawl_start",
+            "url": "http://vocab.nerc.ac.uk/collection/P09/current/BATH/",
+            "description": "bottom_depth_trawl_start"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "direction_of_set",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0481/",
+            "description": "direction_of_set"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "net_opening_height",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/",
+            "description": "net_opening_height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "net_opening_width",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/",
+            "description": "net_opening_width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling_gear",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling_gear"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "tow_distance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "tow_distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "tow_duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "tow_duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "vessel_speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TOWSPEED/",
+            "description": "vessel_speed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.21966/DPHZ-AS73",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.21966/DPHZ-AS73",
+        "url": "https://doi.org/10.21966/DPHZ-AS73"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=trawl-catch-and-species-abundance-from-the-2019-gulf-of-alaska-international-year-of-the-salmon-expedition",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-147.360003560958 47.3625008282921,-147.360003560958 56.441500207685,-128.265499168179 56.441500207685,-128.265499168179 47.3625008282921,-147.360003560958 47.3625008282921"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        }
+    ]
+}

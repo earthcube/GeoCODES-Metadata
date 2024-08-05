@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9c30c528-b4aa-4b3c-b7c2-ff0566ff12ee",
+    "name": "Macroalgae of the Crimean coastal zone (Black Sea, 1967-2007)",
+    "description": "The main aim of the dataset is preparing the available data by diversity of the Black Sea macroalgae, which were collected by the scientists from IBSS around Crimean coast of the Ukrainian shelf during the last 40 years. The species diversity is described from 43 transects, 180 stations at 0,1 - 25 m depth. The data about location, region, sampling equipment are given for each macroalgae species. These data are available now for scientists, professionals and they can be used in various purposes.",
+    "url": "https://obis.org/dataset/9c30c528-b4aa-4b3c-b7c2-ff0566ff12ee",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=milchakova_macroalgae_blacksea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Milchakova N.A., Ryabogina V.G., Chernyshova E.B. Macroalgae of the Crimean coastal zone (the Black Sea, 1967-2007). Sevastopol, IBSS, 2011.",
+    "version": "2024-02-27T00:20:53.000Z",
+    "keywords": [
+        "Algae",
+        "Coastal zone",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1967/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=milchakova_macroalgae_blacksea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "32.4558 44.3868,32.4558 45.529,35.2498 45.529,35.2498 44.3868,32.4558 44.3868"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

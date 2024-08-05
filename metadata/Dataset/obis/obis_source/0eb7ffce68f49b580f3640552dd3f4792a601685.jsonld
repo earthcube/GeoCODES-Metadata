@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/070a6395-10a4-4ad1-aa0c-b5227047e8e7",
+    "name": "Pelagic and Demersal Fish Database II, REVIZEE South Area (WSAOBIS)",
+    "description": "This data set contains the records of demersal fish fauna inhabiting irregular bottoms and depressions on the outer shelf and slope of the South and Southeastern Brazilian coast between 220 15’S and 340 40’S collected during the REVIZEE program. Twenty one oceanographic cruises were carried out from May 1996 to April 2002. Along the region, in five bottom types classified according the topography and hardness of their substrate, conic and rectangular traps and \"pargueiras\" (a small longline) captured some 293,200 fishes, including some 70 hagfishes.",
+    "url": "https://obis.org/dataset/070a6395-10a4-4ad1-aa0c-b5227047e8e7",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=pelagic_and_demersal_fish_database_ii_revizee",
+        "http://doi.org/10.25607/vucmt6"
+    ],
+    "license": "Unrestricted",
+    "citation": " (2018): Pelagic and Demersal Fish Database II, REVIZEE South Area (WSAOBIS). v2.0. Tropical and Subtropical Western South Atlantic OBIS. Dataset/Occurrence. http://doi.org/10.25607/vucmt6",
+    "version": "2021-07-02T11:00:37.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/2002",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/vucmt6",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/vucmt6",
+        "url": "http://doi.org/10.25607/vucmt6"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=pelagic_and_demersal_fish_database_ii_revizee",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-52.0745 -34.5711666667,-52.0745 -22.3668333333,-37.5789833333 -22.3668333333,-37.5789833333 -34.5711666667,-52.0745 -34.5711666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

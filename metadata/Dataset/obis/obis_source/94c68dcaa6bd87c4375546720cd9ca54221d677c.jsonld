@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ed776303-7bc4-49f3-b005-9e1388aaab57",
+    "name": "Maritimes Recreational Shark Fishery Derbies",
+    "description": "The Maritimes Recreational Shark Fishery has been active since 1993.  Biological data collected from the recreational fishery is used to develop an  assessment of stock status and the general health of the population, particularly that of blue sharks. \n\nShark fishing derbies are held each year in waters off Nova Scotia, usually during the months of July, August and September.  These are commercial or community-sponsored events, and are not sponsored by DFO or the Shark Research Lab.  However, the catches provide excellent samples for scientific examination, and thus all catches are closely monitored.  The species most often caught is the blue shark.  However the occasional thresher or porbeagle shark is also caught.  Shortfin mako sharks are not uncommon in Canadian waters. Other species of shark do occur in Nova Scotian waters, however many of them prefer warmer waters that are associated with the Gulf Stream, or deeper waters which make them unlikely to be caught by recreational anglers. \n\nVersions of the derby data may be restricted to blue sharks only, since that comprises 99% of the catch.  \n\nUsers of records from this data set are advised to contact the PI for additional information prior to inclusion in publications.",
+    "url": "https://obis.org/dataset/ed776303-7bc4-49f3-b005-9e1388aaab57",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=mar_shark_derbies"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bowlby, Heather and Warren Joyce. 2016. Maritimes Recreational Shark Fishery Derbies. Version 2 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-04-16T11:29:45.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=mar_shark_derbies",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-66.13 43.69,-66.13 45.9,-59.97 45.9,-59.97 43.69,-66.13 43.69"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

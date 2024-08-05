@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fd4a002f-3972-46fc-9e16-8d2c14110e50",
+    "name": "Marine and Coastal Management - Seal Surveys",
+    "description": "Marine and Coastal Management (MCM)'s  seal data set is a collection of seals shot at-sea cruises, and has been collected from cruises around the South African Coast, and currently contains 2440 records of 1 family (Otariidae).",
+    "url": "https://obis.org/dataset/fd4a002f-3972-46fc-9e16-8d2c14110e50",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=mcm_seal"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marine and Coastal Management - Seal Surveys",
+    "version": "2020-12-02T14:09:10.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1974/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=mcm_seal",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.6833000183 -34.9832992554,11.6833000183 -17.4666996002,26.1089992523 -17.4666996002,26.1089992523 -34.9832992554,11.6833000183 -34.9832992554"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

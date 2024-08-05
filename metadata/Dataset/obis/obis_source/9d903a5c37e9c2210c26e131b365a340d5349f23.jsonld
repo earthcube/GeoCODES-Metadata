@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/48202606-f758-4974-ab2b-57aa154190e3",
+    "name": "crustacea of RCO reference Collection",
+    "description": "Specimen from RCO-Indonesia reference collection",
+    "url": "https://obis.org/dataset/48202606-f758-4974-ab2b-57aa154190e3",
+    "sameAs": [
+        "http://obis.lipi.go.id:8080/ipt/resource?r=cru"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://obis.lipi.go.id:8080/ipt/archive.do?r=cru",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "105.2424901 -8.66255,105.2424901 4.682905,128.0535556 4.682905,128.0535556 -8.66255,105.2424901 -8.66255"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18092",
+            "@type": "Organization",
+            "legalName": "Pusat Penelitian Oseanografi. Lemabga Ilmu Pengetahuan Indonesia",
+            "name": "Pusat Penelitian Oseanografi. Lemabga Ilmu Pengetahuan Indonesia",
+            "url": "https://oceanexpert.org/institution/18092"
+        }
+    ]
+}

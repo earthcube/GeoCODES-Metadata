@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e06daf5d-9e6b-44e1-a6a7-cc91a3ee1f3b",
+    "name": "Queensland Museum Fishes - Marine records",
+    "description": "The estimated 5,000 species that occur in Australian waters are amongst the most diverse marine fauna of any country, and many of these species occur in Queensland waters. Holds shallow to deepwater demersal trawled species Queensland-wide; and southern Queensland reef and shore fish fauna.\nDtaa downloaded from ALA (http://collections.ala.org.au/public/show/co51) and taxa matched to World Register of Marine Species",
+    "url": "https://obis.org/dataset/e06daf5d-9e6b-44e1-a6a7-cc91a3ee1f3b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=qm_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-07T06:05:05.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1794/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=qm_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-90.83333 -63.4,-90.83333 49.03333,180 49.03333,180 -63.4,-90.83333 -63.4"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19411",
+            "@type": "Organization",
+            "legalName": "Queensland Museum",
+            "name": "Queensland Museum",
+            "url": "https://oceanexpert.org/institution/19411"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

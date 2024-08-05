@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/df5b766e-d7a3-400e-944e-444289f54a62",
+    "name": "eDNA samples from the surface ocean to the seafloor collected by RV Investigator voyage IN2017_V01 - Linking Modern and Paleo-Genetics at the Sabrina Coast East Antarctica (2017)",
+    "description": "DNA data underlying the paper 'From the Surface Ocean to the Seafloor: Linking Modern and Paleo-genetics at the Sabrina Coast, East Antarctica (IN2017_V01)' by Armbrecht et al. (https://doi.org/10.1029/2022JG007252). In this study, a modern and a paleo-genomics approach to investigate vertical profiles of marine organisms (bacteria and eukaryotes) through the water column and underlying sediments were conducted at three sampling stations off the Sabrina Coast, East Antarctica. Water and sediment samples were collected during the “Sabrina Seafloor Survey” (IN2017_V01) and represent the surface waters, chlorophyll maximum depth, bottom waters, and several depths below the seafloor. Conductivity–temperature–depth (CTD) data, seawater samples, and sediment cores (Kasten Cores [KCs]) were collected during the RV Investigator voyage IN2017_V01 (“Sabrina Seafloor Survey”) between January and March 2017. A combination of 16S and 18S rRNA amplicon sequencing (modern DNA) and shotgun metagenomics (sedimentary ancient DNA, sedaDNA) was used.\nData were extracted from supporting information file (https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2022JG007252&amp;file=2022JG007252-sup-0001-Supporting+Information+SI-S01.pdf) provided with the research paper (https://doi.org/10.1029/2022JG007252).\nDNA dataset were downloaded from Armbrecht, L. &amp; Focardi, A. (2022), Totten Glacier ocean &amp; sediment DNA (IN2017_V01). University of Tasmania Research Data Portal [Dataset], https://dx.doi.org/10.25959/hwk8-cc81. All read counts, sequence id for Bacteria, Archaea and Eukaryota identified using sedaDNA at KC02, KC06, KC14 are extracted at the lowest identified taxonomic level from MEGAN (CE v.6.24.23).\nVoyage details (metadata, projects, other datasets either online or as downloads, publications and reports, events, maps etc) can be accessed at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2017_V01\nIf this data has been used in any products, please acknowledge with the following: We acknowledge the use of the CSIRO Marine National Facility (https://ror.org/01mae9353) in undertaking this research.\n",
+    "url": "https://obis.org/dataset/df5b766e-d7a3-400e-944e-444289f54a62",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=in2017_v01_sedadna",
+        "https://doi.org/10.1029/2022JG007252"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Armbrecht, L., Focardi, A., Lawler, K.-A., O’Brien, P., Leventer, A., Noble, T. L., et al. (2023). From the surface ocean to the seafloor: Linking modern and paleo-genetics at the Sabrina Coast, East Antarctica (IN2017_V01). Journal of Geophysical Research: Biogeosciences, 128, e2022JG007252. https://doi.org/10.1029/2022JG007252",
+    "version": "2023-11-30T02:12:57.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "18S rRNA",
+        "16S rRNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "identifier": {
+        "@id": "https://doi.org/10.1029/2022JG007252",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1029/2022JG007252",
+        "url": "https://doi.org/10.1029/2022JG007252"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=in2017_v01_sedadna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "115.623 -64.72938,115.623 -64.471,118.69738 -64.471,118.69738 -64.72938,115.623 -64.72938"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20324",
+            "@type": "Organization",
+            "legalName": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "name": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "url": "https://oceanexpert.org/institution/20324"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

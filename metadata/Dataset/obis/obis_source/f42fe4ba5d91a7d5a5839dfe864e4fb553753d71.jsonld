@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c7d062de-eeb2-42e8-843a-7086e0d14420",
+    "name": "NEODAAS- NERC Earth Observation Data Acquisition and Analysis Service",
+    "description": "NEODAAS automatically receives, archives, processes and maps global data from multiple polar-orbiting sensors (MERIS, MODIS, SeaWiFS and AVHRR) and offers data from multiple geostationary satellites (SEVIRI, VISSR, GOES and MTSAT).",
+    "url": "https://obis.org/dataset/c7d062de-eeb2-42e8-843a-7086e0d14420",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=neodaas_nerc",
+        "http://doi.org/10.25607/cvamrq"
+    ],
+    "license": "",
+    "citation": "University of Dundee (2018): NEODAAS- NERC Earth Observation Data Acquisition and Analysis Service. v2.0. Tropical and Subtropical Western South Atlantic OBIS. Dataset/Occurrence. http://doi.org/10.25607/cvamrq",
+    "version": "2021-07-02T11:07:57.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/2003",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/cvamrq",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/cvamrq",
+        "url": "http://doi.org/10.25607/cvamrq"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=neodaas_nerc",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-60.0013888889 -38.36105,-60.0013888889 3.3218,10 3.3218,10 -38.36105,-60.0013888889 -38.36105"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7979",
+            "@type": "Organization",
+            "legalName": "Plymouth Marine Laboratory",
+            "name": "Plymouth Marine Laboratory",
+            "url": "https://oceanexpert.org/institution/7979"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18015",
+            "@type": "Organization",
+            "legalName": "Natural Environment Research Council ",
+            "name": "Natural Environment Research Council ",
+            "url": "https://oceanexpert.org/institution/18015"
+        }
+    ]
+}

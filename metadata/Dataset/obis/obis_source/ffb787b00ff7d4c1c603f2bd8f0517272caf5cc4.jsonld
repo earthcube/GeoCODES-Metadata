@@ -1,0 +1,124 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4b6cd9a9-a8eb-41dd-a08f-3283a2bed347",
+    "name": "Monitoring of the effects of Belgian wind mill parks on benthic macro-invertebrates and the fish fauna of soft substrates - reference situation. (WINMON)",
+    "description": "This dataset has been created to establish the reference situation of benthic macro-invertebrates (macro-, endobenthos en macro-epibenthos) and demersal fish in the Belgian windfarm area",
+    "url": "https://obis.org/dataset/4b6cd9a9-a8eb-41dd-a08f-3283a2bed347",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=idod_winmon"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Scory, S. (2019) Monitoring of the effects of Belgian wind mill parks on benthic macro-invertebrates and the fish fauna of soft substrates - reference situation. (WINMON)",
+    "version": "2023-12-08T17:13:47.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Offshore Wind Energy",
+        "Wind farms",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling device"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Density per unit of surface",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Density per unit of surface"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sampling duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture width",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/",
+            "description": "Sampling device aperture width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL03/",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Species productivity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AFDWBP01/",
+            "description": "Species productivity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "Sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=idod_winmon",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.308425 51.17230833,2.308425 51.7407,3.786158333 51.7407,3.786158333 51.17230833,2.308425 51.17230833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

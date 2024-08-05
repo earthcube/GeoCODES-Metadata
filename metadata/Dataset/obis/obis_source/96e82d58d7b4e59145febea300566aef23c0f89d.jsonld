@@ -1,0 +1,92 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a6def4bc-5acb-4715-9b91-7d8bf2b1947b",
+    "name": "Seabird diet data from the northern section of the Great Barrier Reef, Australia (1991-1996)",
+    "description": "Diet data from 1050 individual seabirds covering 17 species were collected in the northern end of the Great Barrier Reef in the period 1992 to 1994. Each occurrence record is one instance of collecting prey from a seabird where the prey was identified, length, wet weight and sometimes dry weight were measured. Otoliths from 50% of the samples were weighed and measured for length.",
+    "url": "https://obis.org/dataset/a6def4bc-5acb-4715-9b91-7d8bf2b1947b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=gbr_northern_prawn_survey_seabird_diet"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T02:19:56.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Prey species",
+            "url": "",
+            "description": "Prey species"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Prey length",
+            "url": "",
+            "description": "Prey length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Prey wet weight",
+            "url": "",
+            "description": "Prey wet weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Prey otolith weight",
+            "url": "",
+            "description": "Prey otolith weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Prey dry weight",
+            "url": "",
+            "description": "Prey dry weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/1994",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=gbr_northern_prawn_survey_seabird_diet",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "142.9667 -23.80056,142.9667 -10.8,152.47333 -10.8,152.47333 -23.80056,142.9667 -23.80056"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5605",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "name": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "url": "https://oceanexpert.org/institution/5605"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

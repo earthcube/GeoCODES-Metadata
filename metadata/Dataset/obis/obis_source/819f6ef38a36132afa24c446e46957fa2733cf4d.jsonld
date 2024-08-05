@@ -1,0 +1,117 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/276b09b1-0e57-4128-a8b1-c15998da3081",
+    "name": "Megafaunal data from the 2009 BIOFUN trans-Mediterranean deep-sea cruise",
+    "description": "Deep-sea sampling in 2009 onboard the R/V Sarmiento de Gamboa in the three Mediterranean basins. A combination of 2 samplers was used to collect the benthic megafauna: an otter-trawl Maireta system (OTMS) and an Agassiz dredge. The OTMS is a 1-warp benthic otter-trawl designed to work seamlessly on high depth grounds: its stretch mesh size at the cod-end is 40mm, with an outer cover of 12mm, to allow retrieval of small-sized fractions of megafauna. The net total length is 25m, with an horizontal opening of 12.7m and a vertical opening of 1.4m. Trawls were conducted at 2.6 to 2.8 knots. The Agassiz dredge had a 2.5 m horizontal opening and 1.2 m vertical opening, a net mesh size of 12 mm, and was trawled at 2.0 knots.",
+    "url": "https://obis.org/dataset/276b09b1-0e57-4128-a8b1-c15998da3081",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=biofun2009",
+        "https://dx.doi.org/10.14284/311"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Tecchio, S.; Ramirez-Llodra, E. (2018): Megafaunal data from the 2009 BIOFUN trans-Mediterranean deep-sea cruise https://dx.doi.org/10.14284/311",
+    "version": "2023-05-23T11:54:07.000Z",
+    "keywords": [
+        "Benthos",
+        "Deep water",
+        "research vessel",
+        "Sarmiento de Gamboa",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gear",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Gear"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Trawling speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/APSAZZ01/",
+            "description": "Trawling speed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling net horizontal opening",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/",
+            "description": "sampling net horizontal opening"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling net vertical opening",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100013/",
+            "description": "sampling net vertical opening"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ObservedIndividualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "ObservedIndividualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet Weight Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Wet Weight Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cod end mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Cod end mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling net outer cover",
+            "url": "",
+            "description": "sampling net outer cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "sampling net mesh size"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2009",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/311",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/311",
+        "url": "https://dx.doi.org/10.14284/311"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=biofun2009",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.7833 34.501,1.7833 39.4665,26.3333 39.4665,26.3333 34.501,1.7833 34.501"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

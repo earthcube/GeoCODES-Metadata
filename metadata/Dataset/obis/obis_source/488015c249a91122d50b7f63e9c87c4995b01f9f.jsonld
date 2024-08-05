@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/63187f4a-1af9-4611-8f05-e806676ab55b",
+    "name": "Marine data from Natural Resources Wales (NRW) Technical Support (Research &amp; Monitoring) Contracts, Wales",
+    "description": "This dataset is comprised of marine benthic surveys created by Natural Resources Wales' (and previously the Countryside Council for Wales') technical support (research and monitoring) contracts since 1993. The surveys focus on benthic habitats (often referred to as 'biotopes') in intertidal, inshore (typically within 3nm) and subtidal areas. These surveys include the capture of many species records. Only the species records are available on the NBN Gateway. Some of the surveys were originally stored in the MNCR (Marine Nature Conservation Review) database created by JNCC but then transfered to CCW. (However, none were carried out as part of JNCC's MNCR officical survey programme). Original copies of all the surveys are now held in NRW's Marine Recorder database.",
+    "url": "https://obis.org/dataset/63187f4a-1af9-4611-8f05-e806676ab55b",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_13999",
+        "https://doi.org/10.15468/az7nw3"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "UK National Biodiversity Network, Countryside Council for Wales - Marine data from Countryside Council for Wales (CCW) Technical Support (Research &amp; Monitoring) Contracts, Wales https://doi.org/10.15468/az7nw3",
+    "version": "2024-02-26T23:38:00.000Z",
+    "keywords": [
+        "Biological sampling",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1902/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/az7nw3",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/az7nw3",
+        "url": "https://doi.org/10.15468/az7nw3"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_13999",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-6.573173915824215 51.252346511471885,-6.573173915824215 53.46253539398639,-2.785107527855884 53.46253539398639,-2.785107527855884 51.252346511471885,-6.573173915824215 51.252346511471885"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17314",
+            "@type": "Organization",
+            "legalName": "Natural Resources Wales",
+            "name": "Natural Resources Wales",
+            "url": "https://oceanexpert.org/institution/17314"
+        }
+    ]
+}

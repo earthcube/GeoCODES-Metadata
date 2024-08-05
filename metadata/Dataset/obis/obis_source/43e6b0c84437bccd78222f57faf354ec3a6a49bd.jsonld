@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2c6db58f-ae91-4a17-9f0f-7db28506b94f",
+    "name": "NIWA Invertebrate Collection",
+    "description": "The NIWA Invertebrate Collection (NIC) holds specimens from almost all invertebrate phyla. This is a result of about half a century of marine taxonomic and biodiversity research in the New Zealand region, the South West Pacific and the Ross Sea, Antarctica.\nNew Zealand lies in the South West Pacific, a region that harbours one of the world’s highest species diversity in some marine invertebrate groups with a high proportion of endemic species (that don't occur anywhere else). This huge diversity is, among other things, related to the variable seafloor relief and New Zealand’s ancient geological history. NIWA is fortunate to hold a significant representation of New Zealand’s marine biodiversity in the NIWA Invertebrate Collection at Greta Point in Wellington.\nThis collection has had the taxa matched to the World Register of Marine Species (WoRMS). There are taxa that have no match in WoRMS as thet are temporary or unpublished names. These records do not a scientificNameId field populated. There are also many records that have no position information. Many of these are donated specimens.",
+    "url": "https://obis.org/dataset/2c6db58f-ae91-4a17-9f0f-7db28506b94f",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=obisspecify"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "NIWA (2018): NIWA Invertebrate Collection. v1.1. The National Institute of Water and Atmospheric Research (NIWA). Dataset/Occurrence. https://nzobisipt.niwa.co.nz/resource?r=obisspecify&amp;v=1.1",
+    "version": "2022-11-24T08:57:23.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1878/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=obisspecify",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -82.375,-180 79.3166667,180 79.3166667,180 -82.375,-180 -82.375"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1b78a368-cba0-4863-85fb-652f0f181c5e",
+    "name": "Benthos monitoring in the intertidal mudflats of Pertuis-Charentais (Bay of Biscay) from 2004 on",
+    "description": "Benthos-Pertuis-Charentais is a spatially explicit benthic database, comprising 11 years of benthic data. It is the result of intensive benthic sampling that has been conducted on a regular grid (259 stations) covering the intertidal mudflats of the Pertuis-Charentais (Marennes-Ole'ron Bay and Aiguillon Bay). Samples were taken by foot or by boats during winter depending on tidal height, from December 2003 to February 2014. The present dataset includes abundances and biomass densities of all mollusc species of the study regions and principal polychaetes as well as their length, accessibility to shorebirds, energy content and shell mass when appropriate and available. This database has supported many studies dealing with the spatial distribution of benthic invertebrates and temporal variations in food resources for shorebird species as well as latitudinal comparisons with other databases.",
+    "url": "https://obis.org/dataset/1b78a368-cba0-4863-85fb-652f0f181c5e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=benthos_plumejeaud_perreau",
+        "https://dx.doi.org/10.14284/247"
+    ],
+    "license": "Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)",
+    "citation": "Philippe, Anne S., Christine Plumejeaud-Perreau, Jérôme Jourde, Philippe Pineau, Nicolas Lachaussée, Emmanuel Joyeux, Frédéric Corre, Philippe Delaporte, Bocher Pierrick; (2016): Benthos monitoring in the intertidal mudflats of Pertuis-Charentais (Bay of Biscay) from 2004 on. https://dx.doi.org/10.14284/247",
+    "version": "2023-05-23T11:38:44.000Z",
+    "keywords": [
+        "Tidal flats",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ash-Free Dry Mass of the soft part",
+            "url": "",
+            "description": "Ash-Free Dry Mass of the soft part"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "AshDry mass of the shell",
+            "url": "",
+            "description": "AshDry mass of the shell"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "width",
+            "url": "",
+            "description": "width"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2014",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/247",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/247",
+        "url": "https://dx.doi.org/10.14284/247"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=benthos_plumejeaud_perreau",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-1.229 45.89517,-1.229 46.2895,-1.075667 46.2895,-1.075667 45.89517,-1.229 45.89517"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

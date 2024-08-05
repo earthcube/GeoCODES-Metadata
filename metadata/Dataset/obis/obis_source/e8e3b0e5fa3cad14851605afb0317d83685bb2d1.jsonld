@@ -1,0 +1,117 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4f5a16d8-0503-4452-af87-fa70b97721ef",
+    "name": "North Sea cod and plaice egg surveys (2004, 2009)",
+    "description": "The dataset includes information about spatial distribution and abundance of fish eggs and larvae in the North Sea based on the data from the North Sea Cod and Plaice egg surveys.\nThe survey aims at studying fish egg and larval distributions in the winter in the North Sea, target species are cod and plaice.  The program was steered by the WGEGGS until 2012 and is currently steered by WGEGGS2.",
+    "url": "https://obis.org/dataset/4f5a16d8-0503-4452-af87-fa70b97721ef",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cp-eggs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES North Sea cod and plaice egg surveys (2004, 2009). Available online at http://eggsandlarvae.ices.dk ICES, Copenhagen. Consulted on yyyy-mm-dd.",
+    "version": "2023-05-23T11:53:09.000Z",
+    "keywords": [
+        "Ichthyoplankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingDeviceApertureDiameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "SamplingDeviceApertureDiameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature_at_surface",
+            "url": "https://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature_at_surface"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity_at_20m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity_at_20m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature_at_20m",
+            "url": "https://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature_at_20m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "No_of_Myomeres",
+            "url": "",
+            "description": "No_of_Myomeres"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature_at_50m",
+            "url": "https://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature_at_50m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature_at_100m",
+            "url": "https://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature_at_100m"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cp-eggs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-4.8418982 48.4526657,-4.8418982 61.757,9.9877783 61.757,9.9877783 48.4526657,-4.8418982 48.4526657"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

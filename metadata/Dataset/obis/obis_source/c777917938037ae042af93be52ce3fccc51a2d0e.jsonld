@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/31b17f30-52ff-4fb7-9a43-dba1eee8385c",
+    "name": "Marine Commercial Fish Survey (FV Kapala, FV Trader Horn, FV Shelley, FV Kirrawa, FV May Bell) in the East and South East Australian Region from 1975 to 2008",
+    "description": "NSW Fisheries demersal fish and prawn surveys from 1975 to 2006 using the FRV Kapala (1990-96), FV Trader Horn, FV Shelley H, FV Kirrawa and FV May Bell II. Area of operations is from SW Queensland to Bass Strait. The CMAR Catch Operations data set includes information about the time, location depth and catch method (trawl net etc) for each operation, species code and specimen details. Individual metadata records have been created for each research voyage. The data are held in the CMAR Data Warehouse, which currently holds over 4165 (hauls) catch operation records.",
+    "url": "https://obis.org/dataset/31b17f30-52ff-4fb7-9a43-dba1eee8385c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=kapala"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": " (2023): Marine Commercial Fish Survey (FV Kapala, FV Trader Horn, FV Shelley, FV Kirrawa, FV May Bell) in the East and South East Australian Region from 1975 to 2008. v1.11. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=kapala&amp;v=1.11",
+    "version": "2023-06-28T03:47:06.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1975/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=kapala",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "149.033 -38.3,149.033 -27.917,154.067 -27.917,154.067 -38.3,149.033 -38.3"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

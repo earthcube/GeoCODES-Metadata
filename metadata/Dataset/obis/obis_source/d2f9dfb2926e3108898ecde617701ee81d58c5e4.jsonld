@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/38aea86e-6cfc-4fe0-b385-dc5bd6192014",
+    "name": "Phytoplankton data collected from the North-Western part of the Black Sea during August 1957 (Cruise 1)",
+    "description": "The data were collected by the IBSS staff at 18 stations in the North-Western part of the Black Sea during August 1957 (Cruise 1). This dataset contains abundance (individuals per liter) and biomass (mg/m³) data for phytoplankton taxa. No additional metadata is available.",
+    "url": "https://obis.org/dataset/38aea86e-6cfc-4fe0-b385-dc5bd6192014",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_blacksea_west_1957",
+        "https://dx.doi.org/10.14284/63"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "IBSS. 1957. Phytoplankton data collected from the North-Western part of the Black Sea during August 1957 (Cruise 1). Institute of Biology of the Southern Seas of the National Academy of Sciences of Ukraine. https://dx.doi.org/10.14284/63",
+    "version": "2024-02-26T23:13:35.000Z",
+    "keywords": [
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1957/1957",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/63",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/63",
+        "url": "https://dx.doi.org/10.14284/63"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_blacksea_west_1957",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "28.56667 42.90833,28.56667 45.31722,33.23444 45.31722,33.23444 42.90833,28.56667 42.90833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

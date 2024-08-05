@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d6c9c8a2-af55-4b86-949d-970d1daf1bb1",
+    "name": "Occurrence data from 11th Southern Ocean Expedition-India",
+    "description": "This Data set collected from 11th Southern Ocean Expedition, India. It mainly comprises records of Southern ocean birds, whale and penguin. All records were made through sighting.",
+    "url": "https://obis.org/dataset/d6c9c8a2-af55-4b86-949d-970d1daf1bb1",
+    "sameAs": [
+        "http://ipt.iobis.org/indobis/resource?r=11th-southernoceanexpedition_india"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Dr. Rajeeshkumar (2020): Occurrence data from 11th Southern Ocean Expedition-India. IndOBIS-Centre for Marine Living Resources &amp; Ecology (CMLRE).",
+    "version": "2020-05-25T09:13:56.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/indobis/archive.do?r=11th-southernoceanexpedition_india",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "57.49 -67.53,57.49 -43.01,80.09 -43.01,80.09 -67.53,57.49 -67.53"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11420",
+            "@type": "Organization",
+            "legalName": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "name": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "url": "https://oceanexpert.org/institution/11420"
+        }
+    ]
+}

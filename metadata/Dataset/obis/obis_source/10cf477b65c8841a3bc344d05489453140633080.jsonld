@@ -1,0 +1,132 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/016d49a4-1b0d-47a0-8b6f-38c9cfc68c8c",
+    "name": "Abundance and biomass of infaunal species as part of Essential fish habitat surveys, Co. Down Coast (Northern Ireland) 2012-2013",
+    "description": "This dataset contains information on infaunal abundance and biomass from sediment grab samples off the Co. Down coast in Northern Ireland as part of an Essesntial Fish Habitat (EFH) project. Essential Fish Habitat is defined as “those waters &amp; substrata necessary to fish for spawning, breeding, feeding or growth to maturity” and these can help to form a basis for the designation of Marine Protected Areas such as Marine Conservation Zones (MCZs). This survey was carried out on the RV Corystes in 2012 and 2013 off the Co. Down coast using a 0.1m2 day grab. In 2012 there were 88 samples taken. In 2013 there were 48 samples. Infaunal analysis, Particle Size Analysis (PSA) and Carbon &amp; Nitrogen analysis were carried out on all samples.",
+    "url": "https://obis.org/dataset/016d49a4-1b0d-47a0-8b6f-38c9cfc68c8c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dasshse0000050",
+        "https://doi.org/10.17031/wykk77"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Agri-Food and Biosciences Institute (AFBI) (2019): Abundance and biomass of infaunal species as part of Essential fish habitat surveys, Co. Down Coast (Northern Ireland) 2012-2013.. v3.2. Marine Biological Association. Dataset/Samplingevent https://doi.org/10.17031/wykk77",
+    "version": "2023-05-23T11:33:06.000Z",
+    "keywords": [
+        "Benthic infauna",
+        "Corystes",
+        "research vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "devicearea",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "devicearea"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "methodqcnotes",
+            "url": "",
+            "description": "methodqcnotes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "qcscheme",
+            "url": "",
+            "description": "qcscheme"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplingdevice",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "samplingdevice"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sievemeshsize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "sievemeshsize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampletime",
+            "url": "",
+            "description": "sampletime"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon biomass",
+            "url": "",
+            "description": "taxon biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "taxon abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "developmentstage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "developmentstage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "platformname",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "platformname"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2013",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/wykk77",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/wykk77",
+        "url": "https://doi.org/10.17031/wykk77"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dasshse0000050",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.9256 53.553,-5.9256 54.5606,-5.160283333333 54.5606,-5.160283333333 53.553,-5.9256 53.553"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13220",
+            "@type": "Organization",
+            "legalName": "Agri-Food and Biosciences Institute",
+            "name": "Agri-Food and Biosciences Institute",
+            "url": "https://oceanexpert.org/institution/13220"
+        }
+    ]
+}

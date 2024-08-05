@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ae675a3-ecff-436f-b30f-93fd7faa5e2d",
+    "name": "Habitat map of seagrass cover in Moreton Bay, Queensland, Australia 2004 and 2011",
+    "description": "In 2004 and 2011, Seagrass mapping of Moreton Bay between the Bribie Island bridge and Kangaroo Island: Mapping conducted as part of the Ecosystem Health Monitoring Program (EHMP) in conjunction with research by the CRSSIS, UQ (funded by Coastal CRC).\nThis dataset is hosted by the Institute for Marine and Antarctic Studies (IMAS), University of Tasmania, on behalf of the Environmental Protection Agency Queensland and The University of Queensland for the purposes of the Seamap Australia collaborative project (testing a national marine benthic habitat classification scheme).\nData and metadata sourced from https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=d02b6f4e-c8b3-4983-b3c1-0b0d514b4a3d  and https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=5b06aeef-979b-4d09-8e78-0170cbdb8869",
+    "url": "https://obis.org/dataset/5ae675a3-ecff-436f-b30f-93fd7faa5e2d",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seamapaus_qld_moretonbay_seagrass"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cite data as: The University of Queensland &amp; Queensland Government (2005). Habitat map of seagrass cover in Moreton Bay, 2004. Data accessed at http://metadata.imas.utas.edu.au/geonetwork/srv/en/meta\ndata.show?uuid=5b06aeef-979b-4d09-8e78-0170cbdb8869 on (access date).\n\nand\n\nThe University of Queensland &amp; Queensland Government (2012). Habitat map of seagrass cover in Moreton Bay, 2011. Data accessed at http://metadata.imas.utas.edu.au/geonetwork/srv/en/metadata.show?uuid=d02b6f4e-c8b3-4983-b3c1-0b0d514b4a3d on (access date).",
+    "version": "2022-06-08T05:37:50.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Seagrass coverage",
+            "url": "",
+            "description": "Seagrass coverage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seamapaus_qld_moretonbay_seagrass",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "153.035638133727 -27.7845286601514,153.035638133727 -27.0765452098594,153.438535375811 -27.0765452098594,153.438535375811 -27.7845286601514,153.035638133727 -27.7845286601514"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13402",
+            "@type": "Organization",
+            "legalName": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "name": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "url": "https://oceanexpert.org/institution/13402"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

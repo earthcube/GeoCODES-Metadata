@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6e0e0919-93c1-48fd-86ad-cf24cf8e6130",
+    "name": "Circalittoral faunal turf occurrences on the Azores shelves (central north Atlantic) from 2005 to 2018",
+    "description": "Circalittoral faunal turfs are animal-dominated shelf assemblages that are found on hard substrata between the lower limit of the infralittoral zone and the shelf edge. Benthic organisms generally form dense intricate mixes that may include tall alcyonarians, sponges, hydroids, scleractinians and gorgonians, as well as less prominent fauna such as encrusting sponges, bryozoans, ascidians, bivalves, solitary cup corals, serpulid worms and vermetid gastropods.",
+    "url": "https://obis.org/dataset/6e0e0919-93c1-48fd-86ad-cf24cf8e6130",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=circalit_turfs_azores",
+        "https://dx.doi.org/10.14284/558"
+    ],
+    "license": "Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND)",
+    "citation": "Tempera F.; Sinde-Mano A.L.; Gomes Pereira J.N.;Das D.; Graça G.; Afonso P.; IMAR-Institute of Marine Research, University of the Azores, Portugal; (2021): Circalittoral faunal turf occurrences on the Azores shelves (central north Atlantic) from 2005 to 2018 https://dx.doi.org/10.14284/558",
+    "version": "2023-12-08T18:28:18.000Z",
+    "keywords": [
+        "Aguas Vivas",
+        "Arquipelago",
+        "Cameras",
+        "Remotely operated vehicles",
+        "propelled unmanned submersible",
+        "research vessel",
+        "submersible",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Description of habitat by classification to a term from EUNIS A - Marine habitats (version 2012 amended 2019)",
+            "url": "https://dd.eionet.europa.eu/vocabulary/biodiversity/eunishabitats/",
+            "description": "Description of habitat by classification to a term from EUNIS A - Marine habitats (version 2012 amended 2019)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2018",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/558",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/558",
+        "url": "https://dx.doi.org/10.14284/558"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=circalit_turfs_azores",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-31.2 36.9,-31.2 39.75,-24.75 39.75,-24.75 36.9,-31.2 36.9"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

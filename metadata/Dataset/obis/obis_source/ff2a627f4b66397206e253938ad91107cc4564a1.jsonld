@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1e84bed3-9b6b-45fa-a861-88aff27258aa",
+    "name": "IOV Copépodos del Golfo de Cariaco, Venezuela",
+    "description": "An analysis of the temporal and spatial variation of the copepods with respect to its abundance and composition was carried out in the eastern zone of the Gulf of Cariaco, Sucre state, Venezuela. Monthly samples were collected (July 2009 to February 2010) from nine stations. A standard plankton net of 333 micron was used. Temperature, salinity, dissolved oxygen and chlorophyll a were measured. The temperature ranged from 23.8 -28.6ºC, the salinity from 34.5 to 38.3 and the chlorophyll between 0.01 - 25.8 mg Chlor. to m-3. The abundance of copepods varied between 7 - 4431 ind.m-3, it presented temporal and spatial differences, with the highest concentrations found in rains, in the stations closest to the eastern zone of the sac.",
+    "url": "https://obis.org/dataset/1e84bed3-9b6b-45fa-a861-88aff27258aa",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=iov_udo_copepoda"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Marquez B, Allen Peña T, Troccoli L, Marín B (2022): IOV Copépodos del Golfo de Cariaco, Venezuela. v1.7. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=iov_udo_copepoda&amp;v=1.7",
+    "version": "2022-10-21T07:28:09.000Z",
+    "keywords": [
+        "Zooplankton\nGulf of Cariaco\nVenezuela\nCaribeSur\nBID-CA2020-025-NAC",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "chlorophyll-a",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CHLADMFA/",
+            "description": "chlorophyll-a"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/",
+            "description": "oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ASLTZZ01/",
+            "description": "salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/",
+            "description": "temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/Z300M00Z/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=iov_udo_copepoda",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-63.833583 10.452055,-63.833583 10.520242,-63.66833 10.520242,-63.66833 10.452055,-63.833583 10.452055"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6839",
+            "@type": "Organization",
+            "legalName": "Instituto Oceanográfico de Venezuela, Universidad de Oriente",
+            "name": "Instituto Oceanográfico de Venezuela, Universidad de Oriente",
+            "url": "https://oceanexpert.org/institution/6839"
+        }
+    ]
+}

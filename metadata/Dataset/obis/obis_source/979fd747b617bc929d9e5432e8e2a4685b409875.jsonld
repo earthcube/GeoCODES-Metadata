@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e0ce9f82-687e-4cbf-95d0-d27d1054bfe9",
+    "name": "Deep-sea benthic crustacean, polychaete, and sipunculid data from the Bering Sea",
+    "description": "Samples of Crustacea, Polychaeta and Sipuncula were collected in the Bering Sea and the Northwest Pacific Ocean during the BERING expedition (SO-249) on board of RV Sonne in 2016. Biological samples were collected using a dredge at depths ranging between 330–5070 m at 32 locations and were stored in 70% ethanol. Specimens were morphologically identified to the lowest taxonomic rank possible using a Leica M60 stereomicroscope. The presented data here comprises taxonomic information as well as annotated bathymetric and biogeographic metadata of a total of 78 samples (26 Crustacea, 47 Polychaeta, 4 Sipuncula and 1 Hirudinea). All data was prepared following Darwin Core Biodiversity standards for FAIR data sharing based on OBIS guidelines.",
+    "url": "https://obis.org/dataset/e0ce9f82-687e-4cbf-95d0-d27d1054bfe9",
+    "sameAs": [
+        "https://ipt.iobis.org/obis-deepsea/resource?r=deep-sea_benthic_bering_sea_0"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Knauber H, Kohlenbach K, Yasuhara P, Lüter C, Werner R, Brandt A, Saeedi H (2023): Deep-sea benthic crustacean, polychaete, and sipunculid data from the Bering Sea. v1.0. Deep-sea OBIS node. Dataset/Samplingevent. https://ipt.iobis.org/obis-deepsea/resource?r=deep-sea_benthic_bering_sea_0&amp;v=1.0",
+    "version": "2023-02-07T15:28:43.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obis-deepsea/archive.do?r=deep-sea_benthic_bering_sea_0",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-177.128 51.343,-177.128 60.486,179.567 60.486,179.567 51.343,-177.128 51.343"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6271",
+            "@type": "Organization",
+            "legalName": "Senckenberg Gesellschaft für Naturforschung",
+            "name": "Senckenberg Gesellschaft für Naturforschung",
+            "url": "https://oceanexpert.org/institution/6271"
+        }
+    ]
+}

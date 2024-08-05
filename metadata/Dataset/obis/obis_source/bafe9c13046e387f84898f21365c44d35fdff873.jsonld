@@ -1,0 +1,46 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/87b76c35-0bcc-41e8-9398-32acd4c3c864",
+    "name": "Sample summary and analysis of biopsy samples collected during the New Zealand Australian Antarctic Ecosystems Voyage 2015",
+    "description": "Biopsy samples were collected from humpback (n=10) and blue whales (n=1) during the NZ/Aus Antarctic Ecosystems Voyage 2015. Biopsy collection from humpback and blue whales was attempted from the bow of the ship using Larsen rifles. Biopsying blue whales from the bow of the RV Tangaroa proved challenging due to the ship’s manoeuvrability and the limited capacity to change speed rapidly. Biopsy samples were split between All Protect (Qiagen), 70% ethanol, and freezing at -20C. .\n\nThis dataset consists of an excel spreadsheet (biopsy_events.xlsx) summarising biopsy events containing the fields:\nDate_taken (in UTC)\nLocation (general) where sample collected \nLatitude\nLongitude\nIndividual ID\nSample ID\nName of sampler\nSample type\nPreservative used\nSpecies sampled\n\nAn excel spreadsheet (Biopsy sample info datasheet AEV 2015.xlsx) details the biopsy processing that occurred upon collection of a sample. Where possible, each sample was split and preserved in 2 x All Protect, 1 x EtOH and 1 x -80 degrees Celsius. Samples preserved in All Protect and 70% ethanol are stored at the Australian Antarctic Division and samples preserved at -80C are stored at NIWA Wellington. A subsample of the Antarctic blue whale biopsy was\nsubmitted to the IWC-recognised genetic repository for Antarctic blue whale at NOAA Southwest Fisheries, La Jolla. \n\nBiopsy samples were processed to determine sex and the results are held in: TAN1502_Whale biopsy samples.xls\n\nPurpose: The IWC-SORP Antarctic Blue Whale Project aims to derive an up-to-date and precise estimate of the abundance, distribution, and potential recovery of Antarctic blue whales. The most appropriate survey method for achieving this was found to be mark-recapture involving individual photographic and genetic identification, assisted by passive acoustic tracking. Genetic tagging from biopsy samples is a well-established method that enables the identification of individuals from genetic markers such as microsatellites or single nucleotide polymorphisms (SNPs).\nQuality: Australian Antarctic Data Centre Note 2018-07-04:\n\nOriginal datasheet was reformatted to fit IPT Biodiversity.AQ standard. The new datasheet \"blueWhales2015.csv\" provides the dataset ID, record number, record by, preparation, location, country, event day, verbatim latitude and longitude, decimal latitude and longitude, sex, occurrence, and basis of record. The taxonomical organisation is provided to the lowest taxonomical rank that could be determined, after matched in WoRMS (World Register of Marine Species).\nData Licence: This dataset has been collected under the International Whaling Commission’s (IWC) Southern Ocean Research Partnership (SORP). The IWC-SORP ethos is one of open collaboration, communication and data sharing. The Data User will acknowledge the use of the IWC SORP dataset by the following statement:\nData provided by the International Whaling Commission’s Southern Ocean Research Partnership were all based upon non-lethal samples collected under a protocol approved by the Australian Antarctic Program Animal Ethics Committee (AAPAEC). These data were provided by the Partnership for the purpose of collaborative investigation.",
+    "url": "https://obis.org/dataset/87b76c35-0bcc-41e8-9398-32acd4c3c864",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=blue_whale2015"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-07T02:48:02.000Z",
+    "keywords": [
+        "Occurrence",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; MAMMALS &gt; CETACEANS\nEARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=blue_whale2015",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "163.3376 -66.7844,163.3376 -66.6478,163.5821 -66.6478,163.5821 -66.7844,163.3376 -66.7844"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f3b8b96a-432b-45db-a85c-ecc93def2240",
+    "name": "Fatty acid profiles of marine consumer from the Southern Hemisphere (1990-2018)",
+    "description": "This collection includes 4,856 records of fatty acid profiles of individual and pooled samples of at least 470 different marine consumer species sampled from tropical, temperate, and polar regions around Australia and in the Southern, Indian, and Pacific Oceans from 1989 to 2018. This includes data for a diverse range of taxa (zooplankton, fish, cephalopods, chondrichthyans, and marine mammals).  Data sourced from the cited publication where there are two files of which the file Source_ID.csv contains abbreviated information of relevant references. A meta-analysis is described in Zhang et al. (2023) and a dataset description is by Nichols et al. (2023)",
+    "url": "https://obis.org/dataset/f3b8b96a-432b-45db-a85c-ecc93def2240",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=fatty_acid_profiles",
+        "https://doi.org/10.25919/pdxr-cf66"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Pethybridge, Heidi; Nichols, Peter; Zhang, Bowen; Virtue, Patti; Meyers, Lauren; Dhurmeea, Zahirah; Marcus, Lara; Ericson, Jessica; Hellessey, Nichole; Every, Sharon; Wheatley, Kathryn; Parrish, Christophere; Eisenmann, Pascale; Baylis, Aliastair; Bradshaw, Corey; Bierwagen, Stacy; Young, Jock; Couturier, Lydie; Rohner, Christophere; Groß, Jasmin; Waugh, Courtney; Phleger, Charles; Jackson, Christine; Jackson, George; Huveneers, Charlie; Bengtson Nash, Susan; Brock, Mina; Mansour, Peter (2022): Fatty acid profiles of marine consumer from the Southern Hemisphere. v1. CSIRO. Data Collection. https://doi.org/10.25919/pdxr-cf66",
+    "version": "2023-07-24T23:09:36.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "14.0",
+            "url": "",
+            "description": "14.0"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "14:1&omega;5+n7",
+            "url": "",
+            "description": "14:1&omega;5+n7"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "15.0",
+            "url": "",
+            "description": "15.0"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "16.0",
+            "url": "",
+            "description": "16.0"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "16:1&omega;5",
+            "url": "",
+            "description": "16:1&omega;5"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "16:1&omega;7",
+            "url": "",
+            "description": "16:1&omega;7"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "17.0",
+            "url": "",
+            "description": "17.0"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "18.0",
+            "url": "",
+            "description": "18.0"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "18:1&omega;7",
+            "url": "",
+            "description": "18:1&omega;7"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "18:1&omega;9",
+            "url": "",
+            "description": "18:1&omega;9"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.25919/pdxr-cf66",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25919/pdxr-cf66",
+        "url": "https://doi.org/10.25919/pdxr-cf66"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=fatty_acid_profiles",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.68333 -76,-178.68333 -2.6,178 -2.6,178 -76,-178.68333 -76"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

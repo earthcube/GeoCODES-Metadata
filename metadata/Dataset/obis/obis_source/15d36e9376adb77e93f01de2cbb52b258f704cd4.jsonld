@@ -1,0 +1,124 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ea0d2009-f567-44a9-9749-7bcbaf930d03",
+    "name": "2012-ongoing UK Offshore Marine Conservation Zone (MCZ) Survey Data",
+    "description": "A collection of surveys completed in offshore UK waters by the Centre for Environment, Fisheries and Aquaculture Science (Cefas) to collect data on marine wildlife, habitats, geology and geomorphology of designated and recommended Marine Conservation Zones (MCZs).",
+    "url": "https://obis.org/dataset/ea0d2009-f567-44a9-9749-7bcbaf930d03",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=emodnet_07_cefas_mcz_improved",
+        "https://doi.org/10.17031/ravlvw"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Centre for Environment, Fisheries and Aquaculture Science (Cefas), United Kingdom; (2019) 2012-ongoing UK Offshore Marine Conservation Zone (MCZ) Survey Data https://doi.org/10.17031/ravlvw",
+    "version": "2023-05-23T12:21:43.000Z",
+    "keywords": [
+        "Data",
+        "Marine Genomics",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon abundance: count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "taxon abundance: count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling Device Area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling Device Area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sieveMeshSize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "sieveMeshSize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon abundance: sacfor",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SACFOR01/",
+            "description": "taxon abundance: sacfor"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sand 0.063mm to 2mm",
+            "url": "",
+            "description": "Sand 0.063mm to 2mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Shell_2mm to 16mm",
+            "url": "",
+            "description": "Shell_2mm to 16mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mud less than 0.063mm",
+            "url": "",
+            "description": "Mud less than 0.063mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Granule 2mm to 4mm",
+            "url": "",
+            "description": "Granule 2mm to 4mm"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Pebbles 4mm to 64mm",
+            "url": "",
+            "description": "Pebbles 4mm to 64mm"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/ravlvw",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/ravlvw",
+        "url": "https://doi.org/10.17031/ravlvw"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=emodnet_07_cefas_mcz_improved",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-8.197446 49.977386,-8.197446 55.84248,2.887777 55.84248,2.887777 49.977386,-8.197446 49.977386"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

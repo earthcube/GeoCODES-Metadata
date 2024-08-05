@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ac6789a8-aef9-4642-b67a-d4ffb25e8245",
+    "name": "RMT Trawl catch from the 1980/81 V5 FIBEX voyage",
+    "description": "This dataset contains results from the First International BIOMASS Experiment (FIBEX) cruise of the Nella Dan. It is the first cruise in a series of six designed to assess the distribution and abundance of krill, Euphausia superba. The FIBEX was an international programme co-ordinating the activities of 12 ships from 11 nations in the Southern Atlantic and Indian Oceans. Australia was responsible for surveying an area of the southern Indian Ocean south of 60 degrees and between 60 degrees and 90 degrees east longitude. Surveys of krill and other zooplankton were taken off Antarctica in the Australian sector (Mawson to Davis region) and Prydz Bay in January and March 1981. Species identity and abundance data were obtained. The major species investigated were Euphausia superba, Euphausia frigidia, Euphausia crystallorophias and Thysanoessa marcuria. Other pteropods and cephalopods were also studied. Physical and chemical oceanography data and phytoplankton samples were also obtained, as well as results from hydroacoustic surveys of krill biomass.",
+    "url": "https://obis.org/dataset/ac6789a8-aef9-4642-b67a-d4ffb25e8245",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=rmt_fibex"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2021-05-13T06:23:15.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1981/1981",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=rmt_fibex",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "61.885 -68.5966,61.885 -54.98,110.7616 -54.98,110.7616 -68.5966,61.885 -68.5966"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

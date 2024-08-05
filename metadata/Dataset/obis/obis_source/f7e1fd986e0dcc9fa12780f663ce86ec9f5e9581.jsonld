@@ -1,0 +1,132 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/feb3d6a4-39b2-4d91-85eb-e7e98782c80a",
+    "name": "Comparative study of the meiobenthos in the Arctic region in 1991",
+    "description": "Study on meiobenthos and nematode communities (counts, density, biomass, genus composition) collected in the Arctic Ocean in August and September 1991. The data were digitized by VLIZ from the original report: Jivaluk, J. (1993). Comparative study of the meiobenthos in the Arctic region. MSc Thesis. RUG: Gent. 135 pp.",
+    "url": "https://obis.org/dataset/feb3d6a4-39b2-4d91-85eb-e7e98782c80a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=meiobenthos_arctic_1991",
+        "https://dx.doi.org/10.14284/236"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Jivaluk J.; Vinckx M.; Fundamental and Applied Marine Ecology Post Graduate Program (FAME). VUB; Marine Biology Section, Zoology Institute. Ugent: Belgium; (2016): Comparative study of the meiobenthos in the Arctic region in 1991. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4600) https://dx.doi.org/10.14284/236",
+    "version": "2024-02-26T23:19:56.000Z",
+    "keywords": [
+        "Community composition",
+        "Meiobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Depth of the slice below the sediment surface",
+            "url": "",
+            "description": "Depth of the slice below the sediment surface"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "Sampling device aperture diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size of sample collector (mesh) {mesh size}",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MSHSIZE1/",
+            "description": "Size of sample collector (mesh) {mesh size}"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gender of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Gender of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observedIndividualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "observedIndividualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Wet weight biomass of biological entity specified elsewhere per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1991",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/236",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/236",
+        "url": "https://dx.doi.org/10.14284/236"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=meiobenthos_arctic_1991",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.009166666667 85.33,14.009166666667 88.7375,153.06555555556 88.7375,153.06555555556 85.33,14.009166666667 85.33"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        }
+    ]
+}

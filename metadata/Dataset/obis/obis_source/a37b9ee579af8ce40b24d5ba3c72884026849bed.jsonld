@@ -1,0 +1,106 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ed2e3dcf-1aa0-445a-926e-2043a437c8d2",
+    "name": "Marine soft-bottom polychaete assemblages from the east coast of Canada in 1983 and 1984",
+    "description": "This resource contains an extract of the family distribution information as described in Table C-2 and E-4 of Jean-Marc Gagnon's PhD thesis, \"Significance of body size and foraging mode in the structuring of marine soft-bottom polychaete assemblages\". The survey area consisted of two regions off the east coast of Canada, the Labrador continental shelf and upper slope and the Hermitage Channel to the south of Newfoundland. The geographic range of the sampling sites along the Labrador continental shelf extends from Hudson Strait (61 °33'N) to Belle Isle Bank (52°42'N) in water depths of 85 to 622 m.",
+    "url": "https://obis.org/dataset/ed2e3dcf-1aa0-445a-926e-2043a437c8d2",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=mun_gagnon1990phd"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gagnon J (2016): Marine soft-bottom polychaete assemblages from the east coast of Canada in 1983 and 1984. v1.2. Canadian node of the Ocean Biogeographic Information System (OBIS Canada). Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=mun_gagnon1990phd&amp;v=1.2",
+    "version": "2021-03-30T21:08:01.000Z",
+    "keywords": [
+        "Occurrence",
+        "sampling event"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Distance Off Shore",
+            "url": "",
+            "description": "Distance Off Shore"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Distance from 200 m isobath",
+            "url": "",
+            "description": "Distance from 200 m isobath"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Distance from 2000 m isobath",
+            "url": "",
+            "description": "Distance from 2000 m isobath"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Polychaete biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/3/",
+            "description": "Polychaete biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (clay size-fraction) in sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CLAYZZZZ/",
+            "description": "Proportion of particles (clay size-fraction) in sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (gravel size-fraction) in sediment",
+            "url": "",
+            "description": "Proportion of particles (gravel size-fraction) in sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (sand size-fraction) in sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SANDZZZZ/",
+            "description": "Proportion of particles (sand size-fraction) in sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (silt size-fraction) in sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SILTZZZZ/",
+            "description": "Proportion of particles (silt size-fraction) in sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total macrofaunal biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/3/",
+            "description": "Total macrofaunal biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water current strength",
+            "url": "",
+            "description": "Water current strength"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/1984",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=mun_gagnon1990phd",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-63.916 47.4828333333333,-63.916 61.564,-52.7958333333333 61.564,-52.7958333333333 47.4828333333333,-63.916 47.4828333333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

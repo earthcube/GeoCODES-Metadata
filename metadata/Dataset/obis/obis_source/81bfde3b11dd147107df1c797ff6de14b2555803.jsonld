@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/af0e14af-a5d9-4bb8-8357-82b34e6369c8",
+    "name": "SNU-FF Phytoplankton and zooplankton (1999-2010)",
+    "description": "This dataset contains phytoplankton and zooplankton data from 1999 to 2010, collected at three stations offshore the Sinop Peninsula, Turkey, located in the Black Sea.",
+    "url": "https://obis.org/dataset/af0e14af-a5d9-4bb8-8357-82b34e6369c8",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=snu_ff_phyto_zoo"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bat, L., Sahin, F., Ustun, F. 1999. Phytoplankton and zooplankton data from 1999-2010. Sinop University Fisheries Faculty (SNU-FF).",
+    "version": "2024-02-26T23:14:48.000Z",
+    "keywords": [
+        "Chemistry",
+        "Physics",
+        "Plankton",
+        "Nutrients",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=snu_ff_phyto_zoo",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "35.15 41.9908,35.15 42.0405,35.17 42.0405,35.17 41.9908,35.15 41.9908"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11872",
+            "@type": "Organization",
+            "legalName": "Sinop University, Fisheries Faculty",
+            "name": "Sinop University, Fisheries Faculty",
+            "url": "https://oceanexpert.org/institution/11872"
+        }
+    ]
+}

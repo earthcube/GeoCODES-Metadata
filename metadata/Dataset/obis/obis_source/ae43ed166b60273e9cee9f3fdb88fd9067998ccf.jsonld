@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e2c9ade4-5f4d-44bb-a7ff-b2500e3ee0cc",
+    "name": "Antarctic Arrow worms",
+    "description": "Barcoding of Arrow Worms (Phylum Chaetognatha) from Three Oceans: Genetic Diversity and Evolution within an Enigmatic Phylum",
+    "url": "https://obis.org/dataset/e2c9ade4-5f4d-44bb-a7ff-b2500e3ee0cc",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=rachel_arrow_worms"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Jennings et al. PLoS ONE 5 (4), E9949 (2010)",
+    "version": "2020-05-08T08:51:36.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=rachel_arrow_worms",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.69833333 -73.89,-68.69833333 -53.33,-10.57833333 -53.33,-10.57833333 -73.89,-68.69833333 -73.89"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

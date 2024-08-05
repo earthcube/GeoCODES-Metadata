@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f8904fd6-b3b4-4981-8bdc-72f6c3098ca6",
+    "name": "SPC CoFish Fish Observations Nauru 2005",
+    "description": "Coastal fish species of commercial interest observed on Underwater Visual Census transects in Nauru during the CoFish survey (2005). The individual counts correspond to the observations by a single diver (one side) on the 50 m transect, from the transect line up to visibility (distance sampling).",
+    "url": "https://obis.org/dataset/f8904fd6-b3b4-4981-8bdc-72f6c3098ca6",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=spc_cofish_finfish_nauru_2005"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Sauni S, Awira R, Vigliola L, Pinca S, Boblin P (2018): SPC CoFish Fish Observations Nauru 2005. v1.2. The Pacific Community (SPC). Dataset/Occurrence. https://ipt.sprep.org/resource?r=spc_cofish_finfish_nauru_2005&amp;v=1.2",
+    "version": "2022-06-19T03:35:34.000Z",
+    "keywords": [
+        "Occurrence",
+        "SPC",
+        "PROCFish/C",
+        "CoFish",
+        "Fish",
+        "UVC",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=spc_cofish_finfish_nauru_2005",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "166.908433 -0.555683,166.908433 -0.499717,166.960917 -0.499717,166.960917 -0.555683,166.908433 -0.555683"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8279",
+            "@type": "Organization",
+            "legalName": "Pacific Community",
+            "name": "Pacific Community",
+            "url": "https://oceanexpert.org/institution/8279"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11854",
+            "@type": "Organization",
+            "legalName": "Nauru Fisheries and Marine Resources Authority",
+            "name": "Nauru Fisheries and Marine Resources Authority",
+            "url": "https://oceanexpert.org/institution/11854"
+        }
+    ]
+}

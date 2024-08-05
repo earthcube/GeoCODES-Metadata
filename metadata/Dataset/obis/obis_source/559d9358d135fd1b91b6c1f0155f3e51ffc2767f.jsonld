@@ -1,0 +1,134 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f8c7c1d1-08f9-41ec-938f-d600583f9cb3",
+    "name": "Harpacticoid copepod community structure in the Western Scheldt and Ems-Dollard estuary in relation to pollution between 1976 and 1980",
+    "description": "Data on biotic parameters of harpacticoid copepods and abiotic parameters related to pollution for samples taken between 1976 and 1980 in the Westerschelde-and Eems-Dollard estuary. The data were digitized by VLIZ from the original report: Van Damme, D.; Heip, C.H.R.; Herman, R.; Vaeremans, M. (1981). Harpacticoid copepod community structure in two North Sea estuaries in relation to pollution. Benthos 81/06. Rijksuniversiteit Gent, Laboratorium voor Morfologie en Systematiek der Dieren, Sectie Mariene Biologie: Gent. 58 pp.",
+    "url": "https://obis.org/dataset/f8c7c1d1-08f9-41ec-938f-d600583f9cb3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=harpacticoid_copepods_north_sea_1976-1980",
+        "https://dx.doi.org/10.14284/73"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Van Damme D.; Heip C.H.R., Herman R.; Vaeremans M.; Marine Biology Section; Zoology Institute. RUG: Belgium; (2015): Harpacticoid copepod community structure in the Western Scheldt and Ems-Dollard estuary in relation to pollution between 1976 and 1980. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5076) https://dx.doi.org/10.14284/73",
+    "version": "2023-05-23T12:23:59.000Z",
+    "keywords": [
+        "Estuaries",
+        "Meiobenthos",
+        "Sediment analysis",
+        "Sediment pollution",
+        "Trace metals",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "categorical salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMP001/",
+            "description": "categorical salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Individual dry weight biomass of species",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "description": "Individual dry weight biomass of species"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean density of species per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Mean density of species per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Absolute frequency of a species",
+            "url": "",
+            "description": "Absolute frequency of a species"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Species dominance",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS5219/",
+            "description": "Species dominance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Soil texture based on grain-size of sediment particles",
+            "url": "",
+            "description": "Soil texture based on grain-size of sediment particles"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average percentage of mud-size particles in the sediment",
+            "url": "",
+            "description": "Average percentage of mud-size particles in the sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Median grainsize",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600192/",
+            "description": "Median grainsize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "density of benthic harpacticoids per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "density of benthic harpacticoids per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dry weight biomass of benthic harpacticoids per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/",
+            "description": "dry weight biomass of benthic harpacticoids per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/1980",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/73",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/73",
+        "url": "https://dx.doi.org/10.14284/73"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=harpacticoid_copepods_north_sea_1976-1980",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.67913 51.345558,3.67913 53.475858,7.186236 53.475858,7.186236 51.345558,3.67913 51.345558"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        }
+    ]
+}

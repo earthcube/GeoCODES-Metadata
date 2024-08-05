@@ -1,0 +1,104 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3c1de937-e3b2-45ee-aa74-2c74f958d72d",
+    "name": "Dutch long term monitoring of phytoplankton in the Dutch Continental Economical Zone of the North Sea (2000-2018)",
+    "description": "Long term measurements of phytoplankton composition in the Dutch national part of the North Sea. Samples were taken 12 - 24 times per year between 2000 and 2018 and analysed to the level of genus, species, or other taxon group. The dataset has been used for assessment of the marine environment and habitat quality in the scope of the OSPAR Quality Status Reports and the Marine Strategy Framework Directive. Currently, there are known issues concerning the quality of the data caused by changes in analytic procedures and labs. When more information is available, this will be published through EMODnet. The monitoring is directed and the dataset is maintained by Rijkswaterstaat, the executing body of the Dutch Ministery for Infrastructure and Environment. Publication of the dataset has been facilitated by Deltares, The Netherlands.",
+    "url": "https://obis.org/dataset/3c1de937-e3b2-45ee-aa74-2c74f958d72d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mwtl_phytoplankton2"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Ministery of Infrastructure and Environment, The Netherland; (2018). Dutch long term monitoring of phytoplankton in the Dutch Continental Economical Zone of the North Sea",
+    "version": "2023-12-08T17:41:41.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biological density",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Biological density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "Sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mwtl_phytoplankton2",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.679167 51.35118367,2.679167 55.172222,7.157357971 55.172222,7.157357971 51.35118367,2.679167 51.35118367"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11289",
+            "@type": "Organization",
+            "legalName": "Deltares",
+            "name": "Deltares",
+            "url": "https://oceanexpert.org/institution/11289"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19612",
+            "@type": "Organization",
+            "legalName": "Rijkswaterstaat Water, Verkeer en Leefomgeving",
+            "name": "Rijkswaterstaat Water, Verkeer en Leefomgeving",
+            "url": "https://oceanexpert.org/institution/19612"
+        }
+    ]
+}

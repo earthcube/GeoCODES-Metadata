@@ -1,0 +1,105 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6808176f-ffe5-4f24-a7ec-b3fb4b630a28",
+    "name": "Long-term cetacean monitoring in the Azores based on whale watching observations (2009-2020)",
+    "description": "The dataset was colected by whale watching companies in the Azores between 2009 and 2020 as a contribution to the long term monitoring of cetaceans. It contains the identification of the species observed, the geographic position of the observation, the life stages and its respective abundance and behavior, as well as related environmental variables (sea state, visibility).",
+    "url": "https://obis.org/dataset/6808176f-ffe5-4f24-a7ec-b3fb4b630a28",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=monicet",
+        "https://dx.doi.org/10.14284/599"
+    ],
+    "license": "Attribution-ShareAlike (CC BY-SA)",
+    "citation": "Azevedo, J. M. N.; Fernández, M.; González García, L.; (2021) MONICET: long-term cetacean monitoring in the Azores based on whale watching observations (2009-2020) https://dx.doi.org/10.14284/599",
+    "version": "2023-05-23T12:13:49.000Z",
+    "keywords": [
+        "Distribution records",
+        "Ecology",
+        "Geographical distribution",
+        "Marine mammals",
+        "Spatial distribution",
+        "Temporal variations",
+        "Whale-tourism",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "life stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "count (best estimate)",
+            "url": "",
+            "description": "count (best estimate)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "visibility",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WMOCHVXX/",
+            "description": "visibility"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "behavior",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS1251/",
+            "description": "behavior"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Beaufort wind force",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WMOCWFBF/",
+            "description": "Beaufort wind force"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2020",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/599",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/599",
+        "url": "https://dx.doi.org/10.14284/599"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=monicet",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-28.9987 37.3118,-28.9987 38.908,-25.0008 38.908,-25.0008 37.3118,-28.9987 37.3118"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11132",
+            "@type": "Organization",
+            "legalName": "Faculty of Sciences, University of Lisbon",
+            "name": "Faculty of Sciences, University of Lisbon",
+            "url": "https://oceanexpert.org/institution/11132"
+        }
+    ]
+}

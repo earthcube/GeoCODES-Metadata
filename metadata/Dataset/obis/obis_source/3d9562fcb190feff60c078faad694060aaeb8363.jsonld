@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f3d7798e-7bf2-4b85-8ed4-18f2c1849d7d",
+    "name": "COMARGIS: Information System on Continental Margin Ecosystems",
+    "description": "COMARGIS is the Information System of COMARGE (COntinental MARgin Ecosystems on a worldwide scale), a field project of the Census of Marine Life. The core of the system is a relational database implemented in ORACLE. Additional software help the users uploading, retrieving or updating data in the database. The whole system is derived from Biocean, a database developed and maintained by the Deep-Sea Department and the French Oceanographic Data Centre at Ifremer, Brest.",
+    "url": "https://obis.org/dataset/f3d7798e-7bf2-4b85-8ed4-18f2c1849d7d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=comargis",
+        "https://doi.org/10.15468/0djslr"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Institut Français de Recherche pour l'Exploitation de la Mer – IFREMER (2016): COMARGIS: Information System on Continental Margin Ecosystems https://doi.org/10.15468/0djslr",
+    "version": "2023-12-08T17:15:50.000Z",
+    "keywords": [
+        "Continental margins",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1956/2008",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/0djslr",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/0djslr",
+        "url": "https://doi.org/10.15468/0djslr"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=comargis",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-172.25 -70.326667,-172.25 80.136667,165.8 80.136667,165.8 -70.326667,-172.25 -70.326667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        }
+    ]
+}

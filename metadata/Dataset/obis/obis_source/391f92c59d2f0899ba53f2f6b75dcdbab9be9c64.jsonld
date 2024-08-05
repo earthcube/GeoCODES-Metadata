@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/711fa750-5e61-4b3c-a8f1-e5bfd20e47cc",
+    "name": "Northern Territory Seabird colonies, Australia (1999)",
+    "description": "Quantitative ground and aerial surveys of shorebirds, and significant breeding colonies for the Top End of the Northern Territory (NT), sourced from the Parks and Wildlife Service of the Northern Territory (PWSNT). At time of collating this report, some gaps were apparent in the data provided. Data exist from 1990-1999, but records from 2000-2003 are missing.\nData source from TERN geoserver https://acef.tern.org.au/geoserver/ - layer acef-default:NTSeaBirdColoniesSpecies3",
+    "url": "https://obis.org/dataset/711fa750-5e61-4b3c-a8f1-e5bfd20e47cc",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=acef_nt_seabirds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Moeseneder C (2023): Northern Territory Seabird colonies, Australia (1999). v1.10. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=acef_nt_seabirds&amp;v=1.10",
+    "version": "2023-06-28T00:07:49.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1999/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=acef_nt_seabirds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "129.817 -16.1633,129.817 -10.8917,137.542 -10.8917,137.542 -16.1633,129.817 -16.1633"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/16434578-ebf7-4bcc-a776-508ffece76de",
+    "name": "Nonindigenous Aquatic Species (NAS) Database Non-freshwater Specimens",
+    "description": "This dataset contains the non-freshwater specimens from the Nonindigenous Aquatic Species (NAS) database, which was established as a central repository for spatially referenced biogeographic accounts of introduced aquatic species. The NAS program provides scientific reports, online/real-time queries, spatial data sets, regional contact lists, and general information. The data is made available for use by biologists, interagency groups, and the general public. The geographical coverage is the United States.",
+    "url": "https://obis.org/dataset/16434578-ebf7-4bcc-a776-508ffece76de",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=usgs_nas_nonfish"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2016-06-17T22:20:02.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1850/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=usgs_nas_nonfish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-162.487793 17.931662,-162.487793 61.105556,-64.731445 61.105556,-64.731445 17.931662,-162.487793 17.931662"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

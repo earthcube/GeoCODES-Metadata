@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1d3d2e69-3256-44c4-af75-ca6491f795c6",
+    "name": "CRED Towed-Diver Fish Biomass Surveys in the Pacific Ocean 2000-2010",
+    "description": "Quantitative assessment and monitoring of shallow reef fish assemblages is conducted around the US Pacific Islands as an integral part of the NOAA/NMFS/PIFSC Coral Reef Ecosystem Division's mission to improve our scientific understanding of these fish resources and related ecosystems.",
+    "url": "https://obis.org/dataset/1d3d2e69-3256-44c4-af75-ca6491f795c6",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=cred_fish_tds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Coral Reef Ecosystem Division (CRED), Pacific Island Fisheries Sciences Center, NOAA National Marine Fisheries Service. 2011. CRED Towed-Diver Fish Biomass Surveys in the Pacific Ocean 2000-2010. Coral Reef Ecosystem Division, Honolulu, HI.Retrieved from http://www.usgs.gov/obis-usa/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=cred_fish_tds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.331100464 -14.8783798218,-178.331100464 28.4234008789,166.61555481 28.4234008789,166.61555481 -14.8783798218,-178.331100464 -14.8783798218"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        }
+    ]
+}

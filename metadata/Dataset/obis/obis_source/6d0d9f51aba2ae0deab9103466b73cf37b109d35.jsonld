@@ -1,0 +1,91 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5c850aae-b242-45aa-9a25-1aaf49ad139d",
+    "name": "Southern Surveyor Voyage SS 05/95 prawn survey in the Gulf of Carpentaria, Australia (Jun 1995)",
+    "description": "The Southern Surveyor cruise SS 05/95 took place in the Gulf of Carpentaria during 16-23 June 1995, under the leadership of John Salini. Biological data collected on this cruise include prawn and bycatch data from 39 paired prawn trawls. Penaeus semisulcatus samples for genetic and isotope analyses. Sediment samples. Water samples for primary productivity experiments. Leiognathids samples to complete sampling for a PhD study. Voyge details and other data is at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=SS199505",
+    "url": "https://obis.org/dataset/5c850aae-b242-45aa-9a25-1aaf49ad139d",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_ss199505_catch"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Salini J (2023): Southern Surveyor Voyage SS 05/95 prawn survey in the Gulf of Carpentaria, Australia (Jun 1995). v1.4. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=csiro_ss199505_catch&amp;v=1.4",
+    "version": "2023-06-29T11:09:17.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Cloud cover (oktas)",
+            "url": "",
+            "description": "Cloud cover (oktas)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea state",
+            "url": "http://vocab.nerc.ac.uk/collection/C39/current/",
+            "description": "Sea state"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind direction (deg)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01",
+            "description": "Wind direction (deg)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind Speed (knt)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ESSAZZ01",
+            "description": "Wind Speed (knt)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01",
+            "description": "Weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_ss199505_catch",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "136.83667 -13.36333,136.83667 -12.625,140.96167 -12.625,140.96167 -13.36333,136.83667 -13.36333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17021",
+            "@type": "Organization",
+            "legalName": "CSIRO Dutton Park, Brisbane",
+            "name": "CSIRO Dutton Park, Brisbane",
+            "url": "https://oceanexpert.org/institution/17021"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

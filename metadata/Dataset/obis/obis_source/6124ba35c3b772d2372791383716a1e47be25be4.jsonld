@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8dbd0669-92d1-41ef-a5db-527bc6aa1ec9",
+    "name": "Biodiversity of benthic assemblages on the Arctic continental shelf: historical data from Canada (1955 to 1977)",
+    "description": "This dataset contains the species distribution information related to the following publication: Cusson, M., Archambault, P., and Aitken, A. 2007. Biodiversity of benthic assemblages on the Arctic continental shelf: historical data from Canada. Marine Ecology Progress Series 331:291-304\n\nWARNING: this historical perspective contains information associated with a number of reports including Wacasey JW, Atkinson EG, Glasspoole L (1979). A version of the data associated with this publication is already accessible through OBIS (iobis.org/explore/#/dataset/2669). A decision was made to retain these data records in this resource as the objective of this resource is to serve as a data repository for the Cusson et al 2007 publication.",
+    "url": "https://obis.org/dataset/8dbd0669-92d1-41ef-a5db-527bc6aa1ec9",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=cusson_arcticbenthos"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cusson M (2018): Biodiversity of benthic assemblages on the Arctic continental shelf: historical data from Canada (1955 to 1977). v1.4. Canadian node of the Ocean Biogeographic Information System (OBIS Canada). Dataset/Occurrence. http://ipt.iobis.org/obiscanada/resource?r=cusson_arcticbenthos&amp;v=1.4",
+    "version": "2021-06-08T22:00:26.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1955/1977",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=cusson_arcticbenthos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-139.60194 52.23472,-139.60194 71.36667,-56.98333 71.36667,-56.98333 52.23472,-139.60194 52.23472"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19473",
+            "@type": "Organization",
+            "legalName": "Université du Québec à Chicoutimi",
+            "name": "Université du Québec à Chicoutimi",
+            "url": "https://oceanexpert.org/institution/19473"
+        }
+    ]
+}

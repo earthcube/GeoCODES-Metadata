@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3d08e18e-6146-4e27-ab0e-03504a65cbd4",
+    "name": "Roscoff Inventories: marine fauna and flora since 1800",
+    "description": "These inventories list marine species observations performed in the Roscoff area since 1830. Observations result from a review of historical literature and observations made by voluntary contributors and the scientific teams of the Roscoff Marine Station. Taxonomic groups documented in the inventories are macroalgae, marine benthic macroinvertebrates and fish. Inventories provide information (when known) about: location, collection date, collection type, collector, and species biology (habitat, reproduction period).",
+    "url": "https://obis.org/dataset/3d08e18e-6146-4e27-ab0e-03504a65cbd4",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=inventaires-sbroscoff",
+        "https://doi.org/10.21411/qhtc-a855"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Houbin, C; Hoebeke, M (2019): Roscoff inventories: marine fauna and flora since 1800 https://doi.org/10.21411/qhtc-a855",
+    "version": "2024-02-26T23:13:59.000Z",
+    "keywords": [
+        "Benthos",
+        "Data",
+        "Fauna",
+        "Flora",
+        "Sampling",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1815/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.21411/qhtc-a855",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.21411/qhtc-a855",
+        "url": "https://doi.org/10.21411/qhtc-a855"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=inventaires-sbroscoff",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-4.66666667 48.5642,-4.66666667 49.04166667,-3.41666667 49.04166667,-3.41666667 48.5642,-4.66666667 48.5642"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19642",
+            "@type": "Organization",
+            "legalName": "Station Biologique de Roscoff",
+            "name": "Station Biologique de Roscoff",
+            "url": "https://oceanexpert.org/institution/19642"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2fd06604-7d20-4712-9f68-eae9ae336bb5",
+    "name": "MICROBIS Database (version 1) - European data",
+    "description": "This dataset contains the European data of MICROBIS, a database of marine microbial biota.",
+    "url": "https://obis.org/dataset/2fd06604-7d20-4712-9f68-eae9ae336bb5",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=microbis"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Neal, P. R., Patterson, D.J. MICROBIS. 1 Jan. 2005,  Version 1 (European data).",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Microbes"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=microbis",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.0915 -76.0398,-179.0915 86.18667,179.9735 86.18667,179.9735 -76.0398,-179.0915 -76.0398"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9783",
+            "@type": "Organization",
+            "legalName": "Woods Hole Oceanographic Institution",
+            "name": "Woods Hole Oceanographic Institution",
+            "url": "https://oceanexpert.org/institution/9783"
+        }
+    ]
+}

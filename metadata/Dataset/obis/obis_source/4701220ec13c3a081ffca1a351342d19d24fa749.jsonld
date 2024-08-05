@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7e92433a-d086-4527-ab2b-3af86bcbd083",
+    "name": "APIS - Antarctic Pack Ice Seals 1994-1999, plus historical data from the 1980s",
+    "description": "This dataset contains Antarctic Pack Ice seal (APIS) data collected (both ship based and aerial) between 1994 and 2000. This data also includes some historic data collected between 1985 and 1987.  The four species of Antarctic pack ice seals (crabeater, leopard, Weddell, and Ross seals) are thought to comprise up to 50 percent or more of the world's total biomass of seals. As long-lived, top level predators in Southern Ocean ecosystems, pack ice seals are scientifically interesting because they can assist in monitoring shifts in ecosystem structure and function, especially changes that occur in sensitive polar areas in response to global climate changes.",
+    "url": "https://obis.org/dataset/7e92433a-d086-4527-ab2b-3af86bcbd083",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=apis"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "See metadata record http://www1.data.antarctica.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/APIS",
+    "version": "2021-05-12T06:04:21.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=apis",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "48.88333511 -69.34049988,48.88333511 -58.93333435,150.42541504 -58.93333435,150.42541504 -69.34049988,48.88333511 -69.34049988"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/94829f49-bab5-48a5-9a64-38425f8ec640",
+    "name": "The International Herring Larvae Surveys",
+    "description": "The ICES programme of international herring larval surveys in the North Sea and adjacent areas is in operation since 1967. The main purpose of this programme is to provide quantitative estimates of herring larval abundance, which are used as a relative index of changes of the herring spawning‐stock biomass in the assessment. The larvae surveys are carried out in specific periods and areas, following autumn and winter spawning activity of herring from north to south. Catch data together with specific information like haul position, survey area etc. are reported to the ICES International Herring Larvae database annually. The database contains information about the surveys conducted since 1972. The ICES responsible group for the dataset is WGIPS.",
+    "url": "https://obis.org/dataset/94829f49-bab5-48a5-9a64-38425f8ec640",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ihls"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES. The International Herring Larvae Surveys. Available online at http://eggsandlarvae.ices.dk. Consulted on yyyy-mm-dd.",
+    "version": "2023-05-23T12:24:22.000Z",
+    "keywords": [
+        "Fish larvae",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "https://vocab.ices.dk/?ref=152/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Flowmeter type",
+            "url": "https://vocab.ices.dk/?ref=1418/",
+            "description": "Flowmeter type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mesh type",
+            "url": "https://vocab.ices.dk/?ref=1417/",
+            "description": "Mesh type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Haul duration",
+            "url": "",
+            "description": "Haul duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net clogging",
+            "url": "https://vocab.ices.dk/?ref=1420/",
+            "description": "Net clogging"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear deployment",
+            "url": "https://vocab.ices.dk/?ref=1416/",
+            "description": "Gear deployment"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1972/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ihls",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.833 49.417,-10.833 61.083,4.5 61.083,4.5 49.417,-10.833 49.417"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

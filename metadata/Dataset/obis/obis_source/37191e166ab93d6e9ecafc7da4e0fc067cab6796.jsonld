@@ -1,0 +1,86 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9d2f7b40-7028-432f-b022-52d6e2f6a47f",
+    "name": "Assessment of zooplankton at the site of the sinking of the N.R.P. \"S. Miguel\"",
+    "description": "The parameters that were considered as being able to give indications about the state of zooplanktonic populations were the abundance (biovolume) and the specific and population structures of the epi- (living in the 0 to 150 meters deep) and mesoplanktonic (living in the layer from 150 to 1000 meters deep). The abundance (biovolume) as well as the specific and population structures of epi- (living in 0 to 150 meter depth) and mesoplanktonic (living in 150 to 1000 meter depth) communities were used to assess the condition of zooplanktonic populations.",
+    "url": "https://obis.org/dataset/9d2f7b40-7028-432f-b022-52d6e2f6a47f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nrp_s_miguel"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cunha M E, Quintela F (2021): Assessment of zooplankton at the site of the sinking of the N.R.P. \"S. Miguel\". v1.4. IPMA - Instituto Português do Mar e da Atmosfera. Dataset/Samplingevent",
+    "version": "2023-05-23T12:27:07.000Z",
+    "keywords": [
+        "Shipwreck",
+        "Shipwrecks",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Biovolume (calculated) of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL13/",
+            "description": "Biovolume (calculated) of biological entity specified elsewhere per unit volume of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method used to collect or make the in-situ measurement or observation",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling method used to collect or make the in-situ measurement or observation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gender of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Gender of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Life cycle development stage of the biological entity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Life cycle development stage of the biological entity"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/1994",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nrp_s_miguel",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-14.517 36.767,-14.517 38.767,-9.533 38.767,-9.533 36.767,-14.517 36.767"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14932",
+            "@type": "Organization",
+            "legalName": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "name": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "url": "https://oceanexpert.org/institution/14932"
+        }
+    ]
+}

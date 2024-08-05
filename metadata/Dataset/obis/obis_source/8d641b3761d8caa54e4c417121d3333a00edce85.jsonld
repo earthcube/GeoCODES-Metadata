@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3ead891d-1958-423c-be3f-289d87219263",
+    "name": "University of New Brunswick: Fish surveys conducted in small estuarine streams entering Saint John Harbour, New Brunswick.",
+    "description": "This version of the resource contains species occurrence records extracted from the thesis data files.  The thesis (Vallieres 2005) contains additional details and measurements. This resource was created as part of an Atlantic Ecosystem Initiative data rescue activity.",
+    "url": "https://obis.org/dataset/3ead891d-1958-423c-be3f-289d87219263",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=unb_vallieres2005"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Vallieres G (2019): University of New Brunswick: Fish surveys conducted in small estuarine streams entering Saint John Harbour, New Brunswick.. v1.2. Canadian node of the Ocean Biogeographic Information System (OBIS Canada). Dataset/Occurrence. http://ipt.iobis.org/obiscanada/resource?r=unb_vallieres2005&amp;v=1.2",
+    "version": "2021-04-16T11:03:11.000Z",
+    "keywords": [
+        "small-bodied fish species",
+        "Maritime region",
+        "Atlantic",
+        "creek",
+        "tidal",
+        "estuarine",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=unb_vallieres2005",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-66.05019 45.26136,-66.05019 45.33711,-65.55136 45.33711,-65.55136 45.26136,-66.05019 45.26136"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14254",
+            "@type": "Organization",
+            "legalName": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "name": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/14254"
+        }
+    ]
+}

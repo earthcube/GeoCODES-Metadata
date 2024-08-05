@@ -1,0 +1,131 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cdc3abcf-b4d8-4b14-b4d4-70705884034c",
+    "name": "Phytoplankton and environmental study in the Southern North Sea between 1971 and 1973",
+    "description": "Abundance of phytoplankton species and related environmental parameters for 57 stations in the Southern Bight of the  North Sea between January 1971 and June 1973. The data were digitized from technical reports in the frame of the 4DEMON project.",
+    "url": "https://obis.org/dataset/cdc3abcf-b4d8-4b14-b4d4-70705884034c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_and_environmental_study_in_the_southern_north_sea_between_1971_and_1973",
+        "https://dx.doi.org/10.14284/335"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Rabijns M.; Louis A.; Laboratorium voor Fytohydrobiologie. KUL: Belgium; (2019): Phytoplankton and environmental study in the Southern North Sea between 1971 and 1973. Marine Data Archive. https://dx.doi.org/10.14284/335",
+    "version": "2023-05-23T11:39:49.000Z",
+    "keywords": [
+        "Environmental variables",
+        "Phytoplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of phytoplankton species per unit volume of the water column",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of phytoplankton species per unit volume of the water column"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Categorisation as living or non-living of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL11/",
+            "description": "Categorisation as living or non-living of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved O2",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00002/",
+            "description": "Dissolved O2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Oxygen saturation",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00003/",
+            "description": "Oxygen saturation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "PO43-",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00007/",
+            "description": "PO43-"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "NO2- + NO3-",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00005/",
+            "description": "NO2- + NO3-"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "NO3-",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00004/",
+            "description": "NO3-"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "NO2-",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00006/",
+            "description": "NO2-"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/1973",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/335",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/335",
+        "url": "https://dx.doi.org/10.14284/335"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_and_environmental_study_in_the_southern_north_sea_between_1971_and_1973",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.65 51.08888889,1.65 52.60833333,4.55694444 52.60833333,4.55694444 51.08888889,1.65 51.08888889"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19418",
+            "@type": "Organization",
+            "legalName": "Katholieke Universiteit Leuven",
+            "name": "Katholieke Universiteit Leuven",
+            "url": "https://oceanexpert.org/institution/19418"
+        }
+    ]
+}

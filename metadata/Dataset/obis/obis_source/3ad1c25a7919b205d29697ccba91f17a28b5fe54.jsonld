@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/36fcf898-ebc2-493b-aa8b-9f864ffe5494",
+    "name": "Observation data collected by Marine Biological Museum, Chinese Academy of Sciences (SCS-Part I)",
+    "description": "Observation data collected by Marine Biological Museum, Chinese Academy of Sciences (MBMCAS) during the project NCOI. (SCS-Part I)",
+    "url": "https://obis.org/dataset/36fcf898-ebc2-493b-aa8b-9f864ffe5494",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=obis_mbmcas_scs_i"
+    ],
+    "license": "Unknown",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=obis_mbmcas_scs_i",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "106 16.497,106 23.5,117.5 23.5,117.5 16.497,106 16.497"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6749",
+            "@type": "Organization",
+            "legalName": "Institute of Oceanology Chinese Academy of Sciences, Qingdao",
+            "name": "Institute of Oceanology Chinese Academy of Sciences, Qingdao",
+            "url": "https://oceanexpert.org/institution/6749"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

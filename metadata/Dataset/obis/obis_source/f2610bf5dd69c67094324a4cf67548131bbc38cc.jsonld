@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d9a20f0e-2653-4f02-a1ed-eb90782f6b09",
+    "name": "The echinoderm collection (IE) of the Muséum national d'Histoire naturelle (MNHN - Paris) in the southwest Pacific region",
+    "description": "This dataset is a subset of the echinoderm collection of the Muséum national d'Histoire naturelle (MNHN - Paris) extracted from GBIF and filtered for the southwest Pacific region and for marine species only.\nThe aim of the full dataset is to provide a general view of the echinoderm collection of the Paris Museum, which is primarily a scientific collection. The naturalist Jean-Baptiste Lamarck, one of the founders of the Theory of Evolution, was the first to really establish the collection of echinoderms at the Paris Museum. There are both dry and alcohol-preserved lots. Some sea cucumber specimens are preserved as microscopic preparations on slides. The number of lots is estimated at 500,000, of which 0.4% are types. Echinoderms have been collected in all oceans, at all latitudes. The largest numbers of specimens were collected relatively recently in the Indo-West Pacific. Echinoderms live exclusively in marine waters and at all depths. For 25 years intensive research programs have permitted huge collections to be obtained, especially from the Indo-Pacific and Antarctic regions. Most of the data entered so far are from these regions.",
+    "url": "https://obis.org/dataset/d9a20f0e-2653-4f02-a1ed-eb90782f6b09",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=mnhn_echinoderms"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "MNHN - Museum national d'Histoire naturelle: The echinoderm collection (IE) of the Muséum national d'Histoire naturelle (MNHN - Paris) doi:10.15468/tp2nxo",
+    "version": "2018-08-08T21:09:03.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=mnhn_echinoderms",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.952667 -60.533333,-179.952667 -1.905,179.992172 -1.905,179.992172 -60.533333,-179.952667 -60.533333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5501",
+            "@type": "Organization",
+            "legalName": "Museum National d'Histoire Naturelle / IRD",
+            "name": "Museum National d'Histoire Naturelle / IRD",
+            "url": "https://oceanexpert.org/institution/5501"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a145f369-b272-46f7-86bc-08412b1ee927",
+    "name": "Arctic benthic invertebrate collection of the Zoological Institute of the Russian Academy of Science",
+    "description": "Dataset based on the Arctic marine invertebrate collection of the Zoological Institute of the Russian Academy of Science. Data contained were collected in the field from 1800 to 2004",
+    "url": "https://obis.org/dataset/a145f369-b272-46f7-86bc-08412b1ee927",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=rb_zoo"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Sirenko B.I., ed. 2001. List of species of free-living invertebrates of Eurasian Arctic seas and adjacent deep waters. In: Explorations of the fauna of the seas. 51(59). St.Petersburg: 1-132.",
+    "version": "2019-10-01T15:55:19.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1800/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=rb_zoo",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.949996948 4.81699991226,-179.949996948 88.2249984741,180 88.2249984741,180 4.81699991226,-179.949996948 4.81699991226"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9651",
+            "@type": "Organization",
+            "legalName": "Zoological Institute of the Russian Academy of Sciences",
+            "name": "Zoological Institute of the Russian Academy of Sciences",
+            "url": "https://oceanexpert.org/institution/9651"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c998748f-0dd0-4c5f-bb7d-1663ce3dacad",
+    "name": "Zoobenthos data from different sources (collected and extracted from literature), personal archive of G.V. Murina (IBSS)",
+    "description": "Dataset includes zoobenthos data from different sources (collected and extracted from literature). Personal archive of G.V. Murina (IBSS).",
+    "url": "https://obis.org/dataset/c998748f-0dd0-4c5f-bb7d-1663ce3dacad",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zoo_murina"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Murina G.V. (2013). Zoobenthos data from different sources (collected and extracted from literature), personal archive of G.V. Murina (IBSS). Dataset published in electronic format by IBSS in 2013, consulted via iOBIS on [date].",
+    "version": "2023-12-08T18:23:48.000Z",
+    "keywords": [
+        "Digitization",
+        "Literature",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1930/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zoo_murina",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.9666667 -69.355,-178.9666667 79.11916667,179.92 79.11916667,179.92 -69.355,-178.9666667 -69.355"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

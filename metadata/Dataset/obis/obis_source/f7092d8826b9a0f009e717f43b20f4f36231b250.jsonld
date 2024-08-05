@@ -1,0 +1,82 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c9aaa0e9-8f6c-4553-a014-a857baba0680",
+    "name": "California Harmful Algal Bloom Monitoring and Alert Program Data (Darwin Core Archive format)",
+    "description": "The Harmful Algal Bloom Monitoring and Alert Program (HABMAP) was formed in 2008 and provides updates on current algal blooms and facilitates information exchange among scientists, federal and state managers, and the general public in California. A major component of this program is regional HAB monitoring with support from the Southern California Coastal Ocean Observing System (SCCOOS) and the Central and Northern California Ocean Observing System (CeNCOOS). Water samples and net tows are collected once per week at piers to monitor for HAB species, the neurotoxin domoic acid, and water quality data including temperature, chlorophyll-a, and nutrients.\n\nThe sampling stations represented in this dataset include Santa Cruz Wharf, Monterey Wharf, Cal Poly Pier, Stearns Wharf, Santa Monica Pier, Newport Beach Pier, and Scripps Pier. These data are consolidated and reformatted into Darwin Core Archive (DwC-A) format from the level 1 site-specific datasets hosted on the SCCOOS ERDDAP server: (https://erddap.sccoos.org/erddap/tabledap/index.html?page=1).",
+    "url": "https://obis.org/dataset/c9aaa0e9-8f6c-4553-a014-a857baba0680",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=calhabmap"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-11-07T22:12:12.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=calhabmap",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-122.017 32.867,-122.017 36.958,-117.257 36.958,-117.257 32.867,-122.017 32.867"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13724",
+            "@type": "Organization",
+            "legalName": "University of California, San Diego",
+            "name": "University of California, San Diego",
+            "url": "https://oceanexpert.org/institution/13724"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16187",
+            "@type": "Organization",
+            "legalName": "University of California, Santa Barbara",
+            "name": "University of California, Santa Barbara",
+            "url": "https://oceanexpert.org/institution/16187"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17545",
+            "@type": "Organization",
+            "legalName": "Univserity of California, Santa Cruz",
+            "name": "Univserity of California, Santa Cruz",
+            "url": "https://oceanexpert.org/institution/17545"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18841",
+            "@type": "Organization",
+            "legalName": "University of California Los Angeles",
+            "name": "University of California Los Angeles",
+            "url": "https://oceanexpert.org/institution/18841"
+        }
+    ]
+}

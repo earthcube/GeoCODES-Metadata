@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7aee17f1-d6e8-4204-a4b2-eafdf89563cf",
+    "name": "NOAA Southeast Fishery Science Center (SEFSC) Commercial Pelagic Observer Program (POP) Data",
+    "description": "Observations of catch data from US commercial fishing and processing vessels.",
+    "url": "https://obis.org/dataset/7aee17f1-d6e8-4204-a4b2-eafdf89563cf",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=sefsc_pop"
+    ],
+    "license": "",
+    "citation": "Southeast Fisheries Science Center, National Oceanic and Atmospheric Administration (year). NOAA Southeast Fishery Science Center (SEFSC) Commercial Pelagic Observer Program (POP) Data. Consulted on http://www.iobis.org on [date].",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=sefsc_pop",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-96.3333320618 1.19999998808,-96.3333320618 51.2999992371,-37.1500015259 51.2999992371,-37.1500015259 1.19999998808,-96.3333320618 1.19999998808"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7534",
+            "@type": "Organization",
+            "legalName": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "name": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "url": "https://oceanexpert.org/institution/7534"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7541",
+            "@type": "Organization",
+            "legalName": "National Marine Fisheries Service, Northeast Fisheries Science Center, Massachusetts",
+            "name": "National Marine Fisheries Service, Northeast Fisheries Science Center, Massachusetts",
+            "url": "https://oceanexpert.org/institution/7541"
+        }
+    ]
+}

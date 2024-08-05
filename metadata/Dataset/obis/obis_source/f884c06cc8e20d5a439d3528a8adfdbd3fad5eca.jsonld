@@ -1,0 +1,115 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/50713b48-1ebc-4ae3-97b8-543777e1e815",
+    "name": "Belgian recreational fisheries monitoring",
+    "description": "The dataset includes recreational catch data collected in the framework of the Belgian recreational fisheries monitoring programme, coordinated by Flanders Marine Institute (VLIZ) and the Flemish Institute for Agriculture, Fisheries and Food Research (ILVO). Data is collected through a programme in which Belgian recreational fishermen voluntary provide catch data on the level of individual fishing trips (www.recreatievezeevisserij.be). Data includes species names, number of released/retained species, total weight of retained fish/shrimps, length dimensions for Cod and Sea bass, fishing technique, bait characteristics, trip duration and catch location on the level of maritime zones (coast; 0-3 nm; 3-6 nm; 6-12 nm; exclusive economic zone (&gt;12 nm). \n\n[Programme funding 2016-2021: FPS Public Health, Food Chain Safety and Environment - Marine Environment Division; National Data Gathering Programme; Province of West Flanders; VLIZ | Programme funding 2022: VLIZ; ILVO]",
+    "url": "https://obis.org/dataset/50713b48-1ebc-4ae3-97b8-543777e1e815",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=belgian_recreational_marine_fisheries"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "VLIZ &amp; ILVO (2022). Belgian recreational fisheries monitoring",
+    "version": "2024-02-26T23:46:17.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "BaitType",
+            "url": "",
+            "description": "BaitType"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "NumberOfNets",
+            "url": "",
+            "description": "NumberOfNets"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingEffortInMinutes",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "SamplingEffortInMinutes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplingProtocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "samplingProtocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "catchCategory",
+            "url": "",
+            "description": "catchCategory"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/",
+            "description": "weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingNetType",
+            "url": "",
+            "description": "SamplingNetType"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=belgian_recreational_marine_fisheries",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.5801 51.1155,2.5801 51.56237,3.9 51.56237,3.9 51.1155,2.5801 51.1155"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18819",
+            "@type": "Organization",
+            "legalName": "Instituut voor Landbouw, Visserij en voedingonderzoek",
+            "name": "Instituut voor Landbouw, Visserij en voedingonderzoek",
+            "url": "https://oceanexpert.org/institution/18819"
+        }
+    ]
+}

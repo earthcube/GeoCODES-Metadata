@@ -1,0 +1,97 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9f7105b3-fe54-46ac-b3df-8c66877885c0",
+    "name": "Data collected in Suva, Fiji by the PacMAN project",
+    "description": "This dataset contains the first voucher specimens collected by the PacMAN project, which aims to set up an invasive alien species monitoring network and early alert system in the Pacific Small Island Developing States (PSIDS). The voucher specimens collected here were found on settlement plates deployed in and around Suva harbour, Fiji, in 2022. Future versions of this dataset will include results from metabarcoding of water samples and settlement plates, as well as settlement plate and voucher images.",
+    "url": "https://obis.org/dataset/9f7105b3-fe54-46ac-b3df-8c66877885c0",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=pacman_suva"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2024-01-14T23:00:17.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved oxygen",
+            "url": "https://api.plutof.ut.ee/v1/measurement/measurements/154/",
+            "description": "Dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lower depth sampled",
+            "url": "https://api.plutof.ut.ee/v1/measurement/measurements/683/",
+            "description": "Lower depth sampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "https://api.plutof.ut.ee/v1/measurement/measurements/90/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "https://api.plutof.ut.ee/v1/measurement/measurements/92/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Upper depth sampled",
+            "url": "https://api.plutof.ut.ee/v1/measurement/measurements/682/",
+            "description": "Upper depth sampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "pH",
+            "url": "https://api.plutof.ut.ee/v1/measurement/measurements/58/",
+            "description": "pH"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2022/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=pacman_suva",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "178.40285 -18.13602,178.40285 -18.13163,178.4255 -18.13163,178.4255 -18.13602,178.40285 -18.13602"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17805",
+            "@type": "Organization",
+            "legalName": "UNESCO-IOC",
+            "name": "UNESCO-IOC",
+            "url": "https://oceanexpert.org/institution/17805"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19142",
+            "@type": "Organization",
+            "legalName": "The University of the South Pacific",
+            "name": "The University of the South Pacific",
+            "url": "https://oceanexpert.org/institution/19142"
+        }
+    ]
+}

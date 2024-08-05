@@ -1,0 +1,117 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/547594d3-8bb3-46de-ba09-1e1f0ed6d629",
+    "name": "Anfípodos_IMO",
+    "description": "Registro de anfípodos desde la zona costera de Chile hasta Isla de Pascua. Las muestras analizadas fueron obtenidas en el crucero oceanográfico CIMAR 21 \"Islas Oceánicas\" en 2015.",
+    "url": "https://obis.org/dataset/547594d3-8bb3-46de-ba09-1e1f0ed6d629",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=anfipodos_cimar21"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Espinosa-Leal L (2021): Anfípodos_IMO. v1.1. Universidad de Concepción e Instituto Milenio de Oceanografía (IMO). Dataset/Samplingevent. http://ipt.iobis.org/esp-obis/resource?r=anfipodos_cimar21&amp;v=1.1",
+    "version": "2021-07-13T15:56:30.000Z",
+    "keywords": [
+        "Samplingevent",
+        "zooplancton",
+        "Anfípodos",
+        "Islas Oceánicas"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Mixed Layer Depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0467/",
+            "description": "Mixed Layer Depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Monthly delayed-time sea level anomaly",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ASLVZZ01/",
+            "description": "Monthly delayed-time sea level anomaly"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/ZATX/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Diary satellite-derived surface Chl-a",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CHLAMSAT/",
+            "description": "Diary satellite-derived surface Chl-a"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Body water Salinity _maximum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/",
+            "description": "Body water Salinity _maximum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Body water Salinity _minimum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALST01/",
+            "description": "Body water Salinity _minimum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Body water temperature_maximum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P06/current/UPAA/",
+            "description": "Body water temperature_maximum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Body water temperature_minimum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P06/current/UPAA/",
+            "description": "Body water temperature_minimum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved Oxygen_maximum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/",
+            "description": "Dissolved Oxygen_maximum value_0-1000m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved Oxygen_minimum value_0-1000m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/",
+            "description": "Dissolved Oxygen_minimum value_0-1000m"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=anfipodos_cimar21",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-109.49 -29.35,-109.49 -26.41,-70.94 -26.41,-70.94 -29.35,-109.49 -29.35"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16784",
+            "@type": "Organization",
+            "legalName": "Instituto Milenio de Oceanografía",
+            "name": "Instituto Milenio de Oceanografía",
+            "url": "https://oceanexpert.org/institution/16784"
+        }
+    ]
+}

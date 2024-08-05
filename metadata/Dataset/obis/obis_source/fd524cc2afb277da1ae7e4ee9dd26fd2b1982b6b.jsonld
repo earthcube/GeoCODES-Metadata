@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d1dd65ec-fc75-480d-ab5d-4a4379603173",
+    "name": "MARMAP Chevron Trap Survey 1990-2009",
+    "description": "Abundance and biomass of fish species collected during the day from 1988 to 2000 off the coast of the southeastern United States (Cape Fear, NC to Cape Canaveral, FL). Chevron traps were set on live-bottom reef areas on the continental shelf and upper slope. Chevron traps were arrowhead shaped (maximum dimensions of 1.5 m x 1.7 m x 0.6 m.; 0.91 m3 volume) and constructed of 35 mm x 35 mm square mesh plastic-coated wire. Chevron traps had one entrance funnel (“horseneck”), and one release panel to remove the catch. Each trap was soaked between 90 and 120 minutes.",
+    "url": "https://obis.org/dataset/d1dd65ec-fc75-480d-ab5d-4a4379603173",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=marmap_chevronsurvey"
+    ],
+    "license": "Restricted",
+    "citation": "Marcel Reichert, 2009, MARMAP Chevron Trap Survey 1990-2009, SCDNR/NOAA MARMAP Program, SCDNR MARMAP Aggregate Data Surveys, The Marine Resources Monitoring, Assessment, and Prediction (MARMAP) Program, Marine Resources Research Institute, South Carolina Department of Natural Resources, P. O. Box 12559, Charleston SC 29422-2559, U.S.A.Retrieved from http://www.usgs.gov/obis-usa/",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=marmap_chevronsurvey",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.9100036621 27.2700004578,-80.9100036621 34.6100006104,-76.0899963379 34.6100006104,-76.0899963379 27.2700004578,-80.9100036621 27.2700004578"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

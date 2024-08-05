@@ -1,0 +1,91 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/615897dc-a685-4335-a581-7e30adeae07f",
+    "name": "Dutch long term monitoring of phytoplankton in the Dutch Continental Economical Zone of the North Sea",
+    "description": "Long term measurements of phytoplankton composition in the Dutch national part of the North Sea. Samples were taken 12 - 24 times per year between 1990 and 1999 and analysed to the level of genus, species, or other taxon group. The dataset has been used for assessment of the marine environment and habitat quality in the scope of the OSPAR Quality Status Reports and the Marine Strategy Framework Directive. Currently, there are known issues concerning the quality of the data caused by changes in analytic procedures and labs. When more information is available, this will be published through EMODnet.",
+    "url": "https://obis.org/dataset/615897dc-a685-4335-a581-7e30adeae07f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mwtl_phytoplankton"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Ministery of Infrastructure and Environment, The Netherlands; (2020): Dutch long term monitoring of phytoplankton in the Dutch Continental Economical Zone of the North Sea",
+    "version": "2024-02-27T00:21:36.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplingDepthVerbatim",
+            "url": "",
+            "description": "samplingDepthVerbatim"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Height relative to bed surface in the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AHSFZZ01/",
+            "description": "Height relative to bed surface in the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mwtl_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.679167 51.35118367,2.679167 55.172222,7.157357971 55.172222,7.157357971 51.35118367,2.679167 51.35118367"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11289",
+            "@type": "Organization",
+            "legalName": "Deltares",
+            "name": "Deltares",
+            "url": "https://oceanexpert.org/institution/11289"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19612",
+            "@type": "Organization",
+            "legalName": "Rijkswaterstaat Water, Verkeer en Leefomgeving",
+            "name": "Rijkswaterstaat Water, Verkeer en Leefomgeving",
+            "url": "https://oceanexpert.org/institution/19612"
+        }
+    ]
+}

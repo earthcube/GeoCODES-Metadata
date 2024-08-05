@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/adc95f98-963d-4678-9b10-57cebf81dc8d",
+    "name": "Eastern Canada Benthic Macro Fauna",
+    "description": "Measurements of biomass and productivity of seabed macrobenthic and megabenthic organisms, from studies in eastern North America from New England to the Canadian Arctic dating from 1954 to 2000, have been assembled into a comprehensive, georeferenced, database. Information sources include primary publications, technical reports and unpublished data from scientific studies, commercial fisheries surveys, and monitoring and baseline studies carried out for offshore petroleum exploration.\nThis resource contains biomass information from 24 sources for the following taxonomic groups: crustacea, echinodermata, mollusca, polychaeta and 'other'. This dataset contains 'absence' records as the source dataset includes valid biomass values of zero. Each data record includes a reference to the source in the DwC.associatedReferences field.\nVersion 1 of this resource was created during the Census of Marine Life.\nVersion 3 of this resource contains revised DwC records including occurrenceStatus (presence/absence) for the original 5 taxonomic groups plus fish.",
+    "url": "https://obis.org/dataset/adc95f98-963d-4678-9b10-57cebf81dc8d",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=ecbmf"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Stewart, P.L., H.A. Levy and B.T. Hargrave (2019). Eastern Canada Benthic Macro Fauna. Version 3.0 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2019-07-04T17:45:55.000Z",
+    "keywords": [
+        "oceans",
+        "biota",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1957/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=ecbmf",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-102 38.5,-102 66.01667,-48.21695 66.01667,-48.21695 38.5,-102 38.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19490",
+            "@type": "Organization",
+            "legalName": "Envirosphere Consultants Ltd",
+            "name": "Envirosphere Consultants Ltd",
+            "url": "https://oceanexpert.org/institution/19490"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19633",
+            "@type": "Organization",
+            "legalName": "OBIS Canada",
+            "name": "OBIS Canada",
+            "url": "https://oceanexpert.org/institution/19633"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1cf6168c-bc76-48b8-af1f-e8237c897e3d",
+    "name": "Naturalis Invertebrate specimens from marine expeditions",
+    "description": "RMNH_INVERTEBRATE_MARINE_EXPEDITIONS_SPECIMENS is an extract of several databases which were the result of NWO Groot \"Building de database of Life\" in 2005 and 2006 in which the handwritten registers were digitised.",
+    "url": "https://obis.org/dataset/1cf6168c-bc76-48b8-af1f-e8237c897e3d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_7957",
+        "https://doi.org/10.15468/0fscv9"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "NLBIF, Naturalis National Natural History Museum (NL). Invertebrate specimens from marine expeditions. https://doi.org/10.15468/0fscv9",
+    "version": "2024-02-26T23:11:21.000Z",
+    "keywords": [
+        "Biological sampling",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1963/1986",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/0fscv9",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/0fscv9",
+        "url": "https://doi.org/10.15468/0fscv9"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_7957",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-24.5166666666667 -9.533333,-24.5166666666667 63.7,147.266667 63.7,147.266667 -9.533333,-24.5166666666667 -9.533333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

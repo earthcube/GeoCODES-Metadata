@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/132cfd6e-097d-4ee4-b737-58a596dcbe27",
+    "name": "O_WESTERSCHELDE - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding in East Flanders (Belgium) [subsampled representation]",
+    "description": "This animal tracking dataset is derived from Spanoghe et al. (2022, <a href=\"https://doi.org/10.5281/zenodo.5879096\">https://doi.org/10.5281/zenodo.5879096</a>) a deposit of Movebank study <a href=\"https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study1099562810\">1099562810</a>. Data have been standardized to Darwin Core using the <a href=\"https://inbo.github.io/movepub/\">movepub</a> R package and are downsampled to the first GPS position per hour. The original dataset description follows.\n<em>O_WESTERSCHELDE - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding in East Flanders (Belgium)</em> is a bird tracking dataset published by the <a href=\"https://www.inbo.be/en\">Research Institute for Nature and Forest (INBO)</a>. It contains animal tracking data collected by the LifeWatch GPS tracking network for large birds (<a href=\"http://lifewatch.be/en/gps-tracking-network-large-birds\">http://lifewatch.be/en/gps-tracking-network-large-birds</a>) for the project/study <strong>O_WESTERSCHELDE</strong>, using trackers developed by the University of Amsterdam Bird Tracking System (UvA-BiTS, <a href=\"http://www.uva-bits.nl\">http://www.uva-bits.nl</a>). The study has been operational since 2018. In total 13 individuals of Eurasian oystercatchers (<em>Haematopus ostralegus</em>) have been tagged in their breeding area in East Flanders (Belgium), west of the river Scheldt, mainly to study their habitat use on mudflats of the Western Scheldt (the Netherlands). Data are uploaded from the UvA-BiTS database to Movebank and from there archived on Zenodo (see <a href=\"https://github.com/inbo/bird-tracking\">https://github.com/inbo/bird-tracking</a>). No new data are expected.\nThis dataset was collected using infrastructure provided by INBO and funded by Research Foundation - Flanders (FWO) as part of the Belgian contribution to LifeWatch. Additional funding was provided by the Sovon Dutch Centre for Field Ornithology.",
+    "url": "https://obis.org/dataset/132cfd6e-097d-4ee4-b737-58a596dcbe27",
+    "sameAs": [
+        "https://ipt.inbo.be/resource?r=o_westerschelde"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-05-20T11:16:43.000Z",
+    "keywords": [
+        "animal movement",
+        "animal tracking",
+        "gps tracking",
+        "accelerometer",
+        "altitude",
+        "temperature",
+        "biologging",
+        "birds",
+        "LifeWatch",
+        "UvA-BiTS",
+        "Movebank",
+        "frictionlessdata",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.inbo.be/archive.do?r=o_westerschelde",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0.1078488 49.4150887,0.1078488 51.6181999,4.31004703 51.6181999,4.31004703 49.4150887,0.1078488 49.4150887"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6656",
+            "@type": "Organization",
+            "legalName": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "name": "University of Amsterdam, Faculty of Science, Institute for Biodiversity and Ecosystem Dynamics",
+            "url": "https://oceanexpert.org/institution/6656"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17039",
+            "@type": "Organization",
+            "legalName": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "name": "Vlaamse Overheid - Instituut voor Natuur- en Bosonderzoek",
+            "url": "https://oceanexpert.org/institution/17039"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23186",
+            "@type": "Organization",
+            "legalName": "Sovon Dutch Centre for Field Ornithology",
+            "name": "Sovon Dutch Centre for Field Ornithology",
+            "url": "https://oceanexpert.org/institution/23186"
+        }
+    ]
+}

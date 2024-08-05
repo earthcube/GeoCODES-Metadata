@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a3b1f913-cbfb-48ab-bc4c-5f7f519e464a",
+    "name": "Elephant Seal Sightings, Heard Island (1949 to 1960)",
+    "description": "Elephant Seal Sightings at Heard Island, Southern Indian Ocean.",
+    "url": "https://obis.org/dataset/a3b1f913-cbfb-48ab-bc4c-5f7f519e464a",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=ellie_sightings_heard"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Burton, H. and Watts, D. (2006) Elephant Seal Sightings, Heard Island (1949 to 1960), Australian Antarctic Data Centre - CAASM Metadata (http://aadc-db.aad.gov.au/KeywordSearch/Home.do?Portal=amd_au&amp;MetadataType=0)",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Community composition",
+        "Life history",
+        "Marine mammals",
+        "Population dynamics"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1949/1960",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=ellie_sightings_heard",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "73.2829971313 -53.1886940002,73.2829971313 -52.9663047791,73.7833023071 -52.9663047791,73.7833023071 -53.1886940002,73.2829971313 -53.1886940002"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

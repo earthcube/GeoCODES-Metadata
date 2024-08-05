@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8bdef59c-7d03-4033-afc3-21b46015781c",
+    "name": "Black coral occurrences on the Azores shelves (central north Atlantic) from 1991 to 2019",
+    "description": "Black corals are antipatharian corals that occur from sublittoral to abyssal depths on hard, mixed and soft substrates. Under favourable conditions, some black coral species form dense stands known as black coral gardens which create habitat for a variety of associated species.",
+    "url": "https://obis.org/dataset/8bdef59c-7d03-4033-afc3-21b46015781c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=antipatharia_azores",
+        "https://dx.doi.org/10.14284/557"
+    ],
+    "license": "Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND)",
+    "citation": "Tempera F.; Sinde-Mano A.L.; Gomes Pereira J.N.; Atchoi E.; de Matos V.; Santos S.V.; Milla-Figueras D.; Das D.; Graça G.; Fontes J.; Bates R.; Ribeiro P.; Afonso P.; IMAR-Institute of Marine Research, University of the Azores, Portugal; (2021): Black coral occurrences on the Azores shelves (central north Atlantic) from 1991 to 2019. https://dx.doi.org/10.14284/557",
+    "version": "2024-02-26T23:12:31.000Z",
+    "keywords": [
+        "Cameras",
+        "Remotely operated vehicles",
+        "Scuba diving",
+        "diver",
+        "propelled unmanned submersible",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/2019",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/557",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/557",
+        "url": "https://dx.doi.org/10.14284/557"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=antipatharia_azores",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-31.25 36.9,-31.25 39.75,-24.7 39.75,-24.7 36.9,-31.25 36.9"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

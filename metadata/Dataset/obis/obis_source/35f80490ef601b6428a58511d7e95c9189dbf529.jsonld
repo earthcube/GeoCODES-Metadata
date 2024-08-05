@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5a09b13c-6bab-431d-8de7-c7def1672b06",
+    "name": "Monitoreo de aves presentes en planos lodosos del Parque Nacional Natural Sanquianga",
+    "description": "Este recurso contiene los datos de monitoreo de aves realizados en Parque Nacional Natural Sanquianga, que se realizaron de 2012 a 2014 en el mes de febrero. Los muestreos se realizaron en los planos lodosos del parque, cubriendo cuatro municipios del departamento de Nariño. Contiene 10.470 registros de 47 especies de aves.",
+    "url": "https://obis.org/dataset/5a09b13c-6bab-431d-8de7-c7def1672b06",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=pnn_sanquianga_aves_planolodoso",
+        "https://doi.org/10.15472/h2gp1h"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Loaiza J A, García J L, Estupiñan D, Cuevas W, Pablo P, Richard J, Reina B, Caicedo E, Casas P, Mur C, Ibarbo W, Anchillo E, Rodriguez H, Eusse D, Estupiñan D, Torres Saturnino Montaño E J, Ortega F, Angulo N, Salas J, Rojas Duarte A (2022): Monitoreo de aves presentes en planos lodosos del Parque Nacional Natural Sanquianga. v1.1. Parques Nacionales Naturales de Colombia. Dataset/Occurrence. https://ipt.biodiversidad.co/parquesnacionales/resource?r=sanquianga_plano_lodoso_2014&amp;v=1.1",
+    "version": "2022-02-18T17:16:14.000Z",
+    "keywords": [
+        "Monitoreo de Aves en planos lodosos",
+        "Parques Nacionales",
+        "SIB_MARINO",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/h2gp1h",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/h2gp1h",
+        "url": "https://doi.org/10.15472/h2gp1h"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=pnn_sanquianga_aves_planolodoso",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-78.4537889 2.37942,-78.4537889 2.66909,-78.13538890000001 2.66909,-78.13538890000001 2.37942,-78.4537889 2.37942"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18356",
+            "@type": "Organization",
+            "legalName": "Parques Nacionales Naturales de Colombia",
+            "name": "Parques Nacionales Naturales de Colombia",
+            "url": "https://oceanexpert.org/institution/18356"
+        }
+    ]
+}

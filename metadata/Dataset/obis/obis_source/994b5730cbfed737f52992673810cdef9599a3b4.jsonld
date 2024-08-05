@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6959c7ad-efa9-4138-8111-d62fea26812e",
+    "name": "Phytoplankton data collected in the Black Sea during the 117th cruise of the R/V \"Kovalevskiy\" in 1990",
+    "description": "Phytoplankton data collected in the Black Sea during 117 cruise of the R/V \"Kovalevskiy\" and processed by Lyudmila Georgieva. \nSamples were taken with 6 liter bathometers at standard depths and in the thermocline layer. 1-3 liter of water was concentrated by inverse filtering. Organisms were counted with a Nauman camera 0.4 cm³ or 0.001-0.01 cm³ for nanophytoplankton.",
+    "url": "https://obis.org/dataset/6959c7ad-efa9-4138-8111-d62fea26812e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_blacksea_1990"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lyudmila Georgieva (2012). Phytoplankton data collected in the Black Sea during the 117th cruise of the R/V \"Kovalevskiy\" in 1990. IBSS, National Academy of Sciences of Ukraine; Institute of Biology of the Southern Seas.",
+    "version": "2024-02-26T23:21:03.000Z",
+    "keywords": [
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "individualcount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CellSize",
+            "url": "",
+            "description": "CellSize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cellvolume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CELLVOLM/",
+            "description": "Cellvolume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "",
+            "description": "biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/1990",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_blacksea_1990",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.8 43.1,29.8 46.21,33.49 46.21,33.49 43.1,29.8 43.1"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

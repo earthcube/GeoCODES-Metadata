@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/14e7ad72-5548-4c5b-a025-3c1210ec81fc",
+    "name": "Gabon 2010-11: Corisco Bay, Green Turtles (aggregated per 1-degree cell)",
+    "description": "Original provider:\nMarine Turtle Research Group\n\nDataset credits:\nData provider\nMarine Turtle Research Group\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\nProject partner\nThe partnerships' work in Gabon, which includes satellite telemetry of marine turtles (leatherback, green, and olive ridley turtles), training and capacity building in the use of fisheries vessel monitoring systems and assessing the distribution and abundance of dolphins and whales is funded by the Darwin Initiative, which is financed by the Department for Environment, Food and Rural Affairs of the UK Government under the project Darwin Marine Biodiversity Action Plan for Gabon, the Wallace Research Foundation, and, the Marine Turtle Conservation Fund (US Fish and Wildlife Service, US Department of the Interior).\n\n\nAbstract:\nAs part of a larger marine biodiversity project in Gabon, this year we are adding satellite tracking of green turtles from their foraging grounds in Corisco Bay.  The project aims to examine size-based foraging patterns of turtles.  These movement data will be integrated with a charaterization of the local habitat and an assessment of anthropogenic threats.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=475\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/14e7ad72-5548-4c5b-a025-3c1210ec81fc",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_572_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "McClellan C. 2021. Gabon 2010-11: Corisco Bay, Green Turtles. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/572) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=475).",
+    "version": "2021-04-24T10:02:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_572_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "9.5 0.5,9.5 2.5,14.5 2.5,14.5 0.5,9.5 0.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

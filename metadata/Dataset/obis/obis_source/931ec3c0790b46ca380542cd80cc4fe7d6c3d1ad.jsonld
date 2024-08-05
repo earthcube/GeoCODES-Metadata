@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0ae49e4e-ad4c-4b89-be2e-b6003c0038ec",
+    "name": "OEH Atlas of NSW Wildlife, - marine records Australia (1770 - 2017)",
+    "description": "Records from OEH's Atlas of NSW Wildlife database of flora and fauna sightings. Includes records from other custodians such as the National Herbarium of NSW, Forests NSW, Australian Bird and Bat Banding Scheme and the Australian Museum.\nThe Office of Environment and Heritage (OEH) is a division of the NSW Department of Premier and Cabinet. OEH was formed on 4 April 2011.\nThis dataset was downloaded from ALA May 2018, subsetted to marine records and matched to the World Register of Marine Species (WoRMS).",
+    "url": "https://obis.org/dataset/0ae49e4e-ad4c-4b89-be2e-b6003c0038ec",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=oeh_atlas_nsw_wildlife"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "BioNet Species Sightings occurrence data held by the NSW Office of Environment and Heritage (OEH). The BioNet repository holds data from a number of sources and custodians. (Accessed through OBIS Data Portal,)",
+    "version": "2022-06-07T06:12:54.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1770/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=oeh_atlas_nsw_wildlife",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "138 -38.97349,138 -20.52261,159.26766 -20.52261,159.26766 -38.97349,138 -38.97349"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

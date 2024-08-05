@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d001ebb9-0fea-4931-9544-048f57b15c0b",
+    "name": "Australian Institute of Marine Science (AIMS) Long-term Monitoring Program: Visual Census Fish Data (Great Barrier Reef), Australia (1992 to present)",
+    "description": "About 50 selected reefs throughout the Great Barrier Reef (GBR) are sampled in the AIMS Long-term Monitoring Project (LTMP). A visual census of fish on fixed transects (3 sites per reef, 5 x 50 m transects per site). Fishes from a list of 191 species, representing 10 families, are counted. Individuals, Genus, Species are counted for a prescribed list of 212 species: all the parrotfishes, damselfishes, surgeon fishes, butterflyfishes, and some others. A full list of species observed each year are included in the appendices of each AIMS status report. To detect changes in reef fish communities over time at a regional scale. Source/more information: http://data.aims.gov.au/metadataviewer/uuid/5be0b340-4ade-11dc-8f56-00008a07204e",
+    "url": "https://obis.org/dataset/d001ebb9-0fea-4931-9544-048f57b15c0b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=aims_ltmp_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Sweatman HPA, Cheal AJ, Coleman GJ, Emslie MJ, Johns K, Jonker M, Miller IR and Osborne K (2008) Long-term Monitoring of the Great Barrier reef, Status Report. 8. Australian Institute of Marine Science. 369 p.",
+    "version": "2022-06-08T05:26:13.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=aims_ltmp_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "145.3514 -23.89088,145.3514 -14.52352,152.66857 -14.52352,152.66857 -23.89088,145.3514 -23.89088"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        }
+    ]
+}

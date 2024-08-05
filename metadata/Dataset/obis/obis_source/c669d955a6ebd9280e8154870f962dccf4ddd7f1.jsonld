@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7b7233d7-f05a-4563-8834-1153900a966e",
+    "name": "SNU-FF Mollusca (2001-2002)",
+    "description": "The mollusc fauna of the Southern Black Sea coast (Sinop, Turkey) was semi-quantitatively investigated during 2001-2002 at 12 stations.",
+    "url": "https://obis.org/dataset/7b7233d7-f05a-4563-8834-1153900a966e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=snu_ff_mollu"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Çulha, M., 2002. Mollusca data from 2001-2002. Sinop University Fisheries Faculty (SNU-FF).",
+    "version": "2023-05-23T12:24:50.000Z",
+    "keywords": [
+        "Biological sampling",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=snu_ff_mollu",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "35.0426388889 41.7876388889,35.0426388889 42.0466666667,35.2076388889 42.0466666667,35.2076388889 41.7876388889,35.0426388889 41.7876388889"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11872",
+            "@type": "Organization",
+            "legalName": "Sinop University, Fisheries Faculty",
+            "name": "Sinop University, Fisheries Faculty",
+            "url": "https://oceanexpert.org/institution/11872"
+        }
+    ]
+}

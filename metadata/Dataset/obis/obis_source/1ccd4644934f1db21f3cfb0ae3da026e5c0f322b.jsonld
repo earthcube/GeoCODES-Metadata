@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fd13c964-0fb6-4ef4-ae89-e35fc88a9c77",
+    "name": "Marine and Coastal Management - Linefish Dataset (AfrOBIS)",
+    "description": "Marine and Coastal Management (MCM)'s linefish dataset is collected around the South African Coast, and currently contains 2759599 records of 63 families.",
+    "url": "https://obis.org/dataset/fd13c964-0fb6-4ef4-ae89-e35fc88a9c77",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=mcm_linefish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Marine and Coastal Management - Linefish Dataset",
+    "version": "2020-12-02T14:11:11.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=mcm_linefish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.7482995987 -34.8317985535,11.7482995987 -8.81332969666,40.5069007874 -8.81332969666,40.5069007874 -34.8317985535,11.7482995987 -34.8317985535"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

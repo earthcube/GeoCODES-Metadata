@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3a96d77d-a1fa-491d-9705-d885fe93a802",
+    "name": "Taiwan bottom trawl survey",
+    "description": "This dataset contains fish data from a four year bottom trawl survey (2000-2003), conducted in the waters around Taiwan and the Pescadore Islands.",
+    "url": "https://obis.org/dataset/3a96d77d-a1fa-491d-9705-d885fe93a802",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=taiwan_bottom_trawl_survey"
+    ],
+    "license": "Unrestricted",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=taiwan_bottom_trawl_survey",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "119.55 22.18,119.55 25.41,122.08 25.41,122.08 22.18,119.55 22.18"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20778",
+            "@type": "Organization",
+            "legalName": "Biodiversity Research Centre, Academia Sinica",
+            "name": "Biodiversity Research Centre, Academia Sinica",
+            "url": "https://oceanexpert.org/institution/20778"
+        }
+    ]
+}

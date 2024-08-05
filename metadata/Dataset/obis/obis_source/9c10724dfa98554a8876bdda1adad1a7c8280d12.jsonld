@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/17e27612-3f11-41b1-8080-bbbc886145e4",
+    "name": "Phytoplankton monitoring in the Trieste harbour - North Adriatic Sea (FERRIERA), 2008-2014",
+    "description": "Phytoplankton monitoring in the Trieste harbour, close to an iron foundry (FERRIERA), in the North Adriatic Sea. Sampling during 2008-2014.",
+    "url": "https://obis.org/dataset/17e27612-3f11-41b1-8080-bbbc886145e4",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_ferriera",
+        "https://doi.org/10.6092/67bbf71c-eb59-4ace-bbf1-78229078f4ce"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Fornasaro D., De Vittor C (2017): Phytoplankton monitoring in the Trieste harbour - North Adriatic Sea (FERRIERA), 2008-2014. OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. https://doi.org/10.6092/67bbf71c-eb59-4ace-bbf1-78229078f4ce",
+    "version": "2023-05-23T12:18:20.000Z",
+    "keywords": [
+        "Ecological monitoring",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "upper limit of the size-class",
+            "url": "",
+            "description": "upper limit of the size-class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lower limit of the size-class",
+            "url": "",
+            "description": "lower limit of the size-class"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/67bbf71c-eb59-4ace-bbf1-78229078f4ce",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/67bbf71c-eb59-4ace-bbf1-78229078f4ce",
+        "url": "https://doi.org/10.6092/67bbf71c-eb59-4ace-bbf1-78229078f4ce"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_ferriera",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

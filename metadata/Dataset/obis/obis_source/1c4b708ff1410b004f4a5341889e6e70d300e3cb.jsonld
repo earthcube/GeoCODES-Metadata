@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4d6f5caf-4837-4975-96e3-ab60d2e975c3",
+    "name": "Seabird observations at Nieuwpoort (July 1978 - May 1983)",
+    "description": "Counts of birds observed between July 1978 and May 1983 at Nieuwpoort (Westerstaketsel). The data were digitized by VLIZ from the original report: Borrey, J.; Dewulf, L.; Raes, D.; Tahon, R.; Vercruijsse, B. (1986). 5 jaar zeevogelwaarnemingen te Nieuwpoort (Belgie) 1978/79 - 1982/83. Published by the author(s): Belgium. 119 pp.",
+    "url": "https://obis.org/dataset/4d6f5caf-4837-4975-96e3-ab60d2e975c3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=seabirds_nieuwpoort_1978-1983",
+        "https://dx.doi.org/10.14284/207"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Borrey J.; Dewulf L.; Raes D.; Tahon R.; Vercruysse B.; (2016): Seabird observations at Nieuwpoort (July 1978 - May 1983). (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5437) https://dx.doi.org/10.14284/207",
+    "version": "2023-05-23T11:54:19.000Z",
+    "keywords": [
+        "Birds (marine)",
+        "Birdwatching",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "observed individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "observed individual count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "relative abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9173/",
+            "description": "relative abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ratio autumn/spring individuals",
+            "url": "",
+            "description": "ratio autumn/spring individuals"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/1984",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/207",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/207",
+        "url": "https://dx.doi.org/10.14284/207"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=seabirds_nieuwpoort_1978-1983",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

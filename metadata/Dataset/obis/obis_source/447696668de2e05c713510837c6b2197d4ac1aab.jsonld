@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/674b77d8-d0dc-4fe9-95b8-ab39076462a2",
+    "name": "Marine Birds MZUSP",
+    "description": "Data derived from the bird collection in Museu de Zoologia of Universidade de Sao Paulo (MZUSP).",
+    "url": "https://obis.org/dataset/674b77d8-d0dc-4fe9-95b8-ab39076462a2",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=marine_birds_mzusp",
+        "http://doi.org/10.25607/6uv3nw"
+    ],
+    "license": "",
+    "citation": "Fabio Lang da Silveira and Rubens M. Lopes Collection of Marine Birds of South Atlantic. WSAOBIS, São Paulo, June 2008, Version 1.",
+    "version": "2021-07-02T11:01:41.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1898/2007",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/6uv3nw",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/6uv3nw",
+        "url": "http://doi.org/10.25607/6uv3nw"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=marine_birds_mzusp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-53.45 -34.6,-53.45 -2.1292,-32.1167 -2.1292,-32.1167 -34.6,-53.45 -34.6"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e2162917-3213-4220-820f-b5ea0ead986c",
+    "name": "SCAR Biogeographic Atlas of the Southern Ocean - Tintinnid Ciliates of the Southern Ocean - Data",
+    "description": "Literature review Dataset supplied in the framework of the Biogeographic Atlas of the Southern Ocean (BASO).\n\nThe Biogeographic Atlas of the Southern Ocean is assembles  a selection of representative maps and syntheses on the distribution of the Southern Ocean organisms, to provide a general overview of the biogeography of the Southern Ocean (s.l.) and a benchmark of current biogeographic knowledge at the end of the Census of Antarctic Marine Life (CAML). This will update the well-known and useful but largely outdated Hedgpeth 1969’s Folio on “Distribution of selected groups of marine invertebrates in waters south of 35°S latitude” in the Antarctic Map Folio Series (American Geographical Society).\n\nSpecies records of tintinnids from the Southern Ocean (locations below 40°S) reported in 56 publications published between 1800 and 2013 were compiled yielding about 2,000 species records (synonyms included) from about 400 locations. The 192 species reported can be parsed into two main groups: 32 endemic Southern Ocean species, known only from 40°S and further south, and a second group of 181 widespread species, forms with extensive geographic ranges extending into the Southern Ocean.",
+    "url": "https://obis.org/dataset/e2162917-3213-4220-820f-b5ea0ead986c",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=baso_tintinnida"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dolan J R, Pierce R W (2020): SCAR Biogeographic Atlas of the Southern Ocean - Tintinnid Ciliates of the Southern Ocean - Data. v2.6. SCAR - AntOBIS. Dataset/Occurrence. https://ipt.biodiversity.aq/resource?r=baso_tintinnida&amp;v=2.6",
+    "version": "2020-02-18T19:58:48.000Z",
+    "keywords": [
+        "Occurrence",
+        "Tintinnida",
+        "SCAR-MarBIN",
+        "BASO",
+        "cilliate",
+        "zoooplankton"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=baso_tintinnida",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-160 -78,-160 -40,175 -40,175 -78,-160 -78"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13380",
+            "@type": "Organization",
+            "legalName": "Observatoire Océanologique de Villefranche-sur-Mer, Université Paris6",
+            "name": "Observatoire Océanologique de Villefranche-sur-Mer, Université Paris6",
+            "url": "https://oceanexpert.org/institution/13380"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

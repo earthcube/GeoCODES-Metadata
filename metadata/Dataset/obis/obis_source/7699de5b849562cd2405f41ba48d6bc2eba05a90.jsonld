@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e09c824c-cbd8-4529-b382-5306b2b3a875",
+    "name": "Marine biodiversity atlas of the Balearic Sea",
+    "description": "The marine biodiversity atlas of the Balearic Sea integrates marine information with relevant data of different taxonomic groups (from phytoplankton to big species) during a period of more than 40 years of research and surveys.",
+    "url": "https://obis.org/dataset/e09c824c-cbd8-4529-b382-5306b2b3a875",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=atlas_baleares"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Deudero, Vallespir, Obrador 2011. Atlas de Biodiversidad Marina del Mar Balear. http://www.ba.ieo.es",
+    "version": "2024-02-26T23:16:42.000Z",
+    "keywords": [
+        "Atlases",
+        "Biodiversity",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=atlas_baleares",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0.3933 37.833,0.3933 40.3333,4.9082 40.3333,4.9082 37.833,0.3933 37.833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10957",
+            "@type": "Organization",
+            "legalName": "Instituto Español de Oceanografía – Centro Oceanográfico de Baleares",
+            "name": "Instituto Español de Oceanografía – Centro Oceanográfico de Baleares",
+            "url": "https://oceanexpert.org/institution/10957"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16705",
+            "@type": "Organization",
+            "legalName": "Universitat de les Illes Balears",
+            "name": "Universitat de les Illes Balears",
+            "url": "https://oceanexpert.org/institution/16705"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/52076a40-4d20-4ebc-8e08-3c47adb388eb",
+    "name": "Mackerel and horse mackerel eggs",
+    "description": "The survey existed since 1968. It is carried out every 3 years in the north eastern Atlantic. The year after the Atlantic survey, a mackerel egg survey is conducted in the North Sea. The survey creates a basis for the stock assessment of Atlantic and North Sea mackerel and management plan for Atlantic horse mackerel. The historical MEGS data is expected to be uploaded in 2015-2016. The group responsible for the survey is WGMEGS.",
+    "url": "https://obis.org/dataset/52076a40-4d20-4ebc-8e08-3c47adb388eb",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=megs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES. Mackerel and horse mackerel eggs. Available online at http://eggsandlarvae.ices.dk. Consulted on yyyy-mm-dd.",
+    "version": "2023-12-08T17:48:45.000Z",
+    "keywords": [
+        "Fish eggs",
+        "Monitoring",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "https://vocab.ices.dk/?ref=152/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear deployment",
+            "url": "https://vocab.ices.dk/?ref=1416/",
+            "description": "Gear deployment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mesh type",
+            "url": "https://vocab.ices.dk/?ref=1417/",
+            "description": "Mesh type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Haul duration",
+            "url": "",
+            "description": "Haul duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net clogging",
+            "url": "https://vocab.ices.dk/?ref=1420/",
+            "description": "Net clogging"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Flowmeter type",
+            "url": "https://vocab.ices.dk/?ref=1418/",
+            "description": "Flowmeter type"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=megs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-25.77 35.9,-25.77 68.25466667,13.17133333 68.25466667,13.17133333 35.9,-25.77 35.9"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

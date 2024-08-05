@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2b43830c-60c7-4110-a0f1-84269a4b39d3",
+    "name": "Non-indigenous (NIS) and cryptogenic species in European regional seas and adjacent areas",
+    "description": "The dataset includes 3305 georeferenced points/records. The data records were gathered using three types: digitatalization, exact occurences and expert judgement. The georeferenced data was extracted from the scientific publications and specialized databases (AquaNIS, ICES and Google scholar).",
+    "url": "https://obis.org/dataset/2b43830c-60c7-4110-a0f1-84269a4b39d3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=non_indigenous_and_cryptogenic_species"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "AquaNIS. Editorial Board, 2020. Information system on Aquatic Non-Indigenous and Cryptogenic Species. World Wide Web electronic publication. www.corpi.ku.lt/databases/aquanis. Version 2.36+. Accessed 2020-09-09",
+    "version": "2023-12-08T18:14:19.000Z",
+    "keywords": [
+        "Introduced species",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1801/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=non_indigenous_and_cryptogenic_species",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-18.0833 53.446995,-18.0833 65.7572,29.750165 65.7572,29.750165 53.446995,-18.0833 53.446995"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18647",
+            "@type": "Organization",
+            "legalName": "Klaipėdos Universitetas",
+            "name": "Klaipėdos Universitetas",
+            "url": "https://oceanexpert.org/institution/18647"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/487b9a1c-e04d-471d-9787-00c869cb726c",
+    "name": "Benthic habitats of Marra Sea Country - Gulf of Carpentaria, Australia (2021)",
+    "description": "This dataset summarises benthic surveys in Marra Sea Country, including the Limmen Marine Park (Commonwealth) and Limmen Bight Marine Park (Northern Territory). Records are from 3 datasets as described by the investigators are  (1) A point (site) shapefile describes (a) seagrass presence/absence, (b) seagrass species composition, (c) algae cover and (d) benthic macro-invertebrate cover at n=2018 sites surveyed by small vessel and helicopter. (2) A point (site) shapefile describes deep-water (a) seagrass presence/absence, (b) seagrass species composition, (c) algae cover and (d) benthic macro-invertebrate cover at 54 sites surveyed by benthic towed camera and sled net. (3) The meadow shapefile describes attributes of 69 seagrass meadows. Data sourced from cited paper on 2020-06-01.\nThe sampling methods used to study, describe and monitor seagrass meadows were developed by the TropWATER Seagrass Group and tailored to the location and habitat surveyed; these are described in detail in the relevant publications (https://research.jcu.edu.au/tropwater).",
+    "url": "https://obis.org/dataset/487b9a1c-e04d-471d-9787-00c869cb726c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=marra_sea_country_benthic"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Carter, A. B., Collier, C., Shepherd, L., van de Wetering, C., Barrett, D., &amp; Groom, R. (2022). Benthic habitats of Marra Sea Country - Gulf of Carpentaria [Data set]. eAtlas. https://doi.org/10.26274/JDG5-QY56",
+    "version": "2023-07-03T06:10:30.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Survey Method",
+            "url": "",
+            "description": "Survey Method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Substrate",
+            "url": "",
+            "description": "Substrate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth classification",
+            "url": "",
+            "description": "Depth classification"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Seagrass density",
+            "url": "",
+            "description": "Seagrass density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Seagrass meadow area",
+            "url": "",
+            "description": "Seagrass meadow area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Seagrass mean biomass",
+            "url": "",
+            "description": "Seagrass mean biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=marra_sea_country_benthic",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "135.38473 -15.41847,135.38473 -14.73351,136.30036 -14.73351,136.30036 -15.41847,135.38473 -15.41847"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

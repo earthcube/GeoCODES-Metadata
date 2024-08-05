@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7f2a3db5-5f18-4586-8336-c3ba0a5fb4bd",
+    "name": "Abundance of Diadema antillarum (Echinodermata: Echinoidea) on the coast of Venezuela: 1975-2003",
+    "description": "Diadema antillarum is a shallow-water sea-urchin from the tropical Atlantic whose populations almost disappeared in 1983-84 because of widespread mortalities which reached 87-100 %. In Venezuela, urchin population densities before the mortality event were comparable to those of other Caribbean regions; however, later abundancies remain unknown. The objectives of this study were to evaluate the recent densities of certain D. antillarum populations along the Venezuelan coasts and compare the densities at the Parque Nacional Mochima before and after the mortality.",
+    "url": "https://obis.org/dataset/7f2a3db5-5f18-4586-8336-c3ba0a5fb4bd",
+    "sameAs": [
+        "https://ipt.iobis.org/caribbeanobis/resource?r=diademavenezuela"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Carmona-Suarez C, Scott-Frias J (2022): Abundance of Diadema antillarum (Echinodermata: Echinoidea) on the coast of Venezuela: 1975-2003. v1.5. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=diademavenezuela&amp;v=1.5",
+    "version": "2022-10-19T20:22:27.000Z",
+    "keywords": [
+        "Samplingevent",
+        "sea urchin",
+        "Diadema antillarum",
+        "population density",
+        "Venezuela",
+        "Caribbean",
+        "Proyecto GBIF-CaribeSur BID-CA2020-025-NAC",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Mean density",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS8518/",
+            "description": "Mean density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Maximum density",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS8518/",
+            "description": "Maximum density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total individuals",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/",
+            "description": "Total individuals"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=diademavenezuela",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.298 10.351,-68.298 11.797,-64.335 11.797,-64.335 10.351,-68.298 10.351"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18896",
+            "@type": "Organization",
+            "legalName": "Universidad Central de Venezuela",
+            "name": "Universidad Central de Venezuela",
+            "url": "https://oceanexpert.org/institution/18896"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/306f1021-e882-46c2-8561-7bea79eca466",
+    "name": "Prawns Fisheries in Tanzania",
+    "description": "This data set consists of marine biota caught in marine prawn fisheries survey in Tanzania carried out by Tanzania Fisheries Research Institute (TAFIRI)",
+    "url": "https://obis.org/dataset/306f1021-e882-46c2-8561-7bea79eca466",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=prawns_fisheries_tanzania_2009"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Tanzania Fisheries Research Institute, Prawns Fisheries in Tanzania Dataset published by AfrOBIS; consulted via iOBIS",
+    "version": "2016-03-14T12:25:43.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=prawns_fisheries_tanzania_2009",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "38.81099167 -8.701491667,38.81099167 -3.683533334,43.08779167 -3.683533334,43.08779167 -8.701491667,38.81099167 -8.701491667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

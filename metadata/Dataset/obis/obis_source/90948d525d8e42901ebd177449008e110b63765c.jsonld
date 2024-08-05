@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d104db68-63cf-4f34-b92a-54bd55a07394",
+    "name": "Museums Victoria Marine Invertebrates Collection",
+    "description": "The Marine Invertebrates collection encompasses invertebrates with the exception of insects and spiders. It includes crabs, sea spiders, lobsters, isopods, sponges, corals, worms, molluscs, echinoderms, protozoans and some non-vertebrate chordates.\nEach species has been linked to the World Register of Marine Species (WoRMS https://www.marinespecies.org). Data source from ALA (http://collections.ala.org.au/public/show/co119)",
+    "url": "https://obis.org/dataset/d104db68-63cf-4f34-b92a-54bd55a07394",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nmv_marine_inverts"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T01:33:41.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1698/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nmv_marine_inverts",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.95 -77.2422,-179.95 80.6093,179.37 80.6093,179.37 -77.2422,-179.95 -77.2422"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18185",
+            "@type": "Organization",
+            "legalName": "Museums Victoria",
+            "name": "Museums Victoria",
+            "url": "https://oceanexpert.org/institution/18185"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

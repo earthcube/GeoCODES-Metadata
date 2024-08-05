@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/60984932-a0bf-4838-9134-6ff99143c165",
+    "name": "Empire Wind Digital Aerial Wildlife Surveys for BOEM Lease Area OCS-A 0512, Equinor Wind US LLC, February - December 2019",
+    "description": "Original provider:\nAPEM Limited\n\nDataset credits:\nAPEM Inc. and Normandeau Associates Inc.\n\nAbstract:\nEquinor Wind US, LLC were committed to undertaking a Construction and Operation Plan (COP) of their lease area located in the New York Bight (OCS-A 0512), now called Empire Wind. To facilitate this, 12 surveys were undertaken between February 2019 and December 2019 by APEM Inc. and Normandeau Associates, Inc. (Normandeau-APEM Team) to provide baseline information for consideration in the assessment of potential impacts. Additional surveys were collected between November 2017 and October 2018 and can be accessed https://seamap.env.duke.edu/dataset/2067.\n\nPurpose:\nEquinor initiated monthly offshore high resolution aerial surveys of marine mega-fauna in the New York Bight offshore wind lease area plus a 4 km (2.5 mile) buffer. The surveys used APEM Inc.'s ultra-high resolution aerial digital still imagery to characterize birds present in the lease area and gather additional information on other marine fauna. These surveys provided the baseline information on the abundance and distribution of birds and other marine fauna over the course of a year, as required for conducting impact assessments. The \ndataset is comprised of observations and survey track line information collected from February 2019 to December 2019 inclusive (12 surveys in total).\n\nSupplemental information:\n[2022-06-07] The following recorded species names got their assigned scientific names corrected.\nPASSERINE SPECIES UNID.: Aves =&gt; Passeriformes\nRAY SPECIES UNID.: Euselachii =&gt; Chondrichthyes\nSEAL SPECIES UNID.: Otariidae =&gt; Caniformia\n\nEach record represents 1 individual (except for Fish Shoals which is one entry per 1 shoal encompassing uncounted number of fish). \n\nLocations of digital snapshots are available as a static point layer.",
+    "url": "https://obis.org/dataset/60984932-a0bf-4838-9134-6ff99143c165",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_2159"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Jervis, L. and D. Phillips. 2021. Empire Wind Digital Aerial Wildlife Surveys for BOEM Lease Area OCS-A 0512, Equinor Wind US LLC, February - December 2019. Data downloaded from OBIS-SEAMAP (https://seamap.env.duke.edu/dataset/2159) on yyyy-mm-dd.",
+    "version": "2022-06-07T16:26:20.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Seabirds,Marine mammals,Sea turtles,Visual Sighting,Aircraft",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2159",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.6462 40.1586,-73.6462 40.418,-73.0365 40.418,-73.0365 40.1586,-73.6462 40.1586"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7e1f81d3-fe7a-48e8-9a44-fe62c8ca302a",
+    "name": "ICES Fish stomach contents dataset",
+    "description": "The Fish predator/prey database (stomach database) contains data covering 11 countries. A total of 217 399 stomachs are reported in the North Sea data. Eight predator species were analysed and 854 NODC prey codes have been reported",
+    "url": "https://obis.org/dataset/7e1f81d3-fe7a-48e8-9a44-fe62c8ca302a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ices_stomach_content_data"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES Fish stomach contents dataset (STOMACH). The International Council for the Exploration of the Sea, Copenhagen. 2010. Online source: http://ecosystemdata.ices.dk",
+    "version": "2024-02-26T23:46:06.000Z",
+    "keywords": [
+        "Predator prey interactions",
+        "Stomach content",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "SampleNumber",
+            "url": "",
+            "description": "SampleNumber"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of stomachs analised",
+            "url": "",
+            "description": "Number of stomachs analised"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Predator Lower Length Bound",
+            "url": "",
+            "description": "Predator Lower Length Bound"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of stomachs with food",
+            "url": "",
+            "description": "Number of stomachs with food"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Predator Upper Length Bound",
+            "url": "",
+            "description": "Predator Upper Length Bound"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of stomachs Empty",
+            "url": "",
+            "description": "Number of stomachs Empty"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of stomachs Regurgitated",
+            "url": "",
+            "description": "Number of stomachs Regurgitated"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of stomachs with Skeletal Remains",
+            "url": "",
+            "description": "Number of stomachs with Skeletal Remains"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/1991",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ices_stomach_content_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.5 51.25,-5.5 63.25,154 63.25,154 51.25,-5.5 51.25"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

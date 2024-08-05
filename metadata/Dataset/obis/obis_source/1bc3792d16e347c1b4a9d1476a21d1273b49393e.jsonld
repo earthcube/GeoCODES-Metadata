@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7fe6cf81-4866-4d04-89b1-4f0738f84cff",
+    "name": "Plancton marino presente en la zona marino-costera de Santa Marta, Magdalena",
+    "description": "Se reportan un total de 332 registros correspondientes al plancton marino de la zona marino-costera de Santa Marta, distribuidas en 249 para el fitoplancton y 83 para el zooplancton. Estos datos se obtuvieron en noviembre de 2022, en áreas específicas de interés, tales como la desembocadura del Río Manzanares, el Emisario Submarino, Playa Blanca, Isla Aguja, Bahía Concha y Bahía Neguanje. Las muestras de agua fueron recolectadas con el propósito de llevar a cabo un análisis que permitiera la caracterización de las comunidades del plancton y la evaluación de aspectos ecológicos.",
+    "url": "https://obis.org/dataset/7fe6cf81-4866-4d04-89b1-4f0738f84cff",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=umagdalena_aguas-lastre",
+        "https://doi.org/10.15472/z2aa1i"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Tette Pomárico A J, Páez De Ávila D P, De la Hoz Roca A M, Romero Borja I (2023): Plancton marino presente en la zona marino-costera de Santa Marta, Magdalena. v1.0. Universidad del Magdalena. Dataset/Occurrence. https://doi.org/10.15472/z2aa1i",
+    "version": "2023-11-14T15:31:34.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Calidad del agua",
+        "Gestión de Aguas de Lastre",
+        "Zona marino-costera",
+        "Plancton",
+        "PERMISO_COLECTA",
+        "SIB_MARINO"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2022/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/z2aa1i",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/z2aa1i",
+        "url": "https://doi.org/10.15472/z2aa1i"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=umagdalena_aguas-lastre",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-74.24105 11.21808,-74.24105 11.32184,-74.08196 11.32184,-74.08196 11.21808,-74.24105 11.21808"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10047",
+            "@type": "Organization",
+            "legalName": "Universidad del Magdalena",
+            "name": "Universidad del Magdalena",
+            "url": "https://oceanexpert.org/institution/10047"
+        }
+    ]
+}

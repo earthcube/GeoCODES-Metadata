@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/31931936-77cc-4562-a775-b1553fe7ffe8",
+    "name": "Port Phillip Bay Environmental Study Data 1992-1996 - infauna records",
+    "description": "In 1991, CSIRO was approached to design and manage an environmental study of the Bay to seek answers to questions concerning the sustainable use and management of the Bay. The Study began in October 1992 and finished in June 1996. This dataset comprises the infauna data\nFurther details and datafiles are at https://marlin.csiro.au/geonetwork/srv/eng/catalog.search#/metadata/dce565ae-fc9b-45b2-e043-08114f8c948f",
+    "url": "https://obis.org/dataset/31931936-77cc-4562-a775-b1553fe7ffe8",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ppbes_infauna"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-07T06:07:05.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight of catch",
+            "url": "",
+            "description": "Wet weight of catch"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1992",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ppbes_infauna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "144.67467 -38.3135,144.67467 -38.09683,144.94933 -38.09683,144.94933 -38.3135,144.67467 -38.3135"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19301",
+            "@type": "Organization",
+            "legalName": "Commonwealth Scientific and Industrial Research Organisation ",
+            "name": "Commonwealth Scientific and Industrial Research Organisation ",
+            "url": "https://oceanexpert.org/institution/19301"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bcd4cb33-c483-40e6-9d11-a6a779cd8ec7",
+    "name": "Stereo-BRUVS observations from eight sites along the Western Australian coast, Australia (2007-2008)",
+    "description": "Stereo-BRUVS observations as part of a  UWA / Western Australian Government Natural Heritage Trust Strategic Project from the following sites along the Western Australian coast:, Abrolhos, Jurien Bay, Capes, Rottnest Island, Middle Island, Point Ann, Broke Inlet, Wrights Bank and Two Peoples Bay. Data from GlobalArchive Project 75 (https://globalarchive.org/geodata/data/project/get/75) accessed on 2022-03-28.",
+    "url": "https://obis.org/dataset/bcd4cb33-c483-40e6-9d11-a6a779cd8ec7",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=globalarchive_75_wa"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T02:08:10.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Benthos",
+            "url": "",
+            "description": "Benthos"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Relief",
+            "url": "",
+            "description": "Relief"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=globalarchive_75_wa",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.86422 -35.10043,113.86422 -28.6514,123.42005 -28.6514,123.42005 -35.10043,113.86422 -35.10043"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18840",
+            "@type": "Organization",
+            "legalName": "The University of Western Australia",
+            "name": "The University of Western Australia",
+            "url": "https://oceanexpert.org/institution/18840"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

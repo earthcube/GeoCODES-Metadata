@@ -1,0 +1,76 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b483bf5b-e440-4b0d-b2bb-301c31b6ed24",
+    "name": "Crustáceos depositados en la Colección Estuarina y Marina, Universidad de Antioquia - CEMUA",
+    "description": "La Colección Estuarina y Marina de la Universidad de Antioquia (CEMUA) cuenta con especímenes pertenecientes al subphylum Crustacea desde el año 2010, año en el cual se dio origen a la colección gracias a la Expedición Antioquia. Este conjunto de datos cuenta con un total de 1269  lotes físicos curados y registrados en la base de datos DarwinCore, provenientes del Pacífico y Caribe Colombiano, específicamente de lugares como Bahía Solano, el Chocó, Necoclí, Reserva Natural Sanguré, San Andrés y Turbo. Cada uno de los especímenes fueron recolectados entre los años 2002 y 2016. Por otro lado, el 52.48% del total de loscrustaceos de la colección CEMUA corresponden a los lotes registrados hasta especie, el otro 47.51% está distribuido para los lotes que se registraron hasta phylum (12.06%), subphylum (1.34%), clase (0.63%), subclase (1.42%), infraclase (0.16%), orden (19.46%), suborden (0.08%), infraorden (0.08%), familia (1.34%)y género (10.95%).",
+    "url": "https://obis.org/dataset/b483bf5b-e440-4b0d-b2bb-301c31b6ed24",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=coleccion_cemua_arth",
+        "https://doi.org/10.15472/bgspwz"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Roa Cataño L M, Londoño Mesa M H (2023): Crustáceos depositados en la Colección Estuarina y Marina, Universidad de Antioquia - CEMUA. v1.1. Universidad de Antioquia. Dataset/Occurrence. https://doi.org/10.15472/bgspwz",
+    "version": "2023-10-25T01:23:06.000Z",
+    "keywords": [
+        "Crustacea",
+        "Colección CEMUA",
+        "Registro biológico",
+        "Marino",
+        "Costero",
+        "Universidad de Antioquia",
+        "Colombia",
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/bgspwz",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/bgspwz",
+        "url": "https://doi.org/10.15472/bgspwz"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=coleccion_cemua_arth",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.71627 5.98741,-81.71627 13.53333,-75.49425 13.53333,-75.49425 5.98741,-81.71627 5.98741"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16726",
+            "@type": "Organization",
+            "legalName": "Universidad de Antioquia",
+            "name": "Universidad de Antioquia",
+            "url": "https://oceanexpert.org/institution/16726"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17925",
+            "@type": "Organization",
+            "legalName": "Instituto de Investigaciones Marinas y  Costeras",
+            "name": "Instituto de Investigaciones Marinas y  Costeras",
+            "url": "https://oceanexpert.org/institution/17925"
+        }
+    ]
+}

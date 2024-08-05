@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1639af0c-dd65-488a-b3d1-31792ecd4dfc",
+    "name": "Phytoplankton monitoring RADIALES - Section off Vigo (NW Spain, Galicia); coastal (station depth 39m); sampling depths 0, 5, 10 and 30m",
+    "description": "Monthly time series of phytoplankton species abundance at several depths of the water column in a fixed oceanographic station off Vigo (NW Spain)",
+    "url": "https://obis.org/dataset/1639af0c-dd65-488a-b3d1-31792ecd4dfc",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=fito_rvi1",
+        "https://dx.doi.org/10.14284/50"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Reguera, B.; Instituto Español de Oceanografía (IEO); (2015): Phytoplankton monitoring RADIALES: Section off Vigo (NW Spain, Galicia); coastal (station depth 39m); sampling depths 0, 5, 10 and 30m https://dx.doi.org/10.14284/50",
+    "version": "2023-03-09T01:48:53.000Z",
+    "keywords": [
+        "lowered unmanned submersible",
+        "research vessel",
+        "Time series",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "upper limit of the size-class",
+            "url": "",
+            "description": "upper limit of the size-class"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2006",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/50",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/50",
+        "url": "https://dx.doi.org/10.14284/50"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=fito_rvi1",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18010",
+            "@type": "Organization",
+            "legalName": "Instituto Español de Oceanografía",
+            "name": "Instituto Español de Oceanografía",
+            "url": "https://oceanexpert.org/institution/18010"
+        }
+    ]
+}

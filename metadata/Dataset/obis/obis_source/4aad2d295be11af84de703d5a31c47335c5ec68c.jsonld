@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f1e773cb-e896-45b0-8a1e-faded8facb33",
+    "name": "Admiralty Bay Benthos Diversity Data Base (ABBED). Pycnogonida.",
+    "description": "Information system on benthic organisms of Admiralty Bay (King George Island, South Shetland Islands, Antarctic).",
+    "url": "https://obis.org/dataset/f1e773cb-e896-45b0-8a1e-faded8facb33",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=abbed_pycnogonida"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Sicinski J., Bamber R. 2008. Admiralty Bay Benthos Diversity Data Base (ABBED). Pycnogonida. (http://www.scarmarbin.be)",
+    "version": "2019-03-19T14:46:17.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/1986",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=abbed_pycnogonida",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-58.4847 -62.15569,-58.4847 -62.13333,-58.43333 -62.13333,-58.43333 -62.15569,-58.4847 -62.15569"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19195",
+            "@type": "Organization",
+            "legalName": "ARTOO Marine Biology Consultants",
+            "name": "ARTOO Marine Biology Consultants",
+            "url": "https://oceanexpert.org/institution/19195"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19378",
+            "@type": "Organization",
+            "legalName": "University of Lodz – Dept. Invertebrate Zoology & Hydrobiology – Laboratory of Polar Biology and Oceanobiology",
+            "name": "University of Lodz – Dept. Invertebrate Zoology & Hydrobiology – Laboratory of Polar Biology and Oceanobiology",
+            "url": "https://oceanexpert.org/institution/19378"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/185fe84e-91f7-4f2c-b2ac-115116c7111e",
+    "name": "DFO Gulf Region Groundfish Research Vessel Surveys",
+    "description": "Tow, catch, length frequency, and biological information for fish caught during the annual September research vessel trawl surveys in the southern Gulf of St. Lawrence (NAFO Division 4T). Abundance indices and spatial distribution patterns of commercial and non-commercial groundfish.",
+    "url": "https://obis.org/dataset/185fe84e-91f7-4f2c-b2ac-115116c7111e",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=obis_dfo_gulf_groundfishsurveys"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "DFO. (2019).  DFO Gulf Region Groundfish Research Vessel Surveys. Version 4 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2022-03-30T15:00:11.000Z",
+    "keywords": [
+        "biota",
+        "oceans",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=obis_dfo_gulf_groundfishsurveys",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.91467 45.69309,-65.91467 49.14642,-58.48333 49.14642,-58.48333 45.69309,-65.91467 45.69309"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6185",
+            "@type": "Organization",
+            "legalName": "Gulf Region, Fisheries and Oceans Canada",
+            "name": "Gulf Region, Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6185"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19633",
+            "@type": "Organization",
+            "legalName": "OBIS Canada",
+            "name": "OBIS Canada",
+            "url": "https://oceanexpert.org/institution/19633"
+        }
+    ]
+}

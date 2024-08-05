@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7de27276-f9f7-40a2-bbd3-18512b50fe28",
+    "name": "Zooplankton and Ichthyoplankton of the North Western Portuguese Coast in May 2002",
+    "description": "The objective of this data collection was to analise the daily vertical migration of decapod larvae in the water column in the northwestern portuguese coast and to assess its correlations with environmental parameteres. In order to do this plankton samples were collected with Bongo nets, LHPR multisampler and Neuston net in a area between the north western Portuguese coast and the 10 °W and between the 40° and 42°N and, aditionally at a fixed location during a 67 hours period, every two hours. In the fixed sampling point a plankton trap was also deployed. The data set presented corresponds to the zooplankton analysed in all the samples taken. This work is part of the ProRecruit project, which aimed to describe the spatial and temporal variability of the recruitment of coastal invertebrate species that show a planktonic larvar phase in their lifecylce, and understand the impact of environmental variables which may control its supply to the coastal systems.",
+    "url": "https://obis.org/dataset/7de27276-f9f7-40a2-bbd3-18512b50fe28",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=prorecruit",
+        "https://dx.doi.org/10.14284/465"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Dos Santos, A.; Marraccini, A.; Stehle, M.J.; Lourenço, P.; Pires, R.; Queiroga, H. (2017). Zooplankton and Ichthyoplankton of the North Western Portuguese Coast in May 2002 https://dx.doi.org/10.14284/465",
+    "version": "2023-05-23T12:17:53.000Z",
+    "keywords": [
+        "Vertical migrations",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method used to collect or make the in-situ measurement or observation",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling method used to collect or make the in-situ measurement or observation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Life cycle development stage of the biological entity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Life cycle development stage of the biological entity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CTD measurment of salinity of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALCC02/",
+            "description": "CTD measurment of salinity of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature of any body of fresh or salt water",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature of any body of fresh or salt water"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2002",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/465",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/465",
+        "url": "https://dx.doi.org/10.14284/465"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=prorecruit",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-9.761 40.3,-9.761 40.9,-8.716 40.9,-8.716 40.3,-9.761 40.3"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/14932",
+            "@type": "Organization",
+            "legalName": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "name": "Instituto Português do Mar e da Atmosfera, I. P.",
+            "url": "https://oceanexpert.org/institution/14932"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/eddee438-1ec9-4e50-83ca-a7ee7bc324cc",
+    "name": "Marine Biodiversity in Ilha Grande Bay Rio de Janeiro State - Southwest Brazil",
+    "description": "This data set includes the results of the Marine Rapid Assessment Protocol sampling activities undertaken in summer 2003 and winter 2004 at forty three different localities along Ilha Grande Bay, Rio de Janeiro State, Brazil. Macroalgae and animal (invertebrates and fish) samples were obtained, either from rocky as well from sand beaches including infralitoral by SCUBA diving.",
+    "url": "https://obis.org/dataset/eddee438-1ec9-4e50-83ca-a7ee7bc324cc",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=marine_biodiversity_in_ilha_grande_bay",
+        "http://doi.org/10.25607/sjzztx"
+    ],
+    "license": "Unrestricted",
+    "citation": "Silveira FL, Lopes RM (2008): Marine Biodiversity in Ilha Grande Bay Rio de Janeiro State - Southwest Brazil. v1. Tropical and Subtropical Western South Atlantic OBIS. Dataset/Occurrence. http://ipt.iobis.org/wsaobis/resource?r=marine_biodiversity_in_ilha_grande_bay&amp;v=1.0",
+    "version": "2021-07-02T11:01:19.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2004",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/sjzztx",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/sjzztx",
+        "url": "http://doi.org/10.25607/sjzztx"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=marine_biodiversity_in_ilha_grande_bay",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-44.69 -23.291,-44.69 -22.962,-44.099 -22.962,-44.099 -23.291,-44.69 -23.291"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/22585",
+            "@type": "Organization",
+            "legalName": "Universidade Federal de São Paulo, Campus Sao Paolo",
+            "name": "Universidade Federal de São Paulo, Campus Sao Paolo",
+            "url": "https://oceanexpert.org/institution/22585"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c3f4ad36-dd99-4926-a499-d62ac678313a",
+    "name": "Phytoplankton in the Coastal Waters of Zmiinyi Island in the Black Sea (2004-2015)",
+    "description": "Species composition, abundance and biomass of phytoplankton in the coastal waters of Zmiinyi island in the Black Sea in 2004-2015.",
+    "url": "https://obis.org/dataset/c3f4ad36-dd99-4926-a499-d62ac678313a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zmiinyi_phytoplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gazyetov Ye., Derezyuk N., Medinets V. (2019) Phytoplankton data in the coastal waters of Zmiinyi Island in the Black Sea in 2004-2015.",
+    "version": "2024-02-26T23:20:07.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet Weight Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "Wet Weight Biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zmiinyi_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "30.19 45.24,30.19 45.26,30.21 45.26,30.21 45.24,30.19 45.24"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

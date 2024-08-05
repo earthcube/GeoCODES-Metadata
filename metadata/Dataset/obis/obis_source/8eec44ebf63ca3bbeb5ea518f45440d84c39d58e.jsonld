@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b1253eed-05ce-41bc-9cb9-0fe001ec37b5",
+    "name": "Tracking of hawksbill and green turtles on the North-west Shelf, Western Australia (2017-2018)",
+    "description": "A combination deployment of GPS Fastloc and Argos transmitters on 20 nesting female green turtles on Legendre Island, Rosemary Island and Middle Island (below Barrow Island) to understand their movements during the inter-nesting period, the migration to foraging grounds and the areas they use for foraging. Hawksbill turtle data will be included once it is out of emabargo. Part of project titled 'Understanding the distribution and important areas for hawksbill and green turtles on the NW Shelf &amp; overlap with industrial activities, Pilbara region, North-west Shelf, Western Australia'\nData sourced from Zoatrack project 534 https://zoatrack.org/projects/534/ on 2021-06-01",
+    "url": "https://obis.org/dataset/b1253eed-05ce-41bc-9cb9-0fe001ec37b5",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=zoatrack_534_526_turtles"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "The data in this project is publicly available under a Creative Commons Attribution License. If you use these data in any type of publication then you must cite the project DOI (if available) or any published peer-reviewed papers associated with the study. We strongly encourage you to contact the data custodians to discuss data usage and appropriate accreditation.",
+    "version": "2022-06-07T05:54:21.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "ARGOS Location Class",
+            "url": "",
+            "description": "ARGOS Location Class"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=zoatrack_534_526_turtles",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114.58323 -21.8624,114.58323 -8.69525,122.07922 -8.69525,122.07922 -21.8624,114.58323 -21.8624"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/33edf19e-249d-4d20-993b-7c7f34e7bace",
+    "name": "Tracking of Little Penguins (Eudyptula minor) from Montague Islands, New South Wales coast, Australia (2012-2019)",
+    "description": "Penguins were tracked from a breeding colony on Montague Island (Baranguba) (36°15.11 S, 150° 13.60 E), 9 km off the southeast coast of New South Wales, Australia. Tracking was conducted during September and October over a 5-year period from 2015 to 2019. Penguins were tracked while brooding young chicks (0–4 weeks old) and therefore limited to making single-day foraging trips within approximately 25 km of the colony. This dataset contains additional tracking in the period 2012 to 2014. Data sourced from Dryad repositories referenced in the cited publications.",
+    "url": "https://obis.org/dataset/33edf19e-249d-4d20-993b-7c7f34e7bace",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=montague_little_penguins"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-10-09T22:57:13.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=montague_little_penguins",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "149.94333 -37.08098,149.94333 -35.86446,150.33909 -35.86446,150.33909 -37.08098,149.94333 -37.08098"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19389",
+            "@type": "Organization",
+            "legalName": "Macquarie University",
+            "name": "Macquarie University",
+            "url": "https://oceanexpert.org/institution/19389"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

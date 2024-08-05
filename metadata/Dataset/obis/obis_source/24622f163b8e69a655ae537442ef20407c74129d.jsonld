@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e44d04a7-71eb-4ee0-95f9-f4001552ce40",
+    "name": "Benguela Current Large Marine Ecosystem (BCLME) - Namibia",
+    "description": "Dataset of seals, birds, fish, invertebrates, lichens and plants that extracted from the literature for Namibia's section of the BCLME programme. It currently comprises 338 records.",
+    "url": "https://obis.org/dataset/e44d04a7-71eb-4ee0-95f9-f4001552ce40",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=bclme_namibia"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2020-12-02T14:08:39.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=bclme_namibia",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.75 -29.4333000183,11.75 -17.25,16.9333000183 -17.25,16.9333000183 -29.4333000183,11.75 -29.4333000183"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

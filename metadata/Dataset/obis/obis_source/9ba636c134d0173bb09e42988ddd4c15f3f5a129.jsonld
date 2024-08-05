@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4cfae7c6-13a8-4ed4-9a91-3ea4aa64c3c3",
+    "name": "Meiofauna of the Gulf of Trieste-Slovenia",
+    "description": "The database contains abundance of main meiofaunal groups and of harpacticoid copepods separately. There are also data present from a recolonisation study.",
+    "url": "https://obis.org/dataset/4cfae7c6-13a8-4ed4-9a91-3ea4aa64c3c3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=manuela_mt"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Vriser, B. &amp; Grego, M. (2005). Meiofauna of the Gulf of Trieste (NIB-MBS database on meiofauna version 1.2). National Institute of Biology, Marine Biological Station Piran (MBS), Slovenia",
+    "version": "2024-02-26T23:16:43.000Z",
+    "keywords": [
+        "Abundance",
+        "Meiobenthos",
+        "Meiofauna",
+        "Taxonomy",
+        "Data",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1972/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=manuela_mt",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.46283333 45.48,13.46283333 45.62333333,13.72 45.62333333,13.72 45.48,13.46283333 45.48"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

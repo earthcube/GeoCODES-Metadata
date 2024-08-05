@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/00032856-12cd-46ff-b9d5-ddeaecae3c95",
+    "name": "Biota occurrence data from plankton surveys around New Zealand",
+    "description": "The dataset contains details of the biota caught during plankton surveys around New Zealand and the south western Pacific although some occurrence data is included from other oceans sourced from the digitisation of journal articles from New Zealand authors. A large source from this dataset is provided by the New Zealand Ministry of Primary Industries from its \"plankton\" and \"rocklob\" databases. This dataset records all biological specimens collected during plankton sampling including fish, larvae, and eggs. This dataset does not include and data from Constant Plankton Recorders.",
+    "url": "https://obis.org/dataset/00032856-12cd-46ff-b9d5-ddeaecae3c95",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=mbis_plankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Southwest Pacific OBIS (2013). Biological observation data from plankton surveys around New Zealand. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 36723 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=mbis_plankton released on June 22, 2014.",
+    "version": "2018-11-14T19:56:50.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1955/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=mbis_plankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.9966667 -78.16666667,-179.9966667 37.61666667,179.9998 37.61666667,179.9998 -78.16666667,-179.9966667 -78.16666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        }
+    ]
+}

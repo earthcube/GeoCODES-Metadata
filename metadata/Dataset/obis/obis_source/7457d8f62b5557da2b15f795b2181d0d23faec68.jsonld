@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b636df3e-401f-4832-bdb6-e9d477229448",
+    "name": "Red king crab survey data from Finnmark Northern Norway in the period 1994 -2016",
+    "description": "The dataset contains sampling of red king crab for a long period. The data has been sampled with trawl and traps, and the sampling has been conducted mostly during the autumn.",
+    "url": "https://obis.org/dataset/b636df3e-401f-4832-bdb6-e9d477229448",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imr_kingcrab"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hjelset, Ann Merete; Institute of Marine Research, Norway (2018): Red king crab survey data from Finnmark Northern Norway in the period 1994 -2016",
+    "version": "2023-05-23T11:28:21.000Z",
+    "keywords": [
+        "Long term follow up",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "count",
+            "url": "",
+            "description": "count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imr_kingcrab",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "20.805 69.5,20.805 71.250666666667,31.58 71.250666666667,31.58 69.5,20.805 69.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

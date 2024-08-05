@@ -1,0 +1,134 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3aa23743-5491-481b-9a70-42a537b61ed2",
+    "name": "Benthic invertebrates abundance data from French REBENT network",
+    "description": "French benthic invertebrates composition and abundance taxa data are collected during REBENT monitoring surveys on the English Channel / Bay of Biscay coasts and during RSLFAU monitoring surveys on Mediterranean coast. Protocols are implemented in the Water Framework Directive.",
+    "url": "https://obis.org/dataset/3aa23743-5491-481b-9a70-42a537b61ed2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zoobenthos_reseau_suivi_lagunaire_from_2003_to_2018"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "REBENT network (2019). Benthic invertebrates abundance data in ODV format from French REBENT network. SEANOE. https://doi.org/10.17882/60681",
+    "version": "2023-12-08T18:16:46.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "ObservedIndividualCount..dimensionless.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "ObservedIndividualCount..dimensionless."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingEffort..m2.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "SamplingEffort..m2."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SubSamplingCoefficient..dimensionless.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "description": "SubSamplingCoefficient..dimensionless."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Instrument.Info",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Instrument.Info"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zoobenthos_reseau_suivi_lagunaire_from_2003_to_2018",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.99004 41.3894,2.99004 43.7558,9.5834 43.7558,9.5834 41.3894,2.99004 41.3894"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5010",
+            "@type": "Organization",
+            "legalName": "ARVAM Agence pour la Recherche et la Valorisation Marine",
+            "name": "ARVAM Agence pour la Recherche et la Valorisation Marine",
+            "url": "https://oceanexpert.org/institution/5010"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/5506",
+            "@type": "Organization",
+            "legalName": "Universite de Bordeaux I, Environnements et Paléoenvironnements OCéaniques , Talence",
+            "name": "Universite de Bordeaux I, Environnements et Paléoenvironnements OCéaniques , Talence",
+            "url": "https://oceanexpert.org/institution/5506"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13777",
+            "@type": "Organization",
+            "legalName": "Centre National de la Recherche Scientifique",
+            "name": "Centre National de la Recherche Scientifique",
+            "url": "https://oceanexpert.org/institution/13777"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16194",
+            "@type": "Organization",
+            "legalName": "Université de Liège",
+            "name": "Université de Liège",
+            "url": "https://oceanexpert.org/institution/16194"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18797",
+            "@type": "Organization",
+            "legalName": "Laboratoire d'Océanologie et Geosciences - UMR 8187 - Centre National de la Recherche Scientifique - Université du Littoral Côte d'Opale - Université de Lille",
+            "name": "Laboratoire d'Océanologie et Geosciences - UMR 8187 - Centre National de la Recherche Scientifique - Université du Littoral Côte d'Opale - Université de Lille",
+            "url": "https://oceanexpert.org/institution/18797"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19642",
+            "@type": "Organization",
+            "legalName": "Station Biologique de Roscoff",
+            "name": "Station Biologique de Roscoff",
+            "url": "https://oceanexpert.org/institution/19642"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20186",
+            "@type": "Organization",
+            "legalName": "Université de Bretagne Occidentale",
+            "name": "Université de Bretagne Occidentale",
+            "url": "https://oceanexpert.org/institution/20186"
+        }
+    ]
+}

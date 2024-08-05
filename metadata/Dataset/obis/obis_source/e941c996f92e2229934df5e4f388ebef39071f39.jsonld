@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6e4758cf-07b4-4fbf-bd04-91cdf1c8a1ec",
+    "name": "SEFSC Mid-Atlantic Tursiops Survey, 1995 2",
+    "description": "Original provider:\nNOAA Southeast Fisheries Science Center (SEFSC)\n\nDataset credits:\nSoutheast Fisheries Science Center, NOAA\n\nAbstract:\nMid Atlantic Tursiops Surveys (MATS) were conducted  in 1995 by NOAA Southeast Fisheries Science Center to examine the distribution and estimate an index of relative abundance for Atlantic bottlenose dolphins (Tursiops truncatus) inhabiting the nearshore coastal waters in mid-and southern Atlantic bight. This data set contains sightings of not only the target dolphins but also other species including cetaceans, sea turtles, fish and shark observed during the aerial surveys.\n\nThe same transects were traced three times on different dates during the survey period. This data set is the second one. The other two are provided, too, with the number following MATS95s indicating the first, second and last.\n\nCetacean and sea turtles observed include as follows.\n&lt;&lt; Cetacean &gt;&gt;\nAtlantic spotted dolphin\nStandard Bottlenose dolphin\n\n&lt;&lt; Sea Turtle &gt;&gt;\nHardshell\nKemp's ridley\nLeatherback\nLoggerhead\n\nSurvey's transects information is available in MATS95s2Efforts.\n\nPurpose:\nThe purpose of this survey was to examine the distribution and estimate an index of relative abundance for Atlantic bottlenose dolphins inhabiting the nearshore coastal waters of the U.S. mid- and southern Atlantic bight.\n\nSupplemental information:\nRecords with no common name are some pollution observed (e.g. plastic).\n\nRecords were assigned a sequential number LineNo. LineNo can be used to match observations with corresponding transects, each of which has BegLineNo and EndLineNo fields. Observation records with their LineNo between BegLineNo and EndLineNo in a transect are related to  that transect.\n\nA duplicated LineNo indicates more than one species were observed at the same time.\n\nRecords include 'off-effort' sightings as well. Card 'F' indicates that the observation was done while off-effort. Card D is used for observation while on effort.\n\nWhen searching for a specific species, note that some records don't identify animals observed at a species level. If this is the case, the common/scientific name may be genus/family or higher (e.g. Balaenoptera sp.).",
+    "url": "https://obis.org/dataset/6e4758cf-07b4-4fbf-bd04-91cdf1c8a1ec",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_89"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Garrison, L. 2013. SEFSC Mid-Atlantic Tursiops Survey, 1995 2. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/89) on yyyy-mm-dd.",
+    "version": "2021-09-08T16:09:26.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Vessel,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_89",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-75.9648 35.2473,-75.9648 40.503,-73.3003 40.503,-73.3003 35.2473,-75.9648 35.2473"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7534",
+            "@type": "Organization",
+            "legalName": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "name": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "url": "https://oceanexpert.org/institution/7534"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

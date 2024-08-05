@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/88f140b4-efbb-43f6-bbd9-631174bc5f8e",
+    "name": "Green turtles (Chelonia mydas) tracking - Muiron and Ningaloo Marine Park, Western Australia, (2018-2019)",
+    "description": "Tracking of 14 green turtles (Chelonia mydas) from Ningaloo Reef, Western Australia. Data accessed from Zoatrack Project 733 (https://zoatrack.org/projects/733) in 2022-08-03",
+    "url": "https://obis.org/dataset/88f140b4-efbb-43f6-bbd9-631174bc5f8e",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=zoatrack_733_green_turtles"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Tucker T (2022): Green turtles (Chelonia mydas) tracking - Muiron and Ningaloo Marine Park, Western Australia, (2018-2019). v1.0. Dataset/Occurrence. https://zoatrack.org/projects/733",
+    "version": "2022-10-13T23:14:28.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=zoatrack_733_green_turtles",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "112.685 -25.754,112.685 -19.674,119.625 -19.674,119.625 -25.754,112.685 -25.754"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

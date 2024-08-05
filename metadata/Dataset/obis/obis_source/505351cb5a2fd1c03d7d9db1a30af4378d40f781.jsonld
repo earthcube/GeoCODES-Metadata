@@ -1,0 +1,97 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b216687d-99ec-4f86-b28d-276f136a9611",
+    "name": "Fish observations delivered by \"Canarias por una Costa Viva\" project",
+    "description": "The project ‘Canarias, por una costa viva (CCV)’ was an integrated research and educational initiative that run between 2003 – 2004 with the goals of gathering robust scientific information of keystone coastal habitats and the promotion of public awareness about responsible uses of marine resources in the Canary Islands (Central East Atlantic Ocean). Sampling effort has been carried out biannually at 100 locations around the coastlines of the overall Canary Islands. Specifically, we have studied the conservation status of key fish species and their role in their ecosystems. The relationship between the human population, the natural environment and the pressures it supports has been observed in different anthropogenically stressed areas (sewage areas, shell fishing activity, sea-cage fish farms and ports) and preserved areas",
+    "url": "https://obis.org/dataset/b216687d-99ec-4f86-b28d-276f136a9611",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ccv_fishes",
+        "https://dx.doi.org/10.14284/469"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "ECOAQUA institute, University Las Palmas de Gran Canaria; Spain; (2015): Fish observations delivered by \"Canarias por una Costa Viva\" project https://dx.doi.org/10.14284/469",
+    "version": "2023-05-23T11:39:47.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Coastal fisheries",
+        "diver",
+        "Transect",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "The number of individuals of a biological object (identified elsewhere in the data or metadata) in the sample or observation.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "The number of individuals of a biological object (identified elsewhere in the data or metadata) in the sample or observation."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length (Standard Length) of biological entity specified elsewhere {SL}",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SL01XX01/",
+            "description": "Length (Standard Length) of biological entity specified elsewhere {SL}"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2005",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/469",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/469",
+        "url": "https://dx.doi.org/10.14284/469"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ccv_fishes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-18.0267 27.6379,-18.0267 29.4111,-13.3373 29.4111,-13.3373 27.6379,-18.0267 27.6379"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18991",
+            "@type": "Organization",
+            "legalName": "Universidad Las Palmas de Gran Canaria",
+            "name": "Universidad Las Palmas de Gran Canaria",
+            "url": "https://oceanexpert.org/institution/18991"
+        }
+    ]
+}

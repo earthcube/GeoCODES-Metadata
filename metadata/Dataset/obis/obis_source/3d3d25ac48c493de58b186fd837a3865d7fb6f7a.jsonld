@@ -1,0 +1,51 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2c4f07c6-1c02-4082-88da-9e51b7897f24",
+    "name": "Marine Microbes from the Maria Island National Reference Station (NRS), Tasmania, Australia (2012-2021)",
+    "description": "The Australian Marine Microbial Biodiversity Initiative (AMMBI) provides methodologically standardized, continental scale, temporal phylogenetic amplicon sequencing data describing Bacteria, Archaea and microbial Eukarya assemblages. Sequence data is linked to extensive physical, biological and chemical oceanographic contextual information. Samples are collected monthly to seasonally from multiple depths at seven National Reference Stations (NRS) sites: Darwin Harbour (Northern Territory), Yongala (Queensland), North Stradbroke Island (Queensland), Port Hacking (New South Wales), Maria Island (Tasmania), Kangaroo Island (South Australia), Rottnest Island (Western Australia). The Integrated Marine Observing System (IMOS) NRS network is described at http://imos.org.au/facilities/nationalmooringnetwork/nrs/\nMaria Island NRS is located 4 nm offshore from Maria Island at 80 m depth over muddy sand, on the eastern coast of Tasmania. This is the southernmost NRS. The site is seasonally impacted by the most southerly extent of the EAC, which has been increasing over the past 60 years, resulting in rapid ocean warming in this region. MAI may also be influenced seasonally by the LC. The water column is well mixed year-round with some slight stratification between November and March. There is a long historical oceanographic dataset from this site (with intermittent gaps in certain parameters) dating back to 1944. Site details from Brown, M. V. et al. Continental scale monitoring of marine microbiota by the Australian Marine Microbial Biodiversity Initiative. Sci. Data 5:180130 doi: 10.1038/sdata.2018.130 (2018).\nSite location: Maria Island National Reference Station (NRS), Tasmania, Australia\nNote on data download/processing:\nData downloaded from Australian Microbiome Initiative via Bioplatforms Australia Data Portal on 17 June 2022. The search filter applied to download data from Bioplatforms Australia Data portal are stored in the Darwin Core property (identificationRemarks). Taxonomy is assigned according to the taxonomic database (SILVA 138) and method (Sklearn) which is stored in the Darwin Core Extension\nDNA derived data property (otu_db). Prefix were removed from the taxonomic names as shown in the example (e.g. d__Bacteria to Bacteria). Scientific name is assigned to the valid name available from the highest taxonomic rank.\nThis collection is published as Darwin Core Occurrence, so the event level measurements need to be replicated for every occurrence. Instead of data replication, the event level eMoF data are made available separately at https://www.marine.csiro.au/data/services/obisau/emof_export.cfm?ipt_resource=bioplatforms_mm_nrs_mai",
+    "url": "https://obis.org/dataset/2c4f07c6-1c02-4082-88da-9e51b7897f24",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bioplatforms_mm_nrs_mai"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Please see https://www.australianmicrobiome.com/protocols/acknowledgements/ for citation examples and links to the data policy.",
+    "version": "2022-06-24T04:39:34.000Z",
+    "keywords": [
+        "occurrence",
+        "occurrence",
+        "16S rRNA",
+        "18S rRNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bioplatforms_mm_nrs_mai",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/21685",
+            "@type": "Organization",
+            "legalName": "University of Newcastle",
+            "name": "University of Newcastle",
+            "url": "https://oceanexpert.org/institution/21685"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6230e41e-42e6-4bc1-91f8-eae2a7877389",
+    "name": "PIFSC, Cetacean Survey, WHICEAS 2020, Cruise 2001, NOAA Pacific Islands Fisheries Science Center",
+    "description": "Original provider:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nDataset credits:\nNOAA Pacific Islands Fisheries Science Center\n\nAbstract:\nThe Winter Hawaiian Islands Cetacean and Ecosystem Assessment Survey (referred to as “Winter HICEAS”) of 2020 was a ship-board survey for cetaceans and seabirds within offshore waters surrounding the main Hawaiian Islands (MHI). This project used many of the same methods as the previous HICEAS projects which occurred in 2002 (Barlow 2006), 2010 (Bradford et al. 2017), and 2017 (Yano et al. 2018).\nThe Winter HICEAS 2020 project represents the third cetacean and ecosystem assessment survey conducted as part of the Pacific Marine Assessment Program for Protected Species (PacMAPPS), a partnership between NOAA Fisheries, Bureau of Ocean Energy Management (BOEM), and the U.S. Navy. PacMAPPS includes rotational ship surveys in regions of joint interest throughout the Pacific designed to estimate the abundance of cetaceans and seabirds and to assess the ecosystems supporting these species. The previous PacMAPPS surveys include the 2017 HICEAS and 2018 California Current Ecosystem Survey. The HICEAS project was a collaborative effort between the Pacific Islands and the Southwest Fisheries Science Centers (PIFSC and SWFSC) and surveyed the U.S. waters surrounding the northwestern and main Hawaiian Islands from July through December 2017, whereas the 2018 California Current Ecosystem Survey, led by the SWFSC, surveyed waters offshore from the U.S. West Coast from June through December 2018 (Henry et al. 2020).\nWinter HICEAS 2020 sailed aboard the NOAA Ship Oscar Elton Sette (hereafter referred to as the Sette) for 51 days-at-sea. The project was conducted during 2 survey “legs”; Leg 1 sailed on 18 January to 12 February and Leg 2 sailed on 17 February to 12 March.\nDuring 51 days-at-sea, there were 326 cetacean sightings  and 53 groups of dolphins and whales that could not be identified to species\n\nSupplemental information:\nData were collected under NMFS permit 20311.\nThe data included here are the sightings and on-effort tracks recorded within WinCruz survey software and extracted from the QA/QC'd DAS file using the R package swfscDAS (https://smwoodman.github.io/swfscDAS).\n\nAttributes for fields within the trackline files:\nCruise - see description in attribute table below\nsegnum - segment number for continuous on-effort line\nDate - Local date m/dd/yyyy\nTimeStart - Local time at start of on-effort segment\nLatStart - Latitude in decimal degrees at starting point of on-effort segment\nLongStart - Longitude in decimal degrees at starting point of on-effort segment\nTimeEnd - Local time at end of on-effort segment\nLatEnd - Latitude in decimal degrees at end point of on-effort segment\nLongEnd - Longitude in decimal degrees at end point of on-effort segment\nMode - see description in attribute table below\nEffType - see description in attribute table below\navgSpdKt - average speed (knots) of the ship over the on-effort segment traveled\navgBft - average Beaufort Sea State over the on-effort segment\n\nOther data not included here:\nPhotos and biopsy samples were collected during some sightings. Acoustic detections were recorded from a towed hydrophone array. Sonobuoys were deployed opportunistically. Drifting Acoustic Spar Buoy Recorders (DASBRs) were deployed and recovered opportunistically.  A High-frequency Acoustic Recording Package (HARP) was recovered and redeployed off the Kona Coast of Hawaii Island. Oceanographic data were collected (CTD).",
+    "url": "https://obis.org/dataset/6230e41e-42e6-4bc1-91f8-eae2a7877389",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2238"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Hill, M. 2023. PIFSC, Cetacean Survey, WHICEAS 2020, Cruise 2001, NOAA Pacific Islands Fisheries Science Center. Data downloaded from OBIS-SEAMAP (https://seamap.env.duke.edu/dataset/2238) on yyyy-mm-dd.",
+    "version": "2023-09-07T16:01:14.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2238",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-161.91283 17.713,-161.91283 23.45233,-153.30267 23.45233,-153.30267 17.713,-161.91283 17.713"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

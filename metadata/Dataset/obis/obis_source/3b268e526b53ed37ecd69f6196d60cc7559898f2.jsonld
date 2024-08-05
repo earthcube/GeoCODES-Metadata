@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/814e548f-f6ec-46c7-8fd2-43764952c515",
+    "name": "POPA- Fisheries Observer Program of the Azores: Marine mammal sightings in the Azores between 2004 and 2013 recorded by Biosphere Expedition",
+    "description": "Sightings (snap shots) of marine mammals collected by Biosphere Expeditions collaborators specifically for POPA. Since 2004  Biosphere Expeditions (www.biosphere-expeditions.org) collects data for POPA in the Azores central group in April and May.",
+    "url": "https://obis.org/dataset/814e548f-f6ec-46c7-8fd2-43764952c515",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=be_marine_mammals_sightings_2004_2013",
+        "https://dx.doi.org/10.14284/21"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Machete, M.; Institute of Marine Research (IMAR), Portugal; Department of Oceanography and Fisheries, University of the Azores (DOP/UAC), Portugal; (2014): POPA- Fisheries Observer Program of the Azores: Marine mammal sightings in the Azores between 2004 and 2013 recorded by Biosphere Expedition. https://dx.doi.org/10.14284/21",
+    "version": "2023-12-08T17:48:46.000Z",
+    "keywords": [
+        "Archipelagic waters",
+        "Coastal fisheries",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2013",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/21",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/21",
+        "url": "https://dx.doi.org/10.14284/21"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=be_marine_mammals_sightings_2004_2013",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-38.59583333 28.66666667,-38.59583333 39.54806667,-26.53 39.54806667,-26.53 28.66666667,-38.59583333 28.66666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19372",
+            "@type": "Organization",
+            "legalName": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "name": "Universidade dos Açores – Departamento de Oceanografia e Pescas",
+            "url": "https://oceanexpert.org/institution/19372"
+        }
+    ]
+}

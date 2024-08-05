@@ -1,0 +1,120 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/232a26ea-f38c-4126-a4a5-174a7030aa65",
+    "name": "Epifauna community at Waarde and Saeftinghe (Westerschelde) in 1991",
+    "description": "Species composition, density and biomass of epifauna in the creeks of saltmarshes Waarde and Saeftinghe between February and August 1991. The data were digitized by VLIZ from the original report: Makwaia, E.S. (1992). Utilization of saltmarshes by fishes and macrocrustaceans in the Westerschelde estuary. MSc Thesis. RUG: Gent. 49 pp.",
+    "url": "https://obis.org/dataset/232a26ea-f38c-4126-a4a5-174a7030aa65",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=epifauna_waarde_saeftinghe_1991",
+        "https://dx.doi.org/10.14284/224"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Makwaia E.S.; Hamerlynck O.; Fundamental and Applied Marine Ecology Post Graduate Program (FAME). VUB; Marine Biology Section, Zoology Institute. Ugent: Belgium; (2016): Epifauna community at Waarde and Saeftinghe (Westerschelde) in 1991. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4591) https://dx.doi.org/10.14284/224",
+    "version": "2023-12-08T17:48:24.000Z",
+    "keywords": [
+        "Epibenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Net length",
+            "url": "",
+            "description": "Net length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ash-free dry weight biomass of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL07/",
+            "description": "Ash-free dry weight biomass of biological entity specified elsewhere per unit volume of the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1991",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/224",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/224",
+        "url": "https://dx.doi.org/10.14284/224"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=epifauna_waarde_saeftinghe_1991",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "4.09231 51.363281,4.09231 51.406667,4.209901 51.406667,4.209901 51.363281,4.09231 51.363281"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19530",
+            "@type": "Organization",
+            "legalName": "Royal Netherlands Academy of Arts and Sciences – Netherlands Institute of Ecology",
+            "name": "Royal Netherlands Academy of Arts and Sciences – Netherlands Institute of Ecology",
+            "url": "https://oceanexpert.org/institution/19530"
+        }
+    ]
+}

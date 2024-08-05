@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b339f72f-eb69-40c5-b60c-1a37aaffdfb7",
+    "name": "Marine biological observation data from coastal and offshore surveys around New Zealand",
+    "description": "Occurrence details of New Zealand marine fauna and flora from around the coastline and offshore. Information is assimilated from a variety of sources including unpublished data sets and digitised from journal articles. Where the source is from a published paper the source paper citation is listed at the record level.",
+    "url": "https://obis.org/dataset/b339f72f-eb69-40c5-b60c-1a37aaffdfb7",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=mbis_nz"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "SWPRON (2014). Marine biological observation data from coastal and offshore surveys around New Zealand. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, Online http://nzobisipt.niwa.co.nz/resource.do?r=mbis_nz",
+    "version": "2024-01-13T08:59:44.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1843/2024",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=mbis_nz",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.989 -77.875,-179.989 62.190833,180 62.190833,180 -77.875,-179.989 -77.875"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        }
+    ]
+}

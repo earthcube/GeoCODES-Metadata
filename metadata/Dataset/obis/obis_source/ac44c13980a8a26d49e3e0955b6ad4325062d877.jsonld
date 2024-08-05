@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/efa02fe9-6b5b-4173-85e7-912f71921fe7",
+    "name": "Marine Microbes from RV Investigator voyage IN2016_V03, 170W, Pacific Ocean (2016)",
+    "description": "A dataset describing the microbial pro- and eukaryotic diversity along a 7,000-km transect from the Antarctic ice edge to the equator in the South Pacific Ocean. Water samples were collected from Niskin bottles from CTD deployments reaching depths of 6000m.\nUsing the World Register of Marine Species (WoRMS), the identification data has been tested and resolved to the lowest possible rank. Occurrence records where the taxa have only been resolved to kingdom have been removed from this dataset on advice from BioPlatforms as the identifications are not very robust.\nNote on data download/processing:\nData downloaded from Australian Microbiome Initiative via Bioplatforms Australia Data Portal on 17 June 2022. The search filter applied to download data from Bioplatforms Australia Data portal are stored in the Darwin Core property (identificationRemarks). Taxonomy is assigned according to the taxonomic database (SILVA 138) and method (Sklearn) which is stored in the Darwin Core Extension\nDNA derived data property (otu_db). Prefix were removed from the taxonomic names as shown in the example (e.g. d__Bacteria to Bacteria). Scientific name is assigned to the valid name available from the highest taxonomic rank.\nThis collection is published as Darwin Core Occurrence, so the event level measurements need to be replicated for every occurrence. Instead of data replication, the event level eMoF data are made available separately at https://www.marine.csiro.au/data/services/obisau/emof_export.cfm?ipt_resource=bioplatforms_mm_in2016_v03",
+    "url": "https://obis.org/dataset/efa02fe9-6b5b-4173-85e7-912f71921fe7",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bioplatforms_mm_in2016_v03"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "When using Australian Microbiome Initiative data, please acknowledge the Consortium and Bioplatforms Australia support using the following wording:\n\nWe would like to acknowledge the contribution of the Marine Microbes (MM) and Biomes of Australian Soil Environments (BASE) projects, through the Australian Microbiome Initiative in the generation of data used in this publication. The Australian Microbiome Initiative is supported by funding from Bioplatforms Australia through the Australian Government National Collaborative Research Infrastructure Strategy (NCRIS).",
+    "version": "2022-08-09T05:46:18.000Z",
+    "keywords": [
+        "occurrence",
+        "occurrence",
+        "16S rRNA",
+        "18S rRNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bioplatforms_mm_in2016_v03",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-174.784083 -66.33315,-174.784083 0.00383,-168.61612 0.00383,-168.61612 -66.33315,-174.784083 -66.33315"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

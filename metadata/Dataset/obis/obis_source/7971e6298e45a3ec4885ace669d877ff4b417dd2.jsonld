@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bc01451e-d990-4ad1-8315-e3fb6e9cf461",
+    "name": "Zooplankton Species Distribution and Abundance Data, Arctic Marine Biodiversity Observing Network (AMBON) Chukchi Sea research cruise, August 2017",
+    "description": "This dataset contains zooplankton species distribution and abundance data collected in the Chukchi Sea during the August 2017 Arctic Marine Biodiversity Observing Network (AMBON) research cruise. The dataset is a comma separate values file (csv) exported from a Microsoft Excel spreadsheet. The data include the location, date, time, depth, abundance and biomass of zooplankton collected during the 2017 AMBON cruise. Zooplankton were caught with traditional 150µm plankton nets and taxonomically identified. Each data file include the location, date, time, depth, and identification of zooplankton taxa collected during the 2015 AMBON cruise. The data in the file named AMBON2017_Zooplankton_Abundance_150_DC.csv and AMBON2017_505_Zooplankton_Abundance_DWC.csv consists of abundance per taxon of zooplankton. The data in the file named AMBON2017_Zooplankton_Biomass_150_DC.csv and AMBON2017_505_Zooplankton_Biomass_DWC.csv consists of biomass per taxon of zooplankton. These data files are presented in a table structure using Darwin Core term names as column names. This dataset also contains the file AMBON_station_masterlist.csv, describing stations sampled during AMBON cruises.\n\nThe goal of the Arctic Marine Biodiversity Observing Network (AMBON) project is to demonstrate and build an operational marine biodiversity observing network from microbes to whales, integrating diversity levels from genetic to organismal. AMBON is funded through the National Ocean Partnership Program, with contributions from the National Oceanic and Atmospheric Administration (NOAA), the Bureau of Ocean and Energy Management (BOEM), Shell Exploration and Production Company, and the National Science Foundation (NSF). The AMBON field region is located on the Chukchi Sea continental shelf in the US Arctic as a region exposed to climatic changes and anthropogenic influences. AMBON is composed of a team of multi-institutional and multi-sector partners active in a variety of Arctic biodiversity observing programs and covering disciplines ranging from genetic to organismal to ecosystem. Zooplankton are the key link between primary production and many other trophic levels. Their incredible numbers and their ability to store large amounts of lipids make them an essential food source for many pelagic-feeding fishes, birds and mammals.",
+    "url": "https://obis.org/dataset/bc01451e-d990-4ad1-8315-e3fb6e9cf461",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=ambon_zooplankton_2017"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-03-31T16:05:46.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance_[#/m3]",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600002/",
+            "description": "Abundance_[#/m3]"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass_[mg dw/m3]",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600086/",
+            "description": "Biomass_[mg dw/m3]"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=ambon_zooplankton_2017",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-168.9554 67.6645,-168.9554 72.4969,159.4106 72.4969,159.4106 67.6645,-168.9554 67.6645"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18955",
+            "@type": "Organization",
+            "legalName": "Axiom Data Science",
+            "name": "Axiom Data Science",
+            "url": "https://oceanexpert.org/institution/18955"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20908",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks",
+            "name": "University of Alaska Fairbanks",
+            "url": "https://oceanexpert.org/institution/20908"
+        }
+    ]
+}

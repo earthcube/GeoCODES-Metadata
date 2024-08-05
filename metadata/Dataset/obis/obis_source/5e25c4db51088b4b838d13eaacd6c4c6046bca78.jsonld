@@ -1,0 +1,127 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c71febef-1155-47c8-a9d1-bc46f911d2e9",
+    "name": "Spatial distribution of meiobenthos in the Voordelta (October 1988)",
+    "description": "Meiofauna composition and overview of nematoda genera found in Grevelingen and the Oosterschelde area on 17 and 19 October 1988. The data were digitized by VLIZ from the original report: Jian, L. (1989). The study in the spatial distribution of meiobenthos in the Voordelta (the Southern Bight of the North Sea). MSc Thesis. VUB: Yerseke. 77 pp.",
+    "url": "https://obis.org/dataset/c71febef-1155-47c8-a9d1-bc46f911d2e9",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=meiobenthos_voordelta_1988",
+        "https://dx.doi.org/10.14284/275"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Jian L.; Heip C.; Fundamental and Applied Marine Ecology Post Graduate Program (FAME). VUB: Belgium; Delta Institute for Hydrobiological Research: The Netherlands; (2017): Spatial distribution of meiobenthos in the Voordelta (October 1988). (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4233) https://dx.doi.org/10.14284/275",
+    "version": "2024-02-27T00:07:47.000Z",
+    "keywords": [
+        "Meiobenthos",
+        "Spatial distribution",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "box-core aperture diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "box-core aperture diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Core Depth",
+            "url": "",
+            "description": "Core Depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "replica core aperture diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "replica core aperture diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of biological entity specified elsewhere per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/1988",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/275",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/275",
+        "url": "https://dx.doi.org/10.14284/275"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=meiobenthos_voordelta_1988",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.534167 51.65889,3.534167 51.79639,3.75167 51.79639,3.75167 51.65889,3.534167 51.65889"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20904",
+            "@type": "Organization",
+            "legalName": "Koninklijke Nederlandse Academie van Wetenschappen",
+            "name": "Koninklijke Nederlandse Academie van Wetenschappen",
+            "url": "https://oceanexpert.org/institution/20904"
+        }
+    ]
+}

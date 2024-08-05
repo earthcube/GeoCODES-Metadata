@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e70adc9f-c4f3-4685-a5f7-5ba8e4a6da14",
+    "name": "Echinodermata of Montenegro (South Adriatic)",
+    "description": "The aim of this data collection was to improve the knowledge on the occurrence of Echinoderms in the Adriatic Sea.",
+    "url": "https://obis.org/dataset/e70adc9f-c4f3-4685-a5f7-5ba8e4a6da14",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=echinodermata_of_montenegro",
+        "https://dx.doi.org/10.14284/30"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Kascelan, S., Mandic, S., Radovic I., Krpo-Cetkovic, J. - Institute of Marine Biology - University of Montenegro; University of Belgrade (2015). Echinodermata of Montenegro (South Adriatic). http://dx.doi.org/10.14284/30 https://dx.doi.org/10.14284/30",
+    "version": "2023-05-23T11:54:08.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Checklists",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2008",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/30",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/30",
+        "url": "https://dx.doi.org/10.14284/30"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=echinodermata_of_montenegro",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "18.53 41.9,18.53 42.49,19.23 42.49,19.23 41.9,18.53 41.9"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18116",
+            "@type": "Organization",
+            "legalName": "University of Montenegro-Institute of Marine Biology",
+            "name": "University of Montenegro-Institute of Marine Biology",
+            "url": "https://oceanexpert.org/institution/18116"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19322",
+            "@type": "Organization",
+            "legalName": "University of Belgrade",
+            "name": "University of Belgrade",
+            "url": "https://oceanexpert.org/institution/19322"
+        }
+    ]
+}

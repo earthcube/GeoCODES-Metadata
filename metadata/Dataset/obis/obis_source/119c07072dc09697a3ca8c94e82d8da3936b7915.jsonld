@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c38dc813-38b3-4681-bed0-14cb85d57555",
+    "name": "Natura 2000 Network (Saltmarshes vegetation)",
+    "description": "Key species of estuarine habitats, which have been identified through the analysis of the phytosociological communities that are developed within Natura 2000 sites in Cantabria.",
+    "url": "https://obis.org/dataset/c38dc813-38b3-4681-bed0-14cb85d57555",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ihcantabria_angiosp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Recio M (2022): Natura 2000 Network (Saltmarshes vegetation)",
+    "version": "2023-12-08T17:22:00.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ihcantabria_angiosp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-4.48493 43.3656,-4.48493 43.5025,-3.44973 43.5025,-3.44973 43.3656,-4.48493 43.3656"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/14102",
+            "@type": "Organization",
+            "legalName": "Environmental Hydraulics Institute",
+            "name": "Environmental Hydraulics Institute",
+            "url": "https://oceanexpert.org/institution/14102"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e4a8f544-db4c-423f-a4e4-812785bd1551",
+    "name": "BRUVS data from Southwest Corner Marine Park, Western Australia (2020-2023)",
+    "description": "This BRUVS data is from the South West Corner Marine Park project and has been downloaded from GlobalArchive (https://globalarchive.org/geodata/data/project/get/275) in February 2022 Individual campaigns within this project can be identified by the collection code within this resource. Taxa have been matched to the World Register of Marine Species (WoRMS). Additional data added from observations in March 2023. \nGlobalArchive is an online centralised repository of fish image annotation, stereo calibration and associated information that provides the ability to upload data with flexible file formats. It is designed to receive standardised datatable formats directly from EventMeasure (EM) software or from any other image annotation records or historical data sets and provides the ability to explore, query and share this data with other users across different projects and institutions. GlobalArchive is designed for working with annotation data that has already been generated via external sources. It solves the problem of data synthesis providing a centralised repository to work with and query the data, and also provides advanced sharing capability to allow for synthesis and collaboration between users and organisations. GlobalArchive was conceived by Timothy Langlois at the University of Western Australia and brought to life by Ariell Friedman at Greybits Engineering in Sydney.",
+    "url": "https://obis.org/dataset/e4a8f544-db4c-423f-a4e4-812785bd1551",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=globalarchive_275_sw_corner"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Langlois T, Monk, J., Giraldo Ospina, A., Gibbons, B., Sims, H., Huang, Z., Nichol, S. and Barrett, N. (2021). An eco-narrative of South-west Corner Marine Park – Capes region. Report to the National Environmental Science Program, Marine Biodiversity Hub. The University of Western Australia.",
+    "version": "2023-11-12T23:33:41.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Forked Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Forked Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=globalarchive_275_sw_corner",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114.4664 -34.1412,114.4664 -33.66369,114.96509 -33.66369,114.96509 -34.1412,114.4664 -34.1412"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18840",
+            "@type": "Organization",
+            "legalName": "The University of Western Australia",
+            "name": "The University of Western Australia",
+            "url": "https://oceanexpert.org/institution/18840"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

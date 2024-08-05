@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d0dc72dc-0a2c-42f3-8ef8-e9c21e0d9b76",
+    "name": "Historic data (1908-1963) of benthic macrofauna from the Limfjord, Denmark",
+    "description": "This historic benthic macrofauna dataset was digitized and standardized by ICES iin the framework of the EMODNet Biology project. It contains data from the Danish Biological Station who collected quantitative samples of the benthic macrofauna on a yearly basis from a range of stations in the Limjord during more than 5 decades.",
+    "url": "https://obis.org/dataset/d0dc72dc-0a2c-42f3-8ef8-e9c21e0d9b76",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=denmark_macrobenthos_1908_1963"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Institute of Aquatic Resources (Aqua) - DTU, Denmark; International Council for the Exploration of the Sea (ICES), Denmark (2016): Historic data (1908-1963) of benthic macrofauna from the Limfjord, Denmark",
+    "version": "2024-02-27T00:20:53.000Z",
+    "keywords": [
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1909/1960",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=denmark_macrobenthos_1908_1963",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "8.897903521 56.79726898,8.897903521 56.99530902,9.173445105 56.99530902,9.173445105 56.79726898,8.897903521 56.79726898"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

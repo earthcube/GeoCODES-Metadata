@@ -1,0 +1,73 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b7cdeca9-f3a4-474f-b644-a74f504083bb",
+    "name": "CephBase",
+    "description": "A database-driven web site on all living cephalopods (octopus, squid, cuttlefish and nautilus). Contact at cephbase@hotmail.com",
+    "url": "https://obis.org/dataset/b7cdeca9-f3a4-474f-b644-a74f504083bb",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=ceph"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "NRCC, University of Texas Medical Branch, Phillip Lee, and James B. Wood; Biology Department, Dalhousie University, Cartiona L. Day and Ronald K. O'Dor., CephBase (European data). National Resource Center for Cephalopods (NRCC), 11 Aug 2004, Galveston, Texas.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Behavior",
+        "Biogeography",
+        "Bioinformatics",
+        "Biologists",
+        "Biology",
+        "Education",
+        "Fisheries",
+        "Latitude",
+        "Longitude",
+        "Oceanography",
+        "Research",
+        "Taxonomy"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=ceph",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.831695557 -80.1166992188,-179.831695557 81.2332992554,179.966705322 81.2332992554,179.966705322 -80.1166992188,-179.831695557 -80.1166992188"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5899",
+            "@type": "Organization",
+            "legalName": "University of British Columbia",
+            "name": "University of British Columbia",
+            "url": "https://oceanexpert.org/institution/5899"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ea84229b-38bc-48ec-8edd-ffda90b93731",
+    "name": "MARMAP Short Bottom Longline 1990-2009",
+    "description": "Abundance and biomass of fish species collected during the day from 1979 to 2000 off the coast of the southeastern United States (Cape Fear, NC to Cape Canaveral, FL). The short bottom longline consists of 25.6 m of 6.4-mm treated solid braid Dacron groundline. 20 gangions (#5 or #7 hooks) are placed 1.2 m apart on the groundline, which is attached to polypropylene line and buoyed to the surface with polyball buoy and a trailer Hi-Flyer buoy.",
+    "url": "https://obis.org/dataset/ea84229b-38bc-48ec-8edd-ffda90b93731",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=marmap_shortbottomlongline"
+    ],
+    "license": "Restricted",
+    "citation": "Marcel Reichert, 2010, MARMAP Short Bottom Longline 1990-2009, SCDNR/NOAA MARMAP Program, SCDNR MARMAP Aggregate data surveys, The Marine Resources Monitoring, Assessment, and Prediction (MARMAP) Program, Marine Resources Research Institute, South Carolina Department of Natural Resources, P.O. Box 12559, Charleston SC 29422-2559, U.S.A.Retrieved from http://www.usgs.gov/obis-usa/",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=marmap_shortbottomlongline",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.2799987793 29.9099998474,-80.2799987793 34.1899986267,-76.1200027466 34.1899986267,-76.1200027466 29.9099998474,-80.2799987793 29.9099998474"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

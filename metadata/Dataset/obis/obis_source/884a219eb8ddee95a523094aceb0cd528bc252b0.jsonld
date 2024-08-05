@@ -1,0 +1,122 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/97d434fe-2a1b-47ab-8b76-7789685bf116",
+    "name": "CSIRO, Soviet Fishery Data, Australia, 1965-1978",
+    "description": "This dataset comprises catch compositions and trawl locations from 35 cruises of Russian fishery research vessels carried out in Australian waters between March 1965 and April 1978, containing some 4000 demersal trawls, mostly on the Australian continental shelf, in particular the Great Australian Bight, Australian North West Shelf, and the Gulf of Carpentaria, but also on the east and west coasts, in Bass Strait, and around Tasmania. Most records include catch composition by species (presence/absence but not weight), also some data on length frequency, maturity and diet of commercially important species. The dataset is an aggregate dataset from cruises of the vessels Berg-1, Berg-2, Seskar, Raduga, Lira, Berg-3, Korifei, Sutchan, Pr. Deruygin, Prometey, SETM 8-449, Alba, Poseidon, Equator, Shantar, Bacaevo, Kamensky, Tichookeanscy, Pulk. Meridian and Mys Tichy. The data were obtained by exchange with Soviet scientists in the mid 1990s and has had CSIRO species codes incorporated.\nThis data has been republished (2022-09-05) with additional details of each occurrence where they can be one of three types:  catch composition (counts per taxa and optional aggregated weights by trawl event), catch measurements (length and/or weight) of individual taxa and/or catch specimens and their stored location. The occurrence type is recorded in occurrenceremarks.\n\n",
+    "url": "https://obis.org/dataset/97d434fe-2a1b-47ab-8b76-7789685bf116",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_soviet_fishery_data"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "CSIRO - Soviet Fishery surveys in Australian waters 1965-78",
+    "version": "2022-09-13T06:03:31.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Total catch weight",
+            "url": "",
+            "description": "Total catch weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Catch effort",
+            "url": "",
+            "description": "Catch effort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "",
+            "description": "Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Standard length (SL)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Standard length (SL)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Stomach fullness",
+            "url": "",
+            "description": "Stomach fullness"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Maturation stage",
+            "url": "",
+            "description": "Maturation stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen Count",
+            "url": "",
+            "description": "Specimen Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fork length (FL)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Fork length (FL)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1965/1978",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_soviet_fishery_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "112.25917 -43.90916,112.25917 -6.63458,168.1432 -6.63458,168.1432 -43.90916,112.25917 -43.90916"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

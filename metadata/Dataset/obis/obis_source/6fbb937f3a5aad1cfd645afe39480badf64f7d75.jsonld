@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/85006b5f-8fcd-49a3-9030-1d29852da278",
+    "name": "Phytoplankton of the Ukrainian Black Sea shelf (1985-2005)",
+    "description": "Species composition, abundance and biomass of the phytoplankton at selected depths from the seabed to the surface.",
+    "url": "https://obis.org/dataset/85006b5f-8fcd-49a3-9030-1d29852da278",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=derezuk_phytoplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Natalya Derezuyk. Data on the phytoplankton of the Ukrainian Black Sea shelf (1985-2005).",
+    "version": "2024-02-26T23:43:05.000Z",
+    "keywords": [
+        "Abundance",
+        "Biomass",
+        "Phytoplankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=derezuk_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "28.1167 42,28.1167 47,41.0167 47,41.0167 42,28.1167 42"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6cc9c435-4df8-4680-b921-c1733aa03c3a",
+    "name": "Fish larvae biodiversity along the central coast in the Brazilian EEZ (OBIS South America, BRAZIL)",
+    "description": "This volume of the REVIZEE Document Series summarizes information on the identification and occurrence of the innumerable larval fish collected during the Program Assessment of the Sustainable Living Resource Potential of the Exclusive Economic Zone (REVIZEE). The study material was collected during three oceanographic cruises carried out between 1998 and 2000, in the area from the Real River (BA) to the São Tomé Cape (RJ), including submarine banks and the oceanic islands Martin Vaz and Trindade.",
+    "url": "https://obis.org/dataset/6cc9c435-4df8-4680-b921-c1733aa03c3a",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=fish_larvae_biodiversity_central_coast_revizee",
+        "http://doi.org/10.25607/mwe0ga"
+    ],
+    "license": "Unrestricted",
+    "citation": "Bonecker, A. C. T.; Castro, M. S. (eds.) 2006. Atlas de larvas de peixes da região central da Zona Econômica Exclusiva brasileira. Rio de Janeiro: Museu Nacional, 2006. (Série Livros; 19) 216 p. ISBN 85-7427-013-X",
+    "version": "2021-07-02T10:58:54.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2000",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/mwe0ga",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/mwe0ga",
+        "url": "http://doi.org/10.25607/mwe0ga"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=fish_larvae_biodiversity_central_coast_revizee",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-41.02417 -24.3083333333,-41.02417 -11.44503,-28.8186666667 -11.44503,-28.8186666667 -24.3083333333,-41.02417 -24.3083333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

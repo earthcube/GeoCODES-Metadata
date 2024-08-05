@@ -1,0 +1,122 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d2916eda-91c1-4c15-8dab-51da044595a4",
+    "name": "Zooplankton data from central and northern Strait of Georgia",
+    "description": "Zooplankton data collected during surveys conducted in the central and northern Strait of Georgia, 1996-2018.",
+    "url": "https://obis.org/dataset/d2916eda-91c1-4c15-8dab-51da044595a4",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=zoopl_sofg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Galbraith M (2021): Zooplankton data from central and northern Strait of Georgia. v1.4. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=zoopl_sofg&amp;v=1.4",
+    "version": "2022-03-29T20:48:26.000Z",
+    "keywords": [
+        "Pacific",
+        "Strait of Georgia",
+        "Zooplankton",
+        "Fisheries",
+        "Marine biology",
+        "Oceanography",
+        "Aquatic ecosystems",
+        "Aquatic animals",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom depth",
+            "url": "http://vocab.nerc.ac.uk/collection/A05/current/EV_BATHY/",
+            "description": "Bottom depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Volume sampled of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "Volume sampled of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Width of sample collector (aperture) {mouth width}",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MTHWDTH1/",
+            "description": "Width of sample collector (aperture) {mouth width}"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance per cubic metre",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/PYTT/",
+            "description": "Abundance per cubic metre"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average dry weight biomass per individual",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600087/",
+            "description": "Average dry weight biomass per individual"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifeStage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "size class",
+            "url": "",
+            "description": "size class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/3/",
+            "description": "sex"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=zoopl_sofg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-125.099 48.886,-125.099 50.031,-123.233 50.031,-123.233 48.886,-125.099 48.886"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

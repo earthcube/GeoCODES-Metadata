@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/26de959f-8916-43cf-9472-170c28358a8e",
+    "name": "IMR Macroplankton surveys",
+    "description": "The Macroplankton dataset in the IMR plankton database contains macroplankton from the Norwegian and Barents Seas. The dataset includes small vertically migratory fish.",
+    "url": "https://obis.org/dataset/26de959f-8916-43cf-9472-170c28358a8e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imr_macroplankton_surveys"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bakkeplass, K. (2014). IMR Macroplankton surveys. Institute of Marine Research, Norway",
+    "version": "2023-05-23T11:54:08.000Z",
+    "keywords": [
+        "Vertical migrations",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imr_macroplankton_surveys",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-57.305832 58.723,-57.305832 79.95,42.685833 79.95,42.685833 58.723,-57.305832 58.723"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

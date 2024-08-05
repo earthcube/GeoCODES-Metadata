@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0fcb583e-e7b2-4bed-864c-f73d2d770439",
+    "name": "South Atlantic MAR-ECO 2009 cruise",
+    "description": "Composition of mesopelagic ichthyocenes in waters over the central and southern parts of the Mid-Atlantic Ridge and over the southern part of the Walvis Ridge",
+    "url": "https://obis.org/dataset/0fcb583e-e7b2-4bed-864c-f73d2d770439",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=south_atlantic_mar_eco_2009_cruise",
+        "http://doi.org/10.25607/t4ktff"
+    ],
+    "license": "Attribution-ShareAlike (CC BY-SA)",
+    "citation": "S. Kobyliansky, A. Orlov, and N. Gordeeva, \"Composition of deepsea pelagic ichthyocenes of the Southern Atlantic, from waters of the range of the Mid-Atlantic and Walvis Ridges,\" Journal of Ichthyology 50 No.10, 932-949 (2010)",
+    "version": "2021-07-02T11:01:17.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2009",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/t4ktff",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/t4ktff",
+        "url": "http://doi.org/10.25607/t4ktff"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=south_atlantic_mar_eco_2009_cruise",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-17.2489500046 -35.9235992432,-17.2489500046 0.639149993658,31.2079992294 0.639149993658,31.2079992294 -35.9235992432,-17.2489500046 -35.9235992432"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

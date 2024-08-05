@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/59908045-b6e9-4411-b12b-bd320411965b",
+    "name": "SWFSC Marine Mammal Survey, PODS 1993, Cruise 1509",
+    "description": "Original provider:\nNOAA Southwest Fisheries Science Center (SWFSC)\n\nDataset credits:\nNOAA Southwest Fisheries Science Center (SWFSC)\n\nAbstract:\nThis 1993 line-transect survey was designed to make abundance estimates of the northern stock of common dolphin, <i>Delphinus delphis</i>, in the eastern Pacific. This stock of dolphin is taken in the tropical tuna fishery. The index of relative abundance for this stock, computed from sightings on tuna vessels, has declined substantially in the last decade.  However, because tuna vessels cover only the southern portion of the stock's range, the declines in the index may be due to a northward shift in distribution, rather than an actual decline in abundance. The 1993 survey was designed to produce the first range-wide estimates of abundance for the northern common dolphin and its recently described congener, <i>Delphinus capensis</i>. This survey was conducted by the NOAA Southwest Fisheries Science Center aboard NOAA Ships <i>McArthur</i> and <i>David Starr Jordan</i> for a combined total of approximately 32,000 kilometers surveyed from late July to early November 1993. This dataset provides the time-date and geographical coordinates, by \nspecies/stock, of all cetaceans detected during the survey, as well as the daily and intra-daily start and end points of the line-transect survey by the NOAA Ship <i>David Starr Jordan</i>.\n\nPurpose:\nThe primary objective of the cruise was to survey the area inhabited by the northern stock of common dolphins, and to make an estimate of its absolute abundance in order to assess the impact of the dolphins killed by the United States and international yellowfin tuna purse seine fleet in the eastern tropical Pacific.\n\nSupplemental information:\n[2021-04-12] Updated with additional attributes.\n\nSWFSC MMTD Cruise Number: 1509\nPerpendicular distance will be released upon permission by the contributor. Please contact the contributor if needed.\n\nAttribute descriptions for effort data:\ndist: Length of the segment (km) \nMode: Effort mode type (C = closing mode; P = passing mode)",
+    "url": "https://obis.org/dataset/59908045-b6e9-4411-b12b-bd320411965b",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_215"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Gerrodette, T. 2004. SWFSC Marine Mammal Survey, PODS 1993, Cruise 1509. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/215) on yyyy-mm-dd.",
+    "version": "2022-03-03T13:22:57.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence,Vessels,Sightings,Cetaceans,Whales,Dolphins,Delphinus,Population,Abundance,Survey,Census,PODS",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/1993",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_215",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-120.097667 18.691667,-120.097667 32.094167,-105.497667 32.094167,-105.497667 18.691667,-120.097667 18.691667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7581",
+            "@type": "Organization",
+            "legalName": "NOAA, Southwest Fisheries Science Center,  Fisheries Resources Division, La Jolla",
+            "name": "NOAA, Southwest Fisheries Science Center,  Fisheries Resources Division, La Jolla",
+            "url": "https://oceanexpert.org/institution/7581"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

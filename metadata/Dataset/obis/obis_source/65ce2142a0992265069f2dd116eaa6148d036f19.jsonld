@@ -1,0 +1,101 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e49dedf8-a5e6-4af0-81e9-16e0e4e5502e",
+    "name": "1949-1998 Great Britain Non-Native Species Information Portal (GBNNSIP) United Kingdom Collated record of historic distributions of marine non-native species from literature",
+    "description": "This is the data from two surveys, the UK distribution records of Clymenella torquata and a survey of intertidal sites in Southampton water.",
+    "url": "https://obis.org/dataset/e49dedf8-a5e6-4af0-81e9-16e0e4e5502e",
+    "sameAs": [
+        "https://www.dassh.ac.uk/ipt/resource?r=dasshdt00000093",
+        "https://doi.org/10.17031/pffuus"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Queen Mary University of London School of Biological and Chemical Sciences (2020): 1949-1998 Great Britain Non-Native Species Information Portal (GBNNSIP) United Kingdom Collated record of historic distributions of marine non-native species from literature. v2.0. Marine Biological Association. Dataset/Samplingevent. https://doi.org/10.17031/pffuus",
+    "version": "2020-03-23T10:57:22.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "end date",
+            "url": "",
+            "description": "end date"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "locationname",
+            "url": "",
+            "description": "locationname"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampledate",
+            "url": "",
+            "description": "sampledate"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplenotes",
+            "url": "",
+            "description": "samplenotes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "reference",
+            "url": "",
+            "description": "reference"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "transcriptionchecks",
+            "url": "",
+            "description": "transcriptionchecks"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL06",
+            "description": "taxon abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "platformtype",
+            "url": "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/",
+            "description": "platformtype"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1949/1998",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/pffuus",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/pffuus",
+        "url": "https://doi.org/10.17031/pffuus"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.dassh.ac.uk/ipt/archive.do?r=dasshdt00000093",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-3.7677097 50.261199,-3.7677097 51.363287,1.0229623 51.363287,1.0229623 50.261199,-3.7677097 50.261199"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

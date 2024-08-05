@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a60f84ee-0e25-428e-b171-16686b554702",
+    "name": "Animal Demography Unit - Coordinated Waterbird Counts (CWAC)",
+    "description": "The Coordinated Waterbird Counts (CWAC) project was launched in 1992. The objective of CWAC is to monitor South Africa's waterbird populations and the conditions of the wetlands which are important for waterbirds. CWAC currently monitors over 400 wetlands around the country on a regular basis, and furthermore curates waterbird data for close to 600 wetlands.",
+    "url": "https://obis.org/dataset/a60f84ee-0e25-428e-b171-16686b554702",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=adu_cwac"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Animal Demography Unit - Coordinated Waterbird Counts (CWAC)",
+    "version": "2020-12-02T14:08:39.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=adu_cwac",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "16.4699993134 -34.7200012207,16.4699993134 -22.2199993134,32.8800010681 -22.2199993134,32.8800010681 -34.7200012207,16.4699993134 -34.7200012207"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

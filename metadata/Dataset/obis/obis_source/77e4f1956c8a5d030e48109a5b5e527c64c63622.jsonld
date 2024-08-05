@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/667df9cb-b7ee-4f81-ae7e-b49ca5b2005e",
+    "name": "MNA (Section of Genoa) - Marine Biological Samples",
+    "description": "MNA (Section of Genoa) - Marine Biological Samples",
+    "url": "https://obis.org/dataset/667df9cb-b7ee-4f81-ae7e-b49ca5b2005e",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=mna"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "MNA - Sezione di Genova - (http://www.mna.it/english/Collections/collezioni_set.htm)",
+    "version": "2019-03-19T14:43:59.000Z",
+    "keywords": [
+        "Distribution",
+        "Marine invertebrates",
+        "Taxonomy",
+        "MNA",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1987/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=mna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0 -78,0 0,179.495 0,179.495 -78,0 -78"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19434",
+            "@type": "Organization",
+            "legalName": "Universita di Genoa; Facoltà di Scienze Matematiche Fisiche e Naturali; Dipartimento per lo Studio del Territorio e delle sue Risorse",
+            "name": "Universita di Genoa; Facoltà di Scienze Matematiche Fisiche e Naturali; Dipartimento per lo Studio del Territorio e delle sue Risorse",
+            "url": "https://oceanexpert.org/institution/19434"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

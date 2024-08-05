@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/60fa0b32-b088-42db-835c-b9c797a60945",
+    "name": "HMAP Dataset 08: Swedish Baltic Catch Data, 1752-1990",
+    "description": "This dataset contains data on Baltic fish catches between 1752 and 1990, derived from Swedish archives.",
+    "url": "https://obis.org/dataset/60fa0b32-b088-42db-835c-b9c797a60945",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_08"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "K. Awebro and B. Poulsen, eds., 'Swedish Baltic Catch Data, 1752-1990' in J.H Nicholls (comp.) HMAP Data Pages (https://oceanspast.org/hmap_db.php)",
+    "version": "2023-12-08T18:30:06.000Z",
+    "keywords": [
+        "Fish catch statistics",
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1753/1990",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_08",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.1760997772217 55.5199012756348,11.1760997772217 65.3800964355469,22.732400894165 65.3800964355469,22.732400894165 55.5199012756348,11.1760997772217 55.5199012756348"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17927",
+            "@type": "Organization",
+            "legalName": "University of Hull, Oceans Past Initiative",
+            "name": "University of Hull, Oceans Past Initiative",
+            "url": "https://oceanexpert.org/institution/17927"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19185",
+            "@type": "Organization",
+            "legalName": "Aalborg University - Department of Culture and Global Studies",
+            "name": "Aalborg University - Department of Culture and Global Studies",
+            "url": "https://oceanexpert.org/institution/19185"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19450",
+            "@type": "Organization",
+            "legalName": "Roskilde University",
+            "name": "Roskilde University",
+            "url": "https://oceanexpert.org/institution/19450"
+        }
+    ]
+}

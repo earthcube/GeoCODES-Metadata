@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/31677373-22f8-4688-940b-9921d4595bee",
+    "name": "Galapagos Subtidal Biodiversity",
+    "description": "Occurrence data of three major groups of marine macro fauna: fish, macro invertebrates, and sessile organisms collected between 1994 – 2022 in the Galapagos Marine Reserve.",
+    "url": "https://obis.org/dataset/31677373-22f8-4688-940b-9921d4595bee",
+    "sameAs": [
+        "https://ipt.iobis.org/caribbeanobis/resource?r=galapagos_charlesdarwinfoundation",
+        "https://doi.org/10.15468/gsa458"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC 4.0) License",
+    "citation": "Fundacion Charles Darwin (2023). Galapagos Subtidal Biodiversity. Caribbean OBIS Node. Occurrence dataset https://doi.org/10.15468/gsa458 accessed via GBIF.org on 2023-12-21.",
+    "version": "2024-01-04T15:41:57.000Z",
+    "keywords": [
+        "Occurrence",
+        "fish",
+        "macroinvertebrates",
+        "sessile",
+        "Galapagos",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/gsa458",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/gsa458",
+        "url": "https://doi.org/10.15468/gsa458"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=galapagos_charlesdarwinfoundation",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-92.007517 -1.4059,-92.007517 1.6812,-89.2438 1.6812,-89.2438 -1.4059,-92.007517 -1.4059"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

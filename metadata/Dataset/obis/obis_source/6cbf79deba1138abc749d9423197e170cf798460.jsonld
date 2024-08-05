@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/812dc3ff-645a-465e-81db-b99a5a882237",
+    "name": "BEWREMABI dataset: Belgian Shipwreck - hotspots for Marine Biodiversity: Macrofauna in vicinity of shipwrecks",
+    "description": "Data was gathered during BEWREMABI project (part of SPSD-II federal science policy programme) sampling campaigns. Macrofauna was sampled in the vicinity of shipwrecks using macrofauna core + scuba.",
+    "url": "https://obis.org/dataset/812dc3ff-645a-465e-81db-b99a5a882237",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=bewremabi_macrofauna"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-12-08T17:48:35.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Wrecks",
+        "diver",
+        "Shipwrecks",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=bewremabi_macrofauna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.487900018692017 51.2494010925293,2.487900018692017 51.649810791015625,2.829699993133545 51.649810791015625,2.829699993133545 51.2494010925293,2.487900018692017 51.2494010925293"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

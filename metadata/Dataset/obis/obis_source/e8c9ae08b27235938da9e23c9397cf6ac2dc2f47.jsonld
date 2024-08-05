@@ -1,0 +1,125 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/556cc02f-da65-4233-85b0-cebc2c3aadfc",
+    "name": "Deep-sea meiobenthos at Calvi (Corsica) sampled in September 1982",
+    "description": "Density and relative abundances of meiobenthos (with emphasis on the deep-sea nematod community) sampled at Pointe de la Revellata (Calvi, Corsica) in September 1982. The data were digitized by VLIZ from the original report: Soetaert, K.; Heip, C.H.R.; Vincx, M. (1983). Inleidende studie van het meiobenthos van een diepzeetransekt (175m-1605m) te Calvi, Corsica, in: FKFO Project 2.9007.82. Systematiek en ecologie van mariene organismen: verslag over het tweede werkingsjaar 1983. pp. 75-86.",
+    "url": "https://obis.org/dataset/556cc02f-da65-4233-85b0-cebc2c3aadfc",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=deep-sea_meiobenthos_calvi_corsica_september_1982",
+        "https://dx.doi.org/10.14284/279"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Soetaert K.; Heip C.H.R.; Vincx M.; Sektie Mariene Biologie, Laboratorium voor Morfologie en Systematiek der Dieren. RUG: Belgium; (2017): Deep-sea meiobenthos at Calvi (Corsica) sampled in September 1982. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5483) https://dx.doi.org/10.14284/279",
+    "version": "2023-12-08T18:28:18.000Z",
+    "keywords": [
+        "Community composition",
+        "Meiobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Depth (spatial coordinate) maximum relative to bed surface in the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MAXCDIST/",
+            "description": "Depth (spatial coordinate) maximum relative to bed surface in the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "The distance between the top of a core sample and the seabed.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MINCDIST/",
+            "description": "The distance between the top of a core sample and the seabed."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area sampled by the box corer",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area sampled by the box corer"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "relative abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL06/",
+            "description": "relative abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average density of Nematoda at each station",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Average density of Nematoda at each station"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average biomass per individual within the sample",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Average biomass per individual within the sample"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Brillouin diversity index (for Nematode taxa)",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS1465/",
+            "description": "Brillouin diversity index (for Nematode taxa)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "life stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1982/1982",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/279",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/279",
+        "url": "https://dx.doi.org/10.14284/279"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=deep-sea_meiobenthos_calvi_corsica_september_1982",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "8.641667 42.621667,8.641667 42.685,8.671667 42.685,8.671667 42.621667,8.641667 42.621667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        }
+    ]
+}

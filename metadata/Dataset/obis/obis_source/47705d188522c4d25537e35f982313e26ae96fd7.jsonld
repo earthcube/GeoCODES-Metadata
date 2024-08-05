@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/256fd492-824a-44a8-9998-4dc911d40680",
+    "name": "Hyperiid amphipod abundances from the California Current (24-32°N)",
+    "description": "The California Current system (CCS) comprise two large regions, one subarctic from central California to British Columbia, and other subtropical from Point Conception, California to the tip of Baja California peninsula. To progress in the knowledge of the subtropical part of the CCS, was created the IMECOCAL program, which means “Mexican Research of the California Current”. The data base presented here is a product of the zooplankton collection during ten IMECOCAL cruises.",
+    "url": "https://obis.org/dataset/256fd492-824a-44a8-9998-4dc911d40680",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hyperiid_amphipod_abundances_california_current_24-32n",
+        "https://doi.org/10.17882/75270"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lavaniegos Bertha E. (2020). Hyperiid amphipod abundances from the California Current (24-32°N). SEANOE. https://doi.org/10.17882/75270",
+    "version": "2023-05-23T11:51:28.000Z",
+    "keywords": [
+        "Plankton collecting devices",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mesh width",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "mesh width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mouth diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "mouth diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling gear",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling gear"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2008",
+    "identifier": {
+        "@id": "https://doi.org/10.17882/75270",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17882/75270",
+        "url": "https://doi.org/10.17882/75270"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hyperiid_amphipod_abundances_california_current_24-32n",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-118.79 24.33,-118.79 31.69,-112.42 31.69,-112.42 24.33,-118.79 24.33"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        }
+    ]
+}

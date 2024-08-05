@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4b1671ae-b01e-4754-adf7-e525dc6144a6",
+    "name": "SO-Polylist",
+    "description": "The dataset contains over 6200 single records covering approx 95% of all literature available on Antarctic Polychaeta including the famous monographs of Olga Hartman. Additionally new records from the expeditions ANDEEP I-III and ANDEEP-Systco have been added.",
+    "url": "https://obis.org/dataset/4b1671ae-b01e-4754-adf7-e525dc6144a6",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=so_polylist"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Schüller, M.  2010. SO-Polylist - a summary of Southern Ocean polychaete records.",
+    "version": "2019-03-19T14:48:04.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=so_polylist",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-175.08333 -77.83333333,-175.08333 -31.9,179.95 -31.9,179.95 -77.83333333,-175.08333 -77.83333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19533",
+            "@type": "Organization",
+            "legalName": "Ruhr-Universität Bochum – Fakultät für Biologie und Biotechnologie – Evolutionsökologie und Biodiversität der Tiere",
+            "name": "Ruhr-Universität Bochum – Fakultät für Biologie und Biotechnologie – Evolutionsökologie und Biodiversität der Tiere",
+            "url": "https://oceanexpert.org/institution/19533"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b13cce4b-3894-4e89-82e6-aefa341ec2f7",
+    "name": "Phytoplankton abundance in the coastal and open waters of the Adriatic Sea (2013-2014)",
+    "description": "Datasets include parameters regarding phytoplankton abundance for time periods March 2013. till December 2013. and August 2014. till November 2014. in the coastal and open waters stations at the Adriatic Sea in the framework of the National monitoring program and some temporary projects.",
+    "url": "https://obis.org/dataset/b13cce4b-3894-4e89-82e6-aefa341ec2f7",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=iof_phypl_2013_2014"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Gladan, Z. N., Skejić S, Bakrač A (2021): Phytoplankton abundance in the coastal and open waters of the Adriatic Sea (2013-2014)",
+    "version": "2024-02-27T00:12:06.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Analytical instrument",
+            "url": "",
+            "description": "Analytical instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=iof_phypl_2013_2014",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "15.0101 42.670858,15.0101 44.49005,18.133067 44.49005,18.133067 42.670858,15.0101 42.670858"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9824",
+            "@type": "Organization",
+            "legalName": "Institute of Oceanography and  Fisheries Croatia",
+            "name": "Institute of Oceanography and  Fisheries Croatia",
+            "url": "https://oceanexpert.org/institution/9824"
+        }
+    ]
+}

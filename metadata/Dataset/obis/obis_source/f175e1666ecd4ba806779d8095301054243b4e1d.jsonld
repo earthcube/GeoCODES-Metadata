@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0931cc57-5428-407a-9c27-f136147aa9f8",
+    "name": "Benthos data collected in the Black Sea during the IAEA Cruise in 1998",
+    "description": "The dataset comprises data on the substrate type and benthos from 14 samples colected in NW Black Sea in the August 1998. The quantitative (1/133 m2) undisturbed sediment samples were taken with a multicorer Mark II-400, the integral 0-15 cm layer of surface sediment were retained, preserved in 4% formaldehyde. The database comprises taxonomic and quantitative data (density and wet weight biomass per square meter) for 28 macrobenthic species and 2 supraspecific groups.",
+    "url": "https://obis.org/dataset/0931cc57-5428-407a-9c27-f136147aa9f8",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ukranianromanian_benthos_blacksea_iaea_1998"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Teaca, A.; Begun, T.; Muresan, M.; National Research and Development Institute for Marine Geology and Geoecology – GeoEcoMar, Romania (2016): Benthos data collected in the Black Sea during the IAEA Cruise in 1998",
+    "version": "2024-02-26T23:16:20.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sediment Class",
+            "url": "",
+            "description": "Sediment Class"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ukranianromanian_benthos_blacksea_iaea_1998",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.1667 43.74833333,29.1667 46.41817,31.165 46.41817,31.165 43.74833333,29.1667 43.74833333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

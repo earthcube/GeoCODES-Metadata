@@ -1,0 +1,41 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0cd83ed5-4f31-4988-9a96-338f291be2cd",
+    "name": "2007-08 Voyage 3 of the Aurora Australis, CEAMARC-CASO Krill Data",
+    "description": "Krill data collected from the CEAMARC-CASO voyage of the Aurora Australis during the 2007-2008 summer season.  The data consist of a large number of images, plus documents detailing analysis methods and file descriptions.\nQuality: These are raw data that have not been processed in any way.  Quality may vary.\n\n2018-10-10\nThe original files was reformatted to fit OBIS/GBFI/IPT Biodiversity.AQ tracking standards, and a new datasheet \"CEAMARC_krill2007_08.csv\" was created. The new dataset contains datasetID, occurrenceID, recordNumber, footprintWKT, eventDate, eventRemarks, continent, countryCode, maximumDepthInMeters, occurrenceStatus, basisOfRecord, samplingProtocol. The lowest taxonomical rank of the species identified that could be determined is provided, after matched in WoRMS (World Register of Marine Species).",
+    "url": "https://obis.org/dataset/0cd83ed5-4f31-4988-9a96-338f291be2cd",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=ceamarc_krill"
+    ],
+    "license": "This work is licensed under a Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Kawaguchi, S. and Lindsay, M. (2013, updated 2017) 2007-08 Voyage 3 of the Aurora Australis, CEAMARC-CASO Krill Data",
+    "version": "2020-03-05T05:12:43.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=ceamarc_krill",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

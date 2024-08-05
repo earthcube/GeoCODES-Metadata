@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0745ae50-49e9-4ec0-b0f0-c8daa4f6abd4",
+    "name": "Bermuda Atlantic Time-series Study Zooplankton Census",
+    "description": "Abundance and taxonomic analysis of major zooplankton and micronekton groups collected monthly, in both the day and night, from 1994 to 2000 in the Sargasso Sea (31 deg 40 min N, 64 deg 10 min W). The dataset currently contains the following groups of organisms: Branchiopoda, Calanoida, Euphausiacea, Ostracoda, and Thaliacea.",
+    "url": "https://obis.org/dataset/0745ae50-49e9-4ec0-b0f0-c8daa4f6abd4",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=bats"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Steinberg, D.K. and L.P. Madin (2003) Zooplankton Census. Bermuda Atlantic Time-series Study",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/1996",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=bats",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.2336654663 31.5496673584,-64.2336654663 31.6931991577,-64.0118331909 31.6931991577,-64.0118331909 31.5496673584,-64.2336654663 31.5496673584"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

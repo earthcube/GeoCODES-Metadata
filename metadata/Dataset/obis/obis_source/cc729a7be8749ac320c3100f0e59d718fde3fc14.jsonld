@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/daee2323-67e6-4a29-b096-fdd95e2b691b",
+    "name": "Inventory of Australian seabird colonies (1877-1999)",
+    "description": "An inventory of Australian seabird colonies collated by now defunct The National Oceans Office (NOO) circa 1999. There are no details of the source of the data with many details missing such as observation dates in particular. The data should therefore be treated carefully.\nNOO was established by the Australian Government as the first organisation to directly manage and set policy on marine matters. Archive documents are stored at the National Library (https://librariesaustralia.nla.gov.au/search/display?dbid=auth&amp;id=36582768)",
+    "url": "https://obis.org/dataset/daee2323-67e6-4a29-b096-fdd95e2b691b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=noo_seabird_islands"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "An archive of NOO documents is at https://librariesaustralia.nla.gov.au/search/display?dbid=auth&amp;id=36582768",
+    "version": "2022-06-08T05:47:03.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1877/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=noo_seabird_islands",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "72.6015356132965 -55.1205891242895,72.6015356132965 -9.14211247446831,167.995984086842 -9.14211247446831,167.995984086842 -55.1205891242895,72.6015356132965 -55.1205891242895"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

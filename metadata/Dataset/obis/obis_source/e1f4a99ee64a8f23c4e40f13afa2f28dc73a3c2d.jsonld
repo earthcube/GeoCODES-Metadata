@@ -1,0 +1,48 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e2c4a839-89b5-484f-a63c-df89c2f9f974",
+    "name": "Environmental Monitoring database (MOD) DNV",
+    "description": "DNV is a risk and classification company with roots dating back to the founding of Det Norske Veritas (DNV) in 1864. DNV operates in the oil, gas, and renewable energy sectors.\nThe data produced by DNV is stored in their own Environmental Monitoring database (MOD). It comprises approximately 2.8 million species occurrence records, as well as chemical and geology records. This information comes from grab sampling conducted in areas around oil drilling stations. GBIF Norway is working with DNV to publish the species abundance data in the MOD database.\nThe grab sampling process is done on a yearly basis around the months of May and June, but not all stations are sampled each year. In general sampling is done around each station every third year, and in some areas samples have been repeated since the 1990s.",
+    "url": "https://obis.org/dataset/e2c4a839-89b5-484f-a63c-df89c2f9f974",
+    "sameAs": [
+        "https://ipt.gbif.no/resource?r=dnv"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-08-09T09:24:16.000Z",
+    "keywords": [
+        "Samplingevent",
+        "OpenPSD",
+        "private-sector",
+        "gbif-cesp",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.gbif.no/archive.do?r=dnv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0.930816667 56.041229656031895,0.930816667 74.07439786536813,35.8504157583333 74.07439786536813,35.8504157583333 56.041229656031895,0.930816667 56.041229656031895"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

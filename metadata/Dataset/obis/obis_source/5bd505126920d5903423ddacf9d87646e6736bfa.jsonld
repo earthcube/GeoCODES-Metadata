@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d2caf73d-7e52-4113-b2f6-b89b439a9a2f",
+    "name": "Marine Recorder Snapshot extract of surveys entered by JNCC",
+    "description": "This dataset consists of surveys entered by JNCC.",
+    "url": "https://obis.org/dataset/d2caf73d-7e52-4113-b2f6-b89b439a9a2f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=jncc_mr_snapshot_whole_uk_0",
+        "https://doi.org/10.17031/mehqrq"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Joint Nature Conservation Committee (JNCC) (2021): Marine Recorder Snapshot extract of surveys entered by JNCC. v2.0. Marine Biological Association. Dataset/Samplingevent https://doi.org/10.17031/mehqrq",
+    "version": "2023-12-08T17:48:14.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "geometry",
+            "url": "",
+            "description": "geometry"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalcoordinates",
+            "url": "",
+            "description": "originalcoordinates"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "primarylatitude",
+            "url": "",
+            "description": "primarylatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "primarylongitude",
+            "url": "",
+            "description": "primarylongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "eventname",
+            "url": "",
+            "description": "eventname"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalsamplelatitude",
+            "url": "",
+            "description": "originalsamplelatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalsamplelongitude",
+            "url": "",
+            "description": "originalsamplelongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplelatitude",
+            "url": "",
+            "description": "samplelatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplelongitude",
+            "url": "",
+            "description": "samplelongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplenotes",
+            "url": "",
+            "description": "samplenotes"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1969/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/mehqrq",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/mehqrq",
+        "url": "https://doi.org/10.17031/mehqrq"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=jncc_mr_snapshot_whole_uk_0",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-13.68753 48.28101,-13.68753 60.93604,7.430954 60.93604,7.430954 48.28101,-13.68753 48.28101"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6974",
+            "@type": "Organization",
+            "legalName": "Joint Nature Conservation Committee",
+            "name": "Joint Nature Conservation Committee",
+            "url": "https://oceanexpert.org/institution/6974"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

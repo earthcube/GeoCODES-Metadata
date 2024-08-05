@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1d8fb994-64af-4a57-abe2-19573cc91f85",
+    "name": "MBON POLE TO POLE: ROCKY SHORE BIODIVERSITY OF PUERTO MADRYN",
+    "description": "The MBON Pole to Pole effort seeks to develop a framework for the collection, use and sharing of marine biodiversity data in a coordinated, standardized manner leveraging on existing infrastructure managed by the Global Ocean Observing System (GOOS; IOC-UNESCO), the GEO Biodiversity Observation Network (GEO BON), and the Ocean Biogeographic Information System (OBIS). The MBON Pole to Pole aims to become a key resource for decision-making and management of living resource across countries in the Americas for reporting requirements under the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), Aichi Targets of the Convention of Biological Diversity (CBD), and the UN 2030 Agenda for Sustainable Development Goals (SDGs)\n\n\nBiodiversity of benthic species from 3 sites in Puerto Madryn, Atlantic Patagonia",
+    "url": "https://obis.org/dataset/1d8fb994-64af-4a57-abe2-19573cc91f85",
+    "sameAs": [
+        "http://ipt.iobis.org/mbon/resource?r=puertomadrynsandybeach"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bigatti G, Mendez M M, Livore J P (2019): MBON POLE TO POLE: ROCKY SHORE BIODIVERSITY OF PUERTO MADRYN. v1.5. Caribbean OBIS Node. Dataset/Samplingevent. http://ipt.iobis.org/mbon/resource?r=puertomadrynsandybeach&amp;v=1.5",
+    "version": "2019-08-17T08:49:51.000Z",
+    "keywords": [
+        "MBON",
+        "Pole to Pole",
+        "Patagonia",
+        "benthos",
+        "rocky shore",
+        "intertidal zone",
+        "coastal biodiversity"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "cover",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P06/current/UMSQ/1/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/mbon/archive.do?r=puertomadrynsandybeach",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.00171 -42.8112,-65.00171 -42.77986,-64.9017 -42.77986,-64.9017 -42.8112,-65.00171 -42.8112"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,83 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/002abcc3-980d-42df-9d8e-1ec8487e14cc",
+    "name": "Marine alien species in Eastern Sicily (year 2019)",
+    "description": "Data on the presence and distribution of alien species recorded by expert observers in the framework of the project \"Presence and health aspects of alien fish species in the western Ionian Sea, eastern Sicily\" (year 2019) carried out by the MareCamp association as thesis coordinator for students of the University of Messina. The project included surveys from Catania to Siracusa waters during fishing trips using different fishing gears (trammel, trowler, single net), observation, measurement, necroscopy, microscope analisys, and interviews with fishermen.",
+    "url": "https://obis.org/dataset/002abcc3-980d-42df-9d8e-1ec8487e14cc",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=marine_alien_species_sicily_2019",
+        "https://dx.doi.org/10.14284/552"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Monaco, Clara; Galasso, Gabriele; Garofalo, Dario; MareCamp Association; (2020); Marine alien species in Eastern Sicily (year 2019). https://dx.doi.org/10.14284/552",
+    "version": "2023-12-08T18:16:35.000Z",
+    "keywords": [
+        "Introduced species",
+        "Visual observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/552",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/552",
+        "url": "https://dx.doi.org/10.14284/552"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=marine_alien_species_sicily_2019",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "12.6281 35.5084,12.6281 37.8054,15.3015 37.8054,15.3015 35.5084,12.6281 35.5084"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23185",
+            "@type": "Organization",
+            "legalName": "Marecamp ",
+            "name": "Marecamp ",
+            "url": "https://oceanexpert.org/institution/23185"
+        }
+    ]
+}

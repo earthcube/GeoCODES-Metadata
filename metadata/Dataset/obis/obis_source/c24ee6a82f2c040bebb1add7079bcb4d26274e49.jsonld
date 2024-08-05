@@ -1,0 +1,108 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8b438ecc-596d-4096-9d03-b619fcb6a359",
+    "name": "Romanian Black Sea Phytoplankton data from 1991 to 2000",
+    "description": "Phytoplankton data collected in the Black Sea between 1991 and 2000 and processed by Nicolae Bodeanu, Mioara Ușurelu, Georgeta Ruță, and Laura Boicenco. Data were collected from coastal to offshore Romanian waters from various transects such as Sulina, Mila 9, Portita, and Sf. Gheorghe (northern zone) to Constanta and Mangalia (southern zone).",
+    "url": "https://obis.org/dataset/8b438ecc-596d-4096-9d03-b619fcb6a359",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=ro_black_sea_fpk_1991_2000"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Boicenco, Laura; Pantea, Elena; Vlas, Oana; National Institute for Marine Research and Development \"Grigore Antipa\" (NIMRD), Romania; (2022): Romanian Black Sea Phytoplankton data from 1991 to 2000",
+    "version": "2023-05-23T11:55:22.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Seafloor depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MBANNV01/",
+            "description": "Seafloor depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Subsampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100006/",
+            "description": "Subsampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass of phytoplankton per unit volume of the water body by optical microscopy and computation by morphometric method",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WWBMM00Z/",
+            "description": "Wet weight biomass of phytoplankton per unit volume of the water body by optical microscopy and computation by morphometric method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size",
+            "url": "",
+            "description": "Size"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ro_black_sea_fpk_1991_2000",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "28.68333 43.81667,28.68333 45.15,31.76567 45.15,31.76567 43.81667,28.68333 43.81667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8113",
+            "@type": "Organization",
+            "legalName": "National Institute for Marine Research and Development “Grigore Antipa”",
+            "name": "National Institute for Marine Research and Development “Grigore Antipa”",
+            "url": "https://oceanexpert.org/institution/8113"
+        }
+    ]
+}

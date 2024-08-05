@@ -1,0 +1,115 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0ec403c9-23b3-4529-ae51-8a0877f22450",
+    "name": "U.S. Virgin Islands Territorial Coral Reef Monitoring Program Database (USVI-TCRMP)",
+    "description": "The TCRMP is a central component of coral reef management and research in the US Virgin Islands. The TCRMP has contributed critical information on land-based sources of pollution, coral bleaching, and fisheries status since its inception in 2001. The program consists of annual to semi-annual assessments of coral health, benthic community structure, fish community structure, and physical dynamics at 33 sites down to 65 m (220 ft) depth. The TCRMP is funded by and coordinated with the NOAA Coral Reef Conservation Program, NOAA Protected Species, and the USVI Department of Planning and Natural Resources and collaborates with the VI NSF-Experimental Program to Stimulate Competitive Research (EPSCoR), and NOAA National Marine Fisheries. The objectives of the TCRMP include: (1) Monitor the status and trajectories of coral reefs across a majority of habitats and threats, including land-based sources of pollution and thermal stress, (2) Link changes in coral reef health with specific stressors, indicating specific management interventions most effective for preserving reefs, (3) Integrate assessments of understudied mesophotic coral reef ecosystems and threatened species in the USVI, and (4) Provide data, outputs, and advice to stakeholders and create a nexus of information in reef research.\nAt each site, benthic cover surveys are conducted annually along six 10 m long permanent transects marked with steel or brass rods. Video sampling consists of one diver traversing each transect videotaping the benthic cover using a high-definition digital video recorder. After taping, images from each transect are captured and imported into RStudio where twenty randomly allocated points are superimposed on each image. Analysis consists of identifying the substrate located under each point. For each transect, the percent cover of coral, epilithic algae (EAC), macroalgae, sponges, gorgonians, and sand/sediment are calculated by dividing the number of random dots falling on that substrate type by the total number of dots for that transect.\n\nAt each site, coral health surveys are conducted annually along six 10 m long permanent transects marked with steel or brass rods. All coral colonies located directly under the transect lines are assessed in situ for signs of mortality and disease following a modified Atlantic and Gulf Rapid Reef Assessment protocol (Kramer et al. 2005). Partial mortality of coral colonies is broken into two categories: recent partial mortality and old partial mortality.\n\nDiseases are conservatively categorized into recognized Caribbean scleractinian diseases and syndromes that include bleaching, black band disease, dark spots disease, white plague, and yellow band (blotch) disease (following Bruckner 2007). Bleaching is assessed as abnormal paling of the colony, and, when present, the severity of the bleaching (paling or total whitening) and the area of the colony affected are assessed. A major bleaching event occurred between September and December 2005, affecting all monitoring sites, and a mild bleaching event occurred between September and October 2010. For each transect, the prevalence of coral impairment categories is calculated as the number of colonies with partial mortality, disease, or bleaching divided by the number of colonies assessed. After the completion of coral health, algae heights are measured along the same permanent transects. Heights are recorded perpendicular to the growth substrate without disturbing the algae every 50 cm. Heights are differentiated to genus except for turf algae and crustose coralline algae which are recorded as such.\n\nFish surveys have been historically conducted at 14 sites around St. Croix and 10 sites around St. Thomas and, starting in 2012, are conducted at 32 of the 33-monitoring sites. Ten replicate belt transects and three replicate roving dive surveys are conducted at each site. Belt transects are 25 x 4 m and are conducted in 15 minutes per replicate. Roving replicates are also 15 minutes. All fish encountered are recorded except blennies and most gobies. Divers also assess the abundance of Diadema antillarum sea urchins along the 25 x 2 m belt transects. The mean number of sea urchins per 50 m2 is calculated for each site.\n\nBenthic temperatures are recorded at each site with a HoboTemp™ thermistor data logger (Onset Computer Corporation, Bourne, Massachusetts). Thermistors are affixed within transects and set to record at intervals of 15 minutes. Records are presented as daily averages across months.",
+    "url": "https://obis.org/dataset/0ec403c9-23b3-4529-ae51-8a0877f22450",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=usvi-tcrmp-database"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2022-06-01T19:54:32.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Benthic Cover",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SACFORN1",
+            "description": "Benthic Cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Daily Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/A05/current/EV",
+            "description": "Daily Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fish abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600002",
+            "description": "Fish abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fish biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05",
+            "description": "Fish biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean colony size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "Mean colony size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean Coral Old Mortality",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS6650",
+            "description": "Mean Coral Old Mortality"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Algae Height",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "Algae Height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Diadema abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600002",
+            "description": "Diadema abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Diadema size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX",
+            "description": "Diadema size"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=usvi-tcrmp-database",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.08205 17.6366,-65.08205 18.37425,-64.44963 18.37425,-64.44963 17.6366,-65.08205 17.6366"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9407",
+            "@type": "Organization",
+            "legalName": "University of the Virgin Islands",
+            "name": "University of the Virgin Islands",
+            "url": "https://oceanexpert.org/institution/9407"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16063",
+            "@type": "Organization",
+            "legalName": "Caribbean Coastal Ocean Observing System",
+            "name": "Caribbean Coastal Ocean Observing System",
+            "url": "https://oceanexpert.org/institution/16063"
+        }
+    ]
+}

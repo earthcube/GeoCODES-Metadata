@@ -1,0 +1,127 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/661aee3f-5979-463f-a475-53eb946063b3",
+    "name": "Monitoring of fish in the Voordelta",
+    "description": "Port of Rotterdam is carrying out the Project Mainport Development Rotterdam, PMR, expanding the port with 1,000 hectares through suppletion of sand in the shallow coastal Voordelta area in the North Sea. As the Voordelta has the status of protected nature reserve (Natura2000 area), the loss of habitat, caused by the expansion of the port, must be compensated for. As part of the compensating measures, the Dutch national government established a series of protected areas in the Voordelta region and is following the effects of these measures.\n\nThis dataset contains abundances and biomasses of fish in the “Voordelta”. The set exists of a pre-protected status data (2003 – 2007) and a post-protected status (currently still under embargo).",
+    "url": "https://obis.org/dataset/661aee3f-5979-463f-a475-53eb946063b3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=deltares_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Borst, J.C.;Stolte, W.; van der Kamp, P.; Rijkswaterstaat (RWS); Havenbedrijf Rotterdam N.V. (HbR); Deltares; Imares; (2016): Monitoring of fish in the Voordelta.",
+    "version": "2023-12-08T17:10:39.000Z",
+    "keywords": [
+        "Bottom trawls",
+        "fishing vessel",
+        "research vessel",
+        "Luctor",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length_in_m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "length_in_m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length_precision_in_m",
+            "url": "",
+            "description": "length_precision_in_m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "NetMeshSize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "NetMeshSize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wind_direction_in_deg",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01/",
+            "description": "wind_direction_in_deg"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wind_force_in_m/s",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01/",
+            "description": "wind_force_in_m/s"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "secchi_disk_depth_in_m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SECCSDNX/",
+            "description": "secchi_disk_depth_in_m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight_entire_sample",
+            "url": "",
+            "description": "weight_entire_sample"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tidal Phase, time past high tide",
+            "url": "",
+            "description": "Tidal Phase, time past high tide"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=deltares_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.354415 51.575835,3.354415 51.99167,4.08167 51.99167,4.08167 51.575835,3.354415 51.575835"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11289",
+            "@type": "Organization",
+            "legalName": "Deltares",
+            "name": "Deltares",
+            "url": "https://oceanexpert.org/institution/11289"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19612",
+            "@type": "Organization",
+            "legalName": "Rijkswaterstaat Water, Verkeer en Leefomgeving",
+            "name": "Rijkswaterstaat Water, Verkeer en Leefomgeving",
+            "url": "https://oceanexpert.org/institution/19612"
+        }
+    ]
+}

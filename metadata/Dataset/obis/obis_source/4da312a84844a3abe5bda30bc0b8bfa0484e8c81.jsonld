@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9fd109f3-079f-4836-80df-7848ddeecd47",
+    "name": "Marine Organisms of American Samoa (Bernice P. Bishop Museum)",
+    "description": "Occurrence records of marine organisms in American Samoa as published by the Bernice P. Bishop Museum, Hawaii.",
+    "url": "https://obis.org/dataset/9fd109f3-079f-4836-80df-7848ddeecd47",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=amsam"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Montgomery A (2023): Marine Organisms of American Samoa (Bernice P. Bishop Museum). v1.4. Southwestern Pacific Ocean Biogeographic Information System (OBIS) Node. Dataset/Occurrence. 10.15468/mqt4kb",
+    "version": "2023-03-22T06:46:17.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=amsam",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-170.864033 -14.302617,-170.864033 -14.236817,-170.606417 -14.236817,-170.606417 -14.302617,-170.864033 -14.302617"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5122",
+            "@type": "Organization",
+            "legalName": "Bishop Museum",
+            "name": "Bishop Museum",
+            "url": "https://oceanexpert.org/institution/5122"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/997b2d2e-3a69-4406-a757-a22f8cc7c21a",
+    "name": "Peces de las lagunas costeras de Isla Margarita, Venezuela",
+    "description": "Se estudian las comunidades ictiofaunísticas de las lagunas costeras de Los Portillos, Boca de Palo, Laguna de Raya, Punta de Piedras y Punta de Mangle, de la isla de Margarita, Venezuela.\nSe analizaron los parámetros hidrológicos, la diversidad, abundancia, distribución, categorías ictiotróficas y componentes comunitarios.\nSe analizaron 115.376 ejemplares agrupados en 37 familias, 65 géneros y 86 especies",
+    "url": "https://obis.org/dataset/997b2d2e-3a69-4406-a757-a22f8cc7c21a",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=ictiofauna_lagunas_margarita"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Lira C (2022): Peces de las lagunas costeras de Isla Margarita, Venezuela. v1.5. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=ictiofauna_lagunas_margarita&amp;v=1.5",
+    "version": "2022-11-01T13:38:43.000Z",
+    "keywords": [
+        "Samplingevent",
+        "inventario",
+        "ictiofauna",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/1990",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=ictiofauna_lagunas_margarita",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.164221 10.869406,-64.164221 10.96789,-64.04442 10.96789,-64.04442 10.869406,-64.164221 10.869406"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

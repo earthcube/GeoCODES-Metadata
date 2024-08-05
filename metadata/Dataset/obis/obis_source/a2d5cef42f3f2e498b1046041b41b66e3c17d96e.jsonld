@@ -1,0 +1,127 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3f871238-07df-4757-a790-aeb866ba9eed",
+    "name": "CETUS: Cetacean monitoring surveys in the Eastern North Atlantic",
+    "description": "The CETUS dataset contains effort-based occurrence records collected during a cetacean monitoring programme in the Eastern North Atlantic, since 2012.",
+    "url": "https://obis.org/dataset/3f871238-07df-4757-a790-aeb866ba9eed",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cetus_cetaceans",
+        "https://dx.doi.org/10.14284/547"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Correia, A.M., Oliveira-Rodrigues, C., Gandra, M., Liberal, M., Valente, R., Gil, A., Rosso, M., Pierce, G.J. &amp; Sousa-Pinto, I., CIIMAR - UP. (2022). CETUS: Cetacean monitoring surveys in the Eastern North Atlantic. Marine Data Archive. https://dx.doi.org/10.14284/547",
+    "version": "2023-05-23T11:32:01.000Z",
+    "keywords": [
+        "Data",
+        "Megafauna",
+        "Pelagic",
+        "vessel of opportunity",
+        "Visual Line Transects",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Most experienced observer",
+            "url": "",
+            "description": "Most experienced observer"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Observers",
+            "url": "",
+            "description": "Observers"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Vessel IMO",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/IMOXXXXX/",
+            "description": "Vessel IMO"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Vessel name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Vessel name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform height",
+            "url": "",
+            "description": "Platform height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Least experienced observer",
+            "url": "",
+            "description": "Least experienced observer"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wave height",
+            "url": "",
+            "description": "Wave height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WMOCWFBF/",
+            "description": "Wind speed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Visibility",
+            "url": "",
+            "description": "Visibility"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Vessel speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/APSAGP01/",
+            "description": "Vessel speed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2017",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/547",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/547",
+        "url": "https://dx.doi.org/10.14284/547"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cetus_cetaceans",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-31.14757 14.57488,-31.14757 43.44088,-8.30935 43.44088,-8.30935 14.57488,-31.14757 14.57488"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

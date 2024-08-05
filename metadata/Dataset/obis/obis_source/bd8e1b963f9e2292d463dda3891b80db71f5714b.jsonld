@@ -1,0 +1,109 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a9d7a154-28af-41e6-86d8-c4a0421a798c",
+    "name": "Vertical distribution of the free-living Plathelminthes (Turbellaria) from the sandy beaches of the Belgian coast in 1985 and 1986",
+    "description": "Density and biomass of meiofauna for 6 sandy beaches (Knokke, Mariakerke, Oostende, Heist, Bredene, Zwin) along the Belgian coast sampled between April 1985 and May 1986. The data were digitized by VLIZ from the original report: Jouk, P. (1992). Studie naar de ecologie van de vrijlevende Plathelminthes (Turbellaria) van de zandstranden van de Belgische kust. PhD Thesis. Limburgs Universitair Centrum: Diepenbeek. 2 volumes pp.",
+    "url": "https://obis.org/dataset/a9d7a154-28af-41e6-86d8-c4a0421a798c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=vertical_distribution_plathelminthes_belgian_coast_1985-1986",
+        "https://dx.doi.org/10.14284/190"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Jouk P.; Schockaert E.; Polk P.; Faculteit Wetenschappen. Limburgs Universitair Centrum (LUC); Vrije Universiteit Brussel (VUB): Belgium; (2016): Vertical distribution of the free-living Plathelminthes (Turbellaria) from the sandy beaches of the Belgian coast in 1985 and 1986. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5037) https://dx.doi.org/10.14284/190",
+    "version": "2023-05-23T12:18:20.000Z",
+    "keywords": [
+        "Flatworms",
+        "Meiofauna",
+        "Sandy beaches",
+        "Vertical distribution",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "samplingProtocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "samplingProtocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Number of individuals per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Number of individuals per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Absolute dryweight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "description": "Absolute dryweight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dryweight of individual species",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "description": "Dryweight of individual species"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Maximum length of the species",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMAXLX/",
+            "description": "Maximum length of the species"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Minimum length of the species",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMINLX/",
+            "description": "Minimum length of the species"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/1986",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/190",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/190",
+        "url": "https://dx.doi.org/10.14284/190"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=vertical_distribution_plathelminthes_belgian_coast_1985-1986",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.83279 51.19833,2.83279 51.37332,3.36827 51.37332,3.36827 51.19833,2.83279 51.19833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        }
+    ]
+}

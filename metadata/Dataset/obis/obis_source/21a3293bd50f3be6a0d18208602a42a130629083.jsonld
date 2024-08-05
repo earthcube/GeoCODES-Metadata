@@ -1,0 +1,133 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9b7acd33-4a40-4043-9383-e8c73b7ed7ba",
+    "name": "Zooplankton of Morrocoy National Park 2000-2002",
+    "description": "Abundance, biomass and environmental variables associated with zooplankton groups in 13 stations located in Morrocoy National Park (Falcón, Venezuela). Samples were obtained in monthly samplings from February 2000 to January 2002, using vertical trawls with a plankton net.",
+    "url": "https://obis.org/dataset/9b7acd33-4a40-4043-9383-e8c73b7ed7ba",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=zoo-morrocoy-2000"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Zoppi de Roa E, Palacio Cáceres M, Casanova E, Scott-Frías J (2022): Zooplankton of Morrocoy National Park 2000-2002. v1.9. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=zoo-morrocoy-2000&amp;v=1.9",
+    "version": "2022-11-01T13:49:19.000Z",
+    "keywords": [
+        "Zooplankton",
+        "Copepoda",
+        "Cirripedia",
+        "Decapoda",
+        "Hydrozoa",
+        "Actinopteri",
+        "Morrocoy National Park",
+        "Falcón",
+        "Venezuela",
+        "CaribeSur",
+        "ID:BID-CA2020-025-NAC.",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Motoda Net XX13",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Motoda Net XX13"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Single net or net pair vertical tow",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Single net or net pair vertical tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample volume (filtration)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLFMCXX/",
+            "description": "Sample volume (filtration)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600088/",
+            "description": "Wet weight biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea surface temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0381/",
+            "description": "Sea surface temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total Solid",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/RBYJLY26/",
+            "description": "Total Solid"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "pH units",
+            "url": "http://vocab.nerc.ac.uk/collection/P06/current/UUPH/",
+            "description": "pH units"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Secchi",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/SECC/",
+            "description": "Secchi"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=zoo-morrocoy-2000",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.3166667 10.7880556,-68.3166667 10.9397222,-68.2133333 10.9397222,-68.2133333 10.7880556,-68.3166667 10.7880556"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18896",
+            "@type": "Organization",
+            "legalName": "Universidad Central de Venezuela",
+            "name": "Universidad Central de Venezuela",
+            "url": "https://oceanexpert.org/institution/18896"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20112",
+            "@type": "Organization",
+            "legalName": "Universidad de Carabobo",
+            "name": "Universidad de Carabobo",
+            "url": "https://oceanexpert.org/institution/20112"
+        }
+    ]
+}

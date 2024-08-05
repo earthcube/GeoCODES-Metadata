@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/65bb59f2-99fb-4d13-a427-ae49a8dc13d5",
+    "name": "AMAPPS Northeast Aerial Cruise Fall 2012",
+    "description": "Original provider:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nDataset credits:\nNOAA Northeast Fisheries Science Center (NEFSC)\n\nPurpose:\nThe objectives of the NEFSC aerial survey were 1) to estimate abundance of cetaceans and turtles in waters north of New Jersey and shallower than 100 m depth and 2) to investigate how the animals' distribution and abundance relate to their physical and biological ecosystem.\n\nSupplemental information:\nPerpendicular distance to the animal is not publicly available.",
+    "url": "https://obis.org/dataset/65bb59f2-99fb-4d13-a427-ae49a8dc13d5",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1245"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Josephson, B. 2015. AMAPPS Northeast Aerial Cruise Fall 2012. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1245) on yyyy-mm-dd.",
+    "version": "2021-04-24T05:43:45.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Visual Sighting,Aircraft",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1245",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.556572 39.727139,-73.556572 44.929813,-61.964966 44.929813,-61.964966 39.727139,-73.556572 39.727139"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

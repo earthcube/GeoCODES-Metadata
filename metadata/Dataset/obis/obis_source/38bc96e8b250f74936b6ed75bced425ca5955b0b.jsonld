@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3e35bf95-1d9d-4953-8b25-69d56574182c",
+    "name": "Acadia University: Invertebrates from mudflats in the Minas Basin (Bay of Fundy), collected for the NaGISA project July 2008",
+    "description": "This dataset contains occurrence records of subtidal invertebrates and fish larvae from sampling sites located in the Bay of Fundy mudflats (Nova Scotia, Canada). Samples were collected for a monitoring project of midlittoral mudflats, in the framework of the NaGISA project (Natural Geography in Shore Areas, http://www.coml.org/projects/natural-geography-shore-areas-nagisa). A total of 5 sites were surveyed and samples were collected from low, mid and high tide locations.  In the laboratory, all samples were identified to the most precise taxonomic level possible, using the most recent literature for the taxon. This dataset contains species presence or absence as observed in the quadrat and core samples. Additional measurements recorded as part of this survey are not included in this version of the dataset.",
+    "url": "https://obis.org/dataset/3e35bf95-1d9d-4953-8b25-69d56574182c",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=acadia_nagisa"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gibson, Glenys and Anna Redden. (2016). Acadia University: Invertebrates from mudflats in the Minas Basin (Bay of Fundy), collected for the NaGISA project July 2008. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-04-16T11:03:11.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=acadia_nagisa",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.31503 45.141252,-64.31503 45.14886,-64.313243 45.14886,-64.313243 45.141252,-64.31503 45.141252"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19174",
+            "@type": "Organization",
+            "legalName": "Acadia Centre for Estuarine Research",
+            "name": "Acadia Centre for Estuarine Research",
+            "url": "https://oceanexpert.org/institution/19174"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

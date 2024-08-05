@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b5ee4e05-0680-487a-a4ac-06006359cd50",
+    "name": "Mollusc data of Molltax, Norway",
+    "description": "Mollusk data of Molltax, Norway",
+    "url": "https://obis.org/dataset/b5ee4e05-0680-487a-a4ac-06006359cd50",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_8170",
+        "https://doi.org/10.15468/vgbdvx"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Natural History Museum, University of Oslo, Mollusk data of Molltax, Norway https://doi.org/10.15468/vgbdvx",
+    "version": "2023-05-23T11:31:46.000Z",
+    "keywords": [
+        "Long term follow up",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1970/2008",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/vgbdvx",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/vgbdvx",
+        "url": "https://doi.org/10.15468/vgbdvx"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_8170",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "6.55833333333333 57.98,6.55833333333333 58.8669015953345,9.65 58.8669015953345,9.65 57.98,6.55833333333333 57.98"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19318",
+            "@type": "Organization",
+            "legalName": "University of Oslo - Natural History Museum",
+            "name": "University of Oslo - Natural History Museum",
+            "url": "https://oceanexpert.org/institution/19318"
+        }
+    ]
+}

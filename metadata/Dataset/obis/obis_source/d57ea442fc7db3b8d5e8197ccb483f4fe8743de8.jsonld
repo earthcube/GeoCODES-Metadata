@@ -1,0 +1,109 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d04e6c9d-2c19-4beb-8b52-cae1123542d3",
+    "name": "Finnish macrophyte monitoring data",
+    "description": "The dataset contains data collected as part of the Finnish macrophyte monitoring programme. Coverage and length data of macrophytes are collected along dive transects at 1 m depth intervals on hard substrate bottoms. At present, the dataset includes eigth transects on the Finnish south coast and sampled 2011-2018.",
+    "url": "https://obis.org/dataset/d04e6c9d-2c19-4beb-8b52-cae1123542d3",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=syke-macrophyte-monitoring"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Finnish Environment Institute SYKE; (2022); Finnish macrophyte monitoring data.",
+    "version": "2024-02-26T23:13:12.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Direction",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/HEADCM01/",
+            "description": "Direction"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area sampled",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Area sampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MBANZZZZ/",
+            "description": "Depth"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Distance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DISTPHMS/",
+            "description": "Distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Coverage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "Coverage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Canopy length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TL01XX01/",
+            "description": "Canopy length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=syke-macrophyte-monitoring",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "23.24755 59.81441667,23.24755 60.27476667,27.19663333 60.27476667,27.19663333 59.81441667,23.24755 59.81441667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6169",
+            "@type": "Organization",
+            "legalName": "Finnish Environment Institute",
+            "name": "Finnish Environment Institute",
+            "url": "https://oceanexpert.org/institution/6169"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

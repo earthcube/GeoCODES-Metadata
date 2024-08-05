@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/68ed4f02-f04b-46ae-b273-0bcbf8a8f807",
+    "name": "TOPP Summary of SSM-derived Telemetry",
+    "description": "Original provider:\nCensus of Marine Life Tagging of Pacific Predators\n\nDataset credits:\nCensus of Marine Life TOPP\n\nPurpose:\nThis is the product for upload into OBIS, derived from all the TOPP SSM data in OBIS-SEAMAP.\n\nSupplemental information:\nAll telemetry data are aggregated per species per 1 degree grid representing only species existence in the cells.\n\nThis dataset is not meant to be published on OBIS-SEAMAP but uploaded into OBIS.",
+    "url": "https://obis.org/dataset/68ed4f02-f04b-46ae-b273-0bcbf8a8f807",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_632"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Ganong, J. 2012. TOPP Summary of SSM-derived Telemetry. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/632) on yyyy-mm-dd.",
+    "version": "2021-04-28T03:31:53.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Seabirds,Marine mammals,Sea turtles,Visual Sighting,Radio transmitters",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_632",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.5 -67.5,-179.5 69.5,179.5 69.5,179.5 -67.5,-179.5 -67.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

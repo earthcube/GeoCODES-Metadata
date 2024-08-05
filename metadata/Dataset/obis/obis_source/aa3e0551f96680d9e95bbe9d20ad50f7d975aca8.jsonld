@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2e9e9830-d7cf-43f3-ba38-12ac06a7c0ba",
+    "name": "Discovery Collections Midwater Database",
+    "description": "This is a biological data base of the Institute of Oceanographic Sciences Deacon Laboratory, U.K. The data are mainly open ocean, with some data from upwelling regions off N.W. Africa and in the Arabian Sea. Data were collected using nets, mainly the IOS RMT1+8 combination net or its multiple version and represent 94000 records in 2100 species. Specific identifications made by various members of staff at the National Institute of Oceanography/Institute of Oceanographic Sciences.",
+    "url": "https://obis.org/dataset/2e9e9830-d7cf-43f3-ba38-12ac06a7c0ba",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-deepsea/resource?r=midwater_database"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Pugh, P. Discovery Collections Midwater Database. National Oceanography Centre, Southampton SO14 3ZH, U.K, 2000.",
+    "version": "2021-12-14T13:40:35.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1965/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obis-deepsea/archive.do?r=midwater_database",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-103.98085022 -68.4966964722,-103.98085022 60.2708511353,59.0633983612 60.2708511353,59.0633983612 -68.4966964722,-103.98085022 -68.4966964722"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8387",
+            "@type": "Organization",
+            "legalName": "National Oceanography Centre, Southampton",
+            "name": "National Oceanography Centre, Southampton",
+            "url": "https://oceanexpert.org/institution/8387"
+        }
+    ]
+}

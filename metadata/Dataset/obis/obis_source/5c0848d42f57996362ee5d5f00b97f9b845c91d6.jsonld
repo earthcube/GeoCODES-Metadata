@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5338fc3e-47f9-4eba-9639-04730b3d125a",
+    "name": "Diversidad de corales y especies asociadas en el ecosistema coralino de Adícora, Península de Paraguaná, Venezuela",
+    "description": "Este Dataset contiene información sobre las especies de corales y otras especies asociadas presentes en la barrera arrecifal de la localidad de Adícora, costa este de la Península de Paraguaná, Estado Falcón, Venezuela.",
+    "url": "https://obis.org/dataset/5338fc3e-47f9-4eba-9639-04730b3d125a",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=coralesadicoravenezuela"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Gomez E (2022): Diversidad de corales y especies asociadas en el ecosistema coralino de Adícora, Península de Paraguaná, Venezuela. v1.5. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=coralesadicoravenezuela&amp;v=1.5",
+    "version": "2022-11-03T21:24:31.000Z",
+    "keywords": [
+        "Samplingevent",
+        "corales",
+        "algas",
+        "peces",
+        "equinodermos",
+        "Adícora",
+        "Falcón",
+        "Venezuela",
+        "CaribeSur",
+        "ID:BID-CA2020-025-NAC",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Water salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/SALIN/",
+            "description": "Water salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/",
+            "description": "Water temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=coralesadicoravenezuela",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.8 11.942472,-69.8 11.945888,-69.78 11.945888,-69.78 11.942472,-69.8 11.942472"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

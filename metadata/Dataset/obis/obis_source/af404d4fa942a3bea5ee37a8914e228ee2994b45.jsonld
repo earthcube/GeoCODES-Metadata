@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7d73a408-cb0b-48d3-8b08-ae1f25b0b729",
+    "name": "Cefas01 - Structure of sublittoral nematode assemblages around the UK coast",
+    "description": "Nematode and harpacticoid copepod species abundance data are listed as counts per sample. Other available data include sediment granulometry and trace metal concentrations. For a detailed description, see listed publications",
+    "url": "https://obis.org/dataset/7d73a408-cb0b-48d3-8b08-ae1f25b0b729",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=manuela_c1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Schratzberger, M. (1998). Structure of sublittoral meiofauna assemblages around the UK coast. Centre for Environment, Fisheries and Aquaculture Science (CEFAS), UK.",
+    "version": "2023-12-08T17:23:59.000Z",
+    "keywords": [
+        "Meiobenthos",
+        "Sublittoral zone",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=manuela_c1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-6 50.35888888888889,-6 55.013888888888886,2 55.013888888888886,2 50.35888888888889,-6 50.35888888888889"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

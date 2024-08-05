@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b4be83a5-101d-4a82-80dd-b8a39c8026f2",
+    "name": "Antarctic Penguin Biogeography Project: Database of abundance and distribution for the Adélie, chinstrap, gentoo, emperor, macaroni, and king penguin south of 60 S",
+    "description": "The Antarctic Penguin Biogeography Project is an effort to collate all known information about the distribution and abundance of Antarctic penguins through time and to make such data available to the scientific and management community. The core data product involves a series of structured tables with information on known breeding sites and surveys conducted at those sites from the earliest days of Antarctic exploration through to the present. This database, which is continuously updated as new information becomes available, provides a unified and comprehensive repository of information on Antarctic penguin biogeography that contributes to a growing suite of applications of value to the Antarctic community. One such application is the Mapping Application for Antarctic Penguins and Projected Dynamics (MAPPPD; www.penguinmap.com) - a browser-based search and visualization tool designed primarily for policymakers and other non-specialists (Humphries et al., 2017), and ‘mapppdr’, an R package developed to assist the Antarctic science community. The Antarctic Penguin Biogeography Project has been funded by the National Aeronautics and Space Administration (NASA), the Pew Fellowship for Marine Conservation, and the Institute for Advanced Computational Sciences at Stony Brook University.\nAntarctic Penguin Biogeography Project: Database of abundance and distribution for the Adélie, chinstrap, gentoo, emperor, macaroni, and king penguin south of 60 S is an occurrence and sampling event type dataset published by SCAR-AntBIOS.\nThis dataset contains records of Pygoscelis adeliae, Pygoscelis antarctica, Pygoscelis papua, Eudyptes chrysolophus, Aptenodytes patagonicus, and Aptenodytes forsteri annual nest, adult, and/or chick counts conducted during field expeditions or collected using remote sensing imagery, that were subsequently gathered by the Antarctic Penguin Biogeography Project from published and unpublished sources, at all known Antarctic penguin breeding colonies south of 60 S from 1892-11-01 to 2022-02-12.\nThe data is published as a standardized Darwin Core Archive and includes an event core and occurrence and eMoF extensions. This dataset is published by SCAR-AntOBIS under the license CC-BY 4.0. Please follow the guidelines from the SCAR Data Policy (SCAR, 2023) when using the data. If you have any questions regarding this dataset, please contact us via the contact information provided in the metadata or via data-biodiversity-aq@naturalsciences.be. Issues with dataset can be reported at https://github.com/biodiversity-aq/data-publication/\nThis dataset is part of the Antarctic Penguin Biogeography Project project funded by National Aeronautics and Space Administration (NASA), the Pew Fellowship for Marine Conservation, and the Institute for Advanced Computational Sciences at Stony Brook University.",
+    "url": "https://obis.org/dataset/b4be83a5-101d-4a82-80dd-b8a39c8026f2",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=mapppd_count_data",
+        "https://doi.org/10.48361/zftxkr"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Che-Castaldo C, Humphries G, Lynch H, Van de Putte A (2023). Antarctic Penguin Biogeography Project: Database of abundance and distribution for the Adélie, chinstrap, gentoo, emperor, macaroni, and king penguin south of 60 S. Version 2.3. SCAR - AntOBIS. Samplingevent dataset. https://doi.org/10.48361/zftxkr",
+    "version": "2023-04-17T14:46:19.000Z",
+    "keywords": [
+        "Samplingevent",
+        "OCEAN",
+        "SOUTHERN OCEAN",
+        "ANTARCTICA",
+        "BIRDS",
+        "PENGUINS",
+        "POPULATION ABUNDANCE",
+        "BIOGEOGRAPHY"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "the number of nests (equivalently, breeding pairs)",
+            "url": "https://vocab.nerc.ac.uk/collection/P01/current/SOVO0001",
+            "description": "the number of nests (equivalently, breeding pairs)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "the number of chicks or adults",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "the number of chicks or adults"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1892/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.48361/zftxkr",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.48361/zftxkr",
+        "url": "https://doi.org/10.48361/zftxkr"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=mapppd_count_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-157.7 -77.7099,-157.7 -60.554214,171.1692 -60.554214,171.1692 -77.7099,-157.7 -77.7099"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

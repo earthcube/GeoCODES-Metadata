@@ -1,0 +1,92 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/39c96146-953d-4821-8542-faca0611ed43",
+    "name": "Collation of spatial seagrass data from 1984 - 2014 for the Great Barrier Reef World Heritage Area - Meadow boundaries",
+    "description": "This dataset summarises 30 years of seagrass data collection (1984-2014) within the Great Barrier Reef World Heritage Area into a GIS shapefile which describes seagrass at 1,169 individual or composite meadows. The data includes information on species, meadow type and age and reliability of the data.\nThe data described by this record is current as of 01/12/2016 for use in the The data described by this record is current as of 01/12/2016 for use in the Seamap Australia project. Newer versions of the data, additional 'point' site data, and alternative download formats are available from eAtlas. http://eatlas.org.au/geonetwork/srv/eng/metadata.show?u\nuid=77998615-bbab-4270-bcb1-96c46f56f85a",
+    "url": "https://obis.org/dataset/39c96146-953d-4821-8542-faca0611ed43",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nesp_seagrass_boundaries"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "King R (2023): Collation of spatial seagrass data from 1984 - 2014 for the Great Barrier Reef World Heritage Area - Meadow boundaries. v1.3. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=nesp_seagrass_boundaries&amp;v=1.3",
+    "version": "2023-07-04T01:31:04.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Area",
+            "url": "",
+            "description": "Area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Location type",
+            "url": "",
+            "description": "Location type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean Biomass",
+            "url": "",
+            "description": "Mean Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Method",
+            "url": "",
+            "description": "Method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Seagrass Density",
+            "url": "",
+            "description": "Seagrass Density"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1984/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nesp_seagrass_boundaries",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "142.527653286928 -24.4879842446503,142.527653286928 -10.754015114855,152.128875444534 -10.754015114855,152.128875444534 -24.4879842446503,142.527653286928 -24.4879842446503"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

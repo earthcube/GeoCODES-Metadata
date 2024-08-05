@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/90d8bc63-5336-443f-b47d-a3f0c8e99d73",
+    "name": "Protected species bycatch in New Zealand fisheries",
+    "description": "Seabirds, marine mammals, and turtles are caught during commercial fishing operations within the New Zealand Exclusive Economic Zone. In order to monitor the impacts of fishing on these species, New Zealand government observers on fishing vessels record any protected species bycatch incidents that occur. Observer data on protected species captures are maintained by the Ministry for Primary Industries, with identification of captured animals carried out by the Department of Conservation. The data have been summarised in a series of reports, with the most recent report covering the period from 2002–03 to the end of the 2008–09 fishing year (Abraham and Thompson 2011b).\nThis dataset provides a summary of protected species bycatch in trawl and longline fisheries, from the 2002–03 to 2019–20 fishing year (fishing years run from October 1 to September 30).\nObservers are only present on some fishing vessels. To estimate total captures in a fishery, it is necessary to use statistical methods to extrapolate from the observed fishing to the unobserved fishing. The total observable captures are an estimate of the captures that would have been reported, had observers been present on all fishing vessels. There may be additional mortalities (such as birds that are struck by fishing gear but not brought on board the vessel) that are not recorded by observers. These are referred to as ‘cryptic mortalities’ and are not included in the estimates of total captures, nor is there any evaluation of potential survival of seabirds recorded as captured but subsequently released alive. The methods used for the estimation follow those described in technical reports on bycatch estimation for seabirds (Abraham and Thompson 2011a, Abraham et al. 2013), and marine mammals (Thompson et al. 2013).\n####Notes about some Fields:\n\n- **fishing_year** the fishing year of the capture. Fishing years run from 1 October to 30 September;\n\n- **datetime** the date and time of the capture. All times are in New Zealand Standard Time (GMT+12);\n\n- **status** whether the animal was alive or dead;\n\n- **identification** how the identification was made (necropsy: by necropsy of the dead animal; photograph: from\n    an expert inspection of a photograph of the capture; imputation: imputed by correcting the observer code using\n    necropsy and photographic identifications of other captures with the same observer identification; as reported\n    by the observer);\n- **method** the fishing method (surface longline; bottom longline; trawl; set net; or purse seine); \n\n- **target** the target species reported by the fisher;\n\n- **vessel_size** the length class of the vessel (a range in m).",
+    "url": "https://obis.org/dataset/90d8bc63-5336-443f-b47d-a3f0c8e99d73",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=protected_species_bycatch_nz"
+    ],
+    "license": "Crown copyright ©. Copyright material on the Protected Species Captures website is protected by copyright owned by the Ministry for Primary Industries on behalf of the Crown. Unless indicated otherwise for specific items or collections of content (either below or within specific items or collections), this copyright material is licensed for re-use under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Abraham E R, Thompson F N (2016): Protected species bycatch in New Zealand fisheries. v1.6. Southwestern Pacific Ocean Biogeographic Information System (OBIS) Node. Dataset/Occurrence. https://nzobisipt.niwa.co.nz/resource?r=protected_species_bycatch_nz&amp;v=1.6",
+    "version": "2022-08-29T09:31:28.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=protected_species_bycatch_nz",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.996828 -53.83118741,-179.996828 -32.23885066,179.999091 -32.23885066,179.999091 -53.83118741,-179.996828 -53.83118741"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19485",
+            "@type": "Organization",
+            "legalName": "Dragonfly Data Science",
+            "name": "Dragonfly Data Science",
+            "url": "https://oceanexpert.org/institution/19485"
+        }
+    ]
+}

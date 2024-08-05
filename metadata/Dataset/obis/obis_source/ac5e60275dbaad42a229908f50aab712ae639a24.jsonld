@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/52f4fad0-38e6-48a5-a853-c8a635b4811a",
+    "name": "Diatom abundance from CEAMARC coretop samples 2007/08",
+    "description": "This dataset contains the abundance of diatom species found in the surface sediments from cores collected as part of the CEAMARC (Collaborative East Antarctic Marine Census) mission. The cores were collected from the George V basin along the Antarctic coast. Latitude, longitude and water depth data are included for each site. Sediments were prepared following standard diatom preparation techniques (Rathburn et al 1997).\nThe purpose of the data set is to catalogue the distribution of diatoms within surface sediments along the Antarctic coast.\nThe site codes are the names given to the individual sites by the CEAMARC mission. See other CEAMARC records for more information (particularly the \"Events\" metadata record).\n\nTab 1 \"Raw data\" are the counts of the number of individuals of any given species found at each site, and also includes the absolute abundance data for diatom valves (not counting Chaetoceros resting spores) presented in valves per gram dry weight of sediment. Tab 2 \"Percent format\" is the same data, but converted to a percent relative abundance for each species. Tab 3 contains the location information.",
+    "url": "https://obis.org/dataset/52f4fad0-38e6-48a5-a853-c8a635b4811a",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=ceamarc_diatoms"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Armand L (2018): Diatom abundance from CEAMARC coretop samples 2007/08. v1.2. Australian Antarctic Data Centre. Dataset/Occurrence. doi:10.4225/15/58055fa6a6ba9",
+    "version": "2020-03-06T04:51:51.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=ceamarc_diatoms",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "139.302983 -67.049233,139.302983 -65.466733,145.531316 -65.466733,145.531316 -67.049233,139.302983 -67.049233"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/16203",
+            "@type": "Organization",
+            "legalName": "The Australian National University",
+            "name": "The Australian National University",
+            "url": "https://oceanexpert.org/institution/16203"
+        }
+    ]
+}

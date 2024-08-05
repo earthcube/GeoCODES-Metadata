@@ -1,0 +1,92 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4fd95328-42c6-44cb-9347-64282f4946d5",
+    "name": "NORFANZ Biological Survey, Tasman Sea, Australia - New Zealand 2003",
+    "description": "Biological survey data (species IDs and catch compositions) collected during the NORFANZ voyage on the Norfolk Ridge and Lord Howe Rise in the Tasman Sea between Australia and New Zealand, in May-June 2003. The NORFANZ voyage was a collaboration between multiple Australian and New Zealand agencies including CSIRO, Australian museums and NIWA. Fourteen seamount and slope sites were sampled, 10 on the Norfolk Ridge and 4 on the Lord Howe Rise. A total of 168 operations were completed, including 144 trawl-sled-dredge shots, in depths ranging from less than 100 m to over 2000 m. Gear types included bottom trawls, midwater trawl, beam trawl, epibenthic sleds, and rock and pipe dredges. The dataset contains records of 1,622 macroinvertebrate species or provisional species units in 15 phyla, and 582 fish species in 122 families, and is expected to include a significant percentage of species new to science. Accompanying these survey data are photographs and, in some cases, voucher specimens which are held in institutions in Australia and New Zealand.\nThis data has been republished (2022-09-05 with additional details of each occurrence where they can be one of three types:  catch composition (counts per taxa and optional aggregated weights by trawl event), catch measurements (length and/or weight) of individual taxa and/or catch specimens and their stored location. The occurrence type is recorded in occurrenceremarks.",
+    "url": "https://obis.org/dataset/4fd95328-42c6-44cb-9347-64282f4946d5",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_norfanz_2003"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "NORFANZ - biodiversity survey 2003, Norfolk Ridge and Lord Howe Rise",
+    "version": "2023-10-27T00:40:54.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample catch weight",
+            "url": "",
+            "description": "Sample catch weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total catch weight",
+            "url": "",
+            "description": "Total catch weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "",
+            "description": "Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "",
+            "description": "Weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_norfanz_2003",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "158.979 -35.98366,158.979 -26.381,171.65975 -26.381,171.65975 -35.98366,158.979 -35.98366"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

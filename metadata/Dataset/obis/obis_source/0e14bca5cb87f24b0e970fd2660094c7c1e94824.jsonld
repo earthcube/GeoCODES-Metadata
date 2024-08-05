@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/139db389-055f-477b-a743-1ca1fd01c092",
+    "name": "Canadian National Aquatic Invasive Species Database",
+    "description": "An aquatic invader is a non-native species, whose introduction will likely cause (or has already caused) damage to the host ecosystem, existing species therein, the economy or human well-being. Invasive species thrive in the absence of their native predators and have the potential to drastically alter habitat, rendering it inhospitable for native species. Aquatic invasive species (AIS) have been entering Canadian waters for centuries but never as rapidly as today. Fisheries and Oceans Canada maintains a national AIS database containing field and experimental datasets submitted by researchers across the country. The OBIS view of this collection contains information related to the geographic distribution of selected AIS species from the field datasets. Date, abundance and biomass information is currently not included in this version of the OBIS view of the dataset.",
+    "url": "https://obis.org/dataset/139db389-055f-477b-a743-1ca1fd01c092",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_canadianais"
+    ],
+    "license": "rights: http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms  rights holder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "DFO 2015. Canadian National Aquatic Invasive Species Database. Version 3 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-03-15T21:01:49.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfo_canadianais",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-132.67583 40.00867,-132.67583 66.00861,-0.3105 66.00861,-0.3105 40.00867,-132.67583 40.00867"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

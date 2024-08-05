@@ -1,0 +1,77 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0f7da8fd-0fb7-47a6-b3a8-10e54caaa6de",
+    "name": "Macroinvertebrate groups found on deep-sea volcanic habitats in the Galapagos Marine Reserve in the Eastern Tropical Pacific Ocean: Annelida",
+    "description": "Macroinvertebrate groups found on deep-sea volcanic habitats in the Galapagos Marine Reserve in the Eastern Tropical Pacific Ocean: Annelida",
+    "url": "https://obis.org/dataset/0f7da8fd-0fb7-47a6-b3a8-10e54caaa6de",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-deepsea/resource?r=annelida_galapagos"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Buglass S (2019): Macroinvertebrate groups found on deep-sea volcanic habitats in the Galapagos Marine Reserve in the Eastern Tropical Pacific Ocean: Annelida. v1.2. Charles Darwin Research Station. Dataset/Occurrence. http://ipt.iobis.org/obis-deepsea/resource?r=annelida_galapagos&amp;v=1.2",
+    "version": "2019-05-22T21:09:30.000Z",
+    "keywords": [
+        "Deep-sea",
+        "Galapagos Marine Reserve",
+        "Macroinvertebrate",
+        "Annelida",
+        "Seamounts",
+        "Volcanic seascapes"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYOP01/",
+            "description": "Oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PSALCU01/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPCU01/",
+            "description": "Temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-deepsea/archive.do?r=annelida_galapagos",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-92.1283965 -0.393768402,-92.1283965 1.8778935,-91.09045132 1.8778935,-91.09045132 -0.393768402,-92.1283965 -0.393768402"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18303",
+            "@type": "Organization",
+            "legalName": "Fundación Charles Darwin",
+            "name": "Fundación Charles Darwin",
+            "url": "https://oceanexpert.org/institution/18303"
+        }
+    ]
+}

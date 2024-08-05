@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/753c168c-ba53-4ad0-a5ce-4649fdfc434c",
+    "name": "Shorebird observations at Ashmore Reef by the Australian Wader Survey Group, Australia (1998-2003)",
+    "description": "Ashmore Reef (123ºE 12ºS) is a small group of islets and reefs in the Timor Sea some 450 km north-east of the Kimberley, WA coast. Of the 21 species of shorebirds identified, five were found in internationally significant numbers. These were Grey-tailed Tattler, Ruddy Turnstone, Sanderling, Greater Sand Plover and Grey Plover. There were large breeding colonies of Sooty Terns on East and Middle Islands. Crested Terns were breeding in small numbers on East Island. Red-footed Boobies, Brown Boobies, and Lesser and Greater Frigatebirds were breeding on Middle Island.",
+    "url": "https://obis.org/dataset/753c168c-ba53-4ad0-a5ce-4649fdfc434c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ashmore_reef_waders"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "GEORGE SWANN (2005) OCCASIONAL COUNT NO. 7 - ASHMORE REEF, 21 TO 30 JANUARY 2002, The Stilt 47 (2005) and \nGEORGE SWANN (2005) OCCASIONAL COUNT NO. 8 - ASHMORE REEF, 21 TO 30 JANUARY 2002, The Stilt 47 (2005) See https://awsg.org.au/publications/stilt/",
+    "version": "2023-05-26T03:50:25.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ashmore_reef_waders",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "122.9654 -12.2643,122.9654 -12.226,123.0967 -12.226,123.0967 -12.2643,122.9654 -12.2643"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

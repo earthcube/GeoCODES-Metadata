@@ -1,0 +1,50 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c5e7e55f-2673-4155-a86d-8bd75f84b1c4",
+    "name": "Plankton image dataset from a cabled observatory system (JEDI System/OCEANS) deployed at coastal area of Oshima island, Tokyo, Japan",
+    "description": "To understand multiscale process of planktonic ecosystem in the Kuroshio, a cabled observatory system (JEDI-System/OCEANS) was developed and deployed at a coastal area (20 m depth) of Oshima Island,Tokyo, Japan, during 2014 to 2016 (Yamazaki et al., 2016). The observatory system can measure environmental parameters such as temperature and salinity, and take microscopic plankton images continuously. In this dataset, planktonic images obtained by the system were identified using machine learning with the validation process and compiled into DarwinCore occurrence records. All biological images and measured environmental parameters were archived at JST NBDC. H. Yamazaki, S. Gallager, M. Tanaka and K. Yamaguchi, \"A cabled observatory system for integrated long term, high-frequency biological, chemical, physical measurement for understanding planktonic ecosystem,\" 2016 Techno-Ocean (Techno-Ocean), 2016, pp. 429-434, doi: 10.1109/Techno-Ocean.2016.7890692.",
+    "url": "https://obis.org/dataset/c5e7e55f-2673-4155-a86d-8bd75f84b1c4",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=tumsat_jedi-oceans",
+        "https://doi.org/10.48518/00014"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Yamazaki, H. (2022) Plankton image dataset from a cabled observatory system (JEDI System/OCEANS) deployed at coastal area of Oshima island, Tokyo, Japan. Available at https://doi.org/10.48518/00014. Accessed on yyyy-mm-dd.",
+    "version": "2023-03-29T01:13:19.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2016",
+    "identifier": {
+        "@id": "https://doi.org/10.48518/00014",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.48518/00014",
+        "url": "https://doi.org/10.48518/00014"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=tumsat_jedi-oceans",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8668",
+            "@type": "Organization",
+            "legalName": "Tokyo University of Marine Science and Technology",
+            "name": "Tokyo University of Marine Science and Technology",
+            "url": "https://oceanexpert.org/institution/8668"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f3f38f7e-d905-4c59-a574-a2809ce8f118",
+    "name": "Antarctic Euphausiacea occurence data from Norwegian Antarctic Research Expedition 1976-77",
+    "description": "Antarctic krill (Euphausia superba) occurence during the Norwegian Antarctic Research Expedition 1976-77",
+    "url": "https://obis.org/dataset/f3f38f7e-d905-4c59-a574-a2809ce8f118",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=nor_1977"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Fevolden S (1979) Investigations on krill (Euphausiacea) sampled during the Norwegian Antarctic Research Expedition 1976-77 . Sarsia 64: 189-198",
+    "version": "2019-03-19T14:48:21.000Z",
+    "keywords": [
+        "Krill",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=nor_1977",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-43.8167 -74.5833,-43.8167 -54.4333,-3.4 -54.4333,-3.4 -74.5833,-43.8167 -74.5833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/15531",
+            "@type": "Organization",
+            "legalName": "Thünen Institut für Seefischerei",
+            "name": "Thünen Institut für Seefischerei",
+            "url": "https://oceanexpert.org/institution/15531"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

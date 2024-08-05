@@ -1,0 +1,66 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d32266b4-d98d-4eed-8207-57dff1f14cc4",
+    "name": "SBC LTER Darwin Core Archive: Kelp Forest Reef Fish Abundance",
+    "description": "These data describe the abundance of reef fish as part of the Santa\n  Barbara Coastal LTER program (SBC LTER) to track long-term patterns in\n  kelp forest reef species abundance and diversity. The study began in\n  2000 in the Santa Barbara Channel, California, USA, and the time\n  series is ongoing and updated approximately annually.\nAbundances of all taxa of resident kelp forest fish encountered along\n  permanent transects are recorded at nine reef sites located along the\n  mainland coast of the Santa Barbara Channel and at two sites on the\n  north side of Santa Cruz Island. These sites reflect several\n  oceanographic regimes in the channel and vary in distance from sources\n  of terrestrial runoff. In these surveys, fish were counted in either a\n  40x2m benthic quadrat, or in the water parcel 0-2m off the bottom over\n  the same area.\nThis dataset is formatted as a Darwin Core Archive (DwC-A, occurrence\n  core). All taxa are counted (using an open species list), and\n  abundances are zero-filled for each taxon not encountered. This is a\n  derived data product and less-processed data may be available. See\n   for\n  more information and source data, which may include additional\n  measurements, and\n  \n  for processing notes.",
+    "url": "https://obis.org/dataset/d32266b4-d98d-4eed-8207-57dff1f14cc4",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=sbclter_dwc_kelpforest_reeffishabundance"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-01-18T20:38:07.000Z",
+    "keywords": [
+        "Population Abundance",
+        "BasisofRecord: HumanObservation",
+        "Occurrence: OrganismQuantity",
+        "Taxon: ScientificName",
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=sbclter_dwc_kelpforest_reeffishabundance",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-120.3334874 34.0445,-120.3334874 34.47181667,-119.54175 34.47181667,-119.54175 34.0445,-120.3334874 34.0445"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19534",
+            "@type": "Organization",
+            "legalName": "Marine Biodiversity Observation Network – Southern California Bight",
+            "name": "Marine Biodiversity Observation Network – Southern California Bight",
+            "url": "https://oceanexpert.org/institution/19534"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23070",
+            "@type": "Organization",
+            "legalName": "United States Marine Biodiversity Observation Network",
+            "name": "United States Marine Biodiversity Observation Network",
+            "url": "https://oceanexpert.org/institution/23070"
+        }
+    ]
+}

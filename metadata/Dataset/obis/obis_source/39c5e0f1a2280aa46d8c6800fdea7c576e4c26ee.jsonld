@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f1987b75-508f-4562-8bbe-77cd9f6162d7",
+    "name": "The Belgian Marine Mammals Database (BMM)",
+    "description": "The marine mammals website (www.marinemammals.be) in its current form is the result of a long-standing collaboration between RBINS and the University of Liège and provides access to data from 50 years of marine mammal observations in Belgium. The database that backs it consists of two parts, i.e. observations and information on necropsied tissues and subsequent diagnoses on the cause of the death of the animal. The database records all stranding events in Belgium from recent years. The dataset provides the occurrences and associated data like putative circumstances and putative cause of death.",
+    "url": "https://obis.org/dataset/f1987b75-508f-4562-8bbe-77cd9f6162d7",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=belgian_marine_mammals"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Haelters, J., Jauniaux, T. (2019) The Belgian marine mammals database",
+    "version": "2023-12-08T17:09:04.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Decomposition code as assessed on the beach",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DECSBEXX/",
+            "description": "Decomposition code as assessed on the beach"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Animal status before intervention",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL11/",
+            "description": "Animal status before intervention"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Body length in cm as assessed on the beach",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Body length in cm as assessed on the beach"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Probability that cause of death is due to bycatch as assessed on the beach",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DBBCBE02/",
+            "description": "Probability that cause of death is due to bycatch as assessed on the beach"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Body weight in kg as assessed on the beach",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Body weight in kg as assessed on the beach"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Probability that cause of death is due to predation as assessed on the beach",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DBPDBE04/",
+            "description": "Probability that cause of death is due to predation as assessed on the beach"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Probability that cause of death is due to ship strike as assessed on the beach",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DBSSBE03/",
+            "description": "Probability that cause of death is due to ship strike as assessed on the beach"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Probability that cause of death is natural as assessed on the beach",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DBNCBE01/",
+            "description": "Probability that cause of death is natural as assessed on the beach"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1945/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=belgian_marine_mammals",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0.21666666666667 50.516666666667,0.21666666666667 52.518611,4.891804 52.518611,4.891804 50.516666666667,0.21666666666667 50.516666666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19577",
+            "@type": "Organization",
+            "legalName": "L'Institut Supérieur des Sciences et de Médecine Vétérinaire de Dalaba ",
+            "name": "L'Institut Supérieur des Sciences et de Médecine Vétérinaire de Dalaba ",
+            "url": "https://oceanexpert.org/institution/19577"
+        }
+    ]
+}

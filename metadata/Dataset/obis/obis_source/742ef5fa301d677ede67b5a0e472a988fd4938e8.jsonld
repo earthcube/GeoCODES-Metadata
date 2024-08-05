@@ -1,0 +1,106 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bfa5e693-7ed4-456c-a276-1a9807d6f27a",
+    "name": "North Atlantic and Arctic Cumacea sampled during the IceAGE (2011) and PASCAL (2017) project",
+    "description": "This datasets contributes to a better understanding of diversity in small peracarid crustacean and their possible distribution patterns in remote deep-sea regions. It contains specimen ocurrence records of the taxon Cumacea sampled with diverse benthic gears (epibenthic sledges, box corer) on the Yermak Plateau north of Svalbard during the PASCAL project with RV Polarstern in 2017 and during the IceAGE expedition IceAGE1 in 2011 in deep sea regions of the Nordic GIN-Seas (Greenland, Iceland and Norwegian Sea).",
+    "url": "https://obis.org/dataset/bfa5e693-7ed4-456c-a276-1a9807d6f27a",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cumacea_pascal_iceage",
+        "https://dx.doi.org/10.14284/506"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Uhlir, C.; Meland, K.; Glenner, H.; Brandt, A.; Brix, S. (2021). North Atlantic and Arctic Cumacea sampled during the IceAGE (2011) and PASCAL (2017) project. Marine Data Archive https://dx.doi.org/10.14284/506",
+    "version": "2024-02-26T23:13:58.000Z",
+    "keywords": [
+        "Benthos",
+        "Biodiversity",
+        "Distribution records",
+        "Marine invertebrates",
+        "Deep sea",
+        "Polarstern",
+        "research vessel",
+        "Taxonomy",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Gear_type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Gear_type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity_ground",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSALST01/",
+            "description": "Salinity_ground"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Watertemp_ground",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/",
+            "description": "Watertemp_ground"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Trawling distance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Trawling distance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of measurement platform relative to ground surface {speed over ground}",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/APSAZZ01/",
+            "description": "Speed of measurement platform relative to ground surface {speed over ground}"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2017",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/506",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/506",
+        "url": "https://dx.doi.org/10.14284/506"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cumacea_pascal_iceage",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-31.3526607 60.0455,-31.3526607 81.93248,11.566229 81.93248,11.566229 60.0455,-31.3526607 60.0455"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

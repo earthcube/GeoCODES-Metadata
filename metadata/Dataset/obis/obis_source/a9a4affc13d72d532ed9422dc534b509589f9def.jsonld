@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/05bde978-ec4c-419b-92cf-94e267e750ad",
+    "name": "SIO_FAMIZ",
+    "description": "To study composition and distribution of zooplankton in the Arctic Ocean.",
+    "url": "https://obis.org/dataset/05bde978-ec4c-419b-92cf-94e267e750ad",
+    "sameAs": [
+        "http://geo.abds.is/ipt/resource?r=arcod_2006p8"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Elena Arashkevich and Anna Pasternak. Arctic Ocean: Amundsen and Nansen basins  July-August 2001. Vertical and stratified zooplankton sampling onboard the Swedish icebreaker Oden, program FAMIZ",
+    "version": "2019-08-26T14:16:29.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://geo.abds.is/ipt/archive.do?r=arcod_2006p8",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-4.53999996185 77.8199996948,-4.53999996185 88.9100036621,33.1800003052 88.9100036621,33.1800003052 77.8199996948,-4.53999996185 77.8199996948"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12745",
+            "@type": "Organization",
+            "legalName": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "name": "University of Alaska Fairbanks - School of Fisheries and Oceans",
+            "url": "https://oceanexpert.org/institution/12745"
+        }
+    ]
+}

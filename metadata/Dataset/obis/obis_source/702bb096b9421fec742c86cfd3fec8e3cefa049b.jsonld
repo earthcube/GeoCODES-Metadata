@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f5a4799e-dc24-4807-89d9-01da47d52e3b",
+    "name": "NOAA Deep Sea Corals Research and Technology Program",
+    "description": "NOAA’s Deep-Sea Coral Research and Technology Program (DSC-RTP) is compiling a national geodatabase of the known locations of deep-sea corals and sponges in U.S. territorial waters and beyond. The database will be comprehensive, standardized, quality controlled, and networked to outside resources. The database schema accommodates both linear (trawls, transects) and point (samples, observations) data. The structure of the database is tailored to occurrence records of all the azooxanthellate corals, a subset of all corals, and all sponge species. Records shallower than 50 m are generally excluded in order to focus on predominantly deep-water species – the mandate of the DSC-RTP. The intention is to limit the overlap with light-dependent (and mostly shallow-water) corals. The current data reflects DSC-RTP Database Version 20230828-0.\n\nTo query, visualize, and download data in its native format, please visit our map portal: \nhttps://www.ncei.noaa.gov/maps/deep-sea-corals/mapSites.htm  \n\nFor advanced data query and data download, please visit our ERDDAP data access form:  \nhttps://www.ncei.noaa.gov/erddap/tabledap/deep_sea_corals.html \n\nTo learn more about deep sea coral and sponge habitats, please visit our website: \nhttps://deepseacoraldata.noaa.gov/",
+    "url": "https://obis.org/dataset/f5a4799e-dc24-4807-89d9-01da47d52e3b",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=noaa_dsc_rtp",
+        "https://doi.org/10.15468/aqbftj"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Hourigan T (2020). NOAA Deep Sea Corals Research and Technology Program. Version 1.6. United States Geological Survey. Occurrence dataset",
+    "version": "2023-10-07T02:51:51.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1833/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/aqbftj",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/aqbftj",
+        "url": "https://doi.org/10.15468/aqbftj"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=noaa_dsc_rtp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.995 -78.9167,-179.995 74.35,179.999 74.35,179.999 -78.9167,-179.995 -78.9167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11379",
+            "@type": "Organization",
+            "legalName": "National Oceanic and Atmospheric Administration, Washington",
+            "name": "National Oceanic and Atmospheric Administration, Washington",
+            "url": "https://oceanexpert.org/institution/11379"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

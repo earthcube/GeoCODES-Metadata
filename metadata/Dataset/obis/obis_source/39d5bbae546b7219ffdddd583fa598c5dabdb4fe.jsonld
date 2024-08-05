@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/735f8dca-f656-4452-b8cb-a6bf3389f1fd",
+    "name": "PELD-ELPA Continuous monitoring of the micro and mesozooplankton of the Patos Lagoon estuary and adjacent coastal area",
+    "description": "The micro and mesozooplankton of the Patos Lagoon estuary have been sampled monthly by the zooplankton laboratory of the Federal University of Rio Grande (FURG) at two locations inside the estuary (since Apr 2009) and another at the local adjoining area (since Nov 2009), near FURG´s marine aquaculture station. Mini-bongo nets fitted with 90 and 200 microns and callibrated flowmeters are being used to collect the samples. Temperature and salinity data as well as water samples to measure Chlorophyll a are also collected from each sampling site.",
+    "url": "https://obis.org/dataset/735f8dca-f656-4452-b8cb-a6bf3389f1fd",
+    "sameAs": [
+        "https://ipt.sibbr.gov.br/peld/resource?r=continuous_monitoring_of_the_micro_and_mesozooplankton_of_the_patos_lagoon_estuary_and_adjacent_coastal_area"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Muxagata E, Teixeira-Amaral P (2018): PELD-ELPA Continuous monitoring of the micro and mesozooplankton of the Patos Lagoon estuary and adjacent coastal area. v1.9. Sistema de Informação sobre a Biodiversidade Brasileira - SiBBr. Dataset/Samplingevent. https://ipt.sibbr.gov.br/peld/resource?r=continuous_monitoring_of_the_micro_and_mesozooplankton_of_the_patos_lagoon_estuary_and_adjacent_coastal_area&amp;v=1.9",
+    "version": "2022-12-08T13:46:07.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Monitoring",
+        "Zooplankton",
+        "Patos Lagoon"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Chlorophyl a",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/CPWC/",
+            "description": "Chlorophyl a"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMP001/",
+            "description": "Salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPP681/",
+            "description": "Water temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/3/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.sibbr.gov.br/peld/archive.do?r=continuous_monitoring_of_the_micro_and_mesozooplankton_of_the_patos_lagoon_estuary_and_adjacent_coastal_area",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-52.176 -32.206,-52.176 -32.025,-52.1 -32.025,-52.1 -32.206,-52.176 -32.206"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13853",
+            "@type": "Organization",
+            "legalName": "Federal University of Rio Grande-FURG, Rio Grande",
+            "name": "Federal University of Rio Grande-FURG, Rio Grande",
+            "url": "https://oceanexpert.org/institution/13853"
+        }
+    ]
+}

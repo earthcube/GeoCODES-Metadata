@@ -1,0 +1,111 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/46d12be4-1587-4ff8-b5a9-a58bdd379fb2",
+    "name": "Phyto- and microzooplankton in mussel farms - North Adriatic Sea (SosteMiTS Project) 2008-2009",
+    "description": "Phytoplankton and microzooplankton collected near mussel farm activities in the Gulf of Trieste - North Adriatic Sea in the framework of sosteMiTS Project financed by  Friuli Venezia Giulia Region. Data collected in 2008-2009.",
+    "url": "https://obis.org/dataset/46d12be4-1587-4ff8-b5a9-a58bdd379fb2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=sostemits-phytoplankton",
+        "https://doi.org/10.6092/b0dbc9d9-46b6-4279-89cc-f860b42c9dd8"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "M.Minocci, M.Monti, P. Del Negro, C.Solidoro (2018): Phytoplankton and microzooplankton collected in SosteMiTS Project, Mussel Farms, 2008-2009. OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. Italy. https://doi.org/10.6092/b0dbc9d9-46b6-4279-89cc-f860b42c9dd8",
+    "version": "2023-05-23T11:39:36.000Z",
+    "keywords": [
+        "Mussel fisheries",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance per unit volume of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Carbon biomass (calculated) per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL12/",
+            "description": "Carbon biomass (calculated) per unit volume of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "upper limit of the size-class",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMAXLX/",
+            "description": "upper limit of the size-class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Colonial stage",
+            "url": "",
+            "description": "Colonial stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lower limit of the size-class",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMINLX/",
+            "description": "lower limit of the size-class"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Spines",
+            "url": "",
+            "description": "Spines"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Trophic stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTROPH01/",
+            "description": "Trophic stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2009",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/b0dbc9d9-46b6-4279-89cc-f860b42c9dd8",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/b0dbc9d9-46b6-4279-89cc-f860b42c9dd8",
+        "url": "https://doi.org/10.6092/b0dbc9d9-46b6-4279-89cc-f860b42c9dd8"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=sostemits-phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.602 45.601,13.602 45.761,13.717 45.761,13.717 45.601,13.602 45.601"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

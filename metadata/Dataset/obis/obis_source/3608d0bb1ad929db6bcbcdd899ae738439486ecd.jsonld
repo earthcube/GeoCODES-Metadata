@@ -1,0 +1,82 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a2446547-4c94-4df3-a6dc-ccfcdcbb4596",
+    "name": "Macroalgas, equinodermos y crustáceos de la Isla Cayo Serranilla durante la Expedición Seaflower 2017 - Proyecto Colombia BIO",
+    "description": "Durante la expedición Seaflower 2017 a la Isla Cayo Serranilla se realizó un inventario de las especies de macroalgas, crustáceos y equinodermos, asociados a litorales duros. En total se recolectó información de 197 registros.",
+    "url": "https://obis.org/dataset/a2446547-4c94-4df3-a6dc-ccfcdcbb4596",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=udea_algas-crusta-equino_seaflower_2017",
+        "http://doi.org/10.15472/lrizsk"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Universidad Antioquia &amp; Universidad CES (2017). Macroalgas, equinodermos y crustáceos de la Isla Cayo Serranilla durante la Expedición Seaflower 2017 - Proyecto Colombia BIO. Versión 1.0. 197 registros, aportados por: Quiceno P, Quang L, Londoño MH, Zapata JL. Conjunto de datos/Registros biológicos.",
+    "version": "2021-07-15T16:45:02.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "COLOMBIA_BIO",
+        "SEAFLOWER",
+        "diversidad ecológica",
+        "diversidad funcional",
+        "Isla Cayo Serranilla",
+        "Caribe colombiano"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "identifier": {
+        "@id": "http://doi.org/10.15472/lrizsk",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/lrizsk",
+        "url": "http://doi.org/10.15472/lrizsk"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=udea_algas-crusta-equino_seaflower_2017",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-79.85464 15.79456,-79.85464 15.80872,-79.81425 15.80872,-79.81425 15.79456,-79.85464 15.79456"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11218",
+            "@type": "Organization",
+            "legalName": "Comisión Colombiana del Océano",
+            "name": "Comisión Colombiana del Océano",
+            "url": "https://oceanexpert.org/institution/11218"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16726",
+            "@type": "Organization",
+            "legalName": "Universidad de Antioquia",
+            "name": "Universidad de Antioquia",
+            "url": "https://oceanexpert.org/institution/16726"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20359",
+            "@type": "Organization",
+            "legalName": "Universidad CES",
+            "name": "Universidad CES",
+            "url": "https://oceanexpert.org/institution/20359"
+        }
+    ]
+}

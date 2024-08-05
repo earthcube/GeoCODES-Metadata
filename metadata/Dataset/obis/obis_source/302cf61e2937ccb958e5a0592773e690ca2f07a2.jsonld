@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/60cfb9fb-dbbf-4fcf-86a7-dda5343aadee",
+    "name": "Stomach contents of salmonids caught in the Northeastern Pacific Ocean - 1959 and 1960",
+    "description": "This dataset includes stomach content data of salmonids caught in the northeastern Pacific in 1959 and 1960. These data were extracted and aggregated by Caroline Graham, Evgeny A. Pakhomov and Brian P. V. Hunt as part of a larger database project: the North Pacific Marine Salmon Diet Database (NPMSDD). Further information on the NPMSDD is provided here: https://doi.org/10.1038/s41597-020-00676-y. The dynamic GitHub repository can be found here: https://github.com/mcarolinegraham/North_Pacific_Marine_Salmon_Diet_Database.",
+    "url": "https://obis.org/dataset/60cfb9fb-dbbf-4fcf-86a7-dda5343aadee",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=ne-pacific-salmonid-stomach-contents-1959-1960"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "LeBrasseur, R.J., Doidge, D.A., 1966. Stomach contents of salmonids caught in the Northeastern Pacific Ocean - 1959 &amp; 1960. Circular, Statistical series, Fisheries Research Board of Canada, Biological Station, Nanaimo, Canada, 21, Vol. 3, 67 pp.",
+    "version": "2021-04-16T11:33:28.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1959/1960",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=ne-pacific-salmonid-stomach-contents-1959-1960",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-160 48.333333,-160 58,-125 58,-125 48.333333,-160 48.333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5899",
+            "@type": "Organization",
+            "legalName": "University of British Columbia",
+            "name": "University of British Columbia",
+            "url": "https://oceanexpert.org/institution/5899"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        }
+    ]
+}

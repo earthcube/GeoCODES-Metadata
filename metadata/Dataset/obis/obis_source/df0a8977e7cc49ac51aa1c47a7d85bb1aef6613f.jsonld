@@ -1,0 +1,97 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b4b52f00-c493-4ca9-8ee5-9ff7d36147ec",
+    "name": "Community analysis and feeding ecology of the ichthyofauna in Gazi Bay sampled in August 1993",
+    "description": "Counts of observed fish species and numerical and gravimetrical stomach analysis for 9 fish species at the West and East creek of Gazi Bay during a 2 day sampling in August 1993. The data were digitized by VLIZ from the original report: De Troch, M. (1995). Gemeenschapsanalyse en trofische organisatie van de ichthyofauna in een tropische baai (Gazi Bay, Kenya; Community analyses and trophic organisation of the ichthyofauna in a tropical bay (Gazi Bay, Kenya). MSc Thesis. Universiteit Gent. Mariene Biologie. Instituut voor Dierkunde. Vakgroep Morfologie, Systematiek en Ecologie: Gent. 136 pp.",
+    "url": "https://obis.org/dataset/b4b52f00-c493-4ca9-8ee5-9ff7d36147ec",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ichthyofauna_gazi_bay_1993",
+        "https://dx.doi.org/10.14284/146"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "De Troch M.; Vincx M.; Marine Biology Section; Zoology Institute. Ugent: Belgium; (2016): Community analysis and feeding ecology of the ichthyofauna in Gazi Bay sampled in August 1993. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5284) https://dx.doi.org/10.14284/146",
+    "version": "2023-12-08T18:32:11.000Z",
+    "keywords": [
+        "Seagrass",
+        "Stomach content",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass (mg AFDW)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "description": "Biomass (mg AFDW)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "NetMeshSize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "NetMeshSize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/1993",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/146",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/146",
+        "url": "https://dx.doi.org/10.14284/146"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ichthyofauna_gazi_bay_1993",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "39.51115179556 -4.42683382132408,39.51115179556 -4.41422808127834,39.5232160623042 -4.41422808127834,39.5232160623042 -4.42683382132408,39.51115179556 -4.42683382132408"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11578",
+            "@type": "Organization",
+            "legalName": "Kenya Marine and Fisheries Research Institute",
+            "name": "Kenya Marine and Fisheries Research Institute",
+            "url": "https://oceanexpert.org/institution/11578"
+        }
+    ]
+}

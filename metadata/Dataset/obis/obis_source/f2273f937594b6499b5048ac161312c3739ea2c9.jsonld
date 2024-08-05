@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ee298342-0b33-471a-bffd-49ab42347258",
+    "name": "Elephant Seal Sightings, Heard Island",
+    "description": "At Heard Island, Southern Indian Ocean, seals were branded between 1949-1953.  Seal length was measured in feet and inches.  Recaptures of seals were made up until 1955, and growth and age-specific survival was calculated.",
+    "url": "https://obis.org/dataset/ee298342-0b33-471a-bffd-49ab42347258",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=ellie_sightings_heard"
+    ],
+    "license": "",
+    "citation": "See metadata record http://www1.data.antarctica.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/Tags_heard_1949",
+    "version": "2015-01-20T03:08:51.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=ellie_sightings_heard",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "73.2969444444 -53.1891666667,73.2969444444 -52.9641666667,73.7416666667 -52.9641666667,73.7416666667 -53.1891666667,73.2969444444 -53.1891666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

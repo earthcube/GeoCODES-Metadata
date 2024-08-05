@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/aba3c01d-3f9e-42ff-a645-20bb38a34214",
+    "name": "AMAPPS Southeast Shipboard Cruise Summer 2016",
+    "description": "Original provider:\nNOAA Southeast Fisheries Science Center (SEFSC)\n\nDataset credits:\nNOAA Southeast Fisheries Science Center (SEFSC)\n\nAbstract:\nAs part of the AMAPPS program, the Southeast Fisheries \nScience Center conducted shipboard surveys of continental \nslope and shelf break waters along the US East Coast from \nCentral Florida to Delaware during 30 June – 19 August, \n2016 (designated Cruise code GU16-05). The marine mammal \nsurvey was designed for analysis using Distance sampling, \nand a two-team (independent observer) approach was used \nto \ncorrect for perception bias in resulting abundance \nestimates. Team 1 was stationed on the vessel's flying \nbridge (height above the water 13.9 m) and team 2 was \nlocated on the bridge wings (height above the water 11.2 \nm). Between 20 - 24 August the ship transited into the \nGulf of Mexico and only team 1 was active.\n\nPurpose:\nThe goal of the survey was to conduct line-transect surveys \nusing the Distance sampling approach to estimate the \nabundance and spatial distribution of cetaceans in the \ncontinental slope and shelf break waters along the US East \nCoast.\n\nSupplemental information:\nTrip ID / Dataset ID of this dataset is GU1605.\n\nPerpendicular distance to the animal is not publicly \navailable.\nThe dataset is accompanied by transect (effort) data \nwhich \nis provided as a separate file.\nSightings included were detected on-effort by the flying \nbridge only or by both the flying bridge and bridge wing \nteams; you may request the full dataset and sightings \nincluding opportunistic ones directly to the provider.\n\nEnvironmental Attribute Codes\nBeaufort Sea state\n0 Calm, mirror like seas\n1 Waves &lt;1ft, rippled surface\n2 Small wavelets (&lt;2 ft), no white caps\n3 Large wavelets (&lt;3ft), scattered white caps\n4 Swell 3-4 ft, numerous white caps\n5 Swell &gt;5 ft, many white caps, some spray\n6 Swell &gt;10 ft, white caps everywhere, spray\nVisibility\n0 Clear\n1 Good\n2 Fair\n3 Poor\nWeather\n0 Clear\n1 Mist\n2 Light Rain\n3 Heavy Rain\nCloud Cover\n0 Clear\n1 0-25% Cloudy\n2 26-50% Cloudy\n3 51-75% Cloudy\n4 76-100% Cloudy\n5 Overcast\nGlare\n0 No Glare\n1 &lt;10% of visual field\n2 10-25% of visual field\n3 26-50% of visual field\n4 51-75% of visual field\n5 &gt;75% of visual field\nGlare intensity\n0 No Impairment\n1 Slight Impairment\n2 Moderate Impairment\n3 Severe Impairment\nConditions\n0 Poor\n1 Fair\n2 Moderate\n3 Good\n4 Excellent",
+    "url": "https://obis.org/dataset/aba3c01d-3f9e-42ff-a645-20bb38a34214",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1974"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Dias, L. and L. Garrison. 2019. AMAPPS Southeast Shipboard Cruise Summer 2016. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1974) on yyyy-mm-dd.",
+    "version": "2021-09-08T16:35:06.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1974",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-85.78827 24.34719,-85.78827 38.43544,-71.33173 38.43544,-71.33173 24.34719,-85.78827 24.34719"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7534",
+            "@type": "Organization",
+            "legalName": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "name": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "url": "https://oceanexpert.org/institution/7534"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

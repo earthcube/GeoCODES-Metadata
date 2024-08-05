@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/02ce69ec-e57c-4228-bed0-71bd83311e05",
+    "name": "OTN St. Anns Bank Species Tracking Study - Tag Release Metadata",
+    "description": "This is the OBIS extraction of the OTN St. Anns Bank Species Tracking Study project, consisting only of the release tagging metadata. i.e. the locations  and dates of tagged animal release. If readers are  interested in the full source  dataset they should refer to the OTN web site  (members.oceantrack.org). Abstract: The St. Anns Bank Marine Protected Area was established in June 2017. In support of the long-term management of this MPA, an ecosystem monitoring program is currently being designed to evaluate performance relative to conservation objectives. Data describing the spatial-temporal patterns of species movement relative to MPA boundaries is essential for evaluating species composition and to gauge the protective capacity of the MPA.  In 2015, a snow crab movement monitoring project was established in the St. Anns Bank area, with collaboration between industry, the OTN and DFO.  Acoustic receiver arrays deployed as part of this project  can provide an opportunity to record the presence of tagged species who reside in, or transit through, the MPA. In particular, acoustic monitoring of tagged focal species (Atlantic cod (Gadus morhua) and Atlantic striped wolfish (Anarhichas lupus)) inside the MPA and beyond the receiver array, will provide important information for performance evaluation and design.",
+    "url": "https://obis.org/dataset/02ce69ec-e57c-4228-bed0-71bd83311e05",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndfo-biostannsbankspec"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Stanley, R; Zisserson, B and Fenton, D. 2016. St Anns Bank Species Tracking Study.  Version # In OBIS Digital Collections. Published by OBIS, Digital http://www.obis.org/. Accessed on - INSERT DATE",
+    "version": "2019-02-20T15:19:08.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndfo-biostannsbankspec",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-59.32011 45.16332,-59.32011 46.22429,-58.94616 46.22429,-58.94616 45.16332,-59.32011 45.16332"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

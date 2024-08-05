@@ -1,0 +1,89 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/13afda68-30f9-4d62-88b6-c1484423b55d",
+    "name": "Quantitative determination of bacteria by the membrane-filtration method in the Sluice Dock in 1966",
+    "description": "Bacterial densities for 3 points sampled between March and October 1966 in the Sluice Dock and the Port of Ostend. The data were digitized by VLIZ from the original report: Persoone, G.; De Pauw, N. (1971). Contributions à l'étude des bactéries marines du littoral belge: 4. Recherche quantitative de la richesse microbienne de l'eau du bassin de chasse d'Ostende par lecture directe sur membranes filtrantes.",
+    "url": "https://obis.org/dataset/13afda68-30f9-4d62-88b6-c1484423b55d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=quantitative_determination_of_bacteria_by_the_membrane-filtration_method_in_the_sluice_dock_in_1966",
+        "https://dx.doi.org/10.14284/212"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Persoone G.; De Pauw N.; Laboratorium voor Oecologie, Biogeografie en Algemene Biologie. RUG; Laboratorium voor Oecologie. RUCA: Belgium; (2016): Quantitative determination of bacteria by the membrane-filtration method in the Sluice Dock in 1966. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5112) https://dx.doi.org/10.14284/212",
+    "version": "2023-05-23T12:24:25.000Z",
+    "keywords": [
+        "Bacterial filtration",
+        "coastal structure",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Bacterial Density",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Bacterial Density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sample volume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "sample volume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1966/1966",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/212",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/212",
+        "url": "https://dx.doi.org/10.14284/212"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=quantitative_determination_of_bacteria_by_the_membrane-filtration_method_in_the_sluice_dock_in_1966",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.927446 51.225798,2.927446 51.229928,2.957778 51.229928,2.957778 51.225798,2.927446 51.225798"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12703",
+            "@type": "Organization",
+            "legalName": "Universiteit Antwerpen",
+            "name": "Universiteit Antwerpen",
+            "url": "https://oceanexpert.org/institution/12703"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7a6fdadd-0ac3-4ef8-a80b-362526de8229",
+    "name": "Satellite tracking of rehabilitated juvenile loggerhead, green, and Kemp's ridley turtles in the northeastern USA",
+    "description": "Original provider:\nFundacion Oceanografic\n\nDataset credits:\nNathan J. Robinson, Fundacion Oceanografic\n\nAbstract:\nSatellite tracking data for 31 rehabilitated loggerhead, green, and Kemp's ridley sea turtles tracked from the waters of New York, US.\n\nThe data have already been processed using a state-space model to provide daily location estimates.\n\nSupplemental information:\nTracking data were processed using a state-space model to provide daily location estimates at 12:00:00pm.",
+    "url": "https://obis.org/dataset/7a6fdadd-0ac3-4ef8-a80b-362526de8229",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_2133",
+        "https://doi.org/10.3354/esr01065"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Robinson NJ, Deguzman K, Bonacci-Sullivan L, DiGiovanni Jr. RA, Pinou T. 2020. Rehabilitated sea turtles tend to resume typical migratory behaviors: satellite tracking juvenile loggerhead, green, and Kemp’s ridley turtles in the northeastern USA. Endangered Species Research. 43:133-43.",
+    "version": "2021-04-24T08:57:08.000Z",
+    "keywords": [
+        "Occurrence,Marine Biology,Sea turtles,Animal tagging,Satellite telemetry,Satellite Transmitters",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.3354/esr01065",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.3354/esr01065",
+        "url": "https://doi.org/10.3354/esr01065"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_2133",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.344095 25.548844,-81.344095 42.387592,-35.407329 42.387592,-35.407329 25.548844,-81.344095 25.548844"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

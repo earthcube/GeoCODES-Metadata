@@ -1,0 +1,82 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/057859e2-3ff2-4f55-950f-62089486a7f7",
+    "name": "Macrobenthos data from the Doggerbank - 2000",
+    "description": "12 samples of macrobenthos collected with a Van Veen grab at the Doggerbank",
+    "url": "https://obis.org/dataset/057859e2-3ff2-4f55-950f-62089486a7f7",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nsbp_vandalfsen"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Van Dalfsen, J. (2000). Macrobenthos data from the Doggerbank - 2000. Institute for Marine Resources and Ecosystem Studies; Vestiging Den Helder, The Netherlands.",
+    "version": "2023-12-08T18:30:32.000Z",
+    "keywords": [
+        "Benthos",
+        "Macrobenthos",
+        "Zoobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifeStage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nsbp_vandalfsen",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.9004 55.7655,3.9004 55.8142,4.039 55.8142,4.039 55.7655,3.9004 55.7655"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10663",
+            "@type": "Organization",
+            "legalName": "Wageningen University and Research Centre",
+            "name": "Wageningen University and Research Centre",
+            "url": "https://oceanexpert.org/institution/10663"
+        }
+    ]
+}

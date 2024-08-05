@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f9901fb0-739d-49d4-a2ff-2a490ddf0809",
+    "name": "The Ecology and Biogeography of Heard Island Marine Benthos 1987/88",
+    "description": "Collections of 23 macroinvertebrate taxa associated with Durvillaea antarctica holdfasts and 58 invertebrate taxa associated with artificial substrata collectors are described from shallow-water and intertidal habitats at Heard Island. The fauna sampled possessed strong biogeographic affinities with the Kerguelen Island fauna and, to a slightly lesser extent, the fauna recorded at Macquarie Island. The fauna possessed negligible affinity with the Antarctic. Experiments involving the offshore tethering of Durvillaea antarctica holdfasts indicated epifaunal invertebrates rapidly abandoned detached holdfasts, but that the few species surviving after one day can probably survive long periods adrift. \n\nThe fields in this dataset are:\n\nTaxon (species)\nDistribution\nLocality\nDate\nControl\nQuality: A preliminary trial indicated that whole plants attached to lines created too much drag for anchors, hence holdfasts were separated from fronds and tethered at the sea surface to anchored buoys. This process was undertaken on 20 November 1987, with four of the tethered holdfasts collected for faunal analysis the next day. Two holdfasts were lost to wave action during the study, with the remaining two holdfasts collected after 93 days afloat. Holdfasts (4 replicates) were also collected as faunal controls from the shore at the start (20 November 1987) and end of the experiment (21 February 1988).\n\nIn order to assess whether recruitment was occurring on tethered holdfasts, four replicate holdfasts were defaunated by submersion in freshwater for 10 minutes at the start of the experiment before offshore tethering (see Edgar 1992). Two of these recruitment control holdfasts were lost through wave action and two collected at the end of the experiment. On collection, all holdfasts were carefully placed into plastic bags and formalin added. Animals were later separated from holdfasts in the laboratory by pouring the washed contents of the bags through a 0.5 mm sieve after the holdfast had been broken apart, and animals retained by the sieve counted under a binocular microscope using the same methods as for artificial algal habitats.\n\nNote from the AADC, 2018-08-02:\nThe original datasheet was reformatted to fit OBIS/GBFI/IPT Biodiversity.AQ standards. The new datasheet \"MacrofaunaDurvillaeaHoldfast87_88.csv\" provides the data of fauna associated with holdfast of Durvillaea antarctica from Heard Island, from artificial algal habitats. This new data sheet contains datasetID, occurrenceID, continentCode, island, locationID, decimal latitude, decimal longitude, event date,  organismQuantity, organismQunatityType, basisOfRecord, occurrenceStatus, associatedTaxa and associatedReference. It's also provides species identification to the lowest taxonomical rank that could be determined. Species names were matched in WoRMS (World Register of Marine Species).",
+    "url": "https://obis.org/dataset/f9901fb0-739d-49d4-a2ff-2a490ddf0809",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=durvillaea_fauna"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Edgar, G. (2000, updated 2018) The Ecology and Biogeography of Heard Island Marine Benthos  ",
+    "version": "2018-10-16T02:40:42.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/1988",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=durvillaea_fauna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "73.386 -53.023,73.386 -53.013,73.45 -53.013,73.45 -53.023,73.386 -53.023"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

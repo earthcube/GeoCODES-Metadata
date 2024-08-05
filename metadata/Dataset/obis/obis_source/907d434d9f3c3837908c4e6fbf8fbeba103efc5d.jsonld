@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9467d03f-f291-4a59-94ec-754b3814043f",
+    "name": "SCAR Biogeographic Atlas of the Southern Ocean - Antarctic free-living marine Nematodes - Data",
+    "description": "This dataset represents a literature study on the distribution of Nematodes in Antarctic and Sub-Antarctic waters. Dataset supplied in the framework of the SCAR Biogeographic Atlas of the Southern Ocean (BASO).\n\nThe Biogeographic Atlas of the Southern Ocean is a collection of representative maps and syntheses on the distribution of the Southern Ocean organisms, providing a general overview of the biogeography of the Southern Ocean (s.l.) and a benchmark of current biogeographic knowledge at the end of the Census of Antarctic Marine Life. This updates the well-known and useful but largely outdated biogeographic Folios of the Antarctic Map Folio Series (American Geographical Society).",
+    "url": "https://obis.org/dataset/9467d03f-f291-4a59-94ec-754b3814043f",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=baso_nematoda"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Ingels J, Hauquier F, Raes M, Vanreusel A (2020): SCAR Biogeographic Atlas of the Southern Ocean - Antarctic free-living marine Nematodes - Data. v1.3. SCAR - AntOBIS. Dataset/Occurrence. https://ipt.biodiversity.aq/resource?r=baso_nematoda&amp;v=1.3",
+    "version": "2020-01-19T20:47:40.000Z",
+    "keywords": [
+        "Nematoda",
+        "SCAR-MARBIN",
+        "CAML",
+        "BASO",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=baso_nematoda",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-175 -78.6333,-175 -46.3833,169.25 -46.3833,169.25 -78.6333,-175 -78.6333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7979",
+            "@type": "Organization",
+            "legalName": "Plymouth Marine Laboratory",
+            "name": "Plymouth Marine Laboratory",
+            "url": "https://oceanexpert.org/institution/7979"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        }
+    ]
+}

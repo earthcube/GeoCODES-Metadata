@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b63b0f52-41c4-461d-849c-d0e09ab9a80f",
+    "name": "Zooplankton counts measured at the West-Hinder in 1902",
+    "description": "This dataset is part of the historic monitoring campaign onboard of the lightship West-Hinder. Temperature, salinity &amp; alkalinity were measured daily. At the same time plankton samples were taken. The presences/absences for plankton samples were recovered by ICES. The quantitative data could not be found, but zooplankton counts for 1902 were published in Van Meel 1975. La Mer du Nord méridionale, le Pas-de-Calais et la Manche: essai d'écologie marine, principalement en ce qui concerne le microplancton: II. Etude planctonique. Data were digitized by VLIZ in the frame of the LifeWatch project.",
+    "url": "https://obis.org/dataset/b63b0f52-41c4-461d-849c-d0e09ab9a80f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zooplankton_west-hinder_1902",
+        "https://dx.doi.org/10.14284/34"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Gilson G.; Zeewetenschappelijk Instituut (ZWI), Belgium; (2015): Zooplankton counts measured at the West-Hinder in 1902. https://dx.doi.org/10.14284/34",
+    "version": "2023-12-08T18:14:19.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sample size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "sample size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "life stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "life stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1902/1903",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/34",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/34",
+        "url": "https://dx.doi.org/10.14284/34"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zooplankton_west-hinder_1902",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

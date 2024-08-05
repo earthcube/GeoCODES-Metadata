@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5c37fe6f-16d7-4da2-a591-fb4420fc217f",
+    "name": "Marine Life Information Network (MarLIN) marine survey data (Professional)",
+    "description": "A collection of marine life surveys collated by the Marine Life Information Network (MarLIN) as part of their data access program. Surveys are either flagged as professional surveys or data collected by volunteer recorders as part for the Sealife Survey. Information about survey methodology can be found on the MarLIN Web site (www.marlin.ac.uk). There are currently 368 surveys collated by MarLIN containing 250,000 species records. Data ownership remains with the data provider and permission must be sought for commercial use of the data.",
+    "url": "https://obis.org/dataset/5c37fe6f-16d7-4da2-a591-fb4420fc217f",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nbn_ga000178"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Parr, J. Marine Life Information Network (MarLIN) marine survey data (Professional). Marlin, Collated Marine Life Survey Datasets, Marine Biological Association of the UK, Plymouth, UK",
+    "version": "2023-12-08T18:30:17.000Z",
+    "keywords": [
+        "Data",
+        "Macrobenthos",
+        "Zoobenthos",
+        "Marine Genomics",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1964/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nbn_ga000178",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-11.746499 47.4278,-11.746499 60.502537,8.392734 60.502537,8.392734 47.4278,-11.746499 47.4278"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

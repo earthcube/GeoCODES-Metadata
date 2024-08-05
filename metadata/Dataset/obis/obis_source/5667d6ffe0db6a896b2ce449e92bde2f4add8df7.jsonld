@@ -1,0 +1,100 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cc919ac4-9660-44b7-9136-5060ccb1506c",
+    "name": "Total Hydrozoa abundance in the Southern Bight of the North Sea between 1971 and 1972",
+    "description": "Inventory of Hydrozoa species for 51 stations in the Southern North Sea between January 1971 and July 1972.The data are digitized from technical reports in the frame of the 4DEMON project.",
+    "url": "https://obis.org/dataset/cc919ac4-9660-44b7-9136-5060ccb1506c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hydrozoa_north_sea_1971_1972",
+        "https://dx.doi.org/10.14284/265"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Houvenaghel G.; Laboratoire d'Océanologie. ULB: Belgium; (2018): Total Hydrozoa abundance in the Southern Bight of the North Sea between 1971 and 1972. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4695) https://dx.doi.org/10.14284/265",
+    "version": "2023-05-23T12:25:39.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling net diameter",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100012/",
+            "description": "sampling net diameter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "volume plankton measured after sedimentation",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLXXXXX/",
+            "description": "volume plankton measured after sedimentation"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "observed individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "observed individual count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/1972",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/265",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/265",
+        "url": "https://dx.doi.org/10.14284/265"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hydrozoa_north_sea_1971_1972",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.65 51.08888889,1.65 52.60833333,4.556944444 52.60833333,4.556944444 51.08888889,1.65 51.08888889"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19324",
+            "@type": "Organization",
+            "legalName": "Université Libre de Bruxelles",
+            "name": "Université Libre de Bruxelles",
+            "url": "https://oceanexpert.org/institution/19324"
+        }
+    ]
+}

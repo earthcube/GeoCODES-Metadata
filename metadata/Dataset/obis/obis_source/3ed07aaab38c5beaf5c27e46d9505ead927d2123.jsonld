@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d4c39034-1737-4833-b5c8-71de96d06f84",
+    "name": "Phytoplankton data collected near Yalta, Black Sea, in June 1950",
+    "description": "Phytoplankton data series collected by the IBSS staff at sample station 5 miles from Yalta, Black Sea, between 17-19 June 1950. This dataset contains abundance data (individuals per liter) for phytoplankton taxa. Some records have also a species shape annotation. No additional metadata is available.",
+    "url": "https://obis.org/dataset/d4c39034-1737-4833-b5c8-71de96d06f84",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phyto_black_sea_june_1950"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Phytoplankton data collected near Yalta, Black Sea, in June 1950.  Institute of Biology of the Southern Seas of the National Academy of Sciences of Ukraine.",
+    "version": "2023-12-08T17:49:19.000Z",
+    "keywords": [
+        "Digitization",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualcount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "individualcount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1950/1950",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phyto_black_sea_june_1950",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

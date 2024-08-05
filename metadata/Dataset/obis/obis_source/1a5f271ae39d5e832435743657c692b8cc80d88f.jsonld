@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/19abb100-fb94-4295-ab17-bb3e58674cf3",
+    "name": "Marine records from Pembrokeshire Marine Species Atlas",
+    "description": "An atlas of marine species for Pembrokeshire including flora and fauna, intertidal and sublittoral data, funded by the Counytryside Council for Wales (CCW). It is a collation of data from various CCW and third party sources (both published and unpublished) that cover Pembrokeshire, held within 79 surveys. This is a historical collation which is not being updated. The data includes all records from the Dale Fort Marine Fauna survey plus additional data from subsequent and prior surveys. Data that are included in the MNCR database have been excluded from this dataset to avoid duplication.",
+    "url": "https://obis.org/dataset/19abb100-fb94-4295-ab17-bb3e58674cf3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_961",
+        "https://doi.org/10.15468/42yudm"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dale Rostron. Marine records from Pembrokeshire Marine Species Atlas. Countryside Council for Wales, Gwynedd, UK. https://doi.org/10.15468/42yudm",
+    "version": "2023-05-23T11:40:30.000Z",
+    "keywords": [
+        "Algae",
+        "Benthos",
+        "Biodiversity",
+        "Historical records",
+        "Macrobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1908/2013",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/42yudm",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/42yudm",
+        "url": "https://doi.org/10.15468/42yudm"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_961",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.714378893551692 51.12186282641252,-5.714378893551692 52.17802280183089,-4.287150550476719 52.17802280183089,-4.287150550476719 51.12186282641252,-5.714378893551692 51.12186282641252"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17314",
+            "@type": "Organization",
+            "legalName": "Natural Resources Wales",
+            "name": "Natural Resources Wales",
+            "url": "https://oceanexpert.org/institution/17314"
+        }
+    ]
+}

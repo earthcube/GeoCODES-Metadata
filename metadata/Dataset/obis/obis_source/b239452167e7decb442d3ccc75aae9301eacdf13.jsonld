@@ -1,0 +1,83 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/381c303e-25b8-42ca-baeb-bd6de0288fc4",
+    "name": "Diversity of littoral peneid shrimps in Falcon State, Venezuela",
+    "description": "Peneid shrimps from Falcon State, Venezuela",
+    "url": "https://obis.org/dataset/381c303e-25b8-42ca-baeb-bd6de0288fc4",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=peneidfalconvenezuela"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Carmona-Suarez C (2022): Diversity of littoral peneid shrimps in Falcon State, Venezuela. v1.9. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=peneidfalconvenezuela&amp;v=1.9",
+    "version": "2022-11-04T13:45:39.000Z",
+    "keywords": [
+        "Samplingevent",
+        "CaribeSur",
+        "BID-CA2020-025-NAC",
+        "Peneid shrimps",
+        "crustacea",
+        "Falcon",
+        "Venezuela",
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Females",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9769/",
+            "description": "Females"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Males",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9769/",
+            "description": "Males"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water salinity concentration",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0331/",
+            "description": "Water salinity concentration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water surface temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P25/current/WTEMP/",
+            "description": "Water surface temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/1989",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=peneidfalconvenezuela",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-71.029 11.089,-71.029 12.359,-68.3 12.359,-68.3 11.089,-71.029 11.089"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

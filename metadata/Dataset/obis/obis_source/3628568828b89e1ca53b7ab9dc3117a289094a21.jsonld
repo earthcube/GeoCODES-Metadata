@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b74b429a-4052-4f5b-bff3-fe0b5a2e8669",
+    "name": "Type locality distributions from the World Register of Marine Species",
+    "description": "Extraction of type locality information from the World Register of Marine Species.",
+    "url": "https://obis.org/dataset/b74b429a-4052-4f5b-bff3-fe0b5a2e8669",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=worms_type_localities"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "WoRMS Editorial Board (2021). Type locality distributions from the World Register of Marine Species. Available from http://www.marinespecies.org at VLIZ. Accessed on YYYY-MM-DD.",
+    "version": "2024-02-27T00:15:18.000Z",
+    "keywords": [
+        "Type localities",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1800/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=worms_type_localities",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -78.8667,-180 89.017222222222,180 89.017222222222,180 -78.8667,-180 -78.8667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

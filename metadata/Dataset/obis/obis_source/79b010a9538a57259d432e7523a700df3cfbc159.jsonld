@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1febfcdd-3e1b-46db-b73d-1bbe81ce22a6",
+    "name": "DFO Quebec Region MLI museum collection",
+    "description": "Marine organism collection of the Maurice Lamontagne Institute, Fisheries and Oceans Canada. / Collection des organismes marins de l'Institut Maurice-Lamontage, Pêches et Océans Canada.",
+    "url": "https://obis.org/dataset/1febfcdd-3e1b-46db-b73d-1bbe81ce22a6",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_que_mli_museum"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Miller R, Nozères C (2024). DFO Quebec Region MLI museum collection. Version 3.12. Fisheries and Oceans Canada. Occurrence dataset. http://iobis.org/mapper/?resource_id=2673",
+    "version": "2024-01-07T17:33:18.000Z",
+    "keywords": [
+        "Biota; Oceans; Classification;",
+        "Occurrence",
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1902/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=dfo_que_mli_museum",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.18886 10.677284,-178.18886 81.14166667,4.615544 81.14166667,4.615544 10.677284,-178.18886 10.677284"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6190",
+            "@type": "Organization",
+            "legalName": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "name": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6190"
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/98400b39-b5f9-4b7a-833c-9e62dfcd1c1e",
+    "name": "Eulachon migration bottom trawl surveys",
+    "description": "Catch, effort, location (latitude and longitude), and associated biological data from the Eulachon Migration Study Bottom Trawl surveys on the coast of British Columbia.",
+    "url": "https://obis.org/dataset/98400b39-b5f9-4b7a-833c-9e62dfcd1c1e",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=eulachon_synoptic_surveys"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Hodes, V (2021): Eulachon migration bottom trawl surveys. v1. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=eulachon_synoptic_surveys&amp;v=1.0",
+    "version": "2022-03-23T15:58:36.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Pacific Ocean",
+        "North Pacific",
+        "British Columbia",
+        "Life History",
+        "Bottom Trawl",
+        "Eulachon",
+        "Migration",
+        "Diet",
+        "Maturity",
+        "Teeth",
+        "National Rotational Survey Fund",
+        "Marine biology",
+        "Fisheries",
+        "Fish",
+        "Oceans",
+        "Surveys",
+        "Catch",
+        "Distribution"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length of sampling track",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Length of sampling track"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sample duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "TowSpeed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TOWSPEED/",
+            "description": "TowSpeed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mouth_width",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MTHWDTH1/",
+            "description": "mouth_width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "standard length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SL01XX01/",
+            "description": "standard length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen weight of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Specimen weight of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9769/",
+            "description": ""
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gender",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9769/",
+            "description": "Gender"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length (fork length)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FL01XX01/",
+            "description": "Length (fork length)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=eulachon_synoptic_surveys",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-131.0726 48.274133,-131.0726 54.702683,-123.039233 54.702683,-123.039233 48.274133,-131.0726 48.274133"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14254",
+            "@type": "Organization",
+            "legalName": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "name": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/14254"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

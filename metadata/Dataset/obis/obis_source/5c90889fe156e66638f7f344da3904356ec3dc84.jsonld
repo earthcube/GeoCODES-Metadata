@@ -1,0 +1,85 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d556b9d4-7625-4aa2-894d-441eabae47f7",
+    "name": "MAREANO - Base-line mapping of fauna obtained with grab",
+    "description": "Dataset contains species name, their number of specimen and wet-weight for each taxa (0,1 mg). Samples were originally preserved in formaline and later converted to ethanol. After identification samples are stored at Bergen Museum/University of Bergen.",
+    "url": "https://obis.org/dataset/d556b9d4-7625-4aa2-894d-441eabae47f7",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imr_mareano_grab",
+        "https://doi.org/10.15468/dlaxsw"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Holte, B. (2014). MAREANO - Base-line mapping of fauna obtained with grab. Institute of Marine Research, Norway https://doi.org/10.15468/dlaxsw",
+    "version": "2023-05-23T12:21:43.000Z",
+    "keywords": [
+        "Baseline studies",
+        "Ecological baseline studies",
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/dlaxsw",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/dlaxsw",
+        "url": "https://doi.org/10.15468/dlaxsw"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imr_mareano_grab",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.0628333333333 62.302833333333,3.0628333333333 80.6538,36.677833333333 80.6538,36.677833333333 62.302833333333,3.0628333333333 62.302833333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

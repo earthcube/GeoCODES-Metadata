@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/49b938b5-2d5a-43c0-92f9-26354f189f82",
+    "name": "UFPE Oceanography Zooplankton Research",
+    "description": "The dataset presents the past and recent scientific contributions from the Zooplankton Laboratory and the Graduate School of Oceanography, Universidade Federal de Pernambuco (UFPE).",
+    "url": "https://obis.org/dataset/49b938b5-2d5a-43c0-92f9-26354f189f82",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=ufpe_oceanography_zooplankton_research",
+        "http://doi.org/10.25607/2hk8ho"
+    ],
+    "license": "Unrestricted",
+    "citation": "OBIS (2018): UFPE Oceanography Zooplankton Research. v1. Tropical and Subtropical Western South Atlantic OBIS. Dataset/Occurrence. http://ipt.iobis.org/wsaobis/resource?r=ufpe_oceanography_zooplankton_research&amp;v=1.0",
+    "version": "2021-07-02T11:04:15.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1961/2008",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/2hk8ho",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/2hk8ho",
+        "url": "http://doi.org/10.25607/2hk8ho"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=ufpe_oceanography_zooplankton_research",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-50.9697 -31.248,-50.9697 13.6373,-14.5136 13.6373,-14.5136 -31.248,-50.9697 -31.248"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

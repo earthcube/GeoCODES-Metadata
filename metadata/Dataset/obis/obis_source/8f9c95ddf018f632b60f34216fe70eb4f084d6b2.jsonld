@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ab737464-f691-4b72-aae2-1bb70411468d",
+    "name": "IMOS National Reference Stations (NRS) Phytoplankton Abundance and Biovolume",
+    "description": "This dataset comprises the phytoplankton abundance and biovolume estimates of a broader sampling program carried out by the Plankton National Reference Station within the Integrated Marine Observing system. Regular monthly phytoplankton samples are undertaken at the stations as part of a larger water sampling program by the Australian National Reference Stations. In total nine stations are sampled regularly around the Australian coastline. Sampling is conducted monthly (Esperance and Ningaloo 3 monthly) off small vessels at each of the nine reference stations. The sampling is an integrated water sample collected with niskin bottles at 10m depth intervals and preserved in lugols solution. The depth of the sample varies at each station. The plankton ecology lab (based in Queensland) will analyse the samples collected for: 1. Community composition / abundance (cells/l) 2. Biovolume (um3/L). Data storage and access is planned to be interoperable with other national and international programs through the IMOS Infrastructure. Station metadata can be found through this resource. Data is available freely via the AODN portal: https://portal.aodn.org.au. As the taxonomic resolution of the data has changed over time, due to continual training, it is important that users refer to the change log tables included in your data download. These will provide information on the validity of the taxa, from what date we have been identifying certain taxa etc. Classification fields may be blank depending on the level to which that taxa has been identified, i.e. if only identified to family, genus and species will be blank.\nData downloaded from IMOS 14-March-2017 from https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/metadata.show?uuid=c13451a9-7cfc-091c-e044-00144f7bc0f4 and taxonomy matched to WoRMS. Added additional records on 2022-03-01",
+    "url": "https://obis.org/dataset/ab737464-f691-4b72-aae2-1bb70411468d",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=anmn_nrs_bgc_plankton_phytoplankton_data"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "This material is released under the Creative Commons Attribution 4.0 International licence. The citation in a list of references is: \"IMOS [year-of-data-download], [Title], [data-access-URL], accessed [date-of-access].\" Any users of IMOS data are required to clearly acknowledge the source of the material in the format described in the acknowledgements section.",
+    "version": "2022-06-08T05:02:45.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=anmn_nrs_bgc_plankton_phytoplankton_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.779 -42.5967,113.779 -12.4,153.562 -12.4,153.562 -42.5967,113.779 -42.5967"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

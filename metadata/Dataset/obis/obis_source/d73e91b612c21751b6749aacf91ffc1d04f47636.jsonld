@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3ac81162-1804-43c4-b766-aabe2abcc572",
+    "name": "Galathea II, Danish Deep Sea Expedition 1950-52",
+    "description": "Database of the specimens from the Galathea II, Danish Deep-Sea Expedition Round the World 1950-52, published in Galathea Report 1-20, Copenhagen 1956-2005. The published specimens are deposited in the collections of ZMUC, Copenhagen.\nA full metadata description is available at <a href=\"http://pythonprovider.danbif.dk/repository/collection049424/resource785542/details_html\">http://pythonprovider.danbif.dk/repository/collection049424/resource785542/details_html</a>",
+    "url": "https://obis.org/dataset/3ac81162-1804-43c4-b766-aabe2abcc572",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ds37",
+        "https://doi.org/10.15468/ouseij"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "The Danish Biodiversity Information Facility, Galathea II, Danish Deep Sea Expedition 1950-52 https://doi.org/10.15468/ouseij",
+    "version": "2024-02-26T23:20:18.000Z",
+    "keywords": [
+        "Deep sea",
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1950/1952",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/ouseij",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/ouseij",
+        "url": "https://doi.org/10.15468/ouseij"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ds37",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.949997 -52.566601,-178.949997 47.833302,178.332993 47.833302,178.332993 -52.566601,-178.949997 -52.566601"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

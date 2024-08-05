@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/23f104bf-b4c9-4144-955d-121c583f20d2",
+    "name": "Northeast Fisheries Science Center Bottom Trawl Survey Data",
+    "description": "This is the Northeast Fisheries Science Center Bottom Trawl Survey database for Northwest Atlantic marine organisms. Survey cruises use a bottom trawl to sample randomly selected stations in an attempt to delineate the species composition, geographic distribution, and abundance of various resources. Fish and selected invertebrate species are identified. Weight, length, total catch numbers, age structures, maturity stages, sex determinations and food content are recorded or collected during the survey cruises but only weight, total catch numbers, and sex determinations are available here. Ichthyoplankton and zooplankton data is available for a subset of the stations. Geographic coverage is from Cape Hatteras to the Gulf of Maine and from the coast to the slope water.",
+    "url": "https://obis.org/dataset/23f104bf-b4c9-4144-955d-121c583f20d2",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=nefsc_bottom_trawl_surveys_coml"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2021-08-25T15:49:25.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1948/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=nefsc_bottom_trawl_surveys_coml",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.4 28.78333,-81.4 44.86667,-63.33333 44.86667,-63.33333 28.78333,-81.4 28.78333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11379",
+            "@type": "Organization",
+            "legalName": "National Oceanic and Atmospheric Administration, Washington",
+            "name": "National Oceanic and Atmospheric Administration, Washington",
+            "url": "https://oceanexpert.org/institution/11379"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

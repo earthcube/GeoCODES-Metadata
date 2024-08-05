@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/114f54a3-feb2-4b1b-acdf-998588743a06",
+    "name": "Seagrasses of the Crimean coastal zone (Black Sea, 1960-2009)",
+    "description": "The main aim of the dataset is preparing the available data by diversity and distribution of the Black Sea seagrasses, which were collected the scientists from IBSS around Ukranian and Russian coastal zone during last 50 years (1960 - 2009). The data about region, location, sampling equipment are given for each seagrass species. The species diversity is described from 45 transects, 164 stations at 0,3 - 20 m depth. These data are available now for scientists, professionals and they can be used in various purposes.",
+    "url": "https://obis.org/dataset/114f54a3-feb2-4b1b-acdf-998588743a06",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=milchakova_seagrasses_ccz"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "N. A. Milchakova, V. V. Alexandrov. Seagrasses of the Crimean coastal zone, the Black Sea (1960 -2009). Sevastopol, IBSS NASU, 2011.",
+    "version": "2024-02-26T23:49:13.000Z",
+    "keywords": [
+        "Coastal zone",
+        "Seagrass",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1960/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=milchakova_seagrasses_ccz",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "30.674085 44.3993568681933,30.674085 46.663587,37.8068220250646 46.663587,37.8068220250646 44.3993568681933,30.674085 44.3993568681933"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

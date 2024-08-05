@@ -1,0 +1,108 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c46e6e28-87a1-4464-a44e-d6ab96511580",
+    "name": "Network Monitoring phytoplankton",
+    "description": "The \"Réseau de Surveillance phytoplanctonique\" REPHY is a french national phytoplankton monitoring programme  set up by Ifremer in 1984 following an observation of numerous diarethic intoxications of shellfish consumers in 1983 and 1984 on the Breton coast of France.",
+    "url": "https://obis.org/dataset/c46e6e28-87a1-4464-a44e-d6ab96511580",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=rephy"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Institut Français pour la Recherche et l'Exploitation de la Mer, Nantes, France; (2019): REPHY - Réseau de Surveillance du Phytoplankton",
+    "version": "2023-05-23T11:48:32.000Z",
+    "keywords": [
+        "Algal blooms",
+        "Monitoring",
+        "Phytoplankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "IndividualCountperLiter....l.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "IndividualCountperLiter....l."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "LifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "LifeStage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SubSamplingCoefficient",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "description": "SubSamplingCoefficient"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Instrument.Info",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Instrument.Info"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingEffort..l.",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "SamplingEffort..l."
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1987/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=rephy",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-62.983 -21.37473,-62.983 51.15132,55.56384 51.15132,55.56384 -21.37473,-62.983 -21.37473"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6514",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer,  IFREMER, Centre de Nantes",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer,  IFREMER, Centre de Nantes",
+            "url": "https://oceanexpert.org/institution/6514"
+        }
+    ]
+}

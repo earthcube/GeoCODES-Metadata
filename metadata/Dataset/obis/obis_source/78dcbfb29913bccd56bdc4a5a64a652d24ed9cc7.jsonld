@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/063a5fb5-8adc-4c9c-a5ba-53d444b7089f",
+    "name": "Mangroves of the Northern Territory, 1:100,000, Australia (1996)",
+    "description": "This dataset is derived from the 2001 mapping of mud crab (Scylla serrata) habitats along the NT and Queensland coastal wetlands. The information can be used in many ways to assist the management of these habitats. In the first instance, it provides a suitable baseline dataset for monitoring broad scale changes in area and composition of coastal wetland communities. Additionally, it provides information required by managers for choosing representative habitats for protection.\nMetadata and source datafiles - see https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=39fbb324-b184-4ac5-8d3e-9a2994bbecb9",
+    "url": "https://obis.org/dataset/063a5fb5-8adc-4c9c-a5ba-53d444b7089f",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seamapaus_nt_mangroves_100"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cite data as: Department of Environment and Natural Resources, Northern Territory Government of Australia (2012). Mangroves of the Northern Territory, 1:100,000. Data accessed at http://metadata.imas.utas.edu.au/geonetwork/srv/en/meta\ndata.show?uuid=39fbb324-b184-4ac5-8d3e-9a2994bbecb9 on (access date).",
+    "version": "2022-06-07T03:26:16.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Area of coverage",
+            "url": "",
+            "description": "Area of coverage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Reliability of kelp coverage",
+            "url": "",
+            "description": "Reliability of kelp coverage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/1996",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seamapaus_nt_mangroves_100",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "128.913951505719 -16.574186809375,128.913951505719 -10.9699467051297,138.023506909498 -10.9699467051297,138.023506909498 -16.574186809375,128.913951505719 -16.574186809375"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

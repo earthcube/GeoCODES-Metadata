@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5803e1ae-b493-4174-83ed-260363d08047",
+    "name": "Plankton community in WP2 net (200µm), DYFAMED point, Ligurian Sea, France",
+    "description": "This series is part of the long term planktonic monitoring of Villefranche-sur-mer, which is one of the oldest and richest in the world. It aims at describing the dynamics of the mesozooplankton community. The data collection and processing has been funded by several projects over its lifetime. It is currently supported directly by the Institut de la Mer de Villefranche (IMEV), as part of its long term monitoring effort, and by the MOOSE program of the Research Infrastructure ILICO. This dataset contains the planktonic organisms collected by a WP2 net (200μm mesh) and therefore cover organisms from 200µm to ~2cm.",
+    "url": "https://obis.org/dataset/5803e1ae-b493-4174-83ed-260363d08047",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dasid_6508",
+        "https://dx.doi.org/10.14284/479"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Sorbonne Université/CNRS - Institut de la Mer de Villefranche (IMEV), Sorbonne Université/CNRS - Laboratoire d'Océanographie de Villefranche (LOV); 2020; Plankton community in WP2 net (200µm), DYFAMED point, Ligurian Sea, France https://dx.doi.org/10.14284/479",
+    "version": "2023-12-08T17:16:01.000Z",
+    "keywords": [
+        "Imaging",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2018",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/479",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/479",
+        "url": "https://dx.doi.org/10.14284/479"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dasid_6508",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "7.85 43.366667,7.85 43.416667,7.9 43.416667,7.9 43.366667,7.85 43.366667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18357",
+            "@type": "Organization",
+            "legalName": "Laboratoire d'Océanographie de Villefranche-sur-Mer",
+            "name": "Laboratoire d'Océanographie de Villefranche-sur-Mer",
+            "url": "https://oceanexpert.org/institution/18357"
+        }
+    ]
+}

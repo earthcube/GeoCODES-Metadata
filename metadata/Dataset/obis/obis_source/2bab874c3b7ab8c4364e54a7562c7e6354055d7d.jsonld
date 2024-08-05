@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/34776b3e-9a42-450e-8a25-42a050bcbb3e",
+    "name": "Gelatinous macrozooplankton abundance and biomass in inshore and deep waters of the Northwestern Black Sea",
+    "description": "The dataset contains abundance and biomass data of four species of gelatinous zooplankton (<i>Mnemiopsis leidyi, Beroe ovata, Aurelia aurita, Pleurobrachia pileus</i>) obtained in October 2005 and October - November 2010 (32 stations in October 2005 and 98 stations in October - November 2010) in the Northwestern Black Sea.",
+    "url": "https://obis.org/dataset/34776b3e-9a42-450e-8a25-42a050bcbb3e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gelatinous_macrozoo_in_deepw_sevastopol"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Finenko, G.; Datsyk, N.; Anninsky, B.; Ignatyev, S. (2012). Gelatinous macrozooplankton abundance and biomass in inshore and deep waters of the Northwestern Black Sea. Institute of Biology of the Southern Seas - NASU, Ukraine.",
+    "version": "2023-05-23T11:39:48.000Z",
+    "keywords": [
+        "Deep water",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "NetMeshSize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "NetMeshSize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wet weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL04/",
+            "description": "wet weight biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gelatinous_macrozoo_in_deepw_sevastopol",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "28.6305 41.62383,28.6305 46.21767,36.44667 46.21767,36.44667 41.62383,28.6305 41.62383"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

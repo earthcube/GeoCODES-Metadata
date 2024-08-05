@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9656db40-e4f9-4d8f-9023-38c7782efd9c",
+    "name": "Global Kelp Timeseries from NCEAS/KEEN Working Group",
+    "description": "This global meta-analysis by the Kelp Ecosystem Ecology Network (KEEN) documents seasonal and interannual variability in the structure of reef-based kelp dominated communities. Temporal trends in kelp biomass, stipe density, percent cover, and rates of change of kelp density are measured across various ecoregions in global temperate zones.\nData accessed from https://catalogue-temperatereefbase.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/ecbe5cc3-3fbf-4569-b5e8-07c2201fcb9c on 2021-11-30",
+    "url": "https://obis.org/dataset/9656db40-e4f9-4d8f-9023-38c7782efd9c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=kelp_timeseries_keen"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cite data as:Rassweiler, A., Novak, M., Okamoto, D., Byrnes, J., Krumhansl, K. (2016). Global Kelp Timeseries from NCEAS/KEEN Working Group. Florida State University, Oregon State University, Simon Fraser University, University of Massachusetts Boston. Data accessed at http://catalogue-temperatereefbase.imas.utas.edu.au:/geonetwork/srv/en/metadata.show?uuid=ecbe5cc3-3fbf-4569-b5e8-07c2201fcb9c on [access date].\n\nIf you have kelp timeseries greater than 3 years in length, please consider contributing to the data set. Contact Jarrett Byrnes for details.",
+    "version": "2022-06-06T23:14:51.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Individual Density",
+            "url": "",
+            "description": "Individual Density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cover percent",
+            "url": "",
+            "description": "Cover percent"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Biomass kg.wet.per.sq.m",
+            "url": "",
+            "description": "Biomass kg.wet.per.sq.m"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=kelp_timeseries_keen",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.687475 -43.634499,-178.687475 74.3,179.42645 74.3,179.42645 -43.634499,-178.687475 -43.634499"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5108",
+            "@type": "Organization",
+            "legalName": "Boston University, Department of Biology",
+            "name": "Boston University, Department of Biology",
+            "url": "https://oceanexpert.org/institution/5108"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13402",
+            "@type": "Organization",
+            "legalName": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "name": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "url": "https://oceanexpert.org/institution/13402"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

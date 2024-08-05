@@ -1,0 +1,76 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1eaa77a8-e89e-48ca-8cae-b8a5ffa11969",
+    "name": "Macrobenthos monitoring at long-term monitoring stations in the Belgian part of the North Sea between 1979 and 1999",
+    "description": "Macrobenthos monitoring at long-term monitoring stations, period 1979-1999. This dataset contain the data of the first twenty years of benthic monitoring at ILVO in Belgian marine waters.",
+    "url": "https://obis.org/dataset/1eaa77a8-e89e-48ca-8cae-b8a5ffa11969",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macro_long_term",
+        "https://dx.doi.org/10.14284/201"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bio-environmental research group; Institute of Agricultural and Fisheries research (ILVO), Belgium; (2016): Macrobenthos monitoring at long-term monitoring stations in the Belgian part of the North Sea between 1979 and 1999. https://dx.doi.org/10.14284/201",
+    "version": "2023-12-08T17:48:57.000Z",
+    "keywords": [
+        "Macrobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet Weight biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "Wet Weight biomass"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/1999",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/201",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/201",
+        "url": "https://dx.doi.org/10.14284/201"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macro_long_term",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.460000038147 51.189998626709,2.460000038147 51.849998474121,3.3699998855591 51.849998474121,3.3699998855591 51.189998626709,2.460000038147 51.189998626709"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19366",
+            "@type": "Organization",
+            "legalName": "Vlaamse overheid; Beleidsdomein Landbouw en Visserij; Instituut voor landbouw- , visserij en voedingsonderzoek; Kenniseenheid: Dier; Aquatisch Milieu en Kwaliteit",
+            "name": "Vlaamse overheid; Beleidsdomein Landbouw en Visserij; Instituut voor landbouw- , visserij en voedingsonderzoek; Kenniseenheid: Dier; Aquatisch Milieu en Kwaliteit",
+            "url": "https://oceanexpert.org/institution/19366"
+        }
+    ]
+}

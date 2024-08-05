@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2a851007-1cd8-4f08-9848-d924edbe6986",
+    "name": "Rocky reef biodiversity survey: Punta Pardelas, Argentina",
+    "description": "Temperate rocky reefs in the SW Atlantic are productive areas that support highly diverse communities of invertebrates, algae and fishes. Rocky outcrops form complex structures which offer a diversity of microhabitats that lead to a great variety of co-existing species. Subtidal biodiversity within the Natural Protected Area Península Valdés is largely unexplored and studies are mainly limited to fish. A total of 560 high definition photoquadrats from 7 rocky reefs (1-25 m depth) at Punta Pardelas were obtained during March 2019. In total, 4491 occurrences were recorded and identified to phyla (n=2), superclasses (n=1), classes (n=5), subclasses (n=2), orders (n=2), families (n=1), subfamilies (n=1), genera (n=10) and species (n=43) levels. This dataset was developed to provide a baseline inventory of Punta Pardelas inside the Natural Protected Area, that was only partially reported more than 50 years ago. Such data represent the first step towards monitoring these less-accessible ecosystems.",
+    "url": "https://obis.org/dataset/2a851007-1cd8-4f08-9848-d924edbe6986",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=arrs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bravo G, Livore J P, Battini N, Gastaldi M, Lauretta D, Brogger M, Raffo M P, Lagger C, Bigatti G (2021): Rocky reef biodiversity survey: Punta Pardelas, Argentina. v1.10. ArOBIS Centro Nacional Patagónico. Dataset/Samplingevent. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=arrs&amp;v=1.10",
+    "version": "2021-12-03T20:51:13.000Z",
+    "keywords": [
+        "Sampling event",
+        "Rocky reef",
+        "Southern Ocean",
+        "Photoquadrats",
+        "Biodiversity",
+        "Scientific diving",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "cover",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "cover"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P06/current/UPMS/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=arrs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.274401 -42.640833,-64.274401 -42.620258,-64.24525 -42.620258,-64.24525 -42.640833,-64.274401 -42.640833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

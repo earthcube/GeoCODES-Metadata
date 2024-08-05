@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b855f876-36b4-4f3d-992e-7425750121e2",
+    "name": "Gray whale localized acoustic detections in Granite Canyon 2014-2015",
+    "description": "Original provider:\nRegina A. Guazzo, Scripps Institution of Oceanography\n\nDataset credits:\nScripps Institution of Oceanography, University of California San Diego\n\nAbstract:\nEastern North Pacific gray whales make one of the longest annual migrations of any mammal, traveling from their summer feeding areas in the Bering and Chukchi Seas to their wintering areas in the lagoons of Baja California, Mexico. Although a significant body of knowledge on gray whale biology and behavior exists, little is known about their vocal behavior while migrating. In this study, we used a sparse hydrophone array deployed offshore of central California to investigate how gray whales behave and use sound while migrating. We detected, localized, and tracked whales for one full migration season, a first for gray whales. We verified and localized 10,644 gray whale M3 calls and grouped them into 280 tracks. Results confirm that gray whales are acoustically active while migrating and their swimming and acoustic behavior changes\non daily and seasonal time scales. The seasonal timing of the calls verifies the gray whale migration timing determined using other methods such as counts conducted by visual observers. The total number of calls and the percentage of calls that were part of a track changed significantly over both seasonal and daily time scales. An average calling rate of 5.7 calls/whale/day was observed, which is significantly greater than previously reported migration calling rates. We measured a mean speed of 1.6 m/s and quantified heading, direction, and water depth where tracks were located. Mean speed and water depth remained constant between night and day, but these quantities had greater variation at night. Gray whales produce M3 calls with a root mean square source level of 156.9 dB re 1 µPa at 1 m. Quantities describing call characteristics were variable and dependent on site-specific propagation characteristics.\n\nSupplemental information:\n[2017-10-27] The data sheets in the zipped shapefile download file are updated.\n\n[2017-09-26] The number of localizations has increased by about 400 based on a more correct method of counting calls.\n\nFour moored hydrophone arrays were used to detect.\nHydrophone, Latitude, Longitude, Depth, Channel\nNE 36.43778, -121.94417\t52, 1\nNW 36.43512, -121.96082\t95, 2\nSE 36.42679, -121.93743\t43, 3\nSW 36.41872, -121.94925\t79, 4\n\n\nThe original data sheets provided by the provider are included in the downloadable zip file. To get it, choose \"Dataset on Dataset Page\" and \"As shapefile\" as desired options through the download processes on the OBIS-SEAMAP Dataset Page.\n\nThe sheet labeled M3 contains attributes of each of the M3 calls that were localized.\nJulianTime: Matlab's datenum.  Days since January 0, 0000\nLatitude: Localized latitude of call\nLongitude: Localized longitude of call\nTracked: 0 if not part of a track, 1 if call was part of track\nWaterDepth: Depth in meters\nRangeXX: Range to each of the hydrophones (NE,NW,SE,SW)\nDuration_XX: Duration of call in seconds at each hydrophone\nRL_rms_XX: Root Mean Square received level at each hydrophone (µPa)\nRL_p2p_XX: Peak-to-Peak received level at each hydrophone (µPa)\nSL_rms_XX: Root Mean Square source level at each hydrophone (dB re 1 µPa)\nSL_sel_XX: Sound Exposure Level source level at each hydrophone (dB re 1 µPa^2*s)\nSL_p2p_XX: Peak-to-Peak source level at each hydrophone (dB re 1 µPa)\nPeakFreq_XX: Peak frequency at each hydrophone (Hz)\nBW_3dB_XX: 3 dB Bandwidth around peak frequency at each hydrophone (Hz)\nMeanFreq_XX: Mean frequency at each hydrophone (Hz)\nSigmaBW_XX: +/- sigma bandwidth at each hydrophone (Hz)\n\nThe sheet labeled M1 contains attributes of each of the M1 calls manually detected on a single hydrophone (NE)\nJulianTime: Matlab's datenum.  Days since January 0, 0000\nIPI: mean inter-pulse interval between pulses within a call\nIPI_SD2: variance of inter-pulse intervals between pulses within a call\nNumPulses: Total number of pulses within a call\nPeakFreq_NE: Peak frequency at NE hydrophone (Hz)\nBW3dB_NE: 3 dB Bandwidth around peak frequency at NE hydrophone (Hz)\nMeanFreq_NE: Mean frequency at NE hydrophone (Hz)\nSigmaBW_NE: +/- sigma bandwidth at NE hydrophone (Hz)\n\nThe sheet labeled M3 contains noise levels for every minute of recording\nJulianTime: Matlab's datenum.  Days since January 0, 0000\nNoiseLevel_XX: Root median square noise level for the one minute period starting at JulianTime (µPa) on the recordings from each hydrophone",
+    "url": "https://obis.org/dataset/b855f876-36b4-4f3d-992e-7425750121e2",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1541",
+        "https://doi.org/10.1371/journal.pone.0185585"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Guazzo, RA and Helble, TA and D\\'Spain, GL and Weller, DW and Wiggins, SM and Hildebrand, JA. 2017. Migratory behavior of eastern North Pacific gray whales tracked using a hydrophone array. PloS one. 12 (10): e0185585.",
+    "version": "2021-04-24T06:40:06.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Acoustic presense/absence,Ocean-based Platforms,Gray whale,Eschrichtius robustus,M3 call,type 3 call",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.1371/journal.pone.0185585",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1371/journal.pone.0185585",
+        "url": "https://doi.org/10.1371/journal.pone.0185585"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1541",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-121.98 36.4,-121.98 36.45,-121.92 36.45,-121.92 36.4,-121.98 36.4"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23188",
+            "@type": "Organization",
+            "legalName": "Naval Information Warfare Center Pacific",
+            "name": "Naval Information Warfare Center Pacific",
+            "url": "https://oceanexpert.org/institution/23188"
+        }
+    ]
+}

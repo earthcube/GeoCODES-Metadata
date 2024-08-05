@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/39482a9d-8fff-460b-94b9-00214f57223c",
+    "name": "Tracking Olive Ridley turtles off Cape York Peninsula using satellite tags (2010)",
+    "description": "Four endangered Olive Ridley turtles were washed up on a beach on the west coast of Cape York peninsula ensnared in ghost nets. The animals were rehabilitated at a facility at Pennefather. Upon release they were fitted with an Argos satellite transmitter to determine their movements and survival potential.\nData sourced from https://zoatrack.org/projects/5",
+    "url": "https://obis.org/dataset/39482a9d-8fff-460b-94b9-00214f57223c",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=cdu_olive_ridley_turtles"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Dwyer, R, Campbell, H (2016) Data from: 'Tracking Olive Ridley turtles off Cape York Peninsula using satellite tags'. ZoaTrack.org. doi: http://dx.doi.org/10.4226/68/5701F923DB7E6",
+    "version": "2022-06-07T05:51:34.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=cdu_olive_ridley_turtles",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "139.839 -12.285,139.839 -9.926,141.804 -9.926,141.804 -12.285,139.839 -12.285"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20839",
+            "@type": "Organization",
+            "legalName": "Charles Darwin University",
+            "name": "Charles Darwin University",
+            "url": "https://oceanexpert.org/institution/20839"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

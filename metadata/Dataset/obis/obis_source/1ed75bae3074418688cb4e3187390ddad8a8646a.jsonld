@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c1181498-9389-4962-b98b-bf5d7a5fb7cd",
+    "name": "An Estuarine Inventory for New South Wales, Australia",
+    "description": "Fisheries oriented inventory that consists of tabular information and an atlas of estuarine wetlands describing 133 estuaries and embayments along the NSW (Australia) coast. Vegetation-types identified on these maps were saltmarshes (all species combined), mangroves (all species combined), and seagrasses. In the case of seagrasses, the following species or families were mapped: Zosteraceae (including Zostera capricorni, Zostera muelleri, and Heterozostera tasmanica), Posidonia australis, Halophila spp. (Halophila ova/is and Halophila decipiens) and Ruppia spp. (Ruppia megacarpa, Ruppia polycarpa and Ruppia maritima).\nThis dataset is hosted by the Institute for Marine and Antarctic Studies (IMAS), University of Tasmania, on behalf of the NSW Office of Environment and Heritage, New South Wales Government for the purposes of Seamap Australia (testing a national marine benthic habitat classification scheme). Data and metadta sourced from https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=021f65eb-38c6-4db2-9dbe-821b6b427780",
+    "url": "https://obis.org/dataset/c1181498-9389-4962-b98b-bf5d7a5fb7cd",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seamapaus_nsw_estuarine_inventory"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-07T05:23:58.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seamapaus_nsw_estuarine_inventory",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "149.861901532662 -37.4662506151287,149.861901532662 -28.1699729474067,153.602253106667 -28.1699729474067,153.602253106667 -37.4662506151287,149.861901532662 -37.4662506151287"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13402",
+            "@type": "Organization",
+            "legalName": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "name": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "url": "https://oceanexpert.org/institution/13402"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

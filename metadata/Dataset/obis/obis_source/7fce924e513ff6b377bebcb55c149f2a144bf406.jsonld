@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e8aac3a4-19e4-4940-88d5-f5364c26e1ff",
+    "name": "Species list recorded by baited cameras at deep sea area in Japan",
+    "description": "Species list focused on demersal fish and scavenging animal recorded by the baited camera (http://www.jamstec.go.jp/bdive/j/photosvideos/). Species names were listed in each cast of cameras, and will be added as the seasonal and annual survey in the future. This research project was conducted in the Japanese EEZ including Suruga and Sagami Bays. This data sets will be used as the background data for environmental DNA analysis of deep-sea water.",
+    "url": "https://obis.org/dataset/e8aac3a4-19e4-4940-88d5-f5364c26e1ff",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=jamstec_bait_deepsea"
+    ],
+    "license": "This work is licensed under a\n                 Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Tsuchida, S., Y. Fujiwara, M. Kawato, T. Yoshida, Y. Nagano, A. Yabuki, and K. Fujikura (2020) Species list recorded by baited cameras at deep sea area in Japan https://www.godac.jamstec.go.jp/bismal/e/dataset/JAMSTEC_bait_deepsea. Accessed on yyyy-mm-dd.",
+    "version": "2023-06-10T07:18:09.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=jamstec_bait_deepsea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "138.3563483 34.824025,138.3563483 34.86691,139.1366367 34.86691,139.1366367 34.824025,138.3563483 34.824025"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18293",
+            "@type": "Organization",
+            "legalName": "JAMSTEC Tokyo Office",
+            "name": "JAMSTEC Tokyo Office",
+            "url": "https://oceanexpert.org/institution/18293"
+        }
+    ]
+}

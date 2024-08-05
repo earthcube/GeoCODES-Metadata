@@ -1,0 +1,121 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d4091591-a085-4cfa-9734-5f0ecf5564a8",
+    "name": "Maine Department of Marine Resources Inshore Trawl Survey 2000-2019  ",
+    "description": "The Maine-New Hampshire Inshore Trawl Survey is a fishery-independent survey operated by Maine Department of Marine Resources that started in the fall of 2000. The survey is a collaborative partnership between commercial fishermen and state researchers to assess inshore fish stocks along the coast of Maine and New Hampshire. The survey occurs twice a year, in the spring and fall, and covers about 4500 square miles. A more detailed description and protocols for the survey can be found here. Reports and publications from the ME-NH trawl survey can be accessed here.\nSurvey Design\nThe ME-NH survey is a stratified random survey, separated into four depth strata and five geographic regions along the coast of Maine and New Hampshire. The inner boundary is defined by the shallowest depth that the 55-ft survey vessel can effectively sample (about 5 meters) and the deeper boundary loosely follows the 12 mile limit. One hundred and twenty stations are randomly selected for sampling before the start of each spring survey. The randomly selected sites that were successfully sampled in the spring are resampled again in the fall. The goal is to complete one, twenty minute, tow using a modified shrimp net at each randomly selected station. However, sometimes due to bottom the tow is moved or shortened. After the tow is completed, the catch is brought on board and sorted by species. The total weight of each species is weighed and then lengths are measured. Most species are measured to the nearest centimeter, except for lobsters, scallops, and urchins which are measured to the nearest millimeter. Finfish are measured for total centerline length, lobsters and northern shrimp for carapace lengths, crab species for carapace width, scallops for shell height, squid for mantle length, and octopi are measured out to the longest arm. If there is a large catch of a species a subsample is taken and 100 individuals are randomly selected for measurement. Selected species are sampled for maturity and age samples each survey.",
+    "url": "https://obis.org/dataset/d4091591-a085-4cfa-9734-5f0ecf5564a8",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=me_dmr_trawl"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Rebecca Peters. Maine Department of Marine Resources Inshore Trawl Survey, 2000 – 2019. 2022. Maine Department of Marine Resources, PO Box 8, West Boothbay Harbor, Maine 04575.  ",
+    "version": "2022-06-28T17:44:35.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "ID unique to the survey number",
+            "url": "",
+            "description": "ID unique to the survey number"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tow number in each survey",
+            "url": "",
+            "description": "Tow number in each survey"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "how many of each specific species was caught in the tow",
+            "url": "",
+            "description": "how many of each specific species was caught in the tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "the amount of time of the tow",
+            "url": "",
+            "description": "the amount of time of the tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "the depth stratum the tow was completed in",
+            "url": "",
+            "description": "the depth stratum the tow was completed in"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "the region the tow was completed in (1 through 5)",
+            "url": "",
+            "description": "the region the tow was completed in (1 through 5)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "the season and year each tow and catch took place",
+            "url": "",
+            "description": "the season and year each tow and catch took place"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "",
+            "url": "",
+            "description": ""
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "bottom water temperature for the tow",
+            "url": "",
+            "description": "bottom water temperature for the tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "bottom salinity for the tow",
+            "url": "",
+            "description": "bottom salinity for the tow"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=me_dmr_trawl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-70.8003701921939 42.853700020183,-70.8003701921939 44.8024500810069,-66.9215905803866 44.8024500810069,-66.9215905803866 42.853700020183,-70.8003701921939 42.853700020183"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19593",
+            "@type": "Organization",
+            "legalName": "State of Maine — Department of Marine Resources — Bureau of Sea Run Fisheries and Habitat",
+            "name": "State of Maine — Department of Marine Resources — Bureau of Sea Run Fisheries and Habitat",
+            "url": "https://oceanexpert.org/institution/19593"
+        }
+    ]
+}

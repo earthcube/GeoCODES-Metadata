@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dfb911f2-138a-42b4-95d0-37ed041b9490",
+    "name": "La Parguera, Puerto Rico Benthic Composition and Monitoring Data (2002 - Present)",
+    "description": "The Center for Coastal Monitoring and Assessments Biogeography Team (BT) has been conducting research and monitoring in Puerto Rico since 2000. The basis for this work is the nearshore benthic habitats maps (less than 100 ft depth) created by NOAAs Biogeography Program in 2001 and NOS bathymetry models. Using ArcView GIS software, the digitized habitat maps are stratified. Smapling sites are randomly selected within these strata to ensure coverage of the entire study region and not just a particular reef or seagrass area. At each site, fish, macro-invertebrates, and benthic composition information is then quantified following standardized protocols. By relating the data collected in the field back to the habitat maps and bathymetric models, BT is able to model and map species level and community level information. This dataset contains the benthic composition and monitoring data from La Parguera, Puerto Rico.",
+    "url": "https://obis.org/dataset/dfb911f2-138a-42b4-95d0-37ed041b9490",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=noaa_prinv"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=noaa_prinv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-67.1317672729 17.8737506866,-67.1317672729 17.9753494263,-64.0324020386 17.9753494263,-64.0324020386 17.8737506866,-67.1317672729 17.8737506866"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

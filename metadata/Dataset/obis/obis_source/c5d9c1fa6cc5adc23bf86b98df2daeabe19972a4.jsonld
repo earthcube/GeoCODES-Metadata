@@ -1,0 +1,90 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/88bb5351-cbed-4448-abf8-fdeae8b1abaf",
+    "name": "Amphipod distribution data from the North Atlantic and Artic waters compiled from literature records published in 1931-2018",
+    "description": "This dataset contains Amphipod distribution records and is based on literature from the years 1931 to 2018. The data were collected during a variety of cruises and sampling events while the majority was obtained during the Danish Ingolf expedition. Sampling events took place in the North Atlantic and Arctic waters which included the Artic Ocean, Barents Sea, Kara Sea, Labrador Sea, Buffin Bay and Greenland Sea. Amphipods were predominantly collected using dredges, epibenthic sledges and remotely operated vehicles but scuba divers and vehicle-free baited traps were also used. This way, over 1566 Amphipod samples were collected in total which include 45 families, 117 genera and 164 species.",
+    "url": "https://obis.org/dataset/88bb5351-cbed-4448-abf8-fdeae8b1abaf",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=amphipoda_literatur"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Kürzel, Kaiser, Brix, Colemann, Tandberg, Oldeland, Lörz (2022): Amphipod distribution data from the North Atlantic and Artic waters compiled from literature records published in 1931-2018.",
+    "version": "2023-12-08T18:19:52.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SEDTYCAT/",
+            "description": "Sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Haul length in m",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Haul length in m"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "salinity"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1884/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=amphipoda_literatur",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-164.7166667 -71.31666667,-164.7166667 81.72166667,147.375 81.72166667,147.375 -71.31666667,-164.7166667 -71.31666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

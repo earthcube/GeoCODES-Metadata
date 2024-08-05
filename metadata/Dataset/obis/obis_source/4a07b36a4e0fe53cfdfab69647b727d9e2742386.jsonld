@@ -1,0 +1,102 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b1b7614c-bf13-47ee-bf73-af2c6d7a54e4",
+    "name": "Population dynamics of Mesopodopsis slabberi in the Western Scheldt between 1990 and 1991",
+    "description": "Density and length-frequency data from <i>Mesopodopsis slabberi</i> sampled between May 1990 and December 1991 for 14 stations in the Western Scheldt. The data were digitized by VLIZ from the original report: Uppabullung, A. (1999). Population dynamics of the mysid, Mesopodopsis slabberi (Crustaceae, Mysidaceae). MSc Thesis. RUG: Gent. 60 pp.",
+    "url": "https://obis.org/dataset/b1b7614c-bf13-47ee-bf73-af2c6d7a54e4",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mesopodopsis_slabberi_westernscheldt_1990-1991",
+        "https://dx.doi.org/10.14284/174"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Uppabullung A.; Mees J.; Faculty of Sciences; Laboratory for Systematics and Ecology. VUB; Marine Biology Section, Zoology Institute. Ugent: Belgium; (2016): Population dynamics of <i>Mesopodopsis slabberi</i> in the Western Scheldt between 1990 and 1991. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4602) https://dx.doi.org/10.14284/174",
+    "version": "2023-12-08T18:30:18.000Z",
+    "keywords": [
+        "Growth",
+        "Population dynamics",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of Mesopodopsis slabberi",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of Mesopodopsis slabberi"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length of Mesopodopsis slabberi",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length of Mesopodopsis slabberi"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of Mesopodopsis slabberi per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance of Mesopodopsis slabberi per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/1991",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/174",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/174",
+        "url": "https://dx.doi.org/10.14284/174"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mesopodopsis_slabberi_westernscheldt_1990-1991",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.590556 51.356944,3.590556 51.429444,4.210556 51.429444,4.210556 51.356944,3.590556 51.356944"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        }
+    ]
+}

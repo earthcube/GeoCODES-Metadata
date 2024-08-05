@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/71748d53-57e9-4e30-9678-ede83ca6c7ba",
+    "name": "CeDAMar database for benthic biological sampling on the abyssal plains",
+    "description": "The primary objective for developing a CeDAMar database is to generate a map of biological abyssal sampling stations in the World Ocean. These data represent the European coverage.",
+    "url": "https://obis.org/dataset/71748d53-57e9-4e30-9678-ede83ca6c7ba",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cedamar",
+        "https://doi.org/10.15468/oc9tsb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Martinez Arbizu, P. Smith, C. R., Keller, S. &amp; Ebbe, B. (Editors). Biogeographic Database of the Census of Abyssal Marine Life. [date accessed]. World Wide Web electronic publication. Available online at http://www.cedamar.org/biogeography https://doi.org/10.15468/oc9tsb",
+    "version": "2023-12-08T17:23:18.000Z",
+    "keywords": [
+        "Abyssal plains",
+        "Benthos",
+        "Deep sea",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/oc9tsb",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/oc9tsb",
+        "url": "https://doi.org/10.15468/oc9tsb"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cedamar",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -78.48,-180 84.3272,180 84.3272,180 -78.48,-180 -78.48"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20169",
+            "@type": "Organization",
+            "legalName": "Hawaii Institute of Marine Biology, University of Hawaii",
+            "name": "Hawaii Institute of Marine Biology, University of Hawaii",
+            "url": "https://oceanexpert.org/institution/20169"
+        }
+    ]
+}

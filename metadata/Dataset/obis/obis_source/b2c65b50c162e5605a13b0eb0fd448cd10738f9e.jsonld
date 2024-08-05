@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/78f97784-2904-4e60-8aed-defe1e6b4b24",
+    "name": "IBSS historical data from different cruises",
+    "description": "Data of the Institute of Biology of the Southern Seas, NAS Ukraine",
+    "url": "https://obis.org/dataset/78f97784-2904-4e60-8aed-defe1e6b4b24",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ibsshistorical"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Historical dataset of marine biological records, Institute of Biology of the Southern Seas, NAS Ukraine",
+    "version": "2023-12-08T18:30:07.000Z",
+    "keywords": [
+        "Biological surveys",
+        "Phytoplankton",
+        "Zooplankton",
+        "ship",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1960/1993",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ibsshistorical",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-7.116666666666666 -26.316666666666666,-7.116666666666666 44.93333333333333,40.13333333333333 44.93333333333333,40.13333333333333 -26.316666666666666,-7.116666666666666 -26.316666666666666"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

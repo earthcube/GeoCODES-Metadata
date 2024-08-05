@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/79836eba-9a98-45d5-b389-702f4b3f8f76",
+    "name": "Ningaloo Outlook turtle tracking of Green turtles (Chelonia mydas), Western Australia (2018-present)",
+    "description": "Ningaloo provides important feeding grounds and nesting beaches for a number of marine turtle species, especially green Chelonia mydas and loggerhead Caretta caretta turtles. Green turtles are abundant in the shallow lagoons, where they arrive as juveniles after spending perhaps a decade in the open ocean.\nThis datasets is tracking data of eight green turtles from the Ningaloo Outlook Turtle Viewer (http://hdl.handle.net/102.100.100/385081?index=1) accessed on 2022-11-14",
+    "url": "https://obis.org/dataset/79836eba-9a98-45d5-b389-702f4b3f8f76",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ningaloo_outlook_turtle_tracking"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Vanderklift M (2023): Ningaloo Outlook turtle tracking of Green turtles (Chelonia mydas), Western Australia (2018-present). v1.9. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=ningaloo_outlook_turtle_tracking&amp;v=1.9",
+    "version": "2023-07-04T03:16:51.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "ARGOS Location Class",
+            "url": "",
+            "description": "ARGOS Location Class"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ningaloo_outlook_turtle_tracking",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.244 -25.371,113.244 -16.909,122.295 -16.909,122.295 -25.371,113.244 -25.371"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

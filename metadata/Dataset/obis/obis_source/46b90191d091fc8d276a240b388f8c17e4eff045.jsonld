@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d0d3ccce-e385-4e37-912a-a12133c7b9af",
+    "name": "Benthos from Karkinitsky Gulf (Black Sea)",
+    "description": "Abundance and Biomass of soft-bottom benthos from Karkinitsky gulf (North-Western Crimea, The Black Sea, Ukraine) for period within 1980-1989",
+    "url": "https://obis.org/dataset/d0d3ccce-e385-4e37-912a-a12133c7b9af",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=karkinitsky_gulf"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Petrov A., Povchun A.S., Zolotrev P.N. Initial data set (1980-1989) on abundance and biomass of soft-bottom macrozoobenthos of Karkinitsky gulf, Western Crimea, Ukraine. Institute of Biology of Southern Seas, Ukraine.",
+    "version": "2023-12-08T17:48:46.000Z",
+    "keywords": [
+        "Benthos",
+        "Biomass",
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1980/1989",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=karkinitsky_gulf",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "32.083333333333336 45.233333333333334,32.083333333333336 46.05,33.4 46.05,33.4 45.233333333333334,32.083333333333336 45.233333333333334"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

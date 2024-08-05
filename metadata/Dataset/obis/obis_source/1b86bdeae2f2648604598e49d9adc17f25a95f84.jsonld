@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/750650f1-5f72-46d8-a65d-996ee2268fec",
+    "name": "Zariquiey Collection. Biological Reference Collections ICM CSIC.",
+    "description": "The Zariquiey Collection is the collection of crustaceans donated by Dr. Ricardo Zariquiey Alvarez (1897-1965). Dr. Zariquiey Alvarez collaborated with the Fisheries Research Institute of Barcelona (origin of the current ICM), and donated his collection of crustaceans, and the associated library to the Institute. The Zariquiey collection is part of the CBR and is mainly composed by Decapod Crustaceans.",
+    "url": "https://obis.org/dataset/750650f1-5f72-46d8-a65d-996ee2268fec",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zariquiey-icm",
+        "https://dx.doi.org/10.15470/cqtmj1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Santos R (2016): Zariquiey Collection. Biological Reference Collections ICM CSIC. Institute of Marine Sciences (ICM-CSIC). https://dx.doi.org/10.15470/cqtmj1",
+    "version": "2024-02-26T23:14:23.000Z",
+    "keywords": [
+        "Museum specimens",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "habitat",
+            "url": "",
+            "description": "habitat"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1889/1977",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.15470/cqtmj1",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15470/cqtmj1",
+        "url": "https://dx.doi.org/10.15470/cqtmj1"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zariquiey-icm",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-82.8706 -42.7901,-82.8706 80,144.8252 80,144.8252 -42.7901,-82.8706 -42.7901"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

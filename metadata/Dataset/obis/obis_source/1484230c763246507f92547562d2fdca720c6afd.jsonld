@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d13ec1f1-d82a-4cdb-92e9-3f2144bf7a2e",
+    "name": "Bureau of Rural Sciences, Commercial Fisheries Presence, Australia, 2000-2002",
+    "description": "Australian national commercial fisheries presence data summarized by half-degree square, year (2000-2002) and species name. Cells with less than 5 boats represented are excluded, as are commercial \"taxa\" which represent multiple or otherwise unidentified species. The dataset contains 60,445 records representing 390 separate species. The data were assembled by the former Bureau of Rural Sciences (BRS) which is now a part of the Australian Department of Agriculture.\nAdditional summary information including catch weights and gross value product per species per square per year is available (part of the former \"Atlas of Australian Marine Fishing and Coastal Communities\"), please contact the Department of Agriculture and Water Resources for access at  http://www.agriculture.gov.au/general-inquiries",
+    "url": "https://obis.org/dataset/d13ec1f1-d82a-4cdb-92e9-3f2144bf7a2e",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=brs_2000_2002"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Bureau of Rural Sciences - National commercial fisheries half-degree data set 2000-2002",
+    "version": "2022-06-08T04:53:08.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=brs_2000_2002",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "106.25 -47.25,106.25 -9.25,167.75 -9.25,167.75 -47.25,106.25 -47.25"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19358",
+            "@type": "Organization",
+            "legalName": "Australian Bureau of Agricultural and Resource Economics and Sciences",
+            "name": "Australian Bureau of Agricultural and Resource Economics and Sciences",
+            "url": "https://oceanexpert.org/institution/19358"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

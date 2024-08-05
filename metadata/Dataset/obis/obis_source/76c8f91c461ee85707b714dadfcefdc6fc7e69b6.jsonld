@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/14d41748-ac95-4b42-abb1-28a9b6fc6529",
+    "name": "Crustaceos decapodos de islotes Caribe y Los Lobos, Venezuela",
+    "description": "Se estudió la fauna carcinológica decápoda de los islotes Caribe y Los Lobos.\nFueron empleados distintos artes y métodos de pesca, tales como: buceo con equipo autonómico, chinchorro playero, redes de mano, rastras, guantes de muestreo y muestreo manual.\nFueron identificadas 35 especies.",
+    "url": "https://obis.org/dataset/14d41748-ac95-4b42-abb1-28a9b6fc6529",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=crustaceos_caribe"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Lira C (2022): Crustaceos decapodos de islotes Caribe y Los Lobos, Venezuela. v1.6. Caribbean OBIS Node. Dataset/Samplingevent. https://ipt.iobis.org/caribbeanobis/resource?r=crustaceos_caribe&amp;v=1.6",
+    "version": "2022-11-02T19:34:51.000Z",
+    "keywords": [
+        "Samplingevent",
+        "inventory",
+        "Crustacea",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Life stages of marine organisms",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS5753/",
+            "description": "Life stages of marine organisms"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/1993",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/caribbeanobis/archive.do?r=crustaceos_caribe",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-63.87506 10.690543,-63.87506 10.69196,-63.849355 10.69196,-63.849355 10.690543,-63.87506 10.690543"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

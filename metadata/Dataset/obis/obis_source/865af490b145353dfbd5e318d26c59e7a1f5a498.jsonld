@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/413657ae-72f4-4466-b9cb-f5e98230582a",
+    "name": "BioChem: The Les Harris Northwest Atlantic 0-100m zooplankton collection",
+    "description": "This resource contains species distribution records extracted from the Fisheries and Oceans Canada BioChem database for the BioChem 'Harris_0_100m' series of records.  This collection contains zooplankton abundance and distribution information for locations across the Scotian Shelf and the Labrador Sea.  Samples were collected from 100 m to the surface using a 75 cm diameter conical net of 202 micron mesh towed vertically through the water column. \n\nSample analysis results, archived in the BioChem database, include abundance and biomass for larger taxonomic groups, by genera for most of the copepod taxa and by stages for the three large Calanus species (C. finmarchicus, C. glacialis and C. hyperboreus).  This OBIS resource contains a subset of these database records - at this time only abundance information has been released.",
+    "url": "https://obis.org/dataset/413657ae-72f4-4466-b9cb-f5e98230582a",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=biochem_harris_0_100m"
+    ],
+    "license": "rights: http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms\nrights holder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "Harris, L.R. (2013).  The Les Harris Northwest Atlantic 0-100m zooplankton collection. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE",
+    "version": "2021-04-16T11:04:03.000Z",
+    "keywords": [
+        "oceans",
+        "aquatic sciences\nbiological classification",
+        "biosphere",
+        "aquatic ecosystems",
+        "plankton",
+        "zooplankton\ndecadal changes\nmonitoring",
+        "biota\nplankton surveys",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=biochem_harris_0_100m",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.5 40.86,-65.5 63.42,-43.99 63.42,-43.99 40.86,-65.5 40.86"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5070",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "name": "Fisheries and Oceans Canada – Bedford Institute of Oceanography",
+            "url": "https://oceanexpert.org/institution/5070"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5394088a-ed38-4c2c-a456-3194be5d0dc7",
+    "name": "Biology of Southern Ocean squid, ecological importance and potential commercial implications - a preliminary assessment 1995/2006",
+    "description": "Metadata record for data from ASAC Project 1242\nSee the link below for public details on this project.\n\n---- Public Summary from Project ----\nThis project will undertake preliminary assessment of Southern Ocean squid stocks.  Squids will be collected by jigging and light trapping off research vessels in the region of Macquarie Island and other selected locations where the opportunity arises.  Little is known about squid biology in the Pacific and Indian sectors of the Southern Ocean. This project will help to provide initial basic biological data on the squid species present.\n\n18 squid we caught on-board the Aurora Australis  in November, 2001.\n\nAll were caught 200-300 kms south of Tasmania, by a hand-held squid jig, at latitude 47 South at a depth of 1m.\n\nAll samples caught on the 5/11/01 have the code QA/AA/80/01.   There was no code written for others caught on 3/11/01.\n\nThe fields in this dataset are:\n\nSpecies\nDate\nMantle length (mm)\nWeight (g)\nSex\nMaturity\nGonad weight (g)\n\nSee also the metadata record for ASAC project 1340 (ASAC_1340), Squid in the antarctic and subantarctic, their biology and ecology.\nQuality: This experiment did not proceed as well as planned.  Not enough squid were caught.\n\nThe original datasheet was reformatted to fit IPT Biodiversity.AQ standard. The new datasheet \"squidsSouthernOcean.csv\" provides the dataset ID, recordNumber, occurrenceID, sex, waterBody, locality, decimal latitude, decimal longitude,  eventDate, dephtInMeters, samplingProtocol, associatedReferences, institutionCode, country, dynamicProperties, basis of record, and occurrenceStatus. Measurement parameters and values are provided for dataset from ASAC-1242. The lowest taxonomical rank of the species identified that could be determined is provided, after matched in WoRMS (World Register of Marine Species). Some of the data was obtained from the the associated references.",
+    "url": "https://obis.org/dataset/5394088a-ed38-4c2c-a456-3194be5d0dc7",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=squids"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Jackson, G. (2000, updated 2018) Biology of Southern Ocean squid, ecological importance and potential commercial implications - a preliminary assessment - CAASM Metadata (https://data.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=/AMD/AU/ASAC_1242)\n\nPhillips K., Nichols P.D., Jackson G.D. (2002) Lipid and fatty acid compostiion of the mantle and digestive gland of four Southern Ocean squid species: implications for food-web studies. Antarctic Science. 14(3), 212-220",
+    "version": "2020-03-06T04:40:31.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=squids",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.076178 -54.62,-178.076178 -43.08944,168.3886 -43.08944,168.3886 -54.62,-178.076178 -54.62"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

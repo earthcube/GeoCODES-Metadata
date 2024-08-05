@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fa6daffa-808f-463f-96be-8b7b5801b3c9",
+    "name": "ANTAVIA TrackingKing",
+    "description": "GPS tracking of known-age and sex king penguins from Crozet Archipelago (age data are available upon request from the senior author)",
+    "url": "https://obis.org/dataset/fa6daffa-808f-463f-96be-8b7b5801b3c9",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=antavia-tracking-king"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2019-03-19T14:48:15.000Z",
+    "keywords": [
+        "Occurrence",
+        "BIOSPHERE",
+        "ECOSYSTEMS",
+        "MARINE ECOSYSTEMS"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=antavia-tracking-king",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0 -70.5600483,0 0,53.33663177 0,53.33663177 -70.5600483,0 -70.5600483"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

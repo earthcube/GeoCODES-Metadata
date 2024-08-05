@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/61a9e01c-65ed-47e7-9f15-54335f9b75b1",
+    "name": "Association between pygmy right whales (Caperea marginata) and areas of high marine productivity off Australia and New Zealand (1874-2006)",
+    "description": "Opportunistic sightings and strandings of Caperea marginata (n=196) from the vicinity of Australia and New Zealand (1884 to early 2007) were used to relate geographic and temporal patterns to oceanographic and broad-scale climatic variability. Records were not uniformly distributed along the coast and more (69%) were from Australia than New Zealand. Data from Appendix 1 and 2 of the cited paper.",
+    "url": "https://obis.org/dataset/61a9e01c-65ed-47e7-9f15-54335f9b75b1",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=pygmy_right_whales"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "CM Kemper, JF Middleton &amp; PD van Ruth (2013) Association between pygmy right whales (Caperea marginata) and areas of high marine productivity off Australia and New Zealand, New Zealand Journal of Zoology, 40:2, 102-128, DOI: 10.1080/03014223.2012.707662",
+    "version": "2022-06-13T23:56:56.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1870/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=pygmy_right_whales",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "115.33333 -47,115.33333 -32.01528,180 -32.01528,180 -47,115.33333 -47"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

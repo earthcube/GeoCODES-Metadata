@@ -1,0 +1,118 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b2606b6f-f6d0-47ea-8a56-d086b20c60be",
+    "name": "Benthos Gironde Estuary",
+    "description": "The data is the integration of three different subdatasets i.e. the impact of dredging on benthic macrofauna (1979 data), comparison of macrobenthos between major European tidal estuaries (1991-92 data) and ecological monitoring of macrobenthos in an area affected by the effluents of a nuclear power plant (2004 data)",
+    "url": "https://obis.org/dataset/b2606b6f-f6d0-47ea-8a56-d086b20c60be",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macroben_gironde_evco"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Bachelet, G., 2004: Benthos Gironde Estuary. Université Bordeaux 1, Station Marine d'Arcachon, Laboratoire d'Océanographie Biologique, France",
+    "version": "2023-12-08T17:11:05.000Z",
+    "keywords": [
+        "Benthic fauna",
+        "Biogeography",
+        "Macrobenthos",
+        "Zoobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Equipment",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Equipment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sediment type",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SEDTYCAT/",
+            "description": "sediment type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Silt-clay content in Sediment",
+            "url": "",
+            "description": "Silt-clay content in Sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average mean grain size in Sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MNGSSSXX/",
+            "description": "Average mean grain size in Sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average silt-clay content in Sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PRSCPSSO/",
+            "description": "Average silt-clay content in Sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water salinity range in Water",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "Water salinity range in Water"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean grain size in Sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MNGSSSXX/",
+            "description": "Mean grain size in Sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mean silt-clay content in Sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PRSCPSSO/",
+            "description": "Mean silt-clay content in Sediment"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macroben_gironde_evco",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-1.435833 45.06028,-1.435833 45.62305,-0.6311111 45.62305,-0.6311111 45.06028,-1.435833 45.06028"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

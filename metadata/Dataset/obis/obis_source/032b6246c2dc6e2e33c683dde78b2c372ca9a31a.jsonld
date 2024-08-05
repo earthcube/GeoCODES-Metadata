@@ -1,0 +1,76 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f2cfae14-4a02-4371-b653-4618134ee0bd",
+    "name": "Crown-of-thorns starfish movement and feeding electivity data, Great Barrier Reef, Australia (2015)",
+    "description": "In situ time-lapse photography was used to characterise movement and feeding preferences of the Pacific crown-of-thorns starfish (Acanthaster cf. solaris) in the northern and southern Great Barrier Reef in 2015. This record describes the data accompanying the cited publication: 'Homing behaviour by destructive crown-of-thorns starfish is triggered by local availability of coral prey.'\n\nData files are:\n1) CoTS movement and behavioural observations\n2) CoTS individual movement tracks (per image) from time-lapse photography\n3) feeding electivity on coral species by CoTS from time-lapse photography",
+    "url": "https://obis.org/dataset/f2cfae14-4a02-4371-b653-4618134ee0bd",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=cots_2015",
+        "http://dx.doi.org/10.1098/rspb.2020.1341"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Ling SD, Cowan Z-L, BoadaJ, Flukes EB, Pratchett MS. (2020) Homing behaviour by destructive crown-of-thorns starfish is triggered by local availability of coral prey.Proc. R. Soc. B287: 20201341. http://dx.doi.org/10.1098/rspb.2020.1341",
+    "version": "2022-10-09T23:42:21.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Starfish diameter",
+            "url": "",
+            "description": "Starfish diameter"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "identifier": {
+        "@id": "http://dx.doi.org/10.1098/rspb.2020.1341",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1098/rspb.2020.1341",
+        "url": "http://dx.doi.org/10.1098/rspb.2020.1341"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=cots_2015",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "145.4436 -22.3136,145.4436 -14.677,152.7538 -14.677,152.7538 -22.3136,145.4436 -22.3136"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20324",
+            "@type": "Organization",
+            "legalName": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "name": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "url": "https://oceanexpert.org/institution/20324"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

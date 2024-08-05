@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/31f00d1e-d833-446d-b3bd-924574dbb9e1",
+    "name": "Seabird observations from the northern section of the Great Barrier Reef, Australia (1991-1996)",
+    "description": "This dataset is the seabird counts from the project 'Environmental Effects of Prawn Trawling in the Far Northern Section of the Great Barrier Reef 1991-1996'. It includes additional observations prior to this period.\nProject information from https://marlin.csiro.au/geonetwork/srv/eng/catalog.search#/metadata/28cef823-767c-459f-891f-5f166bc905de",
+    "url": "https://obis.org/dataset/31f00d1e-d833-446d-b3bd-924574dbb9e1",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=gbr_northern_prawn_survey_seabirds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Pitcher R (2022): Seabird observations from the northern section of the Great Barrier Reef, Australia (1991-1996). v1.2. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=gbr_northern_prawn_survey_seabirds&amp;v=1.2",
+    "version": "2022-06-06T12:50:42.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/1996",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=gbr_northern_prawn_survey_seabirds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.5 -18.8167,141.5 -9.0167,146.7833 -9.0167,146.7833 -18.8167,141.5 -18.8167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5605",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "name": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "url": "https://oceanexpert.org/institution/5605"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

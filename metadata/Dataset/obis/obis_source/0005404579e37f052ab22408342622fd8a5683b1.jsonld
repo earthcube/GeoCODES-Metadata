@@ -1,0 +1,91 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7812d226-7630-47e1-bc49-0941187a9a51",
+    "name": "Dredge, trawl and bycatch records from the northern section of the Great Barrier Reef, Australia (1991-1996)",
+    "description": "Dredge, trawl and bycatch records from the northern section of the Great Barrier Reef, Australia (1991-1996) from the project 'Environmental Effects of Prawn Trawling in the Far Northern Section of the Great Barrier Reef ' which was a five year study into the effects of trawling on seabed communities in the inter-shoal and inter-reef areas in the Far Northern Section of the Great Barrier Reef. Project information is at https://marlin.csiro.au/geonetwork/srv/eng/catalog.search#/metadata/28cef823-767c-459f-891f-5f166bc905de.",
+    "url": "https://obis.org/dataset/7812d226-7630-47e1-bc49-0941187a9a51",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=gbr_northern_prawn_survey_catch"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Pitcher R (2022): Dredge, trawl and bycatch records from the northern section of the Great Barrier Reef, Australia (1991-1996). v1.6. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=gbr_northern_prawn_survey_catch&amp;v=1.6",
+    "version": "2022-06-09T23:56:41.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample Count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Sample Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/3/",
+            "description": "Sample Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample Gear",
+            "url": "",
+            "description": "Sample Gear"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tow Duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Tow Duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tow Speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TOWSPEED/",
+            "description": "Tow Speed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/1995",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=gbr_northern_prawn_survey_catch",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "142.8417 -11.9285,142.8417 -11.1167,143.9333 -11.1167,143.9333 -11.9285,142.8417 -11.9285"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5605",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "name": "CSIRO Oceans and Atmospheric Research, Brisbane",
+            "url": "https://oceanexpert.org/institution/5605"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

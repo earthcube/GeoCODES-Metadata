@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/585d686c-b216-4343-b548-ddc7a9286487",
+    "name": "Phytoplankton Species Composition, Abundance and Cell Size in San Francisco Bay: Microscopic Analyses of USGS Samples Collected 1992-2014",
+    "description": "This Data Release makes available measurements of phytoplankton species composition, abundance and cell size made on samples collected in San Francisco Bay (CA) from April 1992 through March 2014. Phytoplankton samples were collected at 31 stations along a 145-km transect where the variability of salinity, temperature, turbidity and nutrient concentrations reflected a broad range of environmental factors that regulate phytoplankton growth and abundance (map of sampling locations is available on the project website at: https://sfbay.wr.usgs.gov/access/wqdata/overview/wherewhen/stnmap.html). Whole water samples were preserved with acid Lugol’s solution, and 2 to 50 ml aliquots were settled in chambers for 6 to 24 hours (Utermöhl 1958). Phytoplankton cells were then counted and identified using a phase-contrast inverted microscope at 125x magnification, all cells greater than 30 μm diameter were enumerated. Cells smaller than 30 μm were counted at 1250x magnification; following the APHA (1989) strip count method, at least 100 cells of the most numerous taxon were counted. Cell volumes were estimated from measured linear dimensions and geometric formulas that varied with cell shapes. Phytoplankton samples representing 923 distinct date, station and depths were included. The 16,442 entries in this dataset include 609 different taxa within 11 functional groups. Diatoms dominated the total biovolume contributed by each functional group (77%) followed by dinoflagellates (14%) and cryptophytes (4.5%). The top 5 species contributing to the summed biovolume in all samples were: Thalassiosira punctigera, Chaetoceros socialis, Ditylum brightwellii, Thalassiosira rotula and Noctiluca scintillans. By frequency of occurrence, the top 5 species were: Teleaulax amphioxeia, Nannochloropsis spp., Plagioselmis prolonga var. nordica, Skeletonema costatum and Thalassiosira eccentrica.",
+    "url": "https://obis.org/dataset/585d686c-b216-4343-b548-ddc7a9286487",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=usgs_waterquality_sanfranciscobay_phytoplankton_1992_2014",
+        "https://doi.org/10.5066/F74F1P6P"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Nejad, E.S., Schraga, T.S., and Cloern, J.E., 2017, Phytoplankton Species Composition, Abundance and Cell Size in San Francisco Bay: Microscopic Analyses of USGS Samples Collected 1992-2014: U.S. Geological Survey data release",
+    "version": "2017-12-14T16:36:12.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.5066/F74F1P6P",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.5066/F74F1P6P",
+        "url": "https://doi.org/10.5066/F74F1P6P"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=usgs_waterquality_sanfranciscobay_phytoplankton_1992_2014",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-122.446666666667 37.4716666666667,-122.446666666667 38.1516666666667,-121.688333333333 38.1516666666667,-121.688333333333 37.4716666666667,-122.446666666667 37.4716666666667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/10233",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey – Menlo Park Campus",
+            "name": "U.S. Geological Survey – Menlo Park Campus",
+            "url": "https://oceanexpert.org/institution/10233"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

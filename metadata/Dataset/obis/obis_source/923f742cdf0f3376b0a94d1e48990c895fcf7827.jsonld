@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/58e9b3ef-bac2-4a72-abec-c959e0f0d914",
+    "name": "Deep-sea Meiobenthos",
+    "description": "This dataset is a collection of several sampling campaigns dealing with meiobenthos on different locations and times.",
+    "url": "https://obis.org/dataset/58e9b3ef-bac2-4a72-abec-c959e0f0d914",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=manuela_nd"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Soetaert K. 1993: Deep-sea Meiobenthos. Netherlands Institute of Ecology; Centre for Estuarine and Marine Ecology, Netherlands. Metadata available at http://mda.nioo.knaw.nl/imis.php?module=dataset&amp;dasid=665",
+    "version": "2024-02-26T23:16:44.000Z",
+    "keywords": [
+        "Deep sea",
+        "Meiobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1966/1991",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=manuela_nd",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-76.4 18.46,-76.4 90,153.04 90,153.04 18.46,-76.4 18.46"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16218",
+            "@type": "Organization",
+            "legalName": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke",
+            "name": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke",
+            "url": "https://oceanexpert.org/institution/16218"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19585",
+            "@type": "Organization",
+            "legalName": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke — Afdeling Ecosysteem Studies",
+            "name": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke — Afdeling Ecosysteem Studies",
+            "url": "https://oceanexpert.org/institution/19585"
+        }
+    ]
+}

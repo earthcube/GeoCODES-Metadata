@@ -1,0 +1,127 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d9d4a8bd-a571-4081-bec9-75a7d9108b0d",
+    "name": "Marine fauna in underwater monitoring (years 2015-2016)",
+    "description": "Data on the presence and distribution of marine species during underwater visual census activities in the Gulf of Catania, Eastern Sicily, Ionian Sea. Data were collected on fixed line transects placed from 5 to 12 meters of deep, using scuba diving ARA equipment, and they include: date, time and geographical coordinates of the surveys, recorded species, size and number of individuals. The monitoring was supervised in years 2015 and 2016 by the MareCamp association.",
+    "url": "https://obis.org/dataset/d9d4a8bd-a571-4081-bec9-75a7d9108b0d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=fauna_underwater_monitoring",
+        "https://dx.doi.org/10.14284/556"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Monaco, Clara; Garofalo, Dario; MareCamp Association; (2020); Marine fauna in underwater monitoring (years 2015-2016). https://dx.doi.org/10.14284/556",
+    "version": "2023-05-23T11:55:02.000Z",
+    "keywords": [
+        "diver",
+        "Diving (underwater)",
+        "Monitoring",
+        "Sampling",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom type",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/BDDESC01/",
+            "description": "Bottom type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sample duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature of water",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "Temperature of water"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Visibility in the water",
+            "url": "",
+            "description": "Visibility in the water"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size range",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TL01XX01/",
+            "description": "Size range"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size",
+            "url": "",
+            "description": "Size"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2016",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/556",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/556",
+        "url": "https://dx.doi.org/10.14284/556"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=fauna_underwater_monitoring",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "15.1807565 37.637527,15.1807565 37.6381175,15.181584 37.6381175,15.181584 37.637527,15.1807565 37.637527"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23185",
+            "@type": "Organization",
+            "legalName": "Marecamp ",
+            "name": "Marecamp ",
+            "url": "https://oceanexpert.org/institution/23185"
+        }
+    ]
+}

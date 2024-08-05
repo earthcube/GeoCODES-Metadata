@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/88ec999b-056b-4b6c-a9d0-ae243e70349d",
+    "name": "Angolan Trawl Survey Data",
+    "description": "Survey data collected along the Angolan coast aboard Dr R/V Fridtjof Nansen from 1985 to 2010 from 20 to 1000m depth.",
+    "url": "https://obis.org/dataset/88ec999b-056b-4b6c-a9d0-ae243e70349d",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=angola_nansclim_trawl"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Angolan Survey Data,  Instituto Nacional de Investigação Pesqueira (INIP)(National Fishing Research Institute) (2014). Published by AfrOBIS; consulted via iOBIS.",
+    "version": "2020-12-02T14:08:59.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=angola_nansclim_trawl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "11.21405894 -20.57825538,11.21405894 -5.089786074,13.85 -5.089786074,13.85 -20.57825538,11.21405894 -20.57825538"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5684",
+            "@type": "Organization",
+            "legalName": "Council for Scientific and Industrial Research, Stellenbosch",
+            "name": "Council for Scientific and Industrial Research, Stellenbosch",
+            "url": "https://oceanexpert.org/institution/5684"
+        }
+    ]
+}

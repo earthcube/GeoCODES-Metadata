@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8e8fa6e1-42c5-4793-bb2d-1ec67b670787",
+    "name": "Distribution of deep-sea sponges in the North Atlantic - Data from the SponGES project",
+    "description": "This database has been designed to hold data pertaining or related to the distribution of deep-sea sponges from the North Atlantic. All data was collected as part of the SponGES project, an EU funded (Horizon 2020, 2016-2021) project. The data here in largely comprises previously unpublished distribution records and records not digitized or available in other online databases.",
+    "url": "https://obis.org/dataset/8e8fa6e1-42c5-4793-bb2d-1ec67b670787",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=distribution_of_deep-sea_sponges_in_the_north_atlantic"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Davies, A.; (2021): Distribution of deep-sea sponges in the North Atlantic - Data from the SponGES project",
+    "version": "2023-12-08T18:14:19.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1871/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=distribution_of_deep-sea_sponges_in_the_north_atlantic",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.9995 -77.8167038,-179.9995 88.78050232,179.998505 88.78050232,179.998505 -77.8167038,-179.9995 -77.8167038"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/02ce202a-dbbd-420a-a7e2-a133d9ab862d",
+    "name": "Azooxanthellate Scleractinia Brazil 01",
+    "description": "This data set includes part of the results of the review on azooxanthellate Scleractinia from Brazil in Kitahara (2007).",
+    "url": "https://obis.org/dataset/02ce202a-dbbd-420a-a7e2-a133d9ab862d",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=azooxanthellate_scleractinia_brazil_01",
+        "http://doi.org/10.25607/h6grbv"
+    ],
+    "license": "Unrestricted",
+    "citation": "Fabio Lang da Silveira and Rubens M. Lopes WSA_OBIS_01_Azooxanthellate Scleractinia in Brazil. WSAOBIS, São Paulo, June 2008, Version 1.",
+    "version": "2021-07-02T11:06:20.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1887/2005",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/h6grbv",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/h6grbv",
+        "url": "http://doi.org/10.25607/h6grbv"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=azooxanthellate_scleractinia_brazil_01",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-54.0333 -34.6675,-54.0333 4.45,-34.6167 4.45,-34.6167 -34.6675,-54.0333 -34.6675"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

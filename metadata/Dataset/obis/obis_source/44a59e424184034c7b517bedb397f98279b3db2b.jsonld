@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ed985d06-bb86-4737-8ade-197837b0af24",
+    "name": "PANGAEA - Data from Lamont-Doherty Earth Observatory, Colombia University",
+    "description": "This dataset contains data compiled by the Lamont-Doherty Earth Observatory, Colombia University. These data are derived from PANGAEA.",
+    "url": "https://obis.org/dataset/ed985d06-bb86-4737-8ade-197837b0af24",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pangaea_2741"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2024-02-26T23:17:42.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1953/1969",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pangaea_2741",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-92.47 -54.47,-92.47 60.733,72.5 60.733,72.5 -54.47,-92.47 -54.47"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18934",
+            "@type": "Organization",
+            "legalName": "Columbia University, Lamont-Doherty Earth Observatory",
+            "name": "Columbia University, Lamont-Doherty Earth Observatory",
+            "url": "https://oceanexpert.org/institution/18934"
+        }
+    ]
+}

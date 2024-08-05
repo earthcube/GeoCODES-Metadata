@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cd388552-daf0-416d-9198-23dee07d3f4d",
+    "name": "Zooplankton monitoring RADIALES - section off Gijón (N Spain, Cantrabrian Sea); mid-shelf (station depth 130m)",
+    "description": "Zooplankton time-series from the time-series monitoring programme RADIALES, done by IEO at different stations in the Northwest and North Iberian Shelf.",
+    "url": "https://obis.org/dataset/cd388552-daf0-416d-9198-23dee07d3f4d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=zoo_gi2",
+        "https://dx.doi.org/10.14284/44"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cabal J.; Instituto Español de Oceanografía (IEO); (2015): Zooplankton monitoring RADIALES: Section off Gijón (N Spain, Cantabrian Sea); mid-shelf (station depth 130m) https://dx.doi.org/10.14284/44",
+    "version": "2023-03-09T01:40:32.000Z",
+    "keywords": [
+        "Time series",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "NetMeshSize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "NetMeshSize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2004",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/44",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/44",
+        "url": "https://dx.doi.org/10.14284/44"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=zoo_gi2",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18010",
+            "@type": "Organization",
+            "legalName": "Instituto Español de Oceanografía",
+            "name": "Instituto Español de Oceanografía",
+            "url": "https://oceanexpert.org/institution/18010"
+        }
+    ]
+}

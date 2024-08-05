@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4fb27374-87ed-47b8-9102-bb2ec4cbedf2",
+    "name": "Uruguay Nearshore Zooplankton",
+    "description": "This study presents a first general analysis of the zooplankton assemblages from the Uruguayan coastal/estuarine ecosystems. The database considered comprised information from seven sites representing three different types of environment: coastal Río de la Plata (Punta Brava and Playa del Buceo in Montevideo, and Bahía Maldonado in Maldonado), coastal plain estuary (Arroyo Solís Grande), and coastal lagoons (José Ignacio, Garzón and Rocha lagoons).",
+    "url": "https://obis.org/dataset/4fb27374-87ed-47b8-9102-bb2ec4cbedf2",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=uruguay_nearshore_zooplankton",
+        "http://doi.org/10.25607/vdaaq9"
+    ],
+    "license": "Unrestricted",
+    "citation": "Fabio Lang da Silveira and Rubens M. Lopes Zooplankton assemblages from the Uruguayan coastal and estuarine ecosystems. WSAOBIS, São Paulo, November 2008, Version 1, Publication.",
+    "version": "2021-07-02T11:03:44.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/vdaaq9",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/vdaaq9",
+        "url": "http://doi.org/10.25607/vdaaq9"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=uruguay_nearshore_zooplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-56.15 -34.9833,-56.15 -34.65,-54.2666 -34.65,-54.2666 -34.9833,-56.15 -34.9833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

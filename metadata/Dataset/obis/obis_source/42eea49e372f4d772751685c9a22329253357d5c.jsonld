@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f6b3560e-98f1-48c6-902f-67c141d802f4",
+    "name": "Asteroidea distribution data from: Deep-sea fauna of European seas - an annotated species check-list of benthic invertebrates living deeper than 2000 m in the seas bordering Europe",
+    "description": "An annotated check-list is given of Asteroidea species occurring deeper than 2000 m in the seas bordering Europe.",
+    "url": "https://obis.org/dataset/f6b3560e-98f1-48c6-902f-67c141d802f4",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=deepsea_asteroidea",
+        "https://dx.doi.org/10.14284/257"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Dilman, A.B.; (2015). Asteroidea distribution data from: Deep-sea fauna of European seas - an annotated species check-list of benthic invertebrates living deeper than 2000 m in the seas bordering Europe. https://dx.doi.org/10.14284/257",
+    "version": "2024-02-26T23:16:43.000Z",
+    "keywords": [
+        "Deep sea",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1869/2010",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/257",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/257",
+        "url": "https://dx.doi.org/10.14284/257"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=deepsea_asteroidea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-42.708333333333336 30.15,-42.708333333333336 82.03333333333333,12.666666666666666 82.03333333333333,12.666666666666666 30.15,-42.708333333333336 30.15"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

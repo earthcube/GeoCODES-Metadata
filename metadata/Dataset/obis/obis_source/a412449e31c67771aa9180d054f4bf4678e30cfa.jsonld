@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b879bdf7-0eee-48a0-b3e4-2a04f30ae568",
+    "name": "NOAA HML Tidal Creek Database",
+    "description": "Tidal creeks draining watersheds representative of forested, suburban, urban, and industrial land cover were sampled along the Southeast USA coast from 2002 to 2006 under two federal projects including (1) USGS May River Project; and (2) the NOAA Oceans and Human Health Initiative.",
+    "url": "https://obis.org/dataset/b879bdf7-0eee-48a0-b3e4-2a04f30ae568",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=ohh_v10"
+    ],
+    "license": "Unrestricted",
+    "citation": "Tidal Creek Database, NOAA Oceans and Human Health Initiative, NOAA Hollings Marine Laboratory",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=ohh_v10",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.9305419922 32.1841392517,-80.9305419922 33.585231781,-78.9958572388 33.585231781,-78.9958572388 32.1841392517,-80.9305419922 32.1841392517"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

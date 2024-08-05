@@ -1,0 +1,124 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/85194a3f-bbfa-4fde-80a1-95c6cbdabbca",
+    "name": "CSIRO, Jack Mackerel (Trachurus declivis) surveys, Tasman Sea, Australia (1978)",
+    "description": "The data were obtained from 3 surveys in the Tasman Sea (NSW and Victoria coasts) in 1978. Data were obtained from acoustic and trawl surveys of Jack mackerel (Trachurus declivis) and other demersal and pelagic fish. Length, sex, numbers, weight and target signal strength were determined.\nThis data has been republished (2022-09-05 with additional details of each occurrence where they can be one of three types:  catch composition (counts per taxa and optional aggregated weights by trawl event), catch measurements (length and/or weight) of individual taxa and/or catch specimens and their stored location. The occurrence type is recorded in occurrenceremarks.",
+    "url": "https://obis.org/dataset/85194a3f-bbfa-4fde-80a1-95c6cbdabbca",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_jack_mackeral_1975_1978"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "CSIRO Oceans and Atmosphere (2023): CSIRO, Jack Mackerel (Trachurus declivis) surveys, Tasman Sea, Australia (1978). v1.12. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Samplingevent. https://www.marine.csiro.au/ipt/resource?r=csiro_jack_mackeral_1975_1978&amp;v=1.12",
+    "version": "2023-06-28T03:39:09.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Midwater Trawls",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Catch effort",
+            "url": "",
+            "description": "Catch effort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of gear tow",
+            "url": "",
+            "description": "Speed of gear tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total catch weight",
+            "url": "",
+            "description": "Total catch weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom temp",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01",
+            "description": "Bottom temp"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net sonde temp",
+            "url": "",
+            "description": "Net sonde temp"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Caudal fork (CF)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Caudal fork (CF)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen Count",
+            "url": "",
+            "description": "Specimen Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net opening height",
+            "url": "",
+            "description": "Net opening height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "",
+            "description": "Count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/1978",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_jack_mackeral_1975_1978",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "147.45 -43.54167,147.45 -34.41666,151.28333 -34.41666,151.28333 -43.54167,147.45 -43.54167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

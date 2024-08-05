@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/accd827e-e428-4262-b289-be8064e0434d",
+    "name": "Antarctic deep-sea meiofauna",
+    "description": "These data give - for the first time - an overview of the meiofauna that inhabits the slope and the abyssal plains in Antarctic waters to a depth of 5 200 m.",
+    "url": "https://obis.org/dataset/accd827e-e428-4262-b289-be8064e0434d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=manuela_da"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Martínez Arbizu, P. &amp; Veit-Köhler, G. (2002). ANDEEP-1: Antarctic deep-sea meiofauna. Forschungsinstitut Senckenberg; Deutsches Zentrum fur Marine Biodiversitätsforschung (DZMB), Germany.",
+    "version": "2023-12-08T17:24:12.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Deep sea",
+        "Meiobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2002/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=manuela_da",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-60.7355 -61.72633333,-60.7355 -59.65816667,-53.9545 -59.65816667,-53.9545 -61.72633333,-60.7355 -61.72633333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

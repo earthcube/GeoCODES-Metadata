@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/08d6a561-fe83-47cb-81dd-913353935c18",
+    "name": "Satellite Tracking of Dugongs and Green Turtles in Torres Strait and Shoalwater Bay, Queensland, Australia (2009-2012)",
+    "description": "Fast-acquisition satellite telemetry was used to track eleven dugongs and ten green turtles at two geographically distinct foraging locations in Queensland, Australia to evaluate the inter- and intra-species spatial relationships and assess the efficacy of existing protection zones. Home-range analysis and bathymetric modeling were used to  determine spatial use and compared with existing protection areas using GIS.\nMetadata and data downloads are at https://eatlas.org.au/data/uuid/73f2acfd-1cb7-48a5-a3e4-bad38939e4e9",
+    "url": "https://obis.org/dataset/08d6a561-fe83-47cb-81dd-913353935c18",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nerp_1221_dugongs_turtles"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Gredzens C, Marsh H, Fuentes MMPB, Limpus CJ, Shimada T, et al. (2014) Satellite Tracking of Sympatric Marine Megafauna Can Inform the Biological\nBasis for Species Co-Management. PLoS ONE 9(6): e98944.",
+    "version": "2022-06-08T01:42:44.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Location Quality",
+            "url": "",
+            "description": "Location Quality"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Animal Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Animal Length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nerp_1221_dugongs_turtles",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.73285 -22.61239,141.73285 -9.18422,150.75294 -9.18422,150.75294 -22.61239,141.73285 -22.61239"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9738",
+            "@type": "Organization",
+            "legalName": "James Cook University, Townsville",
+            "name": "James Cook University, Townsville",
+            "url": "https://oceanexpert.org/institution/9738"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

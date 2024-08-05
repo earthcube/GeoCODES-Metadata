@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/87610c12-3ab0-4746-90ae-3f515a2f4150",
+    "name": "Phytoplankton in the South Adriatic Sea (ADREX Experiment) 2014",
+    "description": "Phytoplankton collected in the South Adriatic Sea during ADREX Experiment in February 2014. The ADREX experiment, as part of EU Project PERSEUS (http://www.perseus-net.eu), focuses on the investigation of the role of the Adriatic-Ionian system in transmitting the human-made pressures in the eastern Mediterranean through the Adriatic Dense Water (AdDW) formation and spreading.",
+    "url": "https://obis.org/dataset/87610c12-3ab0-4746-90ae-3f515a2f4150",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_adrex",
+        "https://doi.org/10.6092/7c08eb84-447f-4ce4-8d15-aeac92d59b5e"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cerino F, Civitarese G (2018): Phytoplankton in the South Adriatic Sea (ADREX Experiment) 2014. OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. Italy. https://doi.org/10.6092/7c08eb84-447f-4ce4-8d15-aeac92d59b5e",
+    "version": "2024-02-26T23:11:34.000Z",
+    "keywords": [
+        "Anthropogenic effects",
+        "lowered unmanned submersible",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance per unit volume of the water body"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/7c08eb84-447f-4ce4-8d15-aeac92d59b5e",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/7c08eb84-447f-4ce4-8d15-aeac92d59b5e",
+        "url": "https://doi.org/10.6092/7c08eb84-447f-4ce4-8d15-aeac92d59b5e"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_adrex",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.7327 36.998,14.7327 43.3602,20.5113 43.3602,20.5113 36.998,14.7327 36.998"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

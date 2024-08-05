@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9410cb01-d9b3-45a4-8d10-2a9bf1a22658",
+    "name": "Hoplostethus atlanticus (Orange Roughy) length weight data, Australian waters (1987-2012)",
+    "description": "The biological data were obtained between 1987 and 2013.Over this period the survey objectives varied as did the technology of the monitoring and sampling programmes, including differences in trawl gear and fishing vessel. For most survey years fish were collected from commercial trawling vessels using a standard commercial orange roughy net fitted with 40 mm cod-end liners. Exceptions were 1987 and 1992, when an Engel high rise bottom trawl, with a 40 mm cod-end liner, was deployed from the CSIRO’s research vessel. Biological sampling was associated with acoustic surveys in most years and used primarily for species identification,and to collect representative samples from aggregations of fish for length, weight, sex, gonad stage or retaining otoliths for ageing.The protocol was to collect 200 sexed fish lengths and 50 otolith pairs per trawl. Demersal trawls were targeted on aggregations of orange roughy determined by the vessel’s acoustics but catches were limited in many years by the available vessel quota (using windows in the trawl, or fishing on the side of large aggregations). (Kloset at al. (2017) doi:10.1016/j.fishres.2015.02.017)\nData has been collected from the following projects - \n1) Egg Production Methods and Biomass Assessment 1991-1995, \n2) Trophodynamics of the south-east trawl deep-water stock (FIRDC project no. 91/17) 1991-1995,\n3) Abundance, distribution, movements and population dynamics of orange roughy in southeast Australian waters (FIRTA project no. 87/129) 1987-1990 \n4) Stock structure of Orange Roughy \n5) Development and application of a combined industry/scientific acoustic survey of orange roughy in the Eastern Zone (FRDC project no. 1999/111) 1999-2001 \n6) Orange Roughy Assessment 03-04\n7) 2006 Eastern Zone orange roughy acoustic survey",
+    "url": "https://obis.org/dataset/9410cb01-d9b3-45a4-8d10-2a9bf1a22658",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_orange_roughy_length_weight"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Kloser, Rudy J.,Sutton, Caroline,Krusic-Golub, Kyne,Ryan, Tim E. (2015) Indicators of recovery for orange roughy (Hoplostethus atlanticus) in eastern Australian waters fished from 1987. Fisheries Research 167 pp225-235 doi:10.1016/j.fishres.2015.02.017",
+    "version": "2022-06-06T10:44:22.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Catch method",
+            "url": "",
+            "description": "Catch method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Standard Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Standard Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "",
+            "description": "Weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1987/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_orange_roughy_length_weight",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "148.28 -43.08493,148.28 -41,148.82 -41,148.82 -43.08493,148.28 -43.08493"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

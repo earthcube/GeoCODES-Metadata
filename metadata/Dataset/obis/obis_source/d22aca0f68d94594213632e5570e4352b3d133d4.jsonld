@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/04b9b456-af23-43e7-8125-20a13df77c48",
+    "name": "Aerial Oil Spill Response Survey 1994-1997",
+    "description": "Original provider:\nMinerals Management Service\n\nDataset credits:\nMinerals Management Service\n\nAbstract:\nThis dataset is from the aerial surveys of marine birds and mammals in support of oil spill response and injury assessment\nstudies: OSPR aerial surveys [birds and mammals] study code: OS,\nContract number: FG7407-OS with California Department of Fish and Game (CDFG), Office of Spill Prevention and Response (OSPR); and 14-35-0001-30758 (Task 13293) with the Coastal Marine Institute, University of California, Santa Barbara, Principal investigators: Michael L. Bonnell, Ph.D. Institute of Marine Sciences, University of California, Santa Cruz\n\nTime period: June 1994 through October 1998\n\nStudy area: Coastal and inland marine waters of California. \n\nMethodology: Aerial surveys were conducted in a variety of California locales with experienced observers and trainees.  The aircraft used was a Partenavia PN68 Observer provided by the Department of Air Services, CDFG, flown at an altitude of 200' (60 m) above ground level and at a typical air speed of 90 kts. Two observers (at least one experienced) occupied middle seats and searched a corridor of 50m on each side of the aircraft. Width was defined by clinometer and simple trigonometric functions. Species, numbers, behavior and other information was described on hand-held tape recorders for later transcription and computer entry. The co-pilot position was occupied by a navigator/computer operator. This individual recorded number of observers on-watch, transect status (i.e., on-effort, off-effort, and commutes), as well as sea state, weather and other observation conditions. Date, time, and position of the aircraft were recorded directly into the data-logging computer with time, latitude and longitude provided by a Global Positioning System (GPS). \n\nDatabases produced: A single database was produced including date, time, latitude/longitude, behavior, observation conditions, and other information for each sighting of marine birds, mammals, and turtles. As stated above, some surveys were solely for the purpose of drills and training, some for systematic data collection, and others for actual oil spill response. \n\nIn this study, 74 one-day surveys were flown through 1997.  Through the end of 1997, a total of 670 hours were flown and, exclusive of commutes, mapped bird and mammal distribution and abundance along 31,271 km (16,886 nmi) of transects. Data from several surveys from 1998 are yet fully analyzed and therefore not included in this dataset. \n\nCredit for this study is shared with OSPR by the Minerals Management Service (MMS), Pacific OCS Region, that provided most observers for surveys flown in Santa Barbara Channel and  the Santa Maria Basin; MMS personnel also carried out tape-transcriptions and computer entry for surveys in southern California waters (this portion of the OSPR surveys was conducted under matching-funds between OSPR and the Coastal Marine Institute, University of California, Santa Barbara).\n\nPurpose:\nDevelop and maintain a capability to provide aerial surveys of marine bird and mammal distribution and abundance for oil spill response and post-spill injury assessment.\n\nSupplemental information:\n[2020-09-30] The following invalid species names were corrected according to the Integrated Taxonomic Information System (ITIS).\nBonaparte's Gull: Larus philadelphia (176839) =&gt; Chroicocephalus philadelphia (824040)\nCaspian Tern: Sterna caspia (176924) =&gt; Hydroprogne caspia (176935)\nSterna elegans (176925) =&gt; Thalasseus elegans (176931)\nGreat Egret: Casmerodius albus (174810) =&gt; Ardea alba (554135)\nRed Phalarope: Phalaropus fulicaria (554376) =&gt; Phalaropus fulicarius (176734)\nCatoptrophorus semipalmatus (176638) =&gt; Tringa semipalmata (824147)\nPhalacrocorax olivaceus (174722) =&gt; Phalacrocorax brasilianus brasilianus (824220)\nLarus tridactyla (176874) =&gt; Rissa tridactyla (176875)\nLarus sabini (176865) =&gt; Xema sabini (176866)\n\n[2015-03-24] A few records had a wrong animal count of zero. The value is replaced with an blank representing species presence only.",
+    "url": "https://obis.org/dataset/04b9b456-af23-43e7-8125-20a13df77c48",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_47"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Ford, G. and J. Casey. 2013. Aerial Oil Spill Response Survey 1994-1997. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/47) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:44:49.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Seabirds,Sea turtles,Vessel,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1994/1997",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_47",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-124.81862 33.78087,-124.81862 41.182,-118.39433 41.182,-118.39433 33.78087,-124.81862 33.78087"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

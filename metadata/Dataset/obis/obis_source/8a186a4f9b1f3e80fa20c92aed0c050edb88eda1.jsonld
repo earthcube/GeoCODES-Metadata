@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ede28193-f60c-45d0-bc17-6a71fcdb3d42",
+    "name": "Planktonic copepods from coastal and inshore waters of Tudor Creek, Mombasa (December 1984-March 1985)",
+    "description": "List of copepod species and their occurrence (presence/absence) at three stations in Tudor Creek (Mombasa) for samples taken between December 1984 and March 1985. The data were digitized by VLIZ from the original report: Polk, P. (Ed.) (1986). Kenya report. VUB: Brussel. 358 pp.",
+    "url": "https://obis.org/dataset/ede28193-f60c-45d0-bc17-6a71fcdb3d42",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=copepods_mombasa_1984_1985",
+        "https://dx.doi.org/10.14284/171"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Okemwa E.N.; Revis N.; Kenya Marine and Fisheries Research Institute: Kenya; Laboratory of Ecology, Faculty of Science, Free University of Brussels: Belgium; (2016): Planktonic copepods from coastal and inshore waters of Tudor Creek, Mombasa (December 1984-March 1985). (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5422) https://dx.doi.org/10.14284/171",
+    "version": "2023-05-23T11:55:53.000Z",
+    "keywords": [
+        "Coastal water",
+        "Inshore waters",
+        "Planktonic copepods",
+        "Species composition",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/1985",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/171",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/171",
+        "url": "https://dx.doi.org/10.14284/171"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=copepods_mombasa_1984_1985",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "39.6558 -4.06526,39.6558 -4.02811,39.6835 -4.02811,39.6835 -4.06526,39.6558 -4.06526"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11578",
+            "@type": "Organization",
+            "legalName": "Kenya Marine and Fisheries Research Institute",
+            "name": "Kenya Marine and Fisheries Research Institute",
+            "url": "https://oceanexpert.org/institution/11578"
+        }
+    ]
+}

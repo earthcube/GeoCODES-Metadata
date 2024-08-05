@@ -1,0 +1,128 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9c27b24d-e80f-4624-8f73-628b8fd7cb43",
+    "name": "Fish community surveys for the Monitoring and Evaluation Programme of the North Sea OWEZ wind park between 2003 and 2011",
+    "description": "In 2006, the first Dutch offshore wind farm was built 10-19 km from the shore of Egmond aan Zee. A monitoring and evalulation program accompanied the plans for the construction and exploitation of this farm. This dataset focusses on the monitoring and evaluation of potential ecological consequences in the Dutch coastal zone related to this farm for the fish community. Monitoring was executed prior to the construction of the farm (2003/2004), one year after (2007/2008) and five years after (2011). Surveys were preformed with beam trawls, pelagic nets and gillnets to study both benthic and pelagic fish communities. The monitoring is directed and the dataset is maintained by Wagening Marine Research, previously IMARES, located at Wageningen, the Netherlands. Publication of the dataset has been facilitated by Deltares, The Netherlands.",
+    "url": "https://obis.org/dataset/9c27b24d-e80f-4624-8f73-628b8fd7cb43",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=owez_fish"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Wageningen Marine Research (WMR), the Netherlands; (2020). MEP-NSW Fish community: Fish community surveys for the Monitoring and Evaluation Programme of the North Sea OWEZ wind park between 2003 and 2011. https://www.noordzeewind.nl/nl_nl/kennis/ecologie-and-omgeving/_jcr_content/par/tabbedcontent/tab_525679140/textimage.stream/1555488220693/8eb2896f3f887ec7d9283d45753522a255d16068/owez-r-264-t1-final-report-fish.pdf",
+    "version": "2023-12-08T18:31:17.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Size of sample collector (mesh) {mesh size}",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MSHSIZE1/",
+            "description": "Size of sample collector (mesh) {mesh size}"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gender",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Gender"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sample duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Width of sample collector (aperture) {mouth width}",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MTHWDTH1/",
+            "description": "Width of sample collector (aperture) {mouth width}"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area sampled of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Area sampled of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length of sampling track",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Length of sampling track"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=owez_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.904 52.05067,3.904 52.87683,4.61683 52.87683,4.61683 52.05067,3.904 52.05067"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11289",
+            "@type": "Organization",
+            "legalName": "Deltares",
+            "name": "Deltares",
+            "url": "https://oceanexpert.org/institution/11289"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/22957",
+            "@type": "Organization",
+            "legalName": "Wageningen Marine Research",
+            "name": "Wageningen Marine Research",
+            "url": "https://oceanexpert.org/institution/22957"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/84e4f92e-2aac-43a4-87df-a835050184c1",
+    "name": "SEFSC Southeast Cetacean Aerial Survey 1992",
+    "description": "Original provider:\nNOAA Southeast Fisheries Science Center (SEFSC)\n\nDataset credits:\nNOAA Southeast Fisheries Science Center (SEFSC)\n\nAbstract:\nSoutheast Cetacean Aerial Survey, SECAS, was conducted in 1992 by NOAA Southeast Fisheries Science Center (SEFSC) to estimate cetaceans abundance. This data set contains sightings of cetaceans and sea turtles as well as other species, including fish and shark, observed during the aerial survey. Marine mammals and sea turtles observed were:\nCetaceans:\n- Atlantic spotted dolphin\n- Northern right whale\n- Standard Bottlenose dolphin\nSea Turtles:\n- Green turtle\n- Hardshell\n- Kemp's ridley\n- Leatherback\n- Loggerhead\nThis survey's transects are available in the 'SECAS91Efforts' table/shapefile. ESRI coverage and shapefiles are available for this data set.\n\nPurpose:\nThe purpose of this data set was to collect Cetacean distribution data and allow for estimating Cetacean abundance in the Southeast. These abundance estimates were expected to serve as a basis for estimating Potential Biological Removals (PBR) for the species stocks in the region in support of Marine Mammal Protection Act (MMPA) requirements.\nMore specifically, the survey was to obtain an index of abundance for Tursiops truncatus so as to detect population trends by comparison with historical abundance data (SETS).\n\nSupplemental information:\n[UPDATE 2013-12-18] Count field is emptied for a Loggerhead sighting at 1992-01-25 13:16:45. Previously, it was a zero.\n\nRecords with no common name were observations of pollution (e.g., plastic).\nRecords were assigned a sequential number LineNo. LineNo can be used to match observations with corresponding transects, each of which has BegLineNo and EndLineNo fields. Observation records with their LineNo between BegLineNo and EndLineNo in a transect are related to  that transect.\nA duplicated LineNo indicates more than one species were observed at the same time.\nRecords include 'off-effort' sightings. Card 'D' indicates the observation was recorded while on-effort. Card 'F' indicates the observation was recorded while off-effort.\nWhen searching for a specific species, note that some records don't identify animals observed at a species level. If this is the case, the common/scientific name may be genus/family or higher (e.g., <i>Balaenoptera</i> sp.).",
+    "url": "https://obis.org/dataset/84e4f92e-2aac-43a4-87df-a835050184c1",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_87"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Garrison, L. 2013. SEFSC Southeast Cetacean Aerial Survey 1992. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/87) on yyyy-mm-dd.",
+    "version": "2021-09-08T16:09:26.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Vessel,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/1992",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_87",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-81.4222 26.467,-81.4222 35.1635,-75.4642 35.1635,-75.4642 26.467,-81.4222 26.467"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7534",
+            "@type": "Organization",
+            "legalName": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "name": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "url": "https://oceanexpert.org/institution/7534"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9b1a023a-219c-4280-9802-1c7896803570",
+    "name": "SCAR Biogeographic Atlas of the Southern Ocean - Porifera - Data",
+    "description": "This dataset represents a literature study on the distribution of porifera in Antarctic and Sub-Antarctic waters. Dataset supplied in the framework of the SCAR Biogeographic Atlas of the Southern Ocean (BASO).\n\nThe Biogeographic Atlas of the Southern Ocean is a collection of representative maps and syntheses on the distribution of the Southern Ocean organisms, providing a general overview of the biogeography of the Southern Ocean (s.l.) and a benchmark of current biogeographic knowledge at the end of the Census of Antarctic Marine Life. This updates the well-known and useful but largely outdated biogeographic Folios of the Antarctic Map Folio Series (American Geographical Society).",
+    "url": "https://obis.org/dataset/9b1a023a-219c-4280-9802-1c7896803570",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=baso_porifera"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2020-01-19T21:10:39.000Z",
+    "keywords": [
+        "Porifera",
+        "SCAR-MARBIN",
+        "BASO",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=baso_porifera",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.2471666 -78.91699982,-179.2471666 -17.60499954,179.4830017 -17.60499954,179.4830017 -78.91699982,-179.2471666 -78.91699982"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5163",
+            "@type": "Organization",
+            "legalName": "British Antarctic Survey",
+            "name": "British Antarctic Survey",
+            "url": "https://oceanexpert.org/institution/5163"
+        }
+    ]
+}

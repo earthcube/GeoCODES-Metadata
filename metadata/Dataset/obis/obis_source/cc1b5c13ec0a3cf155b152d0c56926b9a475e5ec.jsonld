@@ -1,0 +1,84 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ce28c897-d3e7-40d9-bf93-bd87c4aff63c",
+    "name": "NS Southern Upland Salmon Tagging",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Ocean Tracking Network (OTN)  NS Southern Upland Salmon Tagging, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=WRS).\nAbstract:To investigate late riverine, estuarine and early marine migration and survival of wild Atlantic salmon smolts/post-smolts, we tagged 35 wild salmon smolts in each of 4 Nova Scotia Southern Upland rivers (Total of 140 smolts). The rivers where fish were tagged (and 64 receivers deployed) were; The LaHave River, The Gold River (Chester), The West River (Sheet Harbour) and The St. Mary's River. 2010 was the first year for all river tagging projects, with the exception of the West River, upon which it was year #3.",
+    "url": "https://obis.org/dataset/ce28c897-d3e7-40d9-bf93-bd87c4aff63c",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndalnssouthernuplandsal",
+        "https://doi.org/10.14286/jsxvro"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Halfyard, E.A. 2008. Early marine migration and survival of Atlantic Salmon smolts from Nova Scotia's Southern Upland.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-23T02:30:20.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2010",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/jsxvro",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/jsxvro",
+        "url": "https://doi.org/10.14286/jsxvro"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndalnssouthernuplandsal",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-64.69637 44.23718,-64.69637 45.27966,-61.89359 45.27966,-61.89359 44.23718,-64.69637 44.23718"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

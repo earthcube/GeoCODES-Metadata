@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d6229742-b1bc-4db8-bbf1-ab7db7db1271",
+    "name": "Marine invasive species: Eilat, Gulf of Aqaba, Red Sea",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Tel Aviv University (TAU)  Marine invasive species: Eilat, Gulf of Aqaba, Red Sea, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=SIUI).\nAbstract:Marine invasive species have become a widespread phenomenon, with devastating ecological and economic consequences. Current research focuses mainly on monitoring the ecological impacts of invasive species, rather than aiming to understand the mechanisms facilitate or drive them. Landscape characteristics such as substrate configuration, patchiness, and resource availability, are known determinants of the behavior and distribution of marine species. Such components change substantially over space and time, and little is known on how the impact of invasive species may vary accordingly. This research focuses on an invasive rabbitfish species Siganus rivulatus, previously native to the Indo-Pacific. Along the Mediterranean coast, S. rivulatus is shown to have devastating impacts on biodiversity, ecosystems� resilience, and community structures. My research aims to understand how the species� behavior and impact are facilitated or restricted by the surrounding landscape, directly comparing the native and invasive ranges of this species. By employing state-of-the-art technology, previously unused in Israel, fish movements will be recorded in real-time through acoustic tags. Data of such high resolution will enable to quantify fundamental parameters such as home range kernels, habitat utilization, and movement trajectories. By conducting a similar study at the native region (Red Sea; Eilat) and the invaded region (Mediterranean; Sdot-Yam) I will gain insight into the behavioral landscape ecology of S. rivulatus, and the behavioral shifts that may have occurred as a result of invading a novel ecosystem. Finally, movement patterns of S. rivulatus can be used to understand the degree of landscape connectivity in the Mediterranean, thereby predicting further expansion.",
+    "url": "https://obis.org/dataset/d6229742-b1bc-4db8-bbf1-ab7db7db1271",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otntaumarineinvasivespeci",
+        "https://doi.org/10.14286/fc3a21"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Belmaker, J., Kiflawi, M., Pickholtz, R. 2013. Home &amp; Away: The Spatial Ecology of an Invasive Herbivorous Fish (Siganus rivulatus) in its Native and Invaded Range. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T16:52:22.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2014",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/fc3a21",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/fc3a21",
+        "url": "https://doi.org/10.14286/fc3a21"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otntaumarineinvasivespeci",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "34.9164682158 29.5003804666,34.9164682158 29.5018272686,34.9180753826 29.5018272686,34.9180753826 29.5003804666,34.9164682158 29.5003804666"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

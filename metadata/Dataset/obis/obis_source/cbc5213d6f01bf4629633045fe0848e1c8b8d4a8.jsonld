@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/55cdfd04-c597-43c1-9420-c1c2601071a4",
+    "name": "Trawl Data from the R/V Bell M. Shimada during the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition",
+    "description": "This dataset contains the trawl and specimen data collected aboard the R/V Bell M. Shimada for the IYS survey in 2022 in the North Pacific Ocean. This package contains three components; event, catch, and specimen data. The event data contains all of the sampling event information, including time, location, and duration. All dates and times are in UTC. The catch data contains all of the catch records, as counts, weights, and lengths, for each species/taxa at each station. The sampling method for every catch weight should be total weight, and all weights are in kilograms. The specimen data contains individual lengths (in cm) and weights for sampled individuals from each station.",
+    "url": "https://obis.org/dataset/55cdfd04-c597-43c1-9420-c1c2601071a4",
+    "sameAs": [
+        "https://ipt.iobis.org/obiscanada/resource?r=trawl-catch-and-specimen-data-from-the-shimada-during-the-2022-international-year-of-the-salmon-expedition",
+        "https://doi.org/10.21966/NT8W-JE90"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Weitkamp, L., Farley, E., Howard, K., Garcia, S., Murphy, J., &amp; Moss, J. (2022). Trawl Data from the R/V Bell M. Shimada during the 2022 International Year of the Salmon Pan-Pacific Winter High Seas Expedition (Version 1.0) [Data set]. North Pacific Anadromous Fish Commission. https://doi.org/10.21966/NT8W-JE90",
+    "version": "2022-12-16T18:05:49.000Z",
+    "keywords": [
+        "oceans; Northeastern Pacific Ocean; Trawl; Specimen; Catch; International Year of the Salmon",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom_Depth_Meters",
+            "url": "http://vocab.nerc.ac.uk/collection/P09/current/BATH/",
+            "description": "Bottom_Depth_Meters"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Research Vessel",
+            "url": "http://vocab.nerc.ac.uk/collection/L06/current/31/",
+            "description": "Research Vessel"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling_Duration_Minutes",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sampling_Duration_Minutes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tow_distance_nautical_miles",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Tow_distance_nautical_miles"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tow_speed_kilometers_per_hour",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TOWSPEED/",
+            "description": "Tow_speed_kilometers_per_hour"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind_Direction_Degrees",
+            "url": "http://vocab.nerc.ac.uk/collection/B39/current/relwinddir/",
+            "description": "Wind_Direction_Degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wind_Speed_kilometers_per_hour",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0038/",
+            "description": "Wind_Speed_kilometers_per_hour"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "Sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen_Weight",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600088/",
+            "description": "Specimen_Weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2022/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.21966/NT8W-JE90",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.21966/NT8W-JE90",
+        "url": "https://doi.org/10.21966/NT8W-JE90"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=trawl-catch-and-specimen-data-from-the-shimada-during-the-2022-international-year-of-the-salmon-expedition",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-151.6147652903152 45.08925044225415,-151.6147652903152 57.95481342692761,-126.29359729078783 57.95481342692761,-126.29359729078783 45.08925044225415,-151.6147652903152 45.08925044225415"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        }
+    ]
+}

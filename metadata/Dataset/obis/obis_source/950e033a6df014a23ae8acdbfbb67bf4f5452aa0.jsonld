@@ -1,0 +1,84 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ba067ba9-a3f2-40ca-a5fb-963bc9441211",
+    "name": "British Columbia Geoduck (Panopea generosa) Age, Size Structure and Growth Parameters, 1993 - 2002",
+    "description": "Biological samples of Geoduck Clams have been collected during surveys in British Columbia as part of the broader survey objectives of determining Geoduck density, distribution and population structure. Samples of Geoducks were collected from 41 locations throughout British Columbia between 1993 and 2002. Clams were measured for total weight, shell length, shell weight and were aged. Biological parameters are presented here for individual clams sampled. See Bureau D., W. Hajas, N.W. Surry, C.M. Hand, G. Dovey and A. Campbell. 2002. Age, size structure and growth parameters of Geoducks (Panopea abrupta, Conrad 1849) from 34 locations in British Columbia sampled between 1993 and 2000. Can Tech. Rep. Fish. Aquat. Sci. 2413: 84 p. and Bureau D., W. Hajas, C.M. Hand and G. Dovey. 2003. Age, size structure and growth parameters of Geoducks (Panopea abrupta, Conrad 1849) from seven locations in British Columbia sampled in 2001 and 2002. Can. Tech. Rep. Fish. Aquat. Sci. 2494: 29 p.\n\nPlease note that the scientific name of this species is Panopea generosa, there was a name change in 2010 separating from Panopea abrupta.",
+    "url": "https://obis.org/dataset/ba067ba9-a3f2-40ca-a5fb-963bc9441211",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=geoduck"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bureau D (2021): British Columbia Geoduck (Panopea generosa) Age, Size Structure and Growth Parameters, 1993 - 2002. v1.4. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=geoduck&amp;v=1.4",
+    "version": "2022-03-22T20:45:55.000Z",
+    "keywords": [
+        "Samplingevent",
+        "geoduck",
+        "Panopea",
+        "generosa",
+        "age",
+        "size",
+        "growth"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Length of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen age of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AGEBENTX/",
+            "description": "Specimen age of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Specimen weight of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "Specimen weight of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight of sample",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/NEWCXX02/",
+            "description": "Wet weight of sample"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1993/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=geoduck",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-132.25 49.2,-132.25 53.5,-124 53.5,-124 49.2,-132.25 49.2"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14254",
+            "@type": "Organization",
+            "legalName": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "name": "Pacific Biological Station (DFO – PBS), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/14254"
+        }
+    ]
+}

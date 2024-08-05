@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9b903eab-7079-489d-a83c-1f542fab6571",
+    "name": "Queensland Herbarium (BRI), Australia's Virtual Herbarium (AVH) data - marine records",
+    "description": "Records from HERBRECS, the collections database of the Queensland Herbarium (BRI).\nThis dataset is of marine species sourced from the Atlas of Living Australia (ALA) January 2019 (https://collections.ala.org.au/public/show/dr2287). Taxa have been matched to the World Register of Marine Species (WoRMS) and if not then matched to the Australian Faunal Directory (AFD)",
+    "url": "https://obis.org/dataset/9b903eab-7079-489d-a83c-1f542fab6571",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=ala_dr2287"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "You are licensed to use, reproduce, distribute, publish or otherwise make available the Data, or to use or adapt the Data to create derivative works.\n\nIn any reproduction, distribution or publication of the Data, you must attribute the source of the Data as Australia's Virtual Herbarium (AVH).\n\nIn any use or adaptation of the Data to create derivative works, you must acknowledge the use of the Data in the derivative work and attribute the source of the Data as Australia's Virtual Herbarium (AVH).\n\nYou acknowledge that the Data may contain errors and omissions and that you employ the Data at your own risk.\n\nNeither the Council of Heads of Australasian Herbaria (CHAH) nor any other Data Custodian will accept liability for any loss, damage, cost or expenses that you may incur as a result of the use of or reliance upon the Data.\n\nYou should use the current Data from the ALA portal and not rely on material you have previously printed or downloaded.",
+    "version": "2022-06-08T05:14:32.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1874/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=ala_dr2287",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "138.02306 -28.95483,138.02306 -9.1425,153.58412 -9.1425,153.58412 -28.95483,138.02306 -28.95483"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

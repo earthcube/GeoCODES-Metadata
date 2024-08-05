@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4b27306c-2148-44eb-aafe-4f15bb031340",
+    "name": "Snow Petrel nest census, Mawson region 2004/05",
+    "description": "Census of Mawson region nesting sites for snow petrels and some wilson storm petrels… Very little information is known about the distribution and abundance of Snow petrels at the regional and local scales. This dataset contains locations of Snow petrel nests, mapped in the Mawson region during 2004-2005 season. Location of nests were recorded with handheld Trimble Geoexplorer GPS receivers, differentially corrected and stored as an Arcview point shapefile (ESRI software). Descriptive information relating to each bird nest was recorded and a detailed description of data fields is provided in description of the shapefile (word document). A text file also provide the attribute information (formatted for input into R statistical software).",
+    "url": "https://obis.org/dataset/4b27306c-2148-44eb-aafe-4f15bb031340",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=mawson_petrel"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Snow Petrel nest census, Mawson region 2004/05.",
+    "version": "2021-05-07T01:06:55.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=mawson_petrel",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "62.47204327 -67.92859163,62.47204327 -67.51441655,63.06328392 -67.51441655,63.06328392 -67.92859163,62.47204327 -67.92859163"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20324",
+            "@type": "Organization",
+            "legalName": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "name": "Institute for Marine and Antarctic Studies (IMAS), University of Tasmania",
+            "url": "https://oceanexpert.org/institution/20324"
+        }
+    ]
+}

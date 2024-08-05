@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c01640e5-5308-4da1-ad28-ad28dda29114",
+    "name": "Aerial surveys of giant kelp (Macrocystis pyrifera) from Musselroe Bay to Southeast Cape, Tasmania, 2019",
+    "description": "An aerial survey of giant kelp (Macrocystis pyrifera), was carried out on the east coast of Tasmania from Musselroe Bay to Southeast Cape. This survey represents part of a series of similar surveys, with historic aerial surveys having been conducted in 1986, 1999 and 2009. This survey was conducted via light aircraft in Nov-Dec 2019, and recorded areas of visible surface canopy cover of giant kelp. Canopy areas were scribed in-flight onto 1:50,000 topographic maps (TASMAP 2017), and complimentary photo and video footage was collected. Canopy areas were digitised with reference to photo, video and map data within QGIS 3.4, and boundaries were checked against Seamap Australia seafloor habitats (Lucieer et al. 2017) and bathymetric data (Smith 2016). Each bed was attributed a broad and fine scale location, density and reliability estimate (see attached report for details).\nData and metadata from https://metadata-uat.imas.utas.edu.au/geonetwork/srv/api/records/f0904e61-2e15-4346-bb0e-638366b7e626 - accessed 2021-11-01",
+    "url": "https://obis.org/dataset/c01640e5-5308-4da1-ad28-ad28dda29114",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=macrocystis_pyrifera_2019"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "The data described in this record are the intellectual property of Marine Solutions Pty Ltd, and the Institute for Marine and Antarctic Studies, University of Tasmania.",
+    "version": "2022-06-07T05:39:45.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Density",
+            "url": "",
+            "description": "Density"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Reliability",
+            "url": "",
+            "description": "Reliability"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=macrocystis_pyrifera_2019",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "146.889310212728 -43.5941848938166,146.889310212728 -40.8458437838282,148.352604426918 -40.8458437838282,148.352604426918 -43.5941848938166,146.889310212728 -43.5941848938166"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

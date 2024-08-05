@@ -1,0 +1,66 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f99fd3ea-b5a3-4bb9-8b6f-34ebe75652b2",
+    "name": "Copepods from the Southern Bight of the North Sea",
+    "description": "Study of the species composition of the copepod community at the Southern Bight of the North Sea, in relation to environmental variables.",
+    "url": "https://obis.org/dataset/f99fd3ea-b5a3-4bb9-8b6f-34ebe75652b2",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=manuela_u18"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Herman, R. (1984). Copepods from the Southern Bight of the North Sea. Ghent University, Department of Biology, Marine Biology Section (MARBIOL), Belgium.",
+    "version": "2024-02-26T23:38:00.000Z",
+    "keywords": [
+        "Community composition",
+        "Environmental conditions",
+        "Meiobenthos",
+        "Sediments",
+        "Zooplankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/1984",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=manuela_u18",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.516666667 51.11944444,2.516666667 51.49694444,3.525833333 51.49694444,3.525833333 51.11944444,2.516666667 51.11944444"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        }
+    ]
+}

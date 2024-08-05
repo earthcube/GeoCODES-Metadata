@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e0605487-fa5e-4d65-bd5e-a77ac47817a3",
+    "name": "Distribution of macrobenthos in the Yellow Sea in June 2007",
+    "description": "This dataset contains macrobenthos data collected in the Yellow Sea during the 15-28 June 2007. The samples were collected with Agassiz trawl.",
+    "url": "https://obis.org/dataset/e0605487-fa5e-4d65-bd5e-a77ac47817a3",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-china/resource?r=macrobenthos_qualitity_in_the_yellow_sea"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2021-12-02T09:08:22.000Z",
+    "keywords": [
+        "Occurrence",
+        "macrobenthos"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2007",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obis-china/archive.do?r=macrobenthos_qualitity_in_the_yellow_sea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "120.737766666666 31.25,120.737766666666 39.1472833333333,124.00885 39.1472833333333,124.00885 31.25,120.737766666666 31.25"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6749",
+            "@type": "Organization",
+            "legalName": "Institute of Oceanology Chinese Academy of Sciences, Qingdao",
+            "name": "Institute of Oceanology Chinese Academy of Sciences, Qingdao",
+            "url": "https://oceanexpert.org/institution/6749"
+        }
+    ]
+}

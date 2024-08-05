@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b9915edd-16b0-4aa9-9a0d-3d14574cfb61",
+    "name": "Finnish Baltic Sea phytoplankton monitoring, KPLANK database",
+    "description": "The KPLANK database includes data on phytoplankton, covering the Finnish coastal areas as well as the offshore areas of the Baltic Sea. The quantitative data mainly stem from the Finnish national monitoring program and statutory monitoring programs. In total the database contain approximately 240 000 quantitative records including size classes. The data span from 1937 to present. The database is regularly maintained and data is added continuously.",
+    "url": "https://obis.org/dataset/b9915edd-16b0-4aa9-9a0d-3d14574cfb61",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=kplank_database"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Finnish Environment Institute SYKE; (2019); Finnish Baltic Sea phytoplankton monitoring, KPLANK database",
+    "version": null,
+    "keywords": [
+        "Long-term monitoring",
+        "Species distribution",
+        "Samplingevent"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1937/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=kplank_database",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "14.28052 53.99307,14.28052 67.59278,30.13038 67.59278,30.13038 53.99307,14.28052 53.99307"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6169",
+            "@type": "Organization",
+            "legalName": "Finnish Environment Institute",
+            "name": "Finnish Environment Institute",
+            "url": "https://oceanexpert.org/institution/6169"
+        }
+    ]
+}

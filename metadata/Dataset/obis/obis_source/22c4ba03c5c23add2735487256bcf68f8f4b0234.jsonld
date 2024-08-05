@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b41cd728-afdc-4b9c-ba42-43c265253ff5",
+    "name": "Kyklades-data of the Central Aegean Sea",
+    "description": "In the framework of the project Oceanographic studies in open Seas, a survey of the benthic fauna of the Central Aegean Sea was performed in July 1986.",
+    "url": "https://obis.org/dataset/b41cd728-afdc-4b9c-ba42-43c265253ff5",
+    "sameAs": [
+        "http://ipt.medobis.eu/resource?r=kyklades"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Zenetos A (2015): Kyklades-data of the Central Aegean Sea.",
+    "version": "2020-03-20T15:17:33.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/1986",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.medobis.eu/archive.do?r=kyklades",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "24.34 36.59,24.34 37.61,25.25 37.61,25.25 36.59,24.34 36.59"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6444",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biological Resources and Inland Waters",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biological Resources and Inland Waters",
+            "url": "https://oceanexpert.org/institution/6444"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6715",
+            "@type": "Organization",
+            "legalName": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "name": "Hellenic Centre for Marine Research - Institute of Marine Biology, Biotechnology and Aquaculture",
+            "url": "https://oceanexpert.org/institution/6715"
+        }
+    ]
+}

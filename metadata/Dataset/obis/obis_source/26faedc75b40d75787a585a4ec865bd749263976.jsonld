@@ -1,0 +1,110 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4eaf3ab8-463a-4c8d-838a-9b9c6ca4bfd3",
+    "name": "SeamountsOnline",
+    "description": "From 2001 to 2010, SeamountsOnline gathered and standardized data on species that have been observed or collected from seamounts. The purpose of the resource was to facilitate research into seamount ecology, and to act as a resource for managers. It was also the database component of the Global Census of Marine Life on Seamounts. \n\nWe do not follow a strict geological definition of a seamount, so data on features smaller than 1000m high are included. Both hydrothermally-active and non-active seamounts are included, though the coverage is better for non-venting seamounts. SeamountsOnline is no longer an active project, and the dataset is no longer being expanded. Please note that the contents of SeamountsOnline are not complete - it does not hold all existing seamount species information. http://seamounts.sdsc.edu/",
+    "url": "https://obis.org/dataset/4eaf3ab8-463a-4c8d-838a-9b9c6ca4bfd3",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=seamounts-online"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-07-07T19:52:54.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "gear name",
+            "url": "",
+            "description": "gear name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "number of samples",
+            "url": "",
+            "description": "number of samples"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "mesh size",
+            "url": "",
+            "description": "mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "length",
+            "url": "",
+            "description": "length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area",
+            "url": "",
+            "description": "area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biomass",
+            "url": "",
+            "description": "biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "width",
+            "url": "",
+            "description": "width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "volume",
+            "url": "",
+            "description": "volume"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1869/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=seamounts-online",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.98 -54.73,-179.98 61.06,179.99 61.06,179.99 -54.73,-179.98 -54.73"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17339",
+            "@type": "Organization",
+            "legalName": "Scripps Institution of Oceanography",
+            "name": "Scripps Institution of Oceanography",
+            "url": "https://oceanexpert.org/institution/17339"
+        }
+    ]
+}

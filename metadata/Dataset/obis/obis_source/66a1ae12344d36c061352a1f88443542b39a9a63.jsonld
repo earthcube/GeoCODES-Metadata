@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5da1ec95-8d7c-4af5-b059-3d7f7eb7d9b1",
+    "name": "Free-living plathelminthes of marine habitats near Wimereux (1990-1991)",
+    "description": "Overview of the fauna Turbellaria in the French Northern Coast (Wimereux and adjascent coast). The data were digitized by VLIZ from the original report: Susetiono (1991). A faunistic study on the free-living plathelminthes of some marine habitats near Wimereux (N. France), Book 1: text. MSc Thesis. LUC: Diepenbeek. 89 pp.",
+    "url": "https://obis.org/dataset/5da1ec95-8d7c-4af5-b059-3d7f7eb7d9b1",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=plathelminthes_wimereux",
+        "https://dx.doi.org/10.14284/188"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Susetiono; Schockaert E.; Fundamental and Applied Marine Ecology Post Graduate Program (FAME). VUB; Limburgs Universitair Centrum (LUC): Belgium; (2016): Free-living plathelminthes of marine habitats near Wimereux (1990-1991). (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4225) https://dx.doi.org/10.14284/188",
+    "version": "2024-02-26T23:22:30.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Lower sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Lower sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/1991",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/188",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/188",
+        "url": "https://dx.doi.org/10.14284/188"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=plathelminthes_wimereux",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.590417 50.73583,1.590417 50.82833,1.611667 50.82833,1.611667 50.73583,1.590417 50.73583"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        }
+    ]
+}

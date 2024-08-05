@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a9d8640e-c943-4e24-96e0-28639c2b87ac",
+    "name": "Phytoplankton data from the Black Sea collected on R/V Professor Vodyanitskij in November 1991",
+    "description": "Phytoplankton data collected by the IBSS staff at several stations in the Black Sea during a cruise of R/V Professor Vodyanitskij in November 1991. This dataset contains abundance data (individuals per liter) and biomass data (mg/m³) for phytoplankton taxa. No additional metadata is available.",
+    "url": "https://obis.org/dataset/a9d8640e-c943-4e24-96e0-28639c2b87ac",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phyto_black_sea_1991"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Phytoplankton data from the Black Sea collected on  R/V Professor Vodyanitskij in November 1991. Institute of Biology of the Southern Seas of the National Academy of Sciences of Ukraine.",
+    "version": "2023-05-23T11:54:51.000Z",
+    "keywords": [
+        "Digitization",
+        "Professor Vodyanitsky",
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1991",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phyto_black_sea_1991",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "30.7384 43.3,30.7384 46.4945,37.199 46.4945,37.199 43.3,30.7384 43.3"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6675",
+            "@type": "Organization",
+            "legalName": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "name": "National Academy of Sciences of Ukraine, O. O. Kovalevsky Institute of Biology of the Southern Seas",
+            "url": "https://oceanexpert.org/institution/6675"
+        }
+    ]
+}

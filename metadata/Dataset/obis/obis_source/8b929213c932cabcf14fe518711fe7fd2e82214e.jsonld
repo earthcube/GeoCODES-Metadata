@@ -1,0 +1,96 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/50903a57-ee9f-4367-b2cd-0b36dcf4a6ad",
+    "name": "Catch data from New Zealand research trawls since 2008",
+    "description": "This dataset contains data from research trawls that have occurred since 2008 and are stored the NIWA/MPI Trawl database  These data results from data collected by research trawl surveys on research vessels and chartered commercial fishing vessels.\nTrawl surveys are a major tool used by research scientists for stock assessment. They are used to estimate basic parameters of commercial fish populations, including biomass, sex ratio, and the proportion of sexually mature fish, and the distribution of ages and lengths in the population. These parameters may be used in estimating mortality and growth rates.\nThis dataset is a continuation of data from the NIWA/MPI Trawl database that was initially released as the New Zealand fish and squid distributions from research bottom trawls 1964-2008 available at https://nzobisipt.niwa.co.nz/resource?r=obisprovider",
+    "url": "https://obis.org/dataset/50903a57-ee9f-4367-b2cd-0b36dcf4a6ad",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=trawl"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "SWPRON (2017). Catch data from New Zealand research trawls. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 15157 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=trawl released on April 19, 2017.",
+    "version": "2019-11-27T08:43:37.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Wet weight biomass (in assayed sample) of biological entity specified elsewhere",
+            "url": "SDN:P01::OWETBM01",
+            "description": "Wet weight biomass (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture height",
+            "url": "SDN:Q01::Q0100013",
+            "description": "Sampling device aperture height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sea_water_temperature_at_sea_floor",
+            "url": "SDN:P07::VMYQRHB9",
+            "description": "sea_water_temperature_at_sea_floor"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture width",
+            "url": "SDN:Q01::Q0100014",
+            "description": "Sampling device aperture width"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "SDN:Q01::Q0100003",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length of sampling track",
+            "url": "SDN:P01::LENTRACK",
+            "description": "Length of sampling track"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sea_surface_temperature",
+            "url": "SDN:P07::CFSN0381",
+            "description": "sea_surface_temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=trawl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.99 -53.88,-179.99 -34.35,179.99 -34.35,179.99 -53.88,-179.99 -53.88"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7489",
+            "@type": "Organization",
+            "legalName": "National Institute for Water & Atmospheric Research",
+            "name": "National Institute for Water & Atmospheric Research",
+            "url": "https://oceanexpert.org/institution/7489"
+        }
+    ]
+}

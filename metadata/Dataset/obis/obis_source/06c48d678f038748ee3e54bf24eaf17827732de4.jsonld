@@ -1,0 +1,116 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bdbfda38-c0fd-483c-85eb-4202baff1e52",
+    "name": "Trawl Catch and Species Abundance from the 2020 Gulf of Alaska International Year of the Salmon Expedition",
+    "description": "Fish species abundance data and species-specific length and weight data was collected in the Gulf of Alaska using a midwater trawl net. These data were collected as part of the International Year of the Salmon (IYS) High Seas Expedition conducted in March and April 2020, to further improve the understanding of factors impacting salmon marine winter survival. Trawl sets were conducted using a research trawl net with a 3 mm codend mesh size. A total of 52 tows were conducted, and for each tow the total species-specific weight and catch numbers were recorded. This dataset only contains data on salmonids and larger bycatch species that have been identified to a species level and verified by the data provider. A total of 566 salmon were caught in 29 out of 52 trawl sets, including 234 Chum Salmon, 118 Coho Salmon, 51 Sockeye Salmon, 136 Pink Salmon, 26 Chinook Salmon and 1 Steelhead Trout. All salmon were identified to species level, fitted with a floy tag on the caudal peduncle (to identify the specimen) and measured for fork length, standard length and weight. Where possible, sex and maturation stage are recorded. Larger bycatch species are enumerated, and their length (fork, total, standard, mantle or bell diameter), wet weight, sex and maturation stage (where possible) is recorded.",
+    "url": "https://obis.org/dataset/bdbfda38-c0fd-483c-85eb-4202baff1e52",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=trawl-catch-and-species-abundance-from-the-2020-gulf-of-alaska-international-year-of-the-salmon-expedition",
+        "https://doi.org/10.21966/4J6T-GB64"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Neville, C., Somov, A., Esenkulova, S., &amp; LaForge, R. (2022). Trawl Catch and Species Abundance data from the 2020 Gulf of Alaska International Year of the Salmon Expedition [Data set]. North Pacific Anadromous Fish Commission. https://doi.org/10.21966/4J6T-GB64",
+    "version": "2022-12-16T18:06:37.000Z",
+    "keywords": [
+        "Occurrence",
+        "International Year of the Salmon",
+        "Fish Abundance and Distribution",
+        "Salmon",
+        "Oceans",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Standard length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SL01XX01/",
+            "description": "Standard length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Mantle length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DML1XX01/",
+            "description": "Mantle length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600088/",
+            "description": "weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fork length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/FL01XX01/",
+            "description": "Fork length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total species biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600088/",
+            "description": "Total species biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TL01XX01/",
+            "description": "Total length"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.21966/4J6T-GB64",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.21966/4J6T-GB64",
+        "url": "https://doi.org/10.21966/4J6T-GB64"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=trawl-catch-and-species-abundance-from-the-2020-gulf-of-alaska-international-year-of-the-salmon-expedition",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-147.5000038518 46.3783379576263,-147.5000038518 54.5483499242334,-125.414188537838 54.5483499242334,-125.414188537838 46.3783379576263,-147.5000038518 46.3783379576263"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20121",
+            "@type": "Organization",
+            "legalName": "Hakai Institute",
+            "name": "Hakai Institute",
+            "url": "https://oceanexpert.org/institution/20121"
+        }
+    ]
+}

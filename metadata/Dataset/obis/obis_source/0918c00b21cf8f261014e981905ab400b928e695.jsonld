@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/84df1ad7-e089-4199-9fb4-62f586c7c34d",
+    "name": "Robichaud sturgeon",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and LGL Limited (LGL)  Robichaud sturgeon, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=NEP.ROBID).\nAbstract:The Pacific Ocean Shelf Tracking (POST) project was designed to develop and promote the application of acoustic tagging technology to study the life history of Pacific salmon and other species migrating along the continental shelf of western North America. POST envisioned the eventual creation of a permanent continental-scale telemetry system, however, during its existence more limited pilot-scale arrays were deployed, primarily concentrated in the Pacific Northwest. These included several acoustic receiver curtains between Vancouver Island and the mainland, creating an excellent means by which to monitor coastal marine animal migrations, especially by juvenile salmonids (smolts) migrating to sea (see projects QCS, JDF and NSOG). In addition to arrays on the continental shelf, POST equipment was deployed upstream and in the estuaries of several major salmon-producing rivers.  POST arrays, and POST data, were incorporated into the OTN in 2012. The integration of these arrays, their equipment and the associated animal tagging projects into OTN's global network allowed for international, widespread monitoring of important species within the Northeast Pacific Ocean. Tracking data generated from the POST arrays can be applied to the development of fishery management policies aimed at the sustainable harvest of resources, and to the understanding and conservation of other marine and diadromous species. The goal for this project was to track White sturgeon in the Lower Fraser River to answer a variety of management-related questions.",
+    "url": "https://obis.org/dataset/84df1ad7-e089-4199-9fb4-62f586c7c34d",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnlglrobichaudsturgeon",
+        "https://doi.org/10.14286/hw3ldr"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Robichaud, D  2008. POST project id: 108 Robichaud tags.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T18:05:57.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2012",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/hw3ldr",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/hw3ldr",
+        "url": "https://doi.org/10.14286/hw3ldr"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnlglrobichaudsturgeon",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-123.168372479434 49.0685151717962,-123.168372479434 49.3521125226115,-122.16415 49.3521125226115,-122.16415 49.0685151717962,-123.168372479434 49.0685151717962"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

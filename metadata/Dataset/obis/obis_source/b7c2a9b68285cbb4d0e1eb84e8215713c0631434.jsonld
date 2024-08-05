@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a79db66d-fa41-4a75-8e43-c131050b6df4",
+    "name": "Seabird observations during long-line fisheries operations in waters south of Tasmania, Australia, 1996-1999",
+    "description": "Observations of 48 species of seabirds by long-line fisheries south of Tasmania during fishery operations. Quality of data is uncertain. Data sourced from Tim Reid for Birdlife Tasmania.",
+    "url": "https://obis.org/dataset/a79db66d-fa41-4a75-8e43-c131050b6df4",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=birdlife_longline"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": " (2023): Seabird observations during long-line fisheries operations in waters south of Tasmania, Australia, 1996-1999. v1.10. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=birdlife_longline&amp;v=1.10",
+    "version": "2023-06-29T05:20:23.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1996/1999",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=birdlife_longline",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "147.083 -44.5,147.083 -43.1833,149.433 -43.1833,149.433 -44.5,147.083 -44.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

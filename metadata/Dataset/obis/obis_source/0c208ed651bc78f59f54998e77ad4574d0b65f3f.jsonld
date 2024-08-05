@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0ab8e00e-6513-4ba9-ad63-2ce1c249d2a3",
+    "name": "Collection Tardigrada SMF",
+    "description": "The Tardigrada collection is part of the SeSAM collections of Senckenberg which combines all collections held at the Senckenberg Natural History Museum of Frankfurt.",
+    "url": "https://obis.org/dataset/0ab8e00e-6513-4ba9-ad63-2ce1c249d2a3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_8331",
+        "https://doi.org/10.15468/uvr84c"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Senckenberg, Collection Tardigrada SMF. https://doi.org/10.15468/uvr84c",
+    "version": "2023-05-23T12:24:22.000Z",
+    "keywords": [
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/1989",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/uvr84c",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/uvr84c",
+        "url": "https://doi.org/10.15468/uvr84c"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_8331",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-88.4691666667 -7.104,-88.4691666667 -7.02533333333,-88.4443333333 -7.02533333333,-88.4443333333 -7.104,-88.4691666667 -7.104"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6271",
+            "@type": "Organization",
+            "legalName": "Senckenberg Gesellschaft für Naturforschung",
+            "name": "Senckenberg Gesellschaft für Naturforschung",
+            "url": "https://oceanexpert.org/institution/6271"
+        }
+    ]
+}

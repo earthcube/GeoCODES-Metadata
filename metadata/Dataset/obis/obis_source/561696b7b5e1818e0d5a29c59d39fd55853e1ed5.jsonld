@@ -1,0 +1,122 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c697826c-1da7-4916-a387-e35008a90415",
+    "name": "Macrobenthos from the Norwegian waters",
+    "description": "Contains information mainly from studies around offshore oil and gas platforms in the Norwegian waters.",
+    "url": "https://obis.org/dataset/c697826c-1da7-4916-a387-e35008a90415",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nsbp_cochrane"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cochrane, S. (2001). Macrobenthos from the Norwegian waters. Akvaplan-niva, Norway.",
+    "version": "2023-05-23T11:40:00.000Z",
+    "keywords": [
+        "Macrobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D10",
+            "url": "",
+            "description": "D10"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D50",
+            "url": "",
+            "description": "D50"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D75-D25",
+            "url": "",
+            "description": "D75-D25"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D75/D25",
+            "url": "",
+            "description": "D75/D25"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D90-D10",
+            "url": "",
+            "description": "D90-D10"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D90/D10",
+            "url": "",
+            "description": "D90/D10"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "D90",
+            "url": "",
+            "description": "D90"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Medium gravel",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PRPCL555/",
+            "description": "Medium gravel"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2000/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nsbp_cochrane",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.6666735 58.0000039,1.6666735 61.020429,3.838291 61.020429,3.838291 58.0000039,1.6666735 58.0000039"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19188",
+            "@type": "Organization",
+            "legalName": "Akvaplan-niva",
+            "name": "Akvaplan-niva",
+            "url": "https://oceanexpert.org/institution/19188"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/bd1e0c2d-d0db-4e95-8f47-b22c08fb7120",
+    "name": "Biogeography Scheldt Estuary",
+    "description": "Taxonomy database of the Western and Sea Scheldt from the of the Netherlands Institute of Ecology; Centre for Estuarine and Marine Ecology; Department of Ecosystem Studies",
+    "url": "https://obis.org/dataset/bd1e0c2d-d0db-4e95-8f47-b22c08fb7120",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=scheldtestuary"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Sistermans W., Hummel H. 2003: Biogeography Scheldt Estuary. Netherlands Institute of Ecology; Centre for Estuarine and Marine Ecology, Netherlands. Metadata available at http://mda.nioo.knaw.nl/imis.php?module=dataset&amp;dasid=496",
+    "version": "2023-12-08T17:21:04.000Z",
+    "keywords": [
+        "Biogeography",
+        "Estuaries",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1962/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=scheldtestuary",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.23211327319 51.0433432564,3.23211327319 51.8064813671,4.38541025754 51.8064813671,4.38541025754 51.0433432564,3.23211327319 51.0433432564"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/16218",
+            "@type": "Organization",
+            "legalName": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke",
+            "name": "Koninklijk Nederlands Instituut voor Onderzoek der Zee, Yerseke",
+            "url": "https://oceanexpert.org/institution/16218"
+        }
+    ]
+}

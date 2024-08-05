@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f9a6159e-d03b-45f2-a44a-eafb791e5987",
+    "name": "BioChem: Atlantic Zone Monitoring Program (AZMP) Maritimes Region zooplankton collection",
+    "description": "This dataset contains the Maritimes Region zooplankton collection from the Atlantic Zone Monitoring Program (AZMP).",
+    "url": "https://obis.org/dataset/f9a6159e-d03b-45f2-a44a-eafb791e5987",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=biochem_azmp_maritimes"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Kennedy, M.K., Spry, J.A. 2011. BioChem: Atlantic Zone Monitoring Program (AZMP) Maritimes Region zooplankton collection. OBIS Canada Digital Collections. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Digital, retrieved from http://iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1899/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=biochem_azmp_maritimes",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.4499969482 40.1500015259,-69.4499969482 48.9599990845,-51.4000015259 48.9599990845,-51.4000015259 40.1500015259,-69.4499969482 40.1500015259"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

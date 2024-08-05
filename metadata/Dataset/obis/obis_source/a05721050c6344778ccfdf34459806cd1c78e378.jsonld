@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/de39d839-f402-4784-8af3-558702eac4ca",
+    "name": "PIFSC, Cetacean Survey, MACS 2021, Cruise 2102, NOAA Pacific Islands Fisheries Science Center",
+    "description": "Original provider:\nNOAA Pacific Islands Fisheries Science Center (PIFSC)\n\nDataset credits:\nNOAA Pacific Islands Fisheries Science Center\n\nAbstract:\nIn summer 2021, the Pacific Islands Fisheries Science Center conducted a comprehensive line-transect survey for cetaceans and seabirds within the United States exclusive economic zones of Guam and the Commonwealth of the Northern Mariana Islands. MACS 2021 sailed for 59 days at sea aboard the NOAA Ship Oscar Elton Sette in May–July, 2021, and surveyed 8,711.7 km of trackline. There were 77 cetacean sightings of at least 12 species.\n\nPurpose:\nThe Mariana Archipelago Cetacean Survey (MACS) 2021 project was part of the multi-year Pacific Marine Assessment Program for Protected Species (PacMAPPS) plan to conduct surveys and estimate density for cetacean species in regions of joint NOAA Fisheries, Bureau of Ocean Energy Management, and U.S. Navy interest.\n\nSupplemental information:\nData were collected under NMFS permit 20311.\nThe data included here are the sightings and on-effort tracks recorded within WinCruz survey software and extracted from the QA/QC'd DAS file using the R package swfscDAS (https://smwoodman.github.io/swfscDAS).\n\nAttributes for fields within the trackline files:\nCruise - see description in attribute table below\nsegnum - segment number for continuous on-effort line\nDate - Local date m/dd/yyyy\nTimeStart - Local time at start of on-effort segment\nLatStart - Latitude in decimal degrees at starting point of on-effort segment\nLongStart - Longitude in decimal degrees at starting point of on-effort segment\nTimeEnd - Local time at end of on-effort segment\nLatEnd - Latitude in decimal degrees at end point of on-effort segment\nLongEnd - Longitude in decimal degrees at end point of on-effort segment\nMode - see description in attribute table below\nEffType - see description in attribute table below\navgSpdKt - average speed (knots) of the ship over the on-effort segment traveled\navgBft - average Beaufort Sea State over the on-effort segment\n\nOther data not included here:\nPhotos and biopsy samples were collected during some sightings. Acoustic detections were recorded from a towed hydrophone array. Sonobuoys were deployed opportunistically.  Drifting Acoustic Spar Buoy Recorders (DASBRs) were deployed and recovered opportunistically. High-frequency Acoustic Recording Packages (HARPs) were recovered and redeployed off Saipan and Pagan.",
+    "url": "https://obis.org/dataset/de39d839-f402-4784-8af3-558702eac4ca",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2240"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Hill, M. 2023. PIFSC, Cetacean Survey, MACS 2021, Cruise 2102, NOAA Pacific Islands Fisheries Science Center. Data downloaded from OBIS-SEAMAP (https://seamap.env.duke.edu/dataset/2240) on yyyy-mm-dd.",
+    "version": "2023-05-15T16:22:58.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Visual Sighting,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2021/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2240",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.6 11.09117,141.6 23.02917,149.00267 23.02917,149.00267 11.09117,141.6 11.09117"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7537",
+            "@type": "Organization",
+            "legalName": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "name": "Pacific Islands Fisheries Science Center, NOAA National Marine Fisheries Service, Dole Street Office",
+            "url": "https://oceanexpert.org/institution/7537"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

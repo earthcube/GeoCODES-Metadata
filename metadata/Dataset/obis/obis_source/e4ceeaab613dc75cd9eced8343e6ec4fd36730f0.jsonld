@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dcdd92ac-9187-4d20-a45d-668799649770",
+    "name": "Acoustic detections from R/V Song of the Whale during the winter 2019 MAPS survey (NMFS permit 14809)",
+    "description": "Original provider:\nMarine Conservation Research\n\nDataset credits:\nOliver Boisseau, Marine Conservation Research International\n\nAbstract:\nThe dataset contains sperm whale acoustic detections made during the MAPS winter cruise in Jan/Feb 2019 (NMFS permit 14809). Each datapoint represents an acoustic detection of an individual sperm whale.\n\nPurpose:\nThe MAPS (Marine Mammal Passive Acoustics and Spatial Ecology) cruises form part of a BOEM project to describe the distribution and behaviour of deep-diving cetaceans in the offshore waters of North Carolina (NMFS permit 14809). MAPS is a cooperative agreement between the Bureau of Ocean Energy Management and the University of North Carolina Wilmington in partnership with Duke University.\n\nSupplemental information:\nVisual sightings made in the same survey and survey tracklines are available at <a href=\"http://seamap.env.duke.edu/dataset/1999\">http://seamap.env.duke.edu/dataset/1999</a>",
+    "url": "https://obis.org/dataset/dcdd92ac-9187-4d20-a45d-668799649770",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_2055"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Boisseau, O. 2020. Acoustic detections from R/V Song of the Whale during the winter 2019 MAPS survey (NMFS permit 14809). Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/2055) on yyyy-mm-dd.",
+    "version": "2021-04-24T08:35:38.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Acoustic - group size,Vessel",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_2055",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-76.318124 32.024085,-76.318124 35.805125,-73.157789 35.805125,-73.157789 32.024085,-76.318124 32.024085"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

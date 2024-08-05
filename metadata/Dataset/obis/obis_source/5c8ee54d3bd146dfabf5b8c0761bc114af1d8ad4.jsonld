@@ -1,0 +1,118 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7a58ffd1-09d6-48a6-ba0b-07b8c4d474ca",
+    "name": "Macrobenthos monitoring in function of aggregate extraction activities in the Belgian part of the North Sea",
+    "description": "Macrobenthos monitoring in function of aggregate extraction activities. The samples were taken following a impact/control design at the locations were aggregate extraction is expected or occur.",
+    "url": "https://obis.org/dataset/7a58ffd1-09d6-48a6-ba0b-07b8c4d474ca",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=macro_aggregate",
+        "https://dx.doi.org/10.14284/199"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Bio-environmental research group; Institute of Agricultural and Fisheries research (ILVO), Belgium; (2019): Macrobenthos monitoring in function of aggregate extraction activities in the Belgian part of the North Sea https://dx.doi.org/10.14284/199",
+    "version": "2024-02-27T00:20:30.000Z",
+    "keywords": [
+        "Macrobenthos",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "samplingPlatform",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "samplingPlatform"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampled seabed area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "sampled seabed area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplingInstrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "samplingInstrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wetWeight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/",
+            "description": "wetWeight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifeStage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sieveMeshSize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "sieveMeshSize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "genderCode",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "genderCode"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2021",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/199",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/199",
+        "url": "https://dx.doi.org/10.14284/199"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=macro_aggregate",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.49427 51.226,2.49427 51.69,2.918 51.69,2.918 51.226,2.49427 51.226"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19366",
+            "@type": "Organization",
+            "legalName": "Vlaamse overheid; Beleidsdomein Landbouw en Visserij; Instituut voor landbouw- , visserij en voedingsonderzoek; Kenniseenheid: Dier; Aquatisch Milieu en Kwaliteit",
+            "name": "Vlaamse overheid; Beleidsdomein Landbouw en Visserij; Instituut voor landbouw- , visserij en voedingsonderzoek; Kenniseenheid: Dier; Aquatisch Milieu en Kwaliteit",
+            "url": "https://oceanexpert.org/institution/19366"
+        }
+    ]
+}

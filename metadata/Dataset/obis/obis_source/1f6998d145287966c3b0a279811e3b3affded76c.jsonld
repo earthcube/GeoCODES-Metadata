@@ -1,0 +1,90 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0310154f-f82b-4cd8-9c90-f714569d5667",
+    "name": "Microzooplankton South Adriatic-PRISMA1-Flussi Project",
+    "description": "Microzooplankton abundance and composition were determined in the South Adriatic Sea in the framework of the Italian National Research Project PRISMA1-Flussi Project (1995-1996)",
+    "url": "https://obis.org/dataset/0310154f-f82b-4cd8-9c90-f714569d5667",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=microzooplankton-prisma",
+        "https://doi.org/10.6092/0c9e0802-86f6-4f72-ad4a-3d216a8dd1ea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Monti, M.; Fonda-Umani, S. (2017). Microzooplankton South Adriatic-PRISMA1-Flussi Project. University of Trieste; Marine Biology Laboratory. https://doi.org/10.6092/0c9e0802-86f6-4f72-ad4a-3d216a8dd1ea",
+    "version": "2023-05-23T12:26:57.000Z",
+    "keywords": [
+        "Biological sampling",
+        "lowered unmanned submersible",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/1996",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/0c9e0802-86f6-4f72-ad4a-3d216a8dd1ea",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/0c9e0802-86f6-4f72-ad4a-3d216a8dd1ea",
+        "url": "https://doi.org/10.6092/0c9e0802-86f6-4f72-ad4a-3d216a8dd1ea"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=microzooplankton-prisma",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "12.8601 40.387,12.8601 44.7621,19.0245 44.7621,19.0245 40.387,12.8601 40.387"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19370",
+            "@type": "Organization",
+            "legalName": "University of Trieste – Marine Biology Laboratory",
+            "name": "University of Trieste – Marine Biology Laboratory",
+            "url": "https://oceanexpert.org/institution/19370"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cc5daff7-5082-4d7c-9b27-e47956efbcee",
+    "name": "Collections data on ecology of bottom animal of the Southern ocean",
+    "description": "Collections data on ecology of bottom animal of the Southern ocean, compiled by Igor Smirnov, Anastasija Vasiljeva, Tatjana Konina, from the Zoological Institute, St Petersburg, Russia.",
+    "url": "https://obis.org/dataset/cc5daff7-5082-4d7c-9b27-e47956efbcee",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=ophiura_dist"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Smirnov I, Vasiljeva A, Konina T. Collections data on ecology of bottom animal of the Southern ocean",
+    "version": "2019-03-19T14:44:17.000Z",
+    "keywords": [
+        "Biodiversity",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=ophiura_dist",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-178.93333 -78.48333333,-178.93333 21.43333333,179.88333 21.43333333,179.88333 -78.48333333,-178.93333 -78.48333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9651",
+            "@type": "Organization",
+            "legalName": "Zoological Institute of the Russian Academy of Sciences",
+            "name": "Zoological Institute of the Russian Academy of Sciences",
+            "url": "https://oceanexpert.org/institution/9651"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

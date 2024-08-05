@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d64c0db0-78b6-4596-890a-97144cfe549e",
+    "name": "BioChem: Seston and phytoplankton data from Hudson Bay, 1975",
+    "description": "Between August 7 and September 23, 1975, data on marine seston and phytoplankton were obtained from one litre water samples collected by a pump collecting water samples from Hudson Bay, Canada. \n\nSurvey results consist of density (number of individuals per litre). \nThe original survey report also contains information on methods and results of salinity, chlorophyll a concentration, ATP concentration, POC and PON measurements. The OBIS view of this dataset includes only the species abundance information.\n\nThis research was collected with the Canadian Hydrographic Services and involved continuous sampling along pre-determined transects through Hudson Bay. This presented a unique opportunity to collect samples on a spatial and temporal frequency never before possible during a single sampling season from the entire area of Hudson Bay.",
+    "url": "https://obis.org/dataset/d64c0db0-78b6-4596-890a-97144cfe549e",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_cna_anderson_r80_2"
+    ],
+    "license": "rights: http://data.gc.ca/eng/open-government-licence-canada &amp; http://www.canadensys.net/norms rights holder: Her Majesty the Queen in right of Canada, as represented by the Minister of Fisheries and Oceans",
+    "citation": "Anderson, John T. 1979. Seston and phytoplankton data from Hudson Bay, 1975. Version 1 In OBIS Canada Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS. http://www.iobis.org/. (consulted on [date])",
+    "version": "2022-03-29T20:56:18.000Z",
+    "keywords": [
+        "oceans",
+        "biota",
+        "biological classification",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfo_cna_anderson_r80_2",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-94.17 54.99,-94.17 63.65,-78.57 63.65,-78.57 54.99,-94.17 54.99"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9838",
+            "@type": "Organization",
+            "legalName": "Northwest Atlantic Fisheries Centre (DFO – NWAFC), Fisheries and Oceans Canada",
+            "name": "Northwest Atlantic Fisheries Centre (DFO – NWAFC), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/9838"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19633",
+            "@type": "Organization",
+            "legalName": "OBIS Canada",
+            "name": "OBIS Canada",
+            "url": "https://oceanexpert.org/institution/19633"
+        }
+    ]
+}

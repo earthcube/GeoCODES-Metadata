@@ -1,0 +1,114 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3425145f-8016-403a-abca-9cb33a29108e",
+    "name": "NW pacific deep-sea benthos distribution and abundance (Beneficial Project)",
+    "description": "The aim of this dataset is to deliver a sound biogeographic baseline study of the NW Pacific area including our available data from the Sea of Japan, Sea of Okhotsk, Kuril-Kamchatka Trench (KKT), Aleutian Trench (AT), SW Bering Sea, and the NW Pacific open abyssal plain. We aim at compiling a novel book on the biogeography of the NW Pacific faunas, which will also provide information on highly abundant key species which might potentially invade the Arctic Ocean in future under decreasing sea-ice conditions. Thus our data will be “beneficial” for the assessment of state and quality of the Arctic marine ecosystem in a changing environment.",
+    "url": "https://obis.org/dataset/3425145f-8016-403a-abca-9cb33a29108e",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-deepsea/resource?r=beneficial_deepsea"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Saeedi H, Winterberg H, Alalykina IL, Bergmeier FS, Downey R, Golovan O, Jażdżewska A, Kamenev GM, Maiorova A, Malyutina M, Minin K, Mordukhovich V, Petrunina A, Schwabe E, Brandt A (2018): NW Pacific deep-sea benthos distribution and abundance (Beneficial Project). v1.1. Deep-sea OBIS node. Dataset/Samplingevent. http://ipt.iobis.org/obis-deepsea/resource?r=beneficial_deepsea&amp;v=1.1",
+    "version": "2020-06-24T16:06:07.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01/",
+            "description": "Temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Dissolved oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DOXYZZXX",
+            "description": "Dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom current (cm/s)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LCSAZZ01/",
+            "description": "Bottom current (cm/s)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sedimentary environment",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MSS205/",
+            "description": "sedimentary environment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Area sampled",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Area sampled"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02",
+            "description": "abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Electrical conductivity of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/",
+            "description": "Electrical conductivity of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of particles (clay size-fraction) in sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CLAYZZZZ",
+            "description": "Proportion of particles (clay size-fraction) in sediment"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obis-deepsea/archive.do?r=beneficial_deepsea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "131.3241 39.7107,131.3241 48.6237,157.3338 48.6237,157.3338 39.7107,131.3241 39.7107"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6271",
+            "@type": "Organization",
+            "legalName": "Senckenberg Gesellschaft für Naturforschung",
+            "name": "Senckenberg Gesellschaft für Naturforschung",
+            "url": "https://oceanexpert.org/institution/6271"
+        }
+    ]
+}

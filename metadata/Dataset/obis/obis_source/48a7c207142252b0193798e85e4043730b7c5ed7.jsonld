@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0a92deef-a73d-469b-b3fd-5d3e5f2ba2a0",
+    "name": "Australian Waterbird Surveys (1983-2018)",
+    "description": "The Australian Aerial Waterbird Surveys (AWS) database stores temporal and spatial waterbird data on individual species, their breeding status and estimates of wetland area, collected during annual aerial surveys, extending back to 1983. The core methodology for these surveys has remained the same. The database includes three principal survey programs: The Eastern Australian Waterbird Survey, the National Waterbird Survey and surveys of the major wetland sites in the Murray-Darling Basin. Since 1983, the Eastern Australian Waterbird Survey has covered about a third of the continent each October, representing one of the larger and longer running biodiversity surveys in Australia, sampling wetland and waterbird communities across 2.7 million km2 of eastern Australia. In 2008, we did aerial surveys over most large wetlands across Australia during a period of two months. Since 2010, we have comprehensively surveyed all the major wetlands in the Murray-Darling Basin.\nThis dateset is subset of species that have been identified as marine in the World Register of Marine Species (WoRMS). The data can be downloaded at https://aws.ecosystem.unsw.edu.au/",
+    "url": "https://obis.org/dataset/0a92deef-a73d-469b-b3fd-5d3e5f2ba2a0",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=aws_surveys"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Kingsford, R.T., Porter, J.L., Brandis, K.J. et al. Aerial surveys of waterbirds in Australia. Sci Data 7, 172 (2020). https://doi.org/10.1038/s41597-020-0512-9",
+    "version": "2022-06-07T05:52:39.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=aws_surveys",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.4858 -43.51528,113.4858 -10.59167,153.7453 -10.59167,153.7453 -43.51528,113.4858 -43.51528"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

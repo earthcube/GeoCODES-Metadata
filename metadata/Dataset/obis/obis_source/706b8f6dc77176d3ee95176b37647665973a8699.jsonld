@@ -1,0 +1,51 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/51f0f3ff-39a7-4302-ab26-258bfe614975",
+    "name": "Marine Microbes from the Kangaroo Island  National Reference Station (NRS), Queensland, Australia (2015-2020)",
+    "description": "The Australian Marine Microbial Biodiversity Initiative (AMMBI) provides methodologically standardized, continental scale, temporal phylogenetic amplicon sequencing data describing Bacteria, Archaea and microbial Eukarya assemblages. Sequence data is linked to extensive physical, biological and chemical oceanographic contextual information. Samples are collected monthly to seasonally from multiple depths at seven National Reference Stations (NRS) sites: Darwin Harbour (Northern Territory), Yongala (Queensland), North Stradbroke Island (Queensland), Port Hacking (New South Wales), Maria Island (Tasmania), Kangaroo Island (South Australia), Rottnest Island (Western Australia). The Integrated Marine Observing System (IMOS) NRS network is described at http://imos.org.au/facilities/nationalmooringnetwork/nrs/\nKangaroo Island NRS is located 4.5 nm west of Kangaroo Island, at 110 m depth over medium- to coarse-grained carbonate sand with conspicuous large bryozoan and gastropod skeletons, on a broad shelf in the Great Australian Bight, 112 km southwest of Adelaide (population 1.3 million). The NRS site is subject to episodic upwelling in the summer/autumn and is impacted by the eastward flow of the warm LC and outflow of dense Spencer Gulf water during the winter. Summer waters are stratified, with warm surface waters overlying a pool of cool enriched water upwelled from the Flinders Current (a northern boundary current) which flows westward along the continental slope. A significant volume of cooler water is forced above the critical depth, promoting high productivity. Winter waters are impacted by a significant outflow of dense Spencer Gulf water, so are well mixed, downwelling dominates, and productivity is significantly reduced.\n\n\n\n \n Site details from Brown, M. V. et al. Continental scale monitoring of marine microbiota by the Australian Marine Microbial Biodiversity Initiative. Sci. Data 5:180130 doi: 10.1038/sdata.2018.130 (2018).\nSite location: Kangaroo Island  National Reference Station (NRS), Queensland, Australia\nNote on data download/processing:\nData downloaded from Australian Microbiome Initiative via Bioplatforms Australia Data Portal on 17 June 2022. The search filter applied to download data from Bioplatforms Australia Data portal are stored in the Darwin Core property (identificationRemarks). Taxonomy is assigned according to the taxonomic database (SILVA 138) and method (Sklearn) which is stored in the Darwin Core Extension\nDNA derived data property (otu_db). Prefix were removed from the taxonomic names as shown in the example (e.g. d__Bacteria to Bacteria). Scientific name is assigned to the valid name available from the highest taxonomic rank.\nThis collection is published as Darwin Core Occurrence, so the event level measurements need to be replicated for every occurrence. Instead of data replication, the event level eMoF data are made available separately at https://www.marine.csiro.au/data/services/obisau/emof_export.cfm?ipt_resource=bioplatforms_mm_nrs_kai",
+    "url": "https://obis.org/dataset/51f0f3ff-39a7-4302-ab26-258bfe614975",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=bioplatforms_mm_nrs_kai"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Please see https://www.australianmicrobiome.com/protocols/acknowledgements/ for citation examples and links to the data policy.",
+    "version": "2022-06-25T18:24:26.000Z",
+    "keywords": [
+        "occurrence",
+        "occurrence",
+        "16S rRNA",
+        "18S rRNA"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=bioplatforms_mm_nrs_kai",
+        "encodingFormat": "application/zip"
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/21685",
+            "@type": "Organization",
+            "legalName": "University of Newcastle",
+            "name": "University of Newcastle",
+            "url": "https://oceanexpert.org/institution/21685"
+        }
+    ]
+}

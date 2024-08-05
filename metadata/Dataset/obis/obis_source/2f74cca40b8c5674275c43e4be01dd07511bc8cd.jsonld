@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ac30f88b-7d4d-4f3c-8204-ac362dc0feb5",
+    "name": "Plankton community in Bongo net, MOOSE-GE cruises, North-Western Mediterranean Sea",
+    "description": "MOOSE GE is a yearly ocean-monitoring cruise which is part of the MOOSE program https://www.moose-network.fr, within the Research Infrastructure ILICO, the aim of which is to monitor the North-Western Mediterranean (considered to act as a model system for larger ocean basins). This dataset contains the planktonic organisms collected by a Bongo net (180 to 200µm mesh) hauled vertically from 200m depth to the surface at each station, therefore covering organisms from ~200µm to ~2cm.",
+    "url": "https://obis.org/dataset/ac30f88b-7d4d-4f3c-8204-ac362dc0feb5",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dasid_6510",
+        "https://dx.doi.org/10.14284/480"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Sorbonne Université/CNRS - Institut de la Mer de Villefranche (IMEV), Sorbonne Université/CNRS - Laboratoire d'Océanographie de Villefranche (LOV); 2020; Plankton community in Bongo net, MOOSE-GE cruises, North-Western Mediterranean Sea. https://dx.doi.org/10.14284/480",
+    "version": "2024-02-26T23:17:16.000Z",
+    "keywords": [
+        "Imaging",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "Sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2018",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/480",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/480",
+        "url": "https://dx.doi.org/10.14284/480"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dasid_6510",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.533333 39.9949,3.533333 43.8842,9.636333 43.8842,9.636333 39.9949,3.533333 39.9949"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18357",
+            "@type": "Organization",
+            "legalName": "Laboratoire d'Océanographie de Villefranche-sur-Mer",
+            "name": "Laboratoire d'Océanographie de Villefranche-sur-Mer",
+            "url": "https://oceanexpert.org/institution/18357"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/21945",
+            "@type": "Organization",
+            "legalName": "Institut de la Mer de Villefranche",
+            "name": "Institut de la Mer de Villefranche",
+            "url": "https://oceanexpert.org/institution/21945"
+        }
+    ]
+}

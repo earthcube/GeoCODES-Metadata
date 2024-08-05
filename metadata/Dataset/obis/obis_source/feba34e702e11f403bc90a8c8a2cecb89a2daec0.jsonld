@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f96f51b2-a8c7-440e-b345-4607d242c610",
+    "name": "MAR-ECO 2004 - Mammals and birds",
+    "description": "MAR-ECO (2003 - 2010)was an international exploratory study of the animals inhabiting the northern mid-Atlantic. Scientists from 16 nations around the northern Atlantic Ocean participated in research of the waters around the mid-Atlantic Ridge from Iceland to the Azores.\nThis data set is subset of the data collected, and comprises presence/absence records (sightings) for mammals and birds, collected in 2004 on R/V G.O. Sars. Skov,H,  T. Gunnlaugsson, W.P. Budgell, J. Horne, L. Nøttestad, E. Olsen, H. Søiland, G. Víkingsson and G. Waring (2008) Small-scale spatial variability of sperm and sei whales in relation to oceanographic and topographic features along the Mid-Atlantic Ridge. Deep-sea Research II. 55: 254-268.",
+    "url": "https://obis.org/dataset/f96f51b2-a8c7-440e-b345-4607d242c610",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=mareco_2004_mammals_birds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Skov,H,  T. Gunnlaugsson, W.P. Budgell, J. Horne, L. Nøttestad, E. Olsen, H. Søiland, G. Víkingsson and G. Waring (2008) Small-scale spatial variability of sperm and sei whales in relation to oceanographic and topographic features along the Mid-Atlantic Ridge. Deep-sea Research II. 55: 254-268.",
+    "version": "2023-12-08T18:31:58.000Z",
+    "keywords": [
+        "Birds",
+        "Mammals",
+        "G.O. Sars",
+        "research vessel",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=mareco_2004_mammals_birds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-36.715984 40.151912,-36.715984 60.337557,-18.21195 60.337557,-18.21195 40.151912,-36.715984 40.151912"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

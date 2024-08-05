@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ba3fc1a0-5ad0-4621-8712-e01292d9872c",
+    "name": "ICES contaminants and biological effects",
+    "description": "DOME contains marine environmental data featuring: \n<ul>\n<li> North-East Atlantic, Greenland sea, Baltic sea and Norwegian sea \n</li><li> Contaminants in biota, sediment and water, fish disease and biological communities \n</li><li> Aggregated fish trawl survey data \n</li><li>Data spanning the years 1965-2008 \n</li></ul>",
+    "url": "https://obis.org/dataset/ba3fc1a0-5ad0-4621-8712-e01292d9872c",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=ices_dome_biota"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "ICES Contaminants and biological effects database (DOME – Biota). The International Council for the Exploration of the Sea, Copenhagen. 2010. Online source: http://ecosystemdata.ices.dk.",
+    "version": "2024-02-26T23:24:24.000Z",
+    "keywords": [
+        "Biological effects",
+        "Contaminants",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1978/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=ices_dome_biota",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.25 36.566667,-69.25 80.166667,60 80.166667,60 36.566667,-69.25 36.566667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/10573",
+            "@type": "Organization",
+            "legalName": "International Council for the Exploration of the Sea",
+            "name": "International Council for the Exploration of the Sea",
+            "url": "https://oceanexpert.org/institution/10573"
+        }
+    ]
+}

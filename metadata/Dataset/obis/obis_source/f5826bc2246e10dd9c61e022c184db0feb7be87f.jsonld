@@ -1,0 +1,84 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6d519257-c75f-4c36-bc25-8deb17d0b07b",
+    "name": "Frobisher Bay, Canada",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Dalhousie University (DAL)  Frobisher Bay, Canada, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=FRO).\nAbstract:This study described the marine migration distribution, movements, diet, mortality and duration of anadromous Arctic char relative to migration temporal phase and environmental conditions (salinity, temperature and prey availability, tides) in inner Frobisher Bay (63o N 68o W), a macrotidal estuary on southeastern Baffin Island, Nunavut, Canada. Of the 33 char acoustically tracked in 2009, 15 (45%) ventured beyond 10 km of either of the Armshow or Sylvia Grinnell river mouths and 9 (27%) were detected in both rivers’ estuaries. Marine mortality was estimated at 24.2% with 62.5% of the mortalities occurring within the Sylvia Grinnell River estuary. Assuming an emigration date of June 18th in both 2008 and 2009, marine migration duration was 46 to 78 days. Mean durations were 59±6 in 2008, 65±7 in 2009 and 63±7 days combined. Tracking revealed migrant movements into the intertidal zone with the flood and ebb of the tide. Most detections were in surface waters (0 to 3 m). Inter/sub-tidal movements and consecutive repetitive dives (maximum 52.8 m) resulted in extreme body temperature shifts (-0.2 to18.1oC). Approximately half of intertidal and subtidal detections were between 9 to13oC, and 1 to 3oC, respectively. Stomach contents and deep diving suggested feeding in both inter/sub-tidal zones. We suggest that char tolerate cold water at depth to capture prey in the subtidal zone, then seek warmer water to enhance feeding/digestion physiology.",
+    "url": "https://obis.org/dataset/6d519257-c75f-4c36-bc25-8deb17d0b07b",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otnacadiaufrobisherbayca",
+        "https://doi.org/10.14286/6tt9qb"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Spares, A. 2008.Frobisher Bay, NU, Canada: Arctic Char tagging. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-09-22T16:27:57.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Observation",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "weight",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPWGXX01/",
+            "description": "weight"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2011",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/6tt9qb",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/6tt9qb",
+        "url": "https://doi.org/10.14286/6tt9qb"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otnacadiaufrobisherbayca",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-68.85868 48.56319,-68.85868 63.73828,-53.88946 63.73828,-53.88946 48.56319,-68.85868 48.56319"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        }
+    ]
+}

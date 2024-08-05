@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b369bd58-912a-4c8b-9a1e-161812c9e5d0",
+    "name": "SEFSC GoMMAPPS 2017 Summer Aerial Survey",
+    "description": "Original provider:\nNOAA Southeast Fisheries Science Center (SEFSC)\n\nDataset credits:\nNOAA Southeast Fisheries Science Center (SEFSC)\n\nAbstract:\nAs part of the GoMMAPPS program, the Southeast Fisheries Science Center conducted aerial surveys of continental shelf waters (up to the 200-m isobath) in the U.S. Gulf of Mexico. The survey was conducted between 29 June and 17 August 2017 aboard a NOAA Twin Otter aircraft at an altitude of 600 feet (183 m) and a speed of 100-110 knots. Survey tracklines were oriented perpendicular to the shoreline and latitudinally spaced 20 km apart. The survey was designed for analysis using Distance sampling with a two-team (independent observer) approach to correct for perception bias in resulting abundance estimates. \nThe study area extended from the shoreline to the 200-m isobath between Key West, FL and Brownsville, TX, and included fine-scale tracklines over estuarine waters of Mississippi Sound.\n\nPurpose:\nThe goal of the survey was to conduct line-transect surveys using the Distance sampling approach to estimate the abundance and spatial distribution of marine mammals and sea turtles in waters over the continental shelf in the U.S. Gulf of Mexico.\n\nSupplemental information:\nProvider's survey code is TOSE17SUM.\nPerpendicular distance to the animal is not publicly available.\nThe dataset is accompanied by transect (effort) data which is provided as a separate file.\nSightings included were detected by the forward team.\n\nEnvironmental Attribute Codes\nBeaufort Sea state\n0 Calm, mirror like seas\n1 Waves &lt;1ft, rippled surface\n2 Small wavelets (&lt;2 ft), no white caps\n3 Large wavelets (&lt;3ft), scattered white caps\n4 Swell 3-4 ft, numerous white caps\n5 Swell &gt;5 ft, many white caps, some spray\n6 Swell &gt;10 ft, white caps everywhere, spray\nCloudCover\n0 Clear\n1 0-25% Cloudy\n2 26-50% Cloudy\n3 51-75% Cloudy\n4 76-100% Cloudy\n5 Overcast\nGlare (Glare intensity)\n0 No Impairment\n1 Slight Impairment\n2 Moderate Impairment\n3 Severe Impairment\nWeather\n0 Clear\n1 Mist\n2 Light Rain\n3 Heavy Rain\nConditions\n0 Poor\n1 Fair\n2 Moderate\n3 Good\n4 Excellent\nHaze\n0 No\n1 Yes\nFog\n0 No\n1 Yes\nSun penetration (Sun pen)\n0 Poor\n1 Fair\n2 Good\n3 Excellent\nTurbidity\n0 Poor\n1 Fair\n2 Good\n3 Excellent",
+    "url": "https://obis.org/dataset/b369bd58-912a-4c8b-9a1e-161812c9e5d0",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_1970"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Rappucci, G. and L. Garrison. 2019. SEFSC GoMMAPPS 2017 Summer Aerial Survey. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1970) on yyyy-mm-dd.",
+    "version": "2021-09-08T16:34:55.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Sea turtles,Visual Sighting,Aircraft",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_1970",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-97.33308 24.39895,-97.33308 30.37994,-81.10157 30.37994,-81.10157 24.39895,-97.33308 24.39895"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7534",
+            "@type": "Organization",
+            "legalName": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "name": "NOAA, Southeast Fisheries Science Center, National Marine Fisheries Service Southeast Miami Laboratory",
+            "url": "https://oceanexpert.org/institution/7534"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

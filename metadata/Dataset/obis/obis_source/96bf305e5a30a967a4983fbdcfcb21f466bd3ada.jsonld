@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e1a0a99c-71bf-4e59-908b-ceb442d9efbf",
+    "name": "MMS Ship Survey, PNW 1989",
+    "description": "Original provider:\nMinerals Management Service\n\nDataset credits:\nMinerals Management Service\n\nAbstract:\nThis dataset is from the Oregon and Washington marine mammal and seabird surveys studies: Oregon/Washington ship [bird and mammal observations] study code: MF, Contract number: 14-12-0001-30426, Principal investigators: G. A. Green, Ebasco Environmental, Bellevue, Washington, M. L. Bonnell and K. T. Briggs, Ecological Consulting, Inc., Portland, Oregon.\n\nTime period: April 1989 through October 1990\n\nStudy area: Pacific Ocean waters of Oregon and Washington from the coast to approximately 60 nautical miles offshore.\n\nMethodology: Aerial surveys were conducted along 32 pre-established transects designed to systematically sample marine mammal and seabird abundance in all waters of the study area. Coastal surveys and one shelf break survey were also conducted. Standard transects provided systematic coverage of shelf, slope, and offshore waters in the study area. Sightings of seabirds, pinnipeds, cetaceans, and turtles were recorded. Seabird sightings were recorded only on the shaded side of the aircraft within a strip transect of 50 m width. Marine mammal and turtle sightings were recorded within an unbounded corridor. Declination angle was measured and noted for each marine mammal/turtle sightings and later used to calculate a probability density function of frequency with right-angle sighting distance. Navigation was by Loran and VLF-Omega. One ship survey was also conducted from aboard the NOAA ship Miller Freeman during August 1989.\nDatabases produced: 1) sightings of seabirds and marine mammals on 12 aerial surveys and one ship cruise, and 2) sightings of cetaceans on 12 aerial surveys and one ship cruise.\n\nPurpose:\nObjectives of the study were to review and analyze all available literature and databases concerning marine mammal and seabird diversity, distribution, and abundance in the Oregon-Washington coastal and offshore areas, to conduct field surveys over a 18-month period, and to prepare reports summarizing the findings.\n\nSupplemental information:\n[2020-09-30] The following invalid species names were corrected according to the Integrated Taxonomic Information System (ITIS).\n\"Bonaparte's Gull: Larus philadelphia (176839) =&gt; Chroicocephalus philadelphia (824040)\"\n\"Caspian Tern: Sterna caspia (176924) =&gt; Hydroprogne caspia (176935)\"\n\"Red Phalarope: Phalaropus fulicaria (554376) =&gt; Phalaropus fulicarius (176734)\"\nLarus sabini (176865) =&gt; Xema sabini (176866)\nLarus tridactyla (176874) =&gt; Rissa tridactyla (176875)",
+    "url": "https://obis.org/dataset/e1a0a99c-71bf-4e59-908b-ceb442d9efbf",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_42"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Ford, G. and J. Casey. 2013. MMS Ship Survey, PNW 1989. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/42) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:34:19.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Seabirds,Sea turtles,Vessel,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/1989",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_42",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-127.84858 40.82985,-127.84858 49.92291,-124.03914 49.92291,-124.03914 40.82985,-127.84858 40.82985"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

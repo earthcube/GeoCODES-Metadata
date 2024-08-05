@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f1ccdf97-4d0b-4821-8661-688a260cadd0",
+    "name": "Sooty shearwater (Puffinus griseus) tracking from Kauwahaia Island, New Zealand (2010-2012)",
+    "description": "Geolocation logger tracks from sooty shearwaters breeding at Kauwahaia Island (36° 54’ S, 174° 24’ E), New Zealand. Data analysis along with descriptions of other deployments in Thompson et al.(2015) Stable isotope values delineate the non-breeding distributions of sooty shearwaters Puffinus griseus in the North Pacific Ocean. Mar Ecol Prog Ser Vol. 521: 277–282, 2015\nData sourced from Zoatrack project 105 (https://zoatrack.org/projects/105/) on 2021-05-01",
+    "url": "https://obis.org/dataset/f1ccdf97-4d0b-4821-8661-688a260cadd0",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=zoatrack_105_sooty_shearwater"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Taylor G (2022): Sooty shearwater (Puffinus griseus) tracking from Kauwahaia Island, New Zealand (2010-2012). v1.1. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=zoatrack_105_sooty_shearwater&amp;v=1.1",
+    "version": "2022-06-08T05:55:59.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2010/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=zoatrack_105_sooty_shearwater",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.98 -66.93,-179.98 55.1,179.84 55.1,179.84 -66.93,-179.98 -66.93"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20909",
+            "@type": "Organization",
+            "legalName": "Department of Conservation- Wellington Office",
+            "name": "Department of Conservation- Wellington Office",
+            "url": "https://oceanexpert.org/institution/20909"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

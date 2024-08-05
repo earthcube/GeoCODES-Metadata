@@ -1,0 +1,117 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6ec96298-c3de-4767-9467-8ef2e486b5a7",
+    "name": "TPWD HARC Texas Coastal Fisheries Aransas Bay Bag Seine",
+    "description": "The Texas Parks and Wildlife Department (TPWD) utilizes several sampling gears for fisheries-independent monitoring of finfish and shellfish communities. They include bag seines, trawls, gill nets and oyster dredges. TPWD uses multiple gears in a random sampling protocol, and they identify (to the lowest taxonomic unit possible) and count everything that they collect. This dataset contains bag seine data collected for the Aransas bay system in Texas from 1977 to 2008. Collected data also included spatial and temporal information describing the sample location and time, collection gear information, hydrological data (e.g. dissolved oxygen, water temperature, and salinity), weather conditions, species caught, and number of each species captured. Houston Advanced Research Center (HARC) calculated the relative abundance data, calculated as the catch of a particular species in a sample divided by the total number of animals captured in that sample. Absence data was recorded for species on the TPWD species sampling lists that were not captured during sampling.",
+    "url": "https://obis.org/dataset/6ec96298-c3de-4767-9467-8ef2e486b5a7",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=tpwd_harc_texasaransasbay_bagseine"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2021-11-14T15:16:58.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Total number of samples used to calculate relative abundance",
+            "url": "",
+            "description": "Total number of samples used to calculate relative abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "gear size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MTHAREA1/",
+            "description": "gear size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "water temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "water temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "dissolved oxygen",
+            "url": "http://vocab.nerc.ac.uk/collection/P09/current/DOX2/",
+            "description": "dissolved oxygen"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "salinity",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODSDM021/",
+            "description": "salinity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "relative abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600020/",
+            "description": "relative abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "barometric pressure",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0015/",
+            "description": "barometric pressure"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "wind speed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01/",
+            "description": "wind speed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "alternate station code",
+            "url": "",
+            "description": "alternate station code"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1977/2008",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt-obis.gbif.us/archive.do?r=tpwd_harc_texasaransasbay_bagseine",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-97.261111 27.825556,-97.261111 28.268056,-96.873611 28.268056,-96.873611 27.825556,-97.261111 27.825556"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19401",
+            "@type": "Organization",
+            "legalName": "Houston Advanced Research Center",
+            "name": "Houston Advanced Research Center",
+            "url": "https://oceanexpert.org/institution/19401"
+        }
+    ]
+}

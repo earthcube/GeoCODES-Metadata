@@ -1,0 +1,117 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1e4d7adb-10a0-47cb-af6b-33b437fa5bf5",
+    "name": "Datos de monitoreo de la estructura de los manglares de la Ciénaga Grande de Santa Marta (Magdalena)",
+    "description": "Los datos se derivan de la línea de investigación ICTbm: Protocolo indicador Condición Tendencias Bosques de Manglar en el subsistemas de aéreas protegidas marinas. El protocolo evalúa la condición general de integridad biótica y , por tanto, el estado de conservación del bosque de manglar y sus cambios a través del tiempo. En este conjunto de datos se reportan manglares, documentados en estaciones de monitoreo en las regiones del Pacifico continental, Caribe continental y Caribe insular colombiano, que corresponden a 15.392 registros biológicos obtenidos entre el año 2013 y 2019.",
+    "url": "https://obis.org/dataset/1e4d7adb-10a0-47cb-af6b-33b437fa5bf5",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=invemar_estructura_manglar",
+        "https://doi.org/10.15472/0fqdp4"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Beltrán J, Casas O, Mancera Pineda E, Ortíz J J, Restrepo J, Reyes Forero P, Rivera-Monroy V, Rodríguez A, Rodríguez J C, Santos A, Perdomo L, Torres A, Villamil C A, Villanueva L, Meza Prada J F (2022): Datos de monitoreo de la estructura de los manglares de la Ciénaga Grande de Santa Marta (Magdalena). v1.0. Instituto de Investigaciones Marinas y Costeras - Invemar. Dataset/Samplingevent. https://doi.org/10.15472/0fqdp4",
+    "version": "2022-01-28T20:54:36.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Estructura de Manglar",
+        "Caribe Continental",
+        "Pacifico Continental",
+        "Diámetro a la altura del pecho",
+        "Circunferencia a la altura del pecho."
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Altura",
+            "url": "",
+            "description": "Altura"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Circunferencia a la altura del pecho",
+            "url": "",
+            "description": "Circunferencia a la altura del pecho"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Diámetro a la altura del pecho",
+            "url": "",
+            "description": "Diámetro a la altura del pecho"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Estado",
+            "url": "",
+            "description": "Estado"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Parte asociada",
+            "url": "",
+            "description": "Parte asociada"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tipo de zona",
+            "url": "",
+            "description": "Tipo de zona"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/0fqdp4",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/0fqdp4",
+        "url": "https://doi.org/10.15472/0fqdp4"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=invemar_estructura_manglar",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-83.6045 1.78938889,-83.6045 15.95905,-72.54977 15.95905,-72.54977 1.78938889,-83.6045 1.78938889"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6795",
+            "@type": "Organization",
+            "legalName": "Instituto de Investigaciones Marinas y Costeras José Benito Vives de Andreis",
+            "name": "Instituto de Investigaciones Marinas y Costeras José Benito Vives de Andreis",
+            "url": "https://oceanexpert.org/institution/6795"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/17925",
+            "@type": "Organization",
+            "legalName": "Instituto de Investigaciones Marinas y  Costeras",
+            "name": "Instituto de Investigaciones Marinas y  Costeras",
+            "url": "https://oceanexpert.org/institution/17925"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19053",
+            "@type": "Organization",
+            "legalName": "Sistema de Información sobre Biodiversidad de Colombia - SiB Colombia",
+            "name": "Sistema de Información sobre Biodiversidad de Colombia - SiB Colombia",
+            "url": "https://oceanexpert.org/institution/19053"
+        }
+    ]
+}

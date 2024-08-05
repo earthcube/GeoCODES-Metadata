@@ -1,0 +1,126 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/735d8b98-5b8b-43eb-96f4-8bcbdfd97201",
+    "name": "Maritimes Conservation Network: St. Anns Bank Marine Protected Area (MPA) Acoustic Tracking Study",
+    "description": "This is the OBIS extraction of the Ocean Tracking Network  and Department of Fisheries and Oceans Canada (DFO)  Maritimes Conservation Network: St. Anns Bank Marine Protected Area (MPA) Acoustic Tracking Study, consisting of the release tagging metadata, i.e. the location and date when the tagged animal was released, and summarized detection events of tagged individuals.\n    If readers are interested in the source dataset they may also inquire with the project PIs as listed here or on the OTN web site (https://members.oceantrack.org/project?ccode=SABMPA).\nAbstract:The St. Anns Bank Marine Protected Area was established in June 2017. In support of the long-term management of this MPA, an ecosystem monitoring program is currently being designed to evaluate performance relative to conservation objectives. Data describing the spatial-temporal patterns of species movement relative to MPA boundaries is essential for evaluating species composition and to gauge the protective capacity of the MPA.  In 2015, a snow crab (Chionoceotes opilio) movement monitoring project was established in the St. Anns Bank area, with collaboration between industry, the OTN and DFO (previously projects V2LSCF and ZSC). Acoustic receiver arrays deployed as part of this project provide an opportunity to record the presence of tagged species who reside in, or transit through, the MPA. In particular, acoustic monitoring of tagged focal species (Atlantic cod (Gadus morhua), Atlantic striped wolfish (Anarhichas lupus)), Atlantic halibut (Hippoglossus hippoglossus), and snow crab inside the MPA and beyond the receiver array, will provide important information for performance evaluation and design. As part of the Maritimes Conservation Network, this tracking study will contribute to understanding species connectivity among sites of conservation interest in the region.",
+    "url": "https://obis.org/dataset/735d8b98-5b8b-43eb-96f4-8bcbdfd97201",
+    "sameAs": [
+        "https://members.oceantrack.org/ipt/resource?r=otndfo-biomaritimesconser",
+        "https://doi.org/10.14286/txzmn8"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Stanley, R.R.E.; Pettitt-Wade, H., Heaslip, S.G., Zisserson, B and Fenton, D. 2016. Maritimes Conservation Network: St. Anns Bank Marine Protected Area (MPA) Acoustic Tracking Study.. Accessed via the Ocean Tracking Network OBIS IPT on INSERT DATE",
+    "version": "2023-10-06T18:12:23.000Z",
+    "keywords": [
+        "ACOUSTIC TAGS",
+        "EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/VERTEBRATES &gt; FISH",
+        "Occurrence",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "FORK",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FORK"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ENTSEX01/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "FL",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600261",
+            "description": "FL"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "TL",
+            "url": "http://vocab.nerc.ac.uk/collection/S06/current/S0600262",
+            "description": "TL"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CARAPACE WIDTH",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CAPWID01",
+            "description": "CARAPACE WIDTH"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "age",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AGEBENTX/",
+            "description": "age"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ABDOMENW",
+            "url": "",
+            "description": "ABDOMENW"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CLAWH",
+            "url": "",
+            "description": "CLAWH"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2022",
+    "identifier": {
+        "@id": "https://doi.org/10.14286/txzmn8",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14286/txzmn8",
+        "url": "https://doi.org/10.14286/txzmn8"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://members.oceantrack.org/ipt/archive.do?r=otndfo-biomaritimesconser",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-66.98386 17.78,-66.98386 48.04083,-57.77178 48.04083,-57.77178 17.78,-66.98386 17.78"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18704",
+            "@type": "Organization",
+            "legalName": "Ocean Tracking Network",
+            "name": "Ocean Tracking Network",
+            "url": "https://oceanexpert.org/institution/18704"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

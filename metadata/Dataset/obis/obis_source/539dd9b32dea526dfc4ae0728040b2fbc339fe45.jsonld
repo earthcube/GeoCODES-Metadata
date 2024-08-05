@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5055f146-1a0a-41be-a747-24968c2cf584",
+    "name": "Ecological Baseline Studies of the U.S. Outer Continental Shelf Option Year 1",
+    "description": "Original provider:\nAPEM, Normandeau Associates\n\nDataset credits:\nBureau of Ocean Energy Management (BOEM), Normandeau Associates Inc., APEM Ltd.\n\nAbstract:\nNormandeau Associates, Inc., and APEM Inc. (Team) have been contracted by BOEM to complete quarterly high-altitude aerial digital surveys in a 12-month period. The Team proposes to conduct the first survey in February 2018 and complete all four surveys in the 2018 calendar year.\n\nThe South Atlantic Survey area (SASA) is defined as the area of the ocean off the coast of North and South Carolina out to the -30-m contour line. The approximate size of the area is 11,000 square nautical miles. \n\nTransect surveys will cover a minimum of 5% of the SASA.In addition, 10% of the total area within the Kitty Hawk, Wilmington East, and Wilmington West Wind Energy Areas –as well as the South Carolina–Grand Stand Call Area will be surveyed.\n\nThe planned image resolution of all the imagery for the project will be 1.5-cm ground sampling distance at the surface of the ocean.\n\nOption Year 1 includes four surveys of each these areas from Jan/Feb 2018 to Dec 2018.\n\nSupplemental information:\n[2022-06-07] The following recorded species names got their assigned scientific names corrected.\nBLACK SCOTER: Melanitta nigra americana =&gt; Melanitta nigra\nGREAT SHEARWATER: Aythya marila =&gt; Puffinus gravis\nGREAT SKUA: Puffinus gravis =&gt; Stercorarius skua\nGREATER SCAUP: Stercorarius skua =&gt; Aythya marila\n\n[2022-05-09] The following records (snag_id) got identified species changed.\n00044126812ab7c63052: Chilean Devil Ray to Remora unid.\n00054126817f2c5c3500: Sterna Tern-species unknown to Tern-species unknown\n000541268184f3c9011f: Sterna Tern-species unknown to Tern-species unknown\n0007412681632ac959aa: Chilean Devil Ray to Ray-species unknown\n0007412681f54ad065fe: Loggerhead Turtle to Kemp's Ridley Turtle\n000941268046d89cf951: Bullnose Ray to Spotted Eagle Ray\n00094126804af560bab4: Chilean Devil Ray to Ray-species unknown\n\n[2020-08-20] An attribute of flight heights was added. Additional fish shoal information was added resulting in more records.\n\nThe areas defined for survey were the South Atlantic Survey Area (SASA), Kitty Hawk (KH) Wind Energy Area (WEA), Wilmington East (WE) WEA, Wilmington West (WW) WEA, Grand Stand Call Area (GSCA), Charleston Call Area (CCA), and fish spawning areas SMZ 51 (A51) and SMZ 53 (A53). SASA surveys are linear transects flown in a saw tooth pattern out to the -30-m contour line along the entire South Carolina and North Carolina coasts. These surveys included the CCA, A51 and A53 areas. The overlap portion of SASA and CCA is designated “SASA,CCA”; the overlap portion of SASA and A51 is designated “SASA,A51”; and the overlap portion of SASA and A53 is designated “SASA,A53”.The WEAs and GSCA areas are grid surveys through the area plus a 1NM buffer. \n\nGSCA and WW share survey overlap and that overlap portion is designated as “GSCA,WW”.The SASA survey area overlaps portions of CCA, A51 and A53 areas and overlapped areas are designated by the area name “SASA,CCA”; “SASA,A51”; or “SASA,A53”. GSCA and WW also share survey overlap and that area is designated by “GSCA,WW”.DISCLAIMERStudy concept, oversight, and funding were provided by the US Department of the Interior, Bureau of Ocean Energy Management (BOEM), Environmental Studies Program, Washington, DC, under Contract Number M17PC00010; Order M17PD00063. This report has been technically reviewed by BOEM, and it has been approved for publication. The views and conclusions contained in this document are those of the authors and should not be interpreted as representing the opinions or policies of the US Government, nor does mention of trade names or commercial products constitute endorsement or recommendation for use.",
+    "url": "https://obis.org/dataset/5055f146-1a0a-41be-a747-24968c2cf584",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_2065"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "APEM and Normandeau Associates prepared for the Bureau of Ocean Energy Management (BOEM). 2020. Ecological Baseline Studies of the U.S. Outer Continental Shelf Option Year 1. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1817) on yyyy-mm-dd.",
+    "version": "2022-06-07T16:21:18.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Digital Aerial,Aircraft",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2065",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-80.7652 31.7987,-80.7652 36.546,-74.9818 36.546,-74.9818 31.7987,-80.7652 31.7987"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

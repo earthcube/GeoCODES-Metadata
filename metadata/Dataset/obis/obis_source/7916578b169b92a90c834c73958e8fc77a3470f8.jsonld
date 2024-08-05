@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b67743ff-e8ee-4374-87bc-3423d923941d",
+    "name": "Observations of three Idotea species (I. balthica, I. chelipes and I. granulosa) in Northern Europe, including the Baltic Sea - data derived from museum collections",
+    "description": "Observation data of occurrence of three Idotea species collected from museum collections in Northern Europe.",
+    "url": "https://obis.org/dataset/b67743ff-e8ee-4374-87bc-3423d923941d",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=leidenberger_md",
+        "https://dx.doi.org/10.14284/7"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Leidenberger, S. (2014). Observations of three Idotea species (I. balthica, I. chelipes and I. granulosa) in Northern Europe, including the Baltic Sea - data derived from museum collections https://dx.doi.org/10.14284/7",
+    "version": "2023-12-08T18:19:20.000Z",
+    "keywords": [
+        "Museum collections",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1846/1985",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/7",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/7",
+        "url": "https://dx.doi.org/10.14284/7"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=leidenberger_md",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-70.787954 38.192185,-70.787954 71.208763,38.612888 71.208763,38.612888 38.192185,-70.787954 38.192185"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

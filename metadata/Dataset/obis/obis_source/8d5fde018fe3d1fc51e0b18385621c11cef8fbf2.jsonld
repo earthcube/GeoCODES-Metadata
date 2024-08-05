@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1fa7f236-2eae-4281-84ac-b25bd676ead7",
+    "name": "Squid specimens from the 1991/92 V6 AAMBER2 voyage",
+    "description": "\tA total of 341 cephalopod specimens comprising 256 squid belonging to 8 genera, 8 species and 85 octopods belonging to 2 genera, 11 species has been captured on the 1990/91 V6 in the Prydz Bay region.",
+    "url": "https://obis.org/dataset/1fa7f236-2eae-4281-84ac-b25bd676ead7",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=aamber2_squid"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "See Metadata record http://data.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/ASAC_11. Contact Data Centre for details.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1991",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=aamber2_squid",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "67.5800018311 -68.5199966431,67.5800018311 -64.9700012207,78.1900024414 -64.9700012207,78.1900024414 -68.5199966431,67.5800018311 -68.5199966431"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/966c15b3-e0ea-4fa6-8c7b-92955d668bf2",
+    "name": "Opportunistic macroalgae blooms (green tides) monitoring along the North and Atlantic French coasts since 2008",
+    "description": "<p>Opportunistic macroalgae blooms (green tides) data are collected during monitoring surveys on the English Channel / Bay of Biscay French coasts since 2008 (Quadrige program code : BLOOMS). Protocols are implemented in the European Water Framework Directive.</p>",
+    "url": "https://obis.org/dataset/966c15b3-e0ea-4fa6-8c7b-92955d668bf2",
+    "sameAs": [
+        "https://ipt.vliz.be/eurobis/resource?r=bloom_ifremer"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "CEVA, 2022. Opportunistic macroalgae blooms (green tides) monitoring along the North and Atlantic French coasts since 2008. SEANOE. https://www.seanoe.org/data/00820/93188/",
+    "version": "2024-02-26T23:14:11.000Z",
+    "keywords": [
+        "Coastal",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Instrument / gear type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Instrument / gear type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform type",
+            "url": "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/",
+            "description": "Platform type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SampleID",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPID01/",
+            "description": "SampleID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SamplingEffort",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "SamplingEffort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ulva_stranding_type",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/COVCATUV/",
+            "description": "Ulva_stranding_type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "AreaCov_Ulva_blade",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AAUVBB01/",
+            "description": "AreaCov_Ulva_blade"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "AreaExtent_Ulva_bloom_blade",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AXUVBB01/",
+            "description": "AreaExtent_Ulva_bloom_blade"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "AreaCov_Ulva_blade_filamentous",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AAUVBB02/",
+            "description": "AreaCov_Ulva_blade_filamentous"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "AreaExtent_Ulva_bloom_blade_filamentous",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AXUVBB02/",
+            "description": "AreaExtent_Ulva_bloom_blade_filamentous"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=bloom_ifremer",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-4.784450814725 45.809723395695,-4.784450814725 49.825808552994,0.491120682186 49.825808552994,0.491120682186 45.809723395695,-4.784450814725 45.809723395695"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

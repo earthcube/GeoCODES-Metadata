@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f070a9b6-b425-4dae-b7ca-d492b717dcc7",
+    "name": "Gwaii Haanas Invertebrates",
+    "description": "The database covers the Haida Gwaii archipelago, including the contiguous waters of Dixon Entrance, Hecate Strait, Queen Charlotte Sound and westward into the Northeast Pacific to 145 degrees W (based on research cruise reports). Records from Vancouver Island, the mainland (continental) British Columbia and Alaska coasts, mainland coast islands and inlets were excluded. It includes all species of the Haida Gwaii region from any published source, accessible collection and unpublished observations from scientists. Subspecies are included in the database. Includes all marine invertebrate species recorded from the intertidal to the deep-sea and maps their distributions known to the end of 2000. The GIS contains 25,000 invertebrate records of &gt;2,500 species from 2,900 localities.",
+    "url": "https://obis.org/dataset/f070a9b6-b425-4dae-b7ca-d492b717dcc7",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=ghi"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Sloan, N.A., Bartier, P.M., Austin, W.C. 2004. Gwaii Haanas Invertebrates (Living marine legacy of Gwaii Haanas II: Marine invertebrate baseline to 2000). Parks Canada-Technical Reports in Ecosystem Science. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Digital, retrieved from http://iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1800/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=ghi",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-144.880004883 49.5800018311,-144.880004883 56.2599983215,-128 56.2599983215,-128 49.5800018311,-144.880004883 49.5800018311"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

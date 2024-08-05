@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/2d66275a-72b3-49cf-bd5d-974a53477f20",
+    "name": "WAMSI Node 3.2.1 - Diversity, abundance and habitat utilisation of sharks and rays, Ningaloo Marine Park, Western Australia (2007-2009) - tracking data",
+    "description": "From April 2007 to June 2009, six field trips were undertaken to investigate the elasmobranch faunal composition of the Ningaloo Marine Park (NMP), determine the distribution and abundance of species, and examine the habitat utilisation, movement patterns and activity space of selected key species. Dive and longline surveys, passive acoustic telemetry and satellite tracking were used to collect data.\nThis dataset is the tracking component of 5 Tiger sharks and one Great hammerhead. Data and metadata sourced from https://catalogue.data.wa.gov.au/dataset/wamsi-node-3-2-1-diversity-abundance-and-habitat-utilisation-of-sharks-and-rays-summary_e823 on 2021-08-20",
+    "url": "https://obis.org/dataset/2d66275a-72b3-49cf-bd5d-974a53477f20",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=wamsi_321_tags"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Stevens J, Last P, White W, McAuley R, Meekan M (2023): WAMSI Node 3.2.1 - Diversity, abundance and habitat utilisation of sharks and rays, Ningaloo Marine Park, Western Australia (2007-2009) - tracking data. v1.3. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=wamsi_321_tags&amp;v=1.3",
+    "version": "2023-06-28T03:50:13.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "ARGOS Location Class",
+            "url": "",
+            "description": "ARGOS Location Class"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=wamsi_321_tags",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.018 -35.764,113.018 -10.37,124.062 -10.37,124.062 -35.764,113.018 -35.764"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

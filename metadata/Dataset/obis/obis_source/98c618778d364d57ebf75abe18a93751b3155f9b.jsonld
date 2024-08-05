@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e0d98cef-7b09-496e-9a5f-2a6ecaa9b8a9",
+    "name": "The Newfoundland museum (The Rooms) fish collection",
+    "description": "The Rooms museum contains several marine collections. This current dataset contains a very small subset of the museum's ichthyology collection. The OBIS dataset contains records associated with silverside specimens (<i>Menidia menidia</i>) sent to the Newfoundland Museum. These samples were originally collected as part of a project with the objective to determine the distributional ranges and phylogeographic origins of several species in coastal Newfoundland waters.",
+    "url": "https://obis.org/dataset/e0d98cef-7b09-496e-9a5f-2a6ecaa9b8a9",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=nfm_fishcollection"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Sargent, P., Batten, R. 2012. The Newfoundland museum (The Rooms) fish collection. OBIS Canada Digital Collections. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Digital, retrieved from http://iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1985/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=nfm_fishcollection",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-59.4819 47.8097,-59.4819 48.6393,-58.5576 48.6393,-58.5576 47.8097,-59.4819 47.8097"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

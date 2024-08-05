@@ -1,0 +1,101 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/42fb9bf2-df81-440a-9896-3177eeb7810e",
+    "name": "Phytoplankton study in the Sluice Dock between 1971 and 1973",
+    "description": "Phytoplankton and abiotic data for 1971, 1972 and 1973 in the Sluice Dock (Oostende). The data were digitized by VLIZ from the original report: Mommaerts, J.-P. (1978). Systeembenadering van een gesloten marien milieu, met de nadruk op de rol van het fytoplankton. PhD Thesis. VUB: Brussel. 487 [diff. pag.] pp.",
+    "url": "https://obis.org/dataset/42fb9bf2-df81-440a-9896-3177eeb7810e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=phytoplankton_study_in_the_sluice_dock_between_1971_and_1973",
+        "https://dx.doi.org/10.14284/128"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Mommaerts J.P.; Polk P.; Laboratorium voor Ekologie en Systematiek. VUB: Belgium; (2016): Phytoplankton study in the Sluice Dock between 1971 and 1973. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5041) https://dx.doi.org/10.14284/128",
+    "version": "2023-05-23T11:30:08.000Z",
+    "keywords": [
+        "coastal structure",
+        "Potential production",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Density of cells per ml",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Density of cells per ml"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Chl-a concentration",
+            "url": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00105/",
+            "description": "Chl-a concentration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Pot.prod",
+            "url": "http://vocab.nerc.ac.uk/collection/P07/current/48CPRT6U/",
+            "description": "Pot.prod"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Life Stage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Life Stage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1971/1973",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/128",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/128",
+        "url": "https://dx.doi.org/10.14284/128"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=phytoplankton_study_in_the_sluice_dock_between_1971_and_1973",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.945514 51.225586,2.945514 51.230934,2.959247 51.230934,2.959247 51.225586,2.945514 51.225586"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        }
+    ]
+}

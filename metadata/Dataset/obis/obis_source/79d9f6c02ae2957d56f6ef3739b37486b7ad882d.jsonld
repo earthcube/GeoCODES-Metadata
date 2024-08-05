@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/809cd2f2-61a2-4fb8-bb62-295e0db2c6a2",
+    "name": "Occurrence dataset of demersal fish and benthic organisms in the deep-sea off the northeastern coast of Japan, recorded by ROV after the 2011 Earthquake off the Pacific coast of Tohoku",
+    "description": "The occurrence data of demersal fish and large benthos of the deep-sea off north-east coast of Japan, which extracted from the movie recorded by remotely-operated vehicles (ROV) in the deep-sea off the northeastern coast of Japan through “Tohoku Ecosystem-Associated Marine Sciences” project after the 2011 Tohoku Earthquake. Number of individuals were counted about every 10 minutes during the dive over sea bottom.",
+    "url": "https://obis.org/dataset/809cd2f2-61a2-4fb8-bb62-295e0db2c6a2",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=jamstec_teams_rov",
+        "https://doi.org/10.48518/00006"
+    ],
+    "license": "This work is licensed under a                  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Yamaguchi, M., S. Tsuchida, Y. Fujiwara and K. Fujikura (2021) Occurrence dataset of demersal fish and benthic organisms in the deep-sea off the northeastern coast of Japan, recorded by ROV after the 2011 Earthquake off the Pacific coast of Tohoku. Available at https://doi.org/10.48518/00006. Accessed on yyyy-mm-dd.",
+    "version": "2024-03-24T07:09:13.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.48518/00006",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.48518/00006",
+        "url": "https://doi.org/10.48518/00006"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=jamstec_teams_rov",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.32725 37.19991,141.32725 39.61657,142.5827 39.61657,142.5827 37.19991,141.32725 37.19991"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18293",
+            "@type": "Organization",
+            "legalName": "JAMSTEC Tokyo Office",
+            "name": "JAMSTEC Tokyo Office",
+            "url": "https://oceanexpert.org/institution/18293"
+        }
+    ]
+}

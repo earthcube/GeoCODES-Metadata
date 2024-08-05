@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/15a20192-5e99-45a5-986a-f6f84b569f37",
+    "name": "Colección ictiológica de referencia de la Universidad del Valle",
+    "description": "Datos de la Colección Ictiológica de referencia la Universidad del Valle con especímenes del Pacífico y Caribe Colombianos, colectados entre 1957 y 2023. Con mayor representatividad de peces marinos del Pacífico colombiano.",
+    "url": "https://obis.org/dataset/15a20192-5e99-45a5-986a-f6f84b569f37",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=coleccioncir-uv",
+        "https://doi.org/10.15472/9qdylr"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Tavera J, Arias J (2023): Colección ictiológica de referencia de la Universidad del Valle. v1.4. Universidad del Valle. Dataset/Occurrence. https://doi.org/10.15472/9qdylr",
+    "version": "2023-11-01T16:20:38.000Z",
+    "keywords": [
+        "Universidad del Valle",
+        "Pacífico colombiano",
+        "Caribe colombiano",
+        "Peces",
+        "Colecciones",
+        "Elasmobranchii",
+        "Actinopteri",
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1957/2023",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/9qdylr",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/9qdylr",
+        "url": "https://doi.org/10.15472/9qdylr"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=coleccioncir-uv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-123.01154879904499 -24.4469444,-123.01154879904499 48.520128105340284,-46.71527777777778 48.520128105340284,-46.71527777777778 -24.4469444,-123.01154879904499 -24.4469444"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18879",
+            "@type": "Organization",
+            "legalName": "Universidad del Valle",
+            "name": "Universidad del Valle",
+            "url": "https://oceanexpert.org/institution/18879"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f415cf1b-30b1-48d6-b15f-1b97bc462c8e",
+    "name": "South Australia's Sea Lions as Ocean Observers (aggregated per 1-degree cell)",
+    "description": "Original provider:\nSouth Australian Research and Development Institute\n\nDataset credits:\nData provider\nFur seal, pelagic shark and seabird tracking\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\n\n\nAbstract:\nOver the next 3 summers, up to 40 Australian sea lion adult males will carry state-of-the-art satellite transmitters as they traverse some of southern Australia’s most remote and biologically-productive waters.This project is funded by the Integrated Marine Observing System (IMOS - www.imos.org.au) through the Australian Acoustic Tagging and Monitoring System (AATAMS http://imos.org.au/aatams.html).The maritime expeditions of the Australian sea lions are now yielding data that are important to both biologists and oceanographers and refining our understanding of the intimate connections between the mechanics of the Earth’s oceans, and the complex ecosystems which dwell within and upon them. This is a truly interdisciplinary project, bringing together biologists studying living systems and oceanographers studying marine physics. The maritime expeditions of the Australian sea lions are now yielding data that are important to both biologists and oceanographers and refining our understanding of the intimate connections between the mechanics of the Earth’s oceans, and the complex ecosystems which dwell within and upon them. This is an extremely cost-effective means of adding to existing global oceanographic data archives. It has the potential to complement existing sampling methods, especially for regions from which data are scarce and where these alternative methods may be difficult or prohibitively expensive to implement.  Importanly, this approach provides a mechanism of targeting the collection of physical oceanographic data from regions that are biologically of interest (ie. where high trophic level predators feed), therefore providing greater insights into how physical ocean processes underpin marine ecosystems and commercial fisheries.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=274\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/f415cf1b-30b1-48d6-b15f-1b97bc462c8e",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_448_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Goldsworthy S. 2021. South Australia's Sea Lions as Ocean Observers. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/448) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=274).",
+    "version": "2021-04-24T09:40:39.000Z",
+    "keywords": [
+        "Occurrence,Marine Biology",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_448_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "110.5 -40.5,110.5 -27.5,161.5 -27.5,161.5 -40.5,110.5 -40.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

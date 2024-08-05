@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6ff78b05-3413-4626-a0d1-d36e75e2b2d3",
+    "name": "Alnitak-Alnilam Cetaceans and sea turtles surveys off Southern Spain",
+    "description": "Original provider:\nAlnilam\n\nDataset credits:\nAlnitak\nAlnilam\nAna Cañadas\nRicardo Sagarminaga\nGeneral Directorate for the Conservation of Nature, the Spanish Ministry for the Environment\nLIFE-Nature programs, European Commission\nEarthwatch Institute\nONR\n\nAbstract:\nThis dataset, belonging as a whole to Alnitak, comprises the work carried out in the Alboran Sea and adjacent areas from 1990 to 2006, and it includes 3,712 sightings of cetaceans and 306 sightings of sea turtles, during more than 31,000 nmi (more than 57,000 km) on searching effort.\n\nPurpose:\nAlnitak is a non-governmental non-profit association, founded in 1990 with the main aim of developing studies in cooperation with universities, environmental organizations and other institutions to increase our knowledge on the marine and coastal environment and thereby contribute to biodiversity conservation strategies. Alnitak focuses most of its research efforts into providing baseline scientific data for the adoption of management measures that should make fisheries sustainability, economic development and biodiversity conservation compatible. For this reason, Alnitak and its researchers have participated in useful and important projects such as LIFE02NAT/E/8610, SCANS II, CODA and NECESSITY. The research team of Alnitak has wide experience in research fields such as: the bioacoustics applied to Acoustic Deterrent Devices (ADDs) and Acoustic Harassement Devices (AHDs) and especially in the development of playback experiments and the cetaceans' reactions to them; the study of populations of sea turtles and in particular the monitoring of the bycatch in longline gear, data collection onboard fishing vessels, and experimental techniques on mitigation measures; and the study of cetacean populations, in particular their abundance and habitat preferences through spatial modelling, and their conservation problems. In this sense, Alnitak has been focusing during the last years in the development of Conservation Plans and the design of Marine Protected Areas, based on robust scientific data. In addition, there is a strong tradition of cooperation and synergy among the Alnitak team and the main European and other international entities with programs devoted to these issues (e.g., NOAA Fisheries, WIDECAST, SMRU, IWC, DIFRES, ACCOBAMS, EC, IEO Spain), the main stakeholders (e.g., the longline fishing fleet) and the competent authorities in Spain (Ministry of Environment and Ministry of Fisheries). Alnitak conducts research using the research vessel Toftevaag, which has been used to carry out the cetacean and sea turtle research for more than 15 years.\n\nSupplemental information:\n[2016-09-20] The coordinates of two records were corrected:\nBalaenoptera physalus, 2009-06-27 10:20:46\nlat/long: (36.93, -5.775) =&gt; (35.93, -5.775)\nTursiops truncatus, 2007-01-14 10:08:39\nlat/long: (36.516830, 2.789667) =&gt; (36.516830, -2.789667)\n\n[2016-08-31] The 2007-2011 sightings were added.\n\nTime is in GMT.\n\nSeveral records do not have time recorded, which indicates the animal was seen far away and no contact was made.",
+    "url": "https://obis.org/dataset/6ff78b05-3413-4626-a0d1-d36e75e2b2d3",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_429"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Cañadas, A. 2013. Alnitak-Alnilam Cetaceans and sea turtles surveys off Southern Spain. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/429) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:35:59.000Z",
+    "keywords": [
+        "Occurrence,Vessels,Sightings,abundance,habitat preferences,spatial modeling,line transect",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_429",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-6.411333 35.18333,-6.411333 43.98167,9.066667 43.98167,9.066667 35.18333,-6.411333 35.18333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

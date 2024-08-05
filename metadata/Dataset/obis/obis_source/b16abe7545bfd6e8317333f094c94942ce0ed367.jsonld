@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/afb11459-df50-4528-88cd-99b324ebcf8e",
+    "name": "Southern Ocean Cnidarian Collections",
+    "description": "This dataset is a compilaton of occurrence data for Cnidaria extracted from the literature by Dhugal Lindsay.",
+    "url": "https://obis.org/dataset/afb11459-df50-4528-88cd-99b324ebcf8e",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=southern_ocean_cnidaria"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Lindsay D., [Date accessed]. A compilation of Cnidaria records for the Southern Ocean. Contribution to SCAR-MarBIN.",
+    "version": "2019-03-19T14:46:18.000Z",
+    "keywords": [
+        "Cnidaria",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=southern_ocean_cnidaria",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-150.29 -81.12,-150.29 77.04,6.28 77.04,6.28 -81.12,-150.29 -81.12"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11797",
+            "@type": "Organization",
+            "legalName": "Japan Agency for Marine-Earth Science and Technology, Yokosuka",
+            "name": "Japan Agency for Marine-Earth Science and Technology, Yokosuka",
+            "url": "https://oceanexpert.org/institution/11797"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

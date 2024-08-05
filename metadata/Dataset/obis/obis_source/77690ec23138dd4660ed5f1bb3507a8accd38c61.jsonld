@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4f33dadf-6972-4f1d-9ea6-69a4b8d1a813",
+    "name": "HMAP Dataset 10: Catalonian Coast",
+    "description": "This dataset contains data on various fish landings and fishing effort in Catalonia. The data covers the time period from 1831 to 1984.",
+    "url": "https://obis.org/dataset/4f33dadf-6972-4f1d-9ea6-69a4b8d1a813",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=hmap_10"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Garrido, A. and Alegret, J.L., 'HMAP Dataset 10: Catalonian Coast', in J.H Nicholls (comp.) HMAP Data Pages (https://oceanspast.org/hmap_db.php)",
+    "version": "2024-02-27T00:20:53.000Z",
+    "keywords": [
+        "Fishery statistics",
+        "Fishing effort",
+        "Historical records",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1920/1984",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=hmap_10",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "0.439999997615814 40.5999984741211,0.439999997615814 42.3300018310547,3.61999988555908 42.3300018310547,3.61999988555908 40.5999984741211,0.439999997615814 40.5999984741211"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17927",
+            "@type": "Organization",
+            "legalName": "University of Hull, Oceans Past Initiative",
+            "name": "University of Hull, Oceans Past Initiative",
+            "url": "https://oceanexpert.org/institution/17927"
+        }
+    ]
+}

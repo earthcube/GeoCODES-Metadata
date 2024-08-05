@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/62125eda-53d3-41bd-ae1f-1b7e0cda2963",
+    "name": "United States Geological Survey Nonindigenous Aquatic Species Database",
+    "description": "The Nonindigenous Aquatic Species Database (NAS) information resource is an established central repository for spatially referenced biogeographic accounts of introduced aquatic species. The NAS website provides scientific reports, online/real-time queries, spatial data sets, distribution maps, fact sheets, and general information.",
+    "url": "https://obis.org/dataset/62125eda-53d3-41bd-ae1f-1b7e0cda2963",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=usgs_nas"
+    ],
+    "license": "",
+    "citation": null,
+    "version": "2015-09-11T18:12:36.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1874/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=usgs_nas",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-170.2304266 8.635314771,-170.2304266 61.30468902,-59.58129497 61.30468902,-59.58129497 8.635314771,-170.2304266 8.635314771"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19361",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey – Wetland and Aquatic Research Center",
+            "name": "U.S. Geological Survey – Wetland and Aquatic Research Center",
+            "url": "https://oceanexpert.org/institution/19361"
+        }
+    ]
+}

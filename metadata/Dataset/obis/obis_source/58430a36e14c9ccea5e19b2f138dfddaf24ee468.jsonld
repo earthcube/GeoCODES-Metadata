@@ -1,0 +1,103 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e981eab6-f849-4891-8fac-495852829456",
+    "name": "The CPR Survey",
+    "description": "The SAHFOS CPR survey is the longest and most geographically extensive marine biological survey in the world. The CPR survey has been in operation in the North Sea and North Atlantic since 1946 and has systematically sampled up to 500 planktonic taxa from the major regions of the North Atlantic at a monthly resolution. This dataset contains also CPR surveys in the Pacific and the South Atlantic.",
+    "url": "https://obis.org/dataset/e981eab6-f849-4891-8fac-495852829456",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=cpr_public",
+        "https://doi.org/10.17031/1629"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Johns D, Broughton D (2019): The CPR Survey. v1.0. Marine Biological Association. Dataset/Samplingevent https://doi.org/10.17031/1629",
+    "version": "2024-02-26T23:53:13.000Z",
+    "keywords": [
+        "Phytoplankton",
+        "Zooplankton",
+        "Plankton",
+        "vessel of opportunity",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "PCI",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/CPWC/",
+            "description": "PCI"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sample size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "sample size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individual count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individual count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifestage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "lifestage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1946/2017",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/1629",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/1629",
+        "url": "https://doi.org/10.17031/1629"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=cpr_public",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.9688 -63.318,-179.9688 79.688,179.7659 79.688,179.7659 -63.318,-179.9688 -63.318"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/8326",
+            "@type": "Organization",
+            "legalName": "Sir Alister Hardy Foundation for Ocean Science",
+            "name": "Sir Alister Hardy Foundation for Ocean Science",
+            "url": "https://oceanexpert.org/institution/8326"
+        }
+    ]
+}

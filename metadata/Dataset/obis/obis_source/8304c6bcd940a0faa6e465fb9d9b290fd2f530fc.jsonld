@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a595a9a0-642a-473f-8c71-cc535ee29a2b",
+    "name": "Electronic Atlas of Ichthyoplankton on the Scotian Shelf of North America",
+    "description": "The EAISSNA database contains information on location and time of spawning, and abundance and distribution of eggs and larvae of marine fish on the Scotian Shelf of North America. 197 scientific publications from 1919 to 2001 were reviewed and original analysis conducted on datasets from the Department of Fisheries and Oceans (DFO) Scotian Shelf Ichthyoplankton Program (SSIP) and Fisheries Ecology Program (FEP) for 1976-82 from data archives, providing information on 107 taxa of fish and invertebrates. The database is intended for use in environmental assessment and management activities associated with offshore hydrocarbon development and production and ocean management.",
+    "url": "https://obis.org/dataset/a595a9a0-642a-473f-8c71-cc535ee29a2b",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=eaissna"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Stewart, P., Branton, R. 2004. Electronic Atlas of Ichthyoplankton on the Scotian Shelf of North America. Canadian Technical Report of Fisheries and Aquatic Sciences. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Version 1, Digital, retrieved from http://iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1903/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=eaissna",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-73.5 12.5,-73.5 56,55 56,55 12.5,-73.5 12.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ebbf3dc-12c8-4b97-8e00-610c1333bef1",
+    "name": "Epibenthic fauna along the salinity gradient in the Westerschelde area in 1990",
+    "description": "Overview of monthly epibenthic fauna in a marine and brackish zone along the salinity gradient of the Westerschelde in 1990. The data were digitized by VLIZ from the original report: Puturuhu, L. (1994). Density, biomass and feeding consumption of some demersal fish along salinity gradient in the Westerschelde area. MSc Thesis. RUG: Gent. IV, 44 pp.",
+    "url": "https://obis.org/dataset/5ebbf3dc-12c8-4b97-8e00-610c1333bef1",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=epibenthic_fauna_westerschelde_1990",
+        "https://dx.doi.org/10.14284/222"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Puturuhu L.; Vincx M.; Fundamental and Applied Marine Ecology Post Graduate Program (FAME). VUB; Marine Biology Section, Zoology Institute. Ugent: Belgium; (2016): Epibenthic fauna along the salinity gradient in the Westerschelde area in 1990. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4590) https://dx.doi.org/10.14284/222",
+    "version": "2023-12-08T18:31:58.000Z",
+    "keywords": [
+        "Epibenthos",
+        "Salinity gradients",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "area sampled of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area sampled of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling net mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100015/",
+            "description": "sampling net mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance (per taxon) of macrofauna >1000um per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance (per taxon) of macrofauna >1000um per unit area of the bed"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ash-free dry weight biomass (per taxon) of epibenthos per unit area of the bed",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL03/",
+            "description": "Ash-free dry weight biomass (per taxon) of epibenthos per unit area of the bed"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/1990",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/222",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/222",
+        "url": "https://dx.doi.org/10.14284/222"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=epibenthic_fauna_westerschelde_1990",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.596068 51.358276,3.596068 51.435683,4.208335 51.435683,4.208335 51.358276,3.596068 51.358276"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9550",
+            "@type": "Organization",
+            "legalName": "Vrije Universiteit Brussel",
+            "name": "Vrije Universiteit Brussel",
+            "url": "https://oceanexpert.org/institution/9550"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19530",
+            "@type": "Organization",
+            "legalName": "Royal Netherlands Academy of Arts and Sciences – Netherlands Institute of Ecology",
+            "name": "Royal Netherlands Academy of Arts and Sciences – Netherlands Institute of Ecology",
+            "url": "https://oceanexpert.org/institution/19530"
+        }
+    ]
+}

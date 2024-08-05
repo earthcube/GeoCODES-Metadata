@@ -1,0 +1,122 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/23c06d38-07cb-40a6-aa00-b878f1bcae94",
+    "name": "SeaWatch-B: citizens monitoring the Belgian North Sea from the beach (2014-2018)",
+    "description": "SeaWatch-B dataset (in Dutch) for the period of June 2014 to June 2018.",
+    "url": "https://obis.org/dataset/23c06d38-07cb-40a6-aa00-b878f1bcae94",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=seawatch-b",
+        "https://dx.doi.org/10.14284/401"
+    ],
+    "license": "Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)",
+    "citation": "Seys, J.; Pint, S.; Vervaele, K.; Vanhaecke, P.; Van Landschoot, W.; Saevels, M.; Goossens, H.; Berkers, M.; Balcaen, R.; Coppens, S.; Vanden Eede, S.; Fabrice, A.; Willaert, M.; Nelen, L.; Colpaert, N.; Quartier, M.; Verbeke, D.; Flanders Marine Institute (VLIZ): Belgium; (2020): SeaWatch-B: citizens monitoring the Belgian North Sea from the beach (2014-2018). Marine Data Archive. https://dx.doi.org/10.14284/401",
+    "version": "2024-02-26T23:45:23.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Time of Low Tide, elapsed between 00:00 UT on the date of the event of interest and that event.",
+            "url": "",
+            "description": "Time of Low Tide, elapsed between 00:00 UT on the date of the event of interest and that event."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "presence of sprouting plants in the sampling area, yes/no",
+            "url": "",
+            "description": "presence of sprouting plants in the sampling area, yes/no"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "air temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01/",
+            "description": "air temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "The physical length of a sample upon which measurements have been made, length that was trawled along the shore, transect length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SEGMLENG/",
+            "description": "The physical length of a sample upon which measurements have been made, length that was trawled along the shore, transect length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Time at start of traject survey, elapsed between 00:00 UT on the date of the event of interest and that event.",
+            "url": "",
+            "description": "Time at start of traject survey, elapsed between 00:00 UT on the date of the event of interest and that event."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "The period of time during which a sample was collected or an observation was made, duration of the trawl",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "The period of time during which a sample was collected or an observation was made, duration of the trawl"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length minimum of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMINLX/",
+            "description": "Length minimum of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length maximum of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSMAXLX/",
+            "description": "Length maximum of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Time at end of traject survey, elapsed between 00:00 UT on the date of the event of interest and that event.",
+            "url": "",
+            "description": "Time at end of traject survey, elapsed between 00:00 UT on the date of the event of interest and that event."
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2018",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/401",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/401",
+        "url": "https://dx.doi.org/10.14284/401"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=seawatch-b",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.623003 51.11931,2.623003 51.34679,3.261183 51.34679,3.261183 51.11931,2.623003 51.11931"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

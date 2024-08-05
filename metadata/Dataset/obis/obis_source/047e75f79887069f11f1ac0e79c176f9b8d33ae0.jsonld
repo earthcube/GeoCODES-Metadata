@@ -1,0 +1,92 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c37c6228-542c-45a2-8bef-009ee03672a8",
+    "name": "Macrofauna collected on colonization surfaces at the East Pacific Rise 9 50 N hydrothermal vent field in 1998-2017",
+    "description": "This dataset includes an occurrence table for macrofauna collected on colonization surfaces at the East Pacific Rise 9 50 N hydrothermal vent field in 1998-2017. The colonization surfaces were recovered before or after an eruption in January 2006, with pre-eruption blocks at East Wall and post-eruption sandwiches at P Vent. Samples were preserved in ethanol and examined under a dissecting microscope, and species and morphogroups were matched to equal or lowest level taxon in the World Register of Marine Species (WoRMS). The extended measurement or facts table specifies the number of months since eruption, deployment habitat zone (H=Hot, W=Warm, C=Cool), and recovery temperature (deg C) for each sample. This dataset derives from counts of colonists reported by Mullineaux (2020, DOI:10.26008/1912/bco-dmo.733173.2) for sampling events and cruises listed by Mullineaux (2020, DOI:10.26008/1912/bco-dmo.733210.3). Funding to standardize these data to Darwin Core for sharing through the Ocean Biodiversity Information System was from NSF DEB-1558904 and NSF OCE-1829773. This dataset provides 3536 machine-readable counts of macrofauna at a hydrothermal vent field located in the area beyond national jurisdiction.",
+    "url": "https://obis.org/dataset/c37c6228-542c-45a2-8bef-009ee03672a8",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=whoi_epr_deepseavents_speciescounts"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2021-01-05T21:46:10.000Z",
+    "keywords": [
+        "Samplingevent",
+        "hydrothermal vent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Deployment habitat zone (H=Hot, W=Warm, C=Cool)",
+            "url": "",
+            "description": "Deployment habitat zone (H=Hot, W=Warm, C=Cool)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total number of months since eruption",
+            "url": "",
+            "description": "Total number of months since eruption"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "habitat",
+            "url": "http://rs.tdwg.org/dwc/terms/habitat",
+            "description": "habitat"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "recovery temperature",
+            "url": "",
+            "description": "recovery temperature"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplerID",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPID01/",
+            "description": "samplerID"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1998/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=whoi_epr_deepseavents_speciescounts",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-104.2919 9.8387,-104.2919 9.8421,-104.2912 9.8421,-104.2912 9.8387,-104.2919 9.8387"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9783",
+            "@type": "Organization",
+            "legalName": "Woods Hole Oceanographic Institution",
+            "name": "Woods Hole Oceanographic Institution",
+            "url": "https://oceanexpert.org/institution/9783"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

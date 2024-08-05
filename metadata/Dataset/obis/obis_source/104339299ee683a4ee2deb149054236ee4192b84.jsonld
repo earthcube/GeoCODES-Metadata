@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/3957a166-7b48-4359-b06f-92b65218e829",
+    "name": "AIMS Long-term Monitoring Program: Video and Photo Transects (Great Barrier Reef) - coral cover on standard reefs and paired zoning reefs. Australia (2011-2013)",
+    "description": "This dataset is a combination of two projects monitoring long-term trends in coral reef communities of the Great Barrier Reef (GBR) -  NERP TE Project 1.1 Monitoring status and trends of coral reefs of the GBR (AIMS) (see https://eatlas.org.au/data/uuid/1a46774e-a3ac-4982-b08b-94ce1ad8d45c) and NERP TE Project 8.1 Monitoring the ecological effects of the Great Barrier Reef Zoning Plan on mid- and outer-shelf reefs (AIMS) (see https://eatlas.org.au/data/uuid/2cf689a9-2f4e-4658-b838-9bdca45919ea) . Coral cover in percentage has been recorded at the family level. Data accessed 2020-03-20 from  https://apps.aims.gov.au/metadata/view/5a8a4b00-4ade-11dc-8f56-00008a07204e using the two 'Subset of data...' links in the General Links section. ",
+    "url": "https://obis.org/dataset/3957a166-7b48-4359-b06f-92b65218e829",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=nerp_ltmp_corals"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T05:43:53.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=nerp_ltmp_corals",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "145.3514 -23.89088,145.3514 -14.52352,152.66857 -14.52352,152.66857 -23.89088,145.3514 -23.89088"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

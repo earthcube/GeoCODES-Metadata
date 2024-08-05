@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ea15911-440a-4e68-9376-d8524ef62eaa",
+    "name": "Phytoplankton Occurrence Data from Northeastern Arabian Sea",
+    "description": "The dataset comprises of distribution records of different species of phytoplankton collected onboard FORV Sagar Sampada Cruises 262, 263, 264, 273, 284, 285,  297,286, 298,313 &amp; 314",
+    "url": "https://obis.org/dataset/5ea15911-440a-4e68-9376-d8524ef62eaa",
+    "sameAs": [
+        "http://ipt.iobis.org/indobis/resource?r=phytoplanktondatasetsfromnortheasternarabianseageneratedonboardforvsagarsampada"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Phytoplankton Occurrence Data from Northeastern Arabian Sea:Indian Ocean Biodiversity Information System (IndOBIS)",
+    "version": "2022-01-19T12:16:59.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2013",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/indobis/archive.do?r=phytoplanktondatasetsfromnortheasternarabianseageneratedonboardforvsagarsampada",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "64.0075 9.988611111,64.0075 22.39583333,75.46666667 22.39583333,75.46666667 9.988611111,64.0075 9.988611111"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11420",
+            "@type": "Organization",
+            "legalName": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "name": "Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India",
+            "url": "https://oceanexpert.org/institution/11420"
+        }
+    ]
+}

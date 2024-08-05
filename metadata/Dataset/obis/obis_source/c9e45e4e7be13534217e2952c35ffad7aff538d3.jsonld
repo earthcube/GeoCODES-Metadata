@@ -1,0 +1,47 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f7677584-eb01-44ca-96f9-a334381034fa",
+    "name": "Alabama Museum of Natural History Invertebrate Zoology (Arctos)",
+    "description": "The Invertebrate Zoology Collection contains over 23,000 catalogued lots of marine, freshwater, and terrestrial invertebrates and an estimated 10,000 additional lots of uncatalogued specimens.",
+    "url": "https://obis.org/dataset/f7677584-eb01-44ca-96f9-a334381034fa",
+    "sameAs": [
+        "http://ipt.vertnet.org:8080/ipt/resource?r=almnh_inv"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Alabama Museum of Natural History Invertebrate Zoology Collection https://arctos.database.museum/collection/ALMNH:Inv",
+    "version": "2024-03-14T00:02:53.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1900/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.vertnet.org:8080/ipt/archive.do?r=almnh_inv",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-176.9850916667 -76.998275,-176.9850916667 86.2666666667,174.7333333333 86.2666666667,174.7333333333 -76.998275,-176.9850916667 -76.998275"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,113 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8726cede-98ab-4c06-859d-ce997e8f9717",
+    "name": "Distribution and community structure of benthic copepods in the Delta area and the Ems-Dollard between 1976 and 1981",
+    "description": "Frequency, density and biomass of copepoda species for several stations in the Oosterschelde, Grevelingen and the Eems-Dollard sampled between 1976 and 1983. The data were digitized by VLIZ from the original report: Willems, K.A. (1989). Verspreiding, ecologie en gemeenschapsstructuur van benthische copepoden in het Delta-gebied en de Eems-Dollard (Nederland). PhD Thesis. Rijksuniversiteit Gent, Faculteit der Wetenschappen: Gent. 2 vol. (440, 198) pp.",
+    "url": "https://obis.org/dataset/8726cede-98ab-4c06-859d-ce997e8f9717",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=benthic_copepods_delta_ems-dollard_1976-1981",
+        "https://dx.doi.org/10.14284/216"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Willems K.A.; Coomans A.; Faculteit Wetenschappen. RUG: Belgium; (2016): Distribution and community structure of benthic copepods in the Delta area and the Ems-Dollard between 1976 and 1981. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5080) https://dx.doi.org/10.14284/216",
+    "version": "2023-12-08T17:11:05.000Z",
+    "keywords": [
+        "Distribution",
+        "Frequency",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "observedIndividualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "observedIndividualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area sampled of the bed, surface area of the corer",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area sampled of the bed, surface area of the corer"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "unspecified sampling device dimension",
+            "url": "",
+            "description": "unspecified sampling device dimension"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "unspecified sampling device length",
+            "url": "",
+            "description": "unspecified sampling device length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Individual dry weight or dry weight range for a particular copepod species",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/",
+            "description": "Individual dry weight or dry weight range for a particular copepod species"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Average number of copepod individuals per unit of area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Average number of copepod individuals per unit of area"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1976/1983",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/216",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/216",
+        "url": "https://dx.doi.org/10.14284/216"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=benthic_copepods_delta_ems-dollard_1976-1981",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "3.317222 51.396197973268,3.317222 53.481966,7.188447 53.481966,7.188447 51.396197973268,3.317222 51.396197973268"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9162",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Faculteit Wetenschap",
+            "name": "Universiteit Gent, Faculteit Wetenschap",
+            "url": "https://oceanexpert.org/institution/9162"
+        }
+    ]
+}

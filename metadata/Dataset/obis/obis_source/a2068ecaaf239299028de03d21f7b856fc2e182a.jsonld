@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f0bd3910-fe57-4922-a877-ca0f4774a163",
+    "name": "Phytoplankton samples - 2005/06 V3 BROKE-West",
+    "description": "Locations of sampling sites for ASAC project 40 on voyage 3 of the Aurora Australis in the 2005/2006 season. The dataset also contains information on chlorophyll, carotenoids, coccolithophorids and species indentification and counts. ( see http://data.aad.gov.au/aadc/voyages/display_voyage.cfm?voyage_id=178).",
+    "url": "https://obis.org/dataset/f0bd3910-fe57-4922-a877-ca0f4774a163",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=broke_west_phytoplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Australian Antarctic Data Centre. Phytoplankton samples - 2005/06 V3 BROKE-West.",
+    "version": "2021-05-06T03:47:32.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=broke_west_phytoplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.9985 -69.0785,29.9985 -59.7976,79.9996 -59.7976,79.9996 -69.0785,29.9985 -69.0785"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

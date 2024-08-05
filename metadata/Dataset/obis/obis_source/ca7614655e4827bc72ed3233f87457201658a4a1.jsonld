@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/30c53413-335f-4f6b-9512-b358cea14de7",
+    "name": "Foraging behaviour in the Short-Tailed Shearwater (Puffinus tenuirostris) using GPS, Bass Strait, Australia (2012)",
+    "description": "The study was conducted at Gabo Island Lighthouse Reserve (37°33’S, 149°54’E) and Griffith Island, Port Fairy (38°22’S, 142°13’E), two colonies located at both extremities of Bass Strait in south-eastern Australia. Breeding populations are estimated at more than 6,000 pairs at Gabo Island and 15,000 pairs at Griffith Island. Data were collected during the early chick-rearing period in February 2012.Fourteen trips were recorded using GPS and accelerometers to measure bird behaviour (e.g. foraging, resting etc). The original data has been recorded at every second whilst this published version is every 60 seconds. Data was accessed from the repository mentioned in the cited publication on 2022-07-10.\n\n",
+    "url": "https://obis.org/dataset/30c53413-335f-4f6b-9512-b358cea14de7",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=stsh_tracking_gabo_griffith"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Berlincourt M, Angel LP, Arnould JPY (2015) Combined Use of GPS and Accelerometry Reveals Fine Scale Three-Dimensional Foraging\nBehaviour in the Short-Tailed Shearwater. PLoS ONE 10(10): e0139351. doi:10.1371/journal.pone.0139351",
+    "version": "2022-07-20T01:02:52.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Bird behaviour",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/GP088",
+            "description": "Bird behaviour"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=stsh_tracking_gabo_griffith",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.46907 -39.35805,141.46907 -37.1249,150.10756 -37.1249,150.10756 -39.35805,141.46907 -39.35805"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19636",
+            "@type": "Organization",
+            "legalName": "Deakin University",
+            "name": "Deakin University",
+            "url": "https://oceanexpert.org/institution/19636"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

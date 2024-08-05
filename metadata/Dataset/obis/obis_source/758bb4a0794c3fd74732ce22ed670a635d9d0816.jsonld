@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d568d82f-618b-4e5a-a824-cc0280827d77",
+    "name": "Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)",
+    "description": "The North West Shelf Joint Environmental Management Study (NWSJEMS) was a $7.7 million marine environmental study of the North West Shelf jointly funded by CSIRO and the Western Australian Government. Further details and reports at https://www.cmar.csiro.au/nwsjems/\n.\nThe data presented here was summarised to produce an interim report to describe the trawling effort and total catch in the North West Shelf of Australia between 1973 and 1997. It contains foreign and domestic commercial fisheries data from three separate sources: Taiwanese Logbook data (Anon. 1973-1982), foreign (Taiwanese, Chinese and South Korean) trawl data collated by the Australian Fisheries Management Authority (1979-1989), and domestic catch and effort statistics data collated by Fisheries, Western Australia (1979-1997). Trawling effort and total catch by year, as well as catches of 22 species categories (mostly family level classifications) are summarised spatially into a 10x10 minute grid scale over part of the NWS region to show spatial distribution. The original Report produced Mar 2001 was updated and corrected in 2003. The corrections made are: (1) the Taiwanese total catch was recalculated using all categories reported in the Annual reports (previously invertebrates, 'dumped' and 'other' were excluded); (2)Taiwanese effort data was corrected for logbook recovery rates reported in the Annual Reports. The update refers to an additional section describing the data that was used in NWS-JEMS Project 5. The original data along with the analysis report can be downloaded at https://www.marine.csiro.au/data/trawler/download.cfm?file_id=5456 ",
+    "url": "https://obis.org/dataset/d568d82f-618b-4e5a-a824-cc0280827d77",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=jems_trawl"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "F. Althaus, K. Woolley, X. He, P. Stephenson and R. Little (2006) The spatial distribution of commercial fishery production on Australia’s North West Shelf. NWSJEMS Technical Report No. 10",
+    "version": "2023-10-27T00:23:01.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Trawl time",
+            "url": "",
+            "description": "Trawl time"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1979/1985",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=jems_trawl",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "114 -21.93,114 -14.46,122.7 -14.46,122.7 -21.93,114 -21.93"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

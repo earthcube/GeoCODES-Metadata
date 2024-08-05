@@ -1,0 +1,87 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/573e9ab1-78d1-4d73-ab42-992ceeed0638",
+    "name": "Data on cetacean occurrence collected during the project \"EMBLAS-Plus, Improving Environmental Monitoring in the Black Sea - Selected Measures\", 2019",
+    "description": "The dataset contains information collected within the EMBLAS-Plus Project on the occurrence of the cetaceans in the north-western part of the Black Sea including photo identification surveys and linear-transect surveys of density and abundance during summer-autumn 2019",
+    "url": "https://obis.org/dataset/573e9ab1-78d1-4d73-ab42-992ceeed0638",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=marine_mammals"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Vishnyakova, K., Gladilina, E. , Gol'din, P., Ivanchikova,  J., Neprokin, O., Komorin, V.;   Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES); (2020): Data on cetacean occurrence collected during the project \"EMBLAS-Plus, Improving Environmental Monitoring in the Black Sea - Selected Measures\", 2019",
+    "version": "2023-05-23T12:26:04.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "Biological sampling",
+        "ship",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Platform name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Platform name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform type",
+            "url": "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/",
+            "description": "Platform type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "distance from vessel",
+            "url": "",
+            "description": "distance from vessel"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=marine_mammals",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "29.7764 45.1635,29.7764 46.589,33.0955 46.589,33.0955 45.1635,29.7764 45.1635"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

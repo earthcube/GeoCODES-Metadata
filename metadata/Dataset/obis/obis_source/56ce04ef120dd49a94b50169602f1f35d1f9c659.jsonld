@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/05f29159-ae9e-4d58-b9ed-2d67791e204b",
+    "name": "Queensland Coastal Wetlands Resources Mapping Data - Mangroves",
+    "description": "1:100,000 coastal wetland vegetation mapping for Queensland including mangrove communities, saltpans and saline grasslands. Mapping taken from Landsat TM images with ground truthing. Additional metadata is available for details of techniques and accuracy for each section of coastline. Data Currency for each section of coast: NT border to Flinders River - 1995 SE Gulf of Carpentaria - 1987, 1988, 1991, 1992 Cape York Peninsula - 1986-88, 1991 Cape Trib to Bowling Green Bay - 1997-99 The Burdekin Region - 1991 The Bowen Region - 1994-95 The Whitsunday Region - 1997 Repulse Bay - 1989 Central Qld - 1995, 1997 The Curtis Coast Region - 1997 Round Hill Head to Tin Can Inlet - 1997 Moreton Region - 1995.\nData and metadata sourced from https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=135EB151-D406-4094-9E9F-40ABC5AA0C7B December 2020. This dataset is hosted by the Institute for Marine and Antarctic Studies (IMAS), University of Tasmania, on behalf of The Queensland Government for the purposes of the Seamap Australia collaborative project (testing a national marine benthic habitat classification scheme).",
+    "url": "https://obis.org/dataset/05f29159-ae9e-4d58-b9ed-2d67791e204b",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seamapaus_qld_coastal_wetlands"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T06:04:54.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2001/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seamapaus_qld_coastal_wetlands",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "138.004577706652 -28.1511850153883,138.004577706652 -10.0629967985275,153.477897998779 -10.0629967985275,153.477897998779 -28.1511850153883,138.004577706652 -28.1511850153883"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18364",
+            "@type": "Organization",
+            "legalName": "Queensland Government",
+            "name": "Queensland Government",
+            "url": "https://oceanexpert.org/institution/18364"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

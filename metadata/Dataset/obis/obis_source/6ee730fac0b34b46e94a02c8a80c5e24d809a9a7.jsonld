@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d8ecc69c-1171-47d2-8cd8-e8a226e449c7",
+    "name": "Australian Institute of Marine Science (AIMS) - Baited Remote Underwater Video Station (BRUVS), Australia (1999 to present)",
+    "description": "Recordings of marine organism attracted to baited underwater video cameras (BRUVS). BRUVS are deployed in groups of 4 – 6, separated by approximately 450 m, for approximately 60 minutes. The spacing and deployment times are designed to achieve independence of each sampling set. Information gathered include time to arrival, maximum number of species seen and basic behaviour.\nThis dataset is an aggregate of many surveys. Use the AIMS Data catalogue search page (https://apps.aims.gov.au/metadata/search), searching for BRUVS to identify the datasets of interest.\nTaxa have been matched to the World Register of Marine Species (WoRMS).",
+    "url": "https://obis.org/dataset/d8ecc69c-1171-47d2-8cd8-e8a226e449c7",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=aims_bruvs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": " (2023): Australian Institute of Marine Science (AIMS) - Baited Remote Underwater Video Station (BRUVS), Australia (1999 to present). v1.10. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=aims_bruvs&amp;v=1.10",
+    "version": "2023-06-29T03:42:56.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1999/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=aims_bruvs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "113.55333 -31.77347,113.55333 -10.12683,159.28446 -10.12683,159.28446 -31.77347,113.55333 -31.77347"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/96",
+            "@type": "Organization",
+            "legalName": "Australian Institute of Marine Science, Townsville",
+            "name": "Australian Institute of Marine Science, Townsville",
+            "url": "https://oceanexpert.org/institution/96"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

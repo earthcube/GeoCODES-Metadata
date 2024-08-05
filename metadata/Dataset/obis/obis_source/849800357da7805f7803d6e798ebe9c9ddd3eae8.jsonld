@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b920c161-c295-4a73-b9a4-96ab1ab0b357",
+    "name": "Larvae collected near deep-sea hydrothermal vent fields for microbiome study",
+    "description": "This dataset provides the sampling locations and identifications for a total of 60 larvae collected near deep-sea hydrothermal vent fields and used in a microbiome study by Carrier et al. (2020, submitted). The larvae were collected near hydrothermal vent fields on the East Pacific Rise (EPR 9°50'N vent field), on the Mariana Back-Arc Spreading Center (near Snail and Archaean vent fields), and in Pescadero Basin (Auka vent field) in the Gulf of California. This dataset is derived from a dataset in the Biological and Chemical Oceanography Data Management Office (BCO-DMO) repository (Beaulieu et al., 2021, doi:10.26008/1912/bco-dmo.839476.1) with the addition of two Darwin Core terms recommended for the Global Biodiversity Information Facility (GBIF; countryCode and kingdom). See the dataset in BCO-DMO for acquisition description, data columns removed that were not in the Darwin Core standard (e.g., Lowest_level_taxon_name_or_morphotype, microbiome_16S_Dryad), and associatedMedia. Note that the use of the Darwin Core term habitat differs from the standard definition; we describe the habitat as \"hydrothermal vent\" ENVO term http://purl.obolibrary.org/obo/ENVO_00000215 for those taxa for which we are confident that the adults live at a hydrothermal vent, otherwise NotDetermined. Funding to collect specimens was from the U.S. National Science Foundation (NSF) OCE-0424953 and OCE-1028862 and the Dalio Explore Fund, and funding to standardize these data to Darwin Core for sharing through the Ocean Biodiversity Information System was from NSF DEB-1558904 and OCE-1829773.",
+    "url": "https://obis.org/dataset/b920c161-c295-4a73-b9a4-96ab1ab0b357",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=whoi_deep_sea_larvae_microbiome"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2021-05-31T13:21:58.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=whoi_deep_sea_larvae_microbiome",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-108.8625 9.8401,-108.8625 23.957,143.6296 23.957,143.6296 9.8401,-108.8625 9.8401"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9783",
+            "@type": "Organization",
+            "legalName": "Woods Hole Oceanographic Institution",
+            "name": "Woods Hole Oceanographic Institution",
+            "url": "https://oceanexpert.org/institution/9783"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

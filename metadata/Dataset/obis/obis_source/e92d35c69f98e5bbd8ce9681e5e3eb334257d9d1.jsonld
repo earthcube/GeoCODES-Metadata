@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9cdcfc4a-791f-45b4-8923-ed2011602e6c",
+    "name": "Zooplancton del estrecho de Bransfield y alrededores de Isla Elefante, verano austral 2019-2020, durante la VI Expedición Científica de Colombia en la Antártica",
+    "description": "Composición taxonómica y abundancia del meso y macro zooplancton recolectado en el Estrecho de Bransfield y alrededores de isla Elefante durante el verano austral 2019-2020. Las muestras de meso zooplancton se obtuvieron a partir de dos tipos de arrastres recolectados desde alrededor de los 300 m de profundidad hasta la superficie; el primero realizando arrastres oblicuos utilizando una red bongo con mallas de 300 μm y 500 μm, y el segundo a partir de arrastres verticales utilizando una red estándar de 200 µm. Las muestras de macrozooplancton se obtuvieron mediante arrastres oblicuos desde los 170 m de profundidad hasta la superficie, utilizando una red IKMT con malla de 500 µm. El volumen de agua filtrada en las tres redes utilizadas para la recolecta de las muestras biológicas se determinó mediante flujómetros Hydrobios®; con este valor se calculó la abundancia de las morfoespecies encontradas, estandarizadas en función del volumen de agua filtrada en cada estación a individuos por 1000 m3.",
+    "url": "https://obis.org/dataset/9cdcfc4a-791f-45b4-8923-ed2011602e6c",
+    "sameAs": [
+        "https://ipt.biodiversidad.co/sibm/resource?r=zooplancton-antartica-uis",
+        "https://doi.org/10.15472/c3ggag"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Jerez-Guerrero M, Criales-Hernández M I (2021): Zooplancton del estrecho de Bransfield y alrededores de Isla Elefante, verano austral 2019-2020, durante la VI Expedición Científica de Colombia en la Antártica. v2.3. Universidad Industrial de Santander. Dataset/Samplingevent. https://doi.org/10.15472/c3ggag",
+    "version": "2021-11-11T20:01:15.000Z",
+    "keywords": [
+        "Zooplancton",
+        "Estrecho de Bransfield",
+        "Colombia",
+        "Antártica",
+        "UIS"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of biological entity specified elsewhere per unit volume of the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of biological entity specified elsewhere per unit volume of the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2020",
+    "identifier": {
+        "@id": "https://doi.org/10.15472/c3ggag",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15472/c3ggag",
+        "url": "https://doi.org/10.15472/c3ggag"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversidad.co/sibm/archive.do?r=zooplancton-antartica-uis",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-61.2498167 -63.52357,-61.2498167 -60.4681,-53.2333333 -60.4681,-53.2333333 -63.52357,-61.2498167 -63.52357"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

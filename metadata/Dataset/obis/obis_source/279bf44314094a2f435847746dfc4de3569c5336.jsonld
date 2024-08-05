@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4f46f9d8-dc63-4546-9dd5-075df3d25e4a",
+    "name": "iziko South African Museum - Crustacean Collection",
+    "description": "Iziko South African Museum houses the most important crustacean (crabs, lobsters, shrimps, barnacles) collection in South Africa. Significant past contributions were made by K.H. Barnard, J.R. Grindley and B.F. Kensley (Crustacea). It currently contains 13127 records of 348 families.",
+    "url": "https://obis.org/dataset/4f46f9d8-dc63-4546-9dd5-075df3d25e4a",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=iziko_crustaceans"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "iziko South African Museum - Crustacean Collection",
+    "version": "2020-12-02T14:08:28.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1886/2003",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=iziko_crustaceans",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-169.067001343 -68,-169.067001343 60.4500007629,178 60.4500007629,178 -68,-169.067001343 -68"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

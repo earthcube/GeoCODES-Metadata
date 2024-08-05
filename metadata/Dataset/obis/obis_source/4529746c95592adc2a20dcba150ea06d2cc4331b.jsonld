@@ -1,0 +1,106 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1f33ac1f-ee0c-408a-a435-eb667e3199dc",
+    "name": "Harmful algal blooms in South America except Venezuela, Colombia and the Guyanas",
+    "description": "Harmful algal blooms in South America except Venezuela, Colombia and the Guyanas (HAB region 3).",
+    "url": "https://obis.org/dataset/1f33ac1f-ee0c-408a-a435-eb667e3199dc",
+    "sameAs": [
+        "http://ipt.iobis.org/hab/resource?r=hab_region_3"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Sunesen I (2018): Harmful algal blooms in South America except Venezuela, Colombia and the Guyanas. v1.8. No organisation. Dataset/Occurrence. http://ipt.iobis.org/hab/resource?r=hab_region_3&amp;v=1.8",
+    "version": "2021-07-15T16:08:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "PSTX; GTX1/4 predominant",
+            "url": "",
+            "description": "PSTX; GTX1/4 predominant"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "PTX-2",
+            "url": "",
+            "description": "PTX-2"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Ichthyotoxicity",
+            "url": "",
+            "description": "Ichthyotoxicity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "DA",
+            "url": "",
+            "description": "DA"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "OA",
+            "url": "",
+            "description": "OA"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "YTX",
+            "url": "",
+            "description": "YTX"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "PSP",
+            "url": "",
+            "description": "PSP"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SPX-1 and 20-Me-SPX-G",
+            "url": "",
+            "description": "SPX-1 and 20-Me-SPX-G"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Domoic acid detected in cultures",
+            "url": "",
+            "description": "Domoic acid detected in cultures"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "quantity",
+            "url": "",
+            "description": "quantity"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1932/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/hab/archive.do?r=hab_region_3",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-90.7045 -60.6732,-90.7045 8.9216,61.48 8.9216,61.48 -60.6732,-90.7045 -60.6732"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/6897b33d-8865-4a9b-ae13-2d73cd33d1e5",
+    "name": "PANGAEA - Data from University Bremen",
+    "description": "Geoscience data from the University of Bremen. Delivered through PANGAEA.\n\nAvailable data:\n<ul>\n<li> Temporal and spatial variations in Coccolithophorid communities in the subtropical Eastern Atlantic \n</li><li> Sedimentology of the Rio Grande Rise area\n</li><li> Late Quaternary planktic foraminifera assemblages in the South Atlantic Ocean\n</li><li> …</li></ul>",
+    "url": "https://obis.org/dataset/6897b33d-8865-4a9b-ae13-2d73cd33d1e5",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pangaea_2723"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-05-23T11:39:49.000Z",
+    "keywords": [
+        "Foraminifera",
+        "Sedimentology",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1988/2001",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pangaea_2723",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-171.499 -46.145,-171.499 55.19,34.6492 55.19,34.6492 -46.145,-171.499 -46.145"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

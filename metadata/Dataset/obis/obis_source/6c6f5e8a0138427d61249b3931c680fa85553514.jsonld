@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/cb3acb79-0ed2-4a2c-8f64-d14e0c9c82b5",
+    "name": "Organisms observed during the Shipboard Oceanographic Laboratory 3, Department of Marine Biology, Tokai University",
+    "description": "This dataset contains records of organisms observed during the cruises of R/V Bosei-maru, conducted for the \"Shipboard Oceanographic Laboratory 3\" in the Department of Marine Biology, Tokai University in 2016-2018. Each cruise made a round trip from Shimizu Port in Shizuoka Prefecture to Chichijima in Ogasawara Islands. Data including seabirds, fishes and dolphins/whales based on visual inspections, trolling and rod fishing is provided.",
+    "url": "https://obis.org/dataset/cb3acb79-0ed2-4a2c-8f64-d14e0c9c82b5",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=tokai_univ_kb_shipboard_oceanographic_laboratory_3",
+        "https://doi.org/10.48518/00008"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the                  Public Domain (CC0 1.0)",
+    "citation": "Department Marine Biology, Tokai University (2022) Organisms observed during the Shipboard Oceanographic Laboratory 3, Department of Marine Biology, Tokai University. Available at https://doi.org/10.48518/00008. Accessed on yyyy-mm-dd.",
+    "version": "2023-12-31T15:00:18.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2016/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.48518/00008",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.48518/00008",
+        "url": "https://doi.org/10.48518/00008"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=tokai_univ_kb_shipboard_oceanographic_laboratory_3",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "139.5855517 26.6863167,139.5855517 32.0217167,142.580495 32.0217167,142.580495 26.6863167,139.5855517 26.6863167"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

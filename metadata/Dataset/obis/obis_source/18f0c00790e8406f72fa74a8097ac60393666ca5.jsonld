@@ -1,0 +1,82 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/49884da4-2b9e-4cd0-b23d-cc0acbb950cb",
+    "name": "Total phytoplankton inventory in the Southern Bight of the North Sea between 1973 and 1974",
+    "description": "Phytoplankton abundances and cell counts for 45 stations in the Southern Bight of the North Sea between November 1973 and May 1974.The data are digitized from technical reports in the frame of the 4DEMON project.",
+    "url": "https://obis.org/dataset/49884da4-2b9e-4cd0-b23d-cc0acbb950cb",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=total_phytoplankton_inventory_in_the_southern_bight_of_the_north_sea_between_1973_and_1974",
+        "https://dx.doi.org/10.14284/337"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Huys L.; Laboratorium voor Hydro(bio)logie. KUL: Belgium; (2019): Total phytoplankton inventory in the Southern Bight of the North Sea between 1973 and 1974. Marine Data Archive. https://dx.doi.org/10.14284/337",
+    "version": "2024-02-27T00:20:54.000Z",
+    "keywords": [
+        "Phytoplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance of phytoplankton species per unit volume of the water column",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance of phytoplankton species per unit volume of the water column"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Categorisation as living or non-living of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL11/",
+            "description": "Categorisation as living or non-living of biological entity specified elsewhere"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1973/1974",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/337",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/337",
+        "url": "https://dx.doi.org/10.14284/337"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=total_phytoplankton_inventory_in_the_southern_bight_of_the_north_sea_between_1973_and_1974",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "1.65 51.08888889,1.65 52.60833333,4.556944444 52.60833333,4.556944444 51.08888889,1.65 51.08888889"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19418",
+            "@type": "Organization",
+            "legalName": "Katholieke Universiteit Leuven",
+            "name": "Katholieke Universiteit Leuven",
+            "url": "https://oceanexpert.org/institution/19418"
+        }
+    ]
+}

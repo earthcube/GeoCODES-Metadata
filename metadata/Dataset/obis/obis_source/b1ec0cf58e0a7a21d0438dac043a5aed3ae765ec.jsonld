@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/56e46fd2-6162-4677-af50-9410fe08f834",
+    "name": "Marine Invertebrate Diversity Initiative",
+    "description": "The Marine Invertebrate Diversity Initiative dataset contains the marine invertebrate species that can be found in the waters of the MIDI study area. This includes the Scotian Shelf, Bay of Fundy, Bras D'or Lakes and the Gulf of Maine.",
+    "url": "https://obis.org/dataset/56e46fd2-6162-4677-af50-9410fe08f834",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=midi"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Boudreau, P.R. 2004. Marine Invertebrate Diversity Initiative (MIDI). OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 1, Digital, retrieved from http://iobis.org/.",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1948/2002",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=midi",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-66.3499984741 43.7000007629,-66.3499984741 45.8542289734,-60.0666694641 45.8542289734,-60.0666694641 43.7000007629,-66.3499984741 43.7000007629"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

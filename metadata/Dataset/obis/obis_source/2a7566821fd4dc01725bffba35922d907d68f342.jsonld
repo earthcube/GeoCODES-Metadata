@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/17c4fac0-95ef-4ada-bfb1-e1cb22126928",
+    "name": "HAB region 1: Occurrences of harmful (toxic) algal taxa from Georgia, USA until Greenland, East Coast Canada",
+    "description": "HAB region 1: Occurrences of harmful (toxic) algal taxa from Georgia, USA until Greenland, East Coast Canada",
+    "url": "https://obis.org/dataset/17c4fac0-95ef-4ada-bfb1-e1cb22126928",
+    "sameAs": [
+        "http://ipt.iobis.org/hab/resource?r=hab_region_1"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2021-03-01T23:34:37.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1934/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/hab/archive.do?r=hab_region_1",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-84.1468 31.4,-84.1468 44.35,-68.2741 44.35,-68.2741 31.4,-84.1468 31.4"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

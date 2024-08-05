@@ -1,0 +1,89 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a9a3bdc6-209f-4c66-aafd-ce5271cb63b3",
+    "name": "RSMP Baseline Dataset",
+    "description": "This dataset was compiled for the Regional Seabed Monitoring Plan (RSMP) baseline assessment reported in Cooper &amp; Barry (2017).\nThe dataset comprises of 33,198 macrofaunal samples (83% with associated data on sediment particle size composition) covering large parts of the UK continental shelf. Whilst most samples come from existing datasets, also included are 2,500 new samples collected specifically for the purpose of this study. These new samples were collected during 2014-2016 from the main English aggregate dredging regions (Humber, Anglian, Thames, Eastern English Channel and South Coast) and at four individual, isolated extraction sites where the RSMP methodology is also being adopted (e.g. Area 457, North-West dredging region; Area 392, North-West dredging region; Area 376, Bristol Channel dredging region; Goodwin Sands, English Channel).",
+    "url": "https://obis.org/dataset/a9a3bdc6-209f-4c66-aafd-ce5271cb63b3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=rsmp_baseline",
+        "https://doi.org/10.14466/CefasDataHub.34"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Cooper et al. (2017). RSMP Baseline Dataset. Cefas, UK. V1. https://doi.org/10.14466/CefasDataHub.34",
+    "version": "2024-02-27T00:27:36.000Z",
+    "keywords": [
+        "Benthos",
+        "Grabs",
+        "Sediment",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sieve",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Sieve"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1969/2016",
+    "identifier": {
+        "@id": "https://doi.org/10.14466/CefasDataHub.34",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14466/CefasDataHub.34",
+        "url": "https://doi.org/10.14466/CefasDataHub.34"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=rsmp_baseline",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.00783 48.75353,-10.00783 62.4785,3.3208 62.4785,3.3208 48.75353,-10.00783 48.75353"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

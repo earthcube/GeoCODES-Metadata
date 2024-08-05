@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/732d4a94-cce1-4cdf-a73a-db2e72a25d27",
+    "name": "Zooplancton en Bahia Magdalena, Baja California Sur, Mexico",
+    "description": "Organismos zooplanctonicos colectados en Bahia Magdalena, Baja alifornia Sur, Mexico en el año 2015 por parte del CICIMAR.",
+    "url": "https://obis.org/dataset/732d4a94-cce1-4cdf-a73a-db2e72a25d27",
+    "sameAs": [
+        "http://ipt.iobis.org/esp-obis/resource?r=zooplankton"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2021-11-19T16:53:02.000Z",
+    "keywords": [
+        "Samplingevent",
+        "zooplancton",
+        "Bahia Magdalena",
+        "Mexico"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/esp-obis/archive.do?r=zooplankton",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-112.04838 24.52343,-112.04838 24.73945,-111.87676 24.73945,-111.87676 24.52343,-112.04838 24.52343"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5433",
+            "@type": "Organization",
+            "legalName": "Centro Interdisciplinario de Ciencias Marinas, Instituto Politécnico Nacional",
+            "name": "Centro Interdisciplinario de Ciencias Marinas, Instituto Politécnico Nacional",
+            "url": "https://oceanexpert.org/institution/5433"
+        }
+    ]
+}

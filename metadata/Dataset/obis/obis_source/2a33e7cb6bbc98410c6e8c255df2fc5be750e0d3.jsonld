@@ -1,0 +1,69 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/7dd348df-5e3b-4b37-8758-7a01e1234555",
+    "name": "IMOS - AATAMS Facility Satellite Relay Tagging Program - Satellite tracking of pinnipeds - Delayed mode data, 2007-2017",
+    "description": "The Australian Animal Tracking And Monitoring System (AATAMS) is a coordinated marine animal tagging project.\n\nSatellite Relay Data Loggers (SRDL) (most with CTDs, and some also with fluorometers) are used to explore how marine mammal behaviour relates to their oceanic environment. Loggers developed at the University of St Andrews Sea Mammal Research Unit transmit data in near real time via the Argo satellite system.\n\nThe Satellite Relay Data Loggers are deployed on marine mammals, including Elephant Seals, Weddell Seals, Australian Fur Seals, Australian Sea Lions, New Zealand Fur Seals. Data parameters measured by the instruments include time, conductivity (salinity), temperature, speed, fluorescence (available in the future) and depth.\n\nData is being collected in the Southern Ocean, the Great Australian Bight, and off the South-East Coast of Australia.\nThis dataset has excluded the data from Antarctic waters as it is expected that data would be published via the OBIS Antarctic node AntBIF.\nEach species has been linked to the World Register of Marine Species (WoRMS https://www.marinespecies.org).",
+    "url": "https://obis.org/dataset/7dd348df-5e3b-4b37-8758-7a01e1234555",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=imos_aatams"
+    ],
+    "license": "This work is licensed under a Creative Commons Attribution (CC-BY) 4.0 License.",
+    "citation": "The citation in a list of references is: \"IMOS [year-of-data-download], [Title], [data-access-URL], accessed [date-of-access].\" Any users of IMOS data are required to clearly acknowledge the source of the material derived from IMOS in the format: \"Data was sourced from the Integrated Marine Observing System (IMOS) - IMOS is a national collaborative research infrastructure, supported by the Australian Government.\" If relevant, also credit other organisations involved in collection of this particular datastream (as listed in 'credit' in the metadata record).",
+    "version": "2022-06-08T02:03:10.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2007/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=imos_aatams",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "99.919 -41.752,99.919 -21.965,176.035 -21.965,176.035 -41.752,99.919 -41.752"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19390",
+            "@type": "Organization",
+            "legalName": "Macquarie University – Department of Biological Sciences",
+            "name": "Macquarie University – Department of Biological Sciences",
+            "url": "https://oceanexpert.org/institution/19390"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

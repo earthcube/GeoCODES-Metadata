@@ -1,0 +1,97 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ba8b2e3-d1c4-4adb-8803-36b223624ccf",
+    "name": "CSIRO, Fish Survey, Albatross Bay - Gulf of Capentaria, North Australia, 1986-1988",
+    "description": "Seven, four- to five-day cruises were undertaken using the vessel \"Jacqueline D\" in Albatross Bay, Gulf of Carpentaria between August 1986 and November 1988, using a random stratified trawl survey to measure fish species composition and abundance. Four depth zones between 7 and 45 m were sampled during both day and night. Approx. 890,000 fish of 237 species were collected, of which the bulk were made up of 25 species. The dominant families were Leignathidae, Haemulidae and Clupeidae, with Sciaenidae and Dasyatidae important at night. Leiognathus bindus was the most abundant species, while Caranx bucculentus was the most frequently caught (96% of all trawls). The suite of fishes was separately analysed for occurrence of prawn predators.\nThis data has been republished (2022-09-05 with additional details of each occurrence where they can be one of three types:  catch composition (counts per taxa and optional aggregated weights by trawl event), catch measurements (length and/or weight) of individual taxa and/or catch specimens and their stored location. The occurrence type is recorded in occurrenceremarks.\n\n",
+    "url": "https://obis.org/dataset/5ba8b2e3-d1c4-4adb-8803-36b223624ccf",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_ab_fish"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "CSIRO - Albatross Bay fish study 1986-1988",
+    "version": "2022-09-05T01:18:50.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Catch effort",
+            "url": "",
+            "description": "Catch effort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total catch weight",
+            "url": "",
+            "description": "Total catch weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of gear tow",
+            "url": "",
+            "description": "Speed of gear tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "",
+            "description": "Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Bottom temp",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01",
+            "description": "Bottom temp"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/1988",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_ab_fish",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "141.35 -12.98333,141.35 -12.45,141.75 -12.45,141.75 -12.98333,141.35 -12.98333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

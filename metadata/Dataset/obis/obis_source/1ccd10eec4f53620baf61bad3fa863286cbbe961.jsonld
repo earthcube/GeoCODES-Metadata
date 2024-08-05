@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/62ddad25-2a19-485d-9bae-7eb3a40a71c5",
+    "name": "Harmful Algal Event Database (HAEDAT)",
+    "description": "The Harmful Algal Event Database (HAEDAT) is a component of the Harmful Algal Information system (HAIS) within the International Oceanographic Data and Information Exchange (IODE) of the Intergovernmental Oceanographic Commission (IOC) of UNESCO, and in cooperation with ICES, and PICES. The HAEDAT is a meta database containing records of harmful algal events. HAEDAT contains records from the ICES area (North Atlantic) since 1985, and from the PICES area (North Pacific) since 2000. IOC Regional networks in South America, South Pacific and Asia, and North Africa have recently started contributing.\n\nThis instantiation of the HAEDAT database contains all species occurrences associated with harmful algal events, including abundance and toxicity ranges.",
+    "url": "https://obis.org/dataset/62ddad25-2a19-485d-9bae-7eb3a40a71c5",
+    "sameAs": [
+        "http://ipt.iobis.org/hab/resource?r=haedat",
+        "http://doi.org/10.25607/0wdrmq"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "IOC-UNESCO. The Harmful Algal Event Database (HAEDAT). Accessed via https://obis.org.",
+    "version": "2024-04-05T20:01:57.000Z",
+    "keywords": [
+        "Samplingevent",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "HAB associated illness",
+            "url": "",
+            "description": "HAB associated illness"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "toxicity",
+            "url": "",
+            "description": "toxicity"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1770/2024",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/0wdrmq",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/0wdrmq",
+        "url": "http://doi.org/10.25607/0wdrmq"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/hab/archive.do?r=haedat",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-169.555833 -78.383333,-169.555833 82.233333,176.883056 82.233333,176.883056 -78.383333,-169.555833 -78.383333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17805",
+            "@type": "Organization",
+            "legalName": "UNESCO-IOC",
+            "name": "UNESCO-IOC",
+            "url": "https://oceanexpert.org/institution/17805"
+        }
+    ]
+}

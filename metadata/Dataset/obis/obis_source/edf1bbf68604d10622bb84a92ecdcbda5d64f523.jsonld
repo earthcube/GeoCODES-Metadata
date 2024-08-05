@@ -1,0 +1,131 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c46e6e28-87a1-4464-a44e-d6ab96511580",
+    "name": "Dataset of French Observation and Monitoring program for Phytoplankton and Hydrology in coastal waters since 1987",
+    "description": "<p>REPHY is a French Observation and Monitoring program for Phytoplankton and Hydrology.</p>",
+    "url": "https://obis.org/dataset/c46e6e28-87a1-4464-a44e-d6ab96511580",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=rephy"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "REPHY (2022). Dataset of French Observation and Monitoring program for Phytoplankton and Hydrology in coastal waters since 1987. SEANOE. https://doi.org/10.17882/47248",
+    "version": "2024-02-26T23:38:13.000Z",
+    "keywords": [
+        "Algal blooms",
+        "Monitoring",
+        "Phytoplankton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Instrument / gear type",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Instrument / gear type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Maximum instrument depth (m)",
+            "url": "",
+            "description": "Maximum instrument depth (m)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Minimum instrument depth (m)",
+            "url": "",
+            "description": "Minimum instrument depth (m)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform type",
+            "url": "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/",
+            "description": "Platform type"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "IndividualCountperLiter",
+            "url": "",
+            "description": "IndividualCountperLiter"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "PresenceOrAbsence",
+            "url": "",
+            "description": "PresenceOrAbsence"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SampleID",
+            "url": "",
+            "description": "SampleID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SubSamplingCoefficient",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SSAMPC01/",
+            "description": "SubSamplingCoefficient"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "SubsampleID",
+            "url": "",
+            "description": "SubsampleID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1987/2022",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=rephy",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-62.9830017 -21.374733,-62.9830017 51.1513176,55.5638351 51.1513176,55.5638351 -21.374733,-62.9830017 -21.374733"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6509",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer, IFREMER, Centre de Brest",
+            "url": "https://oceanexpert.org/institution/6509"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6514",
+            "@type": "Organization",
+            "legalName": "Institut Français de Recherche pour l'Exploitation de la Mer,  IFREMER, Centre de Nantes",
+            "name": "Institut Français de Recherche pour l'Exploitation de la Mer,  IFREMER, Centre de Nantes",
+            "url": "https://oceanexpert.org/institution/6514"
+        }
+    ]
+}

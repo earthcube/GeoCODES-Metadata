@@ -1,0 +1,70 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/8e256f62-1a2b-465b-9709-dab15fc4bdb7",
+    "name": "Phytoplankton monitoring in the Trieste harbour, North Adriatic Sea (Port Authority), March 2015",
+    "description": "Phytoplankton monitoring in the Trieste harbour, in the North Adriatic Sea (Port Authority) in March 2015.",
+    "url": "https://obis.org/dataset/8e256f62-1a2b-465b-9709-dab15fc4bdb7",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=portauthority",
+        "https://doi.org/10.6092/e4369838-5c3d-4d34-b7d8-dc1b2941163e"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Fornasaro D.,Del Negro P. (2017): Phytoplankton monitoring in the Trieste harbour, North Adriatic Sea (Port Authority), March 2015. OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Division of Oceanography. https://doi.org/10.6092/e4369838-5c3d-4d34-b7d8-dc1b2941163e",
+    "version": "2023-12-08T17:11:39.000Z",
+    "keywords": [
+        "Ecological monitoring",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/",
+            "description": "Abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2015",
+    "identifier": {
+        "@id": "https://doi.org/10.6092/e4369838-5c3d-4d34-b7d8-dc1b2941163e",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.6092/e4369838-5c3d-4d34-b7d8-dc1b2941163e",
+        "url": "https://doi.org/10.6092/e4369838-5c3d-4d34-b7d8-dc1b2941163e"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=portauthority",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "13.71 45.608461,13.71 45.705556,13.762122 45.705556,13.762122 45.608461,13.71 45.608461"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6941",
+            "@type": "Organization",
+            "legalName": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, Trieste",
+            "url": "https://oceanexpert.org/institution/6941"
+        }
+    ]
+}

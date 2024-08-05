@@ -1,0 +1,100 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/055a97b8-3a3a-4f68-8bbe-f9dab0646d32",
+    "name": "Mauritanian Midwater fish in the Discovery Collections",
+    "description": "Occurrence dataset of samples of fish collected by Rectangular Midwater Trawl during Cruise 195 of the RRS Discovery (III), 05/09/1990-05/10/1990, in the Tropical North Atlantic off Mauritania.",
+    "url": "https://obis.org/dataset/055a97b8-3a3a-4f68-8bbe-f9dab0646d32",
+    "sameAs": [
+        "http://ipt.iobis.org/obis-deepsea/resource?r=midwater_fish_mauritania"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Reading J, Horton T (2023). Mauritanian Midwater fish in the Discovery Collections. Version 1.9. The Discovery Collections. Samplingevent dataset. https://ipt.iobis.org/obis-deepsea/resource?r=midwater_fish_mauritania&amp;v=1.9",
+    "version": "2023-05-03T07:20:07.000Z",
+    "keywords": [
+        "Occurrence",
+        "midwater",
+        "fish",
+        "deep-sea",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling Platform Name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100001/",
+            "description": "Sampling Platform Name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample Duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sample Duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "calculatedTrawlDistance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "calculatedTrawlDistance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "calculatedTrawlVolume",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "calculatedTrawlVolume"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01",
+            "description": "Count"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1990/1990",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obis-deepsea/archive.do?r=midwater_fish_mauritania",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-20.0141665 17.0308335,-20.0141665 20.7347225,-19.5847225 20.7347225,-19.5847225 17.0308335,-20.0141665 17.0308335"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8387",
+            "@type": "Organization",
+            "legalName": "National Oceanography Centre, Southampton",
+            "name": "National Oceanography Centre, Southampton",
+            "url": "https://oceanexpert.org/institution/8387"
+        }
+    ]
+}

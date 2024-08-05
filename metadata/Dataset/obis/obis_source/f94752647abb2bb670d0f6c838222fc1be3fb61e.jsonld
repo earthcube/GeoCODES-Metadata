@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0395930d-6e69-4789-b1d6-da4445d752c3",
+    "name": "Southern right whales distribution in Bahía Nueva, Puerto Madryn, Argentina",
+    "description": "Database containing unpublished information about the position of south Atlantic right whales (Eubalaena australis) in the Bahía Nueva (located between 42° 41’ 55’’ S - 64° 59’ 38’’ W and 42° 47´ 08´´ S - 64 ° 57´25´´ W), Puerto Madryn, Chubut, Argentina. Position of individuals in the bay were recorded by terrestrial triangulation method during August and November of 2003-2005. Samples recorded number of individuals and group composition during the breeding season.",
+    "url": "https://obis.org/dataset/0395930d-6e69-4789-b1d6-da4445d752c3",
+    "sameAs": [
+        "http://arobis.cenpat-conicet.gob.ar:8081/resource?r=argentina-ecocentro-whales"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Fundación Ecocentro P M (2015): Southern right whales distribution in Bahía Nueva, Puerto Madryn, Argentina. v1.6. ArOBIS Centro Nacional Patagónico. Dataset/Occurrence. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=argentina-ecocentro-whales&amp;v=1.6",
+    "version": "2017-04-05T19:47:44.000Z",
+    "keywords": [
+        "Occurrence",
+        "Southern right whale",
+        "sightings",
+        "triangulation method",
+        "Eubalaena australis. Southwest Atlantic Ocean"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2003/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://arobis.cenpat-conicet.gob.ar:8081/archive.do?r=argentina-ecocentro-whales",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-65.04 -42.89,-65.04 -42.01,-63.57 -42.01,-63.57 -42.89,-65.04 -42.89"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/18212",
+            "@type": "Organization",
+            "legalName": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "name": "Centro para el Estudio de Sistemas Marinos, Centro Nacional Patagónico",
+            "url": "https://oceanexpert.org/institution/18212"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19599",
+            "@type": "Organization",
+            "legalName": "Ecocentro Puerto Madryn",
+            "name": "Ecocentro Puerto Madryn",
+            "url": "https://oceanexpert.org/institution/19599"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/47e57568-0855-4a90-8fb8-3ecfd8a476a4",
+    "name": "Coastal and marine species",
+    "description": "The records in this dataset are general marine and coastal records of different taxonomic groups submitted to the National Biodiversity Data Centre.",
+    "url": "https://obis.org/dataset/47e57568-0855-4a90-8fb8-3ecfd8a476a4",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=coastal_and_marine_species",
+        "https://doi.org/10.15468/oynwkx"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "National Biodiversity Data Centre: Collated by the National Biodiversity Data Centre from different sources - Coastal and marine species. Dataset/Occurrence. https://doi.org/10.15468/oynwkx",
+    "version": "2024-02-26T23:16:32.000Z",
+    "keywords": [
+        "Observation",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Habitat description",
+            "url": "",
+            "description": "Habitat description"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "",
+            "description": "Abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Types of seabed present",
+            "url": "",
+            "description": "Types of seabed present"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Seabed cover types",
+            "url": "",
+            "description": "Seabed cover types"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "",
+            "description": "Sampling method"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2017",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/oynwkx",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/oynwkx",
+        "url": "https://doi.org/10.15468/oynwkx"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=coastal_and_marine_species",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-10.5736466 51.64193427,-10.5736466 55.2425014,-6.02354632 55.2425014,-6.02354632 51.64193427,-10.5736466 51.64193427"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19590",
+            "@type": "Organization",
+            "legalName": " National Biodiversity Data Centre",
+            "name": " National Biodiversity Data Centre",
+            "url": "https://oceanexpert.org/institution/19590"
+        }
+    ]
+}

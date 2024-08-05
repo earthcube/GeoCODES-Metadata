@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/14408cc8-5d37-46d1-91a9-d838fc339ff9",
+    "name": "The Australian Phytoplankton Database (1844 onwards)",
+    "description": "There have been many individual phytoplankton datasets collected across Australia since the mid 1900s, but most are unavailable to the research community. We have searched archives, contacted researchers, and scanned the primary and grey literature to collate 3,665,221 records of marine phytoplankton species from Australian waters from 1844 to the present. Many of these are small datasets collected for local questions, but combined they provide over 170 years of data on phytoplankton communities in Australian waters. Units and taxonomy have been standardised, obviously erroneous data removed, and all metadata included. We have lodged this dataset with the Australian Ocean Data Network (http://imos.aodn.org.au/), allowing public access. The Australian Phytoplankton Database will be invaluable for global change studies, as it allows analysis of ecological indicators of climate change and eutrophication (e.g., changes in distribution; diatom:dinoflagellate ratios). In addition, the standardised conversion of abundance records to biomass provides modellers with quantifiable data to initialise and validate ecosystem models of lower marine trophic levels.\nThis version of the database has been modified by\n1) excluded existing data from IMOS, Antarctic Projects (597,599,744,746,748) as recorded in in imos_plankton.imos_apd_metadata\n2) absence records have been removed.",
+    "url": "https://obis.org/dataset/14408cc8-5d37-46d1-91a9-d838fc339ff9",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=imos_apd_data"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T01:59:35.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1844/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=imos_apd_data",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "99.95517 -67.1,99.95517 -5.09924,169.1 -5.09924,169.1 -67.1,99.95517 -67.1"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/ccabcf81-9789-4cf1-ada4-684f038804a0",
+    "name": "Echinoids_occurrences_Southern_Ocean",
+    "description": "This database focuses on all echinoid species present in the Southern Ocean south of 35°S. In total 201 species were counted belonging to 31 families. \nCoordinates: 79°0’0”S and 35°0’0”S Latitude; 180°0'0\"W and 180°0'0\"E Longitude",
+    "url": "https://obis.org/dataset/ccabcf81-9789-4cf1-ada4-684f038804a0",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=echinoids_occurrences_southern_ocean"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2019-03-19T14:43:00.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=echinoids_occurrences_southern_ocean",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.9835 -78.475,-179.9835 -35,179.999496 -35,179.999496 -78.475,-179.9835 -78.475"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17680",
+            "@type": "Organization",
+            "legalName": "Muséum national d'Histoire naturelle – Département Ecologie et Gestion de la Biodiversité (UMR 7204 : CERSP55)",
+            "name": "Muséum national d'Histoire naturelle – Département Ecologie et Gestion de la Biodiversité (UMR 7204 : CERSP55)",
+            "url": "https://oceanexpert.org/institution/17680"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19298",
+            "@type": "Organization",
+            "legalName": "Laboratoire Biogéosciences (UMR CNRS/uB 6282)",
+            "name": "Laboratoire Biogéosciences (UMR CNRS/uB 6282)",
+            "url": "https://oceanexpert.org/institution/19298"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19589",
+            "@type": "Organization",
+            "legalName": "Unviersité Libre de Bruxelles — Laboratoire de Biologie Marine",
+            "name": "Unviersité Libre de Bruxelles — Laboratoire de Biologie Marine",
+            "url": "https://oceanexpert.org/institution/19589"
+        }
+    ]
+}

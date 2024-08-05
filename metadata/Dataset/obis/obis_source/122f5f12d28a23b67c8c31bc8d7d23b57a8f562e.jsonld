@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/a980a1b5-c77e-43ee-8548-f9a5eb506e2a",
+    "name": "Minke whale localized acoustic detections off Kauai",
+    "description": "Original provider:\nRegina A. Guazzo, Naval Information Warfare Center Pacific\n\nDataset credits:\nNaval Information Warfare Center Pacific\n\nAbstract:\nMinke whale boing calls are commonly detected in Hawaiian waters.  When \nvocalizing, minke whales seem to be in one of two calling behavioral states.  \nMost often minke whales produce boings with inter-call intervals of several \nminutes, but sometimes minke whales call rapidly with inter-call intervals \nof less than a minute.  Since minke whales are difficult to detect visually, \ncue rate based density estimation using passive acoustic monitoring \nhas been proposed.  However, the variables that influence cue rate or \ncalling rate are poorly understood in most whales including minke whales.  \nWe collected passive acoustic recordings from 47 bottom-mounted \nhydrophones at the Pacific Missile Range Facility’s instrumented range off \nthe coast of Kauaʻi, Hawaiʻi to test the hypothesis that minke whales call \nmore rapidly when closer in proximity to other calling conspecifics.  A total \nof 599 days of data were recorded between August 2012 and July 2017 and \nwere automatically post-processed to detect, classify, and localize calls.  \nLocalized calls were automatically tracked and manually validated, \nresulting in 509 individual tracks composed of 36,033 calls within a 16x39 \nkm study area.  Tracked minke whales exhibited a strong bimodal call rate \nwith means of one call every 6.85 min (SD = 2.54 min) and 0.63 min (SD = \n0.36 min).  We ran hidden Markov models to quantify the relationship \nbetween call rate and the distance to the nearest calling conspecific.  \nOverall, the probability of the higher call rate occurring increased as the \ndistance to the nearest conspecific decreased, and the probability of the \nlower call rate occurring increased as the distance to the nearest \nconspecific increased.  We also examined individual track data and found \nthat minke whales may also exhibit other responses (i.e. increased speed, \nchanges in heading, and cessation of calling) when calling conspecifics are \nnearby.  These findings provide new information about minke whale calling \nbehavior on what are likely their breeding grounds.\n\nSupplemental information:\nThe monitoring effort of each of the hydrophones in the array is the same and \nthe hydrophone locations are rounded and approximate.",
+    "url": "https://obis.org/dataset/a980a1b5-c77e-43ee-8548-f9a5eb506e2a",
+    "sameAs": [
+        "https://ipt.env.duke.edu/resource?r=zd_2190"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Martin, C. R., Guazzo, R. A., Helble, T. A., Alongi, G. C., Durbach, I. N., Martin, S. W., Matsuyama, B. M., &amp; Henderson, E. E. 2022. Minke whales call rapidly when calling conspecifics are nearby. Frontiers in Marine Science.",
+    "version": "2022-07-01T01:09:55.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Acoustic precense/absence,Ocean-based Platforms",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2012/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.env.duke.edu/archive.do?r=zd_2190",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-160.280401 22.009364,-160.280401 23.017985,-159.585785 23.017985,-159.585785 22.009364,-160.280401 22.009364"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23188",
+            "@type": "Organization",
+            "legalName": "Naval Information Warfare Center Pacific",
+            "name": "Naval Information Warfare Center Pacific",
+            "url": "https://oceanexpert.org/institution/23188"
+        }
+    ]
+}

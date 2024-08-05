@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0ca901d4-bdc3-4136-8a66-6028f4c3ba40",
+    "name": "NOAA Southeast Fisheries Science Center (SEFSC) Fisheries Log Book System (FLS) Commercial Pelagic Logbook Data",
+    "description": "The Fisheries Logbook System records the fishing and non-fishing activity of fishermen who are required to report their fishing activity via logbooks submitted for each trip. The Southeast Fisheries Science Center (SEFSC) manages two vessel logbook programs. This program principally covers vessels that use pelagic longline gear, but also includes vessels that use other types of gear (harpoon and handline) that target pelagic species in the highly migratory species fishery management plan. This logbook program was initiated in 1986, and has continued uninterrupted since then. Because the pelagic program supports assessments that require catch per unit effort data for individual sets, the design of this program focuses on data for individual sets.",
+    "url": "https://obis.org/dataset/0ca901d4-bdc3-4136-8a66-6028f4c3ba40",
+    "sameAs": [
+        "https://ipt-obis.gbif.us/resource?r=sefsc_logbook"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2021-08-25T16:51:55.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1992/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www1.usgs.gov/obis-usa/ipt/archive.do?r=sefsc_logbook",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-97.41 1,-97.41 51.53,-11.11 51.53,-11.11 1,-97.41 1"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/11379",
+            "@type": "Organization",
+            "legalName": "National Oceanic and Atmospheric Administration, Washington",
+            "name": "National Oceanic and Atmospheric Administration, Washington",
+            "url": "https://oceanexpert.org/institution/11379"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/12976",
+            "@type": "Organization",
+            "legalName": "U.S. Geological Survey HQ",
+            "name": "U.S. Geological Survey HQ",
+            "url": "https://oceanexpert.org/institution/12976"
+        }
+    ]
+}

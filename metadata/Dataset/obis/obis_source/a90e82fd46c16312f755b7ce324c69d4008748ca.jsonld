@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/38d0b29e-2f76-4d0d-9691-e6d605848f88",
+    "name": "Opportunistic marine mammal sightings near Pemba, Mozambique",
+    "description": "Original provider:\nOlivier Massart\n\nDataset credits:\nOlivier Massart\n\nAbstract:\nApproximately 130+ observations of marine mammals species were recorded, along with the date, time, approximate weather condition, sea condition, and approximate distance and azimuth from an observation point onshore (point of regular observation: 12° 57' 53\"S - 40° 31' 51\" E). To increase accuracy of observation locations, I went to sea and took waypoints of where I observed the dolphins and whales. I then mapped these points on the nautical map of the region (new 2010 version - WGS 84). The original estimated distances were overestimated by far and the azimuth I was measuring was not that precise. Therefore, when I transformed the distance and azimuth of my observations I took these parameters into consideration and corrected them. The azimuths measured are accurate at 2 degrees. I estimate that the coordinates have a precision of about 0.1 to 0.2 minutes.\n\nIn addition, direct observations while swimming 11 times (for one hour each time) next to them allowed closer observations. Observations were also made to identify 163 species of fish (on coral reef mainly) and geographic coordinates were recorded while regular diving and snorkeling within that zone.\n\nPurpose:\nOpportunistic observations were conducted on shore mainly from a terrace (about 10 to 12 m above sea level). All observations have been within a radius of less than 3 nautical miles from the point of observation on shore (binoculars 10x - 30x). For the observations that have not been from that reference observation spot, I recomputed the azimuth from the reference.\n\nThere were three species observed, mainly <i>Tursiops aduncus</i>, which seems to be a resident in the area. What I observed was that the animals were cruising always in the same area, day after day. Day after day, I could also recognize that it is the same group as one of the individuals has a dorsal fin cut! Group numbers are rough estimates.\n\nSupplemental information:\nGroup estimates were provided as a range or a minimum estimated number of animals; observed counts used were the median of the range (rounded down) or minimum number (when the minimum number of animals was recorded instead of a range) to be conservative.",
+    "url": "https://obis.org/dataset/38d0b29e-2f76-4d0d-9691-e6d605848f88",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_784"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Massart, O. 2011. Opportunistic marine mammal sightings near Pemba, Mozambique. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/784) on yyyy-mm-dd.",
+    "version": "2021-04-24T10:35:40.000Z",
+    "keywords": [
+        "Occurrence,Land-based,Sightings",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_784",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "40.488333 -12.991667,40.488333 -12.916667,40.658333 -12.916667,40.658333 -12.991667,40.488333 -12.991667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

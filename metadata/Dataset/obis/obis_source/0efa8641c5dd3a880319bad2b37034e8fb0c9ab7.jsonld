@@ -1,0 +1,80 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/020352fa-d27d-4875-99bb-120f896646c9",
+    "name": "Surveys of giant kelp (Macrocystis pyrifera) areal coverage on the South and East Coast of Tasmania, aggregated 1950-2019",
+    "description": "This record describes an aggregated data product compiled from a number of different surveys of Macrocystis surface cover in Tasmanian waters, spanning 1950 to 2019. Some surveys represent a statewide census of Macrocystis cover, while others are targeted surveys of smaller regions. Methodology and data quality also varies between surveys. Please see linked metadata records for specific methodologies and quality statements applying to individual surveys.\nCompiled by Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS). Data and metadata sourced from https://metadata.imas.utas.edu.au/geonetwork/srv/eng/metadata.show?uuid=c0e0fef6-323b-4df2-9f4f-51c0ce7ac289 Dec 2020.",
+    "url": "https://obis.org/dataset/020352fa-d27d-4875-99bb-120f896646c9",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=macrocystis_areal_extent"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": null,
+    "version": "2022-06-08T06:03:23.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Area of kelp coverage",
+            "url": "",
+            "description": "Area of kelp coverage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Density of kelp coverage",
+            "url": "",
+            "description": "Density of kelp coverage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Reliability of kelp coverage",
+            "url": "",
+            "description": "Reliability of kelp coverage"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1953/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=macrocystis_areal_extent",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "146.886826024043 -43.6172076392695,146.886826024043 -40.8458437838282,148.359605401966 -40.8458437838282,148.359605401966 -43.6172076392695,146.886826024043 -43.6172076392695"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13402",
+            "@type": "Organization",
+            "legalName": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "name": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "url": "https://oceanexpert.org/institution/13402"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

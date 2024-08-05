@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/82709246-098e-4bb2-bac0-8553d0a5b0d1",
+    "name": "Electron Microscope Database",
+    "description": "This database contains information pertaining to the negatives taken by the laboratory since its inception. Both scanning and transmission electron micrographs are catalogued within this database. \n\nAmong other things, the database includes a large number of images of protists.",
+    "url": "https://obis.org/dataset/82709246-098e-4bb2-bac0-8553d0a5b0d1",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=em_marine"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Nash G (2008). Electron Microscope Database (em_database)",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Krill"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=em_marine",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-165 -76.1597976685,-165 -42.0914001465,168.339401245 -42.0914001465,168.339401245 -76.1597976685,-165 -76.1597976685"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

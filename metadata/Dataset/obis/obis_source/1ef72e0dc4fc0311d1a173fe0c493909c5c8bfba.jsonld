@@ -1,0 +1,72 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fa8ee269-74a6-4e52-b576-fcf023e90f9e",
+    "name": "Macrozooplankton concentrations estimated from MOCNESS tow samples, Continental Margin Western Antarctic Peninsula, GLOBEC",
+    "description": "Macrozooplankton abundance and biomass are derived from MOCNESS-1  plankton tow samples collected from cruises to the Antarctic, 2001 and  2002.",
+    "url": "https://obis.org/dataset/fa8ee269-74a6-4e52-b576-fcf023e90f9e",
+    "sameAs": [
+        "https://ipt.biodiversity.aq/resource?r=zoo_moc"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Macrozooplankton concentrations estimated from MOCNESS tow samples, Continental Margin Western Antarctic Peninsula, GLOBEC",
+    "version": "2019-03-19T14:43:04.000Z",
+    "keywords": [
+        "Abundance",
+        "Biomass",
+        "Marine invertebrates",
+        "SO-GLOBEC",
+        "Zooplankton",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "null/null",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.biodiversity.aq/archive.do?r=zoo_moc",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-75.732 -69.2592,-75.732 -66.18,-68.1803 -66.18,-68.1803 -69.2592,-75.732 -69.2592"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/9783",
+            "@type": "Organization",
+            "legalName": "Woods Hole Oceanographic Institution",
+            "name": "Woods Hole Oceanographic Institution",
+            "url": "https://oceanexpert.org/institution/9783"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/18705",
+            "@type": "Organization",
+            "legalName": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+            "url": "https://oceanexpert.org/institution/18705"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19457",
+            "@type": "Organization",
+            "legalName": "Antarctic Biodiversity Information Facility",
+            "name": "Antarctic Biodiversity Information Facility",
+            "url": "https://oceanexpert.org/institution/19457"
+        }
+    ]
+}

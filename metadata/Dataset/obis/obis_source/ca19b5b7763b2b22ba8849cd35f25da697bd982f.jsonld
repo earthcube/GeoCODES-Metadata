@@ -1,0 +1,129 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ed811db-baa6-4b24-9109-c48c718681a5",
+    "name": "Marine Recorder Snapshot extract of surveys entered by Wildlife Trusts",
+    "description": "This dataset consists of surveys entered by The Wildlife Trusts.",
+    "url": "https://obis.org/dataset/5ed811db-baa6-4b24-9109-c48c718681a5",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=jncc_mr_snapshot_whole_uk_7",
+        "https://doi.org/10.17031/zwrsjz"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Wildlife Trusts (2021): Marine Recorder Snapshot extract of surveys entered by Wildlife Trusts. v2.1. Marine Biological Association. Dataset/Samplingevent https://doi.org/10.17031/zwrsjz",
+    "version": "2024-02-26T23:39:13.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "geometry",
+            "url": "",
+            "description": "geometry"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "originalcoordinates",
+            "url": "",
+            "description": "originalcoordinates"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "primarylatitude",
+            "url": "",
+            "description": "primarylatitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "primarylongitude",
+            "url": "",
+            "description": "primarylongitude"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "stationnotes",
+            "url": "",
+            "description": "stationnotes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biotope determination date",
+            "url": "",
+            "description": "biotope determination date"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "biotopedeterminer",
+            "url": "",
+            "description": "biotopedeterminer"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "classificationconfidence",
+            "url": "",
+            "description": "classificationconfidence"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "eventname",
+            "url": "",
+            "description": "eventname"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "eventnumber",
+            "url": "",
+            "description": "eventnumber"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2014/2018",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/zwrsjz",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/zwrsjz",
+        "url": "https://doi.org/10.17031/zwrsjz"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=jncc_mr_snapshot_whole_uk_7",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.473909 50.03925,-5.473909 54.88682,1.512276 54.88682,1.512276 50.03925,-5.473909 50.03925"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/82d07a33-4a76-47b2-a197-a44ecafe6a9d",
+    "name": "Zooplankton Guarau River",
+    "description": "The structure and seasonal variability of zooplankton associations were analysed over a 1-year period in the Gauarau River Estuary (Southeast Brazil). The spatial segregation of the zooplankton was mainly conditioned by the longitudinal salinity gradient, as revealed by multivariate analysis (see additional information in the publication).",
+    "url": "https://obis.org/dataset/82d07a33-4a76-47b2-a197-a44ecafe6a9d",
+    "sameAs": [
+        "http://ipt.iobis.org/wsaobis/resource?r=zooplankton_guarau_river",
+        "http://doi.org/10.25607/bmzvn3"
+    ],
+    "license": "Unrestricted",
+    "citation": "Fabio Lang da Silveira and Rubens M. Lopes Guarau River Estuary Zooplankton, Southeastern Brazil. WSAOBIS, São Paulo, February 2009, Version 1, Publication.",
+    "version": "2021-07-02T11:05:40.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1986/1987",
+    "identifier": {
+        "@id": "http://doi.org/10.25607/bmzvn3",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.25607/bmzvn3",
+        "url": "http://doi.org/10.25607/bmzvn3"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/wsaobis/archive.do?r=zooplankton_guarau_river",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-47.0624 -24.3878,-47.0624 -24.3812,-47.0239 -24.3812,-47.0239 -24.3878,-47.0624 -24.3878"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        }
+    ]
+}

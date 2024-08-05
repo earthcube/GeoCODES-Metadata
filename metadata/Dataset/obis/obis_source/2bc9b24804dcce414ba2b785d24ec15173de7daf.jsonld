@@ -1,0 +1,116 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/e77f1b7f-aa81-4e0c-8e88-8ac436453d7f",
+    "name": "CSIRO, Cruise SS199101, Marine Biology Data, Western Australia, 1991",
+    "description": "Biological data collected on Southern Surveyor voyage SS 01/91. This voyage took place in waters off the west coast of Western Australia during 21 January - 19 February 1991, under the leadership of Anthony Koslow, as part of the Western Australia coast deepwater invertebrate study. Biological data collected on this cruise include extensive collections of fish, crustaceans (including scampi and deep-water prawns), and cephalopods from 95 trawls. Photographic records were also taken of the specimens and acoustic data were continuously collected during the cruise.\nReports, metadata and other data from this voyage are at https://www.marine.csiro.au/data/trawler/survey_details,cfm?survey=SS199101\nThis data has been republished (2022-09-05 with additional details of each occurrence where they can be one of three types:  catch composition (counts per taxa and optional aggregated weights by trawl event), catch measurements (length and/or weight) of individual taxa and/or catch specimens and their stored location. The occurrence type is recorded in occurrenceremarks.\n\n",
+    "url": "https://obis.org/dataset/e77f1b7f-aa81-4e0c-8e88-8ac436453d7f",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=csiro_ss199101"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "CSIRO - Southern Surveyor voyage SS 01/91, WA coast deepwater invertebrate study",
+    "version": "2022-09-05T00:48:13.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Catch effort",
+            "url": "",
+            "description": "Catch effort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gear used",
+            "url": "",
+            "description": "Gear used"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Tow direction",
+            "url": "",
+            "description": "Tow direction"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total catch weight",
+            "url": "",
+            "description": "Total catch weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of gear tow",
+            "url": "",
+            "description": "Speed of gear tow"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count",
+            "url": "",
+            "description": "Count"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Weight",
+            "url": "",
+            "description": "Weight"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Net headline height",
+            "url": "",
+            "description": "Net headline height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Trawl door spread",
+            "url": "",
+            "description": "Trawl door spread"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1991",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=csiro_ss199101",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "56.97334 -35.09,56.97334 -14.63166,115.155 -14.63166,115.155 -35.09,56.97334 -35.09"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

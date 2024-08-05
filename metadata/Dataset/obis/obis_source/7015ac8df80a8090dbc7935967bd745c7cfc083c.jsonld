@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9b787218-7138-4ffa-8ba6-36d63d391f8c",
+    "name": "Fishbase occurrences hosted by GBIF-Sweden",
+    "description": "FishBase is a large information system with key information for all fishes of the world: summaries, photos, and maps plus detailed standardized data on population dynamics, reproduction, trophic ecology, morphology, physiology genetics and other topics. FishBase is supported and supervised by a consortium of currently 8 international institutes and organizations (see www.fishbase.org/home.htm). Data encoding and programming is done mostly by a group of specialists in the Philippines. However, there are also over 1000 partners all over the world who contribute photos and data and check entries for accuracy. FishBase is available for free in monthly online updates and also on CD ROM and DVDs for a modest fee.",
+    "url": "https://obis.org/dataset/9b787218-7138-4ffa-8ba6-36d63d391f8c",
+    "sameAs": [
+        "http://ipt.obis.org/nonode/resource?r=fishbase_occurrence"
+    ],
+    "license": "",
+    "citation": "Froese, R. and D. Pauly. Editors. 200x. FishBase. World Wide Web electronic publication. www.fishbase.org, version (xx/200x).",
+    "version": null,
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1829/2005",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.obis.org/nonode/archive.do?r=fishbase_occurrence",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-180 -80,-180 80.1999969482,180 80.1999969482,180 -80,-180 -80"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6860",
+            "@type": "Organization",
+            "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+            "name": "Intergovernmental Oceanographic Commission of UNESCO",
+            "url": "https://oceanexpert.org/institution/6860"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19429",
+            "@type": "Organization",
+            "legalName": "Naturhistoriska riksmuseet",
+            "name": "Naturhistoriska riksmuseet",
+            "url": "https://oceanexpert.org/institution/19429"
+        }
+    ]
+}

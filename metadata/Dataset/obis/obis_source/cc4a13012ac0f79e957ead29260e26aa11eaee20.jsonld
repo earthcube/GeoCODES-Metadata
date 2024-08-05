@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c44ed118-0bd3-4b15-b815-1033f99b966a",
+    "name": "Electron Micrograph Database - Marine Specimens",
+    "description": "This database contains information pertaining to the negatives taken by the laboratory since its inception. Both scanning and transmission electron micrographs are catalogued within this database. Among other things, the database includes a large number of images of protists. This set lists specimens from the marine domain.",
+    "url": "https://obis.org/dataset/c44ed118-0bd3-4b15-b815-1033f99b966a",
+    "sameAs": [
+        "https://data.aad.gov.au/ipt/resource?r=em_marine"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "See metadata record http://www1.data.antarctica.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/em_database",
+    "version": "2021-05-06T05:31:19.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1995/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://data.aad.gov.au/ipt/archive.do?r=em_marine",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-165 -76.1598,-165 -42.0914,168.3394 -42.0914,168.3394 -76.1598,-165 -76.1598"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5028",
+            "@type": "Organization",
+            "legalName": "Australian Antarctic Division",
+            "name": "Australian Antarctic Division",
+            "url": "https://oceanexpert.org/institution/5028"
+        }
+    ]
+}

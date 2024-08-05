@@ -1,0 +1,108 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c07f3759-f350-4fed-856e-efda91fc4bfc",
+    "name": "Epiphytic meiofauna and nematode community from seagrasses in Gazi and Nyali (Kenya) sampled in August 1989",
+    "description": "Dataset contains the counts and abundance of epiphytic meiofauna (and in particular nematods) on seagrasses sampled at two sites along the Kenyan Coast (Nyali Beach and Gazi Bay) in August 1989. The data were digitized by VLIZ from the original report: Van Avermaet, P. (1990). Bijdrage tot de kennis van de ecologie van epifytische meiofauna in Keniase kustbiotopen; Contribution to the knowledge of the ecology of epiphytic meiofauna in Kenyan coast habitats. BSc Thesis. University of Gent, Zoology Institute, Marine Biology Section: Gent. 67 pp.",
+    "url": "https://obis.org/dataset/c07f3759-f350-4fed-856e-efda91fc4bfc",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=nematode_gazi_bay_1989",
+        "https://dx.doi.org/10.14284/115"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Van Avermaet P.; Coomans A.; Laboratoria voor Morfologie en Systematiek; Museum voor Dierkunde. RUG: Belgium; (2016): Epiphytic meiofauna and nematode community from seagrasses in Gazi and Nyali (Kenya) sampled in August 1989. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=4426) https://dx.doi.org/10.14284/115",
+    "version": "2023-12-08T17:52:47.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Density (number individuals_per_g DW)",
+            "url": "",
+            "description": "Density (number individuals_per_g DW)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample mass (g)",
+            "url": "",
+            "description": "Sample mass (g)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "VolumeSampled",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+            "description": "VolumeSampled"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/1989",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/115",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/115",
+        "url": "https://dx.doi.org/10.14284/115"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=nematode_gazi_bay_1989",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "39.5106204196226 -4.43676075637591,39.5106204196226 -4.03921023295453,39.7230261370076 -4.03921023295453,39.7230261370076 -4.43676075637591,39.5106204196226 -4.43676075637591"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/9162",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Faculteit Wetenschap",
+            "name": "Universiteit Gent, Faculteit Wetenschap",
+            "url": "https://oceanexpert.org/institution/9162"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11578",
+            "@type": "Organization",
+            "legalName": "Kenya Marine and Fisheries Research Institute",
+            "name": "Kenya Marine and Fisheries Research Institute",
+            "url": "https://oceanexpert.org/institution/11578"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d5884e1f-2a3c-4ee7-b2d1-f16699dad05a",
+    "name": "Occurrences of Harmful Micro Algae in HAB Region 6 (Southeast Asia)",
+    "description": "Occurrences of Harmful Micro Algae in HAB Region 6 (Southeast Asia).",
+    "url": "https://obis.org/dataset/d5884e1f-2a3c-4ee7-b2d1-f16699dad05a",
+    "sameAs": [
+        "http://ipt.iobis.org/hab/resource?r=hab-region-6"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2020-05-08T07:56:07.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1983/2012",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/hab/archive.do?r=hab-region-6",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "118.4949 8.604262,118.4949 16.3795,125.5655 16.3795,125.5655 8.604262,118.4949 8.604262"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17805",
+            "@type": "Organization",
+            "legalName": "UNESCO-IOC",
+            "name": "UNESCO-IOC",
+            "url": "https://oceanexpert.org/institution/17805"
+        }
+    ]
+}

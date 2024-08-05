@@ -1,0 +1,58 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d6af0fac-8a21-4d77-8872-f10d471fc0cf",
+    "name": "CAS Ichthyology (ICH)",
+    "description": "The electronic catalog of the ichthyology collection at the California Academy of Sciences, San Francisco.",
+    "url": "https://obis.org/dataset/d6af0fac-8a21-4d77-8872-f10d471fc0cf",
+    "sameAs": [
+        "http://ipt.calacademy.org:8080/resource?r=ich"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Catania D, Fong J (2024). CAS Ichthyology (ICH). Version 150.416. California Academy of Sciences. Occurrence dataset. http://ipt.calacademy.org:8080/resource?r=ich&amp;v=150.416",
+    "version": "2024-04-15T22:36:53.000Z",
+    "keywords": [
+        "Ichthyology",
+        "Fishes",
+        "Fish",
+        "Occurrence",
+        "Specimen",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1827/2023",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.calacademy.org:8080/archive.do?r=ich",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.95 -78,-179.95 80.2,179.97225 80.2,179.97225 -78,-179.95 -78"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5196",
+            "@type": "Organization",
+            "legalName": "California Academy of Sciences",
+            "name": "California Academy of Sciences",
+            "url": "https://oceanexpert.org/institution/5196"
+        }
+    ]
+}

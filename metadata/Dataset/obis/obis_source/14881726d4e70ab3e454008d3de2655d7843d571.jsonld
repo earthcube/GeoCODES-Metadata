@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0a6c216b-0abe-44d2-a45c-43d9611e2a03",
+    "name": "Western Australian Museum Marine Invertebrate Collection (1904-2018)",
+    "description": "The Western Australian Museum’s Marine Invertebrates Section comprises specimens from many aquatic animals including Cnidaria, ascidians, Bryozoa, Brachiopoda, ctenophores, Foraminifera and others! Data downloaded from ALA and taxa matched to the World Register of Marine Species",
+    "url": "https://obis.org/dataset/0a6c216b-0abe-44d2-a45c-43d9611e2a03",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=wam_marine_inverts"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": " (2023): Western Australian Museum Marine Invertebrate Collection (1904-2018). v1.2. CSIRO National Collections and Marine Infrastructure (NCMI) Information and Data Centre (IDC). Dataset/Occurrence. https://www.marine.csiro.au/ipt/resource?r=wam_marine_inverts&amp;v=1.2",
+    "version": "2023-06-28T03:23:44.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1904/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=wam_marine_inverts",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-174.0691 -77.6188,-174.0691 43.25,178.5333 43.25,178.5333 -77.6188,-174.0691 -77.6188"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19312",
+            "@type": "Organization",
+            "legalName": "Western Australian Museum",
+            "name": "Western Australian Museum",
+            "url": "https://oceanexpert.org/institution/19312"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

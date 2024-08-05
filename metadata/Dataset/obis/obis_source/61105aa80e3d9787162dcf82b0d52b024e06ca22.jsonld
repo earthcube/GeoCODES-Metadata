@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1e764c93-ace6-4fe0-874b-4bdcd9e0251f",
+    "name": "The molluscs collection (IM) of the Muséum national d'Histoire naturelle (MNHN - Paris) in the southwest Pacific region",
+    "description": "This dataset is a subset of the mollusc collection of the Muséum national d'Histoire naturelle (MNHN - Paris) extracted from GBIF and filtered for the southwest Pacific region and for marine species only.\nThe full collection of marine, terrestrial and freshwater molluscs is primarily a scientific but also a historical and museological collection. It includes about 800 000 lots, totaling approximately 5 million specimens from around the world. These specimens are preserved as either dry collection (dried animals, shells) or in alcohol. The type collection contains 11 000 types of nominal species. The collection dates back to Michel Adanson (shells of Senegal, 1757) and Jean-Baptiste Lamarck. It then increased through donations of amateur collectors, institutional legacies and purchases, and the activity of scientists from both the Museum and other institutions. This diversity of sources continues today, but large expeditions have been very important from the late eighteenth century through to the colonial era, a role they continue to play to this day. The \"Tropical Deep-Sea benthos\" oceanographic expeditions (formerly MUSORSTOM), launched in the early 1980s to sample the benthos of the tropical South and West-Pacific, have resulted in the collection becoming the best in the world for deep-sea faunas (100-1.500 m bathymetric zone). It is particularly rich in micromolluscs. Historical sections of the collection contain representatives of terrestrial and freshwater molluscs that are now extinct.",
+    "url": "https://obis.org/dataset/1e764c93-ace6-4fe0-874b-4bdcd9e0251f",
+    "sameAs": [
+        "https://nzobisipt.niwa.co.nz/resource?r=mnhn-molluscs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "GBIF.org (1st February 2017) GBIF Occurrence Download http://doi.org/10.15468/dl.nikkbj",
+    "version": "2020-06-07T20:59:43.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1962/2015",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://nzobisipt.niwa.co.nz/archive.do?r=mnhn-molluscs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.952667 -53.238333,-179.952667 -1.908317,179.992172 -1.908317,179.992172 -53.238333,-179.952667 -53.238333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/5501",
+            "@type": "Organization",
+            "legalName": "Museum National d'Histoire Naturelle / IRD",
+            "name": "Museum National d'Histoire Naturelle / IRD",
+            "url": "https://oceanexpert.org/institution/5501"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19634",
+            "@type": "Organization",
+            "legalName": "Southwestern Pacific OBIS Node",
+            "name": "Southwestern Pacific OBIS Node",
+            "url": "https://oceanexpert.org/institution/19634"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5cdefe7f-f7ba-4140-b508-66ae2f5cc4a0",
+    "name": "Pez León en Venezuela",
+    "description": "Avistamientos del Pez León en las costas de Venezuela. Los avistamientos son reportados por buzos deportivos a través de la página http://pezleon.cbm.usb.ve. Un proyecto del Centro de Biodiversidad Marinas de la Universidad Simón Bolívar",
+    "url": "https://obis.org/dataset/5cdefe7f-f7ba-4140-b508-66ae2f5cc4a0",
+    "sameAs": [
+        "http://ipt.iobis.org/caribbeanobis/resource?r=pez_leon"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": null,
+    "version": "2018-03-13T15:28:59.000Z",
+    "keywords": [
+        "Occurrence",
+        "pez león"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/caribbeanobis/archive.do?r=pez_leon",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.93582218 10.14283995,-69.93582218 15.40072782,-63.12295227 15.40072782,-63.12295227 10.14283995,-69.93582218 10.14283995"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/8887",
+            "@type": "Organization",
+            "legalName": "Universidad Simon Bolivar",
+            "name": "Universidad Simon Bolivar",
+            "url": "https://oceanexpert.org/institution/8887"
+        }
+    ]
+}

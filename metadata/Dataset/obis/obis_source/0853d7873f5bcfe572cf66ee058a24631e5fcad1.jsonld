@@ -1,0 +1,64 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/00f3beba-a517-4cd5-ab24-575aa52779f9",
+    "name": "Seabird Observations, Storm Bay, Tasmania, Australia, 1991-1994",
+    "description": "Survey data from 9 trips on the 52 m industrial waste dumping vessel, the Anson, from May-Sept 1994. Jarosite, a zinc processing waste product was dumped off the continental shelf southeast of Tasmania. This dataset is of seabird sightings from the northern extant of Storm bay to the dump site. Other zinc dump trips in 1988 and 1991 are in SouthEast Seabird Survey. Data published in Coarse-scale relationships between seabirds and zooplankton off south-eastern Tasmania, Timothy A. Reid and Mark A. Hindell, Mar. Freshwater Res., 2000, 51, 789–98. Additional voyages conducted by Tim Reid from 1991 to 1993 are included in this dataset.",
+    "url": "https://obis.org/dataset/00f3beba-a517-4cd5-ab24-575aa52779f9",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=seabirds_anson",
+        "https://doi.org/10.1071/MF98160"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Coarse-scale relationships between seabirds and zooplankton off south-eastern Tasmania, Timothy A. Reid and Mark A. Hindell, Mar. Freshwater Res., 2000, 51, 789–98.",
+    "version": "2022-06-16T00:01:23.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "EARTH SCIENCE &gt; Oceans &gt; Marine Biology &gt; Marine Birds",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1991/1994",
+    "identifier": {
+        "@id": "https://doi.org/10.1071/MF98160",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1071/MF98160",
+        "url": "https://doi.org/10.1071/MF98160"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=seabirds_anson",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "147.383333333333 -43.633333333333,147.383333333333 -43.0733,148.266666666667 -43.0733,148.266666666667 -43.633333333333,147.383333333333 -43.633333333333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

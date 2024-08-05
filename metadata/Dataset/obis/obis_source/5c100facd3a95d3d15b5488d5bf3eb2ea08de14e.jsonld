@@ -1,0 +1,54 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5ec11ed9-4b39-4078-a7d7-0ad4d532d8a2",
+    "name": "Project for Reef Fish Monitoring",
+    "description": "This dataset contains observation data of reef fishes based on routine underwater research at Chiba, Hiroshima, Koch, Fukuoka, Nagasaki and Kagoshima, Japan in order to estimate global warming impacts on reef fish fauna. See detail \"Sunobe T., H. Kawase, Y. Sakai, N. Shimizu, N. Mochioka, T. Takegaki, Y. Nakamura and S. Dewa, 2014. Global warming and comparison of fish fauna in southern Japan. Report of Chiba Biodiversity Center 7:3-13.\"",
+    "url": "https://obis.org/dataset/5ec11ed9-4b39-4078-a7d7-0ad4d532d8a2",
+    "sameAs": [
+        "https://www.godac.jamstec.go.jp/ipt/resource?r=prfm_obsdata"
+    ],
+    "license": "This work is licensed under a\n                 Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Project for Reef Fish Monitoring (PRFM) (2016). Reef fish observation data in southern Japan. Accessed via http://www.godac.jamstec.go.jp/bismal/e/PRFM_ObsData on YYYY-MM-DD",
+    "version": "2024-01-06T07:19:58.000Z",
+    "keywords": [
+        "Occurrence",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2008/2010",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.godac.jamstec.go.jp/ipt/archive.do?r=prfm_obsdata",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "129.75599 31.336,129.75599 34.976,139.768 34.976,139.768 31.336,129.75599 31.336"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19299",
+            "@type": "Organization",
+            "legalName": "Coastal Branch of Natural History Museum and Institute, Chiba",
+            "name": "Coastal Branch of Natural History Museum and Institute, Chiba",
+            "url": "https://oceanexpert.org/institution/19299"
+        }
+    ]
+}

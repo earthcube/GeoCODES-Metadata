@@ -1,0 +1,75 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/df5a5825-6db0-4034-9e1d-97ece8ecd4cb",
+    "name": "Periphytal turbellarians in the Bay of Calvi (Corsica) sampled in 1982 and 1983",
+    "description": "Occurrence (presence/absence) of Turbellaria on algae and <i>Posidonia oceanica</i> sampled between 06 May 1982 and 22 November 1983 at Calvi Bay (Corsica). The data were digitized by VLIZ from the original report: Martens, P.M. (1983). Periphytale Turbellaria in de Baai van Calvi, in: FKFO Project 2.9007.82. Systematiek en ecologie van mariene organismen: verslag over het tweede werkingsjaar 1983. pp. 71-73.",
+    "url": "https://obis.org/dataset/df5a5825-6db0-4034-9e1d-97ece8ecd4cb",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=periphytal_turbellarians_calvi_1982-1983",
+        "https://dx.doi.org/10.14284/278"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Martens P.M.; Onderzoeksgroep Dierkunde, Departement SBM. LUC: Belgium; (2017): Periphytal turbellarians in the Bay of Calvi (Corsica) sampled in 1982 and 1983. (http://www.vliz.be/en/imis?module=dataset&amp;dasid=5482) https://dx.doi.org/10.14284/278",
+    "version": "2023-05-23T11:40:32.000Z",
+    "keywords": [
+        "Periphyton",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "substrate from which the sample was taken",
+            "url": "",
+            "description": "substrate from which the sample was taken"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "water temperature",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+            "description": "water temperature"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1982/1983",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.14284/278",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.14284/278",
+        "url": "https://dx.doi.org/10.14284/278"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=periphytal_turbellarians_calvi_1982-1983",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "8.72566 42.56879,8.72566 42.58439,8.73959 42.58439,8.73959 42.56879,8.72566 42.56879"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

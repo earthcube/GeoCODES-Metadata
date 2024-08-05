@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/c0c05803-63d7-434d-b7f6-db638d57ab36",
+    "name": "Fishes of the Gothenburg Natural History Museum",
+    "description": "This database contains fish specimens from the Museum of Natural History in Gothenburg.",
+    "url": "https://obis.org/dataset/c0c05803-63d7-434d-b7f6-db638d57ab36",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=gbif_1534",
+        "https://doi.org/10.15468/xmrfet"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "GBIF-Sweden. Fishes of the Gothenburg Natural History Museum. https://doi.org/10.15468/xmrfet",
+    "version": "2023-12-08T17:11:41.000Z",
+    "keywords": [
+        "Expeditions",
+        "Worldwide",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1902/2005",
+    "identifier": {
+        "@id": "https://doi.org/10.15468/xmrfet",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/xmrfet",
+        "url": "https://doi.org/10.15468/xmrfet"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=gbif_1534",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-78.8667 -71.05,-78.8667 74.55,79.5833 74.55,79.5833 -71.05,-78.8667 -71.05"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19306",
+            "@type": "Organization",
+            "legalName": "Göteborgs naturhistoriska museum",
+            "name": "Göteborgs naturhistoriska museum",
+            "url": "https://oceanexpert.org/institution/19306"
+        }
+    ]
+}

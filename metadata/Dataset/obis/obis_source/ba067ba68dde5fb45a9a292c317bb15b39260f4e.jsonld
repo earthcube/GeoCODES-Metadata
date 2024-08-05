@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0da744a6-38cc-473b-a2ea-b44202272036",
+    "name": "Kelp habitat density and composition from underwater video, east coast Tasmania, Australia (2020-2021)",
+    "description": "Annotations of canopy forming seaweed derived from towed video at selected key abalone blocks along the east coast of Tasmania, Australia. The purpose of the study was to examine the patch dynamics of seaweeds and urchin barrens and to provide validation for the identification of urchin barrens from multibeam surveys.\nThe video footage was annotated at the scale of individual kelp patches, whereby the start and end-point of individual patches were recorded as precisely as possible with the assistance of Biigle video analysis software (https://biigle.de/). The different kelp patches were categorised based on the canopy species and the overall percentage cover of the canopy (sparse = 0-20% cover, middle= 20-60%, dense=60-100% cover). Eck= Ecklonia radiata, Phyll = Phyllospora comoasa, Cys= Cystophora sp. Other = all other canopy species, bare= completely bare reef. These annotations were then matched to GPS coordinates collected from a transponder mounted to the camera platform.\nData accessed from cited metadata record on 2022-09-01.",
+    "url": "https://obis.org/dataset/0da744a6-38cc-473b-a2ea-b44202272036",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=kelp_habitat_composition"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Shelamoff, V. Lucieer, V. Keane, J. Lau, A. Ling, S. (2021). Kelp habitat density and composition from underwater video. Institute for Marine and Antarctic Studies (IMAS), University of Tasmania (UTAS). Data accessed from https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/a99cefff-dd6e-4afe-9102-37ab2bf0a8e5 on [access date]",
+    "version": "2022-10-18T00:32:31.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2020/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=kelp_habitat_composition",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "147.9679 -43.2059,147.9679 -41.1661,148.3531 -41.1661,148.3531 -43.2059,147.9679 -43.2059"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/13402",
+            "@type": "Organization",
+            "legalName": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "name": "University of Tasmania, Institute for Marine and Antarctic Studies",
+            "url": "https://oceanexpert.org/institution/13402"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

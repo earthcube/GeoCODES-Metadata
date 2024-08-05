@@ -1,0 +1,63 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/b3c3d0d0-ae60-4fae-86a6-5337710d4924",
+    "name": "Nematodes from the Weddell Sea",
+    "description": "Focussing on nematode genera, this dataset provides geographically extensive nematode information from one of the largest shelf areas around the Antarctic continent.",
+    "url": "https://obis.org/dataset/b3c3d0d0-ae60-4fae-86a6-5337710d4924",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=manuela_u9"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Vanhove, S. (1989). Nematodes from the Weddell Sea. Ghent University, Department of Biology, Marine Biology Section (MARBIOL), Belgium.",
+    "version": "2023-05-23T11:32:00.000Z",
+    "keywords": [
+        "Deep sea",
+        "Meiobenthos",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1989/1989",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=manuela_u9",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-30.07 -75.26166667,-30.07 -71.06333333,-12.06333333 -71.06333333,-12.06333333 -75.26166667,-30.07 -75.26166667"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/11235",
+            "@type": "Organization",
+            "legalName": "Universiteit Gent, Marine Biology research group",
+            "name": "Universiteit Gent, Marine Biology research group",
+            "url": "https://oceanexpert.org/institution/11235"
+        }
+    ]
+}

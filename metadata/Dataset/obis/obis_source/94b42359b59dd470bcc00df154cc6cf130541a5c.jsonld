@@ -1,0 +1,61 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/0e8d9174-1341-44ae-9dd1-9e89f558a2d9",
+    "name": "Moreton Bay 2011 post flood - bio-optical and phytoplankton data",
+    "description": "Following the extreme flood event of 2011, samples were collected from various sites in Moreton Bay 1 week, 2 weeks, 6 weeks, 19 weeks and 48 weeks post flood. The samples were analysed for TSM, pigment concentration and composition, absorption co-efficients of particulate ( phtyoplankton and non-algal) and dissolved (CDOM) components and phytoplankton species identification and abundance.\nData retrieved from https://doi.org/10.25919/gf5w-9711 December 2020",
+    "url": "https://obis.org/dataset/0e8d9174-1341-44ae-9dd1-9e89f558a2d9",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=moreton_bay_2011"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Clementson, Lesley; Steven, Andy; Oubelkheir, Kadija; Cherukuru, Nagur; Brewer, Elizabeth (2020): Moreton Bay 2011 post flood - bio-optical and phytoplankton data. v1. CSIRO. Data Collection. https://doi.org/10.25919/gf5w-9711",
+    "version": "2022-06-08T01:44:09.000Z",
+    "keywords": [
+        "Occurrence",
+        "Specimen"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=moreton_bay_2011",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "153.05848 -27.40762,153.05848 -27.07742,153.43372 -27.07742,153.43372 -27.40762,153.05848 -27.40762"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/17014",
+            "@type": "Organization",
+            "legalName": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "name": "CSIRO Oceans and Atmosphere Information and Data Centre, Hobart",
+            "url": "https://oceanexpert.org/institution/17014"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

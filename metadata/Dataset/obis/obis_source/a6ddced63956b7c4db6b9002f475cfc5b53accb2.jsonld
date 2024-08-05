@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/1d468f1f-c2b7-4012-8d5b-8e903c200b76",
+    "name": "Florida Manatee Mortality 1974-2020",
+    "description": "Original provider:\nFlorida Fish and Wildlife Conservation Commission - Fish and Wildlife Research Institute\n\nDataset credits:\nFlorida Fish and Wildlife Conservation Commission - Fish and Wildlife Research Institute\n\nAbstract:\nThis dataset contains data from the geographic information system (GIS) shapefile of recovered Florida manatee (<i>Trichechus manatus latirostris</i>) carcass locations within Florida from April 1974 through to the latest spatially verified data presently available. Locations are based both on coordinates provided by field staff (gathered either by geographic positioning system [GPS] or by using navigation charts to ascertain latitudes and longitudes) and maps provided by the field staff. Fish and Wildlife Research Institute (FWRI) GIS staff in the Marine Mammal subsection verify that the provided coordinates match the intent of the plotted location. Points representing carcass locations were entered into a GIS using a digital shoreline basemap taken largely from NOAA navigation charts (1:40,000) and from USGS quadrangles (1:24,000). The scale is considered to be 1:40,000.\n\nPurpose:\nThe primary use of this dataset is to display reported manatee carcass recovery locations and associated attributes, such as cause of death.\n\nSupplemental information:\nPrior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI).\n\nCounts were not available and filled with \"1\"; time was not available and filled with \"00:00:00.\" \n\n07/28/2021: Data up to Aug 2020 were added.\n\n01/07/2019: Data up to May 2017 were added. Data format was changed. The previous contact was replaced with Andrea Krzystan.\n\n04/04/2019: Data up to Dec 2017 were added.\n\n07/28/2016: March - June 2015 data were added. The data were downloaded from http://geodata.myfwc.com/datasets/ba5b92ec509f48f38c61aa542e96236f_1 on 07/28/2016.\n\n03/29/2016: 2011-2015 data were added. The data were downloaded from http://geodata.myfwc.com/datasets/ba5b92ec509f48f38c61aa542e96236f_1.\n\n11/11/2011: This dataset, originally containing data from 1974-early 2010, was updated to include data through December 2010 data.\n\n07/21/2011: This dataset, originally containing data from 1974-2008, was updated to include 2009-2010 data.",
+    "url": "https://obis.org/dataset/1d468f1f-c2b7-4012-8d5b-8e903c200b76",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_490"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Halpin, P.N., A.J. Read, E. Fujioka, B.D. Best, B. Donnelly, L.J. Hazen, C. Kot, K. Urian, E. LaBrecque, A. Dimatteo, J. Cleary, C. Good, L.B. Crowder, and K.D. Hyrenbach. 2009. OBIS-SEAMAP: The world data center for marine mammal, sea bird, and sea turtle distributions. Oceanography. 22(2):104-115. http://www.tos.org/oceanography/article/obis-seamap-the-world-data-center-for-marine-mammal-sea-bird-and-sea-turtle",
+    "version": "2021-07-29T18:52:22.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,Marine mammals,Vessel,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1974/2020",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_490",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-87.4087 24.55584,-87.4087 30.721072,-80.01841 30.721072,-80.01841 24.55584,-87.4087 24.55584"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

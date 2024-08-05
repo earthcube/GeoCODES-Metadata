@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/d338c518-7193-47a1-8922-bc71b54849f5",
+    "name": "PANGAEA - Data from Climate: Long-range investigation, mapping and prediction (CLIMAP)",
+    "description": "Micropaleontology, stratigraphy and geochemistry data primarily from the period 18,000 years bp to the present.",
+    "url": "https://obis.org/dataset/d338c518-7193-47a1-8922-bc71b54849f5",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pangaea_2732"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2024-02-26T23:18:32.000Z",
+    "keywords": [
+        "Paleontology",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1954/1977",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pangaea_2732",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-172.9 -57.57,-172.9 78.9,177.92 78.9,177.92 -57.57,-172.9 -57.57"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

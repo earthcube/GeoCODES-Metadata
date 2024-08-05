@@ -1,0 +1,55 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/082aa123-802c-45bd-b189-4a3278a6e156",
+    "name": "NPPSD Short-tailed Albatross Sightings",
+    "description": "Original provider:\nUSGS Alaska Science Center &amp; U.S. Fish and Wildlife Service\n\nDataset credits:\nNorth Pacific Pelagic Seabird Database\n\nAbstract:\nThis database was prepared by Jenny Wetzel and John Piatt at the United States Geological Survey (USGS) Alaska Science Center for Greg Balogh, United States Fish and Wildlife Service (USFWS) Endangered Species Office, Anchorage, as part of a collaborative USGS/FWS project to compile data on seabirds at sea. The North Pacific Pelagic Seabird Database (NPPSD) is a work in progress (contact Gary Drew for information on the NPPSD). Updates to this database can be found on the NPPSD web site. For more information/updated versions of this database, please contact the primary contacts (John Piatt, Greg Balogh, or Gary Drew).\n\nPurpose:\nThis dataset includes short-tailed albatross sightings from different sources that were gathered by many different people over a long period of time. We started with a database compiled by the USFWS, verified records where we could and double-checked computer records against all hard copy reports and publications, cleaned up many mistakes in the data (those which were apparent and fixable), eliminated duplicate records that had crept into the database over time, and added additional records gleaned from new sources.\n\nA frequent source of confusion was determining whether longitude records were in the Eastern or Western hemisphere. When this was not explicitly stated, we made decisions based on available evidence or logic (e.g., STAL do not fly inland). We cannot vouch for the accuracy of most sightings reported in this database, and if you have any doubts about individual records, you should seek out the source of the data, or simply delete it. In addition, there may be duplicate records and typographical errors still present. We noted 'questionable record' where previous investigators raised questions about quality of the observation, or we had some concerns. For all these reasons, you should use some discretion when using these data for analysis and/or interpreting results. If you find an error, please notify one of the people indicated below in the contacts section.\n\nUsers of this database should seek permission from the USFWS (Greg Balogh) before reporting or publishing any results of analyses conducted on this database. Two manuscripts describing the distribution of STAL in relation to the environment (1) and other albatrosses (2) are in preparation by USGS and FWS.\n\nIn this version of the database, we have excluded confidential information on fishing vessel names, observers, and associated comments, and we deleted all notes about corrections. This database is available at the NPPSD web site, and can be distributed freely. The confidential dataset can only be obtained from the FWS (Greg Balogh).\n\nIf you use this database, we would appreciate that you cite NPPSD (2005).\n\nSupplemental information:\nBefore this dataset was incorporated into the OBIS-SEAMAP system, several fields and records were discarded.\n\nWe removed those sightings without complete latitude/longitude information or without complete date/time information. We also discarded those fields relating to vessel name, observer name, and comments from all the remaining records. Ancillary sighting information, including fisheries association and bird age class, are available from NSPPD. Please use the individual record numbers to retrieve additional information from the original NPPSD records.",
+    "url": "https://obis.org/dataset/082aa123-802c-45bd-b189-4a3278a6e156",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_311"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Hyrenbach, D., J. Piatt, G. Balogh and G. Drew. 2013. NPPSD Short-tailed Albatross Sightings. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/311) on yyyy-mm-dd.",
+    "version": "2021-04-24T09:15:08.000Z",
+    "keywords": [
+        "Occurrence,Marine Animal Survey,Marine Biology,,Seabirds,Vessel,Visual Sighting",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1940/2004",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_311",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.958 19.067,-179.958 64.333,179.767 64.333,179.767 19.067,-179.958 19.067"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        }
+    ]
+}

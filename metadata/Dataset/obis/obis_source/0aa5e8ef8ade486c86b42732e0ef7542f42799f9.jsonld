@@ -1,0 +1,44 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/9b161b02-0f21-44e7-ac73-0ad7d4c95172",
+    "name": "iziko South African Museum - Mollusc Collection",
+    "description": "The iziko South African Museum's mollusc collection of southern African species is the second largest mollusc collection in southern Africa. Significant additions were made in the past by K.H. Barnard. It currently contains 6078 records. The families were not provided.",
+    "url": "https://obis.org/dataset/9b161b02-0f21-44e7-ac73-0ad7d4c95172",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=iziko_molluscs"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "iziko South African Museum - Mollusc Collection",
+    "version": "2020-12-02T14:08:28.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1881/2000",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=iziko_molluscs",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-159.567001343 -63.4166984558,-159.567001343 50.5999984741,165.949996948 50.5999984741,165.949996948 -63.4166984558,-159.567001343 -63.4166984558"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    }
+}

@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/4d2a31a3-bb76-4ffe-a2f9-817e975f6ba9",
+    "name": "Diveboard - Scuba diving citizen science observations",
+    "description": "Diveboard is an online scuba diving citizen science platform, where divers can digitize or log their dives, participate in citizen science surveys and projects, and interact with others. More then 10,000 divers have already registered with Diveboard and the community is still growing. This dataset contains all observations made by Diveboarders worldwide (mainly fishes) and are linked to the Encyclopedia of Life. The Diveboard community has dedicated the data to the public domain under a Creative Commons Zero waiver, so these can be used as widely as possible. If you have a specific survey need or question, get in touch: Diveboarders are everywhere and willing to help!",
+    "url": "https://obis.org/dataset/4d2a31a3-bb76-4ffe-a2f9-817e975f6ba9",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=diveboard",
+        "https://dx.doi.org/10.15468/tnjrgy"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Diveboard - Scuba diving citizen science observations. Online at http://www.diveboard.com and http://ipt.diveboard.com/resource.do?r=diveboard-occurrences. https://dx.doi.org/10.15468/tnjrgy",
+    "version": "2023-05-23T11:39:06.000Z",
+    "keywords": [
+        "Citizen participation",
+        "Citizen science",
+        "diver",
+        "Scuba diving",
+        "Volunteers",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1972/2014",
+    "identifier": {
+        "@id": "https://dx.doi.org/10.15468/tnjrgy",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.15468/tnjrgy",
+        "url": "https://dx.doi.org/10.15468/tnjrgy"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=diveboard",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-159.787 -46.8738,-159.787 70.5174,179.983 70.5174,179.983 -46.8738,-159.787 -46.8738"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/19614",
+            "@type": "Organization",
+            "legalName": "Diveboard",
+            "name": "Diveboard",
+            "url": "https://oceanexpert.org/institution/19614"
+        }
+    ]
+}

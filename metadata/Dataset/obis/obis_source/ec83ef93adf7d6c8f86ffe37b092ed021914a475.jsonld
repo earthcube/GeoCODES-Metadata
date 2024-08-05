@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/24b24b44-52ef-4f6a-b9a0-5fa20bfeff49",
+    "name": "IMR Zooplankton North Sea",
+    "description": "The IMR zooplankton database holds North Sea data on species composition (abundance), size fractionated biomass as well as biomass for particular zooplankton groups obtained from standard seasonal transects (Utsira-StartPoint, Feie-Shetland, Hanstholm-Aberdeen, Torungen-Hirtshals) and a regional coverage of the northern North Sea and Skagerrak during April-May. Data on species composition are limited.",
+    "url": "https://obis.org/dataset/24b24b44-52ef-4f6a-b9a0-5fa20bfeff49",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=imr_zoopl_north_sea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Falkenhaug, T. (2014). IMR Zooplankton North Sea. Institute of Marine Research, Norway",
+    "version": "2024-02-26T23:22:41.000Z",
+    "keywords": [
+        "Phytoplankton",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL02/",
+            "description": "Abundance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1997/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=imr_zoopl_north_sea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-1.66567 56.9833,-1.66567 61.1617,10.8247 61.1617,10.8247 56.9833,-1.66567 56.9833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6717",
+            "@type": "Organization",
+            "legalName": "Institute of Marine Research",
+            "name": "Institute of Marine Research",
+            "url": "https://oceanexpert.org/institution/6717"
+        }
+    ]
+}

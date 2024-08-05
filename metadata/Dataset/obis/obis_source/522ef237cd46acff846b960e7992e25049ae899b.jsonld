@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/fe2e14f5-a1f8-4de8-806f-c1f86550616a",
+    "name": "Diversity and abundance of mesopelagic fishes along 110°E, south-east Indian Ocean for the 2nd Indian Ocean Expedition (IIOE-2). RV Investigator voyage IN2019_V03 (2019)",
+    "description": "Samples were obtained from the RV Investigator from 14 May - June 5, 2019 as part of the 2nd Indian Ocean Expedition (IIOE-2). A total of 20 stations (90 nautical miles apart) from 39.5 deg south to 11.5 deg S along the 110 ?E meridian was sampled during both day and night. The samples were obtained by means of hauls using a EZ multi-net with a 1 m2 mouth area and eight operating nets (500 µm mesh). It was sent down to 500 m depth and oblique hauls discriminating the following depth strata of the water column were taken as the net was retrieved: 500-400, 400-300, 300-200, 200-150, 150-100, 100-50, 50 - 5 m. Each stratum was sampled for about 10 min and the volume of water filtered was obtained via use of an electronically recording flowmeter (mean volume: 486.5 m3). In summary, 273 discrete stratum hauls, covering the upper 500 m of the water column, were made along the 110 deg E transect in the Indian Ocean. After sorting and identification of fish specimens on board, samples were preserved in 10% buffered formalin with borax for later inspection in the laboratory.\n\nVoyage metadata, data, reports and event logs accessible at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2019_V03",
+    "url": "https://obis.org/dataset/fe2e14f5-a1f8-4de8-806f-c1f86550616a",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=in2019_v03_mesopelagic",
+        "https://doi.org/10.1016/j.dsr2.2022.105111"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Olivar, M.P., Beckley, L.E. 2022. Vertical distribution patterns of early stages of mesopelagic fishes along 110 °E, south-east Indian Ocean. Deep Sea Research II. 105111. https://doi.org/10.1016/j.dsr2.2022.105111\n",
+    "version": "2022-07-29T10:52:59.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Light Code D:day N:night",
+            "url": "",
+            "description": "Light Code D:day N:night"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Volume water filtered (m3)",
+            "url": "",
+            "description": "Volume water filtered (m3)"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2019/2019",
+    "identifier": {
+        "@id": "https://doi.org/10.1016/j.dsr2.2022.105111",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.1016/j.dsr2.2022.105111",
+        "url": "https://doi.org/10.1016/j.dsr2.2022.105111"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=in2019_v03_mesopelagic",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "109.83563 -39.47456,109.83563 -11.49661,110.10901 -11.49661,110.10901 -39.47456,109.83563 -39.47456"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/15539",
+            "@type": "Organization",
+            "legalName": "Murdoch University",
+            "name": "Murdoch University",
+            "url": "https://oceanexpert.org/institution/15539"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

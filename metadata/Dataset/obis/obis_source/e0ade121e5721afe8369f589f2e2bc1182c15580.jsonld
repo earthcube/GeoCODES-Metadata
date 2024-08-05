@@ -1,0 +1,127 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5e6ee2aa-8155-452b-97e3-14d2835c85a0",
+    "name": "NuSEDS - New Salmon Escapement Database System",
+    "description": "Salmon escapement data constitute important corporate knowledge which must be adequately maintained and accessible. The Salmon Escapement Database (NuSEDS) is the DFO Pacific Region’s central database that stores individual spawner survey data records, spawner abundance estimates and the linkages between the two. Annual abundance estimates are maintained by population, as defined by freshwater location and run timing. Each population is referenced to the location of the stream mouth. The watershed-coding system provides unique stream identification and incorporates the natural organization, direction, and hierarchical nature of stream channels and their tributaries.\nThe NuSEDS database currently reports salmon spawning observations for 9100+ individual populations but escapement estimates (all levels of survey intensity) are available for 9800+ populations.\nThis database contains historic population data starting in the 1920’s (older data for some rivers exists in other formats). Prior to 1995 a standardized form (BC-16) was used to summarize the estimate of the spawning population size, but the historical database lacked the capacity to describe the number of observations, individual counts or methods used to estimate the abundance of the population. In 1995, responsibility for salmon enumeration was moved to the DFO Science section. At that time, the database was re-written to include descriptive information for each abundance estimate, providing underlying data and the estimation method(s). Many of the historic estimates prior to 1995 are labeled Unspecified Returns because the database was limited to storing one estimate for any given stock. As time and resources permit these data are being replaced with more accurate categorization. With the introduction of the Wild Salmon Policy (2005), individual populations within NuSEDS can now be grouped by Conservation Unit.",
+    "url": "https://obis.org/dataset/5e6ee2aa-8155-452b-97e3-14d2835c85a0",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=nuseds"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Salmon Data Unit ., Fisheries and Assessment Data Section . (2022): NuSEDS - New Salmon Escapement Database System. v1.8. Fisheries and Oceans Canada. Dataset/Samplingevent. https://ipt.iobis.org/obiscanada/resource?r=nuseds&amp;v=1.8",
+    "version": "2022-10-12T21:20:57.000Z",
+    "keywords": [
+        "Occurrence",
+        "Pacific Salmon",
+        "Escapement",
+        "BC16",
+        "Salmon Spawning Observations",
+        "Summary Estimate Narrative (SEN)",
+        "Salmon Spawner Abundance",
+        "Adult Spawner Escapements",
+        "Fish",
+        "Fisheries management",
+        "Fisheries resources",
+        "Environment",
+        "Biota",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Accuracy",
+            "url": "http://vocab.nerc.ac.uk/collection/W01/current/007/1/",
+            "description": "Accuracy"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Estimate method (data processing method)",
+            "url": "http://vocab.nerc.ac.uk/collection/S01/current/S0111/",
+            "description": "Estimate method (data processing method)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Estimate stage",
+            "url": "NA",
+            "description": "Estimate stage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Index (yes/no)",
+            "url": "NA",
+            "description": "Index (yes/no)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Precision",
+            "url": "http://vocab.nerc.ac.uk/collection/W04/current/CAPB0005/",
+            "description": "Precision"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Estimate classification",
+            "url": "NA",
+            "description": "Estimate classification"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "lifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/3/",
+            "description": "lifeStage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "reproductiveCondition",
+            "url": "http://vocab.nerc.ac.uk/collection/MVB/current/MVB000021/2/",
+            "description": "reproductiveCondition"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/3/",
+            "description": "individualCount"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "No_inspections_used",
+            "url": "NA",
+            "description": "No_inspections_used"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1103/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=nuseds",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-141.001328444292 48.3699486031571,-141.001328444292 66.5060986097958,-118.473277457023 66.5060986097958,-118.473277457023 48.3699486031571,-141.001328444292 48.3699486031571"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

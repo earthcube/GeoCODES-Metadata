@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dfe411ef-391f-4a4a-b263-3ae5309427f3",
+    "name": "Cover of Intertidal Macroalgae along the N and NW Coast of the Iberian Peninsula in 2011",
+    "description": "A standardized sampling methodology was carried out in 21 sites along the N and NW Iberian Peninsula. Field surveys were carried out during the low spring tides in April 2011. At each site, three transects perpendicular to the coast were selected. A stratified and systematic sampling procedure was carried out, dividing each transect into four areas: lower intertidal, middle intertidal, upper intertidal and supralittoral. The sampling stations were distributed at equal distances, three in the lower and middle intertidal and two in the upper intertidal and supralittoral. The sampling unit was standardized using a 50 x 50 cm grid.",
+    "url": "https://obis.org/dataset/dfe411ef-391f-4a4a-b263-3ae5309427f3",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=intertidal_nspain_2011"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Ramos, E., Puente, A., Juanes, J.A. (Environmental Hydraulics Institute, IHCantabria), Spain (2019): Cover of intertidal macroalgae along the N and NW coast of the Iberian Peninsula in 2011",
+    "version": "2023-05-23T11:40:31.000Z",
+    "keywords": [
+        "Coverage",
+        "Polygons",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling area",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Sampling area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Cover",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL10/",
+            "description": "Cover"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2011/2011",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=intertidal_nspain_2011",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-9.249575 42.234281,-9.249575 43.629808,-2.074267 43.629808,-2.074267 42.234281,-9.249575 42.234281"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/14102",
+            "@type": "Organization",
+            "legalName": "Environmental Hydraulics Institute",
+            "name": "Environmental Hydraulics Institute",
+            "url": "https://oceanexpert.org/institution/14102"
+        }
+    ]
+}

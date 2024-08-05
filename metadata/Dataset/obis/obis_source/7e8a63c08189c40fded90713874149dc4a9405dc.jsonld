@@ -1,0 +1,138 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/40abd351-5acd-4b48-a500-573d7ca7899e",
+    "name": "Infaunal abundance and biomass data from surveys of the East Antrim Maerl bed in 2004",
+    "description": "This dataset contains information on infaunal abundance and biomass from sediment grabs in Red Bay, Co. Antrim in 2004 on the RV Lough Foyle. The data from this survey was used to help support the Special Area of Conservation (SAC) site designation for Red Bay, Co. Antrim. A day grab was used to collect the samples, in total there were 20 samples taken and analysed. Particle Size Analysis (PSA) and Carbon &amp; Nitrogen analysis was carried out on the sediments from the grab. The presence and absence of Maerl (alive or dead) was also recorded. The most abundant species found was Calcarea sp. and the most frequently recorded was the polychaete Glycera lapidium.",
+    "url": "https://obis.org/dataset/40abd351-5acd-4b48-a500-573d7ca7899e",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=dasshdt00000401",
+        "https://doi.org/10.17031/qp1mem"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Agri-Food and Biosciences Institute (AFBI) (2019): Infaunal abundance and biomass data from surveys of the East Antrim Maerl bed in 2004. v2.1. Marine Biological Association. Dataset/Samplingevent. https://doi.org/10.17031/qp1mem",
+    "version": "2023-12-08T17:50:54.000Z",
+    "keywords": [
+        "Lough Foyle",
+        "research vessel",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "devicearea",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "devicearea"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "methodqcnotes",
+            "url": "",
+            "description": "methodqcnotes"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "qcscheme",
+            "url": "",
+            "description": "qcscheme"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "samplingdevice",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "samplingdevice"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sievemeshsize",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "sievemeshsize"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon biomass",
+            "url": "",
+            "description": "taxon biomass"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "taxon abundance",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "taxon abundance"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "ClaySilt",
+            "url": "",
+            "description": "ClaySilt"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Clay",
+            "url": "",
+            "description": "Clay"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Gravel",
+            "url": "",
+            "description": "Gravel"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2004/2004",
+    "identifier": {
+        "@id": "https://doi.org/10.17031/qp1mem",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.17031/qp1mem",
+        "url": "https://doi.org/10.17031/qp1mem"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=dasshdt00000401",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-6.026216667 54.88778333,-6.026216667 55.12933333,-5.816283333 55.12933333,-5.816283333 54.88778333,-6.026216667 54.88778333"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6974",
+            "@type": "Organization",
+            "legalName": "Joint Nature Conservation Committee",
+            "name": "Joint Nature Conservation Committee",
+            "url": "https://oceanexpert.org/institution/6974"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/7168",
+            "@type": "Organization",
+            "legalName": "The Marine Biological Association of the United Kingdom",
+            "name": "The Marine Biological Association of the United Kingdom",
+            "url": "https://oceanexpert.org/institution/7168"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/13220",
+            "@type": "Organization",
+            "legalName": "Agri-Food and Biosciences Institute",
+            "name": "Agri-Food and Biosciences Institute",
+            "url": "https://oceanexpert.org/institution/13220"
+        }
+    ]
+}

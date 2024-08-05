@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/dd02c5c4-8fab-4b6c-8d09-5dea443d5670",
+    "name": "Quantitative Diatom data collected from the RV Investigator voyage, IN2017_V01, Sabrina Coast, Antarctica (2017)",
+    "description": "There were 13 cores taken (11 Kasten cores and two piston cores) at depths from 2100 to 3356 metres. Samples for diatom analysis were collected on board ship immediately after core recovery. Samples were dried in an oven at 50 degrees C prior to analytical work. For further details, see cited metadata record.\nVoyage details (metadata, projects, other datasets either online or as downloads, publications and reports, events, maps etc) can be accessed at https://www.marine.csiro.au/data/trawler/survey_details.cfm?survey=IN2017_V01\nIf this data has been used in any products, please acknowledge with the following: We acknowledge the use of the CSIRO Marine National Facility (https://ror.org/01mae9353) in undertaking this research.\n",
+    "url": "https://obis.org/dataset/dd02c5c4-8fab-4b6c-8d09-5dea443d5670",
+    "sameAs": [
+        "https://www.marine.csiro.au/ipt/resource?r=in2017_v01_diatoms"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Leventer, A. (2022) Quantitative Diatom data collected from the 2017 RV Investigator voyage, IN2017_V01, Ver. 1,  Australian Antarctic Data Centre - doi:10.26179/5cad45a7cb140",
+    "version": "2023-11-30T02:23:20.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample method",
+            "url": "",
+            "description": "Sample method"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2017/2017",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www.marine.csiro.au/ipt/archive.do?r=in2017_v01_diatoms",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "115.043 -65.1313,115.043 -64.401,120.8635 -64.401,120.8635 -65.1313,115.043 -65.1313"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/20942",
+            "@type": "Organization",
+            "legalName": "CSIRO National Collections and Marine Infrastructure",
+            "name": "CSIRO National Collections and Marine Infrastructure",
+            "url": "https://oceanexpert.org/institution/20942"
+        }
+    ]
+}

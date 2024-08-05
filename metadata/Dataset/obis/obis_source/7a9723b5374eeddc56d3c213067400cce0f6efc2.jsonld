@@ -1,0 +1,79 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/eae87607-a740-4f85-abf8-2af89764355b",
+    "name": "DFO Quebec Region Biodiversity of the whelk (Buccinum) dredge survey in the St. Lawrence Estuary",
+    "description": "A research stock survey on the waved whelk (Buccinum undatum), using a Digby scallop dredge, was carried out by DFO every two years from 2005 to 2019 on the north shore of the St. Lawrence estuary between Portneuf-sur-Mer and Baie-Comeau. Three sectors were inventoried for each survey, namely Forestville, Pointe-aux-Outardes and Baie-Comeau. The primary objective of these surveys was to assess the abundance of whelk and benthic species associated with whelk habitat according to a fixed station sampling plan. The accuracy of species identification was lower in the first two surveys. Subsequently, an effort was made to improve species identification, including that of whelks. The data provided is a compilation by species (or taxon), by station and by year of the benthic species associated with whelk habitat.\nUn relevé de recherche sur le buccin commun (Buccinum undatum), à l'aide d'une drague à pétoncle de type Digby, a été réalisé par le MPO aux deux ans de 2005 à 2019 sur la rive nord de l’estuaire du Saint-Laurent entre Portneuf-sur-Mer et Baie-Comeau. Trois secteurs ont été inventoriés à chaque relevé, soit Forestville, Pointe-aux-Outardes et Baie-Comeau. L’objectif principal de ces relevés était d’évaluer l’abondance du buccin et des espèces benthiques associées à l’habitat du buccin selon un plan d'échantillonnage à stations fixes. La précision de l’identification des espèces était moindre lors des deux premiers relevés. Par la suite, un effort a été mis en place afin d’améliorer l’identification des espèces, dont celle des buccins. Les données fournies sont une compilation par espèce (ou taxon), par station et par année des espèces benthiques associées à l’habitat du buccin.",
+    "url": "https://obis.org/dataset/eae87607-a740-4f85-abf8-2af89764355b",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=dfo_que_est_bu"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Brulotte S (2021): DFO Quebec Region Biodiversity of the whelk (Buccinum) dredge survey in the St. Lawrence Estuary. v1.2. Fisheries and Oceans Canada. Dataset/Samplingevent. http://ipt.iobis.org/obiscanada/resource?r=dfo_que_est_bu&amp;v=1.2",
+    "version": "2022-03-29T18:19:42.000Z",
+    "keywords": [
+        "Occurrence",
+        "Biodiversity",
+        "St. Lawrence river",
+        "St. Lawrence Estuary",
+        "North coast St. Lawrence Estuary",
+        "Whelk",
+        "Quebec",
+        "SamplingEvent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sample size",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AREABEDS/",
+            "description": "Sample size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling effort",
+            "url": "http://vocab.nerc.ac.uk/collection/P02/current/SAMP/",
+            "description": "Sampling effort"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling protocol"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2005/2019",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/obiscanada/archive.do?r=dfo_que_est_bu",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-69.049641 48.65775,-69.049641 49.20636,-68.086833 49.20636,-68.086833 48.65775,-69.049641 48.65775"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6190",
+            "@type": "Organization",
+            "legalName": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "name": "Maurice Lamontagne Institute (DFO – MLI, IML), Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/6190"
+        }
+    ]
+}

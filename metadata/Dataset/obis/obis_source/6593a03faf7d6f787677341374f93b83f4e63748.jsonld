@@ -1,0 +1,120 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/443fde8d-61ca-47d6-8246-1c150d5e6166",
+    "name": "Soft-bottom macrozoobenthos from the coastal Bulgarian Black Sea (2013-2014)",
+    "description": "Abundance (individuals/m2) and biomass (g/m2) of macrozoobenthic taxa at soft-bottom stations along the Southern Bulgarian Black Sea coast (Burgas Bay), collected during field surveys of IBER-BAS in 2013-2014 as part of project PERSEUS. The dataset also contains measurements of several environmental parameters at the stations: sediment grain size (% gravel, sand, and silt/clay); sediment moisture content (%) and total organic matter (% loss on ignition); temperature, salinity and dissolved oxygen in the water column and near the bottom.",
+    "url": "https://obis.org/dataset/443fde8d-61ca-47d6-8246-1c150d5e6166",
+    "sameAs": [
+        "http://gp.sea.gov.ua:8082/ipt/resource?r=macrozoobenthos_sand_perseus_iber-bas"
+    ],
+    "license": "To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the  Public Domain (CC0 1.0)",
+    "citation": "Klayn S, Karamfilov V (2021): Soft-bottom macrozoobenthos from the coastal Bulgarian Black Sea (2013-2014). v1. Institute of Biodiversity and Ecosystem Research, Bulgarian Academy of Sciences (IBER-BAS). Dataset/Samplingevent. http://gp.sea.gov.ua:8082/ipt/resource?r=macrozoobenthos_sand_perseus_iber-bas&amp;v=1.0",
+    "version": "2021-06-30T06:53:17.000Z",
+    "keywords": [
+        "Black Sea",
+        "Coastal zone",
+        "Marine invertebrates",
+        "Community composition",
+        "Abundance",
+        "Biomass",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Lower sieve mesh size",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100007/",
+            "description": "Lower sieve mesh size"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of gravel (>2000um) in the sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPRPWSZB/",
+            "description": "Proportion of gravel (>2000um) in the sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of sand (63-2000um) in the sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/PRPCL048/",
+            "description": "Proportion of sand (63-2000um) in the sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Proportion of silt and clay (<63um) in the sediment",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SPRPWSXF/",
+            "description": "Proportion of silt and clay (<63um) in the sediment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample extraction method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100005/",
+            "description": "Sample extraction method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample preservation method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/",
+            "description": "Sample preservation method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling device aperture surface area",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100017/",
+            "description": "Sampling device aperture surface area"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Total organic matter in sediments (loss on ignition)",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/STOMLIBS/",
+            "description": "Total organic matter in sediments (loss on ignition)"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Water content of sediments",
+            "url": "http://vocab.nerc.ac.uk/collection/P09/current/H2OS/",
+            "description": "Water content of sediments"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2013/2014",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://gp.sea.gov.ua:8082/ipt/archive.do?r=macrozoobenthos_sand_perseus_iber-bas",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "27.49454 42.32108,27.49454 42.45873,27.7758 42.45873,27.7758 42.32108,27.49454 42.32108"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19357",
+            "@type": "Organization",
+            "legalName": "Bulgarian Academy of Sciences –The Institute of Biodiversity and Ecosystem Research",
+            "name": "Bulgarian Academy of Sciences –The Institute of Biodiversity and Ecosystem Research",
+            "url": "https://oceanexpert.org/institution/19357"
+        }
+    ]
+}

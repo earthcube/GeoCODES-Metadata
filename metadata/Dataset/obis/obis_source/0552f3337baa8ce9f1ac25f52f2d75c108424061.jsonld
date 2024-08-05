@@ -1,0 +1,114 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/5061d21c-6161-4ea2-a8d4-38f8285dfc47",
+    "name": "Pacific Multispecies Small Mesh Bottom Trawl Survey",
+    "description": "An OBIS version of Fisheries and Oceans Canada (DFO) Pacific multispecies small mesh bottom trawl survey data from 1963-2021. Survey data are collected by DFO stock assessment staff during annual trawl surveys originally designed with the primary purpose of developing indices of abundance of commercial shrimp species.  The survey data have now evolved to monitor trends and document all species encountered.",
+    "url": "https://obis.org/dataset/5061d21c-6161-4ea2-a8d4-38f8285dfc47",
+    "sameAs": [
+        "http://ipt.iobis.org/obiscanada/resource?r=obis_pacshrimp"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Flemming R (2013): Pacific Multispecies Small Mesh Bottom Trawl Survey. v2.4. Fisheries and Oceans Canada. Dataset/Samplingevent. http://iobis.org/mapper/?resource_id=261",
+    "version": "2022-03-23T22:07:07.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling protocol",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/SAMPPROT/",
+            "description": "Sampling protocol"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of towing platform",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/TOWSPEED/",
+            "description": "Speed of towing platform"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth (spatial coordinate) of sampling event start relative to water surface in the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DXPHPRST/",
+            "description": "Depth (spatial coordinate) of sampling event start relative to water surface in the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Depth (spatial coordinate) of sampling event end relative to water surface in the water body",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/DXPHPRXN/",
+            "description": "Depth (spatial coordinate) of sampling event end relative to water surface in the water body"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sample duration",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/",
+            "description": "Sample duration"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sex",
+            "url": "http://vocab.nerc.ac.uk/collection/P21/current/MS9769/",
+            "description": "sex"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Width of sample collector (aperture) {mouth width}",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/MTHWDTH1/",
+            "description": "Width of sample collector (aperture) {mouth width}"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length of sampling track",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LENTRACK/",
+            "description": "Length of sampling track"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Direction of Tow",
+            "url": "",
+            "description": "Direction of Tow"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1953/2021",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obiscanada/archive.do?r=obis_pacshrimp",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-133.5281942 47.94310113,-133.5281942 55.4650001525879,-122.897499084473 55.4650001525879,-122.897499084473 47.94310113,-133.5281942 47.94310113"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19196",
+            "@type": "Organization",
+            "legalName": "Fisheries and Oceans Canada",
+            "name": "Fisheries and Oceans Canada",
+            "url": "https://oceanexpert.org/institution/19196"
+        }
+    ]
+}

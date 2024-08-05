@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/47d70302-4b2c-4c70-a2da-18209ce23af2",
+    "name": "Marine fish species off Lagos coast, Nigeria",
+    "description": "Marine fish species biodiversity off Lagos coast, Nigeria",
+    "url": "https://obis.org/dataset/47d70302-4b2c-4c70-a2da-18209ce23af2",
+    "sameAs": [
+        "http://ipt.iobis.org/afrobis/resource?r=marine_fish_species_nigeria_2009"
+    ],
+    "license": "This [DATA(BASE)-NAME] is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.",
+    "citation": "Omogoriola, HO (2014); Marine species off Lagos coast, Nigeria; Nigerian Institute for Oceanography &amp; Marine Research (NIOMR); Dataset published by AfrOBIS; consulted via iOBIS",
+    "version": "2016-05-05T07:27:31.000Z",
+    "keywords": [
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2009/2009",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.iobis.org/afrobis/archive.do?r=marine_fish_species_nigeria_2009",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "2.71205 6.138683334,2.71205 6.388641667,3.563041667 6.388641667,3.563041667 6.138683334,2.71205 6.138683334"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/15920",
+            "@type": "Organization",
+            "legalName": "Nigerian Institute for Oceanography & Marine Research (NIOMR)",
+            "name": "Nigerian Institute for Oceanography & Marine Research (NIOMR)",
+            "url": "https://oceanexpert.org/institution/15920"
+        }
+    ]
+}

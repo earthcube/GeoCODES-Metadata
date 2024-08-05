@@ -1,0 +1,62 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/38323897-76a3-4659-9d1b-d23b222edf31",
+    "name": "USAKA Turtle Release Program (aggregated per 1-degree cell)",
+    "description": "Original provider:\nUSAKA Turtle Release Program\n\nDataset credits:\nData provider\nUSAKA Turtle Release Program\nOriginating data center\n<a href=\"http://www.seaturtle.org/tracking/\">Satellite Tracking and Analysis Tool (STAT)</a>\n\n\nAbstract:\nThe captive sea turtles on the United States Army Kwajalein Atoll (USAKA) Ronald Reagan Ballistic Missile Test Site (RTS) have been part of island life for almost as long as the test site has existed there (approximately 40 years). Starting off as a concrete lined ditch and then undergoing a renovation in 1995, the turtle pond is home to six green sea turtles (3 females and 3 males) and one male Hawksbill. Oversight of the pond is performed by Kwajalein Range Services (KRS), the current M&amp;O contractor. It became necessary to release several males in order to balance the number of male turtles to female turtles. Additionally, release of the Hawksbill was imperative to prevent the possible intermingling of turtle species. One mature female green and the mature male hawksbill were fitted with satellite transmitters and released on April 20, 2006. The release and tracking will provide much needed data on Marshall Island turtles including, nesting, feeding and migration patterns. Two other green sea turtles were also released but did not have transmitters attached.\n\nSupplemental information:\n<a href=\"http://www.seaturtle.org/tracking/index.shtml?project_id=137\">Visit STAT's project page</a> for additional information.\n\nThis dataset is a summarized representation of the telemetry locations aggregated per species per 1-degree cell.",
+    "url": "https://obis.org/dataset/38323897-76a3-4659-9d1b-d23b222edf31",
+    "sameAs": [
+        "http://ipt.env.duke.edu/resource?r=zd_341_1deg"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License",
+    "citation": "Sims C. 2021. USAKA Turtle Release Program. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/341) on yyyy-mm-dd originated from Satellite Tracking and Analysis Tool (STAT; http://www.seaturtle.org/tracking/index.shtml?project_id=137).",
+    "version": "2021-04-24T09:22:28.000Z",
+    "keywords": [
+        "Occurrence",
+        "Observation",
+        "Occurrence"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2006/2006",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "http://ipt.env.duke.edu/archive.do?r=zd_341_1deg",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "167.5 8.5,167.5 9.5,169.5 9.5,169.5 8.5,167.5 8.5"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/19393",
+            "@type": "Organization",
+            "legalName": "Duke University",
+            "name": "Duke University",
+            "url": "https://oceanexpert.org/institution/19393"
+        },
+        {
+            "@id": "https://oceanexpert.org/institution/23181",
+            "@type": "Organization",
+            "legalName": "SEATURTLE.ORG",
+            "name": "SEATURTLE.ORG",
+            "url": "https://oceanexpert.org/institution/23181"
+        }
+    ]
+}

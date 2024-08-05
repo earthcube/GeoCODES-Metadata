@@ -1,0 +1,100 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/f5005f2d-c05b-436f-9d1a-5dbc186ee4a8",
+    "name": "Cetacean monitoring data collected along fixed transect using ferries as platforms in the Strait of Gibraltar, 2018, FLT Med Network",
+    "description": "Data collected using ferries as platform of observation for monitoring cetacean populations in the Strait of Gibraltar, within the Fixed Line Transect Mediterranean monitoring Network. Data were gathered on board of the ferries routing between Algeciras city and the harbours of Tanger-Med and Ceuta. In the Strait were monitored cetacean populations of the following species: short-beaked common dolphin (Delphinus delphis), striped dolphin (Stenella coeruleoalba), bottlenose dolphin (Tursiops truncatus), long-finned pilot whale (Globicephala melas), sperm whale (Physeter macrocephalus), fin whale (Balaenoptera physalus) and killer whale (Orcinus orca). Data were collected also on other species of macrofauna (i.e., loggerhead sea turtle and ocean sunfish). The dataset contains effort data (e.g., meteorological conditions) and sighting data (105 of cetaceans and 10 of other macrofauna organisms), and were collected by dedicated trained Marine Mammal Observers (January to December 2018).",
+    "url": "https://obis.org/dataset/f5005f2d-c05b-436f-9d1a-5dbc186ee4a8",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=straitgib_cetacea"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Scuderi Alessia, Martín Moreno Estfania; (2020). Cetacean monitoring programme along fixed transect using ferries as platforms in the Strait of Gibraltar, 2018, FLT Med Network",
+    "version": "2023-05-23T11:56:44.000Z",
+    "keywords": [
+        "Biological monitoring",
+        "surface vessel",
+        "vessel of opportunity on fixed route",
+        "Visual census",
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "BEAUFORT WIND FORCE",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/WMOCWFBF/",
+            "description": "BEAUFORT WIND FORCE"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Platform height",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/AHSLZZ01/",
+            "description": "Platform height"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling method",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100003/",
+            "description": "Sampling method"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Speed of measurement platform relative to ground surface {speed over ground} by unspecified GPS system",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/APSAGP01/",
+            "description": "Speed of measurement platform relative to ground surface {speed over ground} by unspecified GPS system"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Count (in assayed sample) of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "Count (in assayed sample) of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Development stage of biological entity specified elsewhere",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/LSTAGE01/",
+            "description": "Development stage of biological entity specified elsewhere"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sighting distance",
+            "url": "",
+            "description": "Sighting distance"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2018/2018",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=straitgib_cetacea",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-5.511 35.913,-5.511 36.149,-5.304 36.149,-5.304 35.913,-5.511 35.913"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

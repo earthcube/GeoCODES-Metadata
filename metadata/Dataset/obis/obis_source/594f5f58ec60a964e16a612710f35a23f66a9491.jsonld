@@ -1,0 +1,56 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/38535a43-2982-4479-88c1-8303f7ee8665",
+    "name": "PANGAEA - Data from the Deep Sea Drilling Project (DSDP)",
+    "description": "The Deep Sea Drilling Project (DSDP) was the first of three international scientific ocean drilling programs that have operated over more than 40 years.\n\nDSDP data are available online from the (NGDC) and the IODP online database.",
+    "url": "https://obis.org/dataset/38535a43-2982-4479-88c1-8303f7ee8665",
+    "sameAs": [
+        "http://ipt.vliz.be/eurobis/resource?r=pangaea_2755"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": null,
+    "version": "2023-12-08T17:14:36.000Z",
+    "keywords": [
+        "Deep sea",
+        "Drilling",
+        "Occurrence",
+        "Observation"
+    ],
+    "variableMeasured": [],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "1968/1998",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.vliz.be/eurobis/archive.do?r=pangaea_2755",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "-179.467 -77.4413,-179.467 69.8372,179.996 69.8372,179.996 -77.4413,-179.467 -77.4413"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6223",
+            "@type": "Organization",
+            "legalName": "Vlaams Instituut voor de Zee",
+            "name": "Vlaams Instituut voor de Zee",
+            "url": "https://oceanexpert.org/institution/6223"
+        }
+    ]
+}

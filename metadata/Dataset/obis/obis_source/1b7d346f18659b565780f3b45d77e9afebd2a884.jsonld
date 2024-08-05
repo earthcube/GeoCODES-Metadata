@@ -1,0 +1,78 @@
+
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://obis.org/dataset/53fd028c-473a-4efb-9fd4-d34489ba6e29",
+    "name": "Deep-sea haploniscid isopods of the Kuril-Kamchatka Trench and the Sea of Okhotsk collected during the SokhoBio (2015) and KuramBio II (2016) expeditions in the Northwest Pacific",
+    "description": "Haploniscid isopods (Crustacea: Asellota) from this dataset were collected during the SokhoBio (2015) expedition on board RV Akademik M. A. Lavrentyev and the KuramBio II (2016) expedition on board of RV Sonne. Samples were taken from abyssal to hadal depths (3,210-9,584 m) by means of an epibenthic sledge (EBS), an Agassiz trawl (AGT) and a box corer (BC). All samples within the dataset stem from the Kuril-Kamchatka Trench, the Kuril Basin of the Sea of Okhotsk and the Bussol Strait that connects them, located in the Northwest Pacific Ocean.",
+    "url": "https://obis.org/dataset/53fd028c-473a-4efb-9fd4-d34489ba6e29",
+    "sameAs": [
+        "https://ipt.iobis.org/obis-deepsea/resource?r=deep-sea_haploniscid_isopods"
+    ],
+    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
+    "citation": "Knauber, Henry; Riehl, Torben; Brandt, Angelika (2022) Haploniscid isopods from the Kuril-Kamchatka Trench and the Sea of Okhotsk collected during the SokhoBio (2015) and KuramBio II (2016) expeditions in the Northwest Pacific.",
+    "version": "2022-07-14T11:31:30.000Z",
+    "keywords": [
+        "Samplingevent"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sampling instrument name",
+            "url": "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100002/",
+            "description": "Sampling instrument name"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Length",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/",
+            "description": "Length"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "LifeStage",
+            "url": "http://vocab.nerc.ac.uk/collection/S11/current/",
+            "description": "LifeStage"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "individualCount",
+            "url": "http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/",
+            "description": "individualCount"
+        }
+    ],
+    "includedInDataCatalog": {
+        "@id": "https://obis.org",
+        "@type": "DataCatalog",
+        "url": "https://obis.org"
+    },
+    "temporalCoverage": "2015/2016",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ipt.iobis.org/obis-deepsea/archive.do?r=deep-sea_haploniscid_isopods",
+        "encodingFormat": "application/zip"
+    },
+    "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoShape",
+            "polygon": "146.004267 43.819833,146.004267 47.202117,153.8565 47.202117,153.8565 43.819833,146.004267 43.819833"
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "propertyID": "http://dbpedia.org/resource/Spatial_reference_system",
+            "value": "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+        }
+    },
+    "provider": [
+        {
+            "@id": "https://oceanexpert.org/institution/6271",
+            "@type": "Organization",
+            "legalName": "Senckenberg Gesellschaft für Naturforschung",
+            "name": "Senckenberg Gesellschaft für Naturforschung",
+            "url": "https://oceanexpert.org/institution/6271"
+        }
+    ]
+}
