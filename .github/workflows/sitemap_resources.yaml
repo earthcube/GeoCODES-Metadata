@@ -120,8 +120,8 @@ jobs:
       id: sitemaDepthResources
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/depth
-        path-to-root: metadata/Dataset/depth
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/Dataset/depth/obis
+        path-to-root: metadata/Dataset/depth/obis
         include-pdf: false
         additional-extensions: json jsonld
     - name: Output depth
