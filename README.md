@@ -7,7 +7,7 @@ Generated Sitemaps are at:
   * https://earthcube.github.io/GeoCODES-Metadata/metadata/Dataset/json/sitemap.xml
 * https://earthcube.github.io/GeoCODES-Metadata/metadata/development/sitemap.xml
 * https://earthcube.github.io/GeoCODES-Metadata/metadata/otherResources/sitemap.xml
-* depth: https://earthcube.github.io/GeoCODES-Metadata/metadata/Dataset/depth/sitemap.xml
+* depth: https://earthcube.github.io/GeoCODES-Metadata/metadata/Dataset/depth/obis/sitemap.xml
 There are two manual sitemaps:
 * https://earthcube.github.io/GeoCODES-Metadata/site/sitemaps/headless.xml
 * https://earthcube.github.io/GeoCODES-Metadata/site/sitemaps/mixed.xml
