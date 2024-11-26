@@ -1,0 +1,105 @@
+
+           {
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "https://schema.org/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "@id": "_:N56a7680c03c845c4a6f494aec4663a4a",
+            "@type": "schema:DataCatalog",
+            "schema:description": "",
+            "schema:name": "WIFIRE Commons Data Catalog",
+            "schema:url": "https://wifire-data.sdsc.edu"
+        },
+        {
+            "@id": "https://wifire-data.sdsc.edu/dataset/b36e31e1-af9a-4049-9e8b-025eec85176d/resource/072f2805-d77c-4251-82ae-9245853579ff",
+            "@type": "schema:DataDownload",
+            "schema:contentSize": 1234,
+            "schema:description": "GEOJSON containing spatial extents and download links for each tile in LAZ format",
+            "schema:encodingFormat": "GeoJSON",
+            "schema:name": "spatial_extents_USGS_LPC_MO_AR_StGenevieveCo_2013_LAS_2016.json",
+            "schema:url": "https://wifire-data.sdsc.edu/dataset/b36e31e1-af9a-4049-9e8b-025eec85176d/resource/072f2805-d77c-4251-82ae-9245853579ff/download/spatial_extents_usgs_lpc_mo_ar_stgenevieveco_2013_las_2016.json"
+        },
+        {
+            "@id": "https://wifire-data.sdsc.edu/dataset/b36e31e1-af9a-4049-9e8b-025eec85176d",
+            "@type": "schema:Dataset",
+            "schema:dateModified": "2024-02-16T01:09:41.851328",
+            "schema:datePublished": "2023-02-13T22:52:10.749334",
+            "schema:description": "Lidar (Light detection and ranging) discrete-return point cloud data are available in the American Society for Photogrammetry and Remote Sensing (ASPRS) LAS format. The LAS format is a standardized binary format for storing 3-dimensional point cloud data and point attributes along with header information and variable length records specific to the data. Millions of data points are stored as a 3-dimensional data cloud as a series of x (longitude), y (latitude) and z (elevation) points. A few older projects in this collection are in ASCII format. Please refer to http://www.asprs.org/Committee-General/LASer-LAS-File-Format-Exchange-Activities.html for additional information. This data set is a LAZ (compressed LAS) format file containing lidar point cloud data. Compression to an LAZ file was done with the LAStools 'laszip' program and can be unzipped with the same free program (laszip.org).  LICENSE: US Government Public Domain https://www.usgs.gov/faqs/what-are-terms-uselicensing-map-services-and-data-national-map",
+            "schema:distribution": [
+                {
+                    "@id": "https://wifire-data.sdsc.edu/dataset/b36e31e1-af9a-4049-9e8b-025eec85176d/resource/072f2805-d77c-4251-82ae-9245853579ff"
+                },
+                {
+                    "@id": "https://wifire-data.sdsc.edu/dataset/b36e31e1-af9a-4049-9e8b-025eec85176d/resource/3a327306-b31d-4dbf-bd0b-c7e7f04c5778"
+                },
+                {
+                    "@id": "https://wifire-data.sdsc.edu/dataset/b36e31e1-af9a-4049-9e8b-025eec85176d/resource/c268b56a-11eb-4fd4-87f2-30ec82cbae0b"
+                }
+            ],
+            "schema:includedInDataCatalog": {
+                "@id": "_:N56a7680c03c845c4a6f494aec4663a4a"
+            },
+            "schema:keywords": [
+                "Point Cloud",
+                "Lidar",
+                "3dep",
+                "ALS"
+            ],
+            "schema:license": "Other (Public Domain)",
+            "schema:name": "USGS_LPC_MO_AR_StGenevieveCo_2013_LAS_2016",
+            "schema:publisher": {
+                "@id": "https://wifire-data.sdsc.edu/organization/76b73ee9-fe61-4bbc-9d57-f54e3d572be1"
+            },
+            "schema:spatialCoverage": {
+                "@id": "_:N04ad4f365147437d9e2cc2d559dd75a9"
+            },
+            "schema:url": "https://wifire-data.sdsc.edu/dataset/usgs_lpc_mo_ar_stgenevieveco_2013_las_2016"
+        },
+        {
+            "@id": "https://wifire-data.sdsc.edu/dataset/b36e31e1-af9a-4049-9e8b-025eec85176d/resource/c268b56a-11eb-4fd4-87f2-30ec82cbae0b",
+            "@type": "schema:DataDownload",
+            "schema:name": "USGS Entwine Potree Viewer",
+            "schema:url": "https://usgs.entwine.io/data/view.html?r=%22https://s3-us-west-2.amazonaws.com/usgs-lidar-public/USGS_LPC_MO_AR_StGenevieveCo_2013_LAS_2016%22"
+        },
+        {
+            "@id": "_:N04ad4f365147437d9e2cc2d559dd75a9",
+            "@type": "schema:Place",
+            "schema:geo": {
+                "@id": "_:N603b0493b34a4d04b4ea70dbb9415d49"
+            }
+        },
+        {
+            "@id": "_:Ncdca7707351343e3be22157eab847b09",
+            "@type": "schema:ContactPoint",
+            "schema:contactType": "customer service",
+            "schema:url": "https://wifire-data.sdsc.edu"
+        },
+        {
+            "@id": "_:N603b0493b34a4d04b4ea70dbb9415d49",
+            "@type": "schema:GeoShape",
+            "schema:polygon": "{\"type\": \"Polygon\", \"coordinates\": [[[-90.3556954061323, 37.7965905326234], [-90.4078277918371, 37.7965905326234], [-90.4078277918371, 37.8370006677226], [-90.3556954061323, 37.8370006677226], [-90.3556954061323, 37.7965905326234]]]}"
+        },
+        {
+            "@id": "https://wifire-data.sdsc.edu/organization/76b73ee9-fe61-4bbc-9d57-f54e3d572be1",
+            "@type": "schema:Organization",
+            "schema:contactPoint": {
+                "@id": "_:Ncdca7707351343e3be22157eab847b09"
+            },
+            "schema:name": "USGS-3dep"
+        },
+        {
+            "@id": "https://wifire-data.sdsc.edu/dataset/b36e31e1-af9a-4049-9e8b-025eec85176d/resource/3a327306-b31d-4dbf-bd0b-c7e7f04c5778",
+            "@type": "schema:DataDownload",
+            "schema:contentSize": 1234,
+            "schema:description": "GEOJSON containing spatial extents and download links for each tile in LAZ format",
+            "schema:encodingFormat": "GeoJSON",
+            "schema:name": "spatial_extents_USGS_LPC_MO_AR_StGenevieveCo_2013_LAS_2016.json",
+            "schema:url": "https://wifire-data.sdsc.edu/dataset/b36e31e1-af9a-4049-9e8b-025eec85176d/resource/3a327306-b31d-4dbf-bd0b-c7e7f04c5778/download/spatial_extents_usgs_lpc_mo_ar_stgenevieveco_2013_las_2016.json"
+        }
+    ]
+}
+          
