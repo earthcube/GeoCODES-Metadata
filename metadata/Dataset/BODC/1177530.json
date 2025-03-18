@@ -1,0 +1,207 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@type": "Dataset",
+  "version": "1.0.0",
+  "provider": {
+    "@id": "https://edmo.seadatanet.org/report/43",
+    "@type": "Organization",
+    "legalName": "British Oceanographic Data Centre",
+    "name": "BODC",
+    "url": "https://www.bodc.ac.uk"
+  },
+  "publisher": {
+    "@id": "https://edmo.seadatanet.org/report/43"
+  },
+  "@id": "https://api.linked-systems.uk/api/schema-org/dataset/1177530",
+  "identifier": 1177530,
+  "datePublished": "2009-07-22T23:50:50Z",
+  "name": "BODC Series 1177530",
+  "description": "Dataset metadata for BODC Series Reference Number 1177530",
+  "about": [
+    {
+      "@type": "Event",
+      "@id": "https://api.linked-systems.uk/api/schema-org/event/1177530",
+      "url": "https://www.bodc.ac.uk/data/documents/series/1177530/",
+      "name": "Collection Event related to BODC Series 1177530"
+    }
+  ],
+  "keywords": [
+    "Vertical spatial coordinates",
+    "Administration and dimensions",
+    "Vert_spac_coord",
+    "Dissolved oxygen parameters in the water column",
+    "Dissolved gases",
+    "WC_O2",
+    "Chlorophyll pigment concentrations in water bodies",
+    "Pigments",
+    "WC_ChlPigs",
+    "Transmittance and attenuance of the water column",
+    "Optical properties",
+    "WC_Trans+Attn",
+    "Density of the water column",
+    "Other physical oceanographic measurements",
+    "WC_Dens",
+    "Reference numbers",
+    "Administration and dimensions",
+    "Refno",
+    "Vertical spatial coordinates",
+    "Administration and dimensions",
+    "Vert_spac_coord",
+    "Transmittance and attenuance of the water column",
+    "Optical properties",
+    "WC_Trans+Attn",
+    "Salinity of the water column",
+    "Water column temperature and salinity",
+    "WC_Sal",
+    "Density of the water column",
+    "Other physical oceanographic measurements",
+    "WC_Dens",
+    "Electrical conductivity of the water column",
+    "Water column temperature and salinity",
+    "WC_Cond",
+    "Dissolved oxygen parameters in the water column",
+    "Dissolved gases",
+    "WC_O2",
+    "Raw oxygen sensor output",
+    "Dissolved gases",
+    "RawO2Output",
+    "Temperature of the water column",
+    "Water column temperature and salinity",
+    "WC_Temp",
+    "Temperature of the water column",
+    "Water column temperature and salinity",
+    "WC_Temp"
+  ],
+  "url": "https://www.bodc.ac.uk/data/documents/series/1177530/",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://bodc.ac.uk/data/open_download/series/1177530/odv/",
+      "encodingFormat": "text\/x-odv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://bodc.ac.uk/data/open_download/series/1177530/odvnc/",
+      "encodingFormat": "application\/netcdf"
+    }
+  ],
+  "temporalCoverage": "22-JUL-09\/Ongoing",
+  "recordedAt": "2009-07-22T23:50:50Z",
+  "license": "https://www.bodc.ac.uk/data/documents/nodb/281368/",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "longitude": "-16.63533",
+      "latitude": "48.90733"
+    }
+  },
+  "creator": [
+    {
+      "@type": "Role",
+      "roleName": "Contact",
+      "creator": {
+        "@type": "Person",
+        "name": "Dr. Adrian P Martin",
+        "givenName": "Adrian",
+        "familyName": "Martin",
+        "url": "http://www.noc.soton.ac.uk/obe/index.php?action=staff_entry&SID=268"
+      }
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Pres_Z",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/PRESPR01/",
+      "description": "Pressure (spatial coordinate) exerted by the water body by profiling pressure sensor and correction to read zero at sea level"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "WC_dissO2_IS",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/DOXYZZ01/",
+      "description": "Concentration of oxygen {O2 CAS 7782-44-7} per unit volume of the water body [dissolved plus reactive particulate phase] by in-situ sensor"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "chl-a_water_ISfluor",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/CPHLPR01/",
+      "description": "Concentration of chlorophyll-a {chl-a CAS 479-61-8} per unit volume of the water body [particulate \u003Eunknown phase] by in-situ chlorophyll fluorometer"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Trans_Red_25cm",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/POPTDR01/",
+      "description": "Transmittance (red light wavelength) per 25cm of the water body by 25cm path length red light transmissometer"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SigTheta",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/SIGTPR01/",
+      "description": "Sigma-theta of the water body by CTD and computation from salinity and potential temperature using UNESCO algorithm"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Record_No",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/ACYCAA01/",
+      "description": "Sequence number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "HeightAboveBed",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/AHSFZZ01/",
+      "description": "Height (spatial coordinate) relative to bed surface in the water body"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Atten_red",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/ATTNMR01/",
+      "description": "Attenuation (red light wavelength) per unit length of the water body by 20 or 25cm path length transmissometer"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "P_sal_CTD",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/PSALST01/",
+      "description": "Practical salinity of the water body by CTD and computation using UNESCO 1983 algorithm"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Vol2MassCTD",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/TOKGPR01/",
+      "description": "Conversion factor (volume to mass) for the water body by CTD and computation of density (in-situ potential temperature surface pressure) reciprocal from pressure, temperature and salinity"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CTDCond",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/CNDCST01/",
+      "description": "Electrical conductivity of the water body by CTD"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "BK_SBE43",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/OXYSSC01/",
+      "description": "Saturation of oxygen {O2 CAS 7782-44-7} in the water body [dissolved plus reactive particulate phase] by Sea-Bird SBE 43 sensor and calibration against sample data and computation from concentration using Benson and Krause algorithm"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "OxyProbeOut1",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/OXYVLTN1/",
+      "description": "Raw signal (voltage) of instrument output by in-situ microelectrode"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "WC_temp_CTD",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/",
+      "description": "Temperature of the water body by CTD or STD"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "WC_Potemp",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/POTMCV01/",
+      "description": "Potential temperature of the water body by computation using UNESCO 1983 algorithm"
+    }
+  ]
+}

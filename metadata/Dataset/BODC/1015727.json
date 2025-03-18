@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@type": "Dataset",
+  "version": "1.0.0",
+  "provider": {
+    "@id": "https://edmo.seadatanet.org/report/43",
+    "@type": "Organization",
+    "legalName": "British Oceanographic Data Centre",
+    "name": "BODC",
+    "url": "https://www.bodc.ac.uk"
+  },
+  "publisher": {
+    "@id": "https://edmo.seadatanet.org/report/43"
+  },
+  "@id": "https://api.linked-systems.uk/api/schema-org/dataset/1015727",
+  "identifier": 1015727,
+  "datePublished": "2008-04-25T23:59:00Z",
+  "name": "BODC Series 1015727",
+  "description": "Dataset metadata for BODC Series Reference Number 1015727",
+  "about": [
+    {
+      "@type": "Event",
+      "@id": "https://api.linked-systems.uk/api/schema-org/event/1015727",
+      "url": "https://www.bodc.ac.uk/data/documents/series/1015727/",
+      "name": "Collection Event related to BODC Series 1015727"
+    }
+  ],
+  "keywords": [
+    "Reference numbers",
+    "Administration and dimensions",
+    "Refno",
+    "Horizontal velocity of the water column (currents)",
+    "Currents",
+    "Horiz_Currents_WC",
+    "Horizontal velocity of the water column (currents)",
+    "Currents",
+    "Horiz_Currents_WC",
+    "Temperature of the water column",
+    "Water column temperature and salinity",
+    "WC_Temp",
+    "Moored instrument depth",
+    "Administration and dimensions",
+    "Depth",
+    "Date and time",
+    "Administration and dimensions",
+    "Date + Time",
+    "Date and time",
+    "Administration and dimensions",
+    "Date + Time"
+  ],
+  "url": "https://www.bodc.ac.uk/data/documents/series/1015727/",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://bodc.ac.uk/data/open_download/series/1015727/odv/",
+      "encodingFormat": "text/x-odv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://bodc.ac.uk/data/open_download/series/1015727/odvnc/",
+      "encodingFormat": "application/netcdf"
+    }
+  ],
+  "temporalCoverage": "25-APR-08/30-APR-09",
+  "recordedAt": "2008-04-25T23:59:00Z",
+  "license": "https://www.bodc.ac.uk/data/documents/nodb/281368/",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "longitude": "-76.821",
+      "latitude": "26.5"
+    }
+  },
+  "creator": [
+    {
+      "@type": "Role",
+      "roleName": "Contact",
+      "creator": {
+        "@type": "Person",
+        "name": "Prof. Stuart A Cunningham",
+        "givenName": "Stuart",
+        "familyName": "Cunningham",
+        "url": "http://www.sams.ac.uk/stuart-cunningham"
+      }
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Record_No",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/ACYCAA01/",
+      "description": "Sequence number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CurrVelE_CM",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/LCEWEL01/",
+      "description": "Eastward velocity of water current (Eulerian measurement) in the water body by in-situ current meter"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CurrVelN_CM",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/LCNSEL01/",
+      "description": "Northward velocity of water current (Eulerian measurement) in the water body by in-situ current meter"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Temp",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+      "description": "Temperature of the water body"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "MidWat_TotPress",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/PRSTPR01/",
+      "description": "Pressure (measured variable) exerted by the water body plus atmosphere by semi-fixed in-situ pressure sensor"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ElapsedTimeSinceMidnightUTC",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/AAFDZZ01/",
+      "description": "Time (time between 00:00 UT and timestamp)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Date(Loch_Day)",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/AADYAA01/",
+      "description": "Date (time from 00:00 01/01/1760 to 00:00 UT on day)"
+    }
+  ]
+}

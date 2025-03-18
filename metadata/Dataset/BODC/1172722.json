@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@type": "Dataset",
+  "version": "1.0.0",
+  "provider": {
+    "@id": "https://edmo.seadatanet.org/report/43",
+    "@type": "Organization",
+    "legalName": "British Oceanographic Data Centre",
+    "name": "BODC",
+    "url": "https://www.bodc.ac.uk"
+  },
+  "publisher": {
+    "@id": "https://edmo.seadatanet.org/report/43"
+  },
+  "@id": "https://api.linked-systems.uk/api/schema-org/dataset/1172722",
+  "identifier": 1172722,
+  "datePublished": "2007-05-01T05:44:45Z",
+  "name": "BODC Series 1172722",
+  "description": "Dataset metadata for BODC Series Reference Number 1172722",
+  "about": [
+    {
+      "@type": "Event",
+      "@id": "https://api.linked-systems.uk/api/schema-org/event/1172722",
+      "url": "https://www.bodc.ac.uk/data/documents/series/1172722/",
+      "name": "Collection Event related to BODC Series 1172722"
+    }
+  ],
+  "keywords": [
+    "Density of the water column",
+    "Other physical oceanographic measurements",
+    "WC_Dens",
+    "Reference numbers",
+    "Administration and dimensions",
+    "Refno",
+    "Salinity of the water column",
+    "Water column temperature and salinity",
+    "WC_Sal",
+    "Temperature of the water column",
+    "Water column temperature and salinity",
+    "WC_Temp",
+    "Vertical spatial coordinates",
+    "Administration and dimensions",
+    "Vert_spac_coord",
+    "Temperature of the water column",
+    "Water column temperature and salinity",
+    "WC_Temp"
+  ],
+  "url": "https://www.bodc.ac.uk/data/documents/series/1172722/",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://bodc.ac.uk/data/open_download/series/1172722/odv/",
+      "encodingFormat": "text\/x-odv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://bodc.ac.uk/data/open_download/series/1172722/odvnc/",
+      "encodingFormat": "application\/netcdf"
+    }
+  ],
+  "temporalCoverage": "01-MAY-07\/Ongoing",
+  "recordedAt": "2007-05-01T05:44:45Z",
+  "license": "https://www.bodc.ac.uk/data/documents/nodb/200009/",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "longitude": "-9.55565",
+      "latitude": "36.07955"
+    }
+  },
+  "creator": [
+    {
+      "@type": "Role",
+      "roleName": "Contact",
+      "creator": {
+        "@type": "Person",
+        "name": "Dr. John Huthnance",
+        "givenName": "John",
+        "familyName": "Huthnance",
+        "url": "http://www.pol.ac.uk/home/staff/HuthJohn.html"
+      }
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "SigTheta",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/SIGTPR01/",
+      "description": "Sigma-theta of the water body by CTD and computation from salinity and potential temperature using UNESCO algorithm"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Record_No",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/ACYCAA01/",
+      "description": "Sequence number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "P_sal_CTD",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/PSALST01/",
+      "description": "Practical salinity of the water body by CTD and computation using UNESCO 1983 algorithm"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "WC_temp_CTD",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/TEMPST01/",
+      "description": "Temperature of the water body by CTD or STD"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CmpDep",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/DEPHPR01/",
+      "description": "Depth (spatial coordinate) relative to water surface in the water body by profiling pressure sensor and conversion to seawater depth using UNESCO algorithm",
+      "minValue": 15,
+      "maxValue": 3993,
+      "unitText": "m"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "WC_Potemp",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/POTMCV01/",
+      "description": "Potential temperature of the water body by computation using UNESCO 1983 algorithm"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@type": "Dataset",
+  "version": "1.0.0",
+  "provider": {
+    "@id": "https://edmo.seadatanet.org/report/43",
+    "@type": "Organization",
+    "legalName": "British Oceanographic Data Centre",
+    "name": "BODC",
+    "url": "https://www.bodc.ac.uk"
+  },
+  "publisher": {
+    "@id": "https://edmo.seadatanet.org/report/43"
+  },
+  "@id": "https://api.linked-systems.uk/api/schema-org/dataset/1381893",
+  "identifier": 1381893,
+  "datePublished": "2013-07-03T10:47:01Z",
+  "name": "BODC Series 1381893",
+  "description": "Dataset metadata for BODC Series Reference Number 1381893",
+  "about": [
+    {
+      "@type": "Event",
+      "@id": "https://api.linked-systems.uk/api/schema-org/event/1381893",
+      "url": "https://www.bodc.ac.uk/data/documents/series/1381893/",
+      "name": "Collection Event related to BODC Series 1381893"
+    }
+  ],
+  "keywords": [
+    "Reference numbers",
+    "Administration and dimensions",
+    "Refno",
+    "Temperature of the water column",
+    "Water column temperature and salinity",
+    "WC_Temp",
+    "Vertical spatial coordinates",
+    "Administration and dimensions",
+    "Vert_spac_coord",
+    "Date and time",
+    "Administration and dimensions",
+    "Date + Time",
+    "Salinity of the water column",
+    "Water column temperature and salinity",
+    "WC_Sal",
+    "Date and time",
+    "Administration and dimensions",
+    "Date + Time"
+  ],
+  "url": "https://www.bodc.ac.uk/data/documents/series/1381893/",
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://bodc.ac.uk/data/open_download/series/1381893/odv/",
+      "encodingFormat": "text\/x-odv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://bodc.ac.uk/data/open_download/series/1381893/odvnc/",
+      "encodingFormat": "application\/netcdf"
+    }
+  ],
+  "temporalCoverage": "03-JUL-13\/18-JUL-13",
+  "recordedAt": "2013-07-03T10:47:01Z",
+  "license": "https://www.bodc.ac.uk/data/documents/nodb/281368/",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "longitude": "-9.28556",
+      "latitude": "55.8994"
+    }
+  },
+  "creator": [
+    {
+      "@type": "Role",
+      "roleName": "Contact",
+      "creator": {
+        "@type": "Person",
+        "name": "Dr. Phil Hosegood",
+        "givenName": "Phil",
+        "familyName": "Hosegood"
+      }
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Record_No",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/ACYCAA01/",
+      "description": "Sequence number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Temp",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+      "description": "Temperature of the water body"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "DepBelowSurf",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/",
+      "description": "Depth (spatial coordinate) relative to water surface in the water body",
+      "value": 95.12,
+      "unitText": "m"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ElapsedTimeSinceMidnightUTC",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/AAFDZZ01/",
+      "description": "Time (time between 00:00 UT and timestamp)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "P_sal",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/PSALPR01/",
+      "description": "Practical salinity of the water body by conductivity cell and computation using UNESCO 1983 algorithm"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Date(Loch_Day)",
+      "propertyID": "https://vocab.nerc.ac.uk/collection/P01/current/AADYAA01/",
+      "description": "Date (time from 00:00 01\/01\/1760 to 00:00 UT on day)"
+    }
+  ]
+}
