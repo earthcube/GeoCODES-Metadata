@@ -1,0 +1,79 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g27053",
+ "@type": [
+ "CreativeWork", "SoftwareApplication" ],
+    "name": "LViz - LiDAR / ALSM 3D Visualization tool",
+"subjectOf":[{"@type":"CreativeWork", "name":"user guide", "url":"http://lidar.asu.edu/Data/07GSAShortCourse/LViz_Users_Guide.pdf"}],
+"description": "LViz is a tool designed for 3D visualization of LiDAR / ALSM point and interpolated data. The tool offers import of LiDAR point cloud data (delimited text file) or interpolated surfaces (in ascii or arc ascii grid formats). LViz also offers texture mapping and user control over display settings such as data and background color. LViz was originally written for visualization of outputs from the GEON LiDAR Workflow (GLW) and is designed to run on Windows platforms. Although originally conceived for the 3D visualization of LiDAR data, LViz can be used to view any 3D point cloud data such as seismicity or gravity.",
+"datePublished": "2007-10-24","contributor":[{"@type":"Person","name":"Joshua Coyan"},{"@type":"Person","name":"Christopher Crosby"},{"@type":"Person","name":"Ramón Arrowsmith"}],
+"keywords": "",
+"license": [{"@type":"CreativeWork","name":"GNU General Public License (GPL)", "identifier":"http://cor.esipfed.org/ont/SWL_0000017"}],
+"version":"v 1.4.1.1",
+"funder": [{"@type":"Organization","name":"US National Science Foundation (US NSF)", "identifier":"https://ror.org/021nxhr62"}],
+"audience": [{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": [{"@type":"DefinedTerm","name":"Earth Science", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000021"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"runtimePlatform":["Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008"
+],
+"installUrl":[{"@type":"CreativeWork", "name":"submit request form", "url":"http://lidar.asu.edu/LViz.html"}],
+"supportingData":[{"@type":"DataFeed","name":"Input Data Type specification","position":"input","encodingFormat":["http://www.opengis.net/doc/CS/las/1.4","application/octet-stream;type=ASPRS-LAS","text/plain; application=esri-asciigrid","application/vnd.esri-asciigrid","Point Cloud Data"]}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Jeffrey Conner, 2007, LViz - LiDAR or ALSM 3D Visualization tool, http://lidar.asu.edu/LViz.html"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": "https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-02-11T04:09:30Z"
+  } 
+ } ]}

@@ -1,0 +1,89 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g28w5c",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "OpenDAP v2 DAS format",
+"alternateName": "OpenDAP v2 DAS",
+"subjectOf":{"@type":"CreativeWork", "name":"specification section 7.2.1, ", "url":"https://www.opendap.org/pdf/ESE-RFC-004v1.1.pdf"},
+"identifier":"text/plain;application=OpenDAPv2-DAS",
+"description": "text format for describing dataset and variable attributes, in response to a request to an an OpenDap v2 server. Atomic-type attributes are encoded as follows: Each attribute has a print representation that consists of the type name followed by the attribute name followed by the value or values. Attribute Structures are encoded by printing the name of the Structure, followed by a curly brace ({), followed by the print representation of all its child attributes followed by a closing curly brace (}).",
+"keywords": "metadata,data interchange",
+"license": {"@type":"CreativeWork","name":"Distribution of this document is unlimited", "identifier":"undefined"},
+"version":"2",
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Data Facilities and Repositories", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000003"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"},{"@type":"Audience","audienceType":"Data Managers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000005"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"isRelatedTo":{"@type":"CreativeWork", "name":"NASA recommendation, ", "url":"https://earthdata.nasa.gov/esdis/eso/standards-and-references/data-access-protocol-2"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"text/plain",
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"James Gallagher, Nathan Potter, Tom Sgouros, Steve Hankin, Glenn Flierl, 2007-10-10, The Data Access Protocol — DAP 2.0, ESE-RFC-004.1.1, accessed 2021-01-05, https://www.opendap.org/pdf/ESE-RFC-004v1.1.pdf"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"James Gallagher, Nathan Potter, Tom Sgouros, Steve Hankin, Glenn Flierl, 2007-10-10, The Data Access Protocol — DAP 2.0, ESE-RFC-004.1.1, accessed 2021-01-05, https://www.opendap.org/pdf/ESE-RFC-004v1.1.pdf"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ {"@type":"Organization", "name":"OpenDAP", "url":"https://www.opendap.org/"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "Tue Jan 05 2021 16:34:53 GMT-0700 (Mountain Standard Time)"
+  } 
+ } ]}

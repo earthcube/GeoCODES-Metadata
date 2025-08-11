@@ -1,0 +1,39 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2800010",
+ "@type": [
+ "CreativeWork" ],
+    "name": "IOOS metadata profile specification",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://ioos.github.io/ioos-metadata/"}],
+"description": "The IOOS Metadata Profile contains dataset attribution guidelines and examples to help the US IOOS community publish datasets in netCDF and other related data formats in an interoperable manner. The goal of the metadata profile is to allow users of IOOS' data services, such as ERDDAP, THREDDS, OPeNDAP, and SOS, seamless access and use across individual IOOS data providers' services.",
+"keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"about": [{"@type":"DefinedTerm","name":"Oceanography", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000046"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000204",
+"name": "Specification"
+  },{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/SPKT_0000006",
+"name": "Metadata Convention"
+  }
+],
+"eccro:ECRRO_0000501":[{"@type":"CreativeWork","identifier":"http://n2t.net/ark:/23942/g2705025"}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

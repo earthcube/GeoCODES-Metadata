@@ -1,0 +1,136 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2900012",
+    "@type": [
+        "CreativeWork",
+        "Product"
+    ],
+    "name": "USGS water services",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "linked web page",
+            "url": "https://waterservices.usgs.gov/"
+        }
+    ],
+    "description": "A set of RESTful web services for accessing data in the National Water Information System (NWIS) of the USGS. Offerings include -- Instantaneous Values (real-time data and historical data since October 1, 2007);  Site; Daily Values; Groundwater Levels;  Statistics.  Each of these has the same base set of filter parameters described here, and a set of other parameters specific to the various offerings described in this registry as separate USGS water services.",
+    "keywords": "",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "not provided"
+        }
+    ],
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US Geological Survey (USGS)",
+            "identifier": "https://ror.org/035a68863"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Hydrology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000079"
+        }
+    ],
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "Instantaneous values service",
+            "url": "https://waterservices.usgs.gov/rest/IV-Service.html#Service"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Sites service",
+            "url": "https://waterservices.usgs.gov/rest/Site-Service.html#Service"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Groundwater levels service",
+            "url": "https://waterservices.usgs.gov/rest/GW-Levels-Service.html#Service"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Statistics service",
+            "url": "https://waterservices.usgs.gov/rest/Statistics-Service.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Daily values service",
+            "url": "https://waterservices.usgs.gov/rest/DV-Service.html#Service"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000202",
+            "name": "Service Instance"
+        }
+    ],
+    "url": [
+        {
+            "@type": "LinkRole",
+            "url": "http://waterservices.usgs.gov/nwis/",
+            "linkRelationship": "Service Endpoint Base URL"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000503",
+            "name": "Interface specification",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "identifier": "HTTP"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "More than 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": " https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-11-04T17:06:00Z"
+            }
+        }
+    ]
+}

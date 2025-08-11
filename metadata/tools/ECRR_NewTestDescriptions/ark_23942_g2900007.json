@@ -1,0 +1,131 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2900007",
+    "@type": [
+        "CreativeWork",
+        "Product"
+    ],
+    "name": "IRIS DMC IRISWS timeseries Web Service",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "linked web page",
+            "url": "http://service.iris.edu/irisws/timeseries/1/"
+        }
+    ],
+    "description": "The irisws-timeseries service provides access to individual channels of time series data for a specified time range. Requested segments may be up to 30 days in length and optional signal processing may be applied to return data. The time series may be returned in a variety of formats. Signal processing options (operations are performed in the order specified): high, low and band-pass filter, remove mean value, scaling by constant value, deconvolution of instrument response (with frequency limits and unit conversion), differentiation and integration, decimation to lower sample rates",
+    "datePublished": "2018-07-24",
+    "keywords": "",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "missing",
+            "identifier": "undefined"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Seismology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000099"
+        }
+    ],
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "URL builder",
+            "url": "http://service.iris.edu/irisws/timeseries/docs/1/builder/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "help page",
+            "url": "http://service.iris.edu/irisws/timeseries/docs/1/help/"
+        },
+        {
+            "@type": "Product",
+            "name": "Service Endpoint Base URL",
+            "url": "http://service.iris.edu/irisws/timeseries/1/application.wadl"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000202",
+            "name": "Service Instance"
+        }
+    ],
+    "url": [
+        {
+            "@type": "LinkRole",
+            "url": "http://service.iris.edu/irisws/timeseries/1/",
+            "linkRelationship": "Service Endpoint Base URL"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000503",
+            "name": "Interface specification",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "identifier": "http://n2t.net/ark:/23942/g2805011"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "More than 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": " https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-11-04T17:06:00Z"
+            }
+        }
+    ]
+}

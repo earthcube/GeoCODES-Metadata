@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2dg90",
+    "@type": [
+        "CreativeWork",
+        "SoftwareApplication"
+    ],
+    "name": "name of the resource ",
+    "description": "Please provide as much detail as possible, so that we can automatically extract additional information, and search engine text indexing will provide useful results. Feel free to copy and paste from respective web sites, papers, reports, etc.",
+    "creator": {
+        "@type": "Person",
+        "name": "Stephen M. Richard",
+        "identifier": "orcid:0000"
+    },
+    "keywords": "keyword1,kerywor21,",
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Creative Commons Public Domain",
+        "identifier": "http://cor.esipfed.org/ont/CCL_0000011"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+        }
+    ],
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    },
+    "applicationCategory": "function: Research Planning uri: http://cor.esipfed.org/ont/earthcube/SFO_0000002",
+    "runtimePlatform": "HPC, uri:http://cor.esipfed.org/ont/earthcube/RTE_000002",
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "heres a citation Please provide as much detail as possible, so that we can automatically extract additional information, and search engine text indexing will provide useful results. Feel free to copy and paste from respective web sites, papers, reports, etc."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "Thu Nov 04 2021 10:04:21 GMT-0700 (Mountain Standard Time)"
+            }
+        }
+    ]
+}

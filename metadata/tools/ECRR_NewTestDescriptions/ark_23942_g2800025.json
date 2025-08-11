@@ -1,0 +1,114 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2800025",
+    "@type": ["CreativeWork"],
+    "name": "fdsnws-dataselect specification v1.1",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "linked web page",
+            "url": "http://www.fdsn.org/webservices/fdsnws-dataselect-1.1.pdf"
+        }
+    ],
+    "description": "Specification of a web service interfaces for the exchange of time series data within the context of the International Federation of Digital Seismograph Networks (FDSN). The intention is to provide a specification that, when implemented at different FDSN data centers, can be used interchangeably by the same client software. Combined with common FDSN web service specifications, this specification fully defines the request parameters and expected results. Scope is exchange of time series data within the context of the International Federation of Digital Seismograph Networks (FDSN).",
+    "datePublished": "2019-06-27",
+    "keywords": "",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "not provided"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Seismology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000099"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000204",
+            "name": "Specification"
+        },
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/SPKT_0000003",
+            "name": "Web Service Convention"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Used in multiple places",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "{specification document, http://www.fdsn.org/webservices/fdsnws-dataselect-1.1.pdf}"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Organization",
+                    "name": "{International Federation of Digital Seismograph Networks (FDSN), www.fdsn.org}"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "linked web page",
+                    "url": "http://n2t.net/ark:/23942/g2800023"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": " https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-11-04T17:06:00Z"
+            }
+        }
+    ]
+}

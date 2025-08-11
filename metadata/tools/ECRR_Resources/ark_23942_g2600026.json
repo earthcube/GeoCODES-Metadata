@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2600026",
+    "@type": [
+        "SoftwareSourceCode",
+        "SoftwareApplication",
+        "Product"
+    ],
+    "name": "Panoply v. 4",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "https://www.giss.nasa.gov/tools/panoply/"
+    },
+    "description": "Panoply plots geo-referenced and other arrays from netCDF, HDF, GRIB, and other datasets. Panoply is a cross-platform application that runs on Macintosh, Windows, Linux and other desktop computers.   Panoply  4.10.8 was released 2019-07-02. With Panoply 4 you can: Slice and plot geo-referenced latitude-longitude, latitude-vertical, longitude-vertical, time-latitude or time-vertical arrays from larger multidimensional variables.;  Slice and plot 'generic' 2D arrays from larger multidimensional variables.;  3) Slice 1D arrays from larger multidimensional variables and create line plots.; 4) Combine two geo-referenced arrays in one plot by differencing, summing or averaging.; 5) Plot lon-lat data on a global or regional map using any of over 100 map projections or make a zonal average line plot.; 6) Overlay continent outlines or masks on lon-lat map plots.;  7) Use any of numerous color tables for the scale colorbar, or apply your own custom ACT, CPT, or RGB color table.; 8) Save plots to disk GIF, JPEG, PNG or TIFF bitmap images or as PDF or PostScript graphics files.; 9) Export lon-lat map plots in KMZ format. 10) Export animations as MP4 video or as a collection of invididual frame images.; 11) Explore remote THREDDS and OpenDAP catalogs and open datasets served from them.",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "BSD",
+            "identifier": "http://cor.esipfed.org/ont/SWL_0000015"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "https://opensource.org/licenses/BSD-3-Clause",
+            "identifier": "undefined"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Apache",
+            "identifier": "http://cor.esipfed.org/ont/SWL_0000013"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "https://opensource.org/licenses/Apache-2.0",
+            "identifier": "undefined"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "MIT",
+            "identifier": "https://opensource.org/licenses/MIT"
+        }
+    ],
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Discipline-agnostic",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+    },
+    "isRelatedTo": {
+        "@type": "CreativeWork",
+        "name": "help and how-to pages, ",
+        "url": "https://www.giss.nasa.gov/tools/panoply/help/"
+    },
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    },
+    "applicationCategory": [
+        "function: Data Preparation, Visualization, Data Analysis, Data Exploration uri: http://cor.esipfed.org/ont/earthcube/SFO_0000007",
+        "function: Data Preparation, Visualization, Data Analysis, Data Exploration uri: http://cor.esipfed.org/ont/earthcube/SFO_0000011",
+        "function: Data Preparation, Visualization, Data Analysis, Data Exploration uri: http://cor.esipfed.org/ont/earthcube/SFO_0000010",
+        "function: Data Preparation, Visualization, Data Analysis, Data Exploration uri: http://cor.esipfed.org/ont/earthcube/SFO_0000006"
+    ],
+    "runtimePlatform": "Windows|Linux|MacOS",
+    "programmingLanguage": "Java 8",
+    "installURL": "https://www.giss.nasa.gov/tools/panoply/download/",
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "name": "Input Data Type specification",
+            "position": "input",
+            "encodingFormat": [
+                "application/x-netcdf",
+                "application/x-netcdf4",
+                "application/x-hdf",
+                "application/x-hdf5",
+                "GRIB",
+                "application/octet-stream;type=WMO-GRIBv1"
+            ]
+        },
+        {
+            "@type": "DataFeed",
+            "name": "Output Data Type specification",
+            "position": "output",
+            "encodingFormat": [
+                "GIF",
+                "JPEG, PNG",
+                "TIFF",
+                "PDF",
+                "PostScript",
+                "KMZ",
+                "MP4"
+            ]
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000503",
+            "name": "Interface specification",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "Desktop UI"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value":  "Organization: National Aeronautics and Space Administration, Goddard Institute for Space Studies"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "Java 1.8 Runtime Environment (JRE), ",
+                "url": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "2021-02-10T21:11:19-0700"
+            }
+        }
+    ]
+}

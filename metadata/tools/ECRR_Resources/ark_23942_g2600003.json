@@ -1,0 +1,63 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600003",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "Data-Interpolating Variational Analysis (DIVA)",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"https://www.seadatanet.org/Software/DIVA"},
+"description": "DIVA software tool (Data-Interpolating Variational Analysis) allows to spatially interpolate (or analyse) observations on a regular grid in an optimal way. The analysis is performed on a finite element grid allowing for a spatial variable resolution and a good representation of the coastline and isobaths. As some areas covered in the European seas have complex coastlines, the finite-element grid of DIVA will be able to adequately resolve those.  It is also possible to compute error maps for the gridded fields which reflect the accuracy of the observations and their distribution. This allows to asses the reliability of the gridded fields and to objectively identify areas with poor coverage. In an approach similar to the generalized cross-validation, the value of the gridded fields without taking a particular observation into account can also be computed. By comparing this analysed value with the observations, one can establish how consistent one particular observation is with the remaining dataset. This information can be used by the data centres to identify bad data.  The DIVA software can load data sets prepared via the MEDATLAS QC software and other in-house QC systems. The command line interface of DIVA allows for batch processing of large data sets. Users, planning to perform repeated and advanced analysis including error estimated and quality control on large data sets, can download the stand alone version of DIVA and install it on a local computer. This is the version used for regional product preparation.",
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"isRelatedTo":[{"@type":"CreativeWork", "name":"workshop notebooks, ", "url":"https://github.com/gher-ulg/Diva-Workshops/tree/master/notebooks"},{"@type":"CreativeWork", "name":"workshops, ", "url":"https://gher-ulg.github.io/Diva-Workshops/"}],
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+,
+"runtimePlatform":"Windows|Unix"
+,
+"codeRepository":"https://github.com/gher-ulg/DIVA",
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ {"@type":"Organization", "name":"SeaDataNet https://www.seadatanet.org/, European long term program;  now further developed as part of SeaDataNet by partner University of Liege, GeoHydrodynamics and Environment Research"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

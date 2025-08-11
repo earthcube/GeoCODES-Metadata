@@ -1,0 +1,41 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705031",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "NMC Office Note 29 file format (NMCon29)",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"http://www.emc.ncep.noaa.gov/mmb/data_processing/on29.htm"},
+"identifier":"text/plain;application=NMCon29",
+"description": "format for representing meteorological  observational data at NMC (later NCEP) was discontinued in March 1997 when WMO FM 94-IX Code Form: Binary Universal Format for the Representation of meteorological data (BUFR) became operational at NCEP.   An accurate version of this Office Note is still necessary for historical reference. This revision incorporates corrections and expansions of various tables specifying report type, instrument type and additional data code figures for certain meteorological parameters which  were previously unspecified.   Prior to March 1997, information contained in NMC observational data found in NMC production files ADPUPA, AIRCFT, SATWND, AIRCAR and UPABOG consists of combinations of characters from the FORTRAN character set. A report is composed of two main parts: (1) the report identification of fixed length (50 characters), and (2) the observational data of variable length. Each report is considered to be a logical record and contains 70 or more characters. The total number of characters in a report is evenly divisible by 10. Certain portions of the report are also evenly divisible by 10, and the character 'X' is used to fill in these instances. The last parameter in this group contains the total number of ten-character words in the report providing linkage from one report to the next when a group of reports is blocked into a physical record. The report identification is followed by the observational data. Each category of available data is preceded by a ten-character category/counter. Where no data of a given category exist, the category/counter group also will be absent from the report. The final category/counter group in a report contains the ten characters 'END REPORT'. The total number of characters found in the category/counter group and the formatted data for that category is evenly divisible by 10, the character 'X' being used for fill if necessary.  Format consumed by NetCDF-Java CDM library functions.",
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"isRelatedTo":{"@type":"CreativeWork", "name":"specification, ", "url":"https://rda.ucar.edu/docs/formats/nmc/on29.txt"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"text/plain",
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"Dennis A. Keyser, and NMC Automation Division Staff, 2001, NMC/NCEP FORMAT FOR OBSERVATIONAL DATA OFFICE NOTE 29, original 1973, NCEP Environmental Modeling Center,  NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION, NATIONAL WEATHER SERVICE"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

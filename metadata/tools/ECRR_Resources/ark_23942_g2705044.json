@@ -1,0 +1,74 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705044",
+ "@type": [
+ "CreativeWork" ],
+    "name": "USGS NWIS rdb text file format",
+"subjectOf":[{"@type":"CreativeWork", "name":"USGS NWIS spec, ", "url":"https://pubs.usgs.gov/of/2003/ofr03123/6.4rdb_format.pdf"},{"@type":"CreativeWork", "name":"NWIS Tab-delimited output-format description, ", "url":"https://waterdata.usgs.gov/nwis/?tab_delimited_format_info"}],
+"identifier":"text/tab-separated-values;type=USGS-rdb",
+"description": "RDB is a simple format for tabular data and a collection of data management programs. The data is contained in regular UNIX ASCII files, and can be manipulated by regular UNIX utilities such as ls, wc, mv, cp, cat, more, text editors, head, RCS, etc. Each file of data is in the form of a relation, or table, with rows and columns of information. The relation, or table structure, is achieved by separating the columns with ASCII TAB characters, and terminating the rows with an ASCII NEWLINE character. All rows in a file of data contain data separated by TAB characters and terminated with NEWLINE characters; therefore the data must not contain TAB characters. Each data file consists of zero or more comment lines starting with a sharp character, '#,' followed by a header consisting of two lines containing structure definition information used by the operators, and zero or more lines of data which are referred to as the body.",
+"creator":{"@type":"Person","name":"Glenn B. Engle"},
+"keywords": "data interchange,hydrology",
+"audience": {"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"text/tab-separated-values",
+"dct:conformsTo":{"@type":"CreativeWork","identifier":"http://n2t.net/ark:/23942/g2800007"},
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"Engle, Glenn B., 2003, ADAPS: Chapter 6.4 RDB Format, USGS OFR 03-123, accessed at https://pubs.usgs.gov/of/2003/ofr03123/6.4rdb_format.pdf"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Long-term",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

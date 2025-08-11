@@ -1,0 +1,40 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2800008",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "SeaDataNet recommended data transport format for biological data, specification,  v2.1",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://www.seadatanet.org/content/download/638/file/SDN2_D84b_WP8_ODV_biology_variant_format%20guidelines.pdf"}],
+"description": "This document describes the proposed data transport format for biological data in the framework of SeaDataNet.  The format as described in this document is compatible with the ODV software (version 4.6.5). The data can be imported without error in ODV using the 'import SDN spreadsheet' tool. However ODV is not (yet) able to visualize the imported data or calculate statistics on them. ODV can however be used to aggregate the different SeaDataNet data files and export the data into a single spreadsheet. Note: This format can (at present) not be converted to netcdf CFPoint format with the current DM version. Scope is Biological data for SeaDataNet.",
+"creator":[{"@type":"Person","name":"Klaas Deneudt"},{"@type":"Person","name":"Daphnis De Pooter"},{"@type":"Person","name":"Stéfane GOUZIEN"}],
+"keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"about": [{"@type":"DefinedTerm","name":"Oceanography", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000046"},{"@type":"DefinedTerm","name":"Biology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0003070"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"format compatible with ODV software", "url":"https://odv.awi.de/"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000204",
+"name": "Specification"
+  },{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/SPKT_0000001",
+"name": "Data Format Convention"
+  }
+],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

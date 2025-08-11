@@ -1,0 +1,92 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2705053",
+    "@type": ["CreativeWork"],
+    "name": "Default dialect description for CSV file format",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "linked web page",
+            "url": "https://www.w3.org/TR/tabular-metadata/"
+        }
+    ],
+    "identifier": ["text/csv;application=w3cdefault"],
+    "description": "A csv file dialect that uses the default dialect properties defined in https://www.w3.org/TR/tabular-metadata/#dialect-descriptions (section 5.9). These include '#' character to indicate comment lines, ','(comma) as the field delimiter, field headers in the first non-commented row, UTF-8 character encoding, double quote (') as the escape character, carriage return+line feed or just line feed as a line terminator, and various other conventions (see the w3c Spec)including values for skipRows=0, skipColumns=0, skipBlankRows=false, skipInitialSpace=false, and trim=false.  Consistent with the recommended best practice for csv in http://www.w3.org/TR/2015/REC-tabular-data-model-20151217/.  This is a profile of IETF 4180 ( https://www.ietf.org/rfc/rfc4180.txt ) (ecrr id http://n2t.net/ark:/23942/g2n92s)",
+    "keywords": "",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "not provided"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Discipline-agnostic",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+            "name": "Interchange file format"
+        }
+    ],
+    "encodingFormat": ["text/csv"],
+    "dct:conformsTo": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://n2t.net/ark:/23942/g2705046"
+        }
+    ],
+    
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Organization",
+                    "name": "W3C",
+                    "identifier":"https://ror.org/0059y1582"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000501",
+            "name": "profile of",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "IETF 4180",
+                    "url":"https://www.ietf.org/rfc/rfc4180.txt"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": " https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-11-04T17:06:00Z"
+            }
+        }
+    ]
+}

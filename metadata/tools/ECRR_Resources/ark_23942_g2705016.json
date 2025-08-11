@@ -1,0 +1,36 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705016",
+ "@type": [
+ "CreativeWork" ],
+    "name": "Hierarchical Data Format v.5 (HDF5)",
+"alternateName": "HDF-5",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"http://www.hdfgroup.org/HDF5/"},
+"identifier":"application/x-hdf5",
+"description": "Format consumed by NetCDF-Java CDM library functions. HDF5 has some features that will not be supported by netCDF-4, and will cause problems for interoperability: 1) HDF5 allows a Group to be both an ancestor and a descendant of another Group, creating cycles in the subgroup graph. HDF5 also permits multiple parents for a Group. In the netCDF-4 data model, Groups form a tree with no cycles, so each Group (except the top-level unnamed Group) has a unique parent; 2) HDF5 supports 'references' which are like pointers to objects and data regions within a file. The netCDF-4 data model omits references; 3) HDF5 supports some primitive types that are not included in the netCDF-4 data model, including H5T_TIME and H5T_BITFIELD; 4) HDF5 supports multiple names for data objects like Datasets (netCDF-4 variables) with no distinguished name. The netCDF-4 data model requires that each variable, attribute, dimension, and group have a single distinguished name; 5) HDF5 (like netCDF) supports scalar attributes, but netCDF-4 cannot read scalar HDF5 attributes (unless it is a string attribute). This limitation will be removed in a future release of netCDF.  Format consumed by NetCDF-Java CDM library functions.",
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"application/octet-stream",
+"dct:conformsTo":{"@type":"CreativeWork","identifier":"https://support.hdfgroup.org/HDF5/doc/H5.format.html"},
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

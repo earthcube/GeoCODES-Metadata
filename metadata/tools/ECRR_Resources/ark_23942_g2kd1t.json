@@ -1,0 +1,180 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2kd1t",
+    "@type": ["CreativeWork"],
+    "name": "SeaBASS Data File Format",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "landing page, ",
+        "url": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/ascii-file-format-guidelines-for-earth-science-data/seabass-data-file-format"
+    },
+    "identifier": "text/plain;application=SeaBASS",
+    "description": "The SeaBASS data file format is a self-describing ASCII format with a metadata header section followed by a delimited data matrix. It is compliant with the ASCII File Format Guidelines for Earth Science Data (https://earthdata.nasa.gov/standards/ascii-file-format-guidelines-for-earth-science-data) approved for use in NASA\u2019s Earth science data systems, meeting all requirements and most recommendations in that document. The SeaBASS data format is widely used for in situ observations in the NASA ocean biology and oceanography communities. To date, OB.DAAC has over 81,000 SeaBASS-format data files, from over 2,500 field campaigns, collected by over 130 investigators, from more than 80 institutions in over 14 different countries. These in situ oceanographic and atmospheric data are used for ocean color satellite calibration, satellite data product validation, algorithm development, and other analyses. As a community standard, this format has successfully served the ocean biology and oceanography communities for over 20 years (formally used since ~1994). The format was further designed to be selfdescribing. Each file is comprised of two parts, a header block followed by a data block. The header block consists of a series of keywords and values intended to provide descriptive information about the data in the file, for example, the source of the data and its spatial and temporal limits. The data block contains a matrix of data values, similar to the organization of a spreadsheet. Delimiter for columnar data is specified in the header section. Accepted delimiters include tab, space, and comma. Only a single delimiter is permitted per data file. Every data file opens with /begin_header. The headers may then be listed in any order, so long as the list ends with /end_header. Header is set of key-value pairs, The format is: /keyword=value, where keyword is an approved, case-insensitive keyword (Table 3.1) that must begin with a slash (/) and value is a string or number which assigns value to the keyword.",
+    "editor": [
+        {
+            "@type": "Person",
+            "name": "Giulietta S. Fargion"
+        },
+        {
+            "@type": "Person",
+            "name": "Charles R. McClain"
+        }
+    ],
+    "keywords": "oceanography,atmospheric science,ocean color,satellite calibration,satellite data product validation",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "GNU Lesser General Public License (LGPL)",
+            "identifier": "http://cor.esipfed.org/ont/SWL_0000018"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "not specified",
+            "identifier": "undefined"
+        }
+    ],
+    "version": "Sun Sep 01 2002 00:00:00 GMT-0700 (Mountain Standard Time)",
+    "funding":{
+        "@type":"Grant",
+  "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Aeronautics and Space Agency (US NASA)",
+            "identifier": "https://ror.org/027ka1x80"
+        }
+    ]
+    },
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Producers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000001"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Technologists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000004"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Atmospheric Science",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000033"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Biological Oceanography",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000047"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Chemical Oceanography",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000048"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Oceanography",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000046"
+        }
+    ],
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+        "name": "Interchange file format"
+    },
+    "encodingFormat": "text/plain",
+    "dct:conformsTo": {
+        "@type": "CreativeWork",
+        "name": "NASA ASCII File Format Guidelines for Earth Science Data, https://earthdata.nasa.gov/esdis/eso/standards-and-references/ascii-file-format-guidelines-for-earth-science-data"
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "P. Jeremy Werdell and Sean W. Bailey, Authors; Giulietta S. Fargion and Charles R. McClain, Editors, 2002, The SeaWiFS Bio-Optical Archive and Storage System (SeaBASS): Current Architecture and Implementation, NASA/TM-2002-211617: National Aeronautics and Space Administration, Goddard Space Flight Center, Greenbelt, Maryland, accessed 2020-12-23, https://oceancolor.sci.gsfc.nasa.gov/docs/technical/seabass_tm_211617.pdf."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "More than 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "P. Jeremy Werdell and Sean W. Bailey, Authors; Giulietta S. Fargion and Charles R. McClain, Editors, 2002, The SeaWiFS Bio-Optical Archive and Storage System (SeaBASS): Current Architecture and Implementation, NASA/TM-2002-211617: National Aeronautics and Space Administration, Goddard Space Flight Center, Greenbelt, Maryland, accessed 2020-12-23, https://oceancolor.sci.gsfc.nasa.gov/docs/technical/seabass_tm_211617.pdf."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Organization",
+                "name": "National Aeronautics and Space Administration Goddard Space Flight Center"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "Wed Dec 23 2020 19:29:44 GMT-0700 (Mountain Standard Time)"
+            }
+        }
+    ]
+}

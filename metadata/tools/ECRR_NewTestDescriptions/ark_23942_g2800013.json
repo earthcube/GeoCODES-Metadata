@@ -1,0 +1,72 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2800013",
+ "@type": [
+ "CreativeWork" ],
+    "name": "USGS NWIS gwlevels rdb format",
+"subjectOf":[{"@type":"CreativeWork", "name":"USGS Groundwater Levels Web Service", "url":"https://waterservices.usgs.gov/rest/GW-Levels-Service.html"}],
+"identifier":["text/csv;application=USGS-rdb-gwlevels"],
+"description": "Profile of USGS RDB text format. Scope is Site-based groundwater level data serialization. Columns include: Agency code, USGS site number, Site type code, Date level measured, Time level measured, Time datum, Water-level value in feet below land surface, Water-level value in feet above specific vertical datum, Referenced vertical datum, Status, Measuring agency code, Water-level date-time accuracy code, Water-level accuracy code, Source of measurement code,  Method of measurement  code,Water-level approval status code",
+"keywords": "groundwater,data interchange,hydrology",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"about": [{"@type":"DefinedTerm","name":"Hydrology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000079"},{"@type":"DefinedTerm","name":"Hydrogeology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000082"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000204",
+"name": "Specification"
+  },{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/SPKT_0000001",
+"name": "Data Format Convention"
+  }
+],
+"encodingFormat":["text/tsv"],
+"dct:conformsTo":[{"@type":"CreativeWork","url":"http://n2t.net/ark:/23942/g2800007"}],
+"eccro:ECRRO_0000501":[{"@type":"CreativeWork","identifier":"http://n2t.net/ark:/23942/g2705044"}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Long-term",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

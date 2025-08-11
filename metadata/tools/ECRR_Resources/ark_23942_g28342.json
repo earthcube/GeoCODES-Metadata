@@ -1,0 +1,81 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g28342",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "UK Linked Open Data Registry Core Software (UKGovLD)",
+"subjectOf":{"@type":"CreativeWork", "name":"Wiki principles and concepts page, ", "url":"https://github.com/UKGovLD/registry-core/wiki/Principles-and-concepts"},
+"description": "Software to implement a service to enable organizations to maintain controlled lists.  The essential concept is the notion of a register, a single controlled collection (list). Each register is operated on behalf of some owner that provides the authority for the collection. For example, the WMO might wish to provide a list of approved codes to represent “runway deposits”, entries in which might represent “slush” or “snow”. There must be some governance regime that defines what can be registered, the process to be followed and the types of changes that may be made following acceptance of entry into a register. The user of such a register is assured by the owner that the set of codes within that register is complete and definitive for the declared usage – any code which is missing is not approved.  The owner may delegate the running of the register and enforcement of the governance policy to a manager who is responsible for validation and maintenance of register entries.  .        The type things that can be entered in a register is completely open. They include codes, ontology concepts, complete ontologies, coordinate reference systems, units of measure, spatial objects, organizations, licenses etc.; anything that can be given a URI can be registered.",
+"contributor":{"@type":"Person","name":"Jeremy Tandy"},
+"keywords": "Linked data,web 2.0,ISO 19135",
+"license": [{"@type":"CreativeWork","name":"Apache", "identifier":"http://cor.esipfed.org/ont/SWL_0000013"},{"@type":"CreativeWork","name":"Apache 2.0", "identifier":"undefined"},{"@type":"CreativeWork","name":"https://github.com/UKGovLD/registry-core/blob/master/LICENSE", "identifier":"undefined"}],
+"version":"2.2.0",
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Data Facilities and Repositories", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000003"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"},{"@type":"Audience","audienceType":"Data Managers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000005"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},{"@type":"Audience","audienceType":"Infomaticists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000008"}],
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"isRelatedTo":[{"@type":"CreativeWork", "name":"Project Wiki, ", "url":"https://github.com/UKGovLD/registry-core/wiki"},{"@type":"CreativeWork", "name":"registry federation requirements, ", "url":"https://ies-svn.jrc.ec.europa.eu/projects/inspire-registry/wiki/Registry_federation_requirements"}],
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000212",
+"name": "Catalog/Registry"
+  }
+,
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"UK Government Linked Data Working Group, 2020, UK Linked Open Data Registry Core Software (UKGovLD), github repository accessed 2020-12-16,  https://github.com/UKGovLD/registry-core"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Production ready",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ {"@type":"Organization", "name":"UK Government Linked Data Working Group"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Some usage (10-50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "Tue Oct 26 2021 16:35:06 GMT-0700 (Mountain Standard Time)"
+  } 
+ } ]}

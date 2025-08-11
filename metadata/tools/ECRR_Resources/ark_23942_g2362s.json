@@ -1,0 +1,187 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2362s",
+    "@type": [
+        "SoftwareSourceCode",
+        "SoftwareApplication",
+        "Product"
+    ],
+    "name": "LAStools",
+    "alternateName": "LASlib DLL",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "home page, ",
+            "url": "http://lastools.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "rapidlasso GmbH lasTools page, ",
+            "url": "https://rapidlasso.com/lastools/"
+        }
+    ],
+    "description": "A collection of batch-scriptable, multicore command line tools to classify, tile, convert, filter, raster, triangulate, contour, clip, and polygonize LiDAR data (to name just a few functions). All of the tools can also be run via a native GUI and are available as a LiDAR processing toolboxes for ArcGIS versions 9.3 and up, for QGIS versions 1.8 and up, and for ERDAS IMAGINE versions 14.0 and up. LAStools are the fastest and most memory efficient solution for batch-scripted multi-core LiDAR processing and can turn billions of LiDAR points into useful products at blazing speeds and with low memory requirements.      Built upon LASlib (with LASzip DLL)  - a collection of highly-efficient, scriptable tools with multi-core batching that process LAS, compressed LAZ, Terrasolid BIN, ESRI Shapefiles, and ASCII. Programs: 1) lastile.exe creates a tiling of LAS/LAZ files; 2) lassort.exe z-orders them; 3) lasclip.exe clips away points falling into polygonal shapes (e.g. building footprints); 4) txt2las.exe converts LiDAR from standard ASCII to LAS/LAZ; 5) las2txt.exe turns LAS/LAZ into human-readable and easy-to-parse text; 6) lasinfo.exe prints out an overview of the contents of a LAS/LAZ file; 7) las2shp.exe turns LAS/LAZ into ESRI's Shapefile format; 8) shp2las.exe turns an ESRI's Shapefile into LAS/LAZ;9) lasmerge.exe can merge several LAS/LAZ files into one; 10) e572las.exe extracts the points from the E57 format and stores them as LAS/LAZ files; 11) las2las.exe filters, transforms, subsamples, clips, thins, ...,; 12) lasthin.exe implements a simple point thinning algorithm; 13) las2tin.exe triangulates the points of a LAS/LAZ file into a TIN; 14) las2dem.exe rasterizes them into a DEM; 15) las2iso.exe extracts, optionally simplified, elevation contours; 16) lasboundary.exe computes a boundary polygon (i.e. a concave or disjoint hull of the points); 17) lasview.exe OpenGL viewer visualizes the contents of a LAS/LAZ file and can also compute a TIN; 18) laszip.exe lossless LiDAR compressor turns large LAS files into much smaller LAZ files that are only 7 - 20 percent of the original file size. All LAStools read, process, and write the compressed format directly without having to first decompress the file. Our easy-to-use, ultra-light-weight, very efficient C++ programming API called LASlib (with LASzip DLL) (LGPL source code) makes it easy to add read/write support of compressed LAZ files to your software.",
+    "creator": {
+        "@type": "Person",
+        "name": "Martin Isenburg"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "rapidlasso GmbH"
+    },
+    "keywords": "Lidar, point cloud",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "GNU Lesser General Public License (LGPL)",
+            "identifier": "http://cor.esipfed.org/ont/SWL_0000018"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "https://lastools.github.io/LICENSE.txt",
+            "identifier": "undefined"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Technologists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000004"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Infomaticists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000008"
+        }
+    ],
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Earth Science",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000021"
+    },
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    },
+    "applicationCategory": [
+        "function: Data Preparation uri: http://cor.esipfed.org/ont/earthcube/SFO_0000007",
+        "subfunction: Data Preparation: Subsetting, Data Preparation: Data Cleaning, Data Preparation: Data Transformation uri: http://cor.esipfed.org/ont/earthcube/SFO_0000039",
+        "subfunction: Data Preparation: Subsetting, Data Preparation: Data Cleaning, Data Preparation: Data Transformation uri: http://cor.esipfed.org/ont/earthcube/SFO_0000042",
+        "subfunction: Data Preparation: Subsetting, Data Preparation: Data Cleaning, Data Preparation: Data Transformation uri: http://cor.esipfed.org/ont/earthcube/SFO_0000310"
+    ],
+    "runtimePlatform": ["Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005"],
+    "programmingLanguage": "C++",
+    "installURL": "http://lastools.github.io/download/LAStools.zip",
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "name": "Input Data Type specification",
+            "position": "input",
+            "encodingFormat": [
+                "Multipart/Related; type=shapefile",
+                "application/vnd.esri-shapefile",
+                "http://www.opengis.net/doc/CS/las/1.4",
+                "application/octet-stream;type=ASPRS-LAS",
+                "text/plain; application=esri-asciigrid",
+                "application/vnd.esri-asciigrid",
+                "application/xml;type=ASTM-E57"
+            ]
+        },
+        {
+            "@type": "DataFeed",
+            "name": "Output Data Type specification",
+            "position": "output",
+            "encodingFormat": [
+                "Multipart/Related; type=shapefile",
+                "application/vnd.esri-shapefile",
+                "http://www.opengis.net/doc/CS/las/1.4",
+                "application/octet-stream;type=ASPRS-LAS",
+                "text/plain; application=esri-asciigrid",
+                "application/vnd.esri-asciigrid"
+            ]
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "Martin Isenburg, 2021, LAStools, rapidlasso GmbH, Gilching, GERMANY, https://rapidlasso.com/lastools/"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000503",
+            "name": "Interface specification",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "Command Line"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "organization: rapidlasso GmbH"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "PropertyValue",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "2021-02-12T12:50:57-0700"
+            }
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2600048",
+    "@type": [
+        "CreativeWork",
+        "SoftwareApplication"
+    ],
+    "name": "Jupyter notebook to parse OGC WFS getFeature response",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "http://suave-jupyterhub.com/user/zeppelin-v*****otebooks/DispatchTesting/WFSprocessor.ipynb"
+    },
+    "description": "This notebook uses an endpoint URL, passed either as an 'endpoint' parameter when the notebook is called, or assigned in cell 5. The notebook used osgeo org WFS driver to get the capabilities for the OGC Web feature service identified by the endpoint parameter when the notebook is invoked via URL.  The notebook uses the capabilities doc to check each WFS feature type and reports the number of features. User can then pick a feature type to drill into and inspect value ranges.",
+    "keywords": "web feature service,data introspection,data summary",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "http://cor.esipfed.org/ont/SWL_0000013",
+            "identifier": "undefined"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "https://opensource.org/licenses/Apache-2.0",
+            "identifier": "undefined"
+        }
+    ],
+    "funding": [
+       
+        {
+            "@type": "Grant",
+            "name": "EarthCube Data Discovery Studio",
+            "identifier":"ICER 1639764",
+            "funder": {
+                "@type": "FundingAgency",
+                "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+            }
+        }
+    ],
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Data Users",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+    },
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Discipline-agnostic",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+    },
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    },
+    "applicationCategory": "function: Data Exploration uri: http://cor.esipfed.org/ont/earthcube/SFO_0000006",
+    "runtimePlatform": "Notebook Container, uri:http://cor.esipfed.org/ont/earthcube/RTE_000011",
+    "programmingLanguage": "python 3.6",
+    "codeRepository": "https://github.com/CINERGI/jupyter-dispatchtests",
+    "potentialAction": {
+        "@type": "Action",
+        "name": "Execute web application",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "http://suave-jupyterhub.com/user/zeppelin-v/notebooks/DispatchTesting/WFSprocessor.ipynb?endpoint={endpoint}",
+            "description": "Open web application with the current dataset; contentURL is expected to be provided by a distribution/contentURL in dataset metadata; if other parameters are provided, the user will have to put those in...",
+            "httpMethod": ["GET"]
+        }
+    },
+    "supportingData": {
+        "@type": "DataFeed",
+        "name": "Input Data Type specification",
+        "position": "input",
+        "encodingFormat": [
+            "http://schemas.opengis.net/wfs/1.0.0/wfs.xsd",
+            "application/xml;type=ogcwfs1.0.0",
+            "http://schemas.opengis.net/wfs/1.1.0/wfs.xsd",
+            "application/xml;type=ogcwfs1.1.0"
+        ]
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000503",
+            "name": "Interface specification",
+            "value": {
+                "@type": "CreativeWork",
+                "identifier": "http"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Alpha or rough draft",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000005"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Organization",
+                "name": "EarthCube Project"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Not applicable",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000005"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": {
+                "@type": "CreativeWork",
+                "name": "osgeo, ipywidgets, requests, json, pandas.io.json"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "2021-02-10T21:11:19-0700"
+            }
+        }
+    ]
+}

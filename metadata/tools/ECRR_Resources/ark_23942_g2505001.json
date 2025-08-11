@@ -1,0 +1,138 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2505001",
+    "@type": [
+        "CreativeWork",
+        "Product"
+    ],
+    "name": "EarthChem Library",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "http://www.earthchem.org/library"
+    },
+    "identifier": "http://doi.org/10.17616/R3V644",
+    "description": "The EarthChem Library is a data repository that archives, publishes and makes accessible data and other digital content from geoscience research (analytical data, data syntheses, models, technical reports, etc).",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "Datasets are licensed individually",
+            "identifier": "undefined"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "most are  Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
+            "identifier": "undefined"
+        }
+    ],
+    "funding": [
+       
+        {
+            "@type": "Grant",
+            "name": "Earthchem: Advancing Data Management in Solid Earth Geochemistry",
+            "identifier":"EAR 0522195",
+            "funder": {
+                "@type": "FundingAgency",
+                "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+            }
+        }
+    ],
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Scientists",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+    },
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Geochemistry",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000030"
+    },
+    "isRelatedTo": {
+        "@type": "CreativeWork",
+        "name": "Description: RE3 repository, ",
+        "url": "https://www.re3data.org/repository/r3d100011538"
+    },
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000209",
+        "name": "Repository"
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "More than 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "Xianzeng Niu, Kerstin A. Lehnert, Jennifer Williams, Susan L. Brantley,2011, CZChemDB and EarthChem: Advancing management and access of critical zone geochemical data: Applied Geochemistry,Vol. 26, Supplement, p. S108-S111,ISSN 0883-2927,https://doi.org/10.1016/j.apgeochem.2011.03.042."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Organization",
+                "name": "Interdisciplinary Earth Data Alliance"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Some usage (10-50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": {
+                "@type": "CreativeWork",
+                "name": "PostGIS, PHP"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "2021-02-10T21:11:19-0700"
+            }
+        }
+    ]
+}

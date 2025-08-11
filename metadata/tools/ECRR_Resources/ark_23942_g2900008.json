@@ -1,0 +1,75 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2900008",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "IRIS DMC SeedLink Service",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"http://ds.iris.edu/ds/nodes/dmc/services/seedlink/"},{"@type":"CreativeWork", "name":"linked web page", "url":"https://www.seiscomp3.org/doc/applications/seedlink.html"}],
+"description": "The SeedLink protocol can be summarized as a simple, ASCII-based, data selection phase followed by the streaming of data packets from the server. SeedLink packets are composed of a small header followed by a 512-byte mini-SEED record (data only SEED). The negotiation phase allows the client to request only specified data from the server for each selected data stream. A data stream is defined by a network and station code pair.  SeedLink was originally created as the transport layer for the SeisComP package originally developed by GEOFON. More protocol details are available from the SeisComP SeedLink Wiki page",
+"audience": {"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},
+"about": {"@type":"DefinedTerm","name":"Seismology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000099"},
+"isRelatedTo":[{"@type":"CreativeWork", "name":"libslink SeedLink client library written in C, ", "url":"http://ds.iris.edu/ds/nodes/dmc/software/downloads/libslink/"},{"@type":"CreativeWork", "name":"slink2orb SeedLink to Antelope ORB client (licensed Antelope libraries are required).,  ", "url":"http://ds.iris.edu/ds/nodes/dmc/software/downloads/slink2orb/"},{"@type":"CreativeWork", "name":"slink2ew – SeedLink to Earthworm client, ", "url":"http://ds.iris.edu/ds/nodes/dmc/software/downloads/slink2ew/"},{"@type":"CreativeWork", "name":"slarchive – SeedLink client writes received data to local disk, ", "url":"http://ds.iris.edu/ds/nodes/dmc/software/downloads/slarchive/"},{"@type":"CreativeWork", "name":"slinktool – Command line SeedLink client for data stream inspection and testing, ", "url":"http://ds.iris.edu/ds/nodes/dmc/software/downloads/slinktool/"},{"@type":"CreativeWork", "name":"ewexport_plugin –Seedlink to Earthworm export process, ", "url":"http://ds.iris.edu/ds/nodes/dmc/software/downloads/ewexport_plugin/"},{"@type":"CreativeWork", "name":"orbplugin –Antelope ORB plugin seedlink server (licensed Antelope libraries are required), ", "url":"http://ds.iris.edu/ds/nodes/dmc/software/downloads/orbplugin/"}],
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000202",
+"name": "Service"
+  }
+,
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000503",
+"name": "Interface specification",
+"value":{"@type":"CreativeWork","identifier":"http://n2t.net/ark:/23942/g2805004"}},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"https://www.seiscomp3.org/doc/applications/seedlink.html"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Some usage (10-50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

@@ -1,0 +1,61 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600021",
+ "@type": [
+ "CreativeWork", "SoftwareApplication" ],
+    "name": "NWIS-explore2.ipynb",
+"description": "iPython notebook demonstrating how to access National Water Information system data",
+"about": {"@type":"DefinedTerm","name":"Hydrology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000079"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+,
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Beta or complete draft",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Low usage",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

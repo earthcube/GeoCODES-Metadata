@@ -1,0 +1,38 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600007",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "General NOAA Operational Modeling Environment (GNOME)",
+"description": "modeling tool the Office of Response and Restoration's (OR&R) Emergency Response Division uses to predict the possible route, or trajectory, a pollutant might follow in or on a body of water, such as in an oil spill.   To quickly set up spill scenarios customized for each incident, OR&R modelers use GNOME in Diagnostic Mode, which enables them to incorporate a number of outside atmospheric and oceanic circulation models. However, anyone can use GNOME in Standard Mode and with the help of regionally specific location files, set up their spill scenarios to:     --Predict how wind, currents, and other processes might move and spread oil spilled on the water.     --Learn how these predictions of where and how oil might move are affected by uncertainty in observations and forecasts for ocean currents and wind.     --See how spilled oil is expected to change chemically and physically, known as weathering, during the time that it remains on the water surface.     To use GNOME, describe a spill scenario by entering information into the program. The latest version is GNOME 1.3.10, posted November 30, 2017.",
+"creator":[{"@type":"Organization","name":"Emergency Response Division of NOAA's Office of Response and Restoration"}],
+"keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"about": [{"@type":"DefinedTerm","name":"Environmental Science", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000028"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"user guide", "url":"https://response.restoration.noaa.gov/oil-and-chemical-spills/oil-spills/resources/gnome-users-manual-and-tour.html"},{"@type":"CreativeWork", "name":"location files and associated resources", "url":"https://response.restoration.noaa.gov/oil-and-chemical-spills/oil-spills/response-tools/gnome-location-files-and-associated-resources.html"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"runtimePlatform":["Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008","MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006"
+],
+"installUrl":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://response.restoration.noaa.gov/oil-and-chemical-spills/oil-spills/response-tools/downloading-installing-and-running-gnome.html"}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

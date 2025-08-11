@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2600009",
+    "@type": [
+        "CreativeWork",
+        "Product",
+        "SoftwareApplication"
+    ],
+    "name": "Giovanni v4",
+    "description": "Giovanni is an online (Web) environment for the display and analysis of geophysical parameters in which the provenance (data lineage) can easily be accessed. This application allows you to visualize selected geophysical parameters. If you are new to this application, please see the Help page for a guide on how to use Giovanni. You may also visit the NASA GESDISC YouTube channel for a quick look at Giovanni features. As of early January 2019, it is necessary to use the Earthdata Login username and password to access full Giovanni functionality and data holdings.  Bookmarkable URLs allow you to save URLs in order to re-run the exact same workflow at any future date. These can also be used to save partially filled in forms, acting as a kind of template for common analysis operations.",
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Aeronautics and Space Agency (US NASA)",
+            "identifier": "https://ror.org/027ka1x80"
+        }
+    ],
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Geophysics",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000063"
+    },
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "help page, ",
+            "url": "https://giovanni.gsfc.nasa.gov/giovanni/doc/UsersManualworkingdocument.docx.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "YouTube channel, ",
+            "url": "https://www.youtube.com/user/NASAGESDISC/search?query=giovanni"
+        }
+    ],
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    },
+    "potentialAction": {
+        "@type": "Action",
+        "name": "Execute web application",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://giovanni.gsfc.nasa.gov/giovanni/",
+            "description": "Open software on the web",
+            "httpMethod": ["GET"]
+        }
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Some usage (10-50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": {
+                "@type": "CreativeWork",
+                "name": "linked resource: Web Browser"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "2021-02-10T21:11:19-0700"
+            }
+        }
+    ]
+}

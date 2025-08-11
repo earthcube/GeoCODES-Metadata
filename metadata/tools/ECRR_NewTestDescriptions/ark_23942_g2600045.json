@@ -1,0 +1,77 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600045",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "VocBench v3",
+"description": "VocBench is a web-based, multilingual, collaborative development platform for managing OWL ontologies, SKOS(/XL) thesauri, Ontolex-lemon lexicons and generic RDF datasets. Designed to meet the needs of semantic web and linked data environments, VocBench development has also been driven by the feedback gathered from a community of users made of public organizations, companies and independent users looking for open source solutions for maintaining their ontologies, thesauri, code lists and authority resources. Vocbench 3 includes a powerful editing environment, with facilities for management of OWL ontologies, SKOS/SKOS-XL thesauri, OntoLex lexicons and any sort of RDF dataset.",
+"datePublished": "2017-09-01","keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"funder": [{"@type":"Organization","name":"European Commission", "identifier":"undefined"},{"@type":"Grant","name":"contract 10632 (Infeurope S.A.)","sponsor":{"@type":"FundingAgency","name":"ISA2 programme"}}],
+"audience": [{"@type":"Audience","audienceType":"Informaticists", "identifier":"undefined"}],
+"about": [{"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"documentation", "url":"http://vocbench.uniroma2.it/doc"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"applicationCategory":["function: Data Preservation uri: http://cor.esipfed.org/ont/earthcube/SFO_0000013"],
+"codeRepository":[{"@type":"CreativeWork", "name":"bitBucket", "url":"https://bitbucket.org/art-uniroma2/vocbench3"}],
+"installUrl":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://bitbucket.org/art-uniroma2/vocbench3/downloads/"}],
+"supportingData":[{"@type":"DataFeed","name":"Input Data Type specification","position":"input","encodingFormat":["application/rdf+xml","text/turtle;application=owl"]}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Some usage (10-50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"linked resource: Java 8"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

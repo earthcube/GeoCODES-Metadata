@@ -1,0 +1,66 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705040",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "FDSN StationXML format",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"https://www.fdsn.org/xml/station/"},
+"identifier":"http://www.fdsn.org/xml/station/1",
+"description": "The purpose of the FDSN StationXML schema is to define an XML representation of the most important and commonly used structures of SEED 2.4 metadata with enhancements.  The goal is to allow mapping between SEED 2.4 dataless SEED volumes and this schema with as little transformation or loss of information as possible while at the same time simplifying station metadata representation when possible.  Content and clarification has been added where lacking in the SEED standard. When definitions and usage are under-defined the SEED manual should be referred to for clarification. Another goal is to create a base schema that can be extended to represent similar data types.",
+"audience": [{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"}],
+"about": {"@type":"DefinedTerm","name":"Seismology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000099"},
+"isRelatedTo":[{"@type":"CreativeWork", "name":"xml schema,  ", "url":"http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd"},{"@type":"CreativeWork", "name":"Summary of differences FDSNSXML to SEED,   ", "url":"http://www.fdsn.org/xml/station/Variations-FDSNSXML-SEED.txt"},{"@type":"CreativeWork", "name":"FDSN StationXML development site, ", "url":"https://github.com/FDSN/StationXML"}],
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"text/xml",
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

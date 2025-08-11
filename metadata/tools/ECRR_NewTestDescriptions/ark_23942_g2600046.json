@@ -1,0 +1,93 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600046",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "Webserviceshell 2.4",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://seiscode.iris.washington.edu/projects/webserviceshell/wiki/WSS_24_Documentation"}],
+"description": "The Web Service Shell (WSS) is a web service that can be configured via simple properties files to utilize external resources (either command-line programs or Java classes) to fulfill web service requests.  Core features:  --manage HTTP connection with the client        --validate request parameters  --log service requests, state, and errors  --route one or more endpoint queries to execution of respective command-line programs or Java classes  --handle, via the servlet container, HTTP authentication. Includes two built-in java code modules, called processors: The CmdProcessor processor executes command-line programs and streams requested data back to an HTTP client. The ProxyResource processor streams data back to a client from an existing URL",
+"datePublished": "2017-08-11","keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"funder": [{"@type":"Organization","name":"US National Science Foundation (NSF)", "identifier":"undefined"},{"@type":"Grant","name":"EarthCube","sponsor":{"@type":"FundingAgency","name":"US NSF"}}],
+"audience": [{"@type":"Audience","audienceType":"Data Facilities and Repositories", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000003"}],
+"about": [{"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"example deployment", "url":"https://seiscode.iris.washington.edu/projects/webserviceshell/wiki/Example_service_implementation_using_WSS_2x"},{"@type":"CreativeWork", "name":"documentation", "url":"https://seiscode.iris.washington.edu/projects/webserviceshell/wiki/WSS_24_Documentation"},{"@type":"CreativeWork", "name":"quick installation instructions", "url":"https://seiscode.iris.washington.edu/projects/webserviceshell/wiki/Quick_installation_instructions"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"applicationCategory":["function: Data Discovery & Access uri: http://cor.esipfed.org/ont/earthcube/SFO_0000005"],
+"runtimePlatform":["Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008","Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005","MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006"
+],
+"programmingLanguage":[{"@type":"ComputerLanguage","name":"Java"}],
+"installUrl":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://seiscode.iris.washington.edu/projects/webserviceshell/files"}],
+"supportingData":[{"@type":"DataFeed","name":"Output Data Type specification","position":"output","encodingFormat":["GeoCSV"]}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000503",
+"name": "Interface specification",
+"value":[{"@type":"CreativeWork","identifier":"HTTP"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"IRIS EarthCube project product, used for IRIS services"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Low usage",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"linked resource: Java servlet container (e.g. Tomcat; Glassfish)"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

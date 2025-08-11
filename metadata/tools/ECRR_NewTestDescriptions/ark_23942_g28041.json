@@ -1,0 +1,99 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g28041",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "EMERALD software for processing event based seismic data",
+"subjectOf":[{"@type":"CreativeWork", "name":"Product description", "url":"https://seiscode.iris.washington.edu/projects/emerald/"}],
+"description": "EMERALD is a complete open-source software server-based system for processing large sets of event based seismic data. Data sets containing millions of seismic waveforms can easily be managed, reviewed, and processed. The system can automatically check for metadata updates, and alert the user to metadata changes. Users can create new seismic processing functions in any of an ever-growing number of programming languages, and share their codes with any or all other EMERALD users. EMERALD includes an easy-to-user graphical interface for requesting seismic event data from the IRIS Data Management Center (DMC). EMERALD will automatically retrieve seismic metadata on a user-selected schedule, compare it with a stored snapshot, and alert the user to selected metadata changes. EMERALD is an integrated, extensible, standalone database server system based on the open-source PostgreSQL database engine. EMERALD requires a virtual machine driver (known as a hypervisor) on the workstation or server where EMERALD will be installed. You may use Oracle VirtualBox (available here), which is free and is available for most common operating systems. EMERALD requires a 64-bit operating system, and will probably not install on 32-bit systems.",
+"datePublished": "2013-05-10","keywords": "Seismology, sac file, trace editing",
+"license": [{"@type":"CreativeWork","name":"not specified", "identifier":"undefined"}],
+"version":"v1.01",
+"funder": [{"@type":"Organization","name":"US National Science Foundation (US NSF)", "identifier":"https://ror.org/021nxhr62"}],
+"audience": [{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": [{"@type":"DefinedTerm","name":"Seismology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000099"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"quick start guide", "url":"https://seiscode.iris.washington.edu/attachments/download/358/EMERALD_QuickStart.pdf"},{"@type":"CreativeWork", "name":"how to request data", "url":"https://seiscode.iris.washington.edu/attachments/download/359/EMERALD_HowToRequestData.pdf"},{"@type":"CreativeWork", "name":"Installer Readme file", "url":"https://seiscode.iris.washington.edu/attachments/download/361/EMERALD1.0_README"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"runtimePlatform":["In-the-browser, uri:http://cor.esipfed.org/ont/earthcube/RTE_000003","hypervisor for virtual machine","64 bit operating system"
+],
+"installUrl":[{"@type":"CreativeWork", "name":"GNU zip archive 3.3 Gb", "url":"http://www.iris.edu/files/EMERALD/EMERALD1.01.tgz"}],
+"supportingData":[{"@type":"DataFeed","name":"Input Data Type specification","position":"input","encodingFormat":["application/octet-stream;type=SeismicAnalysisCode","text/plain;application=SeismicAnalysisCode","SAC"]}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"EMERALD:A Web Application for Seismic Event Data Processing, Seismological Research Letters(December 2012), 83(6):1061-1067, http://www.seismosoc.org/Publications/SRL/SRL_83/srl_83-6_es/."
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"EMERALD:A Web Application for Seismic Event Data Processing, Seismological Research Letters(December 2012), 83(6):1061-1067, http://www.seismosoc.org/Publications/SRL/SRL_83/srl_83-6_es/."
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"Incorporated Research Institutions for Seismology (IRIS)", "url":"https://ror.org/05xkn9s74"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"Oracle VirtualBox", "url":"https://www.virtualbox.org/wiki/Downloads"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": "https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-02-10T20:52:02Z"
+  } 
+ } ]}

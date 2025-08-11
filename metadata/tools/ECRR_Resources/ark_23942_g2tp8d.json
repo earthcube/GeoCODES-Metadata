@@ -1,0 +1,153 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2tp8d",
+    "@type": [
+        "CreativeWork",
+        "Product"
+    ],
+    "name": "E57 File Format for point clouds",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "https://www.ri.cmu.edu/publications/the-astm-e57-file-format-for-3d-imaging-data-exchange/"
+    },
+    "identifier": "application/xml;type=ASTM-E57",
+"sameAs":["ASTM E2807 - 11(2019)"],
+    "description": "The E57 file format is a compact, vendor-neutral format for storing point clouds, images, and metadata produced by 3D imaging systems, such as laser scanners. The file format is specified by the ASTM, an international standards organization, and it is documented in the ASTM E2807 standard. The E57 format was developed by the Data Interoperability sub-committee of the ASTM E57 Committee on 3D Imaging Systems. The E57 specification uses a subset of XML that has been extended to support efficient storage of large amounts of binary data. An E57 file is encoded as a hierarchical tree structure, some of which is encoded in XML, and some of which is encoded in a binary format that is not XML. The bulk of the data, including point data and images, is encoded in the binary sections for efficiency. Metadata, such as sensor pose information, is encoded in XML. The binary sections are not embedded in the XML section. Instead, they are located in separate sections of the file and referenced from the XML section. The format is designed to be readily extensible to accommodate new hardware innovations. Using the E57 extension mechanism, hardware developers can differentiate their products and incorporate new features by developing extensions that allow software developers to access additional technological innovations. These extensions provide E57 application developers with new features above and beyond the features specified in the E2807 standard. E57 extensions keep the format current with the latest innovations and technologies. The E57 format is intended to be  well-suited for storing data across a variety of application domains, a more general format the ASPRS LAS format. There are a number of differences in the capabilities of the E57 format as compared to the LAS format. The E57 format allows users to flexibly choose the information associated with each 3D point as well as the number of bits used to represent the information. In contrast, LAS uses a pre-defined set of fixed-size record types that are specialized for aerial data collection. The E57 format supports gridded data (i.e., data aligned in regular arrays), multiple coordinate systems (including Cartesian and spherical), embedded images from cameras, built in error detection, and groupings of points into rows, columns, or user-defined groups. The E57 format also defines an extension mechanism that allows users to develop custom capabilities that were not envisioned in the initial design of the standard. These extensions could be integrated into future versions of the standard. Finally, the E57 format has an essentially unlimited file size and number of records (1.8E19 bytes in length), whereas the LAS format is limited to 4.2E9 records.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "ASTM International",
+        "identifier": "https://ror.org/01x994m09"
+    },
+    "keywords": "data interchange, point cloud, LIDAR",
+    "license": {
+        "@type": "CreativeWork",
+        "name": "unknown",
+        "identifier": "undefined"
+    },
+    "version": "11-2019",
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Producers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000001"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Technologists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000004"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        }
+    ],
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Discipline-agnostic",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+    },
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "libE57: Software Tools for Managing E57 Files, ",
+            "url": "http://www.libe57.org/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Example data, ",
+            "url": "http://www.libe57.org/example.html"
+        }
+    ],
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+        "name": "Interchange file format"
+    },
+    "encodingFormat": "application/xml",
+    "dct:conformsTo": {
+        "@type": "CreativeWork",
+        "name": "ASTM E2807 - 11(2019), https://www.astm.org/Standards/E2807.htm"
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "ASTM, 2019, Standard Specification for 3D Imaging Data Exchange, Version 1.0: ASTM E2807 - 11(2019), paywall, https://www.astm.org/Standards/E2807.htm."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Long-term",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "Huber, Daniel, 2011, The ASTM E57 File Format for 3D Imaging Data Exchange: Conference Paper, Proceedings of the SPIE Vol. 7864A, Electronics Imaging Science and Technology Conference (IS&T), 3D Imaging Metrology, Vol. 7864A, https://www.ri.cmu.edu/publications/the-astm-e57-file-format-for-3d-imaging-data-exchange/"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Organization",
+                "name": "ASTM International",
+                "url": "https://ror.org/01x994m09"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "Fri Feb 12 2021 13:23:29 GMT-0700 (Mountain Standard Time)"
+            }
+        }
+    ]
+}

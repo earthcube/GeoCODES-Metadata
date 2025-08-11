@@ -1,0 +1,36 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705019",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "McIDAS area file format (McIDASArea)",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://www.ssec.wisc.edu/mcidas/doc/prog_man/current/formats-1.html"}],
+"identifier":["application/octet-stream;type=McIDAS-area"],
+"description": "In McIDAS-X, images are stored in binary files called areas. Each area file is a collection of information that defines the image and its associated ancillary data. Area files are usually named AREAnnnn, where nnnn is a four-digit number between 0000 and 9999. This number is called the area file number. For example, AREA0013 is the name of the file containing area 13. Areas do not have to follow this standard naming convention. The file masking option of DSSERVE may be used to access a data file of any name through the ADDE. Area files consist of these six blocks: 1) Directory block; 2) Navigation block (NAV block); 3) Calibration block (CAL block); 4) Supplemental block; 5) Data block; 6) Comment block (AUDIT block). Some blocks also contain satellite-specific information, which is located in the Image-specific characteristics section. For area file Application Program Interfaces (APIs), refer to the API functions list.. Format consumed by NetCDF-Java CDM library functions. This is a place holder, more information is needed.",
+"keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"isRelatedTo":[{"@type":"CreativeWork", "name":"Manual", "url":"https://www.ssec.wisc.edu/mcidas/doc/prog_man/2003print/progman2003-formats.html"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+],
+"encodingFormat":["application/octet-stream"],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

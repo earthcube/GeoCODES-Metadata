@@ -1,0 +1,62 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2805005",
+ "@type": [
+ "CreativeWork" ],
+    "name": "OPeNDAP Data Access Protocol v2 (DAP 2)",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"https://cdn.earthdata.nasa.gov/conduit/upload/512/ESE-RFC-004v1.1.pdf"},
+"identifier":"application/octet-stream;type=dods-data",
+"description": "A data transmission protocol designed specifically for science data. The protocol relies on the widely used and stable HTTP and MIME standards, and provides data types to accommodate gridded data, relational data, and time series, as well as allowing users to define their own data types. The DAP is a protocol for access to data organized as name-datatype-value tuples. It is particularly suited to accesses by a client computer to data stored on remote (server) computers which are networked to the client computer. The protocol has been used by the Distributed Oceanographic Data System since 1995 and subsequently by many other projects and groups. The DAP is a stateless protocol that governs clients making requests from servers, and servers issuing responses to those requests.  The DAP uses three responses to represent a data source. Two of these responses, the Dataset Descriptor Structure (DDS) and Dataset Attribute Structure (DAS), characterize the variables, their datatypes, names and attributes. The third response, the Data Dataset Descriptor Structure (DataDDS), holds data values along with name and datatype information. This response body returns data to the client. It consists of a copy of the DDS, followed by data in its external representation. The DAP specifies a particular representation of data to be used in transmitting that data from one computer to another. .",
+"audience": {"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000207",
+"name": "Interface/API"
+  }
+,
+"applicationCategory":"function: Data Discovery & Access uri: http://cor.esipfed.org/ont/earthcube/SFO_0000005",
+"ecrro:ECRRO_000502": {"@type":"DefinedTerm","name":"HTTP", "identifier":"http://cor.esipfed.org/ont/earthcube/CMPR_0000001"},
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":{"@type":"CreativeWork", "name":"linked web page", "url":"HTTP"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

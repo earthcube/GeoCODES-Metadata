@@ -1,0 +1,45 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2800009",
+ "@type": [
+ "CreativeWork" ],
+    "name": "SeaDataNet Data formats specification",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://www.seadatanet.org/content/download/636/file/SDN2_D85_WP8_Datafile_formats.pdf"}],
+"identifier":["https://doi.org/10.13155/56547"],
+"description": "This document specify the data file format in used for data exchange in SeaDataNet. ODV (Ocean Data View) and NetCDF format are mandatory, whereas MEDATLAS is optional. This document describes the following versions of the SeaDataNet formats SeaDataNet ODV import format 0.4 SeaDataNet MEDATLAS format 2.0 SeaDataNet CFPOINT (CF NetCDF)1.0",
+"keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"about": [{"@type":"DefinedTerm","name":"Oceanography", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000046"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000204",
+"name": "Specification"
+  },{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/SPKT_0000001",
+"name": "Data Format Convention"
+  }
+],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Lowry Roy, Fichaut Michele, Schlitzer Reiner, Maudire Gilbert, Bregent Sophie (2018). SeaDataNet. Datafile formats. ODV, MEDATLAS, NETCDF. DELIVERABLE D8.5. https://doi.org/10.13155/56547"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

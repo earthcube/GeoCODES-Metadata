@@ -1,0 +1,89 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2r331",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "Linked Paleo Data (LiPD) utilities software",
+"subjectOf":[{"@type":"CreativeWork", "name":"wiki page", "url":"http://wiki.linked.earth/LiPD_Utilities"},{"@type":"CreativeWork", "name":"information", "url":"http://nickmckay.github.io/LiPD-utilities/"}],
+"description": "Software package to help convert existing paleoclimate observations into LiPD files that can be shared and analyzed.  LiPD files are the data standard for storing and exchanging data amongst paleoclimate scientists. Core functions are implemented in MatLab, Python, and R. The function names, parameters and returned data are the same in the different language implementations. Functions include: 1) readLipd - Read LiPD files from your computer into your workspace; 2) writeLipd - Write LiPD data from your workspace onto your computer; 3) extractTs - Extract a time series from one or more datasets in the workspace. Your hierarchical LiPD data structure is extracted into a flattened time series structure; 4) collapseTs - Collapse a time series back into LiPD dataset form in the workspace. Your flattened time series structure is condensed back into a hierarchical LiPD data structure; 5) filterTs - Retrieve time series objects that match a specific criteria. This filters out the data that you don't want, and returns a new time series of data that you do want; 6) queryTs -  Retrieve the index numbers of time series objects that match a specific criteria. This filters out the data that you don't want, and returns a list of index numbers of the data that you do want.                   Additionally, while the core functions remain the same, we chose to take advantage of the strengths of each language. The Python utilities have additional functions for converting and validating data. The R and Matlab utilities are better suited for data analyzation. The language-specific documentation linked below will go into detail about all the functions included in each language.",
+"datePublished": "2020-05-30","contributor":[{"@type":"Person","name":"Gavin Simpson"},{"@type":"Person","name":"Emile-Geay Julien"},{"@type":"Person","name":"Deborah Khider"}],
+"keywords": "paleoclimate,time series",
+"license": [{"@type":"CreativeWork","name":"GNU General Public License (GPL)", "identifier":"http://cor.esipfed.org/ont/SWL_0000017"}],
+"version":"0.2.5.5",
+"funder": [{"@type":"Organization","name":"US National Science Foundation (US NSF)", "identifier":"https://ror.org/021nxhr62"}],
+"audience": [{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"}],
+"about": [{"@type":"DefinedTerm","name":"Paleobiology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000109"},{"@type":"DefinedTerm","name":"Paleobotany", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000104"},{"@type":"DefinedTerm","name":"Paleoclimatology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000043"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"Linked Earth Wiki", "url":"http://wiki.linked.earth/Main_Page"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"runtimePlatform":["Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005","MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006","Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008","iPadOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000009","Matlab","R Studio"
+],
+"programmingLanguage":[{"@type":"ComputerLanguage","name":"Python 3.4"},{"@type":"ComputerLanguage","name":"R 3.3.1"},{"@type":"ComputerLanguage","name":"Matlab R2017a"}],
+"codeRepository":[{"@type":"CreativeWork", "name":"github", "url":"https://github.com/nickmckay/LiPD-utilities"}],
+"installUrl":[{"@type":"CreativeWork", "name":"Python 3.4/3.5, pip install LiPD"},{"@type":"CreativeWork", "name":"Python 3.6+, pip3 install --egg LiPD"},{"@type":"CreativeWork", "name":"R install instructions", "url":"https://github.com/nickmckay/LiPD-utilities/tree/master/R#installation"}],
+"supportingData":[{"@type":"DataFeed","name":"Input Data Type specification","position":"input","encodingFormat":["application/zip;type=LiPD","http://linked.earth/ontology/core/1.2.0/index-en.html#Dataset"]},{"@type":"DataFeed","name":"Output Data Type specification","position":"output","encodingFormat":["application/zip;type=LiPD","http://linked.earth/ontology/core/1.2.0/index-en.html#Dataset"]}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Heiser, Christopher, McKay, Nicholas, Julien, Emile-Geay, & Khider, Deborah, 2018, April 13, LiPD-utilities (Version 1.0.0), Zenodo, http://doi.org/10.5281/zenodo.60813"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"Linked Earth Executive Committee", "url":"http://linked.earth/aboutus/governance/"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": "https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2020-12-16T22:28:34Z"
+  } 
+ } ]}

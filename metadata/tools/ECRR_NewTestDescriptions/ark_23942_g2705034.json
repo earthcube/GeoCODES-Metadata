@@ -1,0 +1,68 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705034",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "Seismic Analysis Code (SAC) Binary Format",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://ds.iris.edu/files/sac-manual/manual/file_format.html"}],
+"identifier":["application/octet-stream;type=SeismicAnalysisCode"],
+"description": "Format defined by the Seismic Analysis Code (SAC) software suite; supported by many other tools. The SAC data format includes waveform data, station identifier, starting time, and optionally an origin time for a seismic source; it is usually accompanied by separate metadata files in Poles and Zeros (SACPZ) format for instrumentation correction.  Each signal is stored on disk in a separate SAC data file. These files contain a fixed length header section followed by one or two data sections. The header contains floating point, integer, logical, and character fields. Evenly spaced data files have only one data section which contains the dependent variable. Unevenly spaced data and spectral data files contain two data sections. For unevenly spaced data, the first data section contains the dependent variable and the second contains the independent variable. For spectral files the first component is either the amplitude or the real component and the second component is either the phase or imaginary component. Through SAC version 101.6a, these files contain a fixed length header section followed by one or two data sections. The header contains floating point, integer, logical, and character fields. Evenly spaced data files have only one data section which contains the dependent variable. Unevenly spaced data and spectral data files contain two data sections. For unevenly spaced data, the first data section contains the dependent variable and the second contains the independent variable. For spectral files the first component is either the amplitude or the real component and the second component is either the phase or imaginary component.  All reals in the SAC header and data sections are single-precision (32 bits, 4 bytes). As discussed in the section on precision in TUTORIAL, although having single-precision for the data is sufficient, having only single-precision for time and distance variables in the header is no longer good enough to handle many modern data sets. SAC version 102.0 solves this problem. The header is unchanged, but a 'footer' is added with 22 header variables in double-precision. Version 102.0 can handle 'old' SAC data files with no footer or files with a footer, so there is complete compatibility. SAC v102.0 distinguishes between 'old' and 'new' files by the header variable NVHDR: if NVHDR = 6, the SAC file is in 'old' format, if NVHDR = 7, it is in 'new' format with a footer.",
+"keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"audience": [{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": [{"@type":"DefinedTerm","name":"Seismology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000099"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"Seismic analysis code software", "url":"https://ds.iris.edu/files/sac-manual/manual.html"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+],
+"encodingFormat":["application/octet-stream"],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

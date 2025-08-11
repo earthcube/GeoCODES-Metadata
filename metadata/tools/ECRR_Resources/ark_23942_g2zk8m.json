@@ -1,0 +1,183 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2zk8m",
+    "@type": ["CreativeWork"],
+    "name": "CSDCO Ontology",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "specification, ",
+        "url": "https://opencoredata.org/voc/csdco/v1/index-en.html"
+    },
+    "identifier": "http://opencoredata.org/voc/csdco/v1",
+    "description": "This ontology defines project and borehole entities, along with a set of properties for each of these, as well as a set of datatypes that might be recorded about core from a borehole.",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Anders Noren"
+        },
+        {
+            "@type": "Person",
+            "name": "Alex Stone"
+        },
+        {
+            "@type": "Person",
+            "name": "Doug Brady"
+        }
+    ],
+    "keywords": "borehole,core sample",
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)",
+        "identifier": "http://cor.esipfed.org/ont/CCL_0000005"
+    },
+    "version": "1",
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Continental Scientific Drilling Coordination Office",
+            "identifier": "undefined"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Producers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000001"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Geology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000056"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Limnology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000087"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Paleoclimatology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000043"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Paleoecology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000107"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000210",
+            "name": "Semantic Resource"
+        },
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/srt_0000003",
+            "name": "Ontology"
+        }
+    ],
+    "programmingLanguage": {
+        "@type": "ComputerLanguage",
+        "name": "OWL",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/MOLA_0000001"
+    },
+    "encodingFormat": [
+        "text/turtle",
+        "application/rdf+xml"
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "Anders Noren, Alex Stone, and Doug Brady, 2020-10, CSDCO Ontology, accessed 2020-12-18, https://opencoredata.org/voc/csdco/v1/index-en.html"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Beta or complete draft",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Person",
+                    "name": "Anders Noren"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Alex Stone"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Brady"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Doug Fils"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "Fri Dec 18 2020 16:24:57 GMT-0700 (Mountain Standard Time)"
+            }
+        }
+    ]
+}

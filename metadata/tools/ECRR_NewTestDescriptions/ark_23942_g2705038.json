@@ -1,0 +1,50 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705038",
+ "@type": [
+ "CreativeWork" ],
+    "name": "SeaDataNet NetCDF format with CF compliance for 3-D",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://www.seadatanet.org/Standards/Data-Transport-Formats"}],
+"identifier":["application/x-netcdf;type=SeaDataNet-CF3D"],
+"description": "Format for 3D observation data such as ADCP.",
+"keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"about": [{"@type":"DefinedTerm","name":"Oceanography", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000046"},{"@type":"DefinedTerm","name":"Atmospheric Science", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000033"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+],
+"encodingFormat":["application/octet-stream"],
+"dct:conformsTo":[{"@type":"CreativeWork","url":"http://n2t.net/ark:/23942/g2800009"}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Lowry Roy, Fichaut Michele, Schlitzer Reiner, Maudire Gilbert, Bregent Sophie (2019). SeaDataNet. Datafile formats. ODV, MEDATLAS, NETCDF. DELIVERABLE D8.5. https://doi.org/10.13155/56547"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"linked resource: NetCDF"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

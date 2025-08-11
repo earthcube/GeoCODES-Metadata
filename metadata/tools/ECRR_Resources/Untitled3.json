@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2600040",
+    "@type": [
+        "CreativeWork",
+        "Product",
+        "SoftwareApplication"
+    ],
+    "name": "Stereonet 10",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "http://www.geo.cornell.edu/geology/faculty/RWA/programs/stereonet.html"
+    },
+    "description": "Stereonet 10 brings StraboSpot integration as well as a streamlined, tabbed interface and additional data details option. Upload your data directly from the program to your StraboSpot account. Points with location data can be plotted on a Google satellite (or terrain or roadmap) image right in the program.",
+    "license": {
+        "@type": "CreativeWork",
+        "name": "If you work for academic government or non-profit institutions you may download and use this software for free. Commercial users-Restrictions on use vary by program and also based on the details of your usage scenario.",
+        "identifier": "undefined"
+    },
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Scientists",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+    },
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Geology",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000056"
+    },
+    "isRelatedTo": {
+        "@type": "CreativeWork",
+        "name": "manual, ",
+        "url": "http://www.geo.cornell.edu/geology/faculty/RWA/programs/stereonet-help.pdf"
+    },
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    },
+    "applicationCategory": "function: Visualization uri: http://cor.esipfed.org/ont/earthcube/SFO_0000011",
+    "installURL": [
+        {
+            "@type": "CreativeWork",
+            "name": "Mac OS X 64 bit, ",
+            "url": "http://www.geo.cornell.edu/geology/faculty/RWA/programs/stereonet_mac.zip"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Windows 64 bit, ",
+            "url": "http://www.geo.cornell.edu/geology/faculty/RWA/programs/setupstereonet64.exe"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Linux 64 bit, ",
+            "url": "http://www.geo.cornell.edu/geology/faculty/RWA/programs/stereonet_linux_64.zip"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Windows 32 bit, ",
+            "url": "http://www.geo.cornell.edu/geology/faculty/RWA/programs/setupstereonet32.exe"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Linux 32 bit, ",
+            "url": "http://www.geo.cornell.edu/geology/faculty/RWA/programs/stereonet_linux.zip"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Used in multiple places",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "2021-02-10T21:11:19-0700"
+            }
+        }
+    ]
+}

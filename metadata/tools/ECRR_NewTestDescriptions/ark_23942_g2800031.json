@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2800031",
+    "@type": ["CreativeWork"],
+    "name": "SPARQL 1.1 Protocol specification",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "linked web page",
+            "url": "http://www.w3.org/TR/2013/REC-sparql11-protocol-20130321/"
+        }
+    ],
+    "description": "a means for conveying SPARQL queries and updates to a SPARQL processing service and returning the results via HTTP to the entity that requested them.  The SPARQL Protocol has been designed for compatibility with the SPARQL 1.1 Query Language [SPARQL] and with the SPARQL 1.1 Update Language for RDF. This document is primarily intended for software developers interested in implementing SPARQL query and update services and clients. The SPARQL Protocol consists of two HTTP operations: a query operation for performing SPARQL Query Language queries and an update operation for performing SPARQL Update Language requests. SPARQL Protocol clients send HTTP requests to SPARQL Protocol services that handle the request and send HTTP responses back to the originating client. Scope is conveying SPARQL queries and updates to a SPARQL processing service and returning the results via HTTP",
+    "datePublished": "2013-03-21",
+    "editor": [
+        {
+            "@type": "Person",
+            "name": "Lee Feigenbaum"
+        },
+        {
+            "@type": "Person",
+            "name": "Gregory Todd Williams"
+        },
+        {
+            "@type": "Person",
+            "name": "Kendall Grant Clark"
+        },
+        {
+            "@type": "Person",
+            "name": "Elias Torres}"
+        }
+    ],
+    "keywords": "",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "Copyright © 2013 W3C® (MIT ERCIM Keio Beihang) All Rights Reserved. W3C liability trademark and document use rules apply.",
+            "identifier": "undefined"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Discipline-agnostic",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000204",
+            "name": "Specification"
+        },
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/SPKT_0000003",
+            "name": "Web Service Convention"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Used in multiple places",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "More than 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Organization",
+                    "name": "W3C Consortium"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": " https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-11-04T17:06:00Z"
+            }
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g29w62",
+ "@type": [
+ "CreativeWork" ],
+    "name": "Bluesky data model document format",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"https://blueskyproject.io/event-model/data-model.html"},
+"identifier":"application/json;type=BlueSky1.17",
+"description": "The data model is composed of six types of Documents, which in Python are represented as dictionaries but could be represented as nested mappings (e.g. JSON) in any language. Each document type has a defined, but flexible, schema. The formal schema is encoded using JSON schema for each document type. Document types: 1) Run Start Document — Everything we know about an experiment or simulation before any data acquisition begins: the who / why / what and metadata such as sample information; 2) Event — A “row” of measurements with associated timestamps; 3) Event Descriptor — Metadata about a series of Events. Envision richly-detail column headings in a table, encompassing physical units, hardware configuration information, etc.; 4) Resource — A pointer to an external file (or resource in general); 5) Datum — A pointer to a specific slice of data within a Resource; 6) Run Stop Document — Everything that we can only know at the very end, such as the time it ended and the exit status (succeeded, aborted, failed due to error). Every document contains a unique identifier. The Event documents also have a descriptor field linking them to the Event Descriptor with their metadata. And the Event Descriptor and Run Stop documents have a run_start field linking them to their Run Start. Thus, all the documents in a run are linked back to the Run Start. Event documents may contain the literal values or pointers to values that are stored in some external file or networked resource, yet to be loaded. The Resource and Datum document types manage references to externally-stored data.",
+"keywords": "streaming data model,",
+"license": {"@type":"CreativeWork","name":"not specified", "identifier":"undefined"},
+"version":"1.17.0",
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"application/json",
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"Brookhaven National Lab, no date, Bluesky Data Model, accessed 2020-12-23, https://blueskyproject.io/event-model/data-model.html."
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ {"@type":"Organization", "name":"Brookhaven National Lab", "url":"https://ror.org/02ex6cf31"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "Wed Dec 23 2020 20:31:30 GMT-0700 (Mountain Standard Time)"
+  } 
+ } ]}

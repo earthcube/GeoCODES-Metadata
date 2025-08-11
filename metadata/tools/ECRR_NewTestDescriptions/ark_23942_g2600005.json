@@ -1,0 +1,257 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2600005",
+    "@type": [
+        "CreativeWork",
+        "Product",
+        "SoftwareApplication"
+    ],
+    "name": "ERDDAP v2.0.1",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "linked web page",
+            "url": "https://coastwatch.pfeg.noaa.gov/erddap/information.html"
+        }
+    ],
+    "identifier": ["https://coastwatch.pfeg.noaa.gov/erddap ."],
+    "description": "ERDDAP is a data server that gives you a simple, consistent way to download subsets of gridded and tabular scientific datasets in common file formats and make graphs and maps. Over 60 organizations around the world use ERDDAP.  ERDDAP unifies the different types of data servers to provide a consistent way to get  data in the format you want. ERDDAP acts as a middleman between the data requester and  remote data servers. ERDDAP reformats data requests into the format required by the remote server, sends the request to the remote server, gets the data, reformats the data into the format that was requested, and returns the data. ERDDAP offers an easy-to-use, consistent way to request data: via the OPeNDAP standard. Many datasets can also be accessed via ERDDAP's Web Map Service (WMS). ERDDAP returns data in various common file formats. ERDDAP offers all data as .html table, ESRI .asc and .csv, Google Earth .kml, OPeNDAP binary, .mat, .nc, ODV .txt, .csv, .tsv, .json, and .xhtml. ERDDAP can also return a .png or .pdf image with a customized graph or map. ERDDAP standardizes date-time formatting in the results. For string times, ERDDAP always uses the ISO 8601:2004(E) standard format, for example, 2018-01-02T00:00:00Z. For numeric times, ERDDAP always uses 'seconds since 1970-01-01T00:00:00Z'. ERDDAP always uses the Zulu (UTC, GMT) time zone to remove the difficulties of working with different time zones and standard time versus daylight saving time. ERDDAP has a service to convert a string time to/from a numeric time. ERDDAP's RESTful web services enable software clients (for example, Matlab, R, a program that you write, or from a web page via HTML image tags or JavaScript) to search for datasets, download data, and make maps  directly from any computer program.",
+    "datePublished": "2019-07-03",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Bob Simons"
+        }
+    ],
+    "keywords": "",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "https://coastwatch.pfeg.noaa.gov/erddap/download/setup.html#license",
+            "identifier": "undefined"
+        }
+    ],
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Oceanic and Atmospheric Administration (NOAA)",
+            "identifier": "https://ror.org/02z5nhe81"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Facilities and Repositories",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000003"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Discipline-agnostic",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+        }
+    ],
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "introductory video",
+            "url": "https://www.youtube.com/watch?v=18xZoXu1USM"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "setup instructions",
+            "url": "https://coastwatch.pfeg.noaa.gov/erddap/download/setup.html"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+            "name": "Software"
+        }
+    ],
+    "applicationCategory": ["function: Data Discovery & Access uri: http://cor.esipfed.org/ont/earthcube/SFO_0000005"],
+    "runtimePlatform": [
+        "Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008",
+        "Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005",
+        "MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006"
+    ],
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Java"
+        }
+    ],
+    "codeRepository": [
+        {
+            "@type": "CreativeWork",
+            "name": "github",
+            "url": "https://github.com/BobSimons"
+        }
+    ],
+    "installUrl": [
+        {
+            "@type": "CreativeWork",
+            "name": "github releases",
+            "url": "https://github.com/BobSimons/erddap/releases"
+        }
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "name": "Input Data Type specification",
+            "position": "input",
+            "encodingFormat": [
+                "application/x-netcdf",
+                "application/x-netcdf4",
+                "text/csv;application=w3cdefault",
+                "Automatic Weather Station (AWS) XML",
+                "text/plain;application=tabularData",
+                "EDDGrid",
+                "text/plain;application=JSONlines"
+            ]
+        },
+        {
+            "@type": "DataFeed",
+            "name": "Output Data Type specification",
+            "position": "output",
+            "encodingFormat": [
+                "html table (external link)",
+                "ESRI .asc (external link)",
+                "Google Earth .kml (external link)",
+                ".mat (external link)",
+                ".nc (external link)",
+                "ODV .txt (external link)",
+                ".csv (external link)",
+                ".tsv (external link)",
+                ".json (external link)",
+                ".xhtml (external link)"
+            ]
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibligraphic citation",
+            "value": "Simons, R.A. 2017. ERDDAP.  Monterey, CA: NOAA/NMFS/SWFSC/ERD, accessed at https://coastwatch.pfeg.noaa.gov/erddap."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000503",
+            "name": "Interface specification",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "griddap"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "tabledap"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "ERDDAP files"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "WMS"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "ERDDAP RESTful search"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "ERDDAP OpenSearch"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Used in multiple places",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "More than 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Person",
+                    "name": "Bob Simons"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "Java 1.8 Runtime Environment (JRE)",
+                    "url": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "Tomcat v.8",
+                    "url": "https://tomcat.apache.org/download-80.cgi"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": " https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-11-04T17:06:00Z"
+            }
+        }
+    ]
+}

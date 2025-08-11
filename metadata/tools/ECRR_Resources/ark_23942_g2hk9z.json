@@ -1,0 +1,184 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2hk9z",
+    "@type": ["CreativeWork"],
+    "name": "Linked Open Paleo Data (LiPD) Data Package",
+    "alternateName": ".lpd file",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "home page, ",
+        "url": "https://lipd.net/"
+    },
+    "identifier": "application/zip;type=LiPD",
+        
+    "sameAs":["http://linked.earth/ontology/core/1.2.0/index-en.html#Dataset"],
+    "description": "A data package designed for paleoenvironmental data interchange. Wrapper is a zip archive, containing a Bagit type manifest, bag-info, and bagit text, with data files in a data directory.   Data files are either paleoData or geochronologic (chron) Data, as well as associated metadata files describing the table structure in the data files. Data files are text/csv format.",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Nicholas McKay"
+        },
+        {
+            "@type": "Person",
+            "name": "Julien Emile-Geay"
+        }
+    ],
+    "keywords": "Paleoclimate,data interchange",
+    "license": {
+        "@type": "CreativeWork",
+        "name": "not specified",
+        "identifier": "undefined"
+    },
+    "funding": [
+        
+        {
+            "@type": "Grant",
+            "name": "GeoChronR - open-source tools for the analysis, visualization and integration of time-uncertain geoscientific data",
+           "identifier":"EAR 1347213",
+           "funder":{
+               "@type":"FundingAgency",
+               "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+           }
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Producers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000001"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Facilities and Repositories",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000003"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Paleobiology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000109"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Paleobotany",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000104"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Paleoceanography",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000051"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Paleoclimatology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000043"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Paleoecology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000107"
+        }
+    ],
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+        "name": "Interchange file format"
+    },
+    "encodingFormat": "application/zip",
+    "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Linked Earth LiPD Ontology v1.2.0",
+        "url": "undefined"
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "Nicholas P. McKay and Julien Emile-Geay, 2016, Technical note: The Linked Paleo Data framework \u2013 a common tongue for paleoclimatology. Clim. Past, 12, 1093\u20131100, 2016, https://doi.org/10.5194/cp-12-1093-2016"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "Nicholas P. McKay and Julien Emile-Geay, 2016, Technical note: The Linked Paleo Data framework \u2013 a common tongue for paleoclimatology. Clim. Past, 12, 1093\u20131100, 2016, https://doi.org/10.5194/cp-12-1093-2016"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Person",
+                "name": "Nicholas P. McKay;Julien Emile-Geay"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Some usage (10-50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "Fri Jan 08 2021 15:17:42 GMT-0700 (Mountain Standard Time)"
+            }
+        }
+    ]
+}

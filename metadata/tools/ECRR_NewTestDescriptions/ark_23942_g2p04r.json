@@ -1,0 +1,191 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2p04r",
+    "@type": [
+        "CreativeWork",
+        "Product"
+    ],
+    "name": "NOAA Climate Data Center (CDC) netCDF Conventions",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "linked web page",
+            "url": "https://psl.noaa.gov/data/gridded_help/conventions/"
+        }
+    ],
+    "description": "minimum requirements for creating netCDF files using the CDC netCDF standard format..       The conventions are compatible with, but more restrictive than standards developed jointly between the institutions participating in the now-defunct NOAA Cooperative Ocean-Atmosphere Research Data Service (COARDS). This basic format may be enhanced with additional dimensions, variables, and attributes as long as the standard elements are included.  All netCDF files must have '.nc' as the final suffix of the file name. One or more dimensions can be used with each data variable. There are four standard dimensions: time, level, lat, lon. There are standard variable abbreviations (https://psl.noaa.gov/data/gridded_help/conventions/variable_abbreviations.html)  for most climate-related variables that should be used where possible.",
+    "keywords": "netCDF,climate,interoperability,data interchange",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "not specified",
+            "identifier": "undefined"
+        }
+    ],
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Oceanic and Atmospheric Administration (NOAA)",
+            "identifier": "https://ror.org/02z5nhe81"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Producers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000001"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Facilities and Repositories",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000003"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Technologists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000004"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Atmospheric Chemistry",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000037"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Atmospheric Dynamics",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000038"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Atmospheric Physics",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000036"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Atmospheric Science",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000033"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Climatology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000035"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Paleoclimatology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000043"
+        }
+    ],
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "COARDS NetCDF Conventions specification",
+            "url": "https://ferret.pmel.noaa.gov/noaa_coop/coop_cdf_profile.html"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+            "name": "Interchange file format"
+        }
+    ],
+    "encodingFormat": ["application/x-netcdf"],
+    "isBasedOn": [
+        {
+            "@type": "CreativeWork",
+            "name": "PSD variables",
+            "url": "https://psl.noaa.gov/data/gridded_help/conventions/variable_abbreviations.html"
+        }
+    ],
+    "dct:conformsTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "application/x-netcdf; type=CDC-PSL"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibligraphic citation",
+            "value": "NOAA, 2021, CDC netCDF Conventions: accessed at https://psl.noaa.gov/data/gridded_help/conventions/."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Organization",
+                    "name": "NOAA Physical Sciences Laboratory",
+                    "url": "https://psl.noaa.gov/"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": "https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-09-28T18:04:21Z"
+            }
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600038",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "Seismic Analysis Code  v101.6a",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"https://ds.iris.edu/ds/nodes/dmc/software/downloads/SAC/101-6a/"},
+"description": "SAC (Seismic Analysis Code), previously SAC2000, is a general-purpose interactive program designed for the study of sequential signals, especially time-series data. Emphasis has been placed on analysis tools used by research seismologists in the detailed study of seismic events. Analysis capabilities include general arithmetic operations, Fourier transforms, three spectral estimation techniques, IIR and FIR filtering, signal stacking, decimation, interpolation, correlation, and seismic phase picking. SAC also contains an extensive graphics capability. Binary versions are available for current (2013) Intel Mac and Linux, but SAC can be built from the source code for other computer operating systems. The source code is written in C. For further details regarding requirements to build and run SAC, see the README file that comes with the distribution.",
+"license": {"@type":"CreativeWork","name":"SAC 2000 SOFTWARE END-USER LICENSE", "identifier":"undefined"},
+"about": {"@type":"DefinedTerm","name":"Seismology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000099"},
+"isRelatedTo":[{"@type":"CreativeWork", "name":"Primer and Users Guide, ", "url":"http://www.cambridge.org/9781107613195"},{"@type":"CreativeWork", "name":"online manual, ", "url":"http://ds.iris.edu/files/sac-manual/"}],
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+,
+"runtimePlatform":"PC/Cygwin|Sun/Oracle Solaris|Linux|MacOS"
+,
+"programmingLanguage":"C",
+"installURL":{"@type":"CreativeWork", "name":"request form, ", "url":"http://ds.iris.edu/ds/nodes/dmc/forms/sac/"},
+"supportingData":[{"@type":"DataFeed","name":"Input Data Type specification","position":"input","encodingFormat":["application/octet-stream;type=IRIS-SAC","text/plain;type=IRIS-SAC"]},{"@type":"DataFeed","name":"Output Data Type specification","position":"output","encodingFormat":["Seismic Analysis Code (SAC) format","application/octet-stream;type=IRIS-SAC","text/plain;type=IRIS-SAC"]}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"Goldstein, P., D. Dodge, M. Firpo, Lee Minner (2003) 'SAC2000: Signal processing and analysis tools for seismologists and engineers', Invited contribution to 'The IASPEI International Handbook of Earthquake and Engineering Seismology', Edited by WHK Lee, H. Kanamori, P.C. Jennings, and C. Kisslinger, Academic Press, London."
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}
