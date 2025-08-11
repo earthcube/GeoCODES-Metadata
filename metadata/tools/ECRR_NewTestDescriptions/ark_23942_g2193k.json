@@ -3,7 +3,7 @@
 		"@vocab": "https://schema.org/",
 		"dcat": "http://www.w3.org/ns/dcat#",
         "dc":"http://purl.org/dc/elements/1.1/",
-        "dct":"http://purl.org/dc/terms/", 
+        "dct":"http://purl.org/dc/terms/",
 		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
         "ecrr": "https://n2t.net/ark:/23942/g2"
 	},
@@ -14,7 +14,7 @@
 "alternateName": ["CDF-5"],
 "subjectOf":[{"@type":"CreativeWork", "name":"CDF-5 format specification", "url":"http://cucis.ece.northwestern.edu/projects/PnetCDF/CDF-5.html"}],
 "identifier":["application/x-netcdf"],
-"description": "To allow large variables with more than 4-billion array elements, 64-bit data format is develop to support such I/O requests. Files with the 64-bit data are identified with a 'CDF\\005' (note the first '\' is an escape character for JSON encoding) at the beginning of the file. Since CDF-5 format was introduced in version 4.4.0, earlier versions of the netCDF library can't read CDF-5 files. In order to allow defining large array variables with more than 4-billion elements, CDF-5 replaces most of the 32-bit integers used to describe metadata with 64-bit integers. In addition, it supports the following new external data types: NC_UBYTE, NC_USHORT, NC_UINT, NC_INT64, and NC_UINT64.",
+"description": "To allow large variables with more than 4-billion array elements, 64-bit data format is develop to support such I/O requests. Files with the 64-bit data are identified with a 'CDF\\005' (note the first '\\' is an escape character for JSON encoding) at the beginning of the file. Since CDF-5 format was introduced in version 4.4.0, earlier versions of the netCDF library can't read CDF-5 files. In order to allow defining large array variables with more than 4-billion elements, CDF-5 replaces most of the 32-bit integers used to describe metadata with 64-bit integers. In addition, it supports the following new external data types: NC_UBYTE, NC_USHORT, NC_UINT, NC_INT64, and NC_UINT64.",
 "keywords": "",
 "license":[{"@type":"CreativeWork","name":"not provided"}],"about": [{"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"}],
 "mainEntity":[{
@@ -32,5 +32,5 @@
 "name":"Stephen M. Richard",
 "identifier": "https://orcid.org/0000-0001-6041-5302"  },
 "datePublished": "2021-11-04T17:06:00Z"
-  } 
+  }
  } ]}
