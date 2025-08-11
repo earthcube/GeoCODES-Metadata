@@ -5,23 +5,6 @@ on:
     branches-ignore: [ 'gh-pages' ]
 
 jobs:
-  validate-json-dataset:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 4
-    - uses: walbo/validate-json@v1.1.0
-      name: schema validate dataset json
-      with:
-        files: metadata/Dataset/allgood/**/*.json
-
-        # optional, defaults to `$schema` in your JSON file
-        schema: schemas/GeoCodes-ECRR-DatasetSchema.json
-        schema-version: draft-07
-        print-valid-files: true
-        strict: false # default is tru
   validate-json-ecrr:
     runs-on: ubuntu-latest
 
@@ -35,7 +18,7 @@ jobs:
           files: metadata/tools/**/*.json
 
           # optional, defaults to `$schema` in your JSON file
-          schema: schemas/GeoCodes-ECRR-DatasetSchema.json
+          schema: schemas/ecrrjsonschema1.0.json
           schema-version: draft-07
           print-valid-files: true
           strict: false # default is true
