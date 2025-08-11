@@ -22,3 +22,11 @@ jobs:
       uses: RaaLabs/validate-json@v0.0.7
       with:
         directory: 'metadata/OtherResources'
+    - name: Validate ECRR json files
+      uses: RaaLabs/validate-json@v0.0.7
+      with:
+        directory: 'metadata/tools/ECRR_Resources'
+    - name: Validate ECRR new json files
+      uses: RaaLabs/validate-json@v0.0.7
+      with:
+        directory: 'metadata/tools/ECRR_NewTestDescriptions'
