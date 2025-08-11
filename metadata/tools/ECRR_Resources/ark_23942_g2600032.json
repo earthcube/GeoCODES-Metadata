@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2600032",
+    "@type": [
+        "CreativeWork",
+        "SoftwareApplication"
+    ],
+    "name": "Pyleoclim",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "http://linkedearth.github.io/Pyleoclim_util/"
+    },
+    "identifier": "http://doi.org/10.5281/zenodo.1340732",
+    "description": "Python package for the analysis of paleoclimate data",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "GNU General Public License (GPL)",
+            "identifier": "http://cor.esipfed.org/ont/SWL_0000017"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "https://github.com/LinkedEarth/Pyleoclim_util/blob/master/license",
+            "identifier": "undefined"
+        }
+    ],
+    "funding": [
+        {
+            "@type": "Grant",
+            "name": "LinkedEarth: Crowdsourcing Data Curation & Standards Development in Paleoclimatology",
+            "identifier":"ICER 1541029",
+            "funder": {
+                "@type": "FundingAgency",
+                "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+            }
+        }
+    ],
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Data Users",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+    },
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Paleoclimatology",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000043"
+    },
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    },
+    "programmingLanguage": "Python 3.5+",
+    "codeRepository": "https://github.com/LinkedEarth/Pyleoclim_util",
+    "installURL": {
+        "@type": "CreativeWork",
+        "name": "linked resource: pip"
+    },
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "name": "Input Data Type specification",
+            "position": "input",
+            "encodingFormat": [
+                "application/zip;type=LiPD",
+                "http://linked.earth/ontology/core/1.2.0/index-en.html#Dataset"
+            ]
+        },
+        {
+            "@type": "DataFeed",
+            "name": "Output Data Type specification",
+            "position": "output",
+            "encodingFormat": [
+                "application/zip;type=LiPD",
+                "http://linked.earth/ontology/core/1.2.0/index-en.html#Dataset",
+                "application/pdf",
+                "image/png",
+                "image/jpeg"
+            ]
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "Feng Zhu, Deborah Khider, LinkedEarth, & Julien Emile-Geay. (2018, August 6). LinkedEarth/Pyleoclim_util: Add support of f2py WWZ for Linux (Version 0.4.8). Zenodo. http://doi.org/10.5281/zenodo.1340732"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In development: >1 yr out",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000007"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": {
+                "@type": "CreativeWork",
+                "name": "LiPD 0.2.5, pandas v0.22,  numpy v1.14,  matplotlib v2.0,  Basemap v1.0.7,  scipy v0.19.0,  statsmodel v0.8.0,  seaborn 0.7.0,  scikit-learn 0.17.1,  tqdm 4.14.0,  pathos 0.2.0,  tqdm 4.14,  rpy2 2.8.4"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Deborah Khider"
+                },
+                "datePublished": "2021-02-10T21:11:19-0700"
+            }
+        }
+    ]
+}

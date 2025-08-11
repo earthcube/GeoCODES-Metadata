@@ -1,0 +1,239 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2600027",
+    "@type": [
+        "CreativeWork",
+        "Product",
+        "SoftwareApplication"
+    ],
+    "name": "PmagPy Full Install",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "linked web page",
+            "url": "https://earthref.org/PmagPy/cookbook/"
+        }
+    ],
+    "description": "PmagPy is a set of python modules that implement various functions for visualizaing and analyzing paleomagnetic data in the MagIC database text format. Command line and Jupyter notebook tools require python 3.6.   See the cookbook (https://earthref.org/PmagPy/cookbook/) for various installation options.",
+    "datePublished": "2016-02-23",
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Jim Bowring",
+            "identifier": "bowringj@cofc.edu"
+        }
+    ],
+    "keywords": "paleomagnetism",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "Creative Commons Attribution (CC BY)",
+            "identifier": "http://cor.esipfed.org/ont/CCL_0000001"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "http://creativecommons.org/licenses/by/4.0/",
+            "identifier": "undefined"
+        }
+    ],
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Science Foundation (NSF)",
+            "identifier": "undefined"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Paleomagnetism",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000098"
+        }
+    ],
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "DataSource: MagIC database",
+            "url": "https://www2.earthref.org/MagIC/search"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+            "name": "Software"
+        }
+    ],
+    "applicationCategory": [
+        "function: Data Exploration, Data Analysis uri: http://cor.esipfed.org/ont/earthcube/SFO_0000006",
+        "function: Data Exploration, Data Analysis uri: http://cor.esipfed.org/ont/earthcube/SFO_0000010"
+    ],
+    "runtimePlatform": [
+        "MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006",
+        "Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008"
+    ],
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python 3.6"
+        }
+    ],
+    "codeRepository": [
+        {
+            "@type": "CreativeWork",
+            "name": "PMag Python github",
+            "url": "https://github.com/PmagPy/PmagPy"
+        }
+    ],
+    "installUrl": [
+        {
+            "@type": "CreativeWork",
+            "name": "pip OS X on Anaconda Python 3 instructions",
+            "url": "https://earthref.org/PmagPy/cookbook/osx_pip.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "pip Windows on Anaconda Python 3 instructions",
+            "url": "https://earthref.org/PmagPy/cookbook/windows_pip.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "pip Linux on Anaconda Python 3 instructions",
+            "url": "https://earthref.org/PmagPy/cookbook/linux_pip.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "developer OS X on Anaconda Python 3 from GitHub instructions",
+            "url": "https://earthref.org/PmagPy/cookbook/osx_developer.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "developer Windows on Anaconda Python 3 from GitHub instructions",
+            "url": "https://earthref.org/PmagPy/cookbook/windows_developer.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "developerLinux on Anaconda Python 3 from git instructions",
+            "url": "https://earthref.org/PmagPy/cookbook/linux_developer.html"
+        }
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "name": "Input Data Type specification",
+            "position": "input",
+            "encodingFormat": [
+                "MagIC-tsv-Multipart",
+                "text/plain;application=magic-tsv"
+            ]
+        },
+        {
+            "@type": "DataFeed",
+            "name": "Output Data Type specification",
+            "position": "output",
+            "encodingFormat": [
+                "MagIC-tsv-Multipart",
+                "text/plain;application=magic-tsv"
+            ]
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibligraphic citation",
+            "value": "Tauxe, L., R. Shaar, L. Jonestrask, N. L. Swanson-Hysell, R. Minnett, A. A. P. Koppers, C. G. Constable, N. Jarboe, K. Gaastra, and L. Fairchild (2016), PmagPy: Software package for paleomagnetic data analysis and a bridge to the Magnetics Information Consortium (MagIC) Database, Geochem. Geophys. Geosyst., 17, doi:10.1002/2016GC006307"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Production ready",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "doi:10.1002/2016GC006307"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Organization",
+                    "name": "Scripps Institute of Oceanography, UCSD"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "College of Earth, Ocean, and Atmospheric Sciences, Oregon State University"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Some usage (10-50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "linked resource: Python 3.6"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Nicholas A. Jarboe",
+                    "identifier": "https://orcid.org/0000-0003-1465-9394"
+                },
+                "datePublished": "2021-11-04T17:06:00Z"
+            }
+        }
+    ]
+}

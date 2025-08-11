@@ -1,0 +1,188 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2ws7p",
+    "@type": [
+        "CreativeWork",
+        "Product",
+        "SoftwareApplication"
+    ],
+    "name": "Assimilative Mapping of Geospace Observations Platform (AMGeO)",
+    "alternateName": ["AMGeO Platform"],
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "home page",
+            "url": "https://amgeo.colorado.edu/home"
+        }
+    ],
+    "description": "AMGeO is a collaborative data science platform for the geospace science community for bringing together a diverse set of heterogeneous geospace observations from NSF-funded facility programs and individual community users to obtain complete maps of high-latitude ionospheric electrodynamics for scientific discovery and space weather research. The platform is made of the AMGeO open-source software and web application services that facilitate the data acquisition and pre-processing steps that are otherwise prohibitively labor-intensive. It is developed at the University of Colorado Boulder by the AMGeO Team, with support from the NSF Earth Cube program.  The AMGeO open-source software is designed to streamline data preprocessing and quality control steps with data assimilation analysis steps to support accessible, reproducible and transparent data science practices in the geospace science community. AMGeO implements data assimilation analysis steps expanded, as summarized in Matsuo (ISSI Scientific Report Series, 2020), from the Assimilative Mapping of Ionospheric Electrodynamics (AMIE) procedure originally developed by Richmond and Kamide (JGR, 1988). AMGeO's web application services facilitate the data acquisition of plasma drift data distributed from the SuperDARN Website and ground-based magnetometer data distributed from the SuperMAG Website in the form expected by the AMGeO software.",
+    "creator": [
+        {
+            "@type": "Organization",
+            "name": "AMGeo Community",
+            "identifier": "AMGeO@colorado.edu"
+        }
+    ],
+    "keywords": "python,geospace,open-source,EarthCube,Data Assimilation,inospheric electrodynamics,high-latitude",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "Creative Commons Attribution (CC BY)",
+            "identifier": "http://cor.esipfed.org/ont/CCL_0000001"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "University of Colorado Boulder Software License for Noncommercial Research Use-University File No. CU4574B",
+            "identifier": "undefined"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "https://amgeo.colorado.edu/register",
+            "identifier": "undefined"
+        }
+    ],
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+        },
+        {
+            "@type": "Grant",
+            "name": "US NSF, EarthCube grant ICER 1928403"
+        },
+        {
+            "@type": "Grant",
+            "name": "US NSF, EarthCube grant ICER 1928327"
+        },
+        {
+            "@type": "Grant",
+            "name": "US NSF, EarthCube grant ICER 1928358"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Geostatistics",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000077"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Physics",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0003318"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Space Science",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000022"
+        }
+    ],
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "SuperDARN",
+            "url": "http://vt.superdarn.org/tiki-index.php"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "SuperMAG",
+            "url": "http://supermag.jhuapl.edu/"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "AMPERE",
+            "url": "http://ampere.jhuapl.edu/"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000211",
+            "name": "Platform"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibligraphic citation",
+            "value": "AMGeO Collaboration, 2019, A Collaborative Data Science Platform for the Geospace Community: Assimilative Mapping of Geospace Observations (AMGeO) v1.0.0,  doi:10.5281/zenodo.3564914"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Beta or complete draft",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "AMGeO Collaboration, 2019, A Collaborative Data Science Platform for the Geospace Community: Assimilative Mapping of Geospace Observations (AMGeO) v1.0.0,  doi:10.5281/zenodo.3564914"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Organization",
+                    "name": "AMGeO Community"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Some usage (10-50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Liam M. Kilcommons",
+                    "identifier": "https://orcid.org/0000-0002-4980-3045"
+                },
+                "datePublished": "2020-12-11T19:25:54Z"
+            }
+        }
+    ]
+}

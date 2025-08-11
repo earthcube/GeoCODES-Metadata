@@ -1,0 +1,91 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2905001",
+ "@type": [
+ "CreativeWork" ],
+    "name": "Information tracking for a large collaborative deep-time project",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://docs.google.com/document/d/1jawGoTnlKhuJGZ27TTgZ65-KYUy0UIEELID6Rrl_phU/edit"}],
+"description": "To create a community data portal that integrates paleontological and geochemical data about samples (rocks, photos, microscope slides) for use by those sciences plus ecological modelers. Could support important hypothesis testing.",
+"keywords": "Paleontology,geochemistry,ecological modeling",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"audience": [{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"}],
+"about": [{"@type":"DefinedTerm","name":"Paleontology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000101"},{"@type":"DefinedTerm","name":"Geochemistry", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000030"},{"@type":"DefinedTerm","name":"Environmental Science", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000028"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000005",
+"name": "Use Case"
+  }
+],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Ritterbush, Kathleen. Telephone interview. 17 Apr. 2015"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Production ready",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Not Applicable",
+"identifier": "undefined"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"https://drive.google.com/open?id=0B642Az6_9J_DUzBYUUdDQzJIVjg and https://drive.google.com/open?id=0B642Az6_9J_DeUl0Mm9tQm5RNEk"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"TBD"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"Excel, Pivot Pilot, Adobe Illustrator, Possibly GIS"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Ruth Duerr",
+"identifier": "https://orcid.org/0000-0003-4808-4736"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

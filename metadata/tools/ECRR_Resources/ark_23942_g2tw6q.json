@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2tw6q",
+    "@type": [
+        "CreativeWork",
+        "Product"
+    ],
+    "name": "SEG Y rev.2 Data Exchange format",
+    "alternateName": "segy",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "specification, ",
+        "url": "https://seg.org/Portals/0/SEG/News%20and%20Resources/Technical%20Standards/seg_y_rev2_0-mar2017.pdf"
+    },
+    "identifier":  "application/octet-stream;type=seismic-segy",
+    "sameAs":[ "application/segy",
+        "application/seismic-segy"],
+    "description": "The format was originally developed in 1973 to store single-line seismic reflection digital data on magnetic tapes.  Since its release, there have been significant advancements in geophysical data acquisition, such as 3-dimensional seismic techniques and high speed, high capacity recording. Rev 2.0 specification features certain legacies of the original format (referred as rev 0), such as an optional SEG-Y tape label, the main 3200 byte textual EBCDIC character encoded tape header and a 400 byte binary header (https://en.wikipedia.org/wiki/SEG-Y). A SEG-Y file may be written to any sequential medium. Whatever medium is used, the data must be resolvable to a stream of variable length logical records. This includes high capacity tape devices, although with these it is desirable to use some kind of blocking and/or logical encapsulation such as SEG RODE (Booth et al., 1997), to use the tape more efficiently and possibly to allow the recording of associated metadata. When seismic data are being exchanged in SEG-Y format, the medium and any blocking and/or encapsulation scheme used must be acceptable to both the provider and recipient of the data.  A SEG-Y tape label is optional and is only valid on SEG-Y files written to unformatted, removable media.  Following the optional SEG-Y Tape Label, the next 3600 bytes of the file are the Textual File Header and the Binary File Header written as a concatenation of a 3200-byte record and a 400-byte record. This is optionally followed by Extended Textual File Header(s), which consists of zero or more 3200-byte Extended Textual File Header records. The remainder of the SEG-Y file contains a variable number of Data Trace records that are each preceded by a 240-byte Standard Trace Header and zero or more 240-byte Trace Header Extensions. The Trace Header Extension mechanism is the only structural change introduced in this revision and while not strictly backward compatible with prior SEGY formats, it has been carefully designed to have minimal impact on existing SEG-Y reader software.  The original SEG-Y Data Exchange Format (revision 0) was published in 1975. The 2002 revision 1 extended the standard to 3-D acquisition and high capacity media, reducing, though far from eliminating, the use of proprietary variations. Since the publication of SEG-Y rev 1, the nature of seismic data acquisition, processing and seismic hardware has continued to evolve and the SEG Technical Standards Committee undertook further revision. In line with the 2011 SEG D rev 3.0 standard, this revision both addresses current industry data exchange needs and provides an explicit mechanism to support future expansion with both proprietary and officially-adopted extensions. Users of this standard are cautioned that SEG-Y was not explicitly designed for use as a field recording format. The SEG D or SEG 2 formats are recommended for this purpose.  segy MIME type recommended by Apache TIKA https://issues.apache.org/jira/browse/TIKA-1843.",
+    "editor": [
+        {
+            "@type": "Person",
+            "name": "Rune Hagelund"
+        },
+        {
+            "@type": "Person",
+            "name": "Stewart A. Levin"
+        }
+    ],
+    "keywords": "seismic reflection,seismology",
+    "license": {
+        "@type": "CreativeWork",
+        "name": "copyright Society of Exploration Geophysicists",
+        "identifier": "undefined"
+    },
+    "version": "rev. 2",
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Producers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000001"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Technologists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000004"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Geophysics",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000063"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Seismology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000099"
+        }
+    ],
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "Apache Tika parser work, ",
+            "url": "https://issues.apache.org/jira/browse/TIKA-1843"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Java Seg-Y parser, ",
+            "url": "https://github.com/thecoldwine/sigrun"
+        }
+    ],
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+        "name": "Interchange file format"
+    },
+    "encodingFormat": "application/octet-stream",
+    "dct:conformsTo": {
+        "@type": "CreativeWork",
+        "name": "SEG-Y_r2.0, https://seg.org/Portals/0/SEG/News%20and%20Resources/Technical%20Standards/seg_y_rev2_0-mar2017.pdf"
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "SEG Technical Standards Committee, 2017-01, SEG-Y_r2.0: SEG-Y revision 2.0 Data Exchange format: Society of Exploration Geophysicists, accessed 2020-12-22, https://seg.org/Portals/0/SEG/News%20and%20Resources/Technical%20Standards/seg_y_rev2_0-mar2017.pdf."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "SEG Technical Standards Committee, 2017-01, SEG-Y_r2.0: SEG-Y revision 2.0 Data Exchange format: Society of Exploration Geophysicists, accessed 2020-12-22, https://seg.org/Portals/0/SEG/News%20and%20Resources/Technical%20Standards/seg_y_rev2_0-mar2017.pdf. "
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Organization",
+                "name": "Society of Exploration Geophysicists",
+                "url": "https://ror.org/04gap2p44"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "Tue Dec 22 2020 09:57:21 GMT-0700 (Mountain Standard Time)"
+            }
+        }
+    ]
+}

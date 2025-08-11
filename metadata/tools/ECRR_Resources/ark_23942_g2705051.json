@@ -1,0 +1,75 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705051",
+ "@type": [
+ "CreativeWork" ],
+    "name": "SEED Format for the Exchange of Earthquake Data version 2.4",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"http://www.fdsn.org/pdf/SEEDManual_V2.4.pdf"},
+"identifier":"application/octet-stream;type=FDSN-SEED",
+"description": "A data format intended primarily for the archival and exchange of seismological time series data and related metadata. documented in the SEED Manual (PDF format). Originally designed in the late 1980s, the format has been enhanced and refined a number of times and remains in widespread use.  SEED was designed for use by the earthquake research community, primarily for the  exchange between institutions of unprocessed earth motion data. It is a format for digital data measured at one point in  space and at equal intervals of time.  SEED helps seismologists who record, share, and use seismological data. By providing a standard, SEED makes transmitting, receiving, and processing earthquake data easier and more accurate.  SEED is being supplanted in the FDSN by StationXML as the primary format for seismic metadata interchange.",
+"audience": {"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"},
+"about": {"@type":"DefinedTerm","name":"Seismology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000099"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"application/octet-stream",
+"dct:conformsTo":{"@type":"CreativeWork","identifier":"http://n2t.net/ark:/23942/g2800022"},
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"Ahern, T., R. Casey, D. Barnes, R. Benson, T. Knight, and C. Trabant (2009). SEED Reference Manual, version 2.4, http://www.fdsn.org/ seed_manual/SEEDManual_V2.4.pdf"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"Ahern, T., R. Casey, D. Barnes, R. Benson, T. Knight, and C. Trabant (2009). SEED Reference Manual, version 2.4, http://www.fdsn.org/ seed_manual/SEEDManual_V2.4.pdf"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ {"@type":"Organization", "name":"Federation of Digital Seismic Networks (FDSN)"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

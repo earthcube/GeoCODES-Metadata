@@ -1,0 +1,55 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705027",
+ "@type": [
+ "CreativeWork" ],
+    "name": "NetCDF-4 HDF5 format",
+"alternateName": "CDF-4",
+"subjectOf":[{"@type":"CreativeWork", "name":"unidata specification, ", "url":"https://www.unidata.ucar.edu/software/netcdf/docs/file_format_specifications.html#netcdf_4_spec"},{"@type":"CreativeWork", "name":"format description, ", "url":"https://www.unidata.ucar.edu/software/netcdf/docs/file_structure_and_performance.html#parts_of_netcdf4"},{"@type":"CreativeWork", "name":"NASA file specification, ", "url":"https://earthdata.nasa.gov/esdis/eso/standards-and-references/netcdf-4hdf5-file-format"}],
+"identifier":"application/x-netcdf4",
+"description": "File format for n-Dimensional array data.  In version 4.0, netCDF included another new underlying format: HDF5. NetCDF-4 format files offer new features such as groups, compound types, variable length arrays, new unsigned integer types, parallel I/O access, etc. None of these new features can be used with classic or 64-bit offset files (NetCDF1, 2, 5).  NetCDF-4 files  require version 1.8.0 of HDF5. NetCDF-4 files can't be read by any version of the netCDF library previous to 4.0. (But they can be read by HDF5, version 1.8.0 or better).  Every classic (CDF-1) and 64-bit offset (CDF-2) file can be represented as a netCDF-4 file, with no loss of information.",
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"application/octet-stream",
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

@@ -1,0 +1,161 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2jw5v",
+    "@type": ["CreativeWork"],
+    "name": "Digital Rocks Portal",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "https://www.digitalrocksportal.org/"
+    },
+    "identifier": "http://dx.doi.org/10.17612/P7CC7K",
+    "description": "Digital Rocks is a data portal for fast storage and retrieval, sharing, organization and analysis of images of varied porous micro-structures. It has the purpose of enhancing research resources for modeling/prediction of porous material properties in the fields of Petroleum, Civil and Environmental Engineering as well as Geology.  This platform allows managing,  preserving, visualization and basic analysis of available images of porous materials and experiments performed on them, and any accompanying measurements (porosity, capillary pressure, permeability, electrical, NMR and elastic properties, etc.) required for both validation on modeling approaches and the upscaling and building of larger (hydro)geological models.",
+    "keywords": "porosity,rock properties,porous media,imagery",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "GNU Affero General Public License (AGPL)",
+            "identifier": "https://www.gnu.org/licenses/agpl-3.0.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "not specified",
+            "identifier": "undefined"
+        }
+    ],
+    "funding": [
+       
+        {
+            "@type": "Grant",
+            "name": "Cross-Domain Observational Metadata Environmental Sensing Network (X-DOMES)",
+            "identifier": "ICER 1541008",
+            "funder":{
+               "@type":"FundingAgency",
+               "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+           }
+        },
+        {
+            "@type": "Grant",
+            "name": "Advanced interface methods in heterogeneous porous materials: a multi-disciplinary and multi-scale framework",
+            "identifier": "EAR 1255622",
+            "funder":{
+               "@type":"FundingAgency",
+               "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+           }
+        },
+        {
+            "@type": "Grant",
+            "name": "Additional support",
+            "funder": {
+                "@type": "Organization",
+                "name": "Texas Advanced Computing Center, Department of Petroleum and Geosystems Engineering"
+            }
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Producers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000001"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Hydrology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000079"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Petroleum Geology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000069"
+        }
+    ],
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000212",
+        "name": "Catalog/Registry"
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "Masa Prodanovic, Maria Esteva, Matthew Hanlon, Gaurav Nanda, Prateek Agarwal (2015) Digital Rocks Portal: a repository for porous media images http://dx.doi.org/10.17612/P7CC7K"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "Exemplifying digital rocks portal data management, visualization and simulation apability through a rough fracture permeability study, C. Landry, A. Tokan-Lawal, P. Eichhubl, M. Prodanovic, M. Esteva, R. Ketcham, Tomography for Scientific Advancement (ToSCA) conference, Austin, TX, June 8, 2017"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Person",
+                "name": "Dr Masa Prodanovic",
+                "url": "https://orcid.org/0000-0002-1335-1374"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "Thu Jun 25 2020 13:31:24 GMT-0700 (Mountain Standard Time)"
+            }
+        }
+    ]
+}

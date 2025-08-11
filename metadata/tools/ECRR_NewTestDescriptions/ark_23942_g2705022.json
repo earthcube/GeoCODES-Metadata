@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2705022",
+    "@type": ["CreativeWork"],
+    "name": "National Data Bouy Center Text file format",
+    "identifier": ["text/tab-separated-values;application=NDBC"],
+    "description": "Tab delimited text file. Header structure  not consistent. Observed variants: 1) first line is tab delimited column headings for the table; 2) first line starts with '#' followed by tab delimited column headings; 3)  first line starts with '#' followed by tab-delimited column headings, second line starts with '#' followed by tab-deliminted abbreviations for units of measure.  IN all variants, each remaining line in file is tab-delimited text with observed values; each row is one observation.  For older data the data is in NODC F156 Data Format",
+    "keywords": "",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "not provided"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Facilities and Repositories",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000003"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Oceanography",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000046"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+            "name": "Interchange file format"
+        }
+    ],
+    "encodingFormat": ["text/plain"],
+
+    "dct:conformsTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "Description of the file format; no specification found; description is emprical",
+            "url":"https://rda.ucar.edu/datasets/ds255.0/docs/f156.html"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": " https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-11-04T17:06:00Z"
+            }
+        }
+    ]
+}

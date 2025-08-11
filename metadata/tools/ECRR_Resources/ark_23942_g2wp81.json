@@ -1,0 +1,155 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2wp81",
+    "@type": [
+        "CreativeWork",
+        "Product"
+    ],
+    "name": "ESRI Shapefile format",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf"
+    },
+    "identifier":"Multipart/Related;type=shapefile",
+    "sameAs":["application/vnd.esri-shapefile"],
+    "description": "An ESRI shapefile consists of a main file (.shp), an index file (.shx) and a dBASE table file (.dbf). The main file is a direct access, variable-record length file in in which each record describes a shape as a list of coordinates for its vertices. In the index file, each record contains the offset of the corresponding main file record from the beginning of the main file. The dBase table contains feature attributes with one record per feature. The one-to-one relationship between geometry (the shape) and attributes is based on record number. Attribute records in the dBASE file must be in the same order as records in the main file. All file names adhere to the 8.3 naming convention. The main file, index file and dBASE file have the same prefix. The prefix must start with an alphanumeric character (a-Z, 0-9), followed by zero or up to seven characters (a-Z, 0-9, _, -). Suffixes are .shp, .shx, .dbf as indicated above.  There are IANA registrations for the three required component files (application/vnd.shp, application/vnd.shx, application/vnd.dbf), but these are not very useful because the files are not usable on their own.   Use this registered format to indicate that the inner content of a data package is shapefile (set of files).  Note that other files might be included as part of a shapefile package, such as a .prj text file to indicate the spatial reference system used. Shape files are typically packaged in compressed archives (e.g. .zip) and transferred as a single file when interchanged online.  Use the 'application/zip;type=shapefile' identifier to indicate a zip archive that contains a shapefile set.  Use ofmultipart/related MIME type seems most applicable as external identifier for the shapefile file set.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Environmental Systems Research Inc.",
+        "identifier": "https://ror.org/0428exr50"
+    },
+    "keywords": "spatial data,vector feature,data interchange",
+    "license": {
+        "@type": "CreativeWork",
+        "name": "copyright 1998 Environmental Systems Research Inc.",
+        "identifier": "undefined"
+    },
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Producers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000001"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Discipline-agnostic",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "geospatial data",
+            "identifier": "undefined"
+        }
+    ],
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "has part, ",
+            "url": "https://www.iana.org/assignments/media-types/application/vnd.shp"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "has part, ",
+            "url": "https://www.iana.org/assignments/media-types/application/vnd.shx"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "has part, ",
+            "url": "https://www.iana.org/assignments/media-types/application/vnd.dbf"
+        }
+    ],
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+        "name": "Interchange file format"
+    },
+    "encodingFormat": "multipart/related",
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "ESRI, 1998-07, ESRI Shapefile Technical Description: Environmental Systems Research Inc, accessed 2021-01-06, https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Used in multiple places",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Long-term",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "ESRI, 1998-07, ESRI Shapefile Technical Description: Environmental Systems Research Inc, accessed 2021-01-06, https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Organization",
+                "name": "Environmental Systems Research Inc.",
+                "url": "https://ror.org/0428exr50"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "Wed Jan 06 2021 13:24:50 GMT-0700 (Mountain Standard Time)"
+            }
+        }
+    ]
+}

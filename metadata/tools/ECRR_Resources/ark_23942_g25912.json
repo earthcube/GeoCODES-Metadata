@@ -1,0 +1,146 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g25912",
+    "@type": ["CreativeWork"],
+    "name": "Frictionless Data - Data Resource Format",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "https://specs.frictionlessdata.io/data-package/#descriptor"
+    },
+    "identifier": "application/json;type=frictionless-dataresource-descriptor",
+      "sameAs":["application/vnd.dataresource+json"    ],
+    "description": "The Data Resource format is a JSON format for encoding a description of a data resource such as an individual file or table.  The only required properties are a name for the data resource, and either a locator (URL) to access the described data resource, or a copy of the data inline in the Data Resource Descriptor. A range of other properties can be declared to provide a richer set of metadata. The frictionless data specs refer to this metadata object as a descriptor.  The descriptor is a required part of a Frictionless data package.",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Paul Walsh"
+        },
+        {
+            "@type": "Person",
+            "name": "Rufus Pollock"
+        }
+    ],
+    "keywords": "metadata,data descriptor",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "unlicense license",
+            "identifier": "undefined"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "https://github.com/frictionlessdata/specs/blob/master/LICENSE.md",
+            "identifier": "undefined"
+        }
+    ],
+    "version": "Tue Apr 17 2018 00:00:00 GMT-0700 (Mountain Standard Time)",
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Producers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000001"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Technologists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000004"
+        }
+    ],
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Discipline-agnostic",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+    },
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+            "name": "Interchange file format"
+        },
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/SPKT_0000010",
+            "name": "File Packaging Convention"
+        }
+    ],
+    "encodingFormat": "application/json",
+    "dct:conformsTo": {
+        "@type": "CreativeWork",
+        "name": "Frictionless Data Resource Specification, https://specs.frictionlessdata.io/data-resource/"
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "Walsh, Paul Walsh and Pollock, Rufus, 11 December 2016, Data Resource (updated Data Resource): accessed at https://specs.frictionlessdata.io/data-resource/. 2020-11-18."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Organization",
+                "name": "Frictionless Data Github Organization",
+                "url": "https://frictionlessdata.io/"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Some usage (10-50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M Richard"
+                },
+                "datePublished": "Mon Dec 21 2020 20:52:36 GMT-0700 (Mountain Standard Time)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,205 @@
+{
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2q05f",
+    "@type": [
+        "CreativeWork",
+        "Product",
+        "SoftwareApplication"
+    ],
+    "name": "CloudCompare software",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction",
+            "url": "https://www.danielgm.net/cc/"
+        }
+    ],
+    "description": "CloudCompare is a 3D point cloud (and triangular mesh) editing and processing software, designed to perform direct comparison between dense 3D point clouds. It relies on a specific octree structure that enables great performance for this kind of task. As most point clouds were acquired by terrestrial laser scanners, CloudCompare can deal with large point clouds on a standard laptop - up to 120 million with 2 GB of memory. Support for comparison between a point cloud and a triangular mesh has been added, as well as many other point cloud processing algorithms including registration, resampling, color/normal vectors/scalar fields management, statistics computation, sensor management, interactive or automatic segmentation, etc. The software supports visualization with display enhancement tools including custom color ramps, color & normal vectors handling, calibrated pictures handling, OpenGL shaders, and plugins. CloudCompare is developed in C++. It is currently compiled on Windows, Linux and Mac OS (thanks to C-make)  for 32 and 64 bit architectures.    The software was released in the public domain around 2009 under GPL license, and is now an open-source project maintained in GitHub.",
+    "datePublished": "2020-10-28",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Daniel Girardeau-Montaut",
+            "identifier": "https://github.com/dgirardeau"
+        }
+    ],
+    "keywords": "point cloud",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "GNU General Public License (GPL)",
+            "identifier": "http://cor.esipfed.org/ont/SWL_0000017"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "GNU Lesser General Public License (LGPL)",
+            "identifier": "http://cor.esipfed.org/ont/SWL_0000018"
+        }
+    ],
+    "version": "v2.11.3",
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Discipline-agnostic",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+        }
+    ],
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "Developers tutorial course",
+            "url": "https://drive.google.com/drive/folders/1QbHUhob7Dx-oiFZ5yRT-_p4FxrmAlPjc"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Wiki",
+            "url": "https://www.cloudcompare.org/doc/wiki/index.php?title=Main_Page"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+            "name": "Software"
+        }
+    ],
+    "runtimePlatform": [
+        "Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005",
+        "MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006",
+        "Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008"
+    ],
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "codeRepository": [
+        {
+            "@type": "CreativeWork",
+            "name": "github",
+            "url": "https://github.com/CloudCompare/CloudCompare"
+        }
+    ],
+    "installUrl": [
+        {
+            "@type": "CreativeWork",
+            "name": "choose windows MacOS Linux",
+            "url": "https://www.danielgm.net/cc/"
+        }
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "name": "Input Data Type specification",
+            "position": "input",
+            "encodingFormat": [
+                "application/xml;type=ASTM-E57",
+                "text/plain; application=esri-asciigrid",
+                "http://www.opengis.net/doc/CS/las/1.4",
+                "application/octet-stream;type=ASPRS-LAS",
+                "application/vnd.esri-shapefile",
+                "Multipart/Related; type=shapefile",
+                "image/tiff; application=GeoTIFF",
+                "image/geo+tiff"
+            ]
+        },
+        {
+            "@type": "DataFeed",
+            "name": "Output Data Type specification",
+            "position": "output",
+            "encodingFormat": [
+                "application/xml;type=ASTM-E57",
+                "text/plain; application=esri-asciigrid",
+                "http://www.opengis.net/doc/CS/las/1.4",
+                "application/octet-stream;type=ASPRS-LAS",
+                "application/vnd.esri-shapefile",
+                "Multipart/Related; type=shapefile"
+            ]
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibligraphic citation",
+            "value": "CloudCompare, 2020-10-28, CloudCompare v2.11.0 (Omnia) release, https://github.com/CloudCompare/CloudCompare/releases/tag/v2.11.3"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Organization",
+                    "name": "Cloudcompare Github Organization",
+                    "url": "https://github.com/CloudCompare"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": "https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-03-01T21:06:35Z"
+            }
+        }
+    ]
+}

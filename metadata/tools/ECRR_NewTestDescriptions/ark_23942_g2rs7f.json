@@ -1,0 +1,68 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2rs7f",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "QuakeML v2 format",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://quake.ethz.ch/quakeml/QuakeML2.0"}],
+"identifier":["http://quakeml.org/xmlns/quakeml"],
+"description": "Seismic data; specifically parametric data for seismogenic events (e.g. earthquakes).  QuakeML is a flexible, extensible and modular XML representation of seismological data which is intended to cover a broad range of fields of application in modern seismology.  QuakeML 2.0 will be the next generation of QuakeML. In contrast to the existing QuakeML versions up to 1.2, it will not be a monolithic and monothematic schema, but can be seen as an umbrella term for a collection of several data models/schemas for different thematic areas. The Basic Event Description covered in QuakeML 1.2 will be a part of it, with slight modifications and updates. QuakeML 2.0 will introduce a few general policy changes compared to version 1.2: 1) publicIDs do not have to follow the restrictions to URI format defined in the ResourceReference type. They are allowed to be anyURI; 2) Values of enumerations are URIs. An implicit hierarchy and further semantic relations of terms (e.g., to terms in other vocabularies) can be defined in an SKOS file that will be provided in addition to XML and RelaxNG schema files.",
+"keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"audience": [{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"}],
+"about": [{"@type":"DefinedTerm","name":"Seismology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000099"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"XML schema", "url":"https://quake.ethz.ch/quakeml/QuakeML2.0?action=AttachFile&do=get&target=quakeml-2.0.tgz"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+],
+"encodingFormat":["text/xml"],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Some usage (10-50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

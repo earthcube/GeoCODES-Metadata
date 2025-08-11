@@ -1,0 +1,85 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2vw5n",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "Frictionless Data -- CSV dialect descriptor format",
+"subjectOf":[{"@type":"CreativeWork", "name":"Frictionless Data CSV Dialect specification", "url":"https://specs.frictionlessdata.io/csv-dialect/"}],
+"identifier":["application/json;type=frictionlessdata-data-csv-dialect-descriptor"],
+"description": "A JSON format to describe dialects of CSV files in a language-agnostic manner. It aims to deal with a reasonably large subset of the features which differ between dialects, such as terminator strings, quoting rules, escape rules and so on. The specification has been modeled around the union of the csv modules in Python and Ruby, and the bulk load capabilities of MySQL and PostgresQL.  CSV Dialect has nothing to do with the names, contents or types of the headers or data within the CSV file, only how it is formatted. However, CSV Dialect does allow the presence or absence of a header to be specified, similarly to IETF RFC4180.  CSV Dialect is also orthogonal to the character encoding used in the CSV file. Note that it is possible for files in CSV format to contain data in more than one encoding.  CSV Dialect is useful for programs that might have to deal with multiple dialects of CSV file, but which can rely on being told out-of-band which dialect will be used in a given input stream. This reduces the need for heuristic inference of CSV dialects, and simplifies the implementation of CSV readers, which must juggle dialect inference, schema inference, unseekable input streams, character encoding issues, and the lazy reading of very large input streams.",
+"datePublished": "2017-01-30","creator":[{"@type":"Person","name":"Rufus Polluck"}],
+"keywords": "data interchange",
+"license": [{"@type":"CreativeWork","name":"not specified", "identifier":"undefined"}],
+"version":"Mon Jan 30 2017 00:00:00 GMT-0700 (Mountain Standard Time)",
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Data Facilities and Repositories", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000003"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},{"@type":"Audience","audienceType":"Infomaticists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000008"}],
+"about": [{"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"Comparison of CSV Dialect support", "url":"https://docs.google.com/spreadsheet/ccc?key=0AmU3V2vcPKrIdEhoU1NQSWtoQmJwcUNCelJtdkx2bFE&usp=sharing"},{"@type":"CreativeWork", "name":"Python CSV File API", "url":"https://www.python.org/dev/peps/pep-0305/"},{"@type":"CreativeWork", "name":"Common Format and MIME Type for Comma-Separated Values (CSV) Files", "url":"https://tools.ietf.org/html/rfc4180"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+],
+"encodingFormat":["application/json"],
+"dct:conformsTo":[{"@type":"CreativeWork","name":"Frictionless Data CSV Dialect Descriptor specification","url":"https://specs.frictionlessdata.io/csv-dialect/"}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Rufus Pollock, 2017-01-30, CSV Dialect, accessed 2020-12-16, https://specs.frictionlessdata.io/csv-dialect"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"Frictionless Data Github Organization", "url":"https://frictionlessdata.io/"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2020-12-16T18:57:10Z"
+  } 
+ } ]}

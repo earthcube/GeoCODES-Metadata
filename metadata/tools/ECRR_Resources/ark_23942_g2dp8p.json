@@ -1,0 +1,92 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2dp8p",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "OpenDAP v4 Data representation format",
+"subjectOf":{"@type":"CreativeWork", "name":"Specification, ", "url":"https://docs.opendap.org/index.php?title=DAP4:_Specification_Volume_1#Data_Representation"},
+"identifier":"application/octet-stream;type=OpenDAPv4-data",
+"description": "The DAP4 data response format is very similar to that used for DAP2; the data payload is broken into two pieces. The first part holds metadata describing the names and types of the variables in the response while the second part holds the values of those variables. The metadata information, sent as part 1 of the Data Response, is encoded using the OpenDAP v4 DMR format, with content limited to those variables included in the response. The response MUST be self-contained (in the DMR-Only sense). DAP attributes for all included declarations MUST be included, but MAY be ignored by the receiving client.  Part 2 of the response consists of the binary data for each variable in the order they are listed in the DMR given as the response preface. DAP4 uses a receiver makes it right encoding, so the servers MAY simply write out binary data as they store it with the exceptions that floating-point data must be encoded according to IEEE 754 and Integer data must use twos-complement notation for signed types. Clients are responsible for performing byte-swapping operations needed to compute using the values retrieved.  The Data Response is encoded using chunking scheme that breaks it into N parts for transmission, where each part is prefixed with a chunk type and chunk byte count header. Chunk types include data and error types, making it simple for servers to indicate to clients that an error occurred during the transmission of the Data Response and (relatively) simple for clients to detect that error.  As with DAP2, the response is a document that can be stored on disk or sent as the payload using a number of network transport protocols.",
+"creator":[{"@type":"Person","name":"John Caron"},{"@type":"Person","name":"Ethan Davis"},{"@type":"Person","name":"David Fulker"},{"@type":"Person","name":"James Gallagher"},{"@type":"Person","name":"Dennis Heimbigner"},{"@type":"Person","name":"Nathan Potter"}],
+"keywords": "data interchange",
+"license": {"@type":"CreativeWork","name":"copyright 2016 University Corporation for Atmospheric Research and Opendap.org", "identifier":"undefined"},
+"version":"Thu Feb 24 2011 00:00:00 GMT-0700 (Mountain Standard Time)",
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"},{"@type":"Audience","audienceType":"Data Managers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000005"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"isRelatedTo":{"@type":"CreativeWork", "name":"openDAP wiki, ", "url":"https://docs.opendap.org/index.php/Home"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"application/octet-stream",
+"isBasedOn":{"@type":"CreativeWork","name":"application/octet-stream;type=openDAPv4-DMR","url":"undefined"}
+,
+"dct:conformsTo":{"@type":"CreativeWork","name":"DAP4: Specification Volume 1, https://docs.opendap.org/index.php?title=DAP4:_Specification_Volume_1"},
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"John Caron, Ethan Davis, David Fulker, James Gallagher, Dennis Heimbigner, Nathan Potter, 2016-02-24, DAP4: Specification Volume 1,  University Corporation for Atmospheric Research and Opendap.org, accessed 2021-01-05, https://docs.opendap.org/index.php?title=DAP4:_Specification_Volume_1"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"John Caron, Ethan Davis, David Fulker, James Gallagher, Dennis Heimbigner, Nathan Potter, 2016-02-24, DAP4: Specification Volume 1,  University Corporation for Atmospheric Research and Opendap.org, accessed 2021-01-05, https://docs.opendap.org/index.php?title=DAP4:_Specification_Volume_1"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ {"@type":"Organization", "name":"University Corporation for Atmospheric Research and Opendap.org"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "Tue Jan 05 2021 13:43:12 GMT-0700 (Mountain Standard Time)"
+  } 
+ } ]}

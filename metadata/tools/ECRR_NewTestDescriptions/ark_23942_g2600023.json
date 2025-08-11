@@ -1,0 +1,85 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600023",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "Ocean Data View (ODV)",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://odv.awi.de/"}],
+"description": "Data analysis and visualisation software. ODV provides interactive exploration, analysis and visualization of oceanographic and other geo-referenced profile or sequence data. ODV has a very rich set of interactive capabilities and supports a very wide range of plot types. This makes ODV ideal for visual and automated quality control.  Use for producing generic data products for regional seas for various variables. The DIVA software tool ( Data-Interpolating Variational Analysis ) allows to spatially interpolate (or analyse) those observations on a regular grid in an optimal way. As a part of SeaDataNet, the DIVA method has been integrated into ODV, and the integration greatly facilitates the usage of DIVA. Features supported by the ODV/DIVA integration include proper treatment of domain separation due to land masses and undersea ridges or seamounts and the realistic estimation of water mass properties on both sides of the divides. Data from Argo, GTSPP, CCHDO,  World Ocean Database, World Ocean Atlas, World Ocean Circulation Experiment (WOCE), SeaDataNet, and Medar/Medatlas can be directly imported into ODV.  ODV also supports the netCDF format and lets you explore and visualize CF, COARDS, GDT and CDC compliant netCDF datasets.",
+"datePublished": "2019-03-18","creator":[{"@type":"Person","name":"Reiner Schlitzer", "identifier":"Reiner.Schlitzer@awi.de"}],
+"keywords": "",
+"license": [{"@type":"CreativeWork","name":"License agreement included in Getting Started Doc https://odv.awi.de/fileadmin/user_upload/odv/misc/GettingStarted.pdf", "identifier":"undefined"}],
+"funder": [{"@type":"Organization","name":"European Commision", "identifier":"undefined"},{"@type":"Grant","name":"730960 SeaDataCloud","sponsor":{"@type":"FundingAgency","name":"EU2020; Grant"}},{"@type":"Grant","name":"Grant","identifier":"283607 SeaDataNet2", "funder":{"@type":"FundingAgency","name":"EU2020"}},{"@type":"Grant","name":"Grant","identifier":"211384 EPOCA", "funder":{"@type":"FundingAgency","name":"EU2020"}},{"@type":"Grant","name":"Grant","identifier":"264879 CarboChange", "funder":{"@type":"FundingAgency","name":"EU2020"}},{"@type":"Grant","name":"Program","identifier":"", "funder":{"@type":"FundingAgency","name":"Horizon 2020 and Seventh Framework Programmes"}}],
+"audience": [{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": [{"@type":"DefinedTerm","name":"Oceanography", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000046"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"uses DIVA (Data-Interpolating Variational Analysis) for interpolation", "url":"http://modb.oce.ulg.ac.be/mediawiki/index.php/DIVA"},{"@type":"CreativeWork", "name":"SeaDataNet uses for visualization", "url":"https://www.seadatanet.org/Software/ODV"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"applicationCategory":["function: Data analysis, Visualization uri: http://cor.esipfed.org/ont/earthcube/SFO_0000011"],
+"runtimePlatform":["Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008","Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005","MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006"
+],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Schlitzer, R., Ocean Data View, odv.awi.de, 2018."
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"ODV has been initially developed for WOCE, and is now further developed as part of SeaDataNet by partner Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research (AWI)."}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

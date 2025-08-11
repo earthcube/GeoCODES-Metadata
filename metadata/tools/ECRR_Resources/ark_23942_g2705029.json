@@ -1,0 +1,35 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705029",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "NEXRAD Level-II Base Data format (NEXRAD-2)",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"https://www.ncdc.noaa.gov/data-access/radar-data/nexrad-products"},
+"identifier":"application/octet-stream;type=NEXRAD-II",
+"description": "Level-II data are the three meteorological base data quantities: reflectivity, mean radial velocity, and spectrum width. Data collection and recording are in unit of files, which typically contain four, five, six, or ten minutes of base data depending on the volume coverage pattern. A data file consists of a 24-byte volume scan header record followed by numerous 2,432-byte base data and message records.  The real-time NEXRAD Level-2 data transmission uses several blocks of data per sweep. These blocks include header and data sections. The data sections are compressed using bzip2 compression. Full volume scan files are created by concatenating the blocks together, ordered in time from the first to last block of the volume scan. The resulting format of the volume scan files is unique and will not decompress with standard bzip2 decompression tools. Format consumed by NetCDF-Java CDM library functions.",
+"about": {"@type":"DefinedTerm","name":"Atmospheric Science", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000033"},
+"isRelatedTo":{"@type":"CreativeWork", "name":"Decoding utilities, ", "url":"https://www.ncdc.noaa.gov/data-access/radar-data/radar-decoding"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"application/octet-stream",
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

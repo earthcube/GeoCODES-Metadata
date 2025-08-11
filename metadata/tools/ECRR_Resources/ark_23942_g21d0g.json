@@ -1,0 +1,96 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g21d0g",
+ "@type": [
+ "CreativeWork" ],
+    "name": "OpenDAP v2 DataDDS format",
+"alternateName": "OpenDAP v2 DataDDS",
+"subjectOf":{"@type":"CreativeWork", "name":"Specification see section 7.2.3, ", "url":"https://www.opendap.org/pdf/ESE-RFC-004v1.1.pdf"},
+"identifier":"application/octet;type=OpenDAPv2-DataDDS",
+"description": "File format used by OpenDAP v2 server to return data to the client. It consists of a copy of the DDS (see OpenDAP v2 DDS format in this registry), followed by data in its external representation. The body of the returned package contains both text, which holds a DDS describing the variables listed in the response and the values for those variables encoded using XDR (https://tools.ietf.org/html/rfc4506). The literal 'Data:' is used to separate the text DDS and the binary data. The DDS in the DataDDS response describes the variables returned. The order that the variables are listed in the DDS MUST match the order of the values in the binary section of the DataDDS response. If the response contains constructor types, then the variables are sent in the order they would be visited in a depth-first traversal of the accompanying DDS.",
+"keywords": "Data interchange",
+"license": {"@type":"CreativeWork","name":"Distribution of this document is unlimited.", "identifier":"undefined"},
+"version":"v.2.0",
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Data Facilities and Repositories", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000003"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"application/octet",
+"isBasedOn":[{"@type":"CreativeWork","name":"External Data Representation Standard(XDR)","url":"undefined"},{"@type":"CreativeWork","name":"https://tools.ietf.org/html/rfc4506","url":"undefined"}
+],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"James Gallagher, Nathan Potter, Tom Sgouros, Steve Hankin, Glenn Flierl, 2007-10-10, The Data Access Protocol — DAP 2.0, section 7.2.3, ESE-RFC-004.1.1, accessed 2021-01-05, https://www.opendap.org/pdf/ESE-RFC-004v1.1.pdf"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Long-term",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"James Gallagher, Nathan Potter, Tom Sgouros, Steve Hankin, Glenn Flierl, 2007-10-10, The Data Access Protocol — DAP 2.0, ESE-RFC-004.1.1, accessed 2021-01-05, https://www.opendap.org/pdf/ESE-RFC-004v1.1.pdf"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ {"@type":"Organization", "name":"OpenDAP", "url":"https://www.opendap.org/"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":{"@type":"CreativeWork", "name":"External Data Representation Standard (XDR), ", "url":"https://tools.ietf.org/html/rfc4506"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "Wed Jan 06 2021 07:57:17 GMT-0700 (Mountain Standard Time)"
+  } 
+ } ]}

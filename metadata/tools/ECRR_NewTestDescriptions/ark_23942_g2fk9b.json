@@ -1,0 +1,82 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2fk9b",
+ "@type": [
+ "CreativeWork" ],
+    "name": "SeaDAS 6.x Track Format",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://seadas.gsfc.nasa.gov/help/visat/ImportSeaDASTrack.html"}],
+"identifier":["text/tab-separated-values;application=SeaDAStrack"],
+"description": "Ship track data generated with SeaDAS versions 6.x and prior. These ship track files are text files, but have an extremely simple layout with three columns only: The first two columns contain the vertex points latitudes and longitudes, respectively, and the third column gives the values of a single data quantity (such as a ship-based radiometer measurement). These files contain no header, all numbers are separated by the 'tab' character.",
+"keywords": "oceanography,marine science",
+"license": [{"@type":"CreativeWork","name":"not specified", "identifier":"undefined"}],
+"funder": [{"@type":"Organization","name":"US National Aeronautics and Space Agency (US NASA)", "identifier":"https://ror.org/027ka1x80"}],
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": [{"@type":"DefinedTerm","name":"Biological Oceanography", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000047"},{"@type":"DefinedTerm","name":"Chemical Oceanography", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000048"},{"@type":"DefinedTerm","name":"Oceanography", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000046"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+],
+"encodingFormat":["text/tab-separated-values"],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Anonymous, no date, SeaDAS 6.x Track, accessed 2020-12-23, https://seadas.gsfc.nasa.gov/help/visat/ImportSeaDASTrack.html"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Long-term",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"Goddard Space Flight Center"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": "https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2020-12-24T02:40:02Z"
+  } 
+ } ]}

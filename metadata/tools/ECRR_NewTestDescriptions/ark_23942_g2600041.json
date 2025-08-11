@@ -1,0 +1,47 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600041",
+ "@type": [
+ "CreativeWork", "SoftwareApplication" ],
+    "name": "THREDDS Data Server (TDS)",
+"identifier":["https://doi.org/10.5065/D6N014KG"],
+"description": "TDS is a web server that provides metadata and data access for scientific datasets, using OPeNDAP, OGC WMS and WCS, HTTP, and other remote data access protocols.",
+"keywords": "",
+"license": [{"@type":"CreativeWork","name":"BSD", "identifier":"http://cor.esipfed.org/ont/SWL_0000015"},{"@type":"CreativeWork","name":"BSD 3-clause", "identifier":"undefined"}],
+"funder": [{"@type":"Organization","name":"US National Science Foundation (NSF)", "identifier":"undefined"}],
+"about": [{"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"runtimePlatform":["Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005","MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006","Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008"
+],
+"programmingLanguage":[{"@type":"ComputerLanguage","name":"Java"}],
+"codeRepository":[{"@type":"CreativeWork", "name":"Unidata github", "url":"https://github.com/Unidata/thredds"}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"Java,  Servlet Container (e.g. Tomcat)"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

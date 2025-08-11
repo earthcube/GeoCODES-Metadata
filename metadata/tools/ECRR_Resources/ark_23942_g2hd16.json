@@ -1,0 +1,87 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2hd16",
+ "@type": [
+ "CreativeWork" ],
+    "name": "pyTables file format",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"http://www.pytables.org/usersguide/file_format.html"},
+"identifier":"application/hdf5;type=pytables2.0",
+"description": "Format for PyTables files that retain fully compatibility with PyTables format. PyTables file format v2.0 (introduced in PyTables version 2.0). A PyTables file is composed as a set of HDF5 groups (Groups in PyTables naming scheme) and datasets (Leaves in PyTables naming scheme). For groups, the only requirements are that they must have some system attributes available. By convention, system attributes in PyTables are written in upper case, and user attributes in lower case but this is not enforced by the software. In the case of datasets, besides the mandatory system attributes, some conditions are further needed in their storage layout, as well as in the datatypes used in there, as we will see shortly.  You can use any compression to create a PyTables file, provided that it is a standard one in HDF5, like zlib, shuffle or szip (the HDF5 library which do the decompression transparently).  The File object is an  HDF5 group structure that is root for the rest of the objects on the object tree. Mandatory attributes for the HDF5 root group structure in PyTables files are: 1) CLASS: This attribute should always be set to ‘GROUP’ for group structures; 2) PYTABLES_FORMAT_VERSION: It represents the internal format version, and currently should be set to the ‘2.0’ string; 3) TITLE: A string where the user can put some description on what is this group used for; 4) VERSION: Should contains the string ‘1.0’. The format specification defines other mandatory attributes for Groups and Leaves, as well as allowed datatypes.",
+"keywords": "data interchange",
+"license": {"@type":"CreativeWork","name":"not specified", "identifier":"undefined"},
+"version":"3.6.2dev0",
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"}],
+"about": {"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"application/x-hdf5",
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"PyTables, 2020, PyTables File Format v3.2.6dev0, accessed 2021-01-13, http://www.pytables.org/usersguide/file_format.html"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"PyTables, 2020, PyTables File Format v3.2.6dev0, accessed 2021-01-13, http://www.pytables.org/usersguide/file_format.html"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ {"@type":"Organization", "name":"PyTables maintainers", "url":"http://www.pytables.org/dev_team.html"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "Wed Jan 13 2021 12:05:25 GMT-0700 (Mountain Standard Time)"
+  } 
+ } ]}

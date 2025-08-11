@@ -1,0 +1,43 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705036",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "SeaDataNet NetCDF format with CF compliance",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"https://archimer.ifremer.fr/doc/00454/56547/67033.pdf"},
+"identifier":"application/x-netcdf;type=SeaDataNet-CF",
+"description": "Format for profiles, time series and trajectories, has been defined by bringing together a community comprising NetCDF and CF experts (such as from  NCAR and UNIDATA), and as many users of CF NetCF for oceanographic point data as possible. This included participants from MyOcean, IMOS, Australian Navy and USNODC.             The SeaDataNet NetCDF (CF) format is based upon Version 1.6 of the CF Metadata Conventions, published by the CF community in December 2011. This publication includes a chapter on 'Discrete Sampling Geometries' to cover storage of point data in NetCDF. This was taken as starting point to formulate how basic point data - profiles, time series and trajectories - can be encoded in CF-compliant NetCDF together with the usage metadata - including parameter semantics - that SeaDataNet had included in its ASCII 'ODV format'.",
+"about": [{"@type":"DefinedTerm","name":"Oceanography", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000046"},{"@type":"DefinedTerm","name":"Atmospheric Science", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000033"}],
+"isRelatedTo":{"@type":"CreativeWork", "name":"example file, ", "url":"https://www.seadatanet.org/content/download/637/file/SDN_D85_WP8_netCDF_files_examples.zip"},
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+,
+"encodingFormat":"application/octet-stream",
+"dct:conformsTo":{"@type":"CreativeWork","identifier":"http://n2t.net/ark:/23942/g2800009"},
+"eccro:ECRRO_0000501":{"@type":"CreativeWork","name":"NetCDF classic format (netCDF)"},
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibliographic citation",
+"value":"Lowry Roy, Fichaut Michele, Schlitzer Reiner, Maudire Gilbert, Bregent Sophie (2019). SeaDataNet. Datafile formats. ODV, MEDATLAS, NETCDF. DELIVERABLE D8.5. https://doi.org/10.13155/56547"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard"  },
+"datePublished": "2021-02-10T21:11:19-0700"
+  } 
+ } ]}

@@ -1,0 +1,171 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2605001",
+    "@type": ["CreativeWork","SoftwareApplication"],
+    "name": "iMicrobe",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "Introduction",
+            "url": "https://hurwitzlab.gitbook.io/imicrobe/general/untitled"
+        }
+    ],
+    "description": "iMicrobe is a web site for storing, searching, analyzing, visualizing, and publishing metagenomic data. . The primary purpose of iMicrobe is to provide users with a freely available web-based platform to: (1) maintain and share project data, metadata, and analysis products, (2) search for related public datasets, and (3) publish bioinformatics tools to run on highly-scalable computing resources.  It is a community-driven microbiome data marketplace and tool exchange for users to integrate their own data and tools with those from the broader community. iMicrobe partners with CyVerse and XSEDE to deliver compute, tools, and project-based data storage in a unified framework for microbiome sciences. iMicrobe offers an integrated and federated system that interconnects diverse microbiome data sets, tools, and community resources.  Tools can be encapsulated in a 'container' or virtual machine, connected to the iMicrobe web-based frontend via a descriptive JSON file, and run using compute at XSEDE. iMicrobe hosts virtual data collections by collating web-accessible remote microbiome datasets. Users explore these remote data collections using metadata, select data of interest, and add it to their 'shopping cart'.",
+    "keywords": "",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "not provided"
+        }
+    ],
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Science Foundation (NSF)",
+            "identifier": "undefined"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Informaticists",
+            "identifier": "undefined"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Biology",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0003070"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000211",
+            "name": "Platform"
+        }
+    ],
+    "applicationCategory": [
+        "function: Data Discovery & Access, uri: http://cor.esipfed.org/ont/earthcube/SFO_0000005",
+        "function: Data Analysis uri: http://cor.esipfed.org/ont/earthcube/SFO_0000010"
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibligraphic citation",
+            "value": "Anonymous, no date, Welcome to iMicrobe: Web site accessed at https://hurwitzlab.gitbook.io/imicrobe/."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Organization",
+                    "name": "Hurwitz Lab in the Department of Biosystems Engineering at the University of Arizona",
+                    "url": "http://www.hurwitzlab.org/"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "web browser, "
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "OAuth2 authentication",
+                    "url": "https://oauth.net/2/"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "Data Store",
+                    "url": "https://www.cyverse.org/data-store"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "Tapis (Agave) API",
+                    "url": "https://tacc-cloud.readthedocs.io/projects/agave/en/latest/"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "TACC Stampede2 supercomputer",
+                    "url": "https://www.tacc.utexas.edu/systems/stampede2"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "iMicrobe Front end",
+                    "url": "https://hurwitzlab.gitbook.io/imicrobe/development/system-architecture"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "iMicrobe Back end",
+                    "url": "https://hurwitzlab.gitbook.io/imicrobe/development/system-architecture"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": " https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-11-04T17:06:00Z"
+            }
+        }
+    ]
+}

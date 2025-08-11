@@ -1,0 +1,77 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/conformsTo", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2905003",
+ "@type": [
+ "CreativeWork" ],
+    "name": "Streaming real-time data for seismic early warning and monitoring and environmental monitoring",
+"subjectOf":{"@type":"CreativeWork", "name":"linked web page", "url":"https://docs.google.com/document/d/1VNXD3-bTl3XWcdgFH-4Py4Y_XZMDodyao2E-K-vrksg/edit"},
+"description": "Develop a real-time streaming network for seismology and atmospheric sensors and cameras (data and processed products), for use by researchers, policy makers, first responders.. Specifically, for Seismology and other areas:              1) Make it easier to bring in data in real-time. This enhances usefulness by getting the scientific analysis out of it faster and earlier, by making the best quality measurements.              2) Generating more, better data products that more accurately reflect the actual weather phenomenon.             3) Capture enough data to get big picture of environment with high-quality timing (correlated timing between sensors)",
+"keywords": "Atmospheric processes,seismology,natural hazards",
+"audience": {"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"},
+"about": [{"@type":"DefinedTerm","name":"Atmospheric Dynamics", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000038"},{"@type":"DefinedTerm","name":"Seismology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000099"}],
+"mainEntity":{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000005",
+"name": "Use Case"
+  }
+,
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Production ready",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Not Applicable",
+"identifier": "undefined"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ {"@type":"Organization", "name":"TBD"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":{"@type":"CreativeWork", "name":"Antelope, MATLAB, Fledermaus (3d 4d vis), ObsPy/Pyton"}
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Ilya Zaslavsky"  },
+"datePublished": "Tue Mar 02 2021 13:54:17 GMT-0700 (Mountain Standard Time)"
+  } 
+ } ]}

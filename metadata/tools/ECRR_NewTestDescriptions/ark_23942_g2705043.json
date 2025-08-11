@@ -1,0 +1,36 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2705043",
+ "@type": [
+ "CreativeWork" ],
+    "name": "USGS GTOPO digital elevation (GTOPO) Format",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"http://edc.usgs.gov/products/elevation/gtopo30/gtopo30.html"}],
+"identifier":["application/octet-stream;type=GTOPO30"],
+"description": "GTOPO30 has been divided into 33 smaller pieces, or tiles. Data for each tile are provided in a set of 8 files. The files are named with the tile name and a file name extension indicating the contents of the file. The following extensions are used: 1) DEM - digital elevation model data; 2) HDR - header file for DEM; 3) DMW - world file; STX - statistics file; 6) PRJ - projection information file; 7) GIF - shaded relief image; 8) SRC - source map; 9) SCH - header file for source map. Data for each GTOPO30 tile are distributed electronically as a compressed tar file. The 8 files for each tile have been combined into one file with the Unix 'tar' command, and the tar file has been compressed with GNU 'gzip' utility. To use the GTOPO30 data files, the tar file must first be decompressed and then the individual data files extracted from the tar file Format consumed by NetCDF-Java CDM library functions.",
+"keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"about": [{"@type":"DefinedTerm","name":"Physical Geography", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000032"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+],
+"encodingFormat":["application/octet-stream"],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

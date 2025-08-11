@@ -1,0 +1,88 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600018",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "netCDF-Java",
+"subjectOf":[{"@type":"CreativeWork", "name":"home page for java", "url":"https://www.unidata.ucar.edu/software/thredds/current/netcdf-java/"}],
+"description": "The NetCDF Java library is an implementation of the Unidata Common Data Model (CDM) that can be used to read many file formats besides netCDF. These are referred to as CDM files, a shorthand for files that can be read by the NetCDF Java library and accessed through the CDM data model.  The Java Library is part of the THREDDS data server project.",
+"keywords": "",
+"license": [{"@type":"CreativeWork","name":"BSD", "identifier":"http://cor.esipfed.org/ont/SWL_0000015"},{"@type":"CreativeWork","name":"https://opensource.org/licenses/BSD-3-Clause https://github.com/Unidata/thredds/blob/5.0.0/LICENSE", "identifier":"undefined"}],
+"audience": [{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"}],
+"about": [{"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"Unidata Common Data Model (CDM)", "url":"https://www.unidata.ucar.edu/software/thredds/current/netcdf-java/CDM/"},{"@type":"CreativeWork", "name":"documentation", "url":"https://www.unidata.ucar.edu/software/thredds/current/netcdf-java/documentation.htm"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"applicationCategory":["function: Data Acquisition uri: http://cor.esipfed.org/ont/earthcube/SFO_0000004"],
+"runtimePlatform":["Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008","Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005","MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006","Unix, uri:http://cor.esipfed.org/ont/earthcube/RTE_000007"
+],
+"programmingLanguage":[{"@type":"ComputerLanguage","name":"Java"}],
+"codeRepository":[{"@type":"CreativeWork", "name":"access repository", "url":"https://artifacts.unidata.ucar.edu/#browse/search=keyword%3Dcdm"},{"@type":"CreativeWork", "name":"THREDDS project github", "url":"https://github.com/Unidata/thredds"}],
+"installUrl":[{"@type":"CreativeWork", "name":"current version", "url":"https://www.unidata.ucar.edu/downloads/netcdf/netcdf-java-4/index.jsp"},{"@type":"CreativeWork", "name":"github releases", "url":"https://github.com/Unidata/thredds/releases/tag/v4.6.13"}],
+"supportingData":[{"@type":"DataFeed","name":"Input Data Type specification","position":"input","encodingFormat":["application/octet-stream;type=WMO-BUFR, http://www.wmo.int/pages/prog/www/WMOCodes/OperationalCodes.html","application/octet-stream;type=CINRAD, http://www.cinrad.com/","application/octet-stream;type=DMSP, http://dmsp.ngdc.noaa.gov/","application/octet-stream;type=DORADEv1, http://www.eol.ucar.edu/rsf/UserGuides/SABL/DoradeFormat/DoradeFormat.html","F-TDS: Ferret I/O Service Provider and Server-side Analysis, http://ferret.pmel.noaa.gov/LAS/documentation/the-ferret-thredds-data-server-f-tds","application/octet-stream;type=AWX, http://satellite.cma.gov.cn/","application/octet-stream;type=GEMPAK-grid, http://www.unidata.ucar.edu/software/gempak/","application/octet-stream;type=GEMPAK-surfaceobs, http://www.unidata.ucar.edu/software/gempak/","application/octet-stream;type=GINI, http://weather.unisys.com/wxp/Appendices/Formats/GINI.html","application/octet-stream;type=WMO-GRIBv1, http://www.wmo.ch/pages/prog/www/WMOCodes/Guides/GRIB/GRIB1-Contents.html","application/octet-stream;type=WMO-GRIBv2, http://www.wmo.ch/pages/prog/www/WMOCodes/Guides/GRIB/GRIB2_062006.pdf","application/octet-stream;type=GTOPO30, http://edc.usgs.gov/products/elevation/gtopo30/gtopo30.html","application/x-hdf, http://www.hdfgroup.org/products/hdf4/","application/x-hdf5, http://www.hdfgroup.org/HDF5/","application/octet-stream;type=McIDAS-area, http://www.ssec.wisc.edu/mcidas/doc/misc_doc/area2.html","application/octet-stream;type=McIDAS-grid, http://www.ssec.wisc.edu/mcidas/doc/prog_man/2006/formats-20.html#22077","application/x-netcdf, http://www.unidata.ucar.edu/software/netcdf/index.html","application/x-netcdf4, http://www.unidata.ucar.edu/software/netcdf/index.html","application/octet-stream;type=NEXRAD-II, http://www.ncdc.noaa.gov/oa/radar/radarresources.html","application/octet-stream;type=NEXRAD-III, http://www.ncdc.noaa.gov/oa/radar/radarresources.html","application/octet-stream;type=NLDN, http://www.vaisala.com/weather/products/aboutnldn.html","text/plain;application=NMCon29, http://www.emc.ncep.noaa.gov/mmb/data_processing/on29.htm","OPeNDAP: Open-source Project for a Network Data Access Protocol, http://opendap.org/","application/octet-stream;type=OpenDAPv2-DataDDS","application/octet-stream;type=OpenDAPv4-data","SIGMET: SIGMET-IRIS weather radar, http://www.vaisala.com/en/defense/products/weatherradar/Pages/IRIS.aspx","application/octet-stream;type=UAMIV-CAMx, http://www.camx.com/","application/octet-stream;type=radar-UF, ftp://ftp.sigmet.com/outgoing/manuals/program/cuf.pdf",""]},{"@type":"DataFeed","name":"Output Data Type specification","position":"output","encodingFormat":["UnidataCDM"]}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"{Unidata Program Center of the University Corporation for Atmospheric Research (UCAR)", "url":"http://www.unidata.ucar.edu}"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"Java 1.8 Runtime Environment (JRE)", "url":"http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

@@ -1,0 +1,75 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2900003",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "Global Multi-resolution Topography (GMRT) GridServer Web Service",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://www.gmrt.org/services/GridServer/info#!/services/getGMRTGrid"}],
+"description": "The GridServer service provides access to gridded data from the Global Multi-resolution Topography (GMRT) Synthesis. Requested data may be up to 2GB, or approximately 20 by 20 degrees at 100 meters per node (maximum available resolution). A variety of output formats are supported.   Data Formats: --GMT v3 Compatible NetCDF (GMT id=cf);  --COARDS/CF1.6 Compliant NetCDF (GMT id=nd);  SRI ArcASCII;  --GeoTIFF.         Metadata Formats:  --XML (metadata); --JSON (metadata); --Plain text (metadata).",
+"datePublished": "2018-12-01","keywords": "",
+"license":[{"@type":"CreativeWork","name":"not provided"}],"audience": [{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"}],
+"about": [{"@type":"DefinedTerm","name":"Marine Geology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000065"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"GMRT synthesis publication", "url":"http://dx.doi.org/10.1029/2008GC002332"},{"@type":"Product", "name":"Machine-readable endpoint", "url":"https://www.gmrt.org/services/GridServer/wadl"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000202",
+"name": "Service Instance"
+  }
+],
+"url":[{"@type":"LinkRole", 
+"url":"https://www.gmrt.org/services/GridServer", 
+"linkRelationship": "Service Endpoint Base URL"}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000503",
+"name": "Interface specification",
+"value":[{"@type":"CreativeWork","identifier":"HTTP"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

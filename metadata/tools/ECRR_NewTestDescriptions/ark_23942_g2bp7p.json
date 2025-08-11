@@ -1,0 +1,95 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2bp7p",
+ "@type": [
+ "CreativeWork", "SoftwareApplication" ],
+    "name": "Integrated Data Viewer (IDV)",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://www.unidata.ucar.edu/software/idv/"}],
+"identifier":["http://doi.org/10.5065/D6RN35XM"],
+"description": "Unidata’s Integrated Data Viewer (IDV) is a freely available 3D geoscience visualization and analysis tool that gives users the ability to view and analyze a rich set of geoscience data in an integrated fashion. The IDV brings together the ability to display and analyze satellite imagery, gridded data (such as numerical weather prediction model output), surface observations (METARs), upper air soundings, NWS NEXRAD Level II and Level III RADAR data, and GIS data, all within a unified interface. The IDV integrates tightly with common scientific data servers (including Unidata’s TDS) to provide easy access to many real-time and archive datasets. It also provides collaborative features that enable users to easily share their own data holdings and analysis products with others. IDV is available on Windows, Macintosh, and Linux platforms, and features: --2- and 3-D data displays; -- Interactive probes for dataset exploration; -- Parameter readouts; -- Vertical profiles; -- Time/height displays; -- A rich set of analysis capabilities; -- Interactive and script based generation of image, movie, PDF and KML/KMZ products; -- Bundling mechanism for saving state; -- Client/server data access; -- Easy configuration through a plugin facility.  The Integrated Data Viewer (IDV) from Unidata is a Java™-based software framework for analyzing and visualizing geoscience data. This IDV release includes a software library and a reference application made from that software. It uses the VisAD (http://www.ssec.wisc.edu/~billh/visad.html) and netCDF-Java (https://www.unidata.ucar.edu/software/netcdf-java) libraries and other Java-based utility packages.",
+"datePublished": "2020-02-10","keywords": "visualization",
+"license": [{"@type":"CreativeWork","name":"GNU Lesser General Public License (LGPL)", "identifier":"http://cor.esipfed.org/ont/SWL_0000018"}],
+"version":"v5.7",
+"funder": [{"@type":"Organization","name":"US Department of Energy (US DOE)", "identifier":"https://ror.org/01bj3aw27"},{"@type":"Organization","name":"US National Science Foundation (US NSF)", "identifier":"https://ror.org/021nxhr62"}],
+"audience": [{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": [{"@type":"DefinedTerm","name":"Atmospheric Science", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000033"},{"@type":"DefinedTerm","name":"Earth Science", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000021"},{"@type":"DefinedTerm","name":"Geophysics", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000063"},{"@type":"DefinedTerm","name":"Hydrometeorology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000084"},{"@type":"DefinedTerm","name":"Meteorology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000034"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"runtimePlatform":["Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005","MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006","Unix, uri:http://cor.esipfed.org/ont/earthcube/RTE_000007","Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008"
+],
+"programmingLanguage":[{"@type":"ComputerLanguage","name":"Java"}],
+"installUrl":[{"@type":"CreativeWork", "name":"various options", "url":"https://www.unidata.ucar.edu/downloads/idv/current/index.jsp"}],
+"potentialAction": [{"@type": "Action","name": "Execute web application","target": {"@type": "EntryPoint","urlTemplate":"Java Web Start, https://www.unidata.ucar.edu/software/idv/webstart/IDV/idv.jnlp","description": "Open software on the web","httpMethod": [ "GET" ]}  }],
+"supportingData":[{"@type":"DataFeed","name":"Input Data Type specification","position":"input","encodingFormat":["application/x-netcdf4;type=CF","GRIB","application/octet-stream;type=WMO-GRIBv1","application/octet-stream;type=WMO-GRIBv2","application/octet-stream;type=GEMPAK-grid","McIDAS AREA","GINI","application/octet-stream;type=radar-UF","application/octet-stream;type=DORADEv1","application/x-netcdf;type=NCAR-RAF","Multipart/Related;type=shapefile","application/vnd.esri-shapefile","USGS DEM","text/csv;application=VisAD"]}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Unidata, (2012): Integrated Data Viewer (IDV) version 3.1 [software]. Boulder, CO: UCAR/Unidata, http://doi.org/10.5065/D6RN35XM"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"UCAR UNIDATA", "url":"https://ror.org/04zhhyn23"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"Java", "url":"https://www.oracle.com/java/technologies/"},{"@type":"CreativeWork", "name":"Java 3D", "url":"https://imagej.net/Java_3D"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": "https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-02-11T03:40:09Z"
+  } 
+ } ]}

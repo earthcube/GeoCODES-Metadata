@@ -1,0 +1,174 @@
+{
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2600008",
+    "@type": [
+        "CreativeWork",
+        "Product",
+        "SoftwareApplication"
+    ],
+    "name": "GeoMapApp",
+    "subjectOf": [{
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "http://www.geomapapp.org/"
+    }],
+    "description": "GeoMapApp is an earth science exploration and visualization application that provides data layering, display customization and analytical tools to support the analysis of multidisciplinary data sets. Choose from Mercator, North polar and South polar projections. Save the images for papers and presentations. Users can import their own grids, tabular data, images, and shapefiles. For imported grids, the color palette, shaded relief, and contouring are customizable; users may also extract profiles and digitize grids. Imported table values can be edited and the map symbol, color and size are adjustable. Tabular values may be plotted on a graph and captured and saved with a lasso function.  Several custom portals provide visualization and basic analysis for data types that typically require specialist software. Examples include seismic reflection profiles and geodetic velocity vectors. that provides direct access to the Global Multi-Resolution Topography (GMRT) compilation of high resolution (~100 m node spacing) bathymetry from multibeam data for ocean areas, ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer), and NED (National Elevation Dataset) topography datasets for the global land masses. App has been maintained since 2004;",
+    "license":[ {
+        "@type": "CreativeWork",
+        "name": "Creative Commons Attribution (CC BY)",
+        "identifier": "http://cor.esipfed.org/ont/CCL_0000001"
+        } ],
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Science Foundation (NSF)",
+            "identifier": "undefined"
+        }
+    ],
+    "audience": [{
+        "@type": "Audience",
+        "audienceType": "Scientists",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+    }],
+    "about":[ {
+        "@type": "DefinedTerm",
+        "name": "Earth Science",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000021"
+    }],
+    "isRelatedTo": [{
+        "@type": "CreativeWork",
+        "name": "base map, ",
+        "url": "https://www.gmrt.org/"
+    }],
+    "mainEntity": [{
+        "@type": "DefinedTerm",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    }],
+    "applicationCategory": [
+        "function: Data Exploration, Visualization uri: http://cor.esipfed.org/ont/earthcube/SFO_0000006",
+        "function: Data Exploration, Visualization uri: http://cor.esipfed.org/ont/earthcube/SFO_0000011"
+    ],
+    "runtimePlatform": ["Windows|MacOS"],
+    "programmingLanguage": ["Java"],
+    "codeRepository": "https://github.com/iedadata/geomapapp",
+    "installURL": [
+        {
+            "@type": "CreativeWork",
+            "name": "unix/linux, ",
+            "url": "http://www.geomapapp.org/UnixInstall.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Windows, ",
+            "url": "http://www.geomapapp.org/MSInstall.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Mac OS, ",
+            "url": "http://www.geomapapp.org/MacInstall.html"
+        }
+    ],
+    "potentialAction": {
+        "@type": "Action",
+        "name": "Execute web application",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "http://app.geomapapp.org/gma_webstart/GeoMapApp.jnlp",
+            "description": "Open software on the web",
+            "httpMethod": ["GET"]
+        }
+    },
+    "supportingData": {
+        "@type": "DataFeed",
+        "name": "Input Data Type specification",
+        "position": "input",
+        "encodingFormat": [
+            "grid",
+            "tabular data",
+            "image",
+            "multipart/related;type=shapefile",
+            "application/vnd.esri-shapefile",
+            "text/plain;application=esri-asciigrid",
+            "application/vnd.esri-asciigrid",
+            "text/plain;application=tabularData"
+        ]
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000503",
+            "name": "Interface specification",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "Desktop user interface"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "web-based user interface"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Used in multiple places",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Organization",
+                "name": "Marine Science Data System Program at Lamont Doherty Earth Observatory"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "2021-02-10T21:11:19-0700"
+            }
+        }
+    ]
+}

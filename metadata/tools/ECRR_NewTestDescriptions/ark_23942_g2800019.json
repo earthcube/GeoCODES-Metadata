@@ -1,0 +1,84 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2800019",
+ "@type": [
+ "CreativeWork" ],
+    "name": "Content Management Interoperability Services (CMIS) specification,  v1.1",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"http://docs.oasis-open.org/cmis/CMIS/v1.1/CMIS-v1.1.pdf"}],
+"description": "The Content Management Interoperability Services (CMIS) standard deﬁnes a domain model and Web Services, Restful AtomPub and browser (JSON) bindings that can be used by applications to work with one or more Content Management repositories/systems. The CMIS interface is designed to be layered on top of existing Content Management systems and their existing programmatic interfaces. It is not intended to prescribe how speciﬁc features should be implemented within those CM systems, nor to exhaustively expose all of the CM system’s capabilities through the CMIS interfaces. Rather, it is intended to deﬁne a generic/universal set of capabilities provided by a CM system and a set of services for working with those capabilities..  CMIS provides an interface for an application to access a repository. To do so, CMIS speciﬁes a core data model that deﬁnes the persistent information entities that are managed by the repository, and speciﬁes a set of basic services that an application can use to access and manipulate these entities. Scope is  interface for applications to access a repository",
+"datePublished": "2015-09-19","creator":[{"@type":"Person","name":"J. Kunze"},{"@type":"Person","name":"J. Littman"},{"@type":"Person","name":"E. Madden"},{"@type":"Person","name":"J. Scancella"},{"@type":"Person","name":"C. Adams"}],
+"keywords": "",
+"license": [{"@type":"CreativeWork","name":"See license statement in specification document", "identifier":"undefined"}],
+"audience": [{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"}],
+"about": [{"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000204",
+"name": "Specification"
+  },{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/SPKT_0000011",
+"name": "Interoperability Specification"
+  }
+],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Content Management Interoperability Services (CMIS) Version 1.1 Plus Errata 01. Edited by Florian Müller and Ken Baclawski. 19 September 2015. OASIS Standard Incorporating Approved Errata 01. http://docs.oasis-open.org/cmis/CMIS/v1.1/errata01/os/CMIS-v1.1-errata01-os-complete.pdf. Latest version: http://docs.oasis-open.org/cmis/CMIS/v1.1/CMIS-v1.1.pdf."
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"OASIS standard"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

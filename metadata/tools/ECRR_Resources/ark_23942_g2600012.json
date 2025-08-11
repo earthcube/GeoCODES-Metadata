@@ -1,0 +1,227 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2600012",
+    "@type": [
+        "CreativeWork",
+        "Product",
+        "SoftwareApplication"
+    ],
+    "name": "Intake",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "linked web page",
+        "url": "https://intake.readthedocs.io/en/latest/overview.html"
+    },
+    "description": "Intake is a Python library for accessing data in a simple and uniform way. It consists of three parts:   1. A lightweight plugin system for adding data loader drivers for new file formats and servers;  2. A cataloging system for specifying these sources in simple YAML syntax, or with plugins that read source specs from some external data service;    3. A server-client architecture that can share data catalog metadata over the network, or even stream the data directly to clients if needed.                                 Intake supports loading data into standard Python containers. The list can be easily extended, but the currently supported list is: 1) Pandas Dataframes - tabular data; 2) NumPy Arrays - tensor data;  3) Python lists of dictionaries - semi-structured data.                                 Additionally, Intake can load data into distributed data structures. Currently it supports Dask, a flexible parallel computing library with distributed containers like dask.dataframe, dask.array, and dask.bag. In the future, other distributed computing systems could use Intake to create similar data structures.        plugins are listed in the input format field.",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "BSD",
+            "identifier": "http://cor.esipfed.org/ont/SWL_0000015"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "https://opensource.org/licenses/BSD-2-Clause",
+            "identifier": "undefined"
+        }
+    ],
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Discipline-agnostic",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+    },
+    "isRelatedTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "Tutorial, ",
+            "url": "https://hub.gke.mybinder.org/user/intake-intake-examples-u7cry81m/notebooks/tutorial/data_scientist.ipynb"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "web page with links to examples, ",
+            "url": "https://intake.readthedocs.io/en/latest/examples.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "documentation, ",
+            "url": "https://intake.readthedocs.io/"
+        }
+    ],
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    },
+    "programmingLanguage": "python",
+    "codeRepository": "https://github.com/intake/intake",
+    "installURL": {
+        "@type": "CreativeWork",
+        "name": "github releases, ",
+        "url": "https://github.com/intake/intake/releases"
+    },
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "name": "Input Data Type specification",
+            "position": "input",
+            "encodingFormat": [
+                "Apache Accumulo",
+                "Apache Avro",
+                "application/octet-stream;type=Parquet",
+                "application/json;application=BlueSky1.17",
+                "CESM Large Ensemble",
+                "CMIP",
+                "Multipart/Related;type=shapefile",
+                "application/vnd.esri-shapefile",
+                "FITS_array",
+                "FITS_table",
+                "application/geo+json",
+                "GRIB",
+                "application/x-netcdf",
+                "numpy",
+                "text/csv",
+                "Xarray",
+                "application/octet-stream;type=ZARR"
+            ]
+        },
+        {
+            "@type": "DataFeed",
+            "name": "Output Data Type specification",
+            "position": "output",
+            "encodingFormat": "Pandas dataframe; Numpy Array (in memory)"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000503",
+            "name": "Interface specification",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "Amazon DynamoDB"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "postgis"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "spatiallite"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "Apache HBase"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "PCAP network packet"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "PostGresQL"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "Apache SOLR"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "SpatioTemporal Asset Catalogs (STAC)"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "MongoDB"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "Netflow packet"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "ODBC Database"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "SQLAlchemy"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "Splunk machine data"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "OpenDAP",
+                    "identifier":"http://n2t.net/ark:/23942/g2805006"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "remote-xarray"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "s3fs"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "gcsfs"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "pyarrow"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "In production",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Unknown",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard"
+                },
+                "datePublished": "2021-02-10T21:11:19-0700"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600006",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "ET_Redux",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"http://cirdles.org/projects/et_redux/"}],
+"description": "Data Processing/Analysis/Publication for Uranium-Lead-Thorium Geochronology",
+"contributor":[{"@type":"Person","name":"Jim Bowring", "identifier":"bowringj@cofc.edu"}],
+"keywords": "geochronology,uranium-lead,TIMS,LA-ICP MS,U-series",
+"license": [{"@type":"CreativeWork","name":"Apache", "identifier":"http://cor.esipfed.org/ont/SWL_0000013"},{"@type":"CreativeWork","name":"Apache 2.0 https://opensource.org/licenses/Apache-2.0", "identifier":"undefined"}],
+"funder": [{"@type":"Organization","name":"US National Science Foundation (NSF)", "identifier":"undefined"},{"@type":"Grant","name":"Award 0930223","sponsor":{"@type":"FundingAgency","name":"US NSF"}},{"@type":"Grant","name":"Award 1443037","sponsor":{"@type":"FundingAgency","name":"US NSF"}}],
+"audience": [{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": [{"@type":"DefinedTerm","name":"Geochemistry", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000030"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"LinksTo: SESAR", "url":"http://www.geosamples.org/"},{"@type":"CreativeWork", "name":"LinksTo: Tripoli", "url":"http://cirdles.org/projects/tripoli/"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"applicationCategory":["function: Data Acquisition, Data Processing, Visualization uri: http://cor.esipfed.org/ont/earthcube/SFO_0000004","function: Data Acquisition, Data Processing, Visualization uri: http://cor.esipfed.org/ont/earthcube/SFO_0000011"],
+"runtimePlatform":["Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008","Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005","MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006"
+],
+"programmingLanguage":[{"@type":"ComputerLanguage","name":"Java 1.8"}],
+"codeRepository":[{"@type":"CreativeWork", "name":"CIRDLES github", "url":"https://github.com/CIRDLES/ET_Redux"}],
+"installUrl":[{"@type":"CreativeWork", "name":"latest release", "url":"https://github.com/CIRDLES/ET_Redux/releases"}],
+"supportingData":[{"@type":"DataFeed","name":"Input Data Type specification","position":"input","encodingFormat":["application/xml","direct connection to Tripoli instance."]},{"@type":"DataFeed","name":"Output Data Type specification","position":"output","encodingFormat":["export configurable data table reports as PDF","SVG","Excel","or CSV files","XML file for long term archiving"]}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000503",
+"name": "Interface specification",
+"value":[{"@type":"CreativeWork","name":"Desktop UI"},{"@type":"CreativeWork","name":""}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"Bowring et al., 2011, https://doi.org/10.1029/2010GC003479|McLean et al., 2016, https://doi.org/10.1002/2015GC006097"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"{Cyber Infrastructure Research & Development Lab for the Earth Sciences (CIRDLES)", "url":"http://cirdles.org/}"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Some usage (10-50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"Java 1.8 Runtime Environment (JRE)", "url":"http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

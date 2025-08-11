@@ -1,0 +1,94 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2p622",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "OGC Network Common Data Form (NetCDF) Core Encoding Standard version 1.0 ",
+"alternateName": ["NetCDF core"],
+"subjectOf":[{"@type":"CreativeWork", "name":"OGC standards page", "url":"https://www.ogc.org/standards/netcdf"}],
+"identifier":["conformance class, http://www.opengis.net/spec/netcdf/1.0/conf/core."],
+"description": "Specification for the network Common Data Form (netCDF) core standard and extension mechanisms. The OGC netCDF encoding supports electronic encoding of geospatial data, specifically digital geospatial information representing space and time-varying phenomena. NetCDF is a data model for array-oriented scientific data. A freely distributed collection of access libraries implementing support for that data model, and a machine-independent format are available. Together, the interfaces, libraries, and format support the creation, access, and sharing of multi-dimensional scientific data.  Every netCDF encoding shall adhere to the mandatory requirements as specified in this standard. This OGC standard defines the netCDF data model and the core set of requirements to which every netCDF encoding must adhere. Extensions to the NetCDF core standard add further functionality to the core requirements. In particular, netCDF extensions to the core are required for specific encodings, such as the 64-bit Offset Format (CDM-2). This document indicates which extensions, at minimum, need to be considered in addition to the core for creating useful standards that can be implemented to meet interoperability requirements of domains and information communities.",
+"datePublished": "2011-04-05","editor":[{"@type":"Person","name":"Ben Domenico"}],
+"keywords": "Ogcdoc,netcdf,netcdf-core,multi-dimensional data",
+"license": [{"@type":"CreativeWork","name":"Copyright © 2011 Open Geospatial Consortium", "identifier":"undefined"},{"@type":"CreativeWork","name":"http://www.opengeospatial.org/legal/.", "identifier":"undefined"}],
+"version":"1",
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"},{"@type":"Audience","audienceType":"Data Managers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000005"},{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"}],
+"about": [{"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"primer", "url":"http://portal.opengeospatial.org/files/?artifact_id=43733"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000204",
+"name": "Specification"
+  },{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/SPKT_0000001",
+"name": "Data Format Convention"
+  }
+],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Ben Domenico, editor, 2011-04-05, OGC Network Common Data Form (NetCDF)|Core Encoding Standard version 1.0: s OpenGIS® Project Document: OGC 10-090r3, accessed 2021-01-05, http://portal.opengeospatial.org/files/?artifact_id=43732"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Long-term",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"Ben Domenico, editor, 2011-04-05, OGC Network Common Data Form (NetCDF)|Core Encoding Standard version 1.0: s OpenGIS® Project Document: OGC 10-090r3, accessed 2021-01-05, http://portal.opengeospatial.org/files/?artifact_id=43732"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"Open Geospatial Consortium"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": "https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-01-05T20:01:07Z"
+  } 
+ } ]}

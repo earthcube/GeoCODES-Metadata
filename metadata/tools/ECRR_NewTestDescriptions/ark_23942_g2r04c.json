@@ -1,0 +1,254 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2r04c",
+    "@type": ["CreativeWork"],
+    "name": "NetCDF with CF Metadata Conventions format",
+    "subjectOf": [
+        {
+            "@type": "CreativeWork",
+            "name": "linked web page",
+            "url": "http://cfconventions.org/"
+        }
+    ],
+    "identifier": [
+        "application/x-netcdf;type=CF",
+        "application/x-netcdf4;type=CF"
+    ],
+    "description": "This document describes the CF conventions for climate and forecast metadata designed to promote the processing and sharing of NetCDF files. The conventions define metadata that provide a definitive description of what the data in each variable represents, and of the spatial and temporal properties of the data. This enables users of data from different sources to decide which quantities are comparable, and facilitates building applications with powerful extraction, regridding, and display capabilities. The CF conventions generalize and extend the COARDS conventions (https://ferret.pmel.noaa.gov/noaa_coop/coop_cdf_profile.html). The extensions include metadata that provides a precise definition of each variable via specification of a standard name, describes the vertical locations corresponding to dimensionless vertical coordinate values, and provides the spatial coordinates of non-rectilinear gridded data. Since climate and forecast data are often not simply representative of points in space/time, other extensions provide for the description of coordinate intervals, multidimensional cells and climatological time coordinates, and indicate how a data value is representative of an interval or cell. This standard also relaxes the COARDS constraints on dimension order and specifies methods for reducing the size of datasets.",
+    "datePublished": "2020-01-30",
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Jon Blower"
+        },
+        {
+            "@type": "Person",
+            "name": "John Caron"
+        },
+        {
+            "@type": "Person",
+            "name": "Rich Signell"
+        },
+        {
+            "@type": "Person",
+            "name": "Phil Bentley"
+        },
+        {
+            "@type": "Person",
+            "name": "Greg Rappa"
+        },
+        {
+            "@type": "Person",
+            "name": "Heinke Höck"
+        },
+        {
+            "@type": "Person",
+            "name": "Alison Pamment"
+        },
+        {
+            "@type": "Person",
+            "name": "Martin Juckes"
+        },
+        {
+            "@type": "Person",
+            "name": "Martin Raspaud"
+        },
+        {
+            "@type": "Person",
+            "name": "Randy Horne"
+        },
+        {
+            "@type": "Person",
+            "name": "Timothy Whiteaker"
+        },
+        {
+            "@type": "Person",
+            "name": "David Blodgett"
+        },
+        {
+            "@type": "Person",
+            "name": "Charlie Zender"
+        },
+        {
+            "@type": "Person",
+            "name": "Daniel Lee"
+        }
+    ],
+    "keywords": "Data Interchange",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "Not Specified",
+            "identifier": "undefined"
+        }
+    ],
+    "version": "v1.8",
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "US National Oceanic and Atmospheric Administration (NOAA)",
+            "identifier": "https://ror.org/02z5nhe81"
+        },
+        {
+            "@type": "Organization",
+            "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+        },
+        {
+            "@type": "Organization",
+            "name": "US Geological Survey (USGS)",
+            "identifier": "https://ror.org/035a68863"
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Producers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000001"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        }
+    ],
+    "about": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Discipline-agnostic",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "CreativeWork",
+            "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+            "name": "Interchange file format"
+        }
+    ],
+    "encodingFormat": ["application/x-netcdf4"],
+    "isBasedOn": [
+        {
+            "@type": "CreativeWork",
+            "name": "netCDF enhanced data model",
+            "url": "undefined"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Unidata's Common Data Model Version 4",
+            "url": "undefined"
+        }
+    ],
+    "dct:conformsTo": [
+        {
+            "@type": "CreativeWork",
+            "name": "CF Conventions Specification",
+            "url":"https://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.pdf"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibligraphic citation",
+            "value": "Eaton, Brian, et al., 2020-01-30, NetCDF Climate and Forecast (CF) Metadata Conventions v1.8, https://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.pdf"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Used in multiple places",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "1 - 5 years",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "Eaton, Brian, et al., 2020-01-30, NetCDF Climate and Forecast (CF) Metadata Conventions v1.8, https://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.pdf"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": [
+                {
+                    "@type": "Organization",
+                    "name": "CF Governance",
+                    "url": "http://cfconventions.org/governance.html"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "COARDS",
+                    "url": "https://ferret.pmel.noaa.gov/noaa_coop/coop_cdf_profile.html"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "NetCDF",
+                    "url": "https://www.unidata.ucar.edu/software/netcdf/docs/file_format_specifications.html#netcdf_4_spec"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Stephen M. Richard",
+                    "identifier": "https://orcid.org/0000-0001-6041-5302"
+                },
+                "datePublished": "2021-02-11T03:08:47Z"
+            }
+        }
+    ]
+}

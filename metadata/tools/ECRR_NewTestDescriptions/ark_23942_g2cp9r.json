@@ -1,0 +1,92 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2cp9r",
+ "@type": [
+ "CreativeWork",	"Product" ],
+    "name": "LASer (LAS) file format -- LIDAR Point cloud data format",
+"subjectOf":[{"@type":"CreativeWork", "name":"Current version information", "url":"https://www.asprs.org/divisions-committees/lidar-division/laser-las-file-format-exchange-activities"}],
+"identifier":["http://www.opengis.net/doc/CS/las/1.4","application/octet-stream;type=ASPRS-LAS"],
+"description": "The LASer (LAS) file is intended to contain point cloud data records, including those derived from lidar or other sources. The data will commonly be put into this format from software (e.g., provided by hardware vendors), which combines GPS, IMU, and laser pulse range data to produce points with X, Y, and Z coordinates. The purpose of LAS is to provide an open format that allows different hardware and software tools to exchange point cloud data in a common format. The format contains binary data consisting of a public header block, any number of (optional) Variable Length Records (VLRs), the Point Data Records, and any number of (optional) Extended Variable Length Records (EVLRs). All data are in little-endian format. The public header block contains generic data such as point numbers and point data bounds. The Variable Length Records (VLRs) contain variable types of data including projection information, metadata, waveform packet information, and user application data. They are limited to a data payload of 65,535 bytes. The Extended Variable Length Records (EVLRs) allow a higher payload than VLRs and have the advantage that they can be appended to the end of a LAS file. This allows, for example, adding projection information to a LAS file without having to rewrite the entire file.",
+"datePublished": "2018-03-01","creator":[{"@type":"Organization","name":"American Society for Photogrammetry & Remote Sensing (ASPRS)", "identifier":"https://ror.org/041v7ky66"}],
+"keywords": "LIDAR,Laser altimetry, topography",
+"license": [{"@type":"CreativeWork","name":"Copyright 2018 Open Geospatial Consortium", "identifier":"undefined"},{"@type":"CreativeWork","name":"Copyright 2002-2011 American Society for Photogrammetry and Remote Sensing (ASPRS)", "identifier":"undefined"}],
+"version":"v 1.4",
+"funder": [{"@type":"Organization","name":"US National Science Foundation (US NSF)", "identifier":"https://ror.org/021nxhr62"}],
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Data Facilities and Repositories", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000003"},{"@type":"Audience","audienceType":"Technologists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000004"}],
+"about": [{"@type":"DefinedTerm","name":"Earth Science", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000021"},{"@type":"DefinedTerm","name":"Geologic Modeling", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000061"},{"@type":"DefinedTerm","name":"Geomorphology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000062"},{"@type":"DefinedTerm","name":"Quaternary Science", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000089"},{"@type":"DefinedTerm","name":"Tectonics", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000076"},{"@type":"DefinedTerm","name":"Volcanology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000074"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"OGC Specification", "url":"http://www.opengis.net/doc/CS/las/1.4"},{"@type":"CreativeWork", "name":"ASPRS v1.4 R15 2019-07-09", "url":"http://www.asprs.org/wp-content/uploads/2019/07/LAS_1_4_r15.pdf"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000208",
+"name": "Interchange file format"
+  }
+],
+"encodingFormat":["application/octet-stream"],
+"dct:conformsTo":[{"@type":"CreativeWork","name":"Open Geospatial Consortium 17-030r1","url":"http://www.opengis.net/doc/CS/las/1.4"}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"American Society for Photogrammetry & Remote Sensing (ASPRS), 2018-03-01,  LAS Specification 1.4 OGC Community Standard: Open Geospatial Consortium document 17-030r1 v.1.4 R13, accessed at http://www.opengis.net/doc/CS/las/1.4."
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Used in multiple places",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "More than 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"American Society for Photogrammetry & Remote Sensing (ASPRS), 2018-03-01,  LAS Specification 1.4 OGC Community Standard: Open Geospatial Consortium document 17-030r1 v.1.4 R13, accessed at http://www.opengis.net/doc/CS/las/1.4."
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"OpenTopography", "url":"https://opentopography.org/"},{"@type":"Organization", "name":"American Society for Photogrammetry & Remote Sensing (ASPRS)", "url":"https://ror.org/041v7ky66"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Wide usage (>50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": "https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-02-10T19:40:43Z"
+  } 
+ } ]}

@@ -1,0 +1,211 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dct": "http://purl.org/dc/terms/conformsTo",
+        "ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+    },
+    "@id": "http://n2t.net/ark:/23942/g2p91q",
+    "@type": [
+        "CreativeWork",
+        "Product",
+        "SoftwareApplication"
+    ],
+    "name": "Survey Analysis via Visual Exploration",
+    "alternateName": "SuAVE",
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "SuAVE, ",
+        "url": "http://suave.sdsc.edu"
+    },
+    "description": "SuAVE is a new online platform for visual exploratory analysis of surveys and image collections. It integrates visual, statistical and cartographic analyses and lets users annotate and share images and distribution patterns. It also provides a gateway into advanced data science and machine learning tools by integrating with R and Jupyter notebooks. SuAVE is used for social, political and behavioral surveys, in visual arts and humanities, biology and ecology, geosciences and urban planning, medical informatics, and portfolio analysis.  SuAVE proved to be a useful tool teaching undergraduate research methods in sociology at UCSD for the last two years, as many students came to statistics classes with little math background and a lot of anxiety. SuAVE\u2019s user-friendly, visual approach to statistical analysis enabled students to explore simple social science questions with survey data in an intuitive way, without having to master first the mathematical tools of statistics. Its unique capacity to animate transitions between the big picture and individual cases with great ease was critical to explaining statistical approaches to students, especially in presenting the relationship between small N, case based, idiographic, comparative arguments, and large N, variable based, nomothetic explanations.",
+    "keywords": "surveys,image collections,Jupyter notebooks, exploratory analysis",
+    "license": [
+        {
+            "@type": "CreativeWork",
+            "name": "Common Development and Distribution License 1.0",
+            "identifier": "https://opensource.org/licenses/CDDL-1.0"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "BSD",
+            "identifier": "http://cor.esipfed.org/ont/SWL_0000015"
+        }
+    ],
+    "version": "Version 2",
+    "funder": [
+        {
+            "@type": "Grant",
+            "name": "Development of a Novel Online Visual Survey Data Analysis Tool and Assessment of its Capabilities to Enhance Learning of Quantitative Research Methods",
+            "identifier":"OAC 1443082",
+            "funder": {
+                "@type": "FundingAgency",
+                "name": "US National Science Foundation (US NSF)",
+            "identifier": "https://ror.org/021nxhr62"
+            }
+        }
+    ],
+    "audience": [
+        {
+            "@type": "Audience",
+            "audienceType": "Data Users",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000002"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Facilities and Repositories",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000003"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Technologists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000004"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Data Managers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000005"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Developers",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000006"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Scientists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000007"
+        },
+        {
+            "@type": "Audience",
+            "audienceType": "Infomaticists",
+            "identifier": "http://cor.esipfed.org/ont/earthcube/AUT_0000008"
+        }
+    ],
+    "about": {
+        "@type": "DefinedTerm",
+        "name": "Discipline-agnostic",
+        "identifier": "http://cor.esipfed.org/ont/earthcube/ADO_0000188"
+    },
+    "isRelatedTo": {
+        "@type": "CreativeWork",
+        "name": "Formatting input CSV files, ",
+        "url": "https://docs.google.com/document/d/1f4ABDP1YrEU3vRxYkIPHl9dyGTT4w3pqfRNI2Kn97Ic/pub?embedded=true"
+    },
+    "mainEntity": {
+        "@type": "CreativeWork",
+        "url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+        "name": "Software"
+    },
+    "runtimePlatform": "In-the-browser, uri:http://cor.esipfed.org/ont/earthcube/RTE_000003",
+    "programmingLanguage": [
+        "Javascript",
+        "php",
+        "Python"
+    ],
+    "potentialAction": {
+        "@type": "Action",
+        "name": "Execute web application",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "http://suave2.sdsc.edu/",
+            "description": "Open software on the web",
+            "httpMethod": ["GET"]
+        }
+    },
+    "supportingData": {
+        "@type": "DataFeed",
+        "name": "Input Data Type specification",
+        "position": "input",
+        "encodingFormat": "text/csv"
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "propertyID": "dc:BibliographicCitation",
+            "name": "Bibliographic citation",
+            "value": "Survey Analysis via Visual Exploration. Open source exploratory data analysis software. http://suave.sdsc.edu"
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000138",
+            "name": "has maturity state",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Used in multiple places",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000219",
+            "name": "expected lifetime",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Long-term",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000600",
+            "name": "primary publication",
+            "value": "Zaslavsky, Ilya, Margie M. Burton, and Thomas E. Levy, 2017, A new approach to online visual analysis and sharing of archaeological surveys and image collections: Heritage and Archaeology in the Digital Age. Springer, Cham, 133-150, DOI:10.1007/978-3-319-65370-9_7."
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000218",
+            "name": "Stewardship",
+            "value": {
+                "@type": "Person",
+                "name": "Ilya Zaslavsky",
+                "url": "https://orcid.org/0000-0003-4191-8275"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0000017",
+            "name": "Usage",
+            "value": {
+                "@type": "DefinedTerm",
+                "name": "Wide usage (>50 adopters)",
+                "identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000001"
+            }
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+            "name": "dependencies",
+            "value": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "linked resource: node.js"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "linked resource: jquery"
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "linked resource: Jupyter notebooks"
+                }
+            ]
+        },
+        {
+            "@type": "PropertyValue",
+            "propertyID": "ecrro:ECRRO_0001301",
+            "name": "registration metadata",
+            "value": {
+                "@type": "StructuredValue",
+                "additionalType": "ecrro:ECRRO_0000156",
+                "contributor": {
+                    "@type": "Person",
+                    "name": "Ilya Zaslavsky"
+                },
+                "datePublished": "Fri Dec 04 2020 11:22:14 GMT-0700 (Mountain Standard Time)"
+            }
+        }
+    ]
+}

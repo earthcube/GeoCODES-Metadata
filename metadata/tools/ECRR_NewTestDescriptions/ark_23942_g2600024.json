@@ -1,0 +1,80 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2600024",
+ "@type": [
+ "CreativeWork", "SoftwareApplication" ],
+    "name": "Ontology Registry and Repository (ORR) Backend / REST endpoint",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://mmisw.org/orrdoc/"}],
+"description": "The Ontology Registry and Repository (ORR) integrates semantic web services and tools created by the Marine Metadata Interoperability project, MMI",
+"datePublished": "2019-01-18","keywords": "",
+"license": [{"@type":"CreativeWork","name":"not specified", "identifier":"undefined"}],
+"funder": [{"@type":"Organization","name":"US National Science Foundation (NSF)", "identifier":"undefined"}],
+"about": [{"@type":"DefinedTerm","name":"Discipline-agnostic", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000188"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"codeRepository":[{"@type":"CreativeWork", "name":"MMI github", "url":"https://github.com/mmisw/orr-ont"}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000503",
+"name": "Interface specification",
+"value":[{"@type":"CreativeWork","name":"{Ontology Registry & Repository (ORR) API , http://n2t.net/ark:/23942/g2805013}"},{"@type":"CreativeWork","name":"{SPARQL protocol v1.1 API, http://n2t.net/ark:/23942/g2805012}"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Low usage",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"MongoDb, AllegroGraph"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": " https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2021-11-04T17:06:00Z"
+  } 
+ } ]}

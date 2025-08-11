@@ -1,0 +1,96 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g2692r",
+ "@type": [
+ "CreativeWork",	"Product", "SoftwareApplication" ],
+    "name": "Linked Paleo Data utilities",
+"alternateName": ["LiPD Utilities"],
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://github.com/nickmckay/LiPD-utilities"}],
+"description": "Input/output and manipulation utilities for LiPD files in Matlab, R and Python.  LiPD is short for Linked PaleoData. LiPD files are the data standard for storing and exchanging data amongst paleoclimate scientists. The package will help you convert your existing paleoclimate observations into LiPD files that can be shared and analyzed.  Organizing and using your observation data can be time consuming. Our goal is to let you focus on more important tasks than data wrangling. Core functions are implemented in code to run on Matlab, Python, or R. The function names, parameters and returned data are the same. The code base implementes functions to read and write LiPD data packages, and to extract, collapse, filter or query time series data.",
+"creator":[{"@type":"Person","name":"Nick McKay"},{"@type":"Person","name":"Chris M. Heiser"}],
+"keywords": "Paleoenvironment,Data Package,Metadata",
+"license": [{"@type":"CreativeWork","name":"GNU General Public License (GPL)", "identifier":"http://cor.esipfed.org/ont/SWL_0000017"},{"@type":"CreativeWork","name":"https://github.com/nickmckay/LiPD-utilities/blob/master/LICENSE", "identifier":"undefined"}],
+"funder": [{"@type":"Organization","name":"US National Science Foundation (US NSF)", "identifier":"https://ror.org/021nxhr62"}],
+"audience": [{"@type":"Audience","audienceType":"Developers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000006"},{"@type":"Audience","audienceType":"Infomaticists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000008"}],
+"about": [{"@type":"DefinedTerm","name":"Climatology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000035"},{"@type":"DefinedTerm","name":"Paleobotany", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000104"},{"@type":"DefinedTerm","name":"Paleoclimatology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000043"},{"@type":"DefinedTerm","name":"Paleoecology", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000107"}],
+"isRelatedTo":[{"@type":"CreativeWork", "name":"Python Docs", "url":"http://nickmckay.github.io/LiPD-utilities/python/index.html"},{"@type":"CreativeWork", "name":"R Docs", "url":"http://nickmckay.github.io/LiPD-utilities/r/index.html"},{"@type":"CreativeWork", "name":"Matlab Docs", "url":"http://nickmckay.github.io/LiPD-utilities/matlab/index.html"},{"@type":"CreativeWork", "name":"Linked Earth Wiki", "url":"http://wiki.linked.earth/Main_Page"},{"@type":"CreativeWork", "name":"Linked Paleo Data home page", "url":"https://www.lipd.net/"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000206",
+"name": "Software"
+  }
+],
+"runtimePlatform":["Linux, uri:http://cor.esipfed.org/ont/earthcube/RTE_000005","MacOS, uri:http://cor.esipfed.org/ont/earthcube/RTE_000006","Windows, uri:http://cor.esipfed.org/ont/earthcube/RTE_000008"
+],
+"programmingLanguage":[{"@type":"ComputerLanguage","name":"Python"},{"@type":"ComputerLanguage","name":"R"},{"@type":"ComputerLanguage","name":"Matlab"}],
+"codeRepository":[{"@type":"CreativeWork", "name":"N McKay github", "url":"https://github.com/nickmckay/LiPD-utilities"}],
+"installUrl":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://github.com/nickmckay/LiPD-utilities/releases/tag/v0.2.5.5"}],
+"supportingData":[{"@type":"DataFeed","name":"Input Data Type specification","position":"input","encodingFormat":["application/zip;type=LiPD","http://linked.earth/ontology/core/1.2.0/index-en.html#Dataset"]}],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"McKay, Nicholas, Heiser, Chris M., et.al, 2020, LiPD utilities: http://doi.org/10.5281/zenodo.60813"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Production ready",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Person", "name":"Nick McKay", "url":"https://orcid.org/0000-0003-3598-5113"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Unknown",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000004"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "http://purl.obolibrary.org/obo/RO_0002502",
+"name": "dependencies",
+"value":[{"@type":"CreativeWork", "name":"linked resource: Python 3.4"},{"@type":"CreativeWork", "name":"linked resource: Matlab 2017a"},{"@type":"CreativeWork", "name":"linked resource: R 3.3.1"}
+]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": "https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2020-11-25T00:37:56Z"
+  } 
+ } ]}

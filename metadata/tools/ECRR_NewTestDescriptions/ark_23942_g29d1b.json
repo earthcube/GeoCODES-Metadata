@@ -1,0 +1,93 @@
+{
+  	"@context": {
+		"@vocab": "https://schema.org/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+        "dc":"http://purl.org/dc/elements/1.1/",
+        "dct":"http://purl.org/dc/terms/", 
+		"ecrro": "http://cor.esipfed.org/ont/earthcube/",
+        "ecrr": "https://n2t.net/ark:/23942/g2"
+	},
+"@id":"http://n2t.net/ark:/23942/g29d1b",
+ "@type": [
+ "CreativeWork" ],
+    "name": "MagIC Data Model 3.0",
+"subjectOf":[{"@type":"CreativeWork", "name":"linked web page", "url":"https://www2.earthref.org/MagIC/data-models/3.0"}],
+"description": "Data model used by the Magnetics Information Consortium (MagIC) database.  The model includes 9 tables representing contributions (data sources), locations, sites, samples, specimens, measurements, criteria, ages, and images.  The model is organized in 6 hierarchical levels from raw measurements up to publication metadata. The data model, along with method codes and vocabulary lists, can be browsed via the MagIC website (https://www2.earthref.org/MagIC) , downloaded as JSON files for reuse, and can be updated by the MagIC team by request from the community via either email or reporting an issue at the MagIC GitHub repository (https://github.com/earthref/MagIC/issues).",
+"creator":[{"@type":"Person","name":"Nick Jarboe", "identifier":"https://orcid.org/0000-0003-1465-9394"},{"@type":"Person","name":"Rupert Minnett"}],
+"contributor":[{"@type":"Person","name":"Cathy Constable", "identifier":"https://orcid.org/0000-0003-4534-4977"},{"@type":"Person","name":"Anthony Koppers"},{"@type":"Person","name":"Lisa Tauxe"},{"@type":"Person","name":"Lori Jonestrask"},{"@type":"Person","name":"Nick Swanson-Hysell"},{"@type":"Person","name":"Ron Shaar"},{"@type":"Person","name":"Luke Fairchild"},{"@type":"Person","name":"Kevin Gaastra"}],
+"keywords": "paleomagnetism,data model,rock magnetism",
+"license": [{"@type":"CreativeWork","name":"Creative Commons Attribution (CC BY)", "identifier":"http://cor.esipfed.org/ont/CCL_0000001"}],
+"version":"3",
+"funder": [{"@type":"Organization","name":"US National Science Foundation (US NSF)", "identifier":"https://ror.org/021nxhr62"}],
+"audience": [{"@type":"Audience","audienceType":"Data Producers", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000001"},{"@type":"Audience","audienceType":"Data Users", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000002"},{"@type":"Audience","audienceType":"Scientists", "identifier":"http://cor.esipfed.org/ont/earthcube/AUT_0000007"}],
+"about": [{"@type":"DefinedTerm","name":"Geomagnetism", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000094"},{"@type":"DefinedTerm","name":"Paleomagnetism", "identifier":"http://cor.esipfed.org/ont/earthcube/ADO_0000098"}],
+"mainEntity":[{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/ECRRO_0000204",
+"name": "Specification"
+  },{
+  "@type": "CreativeWork",
+"url": "http://cor.esipfed.org/ont/earthcube/SPKT_0000004",
+"name": "Data Model"
+  }
+],
+"additionalProperty": [{
+ "@type": "PropertyValue",
+  "propertyID": "dc:BibliographicCitation",
+"name": "Bibligraphic citation",
+"value":"Earthref.org, 2017-09-28, MagIC Data Model 3.0: accessed at https://docs.google.com/spreadsheets/d/1ldYzO6WMyxfVT6gv3imKaZIVqvp97uPmWijT_ElpZnY"
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000138",
+"name": "has maturity state",
+"value": {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000219",
+"name": "expected lifetime",
+"value": {
+ "@type": "DefinedTerm",
+"name": "1 - 5 years",
+"identifier": "http://cor.esipfed.org/ont/earthcube/ELT_0000003"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000600",
+"name": "primary publication",
+"value":"Earthref.org, 2019, Magnetics Information Consortium (MagIC) Database Interoperability Improvements: ORCID, EarthCube, Google, and PmagPy: Abstract, AGU fall meeting, GP43A-0788."
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000218",
+"name": "Stewardship",
+"value":
+ [{"@type":"Organization", "name":"Magnetics Information Consortium (MagIC), RRID:SCR_007098"}]
+},
+{
+ "@type": "PropertyValue",
+  "propertyID": "ecrro:ECRRO_0000017",
+"name": "Usage",
+"value": {
+ "@type": "DefinedTerm",
+"name": "Some usage (10-50 adopters)",
+"identifier": "http://cor.esipfed.org/ont/earthcube/UBA_0000002"
+} 
+  },
+{
+ "@type": "PropertyValue",
+  "propertyID":"ecrro:ECRRO_0001301","name": "registration metadata",
+"value": {
+ "@type": "StructuredValue", "additionalType": "ecrro:ECRRO_0000156", "contributor": {
+"@type": "Person",
+"name":"Stephen M. Richard",
+"identifier": "https://orcid.org/0000-0001-6041-5302"  },
+"datePublished": "2020-06-26T15:23:50Z"
+  } 
+ } ]}

@@ -128,6 +128,30 @@ jobs:
       run: |
         echo "sitemap-path = ${{ steps.sitemaDepthResources.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemaDepthResources.outputs.url-count }}"
+    - name: Generate the ECRR sitemap
+      id: sitemapECRRResources
+      uses: cicirello/generate-sitemap@v1
+      with:
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/tools/ECRR_Resources
+        path-to-root: metadata/tools/ECRR_Resources
+        include-pdf: false
+        additional-extensions: json jsonld
+    - name: Output depth
+      run: |
+        echo "sitemap-path = ${{ steps.sitemapECRRResources.outputs.sitemap-path }}"
+        echo "url-count = ${{ steps.sitemapECRRResources.outputs.url-count }}"
+    - name: Generate the ECRR sitemap with New Resource Format
+      id: sitemapECRRResourcesNew
+      uses: cicirello/generate-sitemap@v1
+      with:
+        base-url-path: https://raw.githubusercontent.com/earthcube/GeoCODES-Metadata/main/metadata/tools/ECRR_NewTestDescriptions
+        path-to-root: metadata/tools/ECRR_NewTestDescriptions
+        include-pdf: false
+        additional-extensions: json jsonld
+    - name: Output depth
+      run: |
+        echo "sitemap-path = ${{ steps.sitemapECRRResourcesNew.outputs.sitemap-path }}"
+        echo "url-count = ${{ steps.sitemapECRRResourcesNew.outputs.url-count }}"
     - run: mkdocs build --config-file mkdocs_geocodesmetadata.yml
     - name: push to gh pages
       uses: JamesIves/github-pages-deploy-action@4.1.6
