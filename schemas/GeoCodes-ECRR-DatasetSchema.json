@@ -332,7 +332,28 @@
             "description": "ECRR resource maturity status, from controlled vocabulary http://cor.esipfed.org/ont/earthcube/MTU",
             "properties": {
                 "value": {
-                    "oneOf": []
+                    "oneOf": [
+                        {
+ "@type": "DefinedTerm",
+"name": "In production",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000002"
+} ,
+                        {
+ "@type": "DefinedTerm",
+"name": "In development",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000001"
+},
+                        {
+ "@type": "DefinedTerm",
+"name": "Production ready",
+"identifier": "http://cor.esipfed.org/ont/earthcube/MTU_0000003"
+},
+                        {
+ "@type": "DefinedTerm",
+"name": "Not Applicable",
+"identifier": "undefined"
+}
+                    ]
                 },
                 "@type": {
                     "type": "string",
@@ -647,7 +668,7 @@
                     "description": "A w3c time proper interval; use for geologic age bounds on the temporal coverage. This is an ESIP Science on Schema.org (SOSO) schema.org extension",
                     "properties": {
                         "@context": {
-                             "const": "{\"time\": \"http://www.w3.org/2006/time#\"}" 
+                             "const": "{\"time\": \"http://www.w3.org/2006/time#\"}"
                         },
                         "@type": {
                             "type": "string",
