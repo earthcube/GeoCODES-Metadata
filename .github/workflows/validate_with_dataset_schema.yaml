@@ -12,14 +12,15 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 4
-    - uses: dsanders11/json-schema-validate-action@v1.4.0
+    - uses: walbo/validate-json@v1.1.0
       name: schema validate dataset json
       with:
         files: metadata/Dataset/allgood/**/*.json
 
         # optional, defaults to `$schema` in your JSON file
         schema: schemas/GeoCodes-DatasetSchema.json
-        all-errors: true
-        fail-on-invalid: false
+        schema-version: draft-07
+        print-valid-files: true
+        strict: false # default is true
 
 
