@@ -5,7 +5,7 @@ on:
     branches-ignore: [ 'gh-pages' ]
 
 jobs:
-  validate-json:
+  validate-json-allgood:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,5 +22,18 @@ jobs:
         schema-version: draft-07
         print-valid-files: true
         strict: false # default is true
+  validate-json-everything:
+    runs-on: ubuntu-latest
 
+    steps:
+    - uses: walbo/validate-json@v1.1.0
+      name: schema validate dataset json
+      with:
+        files: metadata/Dataset/**/*.json
+
+        # optional, defaults to `$schema` in your JSON file
+        schema: schemas/GeoCodes-DatasetSchema.json
+        schema-version: draft-07
+        print-valid-files: true
+        strict: false # default is true
 
